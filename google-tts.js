@@ -121,6 +121,11 @@ class GoogleTTSManager {
     async synthesizeSpeech(text) {
         console.log(`Attempting Google TTS for text: "${text}"`);
         
+        // TEMPORARY: Always use browser TTS until API key issue is resolved
+        console.warn('Temporarily using browser TTS fallback until API key issue is resolved.');
+        return this.browserTTS.speak(text);
+        
+        /* Original code commented out until API key issue is resolved
         // Check if API key is set
         if (!this.apiKey) {
             console.warn('Google TTS API key not set. Using browser TTS fallback.');
@@ -196,6 +201,7 @@ class GoogleTTSManager {
             console.log('Falling back to browser TTS');
             return this.browserTTS.speak(text);
         }
+        */
     }
     
     // Public method to speak text
