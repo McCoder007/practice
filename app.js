@@ -90,8 +90,8 @@ function startLevel(level) {
     currentLevel = level;
     
     // Set the level title
-    let levelTitle = level === 'level1' ? 'Level 1 - Basic' : 'Level 2 - Intermediate';
-    document.querySelector('header h1').textContent = 'Preposition Practice - ' + levelTitle;
+    let levelTitle = level === 'level1' ? 'Level 1' : 'Level 2';
+    document.querySelector('header h1').textContent = levelTitle;
     
     // Initialize the practice data for this level
     practiceData = setLevel(level, 10);
