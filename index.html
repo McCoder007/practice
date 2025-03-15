@@ -3,20 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>ESL Preposition Practice - Beginner</title>
+    <title>ESL Preposition Practice</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="app-container">
         <header>
-            <h1>Preposition Practice - Beginner</h1>
-            <div class="progress-container">
+            <h1>Preposition Practice</h1>
+            <div id="progressBarContainer" class="progress-container">
                 <div class="progress-bar">
                     <div class="progress-fill" id="progressFill"></div>
                 </div>
                 <span class="progress-text" id="progressText">1/10</span>
             </div>
         </header>
+        
+        <!-- Level Selection Container -->
+        <div id="levelSelectionContainer" class="level-selection-container">
+            <h2>Select a Level</h2>
+            <div class="level-buttons">
+                <button id="level1Btn" class="level-btn">
+                    <span class="level-number">Level 1</span>
+                    <span class="level-description">Simple sentences with basic prepositions</span>
+                </button>
+                <button id="level2Btn" class="level-btn">
+                    <span class="level-number">Level 2</span>
+                    <span class="level-description">Slightly more complex sentences and vocabulary</span>
+                </button>
+            </div>
+        </div>
         
         <div id="questionContainer" class="conversation-container">
             <div class="dialogue">
@@ -42,7 +57,10 @@
         <div id="completionContainer" class="completion-container">
             <h2>Practice Complete!</h2>
             <p class="score-display">Your score: <span id="finalScore">0</span>/10</p>
-            <button id="restartBtn" class="restart-btn">Practice Again</button>
+            <div class="action-container">
+                <button id="restartBtn" class="restart-btn">Practice Again</button>
+                <button id="backToLevelsBtn" class="restart-btn">Back to Levels</button>
+            </div>
         </div>
     </div>
 

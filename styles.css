@@ -48,22 +48,23 @@ header h1 {
 
 .progress-bar {
     flex-grow: 1;
-    height: 10px;
-    background-color: rgba(255,255,255,0.3);
-    border-radius: 5px;
+    height: 8px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
     overflow: hidden;
 }
 
 .progress-fill {
     height: 100%;
-    background-color: #fff;
-    border-radius: 5px;
+    background-color: white;
+    border-radius: 4px;
+    width: 0%;
     transition: width 0.3s ease;
 }
 
 .progress-text {
-    font-size: 14px;
-    white-space: nowrap;
+    font-size: 0.9rem;
+    color: white;
 }
 
 .conversation-container {
@@ -252,4 +253,80 @@ header h1 {
 
 .blank-container .word {
     margin: 0 3px;
+}
+
+/* Level Selection Styles */
+.level-selection-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.level-selection-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.level-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.level-btn {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 2px solid #e9ecef;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-align: left;
+}
+
+.level-btn:hover, .level-btn:focus {
+    background-color: #e9f7fe;
+    border-color: #3498db;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.level-number {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #3498db;
+    margin-bottom: 8px;
+}
+
+.level-description {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+/* Hide elements by default */
+#questionContainer, #completionContainer {
+    display: none;
+}
+
+/* Show elements when active */
+#questionContainer.active, #completionContainer.active, #levelSelectionContainer.active {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+/* Adjust completion container for new layout */
+.completion-container .action-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
 }

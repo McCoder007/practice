@@ -1,723 +1,800 @@
-// Practice data - conversations with prepositions (beginner level)
-const allPracticeData = [
-    // Original 10 sentences
-    {
-        lineA: "The book is {{blank}} the table.",
-        lineB: "Yes, I can see it.",
-        options: ["at", "on", "in"],
-        correct: "on"
-    },
-    {
-        lineA: "My cat sleeps {{blank}} the bed.",
-        lineB: "That's cute. I like cats.",
-        options: ["on", "at", "to"],
-        correct: "on"
-    },
-    {
-        lineA: "I live {{blank}} a small house.",
-        lineB: "Is it near the park?",
-        options: ["on", "at", "in"],
-        correct: "in"
-    },
-    {
-        lineA: "I go to school {{blank}} bus.",
-        lineB: "I walk to school.",
-        options: ["with", "by", "on"],
-        correct: "by"
-    },
-    {
-        lineA: "What do you have {{blank}} your bag?",
-        lineB: "I have my lunch and some books.",
-        options: ["in", "on", "at"],
-        correct: "in"
-    },
-    {
-        lineA: "Let's meet {{blank}} 2 o'clock.",
-        lineB: "OK. I'll be there.",
-        options: ["in", "at", "on"],
-        correct: "at"
-    },
-    {
-        lineA: "The store is {{blank}} Main Street.",
-        lineB: "Thank you. I'll find it.",
-        options: ["on", "in", "at"],
-        correct: "on"
-    },
-    {
-        lineA: "I'm learning English {{blank}} school.",
-        lineB: "Me too! It's fun.",
-        options: ["at", "on", "to"],
-        correct: "at"
-    },
-    {
-        lineA: "I put sugar {{blank}} my coffee.",
-        lineB: "I like tea better than coffee.",
-        options: ["on", "in", "with"],
-        correct: "in"
-    },
-    {
-        lineA: "She's waiting {{blank}} you outside.",
-        lineB: "Thanks, I'll go now.",
-        options: ["for", "to", "at"],
-        correct: "for"
-    },
+// Practice data organized by levels
+const practiceDataByLevel = {
+    // Level 1: Original simple sentences
+    level1: [
+        // Original sentences
+        {
+            lineA: "The book is {{blank}} the table.",
+            lineB: "Yes, I can see it.",
+            options: ["at", "on", "in"],
+            correct: "on"
+        },
+        {
+            lineA: "My cat sleeps {{blank}} the bed.",
+            lineB: "That's cute. I like cats.",
+            options: ["on", "at", "to"],
+            correct: "on"
+        },
+        {
+            lineA: "I live {{blank}} a small house.",
+            lineB: "Is it near the park?",
+            options: ["on", "at", "in"],
+            correct: "in"
+        },
+        {
+            lineA: "I go to school {{blank}} bus.",
+            lineB: "I walk to school.",
+            options: ["with", "by", "on"],
+            correct: "by"
+        },
+        {
+            lineA: "What do you have {{blank}} your bag?",
+            lineB: "I have my lunch and some books.",
+            options: ["in", "on", "at"],
+            correct: "in"
+        },
+        {
+            lineA: "Let's meet {{blank}} 2 o'clock.",
+            lineB: "OK. I'll be there.",
+            options: ["in", "at", "on"],
+            correct: "at"
+        },
+        {
+            lineA: "The store is {{blank}} Main Street.",
+            lineB: "Thank you. I'll find it.",
+            options: ["on", "in", "at"],
+            correct: "on"
+        },
+        {
+            lineA: "I'm learning English {{blank}} school.",
+            lineB: "Me too! It's fun.",
+            options: ["at", "on", "to"],
+            correct: "at"
+        },
+        {
+            lineA: "She works {{blank}} a hospital.",
+            lineB: "That's a good job.",
+            options: ["at", "on", "in"],
+            correct: "at"
+        },
+        {
+            lineA: "We have class {{blank}} Monday.",
+            lineB: "I know. I'll see you then.",
+            options: ["in", "at", "on"],
+            correct: "on"
+        },
+        // Additional sentences from the original data
+        {
+            lineA: "The keys are {{blank}} the drawer.",
+            lineB: "Thank you, I'll check there.",
+            options: ["in", "on", "at"],
+            correct: "in"
+        },
+        {
+            lineA: "I usually arrive {{blank}} 8:30.",
+            lineB: "That's quite early.",
+            options: ["in", "at", "on"],
+            correct: "at"
+        },
+        {
+            lineA: "She lives {{blank}} Japan.",
+            lineB: "I'd like to visit Japan someday.",
+            options: ["at", "on", "in"],
+            correct: "in"
+        },
+        {
+            lineA: "The meeting is {{blank}} Tuesday.",
+            lineB: "I'll make a note of that.",
+            options: ["in", "at", "on"],
+            correct: "on"
+        },
+        {
+            lineA: "I'm waiting {{blank}} the bus stop.",
+            lineB: "The bus should arrive soon.",
+            options: ["at", "on", "in"],
+            correct: "at"
+        },
+        {
+            lineA: "There's a picture {{blank}} the wall.",
+            lineB: "Yes, it's very beautiful.",
+            options: ["on", "in", "at"],
+            correct: "on"
+        },
+        {
+            lineA: "I'll see you {{blank}} the weekend.",
+            lineB: "Great! I'm looking forward to it.",
+            options: ["on", "at", "in"],
+            correct: "on"
+        },
+        {
+            lineA: "She arrived {{blank}} time for the meeting.",
+            lineB: "Yes, she's always punctual.",
+            options: ["in", "on", "at"],
+            correct: "in"
+        },
+        {
+            lineA: "The restaurant is {{blank}} the corner.",
+            lineB: "I know where that is.",
+            options: ["on", "in", "at"],
+            correct: "on"
+        },
+        {
+            lineA: "We're meeting {{blank}} noon.",
+            lineB: "I'll be there.",
+            options: ["at", "in", "on"],
+            correct: "at"
+        },
+        {
+            lineA: "The cat is hiding {{blank}} the sofa.",
+            lineB: "I'll help you find it.",
+            options: ["under", "on", "in"],
+            correct: "under"
+        },
+        {
+            lineA: "I put the letter {{blank}} the envelope.",
+            lineB: "Did you seal it?",
+            options: ["in", "on", "at"],
+            correct: "in"
+        },
+        {
+            lineA: "She's standing {{blank}} the door.",
+            lineB: "Should I let her in?",
+            options: ["at", "on", "in"],
+            correct: "at"
+        },
+        {
+            lineA: "The bank is {{blank}} First Avenue.",
+            lineB: "Is it far from here?",
+            options: ["on", "at", "in"],
+            correct: "on"
+        },
+        {
+            lineA: "I'll call you {{blank}} Friday.",
+            lineB: "I'll be waiting for your call.",
+            options: ["on", "in", "at"],
+            correct: "on"
+        },
+        {
+            lineA: "There's a fly {{blank}} the ceiling.",
+            lineB: "I see it too.",
+            options: ["on", "in", "at"],
+            correct: "on"
+        },
+        {
+            lineA: "I have a meeting {{blank}} 3 PM.",
+            lineB: "Don't be late.",
+            options: ["at", "in", "on"],
+            correct: "at"
+        },
+        {
+            lineA: "She lives {{blank}} an apartment.",
+            lineB: "Is it a nice place?",
+            options: ["in", "on", "at"],
+            correct: "in"
+        },
+        {
+            lineA: "The dog is sleeping {{blank}} its bed.",
+            lineB: "It looks very comfortable.",
+            options: ["in", "on", "at"],
+            correct: "in"
+        },
+        {
+            lineA: "I'll see you {{blank}} the morning.",
+            lineB: "I'll be ready.",
+            options: ["in", "on", "at"],
+            correct: "in"
+        },
+        {
+            lineA: "The children are playing {{blank}} the park.",
+            lineB: "They seem to be having fun.",
+            options: ["in", "on", "at"],
+            correct: "in"
+        },
+        {
+            lineA: "She's waiting {{blank}} the bus.",
+            lineB: "The bus is usually on time.",
+            options: ["for", "at", "on"],
+            correct: "for"
+        },
+        {
+            lineA: "I'm looking {{blank}} my keys.",
+            lineB: "Did you check your pocket?",
+            options: ["for", "at", "on"],
+            correct: "for"
+        },
+        {
+            lineA: "He's afraid {{blank}} spiders.",
+            lineB: "Many people are afraid of them.",
+            options: ["of", "from", "with"],
+            correct: "of"
+        },
+        {
+            lineA: "I'm interested {{blank}} learning Spanish.",
+            lineB: "Spanish is a beautiful language.",
+            options: ["in", "on", "for"],
+            correct: "in"
+        },
+        {
+            lineA: "She's good {{blank}} playing the piano.",
+            lineB: "Yes, she practices every day.",
+            options: ["at", "in", "with"],
+            correct: "at"
+        },
+        {
+            lineA: "I'm tired {{blank}} waiting.",
+            lineB: "Just a few more minutes, please.",
+            options: ["of", "from", "with"],
+            correct: "of"
+        },
+        {
+            lineA: "He's talking {{blank}} his friend.",
+            lineB: "They seem to be having a good conversation.",
+            options: ["to", "with", "at"],
+            correct: "to"
+        },
+        {
+            lineA: "I'm listening {{blank}} music.",
+            lineB: "What kind of music do you like?",
+            options: ["to", "at", "on"],
+            correct: "to"
+        },
+        {
+            lineA: "She's worried {{blank}} her exam.",
+            lineB: "Tell her not to worry too much.",
+            options: ["about", "for", "of"],
+            correct: "about"
+        },
+        {
+            lineA: "I'm thinking {{blank}} buying a new car.",
+            lineB: "What kind of car do you want?",
+            options: ["about", "on", "for"],
+            correct: "about"
+        },
+        {
+            lineA: "He's looking {{blank}} the window.",
+            lineB: "What can he see?",
+            options: ["through", "at", "in"],
+            correct: "through"
+        },
+        {
+            lineA: "She's writing {{blank}} a pen.",
+            lineB: "I prefer to use pencils.",
+            options: ["with", "by", "in"],
+            correct: "with"
+        },
+        {
+            lineA: "I'm waiting {{blank}} my friend.",
+            lineB: "Is your friend usually on time?",
+            options: ["for", "to", "at"],
+            correct: "for"
+        },
+        {
+            lineA: "He's talking {{blank}} the phone.",
+            lineB: "I'll wait until he finishes.",
+            options: ["on", "in", "at"],
+            correct: "on"
+        },
+        {
+            lineA: "She's looking {{blank}} a job.",
+            lineB: "I hope she finds one soon.",
+            options: ["for", "at", "on"],
+            correct: "for"
+        },
+        {
+            lineA: "I'm sorry {{blank}} being late.",
+            lineB: "That's okay. We just started.",
+            options: ["for", "about", "of"],
+            correct: "for"
+        },
+        {
+            lineA: "He's excited {{blank}} the party.",
+            lineB: "It's going to be fun.",
+            options: ["about", "for", "on"],
+            correct: "about"
+        },
+        {
+            lineA: "She's different {{blank}} her sister.",
+            lineB: "Yes, they don't look alike at all.",
+            options: ["from", "than", "to"],
+            correct: "from"
+        },
+        {
+            lineA: "I'm happy {{blank}} your success.",
+            lineB: "Thank you for your support.",
+            options: ["about", "for", "with"],
+            correct: "about"
+        },
+        {
+            lineA: "He's married {{blank}} my cousin.",
+            lineB: "How long have they been married?",
+            options: ["to", "with", "for"],
+            correct: "to"
+        },
+        {
+            lineA: "She's angry {{blank}} her brother.",
+            lineB: "What did he do?",
+            options: ["with", "to", "at"],
+            correct: "with"
+        },
+        {
+            lineA: "I'm proud {{blank}} you.",
+            lineB: "Thank you. That means a lot to me.",
+            options: ["of", "for", "with"],
+            correct: "of"
+        },
+        {
+            lineA: "He's afraid {{blank}} heights.",
+            lineB: "Many people have that fear.",
+            options: ["of", "from", "about"],
+            correct: "of"
+        },
+        {
+            lineA: "She's good {{blank}} math.",
+            lineB: "Yes, she always gets good grades.",
+            options: ["at", "in", "with"],
+            correct: "at"
+        },
+        {
+            lineA: "I'm worried {{blank}} my exam.",
+            lineB: "Don't worry, you'll do fine.",
+            options: ["about", "for", "of"],
+            correct: "about"
+        },
+        {
+            lineA: "He's listening {{blank}} the radio.",
+            lineB: "What station is he listening to?",
+            options: ["to", "at", "on"],
+            correct: "to"
+        },
+        {
+            lineA: "She's looking {{blank}} her keys.",
+            lineB: "Did she lose them again?",
+            options: ["for", "at", "after"],
+            correct: "for"
+        },
+        {
+            lineA: "I'm interested {{blank}} history.",
+            lineB: "History is a fascinating subject.",
+            options: ["in", "about", "for"],
+            correct: "in"
+        },
+        {
+            lineA: "He's talking {{blank}} his teacher.",
+            lineB: "They seem to be having a serious conversation.",
+            options: ["to", "with", "at"],
+            correct: "to"
+        },
+        {
+            lineA: "She's worried {{blank}} her health.",
+            lineB: "She should see a doctor.",
+            options: ["about", "for", "of"],
+            correct: "about"
+        },
+        {
+            lineA: "I'm thinking {{blank}} you.",
+            lineB: "That's sweet of you to say.",
+            options: ["about", "of", "for"],
+            correct: "about"
+        },
+        {
+            lineA: "He's looking {{blank}} the map.",
+            lineB: "Is he trying to find directions?",
+            options: ["at", "on", "in"],
+            correct: "at"
+        },
+        {
+            lineA: "She's writing {{blank}} her diary.",
+            lineB: "Does she write in it every day?",
+            options: ["in", "on", "at"],
+            correct: "in"
+        },
+        {
+            lineA: "I'm waiting {{blank}} the rain to stop.",
+            lineB: "It looks like it will stop soon.",
+            options: ["for", "to", "at"],
+            correct: "for"
+        },
+        {
+            lineA: "Why are you wearing a coat?",
+            lineB: "I'm cold {{blank}} this weather.",
+            options: ["in", "at", "with"],
+            correct: "in"
+        },
+        {
+            lineA: "What are you doing now?",
+            lineB: "I'm waiting {{blank}} the bus.",
+            options: ["to", "for", "at"],
+            correct: "for"
+        }
+    ],
     
-    // 60 new sentence pairs
-    {
-        lineA: "We're going {{blank}} vacation next week.",
-        lineB: "That sounds fun!",
-        options: ["on", "in", "at"],
-        correct: "on"
-    },
-    {
-        lineA: "The restaurant is {{blank}} the corner.",
-        lineB: "Let's go there for lunch.",
-        options: ["on", "at", "in"],
-        correct: "on"
-    },
-    {
-        lineA: "I always drink water {{blank}} meals.",
-        lineB: "That's healthy.",
-        options: ["with", "at", "in"],
-        correct: "with"
-    },
-    {
-        lineA: "The movie starts {{blank}} 7:30 PM.",
-        lineB: "We should leave soon.",
-        options: ["on", "in", "at"],
-        correct: "at"
-    },
-    {
-        lineA: "She's very good {{blank}} math.",
-        lineB: "Yes, she always gets high scores.",
-        options: ["at", "with", "in"],
-        correct: "at"
-    },
-    {
-        lineA: "I'm looking {{blank}} my keys.",
-        lineB: "Did you check your pocket?",
-        options: ["for", "at", "to"],
-        correct: "for"
-    },
-    {
-        lineA: "The children are playing {{blank}} the garden.",
-        lineB: "They look happy.",
-        options: ["in", "on", "at"],
-        correct: "in"
-    },
-    {
-        lineA: "We eat dinner {{blank}} 6:30 every day.",
-        lineB: "That's early.",
-        options: ["in", "on", "at"],
-        correct: "at"
-    },
-    {
-        lineA: "There's milk {{blank}} the refrigerator.",
-        lineB: "Good, I need some for breakfast.",
-        options: ["on", "in", "at"],
-        correct: "in"
-    },
-    {
-        lineA: "My birthday is {{blank}} May.",
-        lineB: "I'll remember to send you a card.",
-        options: ["on", "in", "at"],
-        correct: "in"
-    },
-    {
-        lineA: "The pharmacy is {{blank}} the hospital.",
-        lineB: "Is it open now?",
-        options: ["next to", "between", "across from"],
-        correct: "next to"
-    },
-    {
-        lineA: "I usually go to bed {{blank}} 10 PM.",
-        lineB: "That's a good time.",
-        options: ["on", "in", "at"],
-        correct: "at"
-    },
-    {
-        lineA: "Do you work {{blank}} Saturdays?",
-        lineB: "No, I only work Monday to Friday.",
-        options: ["in", "on", "at"],
-        correct: "on"
-    },
-    {
-        lineA: "She's afraid {{blank}} spiders.",
-        lineB: "Many people are.",
-        options: ["of", "for", "with"],
-        correct: "of"
-    },
-    {
-        lineA: "The bank is {{blank}} the post office and the library.",
-        lineB: "I need to go there today.",
-        options: ["next to", "between", "across from"],
-        correct: "between"
-    },
-    {
-        lineA: "My office is {{blank}} the fifth floor.",
-        lineB: "Do you take the elevator?",
-        options: ["on", "in", "at"],
-        correct: "on"
-    },
-    {
-        lineA: "We arrived {{blank}} the airport at 10 PM.",
-        lineB: "Was the flight on time?",
-        options: ["to", "at", "in"],
-        correct: "at"
-    },
-    {
-        lineA: "She's allergic {{blank}} peanuts.",
-        lineB: "That can be dangerous.",
-        options: ["to", "of", "for"],
-        correct: "to"
-    },
-    {
-        lineA: "I'm interested {{blank}} learning Spanish.",
-        lineB: "Spanish is a useful language.",
-        options: ["in", "for", "about"],
-        correct: "in"
-    },
-    {
-        lineA: "The supermarket is {{blank}} from our house.",
-        lineB: "Is it within walking distance?",
-        options: ["far", "away", "distant"],
-        correct: "far"
-    },
-    {
-        lineA: "I listen {{blank}} music every day.",
-        lineB: "What kind of music do you like?",
-        options: ["to", "at", "for"],
-        correct: "to"
-    },
-    {
-        lineA: "She's married {{blank}} a doctor.",
-        lineB: "They make a nice couple.",
-        options: ["with", "to", "for"],
-        correct: "to"
-    },
-    {
-        lineA: "The bank is {{blank}} from the post office.",
-        lineB: "I need to go to both places.",
-        options: ["next to", "between", "across"],
-        correct: "across"
-    },
-    {
-        lineA: "I'm tired {{blank}} studying.",
-        lineB: "Take a short break.",
-        options: ["of", "from", "with"],
-        correct: "of"
-    },
-    {
-        lineA: "We're leaving {{blank}} Friday morning.",
-        lineB: "Have a safe trip!",
-        options: ["in", "on", "at"],
-        correct: "on"
-    },
-    {
-        lineA: "The dog is sleeping {{blank}} the floor.",
-        lineB: "He looks comfortable.",
-        options: ["in", "on", "at"],
-        correct: "on"
-    },
-    {
-        lineA: "I need to talk {{blank}} you.",
-        lineB: "Is something wrong?",
-        options: ["to", "with", "at"],
-        correct: "to"
-    },
-    {
-        lineA: "Please write {{blank}} a pen, not a pencil.",
-        lineB: "I only have a pencil right now.",
-        options: ["with", "in", "by"],
-        correct: "with"
-    },
-    {
-        lineA: "The car is parked {{blank}} the garage.",
-        lineB: "At least it's not raining.",
-        options: ["on", "in", "at"],
-        correct: "in"
-    },
-    {
-        lineA: "I'm excited {{blank}} the party tonight.",
-        lineB: "Me too! It will be fun.",
-        options: ["for", "about", "on"],
-        correct: "about"
-    },
-    {
-        lineA: "She's very good {{blank}} playing the piano.",
-        lineB: "Yes, she practices every day.",
-        options: ["at", "in", "with"],
-        correct: "at"
-    },
-    {
-        lineA: "I'm thinking {{blank}} buying a new car.",
-        lineB: "What kind of car do you want?",
-        options: ["about", "of", "for"],
-        correct: "about"
-    },
-    {
-        lineA: "We walked {{blank}} the park yesterday.",
-        lineB: "Was the weather nice?",
-        options: ["on", "to", "in"],
-        correct: "in"
-    },
-    {
-        lineA: "The movie is based {{blank}} a true story.",
-        lineB: "Those are often the best movies.",
-        options: ["on", "from", "with"],
-        correct: "on"
-    },
-    {
-        lineA: "I'm worried {{blank}} my exam tomorrow.",
-        lineB: "You'll do fine if you studied.",
-        options: ["about", "for", "of"],
-        correct: "about"
-    },
-    {
-        lineA: "They live {{blank}} Japan.",
-        lineB: "Have you visited them there?",
-        options: ["on", "at", "in"],
-        correct: "in"
-    },
-    {
-        lineA: "I usually eat lunch {{blank}} noon.",
-        lineB: "That's a good time for lunch.",
-        options: ["on", "in", "at"],
-        correct: "at"
-    },
-    {
-        lineA: "She arrived {{blank}} home late last night.",
-        lineB: "Did she have a long day at work?",
-        options: ["to", "at", "in"],
-        correct: "at"
-    },
-    {
-        lineA: "We're meeting {{blank}} the library.",
-        lineB: "I'll see you there at 3:00.",
-        options: ["on", "at", "in"],
-        correct: "at"
-    },
-    {
-        lineA: "This present is {{blank}} you.",
-        lineB: "Thank you! That's so kind.",
-        options: ["for", "to", "at"],
-        correct: "for"
-    },
-    {
-        lineA: "She's waiting {{blank}} the bus stop.",
-        lineB: "The bus should arrive soon.",
-        options: ["in", "on", "at"],
-        correct: "at"
-    },
-    {
-        lineA: "I put my phone {{blank}} my pocket.",
-        lineB: "Make sure you don't lose it.",
-        options: ["on", "at", "in"],
-        correct: "in"
-    },
-    {
-        lineA: "The cat is hiding {{blank}} the couch.",
-        lineB: "She always hides there.",
-        options: ["below", "under", "beneath"],
-        correct: "under"
-    },
-    {
-        lineA: "We need to be at the airport {{blank}} 6:00 AM.",
-        lineB: "That's very early!",
-        options: ["in", "on", "at"],
-        correct: "at"
-    },
-    {
-        lineA: "He's flying {{blank}} New York tomorrow.",
-        lineB: "Is it for business or vacation?",
-        options: ["to", "at", "in"],
-        correct: "to"
-    },
-    {
-        lineA: "I bought this gift {{blank}} my mother.",
-        lineB: "She'll love it.",
-        options: ["for", "to", "at"],
-        correct: "for"
-    },
-    {
-        lineA: "The keys are {{blank}} the table.",
-        lineB: "I've been looking for them.",
-        options: ["on", "in", "at"],
-        correct: "on"
-    },
-    {
-        lineA: "We're having dinner {{blank}} a restaurant tonight.",
-        lineB: "Which restaurant are you going to?",
-        options: ["on", "at", "in"],
-        correct: "at"
-    },
-    {
-        lineA: "She's standing {{blank}} the door.",
-        lineB: "Should I let her in?",
-        options: ["at", "in", "on"],
-        correct: "at"
-    },
-    {
-        lineA: "I need to be {{blank}} work by 8:00 AM.",
-        lineB: "Do you have a long commute?",
-        options: ["on", "at", "in"],
-        correct: "at"
-    },
-    {
-        lineA: "The book is {{blank}} English.",
-        lineB: "Is it difficult to read?",
-        options: ["in", "on", "at"],
-        correct: "in"
-    },
-    {
-        lineA: "I'll see you {{blank}} Monday.",
-        lineB: "What time should we meet?",
-        options: ["at", "on", "in"],
-        correct: "on"
-    },
-    {
-        lineA: "The picture is {{blank}} the wall.",
-        lineB: "It looks nice there.",
-        options: ["in", "on", "at"],
-        correct: "on"
-    },
-    {
-        lineA: "She's waiting {{blank}} her friend.",
-        lineB: "Her friend is usually late.",
-        options: ["to", "for", "at"],
-        correct: "for"
-    },
-    {
-        lineA: "I usually go to the gym {{blank}} the morning.",
-        lineB: "That's a healthy habit.",
-        options: ["on", "at", "in"],
-        correct: "in"
-    },
-    {
-        lineA: "We're leaving {{blank}} vacation tomorrow.",
-        lineB: "Where are you going?",
-        options: ["to", "for", "on"],
-        correct: "for"
-    },
-    {
-        lineA: "She's afraid {{blank}} the dark.",
-        lineB: "Many children are afraid of the dark.",
-        options: ["from", "of", "with"],
-        correct: "of"
-    },
-    {
-        lineA: "My birthday is {{blank}} July 15.",
-        lineB: "I'll remember to send you a card.",
-        options: ["in", "at", "on"],
-        correct: "on"
-    },
-    {
-        lineA: "The shoes are {{blank}} the closet.",
-        lineB: "I was looking for them.",
-        options: ["at", "in", "on"],
-        correct: "in"
-    },
-    {
-        lineA: "I'm going {{blank}} work now.",
-        lineB: "Have a good day!",
-        options: ["at", "to", "in"],
-        correct: "to"
-    },
-    {
-        lineA: "We're meeting {{blank}} 3:30 PM.",
-        lineB: "I'll be there on time.",
-        options: ["in", "on", "at"],
-        correct: "at"
-    },
-    {
-        lineA: "She's good {{blank}} cooking.",
-        lineB: "Yes, her food is delicious.",
-        options: ["at", "in", "with"],
-        correct: "at"
-    },
-    {
-        lineA: "The museum is {{blank}} from the hotel.",
-        lineB: "Can we walk there?",
-        options: ["far", "away", "distant"],
-        correct: "far"
-    },
-    {
-        lineA: "I live {{blank}} 123 Main Street.",
-        lineB: "Is that near downtown?",
-        options: ["on", "at", "in"],
-        correct: "at"
-    },
-    {
-        lineA: "We have a meeting {{blank}} Friday.",
-        lineB: "What time is the meeting?",
-        options: ["in", "on", "at"],
-        correct: "on"
-    },
-    {
-        lineA: "She's sitting {{blank}} the chair.",
-        lineB: "Is she comfortable?",
-        options: ["in", "on", "at"],
-        correct: "on"
-    },
-    {
-        lineA: "I'm interested {{blank}} history.",
-        lineB: "History is fascinating.",
-        options: ["in", "at", "for"],
-        correct: "in"
-    },
-    {
-        lineA: "The dog is {{blank}} the bed.",
-        lineB: "He looks comfortable.",
-        options: ["on", "in", "at"],
-        correct: "on"
-    },
-// 40 more sentence pairs with preposition in the second sentence
-    {
-        lineA: "Do you like this coffee?",
-        lineB: "Yes, I always put milk {{blank}} it.",
-        options: ["in", "on", "with"],
-        correct: "in"
-    },
-    {
-        lineA: "Is that your new phone?",
-        lineB: "Yes, I just bought it {{blank}} the store.",
-        options: ["at", "in", "from"],
-        correct: "from"
-    },
-    {
-        lineA: "What time should we leave?",
-        lineB: "We need to be there {{blank}} 9:00.",
-        options: ["in", "at", "on"],
-        correct: "at"
-    },
-    {
-        lineA: "Do you want to see a movie?",
-        lineB: "I'm busy {{blank}} work today.",
-        options: ["at", "in", "with"],
-        correct: "at"
-    },
-    {
-        lineA: "Where did you buy that shirt?",
-        lineB: "I found it {{blank}} the mall.",
-        options: ["on", "at", "in"],
-        correct: "at"
-    },
-    {
-        lineA: "Is Maria coming to the party?",
-        lineB: "She'll join us {{blank}} dinner.",
-        options: ["after", "before", "during"],
-        correct: "after"
-    },
-    {
-        lineA: "Can you help me with this exercise?",
-        lineB: "I'm not good {{blank}} math.",
-        options: ["at", "in", "with"],
-        correct: "at"
-    },
-    {
-        lineA: "This is a nice picture.",
-        lineB: "I took it {{blank}} my vacation.",
-        options: ["in", "on", "during"],
-        correct: "during"
-    },
-    {
-        lineA: "Did you finish your homework?",
-        lineB: "I'll do it {{blank}} class tomorrow.",
-        options: ["after", "before", "during"],
-        correct: "before"
-    },
-    {
-        lineA: "Is John at home?",
-        lineB: "No, he went {{blank}} the gym.",
-        options: ["to", "at", "in"],
-        correct: "to"
-    },
-    {
-        lineA: "Where should we meet?",
-        lineB: "Wait for me {{blank}} the bus stop.",
-        options: ["at", "in", "on"],
-        correct: "at"
-    },
-    {
-        lineA: "Do you know where my glasses are?",
-        lineB: "They're {{blank}} the kitchen table.",
-        options: ["on", "in", "at"],
-        correct: "on"
-    },
-    {
-        lineA: "When does the movie start?",
-        lineB: "It begins {{blank}} 15 minutes.",
-        options: ["at", "in", "on"],
-        correct: "in"
-    },
-    {
-        lineA: "Will you be home tonight?",
-        lineB: "I'll be back {{blank}} 6:00.",
-        options: ["in", "at", "on"],
-        correct: "at"
-    },
-    {
-        lineA: "What did you do yesterday?",
-        lineB: "I stayed {{blank}} home all day.",
-        options: ["in", "at", "on"],
-        correct: "at"
-    },
-    {
-        lineA: "Have you seen my keys?",
-        lineB: "Look {{blank}} your coat pocket.",
-        options: ["at", "in", "on"],
-        correct: "in"
-    },
-    {
-        lineA: "Do you want some coffee?",
-        lineB: "No thanks, I don't drink coffee {{blank}} the evening.",
-        options: ["at", "in", "on"],
-        correct: "in"
-    },
-    {
-        lineA: "How is your new job?",
-        lineB: "I'm still getting used {{blank}} it.",
-        options: ["at", "for", "to"],
-        correct: "to"
-    },
-    {
-        lineA: "What do you think of the movie?",
-        lineB: "I'm not interested {{blank}} action movies.",
-        options: ["at", "in", "for"],
-        correct: "in"
-    },
-    {
-        lineA: "Should I bring anything to the party?",
-        lineB: "You can bring something {{blank}} dessert.",
-        options: ["for", "to", "at"],
-        correct: "for"
-    },
-    {
-        lineA: "How was your flight?",
-        lineB: "We arrived {{blank}} time despite the bad weather.",
-        options: ["in", "at", "on"],
-        correct: "on"
-    },
-    {
-        lineA: "Where's the closest restaurant?",
-        lineB: "There's one right {{blank}} the corner.",
-        options: ["on", "at", "in"],
-        correct: "on"
-    },
-    {
-        lineA: "Do you live far from here?",
-        lineB: "My house is just {{blank}} the park.",
-        options: ["across from", "next to", "between"],
-        correct: "across from"
-    },
-    {
-        lineA: "When do we need to leave?",
-        lineB: "We should depart {{blank}} 30 minutes.",
-        options: ["on", "in", "at"],
-        correct: "in"
-    },
-    {
-        lineA: "Did you call your mother?",
-        lineB: "I'll call her {{blank}} the weekend.",
-        options: ["in", "on", "at"],
-        correct: "on"
-    },
-    {
-        lineA: "Why are you tired?",
-        lineB: "I couldn't sleep {{blank}} night.",
-        options: ["in", "at", "during"],
-        correct: "during"
-    },
-    {
-        lineA: "Would you like to go out for lunch?",
-        lineB: "I can meet you {{blank}} noon.",
-        options: ["in", "at", "on"],
-        correct: "at"
-    },
-    {
-        lineA: "Are you going to the beach?",
-        lineB: "Yes, I'm leaving {{blank}} ten minutes.",
-        options: ["in", "at", "on"],
-        correct: "in"
-    },
-    {
-        lineA: "Do you know where Lisa is?",
-        lineB: "She's waiting {{blank}} us at the cafe.",
-        options: ["to", "for", "with"],
-        correct: "for"
-    },
-    {
-        lineA: "Did you read that book?",
-        lineB: "I started reading it {{blank}} my lunch break.",
-        options: ["during", "in", "at"],
-        correct: "during"
-    },
-    {
-        lineA: "Is there a bank near here?",
-        lineB: "There's one {{blank}} the hotel.",
-        options: ["next to", "in", "between"],
-        correct: "next to"
-    },
-    {
-        lineA: "Can you see the stars tonight?",
-        lineB: "Yes, they're beautiful {{blank}} the sky.",
-        options: ["in", "on", "at"],
-        correct: "in"
-    },
-    {
-        lineA: "Do you want to go shopping?",
-        lineB: "I'll meet you {{blank}} the entrance of the mall.",
-        options: ["in", "at", "on"],
-        correct: "at"
-    },
-    {
-        lineA: "Can you help me with this problem?",
-        lineB: "I'm not very good {{blank}} math problems.",
-        options: ["with", "at", "in"],
-        correct: "with"
-    },
-    {
-        lineA: "How did you get here so fast?",
-        lineB: "I came {{blank}} taxi.",
-        options: ["with", "by", "in"],
-        correct: "by"
-    },
-    {
-        lineA: "Is it cold outside?",
-        lineB: "Yes, the temperature is {{blank}} freezing.",
-        options: ["below", "under", "beneath"],
-        correct: "below"
-    },
-    {
-        lineA: "Did you finish your report?",
-        lineB: "I'll work {{blank}} it tonight.",
-        options: ["in", "on", "at"],
-        correct: "on"
-    },
-    {
-        lineA: "When will dinner be ready?",
-        lineB: "We can eat {{blank}} 30 minutes.",
-        options: ["in", "at", "on"],
-        correct: "in"
-    },
-    {
-        lineA: "Why are you wearing a coat?",
-        lineB: "I'm cold {{blank}} this weather.",
-        options: ["in", "at", "with"],
-        correct: "in"
-    },
-    {
-        lineA: "What are you doing now?",
-        lineB: "I'm waiting {{blank}} the bus.",
-        options: ["to", "for", "at"],
-        correct: "for"
-    }
-];
+    // Level 2: Slightly more complex sentences
+    level2: [
+        {
+            lineA: "The professor explained the concept {{blank}} great detail.",
+            lineB: "His explanations are always thorough.",
+            options: ["in", "with", "by"],
+            correct: "in"
+        },
+        {
+            lineA: "She succeeded {{blank}} completing the marathon despite her injury.",
+            lineB: "That's quite an accomplishment.",
+            options: ["in", "at", "for"],
+            correct: "in"
+        },
+        {
+            lineA: "The museum is located {{blank}} the outskirts of the city.",
+            lineB: "Is there public transportation available?",
+            options: ["on", "at", "in"],
+            correct: "on"
+        },
+        {
+            lineA: "The documentary focuses {{blank}} environmental issues.",
+            lineB: "Those topics are becoming increasingly important.",
+            options: ["on", "about", "with"],
+            correct: "on"
+        },
+        {
+            lineA: "The committee agreed {{blank}} the proposal unanimously.",
+            lineB: "That's excellent news for the project.",
+            options: ["to", "with", "on"],
+            correct: "to"
+        },
+        {
+            lineA: "She's quite knowledgeable {{blank}} ancient history.",
+            lineB: "Yes, she studied archaeology in college.",
+            options: ["about", "on", "with"],
+            correct: "about"
+        },
+        {
+            lineA: "The company invested heavily {{blank}} new technology.",
+            lineB: "That should improve their productivity.",
+            options: ["in", "on", "with"],
+            correct: "in"
+        },
+        {
+            lineA: "The recipe calls {{blank}} two tablespoons of olive oil.",
+            lineB: "I think we have enough in the pantry.",
+            options: ["for", "with", "to"],
+            correct: "for"
+        },
+        {
+            lineA: "The detective is suspicious {{blank}} the new evidence.",
+            lineB: "He thinks it might have been planted.",
+            options: ["of", "about", "with"],
+            correct: "of"
+        },
+        {
+            lineA: "The patient is responding well {{blank}} the treatment.",
+            lineB: "That's encouraging news.",
+            options: ["to", "with", "for"],
+            correct: "to"
+        },
+        {
+            lineA: "The article refers {{blank}} several scientific studies.",
+            lineB: "Are those studies reliable sources?",
+            options: ["to", "at", "on"],
+            correct: "to"
+        },
+        {
+            lineA: "She's quite proficient {{blank}} speaking multiple languages.",
+            lineB: "How many languages does she speak?",
+            options: ["at", "in", "with"],
+            correct: "at"
+        },
+        {
+            lineA: "The company is committed {{blank}} reducing its carbon footprint.",
+            lineB: "That's an important environmental initiative.",
+            options: ["to", "for", "with"],
+            correct: "to"
+        },
+        {
+            lineA: "The novel is based {{blank}} historical events.",
+            lineB: "Which period of history does it cover?",
+            options: ["on", "in", "with"],
+            correct: "on"
+        },
+        {
+            lineA: "The team is confident {{blank}} winning the championship.",
+            lineB: "They've been performing exceptionally well this season.",
+            options: ["of", "about", "in"],
+            correct: "about"
+        },
+        {
+            lineA: "The building was constructed {{blank}} the early 1900s.",
+            lineB: "It has beautiful architectural features from that era.",
+            options: ["in", "during", "at"],
+            correct: "in"
+        },
+        {
+            lineA: "The scientist is conducting research {{blank}} renewable energy.",
+            lineB: "That field is becoming increasingly important.",
+            options: ["on", "about", "with"],
+            correct: "on"
+        },
+        {
+            lineA: "The company is collaborating {{blank}} several universities.",
+            lineB: "Academic partnerships can be very beneficial.",
+            options: ["with", "to", "for"],
+            correct: "with"
+        },
+        {
+            lineA: "The documentary was filmed {{blank}} various locations worldwide.",
+            lineB: "Which countries did they visit?",
+            options: ["at", "in", "across"],
+            correct: "across"
+        },
+        {
+            lineA: "The professor is lecturing {{blank}} quantum physics this semester.",
+            lineB: "That's a challenging but fascinating subject.",
+            options: ["on", "about", "for"],
+            correct: "on"
+        },
+        {
+            lineA: "The company is expanding {{blank}} international markets.",
+            lineB: "Global expansion can be quite challenging.",
+            options: ["into", "to", "for"],
+            correct: "into"
+        },
+        {
+            lineA: "The medication should be taken {{blank}} an empty stomach.",
+            lineB: "Is it best to take it in the morning?",
+            options: ["on", "with", "during"],
+            correct: "on"
+        },
+        {
+            lineA: "The conference will be held {{blank}} the Grand Hotel.",
+            lineB: "That venue has excellent facilities.",
+            options: ["at", "in", "on"],
+            correct: "at"
+        },
+        {
+            lineA: "The report contains information {{blank}} market trends.",
+            lineB: "Those insights will be valuable for our strategy.",
+            options: ["about", "on", "with"],
+            correct: "about"
+        },
+        {
+            lineA: "The painting dates {{blank}} the Renaissance period.",
+            lineB: "The artistic techniques from that era are remarkable.",
+            options: ["from", "to", "in"],
+            correct: "from"
+        },
+        {
+            lineA: "The company is investing {{blank}} employee development.",
+            lineB: "That's a wise long-term strategy.",
+            options: ["in", "for", "on"],
+            correct: "in"
+        },
+        {
+            lineA: "The restaurant specializes {{blank}} Mediterranean cuisine.",
+            lineB: "Their seafood dishes are particularly excellent.",
+            options: ["in", "with", "on"],
+            correct: "in"
+        },
+        {
+            lineA: "The study was conducted {{blank}} a period of five years.",
+            lineB: "That's a substantial amount of research time.",
+            options: ["over", "during", "for"],
+            correct: "over"
+        },
+        {
+            lineA: "The author is working {{blank}} her third novel.",
+            lineB: "Her previous books were bestsellers.",
+            options: ["on", "with", "at"],
+            correct: "on"
+        },
+        {
+            lineA: "The company is known {{blank}} its innovative products.",
+            lineB: "Their design team is exceptionally creative.",
+            options: ["for", "by", "with"],
+            correct: "for"
+        },
+        {
+            lineA: "The decision depends {{blank}} several factors.",
+            lineB: "We should consider all of them carefully.",
+            options: ["on", "from", "with"],
+            correct: "on"
+        },
+        {
+            lineA: "The museum is dedicated {{blank}} modern art.",
+            lineB: "They have an impressive collection of contemporary pieces.",
+            options: ["to", "for", "with"],
+            correct: "to"
+        },
+        {
+            lineA: "The experiment resulted {{blank}} unexpected findings.",
+            lineB: "Scientific discoveries often happen that way.",
+            options: ["in", "with", "to"],
+            correct: "in"
+        },
+        {
+            lineA: "The company is responding {{blank}} customer feedback.",
+            lineB: "That's essential for improving their services.",
+            options: ["to", "for", "with"],
+            correct: "to"
+        },
+        {
+            lineA: "The lecture will begin {{blank}} exactly 3 PM.",
+            lineB: "We should arrive a few minutes early.",
+            options: ["at", "on", "in"],
+            correct: "at"
+        },
+        {
+            lineA: "The organization is dedicated {{blank}} helping underprivileged children.",
+            lineB: "Their community programs have made a significant impact.",
+            options: ["to", "for", "with"],
+            correct: "to"
+        },
+        {
+            lineA: "The solution consists {{blank}} several components.",
+            lineB: "Each element plays an important role.",
+            options: ["of", "in", "with"],
+            correct: "of"
+        },
+        {
+            lineA: "The company is competing {{blank}} the industry leader.",
+            lineB: "Their innovative approach gives them an advantage.",
+            options: ["with", "against", "to"],
+            correct: "with"
+        },
+        {
+            lineA: "The research contributes {{blank}} our understanding of climate change.",
+            lineB: "Scientific knowledge in this area is crucial.",
+            options: ["to", "for", "with"],
+            correct: "to"
+        },
+        {
+            lineA: "The festival takes place {{blank}} the first weekend of July.",
+            lineB: "That's usually when the weather is perfect.",
+            options: ["on", "at", "during"],
+            correct: "on"
+        },
+        {
+            lineA: "The company is focusing {{blank}} sustainable practices.",
+            lineB: "Environmental responsibility is increasingly important.",
+            options: ["on", "with", "for"],
+            correct: "on"
+        },
+        {
+            lineA: "The medication should be stored {{blank}} room temperature.",
+            lineB: "Keep it away from direct sunlight as well.",
+            options: ["at", "in", "with"],
+            correct: "at"
+        },
+        {
+            lineA: "The professor is an expert {{blank}} medieval literature.",
+            lineB: "Her lectures on that topic are fascinating.",
+            options: ["in", "on", "with"],
+            correct: "in"
+        },
+        {
+            lineA: "The company is collaborating {{blank}} developing new technology.",
+            lineB: "Partnerships often accelerate innovation.",
+            options: ["on", "for", "with"],
+            correct: "on"
+        },
+        {
+            lineA: "The documentary provides insight {{blank}} cultural traditions.",
+            lineB: "It's both educational and entertaining.",
+            options: ["into", "about", "for"],
+            correct: "into"
+        },
+        {
+            lineA: "The meeting is scheduled {{blank}} Wednesday afternoon.",
+            lineB: "I'll make sure to be available then.",
+            options: ["for", "on", "at"],
+            correct: "for"
+        },
+        {
+            lineA: "The company is investing {{blank}} research and development.",
+            lineB: "That's essential for long-term growth.",
+            options: ["in", "for", "on"],
+            correct: "in"
+        },
+        {
+            lineA: "The book is divided {{blank}} three main sections.",
+            lineB: "The organization makes it easy to follow.",
+            options: ["into", "in", "with"],
+            correct: "into"
+        },
+        {
+            lineA: "The conference will focus {{blank}} emerging technologies.",
+            lineB: "Those topics are particularly relevant right now.",
+            options: ["on", "about", "with"],
+            correct: "on"
+        },
+        {
+            lineA: "The company is committed {{blank}} customer satisfaction.",
+            lineB: "Their service quality reflects that priority.",
+            options: ["to", "for", "with"],
+            correct: "to"
+        },
+        {
+            lineA: "The study was conducted {{blank}} a team of researchers.",
+            lineB: "Their collaborative approach yielded comprehensive results.",
+            options: ["by", "with", "from"],
+            correct: "by"
+        },
+        {
+            lineA: "The restaurant is famous {{blank}} its authentic cuisine.",
+            lineB: "Their traditional recipes have been preserved for generations.",
+            options: ["for", "with", "about"],
+            correct: "for"
+        },
+        {
+            lineA: "The company is expanding {{blank}} new markets.",
+            lineB: "Their global strategy is quite ambitious.",
+            options: ["into", "to", "for"],
+            correct: "into"
+        },
+        {
+            lineA: "The lecture will be held {{blank}} the main auditorium.",
+            lineB: "That space can accommodate a large audience.",
+            options: ["in", "at", "on"],
+            correct: "in"
+        },
+        {
+            lineA: "The report contains information {{blank}} recent developments.",
+            lineB: "Those updates are quite significant.",
+            options: ["about", "on", "with"],
+            correct: "about"
+        },
+        {
+            lineA: "The company is responding {{blank}} changing market conditions.",
+            lineB: "Adaptability is crucial for business success.",
+            options: ["to", "for", "with"],
+            correct: "to"
+        },
+        {
+            lineA: "The medication should be taken {{blank}} meals.",
+            lineB: "That helps reduce potential side effects.",
+            options: ["with", "during", "at"],
+            correct: "with"
+        },
+        {
+            lineA: "The professor specializes {{blank}} environmental science.",
+            lineB: "Her research in that field is widely respected.",
+            options: ["in", "on", "with"],
+            correct: "in"
+        },
+        {
+            lineA: "The company is known {{blank}} its ethical practices.",
+            lineB: "Corporate responsibility is increasingly important to consumers.",
+            options: ["for", "by", "with"],
+            correct: "for"
+        },
+        {
+            lineA: "The conference will be held {{blank}} September 15-17.",
+            lineB: "I'll mark those dates in my calendar.",
+            options: ["on", "at", "during"],
+            correct: "on"
+        },
+        {
+            lineA: "The organization is dedicated {{blank}} environmental conservation.",
+            lineB: "Their projects have made a significant impact.",
+            options: ["to", "for", "with"],
+            correct: "to"
+        },
+        {
+            lineA: "The solution depends {{blank}} multiple factors.",
+            lineB: "We need to consider all variables carefully.",
+            options: ["on", "from", "with"],
+            correct: "on"
+        },
+        {
+            lineA: "The company is investing {{blank}} sustainable technologies.",
+            lineB: "That's both environmentally responsible and financially smart.",
+            options: ["in", "for", "on"],
+            correct: "in"
+        }
+    ]
+};
 
-// Randomly select 10 questions each time
-function getRandomQuestions(totalQuestions) {
-    // Make a copy of the full data array
-    const allQuestions = [...allPracticeData];
+// Randomly select questions from a specific level
+function getRandomQuestions(level, totalQuestions) {
+    // Make a copy of the data array for the specified level
+    const allQuestions = [...practiceDataByLevel[level]];
     
     // Shuffle the array
     for (let i = allQuestions.length - 1; i > 0; i--) {
@@ -729,5 +806,13 @@ function getRandomQuestions(totalQuestions) {
     return allQuestions.slice(0, totalQuestions);
 }
 
-// Get 10 random questions
-const practiceData = getRandomQuestions(10);
+// Initialize with level 1 by default
+let practiceData = [];
+let currentLevel = "level1";
+
+// This will be set by the app.js when a level is selected
+function setLevel(level, questionsCount = 10) {
+    currentLevel = level;
+    practiceData = getRandomQuestions(level, questionsCount);
+    return practiceData;
+}
