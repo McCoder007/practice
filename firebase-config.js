@@ -1,13 +1,13 @@
 // Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyA52dIm2y8-D9tuzScz5UxAy1-ljfiQPtw",
-  authDomain: "feedback-board-b5889.firebaseapp.com",
-  projectId: "feedback-board-b5889",
-  storageBucket: "feedback-board-b5889.firebasestorage.app",
-  messagingSenderId: "356107718217",
-  appId: "1:356107718217:web:8df97696c77b97db63f998",
-  measurementId: "G-5W0NTND2S8"
+  apiKey: "AIzaSyC_BV3O4-kx1sLC4KXDsJ2g8D_8WTbe56I",
+  authDomain: "esl-preposition-practice.firebaseapp.com",
+  projectId: "esl-preposition-practice",
+  storageBucket: "esl-preposition-practice.firebasestorage.app",
+  messagingSenderId: "23182734978",
+  appId: "1:23182734978:web:060de369f972ec36baa69b"
+  // measurementId will be added after enabling Analytics
 };
 
 // Initialize Firebase
