@@ -341,11 +341,27 @@ function restartPractice() {
 
 // Log events to Firebase Analytics
 function logEvent(eventName, eventParams) {
+    // Get device information
+    const deviceInfo = {
+        userAgent: navigator.userAgent,
+        platform: navigator.platform,
+        screenWidth: window.screen.width,
+        screenHeight: window.screen.height,
+        devicePixelRatio: window.devicePixelRatio,
+        isMobile: /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
+    };
+    
+    // Add device info to event parameters
+    const paramsWithDevice = {
+        ...eventParams,
+        device_info: deviceInfo
+    };
+    
     if (window.firebase && window.firebase.analytics) {
-        window.firebase.analytics().logEvent(eventName, eventParams);
-        console.log('Logged event:', eventName, eventParams);
+        window.firebase.analytics().logEvent(eventName, paramsWithDevice);
+        console.log('Logged event:', eventName, paramsWithDevice);
     } else {
-        console.log('Analytics not available. Event:', eventName, eventParams);
+        console.log('Analytics not available. Event:', eventName, paramsWithDevice);
     }
 }
 
