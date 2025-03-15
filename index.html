@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>ESL Practice</title>
+    <title>SpeakNow - ESL Practice</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <div class="app-container">
         <header>
-            <h1>ESL Practice</h1>
+            <div class="header-content">
+                <button id="quizBackBtn" class="header-back-btn"><i class="fa-solid fa-arrow-left"></i></button>
+                <div class="brand">
+                    <h1><i class="fa-solid fa-comment-dots"></i> SpeakNow</h1>
+                </div>
+            </div>
             <div id="progressBarContainer" class="progress-container">
                 <div class="progress-bar">
                     <div class="progress-fill" id="progressFill"></div>
@@ -22,43 +29,55 @@
         <div id="mainMenuContainer" class="main-menu-container">
             <h2>Choose Practice Type</h2>
             <div class="practice-type-buttons">
-                <button id="prepositionsBtn" class="practice-type-btn" type="button">
-                    <span class="practice-type">Prepositions</span>
-                    <span class="practice-description">Practice using prepositions in sentences</span>
+                <button id="prepositionsBtn" class="practice-type-btn prepositions" type="button">
+                    <div class="btn-content">
+                        <span class="practice-type">Prepositions</span>
+                        <span class="practice-description">Practice using prepositions in sentences</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right btn-icon"></i>
                 </button>
-                <button id="verbTensesBtn" class="practice-type-btn" type="button">
-                    <span class="practice-type">Verb Tenses</span>
-                    <span class="practice-description">Practice using correct verb tenses</span>
+                <button id="verbTensesBtn" class="practice-type-btn verb-tenses" type="button">
+                    <div class="btn-content">
+                        <span class="practice-type">Verb Tenses</span>
+                        <span class="practice-description">Practice using correct verb tenses</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right btn-icon"></i>
                 </button>
             </div>
         </div>
         
         <!-- Level Selection Container -->
         <div id="levelSelectionContainer" class="level-selection-container">
-            <h2>Select a Level</h2>
+            <div class="section-header">
+                <button id="backToMainBtn" class="back-btn"><i class="fa-solid fa-arrow-left"></i></button>
+                <h2>Select a Level</h2>
+            </div>
             <div class="level-buttons">
                 <button id="level1Btn" class="level-btn" type="button">
-                    <span class="level-number">Level 1</span>
-                    <span class="level-description">Simple sentences with basic prepositions</span>
+                    <div class="btn-content">
+                        <span class="level-number">Level 1</span>
+                        <span class="level-description">Simple sentences with basic prepositions</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right btn-icon"></i>
                 </button>
                 <button id="level2Btn" class="level-btn" type="button">
-                    <span class="level-number">Level 2</span>
-                    <span class="level-description">Slightly more complex sentences and vocabulary</span>
+                    <div class="btn-content">
+                        <span class="level-number">Level 2</span>
+                        <span class="level-description">Slightly more complex sentences and vocabulary</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right btn-icon"></i>
                 </button>
-            </div>
-            <div class="action-container">
-                <button id="backToMainBtn" class="back-btn">Back to Main Menu</button>
             </div>
         </div>
         
         <div id="questionContainer" class="conversation-container">
             <div class="dialogue">
                 <p class="dialogue-line">
-                    <button class="play-btn" id="playLineA" title="Listen to this sentence">▶️</button>
+                    <button class="play-btn" id="playLineA" title="Listen to this sentence"><i class="fa-solid fa-volume-high"></i></button>
                     <span id="lineA" class="sentence"></span>
                 </p>
                 <p class="dialogue-line">
-                    <button class="play-btn" id="playLineB" title="Listen to this sentence">▶️</button>
+                    <button class="play-btn" id="playLineB" title="Listen to this sentence"><i class="fa-solid fa-volume-high"></i></button>
                     <span id="lineB" class="sentence"></span>
                 </p>
             </div>
@@ -68,17 +87,38 @@
             </div>
             
             <div class="action-container">
-                <button id="nextBtn" class="next-btn">Next Question</button>
+                <button id="nextBtn" class="next-btn">Next <i class="fa-solid fa-arrow-right"></i></button>
             </div>
         </div>
         
         <div id="completionContainer" class="completion-container">
-            <h2>Practice Complete!</h2>
-            <p class="score-display">Your score: <span id="finalScore">0</span></p>
-            <div class="action-container">
-                <button id="restartBtn" class="restart-btn">Practice Again</button>
-                <button id="backToLevelsBtn" class="restart-btn">Back to Levels</button>
-                <button id="backToMainMenuBtn" class="restart-btn">Back to Main Menu</button>
+            <div class="completion-content">
+                <div class="completion-icon">
+                    <i class="fa-solid fa-trophy"></i>
+                </div>
+                <h2>Practice Complete!</h2>
+                <p class="score-display">Your score: <span id="finalScore">0</span></p>
+                <div class="action-container">
+                    <button id="restartBtn" class="restart-btn">Practice Again</button>
+                    <button id="backToLevelsBtn" class="restart-btn secondary">Back to Levels</button>
+                    <button id="backToMainMenuBtn" class="restart-btn secondary">Back to Main Menu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom Modal for Confirmation -->
+    <div id="confirmModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Exit Practice?</h3>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to exit this practice session? Your progress will not be saved.</p>
+            </div>
+            <div class="modal-footer">
+                <button id="cancelExitBtn" class="modal-btn secondary">Continue Practice</button>
+                <button id="confirmExitBtn" class="modal-btn">Exit Practice</button>
             </div>
         </div>
     </div>
