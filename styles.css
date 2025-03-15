@@ -312,7 +312,7 @@ header h1 {
 }
 
 /* Hide elements by default */
-#questionContainer, #completionContainer {
+#questionContainer, #completionContainer, #levelSelectionContainer {
     display: none;
 }
 

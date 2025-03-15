@@ -29,12 +29,21 @@ const progressBarContainer = document.getElementById('progressBarContainer');
 
 // Initialize the application
 function initApp() {
+    console.log("Initializing app...");
+    
     // Show level selection screen
     showLevelSelection();
     
     // Event listeners for level buttons
-    level1Btn.addEventListener('click', () => startLevel('level1'));
-    level2Btn.addEventListener('click', () => startLevel('level2'));
+    level1Btn.addEventListener('click', function() {
+        console.log("Level 1 button clicked");
+        startLevel('level1');
+    });
+    
+    level2Btn.addEventListener('click', function() {
+        console.log("Level 2 button clicked");
+        startLevel('level2');
+    });
     
     // Event listeners
     nextBtn.addEventListener('click', goToNextQuestion);
@@ -51,10 +60,14 @@ function initApp() {
         const text = practiceData[currentQuestionIndex].lineB.replace(/{{blank}}/g, '___');
         googleTTS.speakLine(text);
     });
+    
+    console.log("App initialization complete");
 }
 
 // Show level selection screen
 function showLevelSelection() {
+    console.log("Showing level selection screen");
+    
     // Hide other containers
     questionContainer.classList.remove('active');
     completionContainer.classList.remove('active');
@@ -65,10 +78,13 @@ function showLevelSelection() {
     
     // Update header
     document.querySelector('header h1').textContent = 'Preposition Practice';
+    
+    console.log("Level selection container display:", getComputedStyle(levelSelectionContainer).display);
 }
 
 // Start a specific level
 function startLevel(level) {
+    console.log("Starting level:", level);
     currentLevel = level;
     
     // Set the level title
@@ -77,6 +93,7 @@ function startLevel(level) {
     
     // Initialize the practice data for this level
     practiceData = setLevel(level, 10);
+    console.log("Practice data loaded:", practiceData.length, "questions");
     
     // Reset state
     currentQuestionIndex = 0;
@@ -98,6 +115,8 @@ function startLevel(level) {
     questionContainer.classList.add('active');
     progressBarContainer.style.display = 'flex';
     
+    console.log("Question container display:", getComputedStyle(questionContainer).display);
+    
     // Load first question
     loadQuestion(currentQuestionIndex);
     updateProgress();
@@ -105,6 +124,7 @@ function startLevel(level) {
 
 // Load a question
 function loadQuestion(index) {
+    console.log("Loading question:", index);
     const question = practiceData[index];
     
     // Reset selected option
@@ -211,6 +231,8 @@ function updateProgress() {
 
 // Show completion screen
 function showCompletion() {
+    console.log("Showing completion screen");
+    
     // Calculate quiz duration
     const quizEndTime = new Date();
     const quizDurationSeconds = Math.floor((quizEndTime - quizStartTime) / 1000);
@@ -221,6 +243,8 @@ function showCompletion() {
     // Hide question container, show completion
     questionContainer.classList.remove('active');
     completionContainer.classList.add('active');
+    
+    console.log("Completion container display:", getComputedStyle(completionContainer).display);
     
     // Log quiz completion event
     logEvent('quiz_completed', {
