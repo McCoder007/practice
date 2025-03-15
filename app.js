@@ -3,6 +3,9 @@ let currentQuestionIndex = 0;
 let score = 0;
 let selectedOption = null;
 let firstAttempts = []; // Track first attempts for each question
+let quizStartTime = null; // Track when the quiz started
+let totalCorrectAnswers = 0; // Track total correct answers
+let totalQuestionsAnswered = 0; // Track total questions answered
 
 // DOM elements
 const lineAElement = document.getElementById('lineA');
@@ -22,7 +25,18 @@ const playLineBBtn = document.getElementById('playLineB');
 function initApp() {
     currentQuestionIndex = 0;
     score = 0;
+    totalCorrectAnswers = 0;
+    totalQuestionsAnswered = 0;
+    quizStartTime = new Date();
     firstAttempts = new Array(practiceData.length).fill(null); // Initialize first attempts array
+    
+    // Log quiz start event
+    logEvent('quiz_started', {
+        quiz_type: 'preposition_practice',
+        quiz_level: 'beginner',
+        total_questions: practiceData.length
+    });
+    
     loadQuestion(currentQuestionIndex);
     updateProgress();
     
@@ -94,6 +108,18 @@ function selectOption(option) {
     // Store selected option for TTS playback
     selectedOption = option;
     
+    // Track question answered
+    totalQuestionsAnswered++;
+    
+    // Log question answered event
+    logEvent('question_answered', {
+        question_index: currentQuestionIndex,
+        question_text: question.lineB,
+        selected_answer: option,
+        correct_answer: question.correct,
+        is_correct: option === question.correct
+    });
+    
     // If this is the first selection for this question, record it
     if (firstAttempts[currentQuestionIndex] === null) {
         firstAttempts[currentQuestionIndex] = option;
@@ -101,6 +127,14 @@ function selectOption(option) {
         // If the first attempt is correct, update score
         if (option === question.correct) {
             score++;
+            totalCorrectAnswers++;
+            
+            // Log correct answer event
+            logEvent('correct_answer', {
+                question_index: currentQuestionIndex,
+                question_text: question.lineB,
+                selected_answer: option
+            });
         }
     }
     
@@ -153,12 +187,32 @@ function showCompletion() {
     completionContainer.style.display = 'block';
     finalScoreElement.textContent = score;
     
+    // Calculate quiz duration in seconds
+    const quizDuration = Math.round((new Date() - quizStartTime) / 1000);
+    
+    // Log quiz completion event
+    logEvent('quiz_completed', {
+        quiz_type: 'preposition_practice',
+        quiz_level: 'beginner',
+        total_questions: practiceData.length,
+        correct_answers: score,
+        total_answered: totalQuestionsAnswered,
+        accuracy_percentage: Math.round((score / practiceData.length) * 100),
+        quiz_duration_seconds: quizDuration
+    });
+    
     // Speak congratulations
     googleTTS.speak(`Congratulations! Your score is ${score} out of ${practiceData.length}.`);
 }
 
 // Restart practice
 function restartPractice() {
+    // Log restart event
+    logEvent('quiz_restarted', {
+        previous_score: score,
+        previous_questions_answered: totalQuestionsAnswered
+    });
+    
     // Generate new random questions when restarting
     window.location.reload();
 }
