@@ -68,6 +68,7 @@
     <script src="level2Data.js"></script>
     <script src="data.js"></script>
     <script src="google-tts.js"></script>
+    <script src="config.js"></script>
     <script src="app.js"></script>
     
     <!-- Firebase SDK -->
@@ -79,11 +80,11 @@
     <script>
         // Initialize with API key and voice settings
         document.addEventListener('DOMContentLoaded', function() {
-            // Add your API key here
-            googleTTS.setApiKey('AIzaSyBBe1XfNjodUza5EHDLbs6HTWk8O64b5c8');
+            // Use API key from config
+            googleTTS.setApiKey(appConfig.googleTtsApiKey);
             
-            // Set to male Neural2 voice
-            googleTTS.setVoice('en-US-Neural2-D');
+            // Set to male Neural2 voice from config
+            googleTTS.setVoice(appConfig.defaultVoice);
             
             // Initialize audio on first user interaction for iOS
             document.body.addEventListener('touchstart', function() {
