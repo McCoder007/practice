@@ -1,4 +1,4 @@
-// Simple build script to replace API keys in config.js
+// Simple build script to replace API keys in config.js and index.html
 const fs = require('fs');
 const path = require('path');
 
@@ -14,7 +14,7 @@ if (!apiKey) {
   console.log('API key found in environment variable');
 }
 
-// Read the config file
+// Update config.js
 const configPath = path.join(__dirname, 'config.js');
 console.log(`Reading config file from: ${configPath}`);
 
@@ -30,15 +30,40 @@ try {
 }
 
 // Replace the placeholder with the actual API key
-const updatedContent = configContent.replace('__GOOGLE_TTS_API_KEY__', apiKey);
+const updatedConfigContent = configContent.replace('__GOOGLE_TTS_API_KEY__', apiKey);
 console.log('Config file content after replacement:');
-console.log(updatedContent);
+console.log(updatedConfigContent);
 
 // Write the updated config back to the file
 try {
-  fs.writeFileSync(configPath, updatedContent);
+  fs.writeFileSync(configPath, updatedConfigContent);
   console.log('Successfully updated config.js with API key');
 } catch (error) {
   console.error(`Error writing config file: ${error.message}`);
+  process.exit(1);
+}
+
+// Update index.html
+const indexPath = path.join(__dirname, 'index.html');
+console.log(`Reading index.html file from: ${indexPath}`);
+
+let indexContent;
+try {
+  indexContent = fs.readFileSync(indexPath, 'utf8');
+  console.log('Successfully read index.html file');
+} catch (error) {
+  console.error(`Error reading index.html file: ${error.message}`);
+  process.exit(1);
+}
+
+// Replace the placeholder with the actual API key
+const updatedIndexContent = indexContent.replace('\'__GOOGLE_TTS_API_KEY__\'', `'${apiKey}'`);
+
+// Write the updated index.html back to the file
+try {
+  fs.writeFileSync(indexPath, updatedIndexContent);
+  console.log('Successfully updated index.html with API key');
+} catch (error) {
+  console.error(`Error writing index.html file: ${error.message}`);
   process.exit(1);
 } 
