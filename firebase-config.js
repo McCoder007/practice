@@ -6,8 +6,8 @@ const firebaseConfig = {
   projectId: "esl-preposition-practice",
   storageBucket: "esl-preposition-practice.firebasestorage.app",
   messagingSenderId: "23182734978",
-  appId: "1:23182734978:web:060de369f972ec36baa69b"
-  // measurementId will be added after enabling Analytics
+  appId: "1:23182734978:web:060de369f972ec36baa69b",
+  measurementId: "G-Z3QP99QCWD"
 };
 
 // Initialize Firebase
