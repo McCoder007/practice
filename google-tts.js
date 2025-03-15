@@ -62,6 +62,15 @@ class GoogleTTSManager {
     setApiKey(key) {
         this.apiKey = key;
         console.log('Google TTS API key set.');
+        
+        // Debug: Check if the API key is the placeholder
+        if (key.startsWith('__GOOGLE_TTS_API_KEY__')) {
+            console.error('ERROR: API key is still the placeholder! This indicates the build process did not replace it correctly.');
+        } else if (key.startsWith('AIza')) {
+            console.log('API key format looks correct (starts with AIza)');
+        } else {
+            console.warn('API key format is unusual (does not start with AIza)');
+        }
     }
     
     // Set voice
@@ -121,14 +130,15 @@ class GoogleTTSManager {
     async synthesizeSpeech(text) {
         console.log(`Attempting Google TTS for text: "${text}"`);
         
-        // TEMPORARY: Always use browser TTS until API key issue is resolved
-        console.warn('Temporarily using browser TTS fallback until API key issue is resolved.');
-        return this.browserTTS.speak(text);
-        
-        /* Original code commented out until API key issue is resolved
         // Check if API key is set
         if (!this.apiKey) {
             console.warn('Google TTS API key not set. Using browser TTS fallback.');
+            return this.browserTTS.speak(text);
+        }
+        
+        // Check if API key is the placeholder
+        if (this.apiKey.startsWith('__GOOGLE_TTS_API_KEY__')) {
+            console.error('API key is still the placeholder! Using browser TTS fallback.');
             return this.browserTTS.speak(text);
         }
         
@@ -201,7 +211,6 @@ class GoogleTTSManager {
             console.log('Falling back to browser TTS');
             return this.browserTTS.speak(text);
         }
-        */
     }
     
     // Public method to speak text
