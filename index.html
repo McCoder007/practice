@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>ESL Preposition Practice - Beginner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Preposition Practice - Beginner</h1>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+                <span class="progress-text" id="progressText">1/10</span>
+            </div>
+        </header>
+        
+        <div id="questionContainer" class="conversation-container">
+            <div class="dialogue">
+                <p class="dialogue-line">
+                    <button class="play-btn" id="playLineA" title="Listen to this sentence">▶️</button>
+                    <span id="lineA" class="sentence"></span>
+                </p>
+                <p class="dialogue-line">
+                    <button class="play-btn" id="playLineB" title="Listen to this sentence">▶️</button>
+                    <span id="lineB" class="sentence"></span>
+                </p>
+            </div>
+            
+            <div class="options-container" id="optionsContainer">
+                <!-- Options will be inserted here -->
+            </div>
+            
+            <div class="action-container">
+                <button id="nextBtn" class="next-btn">Next Question</button>
+            </div>
+        </div>
+        
+        <div id="completionContainer" class="completion-container">
+            <h2>Practice Complete!</h2>
+            <p class="score-display">Your score: <span id="finalScore">0</span>/10</p>
+            <button id="restartBtn" class="restart-btn">Practice Again</button>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="google-tts.js"></script>
+    <script src="app.js"></script>
+    <script>
+        // Initialize with API key and voice settings
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add your API key here
+            googleTTS.setApiKey('AIzaSyBBe1XfNjodUza5EHDLbs6HTWk8O64b5c8');
+            
+            // Set to male Neural2 voice
+            googleTTS.setVoice('en-US-Neural2-D');
+            
+            // Initialize audio on first user interaction for iOS
+            document.body.addEventListener('touchstart', function() {
+                // Try to initialize audio context
+                if (googleTTS.audioContext && googleTTS.audioContext.state === 'suspended') {
+                    googleTTS.audioContext.resume();
+                }
+            }, {once: true});
+        });
+    </script>
+</body>
+</html>
