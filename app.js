@@ -168,10 +168,6 @@ function loadQuestion(index) {
 
 // Handle option selection
 function selectOption(option) {
-    // If already selected an option, do nothing
-    if (selectedOption !== null) return;
-    
-    selectedOption = option;
     const question = practiceData[currentQuestionIndex];
     const isCorrect = option === question.correct;
     
@@ -179,7 +175,7 @@ function selectOption(option) {
     if (firstAttempts[currentQuestionIndex] === null) {
         firstAttempts[currentQuestionIndex] = isCorrect;
         
-        // Update score if correct
+        // Update score if correct on first try
         if (isCorrect) {
             score++;
         }
@@ -196,12 +192,19 @@ function selectOption(option) {
     // Update UI to show correct/incorrect
     const optionBtns = optionsContainer.querySelectorAll('.option-btn');
     optionBtns.forEach(btn => {
+        // If this is the selected button
         if (btn.textContent === option) {
+            // Mark it as selected
             btn.classList.add('selected');
+            
+            // If correct, disable all buttons
+            if (isCorrect) {
+                optionBtns.forEach(b => b.disabled = true);
+            } else {
+                // If incorrect, only disable this button
+                btn.disabled = true;
+            }
         }
-        
-        // Disable all buttons
-        btn.disabled = true;
     });
     
     // Update the blank with the selected option
@@ -222,8 +225,11 @@ function selectOption(option) {
         is_correct: isCorrect
     });
     
-    // Show next button
-    nextBtn.classList.add('visible');
+    // Show next button only if correct answer is selected
+    if (isCorrect) {
+        selectedOption = option; // Lock in the selection only when correct
+        nextBtn.classList.add('visible');
+    }
 }
 
 // Go to next question
