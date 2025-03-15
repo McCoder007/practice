@@ -1,4 +1,3 @@
-
 // Google Text-to-Speech API implementation
 class GoogleTTSManager {
     constructor() {
@@ -128,6 +127,9 @@ class GoogleTTSManager {
             return this.browserTTS.speak(text);
         }
         
+        console.log(`API key length: ${this.apiKey.length}`);
+        console.log(`API key first 4 chars: ${this.apiKey.substring(0, 4)}...`);
+        
         // Check cache first
         if (this.audioCache[text]) {
             console.log('Using cached audio for:', text);
@@ -151,8 +153,12 @@ class GoogleTTSManager {
                 }
             };
             
+            const apiUrl = `https://texttospeech.googleapis.com/v1/text:synthesize?key=${this.apiKey}`;
+            console.log(`API URL: ${apiUrl.replace(this.apiKey, '***')}`);
+            console.log('Request body:', JSON.stringify(requestBody));
+            
             const response = await fetch(
-                `https://texttospeech.googleapis.com/v1/text:synthesize?key=${this.apiKey}`,
+                apiUrl,
                 {
                     method: 'POST',
                     headers: {
