@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>ESL Preposition Practice</title>
+    <title>ESL Practice</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="app-container">
         <header>
-            <h1>Preposition Practice</h1>
+            <h1>ESL Practice</h1>
             <div id="progressBarContainer" class="progress-container">
                 <div class="progress-bar">
                     <div class="progress-fill" id="progressFill"></div>
@@ -17,6 +17,21 @@
                 <span class="progress-text" id="progressText">1/10</span>
             </div>
         </header>
+        
+        <!-- Main Menu Container -->
+        <div id="mainMenuContainer" class="main-menu-container">
+            <h2>Choose Practice Type</h2>
+            <div class="practice-type-buttons">
+                <button id="prepositionsBtn" class="practice-type-btn" type="button">
+                    <span class="practice-type">Prepositions</span>
+                    <span class="practice-description">Practice using prepositions in sentences</span>
+                </button>
+                <button id="verbTensesBtn" class="practice-type-btn" type="button">
+                    <span class="practice-type">Verb Tenses</span>
+                    <span class="practice-description">Practice using correct verb tenses</span>
+                </button>
+            </div>
+        </div>
         
         <!-- Level Selection Container -->
         <div id="levelSelectionContainer" class="level-selection-container">
@@ -30,6 +45,9 @@
                     <span class="level-number">Level 2</span>
                     <span class="level-description">Slightly more complex sentences and vocabulary</span>
                 </button>
+            </div>
+            <div class="action-container">
+                <button id="backToMainBtn" class="back-btn">Back to Main Menu</button>
             </div>
         </div>
         
@@ -60,12 +78,14 @@
             <div class="action-container">
                 <button id="restartBtn" class="restart-btn">Practice Again</button>
                 <button id="backToLevelsBtn" class="restart-btn">Back to Levels</button>
+                <button id="backToMainMenuBtn" class="restart-btn">Back to Main Menu</button>
             </div>
         </div>
     </div>
 
     <script src="level1Data.js"></script>
     <script src="level2Data.js"></script>
+    <script src="verbTensesData.js"></script>
     <script src="data.js"></script>
     <script src="google-tts.js"></script>
     <script src="config.js"></script>
