@@ -52,13 +52,15 @@ function initApp() {
     
     // TTS play buttons
     playLineABtn.addEventListener('click', () => {
-        const text = practiceData[currentQuestionIndex].lineA.replace(/{{blank}}/g, '___');
-        googleTTS.speakLine(text);
+        if (practiceData && practiceData[currentQuestionIndex]) {
+            googleTTS.speakLine(practiceData[currentQuestionIndex].lineA);
+        }
     });
     
     playLineBBtn.addEventListener('click', () => {
-        const text = practiceData[currentQuestionIndex].lineB.replace(/{{blank}}/g, '___');
-        googleTTS.speakLine(text);
+        if (practiceData && practiceData[currentQuestionIndex]) {
+            googleTTS.speakLine(practiceData[currentQuestionIndex].lineB);
+        }
     });
     
     console.log("App initialization complete");
@@ -130,12 +132,23 @@ function loadQuestion(index) {
     // Reset selected option
     selectedOption = null;
     
-    // Replace the blank placeholder with an actual blank element
-    const lineA = question.lineA.replace(/{{blank}}/g, '<span class="answer-blank">_____</span>');
-    const lineB = question.lineB;
+    // Process the lines with the Google TTS helper functions
+    let lineA, lineB;
+    
+    if (question.lineA.includes('{{blank}}')) {
+        lineA = googleTTS.processLineWithBlank(question.lineA);
+    } else {
+        lineA = googleTTS.processTextToInteractive(question.lineA);
+    }
+    
+    if (question.lineB.includes('{{blank}}')) {
+        lineB = googleTTS.processLineWithBlank(question.lineB);
+    } else {
+        lineB = googleTTS.processTextToInteractive(question.lineB);
+    }
     
     lineAElement.innerHTML = lineA;
-    lineBElement.textContent = lineB;
+    lineBElement.innerHTML = lineB;
     
     // Clear previous options
     optionsContainer.innerHTML = '';
@@ -185,16 +198,19 @@ function selectOption(option) {
     optionBtns.forEach(btn => {
         if (btn.textContent === option) {
             btn.classList.add('selected');
-            
-            // Add correct/incorrect class to the blank
-            const blankElement = document.querySelector('.answer-blank');
-            blankElement.textContent = option;
-            blankElement.classList.add(isCorrect ? 'correct' : 'incorrect');
         }
         
         // Disable all buttons
         btn.disabled = true;
     });
+    
+    // Update the blank with the selected option
+    const answerBlank = document.getElementById('answerBlank');
+    if (answerBlank) {
+        answerBlank.textContent = option;
+        answerBlank.className = 'answer-blank ' + (isCorrect ? 'correct' : 'incorrect');
+        answerBlank.onclick = () => googleTTS.speak(option);
+    }
     
     // Log answer event
     logEvent('question_answered', {
