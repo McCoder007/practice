@@ -2,7 +2,7 @@
 const appConfig = {
     // API key for Google Text-to-Speech
     // This will be replaced during the build process
-    googleTtsApiKey: 'AIzaSyBBe1XfNjodUza5EHDLbs6HTWk8O64b5c8',
+    googleTtsApiKey: '__GOOGLE_TTS_API_KEY__',
     
     // Default voice for TTS
     defaultVoice: 'en-US-Neural2-D',
