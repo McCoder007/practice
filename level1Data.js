@@ -204,7 +204,7 @@ const level1Data = [
     {
         lineA: "The coffee shop is {{blank}} the bookstore.",
         lineB: "I'll meet you there.",
-        options: ["next to", "between", "across from"],
+        options: ["next to", "behind", "across from"],
         correct: "next to"
     },
     {
