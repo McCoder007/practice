@@ -60,12 +60,28 @@ Each question in the dataset follows this format:
 The application uses Google's Text-to-Speech API for audio playback. This requires:
 
 1. **API Key**: A valid Google Cloud API key with Text-to-Speech API enabled
-   - The key is set in `index.html` using `googleTTS.setApiKey('YOUR_API_KEY')`
-   - Current key: `AIzaSyBBe1XfNjodUza5EHDLbs6HTWk8O64b5c8`
+   - The key is securely stored as a GitHub Secret and injected during the build process
+   - The key is set in `index.html` using `googleTTS.setApiKey()`
 
 2. **Voice Selection**: 
    - Default voice: `en-US-Neural2-D` (male neural voice)
    - Set in `index.html` using `googleTTS.setVoice('en-US-Neural2-D')`
+
+### Secure API Key Handling
+- The API key is stored as a GitHub Secret to keep it secure
+- During the build process, a Node.js script (`build.js`) replaces a placeholder in the code with the actual API key
+- This allows the repository to remain public while keeping the API key private
+- The GitHub Actions workflow automatically handles this replacement during deployment
+
+### GitHub Actions Deployment
+- The application is automatically deployed to GitHub Pages using GitHub Actions
+- The workflow is defined in `.github/workflows/deploy.yml`
+- The workflow runs whenever changes are pushed to the main branch
+- The deployment process includes:
+  1. Checking out the code
+  2. Setting up Node.js
+  3. Replacing the API key placeholder with the actual key from GitHub Secrets
+  4. Deploying the updated code to the gh-pages branch
 
 ### Implementation Details
 - The TTS functionality is implemented in `google-tts.js` as a class called `GoogleTTSManager`
@@ -83,51 +99,10 @@ The application uses Google's Text-to-Speech API for audio playback. This requir
       }
   }, {once: true});
   ```
+  1. Checking out the code
+  2. Setting up Node.js
+  3. Replacing the API key placeholder with the actual key from GitHub Secrets
+  4. Deploying the updated code to the gh-pages branch
 
-### Common Issues and Solutions
-
-1. **Audio Not Playing on iOS**
-   - **Issue**: iOS requires user interaction before audio can play
-   - **Solution**: Initialize audio context on first touch event (implemented in `index.html`)
-
-2. **API Key Quota Exceeded**
-   - **Issue**: Google Cloud TTS API has usage limits
-   - **Solution**: Monitor usage in Google Cloud Console and increase quotas if needed
-
-3. **Audio Playback Delays**
-   - **Issue**: Network latency can cause delays in audio playback
-   - **Solution**: Implemented caching system to store previously fetched audio
-
-4. **Cross-Origin Issues**
-   - **Issue**: API calls may be blocked by CORS policies
-   - **Solution**: Ensure proper API configuration in Google Cloud Console
-
-5. **Browser Compatibility**
-   - **Issue**: Some browsers may not support certain audio formats
-   - **Solution**: Implemented fallback to browser's native Web Speech API
-
-### Setting Up a New Project
-1. Create a Google Cloud project
-2. Enable the Text-to-Speech API
-3. Create an API key with appropriate restrictions
-4. Replace the API key in `index.html`
-5. Test on both desktop and mobile devices
-6. Ensure first user interaction initializes audio context on mobile
-
-## Recent Changes
-- Simplified header titles to just "Level 1" and "Level 2"
-- Fixed option selection highlighting to ensure only the currently selected option is highlighted
-- Improved level selection page positioning
-- Made Level 1 answers more unambiguous by updating question options
-
-## Analytics
-The app tracks the following events:
-- Quiz starts
-- Questions answered (with correctness)
-- Quiz completions (with score and duration)
-- Quiz restarts
-
-## Development Notes
-- The app is designed to be simple and focused on a single learning objective
-- TTS functionality requires an API key for Google's Text-to-Speech service
-- Firebase Analytics is optional but provides useful insights on user engagement 
+### Implementation Details
+- The TTS functionality is implemented in `
