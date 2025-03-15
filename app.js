@@ -315,8 +315,9 @@ function showCompletion() {
     const finalScore = Math.round((score / practiceData.length) * 100);
     finalScoreElement.textContent = `${finalScore}%`;
     
-    // Hide question container, show completion
+    // Hide question container and progress bar, show completion
     questionContainer.classList.remove('active');
+    progressBarContainer.style.display = 'none';
     completionContainer.classList.add('active');
     
     // Log quiz completion
