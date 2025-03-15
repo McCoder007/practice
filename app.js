@@ -7,6 +7,7 @@ let quizStartTime = null; // Track when the quiz started
 let totalCorrectAnswers = 0; // Track total correct answers
 let totalQuestionsAnswered = 0; // Track total questions answered
 let currentLevel = "level1"; // Track current level
+let currentPracticeType = "prepositions"; // Track current practice type
 
 // DOM elements
 const lineAElement = document.getElementById('lineA');
@@ -19,20 +20,38 @@ const finalScoreElement = document.getElementById('finalScore');
 const questionContainer = document.getElementById('questionContainer');
 const completionContainer = document.getElementById('completionContainer');
 const levelSelectionContainer = document.getElementById('levelSelectionContainer');
+const mainMenuContainer = document.getElementById('mainMenuContainer');
 const restartBtn = document.getElementById('restartBtn');
 const backToLevelsBtn = document.getElementById('backToLevelsBtn');
+const backToMainMenuBtn = document.getElementById('backToMainMenuBtn');
+const backToMainBtn = document.getElementById('backToMainBtn');
 const playLineABtn = document.getElementById('playLineA');
 const playLineBBtn = document.getElementById('playLineB');
 const level1Btn = document.getElementById('level1Btn');
 const level2Btn = document.getElementById('level2Btn');
+const prepositionsBtn = document.getElementById('prepositionsBtn');
+const verbTensesBtn = document.getElementById('verbTensesBtn');
 const progressBarContainer = document.getElementById('progressBarContainer');
 
 // Initialize the application
 function initApp() {
     console.log("Initializing app...");
     
-    // Show level selection screen
-    showLevelSelection();
+    // Show main menu screen
+    showMainMenu();
+    
+    // Event listeners for practice type buttons
+    prepositionsBtn.addEventListener('click', function() {
+        console.log("Prepositions button clicked");
+        currentPracticeType = "prepositions";
+        showLevelSelection();
+    });
+    
+    verbTensesBtn.addEventListener('click', function() {
+        console.log("Verb Tenses button clicked");
+        currentPracticeType = "verbTenses";
+        startLevel('verbTenses1');
+    });
     
     // Event listeners for level buttons
     level1Btn.addEventListener('click', function() {
@@ -49,6 +68,8 @@ function initApp() {
     nextBtn.addEventListener('click', goToNextQuestion);
     restartBtn.addEventListener('click', restartPractice);
     backToLevelsBtn.addEventListener('click', showLevelSelection);
+    backToMainMenuBtn.addEventListener('click', showMainMenu);
+    backToMainBtn.addEventListener('click', showMainMenu);
     
     // TTS play buttons
     playLineABtn.addEventListener('click', () => {
@@ -66,6 +87,25 @@ function initApp() {
     console.log("App initialization complete");
 }
 
+// Show main menu screen
+function showMainMenu() {
+    console.log("Showing main menu screen");
+    
+    // Hide other containers
+    questionContainer.classList.remove('active');
+    completionContainer.classList.remove('active');
+    levelSelectionContainer.classList.remove('active');
+    progressBarContainer.style.display = 'none';
+    
+    // Show main menu
+    mainMenuContainer.classList.add('active');
+    
+    // Update header
+    document.querySelector('header h1').textContent = 'ESL Practice';
+    
+    console.log("Main menu container display:", getComputedStyle(mainMenuContainer).display);
+}
+
 // Show level selection screen
 function showLevelSelection() {
     console.log("Showing level selection screen");
@@ -73,13 +113,18 @@ function showLevelSelection() {
     // Hide other containers
     questionContainer.classList.remove('active');
     completionContainer.classList.remove('active');
+    mainMenuContainer.classList.remove('active');
     progressBarContainer.style.display = 'none';
     
     // Show level selection
     levelSelectionContainer.classList.add('active');
     
-    // Update header
-    document.querySelector('header h1').textContent = 'Preposition Practice';
+    // Update header based on practice type
+    if (currentPracticeType === "prepositions") {
+        document.querySelector('header h1').textContent = 'Preposition Practice';
+    } else {
+        document.querySelector('header h1').textContent = 'Verb Tenses Practice';
+    }
     
     console.log("Level selection container display:", getComputedStyle(levelSelectionContainer).display);
 }
@@ -89,9 +134,14 @@ function startLevel(level) {
     console.log("Starting level:", level);
     currentLevel = level;
     
-    // Set the level title
-    let levelTitle = level === 'level1' ? 'Level 1' : 'Level 2';
-    document.querySelector('header h1').textContent = levelTitle;
+    // Set the title based on practice type and level
+    let title;
+    if (level === 'verbTenses1') {
+        title = 'Verb Tenses Practice';
+    } else {
+        title = level === 'level1' ? 'Level 1 Prepositions' : 'Level 2 Prepositions';
+    }
+    document.querySelector('header h1').textContent = title;
     
     // Initialize the practice data for this level
     practiceData = setLevel(level, 10);
@@ -107,13 +157,14 @@ function startLevel(level) {
     
     // Log quiz start event
     logEvent('quiz_started', {
-        quiz_type: 'preposition_practice',
+        quiz_type: currentPracticeType,
         quiz_level: level,
         total_questions: practiceData.length
     });
     
-    // Hide level selection, show question container
+    // Hide level selection and main menu, show question container
     levelSelectionContainer.classList.remove('active');
+    mainMenuContainer.classList.remove('active');
     questionContainer.classList.add('active');
     progressBarContainer.style.display = 'flex';
     
@@ -224,7 +275,7 @@ function selectOption(option) {
     
     // Log answer event
     logEvent('question_answered', {
-        quiz_type: 'preposition_practice',
+        quiz_type: currentPracticeType,
         quiz_level: currentLevel,
         question_index: currentQuestionIndex,
         selected_option: option,
@@ -253,52 +304,49 @@ function goToNextQuestion() {
 
 // Update progress bar
 function updateProgress() {
-    const progress = ((currentQuestionIndex) / practiceData.length) * 100;
+    const progress = (currentQuestionIndex / practiceData.length) * 100;
     progressFill.style.width = `${progress}%`;
     progressText.textContent = `${currentQuestionIndex + 1}/${practiceData.length}`;
 }
 
 // Show completion screen
 function showCompletion() {
-    console.log("Showing completion screen");
-    
-    // Calculate quiz duration
-    const quizEndTime = new Date();
-    const quizDurationSeconds = Math.floor((quizEndTime - quizStartTime) / 1000);
-    
-    // Update final score
-    finalScoreElement.textContent = `${score}/${practiceData.length}`;
+    // Calculate final score
+    const finalScore = Math.round((score / practiceData.length) * 100);
+    finalScoreElement.textContent = `${finalScore}%`;
     
     // Hide question container, show completion
     questionContainer.classList.remove('active');
     completionContainer.classList.add('active');
     
-    console.log("Completion container display:", getComputedStyle(completionContainer).display);
+    // Log quiz completion
+    const quizEndTime = new Date();
+    const quizDuration = Math.round((quizEndTime - quizStartTime) / 1000); // in seconds
     
-    // Log quiz completion event
     logEvent('quiz_completed', {
-        quiz_type: 'preposition_practice',
+        quiz_type: currentPracticeType,
         quiz_level: currentLevel,
+        score: finalScore,
+        duration_seconds: quizDuration,
         total_questions: practiceData.length,
-        correct_answers: score,
-        accuracy_percentage: Math.round((score / practiceData.length) * 100),
-        duration_seconds: quizDurationSeconds,
-        first_attempt_accuracy: Math.round((firstAttempts.filter(Boolean).length / firstAttempts.length) * 100)
+        correct_answers: score
     });
 }
 
 // Restart practice
 function restartPractice() {
-    // Start the same level again
     startLevel(currentLevel);
 }
 
-// Log events to Firebase Analytics if available
+// Log events to Firebase Analytics
 function logEvent(eventName, eventParams) {
-    if (window.firebase && firebase.analytics) {
-        firebase.analytics().logEvent(eventName, eventParams);
+    if (window.firebase && window.firebase.analytics) {
+        window.firebase.analytics().logEvent(eventName, eventParams);
+        console.log('Logged event:', eventName, eventParams);
+    } else {
+        console.log('Analytics not available. Event:', eventName, eventParams);
     }
 }
 
-// Initialize the app when DOM is loaded
+// Initialize the app when the DOM is loaded
 document.addEventListener('DOMContentLoaded', initApp);

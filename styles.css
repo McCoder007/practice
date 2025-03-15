@@ -312,16 +312,85 @@ header h1 {
     color: #6c757d;
 }
 
-/* Hide elements by default */
-#questionContainer, #completionContainer, #levelSelectionContainer {
+/* Main Menu Styles */
+.main-menu-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.main-menu-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.practice-type-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.practice-type-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 2px solid #e9ecef;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.practice-type-btn:hover, .practice-type-btn:focus {
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+    transform: translateY(-2px);
+}
+
+.practice-type {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #3498db;
+}
+
+.practice-description {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.back-btn {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: 15px;
+}
+
+.back-btn:hover, .back-btn:focus {
+    background-color: #e9ecef;
+    color: #495057;
+}
+
+/* Update existing selectors to include main menu */
+#questionContainer, #completionContainer, #levelSelectionContainer, #mainMenuContainer {
     display: none;
 }
 
-/* Show elements when active */
-#questionContainer.active, #completionContainer.active, #levelSelectionContainer.active {
+#questionContainer.active, #completionContainer.active, #levelSelectionContainer.active, #mainMenuContainer.active {
     display: flex;
-    flex-direction: column;
-    flex-grow: 1;
 }
 
 /* Adjust completion container for new layout */

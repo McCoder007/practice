@@ -10,6 +10,8 @@ function getRandomQuestions(level, totalQuestions) {
         allQuestions = [...level1Data];
     } else if (level === 'level2') {
         allQuestions = [...level2Data];
+    } else if (level === 'verbTenses1') {
+        allQuestions = [...verbTensesData];
     } else {
         console.error('Invalid level:', level);
         return [];
