@@ -6,4 +6,6 @@ const appConfig = {
     
     // Default voice for TTS
     defaultVoice: 'en-US-Neural2-D'
+    
+    // This comment was added to trigger a new workflow run
 }; 
