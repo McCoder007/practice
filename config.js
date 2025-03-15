@@ -5,7 +5,7 @@ const appConfig = {
     googleTtsApiKey: '__GOOGLE_TTS_API_KEY__',
     
     // Default voice for TTS
-    defaultVoice: 'en-US-Neural2-D'
+    defaultVoice: 'en-US-Neural2-D',
     
     // This comment was added to trigger a new workflow run
 }; 
