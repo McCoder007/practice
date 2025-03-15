@@ -25,6 +25,7 @@ const restartBtn = document.getElementById('restartBtn');
 const backToLevelsBtn = document.getElementById('backToLevelsBtn');
 const backToMainMenuBtn = document.getElementById('backToMainMenuBtn');
 const backToMainBtn = document.getElementById('backToMainBtn');
+const quizBackBtn = document.getElementById('quizBackBtn');
 const playLineABtn = document.getElementById('playLineA');
 const playLineBBtn = document.getElementById('playLineB');
 const level1Btn = document.getElementById('level1Btn');
@@ -32,6 +33,9 @@ const level2Btn = document.getElementById('level2Btn');
 const prepositionsBtn = document.getElementById('prepositionsBtn');
 const verbTensesBtn = document.getElementById('verbTensesBtn');
 const progressBarContainer = document.getElementById('progressBarContainer');
+const confirmModal = document.getElementById('confirmModal');
+const confirmExitBtn = document.getElementById('confirmExitBtn');
+const cancelExitBtn = document.getElementById('cancelExitBtn');
 
 // Initialize the application
 function initApp() {
@@ -85,6 +89,18 @@ function initApp() {
     backToLevelsBtn.addEventListener('click', showLevelSelection);
     backToMainMenuBtn.addEventListener('click', showMainMenu);
     backToMainBtn.addEventListener('click', showMainMenu);
+    quizBackBtn.addEventListener('click', handleQuizBackButton);
+    
+    // Modal event listeners
+    confirmExitBtn.addEventListener('click', confirmExit);
+    cancelExitBtn.addEventListener('click', cancelExit);
+    
+    // Close modal when clicking outside
+    confirmModal.addEventListener('click', function(e) {
+        if (e.target === confirmModal) {
+            hideModal();
+        }
+    });
     
     // TTS play buttons
     playLineABtn.addEventListener('click', () => {
@@ -118,6 +134,9 @@ function showMainMenu() {
     // Update header
     document.querySelector('header h1').textContent = 'ESL Practice';
     
+    // Hide back button in header
+    quizBackBtn.style.display = 'none';
+    
     console.log("Main menu container display:", getComputedStyle(mainMenuContainer).display);
 }
 
@@ -140,6 +159,9 @@ function showLevelSelection() {
     } else {
         document.querySelector('header h1').textContent = 'Verb Tenses Practice';
     }
+    
+    // Hide back button in header
+    quizBackBtn.style.display = 'none';
     
     console.log("Level selection container display:", getComputedStyle(levelSelectionContainer).display);
 }
@@ -170,6 +192,21 @@ function startLevel(level) {
     quizStartTime = new Date();
     firstAttempts = new Array(practiceData.length).fill(null);
     
+    // Clear options container explicitly
+    optionsContainer.innerHTML = '';
+    
+    // Reset any selected options and answer blanks
+    const selectedButtons = document.querySelectorAll('.option-btn.selected');
+    selectedButtons.forEach(button => {
+        button.classList.remove('selected');
+    });
+    
+    const answerBlanks = document.querySelectorAll('.answer-blank');
+    answerBlanks.forEach(blank => {
+        blank.textContent = '';
+        blank.classList.remove('correct', 'incorrect');
+    });
+    
     // Log quiz start event
     logEvent('quiz_started', {
         quiz_type: currentPracticeType,
@@ -180,8 +217,12 @@ function startLevel(level) {
     // Hide level selection and main menu, show question container
     levelSelectionContainer.classList.remove('active');
     mainMenuContainer.classList.remove('active');
+    completionContainer.classList.remove('active');
     questionContainer.classList.add('active');
     progressBarContainer.style.display = 'flex';
+    
+    // Show back button in header
+    quizBackBtn.style.display = 'block';
     
     console.log("Question container display:", getComputedStyle(questionContainer).display);
     
@@ -307,6 +348,12 @@ function selectOption(option) {
 
 // Go to next question
 function goToNextQuestion() {
+    // Hide next button
+    nextBtn.classList.remove('visible');
+    
+    // Clear options container explicitly
+    optionsContainer.innerHTML = '';
+    
     currentQuestionIndex++;
     
     if (currentQuestionIndex < practiceData.length) {
@@ -335,6 +382,9 @@ function showCompletion() {
     progressBarContainer.style.display = 'none';
     completionContainer.classList.add('active');
     
+    // Hide back button in header
+    quizBackBtn.style.display = 'none';
+    
     // Log quiz completion
     const quizEndTime = new Date();
     const quizDuration = Math.round((quizEndTime - quizStartTime) / 1000); // in seconds
@@ -351,7 +401,69 @@ function showCompletion() {
 
 // Restart practice
 function restartPractice() {
+    // Clear options container explicitly
+    optionsContainer.innerHTML = '';
+    
+    // Reset any selected options
+    const selectedButtons = document.querySelectorAll('.option-btn.selected');
+    selectedButtons.forEach(button => {
+        button.classList.remove('selected');
+    });
+    
+    // Clear any answer blanks
+    const answerBlanks = document.querySelectorAll('.answer-blank');
+    answerBlanks.forEach(blank => {
+        blank.textContent = '';
+        blank.classList.remove('correct', 'incorrect');
+    });
+    
+    // Hide completion container
+    completionContainer.classList.remove('active');
+    
+    // Start the level again
     startLevel(currentLevel);
+}
+
+// Handle quiz back button
+function handleQuizBackButton() {
+    // Show custom confirmation modal
+    showModal();
+}
+
+// Show custom confirmation modal
+function showModal() {
+    confirmModal.classList.add('active');
+}
+
+// Hide custom confirmation modal
+function hideModal() {
+    confirmModal.classList.remove('active');
+}
+
+// Confirm exit from quiz
+function confirmExit() {
+    hideModal();
+    
+    // Log the exit event
+    logEvent('quiz_exited', {
+        quiz_type: currentPracticeType,
+        quiz_level: currentLevel,
+        question_index: currentQuestionIndex,
+        questions_answered: totalQuestionsAnswered,
+        correct_answers: totalCorrectAnswers
+    });
+    
+    // Return to appropriate screen based on practice type
+    if (currentPracticeType === "prepositions") {
+        showLevelSelection();
+    } else {
+        showMainMenu();
+    }
+}
+
+// Cancel exit from quiz
+function cancelExit() {
+    hideModal();
 }
 
 // Log events to Firebase Analytics
