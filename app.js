@@ -37,6 +37,17 @@ const progressBarContainer = document.getElementById('progressBarContainer');
 function initApp() {
     console.log("Initializing app...");
     
+    // Test log for device information
+    const deviceInfo = {
+        userAgent: navigator.userAgent,
+        platform: navigator.platform,
+        screenWidth: window.screen.width,
+        screenHeight: window.screen.height,
+        devicePixelRatio: window.devicePixelRatio,
+        isMobile: /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
+    };
+    console.log("Device Information:", deviceInfo);
+    
     // Show main menu screen
     showMainMenu();
     
@@ -44,12 +55,16 @@ function initApp() {
     prepositionsBtn.addEventListener('click', function() {
         console.log("Prepositions button clicked");
         currentPracticeType = "prepositions";
+        // Test event log
+        logEvent('test_button_click', { button_type: 'prepositions' });
         showLevelSelection();
     });
     
     verbTensesBtn.addEventListener('click', function() {
         console.log("Verb Tenses button clicked");
         currentPracticeType = "verbTenses";
+        // Test event log
+        logEvent('test_button_click', { button_type: 'verb_tenses' });
         startLevel('verbTenses1');
     });
     
@@ -350,6 +365,9 @@ function logEvent(eventName, eventParams) {
         devicePixelRatio: window.devicePixelRatio,
         isMobile: /iPhone|iPad|iPod|Android/i.test(navigator.userAgent)
     };
+    
+    // Log device info separately for debugging
+    console.log("Device Info for logging:", deviceInfo);
     
     // Add device info to event parameters
     const paramsWithDevice = {
