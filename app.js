@@ -191,6 +191,13 @@ function selectOption(option) {
     
     // Update UI to show correct/incorrect
     const optionBtns = optionsContainer.querySelectorAll('.option-btn');
+    
+    // First, remove 'selected' class from all buttons
+    optionBtns.forEach(btn => {
+        btn.classList.remove('selected');
+    });
+    
+    // Then, add 'selected' class only to the current button
     optionBtns.forEach(btn => {
         // If this is the selected button
         if (btn.textContent === option) {
