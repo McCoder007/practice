@@ -808,11 +808,11 @@ function getRandomQuestions(level, totalQuestions) {
 
 // Initialize with level 1 by default
 let practiceData = [];
-let currentLevel = "level1";
 
 // This will be set by the app.js when a level is selected
 function setLevel(level, questionsCount = 10) {
-    currentLevel = level;
+    // Use the currentLevel from app.js
+    window.currentLevel = level;
     practiceData = getRandomQuestions(level, questionsCount);
     return practiceData;
 }
