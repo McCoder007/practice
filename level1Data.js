@@ -18,19 +18,19 @@ const level1Data = [
     {
         lineA: "I live {{blank}} a small house.",
         lineB: "Is it near the park?",
-        options: ["on", "at", "in"],
+        options: ["on", "with", "in"],
         correct: "in"
     },
     {
         lineA: "I go to school {{blank}} bus.",
         lineB: "I walk to school.",
-        options: ["with", "by", "on"],
+        options: ["with", "by", "at"],
         correct: "by"
     },
     {
         lineA: "What do you have {{blank}} your bag?",
         lineB: "I have my lunch and some books.",
-        options: ["in", "on", "at"],
+        options: ["in", "with", "at"],
         correct: "in"
     },
     {
@@ -42,7 +42,7 @@ const level1Data = [
     {
         lineA: "The store is {{blank}} Main Street.",
         lineB: "Thank you. I'll find it.",
-        options: ["on", "in", "at"],
+        options: ["on", "in", "with"],
         correct: "on"
     },
     {
@@ -54,7 +54,7 @@ const level1Data = [
     {
         lineA: "She works {{blank}} a hospital.",
         lineB: "That's a good job.",
-        options: ["at", "on", "in"],
+        options: ["at", "on", "with"],
         correct: "at"
     },
     {
@@ -92,25 +92,25 @@ const level1Data = [
     {
         lineA: "I'm waiting {{blank}} the bus stop.",
         lineB: "The bus should arrive soon.",
-        options: ["at", "on", "in"],
+        options: ["at", "with", "in"],
         correct: "at"
     },
     {
         lineA: "There's a picture {{blank}} the wall.",
         lineB: "Yes, it's very beautiful.",
-        options: ["on", "in", "at"],
+        options: ["on", "in", "with"],
         correct: "on"
     },
     {
         lineA: "I'll see you {{blank}} the weekend.",
         lineB: "Great! I'm looking forward to it.",
-        options: ["on", "at", "in"],
+        options: ["on", "with", "in"],
         correct: "on"
     },
     {
         lineA: "She arrived {{blank}} time for the meeting.",
         lineB: "Yes, she's always punctual.",
-        options: ["in", "on", "at"],
+        options: ["in", "with", "at"],
         correct: "in"
     },
     {
@@ -130,7 +130,7 @@ const level1Data = [
     {
         lineA: "Where is your pen?",
         lineB: "It's {{blank}} my desk.",
-        options: ["on", "in", "at"],
+        options: ["on", "with", "at"],
         correct: "on"
     },
     {
@@ -148,37 +148,37 @@ const level1Data = [
     {
         lineA: "How do you go to work?",
         lineB: "I go {{blank}} train.",
-        options: ["with", "by", "on"],
+        options: ["with", "by", "at"],
         correct: "by"
     },
     {
         lineA: "Where are your glasses?",
         lineB: "They're {{blank}} my bag.",
-        options: ["in", "on", "at"],
+        options: ["in", "with", "at"],
         correct: "in"
     },
     {
         lineA: "When is your birthday?",
         lineB: "It's {{blank}} May 15th.",
-        options: ["in", "on", "at"],
+        options: ["in", "on", "with"],
         correct: "on"
     },
     {
         lineA: "Where is the library?",
         lineB: "It's {{blank}} First Avenue.",
-        options: ["on", "in", "at"],
+        options: ["on", "in", "with"],
         correct: "on"
     },
     {
         lineA: "Where did you learn English?",
         lineB: "I learned it {{blank}} high school.",
-        options: ["at", "on", "in"],
+        options: ["with", "on", "in"],
         correct: "in"
     },
     {
         lineA: "Where does your sister work?",
         lineB: "She works {{blank}} a bank.",
-        options: ["at", "on", "in"],
+        options: ["at", "on", "with"],
         correct: "at"
     },
     {
@@ -192,20 +192,14 @@ const level1Data = [
     {
         lineA: "The cat is {{blank}} the sofa.",
         lineB: "She looks very comfortable.",
-        options: ["on", "at", "in"],
+        options: ["on", "at", "with"],
         correct: "on"
     },
     {
         lineA: "My birthday is {{blank}} December.",
         lineB: "That's a nice time for a birthday.",
-        options: ["in", "on", "at"],
+        options: ["in", "with", "at"],
         correct: "in"
-    },
-    {
-        lineA: "The coffee shop is {{blank}} the bookstore.",
-        lineB: "I'll meet you there.",
-        options: ["next to", "behind", "across from"],
-        correct: "next to"
     },
     {
         lineA: "I'll call you {{blank}} 6 o'clock.",
@@ -216,13 +210,13 @@ const level1Data = [
     {
         lineA: "The dog is sleeping {{blank}} its bed.",
         lineB: "It looks very peaceful.",
-        options: ["in", "on", "at"],
+        options: ["in", "with", "at"],
         correct: "in"
     },
     {
         lineA: "There's a fly {{blank}} the ceiling.",
         lineB: "I see it too.",
-        options: ["on", "in", "at"],
+        options: ["on", "with", "at"],
         correct: "on"
     },
     {
@@ -234,7 +228,7 @@ const level1Data = [
     {
         lineA: "She lives {{blank}} an apartment.",
         lineB: "Is it a nice place?",
-        options: ["in", "on", "at"],
+        options: ["in", "on", "with"],
         correct: "in"
     },
     {
@@ -246,7 +240,7 @@ const level1Data = [
     {
         lineA: "The children are playing {{blank}} the park.",
         lineB: "They seem to be having fun.",
-        options: ["in", "on", "at"],
+        options: ["in", "on", "with"],
         correct: "in"
     },
     
@@ -254,37 +248,37 @@ const level1Data = [
     {
         lineA: "Where did you put my book?",
         lineB: "It's {{blank}} the shelf.",
-        options: ["on", "in", "at"],
+        options: ["on", "with", "at"],
         correct: "on"
     },
     {
         lineA: "When is the concert?",
         lineB: "It's {{blank}} Friday evening.",
-        options: ["on", "in", "at"],
+        options: ["on", "in", "with"],
         correct: "on"
     },
     {
         lineA: "Where are the children?",
         lineB: "They're playing {{blank}} the garden.",
-        options: ["in", "on", "at"],
+        options: ["in", "on", "with"],
         correct: "in"
     },
     {
         lineA: "How do you travel to school?",
         lineB: "I usually go {{blank}} car.",
-        options: ["with", "by", "in"],
+        options: ["with", "by", "at"],
         correct: "by"
     },
     {
         lineA: "Where is the milk?",
         lineB: "It's {{blank}} the refrigerator.",
-        options: ["in", "on", "at"],
+        options: ["in", "with", "at"],
         correct: "in"
     },
     {
         lineA: "When is your appointment?",
         lineB: "It's {{blank}} 10:30.",
-        options: ["in", "at", "on"],
+        options: ["with", "at", "on"],
         correct: "at"
     },
     {
@@ -294,15 +288,9 @@ const level1Data = [
         correct: "on"
     },
     {
-        lineA: "Where did you study?",
-        lineB: "I studied {{blank}} university.",
-        options: ["at", "on", "in"],
-        correct: "at"
-    },
-    {
         lineA: "Where does John work?",
         lineB: "He works {{blank}} a restaurant.",
-        options: ["at", "on", "in"],
+        options: ["with", "on", "in"],
         correct: "in"
     },
     {
@@ -316,7 +304,7 @@ const level1Data = [
     {
         lineA: "The pen is {{blank}} the desk.",
         lineB: "I need it to write a note.",
-        options: ["on", "in", "at"],
+        options: ["on", "with", "at"],
         correct: "on"
     },
     {
@@ -328,7 +316,7 @@ const level1Data = [
     {
         lineA: "They live {{blank}} New York.",
         lineB: "That's a big city.",
-        options: ["in", "on", "at"],
+        options: ["in", "on", "with"],
         correct: "in"
     },
     {
@@ -338,21 +326,15 @@ const level1Data = [
         correct: "by"
     },
     {
-        lineA: "The money is {{blank}} my wallet.",
-        lineB: "How much do you have?",
-        options: ["in", "on", "at"],
-        correct: "in"
-    },
-    {
         lineA: "The exam is {{blank}} June 10th.",
         lineB: "I need to study more.",
-        options: ["on", "in", "at"],
+        options: ["on", "in", "with"],
         correct: "on"
     },
     {
         lineA: "The bank is {{blank}} Fifth Avenue.",
         lineB: "Is it far from here?",
-        options: ["on", "in", "at"],
+        options: ["on", "in", "with"],
         correct: "on"
     },
     {
@@ -364,7 +346,7 @@ const level1Data = [
     {
         lineA: "He works {{blank}} an office.",
         lineB: "Does he like his job?",
-        options: ["in", "at", "on"],
+        options: ["in", "with", "on"],
         correct: "in"
     },
     {
@@ -378,7 +360,7 @@ const level1Data = [
     {
         lineA: "Where are your shoes?",
         lineB: "They're {{blank}} the closet.",
-        options: ["in", "on", "at"],
+        options: ["in", "with", "at"],
         correct: "in"
     },
     {
@@ -390,43 +372,31 @@ const level1Data = [
     {
         lineA: "Where does your cousin live?",
         lineB: "She lives {{blank}} Canada.",
-        options: ["in", "on", "at"],
+        options: ["in", "on", "with"],
         correct: "in"
-    },
-    {
-        lineA: "How did you get here?",
-        lineB: "I came {{blank}} taxi.",
-        options: ["by", "with", "in"],
-        correct: "by"
-    },
-    {
-        lineA: "Where is the remote control?",
-        lineB: "It's {{blank}} the table.",
-        options: ["on", "in", "at"],
-        correct: "on"
     },
     {
         lineA: "When is the party?",
         lineB: "It's {{blank}} Saturday night.",
-        options: ["on", "in", "at"],
+        options: ["on", "in", "with"],
         correct: "on"
     },
     {
         lineA: "Where is the supermarket?",
         lineB: "It's {{blank}} Park Street.",
-        options: ["on", "in", "at"],
+        options: ["on", "in", "with"],
         correct: "on"
     },
     {
         lineA: "Where do you eat lunch?",
         lineB: "I usually eat {{blank}} the cafeteria.",
-        options: ["in", "on", "at"],
+        options: ["in", "on", "with"],
         correct: "in"
     },
     {
         lineA: "Where does your father work?",
         lineB: "He works {{blank}} a factory.",
-        options: ["in", "at", "on"],
+        options: ["in", "with", "on"],
         correct: "in"
     },
     {
@@ -440,7 +410,7 @@ const level1Data = [
     {
         lineA: "The flowers are {{blank}} the vase.",
         lineB: "They look beautiful.",
-        options: ["in", "on", "at"],
+        options: ["in", "with", "at"],
         correct: "in"
     },
     {
@@ -456,19 +426,13 @@ const level1Data = [
         correct: "in"
     },
     {
-        lineA: "She came {{blank}} bicycle.",
-        lineB: "That's good exercise.",
-        options: ["by", "with", "on"],
-        correct: "by"
-    },
-    {
         lineA: "The key is {{blank}} my pocket.",
         lineB: "Are you sure?",
-        options: ["in", "on", "at"],
+        options: ["in", "with", "at"],
         correct: "in"
     },
     {
-        lineA: "My birthday is {{blank}} August 21st.",
+        lineA: "My birthday is {{blank}} October 18th.",
         lineB: "I'll remember that.",
         options: ["on", "in", "at"],
         correct: "on"
@@ -476,19 +440,13 @@ const level1Data = [
     {
         lineA: "The hotel is {{blank}} Ocean Drive.",
         lineB: "That's a nice location.",
-        options: ["on", "in", "at"],
+        options: ["on", "in", "with"],
         correct: "on"
-    },
-    {
-        lineA: "I work {{blank}} a school.",
-        lineB: "Do you like teaching?",
-        options: ["at", "in", "on"],
-        correct: "at"
     },
     {
         lineA: "She's {{blank}} the kitchen.",
         lineB: "Is she cooking dinner?",
-        options: ["in", "at", "on"],
+        options: ["in", "with", "on"],
         correct: "in"
     },
     {
@@ -502,7 +460,7 @@ const level1Data = [
     {
         lineA: "Where did you leave your jacket?",
         lineB: "I left it {{blank}} the chair.",
-        options: ["on", "in", "at"],
+        options: ["on", "in", "with"],
         correct: "on"
     },
     {
@@ -514,19 +472,19 @@ const level1Data = [
     {
         lineA: "Where are the students?",
         lineB: "They're {{blank}} the classroom.",
-        options: ["in", "on", "at"],
+        options: ["in", "on", "with"],
         correct: "in"
     },
     {
         lineA: "How did she get to the airport?",
         lineB: "She went {{blank}} bus.",
-        options: ["by", "with", "in"],
+        options: ["by", "with", "at"],
         correct: "by"
     },
     {
         lineA: "Where are my glasses?",
         lineB: "They're {{blank}} your head!",
-        options: ["on", "in", "at"],
+        options: ["on", "in", "with"],
         correct: "on"
     },
     {
@@ -544,7 +502,7 @@ const level1Data = [
     {
         lineA: "Where do you study?",
         lineB: "I study {{blank}} the library.",
-        options: ["in", "at", "on"],
+        options: ["in", "with", "on"],
         correct: "in"
     },
     {
@@ -552,11 +510,5 @@ const level1Data = [
         lineB: "She's {{blank}} work right now.",
         options: ["at", "in", "on"],
         correct: "at"
-    },
-    {
-        lineA: "When is the next holiday?",
-        lineB: "It's {{blank}} next month.",
-        options: ["in", "on", "at"],
-        correct: "in"
     }
 ]; 
