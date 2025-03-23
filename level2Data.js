@@ -30,19 +30,19 @@ const level2Data = [
     {
         lineA: "She's good {{blank}} playing the piano.",
         lineB: "Yes, she practices every day.",
-        options: ["at", "in", "with"],
+        options: ["at", "in", "on"],
         correct: "at"
     },
     {
         lineA: "I'm tired {{blank}} waiting.",
         lineB: "Just a few more minutes, please.",
-        options: ["of", "from", "with"],
+        options: ["of", "at", "with"],
         correct: "of"
     },
     {
         lineA: "He's talking {{blank}} his friend on the phone.",
         lineB: "They seem to be having a good conversation.",
-        options: ["to", "with", "at"],
+        options: ["to", "on", "at"],
         correct: "to"
     },
     {
@@ -54,7 +54,7 @@ const level2Data = [
     {
         lineA: "She's worried {{blank}} her exam tomorrow.",
         lineB: "Tell her not to worry too much.",
-        options: ["about", "for", "of"],
+        options: ["about", "on", "of"],
         correct: "about"
     },
     {
@@ -68,49 +68,49 @@ const level2Data = [
     {
         lineA: "She's writing {{blank}} a pen in her notebook.",
         lineB: "I prefer to use pencils.",
-        options: ["with", "by", "in"],
+        options: ["with", "at", "in"],
         correct: "with"
     },
     {
         lineA: "He's talking {{blank}} the phone with his mother.",
         lineB: "I'll wait until he finishes.",
-        options: ["on", "in", "at"],
+        options: ["on", "in", "with"],
         correct: "on"
     },
     {
         lineA: "I'm sorry {{blank}} being late to the meeting.",
         lineB: "That's okay. We just started.",
-        options: ["for", "about", "of"],
+        options: ["for", "on", "of"],
         correct: "for"
     },
     {
         lineA: "He's excited {{blank}} the party this weekend.",
         lineB: "It's going to be fun.",
-        options: ["about", "for", "on"],
+        options: ["about", "at", "on"],
         correct: "about"
     },
     {
         lineA: "I'm happy {{blank}} your success in the competition.",
         lineB: "Thank you for your support.",
-        options: ["about", "for", "with"],
+        options: ["about", "on", "at"],
         correct: "about"
     },
     {
         lineA: "She's angry {{blank}} her brother for breaking her toy.",
         lineB: "What did he do?",
-        options: ["with", "to", "at"],
+        options: ["with", "to", "on"],
         correct: "with"
     },
     {
         lineA: "I'm proud {{blank}} you for passing the test.",
         lineB: "Thank you. That means a lot to me.",
-        options: ["of", "for", "with"],
+        options: ["of", "for", "at"],
         correct: "of"
     },
     {
         lineA: "She's good {{blank}} math and science.",
         lineB: "Yes, she always gets good grades.",
-        options: ["at", "in", "with"],
+        options: ["at", "in", "on"],
         correct: "at"
     },
     {
@@ -122,7 +122,7 @@ const level2Data = [
     {
         lineA: "She's writing {{blank}} her diary every night.",
         lineB: "Does she write in it every day?",
-        options: ["in", "on", "at"],
+        options: ["in", "with", "at"],
         correct: "in"
     },
     
@@ -142,31 +142,31 @@ const level2Data = [
     {
         lineA: "Why doesn't Tom like swimming?",
         lineB: "He's scared {{blank}} deep water.",
-        options: ["of", "from", "about"],
+        options: ["of", "on", "about"],
         correct: "of"
     },
     {
         lineA: "What's your favorite hobby?",
         lineB: "I'm really interested {{blank}} photography.",
-        options: ["in", "on", "with"],
+        options: ["in", "on", "at"],
         correct: "in"
     },
     {
         lineA: "Does your sister play sports?",
         lineB: "Yes, she's very good {{blank}} tennis.",
-        options: ["at", "in", "with"],
+        options: ["at", "in", "on"],
         correct: "at"
     },
     {
         lineA: "Why do you want to leave early?",
         lineB: "I'm tired {{blank}} studying all day.",
-        options: ["of", "from", "with"],
+        options: ["of", "at", "with"],
         correct: "of"
     },
     {
         lineA: "Who is Sarah calling?",
         lineB: "She's speaking {{blank}} her mother right now.",
-        options: ["to", "with", "at"],
+        options: ["to", "on", "at"],
         correct: "to"
     },
     {
@@ -178,7 +178,7 @@ const level2Data = [
     {
         lineA: "Why does Emma look stressed?",
         lineB: "She's worried {{blank}} her job interview tomorrow.",
-        options: ["about", "for", "of"],
+        options: ["about", "on", "of"],
         correct: "about"
     },
     {
@@ -198,7 +198,7 @@ const level2Data = [
     {
         lineA: "The restaurant specializes {{blank}} Italian food.",
         lineB: "Their pasta dishes are delicious.",
-        options: ["in", "with", "on"],
+        options: ["in", "at", "on"],
         correct: "in"
     },
     {
@@ -210,43 +210,43 @@ const level2Data = [
     {
         lineA: "We're meeting {{blank}} the coffee shop at 3pm.",
         lineB: "I'll be there on time.",
-        options: ["at", "in", "on"],
+        options: ["at", "with", "on"],
         correct: "at"
     },
     {
         lineA: "She's interested {{blank}} photography as a hobby.",
         lineB: "Her pictures are really beautiful.",
-        options: ["in", "about", "for"],
+        options: ["in", "on", "for"],
         correct: "in"
     },
     {
         lineA: "I'm responsible {{blank}} feeding the dog every morning.",
         lineB: "What time do you feed it?",
-        options: ["for", "of", "with"],
+        options: ["for", "of", "at"],
         correct: "for"
     },
     {
         lineA: "He's allergic {{blank}} peanuts and shellfish.",
         lineB: "That must be difficult when eating out.",
-        options: ["to", "for", "with"],
+        options: ["to", "for", "at"],
         correct: "to"
     },
     {
         lineA: "She's nervous {{blank}} her presentation tomorrow.",
         lineB: "I'm sure she'll do great.",
-        options: ["about", "for", "of"],
+        options: ["about", "at", "of"],
         correct: "about"
     },
     {
         lineA: "I'm familiar {{blank}} that neighborhood.",
         lineB: "Have you lived there before?",
-        options: ["with", "to", "about"],
+        options: ["with", "to", "on"],
         correct: "with"
     },
     {
         lineA: "They're excited {{blank}} their vacation next week.",
         lineB: "Where are they going?",
-        options: ["about", "for", "with"],
+        options: ["about", "on", "with"],
         correct: "about"
     },
     
@@ -254,19 +254,19 @@ const level2Data = [
     {
         lineA: "Why did you miss the meeting?",
         lineB: "I apologize {{blank}} not being there.",
-        options: ["for", "about", "of"],
+        options: ["for", "on", "of"],
         correct: "for"
     },
     {
         lineA: "How does Sarah get to work?",
         lineB: "She usually travels {{blank}} train.",
-        options: ["by", "with", "in"],
+        options: ["by", "at", "in"],
         correct: "by"
     },
     {
         lineA: "What happened to your project?",
         lineB: "I'm not satisfied {{blank}} the results.",
-        options: ["with", "about", "for"],
+        options: ["with", "on", "for"],
         correct: "with"
     },
     {
@@ -278,25 +278,25 @@ const level2Data = [
     {
         lineA: "What's wrong with your computer?",
         lineB: "It's infected {{blank}} a virus.",
-        options: ["with", "by", "from"],
+        options: ["with", "on", "from"],
         correct: "with"
     },
     {
         lineA: "Why is Lisa so happy today?",
         lineB: "She's excited {{blank}} her birthday party.",
-        options: ["about", "for", "with"],
+        options: ["about", "at", "with"],
         correct: "about"
     },
     {
         lineA: "What are you doing with that book?",
         lineB: "I'm looking {{blank}} some information.",
-        options: ["for", "at", "to"],
+        options: ["for", "on", "to"],
         correct: "for"
     },
     {
         lineA: "Why is David wearing a suit?",
         lineB: "He's going {{blank}} a job interview.",
-        options: ["to", "for", "at"],
+        options: ["to", "in", "at"],
         correct: "to"
     },
     {
@@ -308,7 +308,7 @@ const level2Data = [
     {
         lineA: "Why are you studying Spanish?",
         lineB: "I'm interested {{blank}} Latin American culture.",
-        options: ["in", "about", "for"],
+        options: ["in", "on", "for"],
         correct: "in"
     },
     
@@ -316,61 +316,61 @@ const level2Data = [
     {
         lineA: "I'm concerned {{blank}} the environment.",
         lineB: "We should all try to reduce waste.",
-        options: ["about", "for", "with"],
+        options: ["about", "in", "on"],
         correct: "about"
     },
     {
         lineA: "She's married {{blank}} a doctor.",
         lineB: "How long have they been married?",
-        options: ["to", "with", "for"],
+        options: ["to", "on", "for"],
         correct: "to"
     },
     {
         lineA: "I'm disappointed {{blank}} the movie.",
         lineB: "I thought it would be better too.",
-        options: ["with", "about", "for"],
+        options: ["with", "in", "for"],
         correct: "with"
     },
     {
         lineA: "He's famous {{blank}} his paintings.",
         lineB: "I've seen some of them in galleries.",
-        options: ["for", "with", "about"],
+        options: ["for", "on", "about"],
         correct: "for"
     },
     {
         lineA: "I'm confused {{blank}} these instructions.",
         lineB: "Let me help you understand them.",
-        options: ["by", "with", "about"],
+        options: ["by", "on", "in"],
         correct: "by"
     },
     {
         lineA: "She's pleased {{blank}} her test results.",
         lineB: "She studied very hard for that test.",
-        options: ["with", "about", "for"],
+        options: ["with", "on", "for"],
         correct: "with"
     },
     {
         lineA: "I'm surprised {{blank}} the news.",
         lineB: "Nobody expected that to happen.",
-        options: ["by", "with", "about"],
+        options: ["by", "on", "in"],
         correct: "by"
     },
     {
         lineA: "He's worried {{blank}} his health.",
         lineB: "He should see a doctor soon.",
-        options: ["about", "for", "with"],
+        options: ["about", "on", "in"],
         correct: "about"
     },
     {
         lineA: "I'm bored {{blank}} this TV show.",
         lineB: "Let's watch something else.",
-        options: ["with", "by", "about"],
+        options: ["with", "in", "about"],
         correct: "with"
     },
     {
         lineA: "She's annoyed {{blank}} her brother.",
         lineB: "What did he do this time?",
-        options: ["with", "by", "about"],
+        options: ["with", "in", "on"],
         correct: "with"
     },
     
@@ -378,123 +378,105 @@ const level2Data = [
     {
         lineA: "Why can't you come to the party?",
         lineB: "I'm busy {{blank}} my homework.",
-        options: ["with", "for", "about"],
+        options: ["with", "on", "about"],
         correct: "with"
     },
     {
         lineA: "What's wrong with your phone?",
         lineB: "It's running {{blank}} battery.",
-        options: ["out of", "low on", "without"],
+        options: ["out of", "in", "without"],
         correct: "out of"
     },
     {
         lineA: "Why are you studying so hard?",
         lineB: "I'm aiming {{blank}} a scholarship.",
-        options: ["for", "to", "at"],
+        options: ["for", "to", "on"],
         correct: "for"
     },
     {
         lineA: "What happened at the meeting?",
         lineB: "We agreed {{blank}} the new proposal.",
-        options: ["on", "with", "to"],
+        options: ["on", "in", "for"],
         correct: "on"
     },
     {
         lineA: "Why did you choose this university?",
         lineB: "I'm interested {{blank}} their science program.",
-        options: ["in", "about", "for"],
+        options: ["in", "on", "for"],
         correct: "in"
     },
     {
         lineA: "What's in that container?",
         lineB: "It's full {{blank}} water.",
-        options: ["of", "with", "by"],
+        options: ["of", "about", "by"],
         correct: "of"
     },
     {
         lineA: "Why are you wearing a coat?",
         lineB: "I'm sensitive {{blank}} cold weather.",
-        options: ["to", "with", "about"],
+        options: ["to", "on", "about"],
         correct: "to"
     },
     {
         lineA: "What are you doing with that camera?",
         lineB: "I'm taking photos {{blank}} the sunset.",
-        options: ["of", "about", "with"],
+        options: ["of", "in", "on"],
         correct: "of"
     },
     {
         lineA: "Why are you smiling?",
         lineB: "I'm happy {{blank}} the good news.",
-        options: ["about", "with", "for"],
+        options: ["about", "in", "on"],
         correct: "about"
     },
     {
         lineA: "What are you writing?",
         lineB: "I'm working {{blank}} my essay.",
-        options: ["on", "with", "at"],
+        options: ["on", "in", "at"],
         correct: "on"
     },
     
     // Section 8: Additional varied sentences
     {
-        lineA: "I'm dependent {{blank}} my parents for financial support.",
-        lineB: "Many students are in the same situation.",
-        options: ["on", "to", "with"],
-        correct: "on"
-    },
-    {
-        lineA: "She's different {{blank}} her sister.",
-        lineB: "Yes, they don't look alike at all.",
-        options: ["from", "than", "to"],
-        correct: "from"
-    },
-    {
-        lineA: "What are you looking {{blank}} in the newspaper?",
-        lineB: "I'm checking the movie times.",
-        options: ["for", "at", "on"],
-        correct: "for"
-    },
-    {
         lineA: "Why is Tom upset?",
         lineB: "He's angry {{blank}} me for using his computer.",
-        options: ["with", "at", "to"],
+        options: ["with", "in", "to"],
         correct: "with"
     },
     {
         lineA: "What are you doing this weekend?",
         lineB: "I'm going {{blank}} a concert with friends.",
-        options: ["to", "at", "for"],
+        options: ["to", "at", "on"],
         correct: "to"
     },
     {
         lineA: "Why did you choose that book?",
         lineB: "I'm interested {{blank}} the topic.",
-        options: ["in", "about", "for"],
+        options: ["in", "on", "for"],
         correct: "in"
     },
     {
         lineA: "How do you know Sarah?",
         lineB: "We worked {{blank}} the same company.",
-        options: ["for", "with", "at"],
+        options: ["for", "on", "about"],
         correct: "for"
     },
     {
         lineA: "What's wrong with your car?",
         lineB: "There's something wrong {{blank}} the engine.",
-        options: ["with", "in", "about"],
+        options: ["with", "for", "to"],
         correct: "with"
     },
     {
         lineA: "Why are you studying French?",
         lineB: "I'm planning to travel {{blank}} France next year.",
-        options: ["to", "in", "at"],
+        options: ["to", "about", "on"],
         correct: "to"
     },
     {
         lineA: "What are you doing with those tools?",
         lineB: "I'm fixing the problem {{blank}} my bicycle.",
-        options: ["with", "on", "at"],
+        options: ["with", "on", "about"],
         correct: "with"
     }
 ]; 
