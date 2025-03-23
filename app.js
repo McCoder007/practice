@@ -22,7 +22,6 @@ const completionContainer = document.getElementById('completionContainer');
 const levelSelectionContainer = document.getElementById('levelSelectionContainer');
 const mainMenuContainer = document.getElementById('mainMenuContainer');
 const restartBtn = document.getElementById('restartBtn');
-const backToLevelsBtn = document.getElementById('backToLevelsBtn');
 const backToMainMenuBtn = document.getElementById('backToMainMenuBtn');
 const backToMainBtn = document.getElementById('backToMainBtn');
 const quizBackBtn = document.getElementById('quizBackBtn');
@@ -86,7 +85,6 @@ function initApp() {
     // Event listeners
     nextBtn.addEventListener('click', goToNextQuestion);
     restartBtn.addEventListener('click', restartPractice);
-    backToLevelsBtn.addEventListener('click', showLevelSelection);
     backToMainMenuBtn.addEventListener('click', showMainMenu);
     backToMainBtn.addEventListener('click', showMainMenu);
     quizBackBtn.addEventListener('click', handleQuizBackButton);
