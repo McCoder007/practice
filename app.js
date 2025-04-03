@@ -28,7 +28,6 @@ const levelSelectionContainer = document.getElementById('levelSelectionContainer
 const mainMenuContainer = document.getElementById('mainMenuContainer');
 const vocabularyContainer = document.getElementById('vocabularyContainer');
 const daysSlider = document.getElementById('daysSlider');
-const dayIndicators = document.getElementById('dayIndicators');
 const currentDayDisplay = document.getElementById('currentDayDisplay');
 const prevDayBtn = document.getElementById('prevDayBtn');
 const nextDayBtn = document.getElementById('nextDayBtn');
@@ -560,7 +559,7 @@ function showVocabularyPractice() {
     // Load day panels
     loadDayPanels();
     
-    // Set up swipe detection
+    // Set up simplified navigation (no swipe detection)
     setupSwipeDetection();
     
     // Log event
@@ -621,18 +620,6 @@ function loadDayPanels() {
         // Load vocabulary for this day
         loadVocabularyForDay(day, panel);
     });
-    
-    // Add swipe hint to first day panel
-    if (availableDays.length > 1) {
-        const firstPanel = document.getElementById(`day-panel-${availableDays[0]}`);
-        const hint = document.createElement('div');
-        hint.className = 'swipe-hint';
-        hint.innerHTML = '<i class="fa-solid fa-arrow-left"></i> Swipe <i class="fa-solid fa-arrow-right"></i>';
-        firstPanel.appendChild(hint);
-    }
-    
-    // Update day indicators
-    updateDayIndicators();
     
     // Set initial position
     updateSliderPosition();
@@ -755,7 +742,6 @@ function updateDay() {
     updateDayDisplay();
     updateNavigationButtons();
     updateSliderPosition();
-    updateDayIndicators();
 }
 
 // Update the slider position
@@ -763,103 +749,10 @@ function updateSliderPosition() {
     daysSlider.style.transform = `translateX(-${currentDayIndex * 100}%)`;
 }
 
-// Update the day indicators
-function updateDayIndicators() {
-    // Clear existing indicators
-    dayIndicators.innerHTML = '';
-    
-    // Maximum number of indicators to show
-    const maxIndicators = 7;
-    
-    // Function to create an indicator
-    const createIndicator = (index, isActive = false, isEllipsis = false) => {
-        const indicator = document.createElement('div');
-        
-        if (isEllipsis) {
-            // Create ellipsis indicator
-            indicator.className = 'day-indicator ellipsis';
-            indicator.innerHTML = '...';
-            indicator.style.width = 'auto';
-            indicator.style.fontSize = '10px';
-            indicator.style.padding = '0 4px';
-        } else {
-            // Create regular indicator
-            indicator.className = 'day-indicator';
-            if (isActive) {
-                indicator.classList.add('active');
-            }
-            indicator.addEventListener('click', () => {
-                goToDay(index);
-            });
-        }
-        
-        return indicator;
-    };
-    
-    if (availableDays.length <= maxIndicators) {
-        // If we have a small number of days, show all indicators
-        availableDays.forEach((_, index) => {
-            const indicator = createIndicator(index, index === currentDayIndex);
-            dayIndicators.appendChild(indicator);
-        });
-    } else {
-        // For many days, show a subset with ellipsis
-        
-        // Always show first indicator
-        dayIndicators.appendChild(createIndicator(0, currentDayIndex === 0));
-        
-        // Calculate range around current day
-        const rangeStart = Math.max(1, currentDayIndex - 1);
-        const rangeEnd = Math.min(availableDays.length - 2, currentDayIndex + 1);
-        
-        // Add ellipsis before if needed
-        if (rangeStart > 1) {
-            dayIndicators.appendChild(createIndicator(null, false, true));
-        }
-        
-        // Add indicators around current position
-        for (let i = rangeStart; i <= rangeEnd; i++) {
-            dayIndicators.appendChild(createIndicator(i, i === currentDayIndex));
-        }
-        
-        // Add ellipsis after if needed
-        if (rangeEnd < availableDays.length - 2) {
-            dayIndicators.appendChild(createIndicator(null, false, true));
-        }
-        
-        // Always show last indicator
-        dayIndicators.appendChild(
-            createIndicator(availableDays.length - 1, currentDayIndex === availableDays.length - 1)
-        );
-    }
-}
-
-// Set up swipe detection for mobile
+// Set up simplified navigation (no swipe detection)
 function setupSwipeDetection() {
-    // Touch start event
-    daysSlider.addEventListener('touchstart', (e) => {
-        touchStartX = e.changedTouches[0].screenX;
-    }, { passive: true });
-    
-    // Touch end event
-    daysSlider.addEventListener('touchend', (e) => {
-        touchEndX = e.changedTouches[0].screenX;
-        handleSwipe();
-    }, { passive: true });
-}
-
-// Handle swipe gesture
-function handleSwipe() {
-    const threshold = 50; // Minimum swipe distance
-    const swipeDistance = touchEndX - touchStartX;
-    
-    if (swipeDistance > threshold) {
-        // Swipe right, go to previous day
-        goToPreviousDay();
-    } else if (swipeDistance < -threshold) {
-        // Swipe left, go to next day
-        goToNextDay();
-    }
+    // No swipe detection needed, using only buttons
+    console.log("Using button navigation only");
 }
 
 // Initialize the app when the DOM is loaded
