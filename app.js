@@ -8,6 +8,11 @@ let totalCorrectAnswers = 0; // Track total correct answers
 let totalQuestionsAnswered = 0; // Track total questions answered
 let currentLevel = "level1"; // Track current level
 let currentPracticeType = "prepositions"; // Track current practice type
+let currentVocabularyDay = "day1"; // Track current vocabulary day
+let currentDayIndex = 0; // Track current day index for sliding navigation
+let availableDays = []; // Store available vocabulary days
+let touchStartX = 0; // Track touch start position for swipe
+let touchEndX = 0; // Track touch end position for swipe
 
 // DOM elements
 const lineAElement = document.getElementById('lineA');
@@ -21,9 +26,16 @@ const questionContainer = document.getElementById('questionContainer');
 const completionContainer = document.getElementById('completionContainer');
 const levelSelectionContainer = document.getElementById('levelSelectionContainer');
 const mainMenuContainer = document.getElementById('mainMenuContainer');
+const vocabularyContainer = document.getElementById('vocabularyContainer');
+const daysSlider = document.getElementById('daysSlider');
+const dayIndicators = document.getElementById('dayIndicators');
+const currentDayDisplay = document.getElementById('currentDayDisplay');
+const prevDayBtn = document.getElementById('prevDayBtn');
+const nextDayBtn = document.getElementById('nextDayBtn');
 const restartBtn = document.getElementById('restartBtn');
 const backToMainMenuBtn = document.getElementById('backToMainMenuBtn');
 const backToMainBtn = document.getElementById('backToMainBtn');
+const vocabularyBackBtn = document.getElementById('vocabularyBackBtn');
 const quizBackBtn = document.getElementById('quizBackBtn');
 const playLineABtn = document.getElementById('playLineA');
 const playLineBBtn = document.getElementById('playLineB');
@@ -31,6 +43,7 @@ const level1Btn = document.getElementById('level1Btn');
 const level2Btn = document.getElementById('level2Btn');
 const prepositionsBtn = document.getElementById('prepositionsBtn');
 const verbTensesBtn = document.getElementById('verbTensesBtn');
+const vocabularyBtn = document.getElementById('vocabularyBtn');
 const progressBarContainer = document.getElementById('progressBarContainer');
 const confirmModal = document.getElementById('confirmModal');
 const confirmExitBtn = document.getElementById('confirmExitBtn');
@@ -71,6 +84,14 @@ function initApp() {
         startLevel('verbTenses1');
     });
     
+    vocabularyBtn.addEventListener('click', function() {
+        console.log("Vocabulary button clicked");
+        currentPracticeType = "vocabulary";
+        // Test event log
+        logEvent('test_button_click', { button_type: 'vocabulary' });
+        showVocabularyPractice();
+    });
+    
     // Event listeners for level buttons
     level1Btn.addEventListener('click', function() {
         console.log("Level 1 button clicked");
@@ -87,6 +108,7 @@ function initApp() {
     restartBtn.addEventListener('click', restartPractice);
     backToMainMenuBtn.addEventListener('click', showMainMenu);
     backToMainBtn.addEventListener('click', showMainMenu);
+    vocabularyBackBtn.addEventListener('click', showMainMenu);
     quizBackBtn.addEventListener('click', handleQuizBackButton);
     
     // Modal event listeners
@@ -424,7 +446,15 @@ function restartPractice() {
 
 // Handle quiz back button
 function handleQuizBackButton() {
-    // Show custom confirmation modal
+    console.log("Back button clicked during practice/quiz");
+    
+    // If in vocabulary practice, go back to main menu
+    if (vocabularyContainer.classList.contains('active')) {
+        showMainMenu();
+        return;
+    }
+    
+    // Show confirmation modal for quitting mid-quiz
     showModal();
 }
 
@@ -438,23 +468,27 @@ function hideModal() {
     confirmModal.classList.remove('active');
 }
 
-// Confirm exit from quiz
+// Confirm exit from quiz/practice
 function confirmExit() {
+    console.log("Confirming exit from quiz/practice");
+    
+    // Hide confirmation modal
     hideModal();
     
-    // Log the exit event
-    logEvent('quiz_exited', {
+    // Log quiz ended event
+    logEvent('quiz_abandoned', {
         quiz_type: currentPracticeType,
         quiz_level: currentLevel,
-        question_index: currentQuestionIndex,
         questions_answered: totalQuestionsAnswered,
         correct_answers: totalCorrectAnswers
     });
     
-    // Return to appropriate screen based on practice type
+    // Return to main menu
     if (currentPracticeType === "prepositions") {
+        // Go back to level selection for prepositions
         showLevelSelection();
     } else {
+        // Go back to main menu for other practice types
         showMainMenu();
     }
 }
@@ -490,6 +524,341 @@ function logEvent(eventName, eventParams) {
         console.log('Logged event:', eventName, paramsWithDevice);
     } else {
         console.log('Analytics not available. Event:', eventName, paramsWithDevice);
+    }
+}
+
+// Show vocabulary practice screen
+function showVocabularyPractice() {
+    console.log("Showing vocabulary practice screen");
+    
+    // Hide other containers
+    questionContainer.classList.remove('active');
+    completionContainer.classList.remove('active');
+    mainMenuContainer.classList.remove('active');
+    levelSelectionContainer.classList.remove('active');
+    progressBarContainer.style.display = 'none';
+    
+    // Show vocabulary container
+    vocabularyContainer.classList.add('active');
+    
+    // Update header
+    document.querySelector('header h1').textContent = 'Vocabulary Practice';
+    
+    // Show back button in header
+    quizBackBtn.style.display = 'block';
+    
+    // Get available days
+    availableDays = Object.keys(vocabularyData);
+    
+    // Reset current day index
+    currentDayIndex = 0;
+    currentVocabularyDay = availableDays[currentDayIndex];
+    
+    // Initialize day navigation
+    initDayNavigation();
+    
+    // Load day panels
+    loadDayPanels();
+    
+    // Set up swipe detection
+    setupSwipeDetection();
+    
+    // Log event
+    logEvent('vocabulary_practice_started', {
+        day: currentVocabularyDay
+    });
+}
+
+// Initialize day navigation
+function initDayNavigation() {
+    // Update day display
+    updateDayDisplay();
+    
+    // Remove any existing event listeners
+    prevDayBtn.removeEventListener('click', goToPreviousDay);
+    nextDayBtn.removeEventListener('click', goToNextDay);
+    
+    // Set up navigation buttons
+    prevDayBtn.addEventListener('click', goToPreviousDay);
+    nextDayBtn.addEventListener('click', goToNextDay);
+    
+    // Initial button state
+    updateNavigationButtons();
+}
+
+// Update the day display
+function updateDayDisplay() {
+    // Update the day display text (e.g., "Day 1")
+    currentDayDisplay.textContent = `Day ${currentDayIndex + 1}`;
+}
+
+// Update navigation buttons (disable/enable based on position)
+function updateNavigationButtons() {
+    // Disable previous button if on first day
+    prevDayBtn.disabled = currentDayIndex === 0;
+    prevDayBtn.style.opacity = currentDayIndex === 0 ? "0.5" : "1";
+    
+    // Disable next button if on last day
+    nextDayBtn.disabled = currentDayIndex === availableDays.length - 1;
+    nextDayBtn.style.opacity = currentDayIndex === availableDays.length - 1 ? "0.5" : "1";
+}
+
+// Load all day panels
+function loadDayPanels() {
+    console.log("Loading day panels");
+    
+    // Clear existing panels
+    daysSlider.innerHTML = '';
+    
+    // Create day panels
+    availableDays.forEach((day, index) => {
+        // Create panel
+        const panel = document.createElement('div');
+        panel.className = 'day-panel';
+        panel.id = `day-panel-${day}`;
+        daysSlider.appendChild(panel);
+        
+        // Load vocabulary for this day
+        loadVocabularyForDay(day, panel);
+    });
+    
+    // Add swipe hint to first day panel
+    if (availableDays.length > 1) {
+        const firstPanel = document.getElementById(`day-panel-${availableDays[0]}`);
+        const hint = document.createElement('div');
+        hint.className = 'swipe-hint';
+        hint.innerHTML = '<i class="fa-solid fa-arrow-left"></i> Swipe <i class="fa-solid fa-arrow-right"></i>';
+        firstPanel.appendChild(hint);
+    }
+    
+    // Update day indicators
+    updateDayIndicators();
+    
+    // Set initial position
+    updateSliderPosition();
+}
+
+// Load vocabulary items for a specific day into a panel
+function loadVocabularyForDay(day, panel) {
+    console.log(`Loading vocabulary for ${day}`);
+    
+    // Get vocabulary data for the day
+    const vocabItems = vocabularyData[day];
+    
+    // Create vocabulary items
+    vocabItems.forEach(item => {
+        const vocabItem = document.createElement('div');
+        vocabItem.classList.add('vocabulary-item');
+        
+        // Word element with play button
+        const wordElement = document.createElement('div');
+        wordElement.classList.add('vocabulary-word');
+        
+        const playWordBtn = document.createElement('button');
+        playWordBtn.classList.add('word-play-btn');
+        playWordBtn.innerHTML = '<i class="fa-solid fa-volume-high"></i>';
+        playWordBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            googleTTS.speakLine(item.word);
+        });
+        
+        const wordText = document.createElement('span');
+        wordText.textContent = item.word;
+        wordText.addEventListener('click', (e) => {
+            e.stopPropagation();
+            googleTTS.speakLine(item.word);
+        });
+        
+        const wordType = document.createElement('span');
+        wordType.classList.add('vocabulary-type');
+        wordType.textContent = item.type;
+        
+        wordElement.appendChild(playWordBtn);
+        wordElement.appendChild(wordText);
+        wordElement.appendChild(wordType);
+        
+        // Sentence element with play button
+        const sentenceElement = document.createElement('div');
+        sentenceElement.classList.add('vocabulary-sentence');
+        
+        const playSentenceBtn = document.createElement('button');
+        playSentenceBtn.classList.add('sentence-play-btn');
+        playSentenceBtn.innerHTML = '<i class="fa-solid fa-volume-high"></i>';
+        playSentenceBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            googleTTS.speakLine(item.sentence);
+        });
+        
+        const sentenceText = document.createElement('span');
+        sentenceText.textContent = item.sentence;
+        sentenceText.classList.add('sentence-text');
+        sentenceText.addEventListener('click', (e) => {
+            e.stopPropagation();
+            googleTTS.speakLine(item.sentence);
+        });
+        
+        sentenceElement.appendChild(playSentenceBtn);
+        sentenceElement.appendChild(sentenceText);
+        
+        // Make the entire sentence element clickable to play the sentence
+        sentenceElement.addEventListener('click', (e) => {
+            googleTTS.speakLine(item.sentence);
+        });
+        
+        // Translation element
+        const translationElement = document.createElement('div');
+        translationElement.classList.add('vocabulary-translation');
+        translationElement.textContent = item.translation;
+        
+        vocabItem.appendChild(wordElement);
+        vocabItem.appendChild(sentenceElement);
+        vocabItem.appendChild(translationElement);
+        
+        // Make the entire item have no default click behavior
+        vocabItem.addEventListener('click', (e) => {
+            // Do nothing, let child elements handle their own clicks
+        });
+        
+        panel.appendChild(vocabItem);
+    });
+}
+
+// Go to the previous day
+function goToPreviousDay() {
+    if (currentDayIndex > 0) {
+        currentDayIndex--;
+        currentVocabularyDay = availableDays[currentDayIndex];
+        updateDay();
+    }
+}
+
+// Go to the next day
+function goToNextDay() {
+    if (currentDayIndex < availableDays.length - 1) {
+        currentDayIndex++;
+        currentVocabularyDay = availableDays[currentDayIndex];
+        updateDay();
+    }
+}
+
+// Go to a specific day by index
+function goToDay(index) {
+    if (index >= 0 && index < availableDays.length) {
+        currentDayIndex = index;
+        currentVocabularyDay = availableDays[currentDayIndex];
+        updateDay();
+    }
+}
+
+// Update the day display and slider position
+function updateDay() {
+    updateDayDisplay();
+    updateNavigationButtons();
+    updateSliderPosition();
+    updateDayIndicators();
+}
+
+// Update the slider position
+function updateSliderPosition() {
+    daysSlider.style.transform = `translateX(-${currentDayIndex * 100}%)`;
+}
+
+// Update the day indicators
+function updateDayIndicators() {
+    // Clear existing indicators
+    dayIndicators.innerHTML = '';
+    
+    // Maximum number of indicators to show
+    const maxIndicators = 7;
+    
+    // Function to create an indicator
+    const createIndicator = (index, isActive = false, isEllipsis = false) => {
+        const indicator = document.createElement('div');
+        
+        if (isEllipsis) {
+            // Create ellipsis indicator
+            indicator.className = 'day-indicator ellipsis';
+            indicator.innerHTML = '...';
+            indicator.style.width = 'auto';
+            indicator.style.fontSize = '10px';
+            indicator.style.padding = '0 4px';
+        } else {
+            // Create regular indicator
+            indicator.className = 'day-indicator';
+            if (isActive) {
+                indicator.classList.add('active');
+            }
+            indicator.addEventListener('click', () => {
+                goToDay(index);
+            });
+        }
+        
+        return indicator;
+    };
+    
+    if (availableDays.length <= maxIndicators) {
+        // If we have a small number of days, show all indicators
+        availableDays.forEach((_, index) => {
+            const indicator = createIndicator(index, index === currentDayIndex);
+            dayIndicators.appendChild(indicator);
+        });
+    } else {
+        // For many days, show a subset with ellipsis
+        
+        // Always show first indicator
+        dayIndicators.appendChild(createIndicator(0, currentDayIndex === 0));
+        
+        // Calculate range around current day
+        const rangeStart = Math.max(1, currentDayIndex - 1);
+        const rangeEnd = Math.min(availableDays.length - 2, currentDayIndex + 1);
+        
+        // Add ellipsis before if needed
+        if (rangeStart > 1) {
+            dayIndicators.appendChild(createIndicator(null, false, true));
+        }
+        
+        // Add indicators around current position
+        for (let i = rangeStart; i <= rangeEnd; i++) {
+            dayIndicators.appendChild(createIndicator(i, i === currentDayIndex));
+        }
+        
+        // Add ellipsis after if needed
+        if (rangeEnd < availableDays.length - 2) {
+            dayIndicators.appendChild(createIndicator(null, false, true));
+        }
+        
+        // Always show last indicator
+        dayIndicators.appendChild(
+            createIndicator(availableDays.length - 1, currentDayIndex === availableDays.length - 1)
+        );
+    }
+}
+
+// Set up swipe detection for mobile
+function setupSwipeDetection() {
+    // Touch start event
+    daysSlider.addEventListener('touchstart', (e) => {
+        touchStartX = e.changedTouches[0].screenX;
+    }, { passive: true });
+    
+    // Touch end event
+    daysSlider.addEventListener('touchend', (e) => {
+        touchEndX = e.changedTouches[0].screenX;
+        handleSwipe();
+    }, { passive: true });
+}
+
+// Handle swipe gesture
+function handleSwipe() {
+    const threshold = 50; // Minimum swipe distance
+    const swipeDistance = touchEndX - touchStartX;
+    
+    if (swipeDistance > threshold) {
+        // Swipe right, go to previous day
+        goToPreviousDay();
+    } else if (swipeDistance < -threshold) {
+        // Swipe left, go to next day
+        goToNextDay();
     }
 }
 

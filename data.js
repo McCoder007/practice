@@ -12,6 +12,9 @@ function getRandomQuestions(level, totalQuestions) {
         allQuestions = [...level2Data];
     } else if (level === 'verbTenses1') {
         allQuestions = [...verbTensesData];
+    } else if (level === 'vocabulary') {
+        // For vocabulary, we don't randomize, return the full dataset
+        return vocabularyData;
     } else {
         console.error('Invalid level:', level);
         return [];

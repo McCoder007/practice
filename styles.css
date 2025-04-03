@@ -199,6 +199,23 @@ header h1 i {
     text-align: left;
 }
 
+.practice-type-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.practice-type-btn.prepositions {
+    border-left: 4px solid var(--primary);
+}
+
+.practice-type-btn.verb-tenses {
+    border-left: 4px solid var(--secondary);
+}
+
+.practice-type-btn.vocabulary {
+    border-left: 4px solid #ffc107;
+}
+
 .practice-type-btn .btn-content {
     display: flex;
     flex-direction: column;
@@ -220,14 +237,6 @@ header h1 i {
 .practice-type-btn:hover .btn-icon, .practice-type-btn:focus .btn-icon {
     transform: translateX(4px);
     color: var(--primary);
-}
-
-.practice-type-btn.prepositions {
-    border-left: 4px solid var(--primary);
-}
-
-.practice-type-btn.verb-tenses {
-    border-left: 4px solid var(--secondary);
 }
 
 .practice-type {
@@ -717,4 +726,285 @@ header h1 i {
 @keyframes slideUp {
     from { transform: translateY(20px); opacity: 0; }
     to { transform: translateY(0); opacity: 1; }
+}
+
+/* Vocabulary Practice Specific Styles */
+.vocabulary-container {
+    display: none;
+    flex-direction: column;
+    padding: var(--spacing-lg);
+    height: 100%;
+    overflow: hidden; /* Prevent scrolling on container level */
+}
+
+.vocabulary-container.active {
+    display: flex;
+}
+
+.vocabulary-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-md);
+}
+
+/* Day Navigation */
+.day-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--spacing-md);
+    position: relative;
+    z-index: 5; /* Ensure it's above the carousel */
+}
+
+.current-day {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-semibold);
+    color: var(--neutral-800);
+    padding: var(--spacing-xs) var(--spacing-md);
+}
+
+.nav-arrow {
+    background: var(--neutral-100);
+    border: 1px solid var(--neutral-300);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    color: var(--neutral-700);
+    box-shadow: var(--shadow-sm);
+}
+
+.nav-arrow:hover {
+    background: var(--neutral-200);
+    transform: scale(1.05);
+}
+
+.nav-arrow.left {
+    margin-right: var(--spacing-md);
+}
+
+.nav-arrow.right {
+    margin-left: var(--spacing-md);
+}
+
+/* Days Carousel */
+.days-carousel {
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    margin-bottom: var(--spacing-lg);
+}
+
+.days-slider {
+    display: flex;
+    height: 100%;
+    transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+    will-change: transform;
+}
+
+.day-panel {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: var(--neutral-100);
+    padding: var(--spacing-md);
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    opacity: 0.85;
+    transform: scale(0.95);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.days-slider[style*="translateX(0%)"] .day-panel:first-child,
+.days-slider[style*="translateX(-100%)"] .day-panel:nth-child(2),
+.days-slider[style*="translateX(-200%)"] .day-panel:nth-child(3),
+.days-slider[style*="translateX(-300%)"] .day-panel:nth-child(4),
+.days-slider[style*="translateX(-400%)"] .day-panel:nth-child(5),
+.days-slider[style*="translateX(-500%)"] .day-panel:nth-child(6),
+.days-slider[style*="translateX(-600%)"] .day-panel:nth-child(7),
+.days-slider[style*="translateX(-700%)"] .day-panel:nth-child(8),
+.days-slider[style*="translateX(-800%)"] .day-panel:nth-child(9),
+.days-slider[style*="translateX(-900%)"] .day-panel:nth-child(10),
+.days-slider[style*="translateX(-1000%)"] .day-panel:nth-child(11),
+.days-slider[style*="translateX(-1100%)"] .day-panel:nth-child(12),
+.days-slider[style*="translateX(-1200%)"] .day-panel:nth-child(13),
+.days-slider[style*="translateX(-1300%)"] .day-panel:nth-child(14),
+.days-slider[style*="translateX(-1400%)"] .day-panel:nth-child(15),
+.days-slider[style*="translateX(-1500%)"] .day-panel:nth-child(16),
+.days-slider[style*="translateX(-1600%)"] .day-panel:nth-child(17),
+.days-slider[style*="translateX(-1700%)"] .day-panel:nth-child(18),
+.days-slider[style*="translateX(-1800%)"] .day-panel:nth-child(19),
+.days-slider[style*="translateX(-1900%)"] .day-panel:nth-child(20) {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Day indicators */
+.day-indicators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: var(--spacing-sm);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    padding-top: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.day-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--neutral-300);
+    transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+    cursor: pointer;
+}
+
+.day-indicator.active {
+    background-color: var(--primary);
+    transform: scale(1.3);
+    box-shadow: 0 0 0 2px rgba(108, 92, 231, 0.2);
+}
+
+.day-indicator.ellipsis {
+    background: none;
+    color: var(--neutral-600);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-2px);
+}
+
+/* Vocabulary item styles */
+.vocabulary-item {
+    background-color: var(--neutral-100);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-lg);
+    box-shadow: var(--shadow-sm);
+    cursor: pointer;
+    transition: all var(--transition-normal);
+    margin-bottom: var(--spacing-md);
+    border-left: 3px solid var(--primary-light);
+}
+
+.vocabulary-item:hover, .vocabulary-item:active {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}
+
+.vocabulary-word {
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-semibold);
+    color: var(--neutral-800);
+    margin-bottom: var(--spacing-sm);
+    display: flex;
+    align-items: center;
+}
+
+.vocabulary-word span {
+    cursor: pointer;
+}
+
+.vocabulary-type {
+    font-size: var(--font-size-xs);
+    background-color: var(--neutral-200);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    border-radius: var(--radius-sm);
+    margin-left: var(--spacing-sm);
+    color: var(--neutral-600);
+}
+
+.vocabulary-sentence {
+    color: var(--neutral-700);
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.4;
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+    padding: var(--spacing-xs);
+    border-radius: var(--radius-sm);
+    transition: background-color 0.2s ease;
+}
+
+.vocabulary-sentence:hover {
+    background-color: var(--neutral-200);
+}
+
+.vocabulary-sentence:active {
+    background-color: var(--neutral-300);
+}
+
+.sentence-text {
+    flex-grow: 1;
+}
+
+.vocabulary-translation {
+    color: var(--neutral-600);
+    font-size: var(--font-size-sm);
+    border-top: 1px solid var(--neutral-300);
+    padding-top: var(--spacing-sm);
+    margin-top: var(--spacing-sm);
+}
+
+.word-play-btn {
+    margin-right: var(--spacing-sm);
+    background: none;
+    border: none;
+    color: #ffc107;
+    cursor: pointer;
+    padding: var(--spacing-xs);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sentence-play-btn {
+    margin-right: var(--spacing-sm);
+    background: none;
+    border: none;
+    color: var(--primary);
+    cursor: pointer;
+    padding: var(--spacing-xs);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Touch swipe hint */
+.swipe-hint {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--spacing-sm);
+    color: var(--neutral-500);
+    font-size: var(--font-size-xs);
+    margin-top: var(--spacing-md);
+    opacity: 0.7;
+}
+
+.swipe-hint i {
+    margin: 0 var(--spacing-xs);
+    animation: swipeAnimation 2s infinite;
+}
+
+@keyframes swipeAnimation {
+    0% { transform: translateX(0); opacity: 0.5; }
+    50% { transform: translateX(10px); opacity: 1; }
+    100% { transform: translateX(0); opacity: 0.5; }
 }
