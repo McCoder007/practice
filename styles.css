@@ -732,7 +732,7 @@ header h1 i {
 .vocabulary-container {
     display: none;
     flex-direction: column;
-    padding: var(--spacing-lg);
+    padding: var(--spacing-md) var(--spacing-sm) var(--spacing-lg) var(--spacing-sm);
     height: 100%;
     overflow: hidden; /* Prevent scrolling on container level */
 }
@@ -746,8 +746,8 @@ header h1 i {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: var(--spacing-lg);
-    margin-top: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+    margin-top: var(--spacing-sm);
     position: relative;
     z-index: 5; /* Ensure it's above the carousel */
 }
@@ -805,8 +805,8 @@ header h1 i {
     flex-direction: column;
     overflow: hidden;
     border-radius: var(--radius-md);
-    box-shadow: var(--shadow-sm);
-    margin-bottom: var(--spacing-lg);
+    box-shadow: none;
+    margin-bottom: var(--spacing-md);
 }
 
 .days-slider {
@@ -822,7 +822,7 @@ header h1 i {
     height: 100%;
     overflow-y: auto;
     background-color: var(--neutral-100);
-    padding: var(--spacing-md);
+    padding: var(--spacing-md) var(--spacing-xs) var(--spacing-md) var(--spacing-xs);
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
     opacity: 0.85;
@@ -858,7 +858,7 @@ header h1 i {
 .vocabulary-item {
     background-color: var(--neutral-100);
     border-radius: var(--radius-md);
-    padding: var(--spacing-lg);
+    padding: var(--spacing-lg) var(--spacing-lg) var(--spacing-lg) var(--spacing-md);
     box-shadow: var(--shadow-sm);
     cursor: pointer;
     transition: all var(--transition-normal);
@@ -878,6 +878,7 @@ header h1 i {
     margin-bottom: var(--spacing-sm);
     display: flex;
     align-items: center;
+    margin-left: -5px; /* Align with border */
 }
 
 .vocabulary-word span {
@@ -896,11 +897,11 @@ header h1 i {
 .vocabulary-sentence {
     color: var(--neutral-700);
     margin-bottom: var(--spacing-sm);
-    line-height: 1.4;
+    line-height: 1.5;
     display: flex;
     align-items: flex-start;
     cursor: pointer;
-    padding: var(--spacing-xs);
+    padding: var(--spacing-xs) 0;
     border-radius: var(--radius-sm);
     transition: background-color 0.2s ease;
 }
@@ -919,7 +920,7 @@ header h1 i {
 
 .vocabulary-translation {
     color: var(--neutral-600);
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-md);
     border-top: 1px solid var(--neutral-300);
     padding-top: var(--spacing-sm);
     margin-top: var(--spacing-sm);
