@@ -741,19 +741,13 @@ header h1 i {
     display: flex;
 }
 
-.vocabulary-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: var(--spacing-md);
-}
-
 /* Day Navigation */
 .day-navigation {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+    margin-top: var(--spacing-md);
     position: relative;
     z-index: 5; /* Ensure it's above the carousel */
 }
