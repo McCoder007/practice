@@ -34,7 +34,6 @@ const nextDayBtn = document.getElementById('nextDayBtn');
 const restartBtn = document.getElementById('restartBtn');
 const backToMainMenuBtn = document.getElementById('backToMainMenuBtn');
 const backToMainBtn = document.getElementById('backToMainBtn');
-const vocabularyBackBtn = document.getElementById('vocabularyBackBtn');
 const quizBackBtn = document.getElementById('quizBackBtn');
 const playLineABtn = document.getElementById('playLineA');
 const playLineBBtn = document.getElementById('playLineB');
@@ -107,7 +106,6 @@ function initApp() {
     restartBtn.addEventListener('click', restartPractice);
     backToMainMenuBtn.addEventListener('click', showMainMenu);
     backToMainBtn.addEventListener('click', showMainMenu);
-    vocabularyBackBtn.addEventListener('click', showMainMenu);
     quizBackBtn.addEventListener('click', handleQuizBackButton);
     
     // Modal event listeners
@@ -637,7 +635,7 @@ function loadVocabularyForDay(day, panel) {
         const vocabItem = document.createElement('div');
         vocabItem.classList.add('vocabulary-item');
         
-        // Word element with play button
+        // English word with play button and type
         const wordElement = document.createElement('div');
         wordElement.classList.add('vocabulary-word');
         
@@ -655,16 +653,21 @@ function loadVocabularyForDay(day, panel) {
             e.stopPropagation();
             googleTTS.speakLine(item.word);
         });
-        
+
         const wordType = document.createElement('span');
-        wordType.classList.add('vocabulary-type');
+        wordType.classList.add('word-type');
         wordType.textContent = item.type;
-        
+
         wordElement.appendChild(playWordBtn);
         wordElement.appendChild(wordText);
         wordElement.appendChild(wordType);
         
-        // Sentence element with play button
+        // Chinese translation for the word
+        const wordTranslation = document.createElement('div');
+        wordTranslation.classList.add('vocabulary-word-translation');
+        wordTranslation.textContent = item.word_translation || ''; // Handle missing translations
+        
+        // English sentence with play button
         const sentenceElement = document.createElement('div');
         sentenceElement.classList.add('vocabulary-sentence');
         
@@ -687,24 +690,16 @@ function loadVocabularyForDay(day, panel) {
         sentenceElement.appendChild(playSentenceBtn);
         sentenceElement.appendChild(sentenceText);
         
-        // Make the entire sentence element clickable to play the sentence
-        sentenceElement.addEventListener('click', (e) => {
-            googleTTS.speakLine(item.sentence);
-        });
+        // Chinese translation for the sentence
+        const sentenceTranslation = document.createElement('div');
+        sentenceTranslation.classList.add('vocabulary-sentence-translation');
+        sentenceTranslation.textContent = item.translation;
         
-        // Translation element
-        const translationElement = document.createElement('div');
-        translationElement.classList.add('vocabulary-translation');
-        translationElement.textContent = item.translation;
-        
+        // Add elements in the desired order
         vocabItem.appendChild(wordElement);
+        vocabItem.appendChild(wordTranslation);
         vocabItem.appendChild(sentenceElement);
-        vocabItem.appendChild(translationElement);
-        
-        // Make the entire item have no default click behavior
-        vocabItem.addEventListener('click', (e) => {
-            // Do nothing, let child elements handle their own clicks
-        });
+        vocabItem.appendChild(sentenceTranslation);
         
         panel.appendChild(vocabItem);
     });
