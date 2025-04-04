@@ -246,6 +246,66 @@ const vocabularyData = {
             translation: "有些人认为他不友好，但我认为他只是害羞。",
             type: "adjective"
         }
+    ],
+    
+    // Day 3: Words about personality traits and qualities
+    day3: [
+        {
+            word: "count on",
+            word_translation: "依靠",
+            sentence: "You can always count on her when you need help.",
+            translation: "当你需要帮助时，你总是可以依靠她。",
+            type: "phrase"
+        },
+        {
+            word: "generous",
+            word_translation: "慷慨的",
+            sentence: "My friend is very generous and always helps others.",
+            translation: "我的朋友很慷慨，总是帮助他人。",
+            type: "adjective"
+        },
+        {
+            word: "helpful",
+            word_translation: "乐于助人的",
+            sentence: "She's so helpful and always doing things for other people.",
+            translation: "她很乐于助人，总是为他人做事。",
+            type: "adjective"
+        },
+        {
+            word: "organized",
+            word_translation: "有条理的",
+            sentence: "A good teacher needs to be organized and prepared for class.",
+            translation: "一个好老师需要有条理并为课程做好准备。",
+            type: "adjective"
+        },
+        {
+            word: "reliable",
+            word_translation: "可靠的",
+            sentence: "If she says she'll help you with something, she does. She's totally reliable.",
+            translation: "如果她说她会帮你做某事，她就一定会做。她非常可靠。",
+            type: "adjective"
+        },
+        {
+            word: "selfish",
+            word_translation: "自私的",
+            sentence: "He never shares his things with others - he's quite selfish.",
+            translation: "他从不与他人分享他的东西 - 他很自私。",
+            type: "adjective"
+        },
+        {
+            word: "trust",
+            word_translation: "信任",
+            sentence: "I can trust what he says because he's always honest.",
+            translation: "我可以相信他说的话，因为他总是诚实的。",
+            type: "verb"
+        },
+        {
+            word: "well-organized",
+            word_translation: "很有条理的",
+            sentence: "She's very well-organized and never forgets important meetings.",
+            translation: "她很有条理，从不忘记重要的会议。",
+            type: "adjective"
+        }
     ]
     
     // Additional days can be added here as needed
