@@ -274,8 +274,8 @@ const vocabularyData = {
         {
             word: "exit",
             word_translation: "出口",
-            sentence: "The exit is clearly marked at the end of each hallway.",
-            translation: "每条走廊尽头都清楚地标明了出口。",
+            sentence: "She took the next exit off the highway to get to the gas station",
+            translation: "她为了去加油站，在下一个出口驶出了高速公路",
             type: "noun"
         },
         {
