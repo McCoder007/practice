@@ -13,6 +13,9 @@ let currentDayIndex = 0; // Track current day index for sliding navigation
 let availableDays = []; // Store available vocabulary days
 let touchStartX = 0; // Track touch start position for swipe
 let touchEndX = 0; // Track touch end position for swipe
+let vocabularyStartTime = null;
+let currentDayStartTime = null;
+let wordInteractions = {};
 
 // DOM elements
 const lineAElement = document.getElementById('lineA');
@@ -445,8 +448,18 @@ function restartPractice() {
 function handleQuizBackButton() {
     console.log("Back button clicked during practice/quiz");
     
-    // If in vocabulary practice, go back to main menu
+    // If in vocabulary practice, log session data and go back to main menu
     if (vocabularyContainer.classList.contains('active')) {
+        const sessionDuration = new Date() - vocabularyStartTime;
+        const timeOnCurrentDay = new Date() - currentDayStartTime;
+        
+        logEvent('vocabulary_session_ended', {
+            total_duration_ms: sessionDuration,
+            last_day: currentVocabularyDay,
+            last_day_duration_ms: timeOnCurrentDay,
+            word_interactions: wordInteractions
+        });
+        
         showMainMenu();
         return;
     }
@@ -528,6 +541,9 @@ function logEvent(eventName, eventParams) {
 function showVocabularyPractice() {
     console.log("Showing vocabulary practice screen");
     
+    // Start timing the vocabulary session
+    vocabularyStartTime = new Date();
+    
     // Hide other containers
     questionContainer.classList.remove('active');
     completionContainer.classList.remove('active');
@@ -550,6 +566,7 @@ function showVocabularyPractice() {
     // Reset current day index
     currentDayIndex = 0;
     currentVocabularyDay = availableDays[currentDayIndex];
+    currentDayStartTime = new Date();
     
     // Initialize day navigation
     initDayNavigation();
@@ -560,9 +577,14 @@ function showVocabularyPractice() {
     // Set up simplified navigation (no swipe detection)
     setupSwipeDetection();
     
+    // Reset word interactions
+    wordInteractions = {};
+    
     // Log event
     logEvent('vocabulary_practice_started', {
-        day: currentVocabularyDay
+        day: currentVocabularyDay,
+        total_days: availableDays.length,
+        total_words: vocabularyData[currentVocabularyDay].length
     });
 }
 
@@ -645,6 +667,7 @@ function loadVocabularyForDay(day, panel) {
         playWordBtn.addEventListener('click', (e) => {
             e.stopPropagation();
             googleTTS.speakLine(item.word);
+            logWordInteraction(item.word, 'word_audio_played');
         });
         
         const wordText = document.createElement('span');
@@ -652,6 +675,7 @@ function loadVocabularyForDay(day, panel) {
         wordText.addEventListener('click', (e) => {
             e.stopPropagation();
             googleTTS.speakLine(item.word);
+            logWordInteraction(item.word, 'word_audio_played');
         });
 
         const wordType = document.createElement('span');
@@ -665,7 +689,7 @@ function loadVocabularyForDay(day, panel) {
         // Chinese translation for the word
         const wordTranslation = document.createElement('div');
         wordTranslation.classList.add('vocabulary-word-translation');
-        wordTranslation.textContent = item.word_translation || ''; // Handle missing translations
+        wordTranslation.textContent = item.word_translation || '';
         
         // English sentence with play button
         const sentenceElement = document.createElement('div');
@@ -677,6 +701,7 @@ function loadVocabularyForDay(day, panel) {
         playSentenceBtn.addEventListener('click', (e) => {
             e.stopPropagation();
             googleTTS.speakLine(item.sentence);
+            logWordInteraction(item.word, 'sentence_audio_played');
         });
         
         const sentenceText = document.createElement('span');
@@ -685,6 +710,7 @@ function loadVocabularyForDay(day, panel) {
         sentenceText.addEventListener('click', (e) => {
             e.stopPropagation();
             googleTTS.speakLine(item.sentence);
+            logWordInteraction(item.word, 'sentence_audio_played');
         });
         
         sentenceElement.appendChild(playSentenceBtn);
@@ -734,9 +760,27 @@ function goToDay(index) {
 
 // Update the day display and slider position
 function updateDay() {
-    updateDayDisplay();
-    updateNavigationButtons();
+    // Log time spent on previous day
+    const timeSpentOnDay = new Date() - currentDayStartTime;
+    logEvent('vocabulary_day_completed', {
+        day: currentVocabularyDay,
+        time_spent_ms: timeSpentOnDay,
+        word_interactions: wordInteractions
+    });
+    
+    // Reset tracking for new day
+    currentDayStartTime = new Date();
+    wordInteractions = {};
+    
+    // Update display
+    currentDayDisplay.textContent = `Day ${currentDayIndex + 1}`;
     updateSliderPosition();
+    
+    // Log new day started
+    logEvent('vocabulary_day_started', {
+        day: currentVocabularyDay,
+        total_words: vocabularyData[currentVocabularyDay].length
+    });
 }
 
 // Update the slider position
@@ -748,6 +792,30 @@ function updateSliderPosition() {
 function setupSwipeDetection() {
     // No swipe detection needed, using only buttons
     console.log("Using button navigation only");
+}
+
+// Add function to log word interactions
+function logWordInteraction(word, interactionType) {
+    if (!wordInteractions[word]) {
+        wordInteractions[word] = {
+            audio_plays: 0,
+            sentence_plays: 0
+        };
+    }
+    
+    if (interactionType === 'word_audio_played') {
+        wordInteractions[word].audio_plays++;
+    } else if (interactionType === 'sentence_audio_played') {
+        wordInteractions[word].sentence_plays++;
+    }
+    
+    logEvent('vocabulary_interaction', {
+        word: word,
+        interaction_type: interactionType,
+        day: currentVocabularyDay,
+        total_word_plays: wordInteractions[word].audio_plays,
+        total_sentence_plays: wordInteractions[word].sentence_plays
+    });
 }
 
 // Initialize the app when the DOM is loaded
