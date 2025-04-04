@@ -146,6 +146,7 @@ function showMainMenu() {
     questionContainer.classList.remove('active');
     completionContainer.classList.remove('active');
     levelSelectionContainer.classList.remove('active');
+    vocabularyContainer.classList.remove('active');
     progressBarContainer.style.display = 'none';
     
     // Show main menu
@@ -563,7 +564,7 @@ function showVocabularyPractice() {
     // Get available days
     availableDays = Object.keys(vocabularyData);
     
-    // Reset current day index
+    // Reset current day index and initialize
     currentDayIndex = 0;
     currentVocabularyDay = availableDays[currentDayIndex];
     currentDayStartTime = new Date();
@@ -574,8 +575,8 @@ function showVocabularyPractice() {
     // Load day panels
     loadDayPanels();
     
-    // Set up simplified navigation (no swipe detection)
-    setupSwipeDetection();
+    // Update navigation buttons initial state
+    updateNavigationButtons();
     
     // Reset word interactions
     wordInteractions = {};
@@ -590,8 +591,10 @@ function showVocabularyPractice() {
 
 // Initialize day navigation
 function initDayNavigation() {
+    console.log("Initializing day navigation");
+    
     // Update day display
-    updateDayDisplay();
+    currentDayDisplay.textContent = `Day ${currentDayIndex + 1}`;
     
     // Remove any existing event listeners
     prevDayBtn.removeEventListener('click', goToPreviousDay);
@@ -601,8 +604,8 @@ function initDayNavigation() {
     prevDayBtn.addEventListener('click', goToPreviousDay);
     nextDayBtn.addEventListener('click', goToNextDay);
     
-    // Initial button state
-    updateNavigationButtons();
+    // Set initial slider position
+    daysSlider.style.transform = `translateX(0)`;
 }
 
 // Update the day display
@@ -613,11 +616,9 @@ function updateDayDisplay() {
 
 // Update navigation buttons (disable/enable based on position)
 function updateNavigationButtons() {
-    // Disable previous button if on first day
     prevDayBtn.disabled = currentDayIndex === 0;
     prevDayBtn.style.opacity = currentDayIndex === 0 ? "0.5" : "1";
     
-    // Disable next button if on last day
     nextDayBtn.disabled = currentDayIndex === availableDays.length - 1;
     nextDayBtn.style.opacity = currentDayIndex === availableDays.length - 1 ? "0.5" : "1";
 }
@@ -640,9 +641,6 @@ function loadDayPanels() {
         // Load vocabulary for this day
         loadVocabularyForDay(day, panel);
     });
-    
-    // Set initial position
-    updateSliderPosition();
 }
 
 // Load vocabulary items for a specific day into a panel
@@ -733,28 +731,23 @@ function loadVocabularyForDay(day, panel) {
 
 // Go to the previous day
 function goToPreviousDay() {
+    console.log("Attempting to go to previous day, current index:", currentDayIndex);
     if (currentDayIndex > 0) {
         currentDayIndex--;
         currentVocabularyDay = availableDays[currentDayIndex];
         updateDay();
+        updateNavigationButtons();
     }
 }
 
 // Go to the next day
 function goToNextDay() {
+    console.log("Attempting to go to next day, current index:", currentDayIndex);
     if (currentDayIndex < availableDays.length - 1) {
         currentDayIndex++;
         currentVocabularyDay = availableDays[currentDayIndex];
         updateDay();
-    }
-}
-
-// Go to a specific day by index
-function goToDay(index) {
-    if (index >= 0 && index < availableDays.length) {
-        currentDayIndex = index;
-        currentVocabularyDay = availableDays[currentDayIndex];
-        updateDay();
+        updateNavigationButtons();
     }
 }
 
@@ -774,18 +767,15 @@ function updateDay() {
     
     // Update display
     currentDayDisplay.textContent = `Day ${currentDayIndex + 1}`;
-    updateSliderPosition();
+    
+    // Update slider position with transition
+    daysSlider.style.transform = `translateX(-${currentDayIndex * 100}%)`;
     
     // Log new day started
     logEvent('vocabulary_day_started', {
         day: currentVocabularyDay,
         total_words: vocabularyData[currentVocabularyDay].length
     });
-}
-
-// Update the slider position
-function updateSliderPosition() {
-    daysSlider.style.transform = `translateX(-${currentDayIndex * 100}%)`;
 }
 
 // Set up simplified navigation (no swipe detection)
