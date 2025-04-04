@@ -248,65 +248,140 @@ const vocabularyData = {
         }
     ],
     
-    // Day 3: Words about personality traits and qualities
+    // Day 3: Words about relationships and character traits
     day3: [
         {
-            word: "count on",
-            word_translation: "依靠",
-            sentence: "You can always count on her when you need help.",
-            translation: "当你需要帮助时，你总是可以依靠她。",
-            type: "phrase"
+            word: "charity",
+            word_translation: "慈善",
+            sentence: "She gives a lot of time and money to charity because she's so generous.",
+            translation: "她因为很慷慨，所以投入很多时间和金钱做慈善。",
+            type: "noun"
+        },
+        {
+            word: "coworkers",
+            word_translation: "同事",
+            sentence: "My coworkers are very helpful and always ready to explain things to me.",
+            translation: "我的同事们都很乐于助人，总是愿意给我解释事情。",
+            type: "noun"
+        },
+        {
+            word: "earth",
+            word_translation: "地球",
+            sentence: "We need to be more considerate about how we treat the Earth.",
+            translation: "我们需要更体贴地对待地球。",
+            type: "noun"
+        },
+        {
+            word: "exit",
+            word_translation: "出口",
+            sentence: "The exit is clearly marked at the end of each hallway.",
+            translation: "每条走廊尽头都清楚地标明了出口。",
+            type: "noun"
+        },
+        {
+            word: "explain",
+            word_translation: "解释",
+            sentence: "Could you explain why you're upset with your neighbors?",
+            translation: "你能解释一下为什么你对邻居不高兴吗？",
+            type: "verb"
+        },
+        {
+            word: "fairly",
+            word_translation: "公平地",
+            sentence: "The teacher treats all students fairly and gives everyone equal attention.",
+            translation: "老师公平地对待所有学生，给予每个人同等的关注。",
+            type: "adverb"
+        },
+        {
+            word: "false",
+            word_translation: "错误的",
+            sentence: "It's false that selfish people are happier than generous ones.",
+            translation: "自私的人比慷慨的人更快乐，这种说法是错误的。",
+            type: "adjective"
         },
         {
             word: "generous",
             word_translation: "慷慨的",
-            sentence: "My friend is very generous and always helps others.",
-            translation: "我的朋友很慷慨，总是帮助他人。",
+            sentence: "My friend Luisa is very generous and always helps others.",
+            translation: "我的朋友路易莎很慷慨，总是帮助他人。",
             type: "adjective"
         },
         {
             word: "helpful",
-            word_translation: "乐于助人的",
-            sentence: "She's so helpful and always doing things for other people.",
-            translation: "她很乐于助人，总是为他人做事。",
+            word_translation: "有帮助的",
+            sentence: "It's important to be helpful to new people in your community.",
+            translation: "对社区里的新人提供帮助很重要。",
             type: "adjective"
         },
         {
-            word: "organized",
-            word_translation: "有条理的",
-            sentence: "A good teacher needs to be organized and prepared for class.",
-            translation: "一个好老师需要有条理并为课程做好准备。",
+            word: "ideas",
+            word_translation: "想法",
+            sentence: "She always has creative ideas about how to solve problems.",
+            translation: "她总是有创造性的想法来解决问题。",
+            type: "noun"
+        },
+        {
+            word: "inconsiderate",
+            word_translation: "不体贴的",
+            sentence: "It's inconsiderate to play loud music late at night.",
+            translation: "深夜播放大声音乐是不体贴的。",
             type: "adjective"
+        },
+        {
+            word: "neighbors",
+            word_translation: "邻居",
+            sentence: "Our neighbors are reliable people who always help when needed.",
+            translation: "我们的邻居都是可靠的人，在需要时总会帮忙。",
+            type: "noun"
+        },
+        {
+            word: "opposite",
+            word_translation: "相反的",
+            sentence: "Being generous is the opposite of being selfish.",
+            translation: "慷慨是自私的反义词。",
+            type: "adjective"
+        },
+        {
+            word: "puzzle",
+            word_translation: "谜题",
+            sentence: "It's a puzzle why some people can be so inconsiderate of others.",
+            translation: "为什么有些人如此不顾及他人，这真是个谜。",
+            type: "noun"
         },
         {
             word: "reliable",
             word_translation: "可靠的",
-            sentence: "If she says she'll help you with something, she does. She's totally reliable.",
-            translation: "如果她说她会帮你做某事，她就一定会做。她非常可靠。",
+            sentence: "You can always count on reliable friends to help you.",
+            translation: "你总是可以指望可靠的朋友来帮助你。",
             type: "adjective"
         },
         {
             word: "selfish",
             word_translation: "自私的",
-            sentence: "He never shares his things with others - he's quite selfish.",
-            translation: "他从不与他人分享他的东西 - 他很自私。",
+            sentence: "She's not selfish at all; she's always thinking of others.",
+            translation: "她一点也不自私，总是考虑他人。",
             type: "adjective"
         },
         {
-            word: "trust",
-            word_translation: "信任",
-            sentence: "I can trust what he says because he's always honest.",
-            translation: "我可以相信他说的话，因为他总是诚实的。",
+            word: "true",
+            word_translation: "真实的",
+            sentence: "It's true that helpful people often make the best friends.",
+            translation: "乐于助人的人往往是最好的朋友，这是真的。",
+            type: "adjective"
+        },
+        {
+            word: "undo",
+            word_translation: "撤销",
+            sentence: "Sometimes you can't undo the hurt caused by inconsiderate words.",
+            translation: "有时候你无法撤销不体贴的话所造成的伤害。",
             type: "verb"
         },
         {
-            word: "well-organized",
-            word_translation: "很有条理的",
-            sentence: "She's very well-organized and never forgets important meetings.",
-            translation: "她很有条理，从不忘记重要的会议。",
+            word: "upset",
+            word_translation: "心烦的",
+            sentence: "Don't get upset when people make honest mistakes.",
+            translation: "当人们犯了诚实的错误时，不要心烦。",
             type: "adjective"
         }
     ]
-    
-    // Additional days can be added here as needed
 }; 
