@@ -904,7 +904,7 @@ header h1 i {
     align-items: flex-start;
     gap: var(--spacing-sm);
     font-size: var(--font-size-md);
-    color: var(--neutral-700);
+    color: var(--neutral-800);
     line-height: 1.5;
     margin-bottom: var(--spacing-xs);
     padding: var(--spacing-xs) 0;
@@ -934,4 +934,25 @@ header h1 i {
 .word-play-btn:hover, .sentence-play-btn:hover {
     transform: scale(1.1);
     color: var(--primary-dark);
+}
+
+.vocabulary-sentence .word {
+    cursor: pointer;
+    color: var(--neutral-800);
+    transition: color var(--transition-normal);
+}
+
+.vocabulary-sentence .word:hover {
+    color: var(--primary);
+    background-color: rgba(108, 92, 231, 0.1);
+}
+
+.vocabulary-sentence .sentence-play-btn {
+    margin-right: var(--spacing-sm);
+    color: var(--neutral-500);
+    transition: color var(--transition-normal);
+}
+
+.vocabulary-sentence .sentence-play-btn:hover {
+    color: var(--primary);
 }
