@@ -705,11 +705,10 @@ function loadVocabularyForDay(day, panel) {
         const sentenceText = document.createElement('span');
         sentenceText.textContent = item.sentence;
         sentenceText.classList.add('sentence-text');
-        sentenceText.addEventListener('click', (e) => {
-            e.stopPropagation();
-            googleTTS.speakLine(item.sentence);
-            logWordInteraction(item.word, 'sentence_audio_played');
-        });
+        
+        // Process the sentence to make individual words clickable
+        const processedSentence = googleTTS.processTextToInteractive(item.sentence);
+        sentenceText.innerHTML = processedSentence;
         
         sentenceElement.appendChild(playSentenceBtn);
         sentenceElement.appendChild(sentenceText);
