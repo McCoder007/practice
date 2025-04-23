@@ -774,7 +774,7 @@ const vocabularyData = {
             word: "backseat driver",
             word_translation: "指手画脚的乘客",
             sentence: "My dad is a backseat driver and tells me how to drive.",
-            translation: "我爸爸是个"副驾司机"，总是告诉我怎么开车。",
+            translation: "我爸爸是个\"副驾司机\"，总是告诉我怎么开车。",
             type: "noun"
         },
         {
@@ -937,13 +937,6 @@ const vocabularyData = {
             sentence: "I lost my wallet at the store.",
             translation: "我在商店丢了钱包。",
             type: "noun"
-        },
-        {
-            word: "weigh on a scale",
-            word_translation: "在秤上称重",
-            sentence: "Please weigh the apples on a scale.",
-            translation: "请把苹果放在秤上称一下。",
-            type: "phrase"
         }
     ]
 }; 
