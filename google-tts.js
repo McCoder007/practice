@@ -267,26 +267,53 @@ class GoogleTTSManager {
         // If there's a blank in the text
         if (text.includes('{{blank}}')) {
             const parts = text.split('{{blank}}');
-            const beforeBlank = parts[0];
-            const afterBlank = parts[1];
+            const beforeBlank = parts[0].trim(); // Trim whitespace
+            const afterBlank = parts[1].trim(); // Trim whitespace
             
-            // If we have a selected word, use it
+            // Cancel any ongoing speech first
+            window.speechSynthesis.cancel();
+            
+            // If we have a selected word, speak the full sentence with the word
             if (selectedWord) {
-                const fullText = beforeBlank + selectedWord + afterBlank;
-                return this.speak(fullText);
+                const fullText = beforeBlank + " " + selectedWord + " " + afterBlank;
+                console.log("Speaking line with selected word:", fullText);
+                return this.speak(fullText); // Uses synthesizeSpeech -> potentially fallback
             } else {
+                // If blank is empty, speak parts separately with a pause
+                // This primarily targets the browserTTS fallback scenario
+                console.log("Speaking line structure with pause at blank...");
+                
                 // Speak the first part
-                await this.speak(beforeBlank);
+                const utterance1 = this.browserTTS.speak(beforeBlank); 
                 
-                // Add a pause
-                await new Promise(resolve => setTimeout(resolve, 10));
-                
-                // Speak the second part
-                return this.speak(afterBlank);
+                if (utterance1) {
+                    // When the first part finishes, wait then speak the second part
+                    utterance1.onend = () => {
+                        console.log("First part finished, pausing...");
+                        setTimeout(() => {
+                            console.log("Speaking second part after pause.");
+                            this.browserTTS.speak(afterBlank);
+                        }, 500); // 500ms pause
+                    };
+                    // Handle potential errors on the first utterance
+                    utterance1.onerror = (event) => {
+                        console.error('SpeechSynthesisUtterance Error (Part 1):', event.error);
+                    };
+                } else {
+                     console.error("Could not create utterance for first part.");
+                     // Maybe try speaking the whole structure as a last resort?
+                     const fullTextStructure = beforeBlank + " " + afterBlank;
+                     console.log("(Fallback) Attempting to speak whole structure:", fullTextStructure);
+                     return this.speak(fullTextStructure);
+                }
+                return; // Return after setting up the sequence
             }
         } else {
             // If there's no blank, just speak normally
-            return this.speak(text);
+            console.log("Speaking line without blank:", text);
+            // Cancel any ongoing speech first (important for rapid clicks)
+            window.speechSynthesis.cancel(); 
+            return this.speak(text); // Uses synthesizeSpeech -> potentially fallback
         }
     }
 }
