@@ -434,6 +434,35 @@ function loadQuestion(index) {
     lineAElement.innerHTML = lineAContent;
     lineBElement.innerHTML = lineBContent;
     
+    // Remove any existing click handlers to prevent duplicates
+    const oldLineAClone = lineAElement.cloneNode(true);
+    const oldLineBClone = lineBElement.cloneNode(true);
+    lineAElement.parentNode.replaceChild(oldLineAClone, lineAElement);
+    lineBElement.parentNode.replaceChild(oldLineBClone, lineBElement);
+    
+    // Update references after replacing
+    const newLineAElement = document.getElementById('lineA');
+    const newLineBElement = document.getElementById('lineB');
+    
+    // Add click handler for the entire sentences to play audio
+    if (lineAContent) {
+        newLineAElement.addEventListener('click', () => {
+            if (question.lineA) {
+                googleTTS.speakLine(question.lineA);
+            }
+        });
+    }
+    
+    if (lineBContent) {
+        newLineBElement.addEventListener('click', () => {
+            if (currentPracticeType === 'irregularVerbs' && question.sentence) {
+                googleTTS.speakLine(question.sentence);
+            } else if (question.lineB) {
+                googleTTS.speakLine(question.lineB);
+            }
+        });
+    }
+    
     // Clear previous options and reset layout class
     optionsContainer.innerHTML = '';
     optionsContainer.classList.remove('grid-2x2'); // Remove class if it was added previously
