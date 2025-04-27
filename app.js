@@ -223,8 +223,9 @@ function showLevelSelection() {
         document.querySelector('header h1').textContent = 'Verb Tenses Practice';
     }
     
-    // Hide back button in header
-    quizBackBtn.style.display = 'none';
+    // Show back button in header and set its event handler
+    quizBackBtn.style.display = 'block';
+    quizBackBtn.onclick = showMainMenu; // Return to main menu when clicked
     
     console.log("Level selection container display:", getComputedStyle(levelSelectionContainer).display);
 }
@@ -676,6 +677,12 @@ function handleQuizBackButton() {
     // If on irregular verb stages selection screen, go back to main menu
     const irregularVerbStagesContainer = document.getElementById('irregularVerbStagesContainer');
     if (irregularVerbStagesContainer && irregularVerbStagesContainer.classList.contains('active')) {
+        showMainMenu();
+        return;
+    }
+    
+    // If on preposition level selection screen, go back to main menu
+    if (levelSelectionContainer.classList.contains('active')) {
         showMainMenu();
         return;
     }
