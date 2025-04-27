@@ -36,7 +36,6 @@ const prevDayBtn = document.getElementById('prevDayBtn');
 const nextDayBtn = document.getElementById('nextDayBtn');
 const restartBtn = document.getElementById('restartBtn');
 const backToMainMenuBtn = document.getElementById('backToMainMenuBtn');
-const backToMainBtn = document.getElementById('backToMainBtn');
 const quizBackBtn = document.getElementById('quizBackBtn');
 const playLineABtn = document.getElementById('playLineA');
 const playLineBBtn = document.getElementById('playLineB');
@@ -44,11 +43,19 @@ const level1Btn = document.getElementById('level1Btn');
 const level2Btn = document.getElementById('level2Btn');
 const prepositionsBtn = document.getElementById('prepositionsBtn');
 const verbTensesBtn = document.getElementById('verbTensesBtn');
+const irregularVerbsBtn = document.getElementById('irregularVerbsBtn');
 const vocabularyBtn = document.getElementById('vocabularyBtn');
 const progressBarContainer = document.getElementById('progressBarContainer');
 const confirmModal = document.getElementById('confirmModal');
 const confirmExitBtn = document.getElementById('confirmExitBtn');
 const cancelExitBtn = document.getElementById('cancelExitBtn');
+
+// Irregular Verb Stage Buttons (Added)
+const irregularVerbStage1Btn = document.getElementById('irregularVerbStage1Btn');
+const irregularVerbStage2Btn = document.getElementById('irregularVerbStage2Btn');
+const irregularVerbStage3Btn = document.getElementById('irregularVerbStage3Btn');
+const irregularVerbStage4Btn = document.getElementById('irregularVerbStage4Btn');
+const irregularVerbStage5Btn = document.getElementById('irregularVerbStage5Btn');
 
 // Initialize the application
 function initApp() {
@@ -85,6 +92,13 @@ function initApp() {
         startLevel('verbTenses1');
     });
     
+    irregularVerbsBtn.addEventListener('click', function() {
+        console.log("Irregular Verbs button clicked");
+        currentPracticeType = "irregularVerbs";
+        logEvent('test_button_click', { button_type: 'irregular_verbs' });
+        showIrregularVerbStages();
+    });
+    
     vocabularyBtn.addEventListener('click', function() {
         console.log("Vocabulary button clicked");
         currentPracticeType = "vocabulary";
@@ -104,11 +118,23 @@ function initApp() {
         startLevel('level2');
     });
     
+    // Event listeners for Irregular Verb Stage buttons (Added)
+    if (irregularVerbStage1Btn) irregularVerbStage1Btn.addEventListener('click', () => startLevel('irregularVerbStage1'));
+    if (irregularVerbStage2Btn) irregularVerbStage2Btn.addEventListener('click', () => startLevel('irregularVerbStage2'));
+    if (irregularVerbStage3Btn) irregularVerbStage3Btn.addEventListener('click', () => {
+        startLevel('irregularVerbStage3');
+    });
+    if (irregularVerbStage4Btn) irregularVerbStage4Btn.addEventListener('click', () => { 
+        startLevel('irregularVerbStage4');
+    });
+    if (irregularVerbStage5Btn) irregularVerbStage5Btn.addEventListener('click', () => { 
+        startLevel('irregularVerbStage5');
+    });
+    
     // Event listeners
     nextBtn.addEventListener('click', goToNextQuestion);
     restartBtn.addEventListener('click', restartPractice);
     backToMainMenuBtn.addEventListener('click', showMainMenu);
-    backToMainBtn.addEventListener('click', showMainMenu);
     quizBackBtn.addEventListener('click', handleQuizBackButton);
     
     // Modal event listeners
@@ -130,8 +156,17 @@ function initApp() {
     });
     
     playLineBBtn.addEventListener('click', () => {
-        if (practiceData && practiceData[currentQuestionIndex]) {
-            googleTTS.speakLine(practiceData[currentQuestionIndex].lineB);
+        const question = practiceData ? practiceData[currentQuestionIndex] : null;
+        if (question) {
+            // Determine which text to speak based on practice type
+            const textToSpeak = (currentPracticeType === 'irregularVerbs') 
+                                ? question.sentence 
+                                : question.lineB;
+            if (textToSpeak) {
+                googleTTS.speakLine(textToSpeak);
+            } else {
+                console.warn("Missing text for line B/sentence for question:", currentQuestionIndex);
+            }
         }
     });
     
@@ -147,6 +182,13 @@ function showMainMenu() {
     completionContainer.classList.remove('active');
     levelSelectionContainer.classList.remove('active');
     vocabularyContainer.classList.remove('active');
+    
+    // Also hide the irregular verbs stages container
+    const irregularVerbStagesContainer = document.getElementById('irregularVerbStagesContainer');
+    if (irregularVerbStagesContainer) {
+        irregularVerbStagesContainer.classList.remove('active');
+    }
+    
     progressBarContainer.style.display = 'none';
     
     // Show main menu
@@ -187,17 +229,76 @@ function showLevelSelection() {
     console.log("Level selection container display:", getComputedStyle(levelSelectionContainer).display);
 }
 
+// Show irregular verb stage selection screen (New function)
+function showIrregularVerbStages() {
+    console.log("Showing irregular verb stages screen");
+    
+    // Hide other containers
+    questionContainer.classList.remove('active');
+    completionContainer.classList.remove('active');
+    mainMenuContainer.classList.remove('active');
+    levelSelectionContainer.classList.remove('active'); // Hide preposition level selection
+    vocabularyContainer.classList.remove('active');
+    progressBarContainer.style.display = 'none';
+    
+    // Show irregular verb stage selection (We need to add this container to index.html)
+    const irregularVerbStagesContainer = document.getElementById('irregularVerbStagesContainer'); 
+    if (irregularVerbStagesContainer) {
+        irregularVerbStagesContainer.classList.add('active');
+    } else {
+        console.error("Irregular verb stages container not found!");
+        // Fallback to main menu if container doesn't exist yet
+        showMainMenu(); 
+        return; 
+    }
+    
+    // Update header
+    document.querySelector('header h1').textContent = 'Irregular Verbs';
+    
+    // Show back button in header and set up its event handler
+    quizBackBtn.style.display = 'block';
+    quizBackBtn.onclick = showMainMenu; // Return to main menu when clicked
+    
+    console.log("Irregular verb stages container display:", getComputedStyle(irregularVerbStagesContainer).display);
+}
+
 // Start a specific level
 function startLevel(level) {
     console.log("Starting level:", level);
     currentLevel = level;
     
+    // Determine practice type if not already set (e.g., direct start)
+    if (!currentPracticeType || currentPracticeType === "") {
+        if (level.startsWith('irregularVerb')) {
+            currentPracticeType = "irregularVerbs";
+        } else if (level.startsWith('level')) {
+            currentPracticeType = "prepositions";
+        } else if (level.startsWith('verbTenses')) {
+            currentPracticeType = "verbTenses";
+        } 
+    }
+    
     // Set the title based on practice type and level
     let title;
-    if (level === 'verbTenses1') {
+    if (currentPracticeType === 'verbTenses') {
         title = 'Verb Tenses Practice';
-    } else {
+    } else if (currentPracticeType === 'prepositions') {
         title = level === 'level1' ? 'Level 1 Prepositions' : 'Level 2 Prepositions';
+    } else if (currentPracticeType === 'irregularVerbs') {
+        // Extract stage number and set title
+        const stageMatch = level.match(/irregularVerbStage(\d+)/);
+        const stageNumber = stageMatch ? stageMatch[1] : '?';
+        // Define stage names (could be moved to a config/data file later)
+        const stageNames = {
+            '1': 'Stage 1: Core Verbs',
+            '2': 'Stage 2: Everyday Verbs',
+            '3': 'Stage 3: Action Verbs',
+            '4': 'Stage 4: Less Common Verbs',
+            '5': 'Stage 5: Master Level'
+        };
+        title = stageNames[stageNumber] || `Irregular Verbs - Stage ${stageNumber}`;
+    } else {
+        title = 'Practice'; // Default title
     }
     document.querySelector('header h1').textContent = title;
     
@@ -235,10 +336,13 @@ function startLevel(level) {
         total_questions: practiceData.length
     });
     
-    // Hide level selection and main menu, show question container
+    // Hide level selection, main menu, completion, and irregular verb stages. Show question container.
     levelSelectionContainer.classList.remove('active');
     mainMenuContainer.classList.remove('active');
     completionContainer.classList.remove('active');
+    const irregularVerbStagesContainer = document.getElementById('irregularVerbStagesContainer'); // Get reference
+    if (irregularVerbStagesContainer) irregularVerbStagesContainer.classList.remove('active'); // Hide it
+    
     questionContainer.classList.add('active');
     progressBarContainer.style.display = 'flex';
     
@@ -255,40 +359,114 @@ function startLevel(level) {
 // Load a question
 function loadQuestion(index) {
     console.log("Loading question:", index);
+    if (index < 0 || index >= practiceData.length) {
+        console.error("Invalid question index:", index);
+        showMainMenu(); // Go back to main menu if index is out of bounds
+        return;
+    }
+    
     const question = practiceData[index];
+    if (!question) {
+        console.error("Question data is missing for index:", index);
+        showMainMenu(); // Go back to main menu if data is missing
+        return;
+    }
     
     // Reset selected option
     selectedOption = null;
     
-    // Process the lines with the Google TTS helper functions
-    let lineA, lineB;
-    
-    if (question.lineA.includes('{{blank}}')) {
-        lineA = googleTTS.processLineWithBlank(question.lineA);
+    // Default visibility
+    playLineABtn.style.display = 'inline-block';
+    playLineBBtn.style.display = 'inline-block';
+    lineAElement.style.display = 'inline'; // Assuming span defaults to inline
+    lineBElement.style.display = 'inline';
+
+    // Process the lines based on practice type
+    let lineAContent = '';
+    let lineBContent = '';
+
+    if (currentPracticeType === 'irregularVerbs') {
+        // Irregular verbs use only one sentence line, typically with a blank
+        if (question.sentence) {
+             if (question.sentence.includes('{{blank}}')) {
+                lineBContent = googleTTS.processLineWithBlank(question.sentence);
+            } else {
+                lineBContent = googleTTS.processTextToInteractive(question.sentence);
+            }
+        } else {
+            console.error("Missing 'sentence' property for irregular verb question:", index, question);
+        }
+        // Hide Line A elements
+        playLineABtn.style.display = 'none';
+        lineAElement.innerHTML = ''; // Clear content
+        lineAElement.style.display = 'none'; // Hide span
+
     } else {
-        lineA = googleTTS.processTextToInteractive(question.lineA);
+        // Existing logic for Prepositions and Verb Tenses (assuming lineA and lineB)
+        if (question.lineA) {
+            if (question.lineA.includes('{{blank}}')) {
+                lineAContent = googleTTS.processLineWithBlank(question.lineA);
+            } else {
+                lineAContent = googleTTS.processTextToInteractive(question.lineA);
+            }
+        } else {
+            console.warn("Missing 'lineA' property for question:", index, question);
+            // Optionally hide Line A elements if lineA is consistently missing for a type
+            playLineABtn.style.display = 'none';
+            lineAElement.style.display = 'none';
+        }
+        
+        if (question.lineB) {
+            if (question.lineB.includes('{{blank}}')) {
+                lineBContent = googleTTS.processLineWithBlank(question.lineB);
+            } else {
+                lineBContent = googleTTS.processTextToInteractive(question.lineB);
+            }
+        } else {
+            console.error("Missing 'lineB' property for question:", index, question);
+             // Optionally hide Line B elements if lineB is consistently missing for a type
+            playLineBBtn.style.display = 'none';
+            lineBElement.style.display = 'none';
+        }
     }
     
-    if (question.lineB.includes('{{blank}}')) {
-        lineB = googleTTS.processLineWithBlank(question.lineB);
-    } else {
-        lineB = googleTTS.processTextToInteractive(question.lineB);
-    }
+    // Update the HTML elements
+    lineAElement.innerHTML = lineAContent;
+    lineBElement.innerHTML = lineBContent;
     
-    lineAElement.innerHTML = lineA;
-    lineBElement.innerHTML = lineB;
-    
-    // Clear previous options
+    // Clear previous options and reset layout class
     optionsContainer.innerHTML = '';
+    optionsContainer.classList.remove('grid-2x2'); // Remove class if it was added previously
+
+    // Add specific class for grid layout if it's irregular verbs
+    if (currentPracticeType === 'irregularVerbs') {
+        optionsContainer.classList.add('grid-2x2');
+    }
     
-    // Add options
-    question.options.forEach(option => {
-        const optionBtn = document.createElement('button');
-        optionBtn.classList.add('option-btn');
-        optionBtn.textContent = option;
-        optionBtn.addEventListener('click', () => selectOption(option));
-        optionsContainer.appendChild(optionBtn);
-    });
+    // Add options (Ensure question.options exists)
+    if (question.options && Array.isArray(question.options)) {
+        // Create a shuffled copy of the options array
+        const shuffledOptions = [...question.options];
+        // Fisher-Yates shuffle algorithm
+        for (let i = shuffledOptions.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [shuffledOptions[i], shuffledOptions[j]] = [shuffledOptions[j], shuffledOptions[i]];
+        }
+        
+        // Create buttons using the shuffled options
+        shuffledOptions.forEach(option => {
+            const optionBtn = document.createElement('button');
+            optionBtn.classList.add('option-btn');
+            optionBtn.textContent = option;
+            // Re-enable button before adding listener
+            optionBtn.disabled = false; 
+            optionBtn.addEventListener('click', () => selectOption(option));
+            optionsContainer.appendChild(optionBtn);
+        });
+    } else {
+         console.error("Missing or invalid 'options' array for question:", index, question);
+         // Handle missing options, maybe show an error or skip question?
+    }
     
     // Hide next button initially
     nextBtn.classList.remove('visible');
@@ -320,23 +498,25 @@ function selectOption(option) {
     // Update UI to show correct/incorrect
     const optionBtns = optionsContainer.querySelectorAll('.option-btn');
     
-    // First, remove 'selected' class from all buttons
+    // First, remove all selection-related classes from all buttons
     optionBtns.forEach(btn => {
-        btn.classList.remove('selected');
+        btn.classList.remove('selected', 'correct', 'incorrect');
     });
     
-    // Then, add 'selected' class only to the current button
+    // Then process the selection
     optionBtns.forEach(btn => {
         // If this is the selected button
         if (btn.textContent === option) {
             // Mark it as selected
             btn.classList.add('selected');
             
-            // If correct, disable all buttons
+            // If correct, highlight it and disable all buttons
             if (isCorrect) {
+                btn.classList.add('correct');
                 optionBtns.forEach(b => b.disabled = true);
             } else {
-                // If incorrect, only disable this button
+                // If incorrect, mark as incorrect and disable only this button
+                btn.classList.add('incorrect');
                 btn.disabled = true;
             }
         }
@@ -465,6 +645,13 @@ function handleQuizBackButton() {
         return;
     }
     
+    // If on irregular verb stages selection screen, go back to main menu
+    const irregularVerbStagesContainer = document.getElementById('irregularVerbStagesContainer');
+    if (irregularVerbStagesContainer && irregularVerbStagesContainer.classList.contains('active')) {
+        showMainMenu();
+        return;
+    }
+    
     // Show confirmation modal for quitting mid-quiz
     showModal();
 }
@@ -479,7 +666,7 @@ function hideModal() {
     confirmModal.classList.remove('active');
 }
 
-// Confirm exit from quiz/practice
+// Confirm exit from quiz
 function confirmExit() {
     console.log("Confirming exit from quiz/practice");
     
@@ -494,12 +681,15 @@ function confirmExit() {
         correct_answers: totalCorrectAnswers
     });
     
-    // Return to main menu
+    // Return to appropriate screen
     if (currentPracticeType === "prepositions") {
         // Go back to level selection for prepositions
         showLevelSelection();
+    } else if (currentPracticeType === "irregularVerbs") {
+        // Go back to irregular verb stage selection
+        showIrregularVerbStages();
     } else {
-        // Go back to main menu for other practice types
+        // Go back to main menu for other practice types (Verb Tenses, Vocabulary)
         showMainMenu();
     }
 }
