@@ -43,6 +43,13 @@
                     </div>
                     <i class="fa-solid fa-chevron-right btn-icon"></i>
                 </button>
+                <button id="irregularVerbsBtn" class="practice-type-btn irregular-verbs" type="button">
+                    <div class="btn-content">
+                        <span class="practice-type">Irregular Verbs</span>
+                        <span class="practice-description">Practice common irregular verbs</span>
+                    </div>
+                    <i class="fa-solid fa-chevron-right btn-icon"></i>
+                </button>
                 <button id="vocabularyBtn" class="practice-type-btn vocabulary" type="button">
                     <div class="btn-content">
                         <span class="practice-type">Vocabulary</span>
@@ -55,28 +62,25 @@
         
         <!-- Level Selection Container -->
         <div id="levelSelectionContainer" class="level-selection-container">
-            <div class="section-header">
-                <button id="backToMainBtn" class="back-btn"><i class="fa-solid fa-arrow-left"></i></button>
-                <h2>Select a Level</h2>
-            </div>
+            <h2>Choose Preposition Level</h2>
             <div class="level-buttons">
-                <button id="level1Btn" class="level-btn" type="button">
-                    <div class="btn-content">
-                        <span class="level-number">Level 1</span>
-                        <span class="level-description">Simple sentences with basic prepositions</span>
-                    </div>
-                    <i class="fa-solid fa-chevron-right btn-icon"></i>
-                </button>
-                <button id="level2Btn" class="level-btn" type="button">
-                    <div class="btn-content">
-                        <span class="level-number">Level 2</span>
-                        <span class="level-description">Slightly more complex sentences and vocabulary</span>
-                    </div>
-                    <i class="fa-solid fa-chevron-right btn-icon"></i>
-                </button>
+                <button id="level1Btn" class="level-btn" type="button">Level 1</button>
+                <button id="level2Btn" class="level-btn" type="button">Level 2</button>
             </div>
         </div>
         
+        <!-- Irregular Verb Stages Container -->
+        <div id="irregularVerbStagesContainer" class="irregular-verb-stages-container">
+            <h2>Choose Irregular Verb Stage</h2>
+            <div class="stage-buttons">
+                <button class="stage-btn" id="irregularVerbStage1Btn">Stage 1: Core Verbs<span class="stage-description">Very important verbs you need every day.</span></button>
+                <button class="stage-btn" id="irregularVerbStage2Btn">Stage 2: Everyday Verbs<span class="stage-description">Verbs you hear and use often.</span></button>
+                <button class="stage-btn" id="irregularVerbStage3Btn">Stage 3: Action Verbs<span class="stage-description">Verbs for moving, doing, and playing.</span></button>
+                <button class="stage-btn" id="irregularVerbStage4Btn">Stage 4: Less Common Verbs<span class="stage-description">Verbs you use sometimes but should know.</span></button>
+                <button class="stage-btn" id="irregularVerbStage5Btn">Stage 5: Master Level Verbs<span class="stage-description">Special verbs to sound like a native speaker.</span></button>
+            </div>
+        </div>
+
         <div id="questionContainer" class="conversation-container">
             <div class="dialogue">
                 <p class="dialogue-line">
@@ -148,6 +152,22 @@
     <script src="level2Data.js"></script>
     <script src="verbTensesData.js"></script>
     <script src="vocabularyData.js"></script>
+    <script src="irregularVerbStage1.js"></script>
+    <script src="irregularVerbStage2.js"></script>
+    <script src="irregularVerbStage3.js"></script>
+    <script src="irregularVerbStage4.js"></script>
+    <script src="irregularVerbStage5.js"></script>
+    <script>
+        // Test script to verify data is available
+        console.log("VERIFYING DATA AVAILABILITY:");
+        console.log("irregularVerbStage1 available:", !!window.irregularVerbStage1);
+        console.log("irregularVerbStage1 length:", window.irregularVerbStage1 ? window.irregularVerbStage1.length : "N/A");
+        console.log("irregularVerbStage2 available:", !!window.irregularVerbStage2);
+        console.log("irregularVerbStage3 available:", !!window.irregularVerbStage3);
+        console.log("irregularVerbStage4 available:", !!window.irregularVerbStage4);
+        console.log("irregularVerbStage5 available:", !!window.irregularVerbStage5);
+    </script>
+    <script src="index.js"></script>
     <script src="data.js"></script>
     <script src="google-tts.js"></script>
     <script src="config.js"></script>
