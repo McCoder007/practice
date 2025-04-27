@@ -377,7 +377,7 @@ class GoogleTTSManager {
                         // Then after a short pause, speak the after part
                         setTimeout(async () => {
                             await this.synthesizeSpeech(afterBlank);
-                        }, 700);
+                        }, 500); // Changed from 700ms to 500ms
                         
                         return;
                     } catch (error) {
