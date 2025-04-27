@@ -433,28 +433,27 @@ function loadQuestion(index) {
     // Update the HTML elements
     lineAElement.innerHTML = lineAContent;
     lineBElement.innerHTML = lineBContent;
-    
-    // Remove any existing click handlers to prevent duplicates
-    const oldLineAClone = lineAElement.cloneNode(true);
-    const oldLineBClone = lineBElement.cloneNode(true);
-    lineAElement.parentNode.replaceChild(oldLineAClone, lineAElement);
-    lineBElement.parentNode.replaceChild(oldLineBClone, lineBElement);
-    
-    // Update references after replacing
-    const newLineAElement = document.getElementById('lineA');
-    const newLineBElement = document.getElementById('lineB');
-    
-    // Add click handler for the entire sentences to play audio
+
+    // Remove any existing click handlers by clearing the innerHTML and re-adding it
+    // This is a safer approach than replacing the entire element
     if (lineAContent) {
-        newLineAElement.addEventListener('click', () => {
+        const cachedContent = lineAElement.innerHTML;
+        lineAElement.innerHTML = cachedContent;
+        
+        // Add click handler for the entire sentence to play audio
+        lineAElement.addEventListener('click', function() {
             if (question.lineA) {
                 googleTTS.speakLine(question.lineA);
             }
         });
     }
-    
+
     if (lineBContent) {
-        newLineBElement.addEventListener('click', () => {
+        const cachedContent = lineBElement.innerHTML;
+        lineBElement.innerHTML = cachedContent;
+        
+        // Add click handler for the entire sentence to play audio
+        lineBElement.addEventListener('click', function() {
             if (currentPracticeType === 'irregularVerbs' && question.sentence) {
                 googleTTS.speakLine(question.sentence);
             } else if (question.lineB) {
