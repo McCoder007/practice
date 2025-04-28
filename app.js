@@ -1036,7 +1036,7 @@ function initDayNavigation() {
     console.log("Initializing day navigation");
     
     // Update day display
-    currentDayDisplay.textContent = `Day ${currentDayIndex + 1}`;
+    updateDayDisplay();
     
     // Remove any existing event listeners
     prevDayBtn.removeEventListener('click', goToPreviousDay);
@@ -1065,8 +1065,14 @@ function initDayNavigation() {
 
 // Update the day display
 function updateDayDisplay() {
-    // Update the day display text (e.g., "Day 1")
-    currentDayDisplay.textContent = `Day ${currentDayIndex + 1}`;
+    // Update the day display text with a more modern format
+    const dayNumber = currentDayIndex + 1;
+    
+    // Create a visually pleasing day display with icon
+    currentDayDisplay.innerHTML = `
+        <i class="fa-solid fa-calendar-day"></i>
+        <span>Day ${dayNumber}</span>
+    `;
 }
 
 // Update navigation buttons (disable/enable based on position)
@@ -1157,8 +1163,7 @@ function loadVocabularyForDay(day, panel) {
             logWordInteraction(item.word, 'sentence_audio_played');
         });
         
-        const sentenceText = document.createElement('span');
-        sentenceText.textContent = item.sentence;
+        const sentenceText = document.createElement('div');
         sentenceText.classList.add('sentence-text');
         
         // Process the sentence to make individual words clickable
@@ -1177,7 +1182,7 @@ function loadVocabularyForDay(day, panel) {
         vocabItem.appendChild(wordElement);
         vocabItem.appendChild(wordTranslation);
         vocabItem.appendChild(sentenceElement);
-        vocabItem.appendChild(sentenceTranslation);
+        sentenceElement.appendChild(sentenceTranslation);
         
         panel.appendChild(vocabItem);
     });
