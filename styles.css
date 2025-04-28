@@ -811,8 +811,8 @@ header h1 i {
     background: transparent;
     border: none;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -820,6 +820,7 @@ header h1 i {
     transition: all var(--transition-normal);
     color: var(--primary);
     box-shadow: none;
+    font-size: 0.9em;
 }
 
 .nav-arrow.left {
@@ -927,9 +928,10 @@ header h1 i {
 
 .vocabulary-word-translation {
     font-size: var(--font-size-md);
-    color: var(--primary);
+    color: var(--neutral-600);
     margin-bottom: var(--spacing-md);
-    padding-left: calc(24px + var(--spacing-sm));
+    padding-left: calc(var(--spacing-lg) + var(--spacing-sm));
+    font-weight: var(--font-weight-medium);
 }
 
 .vocabulary-sentence {
@@ -946,9 +948,9 @@ header h1 i {
 
 .vocabulary-sentence-translation {
     font-size: var(--font-size-md);
-    color: var(--primary);
-    margin-bottom: var(--spacing-lg);
-    padding-left: calc(24px + var(--spacing-sm));
+    color: var(--neutral-600);
+    padding-left: calc(var(--spacing-lg) + var(--spacing-sm));
+    font-weight: var(--font-weight-medium);
 }
 
 .word-play-btn, .sentence-play-btn {
@@ -1398,6 +1400,7 @@ header h1 i {
     color: var(--neutral-600);
     margin-bottom: var(--spacing-md);
     padding-left: calc(var(--spacing-lg) + var(--spacing-sm)); /* Align with word text */
+    font-weight: var(--font-weight-medium);
 }
 
 .vocabulary-sentence {
@@ -1427,6 +1430,7 @@ header h1 i {
     font-size: var(--font-size-md);
     color: var(--neutral-600);
     padding-left: calc(var(--spacing-lg) + var(--spacing-sm)); /* Align with sentence text */
+    font-weight: var(--font-weight-medium);
 }
 
 .word-play-btn, .sentence-play-btn {
@@ -1600,8 +1604,8 @@ header h1 i {
     }
     
     .nav-arrow {
-        width: 18px;
-        height: 18px;
+        width: 16px;
+        height: 16px;
     }
 }
 
@@ -1741,7 +1745,9 @@ header h1 i {
     }
     
     .vocabulary-container.mobile-view .vocabulary-word-translation {
-        font-size: var(--font-size-sm);
+        font-size: var(--font-size-md);
+        font-weight: var(--font-weight-medium);
+        color: var(--primary-dark);
     }
     
     .vocabulary-container.mobile-view .vocabulary-sentence {
@@ -1749,7 +1755,9 @@ header h1 i {
     }
     
     .vocabulary-container.mobile-view .vocabulary-sentence-translation {
-        font-size: var(--font-size-xs);
+        font-size: var(--font-size-sm);
+        font-weight: var(--font-weight-medium);
+        color: var(--primary-dark);
     }
     
     .vocabulary-container.mobile-view .word-play-btn,
