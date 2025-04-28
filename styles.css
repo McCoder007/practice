@@ -223,11 +223,22 @@ header h1 i {
 }
 
 .practice-type-btn.irregular-verbs {
-    border-left: 4px solid var(--warning);
+    /* Applied to both Quiz and Lists initially */
+    /* border-left: 4px solid var(--warning); */ 
+}
+
+/* Specific color for Irregular Verbs Quiz */
+button#irregularVerbsBtn.practice-type-btn.irregular-verbs {
+    border-left: 4px solid #2980b9; /* Blue */
+}
+
+/* Specific color for Irregular Verb Lists */
+button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
+    border-left: 4px solid #1abc9c; /* Teal */
 }
 
 .practice-type-btn.vocabulary {
-    border-left: 4px solid #e74c3c;
+    border-left: 4px solid var(--primary-dark); /* Darker Purple */
 }
 
 .practice-type-btn .btn-content {
@@ -1945,8 +1956,15 @@ header h1 i {
 .verb-sentences p {
     font-size: var(--font-size-md);
     color: var(--neutral-600);
-    margin-bottom: var(--spacing-xs);
+    margin-bottom: var(--spacing-sm); /* Increased margin */
     line-height: 1.5;
+}
+
+/* Add separation for subsequent sentences */
+.verb-sentences p:not(:first-child) {
+    border-top: 1px solid var(--neutral-200); /* Light border */
+    padding-top: var(--spacing-sm); /* Padding above the border */
+    margin-top: var(--spacing-sm); /* Add margin above the border too */
 }
 
 /* Visual indicator on the verb parts line */

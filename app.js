@@ -368,7 +368,7 @@ function showVerbList(stage) {
     const stageButton = document.getElementById(`irregularVerbLists${stage.charAt(0).toUpperCase() + stage.slice(1)}Btn`);
     // Get the text node before the span.stage-description
     const stageTitleText = stageButton.childNodes[0].nodeValue.trim(); 
-    verbListTitle.textContent = `Irregular Verbs - ${stageTitleText}`; // Use the cleaned title text
+    verbListTitle.textContent = stageTitleText; // Set title to just the stage name
 
     // Hide irregular verb lists container
     const irregularVerbListsContainer = document.getElementById('irregularVerbListsContainer');
