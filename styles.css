@@ -1660,3 +1660,101 @@ header h1 i {
     cursor: not-allowed;
     transform: none;
 }
+
+/* Add styles for vocabulary practice on mobile */
+@media (max-width: 600px) {
+    .vocabulary-container.active ~ header {
+        padding: var(--spacing-xs) var(--spacing-md);
+    }
+    
+    .vocabulary-container.active ~ header h1 {
+        font-size: var(--font-size-lg);
+    }
+    
+    .vocabulary-container.active ~ header .header-content {
+        margin-bottom: 0;
+    }
+    
+    .vocabulary-container .day-navigation {
+        margin-top: var(--spacing-xs);
+        margin-bottom: var(--spacing-xs);
+    }
+    
+    .vocabulary-container .days-carousel {
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    .vocabulary-container .day-panel {
+        padding: var(--spacing-xs);
+        overflow-y: visible;
+        height: auto;
+        opacity: 1;
+        transform: none;
+    }
+    
+    .vocabulary-container .vocabulary-item {
+        padding: var(--spacing-md);
+        margin-bottom: var(--spacing-sm);
+    }
+    
+    /* Additional styles for the mobile view */
+    .vocabulary-container.mobile-view {
+        padding: 0;
+    }
+    
+    .vocabulary-container.mobile-view .day-navigation {
+        background-color: var(--primary);
+        color: white;
+        padding: var(--spacing-xs) 0;
+        margin: 0;
+        height: auto;
+    }
+    
+    .vocabulary-container.mobile-view .current-day {
+        color: white;
+        font-size: var(--font-size-xs);
+    }
+    
+    .vocabulary-container.mobile-view .nav-arrow {
+        color: white;
+    }
+    
+    .vocabulary-container.mobile-view .days-carousel {
+        margin-bottom: 0;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    
+    .vocabulary-container.mobile-view .day-panel {
+        padding: var(--spacing-xs) var(--spacing-sm);
+    }
+    
+    .vocabulary-container.mobile-view .vocabulary-item {
+        border-radius: var(--radius-sm);
+        margin-bottom: var(--spacing-xs);
+        box-shadow: var(--shadow-sm);
+    }
+    
+    .vocabulary-container.mobile-view .vocabulary-word {
+        font-size: var(--font-size-md);
+    }
+    
+    .vocabulary-container.mobile-view .vocabulary-word-translation {
+        font-size: var(--font-size-sm);
+    }
+    
+    .vocabulary-container.mobile-view .vocabulary-sentence {
+        font-size: var(--font-size-sm);
+    }
+    
+    .vocabulary-container.mobile-view .vocabulary-sentence-translation {
+        font-size: var(--font-size-xs);
+    }
+    
+    .vocabulary-container.mobile-view .word-play-btn,
+    .vocabulary-container.mobile-view .sentence-play-btn {
+        width: 24px;
+        height: 24px;
+    }
+}
