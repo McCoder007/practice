@@ -1809,8 +1809,12 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
         font-size: var(--font-size-xs); /* Smaller font size */
         padding: 2px 6px; /* Adjusted padding */
         flex-shrink: 0; /* Prevent shrinking */
+        flex-grow: 0; /* Explicitly prevent growing */
         width: fit-content; /* Ensure width matches content */
         margin-left: var(--spacing-sm); /* Add small margin for spacing */
+        background-color: var(--neutral-200); /* Explicit background */
+        border-radius: var(--radius-sm); /* Explicit border-radius */
+        color: var(--neutral-600); /* Explicit color */
     }
     
     .vocabulary-container.mobile-view .vocabulary-word-translation {
