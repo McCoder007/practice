@@ -177,6 +177,9 @@ function initApp() {
 function showMainMenu() {
     console.log("Showing main menu screen");
     
+    // Clean up any event listeners from vocabulary practice
+    window.removeEventListener('resize', handleVocabularyResize);
+    
     // Hide other containers
     questionContainer.classList.remove('active');
     completionContainer.classList.remove('active');
@@ -663,6 +666,9 @@ function handleQuizBackButton() {
         const sessionDuration = new Date() - vocabularyStartTime;
         const timeOnCurrentDay = new Date() - currentDayStartTime;
         
+        // Remove the resize listener when leaving vocabulary practice
+        window.removeEventListener('resize', handleVocabularyResize);
+        
         logEvent('vocabulary_session_ended', {
             total_duration_ms: sessionDuration,
             last_day: currentVocabularyDay,
@@ -780,6 +786,14 @@ function showVocabularyPractice() {
     // Show vocabulary container
     vocabularyContainer.classList.add('active');
     
+    // Check if we're on mobile and add class if needed
+    const isMobile = window.innerWidth <= 600;
+    if (isMobile) {
+        vocabularyContainer.classList.add('mobile-view');
+    } else {
+        vocabularyContainer.classList.remove('mobile-view');
+    }
+    
     // Update header
     document.querySelector('header h1').textContent = 'Vocabulary Practice';
     
@@ -806,6 +820,9 @@ function showVocabularyPractice() {
     // Reset word interactions
     wordInteractions = {};
     
+    // Add window resize listener for mobile view
+    window.addEventListener('resize', handleVocabularyResize);
+    
     // Log event
     logEvent('vocabulary_practice_started', {
         day: currentVocabularyDay,
@@ -831,6 +848,19 @@ function initDayNavigation() {
     
     // Set initial slider position
     daysSlider.style.transform = `translateX(0)`;
+    
+    // Check if we're on mobile
+    const isMobile = window.innerWidth <= 600;
+    
+    // Add mobile-specific class if needed
+    if (isMobile) {
+        vocabularyContainer.classList.add('mobile-view');
+    } else {
+        vocabularyContainer.classList.remove('mobile-view');
+    }
+    
+    // Setup swipe detection with improved sensitivity for mobile
+    setupSwipeDetection();
 }
 
 // Update the day display
@@ -975,37 +1005,84 @@ function goToNextDay() {
     }
 }
 
-// Update the day display and slider position
+// Update the day by setting the appropriate transform on the slider
 function updateDay() {
-    // Log time spent on previous day
-    const timeSpentOnDay = new Date() - currentDayStartTime;
-    logEvent('vocabulary_day_completed', {
-        day: currentVocabularyDay,
-        time_spent_ms: timeSpentOnDay,
-        word_interactions: wordInteractions
-    });
+    console.log(`Updating to day ${currentDayIndex + 1}`);
     
-    // Reset tracking for new day
+    // Update day display text
+    updateDayDisplay();
+    
+    // Update the start time for the current day
     currentDayStartTime = new Date();
-    wordInteractions = {};
     
-    // Update display
-    currentDayDisplay.textContent = `Day ${currentDayIndex + 1}`;
+    // Transform the slider to show the selected day
+    const translateValue = -100 * currentDayIndex;
+    daysSlider.style.transform = `translateX(${translateValue}%)`;
     
-    // Update slider position with transition
-    daysSlider.style.transform = `translateX(-${currentDayIndex * 100}%)`;
+    // Check if we're on mobile
+    const isMobile = window.innerWidth <= 600;
     
-    // Log new day started
-    logEvent('vocabulary_day_started', {
-        day: currentVocabularyDay,
+    // For mobile, scroll to the top after day change
+    if (isMobile) {
+        // Find the current panel and scroll to top
+        const currentPanel = document.getElementById(`day-panel-${currentVocabularyDay}`);
+        if (currentPanel) {
+            currentPanel.scrollTop = 0;
+            
+            // If in mobile view, also make sure days carousel scrolls to top
+            const daysCarousel = document.querySelector('.days-carousel');
+            if (daysCarousel) {
+                daysCarousel.scrollTop = 0;
+            }
+        }
+    }
+    
+    // Log day change
+    logEvent('vocabulary_day_changed', {
+        from_day: availableDays[currentDayIndex - 1] || 'none',
+        to_day: currentVocabularyDay,
+        day_index: currentDayIndex,
         total_words: vocabularyData[currentVocabularyDay].length
     });
 }
 
-// Set up simplified navigation (no swipe detection)
+// Setup swipe detection for mobile devices
 function setupSwipeDetection() {
-    // No swipe detection needed, using only buttons
-    console.log("Using button navigation only");
+    // Remove existing listeners first
+    daysSlider.removeEventListener('touchstart', handleTouchStart);
+    daysSlider.removeEventListener('touchend', handleTouchEnd);
+    
+    // Add touch event listeners for swipe detection with improved sensitivity
+    daysSlider.addEventListener('touchstart', handleTouchStart, { passive: true });
+    daysSlider.addEventListener('touchend', handleTouchEnd, { passive: true });
+}
+
+// Handle touch start
+function handleTouchStart(e) {
+    touchStartX = e.changedTouches[0].screenX;
+}
+
+// Handle touch end
+function handleTouchEnd(e) {
+    touchEndX = e.changedTouches[0].screenX;
+    handleSwipe();
+}
+
+// Handle swipe gesture
+function handleSwipe() {
+    // Determine if there was a swipe (with reduced threshold for better responsiveness)
+    const swipeThreshold = 50; // pixels
+    const swipeDistance = touchEndX - touchStartX;
+    
+    if (Math.abs(swipeDistance) > swipeThreshold) {
+        if (swipeDistance > 0) {
+            // Right swipe -> go to previous day
+            goToPreviousDay();
+        } else {
+            // Left swipe -> go to next day  
+            goToNextDay();
+        }
+    }
 }
 
 // Add function to log word interactions
@@ -1030,6 +1107,19 @@ function logWordInteraction(word, interactionType) {
         total_word_plays: wordInteractions[word].audio_plays,
         total_sentence_plays: wordInteractions[word].sentence_plays
     });
+}
+
+// Handle window resize for vocabulary practice
+function handleVocabularyResize() {
+    // Only apply if vocabulary container is active
+    if (!vocabularyContainer.classList.contains('active')) return;
+    
+    const isMobile = window.innerWidth <= 600;
+    if (isMobile) {
+        vocabularyContainer.classList.add('mobile-view');
+    } else {
+        vocabularyContainer.classList.remove('mobile-view');
+    }
 }
 
 // Initialize the app when the DOM is loaded
