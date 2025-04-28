@@ -802,37 +802,28 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
     align-items: center;
     justify-content: space-between;
     padding: var(--spacing-md) var(--spacing-lg);
-    background-color: var(--primary);
-    position: sticky;
-    top: 0;
-    z-index: 10;
+    border-bottom: 1px solid var(--neutral-300);
+    margin-bottom: var(--spacing-md);
 }
 
 .current-day {
-    font-size: var(--font-size-md);
-    font-weight: var(--font-weight-medium);
-    color: var(--white);
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-semibold);
+    color: var(--neutral-800);
     text-align: center;
     flex-grow: 1;
-    padding: var(--spacing-xs) var(--spacing-md);
-    border-radius: var(--radius-md);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: var(--spacing-sm);
 }
 
 .current-day i {
-    font-size: 0.9em;
-    opacity: 0.9;
+    display: none;
 }
 
 .nav-arrow {
-    background-color: rgba(255, 255, 255, 0.15);
-    color: var(--white);
-    border: none;
-    width: 36px;
-    height: 36px;
+    background-color: transparent;
+    color: var(--neutral-600);
+    border: 1px solid var(--neutral-300);
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -842,12 +833,17 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
 }
 
 .nav-arrow:hover:not(:disabled) {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: var(--neutral-200);
+    border-color: var(--neutral-400);
+    color: var(--neutral-800);
 }
 
 .nav-arrow:disabled {
     opacity: 0.5;
     cursor: not-allowed;
+    border-color: var(--neutral-200);
+    color: var(--neutral-400);
+    background-color: transparent;
 }
 
 .days-carousel {
@@ -1755,20 +1751,25 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
     }
     
     .vocabulary-container.mobile-view .day-navigation {
-        background-color: var(--primary);
-        color: white;
-        padding: var(--spacing-xs) 0;
+        padding: var(--spacing-sm) var(--spacing-lg);
         margin: 0;
         height: auto;
+        border-bottom: 1px solid var(--neutral-300);
+        margin-bottom: var(--spacing-md);
     }
     
     .vocabulary-container.mobile-view .current-day {
-        color: white;
-        font-size: var(--font-size-xs);
+        color: var(--neutral-800);
+        font-size: var(--font-size-lg);
+        font-weight: var(--font-weight-semibold);
     }
     
     .vocabulary-container.mobile-view .nav-arrow {
-        color: white;
+        color: var(--neutral-600);
+        background-color: transparent;
+        border: 1px solid var(--neutral-300);
+        width: 32px;
+        height: 32px;
     }
     
     .vocabulary-container.mobile-view .days-carousel {
