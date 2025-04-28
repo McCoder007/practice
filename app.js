@@ -324,6 +324,9 @@ function showIrregularVerbStages() {
 function showIrregularVerbLists() {
     console.log("Showing irregular verb lists screen");
     
+    // Make sure current practice type is properly set
+    currentPracticeType = "irregularVerbLists";
+    
     // Hide other containers
     questionContainer.classList.remove('active');
     completionContainer.classList.remove('active');
@@ -351,7 +354,7 @@ function showIrregularVerbLists() {
     // Update header and show back button
     document.querySelector('header h1').textContent = 'Irregular Verb Lists';
     quizBackBtn.style.display = 'block';
-    quizBackBtn.onclick = showMainMenu;
+    // We're using the handleQuizBackButton function for back button clicks
     
     console.log("Irregular verb lists container display:", irregularVerbListsContainer ? getComputedStyle(irregularVerbListsContainer).display : "container not found");
 }
@@ -448,7 +451,6 @@ function showVerbList(stage) {
     // Update header and show back button
     document.querySelector('header h1').textContent = 'Irregular Verb Lists';
     quizBackBtn.style.display = 'block';
-    quizBackBtn.onclick = showIrregularVerbLists; // Go back to the stages list
 }
 
 // Start a specific level
