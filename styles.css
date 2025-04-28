@@ -1786,10 +1786,30 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
         border-radius: var(--radius-sm);
         margin-bottom: var(--spacing-xs);
         box-shadow: var(--shadow-sm);
+        padding: var(--spacing-sm); /* Reduced padding slightly */
     }
     
     .vocabulary-container.mobile-view .vocabulary-word {
-        font-size: var(--font-size-md);
+        font-size: var(--font-size-md); /* Reduced word font size */
+        align-items: center; /* Ensure vertical alignment */
+        gap: var(--spacing-sm); /* Reduced gap */
+        margin-bottom: var(--spacing-xs); /* Reduced margin */
+    }
+
+    /* Reduce font size for the main word text span specifically */
+    .vocabulary-container.mobile-view .vocabulary-word > span:not(.word-type) {
+         font-size: var(--font-size-lg); /* Set specific size for word */
+         font-weight: var(--font-weight-semibold); /* Keep semibold */
+         flex-grow: 0; /* Don't let it grow excessively */
+         flex-shrink: 1; /* Allow shrinking */
+         margin-right: auto; /* Push type tag right */
+    }
+
+    .vocabulary-container.mobile-view .word-type {
+        font-size: var(--font-size-xs); /* Smaller font size */
+        padding: 2px 6px; /* Adjusted padding */
+        margin-left: auto; /* Push to the right */
+        flex-shrink: 0; /* Prevent shrinking */
     }
     
     .vocabulary-container.mobile-view .vocabulary-word-translation {
@@ -1810,8 +1830,10 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
     
     .vocabulary-container.mobile-view .word-play-btn,
     .vocabulary-container.mobile-view .sentence-play-btn {
-        width: 24px;
-        height: 24px;
+        width: 20px; /* Reduced from 24px */
+        height: 20px; /* Reduced from 24px */
+        /* Adjust icon size if necessary */
+        font-size: var(--font-size-xs); 
     }
 }
 
@@ -2244,4 +2266,10 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
 .completion-buttons .btn.secondary:hover {
     background-color: var(--neutral-300);
     box-shadow: var(--shadow-md);
+}
+
+/* Prevent line break immediately before punctuation following a word span */
+.sentence-text .word + *,
+.verb-sentences p .word + * {
+    display: inline-block; /* Treat punctuation like part of the last word for wrapping */
 }
