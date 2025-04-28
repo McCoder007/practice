@@ -1163,6 +1163,11 @@ function loadVocabularyForDay(day, panel) {
             logWordInteraction(item.word, 'sentence_audio_played');
         });
         
+        // Create sentence content container
+        const sentenceContent = document.createElement('div');
+        sentenceContent.classList.add('sentence-content');
+        
+        // Add sentence text
         const sentenceText = document.createElement('div');
         sentenceText.classList.add('sentence-text');
         
@@ -1170,19 +1175,23 @@ function loadVocabularyForDay(day, panel) {
         const processedSentence = googleTTS.processTextToInteractive(item.sentence);
         sentenceText.innerHTML = processedSentence;
         
-        sentenceElement.appendChild(playSentenceBtn);
-        sentenceElement.appendChild(sentenceText);
-        
         // Chinese translation for the sentence
         const sentenceTranslation = document.createElement('div');
         sentenceTranslation.classList.add('vocabulary-sentence-translation');
         sentenceTranslation.textContent = item.translation;
         
+        // Add content to the sentence content container
+        sentenceContent.appendChild(sentenceText);
+        sentenceContent.appendChild(sentenceTranslation);
+        
+        // Assemble sentence element
+        sentenceElement.appendChild(playSentenceBtn);
+        sentenceElement.appendChild(sentenceContent);
+        
         // Add elements in the desired order
         vocabItem.appendChild(wordElement);
         vocabItem.appendChild(wordTranslation);
         vocabItem.appendChild(sentenceElement);
-        sentenceElement.appendChild(sentenceTranslation);
         
         panel.appendChild(vocabItem);
     });
