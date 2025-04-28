@@ -361,96 +361,133 @@ function showIrregularVerbLists() {
 
 // Show verb list for a specific stage (New function)
 function showVerbList(stage) {
-    console.log(`Showing verb list for stage: ${stage}`);
-    currentVerbListStage = stage;
-    
-    // Update the stage title
-    let stageTitle = '';
-    switch(stage) {
-        case 'stage1': stageTitle = 'Stage 1: Core Verbs'; break;
-        case 'stage2': stageTitle = 'Stage 2: Everyday Verbs'; break;
-        case 'stage3': stageTitle = 'Stage 3: Action Verbs'; break;
-        case 'stage4': stageTitle = 'Stage 4: Less Common Verbs'; break;
-        case 'stage5': stageTitle = 'Stage 5: Master Level Verbs'; break;
-    }
-    
-    verbListTitle.textContent = stageTitle;
-    
-    // Hide other containers
-    questionContainer.classList.remove('active');
-    completionContainer.classList.remove('active');
-    mainMenuContainer.classList.remove('active');
-    levelSelectionContainer.classList.remove('active');
-    vocabularyContainer.classList.remove('active');
-    
-    // Hide irregular verb stage selection if visible
-    const irregularVerbStagesContainer = document.getElementById('irregularVerbStagesContainer');
-    if (irregularVerbStagesContainer) {
-        irregularVerbStagesContainer.classList.remove('active');
-    }
-    
+    console.log("Showing verb list for stage:", stage);
+    currentVerbListStage = stage; // Keep track of the current stage
+
+    // Set title - Extract only the main title text from the button
+    const stageButton = document.getElementById(`irregularVerbLists${stage.charAt(0).toUpperCase() + stage.slice(1)}Btn`);
+    // Get the text node before the span.stage-description
+    const stageTitleText = stageButton.childNodes[0].nodeValue.trim(); 
+    verbListTitle.textContent = `Irregular Verbs - ${stageTitleText}`; // Use the cleaned title text
+
     // Hide irregular verb lists container
     const irregularVerbListsContainer = document.getElementById('irregularVerbListsContainer');
     if (irregularVerbListsContainer) {
         irregularVerbListsContainer.classList.remove('active');
     }
-    
+
     // Clear existing verb list content
     verbListContent.innerHTML = '';
-    
+
     // Populate the verb list with data from the stage
     const verbs = irregularVerbListsData[stage];
     if (verbs && verbs.length > 0) {
-        verbs.forEach(verb => {
+        verbs.forEach(verbString => { // Renamed 'verb' to 'verbString' for clarity
             const verbItem = document.createElement('div');
             verbItem.className = 'verb-item';
-            
+
             // Parse the verb string into parts (base, past, participle)
-            const parts = verb.split('–').map(part => part.trim());
+            const parts = verbString.split('–').map(part => part.trim());
+            let baseVerb = ''; // Declare baseVerb here
+
             if (parts.length === 3) {
+                baseVerb = parts[0]; // Assign baseVerb
+                verbItem.dataset.baseVerb = baseVerb; // Store base verb for easy access
+
                 const baseSpan = document.createElement('span');
                 baseSpan.className = 'base';
                 baseSpan.textContent = parts[0];
-                
+
                 const pastSpan = document.createElement('span');
                 pastSpan.className = 'past';
                 pastSpan.textContent = parts[1];
-                
+
                 const participleSpan = document.createElement('span');
                 participleSpan.className = 'participle';
                 participleSpan.textContent = parts[2];
-                
-                // Create a more flexible layout
-                verbItem.appendChild(baseSpan);
-                
+
+                // Create a container for the verb parts
+                const verbPartsContainer = document.createElement('div');
+                verbPartsContainer.className = 'verb-parts';
+                verbPartsContainer.appendChild(baseSpan);
+
                 const dash1 = document.createElement('span');
                 dash1.className = 'dash';
                 dash1.textContent = '–';
-                verbItem.appendChild(dash1);
-                
-                verbItem.appendChild(pastSpan);
-                
+                verbPartsContainer.appendChild(dash1);
+
+                verbPartsContainer.appendChild(pastSpan);
+
                 const dash2 = document.createElement('span');
                 dash2.className = 'dash';
                 dash2.textContent = '–';
-                verbItem.appendChild(dash2);
+                verbPartsContainer.appendChild(dash2);
+
+                verbPartsContainer.appendChild(participleSpan);
                 
-                verbItem.appendChild(participleSpan);
+                verbItem.appendChild(verbPartsContainer); // Add parts container to item
+
             } else {
                 // Fallback if parsing fails
-                verbItem.textContent = verb;
+                verbItem.textContent = verbString;
             }
-            
+
+            // Create container for sentences, initially hidden
+            const sentencesDiv = document.createElement('div');
+            sentencesDiv.className = 'verb-sentences'; // Add class for styling
+            sentencesDiv.style.display = 'none'; // Hide initially
+            verbItem.appendChild(sentencesDiv); // Append sentences container
+
+            // Add click listener to the entire verb item
+            verbItem.addEventListener('click', () => {
+                const currentBaseVerb = verbItem.dataset.baseVerb;
+                const sentencesContainer = verbItem.querySelector('.verb-sentences');
+
+                if (!currentBaseVerb || !sentencesContainer) return; // Safety check
+
+                // Check if sentences are currently shown
+                const isExpanded = verbItem.classList.contains('expanded');
+
+                if (isExpanded) {
+                    // Collapse: Hide sentences and remove expanded class
+                    sentencesContainer.style.display = 'none';
+                    verbItem.classList.remove('expanded');
+                } else {
+                    // Expand: Populate and show sentences
+                    const sentences = irregularVerbSentencesData[currentBaseVerb];
+                    sentencesContainer.innerHTML = ''; // Clear previous sentences
+
+                    if (sentences && sentences.length === 3) {
+                        sentences.forEach(sentence => {
+                            const p = document.createElement('p');
+                            p.textContent = sentence;
+                            sentencesContainer.appendChild(p);
+                        });
+                    } else {
+                        const p = document.createElement('p');
+                        p.textContent = 'Example sentences not available.';
+                        p.style.fontStyle = 'italic';
+                        sentencesContainer.appendChild(p);
+                        console.warn(`Sentences not found or incorrect format for verb: ${currentBaseVerb}`);
+                    }
+
+                    sentencesContainer.style.display = 'block'; // Show sentences
+                    verbItem.classList.add('expanded'); // Add expanded class
+                }
+            });
+
             verbListContent.appendChild(verbItem);
         });
     }
-    
+
     // Show verb list container
     verbListContainer.classList.add('active');
-    
+
     // Update header and show back button
-    document.querySelector('header h1').textContent = 'Irregular Verb Lists';
+    // Adjust header text to reflect it's a list, not a quiz
+    document.querySelector('header h1').textContent = 'Irregular Verb Lists'; 
     quizBackBtn.style.display = 'block';
+    progressBarContainer.style.display = 'none'; // Hide progress bar for lists
 }
 
 // Start a specific level
