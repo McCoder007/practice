@@ -45,7 +45,7 @@
                 </button>
                 <button id="irregularVerbsBtn" class="practice-type-btn irregular-verbs" type="button">
                     <div class="btn-content">
-                        <span class="practice-type">Irregular Verbs</span>
+                        <span class="practice-type">Irregular Verbs Quiz</span>
                         <span class="practice-description">Practice common irregular verbs</span>
                     </div>
                     <i class="fa-solid fa-chevron-right btn-icon"></i>
@@ -71,13 +71,33 @@
         
         <!-- Irregular Verb Stages Container -->
         <div id="irregularVerbStagesContainer" class="irregular-verb-stages-container">
-            <h2>Choose Irregular Verb Stage</h2>
+            <h2>Choose Quiz Stage</h2>
             <div class="stage-buttons">
-                <button class="stage-btn" id="irregularVerbStage1Btn">Stage 1: Core Verbs<span class="stage-description">Very important verbs you need every day.</span></button>
-                <button class="stage-btn" id="irregularVerbStage2Btn">Stage 2: Everyday Verbs<span class="stage-description">Verbs you hear and use often.</span></button>
-                <button class="stage-btn" id="irregularVerbStage3Btn">Stage 3: Action Verbs<span class="stage-description">Verbs for moving, doing, and playing.</span></button>
-                <button class="stage-btn" id="irregularVerbStage4Btn">Stage 4: Less Common Verbs<span class="stage-description">Verbs you use sometimes but should know.</span></button>
-                <button class="stage-btn" id="irregularVerbStage5Btn">Stage 5: Master Level Verbs<span class="stage-description">Special verbs to sound like a native speaker.</span></button>
+                <button class="stage-btn" id="irregularVerbStage1Btn">Quiz Stage 1: Core Verbs<span class="stage-description">Very important verbs you need every day.</span></button>
+                <button class="stage-btn" id="irregularVerbStage2Btn">Quiz Stage 2: Everyday Verbs<span class="stage-description">Verbs you hear and use often.</span></button>
+                <button class="stage-btn" id="irregularVerbStage3Btn">Quiz Stage 3: Action Verbs<span class="stage-description">Verbs for moving, doing, and playing.</span></button>
+                <button class="stage-btn" id="irregularVerbStage4Btn">Quiz Stage 4: Less Common Verbs<span class="stage-description">Verbs you use sometimes but should know.</span></button>
+                <button class="stage-btn" id="irregularVerbStage5Btn">Quiz Stage 5: Master Level Verbs<span class="stage-description">Special verbs to sound like a native speaker.</span></button>
+            </div>
+        </div>
+
+        <!-- Irregular Verb Lists Container -->
+        <div id="irregularVerbListsContainer" class="irregular-verb-lists-container">
+            <h2>Irregular Verb Lists</h2>
+            <div class="stage-buttons">
+                <button class="stage-btn" id="irregularVerbListsStage1Btn">Stage 1: Core Verbs<span class="stage-description">Very important verbs you need every day.</span></button>
+                <button class="stage-btn" id="irregularVerbListsStage2Btn">Stage 2: Everyday Verbs<span class="stage-description">Verbs you hear and use often.</span></button>
+                <button class="stage-btn" id="irregularVerbListsStage3Btn">Stage 3: Action Verbs<span class="stage-description">Verbs for moving, doing, and playing.</span></button>
+                <button class="stage-btn" id="irregularVerbListsStage4Btn">Stage 4: Less Common Verbs<span class="stage-description">Verbs you use sometimes but should know.</span></button>
+                <button class="stage-btn" id="irregularVerbListsStage5Btn">Stage 5: Master Level Verbs<span class="stage-description">Special verbs to sound like a native speaker.</span></button>
+            </div>
+        </div>
+
+        <!-- Verb List Display Container -->
+        <div id="verbListContainer" class="verb-list-container">
+            <h2 id="verbListTitle">Irregular Verbs - Stage 1</h2>
+            <div id="verbListContent" class="verb-list-content">
+                <!-- Verb list will be populated here -->
             </div>
         </div>
 
@@ -157,6 +177,7 @@
     <script src="irregularVerbStage3.js"></script>
     <script src="irregularVerbStage4.js"></script>
     <script src="irregularVerbStage5.js"></script>
+    <script src="irregularVerbListsData.js"></script>
     <script>
         // Test script to verify data is available
         console.log("VERIFYING DATA AVAILABILITY:");

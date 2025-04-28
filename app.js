@@ -16,6 +16,7 @@ let touchEndX = 0; // Track touch end position for swipe
 let vocabularyStartTime = null;
 let currentDayStartTime = null;
 let wordInteractions = {};
+let currentVerbListStage = "stage1"; // Track current verb list stage
 
 // DOM elements
 const lineAElement = document.getElementById('lineA');
@@ -57,6 +58,16 @@ const irregularVerbStage3Btn = document.getElementById('irregularVerbStage3Btn')
 const irregularVerbStage4Btn = document.getElementById('irregularVerbStage4Btn');
 const irregularVerbStage5Btn = document.getElementById('irregularVerbStage5Btn');
 
+// Irregular Verb Lists Stage Buttons (Added)
+const irregularVerbListsStage1Btn = document.getElementById('irregularVerbListsStage1Btn');
+const irregularVerbListsStage2Btn = document.getElementById('irregularVerbListsStage2Btn');
+const irregularVerbListsStage3Btn = document.getElementById('irregularVerbListsStage3Btn');
+const irregularVerbListsStage4Btn = document.getElementById('irregularVerbListsStage4Btn');
+const irregularVerbListsStage5Btn = document.getElementById('irregularVerbListsStage5Btn');
+const verbListContainer = document.getElementById('verbListContainer');
+const verbListContent = document.getElementById('verbListContent');
+const verbListTitle = document.getElementById('verbListTitle');
+
 // Initialize the application
 function initApp() {
     console.log("Initializing app...");
@@ -72,8 +83,33 @@ function initApp() {
     };
     console.log("Device Information:", deviceInfo);
     
+    // Add new "Irregular Verb Lists" button to main menu
+    const irregularVerbListsBtn = document.createElement('button');
+    irregularVerbListsBtn.id = 'irregularVerbListsBtn';
+    irregularVerbListsBtn.className = 'practice-type-btn irregular-verbs';
+    irregularVerbListsBtn.innerHTML = `
+        <div class="btn-content">
+            <span class="practice-type">Irregular Verb Lists</span>
+            <span class="practice-description">View lists of irregular verbs by level</span>
+        </div>
+        <i class="fa-solid fa-chevron-right btn-icon"></i>
+    `;
+    
+    irregularVerbListsBtn.addEventListener('click', function() {
+        console.log("Irregular Verb Lists button clicked");
+        currentPracticeType = "irregularVerbLists";
+        logEvent('test_button_click', { button_type: 'irregular_verb_lists' });
+        showIrregularVerbLists();
+    });
+    
     // Show main menu screen
     showMainMenu();
+    
+    // Add the new button to the practice-type-buttons container
+    const practiceTypeButtons = document.querySelector('.practice-type-buttons');
+    if (practiceTypeButtons) {
+        practiceTypeButtons.insertBefore(irregularVerbListsBtn, vocabularyBtn);
+    }
     
     // Event listeners for practice type buttons
     prepositionsBtn.addEventListener('click', function() {
@@ -131,6 +167,13 @@ function initApp() {
         startLevel('irregularVerbStage5');
     });
     
+    // Event listeners for Irregular Verb Lists Stage buttons (Added)
+    if (irregularVerbListsStage1Btn) irregularVerbListsStage1Btn.addEventListener('click', () => showVerbList('stage1'));
+    if (irregularVerbListsStage2Btn) irregularVerbListsStage2Btn.addEventListener('click', () => showVerbList('stage2'));
+    if (irregularVerbListsStage3Btn) irregularVerbListsStage3Btn.addEventListener('click', () => showVerbList('stage3'));
+    if (irregularVerbListsStage4Btn) irregularVerbListsStage4Btn.addEventListener('click', () => showVerbList('stage4'));
+    if (irregularVerbListsStage5Btn) irregularVerbListsStage5Btn.addEventListener('click', () => showVerbList('stage5'));
+    
     // Event listeners
     nextBtn.addEventListener('click', goToNextQuestion);
     restartBtn.addEventListener('click', restartPractice);
@@ -186,10 +229,21 @@ function showMainMenu() {
     levelSelectionContainer.classList.remove('active');
     vocabularyContainer.classList.remove('active');
     
-    // Also hide the irregular verbs stages container
+    // Hide the irregular verbs stages container
     const irregularVerbStagesContainer = document.getElementById('irregularVerbStagesContainer');
     if (irregularVerbStagesContainer) {
         irregularVerbStagesContainer.classList.remove('active');
+    }
+    
+    // Hide the irregular verb lists container
+    const irregularVerbListsContainer = document.getElementById('irregularVerbListsContainer');
+    if (irregularVerbListsContainer) {
+        irregularVerbListsContainer.classList.remove('active');
+    }
+    
+    // Hide the verb list container
+    if (verbListContainer) {
+        verbListContainer.classList.remove('active');
     }
     
     progressBarContainer.style.display = 'none';
@@ -257,13 +311,144 @@ function showIrregularVerbStages() {
     }
     
     // Update header
-    document.querySelector('header h1').textContent = 'Irregular Verbs';
+    document.querySelector('header h1').textContent = 'Irregular Verbs Quiz';
     
     // Show back button in header and set up its event handler
     quizBackBtn.style.display = 'block';
     quizBackBtn.onclick = showMainMenu; // Return to main menu when clicked
     
     console.log("Irregular verb stages container display:", getComputedStyle(irregularVerbStagesContainer).display);
+}
+
+// Show irregular verb lists selection screen (New function)
+function showIrregularVerbLists() {
+    console.log("Showing irregular verb lists screen");
+    
+    // Hide other containers
+    questionContainer.classList.remove('active');
+    completionContainer.classList.remove('active');
+    mainMenuContainer.classList.remove('active');
+    levelSelectionContainer.classList.remove('active');
+    vocabularyContainer.classList.remove('active');
+    
+    // Hide irregular verb stage selection if visible
+    const irregularVerbStagesContainer = document.getElementById('irregularVerbStagesContainer');
+    if (irregularVerbStagesContainer) {
+        irregularVerbStagesContainer.classList.remove('active');
+    }
+    
+    // Hide verb list container if visible
+    verbListContainer.classList.remove('active');
+    
+    progressBarContainer.style.display = 'none';
+    
+    // Show irregular verb lists selection
+    const irregularVerbListsContainer = document.getElementById('irregularVerbListsContainer'); 
+    if (irregularVerbListsContainer) {
+        irregularVerbListsContainer.classList.add('active');
+    }
+    
+    // Update header and show back button
+    document.querySelector('header h1').textContent = 'Irregular Verb Lists';
+    quizBackBtn.style.display = 'block';
+    quizBackBtn.onclick = showMainMenu;
+    
+    console.log("Irregular verb lists container display:", irregularVerbListsContainer ? getComputedStyle(irregularVerbListsContainer).display : "container not found");
+}
+
+// Show verb list for a specific stage (New function)
+function showVerbList(stage) {
+    console.log(`Showing verb list for stage: ${stage}`);
+    currentVerbListStage = stage;
+    
+    // Update the stage title
+    let stageTitle = '';
+    switch(stage) {
+        case 'stage1': stageTitle = 'Stage 1: Core Verbs'; break;
+        case 'stage2': stageTitle = 'Stage 2: Everyday Verbs'; break;
+        case 'stage3': stageTitle = 'Stage 3: Action Verbs'; break;
+        case 'stage4': stageTitle = 'Stage 4: Less Common Verbs'; break;
+        case 'stage5': stageTitle = 'Stage 5: Master Level Verbs'; break;
+    }
+    
+    verbListTitle.textContent = stageTitle;
+    
+    // Hide other containers
+    questionContainer.classList.remove('active');
+    completionContainer.classList.remove('active');
+    mainMenuContainer.classList.remove('active');
+    levelSelectionContainer.classList.remove('active');
+    vocabularyContainer.classList.remove('active');
+    
+    // Hide irregular verb stage selection if visible
+    const irregularVerbStagesContainer = document.getElementById('irregularVerbStagesContainer');
+    if (irregularVerbStagesContainer) {
+        irregularVerbStagesContainer.classList.remove('active');
+    }
+    
+    // Hide irregular verb lists container
+    const irregularVerbListsContainer = document.getElementById('irregularVerbListsContainer');
+    if (irregularVerbListsContainer) {
+        irregularVerbListsContainer.classList.remove('active');
+    }
+    
+    // Clear existing verb list content
+    verbListContent.innerHTML = '';
+    
+    // Populate the verb list with data from the stage
+    const verbs = irregularVerbListsData[stage];
+    if (verbs && verbs.length > 0) {
+        verbs.forEach(verb => {
+            const verbItem = document.createElement('div');
+            verbItem.className = 'verb-item';
+            
+            // Parse the verb string into parts (base, past, participle)
+            const parts = verb.split('–').map(part => part.trim());
+            if (parts.length === 3) {
+                const baseSpan = document.createElement('span');
+                baseSpan.className = 'base';
+                baseSpan.textContent = parts[0];
+                
+                const pastSpan = document.createElement('span');
+                pastSpan.className = 'past';
+                pastSpan.textContent = parts[1];
+                
+                const participleSpan = document.createElement('span');
+                participleSpan.className = 'participle';
+                participleSpan.textContent = parts[2];
+                
+                // Create a more flexible layout
+                verbItem.appendChild(baseSpan);
+                
+                const dash1 = document.createElement('span');
+                dash1.className = 'dash';
+                dash1.textContent = '–';
+                verbItem.appendChild(dash1);
+                
+                verbItem.appendChild(pastSpan);
+                
+                const dash2 = document.createElement('span');
+                dash2.className = 'dash';
+                dash2.textContent = '–';
+                verbItem.appendChild(dash2);
+                
+                verbItem.appendChild(participleSpan);
+            } else {
+                // Fallback if parsing fails
+                verbItem.textContent = verb;
+            }
+            
+            verbListContent.appendChild(verbItem);
+        });
+    }
+    
+    // Show verb list container
+    verbListContainer.classList.add('active');
+    
+    // Update header and show back button
+    document.querySelector('header h1').textContent = 'Irregular Verb Lists';
+    quizBackBtn.style.display = 'block';
+    quizBackBtn.onclick = showIrregularVerbLists; // Go back to the stages list
 }
 
 // Start a specific level
@@ -294,13 +479,13 @@ function startLevel(level) {
         const stageNumber = stageMatch ? stageMatch[1] : '?';
         // Define stage names (could be moved to a config/data file later)
         const stageNames = {
-            '1': 'Stage 1: Core Verbs',
-            '2': 'Stage 2: Everyday Verbs',
-            '3': 'Stage 3: Action Verbs',
-            '4': 'Stage 4: Less Common Verbs',
-            '5': 'Stage 5: Master Level'
+            '1': 'Quiz Stage 1: Core Verbs',
+            '2': 'Quiz Stage 2: Everyday Verbs',
+            '3': 'Quiz Stage 3: Action Verbs',
+            '4': 'Quiz Stage 4: Less Common Verbs',
+            '5': 'Quiz Stage 5: Master Level'
         };
-        title = stageNames[stageNumber] || `Irregular Verbs - Stage ${stageNumber}`;
+        title = stageNames[stageNumber] || `Irregular Verbs Quiz - Stage ${stageNumber}`;
     } else {
         title = 'Practice'; // Default title
     }
@@ -684,6 +869,19 @@ function handleQuizBackButton() {
     const irregularVerbStagesContainer = document.getElementById('irregularVerbStagesContainer');
     if (irregularVerbStagesContainer && irregularVerbStagesContainer.classList.contains('active')) {
         showMainMenu();
+        return;
+    }
+    
+    // If on irregular verb lists selection screen, go back to main menu
+    const irregularVerbListsContainer = document.getElementById('irregularVerbListsContainer');
+    if (irregularVerbListsContainer && irregularVerbListsContainer.classList.contains('active')) {
+        showMainMenu();
+        return;
+    }
+    
+    // If on verb list view, go back to irregular verb lists screen
+    if (verbListContainer && verbListContainer.classList.contains('active')) {
+        showIrregularVerbLists();
         return;
     }
     
