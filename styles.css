@@ -1808,8 +1808,9 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
     .vocabulary-container.mobile-view .word-type {
         font-size: var(--font-size-xs); /* Smaller font size */
         padding: 2px 6px; /* Adjusted padding */
-        margin-left: auto; /* Push to the right */
         flex-shrink: 0; /* Prevent shrinking */
+        width: fit-content; /* Ensure width matches content */
+        margin-left: var(--spacing-sm); /* Add small margin for spacing */
     }
     
     .vocabulary-container.mobile-view .vocabulary-word-translation {
