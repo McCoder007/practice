@@ -1335,7 +1335,7 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
 .vocabulary-container {
     display: none; /* Hidden by default */
     flex-direction: column;
-    padding: var(--spacing-lg) 0;
+    padding: 0 0 var(--spacing-lg) 0; /* Remove top padding */
     flex-grow: 1;
     overflow: hidden; /* Ensure content doesn't overflow */
 }
@@ -1349,7 +1349,6 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
     justify-content: space-between;
     align-items: center;
     padding: 0 var(--spacing-lg);
-    margin-bottom: var(--spacing-lg);
     position: sticky;
     top: 0;
     background-color: var(--neutral-100);
