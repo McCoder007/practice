@@ -1658,19 +1658,19 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
 
     /* Reduce horizontal padding ONLY for verb list container on mobile */
     .verb-list-container {
-        padding-left: 4px; /* Reduced from var(--spacing-sm) */
-        padding-right: 4px; /* Reduced from var(--spacing-sm) */
+        padding-left: 0; /* Removed padding */
+        padding-right: 0; /* Removed padding */
     }
     
     /* Adjust padding within verb list items on mobile */
     #verbListContent .verb-item {
-        padding-left: var(--spacing-sm); /* 8px padding inside item left */
-        padding-right: var(--spacing-sm); /* 8px padding inside item right */
+        padding-left: 4px; /* Reduced further from 8px */
+        padding-right: 4px; /* Reduced further from 8px */
         gap: 0; /* Remove gap, use margin on text instead */
     }
 
     #verbListContent .verb-parts {
-        margin-left: var(--spacing-md); /* Add space (16px) between icon and text */
+        margin-left: var(--spacing-sm); /* Reduced margin (8px) between icon and text */
     }
 
     #verbListContent .verb-sentences {
