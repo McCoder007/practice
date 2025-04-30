@@ -1644,6 +1644,18 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
         --font-size-base: 15px; /* Slightly smaller base font on mobile */
     }
     
+    /* Reduce horizontal padding for main content containers on mobile */
+    .main-menu-container,
+    .level-selection-container,
+    .irregular-verb-stages-container,
+    .irregular-verb-lists-container,
+    .verb-list-container,
+    .conversation-container,
+    .completion-container {
+        padding-left: var(--spacing-sm);
+        padding-right: var(--spacing-sm);
+    }
+    
     .practice-type-btn,
     .level-btn,
     .stage-btn {
