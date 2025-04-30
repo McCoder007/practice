@@ -2095,3 +2095,15 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
 #verbListContent .verb-item.expanded .verb-parts::after {
     transform: rotate(180deg);
 }
+
+/* Mobile overrides for Irregular Verb Lists margins */
+@media (max-width: 600px) {
+    #verbListContainer.verb-list-container {
+        padding-left: var(--spacing-sm);
+        padding-right: var(--spacing-sm);
+    }
+    #verbListContent .verb-item {
+        padding-left: var(--spacing-sm);
+        padding-right: var(--spacing-sm);
+    }
+}
