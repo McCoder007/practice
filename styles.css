@@ -1753,7 +1753,7 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
     }
     
     .vocabulary-container .day-navigation {
-        margin-top: 0;
+        margin-top: var(--spacing-sm); /* Add small top margin */
         margin-bottom: 0;
         padding: 5px var(--spacing-md);
         position: sticky;
