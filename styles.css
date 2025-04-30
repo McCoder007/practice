@@ -2107,3 +2107,10 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
         padding-right: var(--spacing-sm);
     }
 }
+
+/* Mobile override to align vocabulary translation under the main word */
+@media (max-width: 600px) {
+    .vocabulary-word-translation {
+        margin-left: calc(20px + var(--spacing-sm));
+    }
+}
