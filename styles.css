@@ -1981,41 +1981,39 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
     /* Remove default margin/padding if any */
     margin: 0;
     padding: 0;
-    flex-wrap: wrap; /* Allow wrapping on small screens if needed */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    overflow: hidden; /* Hide overflow */
 }
 
-/* Restore original styles for spans inside .verb-parts */
-.verb-parts span { /* Apply medium weight generally */
-    font-weight: var(--font-weight-medium);
+/* Styles for spans inside .verb-parts */
+.verb-parts span {
+    font-weight: var(--font-weight-regular); /* Ensure regular weight */
+    flex-shrink: 1; /* Allow shrinking */
+    flex-grow: 0;   /* Prevent growing */
+    flex-basis: auto; /* Base size on content */
+    white-space: nowrap; /* Prevent text inside span from wrapping */
 }
 
 .verb-parts .base {
-    /* font-weight: var(--font-weight-medium); */ /* Keep medium */
-    color: var(--neutral-900); /* Original color */
-    font-size: 1.1em; /* Original size */
-    flex: 1; /* Original flex */
-    min-width: 60px; /* Original min-width */
-    /* text-align: left; (default) */
+    color: var(--neutral-900);
+    font-size: var(--font-size-md); /* Ensure default size */
+    text-align: left;
 }
 
 .verb-parts .dash {
-    color: var(--neutral-500); /* Original color */
-    margin: 0 var(--spacing-xs); /* Original margin */
-    flex: 0 0 auto; /* Original flex */
+    color: var(--neutral-500);
+    margin: 0 var(--spacing-xs);
+    flex-shrink: 0; /* Prevent dash from shrinking */
 }
 
 .verb-parts .past {
-    color: var(--neutral-700); /* Original color */
-    flex: 1; /* Original flex */
-    min-width: 80px; /* Original min-width */
-    text-align: center; /* Original align */
+    color: var(--neutral-700);
+    text-align: left; /* Align left */
 }
 
 .verb-parts .participle {
-    color: var(--neutral-700); /* Original color */
-    flex: 1; /* Original flex */
-    min-width: 60px; /* Original min-width */
-    text-align: right; /* Original align */
+    color: var(--neutral-700);
+    text-align: left; /* Align left */
 }
 
 /* Sentence container styles */
@@ -2052,8 +2050,9 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
     font-size: 0.8em;
     color: var(--neutral-400);
     transition: transform 0.2s ease-in-out;
-    margin-left: var(--spacing-sm);
-    flex-shrink: 0; /* Prevent shrinking */
+    margin-left: auto; /* Push arrow to the far right */
+    padding-left: var(--spacing-sm); /* Add some padding before arrow */
+    flex-shrink: 0; /* Prevent arrow from shrinking */
 }
 
 .verb-item.expanded .verb-parts::after {
