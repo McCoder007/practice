@@ -1753,12 +1753,9 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
     }
     
     .vocabulary-container .day-navigation {
-        margin-top: var(--spacing-sm); /* Add small top margin */
+        margin-top: var(--spacing-sm); /* Keep added top margin */
         margin-bottom: 0;
         padding: 5px var(--spacing-md);
-        position: sticky;
-        top: calc(env(safe-area-inset-top, 0) + 44px); /* Header height + safe area */
-        z-index: 99;
         background-color: var(--neutral-100);
         height: auto;
         min-height: 40px;
