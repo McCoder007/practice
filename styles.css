@@ -1439,10 +1439,15 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
 .vocabulary-item {
     background-color: var(--white);
     border-radius: var(--radius-md);
-    padding: var(--spacing-lg) var(--spacing-lg);
+    padding: var(--spacing-md) var(--spacing-lg); /* Adjusted padding */
     margin-bottom: var(--spacing-md);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    transition: all 0.2s ease;
+    box-shadow: var(--shadow-sm);
+    transition: background-color var(--transition-normal), box-shadow var(--transition-normal);
+    cursor: pointer;
+    position: relative;
+    display: flex; /* Add flex display */
+    align-items: center; /* Align items vertically */
+    gap: var(--spacing-md); /* Add gap between button and text */
 }
 
 .vocabulary-item:hover {
@@ -1949,35 +1954,34 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
 
 /* Restore original .verb-item look (as block container) */
 .verb-item {
-    font-size: var(--font-size-xl); /* Original size */
-    padding: var(--spacing-lg); /* Original padding */
-    color: var(--neutral-800); /* Original color */
-    background-color: var(--neutral-100); /* Original background */
-    border-radius: var(--radius-md); /* Original radius */
-    box-shadow: 0 1px 3px rgba(0,0,0,0.08); /* Original shadow */
-    transition: all 0.2s ease; /* Original transition */
-    margin-bottom: var(--spacing-sm); /* Original margin */
-    border-left: 3px solid var(--primary-light); /* Original border */
+    background-color: var(--white);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-md) var(--spacing-lg); /* Adjusted padding */
+    margin-bottom: var(--spacing-md);
+    box-shadow: var(--shadow-sm);
+    transition: background-color var(--transition-normal), box-shadow var(--transition-normal);
     cursor: pointer;
-    /* Removed display: flex, align-items, justify-content from original */
+    position: relative;
+    display: flex; /* Add flex display */
+    align-items: center; /* Align items vertically */
+    gap: var(--spacing-md); /* Add gap between button and text */
 }
 
 .verb-item:hover {
-    transform: translateY(-2px); /* Original hover effect */
-    box-shadow: 0 3px 6px rgba(0,0,0,0.1); /* Original hover effect */
-    background-color: var(--neutral-200); /* Original hover effect */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* Style for the container holding the verb parts */
 .verb-parts {
-    display: flex; /* Arrange parts horizontally */
-    align-items: center; /* Align vertically */
-    justify-content: space-between; /* Spread out */
-    gap: var(--spacing-xs); /* Original gap */
-    font-size: var(--font-size-lg); /* Adjusted size from previous edit */
-    font-weight: var(--font-weight-medium); /* Keep medium weight for consistency */
-    color: var(--neutral-700);
-    /* margin-bottom: var(--spacing-sm); Remove margin, handled by sentence container */
+    display: flex; /* Keep parts on one line */
+    align-items: baseline; /* Align text nicely */
+    gap: var(--spacing-sm); /* Add gap between parts */
+    flex-grow: 1; /* Allow text to take remaining space */
+    /* Remove default margin/padding if any */
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap; /* Allow wrapping on small screens if needed */
 }
 
 /* Restore original styles for spans inside .verb-parts */
@@ -2016,15 +2020,16 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
 
 /* Sentence container styles */
 .verb-sentences {
-    margin-top: var(--spacing-md);
-    padding-left: var(--spacing-md);
-    border-left: 3px solid var(--primary-light);
-    display: none; /* Hidden by default */
-    animation: fadeIn 0.3s ease-out;
+    /* Ensure sentences appear below the button and verb parts when expanded */
+    flex-basis: 100%; /* Take full width on a new line */
+    margin-top: var(--spacing-md); /* Add space above sentences */
+    padding-left: calc(36px + var(--spacing-md)); /* Indent sentences to align with verb text */
+    display: none; /* Keep hidden by default */
 }
 
-.verb-item.expanded .verb-sentences {
-    display: block; /* Show sentences when expanded */
+.verb-item.expanded {
+    /* Adjust expanded view if needed, currently expands below */
+    flex-wrap: wrap; /* Allow sentences to wrap below */
 }
 
 .verb-sentences p {
