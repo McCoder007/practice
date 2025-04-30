@@ -931,7 +931,6 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-semibold);
     color: var(--neutral-900);
-    flex-grow: 1;
 }
 
 .word-type {
@@ -942,6 +941,7 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
     color: var(--neutral-600);
     font-weight: var(--font-weight-regular);
     min-width: auto;
+    flex-shrink: 0;
 }
 
 /* Translation */
@@ -949,7 +949,6 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
     font-size: var(--font-size-md);
     color: var(--primary);
     margin-bottom: var(--spacing-lg);
-    margin-left: 44px;
     font-weight: var(--font-weight-medium);
     border-left: 2px solid var(--primary-light);
     padding-left: var(--spacing-sm);
@@ -1467,22 +1466,22 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
 
 .word-type {
     font-size: var(--font-size-sm);
-    padding: var(--spacing-xs) var(--spacing-sm);
+    padding: 3px 8px;
     background-color: var(--neutral-200);
     border-radius: var(--radius-sm);
     color: var(--neutral-600);
-    font-weight: var(--font-weight-medium);
-    text-transform: lowercase;
-    letter-spacing: 0.5px;
+    font-weight: var(--font-weight-regular);
+    min-width: auto;
+    flex-shrink: 0;
 }
 
 .vocabulary-word-translation {
     font-size: var(--font-size-md);
     color: var(--primary);
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
     font-weight: var(--font-weight-medium);
-    padding-left: var(--spacing-md);
     border-left: 2px solid var(--primary-light);
+    padding-left: var(--spacing-sm);
 }
 
 .vocabulary-sentence {
