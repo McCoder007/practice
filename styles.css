@@ -177,6 +177,7 @@ header h1 i {
     align-items: center;
     padding: var(--spacing-xl) var(--spacing-lg);
     flex-grow: 1;
+    overflow-y: auto; /* Add overflow-y: auto to make it scrollable */
 }
 
 .main-menu-container h2 {
@@ -1753,18 +1754,32 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
     }
     
     .vocabulary-container .day-navigation {
-        margin-top: var(--spacing-xs);
-        margin-bottom: var(--spacing-xs);
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 5px var(--spacing-md);
         position: sticky;
         top: calc(env(safe-area-inset-top, 0) + 44px); /* Header height + safe area */
         z-index: 99;
         background-color: var(--neutral-100);
+        height: auto;
+        min-height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .vocabulary-container .day-navigation .current-day {
+        font-size: var(--font-size-md);
+    }
+    
+    .vocabulary-container .day-navigation .nav-arrow {
+        width: 28px;
+        height: 28px;
     }
     
     .vocabulary-container .days-carousel {
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
-        height: calc(100dvh - 120px); /* Use dvh for dynamic viewport height */
+        height: calc(100dvh - 100px); /* Reduce height to account for smaller header */
     }
     
     .vocabulary-container .day-panel {
