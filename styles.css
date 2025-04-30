@@ -1658,8 +1658,8 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
 
     /* Reduce horizontal padding ONLY for verb list container on mobile */
     .verb-list-container {
-        padding-left: var(--spacing-sm); 
-        padding-right: var(--spacing-sm);
+        padding-left: 4px; /* Reduced from var(--spacing-sm) */
+        padding-right: 4px; /* Reduced from var(--spacing-sm) */
     }
     
     /* Adjust padding within verb list items on mobile */
