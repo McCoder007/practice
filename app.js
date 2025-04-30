@@ -425,7 +425,22 @@ function showVerbList(stage) {
 
                 verbPartsContainer.appendChild(participleSpan);
                 
-                verbItem.appendChild(verbPartsContainer); // Add parts container to item
+                // Create speaker button
+                const playVerbBtn = document.createElement('button');
+                playVerbBtn.className = 'verb-play-btn word-play-btn'; // Use existing style
+                playVerbBtn.innerHTML = '<i class="fa-solid fa-volume-high"></i>';
+                playVerbBtn.title = `Speak: ${parts[0]}, ${parts[1]}, ${parts[2]}`; // Add title for accessibility
+
+                // Add event listener to the speaker button
+                playVerbBtn.addEventListener('click', (e) => {
+                    e.stopPropagation(); // Prevent triggering the sentence toggle
+                    const textToSpeak = `${parts[0]}, ${parts[1]}, ${parts[2]}`;
+                    console.log("Speaking verb:", textToSpeak);
+                    googleTTS.speakLine(textToSpeak);
+                });
+
+                verbItem.appendChild(playVerbBtn); // Add speaker button to the item
+                verbItem.appendChild(verbPartsContainer); // Add parts container after the button
 
             } else {
                 // Fallback if parsing fails
@@ -438,8 +453,13 @@ function showVerbList(stage) {
             sentencesDiv.style.display = 'none'; // Hide initially
             verbItem.appendChild(sentencesDiv); // Append sentences container
 
-            // Add click listener to the entire verb item
-            verbItem.addEventListener('click', () => {
+            // Add click listener to the entire verb item (excluding the play button)
+            verbItem.addEventListener('click', (e) => {
+                // Only toggle sentences if the click wasn't on the play button itself
+                if (e.target.closest('.verb-play-btn')) {
+                    return; 
+                }
+
                 const currentBaseVerb = verbItem.dataset.baseVerb;
                 const sentencesContainer = verbItem.querySelector('.verb-sentences');
 
