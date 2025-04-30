@@ -1114,11 +1114,12 @@ function updateDayDisplay() {
 
 // Update navigation buttons (disable/enable based on position)
 function updateNavigationButtons() {
-    prevDayBtn.disabled = currentDayIndex === 0;
-    prevDayBtn.style.opacity = currentDayIndex === 0 ? "0.5" : "1";
+    // Remove disabled state for looping navigation
+    prevDayBtn.disabled = false;
+    prevDayBtn.style.opacity = "1";
     
-    nextDayBtn.disabled = currentDayIndex === availableDays.length - 1;
-    nextDayBtn.style.opacity = currentDayIndex === availableDays.length - 1 ? "0.5" : "1";
+    nextDayBtn.disabled = false;
+    nextDayBtn.style.opacity = "1";
 }
 
 // Load all day panels
@@ -1237,23 +1238,73 @@ function loadVocabularyForDay(day, panel) {
 // Go to the previous day
 function goToPreviousDay() {
     console.log("Attempting to go to previous day, current index:", currentDayIndex);
+    
+    // Save current state for animation
+    const previousIndex = currentDayIndex;
+    
     if (currentDayIndex > 0) {
+        // Normal case - go to previous day
         currentDayIndex--;
-        currentVocabularyDay = availableDays[currentDayIndex];
-        updateDay();
-        updateNavigationButtons();
+    } else {
+        // Loop to the last day
+        currentDayIndex = availableDays.length - 1;
+        
+        // Apply zoom animation for looping
+        animateLoopTransition('backward');
     }
+    
+    currentVocabularyDay = availableDays[currentDayIndex];
+    updateDay();
+    updateNavigationButtons();
 }
 
 // Go to the next day
 function goToNextDay() {
     console.log("Attempting to go to next day, current index:", currentDayIndex);
+    
+    // Save current state for animation
+    const previousIndex = currentDayIndex;
+    
     if (currentDayIndex < availableDays.length - 1) {
+        // Normal case - go to next day
         currentDayIndex++;
-        currentVocabularyDay = availableDays[currentDayIndex];
-        updateDay();
-        updateNavigationButtons();
+    } else {
+        // Loop to the first day
+        currentDayIndex = 0;
+        
+        // Apply zoom animation for looping
+        animateLoopTransition('forward');
     }
+    
+    currentVocabularyDay = availableDays[currentDayIndex];
+    updateDay();
+    updateNavigationButtons();
+}
+
+// Animate the loop transition with zoom effect
+function animateLoopTransition(direction) {
+    // Get the days carousel and current panel
+    const daysCarousel = document.querySelector('.days-carousel');
+    const currentPanel = document.getElementById(`day-panel-${currentVocabularyDay}`);
+    
+    if (!daysCarousel || !currentPanel) return;
+    
+    // Add a class to the carousel for the zoom animation
+    daysCarousel.classList.add('loop-transition');
+    
+    // For forward loop (last to first), zoom out then in
+    if (direction === 'forward') {
+        daysCarousel.classList.add('zoom-out-in');
+    } 
+    // For backward loop (first to last), also zoom out then in
+    else if (direction === 'backward') {
+        daysCarousel.classList.add('zoom-out-in');
+    }
+    
+    // Remove animation classes after animation completes
+    setTimeout(() => {
+        daysCarousel.classList.remove('loop-transition', 'zoom-out-in');
+    }, 400); // Match this to the CSS animation duration
 }
 
 // Update the day by setting the appropriate transform on the slider
