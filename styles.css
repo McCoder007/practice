@@ -1758,7 +1758,7 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
         margin-bottom: 0;
         padding: 5px var(--spacing-md);
         position: sticky;
-        top: calc(env(safe-area-inset-top, 0) + 44px); /* Header height + safe area */
+        top: calc(env(safe-area-inset-top, 0) + 36px); /* Adjusted header height estimation */
         z-index: 99;
         background-color: var(--neutral-100);
         height: auto;
@@ -1779,7 +1779,7 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
     .vocabulary-container .days-carousel {
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
-        height: calc(100dvh - 100px); /* Reduce height to account for smaller header */
+        height: calc(100dvh - 92px); /* Adjusted height based on new day-nav top value */
     }
     
     .vocabulary-container .day-panel {
@@ -1795,100 +1795,10 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
         margin-bottom: var(--spacing-sm);
     }
     
-    /* Additional styles for the mobile view */
-    .vocabulary-container.mobile-view {
-        padding: 0;
-    }
-    
-    .vocabulary-container.mobile-view .day-navigation {
-        padding: var(--spacing-sm) var(--spacing-lg);
-        margin: 0;
-        height: auto;
-        border-bottom: 1px solid var(--neutral-300);
-        margin-bottom: var(--spacing-md);
-    }
-    
-    .vocabulary-container.mobile-view .current-day {
-        color: var(--neutral-800);
-        font-size: var(--font-size-lg);
-        font-weight: var(--font-weight-semibold);
-    }
-    
-    .vocabulary-container.mobile-view .nav-arrow {
-        color: var(--neutral-600);
-        background-color: transparent;
-        border: 1px solid var(--neutral-300);
-        width: 32px;
-        height: 32px;
-    }
-    
     .vocabulary-container.mobile-view .days-carousel {
         margin-bottom: 0;
         box-shadow: none;
         border-radius: 0;
-    }
-    
-    .vocabulary-container.mobile-view .day-panel {
-        padding: var(--spacing-xs) var(--spacing-sm);
-    }
-    
-    .vocabulary-container.mobile-view .vocabulary-item {
-        border-radius: var(--radius-sm);
-        margin-bottom: var(--spacing-xs);
-        box-shadow: var(--shadow-sm);
-        padding: var(--spacing-sm); /* Reduced padding slightly */
-    }
-    
-    .vocabulary-container.mobile-view .vocabulary-word {
-        font-size: var(--font-size-md); /* Reduced word font size */
-        align-items: center; /* Ensure vertical alignment */
-        gap: var(--spacing-sm); /* Reduced gap */
-        margin-bottom: var(--spacing-xs); /* Reduced margin */
-    }
-
-    /* Reduce font size for the main word text span specifically */
-    .vocabulary-container.mobile-view .vocabulary-word > span:not(.word-type) {
-         font-size: var(--font-size-lg); /* Set specific size for word */
-         font-weight: var(--font-weight-semibold); /* Keep semibold */
-         flex-grow: 0; /* Don't let it grow excessively */
-         flex-shrink: 1; /* Allow shrinking */
-         margin-right: auto; /* Push type tag right */
-    }
-
-    .vocabulary-container.mobile-view .word-type {
-        font-size: var(--font-size-xs); /* Smaller font size */
-        padding: 2px 6px; /* Adjusted padding */
-        flex-shrink: 0; /* Prevent shrinking */
-        flex-grow: 0; /* Explicitly prevent growing */
-        width: fit-content; /* Ensure width matches content */
-        margin-left: var(--spacing-sm); /* Add small margin for spacing */
-        background-color: var(--neutral-200); /* Explicit background */
-        border-radius: var(--radius-sm); /* Explicit border-radius */
-        color: var(--neutral-600); /* Explicit color */
-    }
-    
-    .vocabulary-container.mobile-view .vocabulary-word-translation {
-        font-size: var(--font-size-md);
-        font-weight: var(--font-weight-medium);
-        color: var(--primary-dark);
-    }
-    
-    .vocabulary-container.mobile-view .vocabulary-sentence {
-        font-size: var(--font-size-sm);
-    }
-    
-    .vocabulary-container.mobile-view .vocabulary-sentence-translation {
-        font-size: var(--font-size-sm);
-        font-weight: var(--font-weight-medium);
-        color: var(--primary-dark);
-    }
-    
-    .vocabulary-container.mobile-view .word-play-btn,
-    .vocabulary-container.mobile-view .sentence-play-btn {
-        width: 20px; /* Reduced from 24px */
-        height: 20px; /* Reduced from 24px */
-        /* Adjust icon size if necessary */
-        font-size: var(--font-size-xs); 
     }
 }
 
