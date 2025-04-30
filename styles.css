@@ -82,7 +82,7 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 32px);
+    height: calc(100dvh - 32px); /* Using dvh instead of vh for dynamic viewport handling */
     /* Prevent any content from being hidden behind the iPhone notch/home bar */
     padding-top: env(safe-area-inset-top);
     padding-bottom: env(safe-area-inset-bottom);
@@ -1739,6 +1739,9 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
 @media (max-width: 600px) {
     .vocabulary-container.active ~ header {
         padding: var(--spacing-xs) var(--spacing-md);
+        position: sticky;
+        top: env(safe-area-inset-top, 0);
+        z-index: 100;
     }
     
     .vocabulary-container.active ~ header h1 {
@@ -1752,11 +1755,16 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
     .vocabulary-container .day-navigation {
         margin-top: var(--spacing-xs);
         margin-bottom: var(--spacing-xs);
+        position: sticky;
+        top: calc(env(safe-area-inset-top, 0) + 44px); /* Header height + safe area */
+        z-index: 99;
+        background-color: var(--neutral-100);
     }
     
     .vocabulary-container .days-carousel {
         overflow-y: auto;
         -webkit-overflow-scrolling: touch;
+        height: calc(100dvh - 120px); /* Use dvh for dynamic viewport height */
     }
     
     .vocabulary-container .day-panel {
