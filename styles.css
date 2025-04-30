@@ -1471,7 +1471,7 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
     background-color: var(--neutral-200);
     border-radius: var(--radius-sm);
     color: var(--neutral-600);
-    font-weight: var(--font-weight-regular);
+    font-weight: var(--font-weight-medium);
     text-transform: lowercase;
     letter-spacing: 0.5px;
 }
@@ -1981,47 +1981,41 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
     /* Remove default margin/padding if any */
     margin: 0;
     padding: 0;
-    flex-wrap: nowrap; /* Prevent wrapping by default */
-    overflow: hidden; /* Hide overflow instead of wrapping */
+    flex-wrap: wrap; /* Allow wrapping on small screens if needed */
 }
 
 /* Restore original styles for spans inside .verb-parts */
-.verb-parts span { /* Apply regular weight generally */
-    font-weight: var(--font-weight-regular); /* Changed from medium */
-    flex-shrink: 1; /* Allow shrinking */
-    flex-grow: 0; /* Do not allow growing */
-    flex-basis: auto; /* Base size on content */
-    white-space: nowrap; /* Prevent text inside span from wrapping */
+.verb-parts span { /* Apply medium weight generally */
+    font-weight: var(--font-weight-medium);
 }
 
 .verb-parts .base {
-    /* font-weight: var(--font-weight-medium); */ /* Removed */
+    /* font-weight: var(--font-weight-medium); */ /* Keep medium */
     color: var(--neutral-900); /* Original color */
-    font-size: var(--font-size-md); /* Reset to default size */
-    /* flex: 1; */ /* Removed */
-    /* min-width: 60px; */ /* Removed */
-    text-align: left; /* Keep left align */
+    font-size: 1.1em; /* Original size */
+    flex: 1; /* Original flex */
+    min-width: 60px; /* Original min-width */
+    /* text-align: left; (default) */
 }
 
 .verb-parts .dash {
     color: var(--neutral-500); /* Original color */
     margin: 0 var(--spacing-xs); /* Original margin */
-    /* flex: 0 0 auto; */ /* Removed */
-    flex-shrink: 0; /* Dash should not shrink */
+    flex: 0 0 auto; /* Original flex */
 }
 
 .verb-parts .past {
     color: var(--neutral-700); /* Original color */
-    /* flex: 1; */ /* Removed */
-    /* min-width: 80px; */ /* Removed */
-    text-align: left; /* Changed from center */
+    flex: 1; /* Original flex */
+    min-width: 80px; /* Original min-width */
+    text-align: center; /* Original align */
 }
 
 .verb-parts .participle {
     color: var(--neutral-700); /* Original color */
-    /* flex: 1; */ /* Removed */
-    /* min-width: 60px; */ /* Removed */
-    text-align: left; /* Changed from right */
+    flex: 1; /* Original flex */
+    min-width: 60px; /* Original min-width */
+    text-align: right; /* Original align */
 }
 
 /* Sentence container styles */
@@ -2054,12 +2048,11 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
 
 /* Visual indicator on the verb parts line */
 .verb-parts::after {
-    content: '\\25BC'; /* Downward triangle */
+    content: '\25BC'; /* Downward triangle */
     font-size: 0.8em;
     color: var(--neutral-400);
     transition: transform 0.2s ease-in-out;
-    margin-left: auto; /* Push arrow to the far right */
-    padding-left: var(--spacing-sm); /* Add some padding before arrow */
+    margin-left: var(--spacing-sm);
     flex-shrink: 0; /* Prevent shrinking */
 }
 
