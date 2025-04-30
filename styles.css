@@ -898,6 +898,14 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
     padding: var(--spacing-lg);
     margin-bottom: var(--spacing-md);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+    cursor: default;
+    position: static;
+}
+
+.vocabulary-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* Word & Type Section */
@@ -1438,15 +1446,12 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
 .vocabulary-item {
     background-color: var(--white);
     border-radius: var(--radius-md);
-    padding: var(--spacing-md) var(--spacing-lg); /* Adjusted padding */
+    padding: var(--spacing-lg);
     margin-bottom: var(--spacing-md);
-    box-shadow: var(--shadow-sm);
-    transition: background-color var(--transition-normal), box-shadow var(--transition-normal);
-    cursor: pointer;
-    position: relative;
-    display: flex; /* Add flex display */
-    align-items: center; /* Align items vertically */
-    gap: var(--spacing-md); /* Add gap between button and text */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+    cursor: default;
+    position: static;
 }
 
 .vocabulary-item:hover {
