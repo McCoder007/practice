@@ -849,11 +849,38 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
 .days-carousel {
     flex-grow: 1;
     overflow-y: auto;
+    position: relative;
     padding: var(--spacing-md);
+    transition: transform 0.3s ease;
+}
+
+/* Zoom animation for loop transitions */
+.days-carousel.loop-transition {
+    transition: transform 0.4s ease;
+}
+
+.days-carousel.zoom-out-in {
+    animation: zoomOutIn 0.4s ease;
+}
+
+@keyframes zoomOutIn {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 .days-slider {
     display: flex;
+    width: 100%;
+    height: 100%;
     transition: transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
