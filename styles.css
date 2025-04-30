@@ -1644,7 +1644,7 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
         --font-size-base: 15px; /* Slightly smaller base font on mobile */
     }
     
-    /* Reduce horizontal padding for main content containers on mobile */
+    /* REMOVED General padding reduction
     .main-menu-container,
     .level-selection-container,
     .irregular-verb-stages-container,
@@ -1654,8 +1654,30 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
     .completion-container {
         padding-left: var(--spacing-sm);
         padding-right: var(--spacing-sm);
+    } */
+
+    /* Reduce horizontal padding ONLY for verb list container on mobile */
+    .verb-list-container {
+        padding-left: var(--spacing-sm); 
+        padding-right: var(--spacing-sm);
     }
     
+    /* Adjust padding within verb list items on mobile */
+    #verbListContent .verb-item {
+        padding-left: var(--spacing-sm); /* 8px padding inside item left */
+        padding-right: var(--spacing-sm); /* 8px padding inside item right */
+        gap: 0; /* Remove gap, use margin on text instead */
+    }
+
+    #verbListContent .verb-parts {
+        margin-left: var(--spacing-md); /* Add space (16px) between icon and text */
+    }
+
+    #verbListContent .verb-sentences {
+        /* Align sentences: item padding (8px) + icon width (36px) + text margin (16px) */
+        padding-left: calc(var(--spacing-sm) + 36px + var(--spacing-md)); 
+    }
+
     .practice-type-btn,
     .level-btn,
     .stage-btn {
@@ -2037,7 +2059,6 @@ button#irregularVerbListsBtn.practice-type-btn.irregular-verbs {
     /* Ensure sentences appear below the button and verb parts when expanded */
     flex-basis: 100%; /* Take full width on a new line */
     margin-top: var(--spacing-md); /* Add space above sentences */
-    padding-left: calc(36px + var(--spacing-lg)); /* Indent sentences based on button size + increased gap */
     display: none; /* Keep hidden by default */
 }
 
