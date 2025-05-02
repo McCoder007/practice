@@ -572,7 +572,4 @@ const irregularVerbStage2 = [
     }
 ];
 
-// Make data available globally
-window.irregularVerbStage2 = irregularVerbStage2;
-
-export default irregularVerbStage2 
+export default irregularVerbStage2; 
