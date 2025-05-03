@@ -1,5 +1,6 @@
 "use client"
 
+import React from 'react'
 import { useState } from "react"
 import { motion } from "framer-motion"
 import { ChevronDown, Volume2, ChevronUp, ChevronLeft } from 'lucide-react'
@@ -7,6 +8,8 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { irregularVerbs, IrregularVerb } from "@/data/irregularVerbLists"
 import { playText } from '@/lib/tts'
+import { useTts } from '@/context/TtsContext'
+import { PlayCircleIcon } from '@heroicons/react/24/outline'
 
 // Stage information with titles and descriptions
 const stageInfo = [
@@ -21,6 +24,7 @@ export default function IrregularVerbList() {
   // Track which stage is selected; null means show picker
   const [selectedStage, setSelectedStage] = useState<number | null>(null)
   const [expandedVerb, setExpandedVerb] = useState<string>("")
+  const { isTtsInitialized } = useTts()
 
   // Map each stage to its gradient/border color classes
   const cardColors: Record<number, string> = {
@@ -33,7 +37,11 @@ export default function IrregularVerbList() {
 
   // Speak the three forms of the verb using shared helper
   const speakVerbs = (base: string, past: string, participle: string) => {
-    playText(`${base}, ${past}, ${participle}`)
+    if (isTtsInitialized) {
+      playText(`${base}, ${past}, ${participle}`)
+    } else {
+      console.log('TTS not ready yet...')
+    }
   }
 
   const stageVerbs: IrregularVerb[] = selectedStage !== null
@@ -124,8 +132,9 @@ export default function IrregularVerbList() {
                         // Play the verb forms
                         speakVerbs(verb.base, verb.past, verb.participle)
                       }}
+                      disabled={!isTtsInitialized}
                     >
-                      <Volume2 className="h-4 w-4" />
+                      <PlayCircleIcon className="h-4 w-4" />
                     </Button>
                     <div className="font-roboto-mono text-lg tracking-tight">
                       <span>{verb.base}</span>
