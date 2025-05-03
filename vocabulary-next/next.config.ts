@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
   env: {
     NEXT_PUBLIC_GOOGLE_TTS_API_KEY: process.env.GOOGLE_TTS_API_KEY || '',
   },
-  basePath: '/practice/vocabulary-next-out',
+  basePath: '/practice/vocabulary-next',
   eslint: {
     ignoreDuringBuilds: true,
   },
