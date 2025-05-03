@@ -25,10 +25,11 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Replace API Key
-        env:
-          GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
-        run: node build.js
+      # Removed the build.js step as it's handled by Next.js build
+      # - name: Replace API Key
+      #   env:
+      #     GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+      #   run: node build.js
 
       - name: Install and Build Next.js App
         env:
