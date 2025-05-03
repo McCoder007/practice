@@ -37,7 +37,8 @@ jobs:
           cd vocabulary-next
           npm ci
           npm run build -- --no-lint
-          cp -r out/* .
+          mkdir -p ../vocabulary-next
+          cp -r out/* ../vocabulary-next/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
