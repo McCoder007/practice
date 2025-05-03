@@ -426,3 +426,5 @@ class GoogleTTSManager {
 
 // Initialize Google TTS
 const googleTTS = new GoogleTTSManager();
+// Assign to window object for global access
+window.googleTTS = googleTTS;
