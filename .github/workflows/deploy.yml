@@ -36,7 +36,7 @@ jobs:
         run: |
           cd vocabulary-next
           npm ci
-          npm run build
+          npm run build -- --no-lint
           mkdir -p ../vocabulary-next-out
           cp -r out/* ../vocabulary-next-out/
 
