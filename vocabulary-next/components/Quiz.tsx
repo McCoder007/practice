@@ -3,6 +3,8 @@
 import React, { useState, useEffect } from 'react'
 import { Button } from '@/components/ui/button'
 import { Volume2 } from 'lucide-react'
+import { playText } from '@/lib/tts'
+import { shuffleArray } from '@/lib/utils'
 
 export interface QuestionData {
   lineA: string
@@ -27,12 +29,7 @@ export function Quiz({ questions }: QuizProps) {
 
   // Shuffle questions on component mount
   useEffect(() => {
-    const shuffled = [...questions]
-    for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1))
-      ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
-    }
-    setRandomizedQuestions(shuffled.slice(0, 10))
+    setRandomizedQuestions(shuffleArray(questions).slice(0, 10))
   }, [questions])
 
   const question = randomizedQuestions[currentIndex]
@@ -79,17 +76,6 @@ export function Quiz({ questions }: QuizProps) {
     }
   }
 
-  const playText = (text: string) => {
-    // Prefer Google TTS when available, else fallback to browser speech
-    if (typeof window !== 'undefined' && (window as any).googleTTS?.speak) {
-      (window as any).googleTTS.speak(text)
-    } else if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-      const utterance = new SpeechSynthesisUtterance(text)
-      utterance.lang = 'en-US'
-      window.speechSynthesis.speak(utterance)
-    }
-  }
-
   if (complete) {
     return (
       <div className="flex flex-col items-center p-6 space-y-4">
@@ -103,13 +89,7 @@ export function Quiz({ questions }: QuizProps) {
           setHasAnsweredCorrectly(false)
           setIsFirstAttemptCorrect(null)
           setQuestionScores([])
-          // Reshuffle questions on restart
-          const shuffled = [...questions]
-          for (let i = shuffled.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1))
-            ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
-          }
-          setRandomizedQuestions(shuffled.slice(0, 10))
+          setRandomizedQuestions(shuffleArray(questions).slice(0, 10))
         }}>Restart</Button>
       </div>
     )

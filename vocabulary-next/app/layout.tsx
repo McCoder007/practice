@@ -34,12 +34,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className={`${outfit.variable} ${inter.variable} ${robotoMono.variable}`}>
         {/* Load Google TTS manager and set API key */}
-        <Script src="/google-tts.js" strategy="beforeInteractive" />
+        <Script src="google-tts.js" strategy="beforeInteractive" />
         <Script id="set-tts-key" strategy="beforeInteractive">
           {`if (window.googleTTS) { window.googleTTS.setApiKey("${process.env.NEXT_PUBLIC_GOOGLE_TTS_API_KEY || process.env.GOOGLE_TTS_API_KEY}"); }`}
         </Script>
         <ThemeProvider>
-          {children}
+          <div className="relative flex min-h-screen flex-col bg-background">
+            {children}
+          </div>
+          {/* <TailwindIndicator /> */}
         </ThemeProvider>
       </body>
     </html>
