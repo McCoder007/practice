@@ -34,7 +34,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className={`${outfit.variable} ${inter.variable} ${robotoMono.variable}`}>
         {/* Load Google TTS manager and set API key */}
-        <Script src="/google-tts.js" strategy="beforeInteractive" />
+        <Script src="/practice/google-tts.js" strategy="beforeInteractive" />
         <Script id="set-tts-config" strategy="beforeInteractive">
           {`
             if (window.googleTTS) {
