@@ -2,10 +2,10 @@
 
 import React, { useEffect } from 'react';
 import Script from 'next/script';
-import { useRouter } from 'next/router';
 
 export function GoogleTTSScript() {
-  const router = useRouter();
+  // Use the public base path for script asset loading
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   // Handle script load in a useEffect
   const handleScriptLoad = () => {
     console.log("Google TTS script loaded, setting API key");
@@ -18,9 +18,10 @@ export function GoogleTTSScript() {
     }
   };
 
+  // Render the TTS script loader
   return (
-    <Script 
-      src={`${router.basePath}/google-tts.js`} 
+    <Script
+      src={`${basePath}/google-tts.js`}
       strategy="lazyOnload"
       onLoad={handleScriptLoad}
     />
