@@ -30,6 +30,15 @@ jobs:
           GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
         run: node build.js
 
+      - name: Install and Build Next.js App
+        env:
+          GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+        run: |
+          cd vocabulary-next
+          npm ci
+          npm run build
+          cp -r out ../vocabulary-next-out
+
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
