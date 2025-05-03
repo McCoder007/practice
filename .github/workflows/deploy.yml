@@ -23,7 +23,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: '20'
 
       - name: Replace API Key
         env:
@@ -37,7 +37,8 @@ jobs:
           cd vocabulary-next
           npm ci
           npm run build
-          cp -r out ../vocabulary-next-out
+          mkdir -p ../vocabulary-next-out
+          cp -r out/* ../vocabulary-next-out/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
