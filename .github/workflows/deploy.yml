@@ -45,4 +45,5 @@ jobs:
         with:
           folder: vocabulary-next
           branch: gh-pages
+          clean: true
           token: ${{ secrets.GITHUB_TOKEN }} 
