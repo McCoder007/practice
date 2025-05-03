@@ -36,7 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Load Google TTS manager and set API key */}
         <Script src="/google-tts.js" strategy="beforeInteractive" />
         <Script id="set-tts-key" strategy="beforeInteractive">
-          {`if (window.googleTTS) { window.googleTTS.setApiKey("${process.env.NEXT_PUBLIC_GOOGLE_TTS_API_KEY}"); }`}
+          {`if (window.googleTTS) { window.googleTTS.setApiKey("${process.env.NEXT_PUBLIC_GOOGLE_TTS_API_KEY || process.env.GOOGLE_TTS_API_KEY}"); }`}
         </Script>
         <ThemeProvider>
           {children}
