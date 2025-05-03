@@ -381,4 +381,7 @@ const irregularVerbSentencesData = {
         "I overthrew unfair rules at the meeting yesterday.",
         "I have overthrown unfair rules in school debates."
     ]
-}; 
+};
+
+// Add default export for module compatibility
+export default irregularVerbSentencesData; 
