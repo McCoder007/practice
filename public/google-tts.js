@@ -426,10 +426,3 @@ class GoogleTTSManager {
 
 // Initialize Google TTS
 const googleTTS = new GoogleTTSManager();
-window.googleTTS = googleTTS; // Explicitly attach to window object
-
-if (window.googleTTS) {
-    console.log('Successfully attached googleTTS object to window');
-} else {
-    console.error('Failed to attach googleTTS object to window!');
-}
