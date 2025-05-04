@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Quiz, QuestionData } from '@/components/Quiz'
 import stages, { Stage } from '@/data/irregularVerbs'
 import { Card, CardContent } from '@/components/ui/card'
@@ -14,6 +14,7 @@ const stageInfo = [
   { id: 4, title: 'Less Common Verbs', titleChinese: '不常用动词', description: 'Verbs you use sometimes but should know.', descriptionChinese: '有时使用但应该知道的动词。' },
   { id: 5, title: 'Master Level Verbs', titleChinese: '大师级动词', description: 'Special verbs to sound like a native speaker.', descriptionChinese: '像母语者一样说话的特殊动词。' },
 ]
+
 // Color map per stage
 const cardColors: Record<number, string> = {
   1: 'from-amber-50 to-white border-amber-200 dark:from-amber-950/30 dark:to-slate-800 dark:border-amber-900/50',
@@ -25,6 +26,54 @@ const cardColors: Record<number, string> = {
 
 export default function IrregularVerbsPage() {
   const [selectedStage, setSelectedStage] = useState<Stage | null>(null)
+  // Flag to prevent duplicated history entries
+  const [isNavigatingProgrammatically, setIsNavigatingProgrammatically] = useState(false)
+
+  // Handle browser history
+  useEffect(() => {
+    // Handler for browser navigation events (back/forward buttons)
+    const handlePopState = (event: PopStateEvent) => {
+      // Set flag to prevent duplicate history entries
+      setIsNavigatingProgrammatically(true)
+      
+      // If state exists and has a stageId, update the selected stage
+      if (event.state && typeof event.state.stageId !== 'undefined') {
+        const stageId = event.state.stageId;
+        setSelectedStage(stageId ? stages.find((s) => s.id === stageId) || null : null);
+      } else {
+        // If no state or no stageId, go back to the stage selection
+        setSelectedStage(null);
+      }
+      
+      // Reset flag after navigation is complete
+      setTimeout(() => setIsNavigatingProgrammatically(false), 0);
+    };
+
+    // Add event listener for popstate
+    window.addEventListener('popstate', handlePopState);
+    
+    // Clean up
+    return () => {
+      window.removeEventListener('popstate', handlePopState);
+    };
+  }, []);
+
+  // Update history when stage selection changes
+  useEffect(() => {
+    // Skip if we're already handling programmatic navigation
+    if (isNavigatingProgrammatically) return;
+    
+    // If a stage is selected, update history state and URL
+    if (selectedStage !== null) {
+      const currentStageInfo = stageInfo.find(stage => stage.id === selectedStage.id);
+      // Push new state to history
+      window.history.pushState(
+        { stageId: selectedStage.id }, // State object with stageId
+        `${currentStageInfo?.title || 'Irregular Verbs'} | Quiz`, // Title
+        `#stage-${selectedStage.id}` // URL hash
+      );
+    }
+  }, [selectedStage, isNavigatingProgrammatically]);
 
   if (!selectedStage) {
     return (
@@ -63,19 +112,14 @@ export default function IrregularVerbsPage() {
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-slate-900">
       <header className="bg-white dark:bg-slate-800 p-4 shadow sticky top-0 z-10">
-        <div className="flex items-center justify-between max-w-3xl mx-auto">
-          <Button variant="ghost" onClick={() => setSelectedStage(null)} className="dark:text-slate-300">
-            ← Back
-          </Button>
-          <div className="text-center flex-grow mx-4">
+        <div className="flex items-center justify-center max-w-3xl mx-auto">
+          <div className="text-center">
             <h2 className="text-lg font-semibold text-slate-900 dark:text-white">
               {currentStageInfo?.title} | {currentStageInfo?.titleChinese}
             </h2>
             <p className="text-xs text-slate-600 dark:text-slate-400 mt-0.5">{currentStageInfo?.description}</p>
             <p className="text-xs text-slate-500 dark:text-slate-500">{currentStageInfo?.descriptionChinese}</p>
           </div>
-          {/* Placeholder for potential right-side element */}
-          <div className="w-16"></div> 
         </div>
       </header>
       <main className="max-w-3xl mx-auto p-4">
