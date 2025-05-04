@@ -18,6 +18,9 @@ let currentDayStartTime = null;
 let wordInteractions = {};
 let currentVerbListStage = "stage1"; // Track current verb list stage
 
+// Add a flag to track if navigation is happening programmatically
+let isNavigatingProgrammatically = false;
+
 // DOM elements
 const lineAElement = document.getElementById('lineA');
 const lineBElement = document.getElementById('lineB');
@@ -68,9 +71,62 @@ const verbListContainer = document.getElementById('verbListContainer');
 const verbListContent = document.getElementById('verbListContent');
 const verbListTitle = document.getElementById('verbListTitle');
 
+// Handle browser back/forward button navigation
+window.addEventListener('popstate', function(event) {
+    console.log("Browser navigation detected", event.state);
+    
+    // Set the flag to true to prevent additional history entries
+    isNavigatingProgrammatically = true;
+    
+    if (!event.state) {
+        // No state information, likely first load or direct URL
+        showMainMenu();
+        isNavigatingProgrammatically = false;
+        return;
+    }
+    
+    // Route to the appropriate screen based on history state
+    switch (event.state.screen) {
+        case 'mainMenu':
+            showMainMenu();
+            break;
+        case 'levelSelection':
+            currentPracticeType = event.state.practiceType;
+            showLevelSelection();
+            break;
+        case 'irregularVerbStages':
+            showIrregularVerbStages();
+            break;
+        case 'irregularVerbLists':
+            showIrregularVerbLists();
+            break;
+        case 'verbList':
+            showVerbList(event.state.stage);
+            break;
+        case 'vocabulary':
+            showVocabularyPractice();
+            break;
+        default:
+            // If we don't recognize the state, go to main menu
+            showMainMenu();
+    }
+    
+    // Reset the flag
+    isNavigatingProgrammatically = false;
+});
+
+// Initialize the app when the DOM is loaded
+document.addEventListener('DOMContentLoaded', initApp);
+
 // Initialize the application
 function initApp() {
-    console.log("Initializing app...");
+    console.log("Initializing app");
+    
+    // Set initial history state for the main menu
+    history.replaceState({ screen: 'mainMenu' }, 'ESL Practice - Main Menu', '#main-menu');
+    
+    // Show the main menu initially
+    showMainMenu();
     
     // Test log for device information
     const deviceInfo = {
@@ -178,7 +234,6 @@ function initApp() {
     nextBtn.addEventListener('click', goToNextQuestion);
     restartBtn.addEventListener('click', restartPractice);
     backToMainMenuBtn.addEventListener('click', showMainMenu);
-    quizBackBtn.addEventListener('click', handleQuizBackButton);
     
     // Modal event listeners
     confirmExitBtn.addEventListener('click', confirmExit);
@@ -220,6 +275,11 @@ function initApp() {
 function showMainMenu() {
     console.log("Showing main menu screen");
     
+    // Update browser history if not already navigating programmatically
+    if (!isNavigatingProgrammatically) {
+        history.pushState({ screen: 'mainMenu' }, 'ESL Practice - Main Menu', '#main-menu');
+    }
+    
     // Clean up any event listeners from vocabulary practice
     window.removeEventListener('resize', handleVocabularyResize);
     
@@ -254,7 +314,7 @@ function showMainMenu() {
     // Update header
     document.querySelector('header h1').textContent = 'ESL Practice';
     
-    // Hide back button in header
+    // Hide back button in header (consistent with CSS styling)
     quizBackBtn.style.display = 'none';
     
     console.log("Main menu container display:", getComputedStyle(mainMenuContainer).display);
@@ -263,6 +323,12 @@ function showMainMenu() {
 // Show level selection screen
 function showLevelSelection() {
     console.log("Showing level selection screen");
+    
+    // Update browser history if not already navigating programmatically
+    if (!isNavigatingProgrammatically) {
+        const practiceTitle = currentPracticeType === "prepositions" ? "Preposition Practice" : "Verb Tenses Practice";
+        history.pushState({ screen: 'levelSelection', practiceType: currentPracticeType }, practiceTitle, `#${currentPracticeType}-levels`);
+    }
     
     // Hide other containers
     questionContainer.classList.remove('active');
@@ -280,9 +346,8 @@ function showLevelSelection() {
         document.querySelector('header h1').textContent = 'Verb Tenses Practice';
     }
     
-    // Show back button in header and set its event handler
-    quizBackBtn.style.display = 'block';
-    quizBackBtn.onclick = showMainMenu; // Return to main menu when clicked
+    // Rely on browser back button instead - keep this hidden
+    quizBackBtn.style.display = 'none';
     
     console.log("Level selection container display:", getComputedStyle(levelSelectionContainer).display);
 }
@@ -290,6 +355,11 @@ function showLevelSelection() {
 // Show irregular verb stage selection screen (New function)
 function showIrregularVerbStages() {
     console.log("Showing irregular verb stages screen");
+    
+    // Update browser history if not already navigating programmatically
+    if (!isNavigatingProgrammatically) {
+        history.pushState({ screen: 'irregularVerbStages' }, 'Irregular Verbs Quiz', '#irregular-verb-stages');
+    }
     
     // Hide other containers
     questionContainer.classList.remove('active');
@@ -313,9 +383,8 @@ function showIrregularVerbStages() {
     // Update header
     document.querySelector('header h1').textContent = 'Irregular Verbs Quiz';
     
-    // Show back button in header and set up its event handler
-    quizBackBtn.style.display = 'block';
-    quizBackBtn.onclick = showMainMenu; // Return to main menu when clicked
+    // Rely on browser back button instead - keep this hidden
+    quizBackBtn.style.display = 'none';
     
     console.log("Irregular verb stages container display:", getComputedStyle(irregularVerbStagesContainer).display);
 }
@@ -323,6 +392,11 @@ function showIrregularVerbStages() {
 // Show irregular verb lists selection screen (New function)
 function showIrregularVerbLists() {
     console.log("Showing irregular verb lists screen");
+    
+    // Update browser history if not already navigating programmatically
+    if (!isNavigatingProgrammatically) {
+        history.pushState({ screen: 'irregularVerbLists' }, 'Irregular Verb Lists', '#irregular-verb-lists');
+    }
     
     // Make sure current practice type is properly set
     currentPracticeType = "irregularVerbLists";
@@ -353,8 +427,8 @@ function showIrregularVerbLists() {
     
     // Update header and show back button
     document.querySelector('header h1').textContent = 'Irregular Verb Lists';
-    quizBackBtn.style.display = 'block';
-    // We're using the handleQuizBackButton function for back button clicks
+    quizBackBtn.style.display = 'none';
+    // Using browser back button navigation instead
     
     console.log("Irregular verb lists container display:", irregularVerbListsContainer ? getComputedStyle(irregularVerbListsContainer).display : "container not found");
 }
@@ -362,6 +436,12 @@ function showIrregularVerbLists() {
 // Show verb list for a specific stage (New function)
 function showVerbList(stage) {
     console.log("Showing verb list for stage:", stage);
+    
+    // Update browser history if not already navigating programmatically
+    if (!isNavigatingProgrammatically) {
+        history.pushState({ screen: 'verbList', stage: stage }, `Irregular Verb Lists - ${stage}`, `#irregular-verb-lists-${stage}`);
+    }
+    
     currentVerbListStage = stage; // Keep track of the current stage
 
     // Set title - Extract only the main title text from the button
@@ -506,7 +586,7 @@ function showVerbList(stage) {
     // Update header and show back button
     // Adjust header text to reflect it's a list, not a quiz
     document.querySelector('header h1').textContent = 'Irregular Verb Lists'; 
-    quizBackBtn.style.display = 'block';
+    quizBackBtn.style.display = 'none';
     progressBarContainer.style.display = 'none'; // Hide progress bar for lists
 }
 
@@ -595,7 +675,7 @@ function startLevel(level) {
     progressBarContainer.style.display = 'flex';
     
     // Show back button in header
-    quizBackBtn.style.display = 'block';
+    quizBackBtn.style.display = 'none';
     
     console.log("Question container display:", getComputedStyle(questionContainer).display);
     
@@ -901,57 +981,11 @@ function restartPractice() {
     startLevel(currentLevel);
 }
 
-// Handle quiz back button
+// Handle quiz back button - modified to work with browser history instead
 function handleQuizBackButton() {
-    console.log("Back button clicked during practice/quiz");
-    
-    // If in vocabulary practice, log session data and go back to main menu
-    if (vocabularyContainer.classList.contains('active')) {
-        const sessionDuration = new Date() - vocabularyStartTime;
-        const timeOnCurrentDay = new Date() - currentDayStartTime;
-        
-        // Remove the resize listener when leaving vocabulary practice
-        window.removeEventListener('resize', handleVocabularyResize);
-        
-        logEvent('vocabulary_session_ended', {
-            total_duration_ms: sessionDuration,
-            last_day: currentVocabularyDay,
-            last_day_duration_ms: timeOnCurrentDay,
-            word_interactions: wordInteractions
-        });
-        
-        showMainMenu();
-        return;
-    }
-    
-    // If on irregular verb stages selection screen, go back to main menu
-    const irregularVerbStagesContainer = document.getElementById('irregularVerbStagesContainer');
-    if (irregularVerbStagesContainer && irregularVerbStagesContainer.classList.contains('active')) {
-        showMainMenu();
-        return;
-    }
-    
-    // If on irregular verb lists selection screen, go back to main menu
-    const irregularVerbListsContainer = document.getElementById('irregularVerbListsContainer');
-    if (irregularVerbListsContainer && irregularVerbListsContainer.classList.contains('active')) {
-        showMainMenu();
-        return;
-    }
-    
-    // If on verb list view, go back to irregular verb lists screen
-    if (verbListContainer && verbListContainer.classList.contains('active')) {
-        showIrregularVerbLists();
-        return;
-    }
-    
-    // If on preposition level selection screen, go back to main menu
-    if (levelSelectionContainer.classList.contains('active')) {
-        showMainMenu();
-        return;
-    }
-    
-    // Show confirmation modal for quitting mid-quiz
-    showModal();
+    console.log("Back button functionality removed - using browser back button instead");
+    // This function is kept for compatibility but no longer actively used
+    return;
 }
 
 // Show custom confirmation modal
@@ -1030,6 +1064,11 @@ function logEvent(eventName, eventParams) {
 function showVocabularyPractice() {
     console.log("Showing vocabulary practice screen");
     
+    // Update browser history if not already navigating programmatically
+    if (!isNavigatingProgrammatically) {
+        history.pushState({ screen: 'vocabulary' }, 'Vocabulary Practice', '#vocabulary');
+    }
+    
     // Start timing the vocabulary session
     vocabularyStartTime = new Date();
     
@@ -1054,8 +1093,8 @@ function showVocabularyPractice() {
     // Update header
     document.querySelector('header h1').textContent = 'Vocabulary Practice';
     
-    // Show back button in header
-    quizBackBtn.style.display = 'block';
+    // Rely on browser back button instead - keep this hidden
+    quizBackBtn.style.display = 'none';
     
     // Get available days
     availableDays = Object.keys(vocabularyData);
@@ -1443,6 +1482,3 @@ function handleVocabularyResize() {
         vocabularyContainer.classList.remove('mobile-view');
     }
 }
-
-// Initialize the app when the DOM is loaded
-document.addEventListener('DOMContentLoaded', initApp);
