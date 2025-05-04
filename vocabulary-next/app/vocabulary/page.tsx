@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState, Fragment } from "react"
+import React, { useState, Fragment, useEffect } from "react"
 import Link from 'next/link'
 import { ChevronLeft, ChevronRight, Volume2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -32,6 +32,14 @@ export default function VocabularyPracticePage() {
   }
 
   const playAudio = (text: string) => playText(text)
+
+  // Scroll vocabulary area to top when switching days
+  useEffect(() => {
+    const viewport = document.querySelector('[data-slot="scroll-area-viewport"]')
+    if (viewport instanceof HTMLElement) {
+      viewport.scrollTo({ top: 0, left: 0 })
+    }
+  }, [currentDay])
 
   // Helper to render each word as clickable, preserving original spaces
   const renderClickableWords = (text: string) =>
