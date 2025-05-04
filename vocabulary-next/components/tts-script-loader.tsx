@@ -8,17 +8,21 @@ interface TtsScriptLoaderProps {
 }
 
 export function TtsScriptLoader({ apiKey }: TtsScriptLoaderProps) {
+  // DEBUG: Log the received prop
+  console.log(`[TtsScriptLoader] Received apiKey prop (length ${apiKey.length}): ${apiKey ? apiKey.substring(0, 4) + '...' : 'EMPTY'}`);
+
   return (
     <Script
       src="/practice/google-tts.js" // Assumes basePath handles the /practice prefix
       strategy="beforeInteractive"
       onLoad={() => {
-        console.log("google-tts.js script loaded. Configuring...");
+        console.log("[TtsScriptLoader] google-tts.js script loaded. Configuring...");
         if (window.googleTTS) {
-          console.log("Configuring Google TTS Manager via onLoad...");
+          console.log("[TtsScriptLoader] Configuring Google TTS Manager via onLoad...");
           // Use the apiKey passed via props
           if (apiKey) {
-             console.log(`Setting API key (provided via prop)...`); // Log success
+             // DEBUG: Enhance log before calling setApiKey
+             console.log(`[TtsScriptLoader] Setting API key via prop (length ${apiKey.length}): ${apiKey.substring(0, 4)}...`); 
              window.googleTTS.setApiKey(apiKey);
           } else {
              // Log a warning if the key received via props is empty
