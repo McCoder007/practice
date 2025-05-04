@@ -2,23 +2,29 @@
 
 import Script from 'next/script'
 
-export function TtsScriptLoader() {
+// Define props for the component
+interface TtsScriptLoaderProps {
+  apiKey: string;
+}
+
+export function TtsScriptLoader({ apiKey }: TtsScriptLoaderProps) {
   return (
-    <Script 
-      src="/practice/google-tts.js" 
-      strategy="beforeInteractive" 
+    <Script
+      src="/practice/google-tts.js" // Assumes basePath handles the /practice prefix
+      strategy="beforeInteractive"
       onLoad={() => {
         console.log("google-tts.js script loaded. Configuring...");
         if (window.googleTTS) {
           console.log("Configuring Google TTS Manager via onLoad...");
-          // Ensure fallback to empty string if env vars are undefined
-          const apiKey = process.env.NEXT_PUBLIC_GOOGLE_TTS_API_KEY || process.env.GOOGLE_TTS_API_KEY || '';
+          // Use the apiKey passed via props
           if (apiKey) {
+             console.log(`Setting API key (provided via prop)...`); // Log success
              window.googleTTS.setApiKey(apiKey);
           } else {
-             console.warn("Google TTS API Key not found in environment variables.");
+             // Log a warning if the key received via props is empty
+             console.warn("Google TTS API Key was empty (received via prop). Using browser TTS fallback.");
           }
-          // Set the desired voice
+          // Set the desired voice (can also be passed via props if needed)
           window.googleTTS.setVoice('en-US-Neural2-D');
         } else {
           console.error("window.googleTTS not found even after script onLoad triggered!");
