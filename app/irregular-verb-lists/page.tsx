@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
 import { ChevronDown, Volume2, ChevronUp, ChevronLeft } from 'lucide-react'
 import { Button } from "@/components/ui/button"
@@ -21,6 +21,58 @@ export default function IrregularVerbList() {
   // Track which stage is selected; null means show picker
   const [selectedStage, setSelectedStage] = useState<number | null>(null)
   const [expandedVerb, setExpandedVerb] = useState<string>("")
+  // Flag to prevent duplicated history entries
+  const [isNavigatingProgrammatically, setIsNavigatingProgrammatically] = useState(false)
+
+  // Handle browser history
+  useEffect(() => {
+    // Handler for browser navigation events (back/forward buttons)
+    const handlePopState = (event: PopStateEvent) => {
+      // Set flag to prevent duplicate history entries
+      setIsNavigatingProgrammatically(true)
+      
+      // If state exists and has a stageId, update the selected stage
+      if (event.state && typeof event.state.stageId !== 'undefined') {
+        setSelectedStage(event.state.stageId);
+      } else {
+        // If no state or no stageId, go back to the stage selection
+        setSelectedStage(null);
+      }
+      
+      // Reset flag after navigation is complete
+      setTimeout(() => setIsNavigatingProgrammatically(false), 0);
+    };
+
+    // Add event listener for popstate
+    window.addEventListener('popstate', handlePopState);
+    
+    // Clean up
+    return () => {
+      window.removeEventListener('popstate', handlePopState);
+    };
+  }, []);
+
+  // Update history when stage selection changes
+  useEffect(() => {
+    // Skip if we're already handling programmatic navigation
+    if (isNavigatingProgrammatically) return;
+    
+    // If a stage is selected, update history state and URL
+    if (selectedStage !== null) {
+      const stageInfo = getStageInfo(selectedStage);
+      // Push new state to history
+      window.history.pushState(
+        { stageId: selectedStage }, // State object with stageId
+        `${stageInfo.title} | Irregular Verb Lists`, // Title
+        `#stage-${selectedStage}` // URL hash
+      );
+    }
+  }, [selectedStage, isNavigatingProgrammatically]);
+
+  // Helper to get stage info by ID
+  const getStageInfo = (id: number) => {
+    return stageInfo.find(stage => stage.id === id) || stageInfo[0];
+  };
 
   // Map each stage to its gradient/border color classes
   const cardColors: Record<number, string> = {
@@ -84,11 +136,8 @@ export default function IrregularVerbList() {
       {/* Sticky header banner */}
       <div className="sticky top-0 z-20 bg-gradient-to-b from-blue-50 to-white dark:from-slate-900 dark:to-slate-800 py-4 shadow-sm">
         <div className="container max-w-md mx-auto flex items-center px-4">
-          {/* Back arrow */}
-          <button onClick={() => setSelectedStage(null)} className="p-2 bg-white dark:bg-slate-900 rounded-full shadow-md">
-            <ChevronLeft className="h-6 w-6 text-amber-400 dark:text-amber-300" />
-          </button>
-          <div className="pl-4 flex-grow">
+          {/* Back button removed - using browser back button instead */}
+          <div className="flex-grow">
             <h1 className="text-xl font-outfit font-bold text-slate-800 dark:text-white">
               {currentStageInfo?.title} | {currentStageInfo?.titleChinese}
             </h1>
