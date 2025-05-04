@@ -83,9 +83,10 @@ export default function HomePage() {
                 item.color,
                 item.borderColor,
                 item.hoverColor,
-                "hover:shadow-lg hover:scale-[1.02]"
+                "hover:shadow-lg hover:scale-[1.02]",
+                "py-3 gap-2"
               )}>
-                <CardHeader className="flex flex-row items-center gap-4">
+                <CardHeader className="flex flex-row items-center gap-4 px-6">
                   <div className={cn(
                     "p-2 rounded-lg bg-gradient-to-br",
                     item.color,
@@ -95,7 +96,7 @@ export default function HomePage() {
                   </div>
                   <CardTitle className="text-lg">{item.title}</CardTitle>
                 </CardHeader>
-                <CardContent>
+                <CardContent className="px-6">
                   <p className="text-sm text-muted-foreground">
                     {item.description}
                   </p>
