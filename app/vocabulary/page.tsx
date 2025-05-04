@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import React, { useState, Fragment } from "react"
 import Link from 'next/link'
 import { ChevronLeft, ChevronRight, Volume2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -32,6 +32,22 @@ export default function VocabularyPracticePage() {
   }
 
   const playAudio = (text: string) => playText(text)
+
+  // Helper to render each word as clickable, preserving original spaces
+  const renderClickableWords = (text: string) =>
+    text.split(/(\s+)/).map((token, idx) =>
+      token.match(/\s+/)
+        ? <Fragment key={idx}>{token}</Fragment>
+        : (
+            <span
+              key={idx}
+              onClick={() => playAudio(token)}
+              className="cursor-pointer hover:underline"
+            >
+              {token}
+            </span>
+          )
+    )
 
   return (
     <div className="flex flex-col min-h-screen bg-blue-50">
@@ -93,7 +109,9 @@ export default function VocabularyPracticePage() {
                         <span className="sr-only">Play pronunciation</span>
                       </Button>
                       <div>
-                        <h3 className="text-lg font-semibold text-gray-900">{word.word}</h3>
+                        <h3 className="text-lg font-semibold text-gray-900">
+                          {renderClickableWords(word.word)}
+                        </h3>
                         <div className="text-blue-600 text-base mt-1">{word.translation}</div>
                       </div>
                     </div>
@@ -115,7 +133,9 @@ export default function VocabularyPracticePage() {
                       <span className="sr-only">Play example</span>
                     </Button>
                     <div className="flex-grow">
-                      <p className="text-gray-800 text-sm mb-2">{word.example}</p>
+                      <p className="text-gray-800 text-sm mb-2">
+                        {renderClickableWords(word.example)}
+                      </p>
                       <p className="text-blue-600 text-sm">{word.exampleTranslation}</p>
                     </div>
                   </div>

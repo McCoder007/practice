@@ -27,9 +27,18 @@ export function Quiz({ questions }: QuizProps) {
   const [questionScores, setQuestionScores] = useState<boolean[]>([])
   const [randomizedQuestions, setRandomizedQuestions] = useState<QuestionData[]>([])
 
-  // Shuffle questions on component mount
+  // Add helper to shuffle questions and options
+  const generateRandomizedQuestions = () =>
+    shuffleArray(questions)
+      .slice(0, 10)
+      .map((q) => ({
+        ...q,
+        options: shuffleArray(q.options),
+      }))
+
+  // Shuffle questions and options on component mount
   useEffect(() => {
-    setRandomizedQuestions(shuffleArray(questions).slice(0, 10))
+    setRandomizedQuestions(generateRandomizedQuestions())
   }, [questions])
 
   const question = randomizedQuestions[currentIndex]
@@ -89,7 +98,7 @@ export function Quiz({ questions }: QuizProps) {
           setHasAnsweredCorrectly(false)
           setIsFirstAttemptCorrect(null)
           setQuestionScores([])
-          setRandomizedQuestions(shuffleArray(questions).slice(0, 10))
+          setRandomizedQuestions(generateRandomizedQuestions())
         }}>Restart</Button>
       </div>
     )
