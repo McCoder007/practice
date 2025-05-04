@@ -10,11 +10,11 @@ import { playText } from '@/lib/tts'
 
 // Stage information with titles and descriptions
 const stageInfo = [
-  { id: 1, title: "Core Verbs", description: "Very important verbs you need every day." },
-  { id: 2, title: "Everyday Verbs", description: "Verbs you hear and use often." },
-  { id: 3, title: "Action Verbs", description: "Verbs for moving, doing, and playing." },
-  { id: 4, title: "Less Common Verbs", description: "Verbs you use sometimes but should know." },
-  { id: 5, title: "Master Level Verbs", description: "Special verbs to sound like a native speaker." },
+  { id: 1, title: "Core Verbs", titleChinese: "核心动词", description: "Very important verbs you need every day.", descriptionChinese: "每天都需要的重要动词。" },
+  { id: 2, title: "Everyday Verbs", titleChinese: "日常动词", description: "Verbs you hear and use often.", descriptionChinese: "经常听到和使用的动词。" },
+  { id: 3, title: "Action Verbs", titleChinese: "动作动词", description: "Verbs for moving, doing, and playing.", descriptionChinese: "用于移动、做和玩的动词。" },
+  { id: 4, title: "Less Common Verbs", titleChinese: "不常用动词", description: "Verbs you use sometimes but should know.", descriptionChinese: "有时使用但应该知道的动词。" },
+  { id: 5, title: "Master Level Verbs", titleChinese: "大师级动词", description: "Special verbs to sound like a native speaker.", descriptionChinese: "像母语者一样说话的特殊动词。" },
 ]
 
 export default function IrregularVerbList() {
@@ -49,7 +49,7 @@ export default function IrregularVerbList() {
   if (selectedStage === null) {
     return (
       <div className="flex flex-col items-center justify-center bg-white dark:bg-gray-900 py-4 px-2">
-        <h1 className="text-3xl font-outfit font-bold mb-6 text-slate-900 dark:text-white">Choose a Stage</h1>
+        <h1 className="text-3xl font-outfit font-bold mb-6 text-slate-900 dark:text-white">Please choose</h1>
         <div className="space-y-2 w-full max-w-sm mx-auto">
           {stageInfo.map((stage) => {
             const colorClass = cardColors[stage.id] || cardColors[1]
@@ -57,14 +57,17 @@ export default function IrregularVerbList() {
               <Card
                 key={stage.id}
                 onClick={() => setSelectedStage(stage.id)}
-                className={`cursor-pointer bg-gradient-to-r ${colorClass} rounded-lg shadow-sm hover:shadow-md transition-shadow`}
+                className={`cursor-pointer bg-gradient-to-r ${colorClass} rounded-lg shadow-sm hover:shadow-md transition-shadow py-0`}
               >
                 <CardContent className="p-2">
-                  <h2 className="text-base font-outfit font-bold text-slate-800 dark:text-white">
-                    Stage {stage.id}: {stage.title}
+                  <h2 className="text-lg font-outfit font-bold text-slate-800 dark:text-white">
+                    {stage.title} | {stage.titleChinese}
                   </h2>
-                  <p className="mt-0.5 text-[10px] font-inter text-slate-600 dark:text-slate-300">
+                  <p className="mt-0.5 text-xs font-inter text-slate-600 dark:text-slate-300">
                     {stage.description}
+                  </p>
+                  <p className="mt-0.5 text-xs font-inter text-slate-500 dark:text-slate-400">
+                    {stage.descriptionChinese}
                   </p>
                 </CardContent>
               </Card>
@@ -85,11 +88,12 @@ export default function IrregularVerbList() {
           <button onClick={() => setSelectedStage(null)} className="p-2 bg-white dark:bg-slate-900 rounded-full shadow-md">
             <ChevronLeft className="h-6 w-6 text-amber-400 dark:text-amber-300" />
           </button>
-          <div className="pl-4">
-            <h1 className="text-2xl font-outfit font-bold text-slate-800 dark:text-white">
-              Stage {selectedStage}: {currentStageInfo?.title}
+          <div className="pl-4 flex-grow">
+            <h1 className="text-xl font-outfit font-bold text-slate-800 dark:text-white">
+              {currentStageInfo?.title} | {currentStageInfo?.titleChinese}
             </h1>
-            <p className="text-slate-600 dark:text-slate-300 mt-1 font-inter">{currentStageInfo?.description}</p>
+            <p className="text-slate-600 dark:text-slate-300 mt-1 text-sm font-inter">{currentStageInfo?.description}</p>
+            <p className="text-slate-500 dark:text-slate-400 mt-1 text-sm font-inter">{currentStageInfo?.descriptionChinese}</p>
           </div>
         </div>
       </div>

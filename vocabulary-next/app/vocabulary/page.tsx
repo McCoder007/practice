@@ -11,7 +11,7 @@ import vocabularyData from "@/data/vocabulary"
 import { playText } from '@/lib/tts'
 
 export default function VocabularyPracticePage() {
-  const [currentDay, setCurrentDay] = useState(1)
+  const [currentDay, setCurrentDay] = useState(vocabularyData.length)
 
   const currentDayData = vocabularyData.find((data) => data.day === currentDay) || vocabularyData[0]
 
@@ -39,7 +39,6 @@ export default function VocabularyPracticePage() {
         <div className="flex items-center justify-center relative mb-3">
           <div className="flex flex-col items-center flex-grow">
             <h1 className="text-xl font-semibold text-gray-800">New Words</h1>
-            <p className="text-sm text-gray-500">Practice new words with audio and translations</p>
           </div>
         </div>
 
