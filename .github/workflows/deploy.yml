@@ -36,8 +36,6 @@ jobs:
           NEXT_PUBLIC_GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
         run: |
           cd vocabulary-next
-          # Debug: Check if the env var is set in the runner for this step
-          if [ -z "$NEXT_PUBLIC_GOOGLE_TTS_API_KEY" ]; then echo "TTS API Key: NOT SET"; else echo "TTS API Key: Set (starts with ${NEXT_PUBLIC_GOOGLE_TTS_API_KEY:0:4}...)"; fi
           npm ci
           npm run build -- --no-lint
           mkdir -p ../vocabulary-next

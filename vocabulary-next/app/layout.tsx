@@ -26,6 +26,9 @@ const robotoMono = Roboto_Mono({
 })
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  // Read the environment variable during render
+  const googleTtsApiKey = process.env.NEXT_PUBLIC_GOOGLE_TTS_API_KEY || '';
+
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
@@ -33,8 +36,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="description" content="Learn irregular verbs easily" />
       </head>
       <body className={`${outfit.variable} ${inter.variable} ${robotoMono.variable}`}>
-        {/* Load and configure TTS using the client component */}
-        <TtsScriptLoader />
+        {/* Load and configure TTS using the client component, passing the key as a prop */}
+        <TtsScriptLoader apiKey={googleTtsApiKey} />
         
         <ThemeProvider>
           <div className="relative flex min-h-screen flex-col bg-background">
