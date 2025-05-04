@@ -1,8 +1,8 @@
 import type React from "react"
 import "./globals.css"
 import { Inter, Outfit, Roboto_Mono } from 'next/font/google'
+import Script from 'next/script'
 import { ThemeProvider } from "@/components/theme-provider"
-import { TtsScriptLoader } from "@/components/tts-script-loader"
 
 // Import primary font for headings and UI
 const outfit = Outfit({
@@ -38,9 +38,33 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="description" content="Learn irregular verbs easily" />
       </head>
       <body className={`${outfit.variable} ${inter.variable} ${robotoMono.variable}`}>
-        {/* Load and configure TTS using the client component, passing the key as a prop */}
-        <TtsScriptLoader apiKey={googleTtsApiKey} />
-        
+        {/* Load google-tts.js early */}
+        <Script src="/practice/google-tts.js" strategy="beforeInteractive" id="google-tts-script" />
+
+        {/* Inject API Key directly after google-tts.js loads */}
+        {googleTtsApiKey && (
+          <Script
+            id="tts-api-key-setter"
+            strategy="beforeInteractive"
+            dangerouslySetInnerHTML={{
+              __html: `
+                console.log('[Inline Script] Running: Attempting to set API key...');
+                // Ensure this runs after google-tts.js has potentially created the object
+                // A small timeout might be needed if race condition persists, but ideally
+                // the script order with beforeInteractive handles this.
+                if (window.googleTTS) {
+                  console.log('[Inline Script] window.googleTTS found. Setting API key (length ${googleTtsApiKey.length}): ${googleTtsApiKey.substring(0,4)}...');
+                  window.googleTTS.setApiKey('${googleTtsApiKey}');
+                } else {
+                  console.error('[Inline Script] window.googleTTS NOT found! API key cannot be set.');
+                  // Alternative: Set a global variable and have google-tts.js check for it?
+                  // window.__pendingApiKey = '${googleTtsApiKey}'; 
+                }
+              `,
+            }}
+          />
+        )}
+
         <ThemeProvider>
           <div className="relative flex min-h-screen flex-col bg-background">
             {children}
