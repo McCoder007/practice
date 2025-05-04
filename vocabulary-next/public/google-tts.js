@@ -80,10 +80,11 @@ class GoogleTTSManager {
     
     // Set API key
     setApiKey(key) {
-        // DEBUG: Log received key
-        console.log(`[google-tts] setApiKey called. Key length: ${key ? key.length : 'undefined/null'}. Key starts with: ${key ? key.substring(0, 4) + '...' : 'N/A'}`);
+        // Removed DEBUG log
+        // console.log(`[google-tts] setApiKey called. Key length: ${key ? key.length : 'undefined/null'}. Key starts with: ${key ? key.substring(0, 4) + '...' : 'N/A'}`);
         this.apiKey = key;
-        console.log('[google-tts] Google TTS API key set internally.'); // Keep original log for reference
+        // Restore original simple log message
+        console.log('Google TTS API key set.'); 
         
         // Debug: Check if the API key is the placeholder
         if (key.startsWith('__GOOGLE_TTS_API_KEY__')) {
@@ -152,9 +153,9 @@ class GoogleTTSManager {
     
     // Call Google Text-to-Speech API using direct Audio approach
     async synthesizeSpeech(text, isPreInit = false) {
-        // DEBUG: Log when synthesis is attempted and the current state of this.apiKey
-        console.log(`[google-tts] synthesizeSpeech called for: "${text}". isPreInit: ${isPreInit}. Current internal apiKey length: ${this.apiKey ? this.apiKey.length : '0/unset'}`);
-        console.log(`Attempting Google TTS for text: "${text}" ${isPreInit ? '(pre-init)' : ''}`);
+        // Removed DEBUG log
+        // console.log(`[google-tts] synthesizeSpeech called for: "${text}". isPreInit: ${isPreInit}. Current internal apiKey length: ${this.apiKey ? this.apiKey.length : '0/unset'}`);
+        console.log(`Attempting Google TTS for text: "${text}" ${isPreInit ? '(pre-init)' : ''}`); // Keep original log
         
         // Check if API key is set
         if (!this.apiKey) {
