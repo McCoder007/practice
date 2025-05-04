@@ -28,6 +28,8 @@ const robotoMono = Roboto_Mono({
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   // Read the environment variable during render
   const googleTtsApiKey = process.env.NEXT_PUBLIC_GOOGLE_TTS_API_KEY || '';
+  // DEBUG: Log the key read during build/render
+  console.log(`[Layout] Read API Key (length ${googleTtsApiKey.length}): ${googleTtsApiKey ? googleTtsApiKey.substring(0, 4) + '...' : 'EMPTY'}`);
 
   return (
     <html lang="en" suppressHydrationWarning>
