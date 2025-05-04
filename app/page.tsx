@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils"
 
 const menuItems = [
   {
-    title: "New Words",
+    title: "New Words | 生词",
     href: "/vocabulary",
     icon: Book,
     description: "Practice new words with audio and translations",
@@ -18,27 +18,17 @@ const menuItems = [
     hoverColor: "hover:from-blue-500/20 hover:to-blue-600/20"
   },
   {
-    title: "Prepositions",
-    href: "/prepositions",
-    icon: ArrowRightLeft,
-    description: "Master preposition usage in different contexts",
-    color: "from-purple-500/10 to-purple-600/10",
-    iconColor: "text-purple-500",
-    borderColor: "border-purple-500/20",
-    hoverColor: "hover:from-purple-500/20 hover:to-purple-600/20"
+    title: "Irregular Verb Lists | 不规则动词列表",
+    href: "/irregular-verb-lists",
+    icon: ListTodo,
+    description: "Browse and study irregular verb lists",
+    color: "from-rose-500/10 to-rose-600/10",
+    iconColor: "text-rose-500",
+    borderColor: "border-rose-500/20",
+    hoverColor: "hover:from-rose-500/20 hover:to-rose-600/20"
   },
   {
-    title: "Verb Tenses",
-    href: "/verb-tenses",
-    icon: Clock,
-    description: "Practice different verb tenses and conjugations",
-    color: "from-emerald-500/10 to-emerald-600/10",
-    iconColor: "text-emerald-500",
-    borderColor: "border-emerald-500/20",
-    hoverColor: "hover:from-emerald-500/20 hover:to-emerald-600/20"
-  },
-  {
-    title: "Irregular Verbs",
+    title: "Irregular Verb Quiz | 不规则动词测验",
     href: "/irregular-verbs",
     icon: ListChecks,
     description: "Quiz yourself on irregular verb forms",
@@ -48,14 +38,24 @@ const menuItems = [
     hoverColor: "hover:from-amber-500/20 hover:to-amber-600/20"
   },
   {
-    title: "Irregular Verb Lists",
-    href: "/irregular-verb-lists",
-    icon: ListTodo,
-    description: "Browse and study irregular verb lists",
-    color: "from-rose-500/10 to-rose-600/10",
-    iconColor: "text-rose-500",
-    borderColor: "border-rose-500/20",
-    hoverColor: "hover:from-rose-500/20 hover:to-rose-600/20"
+    title: "Preposition Quiz | 介词测验",
+    href: "/prepositions",
+    icon: ArrowRightLeft,
+    description: "Master preposition usage in different contexts",
+    color: "from-purple-500/10 to-purple-600/10",
+    iconColor: "text-purple-500",
+    borderColor: "border-purple-500/20",
+    hoverColor: "hover:from-purple-500/20 hover:to-purple-600/20"
+  },
+  {
+    title: "Verb Tense Quiz | 动词时态测验",
+    href: "/verb-tenses",
+    icon: Clock,
+    description: "Practice different verb tenses and conjugations",
+    color: "from-emerald-500/10 to-emerald-600/10",
+    iconColor: "text-emerald-500",
+    borderColor: "border-emerald-500/20",
+    hoverColor: "hover:from-emerald-500/20 hover:to-emerald-600/20"
   }
 ]
 
