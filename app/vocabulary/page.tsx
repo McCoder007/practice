@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState, Fragment, useEffect } from "react"
+import React, { useState, Fragment, useLayoutEffect, useRef } from "react"
 import Link from 'next/link'
 import { ChevronLeft, ChevronRight, Volume2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -16,28 +16,41 @@ export default function VocabularyPracticePage() {
   const currentDayData = vocabularyData.find((data) => data.day === currentDay) || vocabularyData[0]
 
   const handlePreviousDay = () => {
-    if (currentDay > 1) {
-      setCurrentDay(currentDay - 1)
-    } else {
-      setCurrentDay(vocabularyData.length)
+    const newDay = currentDay > 1 ? currentDay - 1 : vocabularyData.length
+    setCurrentDay(newDay)
+    // reset scroll positions
+    if (typeof window !== 'undefined') {
+      window.scrollTo(0, 0)
+    }
+    if (viewportRef.current) {
+      viewportRef.current.scrollTo(0, 0)
     }
   }
 
   const handleNextDay = () => {
-    if (currentDay < vocabularyData.length) {
-      setCurrentDay(currentDay + 1)
-    } else {
-      setCurrentDay(1)
+    const newDay = currentDay < vocabularyData.length ? currentDay + 1 : 1
+    setCurrentDay(newDay)
+    // reset scroll positions
+    if (typeof window !== 'undefined') {
+      window.scrollTo(0, 0)
+    }
+    if (viewportRef.current) {
+      viewportRef.current.scrollTo(0, 0)
     }
   }
 
   const playAudio = (text: string) => playText(text)
 
-  // Scroll vocabulary area to top when switching days
-  useEffect(() => {
-    const viewport = document.querySelector('[data-slot="scroll-area-viewport"]')
-    if (viewport instanceof HTMLElement) {
-      viewport.scrollTo({ top: 0, left: 0 })
+  // ref to the ScrollArea viewport for scrolling
+  const viewportRef = useRef<HTMLDivElement>(null)
+
+  // Scroll to top before painting when switching days
+  useLayoutEffect(() => {
+    if (typeof window !== 'undefined') {
+      window.scrollTo({ top: 0, left: 0 })
+    }
+    if (viewportRef.current) {
+      viewportRef.current.scrollTo({ top: 0, left: 0 })
     }
   }, [currentDay])
 
@@ -93,7 +106,7 @@ export default function VocabularyPracticePage() {
         </div>
       </header>
 
-      <ScrollArea className="flex-1 p-4">
+      <ScrollArea key={currentDay} className="flex-1 p-4" viewportRef={viewportRef}>
         <div className="space-y-4 pb-6">
           {currentDayData.words.map((word, index) => (
             <motion.div
