@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Book, ArrowRightLeft, Clock, ListChecks, ListTodo } from "lucide-react"
+import { Book, ArrowRightLeft, Clock, ListChecks, ListTodo, Scale } from "lucide-react"
 import { motion } from "framer-motion"
 import { cn } from "@/lib/utils"
 
@@ -36,6 +36,16 @@ const menuItems = [
     iconColor: "text-amber-500",
     borderColor: "border-amber-500/20",
     hoverColor: "hover:from-amber-500/20 hover:to-amber-600/20"
+  },
+  {
+    title: "Too & Enough Quiz | 太/足够 测验",
+    href: "/too-enough-quiz",
+    icon: Scale,
+    description: "Practice using too, too much, too many, and enough",
+    color: "from-sky-500/10 to-sky-600/10",
+    iconColor: "text-sky-500",
+    borderColor: "border-sky-500/20",
+    hoverColor: "hover:from-sky-500/20 hover:to-sky-600/20"
   },
   {
     title: "Preposition Quiz | 介词测验",
