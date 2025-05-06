@@ -15,9 +15,10 @@ export interface QuestionDataV2 {
 
 export interface QuizV2Props {
   questions: QuestionDataV2[]
+  onRestartRequest?: () => void
 }
 
-export function QuizV2({ questions }: QuizV2Props) {
+export function QuizV2({ questions, onRestartRequest }: QuizV2Props) {
   const [currentIndex, setCurrentIndex] = useState(0)
   // State for selections (potentially two)
   const [selection1, setSelection1] = useState<string | null>(null)
@@ -129,18 +130,22 @@ export function QuizV2({ questions }: QuizV2Props) {
         <h2 className="text-2xl font-semibold">Practice Complete!</h2>
         <p className="text-lg">Your score: {score} / {total}</p>
         <Button onClick={() => {
-          // Manually reset all relevant state variables
-          setScore(0)
-          setCurrentIndex(0)
-          setComplete(false)
-          setSelection1(null)
-          setSelection2(null)
-          setIsCorrect1(null)
-          setIsCorrect2(null)
-          setIsFirstAttemptCorrect(null)
-          setQuestionScores([])
-          // Generate a new set of randomized questions
-          setRandomizedQuestions(generateRandomizedQuestions())
+          if (onRestartRequest) {
+            // If the prop is provided, call it to get new questions
+            onRestartRequest();
+          } else {
+            // Fallback: Original behavior (reshuffle existing questions)
+            setScore(0)
+            setCurrentIndex(0)
+            setComplete(false)
+            setSelection1(null)
+            setSelection2(null)
+            setIsCorrect1(null)
+            setIsCorrect2(null)
+            setIsFirstAttemptCorrect(null)
+            setQuestionScores([])
+            setRandomizedQuestions(generateRandomizedQuestions())
+          }
         }}>Restart</Button>
       </div>
     )
