@@ -83,11 +83,11 @@ export default function VocabularyPracticePage() {
            <Button
               variant="ghost"
               size="icon"
-              className="text-gray-500 hover:bg-gray-200 rounded-full"
+              className="text-gray-500 hover:bg-gray-200 rounded-full p-3 h-12 w-12"
               onClick={handlePreviousDay}
               disabled={vocabularyData.length <= 1}
             >
-              <ChevronLeft className="h-5 w-5" />
+              <ChevronLeft className="h-7 w-7" />
               <span className="sr-only">Previous Day</span>
             </Button>
             <div className="bg-white text-blue-600 px-6 py-1 rounded-full text-sm font-medium shadow-sm mx-4 border border-gray-200">
@@ -96,11 +96,11 @@ export default function VocabularyPracticePage() {
             <Button
               variant="ghost"
               size="icon"
-              className="text-gray-500 hover:bg-gray-200 rounded-full"
+              className="text-gray-500 hover:bg-gray-200 rounded-full p-3 h-12 w-12"
               onClick={handleNextDay}
               disabled={vocabularyData.length <= 1}
             >
-              <ChevronRight className="h-5 w-5" />
+              <ChevronRight className="h-7 w-7" />
               <span className="sr-only">Next Day</span>
             </Button>
         </div>
