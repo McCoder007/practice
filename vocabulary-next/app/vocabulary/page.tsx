@@ -72,10 +72,10 @@ export default function VocabularyPracticePage() {
 
   return (
     <div className="flex flex-col min-h-screen bg-blue-50">
-      <header className="bg-gradient-to-r from-blue-50 via-blue-100 to-blue-50 p-4 border-b border-blue-200 sticky top-0 z-10">
-        <div className="flex items-center justify-center relative mb-3">
+      <header className="bg-gradient-to-r from-blue-50 via-blue-100 to-blue-50 p-2 border-b border-blue-200 sticky top-0 z-10">
+        <div className="flex items-center justify-center relative mb-1">
           <div className="flex flex-col items-center flex-grow">
-            <h1 className="text-xl font-semibold text-gray-800">New Words</h1>
+            <h1 className="text-lg font-semibold text-gray-800">New Words</h1>
           </div>
         </div>
 
@@ -83,20 +83,20 @@ export default function VocabularyPracticePage() {
            <Button
               variant="ghost"
               size="icon"
-              className="text-gray-500 hover:bg-gray-200 rounded-full p-4 h-16 w-16"
+              className="text-gray-500 hover:bg-gray-200 rounded-full p-3 h-12 w-16"
               onClick={handlePreviousDay}
               disabled={vocabularyData.length <= 1}
             >
               <ChevronLeft className="h-10 w-10" />
               <span className="sr-only">Previous Day</span>
             </Button>
-            <div className="bg-white text-blue-600 px-6 py-1 rounded-full text-sm font-medium shadow-sm mx-4 border border-gray-200">
+            <div className="bg-white text-blue-600 px-6 py-0.5 rounded-full text-sm font-medium shadow-sm mx-4 border border-gray-200">
               Day {currentDay}
             </div>
             <Button
               variant="ghost"
               size="icon"
-              className="text-gray-500 hover:bg-gray-200 rounded-full p-4 h-16 w-16"
+              className="text-gray-500 hover:bg-gray-200 rounded-full p-3 h-12 w-16"
               onClick={handleNextDay}
               disabled={vocabularyData.length <= 1}
             >
