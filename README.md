@@ -81,4 +81,4 @@ To set up Firebase for this app:
 
 - HTML/CSS/JavaScript
 - Web Speech API for text-to-speech
-- Firebase Analytics for usage tracking 
+- Firebase Analytics for usage tracking # Test commit
