@@ -1,84 +1,36 @@
-# ESL Preposition Practice App
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-A mobile web application for ESL students to practice prepositions through interactive exercises.
+## Getting Started
 
-## Features
+First, run the development server:
 
-- Interactive dialogue-based exercises
-- Text-to-speech functionality
-- Multiple choice answers
-- Progress tracking
-- Mobile-friendly design
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Firebase Analytics Integration
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-This app uses Firebase Analytics to track usage metrics. The following events are tracked:
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-- Quiz starts
-- Questions answered
-- Correct answers
-- Quiz completions
-- Quiz restarts
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-### Setting Up Firebase
+## Learn More
 
-To set up Firebase for this app:
+To learn more about Next.js, take a look at the following resources:
 
-1. **Create a Firebase Project**:
-   - Go to the [Firebase Console](https://console.firebase.google.com/)
-   - Click "Add project" and follow the setup steps
-   - Enable Google Analytics during setup
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-2. **Register Your Web App**:
-   - In your Firebase project, click on the web icon (</>) to add a web app
-   - Enter a nickname for your app (e.g., "ESL Preposition Practice")
-   - Check the "Also set up Firebase Hosting" option if you plan to host with Firebase
-   - Click "Register app"
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-3. **Copy Your Firebase Configuration**:
-   - Firebase will display configuration code that looks like this:
-   ```javascript
-   const firebaseConfig = {
-     apiKey: "YOUR_API_KEY",
-     authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-     projectId: "YOUR_PROJECT_ID",
-     storageBucket: "YOUR_PROJECT_ID.appspot.com",
-     messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-     appId: "YOUR_APP_ID",
-     measurementId: "YOUR_MEASUREMENT_ID"
-   };
-   ```
-   - Copy this configuration
+## Deploy on Vercel
 
-4. **Update Your Configuration**:
-   - Open the `firebase-config.js` file in this project
-   - Replace the placeholder configuration with your actual Firebase configuration
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-5. **Deploy Your App**:
-   - If using Firebase Hosting:
-     ```
-     npm install -g firebase-tools
-     firebase login
-     firebase init
-     firebase deploy
-     ```
-   - Or deploy to your preferred hosting service
-
-6. **View Analytics Data**:
-   - In the Firebase Console, go to the "Analytics" section
-   - You'll see data start to appear as users interact with your app
-   - You can create custom reports based on the events being tracked
-
-## Usage
-
-1. Open the app in a mobile browser
-2. Read the dialogue and select the correct preposition
-3. Tap the play button to hear the sentences spoken
-4. Tap "Next Question" to proceed
-5. View your final score at the end
-
-## Development
-
-- HTML/CSS/JavaScript
-- Web Speech API for text-to-speech
-- Firebase Analytics for usage tracking 
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

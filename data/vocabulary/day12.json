@@ -1,0 +1,23 @@
+[
+  {
+    "english": "I almost fell",
+    "chinese": "我差点摔倒了",
+    "example": "I almost fell on the stairs.",
+    "exampleChinese": "我在楼梯上差点摔倒。",
+    "type": "sentence"
+  },
+  {
+    "english": "Motivated",
+    "chinese": "有动力的",
+    "example": "She is very motivated to learn English.",
+    "exampleChinese": "她学英语很有动力。",
+    "type": "adjective"
+  },
+  {
+    "english": "Sleepy",
+    "chinese": "困倦的",
+    "example": "I am so sleepy this morning.",
+    "exampleChinese": "今天早上我很困倦。",
+    "type": "adjective"
+  }
+] 
