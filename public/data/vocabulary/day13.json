@@ -1,0 +1,23 @@
+[
+  {
+    "english": "Apartment",
+    "chinese": "公寓",
+    "example": "I live in a small apartment in the city.",
+    "exampleChinese": "我住在城市里的一个小公寓里。",
+    "type": "noun"
+  },
+  {
+    "english": "Improve",
+    "chinese": "改进，提高",
+    "example": "I want to improve my English speaking skills.",
+    "exampleChinese": "我想提高我的英语口语能力。",
+    "type": "verb"
+  },
+  {
+    "english": "Opportunity",
+    "chinese": "机会",
+    "example": "This job is a great opportunity for you.",
+    "exampleChinese": "这份工作对你来说是个很好的机会。",
+    "type": "noun"
+  }
+] 
