@@ -1,0 +1,45 @@
+name: Deploy Staging to GitHub Pages
+
+on:
+  push:
+    branches: [ staging ]
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install and Build Next.js App
+        env:
+          NEXT_PUBLIC_GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+          NEXT_PUBLIC_DEPLOY_ENV: staging
+        run: |
+          cd vocabulary-next
+          npm ci
+          npm run build -- --no-lint
+          mkdir -p ../vocabulary-next-staging
+          cp -r out/* ../vocabulary-next-staging/
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: vocabulary-next-staging
+          branch: gh-pages-staging
+          clean: true
+          token: ${{ secrets.GITHUB_TOKEN }} 
