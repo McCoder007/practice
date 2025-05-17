@@ -13,19 +13,10 @@ export interface DayData {
   words: Word[]
 }
 
-// Define the type for the day data from imported files
-type RawWord = {
-  readonly word: string
-  readonly word_translation: string
-  readonly type: string
-  readonly sentence: string
-  readonly translation: string
-}
-
 // Transform raw data (keys day1, day2, ...) into array of DayData
 const vocabularyData: DayData[] = Object.entries(rawVocabularyData).map(([key, words], index) => ({
   day: index + 1,
-  words: (words as readonly RawWord[]).map((w) => ({
+  words: (words as any[]).map((w) => ({
     word: w.word,
     translation: w.word_translation,
     partOfSpeech: w.type,

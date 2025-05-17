@@ -3,7 +3,7 @@
 Use this prompt whenever you want to add another day of words to the `vocabulary-next` project.
 
 ```text
-I want to add Day {{DAY_NUMBER}} to the vocabulary.
+I want to add Day {{DAY_NUMBER}} to the /vocabulary.
 
 The new words are below (one entry per word):
 
@@ -21,12 +21,9 @@ Chinese Sentence: {{CHINESE_EXAMPLE_2}}
 
 ... continue listing all words ...
 
-Please:
+Please insert a new `day{{DAY_NUMBER}}` array into `vocabulary-next/data/rawVocabularyData.ts` immediately after `day{{DAY_NUMBER_MINUS_ONE}}`. Ensure:
 
-1. Create a new file `vocabulary-next/data/days/day{{DAY_NUMBER}}.ts` with the new vocabulary entries
-2. Update `vocabulary-next/data/rawVocabularyData.ts` to:
-   - Import the new day file
-   - Add it to the exported object
-
-Follow the same structure as the existing day files, ensuring each entry includes **word**, **word_translation**, **sentence**, **translation**, and **type**.
+1. The previous day's closing bracket (`]`) has a trailing comma.
+2. Each entry includes **word**, **word_translation**, **sentence**, **translation**, and **type**.
+3. Do not modify any existing days or formatting.
 ``` 
