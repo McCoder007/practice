@@ -5,9 +5,9 @@ const assetPrefix = `/${repo}/`
 const basePath = `/${repo}`
 
 // Support for staging environment
-const stagingRepo = 'practice-staging' // Staging repository name
-const stagingAssetPrefix = `/${stagingRepo}/`
-const stagingBasePath = `/${stagingRepo}`
+const stagingPathSuffix = 'staging'
+const stagingAssetPrefix = `/${repo}/${stagingPathSuffix}/`
+const stagingBasePath = `/${repo}/${stagingPathSuffix}`
 
 // Determine which configuration to use based on environment
 const isProduction = process.env.NODE_ENV === 'production'

@@ -69,53 +69,29 @@ const menuItems = [
   }
 ]
 
-export default function HomePage() {
+export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-center bg-gradient-to-b from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800 p-4">
-      <motion.h1 
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        className="text-4xl font-bold mb-8 text-center bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
-      >
-        Practice Menu
-      </motion.h1>
-      <div className="w-full max-w-md space-y-4">
-        {menuItems.map((item, index) => (
-          <motion.div
-            key={item.href}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: index * 0.1 }}
-          >
-            <Link href={item.href}>
-              <Card className={cn(
-                "transition-all duration-300 border-2",
-                item.color,
-                item.borderColor,
-                item.hoverColor,
-                "hover:shadow-lg hover:scale-[1.02]",
-                "py-3 gap-2"
-              )}>
-                <CardHeader className="flex flex-row items-center gap-4 px-6">
-                  <div className={cn(
-                    "p-2 rounded-lg bg-gradient-to-br",
-                    item.color,
-                    "shadow-sm"
-                  )}>
-                    <item.icon className={cn("h-6 w-6", item.iconColor)} />
-                  </div>
-                  <CardTitle className="text-lg">{item.title}</CardTitle>
-                </CardHeader>
-                <CardContent className="px-6">
-                  <p className="text-sm text-muted-foreground">
-                    {item.description}
-                  </p>
-                </CardContent>
-              </Card>
-            </Link>
-          </motion.div>
-        ))}
+    <main className="flex min-h-screen flex-col items-center justify-center p-24">
+      <h1 className="text-4xl font-bold mb-8">Vocabulary Next</h1>
+      <p className="mb-6">
+        Welcome to the next version of the vocabulary application!
+      </p>
+      
+      <div className="flex gap-4">
+        <Link 
+          href="/vocabulary" 
+          className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+        >
+          Go to Vocabulary App
+        </Link>
+        
+        <Link 
+          href="/test-staging" 
+          className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600"
+        >
+          Test Staging Page
+        </Link>
       </div>
-    </div>
-  )
+    </main>
+  );
 }

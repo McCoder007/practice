@@ -4,7 +4,7 @@ This README explains how to use the staging environment for testing changes befo
 
 ## About the Staging Environment
 
-The staging environment allows you to test changes on GitHub Pages without affecting the production deployment. It uses a separate branch (`staging`) and deploys to a different GitHub Pages branch (`gh-pages-staging`).
+The staging environment allows you to test changes on GitHub Pages without affecting the production deployment. It uses a separate branch (`staging`) for development and deploys to a subfolder within the same `gh-pages` branch.
 
 ## How to Use Staging
 
@@ -17,7 +17,7 @@ The staging environment allows you to test changes on GitHub Pages without affec
    ```
 
 3. GitHub Actions will automatically build and deploy your changes to the staging environment
-4. View your staging site at: https://YOUR-USERNAME.github.io/practice-staging/
+4. View your staging site at: https://mccoder007.github.io/practice/staging/
 
 ## Workflow
 
@@ -32,7 +32,7 @@ The typical workflow is:
 ### Staging Environment
 - Branch: `staging`
 - Deployment: Triggered on push to `staging` branch
-- URL Path: `/practice-staging/`
+- URL Path: `/practice/staging/`
 
 ### Production Environment
 - Branch: `main`

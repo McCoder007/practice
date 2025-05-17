@@ -33,13 +33,14 @@ jobs:
           cd vocabulary-next
           npm ci
           npm run build -- --no-lint
-          mkdir -p ../vocabulary-next-staging
-          cp -r out/* ../vocabulary-next-staging/
+          mkdir -p ../staging-deploy
+          cp -r out/* ../staging-deploy/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: vocabulary-next-staging
-          branch: gh-pages-staging
+          folder: staging-deploy
+          branch: gh-pages
+          target-folder: staging
           clean: true
           token: ${{ secrets.GITHUB_TOKEN }} 
