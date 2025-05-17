@@ -1,4 +1,5 @@
-import { rawVocabularyData } from './rawVocabularyData'
+import { rawVocabularyData } from './source'
+import { VocabularyEntry } from './types';
 
 export interface Word {
   word: string
@@ -14,15 +15,20 @@ export interface DayData {
 }
 
 // Transform raw data (keys day1, day2, ...) into array of DayData
-const vocabularyData: DayData[] = Object.entries(rawVocabularyData).map(([key, words], index) => ({
-  day: index + 1,
-  words: (words as any[]).map((w) => ({
-    word: w.word,
-    translation: w.word_translation,
-    partOfSpeech: w.type,
-    example: w.sentence,
-    exampleTranslation: w.translation,
-  })),
-}))
+const vocabularyData: DayData[] = Object.entries(rawVocabularyData).map(([key, words], index) => {
+  // Ensure we're working with an array of entries
+  const entries = words as VocabularyEntry[];
+  
+  return {
+    day: index + 1,
+    words: entries.map((entry) => ({
+      word: entry.word,
+      translation: entry.word_translation,
+      partOfSpeech: entry.type,
+      example: entry.sentence,
+      exampleTranslation: entry.translation,
+    })),
+  };
+});
 
 export default vocabularyData 

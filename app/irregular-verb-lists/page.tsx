@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
-import { ChevronDown, Volume2, ChevronUp, ChevronLeft } from 'lucide-react'
+import { ChevronDown, Volume2, ChevronUp } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { irregularVerbs, IrregularVerb } from "@/data/irregularVerbLists"

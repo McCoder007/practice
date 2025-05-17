@@ -35,7 +35,7 @@ function playBrowserTTS(text: string) {
     const utterance = new SpeechSynthesisUtterance(text);
 
     // --- Voice Selection ---
-    let voices = synth.getVoices();
+    const voices = synth.getVoices();
     let selectedVoice = voices.find(voice => voice.lang === 'en-US' && voice.localService); // Prefer local US English
     if (!selectedVoice) {
       selectedVoice = voices.find(voice => voice.lang.startsWith('en-') && voice.localService); // Fallback to any local English

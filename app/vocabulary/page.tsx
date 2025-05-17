@@ -1,7 +1,6 @@
 "use client"
 
 import React, { useState, Fragment, useLayoutEffect, useRef } from "react"
-import Link from 'next/link'
 import { ChevronLeft, ChevronRight, Volume2 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
@@ -90,7 +89,7 @@ export default function VocabularyPracticePage() {
               <ChevronLeft className="h-10 w-10" />
               <span className="sr-only">Previous Day</span>
             </Button>
-            <div className="bg-white text-blue-600 px-6 py-0.5 rounded-full text-sm font-medium shadow-sm mx-4 border border-gray-200">
+            <div className="bg-white text-blue-600 px-6 py-0.5 rounded-full text-sm font-medium shadow-sm mx-4 border border-gray-200 min-w-[120px] text-center">
               Day {currentDay}
             </div>
             <Button

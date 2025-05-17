@@ -4,7 +4,6 @@ import React, { useState, useEffect } from 'react'
 import { Quiz, QuestionData } from '@/components/Quiz'
 import stages, { Stage } from '@/data/irregularVerbs'
 import { Card, CardContent } from '@/components/ui/card'
-import { Button } from '@/components/ui/button'
 
 // Shared stage info
 const stageInfo = [
