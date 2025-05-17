@@ -239,7 +239,6 @@ export function QuizV2({ questions, onRestartRequest }: QuizV2Props) {
       {/* Options */}
       <div className="flex flex-wrap gap-3 justify-center items-center min-h-[52px]">
         {question.options.map((opt) => {
-          const isSelected = selection1 === opt || selection2 === opt // Keep track if the option was selected at all
           let isDisabled = false
           let bgClass = 'bg-white dark:bg-slate-700 hover:bg-gray-100 dark:hover:bg-slate-600' // Default neutral
 

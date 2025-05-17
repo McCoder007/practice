@@ -1,7 +1,20 @@
 // Vocabulary Data: Day-by-day vocabulary practice
 // Words with example sentences and Chinese translations
 
-export const rawVocabularyData = {
+// TypeScript interfaces for vocabulary data
+export interface VocabularyEntry {
+  word: string;
+  word_translation: string;
+  sentence: string;
+  translation: string;
+  type: string;
+}
+
+export interface VocabularyData {
+  [key: string]: VocabularyEntry[];
+}
+
+export const rawVocabularyData: VocabularyData = {
     // Day 1: Words about pace, attitudes, and behaviors
     day1: [
         {
