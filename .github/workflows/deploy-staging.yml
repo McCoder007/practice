@@ -32,6 +32,8 @@ jobs:
         run: |
           cd vocabulary-next
           npm ci
+          # Generate vocabulary JSON files
+          npm run generate:vocabulary
           npm run build -- --no-lint
           mkdir -p ../staging-deploy
           cp -r out/* ../staging-deploy/
