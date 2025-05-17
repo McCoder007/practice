@@ -18,6 +18,21 @@ let currentDayStartTime = null;
 let wordInteractions = {};
 let currentVerbListStage = "stage1"; // Track current verb list stage
 
+// New time-based metrics tracking variables
+let sessionStartTime = null; // Track overall session start time
+let dayViewDurations = {}; // Track time spent on each day
+let totalTTSInteractions = 0; // Total TTS button clicks
+let uniqueWordsInteracted = new Set(); // Track unique words interacted with
+let daysViewed = new Set(); // Track unique days viewed
+let dayViewSequence = []; // Track sequence of day navigation
+let lastInteractionTime = null; // Track time of last interaction
+let interactionGaps = []; // Store time gaps between interactions
+
+// Scroll depth tracking
+let maxScrollPercentages = {}; // Track max scroll depth per day
+let scrollCheckpoints = [25, 50, 75, 100]; // Percentages to track
+let reachedCheckpointsByDay = {}; // Track checkpoints reached by day
+
 // Add a flag to track if navigation is happening programmatically
 let isNavigatingProgrammatically = false;
 
@@ -124,6 +139,13 @@ function initApp() {
     
     // Set initial history state for the main menu
     history.replaceState({ screen: 'mainMenu' }, 'ESL Practice - Main Menu', '#main-menu');
+    
+    // Initialize session tracking
+    sessionStartTime = new Date();
+    lastInteractionTime = sessionStartTime;
+    
+    // Add window event listeners for session end tracking
+    window.addEventListener('beforeunload', logSessionEnd);
     
     // Show the main menu initially
     showMainMenu();
@@ -1072,6 +1094,18 @@ function showVocabularyPractice() {
     // Start timing the vocabulary session
     vocabularyStartTime = new Date();
     
+    // Reset or initialize tracking metrics
+    wordInteractions = {};
+    totalTTSInteractions = 0;
+    uniqueWordsInteracted.clear();
+    daysViewed.clear();
+    dayViewSequence = [];
+    interactionGaps = [];
+    dayViewDurations = {};
+    maxScrollPercentages = {};
+    reachedCheckpointsByDay = {};
+    lastInteractionTime = new Date();
+    
     // Hide other containers
     questionContainer.classList.remove('active');
     completionContainer.classList.remove('active');
@@ -1104,6 +1138,10 @@ function showVocabularyPractice() {
     currentVocabularyDay = availableDays[currentDayIndex];
     currentDayStartTime = new Date();
     
+    // Add current day to viewed days and view sequence
+    daysViewed.add(currentVocabularyDay);
+    dayViewSequence.push(currentVocabularyDay);
+    
     // Initialize day navigation
     initDayNavigation();
     
@@ -1113,8 +1151,8 @@ function showVocabularyPractice() {
     // Update navigation buttons initial state
     updateNavigationButtons();
     
-    // Reset word interactions
-    wordInteractions = {};
+    // Initialize scroll tracking
+    initScrollTracking();
     
     // Add window resize listener for mobile view
     window.addEventListener('resize', handleVocabularyResize);
@@ -1370,11 +1408,41 @@ function animateLoopTransition(direction) {
 function updateDay() {
     console.log(`Updating to day ${currentDayIndex + 1}`);
     
+    // Calculate time spent on the previous day and store it
+    if (currentDayStartTime) {
+        const now = new Date();
+        const timeSpent = (now - currentDayStartTime) / 1000; // in seconds
+        const prevDay = availableDays[currentDayIndex - 1] || currentVocabularyDay;
+        
+        // Add to total time for this day
+        dayViewDurations[prevDay] = (dayViewDurations[prevDay] || 0) + timeSpent;
+        
+        // Log the final scroll depth for the day we're leaving
+        logEvent('final_day_metrics', {
+            day: prevDay,
+            view_duration_seconds: dayViewDurations[prevDay].toFixed(2),
+            max_scroll_percentage: maxScrollPercentages[prevDay] || 0,
+            scroll_checkpoints_reached: Array.from(reachedCheckpointsByDay[prevDay] || [])
+        });
+    }
+    
     // Update day display text
     updateDayDisplay();
     
     // Update the start time for the current day
     currentDayStartTime = new Date();
+    
+    // Add current day to viewed days and sequence
+    daysViewed.add(currentVocabularyDay);
+    dayViewSequence.push(currentVocabularyDay);
+    
+    // Initialize tracking for this day if needed
+    if (!maxScrollPercentages[currentVocabularyDay]) {
+        maxScrollPercentages[currentVocabularyDay] = 0;
+    }
+    if (!reachedCheckpointsByDay[currentVocabularyDay]) {
+        reachedCheckpointsByDay[currentVocabularyDay] = new Set();
+    }
     
     // Transform the slider to show the selected day
     const translateValue = -100 * currentDayIndex;
@@ -1403,7 +1471,9 @@ function updateDay() {
         from_day: availableDays[currentDayIndex - 1] || 'none',
         to_day: currentVocabularyDay,
         day_index: currentDayIndex,
-        total_words: vocabularyData[currentVocabularyDay].length
+        total_words: vocabularyData[currentVocabularyDay].length,
+        days_viewed_count: daysViewed.size,
+        day_sequence_position: dayViewSequence.length
     });
 }
 
@@ -1461,12 +1531,33 @@ function logWordInteraction(word, interactionType) {
         wordInteractions[word].sentence_plays++;
     }
     
+    // Track total TTS interactions
+    totalTTSInteractions++;
+    
+    // Add word to set of unique words interacted with
+    uniqueWordsInteracted.add(word);
+    
+    // Track time between interactions
+    const now = new Date();
+    if (lastInteractionTime) {
+        const timeSinceLastInteraction = (now - lastInteractionTime) / 1000; // in seconds
+        
+        // Only log reasonable gaps (more than 0.5s and less than 5 minutes)
+        if (timeSinceLastInteraction > 0.5 && timeSinceLastInteraction < 300) {
+            interactionGaps.push(timeSinceLastInteraction);
+        }
+    }
+    lastInteractionTime = now;
+    
     logEvent('vocabulary_interaction', {
         word: word,
         interaction_type: interactionType,
         day: currentVocabularyDay,
         total_word_plays: wordInteractions[word].audio_plays,
-        total_sentence_plays: wordInteractions[word].sentence_plays
+        total_sentence_plays: wordInteractions[word].sentence_plays,
+        total_interactions: totalTTSInteractions,
+        unique_words_interacted: uniqueWordsInteracted.size,
+        time_since_day_start: (now - currentDayStartTime) / 1000
     });
 }
 
@@ -1480,5 +1571,113 @@ function handleVocabularyResize() {
         vocabularyContainer.classList.add('mobile-view');
     } else {
         vocabularyContainer.classList.remove('mobile-view');
+    }
+}
+
+// Log session metrics when the user exits
+function logSessionEnd() {
+    const sessionEndTime = new Date();
+    const sessionDuration = (sessionEndTime - sessionStartTime) / 1000; // in seconds
+    
+    // Calculate word interaction metrics
+    const uniqueWordsCount = uniqueWordsInteracted.size;
+    
+    // Get total words count across all viewed days
+    let totalVocabWords = 0;
+    daysViewed.forEach(day => {
+        if (vocabularyData[day]) {
+            totalVocabWords += vocabularyData[day].length;
+        }
+    });
+    
+    // Calculate percentage of words interacted with
+    const wordInteractionPct = totalVocabWords > 0 ? (uniqueWordsCount / totalVocabWords) * 100 : 0;
+    
+    // Log session metrics
+    logEvent('session_ended', {
+        session_duration_seconds: sessionDuration.toFixed(2),
+        days_viewed: Array.from(daysViewed),
+        days_viewed_count: daysViewed.size,
+        day_navigation_sequence: dayViewSequence,
+        tts_interaction_count: totalTTSInteractions,
+        unique_words_interacted: uniqueWordsCount,
+        unique_words_interacted_pct: wordInteractionPct.toFixed(2),
+        day_view_durations: dayViewDurations,
+        max_scroll_percentages: maxScrollPercentages,
+        avg_interaction_gap_seconds: calculateAvgInteractionGap()
+    });
+}
+
+// Helper to calculate average interaction gap
+function calculateAvgInteractionGap() {
+    if (interactionGaps.length === 0) return 0;
+    const sum = interactionGaps.reduce((a, b) => a + b, 0);
+    return (sum / interactionGaps.length).toFixed(2);
+}
+
+// Initialize scroll tracking in vocabulary day panels
+function initScrollTracking() {
+    const daysCarousel = document.querySelector('.days-carousel');
+    if (!daysCarousel) return;
+    
+    // Initialize checkpoint tracking for current day
+    if (!reachedCheckpointsByDay[currentVocabularyDay]) {
+        reachedCheckpointsByDay[currentVocabularyDay] = new Set();
+    }
+    
+    // Remove any existing scroll event listener
+    daysCarousel.removeEventListener('scroll', handleDayScroll);
+    
+    // Add scroll event listener with debounce
+    let scrollTimeout;
+    daysCarousel.addEventListener('scroll', function(e) {
+        clearTimeout(scrollTimeout);
+        scrollTimeout = setTimeout(() => {
+            handleDayScroll(e);
+        }, 100); // Debounce to reduce excessive event firing
+    });
+}
+
+// Handle day panel scrolling
+function handleDayScroll(e) {
+    const daysCarousel = document.querySelector('.days-carousel');
+    if (!daysCarousel) return;
+    
+    // Calculate how far the user has scrolled
+    const scrollTop = daysCarousel.scrollTop;
+    const scrollHeight = daysCarousel.scrollHeight;
+    const clientHeight = daysCarousel.clientHeight;
+    
+    // Only proceed if we have valid measurements
+    if (scrollHeight <= clientHeight) return;
+    
+    // Calculate scroll percentage (0-100)
+    const scrollPercentage = Math.floor((scrollTop / (scrollHeight - clientHeight)) * 100);
+    
+    // Ensure we have tracking objects for current day
+    if (!maxScrollPercentages[currentVocabularyDay]) {
+        maxScrollPercentages[currentVocabularyDay] = 0;
+    }
+    if (!reachedCheckpointsByDay[currentVocabularyDay]) {
+        reachedCheckpointsByDay[currentVocabularyDay] = new Set();
+    }
+    
+    // Update max scroll depth if this is deeper
+    if (scrollPercentage > maxScrollPercentages[currentVocabularyDay]) {
+        maxScrollPercentages[currentVocabularyDay] = scrollPercentage;
+        
+        // Check if we've hit any new checkpoints
+        scrollCheckpoints.forEach(checkpoint => {
+            if (scrollPercentage >= checkpoint && !reachedCheckpointsByDay[currentVocabularyDay].has(checkpoint)) {
+                reachedCheckpointsByDay[currentVocabularyDay].add(checkpoint);
+                
+                // Log the checkpoint event
+                logEvent('scroll_depth_reached', {
+                    day: currentVocabularyDay,
+                    depth_percentage: checkpoint,
+                    time_since_day_load: (new Date() - currentDayStartTime) / 1000
+                });
+            }
+        });
     }
 }
