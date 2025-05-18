@@ -28,7 +28,7 @@ const robotoMono = Roboto_Mono({
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   // Read the environment variable during render
   const googleTtsApiKey = process.env.NEXT_PUBLIC_GOOGLE_TTS_API_KEY || '';
-
+  
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
@@ -36,8 +36,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="description" content="Learn irregular verbs easily" />
       </head>
       <body className={`${outfit.variable} ${inter.variable} ${robotoMono.variable}`}>
-        {/* Load google-tts.js early */}
-        <Script src="/google-tts.js" strategy="beforeInteractive" id="google-tts-script" />
+        {/* 
+          Load google-tts.js early
+          Note: No need to use a dynamic path here - Next.js will automatically
+          handle the correct path based on basePath in next.config.js
+        */}
+        <Script 
+          src="/google-tts.js" 
+          strategy="beforeInteractive" 
+          id="google-tts-script"
+        />
 
         {/* Firebase SDK scripts (for analytics) */}
         <Script
@@ -58,10 +66,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             strategy="beforeInteractive"
             dangerouslySetInnerHTML={{
               __html: `
+                console.log('[API Key Setter] Running script to set Google TTS API key');
                 if (window.googleTTS) {
+                  console.log('[API Key Setter] Found window.googleTTS, setting API key');
                   window.googleTTS.setApiKey('${googleTtsApiKey}');
+                  console.log('[API Key Setter] API key set successfully');
                 } else {
-                  console.error('[Inline Script] window.googleTTS NOT found! API key cannot be set.');
+                  console.error('[API Key Setter] window.googleTTS NOT found! API key cannot be set.');
                 }
               `,
             }}
