@@ -29,6 +29,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   // Read the environment variable during render
   const googleTtsApiKey = process.env.NEXT_PUBLIC_GOOGLE_TTS_API_KEY || '';
   
+  // Explicitly use the repo name prefix for the TTS script
+  const scriptPath = process.env.NODE_ENV === 'production' 
+    ? '/practice/google-tts.js' 
+    : '/google-tts.js';
+  
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
@@ -37,12 +42,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body className={`${outfit.variable} ${inter.variable} ${robotoMono.variable}`}>
         {/* 
-          Load google-tts.js early
-          Note: No need to use a dynamic path here - Next.js will automatically
-          handle the correct path based on basePath in next.config.js
+          Load google-tts.js early with explicit path handling
+          This ensures it works in both development and production
         */}
         <Script 
-          src="/google-tts.js" 
+          src={scriptPath} 
           strategy="beforeInteractive" 
           id="google-tts-script"
         />
