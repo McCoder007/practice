@@ -13,6 +13,7 @@ import { day10Vocabulary } from './day10';
 import { day11Vocabulary } from './day11';
 import { day12Vocabulary } from './day12';
 import { day13Vocabulary } from './day13';
+import { day14Vocabulary } from './day14';
 
 export const vocabularyByDay = {
   day1: day1Vocabulary,
@@ -28,6 +29,7 @@ export const vocabularyByDay = {
   day11: day11Vocabulary,
   day12: day12Vocabulary,
   day13: day13Vocabulary,
+  day14: day14Vocabulary,
 };
 
 // Also export individual days
@@ -44,3 +46,4 @@ export { day10Vocabulary };
 export { day11Vocabulary };
 export { day12Vocabulary };
 export { day13Vocabulary };
+export { day14Vocabulary };
