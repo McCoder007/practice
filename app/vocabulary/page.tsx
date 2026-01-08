@@ -116,7 +116,7 @@ export default function VocabularyPracticePage() {
     }, 1000)
     
     // Create a stable scroll handler reference for removal
-    const scrollHandler = (e: Event) => {
+    const scrollHandler = () => {
       console.log("📜 Scroll event detected")
       handleScroll()
     }
