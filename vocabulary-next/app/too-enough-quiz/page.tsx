@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useCallback } from 'react'
 import { QuizV2, QuestionDataV2 } from '@/components/QuizV2'
 import tooEnoughQuizData from '@/data/tooEnoughQuizData'
+import { NavigationMenu } from "@/components/NavigationMenu"
 
 // Helper function to shuffle an array (Fisher-Yates/Knuth shuffle)
 function shuffleArray<T>(array: T[]): T[] {
@@ -38,7 +39,9 @@ export default function TooEnoughQuizPage() {
   }, [generateQuizQuestions]); // useEffect depends on the stable generateQuizQuestions function
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-slate-900">
+    <>
+      <NavigationMenu />
+      <div className="min-h-screen bg-gray-50 dark:bg-slate-900">
       {/* Optional: Add a header similar to other quiz pages if desired */}
       <header className="bg-white dark:bg-slate-800 p-4 shadow sticky top-0 z-10">
         <div className="flex items-center justify-center max-w-3xl mx-auto">
@@ -60,5 +63,6 @@ export default function TooEnoughQuizPage() {
         )}
       </main>
     </div>
+    </>
   )
 } 

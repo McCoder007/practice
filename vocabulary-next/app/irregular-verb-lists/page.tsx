@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { irregularVerbs, IrregularVerb } from "@/data/irregularVerbLists"
 import { playText } from '@/lib/tts'
+import { NavigationMenu } from "@/components/NavigationMenu"
 
 // Stage information with titles and descriptions
 const stageInfo = [
@@ -100,7 +101,9 @@ export default function IrregularVerbList() {
   // If no stage chosen yet, show stage picker
   if (selectedStage === null) {
     return (
-      <div className="flex flex-col items-center justify-center bg-white dark:bg-gray-900 py-4 px-2">
+      <>
+        <NavigationMenu />
+        <div className="flex flex-col items-center justify-center bg-white dark:bg-gray-900 py-4 px-2">
         <h1 className="text-3xl font-outfit font-bold mb-6 text-slate-900 dark:text-white">Please choose</h1>
         <div className="space-y-2 w-full max-w-sm mx-auto">
           {stageInfo.map((stage) => {
@@ -127,12 +130,15 @@ export default function IrregularVerbList() {
           })}
         </div>
       </div>
+      </>
     )
   }
 
   // Show verbs for selected stage
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white dark:from-slate-900 dark:to-slate-800">
+    <>
+      <NavigationMenu />
+      <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white dark:from-slate-900 dark:to-slate-800">
       {/* Sticky header banner */}
       <div className="sticky top-0 z-20 bg-gradient-to-b from-blue-50 to-white dark:from-slate-900 dark:to-slate-800 py-4 shadow-sm">
         <div className="container max-w-md mx-auto flex items-center px-4">
@@ -226,5 +232,6 @@ export default function IrregularVerbList() {
         </div>
       </div>
     </div>
+    </>
   )
 } 
