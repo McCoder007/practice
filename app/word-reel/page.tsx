@@ -343,7 +343,10 @@ export default function WordReelPage() {
         : (
             <span
               key={idx}
-              onClick={() => playAudio(token, isExample ? 'sentence_audio_played' : 'word_audio_played')}
+              onClick={(e) => {
+                e.stopPropagation() // Prevent parent onClick from firing
+                playAudio(token, isExample ? 'sentence_audio_played' : 'word_audio_played')
+              }}
               className="cursor-pointer hover:underline"
             >
               {token}
@@ -450,8 +453,7 @@ export default function WordReelPage() {
           <div className="relative z-10 w-full max-w-2xl space-y-6">
             <div className="space-y-5">
               <h2 
-                onClick={() => playAudio(currentWord.english)}
-                className="text-[64px] font-bold text-white cursor-pointer hover:scale-105 transition-transform drop-shadow-2xl"
+                className="text-[64px] font-bold text-white drop-shadow-2xl"
                 style={{ textShadow: '0 4px 12px rgba(0,0,0,0.5)' }}
               >
                 {renderClickableWords(currentWord.english)}
@@ -472,7 +474,7 @@ export default function WordReelPage() {
                 className="text-[28px] text-white cursor-pointer hover:scale-105 transition-transform drop-shadow-lg leading-relaxed"
                 style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
               >
-                {renderClickableWords(currentWord.englishSentence, true)}
+                {currentWord.englishSentence}
               </p>
               <p 
                 className="text-[24px] text-[#B0B0B0] drop-shadow-lg"
