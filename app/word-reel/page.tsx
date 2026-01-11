@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState, useEffect, useCallback, useRef, Fragment } from "react"
+import React, { useState, useEffect, useCallback, useRef, Fragment, useMemo } from "react"
 import { ChevronLeft, ChevronRight, Layers, Calendar } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import vocabularyData from "@/data/vocabulary"
@@ -11,8 +11,7 @@ import {
   trackDayChange
 } from '@/lib/analytics'
 import { 
-  getBackgroundForWord, 
-  getBackgroundIndexForWord 
+  getBackgroundForWord
 } from '@/lib/word-reel-backgrounds'
 
 interface WordCard {
@@ -32,14 +31,16 @@ export default function WordReelPage() {
   const [isDragging, setIsDragging] = useState(false)
   const [animating, setAnimating] = useState(false)
   const [analyticsInitialized, setAnalyticsInitialized] = useState(false)
-  const [backgroundIndices, setBackgroundIndices] = useState<number[]>([])
+  const [dragOffset, setDragOffset] = useState(0)
   
   const startY = useRef(0)
   const containerRef = useRef<HTMLDivElement>(null)
-  const cardsRef = useRef<HTMLDivElement[]>([])
+  const currentCardRef = useRef<HTMLDivElement>(null)
+  const nextCardRef = useRef<HTMLDivElement>(null)
+  const isDraggingRef = useRef(false)
 
-  // Flatten all words or get current day words
-  const getAllWords = useCallback((): WordCard[] => {
+  // Memoize words array to prevent recalculation on every render
+  const words = useMemo((): WordCard[] => {
     if (viewMode === 'all') {
       const allWords: WordCard[] = []
       vocabularyData.forEach((dayData) => {
@@ -70,25 +71,20 @@ export default function WordReelPage() {
     }
   }, [viewMode, currentDay])
 
-  const words = getAllWords()
-
-  // Initialize background indices
+  // Reset current index when words change
   useEffect(() => {
-    const indices: number[] = []
-    words.forEach((word, index) => {
-      const prevIndex = index > 0 ? indices[index - 1] : -1
-      indices.push(getBackgroundIndexForWord(word.wordIndex, word.day - 1, prevIndex))
-    })
-    setBackgroundIndices(indices)
-    // Reset to first word when words change
     setCurrentIndex(0)
-  }, [words.length, viewMode, currentDay])
+  }, [viewMode, currentDay])
 
   // Initialize Firebase Analytics
   useEffect(() => {
     const initAnalytics = async () => {
-      await initializeAnalytics()
-      setAnalyticsInitialized(true)
+      try {
+        await initializeAnalytics()
+        setAnalyticsInitialized(true)
+      } catch (error) {
+        console.error('Failed to initialize analytics:', error)
+      }
     }
     
     initAnalytics()
@@ -97,134 +93,112 @@ export default function WordReelPage() {
 
   // Prevent body scroll
   useEffect(() => {
+    const originalTouchAction = document.body.style.touchAction
+    const originalOverflow = document.body.style.overflow
+    
     document.body.style.touchAction = 'none'
     document.body.style.overflow = 'hidden'
+    
     return () => {
-      document.body.style.touchAction = 'unset'
-      document.body.style.overflow = 'unset'
+      document.body.style.touchAction = originalTouchAction
+      document.body.style.overflow = originalOverflow
     }
   }, [])
-
-  // Set card positions
-  const setPosition = useCallback(() => {
-    cardsRef.current.forEach((card, index) => {
-      if (!card) return
-      
-      if (index === currentIndex) {
-        // Current card at top (0%)
-        card.style.transition = 'none'
-        card.style.transform = 'translateY(0)'
-        card.classList.remove('hidden')
-      } else if (index === (currentIndex + 1) % words.length) {
-        // Next card below screen (100%)
-        card.style.transition = 'none'
-        card.style.transform = 'translateY(100%)'
-        card.classList.remove('hidden')
-      } else {
-        // All other cards hidden
-        card.classList.add('hidden')
-      }
-    })
-  }, [currentIndex, words.length])
-
-  // Initialize positions when words or index changes
-  useEffect(() => {
-    // Small delay to ensure DOM is ready
-    setTimeout(() => {
-      setPosition()
-    }, 0)
-  }, [setPosition, words.length])
 
   // Handle touch/mouse start
   const handleStart = useCallback((clientY: number) => {
     if (animating) return
     startY.current = clientY
     setIsDragging(true)
-    
-    // Remove transitions for instant response
-    cardsRef.current.forEach(card => {
-      if (card) {
-        card.style.transition = 'none'
-      }
-    })
+    isDraggingRef.current = true
+    setDragOffset(0)
   }, [animating])
 
   // Handle touch/mouse move
   const handleMove = useCallback((clientY: number) => {
-    if (!isDragging || animating) return
+    if (!isDraggingRef.current || animating) return
     
     const deltaY = startY.current - clientY
     
-    // Only allow upward swipes
-    if (deltaY < 0) return
+    // Only allow upward swipes (positive deltaY)
+    if (deltaY < 0) {
+      setDragOffset(0)
+      return
+    }
     
     // Convert pixels to percentage
     const movePercent = (deltaY / window.innerHeight) * 100
-    
-    const currentCard = cardsRef.current[currentIndex]
-    const nextIndex = (currentIndex + 1) % words.length
-    const nextCard = cardsRef.current[nextIndex]
-    
-    if (currentCard && nextCard) {
-      currentCard.style.transform = `translateY(-${movePercent}%)`
-      nextCard.style.transform = `translateY(${100 - movePercent}%)`
-    }
-  }, [isDragging, animating, currentIndex, words.length])
+    setDragOffset(movePercent)
+  }, [animating])
 
   // Handle touch/mouse end
   const handleEnd = useCallback((clientY: number) => {
-    if (!isDragging || animating) return
+    if (!isDraggingRef.current || animating) return
+    
     setIsDragging(false)
+    isDraggingRef.current = false
     
     const deltaY = startY.current - clientY
     const threshold = window.innerHeight * 0.15 // 15% of screen
     
-    const currentCard = cardsRef.current[currentIndex]
-    const nextIndex = (currentIndex + 1) % words.length
-    const nextCard = cardsRef.current[nextIndex]
-    
-    if (!currentCard || !nextCard) return
-    
-    // Add transitions for smooth completion
-    cardsRef.current.forEach(card => {
-      if (card) {
-        card.style.transition = 'transform 0.3s ease-out'
-      }
-    })
-    
-    if (deltaY > threshold) {
+    if (deltaY > threshold && words.length > 0) {
       // Complete the swipe
       setAnimating(true)
-      currentCard.style.transform = 'translateY(-100%)'
-      nextCard.style.transform = 'translateY(0)'
+      setDragOffset(100) // Animate to 100%
       
       // Update state after animation
       setTimeout(() => {
+        const nextIndex = (currentIndex + 1) % words.length
         setCurrentIndex(nextIndex)
-        setPosition()
+        setDragOffset(0)
         setAnimating(false)
       }, 300)
     } else {
       // Snap back
-      setPosition()
+      setDragOffset(0)
     }
-  }, [isDragging, animating, currentIndex, words.length, setPosition])
+  }, [animating, currentIndex, words.length])
 
   // Touch event handlers
   const handleTouchStart = useCallback((e: TouchEvent) => {
-    e.preventDefault()
-    handleStart(e.touches[0].clientY)
+    // Don't preventDefault on touchstart - keep it passive for iOS
+    if (e.touches.length > 0) {
+      handleStart(e.touches[0].clientY)
+    }
   }, [handleStart])
 
   const handleTouchMove = useCallback((e: TouchEvent) => {
-    e.preventDefault()
-    handleMove(e.touches[0].clientY)
+    // Only preventDefault when actually dragging to allow normal scrolling otherwise
+    if (isDraggingRef.current && e.touches.length > 0) {
+      e.preventDefault()
+      handleMove(e.touches[0].clientY)
+    }
   }, [handleMove])
 
   const handleTouchEnd = useCallback((e: TouchEvent) => {
-    e.preventDefault()
-    handleEnd(e.changedTouches[0].clientY)
+    if (e.changedTouches.length > 0) {
+      handleEnd(e.changedTouches[0].clientY)
+    }
   }, [handleEnd])
+
+  // Set up event listeners
+  useEffect(() => {
+    const container = containerRef.current
+    if (!container) return
+
+    // touchstart: passive for iOS performance
+    container.addEventListener('touchstart', handleTouchStart, { passive: true })
+    // touchmove: non-passive to allow preventDefault when dragging
+    container.addEventListener('touchmove', handleTouchMove, { passive: false })
+    // touchend: passive
+    container.addEventListener('touchend', handleTouchEnd, { passive: true })
+
+    return () => {
+      container.removeEventListener('touchstart', handleTouchStart)
+      container.removeEventListener('touchmove', handleTouchMove)
+      container.removeEventListener('touchend', handleTouchEnd)
+    }
+  }, [handleTouchStart, handleTouchMove, handleTouchEnd])
 
   // Mouse event handlers (for desktop testing)
   const handleMouseDown = useCallback((e: React.MouseEvent) => {
@@ -243,27 +217,10 @@ export default function WordReelPage() {
     }
   }, [isDragging, handleEnd])
 
-  // Set up event listeners
-  useEffect(() => {
-    const container = containerRef.current
-    if (!container) return
-
-    container.addEventListener('touchstart', handleTouchStart, { passive: false })
-    container.addEventListener('touchmove', handleTouchMove, { passive: false })
-    container.addEventListener('touchend', handleTouchEnd, { passive: false })
-
-    return () => {
-      container.removeEventListener('touchstart', handleTouchStart)
-      container.removeEventListener('touchmove', handleTouchMove)
-      container.removeEventListener('touchend', handleTouchEnd)
-    }
-  }, [handleTouchStart, handleTouchMove, handleTouchEnd])
-
   // Handle mode toggle
   const handleModeToggle = useCallback(() => {
     const newMode = viewMode === 'all' ? 'day' : 'all'
     setViewMode(newMode)
-    setCurrentIndex(0)
     if (newMode === 'day') {
       setCurrentDay(vocabularyData.length)
     }
@@ -275,7 +232,6 @@ export default function WordReelPage() {
     const prevDay = currentDay
     const newDay = currentDay > 1 ? currentDay - 1 : vocabularyData.length
     setCurrentDay(newDay)
-    setCurrentIndex(0)
     trackDayChange(newDay, prevDay)
   }, [currentDay, animating, viewMode])
 
@@ -284,21 +240,25 @@ export default function WordReelPage() {
     const prevDay = currentDay
     const newDay = currentDay < vocabularyData.length ? currentDay + 1 : 1
     setCurrentDay(newDay)
-    setCurrentIndex(0)
     trackDayChange(newDay, prevDay)
   }, [currentDay, animating, viewMode])
 
   // Audio playback
   const playAudio = useCallback((text: string, type: 'word_audio_played' | 'sentence_audio_played' = 'word_audio_played') => {
-    playText(text)
-    if (analyticsInitialized) {
-      logWordInteraction(text, type)
+    try {
+      playText(text)
+      if (analyticsInitialized) {
+        logWordInteraction(text, type)
+      }
+    } catch (error) {
+      console.error('Failed to play audio:', error)
     }
   }, [analyticsInitialized])
 
   // Render clickable words
-  const renderClickableWords = useCallback((text: string, isExample: boolean = false) =>
-    text.split(/(\s+)/).map((token, idx) =>
+  const renderClickableWords = useCallback((text: string, isExample: boolean = false) => {
+    if (!text) return null
+    return text.split(/(\s+)/).map((token, idx) =>
       token.match(/\s+/)
         ? <Fragment key={idx}>{token}</Fragment>
         : (
@@ -310,20 +270,40 @@ export default function WordReelPage() {
               {token}
             </span>
           )
-    ), [playAudio])
+    )
+  }, [playAudio])
 
-  const currentWord = words[currentIndex]
-  if (!currentWord) {
+  // Early return if no words
+  if (!words || words.length === 0) {
     return (
-      <div className="flex items-center justify-center h-screen">
+      <div className="flex items-center justify-center h-screen bg-black">
         <p className="text-gray-500">No words available</p>
       </div>
     )
   }
 
-  const currentBackground = backgroundIndices[currentIndex] !== undefined
-    ? getBackgroundForWord(currentWord.wordIndex, currentWord.day - 1, backgroundIndices[currentIndex - 1] || -1)
-    : getBackgroundForWord(0, 0, -1)
+  // Calculate visible indices (only current and next)
+  const nextIndex = (currentIndex + 1) % words.length
+  const currentWord = words[currentIndex]
+  const nextWord = words[nextIndex]
+  
+  // Safety check
+  if (!currentWord) {
+    return (
+      <div className="flex items-center justify-center h-screen bg-black">
+        <p className="text-gray-500">Loading...</p>
+      </div>
+    )
+  }
+
+  // Get backgrounds
+  const currentBackground = getBackgroundForWord(currentWord.wordIndex, currentWord.day - 1, -1)
+  const nextBackground = nextWord ? getBackgroundForWord(nextWord.wordIndex, nextWord.day - 1, 0) : currentBackground
+
+  // Calculate transforms based on drag offset
+  const currentTransform = `translateY(-${dragOffset}%)`
+  const nextTransform = `translateY(${100 - dragOffset}%)`
+  const transitionStyle = isDragging ? 'none' : 'transform 0.3s ease-out'
 
   return (
     <div className="flex flex-col h-screen w-screen overflow-hidden bg-black">
@@ -382,96 +362,133 @@ export default function WordReelPage() {
         onMouseUp={handleMouseUp}
         onMouseLeave={handleMouseUp}
       >
-        {words.map((word, index) => {
-          const prevBgIndex = index > 0 ? (backgroundIndices[index - 1] !== undefined ? backgroundIndices[index - 1] : -1) : -1
-          const background = backgroundIndices[index] !== undefined
-            ? getBackgroundForWord(word.wordIndex, word.day - 1, prevBgIndex)
-            : getBackgroundForWord(word.wordIndex, word.day - 1, -1)
+        {/* Current Card */}
+        <div
+          ref={currentCardRef}
+          className="absolute inset-0 flex flex-col justify-center items-center p-8 text-center will-change-transform"
+          style={{
+            background: currentBackground,
+            transform: currentTransform,
+            transition: transitionStyle,
+          }}
+        >
+          <div className="absolute inset-0 bg-black/25 pointer-events-none" />
           
-          return (
-            <div
-              key={`${word.day}-${word.wordIndex}-${index}`}
-              ref={(el) => {
-                if (el) cardsRef.current[index] = el
-              }}
-              className="word-reel-card absolute inset-0 flex flex-col justify-center items-center p-8 text-center will-change-transform"
-              style={{
-                background: background,
-                transform: index === currentIndex ? 'translateY(0)' : index === (currentIndex + 1) % words.length ? 'translateY(100%)' : 'translateY(0)',
-              }}
+          <div className="relative z-10 w-full max-w-2xl space-y-6">
+            <div className="space-y-5">
+              <h2 
+                onClick={() => playAudio(currentWord.english)}
+                className="text-[64px] font-bold text-white cursor-pointer hover:scale-105 transition-transform drop-shadow-2xl"
+                style={{ textShadow: '0 4px 12px rgba(0,0,0,0.5)' }}
+              >
+                {renderClickableWords(currentWord.english)}
+              </h2>
+              <p 
+                className="text-[48px] text-[#FFD700] font-medium drop-shadow-lg"
+                style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
+              >
+                {currentWord.chinese}
+              </p>
+            </div>
+            
+            <div className="h-px bg-white/30 w-full max-w-md mx-auto my-[60px]" />
+            
+            <div className="space-y-4">
+              <p 
+                onClick={() => playAudio(currentWord.englishSentence, 'sentence_audio_played')}
+                className="text-[28px] text-white cursor-pointer hover:scale-105 transition-transform drop-shadow-lg leading-relaxed"
+                style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
+              >
+                {renderClickableWords(currentWord.englishSentence, true)}
+              </p>
+              <p 
+                className="text-[24px] text-[#B0B0B0] drop-shadow-lg"
+                style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
+              >
+                {currentWord.chineseSentence}
+              </p>
+            </div>
+            
+            <div className="pt-4">
+              <span className="inline-block bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-medium border border-white/30">
+                {currentWord.partOfSpeech}
+              </span>
+            </div>
+          </div>
+          
+          {/* Swipe Indicator */}
+          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white/50 text-sm flex flex-col items-center gap-1">
+            <svg 
+              width="24" 
+              height="24" 
+              viewBox="0 0 24 24" 
+              fill="none" 
+              stroke="currentColor" 
+              strokeWidth="2" 
+              strokeLinecap="round" 
+              strokeLinejoin="round"
+              className="animate-bounce"
             >
-              {/* Overlay for text readability */}
-              <div className="absolute inset-0 bg-black/25 pointer-events-none" />
-              
-              {/* Content */}
-              <div className="relative z-10 w-full max-w-2xl space-y-6">
-                {/* Word */}
-                <div className="space-y-5">
-                  <h2 
-                    onClick={() => playAudio(word.english)}
-                    className="text-[64px] font-bold text-white cursor-pointer hover:scale-105 transition-transform drop-shadow-2xl"
-                    style={{ textShadow: '0 4px 12px rgba(0,0,0,0.5)' }}
-                  >
-                    {renderClickableWords(word.english)}
-                  </h2>
-                  <p 
-                    className="text-[48px] text-[#FFD700] font-medium drop-shadow-lg"
-                    style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
-                  >
-                    {word.chinese}
-                  </p>
-                </div>
-                
-                {/* Divider */}
-                <div className="h-px bg-white/30 w-full max-w-md mx-auto my-[60px]" />
-                
-                {/* Sentence */}
-                <div className="space-y-4">
-                  <p 
-                    onClick={() => playAudio(word.englishSentence, 'sentence_audio_played')}
-                    className="text-[28px] text-white cursor-pointer hover:scale-105 transition-transform drop-shadow-lg leading-relaxed"
-                    style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
-                  >
-                    {renderClickableWords(word.englishSentence, true)}
-                  </p>
-                  <p 
-                    className="text-[24px] text-[#B0B0B0] drop-shadow-lg"
-                    style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
-                  >
-                    {word.chineseSentence}
-                  </p>
-                </div>
-                
-                {/* Part of Speech Badge */}
-                <div className="pt-4">
-                  <span className="inline-block bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-medium border border-white/30">
-                    {word.partOfSpeech}
-                  </span>
-                </div>
+              <path d="M18 15l-6-6-6 6"/>
+            </svg>
+            <span>Swipe to continue</span>
+          </div>
+        </div>
+
+        {/* Next Card */}
+        {nextWord && (
+          <div
+            ref={nextCardRef}
+            className="absolute inset-0 flex flex-col justify-center items-center p-8 text-center will-change-transform"
+            style={{
+              background: nextBackground,
+              transform: nextTransform,
+              transition: transitionStyle,
+            }}
+          >
+            <div className="absolute inset-0 bg-black/25 pointer-events-none" />
+            
+            <div className="relative z-10 w-full max-w-2xl space-y-6">
+              <div className="space-y-5">
+                <h2 
+                  className="text-[64px] font-bold text-white drop-shadow-2xl"
+                  style={{ textShadow: '0 4px 12px rgba(0,0,0,0.5)' }}
+                >
+                  {nextWord.english}
+                </h2>
+                <p 
+                  className="text-[48px] text-[#FFD700] font-medium drop-shadow-lg"
+                  style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
+                >
+                  {nextWord.chinese}
+                </p>
               </div>
               
-              {/* Swipe Indicator - only show on current card */}
-              {index === currentIndex && (
-                <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white/50 text-sm flex flex-col items-center gap-1">
-                  <svg 
-                    width="24" 
-                    height="24" 
-                    viewBox="0 0 24 24" 
-                    fill="none" 
-                    stroke="currentColor" 
-                    strokeWidth="2" 
-                    strokeLinecap="round" 
-                    strokeLinejoin="round"
-                    className="animate-bounce"
-                  >
-                    <path d="M18 15l-6-6-6 6"/>
-                  </svg>
-                  <span>Swipe to continue</span>
-                </div>
-              )}
+              <div className="h-px bg-white/30 w-full max-w-md mx-auto my-[60px]" />
+              
+              <div className="space-y-4">
+                <p 
+                  className="text-[28px] text-white drop-shadow-lg leading-relaxed"
+                  style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
+                >
+                  {nextWord.englishSentence}
+                </p>
+                <p 
+                  className="text-[24px] text-[#B0B0B0] drop-shadow-lg"
+                  style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
+                >
+                  {nextWord.chineseSentence}
+                </p>
+              </div>
+              
+              <div className="pt-4">
+                <span className="inline-block bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-medium border border-white/30">
+                  {nextWord.partOfSpeech}
+                </span>
+              </div>
             </div>
-          )
-        })}
+          </div>
+        )}
       </div>
     </div>
   )
