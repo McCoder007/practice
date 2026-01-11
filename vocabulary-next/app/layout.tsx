@@ -38,7 +38,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <title>Irregular Verbs</title>
+        <title>Study Zone</title>
         <meta name="description" content="Learn irregular verbs easily" />
       </head>
       <body className={`${outfit.variable} ${inter.variable} ${robotoMono.variable}`}>

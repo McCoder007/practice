@@ -540,6 +540,8 @@ export default function WordReelPage() {
   // Render clickable words
   const renderClickableWords = useCallback((text: string, isExample: boolean = false) => {
     if (!text) return null
+    // Check if text is a phrase (contains spaces)
+    const isPhrase = text.trim().includes(' ')
     return text.split(/(\s+)/).map((token, idx) =>
       token.match(/\s+/)
         ? <Fragment key={idx}>{token}</Fragment>
@@ -548,7 +550,9 @@ export default function WordReelPage() {
               key={idx}
               onClick={(e) => {
                 e.stopPropagation() // Prevent parent onClick from firing
-                playAudio(token, isExample ? 'sentence_audio_played' : 'word_audio_played')
+                // If it's a phrase, play the full phrase; otherwise play just the word
+                const textToPlay = isPhrase ? text : token
+                playAudio(textToPlay, isExample ? 'sentence_audio_played' : 'word_audio_played')
               }}
               className="cursor-pointer hover:underline"
             >

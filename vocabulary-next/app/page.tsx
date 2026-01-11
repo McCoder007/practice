@@ -90,7 +90,7 @@ export default function HomePage() {
         animate={{ opacity: 1, y: 0 }}
         className="text-4xl font-bold mb-8 text-center bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
       >
-        Practice Menu
+        Study Zone
       </motion.h1>
       <div className="w-full max-w-md space-y-4">
         {menuItems.map((item, index) => (
