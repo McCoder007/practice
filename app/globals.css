@@ -138,3 +138,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+/* Word Reel card visibility */
+.word-reel-card.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
