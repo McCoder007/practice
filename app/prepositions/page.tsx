@@ -4,13 +4,16 @@ import React, { useState } from 'react'
 import { Quiz, QuestionData } from '@/components/Quiz'
 import levels, { Level } from '@/data/levels'
 import { Button } from '@/components/ui/button'
+import { NavigationMenu } from "@/components/NavigationMenu"
 
 export default function PrepositionsPage() {
   const [selectedLevel, setSelectedLevel] = useState<Level | null>(null)
 
   if (!selectedLevel) {
     return (
-      <div className="flex flex-col items-center justify-center min-h-screen p-6 space-y-6">
+      <>
+        <NavigationMenu />
+        <div className="flex flex-col items-center justify-center min-h-screen p-6 space-y-6">
         <h1 className="text-2xl font-semibold">Choose a Level</h1>
         <div className="flex space-x-4">
           {levels.map((lvl) => (
@@ -20,11 +23,14 @@ export default function PrepositionsPage() {
           ))}
         </div>
       </div>
+      </>
     )
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <>
+      <NavigationMenu />
+      <div className="min-h-screen bg-gray-50">
       <header className="bg-white p-4 shadow">
         <Button variant="ghost" onClick={() => setSelectedLevel(null)}>
           ← Back to Levels
@@ -33,5 +39,6 @@ export default function PrepositionsPage() {
       </header>
       <Quiz questions={selectedLevel.questions as QuestionData[]} />
     </div>
+    </>
   )
 } 

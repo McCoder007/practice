@@ -14,6 +14,7 @@ import {
   trackDayChange, 
   trackScrollDepth 
 } from '@/lib/analytics'
+import { NavigationMenu } from "@/components/NavigationMenu"
 
 export default function VocabularyPracticePage() {
   const [currentDay, setCurrentDay] = useState(vocabularyData.length)
@@ -207,7 +208,9 @@ export default function VocabularyPracticePage() {
     )
 
   return (
-    <div className="flex flex-col min-h-screen bg-blue-50">
+    <>
+      <NavigationMenu />
+      <div className="flex flex-col min-h-screen bg-blue-50">
       <header className="bg-gradient-to-r from-blue-50 via-blue-100 to-blue-50 p-2 border-b border-blue-200 sticky top-0 z-10">
         <div className="flex items-center justify-center relative mb-1">
           <div className="flex flex-col items-center flex-grow">
@@ -307,5 +310,6 @@ export default function VocabularyPracticePage() {
         </div>
       </ScrollArea>
     </div>
+    </>
   )
 } 

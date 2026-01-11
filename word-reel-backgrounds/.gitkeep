@@ -1,0 +1,18 @@
+# Word Reel Background Images
+
+Add background images here for the Word Reel feature.
+
+## Image Requirements
+
+- **Dimensions**: 1080x1920px (9:16 portrait) or 1920x1080px (16:9 landscape)
+- **Formats**: PNG, JPG, or WebP
+- **File size**: 200KB-500KB per image (max 1MB)
+- **Naming**: `word-reel-bg-1.png`, `word-reel-bg-2.png`, etc.
+
+## Design Guidelines
+
+- Abstract and subtle, not distracting from text
+- Soft gradients or gentle patterns
+- Work with both light and dark text overlays
+- Modern, clean aesthetic suitable for educational content
+- Calming, professional color palettes

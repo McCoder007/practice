@@ -3,6 +3,7 @@ import "./globals.css"
 import { Inter, Outfit, Roboto_Mono } from 'next/font/google'
 import Script from 'next/script'
 import { ThemeProvider } from "@/components/theme-provider"
+import { LanguageProvider } from "@/contexts/LanguageContext"
 
 // Import primary font for headings and UI
 const outfit = Outfit({
@@ -84,10 +85,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         )}
 
         <ThemeProvider>
-          <div className="relative flex min-h-screen flex-col bg-background">
-            {children}
-          </div>
-          {/* <TailwindIndicator /> */}
+          <LanguageProvider>
+            <div className="relative flex min-h-screen flex-col bg-background">
+              {children}
+            </div>
+            {/* <TailwindIndicator /> */}
+          </LanguageProvider>
         </ThemeProvider>
       </body>
     </html>

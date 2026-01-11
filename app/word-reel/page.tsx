@@ -13,6 +13,14 @@ import {
 import { 
   getBackgroundForWord
 } from '@/lib/word-reel-backgrounds'
+import { NavigationMenu } from "@/components/NavigationMenu"
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet"
 
 interface WordCard {
   english: string
@@ -24,20 +32,25 @@ interface WordCard {
   wordIndex: number
 }
 
-// Helper function to calculate starting index for latest day in 'all' mode
-const getLatestDayStartingIndex = (): number => {
-  const latestDay = vocabularyData.length
+// Helper function to calculate starting index for a specific day in 'all' mode
+const getDayStartingIndex = (day: number): number => {
   let index = 0
-  for (let i = 0; i < latestDay - 1; i++) {
+  for (let i = 0; i < day - 1; i++) {
     index += vocabularyData[i].words.length
   }
   return index
+}
+
+// Helper function to calculate starting index for latest day in 'all' mode
+const getLatestDayStartingIndex = (): number => {
+  return getDayStartingIndex(vocabularyData.length)
 }
 
 export default function WordReelPage() {
 
   const [viewMode, setViewMode] = useState<'all' | 'day'>('all')
   const [currentDay, setCurrentDay] = useState(vocabularyData.length)
+  const [sheetOpen, setSheetOpen] = useState(false)
   const initialIndex = getLatestDayStartingIndex()
   const [currentIndex, setCurrentIndex] = useState(initialIndex)
   const [animating, setAnimating] = useState(false)
@@ -95,18 +108,19 @@ export default function WordReelPage() {
   // Calculate starting index based on current mode
   const startingIndex = useMemo(() => {
     if (viewMode === 'all') {
-      return getLatestDayStartingIndex()
+      return getDayStartingIndex(currentDay)
     } else {
       return 0
     }
-  }, [viewMode])
+  }, [viewMode, currentDay])
 
   // Reset current index when words change
   useEffect(() => {
     if (viewMode === 'all') {
-      const latestDayIndex = getLatestDayStartingIndex()
-      setCurrentIndex(latestDayIndex)
-      currentIndexRef.current = latestDayIndex
+      // When switching to 'all' mode, start at the current day's words
+      const dayIndex = getDayStartingIndex(currentDay)
+      setCurrentIndex(dayIndex)
+      currentIndexRef.current = dayIndex
     } else {
       setCurrentIndex(0)
       currentIndexRef.current = 0
@@ -402,9 +416,35 @@ export default function WordReelPage() {
   // Handle mode toggle
   const handleModeToggle = useCallback(() => {
     const newMode = viewMode === 'all' ? 'day' : 'all'
+    
+    // When switching from 'all' to 'day' mode, preserve the day of the currently displayed word
+    if (newMode === 'day' && viewMode === 'all') {
+      // Build the allWords array to get the current word's day
+      // (we can't use the memoized words here because it will change after setViewMode)
+      const allWords: WordCard[] = []
+      vocabularyData.forEach((dayData) => {
+        dayData.words.forEach((word, wordIndex) => {
+          allWords.push({
+            english: word.word,
+            chinese: word.translation,
+            englishSentence: word.example,
+            chineseSentence: word.exampleTranslation,
+            partOfSpeech: word.partOfSpeech,
+            day: dayData.day,
+            wordIndex: wordIndex
+          })
+        })
+      })
+      
+      // Find the current word and set currentDay to its day
+      const currentWordIndex = currentIndexRef.current
+      if (allWords[currentWordIndex]) {
+        const dayOfCurrentWord = allWords[currentWordIndex].day
+        setCurrentDay(dayOfCurrentWord)
+      }
+    }
+    
     setViewMode(newMode)
-    // Preserve currentDay selection - don't reset to latest day
-    // Initial state already sets it to latest day, and we want to preserve user's selection
   }, [viewMode])
 
   // Handle day navigation
@@ -422,6 +462,15 @@ export default function WordReelPage() {
     const newDay = currentDay < vocabularyData.length ? currentDay + 1 : 1
     setCurrentDay(newDay)
     trackDayChange(newDay, prevDay)
+  }, [currentDay, animating, viewMode])
+
+  // Handle day selection from dropdown
+  const handleDaySelect = useCallback((selectedDay: number) => {
+    if (animating || viewMode === 'all') return
+    const prevDay = currentDay
+    setCurrentDay(selectedDay)
+    trackDayChange(selectedDay, prevDay)
+    setSheetOpen(false)
   }, [currentDay, animating, viewMode])
 
   // Audio playback
@@ -540,8 +589,10 @@ export default function WordReelPage() {
   const nextBackground = nextWord ? getBackgroundForWord(nextWord.wordIndex, nextWord.day - 1, 0) : currentBackground
 
   return (
-    <div className="flex flex-col h-screen w-screen overflow-hidden bg-black">
-      {/* Header */}
+    <>
+      <NavigationMenu />
+      <div className="flex flex-col h-screen w-screen overflow-hidden bg-black">
+        {/* Header */}
       <header className="bg-black/60 backdrop-blur-md p-2 border-b border-white/10 sticky top-0 z-20">
         <div className="flex items-center justify-center relative mb-1">
           <div className="flex flex-col items-center flex-grow">
@@ -570,9 +621,36 @@ export default function WordReelPage() {
               <ChevronLeft className="h-10 w-10" />
               <span className="sr-only">Previous Day</span>
             </Button>
-            <div className="bg-white/20 backdrop-blur-sm text-white px-6 py-0.5 rounded-full text-sm font-medium shadow-sm mx-4 border border-white/20 min-w-[120px] text-center">
-              Day {currentDay}
-            </div>
+            <Sheet open={sheetOpen} onOpenChange={setSheetOpen}>
+              <SheetTrigger asChild>
+                <button
+                  className="bg-white/20 backdrop-blur-sm text-white px-6 py-0.5 rounded-full text-sm font-medium shadow-sm mx-4 border border-white/20 min-w-[120px] text-center hover:bg-white/30 transition-colors cursor-pointer"
+                  disabled={animating}
+                >
+                  Day {currentDay}
+                </button>
+              </SheetTrigger>
+              <SheetContent side="bottom" className="bg-black/95 border-white/20">
+                <SheetHeader>
+                  <SheetTitle className="text-white text-center">Select Day</SheetTitle>
+                </SheetHeader>
+                <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-3 mt-6 max-h-[60vh] overflow-y-auto">
+                  {vocabularyData.map((dayData) => (
+                    <button
+                      key={dayData.day}
+                      onClick={() => handleDaySelect(dayData.day)}
+                      className={`px-4 py-3 rounded-lg text-sm font-medium transition-colors ${
+                        currentDay === dayData.day
+                          ? 'bg-white text-black'
+                          : 'bg-white/20 text-white hover:bg-white/30'
+                      }`}
+                    >
+                      Day {dayData.day}
+                    </button>
+                  ))}
+                </div>
+              </SheetContent>
+            </Sheet>
             <Button
               variant="ghost"
               size="icon"
@@ -810,5 +888,6 @@ export default function WordReelPage() {
         )}
       </div>
     </div>
+    </>
   )
 }

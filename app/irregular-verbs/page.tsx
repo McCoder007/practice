@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react'
 import { Quiz, QuestionData } from '@/components/Quiz'
 import stages, { Stage } from '@/data/irregularVerbs'
 import { Card, CardContent } from '@/components/ui/card'
+import { NavigationMenu } from "@/components/NavigationMenu"
 
 // Shared stage info
 const stageInfo = [
@@ -76,7 +77,9 @@ export default function IrregularVerbsPage() {
 
   if (!selectedStage) {
     return (
-      <div className="flex flex-col items-center min-h-screen bg-white dark:bg-gray-900 p-6">
+      <>
+        <NavigationMenu />
+        <div className="flex flex-col items-center min-h-screen bg-white dark:bg-gray-900 p-6">
         <h1 className="text-3xl font-outfit font-bold mb-6 text-slate-900 dark:text-white">Please choose</h1>
         <div className="flex flex-col items-center space-y-4 w-full max-w-md mx-auto">
           {stageInfo.map(({ id, title, titleChinese, description, descriptionChinese }) => {
@@ -103,13 +106,16 @@ export default function IrregularVerbsPage() {
           })}
         </div>
       </div>
+      </>
     )
   }
 
   const currentStageInfo = stageInfo.find((stage) => stage.id === selectedStage?.id)
 
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-slate-900">
+    <>
+      <NavigationMenu />
+      <div className="min-h-screen bg-gray-50 dark:bg-slate-900">
       <header className="bg-white dark:bg-slate-800 p-4 shadow sticky top-0 z-10">
         <div className="flex items-center justify-center max-w-3xl mx-auto">
           <div className="text-center">
@@ -125,5 +131,6 @@ export default function IrregularVerbsPage() {
         <Quiz questions={selectedStage.questions as QuestionData[]} />
       </main>
     </div>
+    </>
   )
 } 
