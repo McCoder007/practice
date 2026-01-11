@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState, useEffect, useCallback, useRef, Fragment, useMemo } from "react"
+import React, { useState, useEffect, useCallback, useRef, Fragment, useMemo, useLayoutEffect } from "react"
 import { ChevronLeft, ChevronRight, Layers, Calendar } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import vocabularyData from "@/data/vocabulary"
@@ -28,16 +28,23 @@ export default function WordReelPage() {
   const [viewMode, setViewMode] = useState<'all' | 'day'>('all')
   const [currentDay, setCurrentDay] = useState(vocabularyData.length)
   const [currentIndex, setCurrentIndex] = useState(0)
-  const [isDragging, setIsDragging] = useState(false)
   const [animating, setAnimating] = useState(false)
   const [analyticsInitialized, setAnalyticsInitialized] = useState(false)
-  const [dragOffset, setDragOffset] = useState(0)
+  // Force re-render after index change to update card content
+  const [, forceUpdate] = useState(0)
   
+  // Refs for direct DOM manipulation (smooth performance)
   const startY = useRef(0)
   const containerRef = useRef<HTMLDivElement>(null)
   const currentCardRef = useRef<HTMLDivElement>(null)
   const nextCardRef = useRef<HTMLDivElement>(null)
   const isDraggingRef = useRef(false)
+  const currentIndexRef = useRef(currentIndex)
+
+  // Keep ref in sync with state
+  useEffect(() => {
+    currentIndexRef.current = currentIndex
+  }, [currentIndex])
 
   // Memoize words array to prevent recalculation on every render
   const words = useMemo((): WordCard[] => {
@@ -74,7 +81,23 @@ export default function WordReelPage() {
   // Reset current index when words change
   useEffect(() => {
     setCurrentIndex(0)
+    currentIndexRef.current = 0
   }, [viewMode, currentDay])
+
+  // Initialize card positions after index changes
+  useLayoutEffect(() => {
+    const currentCard = currentCardRef.current
+    const nextCard = nextCardRef.current
+    
+    if (currentCard) {
+      currentCard.style.transition = 'none'
+      currentCard.style.transform = 'translateY(0)'
+    }
+    if (nextCard) {
+      nextCard.style.transition = 'none'
+      nextCard.style.transform = 'translateY(100%)'
+    }
+  }, [currentIndex])
 
   // Initialize Firebase Analytics
   useEffect(() => {
@@ -108,67 +131,109 @@ export default function WordReelPage() {
   // Handle touch/mouse start
   const handleStart = useCallback((clientY: number) => {
     if (animating) return
+    
     startY.current = clientY
-    setIsDragging(true)
     isDraggingRef.current = true
-    setDragOffset(0)
+    
+    // Remove transitions for instant finger-following
+    const currentCard = currentCardRef.current
+    const nextCard = nextCardRef.current
+    
+    if (currentCard) {
+      currentCard.style.transition = 'none'
+    }
+    if (nextCard) {
+      nextCard.style.transition = 'none'
+    }
   }, [animating])
 
-  // Handle touch/mouse move
+  // Handle touch/mouse move - directly manipulate DOM for smooth performance
   const handleMove = useCallback((clientY: number) => {
     if (!isDraggingRef.current || animating) return
     
     const deltaY = startY.current - clientY
     
-    // Only allow upward swipes (positive deltaY)
-    if (deltaY < 0) {
-      setDragOffset(0)
+    // Only allow upward swipes (positive deltaY = finger moved up)
+    if (deltaY <= 0) {
+      // Reset to initial positions if trying to swipe down
+      const currentCard = currentCardRef.current
+      const nextCard = nextCardRef.current
+      if (currentCard) currentCard.style.transform = 'translateY(0)'
+      if (nextCard) nextCard.style.transform = 'translateY(100%)'
       return
     }
     
-    // Convert pixels to percentage
-    const movePercent = (deltaY / window.innerHeight) * 100
-    setDragOffset(movePercent)
+    // Convert pixels to percentage of screen height
+    const movePercent = Math.min((deltaY / window.innerHeight) * 100, 100)
+    
+    // Directly update DOM for smooth performance
+    const currentCard = currentCardRef.current
+    const nextCard = nextCardRef.current
+    
+    if (currentCard) {
+      // Current card moves UP (negative translateY)
+      currentCard.style.transform = `translateY(-${movePercent}%)`
+    }
+    if (nextCard) {
+      // Next card moves UP from below (100% to 0%)
+      nextCard.style.transform = `translateY(${100 - movePercent}%)`
+    }
   }, [animating])
 
   // Handle touch/mouse end
   const handleEnd = useCallback((clientY: number) => {
     if (!isDraggingRef.current || animating) return
     
-    setIsDragging(false)
     isDraggingRef.current = false
     
     const deltaY = startY.current - clientY
-    const threshold = window.innerHeight * 0.15 // 15% of screen
+    const threshold = window.innerHeight * 0.15 // 15% of screen height
+    
+    const currentCard = currentCardRef.current
+    const nextCard = nextCardRef.current
+    
+    if (!currentCard || !nextCard) return
+    
+    // Add smooth transitions for completion animation
+    currentCard.style.transition = 'transform 0.3s ease-out'
+    nextCard.style.transition = 'transform 0.3s ease-out'
     
     if (deltaY > threshold && words.length > 0) {
-      // Complete the swipe
-      setAnimating(true)
-      setDragOffset(100) // Animate to 100%
+      // Complete the swipe - animate cards to final positions
+      currentCard.style.transform = 'translateY(-100%)'
+      nextCard.style.transform = 'translateY(0)'
       
-      // Update state after animation
+      setAnimating(true)
+      
+      // After animation completes, update state
       setTimeout(() => {
-        const nextIndex = (currentIndex + 1) % words.length
-        setCurrentIndex(nextIndex)
-        setDragOffset(0)
+        const nextIdx = (currentIndexRef.current + 1) % words.length
+        
+        // Remove transitions BEFORE state update to prevent flash
+        if (currentCard) currentCard.style.transition = 'none'
+        if (nextCard) nextCard.style.transition = 'none'
+        
+        // Update state - this triggers useLayoutEffect to reposition cards
+        setCurrentIndex(nextIdx)
+        currentIndexRef.current = nextIdx
+        forceUpdate(n => n + 1)
         setAnimating(false)
       }, 300)
     } else {
-      // Snap back
-      setDragOffset(0)
+      // Didn't meet threshold - snap back to original positions
+      currentCard.style.transform = 'translateY(0)'
+      nextCard.style.transform = 'translateY(100%)'
     }
-  }, [animating, currentIndex, words.length])
+  }, [animating, words.length])
 
   // Touch event handlers
   const handleTouchStart = useCallback((e: TouchEvent) => {
-    // Don't preventDefault on touchstart - keep it passive for iOS
     if (e.touches.length > 0) {
       handleStart(e.touches[0].clientY)
     }
   }, [handleStart])
 
   const handleTouchMove = useCallback((e: TouchEvent) => {
-    // Only preventDefault when actually dragging to allow normal scrolling otherwise
     if (isDraggingRef.current && e.touches.length > 0) {
       e.preventDefault()
       handleMove(e.touches[0].clientY)
@@ -186,11 +251,8 @@ export default function WordReelPage() {
     const container = containerRef.current
     if (!container) return
 
-    // touchstart: passive for iOS performance
     container.addEventListener('touchstart', handleTouchStart, { passive: true })
-    // touchmove: non-passive to allow preventDefault when dragging
     container.addEventListener('touchmove', handleTouchMove, { passive: false })
-    // touchend: passive
     container.addEventListener('touchend', handleTouchEnd, { passive: true })
 
     return () => {
@@ -206,16 +268,33 @@ export default function WordReelPage() {
   }, [handleStart])
 
   const handleMouseMove = useCallback((e: React.MouseEvent) => {
-    if (isDragging) {
+    if (isDraggingRef.current) {
       handleMove(e.clientY)
     }
-  }, [isDragging, handleMove])
+  }, [handleMove])
 
   const handleMouseUp = useCallback((e: React.MouseEvent) => {
-    if (isDragging) {
+    if (isDraggingRef.current) {
       handleEnd(e.clientY)
     }
-  }, [isDragging, handleEnd])
+  }, [handleEnd])
+
+  const handleMouseLeave = useCallback(() => {
+    if (isDraggingRef.current) {
+      // Snap back if mouse leaves while dragging
+      isDraggingRef.current = false
+      const currentCard = currentCardRef.current
+      const nextCard = nextCardRef.current
+      if (currentCard) {
+        currentCard.style.transition = 'transform 0.3s ease-out'
+        currentCard.style.transform = 'translateY(0)'
+      }
+      if (nextCard) {
+        nextCard.style.transition = 'transform 0.3s ease-out'
+        nextCard.style.transform = 'translateY(100%)'
+      }
+    }
+  }, [])
 
   // Handle mode toggle
   const handleModeToggle = useCallback(() => {
@@ -300,11 +379,6 @@ export default function WordReelPage() {
   const currentBackground = getBackgroundForWord(currentWord.wordIndex, currentWord.day - 1, -1)
   const nextBackground = nextWord ? getBackgroundForWord(nextWord.wordIndex, nextWord.day - 1, 0) : currentBackground
 
-  // Calculate transforms based on drag offset
-  const currentTransform = `translateY(-${dragOffset}%)`
-  const nextTransform = `translateY(${100 - dragOffset}%)`
-  const transitionStyle = isDragging ? 'none' : 'transform 0.3s ease-out'
-
   return (
     <div className="flex flex-col h-screen w-screen overflow-hidden bg-black">
       {/* Header */}
@@ -360,16 +434,15 @@ export default function WordReelPage() {
         onMouseDown={handleMouseDown}
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUp}
-        onMouseLeave={handleMouseUp}
+        onMouseLeave={handleMouseLeave}
       >
-        {/* Current Card */}
+        {/* Current Card - starts at translateY(0) */}
         <div
           ref={currentCardRef}
           className="absolute inset-0 flex flex-col justify-center items-center p-8 text-center will-change-transform"
           style={{
             background: currentBackground,
-            transform: currentTransform,
-            transition: transitionStyle,
+            transform: 'translateY(0)',
           }}
         >
           <div className="absolute inset-0 bg-black/25 pointer-events-none" />
@@ -435,15 +508,14 @@ export default function WordReelPage() {
           </div>
         </div>
 
-        {/* Next Card */}
+        {/* Next Card - starts at translateY(100%) below screen */}
         {nextWord && (
           <div
             ref={nextCardRef}
             className="absolute inset-0 flex flex-col justify-center items-center p-8 text-center will-change-transform"
             style={{
               background: nextBackground,
-              transform: nextTransform,
-              transition: transitionStyle,
+              transform: 'translateY(100%)',
             }}
           >
             <div className="absolute inset-0 bg-black/25 pointer-events-none" />
