@@ -42,6 +42,7 @@ export default function WordReelPage() {
   const [currentIndex, setCurrentIndex] = useState(initialIndex)
   const [animating, setAnimating] = useState(false)
   const [analyticsInitialized, setAnalyticsInitialized] = useState(false)
+  const [windowWidth, setWindowWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 0)
   // Force re-render after index change to update card content
   const [, forceUpdate] = useState(0)
   
@@ -145,6 +146,19 @@ export default function WordReelPage() {
     
     initAnalytics()
     trackDayChange(currentDay)
+  }, [])
+
+  // Track window width for responsive font sizing
+  useEffect(() => {
+    const updateWindowWidth = () => {
+      setWindowWidth(window.innerWidth)
+    }
+    
+    // Set initial width
+    updateWindowWidth()
+    
+    window.addEventListener('resize', updateWindowWidth)
+    return () => window.removeEventListener('resize', updateWindowWidth)
   }, [])
 
   // Prevent body scroll
@@ -422,30 +436,57 @@ export default function WordReelPage() {
     }
   }, [analyticsInitialized])
 
-  // Helper function to get font size based on word length
+  // Helper function to get font size based on word length and screen width
   const getWordFontSize = useCallback((word: string): string => {
-    // For words longer than 10 characters, scale down more aggressively
-    // Most words stay at 64px, very long words scale down to fit
-    if (word.length > 10) {
-      // More aggressive scaling: 64px for 10 chars, down to 28px for 20+ chars
-      // Estimate: ~8-10px per character at 64px, so we need to scale more aggressively
-      const charsOver = word.length - 10
-      const scale = Math.max(0.44, 1 - charsOver * 0.07) // 0.44 = 28/64
-      return `${Math.max(28, Math.round(64 * scale))}px`
+    // Responsive base font size based on screen width
+    // Mobile (< 640px): 48px base, tablet (640-1024px): 56px, desktop (> 1024px): 64px
+    let baseSize = 64
+    if (windowWidth > 0) {
+      if (windowWidth < 640) {
+        baseSize = 48 // Mobile
+      } else if (windowWidth < 1024) {
+        baseSize = 56 // Tablet
+      }
+    } else {
+      // Fallback: assume mobile if width not yet measured
+      baseSize = 48
     }
-    return '64px'
-  }, [])
+    
+    // For words longer than 10 characters, scale down more aggressively
+    if (word.length > 10) {
+      const charsOver = word.length - 10
+      const minSize = Math.max(20, baseSize * 0.44) // Minimum 44% of base size
+      const scale = Math.max(0.44, 1 - charsOver * 0.07)
+      return `${Math.max(minSize, Math.round(baseSize * scale))}px`
+    }
+    return `${baseSize}px`
+  }, [windowWidth])
 
-  // Helper function to get Chinese font size based on word length
+  // Helper function to get Chinese font size based on word length and screen width
   const getChineseFontSize = useCallback((word: string): string => {
+    // Responsive base font size based on screen width
+    // Mobile (< 640px): 36px base, tablet (640-1024px): 42px, desktop (> 1024px): 48px
+    let baseSize = 48
+    if (windowWidth > 0) {
+      if (windowWidth < 640) {
+        baseSize = 36 // Mobile
+      } else if (windowWidth < 1024) {
+        baseSize = 42 // Tablet
+      }
+    } else {
+      // Fallback: assume mobile if width not yet measured
+      baseSize = 36
+    }
+    
     // Chinese characters are typically shorter, but scale similarly
     if (word.length > 6) {
       const charsOver = word.length - 6
+      const minSize = Math.max(18, baseSize * 0.5) // Minimum 50% of base size
       const scale = Math.max(0.5, 1 - charsOver * 0.08)
-      return `${Math.max(24, Math.round(48 * scale))}px`
+      return `${Math.max(minSize, Math.round(baseSize * scale))}px`
     }
-    return '48px'
-  }, [])
+    return `${baseSize}px`
+  }, [windowWidth])
 
   // Render clickable words
   const renderClickableWords = useCallback((text: string, isExample: boolean = false) => {
