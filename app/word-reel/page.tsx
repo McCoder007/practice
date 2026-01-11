@@ -24,10 +24,22 @@ interface WordCard {
   wordIndex: number
 }
 
+// Helper function to calculate starting index for latest day in 'all' mode
+const getLatestDayStartingIndex = (): number => {
+  const latestDay = vocabularyData.length
+  let index = 0
+  for (let i = 0; i < latestDay - 1; i++) {
+    index += vocabularyData[i].words.length
+  }
+  return index
+}
+
 export default function WordReelPage() {
+
   const [viewMode, setViewMode] = useState<'all' | 'day'>('all')
   const [currentDay, setCurrentDay] = useState(vocabularyData.length)
-  const [currentIndex, setCurrentIndex] = useState(0)
+  const initialIndex = getLatestDayStartingIndex()
+  const [currentIndex, setCurrentIndex] = useState(initialIndex)
   const [animating, setAnimating] = useState(false)
   const [analyticsInitialized, setAnalyticsInitialized] = useState(false)
   // Force re-render after index change to update card content
@@ -39,7 +51,7 @@ export default function WordReelPage() {
   const currentCardRef = useRef<HTMLDivElement>(null)
   const nextCardRef = useRef<HTMLDivElement>(null)
   const isDraggingRef = useRef(false)
-  const currentIndexRef = useRef(currentIndex)
+  const currentIndexRef = useRef(initialIndex)
 
   // Keep ref in sync with state
   useEffect(() => {
@@ -80,8 +92,14 @@ export default function WordReelPage() {
 
   // Reset current index when words change
   useEffect(() => {
-    setCurrentIndex(0)
-    currentIndexRef.current = 0
+    if (viewMode === 'all') {
+      const latestDayIndex = getLatestDayStartingIndex()
+      setCurrentIndex(latestDayIndex)
+      currentIndexRef.current = latestDayIndex
+    } else {
+      setCurrentIndex(0)
+      currentIndexRef.current = 0
+    }
   }, [viewMode, currentDay])
 
   // Initialize card positions after index changes
@@ -300,9 +318,8 @@ export default function WordReelPage() {
   const handleModeToggle = useCallback(() => {
     const newMode = viewMode === 'all' ? 'day' : 'all'
     setViewMode(newMode)
-    if (newMode === 'day') {
-      setCurrentDay(vocabularyData.length)
-    }
+    // Preserve currentDay selection - don't reset to latest day
+    // Initial state already sets it to latest day, and we want to preserve user's selection
   }, [viewMode])
 
   // Handle day navigation
@@ -333,6 +350,31 @@ export default function WordReelPage() {
       console.error('Failed to play audio:', error)
     }
   }, [analyticsInitialized])
+
+  // Helper function to get font size based on word length
+  const getWordFontSize = useCallback((word: string): string => {
+    // For words longer than 10 characters, scale down more aggressively
+    // Most words stay at 64px, very long words scale down to fit
+    if (word.length > 10) {
+      // More aggressive scaling: 64px for 10 chars, down to 28px for 20+ chars
+      // Estimate: ~8-10px per character at 64px, so we need to scale more aggressively
+      const charsOver = word.length - 10
+      const scale = Math.max(0.44, 1 - charsOver * 0.07) // 0.44 = 28/64
+      return `${Math.max(28, Math.round(64 * scale))}px`
+    }
+    return '64px'
+  }, [])
+
+  // Helper function to get Chinese font size based on word length
+  const getChineseFontSize = useCallback((word: string): string => {
+    // Chinese characters are typically shorter, but scale similarly
+    if (word.length > 6) {
+      const charsOver = word.length - 6
+      const scale = Math.max(0.5, 1 - charsOver * 0.08)
+      return `${Math.max(24, Math.round(48 * scale))}px`
+    }
+    return '48px'
+  }, [])
 
   // Render clickable words
   const renderClickableWords = useCallback((text: string, isExample: boolean = false) => {
@@ -450,17 +492,27 @@ export default function WordReelPage() {
         >
           <div className="absolute inset-0 bg-black/25 pointer-events-none" />
           
-          <div className="relative z-10 w-full max-w-2xl space-y-6">
+          <div className="relative z-10 w-full max-w-2xl space-y-6 overflow-hidden px-4">
             <div className="space-y-5">
               <h2 
-                className="text-[64px] font-bold text-white drop-shadow-2xl"
-                style={{ textShadow: '0 4px 12px rgba(0,0,0,0.5)' }}
+                className="font-bold text-white drop-shadow-2xl"
+                style={{ 
+                  fontSize: getWordFontSize(currentWord.english),
+                  textShadow: '0 4px 12px rgba(0,0,0,0.5)',
+                  wordBreak: 'keep-all',
+                  overflowWrap: 'normal'
+                }}
               >
                 {renderClickableWords(currentWord.english)}
               </h2>
               <p 
-                className="text-[48px] text-[#FFD700] font-medium drop-shadow-lg"
-                style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
+                className="text-[#FFD700] font-medium drop-shadow-lg"
+                style={{ 
+                  fontSize: getChineseFontSize(currentWord.chinese),
+                  textShadow: '0 2px 8px rgba(0,0,0,0.5)',
+                  wordBreak: 'keep-all',
+                  overflowWrap: 'normal'
+                }}
               >
                 {currentWord.chinese}
               </p>
@@ -522,17 +574,27 @@ export default function WordReelPage() {
           >
             <div className="absolute inset-0 bg-black/25 pointer-events-none" />
             
-            <div className="relative z-10 w-full max-w-2xl space-y-6">
+            <div className="relative z-10 w-full max-w-2xl space-y-6 overflow-hidden px-4">
               <div className="space-y-5">
                 <h2 
-                  className="text-[64px] font-bold text-white drop-shadow-2xl"
-                  style={{ textShadow: '0 4px 12px rgba(0,0,0,0.5)' }}
+                  className="font-bold text-white drop-shadow-2xl"
+                  style={{ 
+                    fontSize: getWordFontSize(nextWord.english),
+                    textShadow: '0 4px 12px rgba(0,0,0,0.5)',
+                    wordBreak: 'keep-all',
+                    overflowWrap: 'normal'
+                  }}
                 >
                   {nextWord.english}
                 </h2>
                 <p 
-                  className="text-[48px] text-[#FFD700] font-medium drop-shadow-lg"
-                  style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
+                  className="text-[#FFD700] font-medium drop-shadow-lg"
+                  style={{ 
+                    fontSize: getChineseFontSize(nextWord.chinese),
+                    textShadow: '0 2px 8px rgba(0,0,0,0.5)',
+                    wordBreak: 'keep-all',
+                    overflowWrap: 'normal'
+                  }}
                 >
                   {nextWord.chinese}
                 </p>
