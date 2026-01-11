@@ -2,11 +2,21 @@
 
 import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Book, ArrowRightLeft, Clock, ListChecks, ListTodo, Scale } from "lucide-react"
+import { Book, ArrowRightLeft, Clock, ListChecks, ListTodo, Scale, Film } from "lucide-react"
 import { motion } from "framer-motion"
 import { cn } from "@/lib/utils"
 
 const menuItems = [
+  {
+    title: "Word Reel | 单词卷轴",
+    href: "/word-reel",
+    icon: Film,
+    description: "Swipe through vocabulary like TikTok",
+    color: "from-pink-500/10 to-rose-600/10",
+    iconColor: "text-pink-500",
+    borderColor: "border-pink-500/20",
+    hoverColor: "hover:from-pink-500/20 hover:to-rose-600/20"
+  },
   {
     title: "New Words | 生词",
     href: "/vocabulary",
