@@ -50,6 +50,7 @@ export default function WordReelPage() {
   const containerRef = useRef<HTMLDivElement>(null)
   const currentCardRef = useRef<HTMLDivElement>(null)
   const nextCardRef = useRef<HTMLDivElement>(null)
+  const prevCardRef = useRef<HTMLDivElement>(null)
   const isDraggingRef = useRef(false)
   const currentIndexRef = useRef(initialIndex)
 
@@ -90,6 +91,15 @@ export default function WordReelPage() {
     }
   }, [viewMode, currentDay])
 
+  // Calculate starting index based on current mode
+  const startingIndex = useMemo(() => {
+    if (viewMode === 'all') {
+      return getLatestDayStartingIndex()
+    } else {
+      return 0
+    }
+  }, [viewMode])
+
   // Reset current index when words change
   useEffect(() => {
     if (viewMode === 'all') {
@@ -106,6 +116,7 @@ export default function WordReelPage() {
   useLayoutEffect(() => {
     const currentCard = currentCardRef.current
     const nextCard = nextCardRef.current
+    const prevCard = prevCardRef.current
     
     if (currentCard) {
       currentCard.style.transition = 'none'
@@ -114,6 +125,10 @@ export default function WordReelPage() {
     if (nextCard) {
       nextCard.style.transition = 'none'
       nextCard.style.transform = 'translateY(100%)'
+    }
+    if (prevCard) {
+      prevCard.style.transition = 'none'
+      prevCard.style.transform = 'translateY(-100%)'
     }
   }, [currentIndex])
 
@@ -156,12 +171,16 @@ export default function WordReelPage() {
     // Remove transitions for instant finger-following
     const currentCard = currentCardRef.current
     const nextCard = nextCardRef.current
+    const prevCard = prevCardRef.current
     
     if (currentCard) {
       currentCard.style.transition = 'none'
     }
     if (nextCard) {
       nextCard.style.transition = 'none'
+    }
+    if (prevCard) {
+      prevCard.style.transition = 'none'
     }
   }, [animating])
 
@@ -171,30 +190,47 @@ export default function WordReelPage() {
     
     const deltaY = startY.current - clientY
     
-    // Only allow upward swipes (positive deltaY = finger moved up)
-    if (deltaY <= 0) {
-      // Reset to initial positions if trying to swipe down
-      const currentCard = currentCardRef.current
-      const nextCard = nextCardRef.current
-      if (currentCard) currentCard.style.transform = 'translateY(0)'
-      if (nextCard) nextCard.style.transform = 'translateY(100%)'
-      return
-    }
-    
     // Convert pixels to percentage of screen height
-    const movePercent = Math.min((deltaY / window.innerHeight) * 100, 100)
+    const movePercent = Math.min(Math.abs(deltaY) / window.innerHeight * 100, 100)
     
     // Directly update DOM for smooth performance
     const currentCard = currentCardRef.current
     const nextCard = nextCardRef.current
+    const prevCard = prevCardRef.current
     
-    if (currentCard) {
-      // Current card moves UP (negative translateY)
-      currentCard.style.transform = `translateY(-${movePercent}%)`
-    }
-    if (nextCard) {
-      // Next card moves UP from below (100% to 0%)
-      nextCard.style.transform = `translateY(${100 - movePercent}%)`
+    if (deltaY > 0) {
+      // Upward swipe - show next card
+      if (currentCard) {
+        // Current card moves UP (negative translateY)
+        currentCard.style.transform = `translateY(-${movePercent}%)`
+      }
+      if (nextCard) {
+        // Next card moves UP from below (100% to 0%)
+        nextCard.style.transform = `translateY(${100 - movePercent}%)`
+      }
+      if (prevCard) {
+        // Reset previous card position
+        prevCard.style.transform = 'translateY(-100%)'
+      }
+    } else if (deltaY < 0) {
+      // Downward swipe - show previous card
+      if (currentCard) {
+        // Current card moves DOWN (positive translateY)
+        currentCard.style.transform = `translateY(${movePercent}%)`
+      }
+      if (prevCard) {
+        // Previous card moves DOWN from above (-100% to 0%)
+        prevCard.style.transform = `translateY(${-100 + movePercent}%)`
+      }
+      if (nextCard) {
+        // Reset next card position
+        nextCard.style.transform = 'translateY(100%)'
+      }
+    } else {
+      // No movement - reset all cards
+      if (currentCard) currentCard.style.transform = 'translateY(0)'
+      if (nextCard) nextCard.style.transform = 'translateY(100%)'
+      if (prevCard) prevCard.style.transform = 'translateY(-100%)'
     }
   }, [animating])
 
@@ -209,17 +245,21 @@ export default function WordReelPage() {
     
     const currentCard = currentCardRef.current
     const nextCard = nextCardRef.current
+    const prevCard = prevCardRef.current
     
-    if (!currentCard || !nextCard) return
+    if (!currentCard) return
     
     // Add smooth transitions for completion animation
     currentCard.style.transition = 'transform 0.3s ease-out'
-    nextCard.style.transition = 'transform 0.3s ease-out'
+    if (nextCard) nextCard.style.transition = 'transform 0.3s ease-out'
+    if (prevCard) prevCard.style.transition = 'transform 0.3s ease-out'
     
     if (deltaY > threshold && words.length > 0) {
-      // Complete the swipe - animate cards to final positions
-      currentCard.style.transform = 'translateY(-100%)'
-      nextCard.style.transform = 'translateY(0)'
+      // Upward swipe - go to next word
+      if (nextCard) {
+        currentCard.style.transform = 'translateY(-100%)'
+        nextCard.style.transform = 'translateY(0)'
+      }
       
       setAnimating(true)
       
@@ -230,6 +270,7 @@ export default function WordReelPage() {
         // Remove transitions BEFORE state update to prevent flash
         if (currentCard) currentCard.style.transition = 'none'
         if (nextCard) nextCard.style.transition = 'none'
+        if (prevCard) prevCard.style.transition = 'none'
         
         // Update state - this triggers useLayoutEffect to reposition cards
         setCurrentIndex(nextIdx)
@@ -237,10 +278,35 @@ export default function WordReelPage() {
         forceUpdate(n => n + 1)
         setAnimating(false)
       }, 300)
+    } else if (deltaY < -threshold && words.length > 0) {
+      // Downward swipe - go to previous word
+      if (prevCard) {
+        currentCard.style.transform = 'translateY(100%)'
+        prevCard.style.transform = 'translateY(0)'
+      }
+      
+      setAnimating(true)
+      
+      // After animation completes, update state
+      setTimeout(() => {
+        const prevIdx = (currentIndexRef.current - 1 + words.length) % words.length
+        
+        // Remove transitions BEFORE state update to prevent flash
+        if (currentCard) currentCard.style.transition = 'none'
+        if (nextCard) nextCard.style.transition = 'none'
+        if (prevCard) prevCard.style.transition = 'none'
+        
+        // Update state - this triggers useLayoutEffect to reposition cards
+        setCurrentIndex(prevIdx)
+        currentIndexRef.current = prevIdx
+        forceUpdate(n => n + 1)
+        setAnimating(false)
+      }, 300)
     } else {
       // Didn't meet threshold - snap back to original positions
       currentCard.style.transform = 'translateY(0)'
-      nextCard.style.transform = 'translateY(100%)'
+      if (nextCard) nextCard.style.transform = 'translateY(100%)'
+      if (prevCard) prevCard.style.transform = 'translateY(-100%)'
     }
   }, [animating, words.length])
 
@@ -303,6 +369,7 @@ export default function WordReelPage() {
       isDraggingRef.current = false
       const currentCard = currentCardRef.current
       const nextCard = nextCardRef.current
+      const prevCard = prevCardRef.current
       if (currentCard) {
         currentCard.style.transition = 'transform 0.3s ease-out'
         currentCard.style.transform = 'translateY(0)'
@@ -310,6 +377,10 @@ export default function WordReelPage() {
       if (nextCard) {
         nextCard.style.transition = 'transform 0.3s ease-out'
         nextCard.style.transform = 'translateY(100%)'
+      }
+      if (prevCard) {
+        prevCard.style.transition = 'transform 0.3s ease-out'
+        prevCard.style.transform = 'translateY(-100%)'
       }
     }
   }, [])
@@ -406,9 +477,11 @@ export default function WordReelPage() {
     )
   }
 
-  // Calculate visible indices (only current and next)
+  // Calculate visible indices (previous, current, and next)
+  const prevIndex = (currentIndex - 1 + words.length) % words.length
   const nextIndex = (currentIndex + 1) % words.length
   const currentWord = words[currentIndex]
+  const prevWord = words[prevIndex]
   const nextWord = words[nextIndex]
   
   // Safety check
@@ -422,6 +495,7 @@ export default function WordReelPage() {
 
   // Get backgrounds
   const currentBackground = getBackgroundForWord(currentWord.wordIndex, currentWord.day - 1, -1)
+  const prevBackground = prevWord ? getBackgroundForWord(prevWord.wordIndex, prevWord.day - 1, -1) : currentBackground
   const nextBackground = nextWord ? getBackgroundForWord(nextWord.wordIndex, nextWord.day - 1, 0) : currentBackground
 
   return (
@@ -543,24 +617,91 @@ export default function WordReelPage() {
             </div>
           </div>
           
-          {/* Swipe Indicator */}
-          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white/50 text-sm flex flex-col items-center gap-1">
-            <svg 
-              width="24" 
-              height="24" 
-              viewBox="0 0 24 24" 
-              fill="none" 
-              stroke="currentColor" 
-              strokeWidth="2" 
-              strokeLinecap="round" 
-              strokeLinejoin="round"
-              className="animate-bounce"
-            >
-              <path d="M18 15l-6-6-6 6"/>
-            </svg>
-            <span>Swipe to continue</span>
-          </div>
+          {/* Swipe Indicator - only show on first slide */}
+          {currentIndex === startingIndex && (
+            <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white/50 text-sm flex flex-col items-center gap-1">
+              <svg 
+                width="24" 
+                height="24" 
+                viewBox="0 0 24 24" 
+                fill="none" 
+                stroke="currentColor" 
+                strokeWidth="2" 
+                strokeLinecap="round" 
+                strokeLinejoin="round"
+                className="animate-bounce"
+              >
+                <path d="M18 15l-6-6-6 6"/>
+              </svg>
+              <span>Swipe to continue</span>
+            </div>
+          )}
         </div>
+
+        {/* Previous Card - starts at translateY(-100%) above screen */}
+        {prevWord && (
+          <div
+            ref={prevCardRef}
+            className="absolute inset-0 flex flex-col justify-center items-center p-8 text-center will-change-transform"
+            style={{
+              background: prevBackground,
+              transform: 'translateY(-100%)',
+            }}
+          >
+            <div className="absolute inset-0 bg-black/25 pointer-events-none" />
+            
+            <div className="relative z-10 w-full max-w-2xl space-y-6 overflow-hidden px-4">
+              <div className="space-y-5">
+                <h2 
+                  className="font-bold text-white drop-shadow-2xl"
+                  style={{ 
+                    fontSize: getWordFontSize(prevWord.english),
+                    textShadow: '0 4px 12px rgba(0,0,0,0.5)',
+                    wordBreak: 'keep-all',
+                    overflowWrap: 'normal'
+                  }}
+                >
+                  {renderClickableWords(prevWord.english)}
+                </h2>
+                <p 
+                  className="text-[#FFD700] font-medium drop-shadow-lg"
+                  style={{ 
+                    fontSize: getChineseFontSize(prevWord.chinese),
+                    textShadow: '0 2px 8px rgba(0,0,0,0.5)',
+                    wordBreak: 'keep-all',
+                    overflowWrap: 'normal'
+                  }}
+                >
+                  {prevWord.chinese}
+                </p>
+              </div>
+              
+              <div className="h-px bg-white/30 w-full max-w-md mx-auto my-[60px]" />
+              
+              <div className="space-y-4">
+                <p 
+                  onClick={() => playAudio(prevWord.englishSentence, 'sentence_audio_played')}
+                  className="text-[28px] text-white cursor-pointer hover:scale-105 transition-transform drop-shadow-lg leading-relaxed"
+                  style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
+                >
+                  {prevWord.englishSentence}
+                </p>
+                <p 
+                  className="text-[24px] text-[#B0B0B0] drop-shadow-lg"
+                  style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
+                >
+                  {prevWord.chineseSentence}
+                </p>
+              </div>
+              
+              <div className="pt-4">
+                <span className="inline-block bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-medium border border-white/30">
+                  {prevWord.partOfSpeech}
+                </span>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* Next Card - starts at translateY(100%) below screen */}
         {nextWord && (
@@ -585,7 +726,7 @@ export default function WordReelPage() {
                     overflowWrap: 'normal'
                   }}
                 >
-                  {nextWord.english}
+                  {renderClickableWords(nextWord.english)}
                 </h2>
                 <p 
                   className="text-[#FFD700] font-medium drop-shadow-lg"
@@ -604,7 +745,8 @@ export default function WordReelPage() {
               
               <div className="space-y-4">
                 <p 
-                  className="text-[28px] text-white drop-shadow-lg leading-relaxed"
+                  onClick={() => playAudio(nextWord.englishSentence, 'sentence_audio_played')}
+                  className="text-[28px] text-white cursor-pointer hover:scale-105 transition-transform drop-shadow-lg leading-relaxed"
                   style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
                 >
                   {nextWord.englishSentence}
