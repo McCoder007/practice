@@ -138,14 +138,12 @@ export function NavigationMenu() {
                   setLanguage("japanese")
                   setOpen(false)
                 }}
-                disabled
                 className={cn(
-                  "flex items-center justify-between rounded-lg px-4 py-2 text-sm font-medium transition-colors text-left opacity-50 cursor-not-allowed",
+                  "flex items-center justify-between rounded-lg px-4 py-2 text-sm font-medium transition-colors text-left",
                   language === "japanese"
                     ? "bg-primary text-primary-foreground"
                     : "hover:bg-accent hover:text-accent-foreground"
                 )}
-                title="Japanese support coming soon"
               >
                 <span>Japanese | 日本語</span>
                 {language === "japanese" && (

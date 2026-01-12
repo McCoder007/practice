@@ -15,8 +15,10 @@ import {
   trackScrollDepth 
 } from '@/lib/analytics'
 import { NavigationMenu } from "@/components/NavigationMenu"
+import { useLanguage } from "@/contexts/LanguageContext"
 
 export default function VocabularyPracticePage() {
+  const { language } = useLanguage()
   const [currentDay, setCurrentDay] = useState(vocabularyData.length)
   const [analyticsInitialized, setAnalyticsInitialized] = useState(false)
 
@@ -276,7 +278,7 @@ export default function VocabularyPracticePage() {
                         <h3 className="text-lg font-semibold text-gray-900">
                           {renderClickableWords(word.word)}
                         </h3>
-                        <div className="text-blue-600 text-base mt-1">{word.translation}</div>
+                        <div className="text-blue-600 text-base mt-1">{language === 'japanese' ? word.japanese : word.translation}</div>
                       </div>
                     </div>
                     <span className="text-gray-500 bg-gray-100 px-2.5 py-0.5 rounded-full text-xs font-medium">
@@ -300,7 +302,7 @@ export default function VocabularyPracticePage() {
                       <p className="text-gray-800 text-sm mb-2">
                         {renderClickableWords(word.example, true)}
                       </p>
-                      <p className="text-blue-600 text-sm">{word.exampleTranslation}</p>
+                      <p className="text-blue-600 text-sm">{language === 'japanese' ? word.japaneseSentence : word.exampleTranslation}</p>
                     </div>
                   </div>
                 </div>

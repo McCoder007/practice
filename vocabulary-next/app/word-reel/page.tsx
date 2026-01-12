@@ -15,6 +15,7 @@ import {
   getBackgroundIndexForWord
 } from '@/lib/word-reel-backgrounds'
 import { NavigationMenu } from "@/components/NavigationMenu"
+import { useLanguage } from "@/contexts/LanguageContext"
 import {
   Sheet,
   SheetContent,
@@ -26,8 +27,10 @@ import {
 interface WordCard {
   english: string
   chinese: string
+  japanese: string
   englishSentence: string
   chineseSentence: string
+  japaneseSentence: string
   partOfSpeech: string
   day: number
   wordIndex: number
@@ -48,7 +51,7 @@ const getLatestDayStartingIndex = (): number => {
 }
 
 export default function WordReelPage() {
-
+  const { language } = useLanguage()
   const [viewMode, setViewMode] = useState<'all' | 'day'>('all')
   const [currentDay, setCurrentDay] = useState(vocabularyData.length)
   const [sheetOpen, setSheetOpen] = useState(false)
@@ -83,8 +86,10 @@ export default function WordReelPage() {
           allWords.push({
             english: word.word,
             chinese: word.translation,
+            japanese: word.japanese,
             englishSentence: word.example,
             chineseSentence: word.exampleTranslation,
+            japaneseSentence: word.japaneseSentence,
             partOfSpeech: word.partOfSpeech,
             day: dayData.day,
             wordIndex: wordIndex
@@ -97,14 +102,16 @@ export default function WordReelPage() {
       return dayData.words.map((word, wordIndex) => ({
         english: word.word,
         chinese: word.translation,
+        japanese: word.japanese,
         englishSentence: word.example,
         chineseSentence: word.exampleTranslation,
+        japaneseSentence: word.japaneseSentence,
         partOfSpeech: word.partOfSpeech,
         day: currentDay,
         wordIndex: wordIndex
       }))
     }
-  }, [viewMode, currentDay])
+  }, [viewMode, currentDay, language])
 
   // Calculate starting index based on current mode
   const startingIndex = useMemo(() => {
@@ -512,8 +519,8 @@ export default function WordReelPage() {
     return `${baseSize}px`
   }, [windowWidth])
 
-  // Helper function to get Chinese font size based on word length and screen width
-  const getChineseFontSize = useCallback((word: string): string => {
+  // Helper function to get translation font size based on word length and screen width
+  const getTranslationFontSize = useCallback((word: string): string => {
     // Responsive base font size based on screen width
     // Mobile (< 640px): 36px base, tablet (640-1024px): 42px, desktop (> 1024px): 48px
     let baseSize = 48
@@ -528,7 +535,7 @@ export default function WordReelPage() {
       baseSize = 36
     }
     
-    // Chinese characters are typically shorter, but scale similarly
+    // Translation characters are typically shorter, but scale similarly
     if (word.length > 6) {
       const charsOver = word.length - 6
       const minSize = Math.max(18, baseSize * 0.5) // Minimum 50% of base size
@@ -708,13 +715,13 @@ export default function WordReelPage() {
               <p 
                 className="text-[#FFD700] font-medium drop-shadow-lg"
                 style={{ 
-                  fontSize: getChineseFontSize(currentWord.chinese),
+                  fontSize: getTranslationFontSize(language === 'japanese' ? currentWord.japanese : currentWord.chinese),
                   textShadow: '0 2px 8px rgba(0,0,0,0.5)',
                   wordBreak: 'keep-all',
                   overflowWrap: 'normal'
                 }}
               >
-                {currentWord.chinese}
+                {language === 'japanese' ? currentWord.japanese : currentWord.chinese}
               </p>
             </div>
             
@@ -732,7 +739,7 @@ export default function WordReelPage() {
                 className="text-[24px] text-[#B0B0B0] drop-shadow-lg"
                 style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
               >
-                {currentWord.chineseSentence}
+                {language === 'japanese' ? currentWord.japaneseSentence : currentWord.chineseSentence}
               </p>
             </div>
             
@@ -792,13 +799,13 @@ export default function WordReelPage() {
                 <p 
                   className="text-[#FFD700] font-medium drop-shadow-lg"
                   style={{ 
-                    fontSize: getChineseFontSize(prevWord.chinese),
+                    fontSize: getTranslationFontSize(language === 'japanese' ? prevWord.japanese : prevWord.chinese),
                     textShadow: '0 2px 8px rgba(0,0,0,0.5)',
                     wordBreak: 'keep-all',
                     overflowWrap: 'normal'
                   }}
                 >
-                  {prevWord.chinese}
+                  {language === 'japanese' ? prevWord.japanese : prevWord.chinese}
                 </p>
               </div>
               
@@ -816,7 +823,7 @@ export default function WordReelPage() {
                   className="text-[24px] text-[#B0B0B0] drop-shadow-lg"
                   style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
                 >
-                  {prevWord.chineseSentence}
+                  {language === 'japanese' ? prevWord.japaneseSentence : prevWord.chineseSentence}
                 </p>
               </div>
               
@@ -857,13 +864,13 @@ export default function WordReelPage() {
                 <p 
                   className="text-[#FFD700] font-medium drop-shadow-lg"
                   style={{ 
-                    fontSize: getChineseFontSize(nextWord.chinese),
+                    fontSize: getTranslationFontSize(language === 'japanese' ? nextWord.japanese : nextWord.chinese),
                     textShadow: '0 2px 8px rgba(0,0,0,0.5)',
                     wordBreak: 'keep-all',
                     overflowWrap: 'normal'
                   }}
                 >
-                  {nextWord.chinese}
+                  {language === 'japanese' ? nextWord.japanese : nextWord.chinese}
                 </p>
               </div>
               
@@ -881,7 +888,7 @@ export default function WordReelPage() {
                   className="text-[24px] text-[#B0B0B0] drop-shadow-lg"
                   style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
                 >
-                  {nextWord.chineseSentence}
+                  {language === 'japanese' ? nextWord.japaneseSentence : nextWord.chineseSentence}
                 </p>
               </div>
               
