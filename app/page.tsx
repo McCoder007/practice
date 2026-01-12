@@ -6,10 +6,11 @@ import { Book, ArrowRightLeft, Clock, ListChecks, ListTodo, Scale, Film } from "
 import { motion } from "framer-motion"
 import { cn } from "@/lib/utils"
 import { NavigationMenu } from "@/components/NavigationMenu"
+import { useLanguage } from "@/contexts/LanguageContext"
 
-const menuItems = [
+const getMenuItems = (language: "chinese" | "japanese") => [
   {
-    title: "Word Reel | 单词卷轴",
+    title: language === "japanese" ? "Word Reel | 単語リール" : "Word Reel | 单词卷轴",
     href: "/word-reel",
     icon: Film,
     description: "Swipe through vocabulary like TikTok",
@@ -19,7 +20,7 @@ const menuItems = [
     hoverColor: "hover:from-pink-500/20 hover:to-rose-600/20"
   },
   {
-    title: "New Words | 生词",
+    title: language === "japanese" ? "New Words | 新単語" : "New Words | 生词",
     href: "/vocabulary",
     icon: Book,
     description: "Practice new words with audio and translations",
@@ -81,6 +82,9 @@ const menuItems = [
 ]
 
 export default function HomePage() {
+  const { language } = useLanguage()
+  const menuItems = getMenuItems(language)
+  
   return (
     <>
       <NavigationMenu />

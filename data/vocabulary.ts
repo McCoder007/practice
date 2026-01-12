@@ -4,9 +4,11 @@ import { VocabularyEntry } from './types';
 export interface Word {
   word: string
   translation: string
+  japanese: string
   partOfSpeech: string
   example: string
   exampleTranslation: string
+  japaneseSentence: string
 }
 
 export interface DayData {
@@ -24,9 +26,11 @@ const vocabularyData: DayData[] = Object.entries(rawVocabularyData).map(([key, w
     words: entries.map((entry) => ({
       word: entry.word,
       translation: entry.word_translation,
+      japanese: entry.word_translation_japanese,
       partOfSpeech: entry.type,
       example: entry.sentence,
       exampleTranslation: entry.translation,
+      japaneseSentence: entry.translation_japanese,
     })),
   };
 });

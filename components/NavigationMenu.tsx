@@ -21,19 +21,19 @@ interface MenuItem {
   icon: React.ComponentType<{ className?: string }>
 }
 
-const menuItems: MenuItem[] = [
+const getMenuItems = (language: "chinese" | "japanese"): MenuItem[] => [
   {
     title: "Main | 主页",
     href: "/",
     icon: Home,
   },
   {
-    title: "Word Reel | 单词卷轴",
+    title: language === "japanese" ? "Word Reel | 単語リール" : "Word Reel | 单词卷轴",
     href: "/word-reel",
     icon: Film,
   },
   {
-    title: "New Words | 生词",
+    title: language === "japanese" ? "New Words | 新単語" : "New Words | 生词",
     href: "/vocabulary",
     icon: Book,
   },
@@ -68,6 +68,7 @@ export function NavigationMenu() {
   const pathname = usePathname()
   const { language, setLanguage } = useLanguage()
   const [open, setOpen] = useState(false)
+  const menuItems = getMenuItems(language)
 
   const handleLinkClick = () => {
     setOpen(false)
@@ -138,14 +139,12 @@ export function NavigationMenu() {
                   setLanguage("japanese")
                   setOpen(false)
                 }}
-                disabled
                 className={cn(
-                  "flex items-center justify-between rounded-lg px-4 py-2 text-sm font-medium transition-colors text-left opacity-50 cursor-not-allowed",
+                  "flex items-center justify-between rounded-lg px-4 py-2 text-sm font-medium transition-colors text-left",
                   language === "japanese"
                     ? "bg-primary text-primary-foreground"
                     : "hover:bg-accent hover:text-accent-foreground"
                 )}
-                title="Japanese support coming soon"
               >
                 <span>Japanese | 日本語</span>
                 {language === "japanese" && (
