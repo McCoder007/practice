@@ -1,4 +1,5 @@
 import type React from "react"
+import type { Metadata } from "next"
 import "./globals.css"
 import { Inter, Outfit, Roboto_Mono } from 'next/font/google'
 import Script from 'next/script'
@@ -26,6 +27,22 @@ const robotoMono = Roboto_Mono({
   variable: "--font-roboto-mono",
 })
 
+export const metadata: Metadata = {
+  title: "Study Zone | 学习区",
+  description: "Learn irregular verbs, vocabulary, and English grammar easily",
+  manifest: "/practice/manifest.json",
+  themeColor: "#ffffff",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "Study Zone",
+  },
+  icons: {
+    icon: "/practice/icon.svg",
+    apple: "/practice/icon.svg",
+  },
+}
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   // Read the environment variable during render
   const googleTtsApiKey = process.env.NEXT_PUBLIC_GOOGLE_TTS_API_KEY || '';
@@ -38,8 +55,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <title>Study Zone</title>
-        <meta name="description" content="Learn irregular verbs easily" />
+        <link rel="icon" href="/practice/icon.svg" type="image/svg+xml" />
+        <link rel="alternate icon" href="/practice/favicon.ico" />
+        <link rel="manifest" href="/practice/manifest.json" />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="apple-mobile-web-app-title" content="Study Zone" />
+        <link rel="apple-touch-icon" href="/practice/icon.svg" />
       </head>
       <body className={`${outfit.variable} ${inter.variable} ${robotoMono.variable}`}>
         {/* 
