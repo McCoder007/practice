@@ -216,7 +216,9 @@ export default function VocabularyPracticePage() {
       <header className="bg-gradient-to-r from-blue-50 via-blue-100 to-blue-50 p-2 border-b border-blue-200 sticky top-0 z-10">
         <div className="flex items-center justify-center relative mb-1">
           <div className="flex flex-col items-center flex-grow">
-            <h1 className="text-lg font-semibold text-gray-800">New Words</h1>
+            <h1 className="text-lg font-semibold text-gray-800">
+              {language === "japanese" ? "New Words | 新単語" : "New Words | 生词"}
+            </h1>
           </div>
         </div>
 

@@ -21,19 +21,19 @@ interface MenuItem {
   icon: React.ComponentType<{ className?: string }>
 }
 
-const menuItems: MenuItem[] = [
+const getMenuItems = (language: "chinese" | "japanese"): MenuItem[] => [
   {
     title: "Main | 主页",
     href: "/",
     icon: Home,
   },
   {
-    title: "Word Reel | 单词卷轴",
+    title: language === "japanese" ? "Word Reel | 単語リール" : "Word Reel | 单词卷轴",
     href: "/word-reel",
     icon: Film,
   },
   {
-    title: "New Words | 生词",
+    title: language === "japanese" ? "New Words | 新単語" : "New Words | 生词",
     href: "/vocabulary",
     icon: Book,
   },
@@ -68,6 +68,7 @@ export function NavigationMenu() {
   const pathname = usePathname()
   const { language, setLanguage } = useLanguage()
   const [open, setOpen] = useState(false)
+  const menuItems = getMenuItems(language)
 
   const handleLinkClick = () => {
     setOpen(false)

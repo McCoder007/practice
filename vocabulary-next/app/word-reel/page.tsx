@@ -435,8 +435,10 @@ export default function WordReelPage() {
           allWords.push({
             english: word.word,
             chinese: word.translation,
+            japanese: word.japanese,
             englishSentence: word.example,
             chineseSentence: word.exampleTranslation,
+            japaneseSentence: word.japaneseSentence,
             partOfSpeech: word.partOfSpeech,
             day: dayData.day,
             wordIndex: wordIndex
@@ -610,7 +612,9 @@ export default function WordReelPage() {
       <header className="bg-black/60 backdrop-blur-md p-2 border-b border-white/10 sticky top-0 z-20">
         <div className="flex items-center justify-center relative mb-1">
           <div className="flex flex-col items-center flex-grow">
-            <h1 className="text-lg font-semibold text-white">Word Reel</h1>
+            <h1 className="text-lg font-semibold text-white">
+              {language === "japanese" ? "Word Reel | 単語リール" : "Word Reel | 单词卷轴"}
+            </h1>
           </div>
           <Button
             variant="ghost"
