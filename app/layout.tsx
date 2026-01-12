@@ -39,7 +39,7 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: "/practice/icon.svg",
-    apple: "/practice/icon.svg",
+    apple: "/practice/apple-icon.png",
   },
 }
 
@@ -62,7 +62,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="Study Zone" />
-        <link rel="apple-touch-icon" href="/practice/icon.svg" />
+        <link rel="apple-touch-icon" href="/practice/apple-icon.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/practice/apple-icon.png" />
       </head>
       <body className={`${outfit.variable} ${inter.variable} ${robotoMono.variable}`}>
         {/* 
