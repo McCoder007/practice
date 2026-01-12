@@ -7,7 +7,7 @@ export const day3: VocabularyEntry[] = [
         {
             word: "charity",
             word_translation: "慈善",
-            word_translation_japanese: "慈善",
+            word_translation_japanese: "慈善活動",
             sentence: "She gives a lot of time and money to charity because she's so generous.",
             translation: "她因为很慷慨，所以投入很多时间和金钱做慈善。",
             translation_japanese: "彼女はとても寛大なので、慈善活動に多くの時間とお金を費やしています。",
