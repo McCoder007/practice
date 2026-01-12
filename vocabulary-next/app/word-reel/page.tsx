@@ -11,7 +11,8 @@ import {
   trackDayChange
 } from '@/lib/analytics'
 import { 
-  getBackgroundForWord
+  getBackgroundForWord,
+  getBackgroundIndexForWord
 } from '@/lib/word-reel-backgrounds'
 import { NavigationMenu } from "@/components/NavigationMenu"
 import {
@@ -588,9 +589,11 @@ export default function WordReelPage() {
   }
 
   // Get backgrounds
+  // First calculate the current background index to ensure adjacent cards differ
+  const currentBackgroundIndex = getBackgroundIndexForWord(currentWord.wordIndex, currentWord.day - 1, -1)
   const currentBackground = getBackgroundForWord(currentWord.wordIndex, currentWord.day - 1, -1)
-  const prevBackground = prevWord ? getBackgroundForWord(prevWord.wordIndex, prevWord.day - 1, -1) : currentBackground
-  const nextBackground = nextWord ? getBackgroundForWord(nextWord.wordIndex, nextWord.day - 1, 0) : currentBackground
+  const prevBackground = prevWord ? getBackgroundForWord(prevWord.wordIndex, prevWord.day - 1, currentBackgroundIndex) : currentBackground
+  const nextBackground = nextWord ? getBackgroundForWord(nextWord.wordIndex, nextWord.day - 1, currentBackgroundIndex) : currentBackground
 
   return (
     <>
