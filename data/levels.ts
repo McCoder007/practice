@@ -1,12 +1,6 @@
-import rawLevel1Data from './rawLevel1Data'
-import rawLevel2Data from './rawLevel2Data'
-
-export interface QuestionData {
-  lineA: string
-  lineB: string
-  options: string[]
-  correct: string
-}
+import level1Data from './rawLevel1Data'
+import level2Data from './rawLevel2Data'
+import { QuestionData } from '@/components/Quiz'
 
 export interface Level {
   id: number
@@ -14,8 +8,14 @@ export interface Level {
 }
 
 const levels: Level[] = [
-  { id: 1, questions: rawLevel1Data as QuestionData[] },
-  { id: 2, questions: rawLevel2Data as QuestionData[] },
+  {
+    id: 1,
+    questions: level1Data as QuestionData[]
+  },
+  {
+    id: 2,
+    questions: level2Data as QuestionData[]
+  }
 ]
 
-export default levels 
+export default levels
