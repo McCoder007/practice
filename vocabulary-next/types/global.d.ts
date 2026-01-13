@@ -5,6 +5,8 @@ interface GoogleTTS {
   speakLine: (text: string) => Promise<any>;
   preInit: () => Promise<boolean>;
   setVoice: (voice: string) => void;
+  synthesizeSpeech: (text: string, isPreInit?: boolean) => Promise<boolean>;
+  audioCache: Record<string, string>;
 }
 
 // Augment the window interface

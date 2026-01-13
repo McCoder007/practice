@@ -1,10 +1,10 @@
 "use client"
 
 import React, { useState, useEffect, useCallback, useRef, Fragment, useMemo, useLayoutEffect } from "react"
-import { ChevronLeft, ChevronRight, Layers, Calendar } from "lucide-react"
+import { ChevronLeft, ChevronRight, Layers, Calendar, Volume2, VolumeX } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import vocabularyData from "@/data/vocabulary"
-import { playText } from '@/lib/tts'
+import { playText, preloadTexts } from '@/lib/tts'
 import { 
   initializeAnalytics, 
   logWordInteraction, 
@@ -62,6 +62,9 @@ export default function WordReelPage() {
   const [windowWidth, setWindowWidth] = useState(typeof window !== 'undefined' ? window.innerWidth : 0)
   // Force re-render after index change to update card content
   const [, forceUpdate] = useState(0)
+  // Auto-speak state with localStorage persistence
+  const [autoSpeak, setAutoSpeak] = useState(false)
+  const hasUserNavigated = useRef(false) // Track if user has navigated (for auto-speak)
   
   // Refs for direct DOM manipulation (smooth performance)
   const startY = useRef(0)
@@ -170,6 +173,32 @@ export default function WordReelPage() {
     trackDayChange(currentDay)
   }, [])
 
+  // Load auto-speak preference from localStorage
+  useEffect(() => {
+    try {
+      const stored = localStorage.getItem('word-reel-auto-speak')
+      if (stored === 'true') {
+        setAutoSpeak(true)
+      }
+    } catch (error) {
+      // localStorage might not be available
+    }
+  }, [])
+
+  // Toggle auto-speak and persist to localStorage
+  const handleAutoSpeakToggle = useCallback(() => {
+    setAutoSpeak(prev => {
+      const newValue = !prev
+      try {
+        localStorage.setItem('word-reel-auto-speak', String(newValue))
+      } catch (error) {
+        // localStorage might not be available
+      }
+      // Removed immediate playback - let the effect handle it
+      return newValue
+    })
+  }, [words, currentIndex, analyticsInitialized])
+
   // Track window width for responsive font sizing
   useEffect(() => {
     const updateWindowWidth = () => {
@@ -196,6 +225,53 @@ export default function WordReelPage() {
       document.body.style.overflow = originalOverflow
     }
   }, [])
+
+  // Preload audio for current, next, and previous words for instant playback
+  useEffect(() => {
+    if (words.length === 0) return
+
+    const currentWord = words[currentIndex]
+    const prevIndex = (currentIndex - 1 + words.length) % words.length
+    const nextIndex = (currentIndex + 1) % words.length
+    const prevWord = words[prevIndex]
+    const nextWord = words[nextIndex]
+
+    // Collect all texts to preload (words and sentences)
+    const textsToPreload: string[] = []
+    
+    if (currentWord) {
+      textsToPreload.push(currentWord.english, currentWord.englishSentence)
+    }
+    if (nextWord && nextIndex !== currentIndex) {
+      textsToPreload.push(nextWord.english, nextWord.englishSentence)
+    }
+    if (prevWord && prevIndex !== currentIndex) {
+      textsToPreload.push(prevWord.english, prevWord.englishSentence)
+    }
+
+    // Preload all texts
+    preloadTexts(textsToPreload.filter(Boolean))
+  }, [currentIndex, words])
+
+  // Auto-speak when card changes (if enabled)
+  useEffect(() => {
+    if (!autoSpeak || words.length === 0) return
+    if (!hasUserNavigated.current) return // Don't auto-speak on initial mount
+    if (sheetOpen) return // Don't auto-speak when sheet menu is open
+
+    const currentWord = words[currentIndex]
+    if (!currentWord) return
+
+    // Wait for animation to complete, then play audio
+    const timeoutId = setTimeout(() => {
+      playText(currentWord.english)
+      if (analyticsInitialized) {
+        logWordInteraction(currentWord.english, 'word_audio_played')
+      }
+    }, 50) // Small delay to let the animation settle
+
+    return () => clearTimeout(timeoutId)
+  }, [currentIndex, autoSpeak, words, analyticsInitialized, sheetOpen])
 
   // Handle touch/mouse start
   const handleStart = useCallback((clientY: number) => {
@@ -308,6 +384,9 @@ export default function WordReelPage() {
         if (nextCard) nextCard.style.transition = 'none'
         if (prevCard) prevCard.style.transition = 'none'
         
+        // Mark that user has navigated (for auto-speak)
+        hasUserNavigated.current = true
+        
         // Update state - this triggers useLayoutEffect to reposition cards
         setCurrentIndex(nextIdx)
         currentIndexRef.current = nextIdx
@@ -331,6 +410,9 @@ export default function WordReelPage() {
         if (currentCard) currentCard.style.transition = 'none'
         if (nextCard) nextCard.style.transition = 'none'
         if (prevCard) prevCard.style.transition = 'none'
+        
+        // Mark that user has navigated (for auto-speak)
+        hasUserNavigated.current = true
         
         // Update state - this triggers useLayoutEffect to reposition cards
         setCurrentIndex(prevIdx)
@@ -460,6 +542,7 @@ export default function WordReelPage() {
   // Handle day navigation
   const handlePreviousDay = useCallback(() => {
     if (animating || viewMode === 'all') return
+    hasUserNavigated.current = true
     const prevDay = currentDay
     const newDay = currentDay > 1 ? currentDay - 1 : vocabularyData.length
     setCurrentDay(newDay)
@@ -468,6 +551,7 @@ export default function WordReelPage() {
 
   const handleNextDay = useCallback(() => {
     if (animating || viewMode === 'all') return
+    hasUserNavigated.current = true
     const prevDay = currentDay
     const newDay = currentDay < vocabularyData.length ? currentDay + 1 : 1
     setCurrentDay(newDay)
@@ -477,6 +561,7 @@ export default function WordReelPage() {
   // Handle day selection from dropdown
   const handleDaySelect = useCallback((selectedDay: number) => {
     if (animating || viewMode === 'all') return
+    hasUserNavigated.current = true
     const prevDay = currentDay
     setCurrentDay(selectedDay)
     trackDayChange(selectedDay, prevDay)
@@ -616,15 +701,26 @@ export default function WordReelPage() {
               {language === "japanese" ? "Word Reel | 単語リール" : "Word Reel | 单词卷轴"}
             </h1>
           </div>
-          <Button
-            variant="ghost"
-            size="icon"
-            className="absolute right-2 text-white hover:bg-white/20 rounded-full"
-            onClick={handleModeToggle}
-            title={viewMode === 'all' ? 'Switch to Day Mode' : 'Switch to All Days Mode'}
-          >
-            {viewMode === 'all' ? <Calendar className="h-5 w-5" /> : <Layers className="h-5 w-5" />}
-          </Button>
+          <div className="absolute right-2 flex items-center gap-1">
+            <Button
+              variant="ghost"
+              size="icon"
+              className={`text-white hover:bg-white/20 rounded-full ${autoSpeak ? 'bg-white/20' : ''}`}
+              onClick={handleAutoSpeakToggle}
+              title={autoSpeak ? 'Disable Auto-Speak' : 'Enable Auto-Speak'}
+            >
+              {autoSpeak ? <Volume2 className="h-5 w-5" /> : <VolumeX className="h-5 w-5" />}
+            </Button>
+            <Button
+              variant="ghost"
+              size="icon"
+              className="text-white hover:bg-white/20 rounded-full"
+              onClick={handleModeToggle}
+              title={viewMode === 'all' ? 'Switch to Day Mode' : 'Switch to All Days Mode'}
+            >
+              {viewMode === 'all' ? <Calendar className="h-5 w-5" /> : <Layers className="h-5 w-5" />}
+            </Button>
+          </div>
         </div>
         
         {viewMode === 'day' && (
