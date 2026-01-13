@@ -5,12 +5,12 @@ import { ChevronLeft, ChevronRight, Layers, Calendar, Volume2, VolumeX } from "l
 import { Button } from "@/components/ui/button"
 import vocabularyData from "@/data/vocabulary"
 import { playText, preloadTexts } from '@/lib/tts'
-import { 
-  initializeAnalytics, 
-  logWordInteraction, 
+import {
+  initializeAnalytics,
+  logWordInteraction,
   trackDayChange
 } from '@/lib/analytics'
-import { 
+import {
   getBackgroundForWord,
   getBackgroundIndexForWord
 } from '@/lib/word-reel-backgrounds'
@@ -65,7 +65,7 @@ export default function WordReelPage() {
   // Auto-speak state with localStorage persistence
   const [autoSpeak, setAutoSpeak] = useState(false)
   const hasUserNavigated = useRef(false) // Track if user has navigated (for auto-speak)
-  
+
   // Refs for direct DOM manipulation (smooth performance)
   const startY = useRef(0)
   const containerRef = useRef<HTMLDivElement>(null)
@@ -143,7 +143,7 @@ export default function WordReelPage() {
     const currentCard = currentCardRef.current
     const nextCard = nextCardRef.current
     const prevCard = prevCardRef.current
-    
+
     if (currentCard) {
       currentCard.style.transition = 'none'
       currentCard.style.transform = 'translateY(0)'
@@ -168,7 +168,7 @@ export default function WordReelPage() {
         console.error('Failed to initialize analytics:', error)
       }
     }
-    
+
     initAnalytics()
     trackDayChange(currentDay)
   }, [])
@@ -204,10 +204,10 @@ export default function WordReelPage() {
     const updateWindowWidth = () => {
       setWindowWidth(window.innerWidth)
     }
-    
+
     // Set initial width
     updateWindowWidth()
-    
+
     window.addEventListener('resize', updateWindowWidth)
     return () => window.removeEventListener('resize', updateWindowWidth)
   }, [])
@@ -216,10 +216,10 @@ export default function WordReelPage() {
   useEffect(() => {
     const originalTouchAction = document.body.style.touchAction
     const originalOverflow = document.body.style.overflow
-    
+
     document.body.style.touchAction = 'none'
     document.body.style.overflow = 'hidden'
-    
+
     return () => {
       document.body.style.touchAction = originalTouchAction
       document.body.style.overflow = originalOverflow
@@ -239,7 +239,7 @@ export default function WordReelPage() {
 
     // Collect all texts to preload (words and sentences)
     const textsToPreload: string[] = []
-    
+
     // Validate current word exists and has required properties
     if (currentWord && currentWord.english) {
       textsToPreload.push(currentWord.english)
@@ -284,28 +284,31 @@ export default function WordReelPage() {
       // This is especially important during wrap transitions
       const wordAtTimeout = words[currentIndex]
       if (wordAtTimeout && wordAtTimeout.english === currentWord.english) {
+        // Use playText which now internally calls stopTTS()
         playText(currentWord.english)
         if (analyticsInitialized) {
           logWordInteraction(currentWord.english, 'word_audio_played')
         }
       }
-    }, 100) // Increased delay to ensure word data is stable after wrap transitions
+    }, 150) // Increased delay slightly more for extra stability
 
-    return () => clearTimeout(timeoutId)
+    return () => {
+      clearTimeout(timeoutId)
+    }
   }, [currentIndex, autoSpeak, words, analyticsInitialized, sheetOpen])
 
   // Handle touch/mouse start
   const handleStart = useCallback((clientY: number) => {
     if (animating) return
-    
+
     startY.current = clientY
     isDraggingRef.current = true
-    
+
     // Remove transitions for instant finger-following
     const currentCard = currentCardRef.current
     const nextCard = nextCardRef.current
     const prevCard = prevCardRef.current
-    
+
     if (currentCard) {
       currentCard.style.transition = 'none'
     }
@@ -320,17 +323,17 @@ export default function WordReelPage() {
   // Handle touch/mouse move - directly manipulate DOM for smooth performance
   const handleMove = useCallback((clientY: number) => {
     if (!isDraggingRef.current || animating) return
-    
+
     const deltaY = startY.current - clientY
-    
+
     // Convert pixels to percentage of screen height
     const movePercent = Math.min(Math.abs(deltaY) / window.innerHeight * 100, 100)
-    
+
     // Directly update DOM for smooth performance
     const currentCard = currentCardRef.current
     const nextCard = nextCardRef.current
     const prevCard = prevCardRef.current
-    
+
     if (deltaY > 0) {
       // Upward swipe - show next card
       if (currentCard) {
@@ -370,32 +373,32 @@ export default function WordReelPage() {
   // Handle touch/mouse end
   const handleEnd = useCallback((clientY: number) => {
     if (!isDraggingRef.current || animating) return
-    
+
     isDraggingRef.current = false
-    
+
     const deltaY = startY.current - clientY
     const threshold = window.innerHeight * 0.15 // 15% of screen height
-    
+
     const currentCard = currentCardRef.current
     const nextCard = nextCardRef.current
     const prevCard = prevCardRef.current
-    
+
     if (!currentCard) return
-    
+
     // Add smooth transitions for completion animation
     currentCard.style.transition = 'transform 0.3s ease-out'
     if (nextCard) nextCard.style.transition = 'transform 0.3s ease-out'
     if (prevCard) prevCard.style.transition = 'transform 0.3s ease-out'
-    
+
     if (deltaY > threshold && words.length > 0) {
       // Upward swipe - go to next word
       if (nextCard) {
         currentCard.style.transform = 'translateY(-100%)'
         nextCard.style.transform = 'translateY(0)'
       }
-      
+
       setAnimating(true)
-      
+
       // After animation completes, update state
       setTimeout(() => {
         // Capture words.length at the time of update to ensure consistency
@@ -404,23 +407,23 @@ export default function WordReelPage() {
           setAnimating(false)
           return
         }
-        
+
         const nextIdx = (currentIndexRef.current + 1) % wordsLength
-        
+
         // Validate the calculated index is within bounds
         if (nextIdx < 0 || nextIdx >= wordsLength) {
           setAnimating(false)
           return
         }
-        
+
         // Remove transitions BEFORE state update to prevent flash
         if (currentCard) currentCard.style.transition = 'none'
         if (nextCard) nextCard.style.transition = 'none'
         if (prevCard) prevCard.style.transition = 'none'
-        
+
         // Mark that user has navigated (for auto-speak)
         hasUserNavigated.current = true
-        
+
         // Update state - this triggers useLayoutEffect to reposition cards
         setCurrentIndex(nextIdx)
         currentIndexRef.current = nextIdx
@@ -433,9 +436,9 @@ export default function WordReelPage() {
         currentCard.style.transform = 'translateY(100%)'
         prevCard.style.transform = 'translateY(0)'
       }
-      
+
       setAnimating(true)
-      
+
       // After animation completes, update state
       setTimeout(() => {
         // Capture words.length at the time of update to ensure consistency
@@ -444,23 +447,23 @@ export default function WordReelPage() {
           setAnimating(false)
           return
         }
-        
+
         const prevIdx = (currentIndexRef.current - 1 + wordsLength) % wordsLength
-        
+
         // Validate the calculated index is within bounds
         if (prevIdx < 0 || prevIdx >= wordsLength) {
           setAnimating(false)
           return
         }
-        
+
         // Remove transitions BEFORE state update to prevent flash
         if (currentCard) currentCard.style.transition = 'none'
         if (nextCard) nextCard.style.transition = 'none'
         if (prevCard) prevCard.style.transition = 'none'
-        
+
         // Mark that user has navigated (for auto-speak)
         hasUserNavigated.current = true
-        
+
         // Update state - this triggers useLayoutEffect to reposition cards
         setCurrentIndex(prevIdx)
         currentIndexRef.current = prevIdx
@@ -553,7 +556,7 @@ export default function WordReelPage() {
   // Handle mode toggle
   const handleModeToggle = useCallback(() => {
     const newMode = viewMode === 'all' ? 'day' : 'all'
-    
+
     // When switching from 'all' to 'day' mode, preserve the day of the currently displayed word
     if (newMode === 'day' && viewMode === 'all') {
       // Build the allWords array to get the current word's day
@@ -574,7 +577,7 @@ export default function WordReelPage() {
           })
         })
       })
-      
+
       // Find the current word and set currentDay to its day
       const currentWordIndex = currentIndexRef.current
       if (allWords[currentWordIndex]) {
@@ -582,7 +585,7 @@ export default function WordReelPage() {
         setCurrentDay(dayOfCurrentWord)
       }
     }
-    
+
     setViewMode(newMode)
   }, [viewMode])
 
@@ -642,7 +645,7 @@ export default function WordReelPage() {
       // Fallback: assume mobile if width not yet measured
       baseSize = 48
     }
-    
+
     // For words longer than 10 characters, scale down more aggressively
     if (word.length > 10) {
       const charsOver = word.length - 10
@@ -668,7 +671,7 @@ export default function WordReelPage() {
       // Fallback: assume mobile if width not yet measured
       baseSize = 36
     }
-    
+
     // Translation characters are typically shorter, but scale similarly
     if (word.length > 6) {
       const charsOver = word.length - 6
@@ -688,19 +691,19 @@ export default function WordReelPage() {
       token.match(/\s+/)
         ? <Fragment key={idx}>{token}</Fragment>
         : (
-            <span
-              key={idx}
-              onClick={(e) => {
-                e.stopPropagation() // Prevent parent onClick from firing
-                // If it's a phrase, play the full phrase; otherwise play just the word
-                const textToPlay = isPhrase ? text : token
-                playAudio(textToPlay, isExample ? 'sentence_audio_played' : 'word_audio_played')
-              }}
-              className="cursor-pointer hover:underline"
-            >
-              {token}
-            </span>
-          )
+          <span
+            key={idx}
+            onClick={(e) => {
+              e.stopPropagation() // Prevent parent onClick from firing
+              // If it's a phrase, play the full phrase; otherwise play just the word
+              const textToPlay = isPhrase ? text : token
+              playAudio(textToPlay, isExample ? 'sentence_audio_played' : 'word_audio_played')
+            }}
+            className="cursor-pointer hover:underline"
+          >
+            {token}
+          </span>
+        )
     )
   }, [playAudio])
 
@@ -719,7 +722,7 @@ export default function WordReelPage() {
   const currentWord = words[currentIndex]
   const prevWord = words[prevIndex]
   const nextWord = words[nextIndex]
-  
+
   // Safety check
   if (!currentWord) {
     return (
@@ -741,314 +744,313 @@ export default function WordReelPage() {
       <NavigationMenu />
       <div className="flex flex-col h-screen w-screen overflow-hidden bg-black">
         {/* Header */}
-      <header className="bg-black/60 backdrop-blur-md p-2 border-b border-white/10 sticky top-0 z-20">
-        <div className="flex items-center justify-center relative mb-1">
-          <div className="flex flex-col items-center flex-grow">
-            <h1 className="text-lg font-semibold text-white">
-              {language === "japanese" ? "Word Reel | 単語リール" : "Word Reel | 单词卷轴"}
-            </h1>
+        <header className="bg-black/60 backdrop-blur-md p-2 border-b border-white/10 sticky top-0 z-20">
+          <div className="flex items-center justify-center relative mb-1">
+            <div className="flex flex-col items-center flex-grow">
+              <h1 className="text-lg font-semibold text-white">
+                {language === "japanese" ? "Word Reel | 単語リール" : "Word Reel | 单词卷轴"}
+              </h1>
+            </div>
+            <div className="absolute right-2 flex items-center gap-1">
+              <Button
+                variant="ghost"
+                size="icon"
+                className={`text-white hover:bg-white/20 rounded-full ${autoSpeak ? 'bg-white/20' : ''}`}
+                onClick={handleAutoSpeakToggle}
+                title={autoSpeak ? 'Disable Auto-Speak' : 'Enable Auto-Speak'}
+              >
+                {autoSpeak ? <Volume2 className="h-5 w-5" /> : <VolumeX className="h-5 w-5" />}
+              </Button>
+              <Button
+                variant="ghost"
+                size="icon"
+                className="text-white hover:bg-white/20 rounded-full"
+                onClick={handleModeToggle}
+                title={viewMode === 'all' ? 'Switch to Day Mode' : 'Switch to All Days Mode'}
+              >
+                {viewMode === 'all' ? <Calendar className="h-5 w-5" /> : <Layers className="h-5 w-5" />}
+              </Button>
+            </div>
           </div>
-          <div className="absolute right-2 flex items-center gap-1">
-            <Button
-              variant="ghost"
-              size="icon"
-              className={`text-white hover:bg-white/20 rounded-full ${autoSpeak ? 'bg-white/20' : ''}`}
-              onClick={handleAutoSpeakToggle}
-              title={autoSpeak ? 'Disable Auto-Speak' : 'Enable Auto-Speak'}
-            >
-              {autoSpeak ? <Volume2 className="h-5 w-5" /> : <VolumeX className="h-5 w-5" />}
-            </Button>
-            <Button
-              variant="ghost"
-              size="icon"
-              className="text-white hover:bg-white/20 rounded-full"
-              onClick={handleModeToggle}
-              title={viewMode === 'all' ? 'Switch to Day Mode' : 'Switch to All Days Mode'}
-            >
-              {viewMode === 'all' ? <Calendar className="h-5 w-5" /> : <Layers className="h-5 w-5" />}
-            </Button>
-          </div>
-        </div>
-        
-        {viewMode === 'day' && (
-          <div className="flex items-center justify-center">
-            <Button
-              variant="ghost"
-              size="icon"
-              className="text-white hover:bg-white/20 rounded-full p-3 h-12 w-16"
-              onClick={handlePreviousDay}
-              disabled={vocabularyData.length <= 1 || animating}
-            >
-              <ChevronLeft className="h-10 w-10" />
-              <span className="sr-only">Previous Day</span>
-            </Button>
-            <Sheet open={sheetOpen} onOpenChange={setSheetOpen}>
-              <SheetTrigger asChild>
-                <button
-                  className="bg-white/20 backdrop-blur-sm text-white px-6 py-0.5 rounded-full text-sm font-medium shadow-sm mx-4 border border-white/20 min-w-[120px] text-center hover:bg-white/30 transition-colors cursor-pointer"
-                  disabled={animating}
-                >
-                  Day {currentDay}
-                </button>
-              </SheetTrigger>
-              <SheetContent side="bottom" className="bg-black/95 border-white/20">
-                <SheetHeader>
-                  <SheetTitle className="text-white text-center">Select Day</SheetTitle>
-                </SheetHeader>
-                <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-3 mt-6 max-h-[60vh] overflow-y-auto">
-                  {vocabularyData.map((dayData) => (
-                    <button
-                      key={dayData.day}
-                      onClick={() => handleDaySelect(dayData.day)}
-                      className={`px-4 py-3 rounded-lg text-sm font-medium transition-colors ${
-                        currentDay === dayData.day
-                          ? 'bg-white text-black'
-                          : 'bg-white/20 text-white hover:bg-white/30'
-                      }`}
-                    >
-                      Day {dayData.day}
-                    </button>
-                  ))}
-                </div>
-              </SheetContent>
-            </Sheet>
-            <Button
-              variant="ghost"
-              size="icon"
-              className="text-white hover:bg-white/20 rounded-full p-3 h-12 w-16"
-              onClick={handleNextDay}
-              disabled={vocabularyData.length <= 1 || animating}
-            >
-              <ChevronRight className="h-10 w-10" />
-              <span className="sr-only">Next Day</span>
-            </Button>
-          </div>
-        )}
-      </header>
-      
-      {/* Word Card Container */}
-      <div 
-        ref={containerRef}
-        className="flex-1 relative overflow-hidden"
-        onMouseDown={handleMouseDown}
-        onMouseMove={handleMouseMove}
-        onMouseUp={handleMouseUp}
-        onMouseLeave={handleMouseLeave}
-      >
-        {/* Current Card - starts at translateY(0) */}
+
+          {viewMode === 'day' && (
+            <div className="flex items-center justify-center">
+              <Button
+                variant="ghost"
+                size="icon"
+                className="text-white hover:bg-white/20 rounded-full p-3 h-12 w-16"
+                onClick={handlePreviousDay}
+                disabled={vocabularyData.length <= 1 || animating}
+              >
+                <ChevronLeft className="h-10 w-10" />
+                <span className="sr-only">Previous Day</span>
+              </Button>
+              <Sheet open={sheetOpen} onOpenChange={setSheetOpen}>
+                <SheetTrigger asChild>
+                  <button
+                    className="bg-white/20 backdrop-blur-sm text-white px-6 py-0.5 rounded-full text-sm font-medium shadow-sm mx-4 border border-white/20 min-w-[120px] text-center hover:bg-white/30 transition-colors cursor-pointer"
+                    disabled={animating}
+                  >
+                    Day {currentDay}
+                  </button>
+                </SheetTrigger>
+                <SheetContent side="bottom" className="bg-black/95 border-white/20">
+                  <SheetHeader>
+                    <SheetTitle className="text-white text-center">Select Day</SheetTitle>
+                  </SheetHeader>
+                  <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-3 mt-6 max-h-[60vh] overflow-y-auto">
+                    {vocabularyData.map((dayData) => (
+                      <button
+                        key={dayData.day}
+                        onClick={() => handleDaySelect(dayData.day)}
+                        className={`px-4 py-3 rounded-lg text-sm font-medium transition-colors ${currentDay === dayData.day
+                            ? 'bg-white text-black'
+                            : 'bg-white/20 text-white hover:bg-white/30'
+                          }`}
+                      >
+                        Day {dayData.day}
+                      </button>
+                    ))}
+                  </div>
+                </SheetContent>
+              </Sheet>
+              <Button
+                variant="ghost"
+                size="icon"
+                className="text-white hover:bg-white/20 rounded-full p-3 h-12 w-16"
+                onClick={handleNextDay}
+                disabled={vocabularyData.length <= 1 || animating}
+              >
+                <ChevronRight className="h-10 w-10" />
+                <span className="sr-only">Next Day</span>
+              </Button>
+            </div>
+          )}
+        </header>
+
+        {/* Word Card Container */}
         <div
-          ref={currentCardRef}
-          className="absolute inset-0 flex flex-col justify-center items-center p-8 text-center will-change-transform"
-          style={{
-            background: currentBackground,
-            transform: 'translateY(0)',
-          }}
+          ref={containerRef}
+          className="flex-1 relative overflow-hidden"
+          onMouseDown={handleMouseDown}
+          onMouseMove={handleMouseMove}
+          onMouseUp={handleMouseUp}
+          onMouseLeave={handleMouseLeave}
         >
-          <div className="absolute inset-0 bg-black/25 pointer-events-none" />
-          
-          <div className="relative z-10 w-full max-w-2xl space-y-6 overflow-hidden px-4">
-            <div className="space-y-5">
-              <h2 
-                className="font-bold text-white drop-shadow-2xl"
-                style={{ 
-                  fontSize: getWordFontSize(currentWord.english),
-                  textShadow: '0 4px 12px rgba(0,0,0,0.5)',
-                  wordBreak: 'keep-all',
-                  overflowWrap: 'normal'
-                }}
-              >
-                {renderClickableWords(currentWord.english)}
-              </h2>
-              <p 
-                className="text-[#FFD700] font-medium drop-shadow-lg"
-                style={{ 
-                  fontSize: getTranslationFontSize(language === 'japanese' ? currentWord.japanese : currentWord.chinese),
-                  textShadow: '0 2px 8px rgba(0,0,0,0.5)',
-                  wordBreak: 'keep-all',
-                  overflowWrap: 'normal'
-                }}
-              >
-                {language === 'japanese' ? currentWord.japanese : currentWord.chinese}
-              </p>
+          {/* Current Card - starts at translateY(0) */}
+          <div
+            ref={currentCardRef}
+            className="absolute inset-0 flex flex-col justify-center items-center p-8 text-center will-change-transform"
+            style={{
+              background: currentBackground,
+              transform: 'translateY(0)',
+            }}
+          >
+            <div className="absolute inset-0 bg-black/25 pointer-events-none" />
+
+            <div className="relative z-10 w-full max-w-2xl space-y-6 overflow-hidden px-4">
+              <div className="space-y-5">
+                <h2
+                  className="font-bold text-white drop-shadow-2xl"
+                  style={{
+                    fontSize: getWordFontSize(currentWord.english),
+                    textShadow: '0 4px 12px rgba(0,0,0,0.5)',
+                    wordBreak: 'keep-all',
+                    overflowWrap: 'normal'
+                  }}
+                >
+                  {renderClickableWords(currentWord.english)}
+                </h2>
+                <p
+                  className="text-[#FFD700] font-medium drop-shadow-lg"
+                  style={{
+                    fontSize: getTranslationFontSize(language === 'japanese' ? currentWord.japanese : currentWord.chinese),
+                    textShadow: '0 2px 8px rgba(0,0,0,0.5)',
+                    wordBreak: 'keep-all',
+                    overflowWrap: 'normal'
+                  }}
+                >
+                  {language === 'japanese' ? currentWord.japanese : currentWord.chinese}
+                </p>
+              </div>
+
+              <div className="h-px bg-white/30 w-full max-w-md mx-auto my-[60px]" />
+
+              <div className="space-y-4">
+                <p
+                  onClick={() => playAudio(currentWord.englishSentence, 'sentence_audio_played')}
+                  className="text-[28px] text-white cursor-pointer hover:scale-105 transition-transform drop-shadow-lg leading-relaxed"
+                  style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
+                >
+                  {currentWord.englishSentence}
+                </p>
+                <p
+                  className="text-[24px] text-[#B0B0B0] drop-shadow-lg"
+                  style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
+                >
+                  {language === 'japanese' ? currentWord.japaneseSentence : currentWord.chineseSentence}
+                </p>
+              </div>
+
+              <div className="pt-4">
+                <span className="inline-block bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-medium border border-white/30">
+                  {currentWord.partOfSpeech}
+                </span>
+              </div>
             </div>
-            
-            <div className="h-px bg-white/30 w-full max-w-md mx-auto my-[60px]" />
-            
-            <div className="space-y-4">
-              <p 
-                onClick={() => playAudio(currentWord.englishSentence, 'sentence_audio_played')}
-                className="text-[28px] text-white cursor-pointer hover:scale-105 transition-transform drop-shadow-lg leading-relaxed"
-                style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
-              >
-                {currentWord.englishSentence}
-              </p>
-              <p 
-                className="text-[24px] text-[#B0B0B0] drop-shadow-lg"
-                style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
-              >
-                {language === 'japanese' ? currentWord.japaneseSentence : currentWord.chineseSentence}
-              </p>
-            </div>
-            
-            <div className="pt-4">
-              <span className="inline-block bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-medium border border-white/30">
-                {currentWord.partOfSpeech}
-              </span>
-            </div>
+
+            {/* Swipe Indicator - only show on first slide */}
+            {currentIndex === startingIndex && (
+              <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white/50 text-sm flex flex-col items-center gap-1">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="animate-bounce"
+                >
+                  <path d="M18 15l-6-6-6 6" />
+                </svg>
+                <span>Swipe to continue</span>
+              </div>
+            )}
           </div>
-          
-          {/* Swipe Indicator - only show on first slide */}
-          {currentIndex === startingIndex && (
-            <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white/50 text-sm flex flex-col items-center gap-1">
-              <svg 
-                width="24" 
-                height="24" 
-                viewBox="0 0 24 24" 
-                fill="none" 
-                stroke="currentColor" 
-                strokeWidth="2" 
-                strokeLinecap="round" 
-                strokeLinejoin="round"
-                className="animate-bounce"
-              >
-                <path d="M18 15l-6-6-6 6"/>
-              </svg>
-              <span>Swipe to continue</span>
+
+          {/* Previous Card - starts at translateY(-100%) above screen */}
+          {prevWord && (
+            <div
+              ref={prevCardRef}
+              className="absolute inset-0 flex flex-col justify-center items-center p-8 text-center will-change-transform"
+              style={{
+                background: prevBackground,
+                transform: 'translateY(-100%)',
+              }}
+            >
+              <div className="absolute inset-0 bg-black/25 pointer-events-none" />
+
+              <div className="relative z-10 w-full max-w-2xl space-y-6 overflow-hidden px-4">
+                <div className="space-y-5">
+                  <h2
+                    className="font-bold text-white drop-shadow-2xl"
+                    style={{
+                      fontSize: getWordFontSize(prevWord.english),
+                      textShadow: '0 4px 12px rgba(0,0,0,0.5)',
+                      wordBreak: 'keep-all',
+                      overflowWrap: 'normal'
+                    }}
+                  >
+                    {renderClickableWords(prevWord.english)}
+                  </h2>
+                  <p
+                    className="text-[#FFD700] font-medium drop-shadow-lg"
+                    style={{
+                      fontSize: getTranslationFontSize(language === 'japanese' ? prevWord.japanese : prevWord.chinese),
+                      textShadow: '0 2px 8px rgba(0,0,0,0.5)',
+                      wordBreak: 'keep-all',
+                      overflowWrap: 'normal'
+                    }}
+                  >
+                    {language === 'japanese' ? prevWord.japanese : prevWord.chinese}
+                  </p>
+                </div>
+
+                <div className="h-px bg-white/30 w-full max-w-md mx-auto my-[60px]" />
+
+                <div className="space-y-4">
+                  <p
+                    onClick={() => playAudio(prevWord.englishSentence, 'sentence_audio_played')}
+                    className="text-[28px] text-white cursor-pointer hover:scale-105 transition-transform drop-shadow-lg leading-relaxed"
+                    style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
+                  >
+                    {prevWord.englishSentence}
+                  </p>
+                  <p
+                    className="text-[24px] text-[#B0B0B0] drop-shadow-lg"
+                    style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
+                  >
+                    {language === 'japanese' ? prevWord.japaneseSentence : prevWord.chineseSentence}
+                  </p>
+                </div>
+
+                <div className="pt-4">
+                  <span className="inline-block bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-medium border border-white/30">
+                    {prevWord.partOfSpeech}
+                  </span>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Next Card - starts at translateY(100%) below screen */}
+          {nextWord && (
+            <div
+              ref={nextCardRef}
+              className="absolute inset-0 flex flex-col justify-center items-center p-8 text-center will-change-transform"
+              style={{
+                background: nextBackground,
+                transform: 'translateY(100%)',
+              }}
+            >
+              <div className="absolute inset-0 bg-black/25 pointer-events-none" />
+
+              <div className="relative z-10 w-full max-w-2xl space-y-6 overflow-hidden px-4">
+                <div className="space-y-5">
+                  <h2
+                    className="font-bold text-white drop-shadow-2xl"
+                    style={{
+                      fontSize: getWordFontSize(nextWord.english),
+                      textShadow: '0 4px 12px rgba(0,0,0,0.5)',
+                      wordBreak: 'keep-all',
+                      overflowWrap: 'normal'
+                    }}
+                  >
+                    {renderClickableWords(nextWord.english)}
+                  </h2>
+                  <p
+                    className="text-[#FFD700] font-medium drop-shadow-lg"
+                    style={{
+                      fontSize: getTranslationFontSize(language === 'japanese' ? nextWord.japanese : nextWord.chinese),
+                      textShadow: '0 2px 8px rgba(0,0,0,0.5)',
+                      wordBreak: 'keep-all',
+                      overflowWrap: 'normal'
+                    }}
+                  >
+                    {language === 'japanese' ? nextWord.japanese : nextWord.chinese}
+                  </p>
+                </div>
+
+                <div className="h-px bg-white/30 w-full max-w-md mx-auto my-[60px]" />
+
+                <div className="space-y-4">
+                  <p
+                    onClick={() => playAudio(nextWord.englishSentence, 'sentence_audio_played')}
+                    className="text-[28px] text-white cursor-pointer hover:scale-105 transition-transform drop-shadow-lg leading-relaxed"
+                    style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
+                  >
+                    {nextWord.englishSentence}
+                  </p>
+                  <p
+                    className="text-[24px] text-[#B0B0B0] drop-shadow-lg"
+                    style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
+                  >
+                    {language === 'japanese' ? nextWord.japaneseSentence : nextWord.chineseSentence}
+                  </p>
+                </div>
+
+                <div className="pt-4">
+                  <span className="inline-block bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-medium border border-white/30">
+                    {nextWord.partOfSpeech}
+                  </span>
+                </div>
+              </div>
             </div>
           )}
         </div>
-
-        {/* Previous Card - starts at translateY(-100%) above screen */}
-        {prevWord && (
-          <div
-            ref={prevCardRef}
-            className="absolute inset-0 flex flex-col justify-center items-center p-8 text-center will-change-transform"
-            style={{
-              background: prevBackground,
-              transform: 'translateY(-100%)',
-            }}
-          >
-            <div className="absolute inset-0 bg-black/25 pointer-events-none" />
-            
-            <div className="relative z-10 w-full max-w-2xl space-y-6 overflow-hidden px-4">
-              <div className="space-y-5">
-                <h2 
-                  className="font-bold text-white drop-shadow-2xl"
-                  style={{ 
-                    fontSize: getWordFontSize(prevWord.english),
-                    textShadow: '0 4px 12px rgba(0,0,0,0.5)',
-                    wordBreak: 'keep-all',
-                    overflowWrap: 'normal'
-                  }}
-                >
-                  {renderClickableWords(prevWord.english)}
-                </h2>
-                <p 
-                  className="text-[#FFD700] font-medium drop-shadow-lg"
-                  style={{ 
-                    fontSize: getTranslationFontSize(language === 'japanese' ? prevWord.japanese : prevWord.chinese),
-                    textShadow: '0 2px 8px rgba(0,0,0,0.5)',
-                    wordBreak: 'keep-all',
-                    overflowWrap: 'normal'
-                  }}
-                >
-                  {language === 'japanese' ? prevWord.japanese : prevWord.chinese}
-                </p>
-              </div>
-              
-              <div className="h-px bg-white/30 w-full max-w-md mx-auto my-[60px]" />
-              
-              <div className="space-y-4">
-                <p 
-                  onClick={() => playAudio(prevWord.englishSentence, 'sentence_audio_played')}
-                  className="text-[28px] text-white cursor-pointer hover:scale-105 transition-transform drop-shadow-lg leading-relaxed"
-                  style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
-                >
-                  {prevWord.englishSentence}
-                </p>
-                <p 
-                  className="text-[24px] text-[#B0B0B0] drop-shadow-lg"
-                  style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
-                >
-                  {language === 'japanese' ? prevWord.japaneseSentence : prevWord.chineseSentence}
-                </p>
-              </div>
-              
-              <div className="pt-4">
-                <span className="inline-block bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-medium border border-white/30">
-                  {prevWord.partOfSpeech}
-                </span>
-              </div>
-            </div>
-          </div>
-        )}
-
-        {/* Next Card - starts at translateY(100%) below screen */}
-        {nextWord && (
-          <div
-            ref={nextCardRef}
-            className="absolute inset-0 flex flex-col justify-center items-center p-8 text-center will-change-transform"
-            style={{
-              background: nextBackground,
-              transform: 'translateY(100%)',
-            }}
-          >
-            <div className="absolute inset-0 bg-black/25 pointer-events-none" />
-            
-            <div className="relative z-10 w-full max-w-2xl space-y-6 overflow-hidden px-4">
-              <div className="space-y-5">
-                <h2 
-                  className="font-bold text-white drop-shadow-2xl"
-                  style={{ 
-                    fontSize: getWordFontSize(nextWord.english),
-                    textShadow: '0 4px 12px rgba(0,0,0,0.5)',
-                    wordBreak: 'keep-all',
-                    overflowWrap: 'normal'
-                  }}
-                >
-                  {renderClickableWords(nextWord.english)}
-                </h2>
-                <p 
-                  className="text-[#FFD700] font-medium drop-shadow-lg"
-                  style={{ 
-                    fontSize: getTranslationFontSize(language === 'japanese' ? nextWord.japanese : nextWord.chinese),
-                    textShadow: '0 2px 8px rgba(0,0,0,0.5)',
-                    wordBreak: 'keep-all',
-                    overflowWrap: 'normal'
-                  }}
-                >
-                  {language === 'japanese' ? nextWord.japanese : nextWord.chinese}
-                </p>
-              </div>
-              
-              <div className="h-px bg-white/30 w-full max-w-md mx-auto my-[60px]" />
-              
-              <div className="space-y-4">
-                <p 
-                  onClick={() => playAudio(nextWord.englishSentence, 'sentence_audio_played')}
-                  className="text-[28px] text-white cursor-pointer hover:scale-105 transition-transform drop-shadow-lg leading-relaxed"
-                  style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
-                >
-                  {nextWord.englishSentence}
-                </p>
-                <p 
-                  className="text-[24px] text-[#B0B0B0] drop-shadow-lg"
-                  style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
-                >
-                  {language === 'japanese' ? nextWord.japaneseSentence : nextWord.chineseSentence}
-                </p>
-              </div>
-              
-              <div className="pt-4">
-                <span className="inline-block bg-white/20 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm font-medium border border-white/30">
-                  {nextWord.partOfSpeech}
-                </span>
-              </div>
-            </div>
-          </div>
-        )}
       </div>
-    </div>
     </>
   )
 }
