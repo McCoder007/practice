@@ -180,7 +180,7 @@ export default function WordReelPage() {
       if (stored === 'true') {
         setAutoSpeak(true)
       }
-    } catch (error) {
+    } catch {
       // localStorage might not be available
     }
   }, [])
@@ -191,13 +191,13 @@ export default function WordReelPage() {
       const newValue = !prev
       try {
         localStorage.setItem('word-reel-auto-speak', String(newValue))
-      } catch (error) {
+      } catch {
         // localStorage might not be available
       }
       // Removed immediate playback - let the effect handle it
       return newValue
     })
-  }, [words, currentIndex, analyticsInitialized])
+  }, [])
 
   // Track window width for responsive font sizing
   useEffect(() => {
