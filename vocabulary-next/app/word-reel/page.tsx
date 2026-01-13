@@ -229,6 +229,7 @@ export default function WordReelPage() {
   // Preload audio for current, next, and previous words for instant playback
   useEffect(() => {
     if (words.length === 0) return
+    if (currentIndex < 0 || currentIndex >= words.length) return
 
     const currentWord = words[currentIndex]
     const prevIndex = (currentIndex - 1 + words.length) % words.length
@@ -239,17 +240,29 @@ export default function WordReelPage() {
     // Collect all texts to preload (words and sentences)
     const textsToPreload: string[] = []
     
-    if (currentWord) {
-      textsToPreload.push(currentWord.english, currentWord.englishSentence)
+    // Validate current word exists and has required properties
+    if (currentWord && currentWord.english) {
+      textsToPreload.push(currentWord.english)
+      if (currentWord.englishSentence) {
+        textsToPreload.push(currentWord.englishSentence)
+      }
     }
-    if (nextWord && nextIndex !== currentIndex) {
-      textsToPreload.push(nextWord.english, nextWord.englishSentence)
+    // Validate next word exists and has required properties
+    if (nextWord && nextIndex !== currentIndex && nextWord.english) {
+      textsToPreload.push(nextWord.english)
+      if (nextWord.englishSentence) {
+        textsToPreload.push(nextWord.englishSentence)
+      }
     }
-    if (prevWord && prevIndex !== currentIndex) {
-      textsToPreload.push(prevWord.english, prevWord.englishSentence)
+    // Validate prev word exists and has required properties
+    if (prevWord && prevIndex !== currentIndex && prevWord.english) {
+      textsToPreload.push(prevWord.english)
+      if (prevWord.englishSentence) {
+        textsToPreload.push(prevWord.englishSentence)
+      }
     }
 
-    // Preload all texts
+    // Preload all texts (filter out any undefined/null values)
     preloadTexts(textsToPreload.filter(Boolean))
   }, [currentIndex, words])
 
@@ -258,17 +271,25 @@ export default function WordReelPage() {
     if (!autoSpeak || words.length === 0) return
     if (!hasUserNavigated.current) return // Don't auto-speak on initial mount
     if (sheetOpen) return // Don't auto-speak when sheet menu is open
+    if (currentIndex < 0 || currentIndex >= words.length) return
 
     const currentWord = words[currentIndex]
-    if (!currentWord) return
+    // Validate word exists and has required properties
+    if (!currentWord || !currentWord.english) return
 
     // Wait for animation to complete, then play audio
+    // Use a slightly longer delay for wrap transitions to ensure word data is stable
     const timeoutId = setTimeout(() => {
-      playText(currentWord.english)
-      if (analyticsInitialized) {
-        logWordInteraction(currentWord.english, 'word_audio_played')
+      // Double-check that the word hasn't changed during the timeout
+      // This is especially important during wrap transitions
+      const wordAtTimeout = words[currentIndex]
+      if (wordAtTimeout && wordAtTimeout.english === currentWord.english) {
+        playText(currentWord.english)
+        if (analyticsInitialized) {
+          logWordInteraction(currentWord.english, 'word_audio_played')
+        }
       }
-    }, 50) // Small delay to let the animation settle
+    }, 100) // Increased delay to ensure word data is stable after wrap transitions
 
     return () => clearTimeout(timeoutId)
   }, [currentIndex, autoSpeak, words, analyticsInitialized, sheetOpen])
@@ -377,7 +398,20 @@ export default function WordReelPage() {
       
       // After animation completes, update state
       setTimeout(() => {
-        const nextIdx = (currentIndexRef.current + 1) % words.length
+        // Capture words.length at the time of update to ensure consistency
+        const wordsLength = words.length
+        if (wordsLength === 0) {
+          setAnimating(false)
+          return
+        }
+        
+        const nextIdx = (currentIndexRef.current + 1) % wordsLength
+        
+        // Validate the calculated index is within bounds
+        if (nextIdx < 0 || nextIdx >= wordsLength) {
+          setAnimating(false)
+          return
+        }
         
         // Remove transitions BEFORE state update to prevent flash
         if (currentCard) currentCard.style.transition = 'none'
@@ -404,7 +438,20 @@ export default function WordReelPage() {
       
       // After animation completes, update state
       setTimeout(() => {
-        const prevIdx = (currentIndexRef.current - 1 + words.length) % words.length
+        // Capture words.length at the time of update to ensure consistency
+        const wordsLength = words.length
+        if (wordsLength === 0) {
+          setAnimating(false)
+          return
+        }
+        
+        const prevIdx = (currentIndexRef.current - 1 + wordsLength) % wordsLength
+        
+        // Validate the calculated index is within bounds
+        if (prevIdx < 0 || prevIdx >= wordsLength) {
+          setAnimating(false)
+          return
+        }
         
         // Remove transitions BEFORE state update to prevent flash
         if (currentCard) currentCard.style.transition = 'none'
