@@ -16,7 +16,7 @@ if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
       voicesLoaded = true;
     }
   };
-  
+
   loadVoices();
   if (window.speechSynthesis.onvoiceschanged !== undefined) {
     window.speechSynthesis.onvoiceschanged = loadVoices;
@@ -55,9 +55,22 @@ export function preloadTexts(texts: string[]): void {
   });
 }
 
+/**
+ * Stop any ongoing speech.
+ */
+export function stopTTS(): void {
+  if (typeof window !== 'undefined' && window.googleTTS?.stop) {
+    window.googleTTS.stop();
+  } else if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+    window.speechSynthesis.cancel();
+  }
+}
+
 export function playText(text: string) {
   // Use optional chaining and check window object existence
   if (typeof window !== 'undefined') {
+    // REMOVED: stopTTS(); // Aggressive stop removed to prevent stuttering
+
     // Try Google TTS first if available
     if (window.googleTTS?.speak) {
       // Audio is already cached by preloadText, speak() will use cached audio instantly
@@ -66,11 +79,11 @@ export function playText(text: string) {
         // Fallback to browser TTS on Google TTS error
         playBrowserTTS(text);
       });
-    } 
+    }
     // Else, if browser speech synthesis is supported, use it
     else if ('speechSynthesis' in window) {
       playBrowserTTS(text);
-    } 
+    }
     // Else, TTS is not supported
     else {
       console.error('TTS not supported on this browser.');
@@ -110,5 +123,8 @@ function playBrowserTTS(text: string) {
   utterance.volume = 1;
 
   // Speak immediately (voices should already be loaded from module init)
+  if (window.googleTTS) {
+    window.googleTTS.browserUtterance = utterance;
+  }
   synth.speak(utterance);
-} 
+}

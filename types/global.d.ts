@@ -7,6 +7,8 @@ interface GoogleTTS {
   setVoice: (voice: string) => void;
   synthesizeSpeech: (text: string, isPreInit?: boolean) => Promise<boolean>;
   audioCache: Record<string, string>;
+  stop: () => void;
+  browserUtterance: SpeechSynthesisUtterance | null;
 }
 
 // Augment the window interface
