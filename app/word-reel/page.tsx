@@ -4,7 +4,7 @@ import React, { useState, useEffect, useCallback, useRef, Fragment, useMemo, use
 import { ChevronLeft, ChevronRight, Layers, Calendar, Volume2, VolumeX } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import vocabularyData from "@/data/vocabulary"
-import { playText, preloadTexts } from '@/lib/tts'
+import { playText, preloadTexts, playTextQueued, clearAudioQueue } from '@/lib/tts'
 import {
   initializeAnalytics,
   logWordInteraction,
@@ -65,6 +65,16 @@ export default function WordReelPage() {
   // Auto-speak state with localStorage persistence
   const [autoSpeak, setAutoSpeak] = useState(false)
   const hasUserNavigated = useRef(false) // Track if user has navigated (for auto-speak)
+  
+  // Generation counter for audio - incremented when we need to invalidate pending audio
+  // This prevents stale callbacks from playing audio for the wrong word
+  const audioGenerationRef = useRef(0)
+  // Track autoSpeak state in ref for use in callbacks without stale closures
+  const autoSpeakRef = useRef(false)
+  // Track pending speak timeouts to prevent rapid enqueues
+  const speakTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+  // Track last day change time to prevent rapid auto-speak on day changes
+  const lastDayChangeTimeRef = useRef<number>(0)
 
   // Refs for direct DOM manipulation (smooth performance)
   const startY = useRef(0)
@@ -75,10 +85,14 @@ export default function WordReelPage() {
   const isDraggingRef = useRef(false)
   const currentIndexRef = useRef(initialIndex)
 
-  // Keep ref in sync with state
+  // Keep refs in sync with state
   useEffect(() => {
     currentIndexRef.current = currentIndex
   }, [currentIndex])
+
+  useEffect(() => {
+    autoSpeakRef.current = autoSpeak
+  }, [autoSpeak])
 
   // Memoize words array to prevent recalculation on every render
   const words = useMemo((): WordCard[] => {
@@ -138,6 +152,23 @@ export default function WordReelPage() {
     }
   }, [viewMode, currentDay])
 
+  // Reset drag state when day changes to ensure scrolling works immediately
+  useEffect(() => {
+    isDraggingRef.current = false
+    setAnimating(false)
+    // Track when day changed to prevent rapid auto-speak
+    lastDayChangeTimeRef.current = Date.now()
+  }, [currentDay])
+
+  // Clear audio queue and increment generation when day or viewMode changes
+  // This ensures a clean slate for audio playback
+  useEffect(() => {
+    // Increment generation to invalidate any pending audio callbacks
+    audioGenerationRef.current += 1
+    // Clear any queued audio for a fresh start
+    clearAudioQueue()
+  }, [currentDay, viewMode])
+
   // Initialize card positions after index changes
   useLayoutEffect(() => {
     const currentCard = currentCardRef.current
@@ -185,8 +216,80 @@ export default function WordReelPage() {
     }
   }, [])
 
+  // Dedicated function to speak the current word - called after navigation completes
+  // Uses refs to avoid stale closure issues and ensure we always speak the correct word
+  const speakCurrentWord = useCallback((generation: number) => {
+    // Check if auto-speak is still enabled
+    if (!autoSpeakRef.current) return
+    
+    // Check if this is still the current generation (no day/mode change occurred)
+    if (audioGenerationRef.current !== generation) return
+    
+    // Get the current index from ref for accuracy
+    const idx = currentIndexRef.current
+    
+    // Build the current words array to get the word
+    // (We need to do this because words is memoized and might be stale in callbacks)
+    let currentWords: WordCard[]
+    if (viewMode === 'all') {
+      currentWords = []
+      vocabularyData.forEach((dayData) => {
+        dayData.words.forEach((word, wordIndex) => {
+          currentWords.push({
+            english: word.word,
+            chinese: word.translation,
+            japanese: word.japanese,
+            englishSentence: word.example,
+            chineseSentence: word.exampleTranslation,
+            japaneseSentence: word.japaneseSentence,
+            partOfSpeech: word.partOfSpeech,
+            day: dayData.day,
+            wordIndex: wordIndex
+          })
+        })
+      })
+    } else {
+      const dayData = vocabularyData.find((data) => data.day === currentDay) || vocabularyData[0]
+      currentWords = dayData.words.map((word, wordIndex) => ({
+        english: word.word,
+        chinese: word.translation,
+        japanese: word.japanese,
+        englishSentence: word.example,
+        chineseSentence: word.exampleTranslation,
+        japaneseSentence: word.japaneseSentence,
+        partOfSpeech: word.partOfSpeech,
+        day: currentDay,
+        wordIndex: wordIndex
+      }))
+    }
+    
+    // Validate index bounds
+    if (idx < 0 || idx >= currentWords.length) return
+    
+    const wordToSpeak = currentWords[idx]
+    if (!wordToSpeak || !wordToSpeak.english) return
+    
+    // Final generation check before enqueueing (in case of rapid changes)
+    if (audioGenerationRef.current !== generation) return
+    
+    // Enqueue the audio
+    playTextQueued(wordToSpeak.english).catch(error => {
+      console.error('Failed to enqueue audio:', error)
+    })
+    
+    if (analyticsInitialized) {
+      logWordInteraction(wordToSpeak.english, 'word_audio_played')
+    }
+  }, [viewMode, currentDay, analyticsInitialized])
+
   // Toggle auto-speak and persist to localStorage
   const handleAutoSpeakToggle = useCallback(() => {
+    // Clear any pending speak timeout to prevent rapid enqueues
+    if (speakTimeoutRef.current) {
+      clearTimeout(speakTimeoutRef.current)
+      speakTimeoutRef.current = null
+    }
+
     setAutoSpeak(prev => {
       const newValue = !prev
       try {
@@ -194,10 +297,26 @@ export default function WordReelPage() {
       } catch {
         // localStorage might not be available
       }
-      // Removed immediate playback - let the effect handle it
+      // Clear queue when disabling auto-speak
+      if (!newValue) {
+        clearAudioQueue()
+        // Update ref immediately when disabling
+        autoSpeakRef.current = false
+      } else {
+        // When enabling, mark as navigated and speak current word immediately
+        // This gives instant feedback that auto-speak is now active
+        hasUserNavigated.current = true
+        // Update autoSpeakRef immediately since the state update is async
+        autoSpeakRef.current = true
+        // Small delay to ensure state is settled, then speak
+        speakTimeoutRef.current = setTimeout(() => {
+          speakTimeoutRef.current = null
+          speakCurrentWord(audioGenerationRef.current)
+        }, 50)
+      }
       return newValue
     })
-  }, [])
+  }, [speakCurrentWord])
 
   // Track window width for responsive font sizing
   useEffect(() => {
@@ -266,36 +385,61 @@ export default function WordReelPage() {
     preloadTexts(textsToPreload.filter(Boolean))
   }, [currentIndex, words])
 
-  // Auto-speak when card changes (if enabled)
+  // Auto-speak when card changes (if enabled) - uses generation counter for reliability
+  // This effect triggers when the user navigates to a new word
   useEffect(() => {
-    if (!autoSpeak || words.length === 0) return
+    // Early returns for conditions that prevent auto-speak
+    if (!autoSpeak) return
     if (!hasUserNavigated.current) return // Don't auto-speak on initial mount
     if (sheetOpen) return // Don't auto-speak when sheet menu is open
+    if (words.length === 0) return
     if (currentIndex < 0 || currentIndex >= words.length) return
 
     const currentWord = words[currentIndex]
-    // Validate word exists and has required properties
     if (!currentWord || !currentWord.english) return
 
-    // Wait for animation to complete, then play audio
-    // Use a slightly longer delay for wrap transitions to ensure word data is stable
+    // Check if day just changed (within last 200ms) - if so, delay auto-speak to prevent rapid enqueues
+    // This prevents multiple audio items from being enqueued when days change rapidly
+    const timeSinceDayChange = Date.now() - lastDayChangeTimeRef.current
+    const delay = timeSinceDayChange < 200 ? 250 : 50 // Longer delay if day just changed
+
+    // Capture the current generation at the time this effect runs
+    const generation = audioGenerationRef.current
+
+    // Small delay to let any ongoing animations settle
+    // The generation check in speakCurrentWord prevents stale playback
     const timeoutId = setTimeout(() => {
-      // Double-check that the word hasn't changed during the timeout
-      // This is especially important during wrap transitions
-      const wordAtTimeout = words[currentIndex]
-      if (wordAtTimeout && wordAtTimeout.english === currentWord.english) {
-        // Use playText which now internally calls stopTTS()
-        playText(currentWord.english)
-        if (analyticsInitialized) {
-          logWordInteraction(currentWord.english, 'word_audio_played')
-        }
-      }
-    }, 150) // Increased delay slightly more for extra stability
+      speakCurrentWord(generation)
+    }, delay)
 
     return () => {
       clearTimeout(timeoutId)
     }
-  }, [currentIndex, autoSpeak, words, analyticsInitialized, sheetOpen])
+  }, [currentIndex, autoSpeak, words, sheetOpen, speakCurrentWord, currentDay])
+
+  // Clear audio queue when auto-speak is disabled or component unmounts
+  useEffect(() => {
+    if (!autoSpeak) {
+      clearAudioQueue()
+      // Clear any pending speak timeout when disabling
+      if (speakTimeoutRef.current) {
+        clearTimeout(speakTimeoutRef.current)
+        speakTimeoutRef.current = null
+      }
+    }
+  }, [autoSpeak])
+
+  // Cleanup: clear audio queue on component unmount
+  useEffect(() => {
+    return () => {
+      clearAudioQueue()
+      // Clear any pending speak timeout on unmount
+      if (speakTimeoutRef.current) {
+        clearTimeout(speakTimeoutRef.current)
+        speakTimeoutRef.current = null
+      }
+    }
+  }, [])
 
   // Handle touch/mouse start
   const handleStart = useCallback((clientY: number) => {
@@ -556,6 +700,7 @@ export default function WordReelPage() {
   // Handle mode toggle
   const handleModeToggle = useCallback(() => {
     const newMode = viewMode === 'all' ? 'day' : 'all'
+    hasUserNavigated.current = true // Enable auto-speak after mode switch
 
     // When switching from 'all' to 'day' mode, preserve the day of the currently displayed word
     if (newMode === 'day' && viewMode === 'all') {
@@ -593,8 +738,17 @@ export default function WordReelPage() {
   const handlePreviousDay = useCallback(() => {
     if (animating || viewMode === 'all') return
     hasUserNavigated.current = true
+    // Increment generation and clear queue synchronously before state update
+    // This ensures any queued effects will see the new generation immediately
+    audioGenerationRef.current += 1
+    clearAudioQueue()
+    // Reset drag state
+    isDraggingRef.current = false
+    setAnimating(false)
+    
     const prevDay = currentDay
     const newDay = currentDay > 1 ? currentDay - 1 : vocabularyData.length
+    lastDayChangeTimeRef.current = Date.now()
     setCurrentDay(newDay)
     trackDayChange(newDay, prevDay)
   }, [currentDay, animating, viewMode])
@@ -602,8 +756,17 @@ export default function WordReelPage() {
   const handleNextDay = useCallback(() => {
     if (animating || viewMode === 'all') return
     hasUserNavigated.current = true
+    // Increment generation and clear queue synchronously before state update
+    // This ensures any queued effects will see the new generation immediately
+    audioGenerationRef.current += 1
+    clearAudioQueue()
+    // Reset drag state
+    isDraggingRef.current = false
+    setAnimating(false)
+    
     const prevDay = currentDay
     const newDay = currentDay < vocabularyData.length ? currentDay + 1 : 1
+    lastDayChangeTimeRef.current = Date.now()
     setCurrentDay(newDay)
     trackDayChange(newDay, prevDay)
   }, [currentDay, animating, viewMode])
@@ -612,7 +775,16 @@ export default function WordReelPage() {
   const handleDaySelect = useCallback((selectedDay: number) => {
     if (animating || viewMode === 'all') return
     hasUserNavigated.current = true
+    // Increment generation and clear queue synchronously before state update
+    // This ensures any queued effects will see the new generation immediately
+    audioGenerationRef.current += 1
+    clearAudioQueue()
+    // Reset drag state
+    isDraggingRef.current = false
+    setAnimating(false)
+    
     const prevDay = currentDay
+    lastDayChangeTimeRef.current = Date.now()
     setCurrentDay(selectedDay)
     trackDayChange(selectedDay, prevDay)
     setSheetOpen(false)

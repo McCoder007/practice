@@ -9,6 +9,7 @@ interface GoogleTTS {
   audioCache: Record<string, string>;
   stop: () => void;
   browserUtterance: SpeechSynthesisUtterance | null;
+  currentAudio: HTMLAudioElement | null;
 }
 
 // Augment the window interface

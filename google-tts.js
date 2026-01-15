@@ -220,13 +220,37 @@ class GoogleTTSManager {
         if (!this.apiKey) {
             console.warn('Google TTS API key not set. Using browser TTS fallback.');
             // REMOVED: this.stop(); // Aggressive stop removed
-            return isPreInit ? false : this.browserTTS.speak(text);
+            if (isPreInit) {
+                return false;
+            }
+            // Return a promise for browser TTS to work with queue system
+            return new Promise((resolve, reject) => {
+                const utterance = this.browserTTS.speak(text);
+                if (utterance) {
+                    utterance.onend = () => resolve();
+                    utterance.onerror = (event) => reject(new Error(`Browser TTS error: ${event.error}`));
+                } else {
+                    resolve(); // If utterance creation failed, resolve anyway to continue queue
+                }
+            });
         }
 
         // Check if API key is the placeholder
         if (this.apiKey.startsWith('__GOOGLE_TTS_API_KEY__')) {
             console.error('API key is still the placeholder! Using browser TTS fallback.');
-            return isPreInit ? false : this.browserTTS.speak(text);
+            if (isPreInit) {
+                return false;
+            }
+            // Return a promise for browser TTS to work with queue system
+            return new Promise((resolve, reject) => {
+                const utterance = this.browserTTS.speak(text);
+                if (utterance) {
+                    utterance.onend = () => resolve();
+                    utterance.onerror = (event) => reject(new Error(`Browser TTS error: ${event.error}`));
+                } else {
+                    resolve(); // If utterance creation failed, resolve anyway to continue queue
+                }
+            });
         }
 
         // Debug logging
@@ -356,7 +380,16 @@ class GoogleTTSManager {
             }
 
             console.log('Falling back to browser TTS');
-            return this.browserTTS.speak(text);
+            // Return a promise for browser TTS to work with queue system
+            return new Promise((resolve, reject) => {
+                const utterance = this.browserTTS.speak(text);
+                if (utterance) {
+                    utterance.onend = () => resolve();
+                    utterance.onerror = (event) => reject(new Error(`Browser TTS error: ${event.error}`));
+                } else {
+                    resolve(); // If utterance creation failed, resolve anyway to continue queue
+                }
+            });
         }
     }
 
