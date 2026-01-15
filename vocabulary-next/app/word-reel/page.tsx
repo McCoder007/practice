@@ -4,7 +4,7 @@ import React, { useState, useEffect, useCallback, useRef, Fragment, useMemo, use
 import { ChevronLeft, ChevronRight, Layers, Calendar, Volume2, VolumeX } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import vocabularyData from "@/data/vocabulary"
-import { playText, preloadTexts } from '@/lib/tts'
+import { playText, preloadTexts, playTextQueued, clearAudioQueue } from '@/lib/tts'
 import {
   initializeAnalytics,
   logWordInteraction,
@@ -194,7 +194,10 @@ export default function WordReelPage() {
       } catch {
         // localStorage might not be available
       }
-      // Removed immediate playback - let the effect handle it
+      // Clear queue when disabling auto-speak
+      if (!newValue) {
+        clearAudioQueue()
+      }
       return newValue
     })
   }, [])
@@ -266,7 +269,7 @@ export default function WordReelPage() {
     preloadTexts(textsToPreload.filter(Boolean))
   }, [currentIndex, words])
 
-  // Auto-speak when card changes (if enabled)
+  // Auto-speak when card changes (if enabled) - uses queue system for sequential playback
   useEffect(() => {
     if (!autoSpeak || words.length === 0) return
     if (!hasUserNavigated.current) return // Don't auto-speak on initial mount
@@ -277,15 +280,17 @@ export default function WordReelPage() {
     // Validate word exists and has required properties
     if (!currentWord || !currentWord.english) return
 
-    // Wait for animation to complete, then play audio
+    // Wait for animation to complete, then enqueue audio
     // Use a slightly longer delay for wrap transitions to ensure word data is stable
     const timeoutId = setTimeout(() => {
       // Double-check that the word hasn't changed during the timeout
       // This is especially important during wrap transitions
       const wordAtTimeout = words[currentIndex]
       if (wordAtTimeout && wordAtTimeout.english === currentWord.english) {
-        // Use playText which now internally calls stopTTS()
-        playText(currentWord.english)
+        // Use playTextQueued to add to queue - ensures sequential playback
+        playTextQueued(currentWord.english).catch(error => {
+          console.error('Failed to enqueue audio:', error)
+        })
         if (analyticsInitialized) {
           logWordInteraction(currentWord.english, 'word_audio_played')
         }
@@ -296,6 +301,20 @@ export default function WordReelPage() {
       clearTimeout(timeoutId)
     }
   }, [currentIndex, autoSpeak, words, analyticsInitialized, sheetOpen])
+
+  // Clear audio queue when auto-speak is disabled or component unmounts
+  useEffect(() => {
+    if (!autoSpeak) {
+      clearAudioQueue()
+    }
+  }, [autoSpeak])
+
+  // Cleanup: clear audio queue on component unmount
+  useEffect(() => {
+    return () => {
+      clearAudioQueue()
+    }
+  }, [])
 
   // Handle touch/mouse start
   const handleStart = useCallback((clientY: number) => {

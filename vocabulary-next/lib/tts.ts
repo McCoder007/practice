@@ -1,3 +1,5 @@
+import { enqueueAudio, clearAudioQueue as clearQueue, isAudioPlaying } from './audio-queue';
+
 // Cache for browser TTS voice configuration (to avoid repeated lookups)
 let cachedVoice: SpeechSynthesisVoice | null = null;
 let voicesLoaded = false;
@@ -127,4 +129,38 @@ function playBrowserTTS(text: string) {
     window.googleTTS.browserUtterance = utterance;
   }
   synth.speak(utterance);
+}
+
+/**
+ * Play text using the audio queue system (for auto-speak)
+ * This ensures sequential playback without race conditions
+ */
+export function playTextQueued(text: string): Promise<void> {
+  if (typeof window === 'undefined' || !text) {
+    return Promise.resolve();
+  }
+
+  return enqueueAudio(text);
+}
+
+/**
+ * Clear the audio queue and stop current playback
+ */
+export function clearAudioQueue(): void {
+  if (typeof window === 'undefined') {
+    return;
+  }
+
+  clearQueue();
+}
+
+/**
+ * Check if audio is currently playing in the queue
+ */
+export function isAudioQueuePlaying(): boolean {
+  if (typeof window === 'undefined') {
+    return false;
+  }
+
+  return isAudioPlaying();
 }
