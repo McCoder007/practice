@@ -12,6 +12,9 @@ type AudioQueueItem = {
   reject: (error: Error) => void;
 };
 
+// Maximum time to wait for a single audio to complete (prevents queue from hanging)
+const AUDIO_TIMEOUT_MS = 10000; // 10 seconds max per word
+
 class AudioQueueManager {
   private queue: AudioQueueItem[] = [];
   private isProcessing = false;
@@ -93,7 +96,8 @@ class AudioQueueManager {
       if (!item) break;
 
       try {
-        await this.playAudio(item.text);
+        // Wrap playAudio with a timeout to prevent hanging
+        await this.playAudioWithTimeout(item.text);
         item.resolve();
       } catch (error) {
         console.error('Audio playback error:', error);
@@ -104,6 +108,61 @@ class AudioQueueManager {
 
     this.isProcessing = false;
     this.currentAudio = null;
+  }
+
+  /**
+   * Play audio with a timeout to prevent the queue from hanging
+   */
+  private async playAudioWithTimeout(text: string): Promise<void> {
+    return new Promise((resolve, reject) => {
+      let timeoutId: ReturnType<typeof setTimeout> | null = null;
+      let resolved = false;
+
+      // Set up timeout
+      timeoutId = setTimeout(() => {
+        if (!resolved) {
+          resolved = true;
+          console.warn(`Audio playback timed out for: "${text}"`);
+          // Stop current playback to prevent overlap
+          this.stopCurrentAudio();
+          resolve(); // Resolve instead of reject to continue queue processing
+        }
+      }, AUDIO_TIMEOUT_MS);
+
+      // Attempt to play
+      this.playAudio(text)
+        .then(() => {
+          if (!resolved) {
+            resolved = true;
+            if (timeoutId) clearTimeout(timeoutId);
+            resolve();
+          }
+        })
+        .catch((error) => {
+          if (!resolved) {
+            resolved = true;
+            if (timeoutId) clearTimeout(timeoutId);
+            reject(error);
+          }
+        });
+    });
+  }
+
+  /**
+   * Stop the current audio playback
+   */
+  private stopCurrentAudio(): void {
+    if (this.currentAudio) {
+      if (this.currentAudio instanceof HTMLAudioElement) {
+        this.currentAudio.pause();
+        this.currentAudio.src = '';
+      } else if (this.currentAudio instanceof SpeechSynthesisUtterance) {
+        if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+          window.speechSynthesis.cancel();
+        }
+      }
+      this.currentAudio = null;
+    }
   }
 
   /**
@@ -142,18 +201,87 @@ class AudioQueueManager {
       throw new Error('Google TTS not available');
     }
 
+    // Check if cancelled before starting
+    if (this.isCancelled) {
+      return;
+    }
+
     // Google TTS speak() returns a promise that resolves when audio finishes
     const audioPromise = window.googleTTS.speak(text);
 
     // Store reference to current audio for potential cancellation
     // The audio is created synchronously in playAudioFromBase64, so we can check after a microtask
     await Promise.resolve(); // Allow currentAudio to be set
+    
+    // Check again if cancelled after microtask
+    if (this.isCancelled) {
+      // Stop the audio that was just started
+      if (window.googleTTS.currentAudio) {
+        window.googleTTS.currentAudio.pause();
+        window.googleTTS.currentAudio.src = '';
+        window.googleTTS.currentAudio = null;
+      }
+      if (window.googleTTS.stop) {
+        window.googleTTS.stop();
+      }
+      return;
+    }
+
     if (window.googleTTS.currentAudio) {
       this.currentAudio = window.googleTTS.currentAudio;
     }
 
-    await audioPromise;
-    this.currentAudio = null;
+    try {
+      // Wrap in a cancellation-aware promise
+      let checkInterval: ReturnType<typeof setInterval> | null = null;
+      
+      await Promise.race([
+        audioPromise.finally(() => {
+          // Clear interval when audio finishes
+          if (checkInterval) {
+            clearInterval(checkInterval);
+            checkInterval = null;
+          }
+        }),
+        new Promise<void>((resolve) => {
+          // Check cancellation periodically
+          checkInterval = setInterval(() => {
+            if (this.isCancelled) {
+              if (checkInterval) {
+                clearInterval(checkInterval);
+                checkInterval = null;
+              }
+              // Stop the audio
+              if (this.currentAudio instanceof HTMLAudioElement) {
+                this.currentAudio.pause();
+                this.currentAudio.src = '';
+              }
+              if (window.googleTTS?.stop) {
+                window.googleTTS.stop();
+              }
+              this.currentAudio = null;
+              resolve();
+            }
+          }, 50); // Check every 50ms
+        })
+      ]);
+    } catch (error) {
+      // Handle errors gracefully - log with context but don't let them cause duplicate playback
+      console.error(`Error playing cached audio for "${text}":`, error);
+      // Ensure cleanup even on error
+      if (this.currentAudio instanceof HTMLAudioElement) {
+        this.currentAudio.pause();
+        this.currentAudio.src = '';
+      }
+      if (window.googleTTS?.stop) {
+        window.googleTTS.stop();
+      }
+      // Don't throw - let the queue continue processing
+      // The error is already logged, and we've cleaned up
+    } finally {
+      // Always nullify currentAudio, even if cancelled or errored
+      this.currentAudio = null;
+    }
   }
 
   /**
@@ -162,6 +290,11 @@ class AudioQueueManager {
   private async playBrowserTTS(text: string): Promise<void> {
     if (!('speechSynthesis' in window)) {
       throw new Error('Browser TTS not available');
+    }
+
+    // Check if cancelled before starting
+    if (this.isCancelled) {
+      return;
     }
 
     const synth = window.speechSynthesis;
@@ -193,15 +326,41 @@ class AudioQueueManager {
 
     // Return a promise that resolves when utterance finishes
     return new Promise((resolve, reject) => {
+      // Check if cancelled before speaking
+      if (this.isCancelled) {
+        synth.cancel();
+        this.currentAudio = null;
+        resolve();
+        return;
+      }
+
+      // Check cancellation periodically while speaking
+      const checkInterval = setInterval(() => {
+        if (this.isCancelled) {
+          clearInterval(checkInterval);
+          synth.cancel();
+          this.currentAudio = null;
+          resolve();
+        }
+      }, 50);
+
       utterance.onend = () => {
+        clearInterval(checkInterval);
+        // Always resolve to continue queue processing, even if cancelled
         this.currentAudio = null;
         resolve();
       };
 
       utterance.onerror = (event) => {
+        clearInterval(checkInterval);
         this.currentAudio = null;
         console.error('SpeechSynthesisUtterance error:', event.error);
-        reject(new Error(`Speech synthesis error: ${event.error}`));
+        // Don't reject if cancelled - just resolve to continue queue
+        if (this.isCancelled) {
+          resolve();
+        } else {
+          reject(new Error(`Speech synthesis error: ${event.error}`));
+        }
       };
 
       synth.speak(utterance);
