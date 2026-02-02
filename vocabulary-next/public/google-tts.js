@@ -62,6 +62,39 @@ class GoogleTTSManager {
         // Centralize audio management
         this.currentAudio = null;
         this.browserUtterance = null;
+
+        // Persistent AudioContext for iOS audio session keep-alive
+        this.audioContext = null;
+    }
+
+    /**
+     * Warm the iOS audio session by resuming the AudioContext from a user gesture.
+     * Call this from touchstart/mousedown so iOS keeps the audio session alive
+     * even after a few seconds of silence. Without this, iOS suspends the session
+     * and subsequent programmatic audio.play() calls fail.
+     */
+    warmAudioSession() {
+        try {
+            if (!this.audioContext) {
+                const AudioCtx = window.AudioContext || window.webkitAudioContext;
+                if (AudioCtx) {
+                    this.audioContext = new AudioCtx();
+                }
+            }
+            if (this.audioContext && this.audioContext.state === 'suspended') {
+                this.audioContext.resume();
+            }
+            // Play a tiny silent buffer to keep the session alive
+            if (this.audioContext && this.audioContext.state === 'running') {
+                const buffer = this.audioContext.createBuffer(1, 1, 22050);
+                const source = this.audioContext.createBufferSource();
+                source.buffer = buffer;
+                source.connect(this.audioContext.destination);
+                source.start(0);
+            }
+        } catch (e) {
+            // Ignore errors — this is a best-effort keep-alive
+        }
     }
 
     // Stop any ongoing speech

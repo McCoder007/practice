@@ -4,7 +4,7 @@ import React, { useState, useEffect, useCallback, useRef, Fragment, useMemo, use
 import { ChevronLeft, ChevronRight, Layers, Calendar, Volume2, VolumeX } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import vocabularyData from "@/data/vocabulary"
-import { playText, preloadTexts, playTextQueued, clearAudioQueue } from '@/lib/tts'
+import { playText, preloadTexts, playTextQueued, clearAudioQueue, warmAudioSession } from '@/lib/tts'
 import {
   initializeAnalytics,
   logWordInteraction,
@@ -402,6 +402,12 @@ export default function WordReelPage() {
   // Handle touch/mouse start
   const handleStart = useCallback((clientY: number) => {
     if (animating) return
+
+    // Warm the iOS audio session on every touch so that auto-speak works
+    // even after a period of silence (iOS suspends the audio session otherwise)
+    if (autoSpeakRef.current) {
+      warmAudioSession()
+    }
 
     startY.current = clientY
     isDraggingRef.current = true
