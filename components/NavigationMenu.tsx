@@ -3,7 +3,7 @@
 import React, { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Menu, Home, Film, Book, ListTodo, ListChecks, Scale, ArrowRightLeft, Clock } from "lucide-react"
+import { Menu, Home, Film, Book, ListTodo, ListChecks, Scale, ArrowRightLeft, Clock, PenLine } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import {
   Sheet,
@@ -36,6 +36,11 @@ const getMenuItems = (language: "chinese" | "japanese"): MenuItem[] => [
     title: language === "japanese" ? "New Words | 新単語" : "New Words | 生词",
     href: "/vocabulary",
     icon: Book,
+  },
+  {
+    title: "-ing Spelling Quiz | -ing拼写测验",
+    href: "/ing-spelling-quiz",
+    icon: PenLine,
   },
   {
     title: "Irregular Verb Lists | 不规则动词列表",

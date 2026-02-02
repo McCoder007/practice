@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Book, ArrowRightLeft, Clock, ListChecks, ListTodo, Scale, Film } from "lucide-react"
+import { Book, ArrowRightLeft, Clock, ListChecks, ListTodo, Scale, Film, PenLine } from "lucide-react"
 import { motion } from "framer-motion"
 import { cn } from "@/lib/utils"
 import { NavigationMenu } from "@/components/NavigationMenu"
@@ -28,6 +28,16 @@ const getMenuItems = (language: "chinese" | "japanese") => [
     iconColor: "text-blue-500",
     borderColor: "border-blue-500/20",
     hoverColor: "hover:from-blue-500/20 hover:to-blue-600/20"
+  },
+  {
+    title: "-ing Spelling Quiz | -ing拼写测验",
+    href: "/ing-spelling-quiz",
+    icon: PenLine,
+    description: "Practice -ing form spelling rules with bilingual feedback",
+    color: "from-teal-500/10 to-teal-600/10",
+    iconColor: "text-teal-500",
+    borderColor: "border-teal-500/20",
+    hoverColor: "hover:from-teal-500/20 hover:to-teal-600/20"
   },
   {
     title: "Irregular Verb Lists | 不规则动词列表",
