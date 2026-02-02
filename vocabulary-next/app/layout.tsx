@@ -1,5 +1,5 @@
 import type React from "react"
-import type { Metadata } from "next"
+import type { Metadata, Viewport } from "next"
 import "./globals.css"
 import { Inter, Outfit, Roboto_Mono } from 'next/font/google'
 import Script from 'next/script'
@@ -27,11 +27,14 @@ const robotoMono = Roboto_Mono({
   variable: "--font-roboto-mono",
 })
 
+export const viewport: Viewport = {
+  themeColor: "#ffffff",
+}
+
 export const metadata: Metadata = {
   title: "Study Zone | 学习区",
   description: "Learn irregular verbs, vocabulary, and English grammar easily",
   manifest: "/practice/manifest.json",
-  themeColor: "#ffffff",
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
@@ -56,7 +59,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="icon" href="/practice/icon.svg" type="image/svg+xml" />
-        <link rel="alternate icon" href="/practice/favicon.ico" />
         <link rel="manifest" href="/practice/manifest.json" />
         <meta name="theme-color" content="#ffffff" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
