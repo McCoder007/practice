@@ -185,7 +185,7 @@ export function IngSpellingQuiz() {
                   disabled={hasSelected}
                   onClick={() => handleOption(opt)}
                   className={cn(
-                    "w-full justify-center py-3 text-base font-medium touch-manipulation rounded-lg",
+                    "w-full h-11 justify-center py-3 text-base font-medium touch-manipulation rounded-lg",
                     showWrong &&
                       "bg-red-200 dark:bg-red-900/50 border-red-400 dark:border-red-700 text-red-900 dark:text-red-100",
                     showCorrect &&
