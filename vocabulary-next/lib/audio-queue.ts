@@ -1,10 +1,12 @@
 /**
  * Audio Queue Manager
- * 
+ *
  * Manages a queue of audio playback requests to ensure sequential playback
  * without race conditions or cancellations. Designed for auto-speak functionality
  * in Word Reel where words change rapidly.
  */
+
+import { getPreferredVoice } from './voice';
 
 type AudioQueueItem = {
   text: string;
@@ -37,7 +39,8 @@ class AudioQueueManager {
   }
 
   /**
-   * Clear the queue and stop current playback
+   * Clear the queue and stop current playback.
+   * isCancelled stays true until the next processQueue() cycle resets it.
    */
   clear(): void {
     this.isCancelled = true;
@@ -49,7 +52,6 @@ class AudioQueueManager {
         this.currentAudio.pause();
         this.currentAudio.src = '';
       } else if (this.currentAudio instanceof SpeechSynthesisUtterance) {
-        // Browser TTS - cancel all (we can't cancel specific utterance)
         if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
           window.speechSynthesis.cancel();
         }
@@ -63,7 +65,6 @@ class AudioQueueManager {
     }
 
     this.isProcessing = false;
-    this.isCancelled = false;
   }
 
   /**
@@ -90,6 +91,8 @@ class AudioQueueManager {
     }
 
     this.isProcessing = true;
+    // Reset cancellation flag at the start of a new processing cycle
+    this.isCancelled = false;
 
     while (this.queue.length > 0 && !this.isCancelled) {
       const item = this.queue.shift();
@@ -179,6 +182,7 @@ class AudioQueueManager {
         await this.playGoogleTTS(text);
         return;
       } catch (error) {
+        if (this.isCancelled) return; // Intentional cancellation, don't fall through
         console.warn('Google TTS failed, falling back to browser TTS:', error);
         // Fall through to browser TTS
       }
@@ -194,28 +198,28 @@ class AudioQueueManager {
   }
 
   /**
-   * Play audio using Google TTS
+   * Play audio using Google TTS.
+   * Cancellation works because clear() pauses the HTMLAudioElement and calls
+   * googleTTS.stop(), which fires onended/onerror handlers and resolves the promise.
    */
   private async playGoogleTTS(text: string): Promise<void> {
     if (!window.googleTTS?.speak) {
       throw new Error('Google TTS not available');
     }
 
-    // Check if cancelled before starting
     if (this.isCancelled) {
       return;
     }
 
-    // Google TTS speak() returns a promise that resolves when audio finishes
+    // Google TTS speak() returns a promise that resolves when audio finishes.
+    // If clear() is called during playback, it pauses the audio element and
+    // calls googleTTS.stop(), which causes onended/onerror to fire and resolve this promise.
     const audioPromise = window.googleTTS.speak(text);
 
-    // Store reference to current audio for potential cancellation
-    // The audio is created synchronously in playAudioFromBase64, so we can check after a microtask
-    await Promise.resolve(); // Allow currentAudio to be set
-    
-    // Check again if cancelled after microtask
+    // Allow currentAudio to be set on the googleTTS instance
+    await Promise.resolve();
+
     if (this.isCancelled) {
-      // Stop the audio that was just started
       if (window.googleTTS.currentAudio) {
         window.googleTTS.currentAudio.pause();
         window.googleTTS.currentAudio.src = '';
@@ -232,43 +236,11 @@ class AudioQueueManager {
     }
 
     try {
-      // Wrap in a cancellation-aware promise
-      let checkInterval: ReturnType<typeof setInterval> | null = null;
-      
-      await Promise.race([
-        audioPromise.finally(() => {
-          // Clear interval when audio finishes
-          if (checkInterval) {
-            clearInterval(checkInterval);
-            checkInterval = null;
-          }
-        }),
-        new Promise<void>((resolve) => {
-          // Check cancellation periodically
-          checkInterval = setInterval(() => {
-            if (this.isCancelled) {
-              if (checkInterval) {
-                clearInterval(checkInterval);
-                checkInterval = null;
-              }
-              // Stop the audio
-              if (this.currentAudio instanceof HTMLAudioElement) {
-                this.currentAudio.pause();
-                this.currentAudio.src = '';
-              }
-              if (window.googleTTS?.stop) {
-                window.googleTTS.stop();
-              }
-              this.currentAudio = null;
-              resolve();
-            }
-          }, 50); // Check every 50ms
-        })
-      ]);
+      await audioPromise;
     } catch (error) {
-      // Handle errors gracefully - log with context but don't let them cause duplicate playback
-      console.error(`Error playing cached audio for "${text}":`, error);
-      // Ensure cleanup even on error
+      if (!this.isCancelled) {
+        console.error(`Error playing audio for "${text}":`, error);
+      }
       if (this.currentAudio instanceof HTMLAudioElement) {
         this.currentAudio.pause();
         this.currentAudio.src = '';
@@ -276,57 +248,48 @@ class AudioQueueManager {
       if (window.googleTTS?.stop) {
         window.googleTTS.stop();
       }
-      // Don't throw - let the queue continue processing
-      // The error is already logged, and we've cleaned up
     } finally {
-      // Always nullify currentAudio, even if cancelled or errored
       this.currentAudio = null;
     }
   }
 
   /**
-   * Play audio using Browser TTS
+   * Play audio using Browser TTS.
+   * Cancellation works because clear() calls speechSynthesis.cancel(),
+   * which fires the utterance's onend or onerror event, resolving the promise.
    */
   private async playBrowserTTS(text: string): Promise<void> {
     if (!('speechSynthesis' in window)) {
       throw new Error('Browser TTS not available');
     }
 
-    // Check if cancelled before starting
     if (this.isCancelled) {
       return;
     }
 
     const synth = window.speechSynthesis;
 
-    // Create utterance
     const utterance = new SpeechSynthesisUtterance(text);
 
-    // Use cached voice if available
-    const cachedVoice = this.getCachedVoice();
-    if (cachedVoice) {
-      utterance.voice = cachedVoice;
-      utterance.lang = cachedVoice.lang;
+    const voice = getPreferredVoice();
+    if (voice) {
+      utterance.voice = voice;
+      utterance.lang = voice.lang;
     } else {
       utterance.lang = 'en-US';
     }
 
-    // Configuration
     utterance.rate = 0.9;
     utterance.pitch = 1;
     utterance.volume = 1;
 
-    // Store reference for cancellation
     this.currentAudio = utterance;
 
-    // Track utterance for potential cancellation
     if (window.googleTTS) {
       window.googleTTS.browserUtterance = utterance;
     }
 
-    // Return a promise that resolves when utterance finishes
     return new Promise((resolve, reject) => {
-      // Check if cancelled before speaking
       if (this.isCancelled) {
         synth.cancel();
         this.currentAudio = null;
@@ -334,27 +297,13 @@ class AudioQueueManager {
         return;
       }
 
-      // Check cancellation periodically while speaking
-      const checkInterval = setInterval(() => {
-        if (this.isCancelled) {
-          clearInterval(checkInterval);
-          synth.cancel();
-          this.currentAudio = null;
-          resolve();
-        }
-      }, 50);
-
       utterance.onend = () => {
-        clearInterval(checkInterval);
-        // Always resolve to continue queue processing, even if cancelled
         this.currentAudio = null;
         resolve();
       };
 
       utterance.onerror = (event) => {
-        clearInterval(checkInterval);
         this.currentAudio = null;
-        console.error('SpeechSynthesisUtterance error:', event.error);
         // Don't reject if cancelled - just resolve to continue queue
         if (this.isCancelled) {
           resolve();
@@ -365,25 +314,6 @@ class AudioQueueManager {
 
       synth.speak(utterance);
     });
-  }
-
-  /**
-   * Get cached voice for browser TTS
-   */
-  private getCachedVoice(): SpeechSynthesisVoice | null {
-    if (typeof window === 'undefined' || !('speechSynthesis' in window)) {
-      return null;
-    }
-
-    const voices = window.speechSynthesis.getVoices();
-    return (
-      voices.find(voice => voice.lang === 'en-US' && voice.localService) ||
-      voices.find(voice => voice.lang.startsWith('en-') && voice.localService) ||
-      voices.find(voice => voice.lang === 'en-US') ||
-      voices.find(voice => voice.lang.startsWith('en-')) ||
-      voices[0] ||
-      null
-    );
   }
 }
 
