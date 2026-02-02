@@ -84,6 +84,8 @@ export default function WordReelPage() {
   const prevCardRef = useRef<HTMLDivElement>(null)
   const isDraggingRef = useRef(false)
   const currentIndexRef = useRef(initialIndex)
+  // Keep memoized words in a ref so speakCurrentWord always has the latest
+  const wordsRef = useRef<WordCard[]>([])
 
   // Keep refs in sync with state
   useEffect(() => {
@@ -130,6 +132,11 @@ export default function WordReelPage() {
     }
   }, [viewMode, currentDay, language])
 
+  // Keep wordsRef in sync with memoized words for use in callbacks
+  useEffect(() => {
+    wordsRef.current = words
+  }, [words])
+
   // Calculate starting index based on current mode
   const startingIndex = useMemo(() => {
     if (viewMode === 'all') {
@@ -163,10 +170,8 @@ export default function WordReelPage() {
   // Clear audio queue and increment generation when day or viewMode changes
   // This ensures a clean slate for audio playback
   useEffect(() => {
-    // Increment generation to invalidate any pending audio callbacks
-    audioGenerationRef.current += 1
-    // Clear any queued audio for a fresh start
     clearAudioQueue()
+    audioGenerationRef.current += 1
   }, [currentDay, viewMode])
 
   // Initialize card positions after index changes
@@ -216,71 +221,29 @@ export default function WordReelPage() {
     }
   }, [])
 
-  // Dedicated function to speak the current word - called after navigation completes
-  // Uses refs to avoid stale closure issues and ensure we always speak the correct word
+  // Speak the current word using refs to avoid stale closures
   const speakCurrentWord = useCallback((generation: number) => {
-    // Check if auto-speak is still enabled
     if (!autoSpeakRef.current) return
-    
-    // Check if this is still the current generation (no day/mode change occurred)
     if (audioGenerationRef.current !== generation) return
-    
-    // Get the current index from ref for accuracy
+
     const idx = currentIndexRef.current
-    
-    // Build the current words array to get the word
-    // (We need to do this because words is memoized and might be stale in callbacks)
-    let currentWords: WordCard[]
-    if (viewMode === 'all') {
-      currentWords = []
-      vocabularyData.forEach((dayData) => {
-        dayData.words.forEach((word, wordIndex) => {
-          currentWords.push({
-            english: word.word,
-            chinese: word.translation,
-            japanese: word.japanese,
-            englishSentence: word.example,
-            chineseSentence: word.exampleTranslation,
-            japaneseSentence: word.japaneseSentence,
-            partOfSpeech: word.partOfSpeech,
-            day: dayData.day,
-            wordIndex: wordIndex
-          })
-        })
-      })
-    } else {
-      const dayData = vocabularyData.find((data) => data.day === currentDay) || vocabularyData[0]
-      currentWords = dayData.words.map((word, wordIndex) => ({
-        english: word.word,
-        chinese: word.translation,
-        japanese: word.japanese,
-        englishSentence: word.example,
-        chineseSentence: word.exampleTranslation,
-        japaneseSentence: word.japaneseSentence,
-        partOfSpeech: word.partOfSpeech,
-        day: currentDay,
-        wordIndex: wordIndex
-      }))
-    }
-    
-    // Validate index bounds
+    const currentWords = wordsRef.current
+
     if (idx < 0 || idx >= currentWords.length) return
-    
+
     const wordToSpeak = currentWords[idx]
-    if (!wordToSpeak || !wordToSpeak.english) return
-    
-    // Final generation check before enqueueing (in case of rapid changes)
+    if (!wordToSpeak?.english) return
+
     if (audioGenerationRef.current !== generation) return
-    
-    // Enqueue the audio
+
     playTextQueued(wordToSpeak.english).catch(error => {
       console.error('Failed to enqueue audio:', error)
     })
-    
+
     if (analyticsInitialized) {
       logWordInteraction(wordToSpeak.english, 'word_audio_played')
     }
-  }, [viewMode, currentDay, analyticsInitialized])
+  }, [analyticsInitialized])
 
   // Toggle auto-speak and persist to localStorage
   const handleAutoSpeakToggle = useCallback(() => {
@@ -303,16 +266,11 @@ export default function WordReelPage() {
         // Update ref immediately when disabling
         autoSpeakRef.current = false
       } else {
-        // When enabling, mark as navigated and speak current word immediately
-        // This gives instant feedback that auto-speak is now active
+        // When enabling, mark as navigated so the auto-speak useEffect will speak
         hasUserNavigated.current = true
         // Update autoSpeakRef immediately since the state update is async
         autoSpeakRef.current = true
-        // Small delay to ensure state is settled, then speak
-        speakTimeoutRef.current = setTimeout(() => {
-          speakTimeoutRef.current = null
-          speakCurrentWord(audioGenerationRef.current)
-        }, 50)
+        // The auto-speak useEffect handles speaking when autoSpeak becomes true
       }
       return newValue
     })
@@ -729,10 +687,19 @@ export default function WordReelPage() {
         const dayOfCurrentWord = allWords[currentWordIndex].day
         setCurrentDay(dayOfCurrentWord)
       }
+      // Set index synchronously to avoid a stale-index render where the card
+      // container unmounts ("Loading...") and touch listeners are lost
+      setCurrentIndex(0)
+      currentIndexRef.current = 0
+    } else if (newMode === 'all') {
+      // Switching to 'all' mode — jump to the current day's position
+      const dayIndex = getDayStartingIndex(currentDay)
+      setCurrentIndex(dayIndex)
+      currentIndexRef.current = dayIndex
     }
 
     setViewMode(newMode)
-  }, [viewMode])
+  }, [viewMode, currentDay])
 
   // Handle day navigation
   const handlePreviousDay = useCallback(() => {
