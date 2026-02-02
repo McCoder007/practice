@@ -22,6 +22,7 @@ class AudioQueueManager {
   private isProcessing = false;
   private currentAudio: HTMLAudioElement | SpeechSynthesisUtterance | null = null;
   private isCancelled = false;
+  private processingGeneration = 0;
 
   /**
    * Add text to the audio queue
@@ -41,16 +42,20 @@ class AudioQueueManager {
   /**
    * Clear the queue and stop current playback.
    * isCancelled stays true until the next processQueue() cycle resets it.
+   * Bumping processingGeneration ensures any zombie cycle from the previous
+   * clear() exits without touching shared state.
    */
   clear(): void {
     this.isCancelled = true;
+    this.processingGeneration++;
     this.queue = [];
 
     // Stop current audio playback
     if (this.currentAudio) {
       if (this.currentAudio instanceof HTMLAudioElement) {
         this.currentAudio.pause();
-        this.currentAudio.src = '';
+        this.currentAudio.currentTime = 0;
+        // Do not clear src — the persistent element must keep its unlocked state on iOS
       } else if (this.currentAudio instanceof SpeechSynthesisUtterance) {
         if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
           window.speechSynthesis.cancel();
@@ -93,8 +98,9 @@ class AudioQueueManager {
     this.isProcessing = true;
     // Reset cancellation flag at the start of a new processing cycle
     this.isCancelled = false;
+    const myGeneration = this.processingGeneration;
 
-    while (this.queue.length > 0 && !this.isCancelled) {
+    while (this.queue.length > 0 && !this.isCancelled && this.processingGeneration === myGeneration) {
       const item = this.queue.shift();
       if (!item) break;
 
@@ -109,8 +115,11 @@ class AudioQueueManager {
       }
     }
 
-    this.isProcessing = false;
-    this.currentAudio = null;
+    // Only touch shared state if this cycle is still the active one
+    if (this.processingGeneration === myGeneration) {
+      this.isProcessing = false;
+      this.currentAudio = null;
+    }
   }
 
   /**
@@ -158,7 +167,7 @@ class AudioQueueManager {
     if (this.currentAudio) {
       if (this.currentAudio instanceof HTMLAudioElement) {
         this.currentAudio.pause();
-        this.currentAudio.src = '';
+        this.currentAudio.currentTime = 0;
       } else if (this.currentAudio instanceof SpeechSynthesisUtterance) {
         if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
           window.speechSynthesis.cancel();
@@ -220,11 +229,6 @@ class AudioQueueManager {
     await Promise.resolve();
 
     if (this.isCancelled) {
-      if (window.googleTTS.currentAudio) {
-        window.googleTTS.currentAudio.pause();
-        window.googleTTS.currentAudio.src = '';
-        window.googleTTS.currentAudio = null;
-      }
       if (window.googleTTS.stop) {
         window.googleTTS.stop();
       }
@@ -240,10 +244,6 @@ class AudioQueueManager {
     } catch (error) {
       if (!this.isCancelled) {
         console.error(`Error playing audio for "${text}":`, error);
-      }
-      if (this.currentAudio instanceof HTMLAudioElement) {
-        this.currentAudio.pause();
-        this.currentAudio.src = '';
       }
       if (window.googleTTS?.stop) {
         window.googleTTS.stop();

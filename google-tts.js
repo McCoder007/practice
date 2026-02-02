@@ -63,34 +63,42 @@ class GoogleTTSManager {
         this.currentAudio = null;
         this.browserUtterance = null;
 
-        // Persistent AudioContext for iOS audio session keep-alive
-        this.audioContext = null;
+        // Persistent Audio element for iOS PWA compatibility.
+        // Once "unlocked" by a user gesture .play(), iOS allows subsequent
+        // programmatic .play() calls on the same element.
+        this.persistentAudio = null;
+
+        // Reference to the resolve callback of the currently pending
+        // playAudioFromBase64 promise.  stop() uses this to settle the
+        // promise immediately — pause() alone does not fire onended/onerror,
+        // which would leave the promise (and the audio queue) hanging.
+        this._pendingPlaybackResolve = null;
     }
 
     /**
-     * Warm the iOS audio session by resuming the AudioContext from a user gesture.
-     * Call this from touchstart/mousedown so iOS keeps the audio session alive
-     * even after a few seconds of silence. Without this, iOS suspends the session
-     * and subsequent programmatic audio.play() calls fail.
+     * Warm the iOS audio session by playing a silent MP3 on the persistent
+     * Audio element. Must be called from a user gesture (touchstart/click)
+     * so iOS "unlocks" the element for subsequent programmatic .play() calls.
+     *
+     * On iOS PWA, after ~10s of silence the OS suspends the audio session.
+     * Because we reuse the same Audio element, re-unlocking it here from a
+     * gesture re-activates the session for the queued TTS that follows.
      */
     warmAudioSession() {
         try {
-            if (!this.audioContext) {
-                const AudioCtx = window.AudioContext || window.webkitAudioContext;
-                if (AudioCtx) {
-                    this.audioContext = new AudioCtx();
-                }
+            if (!this.persistentAudio) {
+                this.persistentAudio = new Audio();
             }
-            if (this.audioContext && this.audioContext.state === 'suspended') {
-                this.audioContext.resume();
-            }
-            // Play a tiny silent buffer to keep the session alive
-            if (this.audioContext && this.audioContext.state === 'running') {
-                const buffer = this.audioContext.createBuffer(1, 1, 22050);
-                const source = this.audioContext.createBufferSource();
-                source.buffer = buffer;
-                source.connect(this.audioContext.destination);
-                source.start(0);
+
+            // Minimal valid silent MP3 frame (~0ms duration).
+            // Playing this from a user gesture "unlocks" the element on iOS.
+            const silentMp3 = 'data:audio/mp3;base64,SUQzBAAAAAAAI1RTU0UAAAAPAAADTGF2ZjU4Ljc2LjEwMAAAAAAAAAAAAAAA//tQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWGluZwAAAA8AAAACAAABhgC7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7u7//////////////////////////////////////////////////////////////////8AAAAATGF2YzU4LjEzAAAAAAAAAAAAAAAAJAAAAAAAAAAAAYYoRBqmAAAAAAD/+1DEAAAHAALX9AAAI0wYt/0QABAABMiAAEBwfBAEP/BDv/woSf8oCAIf/gh38EP/0JN/+UBAEAQdf/Bd/5QEP/lAQ7/6En/ygIAgCH/+D/8EFAQBAEAQBAEAQBA//tQxBAABkADb/AAAAHcAN//oAACAAANIAAAAQAAANIAAAAQAAANIAAAAQAAANIAAAAQAAANIAAAAQAAANIAAAAQAAANIAAAAQAAANIAAAAQAAANIAAAAQAAANIAAAAQ==';
+            this.persistentAudio.src = silentMp3;
+            const p = this.persistentAudio.play();
+            if (p !== undefined) {
+                p.catch(() => {
+                    // Best-effort unlock — ignore errors
+                });
             }
         } catch (e) {
             // Ignore errors — this is a best-effort keep-alive
@@ -99,17 +107,27 @@ class GoogleTTSManager {
 
     // Stop any ongoing speech
     stop() {
-        if (this.currentAudio) {
-            this.currentAudio.pause();
-            this.currentAudio.src = '';
-            this.currentAudio = null;
+        this.isPlaying = false;
+
+        if (this.persistentAudio) {
+            // Remove event handlers BEFORE pausing so they don't fire spuriously
+            this.persistentAudio.onended = null;
+            this.persistentAudio.onerror = null;
+            this.persistentAudio.pause();
+            this.persistentAudio.currentTime = 0;
+            // Do NOT clear src or null the element — it must stay "unlocked" on iOS
+        }
+
+        // Settle any pending playAudioFromBase64 promise so the audio queue
+        // doesn't hang waiting for onended that will never fire.
+        if (this._pendingPlaybackResolve) {
+            this._pendingPlaybackResolve();
+            this._pendingPlaybackResolve = null;
         }
 
         if (window.speechSynthesis) {
             window.speechSynthesis.cancel();
         }
-
-        this.isPlaying = false;
     }
 
     // Preload and initialize Google TTS
@@ -145,63 +163,77 @@ class GoogleTTSManager {
         this.voice = voice;
     }
 
-    // Safely play audio using HTML5 Audio element
+    // Play audio using the persistent Audio element (reused for iOS compatibility).
+    // On iOS, reusing the same element that was "unlocked" by a user gesture allows
+    // programmatic .play() calls even after the audio session has been suspended.
     playAudioFromBase64(base64Data) {
         return new Promise((resolve, reject) => {
             try {
-                // Stop any previously playing audio to prevent overlap
-                if (this.currentAudio) {
-                    this.currentAudio.pause();
-                    this.currentAudio.src = '';
-                    this.currentAudio = null;
+                // Stop any current playback on the persistent element
+                if (this.persistentAudio && this.isPlaying) {
+                    this.persistentAudio.pause();
+                    this.persistentAudio.currentTime = 0;
                 }
 
-                const audioSrc = `data:audio/mp3;base64,${base64Data}`;
-                const audio = new Audio(audioSrc);
+                // Ensure persistent element exists (fallback if warmAudioSession
+                // was never called, e.g., on desktop or first load)
+                if (!this.persistentAudio) {
+                    this.persistentAudio = new Audio();
+                }
 
+                const audio = this.persistentAudio;
                 this.currentAudio = audio;
 
+                // Clear old handlers before attaching new ones
+                audio.onended = null;
+                audio.onerror = null;
+
+                // Helper that settles this promise exactly once.
+                let settled = false;
+                const settle = (fn) => {
+                    if (settled) return;
+                    settled = true;
+                    this._pendingPlaybackResolve = null;
+                    fn();
+                };
+
+                // Allow stop() to resolve this promise externally.
+                this._pendingPlaybackResolve = () => settle(resolve);
+
+                const audioSrc = `data:audio/mp3;base64,${base64Data}`;
+
                 audio.onended = () => {
-                    if (this.currentAudio === audio) {
-                        this.isPlaying = false;
-                        this.currentAudio = null;
-                    }
-                    resolve();
+                    this.isPlaying = false;
+                    settle(resolve);
                 };
 
                 audio.onerror = (error) => {
-                    if (this.currentAudio === audio) {
-                        // Genuine playback error
+                    // If isPlaying is already false, this was an intentional stop
+                    if (this.isPlaying) {
                         this.isPlaying = false;
-                        this.currentAudio = null;
-                        console.error('Audio playback error:', error);
-                        reject(error);
+                        settle(() => reject(error));
                     } else {
-                        // Audio was intentionally stopped (clear/stop set currentAudio to null)
-                        resolve();
+                        settle(resolve);
                     }
                 };
 
+                audio.src = audioSrc;
                 this.isPlaying = true;
-                const playPromise = audio.play();
 
+                const playPromise = audio.play();
                 if (playPromise !== undefined) {
                     playPromise.catch(error => {
-                        if (this.currentAudio === audio) {
-                            // Genuine play failure
-                            console.error('Play promise error:', error);
+                        if (this.isPlaying) {
                             this.isPlaying = false;
-                            this.currentAudio = null;
-                            reject(error);
+                            settle(() => reject(error));
                         } else {
-                            // Audio was intentionally stopped before play completed
-                            resolve();
+                            settle(resolve);
                         }
                     });
                 }
             } catch (error) {
-                console.error('Error creating Audio element:', error);
                 this.isPlaying = false;
+                this._pendingPlaybackResolve = null;
                 reject(error);
             }
         });
