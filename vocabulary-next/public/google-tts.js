@@ -86,6 +86,8 @@ class GoogleTTSManager {
      */
     warmAudioSession() {
         try {
+            if (this.isPlaying) return;
+
             if (!this.persistentAudio) {
                 this.persistentAudio = new Audio();
             }
@@ -169,11 +171,8 @@ class GoogleTTSManager {
     playAudioFromBase64(base64Data) {
         return new Promise((resolve, reject) => {
             try {
-                // Stop any current playback on the persistent element
-                if (this.persistentAudio && this.isPlaying) {
-                    this.persistentAudio.pause();
-                    this.persistentAudio.currentTime = 0;
-                }
+                // Stop any current playback on the persistent element and resolve pending promises
+                this.stop();
 
                 // Ensure persistent element exists (fallback if warmAudioSession
                 // was never called, e.g., on desktop or first load)
