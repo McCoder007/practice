@@ -39,6 +39,16 @@ export function stopTTS(): void {
 }
 
 /**
+ * Warm the iOS audio session so that programmatic audio.play() calls succeed
+ * even after a period of silence. Call this from touch/click event handlers.
+ */
+export function warmAudioSession(): void {
+  if (typeof window !== 'undefined' && window.googleTTS?.warmAudioSession) {
+    window.googleTTS.warmAudioSession();
+  }
+}
+
+/**
  * Play text immediately (tap-to-speak path).
  * Stops any current playback and clears the queue first.
  */

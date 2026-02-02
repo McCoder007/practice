@@ -8,6 +8,7 @@ interface GoogleTTS {
   synthesizeSpeech: (text: string, isPreInit?: boolean) => Promise<boolean>;
   audioCache: Record<string, string>;
   stop: () => void;
+  warmAudioSession: () => void;
   browserUtterance: SpeechSynthesisUtterance | null;
   currentAudio: HTMLAudioElement | null;
 }
