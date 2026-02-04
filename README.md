@@ -1,84 +1,23 @@
-# ESL Preposition Practice App
+# ESL Vocabulary & Practice App
 
-A mobile web application for ESL students to practice prepositions through interactive exercises.
+A Next.js web app for ESL students: vocabulary, prepositions, verb tenses, irregular verbs, and more. Deployed to GitHub Pages.
 
-## Features
+## Getting started
 
-- Interactive dialogue-based exercises
-- Text-to-speech functionality
-- Multiple choice answers
-- Progress tracking
-- Mobile-friendly design
+The app lives in the `vocabulary-next/` directory:
 
-## Firebase Analytics Integration
+```bash
+cd vocabulary-next
+npm install
+npm run dev
+```
 
-This app uses Firebase Analytics to track usage metrics. The following events are tracked:
+Open [http://localhost:3000](http://localhost:3000). For API keys (Firebase, TTS) and app-specific docs, see [vocabulary-next/README.md](vocabulary-next/README.md).
 
-- Quiz starts
-- Questions answered
-- Correct answers
-- Quiz completions
-- Quiz restarts
+## Deploy
 
-### Setting Up Firebase
+Pushes to `main` trigger a GitHub Actions workflow that builds `vocabulary-next` and deploys to GitHub Pages. No root-level files are used by the deploy.
 
-To set up Firebase for this app:
+## Legacy / archive
 
-1. **Create a Firebase Project**:
-   - Go to the [Firebase Console](https://console.firebase.google.com/)
-   - Click "Add project" and follow the setup steps
-   - Enable Google Analytics during setup
-
-2. **Register Your Web App**:
-   - In your Firebase project, click on the web icon (</>) to add a web app
-   - Enter a nickname for your app (e.g., "ESL Preposition Practice")
-   - Check the "Also set up Firebase Hosting" option if you plan to host with Firebase
-   - Click "Register app"
-
-3. **Copy Your Firebase Configuration**:
-   - Firebase will display configuration code that looks like this:
-   ```javascript
-   const firebaseConfig = {
-     apiKey: "YOUR_API_KEY",
-     authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-     projectId: "YOUR_PROJECT_ID",
-     storageBucket: "YOUR_PROJECT_ID.appspot.com",
-     messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-     appId: "YOUR_APP_ID",
-     measurementId: "YOUR_MEASUREMENT_ID"
-   };
-   ```
-   - Copy this configuration
-
-4. **Update Your Configuration**:
-   - Open the `firebase-config.js` file in this project
-   - Replace the placeholder configuration with your actual Firebase configuration
-
-5. **Deploy Your App**:
-   - If using Firebase Hosting:
-     ```
-     npm install -g firebase-tools
-     firebase login
-     firebase init
-     firebase deploy
-     ```
-   - Or deploy to your preferred hosting service
-
-6. **View Analytics Data**:
-   - In the Firebase Console, go to the "Analytics" section
-   - You'll see data start to appear as users interact with your app
-   - You can create custom reports based on the events being tracked
-
-## Usage
-
-1. Open the app in a mobile browser
-2. Read the dialogue and select the correct preposition
-3. Tap the play button to hear the sentences spoken
-4. Tap "Next Question" to proceed
-5. View your final score at the end
-
-## Development
-
-- HTML/CSS/JavaScript
-- Web Speech API for text-to-speech
-- Firebase Analytics for usage tracking # Test commit
+The previous vanilla JS app and related data and docs have been moved to [archive/](archive/) for reference. See [archive/README.md](archive/README.md) for contents and restoration notes.

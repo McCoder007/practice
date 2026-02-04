@@ -204,8 +204,8 @@
     <script>
         // Initialize with API key and voice settings
         document.addEventListener('DOMContentLoaded', function() {
-            // API key (will be replaced during build)
-            googleTTS.setApiKey('AIzaSyBBe1XfNjodUza5EHDLbs6HTWk8O64b5c8');
+            // API key from config.js (placeholder replaced at build time when deploying root app)
+            googleTTS.setApiKey(appConfig.googleTtsApiKey);
             
             // Set to male Neural2 voice from config
             googleTTS.setVoice(appConfig.defaultVoice);
