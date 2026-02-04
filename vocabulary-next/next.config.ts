@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   output: 'export',
   env: {
     NEXT_PUBLIC_GOOGLE_TTS_API_KEY: process.env.GOOGLE_TTS_API_KEY || '',
+    NEXT_PUBLIC_FIREBASE_API_KEY: process.env.FIREBASE_API_KEY || '',
   },
   basePath: '/practice',
   eslint: {

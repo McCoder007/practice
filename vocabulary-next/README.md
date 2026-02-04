@@ -1,5 +1,12 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Local development / API keys
+
+For Firebase Analytics and Google TTS to work locally:
+
+1. Copy `.env.local.example` to `.env.local`.
+2. Fill in `FIREBASE_API_KEY` and (optionally) `GOOGLE_TTS_API_KEY`. Do not commit `.env.local` (it is gitignored).
+
 ## Getting Started
 
 First, run the development server:

@@ -1,7 +1,7 @@
 // Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyC_BV3O4-kx1sLC4KXDsJ2g8D_8WTbe56I",
+  apiKey: "__FIREBASE_API_KEY__",
   authDomain: "esl-preposition-practice.firebaseapp.com",
   projectId: "esl-preposition-practice",
   storageBucket: "esl-preposition-practice.firebasestorage.app",

@@ -2,9 +2,9 @@
 import { initializeApp } from 'firebase/app';
 import { getAnalytics, logEvent as firebaseLogEvent, isSupported } from 'firebase/analytics';
 
-// Your web app's Firebase configuration
+// Firebase config: API key from env (never committed), rest are project identifiers
 const firebaseConfig = {
-  apiKey: "AIzaSyC_BV3O4-kx1sLC4KXDsJ2g8D_8WTbe56I",
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY || '',
   authDomain: "esl-preposition-practice.firebaseapp.com",
   projectId: "esl-preposition-practice",
   storageBucket: "esl-preposition-practice.firebasestorage.app",
@@ -60,6 +60,10 @@ export const initializeAnalytics = async () => {
   }
 
   try {
+    // Only initialize when API key is set (e.g. from env at build time)
+    if (!firebaseConfig.apiKey) {
+      return null;
+    }
     // Check if analytics is supported in this environment
     if (await isSupported()) {
       // Initialize Firebase

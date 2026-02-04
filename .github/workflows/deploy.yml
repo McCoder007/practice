@@ -34,6 +34,7 @@ jobs:
       - name: Install and Build Next.js App
         env:
           NEXT_PUBLIC_GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
+          FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
         run: |
           cd vocabulary-next
           npm ci
