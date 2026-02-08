@@ -43,6 +43,11 @@ const getMenuItems = (language: "chinese" | "japanese"): MenuItem[] => [
     icon: PenLine,
   },
   {
+    title: "Capitals Quiz | 大写练习",
+    href: "/capitals-quiz",
+    icon: PenLine,
+  },
+  {
     title: "Irregular Verb Lists | 不规则动词列表",
     href: "/irregular-verb-lists",
     icon: ListTodo,
@@ -117,7 +122,7 @@ export function NavigationMenu() {
             )
           })}
         </div>
-        
+
         <div className="mt-8 pt-6 border-t">
           <div className="px-4 mb-3">
             <h3 className="text-sm font-semibold mb-3">Language | 语言</h3>
