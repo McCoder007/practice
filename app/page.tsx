@@ -40,6 +40,16 @@ const getMenuItems = (language: "chinese" | "japanese") => [
     hoverColor: "hover:from-teal-500/20 hover:to-teal-600/20"
   },
   {
+    title: "Capitals Quiz | 大写练习",
+    href: "/capitals-quiz",
+    icon: PenLine,
+    description: "Practice proper capitalization in English sentences",
+    color: "from-blue-500/10 to-indigo-600/10",
+    iconColor: "text-blue-500",
+    borderColor: "border-blue-500/20",
+    hoverColor: "hover:from-blue-500/20 hover:to-indigo-600/20"
+  },
+  {
     title: "Irregular Verb Lists | 不规则动词列表",
     href: "/irregular-verb-lists",
     icon: ListTodo,
@@ -94,56 +104,56 @@ const getMenuItems = (language: "chinese" | "japanese") => [
 export default function HomePage() {
   const { language } = useLanguage()
   const menuItems = getMenuItems(language)
-  
+
   return (
     <>
       <NavigationMenu />
       <div className="min-h-screen flex flex-col items-center bg-gradient-to-b from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800 p-4">
-      <motion.h1 
-        initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        className="text-4xl font-bold mb-8 text-center bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
-      >
-        Study Zone
-      </motion.h1>
-      <div className="w-full max-w-md space-y-4">
-        {menuItems.map((item, index) => (
-          <motion.div
-            key={item.href}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: index * 0.1 }}
-          >
-            <Link href={item.href}>
-              <Card className={cn(
-                "transition-all duration-300 border-2",
-                item.color,
-                item.borderColor,
-                item.hoverColor,
-                "hover:shadow-lg hover:scale-[1.02]",
-                "py-3 gap-2"
-              )}>
-                <CardHeader className="flex flex-row items-center gap-4 px-6">
-                  <div className={cn(
-                    "p-2 rounded-lg bg-gradient-to-br",
-                    item.color,
-                    "shadow-sm"
-                  )}>
-                    <item.icon className={cn("h-6 w-6", item.iconColor)} />
-                  </div>
-                  <CardTitle className="text-lg">{item.title}</CardTitle>
-                </CardHeader>
-                <CardContent className="px-6">
-                  <p className="text-sm text-muted-foreground">
-                    {item.description}
-                  </p>
-                </CardContent>
-              </Card>
-            </Link>
-          </motion.div>
-        ))}
+        <motion.h1
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="text-4xl font-bold mb-8 text-center bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
+        >
+          Study Zone
+        </motion.h1>
+        <div className="w-full max-w-md space-y-4">
+          {menuItems.map((item, index) => (
+            <motion.div
+              key={item.href}
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: index * 0.1 }}
+            >
+              <Link href={item.href}>
+                <Card className={cn(
+                  "transition-all duration-300 border-2",
+                  item.color,
+                  item.borderColor,
+                  item.hoverColor,
+                  "hover:shadow-lg hover:scale-[1.02]",
+                  "py-3 gap-2"
+                )}>
+                  <CardHeader className="flex flex-row items-center gap-4 px-6">
+                    <div className={cn(
+                      "p-2 rounded-lg bg-gradient-to-br",
+                      item.color,
+                      "shadow-sm"
+                    )}>
+                      <item.icon className={cn("h-6 w-6", item.iconColor)} />
+                    </div>
+                    <CardTitle className="text-lg">{item.title}</CardTitle>
+                  </CardHeader>
+                  <CardContent className="px-6">
+                    <p className="text-sm text-muted-foreground">
+                      {item.description}
+                    </p>
+                  </CardContent>
+                </Card>
+              </Link>
+            </motion.div>
+          ))}
+        </div>
       </div>
-    </div>
     </>
   )
 }

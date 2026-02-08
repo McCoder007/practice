@@ -14,3 +14,31 @@ export function shuffleArray<T>(array: T[]): T[] {
   }
   return shuffled;
 }
+
+/**
+ * Checks if two sorted arrays are equal
+ */
+export function arraysEqual(arr1: number[], arr2: number[]): boolean {
+  if (arr1.length !== arr2.length) return false;
+  return arr1.every((val, index) => val === arr2[index]);
+}
+
+/**
+ * Checks if the user's answer is correct
+ */
+export function isAnswerCorrect(
+  selectedIndexes: number[],
+  correctIndexes: number[]
+): boolean {
+  const sortedSelected = [...selectedIndexes].sort((a, b) => a - b);
+  const sortedCorrect = [...correctIndexes].sort((a, b) => a - b);
+  return arraysEqual(sortedSelected, sortedCorrect);
+}
+
+/**
+ * Capitalizes the first letter of a string
+ */
+export function capitalizeFirstLetter(text: string): string {
+  if (!text) return text;
+  return text.charAt(0).toUpperCase() + text.slice(1);
+}
