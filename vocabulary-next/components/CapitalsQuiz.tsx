@@ -130,7 +130,7 @@ export function CapitalsQuiz() {
     }
 
     return (
-        <div className="w-full max-w-xl mx-auto flex flex-col gap-6 p-4">
+        <div className="w-full max-w-xl mx-auto flex flex-col gap-2.5 p-4">
             {/* Rule hint pop-up */}
             <Dialog open={hintOpen} onOpenChange={setHintOpen}>
                 <DialogContent className="max-w-md max-h-[90vh] overflow-y-auto p-4 sm:p-6">
@@ -146,34 +146,27 @@ export function CapitalsQuiz() {
                 </DialogContent>
             </Dialog>
 
-            <div className="space-y-2">
+            <div className="space-y-1.5">
                 <div className="flex justify-between items-end text-sm font-medium text-muted-foreground px-1">
                     <div className="flex flex-col">
-                        <span>Question {currentIndex + 1} of {total}</span>
+                        <span className="text-xs">Question {currentIndex + 1} of {total}</span>
                     </div>
                     <Button
                         variant="outline"
                         size="sm"
-                        className="shrink-0 rounded-full text-xs touch-manipulation border-blue-300 dark:border-blue-700 text-blue-800 dark:text-blue-200"
+                        className="shrink-0 rounded-full text-[10px] h-7 px-3 touch-manipulation border-blue-300 dark:border-blue-700 text-blue-800 dark:text-blue-200"
                         aria-label="Rule hint"
                         onClick={() => setHintOpen(true)}
                     >
                         规则提示
                     </Button>
                 </div>
-                <Progress value={progress} className="h-2" />
+                <Progress value={progress} className="h-1.5" />
             </div>
 
-            <Card className="border-2 shadow-sm overflow-hidden bg-white dark:bg-slate-900">
-                <CardHeader className="bg-slate-50 dark:bg-slate-800/50 border-b py-4">
-                    <p className="text-center font-medium text-slate-600 dark:text-slate-300">
-                        Tap the words that should be capitalized
-                        <br />
-                        <span className="text-sm font-normal opacity-80">点击需要大写的单词</span>
-                    </p>
-                </CardHeader>
-                <CardContent className="p-6 sm:p-8 min-h-[200px] flex items-center justify-center">
-                    <div className="flex flex-wrap gap-3 justify-center content-center">
+            <Card className="border-2 shadow-sm overflow-hidden bg-white dark:bg-slate-900 font-sans">
+                <CardContent className="p-4 sm:p-5 min-h-[140px] flex items-center justify-center">
+                    <div className="flex flex-wrap gap-2.5 justify-center content-center">
                         {words.map((word, index) => (
                             <WordChip
                                 key={`${sentence.id}-${index}`}
@@ -207,16 +200,14 @@ export function CapitalsQuiz() {
                                 {isCorrect ? "Correct! 正确！" : "Not quite 不太对"}
                             </p>
                         </div>
-                        {!isCorrect && (
-                            <div className="ml-10 space-y-2">
-                                <p className="text-xs font-semibold text-rose-800 dark:text-rose-400 uppercase tracking-wide">
-                                    Correct Answer | 正确答案:
-                                </p>
-                                <p className="text-lg sm:text-xl font-bold text-slate-900 dark:text-slate-100 leading-relaxed">
-                                    {sentence.textCorrect}
-                                </p>
-                            </div>
-                        )}
+                        <div className="ml-10 space-y-1">
+                            <p className="text-[10px] font-semibold text-rose-800 dark:text-rose-400 uppercase tracking-wide">
+                                Correct Answer | 正确答案:
+                            </p>
+                            <p className="text-base sm:text-lg font-bold text-slate-900 dark:text-slate-100 leading-tight">
+                                {sentence.textCorrect}
+                            </p>
+                        </div>
                     </div>
                 )}
             </Card>
@@ -226,7 +217,7 @@ export function CapitalsQuiz() {
                     <Button
                         onClick={handleCheck}
                         size="lg"
-                        className="flex-1 text-base font-semibold h-14 bg-blue-600 hover:bg-blue-700 text-white shadow-sm transition-colors"
+                        className="flex-1 text-base font-semibold h-12 bg-blue-600 hover:bg-blue-700 text-white shadow-sm transition-colors"
                         disabled={selectedIndexes.length === 0}
                     >
                         Check Answer | 检查答案
@@ -235,7 +226,7 @@ export function CapitalsQuiz() {
                     <Button
                         onClick={handleNext}
                         size="lg"
-                        className="flex-1 text-base font-semibold h-14 shadow-sm transition-colors bg-slate-900 dark:bg-slate-100 dark:text-slate-900"
+                        className="flex-1 text-base font-semibold h-12 shadow-sm transition-colors bg-slate-900 dark:bg-slate-100 dark:text-slate-900"
                     >
                         Next | 继续
                         <ArrowRight className="ml-2 w-5 h-5" />
