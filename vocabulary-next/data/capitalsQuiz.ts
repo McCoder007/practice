@@ -72,18 +72,6 @@ export const capitalsQuizData: Sentence[] = [
         ]
     },
     {
-        "id": 4,
-        "textIncorrect": "they study english and math at bellevue college.",
-        "textCorrect": "They study English and Math at Bellevue College.",
-        "capitalWordIndexes": [
-            0,
-            2,
-            4,
-            6,
-            7
-        ]
-    },
-    {
         "id": 5,
         "textIncorrect": "i drink coffee from starbucks every friday morning.",
         "textCorrect": "I drink coffee from Starbucks every Friday morning.",
@@ -387,15 +375,6 @@ export const capitalsQuizData: Sentence[] = [
         ]
     },
     {
-        "id": 44,
-        "textIncorrect": "we saw dolphins in hawaii on our spring break.",
-        "textCorrect": "We saw dolphins in Hawaii on our spring break.",
-        "capitalWordIndexes": [
-            0,
-            4
-        ]
-    },
-    {
         "id": 45,
         "textIncorrect": "he likes french bread from the bakery near walmart.",
         "textCorrect": "He likes French bread from the bakery near Walmart.",
@@ -578,16 +557,6 @@ export const capitalsQuizData: Sentence[] = [
         ]
     },
     {
-        "id": 66,
-        "textIncorrect": "my brother learned spanish in high school in california.",
-        "textCorrect": "My brother learned Spanish in high school in California.",
-        "capitalWordIndexes": [
-            0,
-            3,
-            8
-        ]
-    },
-    {
         "id": 67,
         "textIncorrect": "they walked around downtown seattle on a rainy tuesday.",
         "textCorrect": "They walked around downtown Seattle on a rainy Tuesday.",
@@ -616,5 +585,467 @@ export const capitalsQuizData: Sentence[] = [
             4,
             8
         ]
+    },
+    {
+        "id": 71,
+        "textIncorrect": "i play the piano every monday.",
+        "textCorrect": "I play the piano every Monday.",
+        "capitalWordIndexes": [0, 6]
+    },
+    {
+        "id": 72,
+        "textIncorrect": "she practices piano at school.",
+        "textCorrect": "She practices piano at school.",
+        "capitalWordIndexes": [0]
+    },
+    {
+        "id": 73,
+        "textIncorrect": "he wants to be a famous pianist.",
+        "textCorrect": "He wants to be a famous pianist.",
+        "capitalWordIndexes": [0]
+    },
+    {
+        "id": 74,
+        "textIncorrect": "we listen to music in class.",
+        "textCorrect": "We listen to music in class.",
+        "capitalWordIndexes": [0]
+    },
+    {
+        "id": 75,
+        "textIncorrect": "my sister plays the piano in church.",
+        "textCorrect": "My sister plays the piano in church.",
+        "capitalWordIndexes": [0]
+    },
+    {
+        "id": 76,
+        "textIncorrect": "they went to a concert in seattle.",
+        "textCorrect": "They went to a concert in Seattle.",
+        "capitalWordIndexes": [0, 6]
+    },
+    {
+        "id": 77,
+        "textIncorrect": "i study english at bellevue college.",
+        "textCorrect": "I study English at Bellevue College.",
+        "capitalWordIndexes": [0, 2, 4, 5]
+    },
+    {
+        "id": 78,
+        "textIncorrect": "my teacher is from canada.",
+        "textCorrect": "My teacher is from Canada.",
+        "capitalWordIndexes": [0, 4]
+    },
+    {
+        "id": 79,
+        "textIncorrect": "we have a test on tuesday.",
+        "textCorrect": "We have a test on Tuesday.",
+        "capitalWordIndexes": [0, 5]
+    },
+    {
+        "id": 80,
+        "textIncorrect": "school starts in september.",
+        "textCorrect": "School starts in September.",
+        "capitalWordIndexes": [0, 3]
+    },
+    {
+        "id": 81,
+        "textIncorrect": "i want to learn japanese.",
+        "textCorrect": "I want to learn Japanese.",
+        "capitalWordIndexes": [0, 4]
+    },
+    {
+        "id": 82,
+        "textIncorrect": "he reads books in the library.",
+        "textCorrect": "He reads books in the library.",
+        "capitalWordIndexes": [0]
+    },
+    {
+        "id": 83,
+        "textIncorrect": "she wants to go to college.",
+        "textCorrect": "She wants to go to college.",
+        "capitalWordIndexes": [0]
+    },
+    {
+        "id": 84,
+        "textIncorrect": "good students work hard.",
+        "textCorrect": "Good students work hard.",
+        "capitalWordIndexes": [0]
+    },
+    {
+        "id": 85,
+        "textIncorrect": "my goal is to speak english well.",
+        "textCorrect": "My goal is to speak English well.",
+        "capitalWordIndexes": [0, 5]
+    },
+    {
+        "id": 86,
+        "textIncorrect": "he wants to start a business.",
+        "textCorrect": "He wants to start a business.",
+        "capitalWordIndexes": [0]
+    },
+    {
+        "id": 87,
+        "textIncorrect": "she got a new job at amazon.",
+        "textCorrect": "She got a new job at Amazon.",
+        "capitalWordIndexes": [0, 6]
+    },
+    {
+        "id": 88,
+        "textIncorrect": "we want to travel to europe.",
+        "textCorrect": "We want to travel to Europe.",
+        "capitalWordIndexes": [0, 5]
+    },
+    {
+        "id": 89,
+        "textIncorrect": "success is important to my family.",
+        "textCorrect": "Success is important to my family.",
+        "capitalWordIndexes": [0]
+    },
+    {
+        "id": 90,
+        "textIncorrect": "she wants to be a doctor.",
+        "textCorrect": "She wants to be a doctor.",
+        "capitalWordIndexes": [0]
+    },
+    {
+        "id": 91,
+        "textIncorrect": "my dream is to visit paris.",
+        "textCorrect": "My dream is to visit Paris.",
+        "capitalWordIndexes": [0, 5]
+    },
+    {
+        "id": 92,
+        "textIncorrect": "they want to live in the united states.",
+        "textCorrect": "They want to live in the United States.",
+        "capitalWordIndexes": [0, 6, 7]
+    },
+    {
+        "id": 93,
+        "textIncorrect": "be kind to your friends.",
+        "textCorrect": "Be kind to your friends.",
+        "capitalWordIndexes": [0]
+    },
+    {
+        "id": 94,
+        "textIncorrect": "he helps people in his city.",
+        "textCorrect": "He helps people in his city.",
+        "capitalWordIndexes": [0]
+    },
+    {
+        "id": 95,
+        "textIncorrect": "she is a good person.",
+        "textCorrect": "She is a good person.",
+        "capitalWordIndexes": [0]
+    },
+    {
+        "id": 96,
+        "textIncorrect": "we share food with our neighbors.",
+        "textCorrect": "We share food with our neighbors.",
+        "capitalWordIndexes": [0]
+    },
+    {
+        "id": 97,
+        "textIncorrect": "always say thank you.",
+        "textCorrect": "Always say thank you.",
+        "capitalWordIndexes": [0]
+    },
+    {
+        "id": 98,
+        "textIncorrect": "my mom helps me with my homework.",
+        "textCorrect": "My mom helps me with my homework.",
+        "capitalWordIndexes": [0]
+    },
+    {
+        "id": 99,
+        "textIncorrect": "he is nice to his classmates.",
+        "textCorrect": "He is nice to his classmates.",
+        "capitalWordIndexes": [0]
+    },
+    {
+        "id": 100,
+        "textIncorrect": "we respect our teachers.",
+        "textCorrect": "We respect our teachers.",
+        "capitalWordIndexes": [0]
+    },
+    {
+        "id": 101,
+        "textIncorrect": "she loves her family very much.",
+        "textCorrect": "She loves her family very much.",
+        "capitalWordIndexes": [0]
+    },
+    {
+        "id": 102,
+        "textIncorrect": "i visited my grandmother in portland.",
+        "textCorrect": "I visited my grandmother in Portland.",
+        "capitalWordIndexes": [0, 5]
+    },
+    {
+        "id": 103,
+        "textIncorrect": "we go to costco on saturday.",
+        "textCorrect": "We go to Costco on Saturday.",
+        "capitalWordIndexes": [0, 3, 5]
+    },
+    {
+        "id": 104,
+        "textIncorrect": "they drink coffee at starbucks.",
+        "textCorrect": "They drink coffee at Starbucks.",
+        "capitalWordIndexes": [0, 4]
+    },
+    {
+        "id": 105,
+        "textIncorrect": "my birthday is in october.",
+        "textCorrect": "My birthday is in October.",
+        "capitalWordIndexes": [0, 4]
+    },
+    {
+        "id": 106,
+        "textIncorrect": "he lives in washington.",
+        "textCorrect": "He lives in Washington.",
+        "capitalWordIndexes": [0, 3]
+    },
+    {
+        "id": 107,
+        "textIncorrect": "she speaks spanish and english.",
+        "textCorrect": "She speaks Spanish and English.",
+        "capitalWordIndexes": [0, 2, 4]
+    },
+    {
+        "id": 108,
+        "textIncorrect": "we eat turkey on thanksgiving.",
+        "textCorrect": "We eat turkey on Thanksgiving.",
+        "capitalWordIndexes": [0, 4]
+    },
+    {
+        "id": 109,
+        "textIncorrect": "i saw a movie on friday night.",
+        "textCorrect": "I saw a movie on Friday night.",
+        "capitalWordIndexes": [0, 5]
+    },
+    {
+        "id": 110,
+        "textIncorrect": "my brother lives in new york.",
+        "textCorrect": "My brother lives in New York.",
+        "capitalWordIndexes": [0, 4, 5]
+    },
+    {
+        "id": 111,
+        "textIncorrect": "we like chinese food.",
+        "textCorrect": "We like Chinese food.",
+        "capitalWordIndexes": [0, 2]
+    },
+    {
+        "id": 112,
+        "textIncorrect": "she drives a tesla car.",
+        "textCorrect": "She drives a Tesla car.",
+        "capitalWordIndexes": [0, 3]
+    },
+    {
+        "id": 113,
+        "textIncorrect": "he works at microsoft.",
+        "textCorrect": "He works at Microsoft.",
+        "capitalWordIndexes": [0, 3]
+    },
+    {
+        "id": 114,
+        "textIncorrect": "i check my email on monday morning.",
+        "textCorrect": "I check my email on Monday morning.",
+        "capitalWordIndexes": [0, 5]
+    },
+    {
+        "id": 115,
+        "textIncorrect": "we went to target yesterday.",
+        "textCorrect": "We went to Target yesterday.",
+        "capitalWordIndexes": [0, 3]
+    },
+    {
+        "id": 116,
+        "textIncorrect": "she was born in october.",
+        "textCorrect": "She was born in October.",
+        "capitalWordIndexes": [0, 4]
+    },
+    {
+        "id": 117,
+        "textIncorrect": "i am happy today.",
+        "textCorrect": "I am happy today.",
+        "capitalWordIndexes": [0]
+    },
+    {
+        "id": 118,
+        "textIncorrect": "i like to hike in the mountains near seattle in july.",
+        "textCorrect": "I like to hike in the mountains near Seattle in July.",
+        "capitalWordIndexes": [0, 7, 9]
+    },
+    {
+        "id": 119,
+        "textIncorrect": "my friend watches funny videos on douyin every night.",
+        "textCorrect": "My friend watches funny videos on Douyin every night.",
+        "capitalWordIndexes": [0, 6]
+    },
+    {
+        "id": 120,
+        "textIncorrect": "we drink coffee at a small cafe in bellevue on sunday.",
+        "textCorrect": "We drink coffee at a small cafe in Bellevue on Sunday.",
+        "capitalWordIndexes": [0, 7, 9]
+    },
+    {
+        "id": 121,
+        "textIncorrect": "she practices typing on her computer every monday morning.",
+        "textCorrect": "She practices typing on her computer every Monday morning.",
+        "capitalWordIndexes": [0, 7]
+    },
+    {
+        "id": 122,
+        "textIncorrect": "he wants to start livestreaming video games on saturday.",
+        "textCorrect": "He wants to start livestreaming video games on Saturday.",
+        "capitalWordIndexes": [0, 7]
+    },
+    {
+        "id": 123,
+        "textIncorrect": "they go to the gym in redmond three times a week.",
+        "textCorrect": "They go to the gym in Redmond three times a week.",
+        "capitalWordIndexes": [0, 6]
+    },
+    {
+        "id": 124,
+        "textIncorrect": "i enjoy long walks in the park with my dog in august.",
+        "textCorrect": "I enjoy long walks in the park with my dog in August.",
+        "capitalWordIndexes": [0, 11]
+    },
+    {
+        "id": 125,
+        "textIncorrect": "my brother learns english at bellevue college in the evening.",
+        "textCorrect": "My brother learns English at Bellevue College in the evening.",
+        "capitalWordIndexes": [0, 3, 5, 6]
+    },
+    {
+        "id": 126,
+        "textIncorrect": "we will visit the space needle in seattle next saturday.",
+        "textCorrect": "We will visit the Space Needle in Seattle next Saturday.",
+        "capitalWordIndexes": [0, 4, 5, 7, 9]
+    },
+    {
+        "id": 127,
+        "textIncorrect": "she likes to watch douyin on her phone after school.",
+        "textCorrect": "She likes to watch Douyin on her phone after school.",
+        "capitalWordIndexes": [0, 4]
+    },
+    {
+        "id": 128,
+        "textIncorrect": "he drinks hot coffee at starbucks before his class.",
+        "textCorrect": "He drinks hot coffee at Starbucks before his class.",
+        "capitalWordIndexes": [0, 5]
+    },
+    {
+        "id": 129,
+        "textIncorrect": "i want to improve my typing speed for my new job.",
+        "textCorrect": "I want to improve my typing speed for my new job.",
+        "capitalWordIndexes": [0]
+    },
+    {
+        "id": 130,
+        "textIncorrect": "they went hiking on a beautiful trail in washington.",
+        "textCorrect": "They went hiking on a beautiful trail in Washington.",
+        "capitalWordIndexes": [0, 8]
+    },
+    {
+        "id": 131,
+        "textIncorrect": "my sister practices speaking english with her friends.",
+        "textCorrect": "My sister practices speaking English with her friends.",
+        "capitalWordIndexes": [0, 4]
+    },
+    {
+        "id": 132,
+        "textIncorrect": "we watch a popular livestream on friday night.",
+        "textCorrect": "We watch a popular livestream on Friday night.",
+        "capitalWordIndexes": [0, 6]
+    },
+    {
+        "id": 133,
+        "textIncorrect": "he goes to the gym to lift weights every tuesday.",
+        "textCorrect": "He goes to the gym to lift weights every Tuesday.",
+        "capitalWordIndexes": [0, 8]
+    },
+    {
+        "id": 134,
+        "textIncorrect": "she takes a walk around the lake in bellevue.",
+        "textCorrect": "She takes a walk around the lake in Bellevue.",
+        "capitalWordIndexes": [0, 7]
+    },
+    {
+        "id": 135,
+        "textIncorrect": "i saw a famous person in seattle last december.",
+        "textCorrect": "I saw a famous person in Seattle last December.",
+        "capitalWordIndexes": [0, 6, 8]
+    },
+    {
+        "id": 136,
+        "textIncorrect": "they learn new english words every day at school.",
+        "textCorrect": "They learn new English words every day at school.",
+        "capitalWordIndexes": [0, 3]
+    },
+    {
+        "id": 137,
+        "textIncorrect": "my cousin posts videos on douyin for his family.",
+        "textCorrect": "My cousin posts videos on Douyin for his family.",
+        "capitalWordIndexes": [0, 5]
+    },
+    {
+        "id": 138,
+        "textIncorrect": "we drink tea and coffee at a shop in kirkland.",
+        "textCorrect": "We drink tea and coffee at a shop in Kirkland.",
+        "capitalWordIndexes": [0, 8]
+    },
+    {
+        "id": 139,
+        "textIncorrect": "she wants to buy a new computer for livestreaming.",
+        "textCorrect": "She wants to buy a new computer for livestreaming.",
+        "capitalWordIndexes": [0]
+    },
+    {
+        "id": 140,
+        "textIncorrect": "she practices typing to be a good secretary.",
+        "textCorrect": "She practices typing to be a good secretary.",
+        "capitalWordIndexes": [0]
+    },
+    {
+        "id": 141,
+        "textIncorrect": "i like hiking in july with my classmates.",
+        "textCorrect": "I like hiking in July with my classmates.",
+        "capitalWordIndexes": [0, 4]
+    },
+    {
+        "id": 142,
+        "textIncorrect": "they go to the gym before work on wednesday.",
+        "textCorrect": "They go to the gym before work on Wednesday.",
+        "capitalWordIndexes": [0, 7]
+    },
+    {
+        "id": 143,
+        "textIncorrect": "we speak english at home and at the store.",
+        "textCorrect": "We speak English at home and at the store.",
+        "capitalWordIndexes": [0, 2]
+    },
+    {
+        "id": 144,
+        "textIncorrect": "my father watches news on douyin on his phone.",
+        "textCorrect": "My father watches news on Douyin on his phone.",
+        "capitalWordIndexes": [0, 5]
+    },
+    {
+        "id": 145,
+        "textIncorrect": "she walks to the library in seattle every weekend.",
+        "textCorrect": "She walks to the library in Seattle every weekend.",
+        "capitalWordIndexes": [0, 6]
+    },
+    {
+        "id": 146,
+        "textIncorrect": "he drinks cold coffee in june when it is hot.",
+        "textCorrect": "He drinks cold coffee in June when it is hot.",
+        "capitalWordIndexes": [0, 5]
+    },
+    {
+        "id": 147,
+        "textIncorrect": "i want to visit a gym in bellevue next year.",
+        "textCorrect": "I want to visit a gym in Bellevue next year.",
+        "capitalWordIndexes": [0, 7]
     }
 ];
