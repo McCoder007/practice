@@ -579,7 +579,7 @@ export const capitalsQuizData: Sentence[] = [
     {
         "id": 70,
         "textIncorrect": "they eat breakfast at mcdonald's before work on monday.",
-        "textCorrect": "They eat breakfast at Mcdonald's before work on Monday.",
+        "textCorrect": "They eat breakfast at McDonald's before work on Monday.",
         "capitalWordIndexes": [
             0,
             4,
@@ -590,7 +590,7 @@ export const capitalsQuizData: Sentence[] = [
         "id": 71,
         "textIncorrect": "i play the piano every monday.",
         "textCorrect": "I play the piano every Monday.",
-        "capitalWordIndexes": [0, 6]
+        "capitalWordIndexes": [0, 5]
     },
     {
         "id": 72,
@@ -872,7 +872,7 @@ export const capitalsQuizData: Sentence[] = [
         "id": 118,
         "textIncorrect": "i like to hike in the mountains near seattle in july.",
         "textCorrect": "I like to hike in the mountains near Seattle in July.",
-        "capitalWordIndexes": [0, 7, 9]
+        "capitalWordIndexes": [0, 8, 10]
     },
     {
         "id": 119,
@@ -884,7 +884,7 @@ export const capitalsQuizData: Sentence[] = [
         "id": 120,
         "textIncorrect": "we drink coffee at a small cafe in bellevue on sunday.",
         "textCorrect": "We drink coffee at a small cafe in Bellevue on Sunday.",
-        "capitalWordIndexes": [0, 7, 9]
+        "capitalWordIndexes": [0, 8, 10]
     },
     {
         "id": 121,
@@ -896,7 +896,7 @@ export const capitalsQuizData: Sentence[] = [
         "id": 122,
         "textIncorrect": "he wants to start livestreaming video games on saturday.",
         "textCorrect": "He wants to start livestreaming video games on Saturday.",
-        "capitalWordIndexes": [0, 7]
+        "capitalWordIndexes": [0, 8]
     },
     {
         "id": 123,
@@ -962,13 +962,13 @@ export const capitalsQuizData: Sentence[] = [
         "id": 133,
         "textIncorrect": "he goes to the gym to lift weights every tuesday.",
         "textCorrect": "He goes to the gym to lift weights every Tuesday.",
-        "capitalWordIndexes": [0, 8]
+        "capitalWordIndexes": [0, 9]
     },
     {
         "id": 134,
         "textIncorrect": "she takes a walk around the lake in bellevue.",
         "textCorrect": "She takes a walk around the lake in Bellevue.",
-        "capitalWordIndexes": [0, 7]
+        "capitalWordIndexes": [0, 8]
     },
     {
         "id": 135,
@@ -992,7 +992,7 @@ export const capitalsQuizData: Sentence[] = [
         "id": 138,
         "textIncorrect": "we drink tea and coffee at a shop in kirkland.",
         "textCorrect": "We drink tea and coffee at a shop in Kirkland.",
-        "capitalWordIndexes": [0, 8]
+        "capitalWordIndexes": [0, 9]
     },
     {
         "id": 139,
@@ -1016,7 +1016,7 @@ export const capitalsQuizData: Sentence[] = [
         "id": 142,
         "textIncorrect": "they go to the gym before work on wednesday.",
         "textCorrect": "They go to the gym before work on Wednesday.",
-        "capitalWordIndexes": [0, 7]
+        "capitalWordIndexes": [0, 8]
     },
     {
         "id": 143,
