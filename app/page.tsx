@@ -20,6 +20,16 @@ const getMenuItems = (language: "chinese" | "japanese") => [
     hoverColor: "hover:from-pink-500/20 hover:to-rose-600/20"
   },
   {
+    title: "Verb Reel | 动词卷轴",
+    href: "/irregular-verb-reel",
+    icon: Film,
+    description: "Swipe through irregular verbs like TikTok",
+    color: "from-violet-500/10 to-purple-600/10",
+    iconColor: "text-violet-500",
+    borderColor: "border-violet-500/20",
+    hoverColor: "hover:from-violet-500/20 hover:to-purple-600/20"
+  },
+  {
     title: language === "japanese" ? "New Words | 新単語" : "New Words | 生词",
     href: "/vocabulary",
     icon: Book,
