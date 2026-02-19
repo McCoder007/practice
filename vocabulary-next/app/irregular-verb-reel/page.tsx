@@ -191,9 +191,7 @@ export default function IrregularVerbReelPage() {
     if (audioGenerationRef.current !== generation) return
 
     playTextQueued(verb.base).catch(console.error)
-    playTextQueued(verb.baseSentence).catch(console.error)
     playTextQueued(verb.past).catch(console.error)
-    playTextQueued(verb.pastSentence).catch(console.error)
   }, [])
 
   // Auto-speak effect — fires when current index changes
