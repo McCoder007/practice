@@ -485,7 +485,7 @@ export default function WordReelPage() {
     isDraggingRef.current = false
 
     const deltaY = startY.current - clientY
-    const threshold = window.innerHeight * 0.15 // 15% of screen height
+    const threshold = window.innerHeight * 0.10 // 10% of screen height
 
     const currentCard = currentCardRef.current
     const nextCard = nextCardRef.current
