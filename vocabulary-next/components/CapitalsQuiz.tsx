@@ -5,7 +5,7 @@ import { WordChip } from "./WordChip"
 import { cn, isAnswerCorrect, shuffleArray } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { Progress } from "@/components/ui/progress"
-import { Card, CardContent, CardHeader } from "@/components/ui/card"
+import { Card, CardContent } from "@/components/ui/card"
 import {
     Dialog,
     DialogContent,

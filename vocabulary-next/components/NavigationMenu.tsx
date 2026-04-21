@@ -33,6 +33,11 @@ const getMenuItems = (language: "chinese" | "japanese"): MenuItem[] => [
     icon: Film,
   },
   {
+    title: language === "japanese" ? "Nail Technician | ネイルテクニシャン" : "Nail Technician | 美甲师",
+    href: "/nail-technician-reel",
+    icon: Film,
+  },
+  {
     title: "Verb Reel | 动词卷轴",
     href: "/irregular-verb-reel",
     icon: Film,

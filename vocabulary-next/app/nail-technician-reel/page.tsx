@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useCallback, useRef, Fragment, useMemo, useLayoutEffect } from "react"
 import { ChevronLeft, ChevronRight, ChevronDown, ChevronUp, Volume2, VolumeX } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import vocabularyData from "@/data/vocabulary"
+import nailTechnicianData from "@/data/nailTechnicianReel"
 import { playText, preloadTexts, playTextQueued, clearAudioQueue, warmAudioSession } from '@/lib/tts'
 import {
   initializeAnalytics,
@@ -40,20 +40,20 @@ interface WordCard {
 const getDayStartingIndex = (day: number): number => {
   let index = 0
   for (let i = 0; i < day - 1; i++) {
-    index += vocabularyData[i].words.length
+    index += nailTechnicianData[i].words.length
   }
   return index
 }
 
 // Helper function to calculate starting index for latest day in 'all' mode
 const getLatestDayStartingIndex = (): number => {
-  return getDayStartingIndex(vocabularyData.length)
+  return getDayStartingIndex(nailTechnicianData.length)
 }
 
-export default function WordReelPage() {
+export default function NailTechnicianReelPage() {
   const { language } = useLanguage()
   const [viewMode, setViewMode] = useState<'all' | 'day'>('all')
-  const [currentDay, setCurrentDay] = useState(vocabularyData.length)
+  const [currentDay, setCurrentDay] = useState(nailTechnicianData.length)
   const [sheetOpen, setSheetOpen] = useState(false)
   const initialIndex = getLatestDayStartingIndex()
   const [currentIndex, setCurrentIndex] = useState(initialIndex)
@@ -100,7 +100,7 @@ export default function WordReelPage() {
   const words = useMemo((): WordCard[] => {
     if (viewMode === 'all') {
       const allWords: WordCard[] = []
-      vocabularyData.forEach((dayData) => {
+      nailTechnicianData.forEach((dayData) => {
         dayData.words.forEach((word, wordIndex) => {
           allWords.push({
             english: word.word,
@@ -117,7 +117,7 @@ export default function WordReelPage() {
       })
       return allWords
     } else {
-      const dayData = vocabularyData.find((data) => data.day === currentDay) || vocabularyData[0]
+      const dayData = nailTechnicianData.find((data) => data.day === currentDay) || nailTechnicianData[0]
       return dayData.words.map((word, wordIndex) => ({
         english: word.word,
         chinese: word.translation,
@@ -212,7 +212,7 @@ export default function WordReelPage() {
   // Load auto-speak preference from localStorage
   useEffect(() => {
     try {
-      const stored = localStorage.getItem('word-reel-auto-speak')
+      const stored = localStorage.getItem('nail-technician-reel-auto-speak')
       if (stored === 'true') {
         setAutoSpeak(true)
       }
@@ -256,7 +256,7 @@ export default function WordReelPage() {
     setAutoSpeak(prev => {
       const newValue = !prev
       try {
-        localStorage.setItem('word-reel-auto-speak', String(newValue))
+        localStorage.setItem('nail-technician-reel-auto-speak', String(newValue))
       } catch {
         // localStorage might not be available
       }
@@ -671,7 +671,7 @@ export default function WordReelPage() {
       // Build the allWords array to get the current word's day
       // (we can't use the memoized words here because it will change after setViewMode)
       const allWords: WordCard[] = []
-      vocabularyData.forEach((dayData) => {
+      nailTechnicianData.forEach((dayData) => {
         dayData.words.forEach((word, wordIndex) => {
           allWords.push({
             english: word.word,
@@ -720,7 +720,7 @@ export default function WordReelPage() {
     setAnimating(false)
     
     const prevDay = currentDay
-    const newDay = currentDay > 1 ? currentDay - 1 : vocabularyData.length
+    const newDay = currentDay > 1 ? currentDay - 1 : nailTechnicianData.length
     lastDayChangeTimeRef.current = Date.now()
     setCurrentDay(newDay)
     trackDayChange(newDay, prevDay)
@@ -738,7 +738,7 @@ export default function WordReelPage() {
     setAnimating(false)
     
     const prevDay = currentDay
-    const newDay = currentDay < vocabularyData.length ? currentDay + 1 : 1
+    const newDay = currentDay < nailTechnicianData.length ? currentDay + 1 : 1
     lastDayChangeTimeRef.current = Date.now()
     setCurrentDay(newDay)
     trackDayChange(newDay, prevDay)
@@ -893,7 +893,7 @@ export default function WordReelPage() {
           <div className="flex items-center justify-center relative mb-1">
             <div className="flex flex-col items-center flex-grow">
               <h1 className="text-lg font-semibold text-white">
-                {language === "japanese" ? "Word Reel | 単語リール" : "Word Reel | 单词卷轴"}
+                {language === "japanese" ? "Nail Technician | ネイルテクニシャン" : "Nail Technician | 美甲师"}
               </h1>
             </div>
             <div className="absolute right-2 flex items-center gap-1">
@@ -932,7 +932,7 @@ export default function WordReelPage() {
                 size="icon"
                 className="text-white hover:bg-white/20 rounded-full p-3 h-12 w-16"
                 onClick={handlePreviousDay}
-                disabled={vocabularyData.length <= 1 || animating}
+                disabled={nailTechnicianData.length <= 1 || animating}
               >
                 <ChevronLeft className="h-10 w-10" />
                 <span className="sr-only">Previous Day</span>
@@ -951,7 +951,7 @@ export default function WordReelPage() {
                     <SheetTitle className="text-white text-center">Select Day</SheetTitle>
                   </SheetHeader>
                   <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-3 mt-6 max-h-[60vh] overflow-y-auto">
-                    {vocabularyData.map((dayData) => (
+                    {nailTechnicianData.map((dayData) => (
                       <button
                         key={dayData.day}
                         onClick={() => handleDaySelect(dayData.day)}
@@ -971,7 +971,7 @@ export default function WordReelPage() {
                 size="icon"
                 className="text-white hover:bg-white/20 rounded-full p-3 h-12 w-16"
                 onClick={handleNextDay}
-                disabled={vocabularyData.length <= 1 || animating}
+                disabled={nailTechnicianData.length <= 1 || animating}
               >
                 <ChevronRight className="h-10 w-10" />
                 <span className="sr-only">Next Day</span>
@@ -1016,13 +1016,13 @@ export default function WordReelPage() {
                 <p
                   className="text-[#FFD700] font-medium drop-shadow-lg"
                   style={{
-                    fontSize: getTranslationFontSize(language === 'japanese' ? currentWord.japanese : currentWord.chinese),
+                    fontSize: getTranslationFontSize(language === 'japanese' ? (currentWord.japanese || currentWord.chinese) : currentWord.chinese),
                     textShadow: '0 2px 8px rgba(0,0,0,0.5)',
                     wordBreak: 'keep-all',
                     overflowWrap: 'normal'
                   }}
                 >
-                  {language === 'japanese' ? currentWord.japanese : currentWord.chinese}
+                  {language === 'japanese' ? (currentWord.japanese || currentWord.chinese) : currentWord.chinese}
                 </p>
               </div>
 
@@ -1040,7 +1040,7 @@ export default function WordReelPage() {
                   className="text-[24px] text-[#B0B0B0] drop-shadow-lg"
                   style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
                 >
-                  {language === 'japanese' ? currentWord.japaneseSentence : currentWord.chineseSentence}
+                  {language === 'japanese' ? (currentWord.japaneseSentence || currentWord.chineseSentence) : currentWord.chineseSentence}
                 </p>
               </div>
 
@@ -1100,13 +1100,13 @@ export default function WordReelPage() {
                   <p
                     className="text-[#FFD700] font-medium drop-shadow-lg"
                     style={{
-                      fontSize: getTranslationFontSize(language === 'japanese' ? prevWord.japanese : prevWord.chinese),
+                      fontSize: getTranslationFontSize(language === 'japanese' ? (prevWord.japanese || prevWord.chinese) : prevWord.chinese),
                       textShadow: '0 2px 8px rgba(0,0,0,0.5)',
                       wordBreak: 'keep-all',
                       overflowWrap: 'normal'
                     }}
                   >
-                    {language === 'japanese' ? prevWord.japanese : prevWord.chinese}
+                    {language === 'japanese' ? (prevWord.japanese || prevWord.chinese) : prevWord.chinese}
                   </p>
                 </div>
 
@@ -1124,7 +1124,7 @@ export default function WordReelPage() {
                     className="text-[24px] text-[#B0B0B0] drop-shadow-lg"
                     style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
                   >
-                    {language === 'japanese' ? prevWord.japaneseSentence : prevWord.chineseSentence}
+                    {language === 'japanese' ? (prevWord.japaneseSentence || prevWord.chineseSentence) : prevWord.chineseSentence}
                   </p>
                 </div>
 
@@ -1165,13 +1165,13 @@ export default function WordReelPage() {
                   <p
                     className="text-[#FFD700] font-medium drop-shadow-lg"
                     style={{
-                      fontSize: getTranslationFontSize(language === 'japanese' ? nextWord.japanese : nextWord.chinese),
+                      fontSize: getTranslationFontSize(language === 'japanese' ? (nextWord.japanese || nextWord.chinese) : nextWord.chinese),
                       textShadow: '0 2px 8px rgba(0,0,0,0.5)',
                       wordBreak: 'keep-all',
                       overflowWrap: 'normal'
                     }}
                   >
-                    {language === 'japanese' ? nextWord.japanese : nextWord.chinese}
+                    {language === 'japanese' ? (nextWord.japanese || nextWord.chinese) : nextWord.chinese}
                   </p>
                 </div>
 
@@ -1189,7 +1189,7 @@ export default function WordReelPage() {
                     className="text-[24px] text-[#B0B0B0] drop-shadow-lg"
                     style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}
                   >
-                    {language === 'japanese' ? nextWord.japaneseSentence : nextWord.chineseSentence}
+                    {language === 'japanese' ? (nextWord.japaneseSentence || nextWord.chineseSentence) : nextWord.chineseSentence}
                   </p>
                 </div>
 
