@@ -1,4 +1,15 @@
 // Google Text-to-Speech API implementation
+
+function isSsmlTtsInput(text) {
+    return /^\s*<speak[\s>]/i.test(String(text).trim());
+}
+
+/** Browser SpeechSynthesis cannot use SSML — extract visible word(s). */
+function stripSsmlToPlain(text) {
+    if (!isSsmlTtsInput(text)) return text;
+    return String(text).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
 class GoogleTTSManager {
     constructor() {
         this.apiKey = '';
@@ -247,7 +258,7 @@ class GoogleTTSManager {
                 return false;
             }
             return new Promise((resolve, reject) => {
-                const utterance = this.browserTTS.speak(text);
+                const utterance = this.browserTTS.speak(stripSsmlToPlain(text));
                 if (utterance) {
                     utterance.onend = () => resolve();
                     utterance.onerror = (event) => reject(new Error(`Browser TTS error: ${event.error}`));
@@ -264,7 +275,7 @@ class GoogleTTSManager {
                 return false;
             }
             return new Promise((resolve, reject) => {
-                const utterance = this.browserTTS.speak(text);
+                const utterance = this.browserTTS.speak(stripSsmlToPlain(text));
                 if (utterance) {
                     utterance.onend = () => resolve();
                     utterance.onerror = (event) => reject(new Error(`Browser TTS error: ${event.error}`));
@@ -287,8 +298,11 @@ class GoogleTTSManager {
         }
 
         try {
+            const trimmed = String(text).trim();
             const requestBody = {
-                input: { text },
+                input: isSsmlTtsInput(text)
+                    ? { ssml: trimmed }
+                    : { text },
                 voice: { languageCode: 'en-US', name: this.voice },
                 audioConfig: {
                     audioEncoding: 'MP3',
@@ -344,7 +358,7 @@ class GoogleTTSManager {
 
             // Fall back to browser TTS
             return new Promise((resolve, reject) => {
-                const utterance = this.browserTTS.speak(text);
+                const utterance = this.browserTTS.speak(stripSsmlToPlain(text));
                 if (utterance) {
                     utterance.onend = () => resolve();
                     utterance.onerror = (event) => reject(new Error(`Browser TTS error: ${event.error}`));

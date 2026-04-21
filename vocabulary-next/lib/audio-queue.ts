@@ -7,6 +7,7 @@
  */
 
 import { getPreferredVoice } from './voice';
+import { spokenPlainFromTtsInput } from './tts-ssml';
 
 type AudioQueueItem = {
   text: string;
@@ -269,7 +270,7 @@ class AudioQueueManager {
 
     const synth = window.speechSynthesis;
 
-    const utterance = new SpeechSynthesisUtterance(text);
+    const utterance = new SpeechSynthesisUtterance(spokenPlainFromTtsInput(text));
 
     const voice = getPreferredVoice();
     if (voice) {

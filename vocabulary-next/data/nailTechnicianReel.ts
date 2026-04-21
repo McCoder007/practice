@@ -12,7 +12,17 @@ const nailTechnicianWords: Word[] = [
   { word: "technician", translation: "美甲师", japanese: "", partOfSpeech: "Noun", example: "The technician is very kind.", exampleTranslation: "这位美甲师非常亲切。", japaneseSentence: "" },
   { word: "manicure", translation: "美甲", japanese: "", partOfSpeech: "Noun", example: "I want a manicure today.", exampleTranslation: "我今天想做美甲。", japaneseSentence: "" },
   { word: "pedicure", translation: "修脚美甲", japanese: "", partOfSpeech: "Noun", example: "My mother gets a pedicure.", exampleTranslation: "我妈妈做修脚美甲。", japaneseSentence: "" },
-  { word: "polish", translation: "指甲油", japanese: "", partOfSpeech: "Noun", example: "This polish is red.", exampleTranslation: "这个指甲油是红色的。", japaneseSentence: "" },
+  {
+    word: "polish",
+    // Single word, nail-polish sense (US): /ˈpɑːlɪʃ/ — not "Polish" /ˈpoʊlɪʃ/
+    ttsSsml: '<speak><phoneme alphabet="ipa" ph="ˈpɑːlɪʃ">polish</phoneme></speak>',
+    translation: "指甲油",
+    japanese: "",
+    partOfSpeech: "Noun",
+    example: "This polish is red.",
+    exampleTranslation: "这个指甲油是红色的。",
+    japaneseSentence: "",
+  },
   { word: "gel", translation: "甲油胶", japanese: "", partOfSpeech: "Noun", example: "I like gel on my nails.", exampleTranslation: "我喜欢用甲油胶做指甲。", japaneseSentence: "" },
   { word: "acrylic", translation: "水晶甲", japanese: "", partOfSpeech: "Noun", example: "She wants acrylic nails.", exampleTranslation: "她想做水晶甲。", japaneseSentence: "" },
   { word: "powder", translation: "粉", japanese: "", partOfSpeech: "Noun", example: "The powder is pink.", exampleTranslation: "这个粉是粉色的。", japaneseSentence: "" },
