@@ -20,6 +20,16 @@ const getMenuItems = (language: "chinese" | "japanese") => [
     hoverColor: "hover:from-pink-500/20 hover:to-rose-600/20"
   },
   {
+    title: language === "japanese" ? "Nail Technician | ネイルテクニシャン" : "Nail Technician | 美甲师",
+    href: "/nail-technician-reel",
+    icon: Film,
+    description: "Swipe through nail technician vocabulary like TikTok",
+    color: "from-fuchsia-500/10 to-pink-600/10",
+    iconColor: "text-fuchsia-500",
+    borderColor: "border-fuchsia-500/20",
+    hoverColor: "hover:from-fuchsia-500/20 hover:to-pink-600/20"
+  },
+  {
     title: "Verb Reel | 动词卷轴",
     href: "/irregular-verb-reel",
     icon: Film,
