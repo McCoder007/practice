@@ -3,6 +3,10 @@ import { VocabularyEntry } from './types';
 
 export interface Word {
   word: string
+  /** Plain-text TTS override instead of `word` (homograph disambiguation). */
+  ttsWord?: string
+  /** Full `<speak>...</speak>` SSML for Google TTS (e.g. `<phoneme>`); takes precedence over `ttsWord`. Browser fallback speaks stripped plain text. */
+  ttsSsml?: string
   translation: string
   japanese: string
   partOfSpeech: string

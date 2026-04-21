@@ -1,5 +1,6 @@
 import { enqueueAudio, clearAudioQueue as clearQueue, isAudioPlaying } from './audio-queue';
 import { getPreferredVoice } from './voice';
+import { spokenPlainFromTtsInput } from './tts-ssml';
 
 /**
  * Preload audio for a given text without playing it.
@@ -74,7 +75,7 @@ function playBrowserTTS(text: string) {
 
   synth.cancel();
 
-  const utterance = new SpeechSynthesisUtterance(text);
+  const utterance = new SpeechSynthesisUtterance(spokenPlainFromTtsInput(text));
 
   const voice = getPreferredVoice();
   if (voice) {

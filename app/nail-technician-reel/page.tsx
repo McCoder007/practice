@@ -26,6 +26,8 @@ import {
 
 interface WordCard {
   english: string
+  /** Text passed to TTS for the headword (`ttsSsml` / `ttsWord` / `word` from source). */
+  englishForTts: string
   chinese: string
   japanese: string
   englishSentence: string
@@ -104,6 +106,7 @@ export default function NailTechnicianReelPage() {
         dayData.words.forEach((word, wordIndex) => {
           allWords.push({
             english: word.word,
+            englishForTts: word.ttsSsml ?? word.ttsWord ?? word.word,
             chinese: word.translation,
             japanese: word.japanese,
             englishSentence: word.example,
@@ -120,6 +123,7 @@ export default function NailTechnicianReelPage() {
       const dayData = nailTechnicianData.find((data) => data.day === currentDay) || nailTechnicianData[0]
       return dayData.words.map((word, wordIndex) => ({
         english: word.word,
+        englishForTts: word.ttsSsml ?? word.ttsWord ?? word.word,
         chinese: word.translation,
         japanese: word.japanese,
         englishSentence: word.example,
@@ -236,7 +240,7 @@ export default function NailTechnicianReelPage() {
 
     if (audioGenerationRef.current !== generation) return
 
-    playTextQueued(wordToSpeak.english).catch(error => {
+    playTextQueued(wordToSpeak.englishForTts).catch(error => {
       console.error('Failed to enqueue audio:', error)
     })
 
@@ -319,21 +323,21 @@ export default function NailTechnicianReelPage() {
 
     // Validate current word exists and has required properties
     if (currentWord && currentWord.english) {
-      textsToPreload.push(currentWord.english)
+      textsToPreload.push(currentWord.englishForTts)
       if (currentWord.englishSentence) {
         textsToPreload.push(currentWord.englishSentence)
       }
     }
     // Validate next word exists and has required properties
     if (nextWord && nextIndex !== currentIndex && nextWord.english) {
-      textsToPreload.push(nextWord.english)
+      textsToPreload.push(nextWord.englishForTts)
       if (nextWord.englishSentence) {
         textsToPreload.push(nextWord.englishSentence)
       }
     }
     // Validate prev word exists and has required properties
     if (prevWord && prevIndex !== currentIndex && prevWord.english) {
-      textsToPreload.push(prevWord.english)
+      textsToPreload.push(prevWord.englishForTts)
       if (prevWord.englishSentence) {
         textsToPreload.push(prevWord.englishSentence)
       }
@@ -675,6 +679,7 @@ export default function NailTechnicianReelPage() {
         dayData.words.forEach((word, wordIndex) => {
           allWords.push({
             english: word.word,
+            englishForTts: word.ttsSsml ?? word.ttsWord ?? word.word,
             chinese: word.translation,
             japanese: word.japanese,
             englishSentence: word.example,
@@ -763,12 +768,16 @@ export default function NailTechnicianReelPage() {
     setSheetOpen(false)
   }, [currentDay, animating, viewMode])
 
-  // Audio playback
-  const playAudio = useCallback((text: string, type: 'word_audio_played' | 'sentence_audio_played' = 'word_audio_played') => {
+  // Audio playback (optional `interactionLemma` keeps analytics on the vocabulary word when `text` is a TTS-only phrase)
+  const playAudio = useCallback((
+    text: string,
+    type: 'word_audio_played' | 'sentence_audio_played' = 'word_audio_played',
+    interactionLemma?: string
+  ) => {
     try {
       playText(text)
       if (analyticsInitialized) {
-        logWordInteraction(text, type)
+        logWordInteraction(interactionLemma ?? text, type)
       }
     } catch (error) {
       console.error('Failed to play audio:', error)
@@ -827,8 +836,8 @@ export default function NailTechnicianReelPage() {
     return `${baseSize}px`
   }, [windowWidth])
 
-  // Render clickable words
-  const renderClickableWords = useCallback((text: string, isExample: boolean = false) => {
+  // Render clickable words (`headwordTts` is used for single-token headwords so TTS can differ from display, e.g. "nail polish")
+  const renderClickableWords = useCallback((text: string, headwordTts: string, isExample: boolean = false) => {
     if (!text) return null
     // Check if text is a phrase (contains spaces)
     const isPhrase = text.trim().includes(' ')
@@ -840,9 +849,13 @@ export default function NailTechnicianReelPage() {
             key={idx}
             onClick={(e) => {
               e.stopPropagation() // Prevent parent onClick from firing
-              // If it's a phrase, play the full phrase; otherwise play just the word
-              const textToPlay = isPhrase ? text : token
-              playAudio(textToPlay, isExample ? 'sentence_audio_played' : 'word_audio_played')
+              // Phrase headwords: play full displayed phrase; single word: use TTS-specific text
+              const spoken = isPhrase ? text : headwordTts
+              if (isExample) {
+                playAudio(spoken, 'sentence_audio_played')
+              } else {
+                playAudio(spoken, 'word_audio_played', text)
+              }
             }}
             className="cursor-pointer hover:underline"
           >
@@ -1011,7 +1024,7 @@ export default function NailTechnicianReelPage() {
                     overflowWrap: 'normal'
                   }}
                 >
-                  {renderClickableWords(currentWord.english)}
+                  {renderClickableWords(currentWord.english, currentWord.englishForTts)}
                 </h2>
                 <p
                   className="text-[#FFD700] font-medium drop-shadow-lg"
@@ -1095,7 +1108,7 @@ export default function NailTechnicianReelPage() {
                       overflowWrap: 'normal'
                     }}
                   >
-                    {renderClickableWords(prevWord.english)}
+                    {renderClickableWords(prevWord.english, prevWord.englishForTts)}
                   </h2>
                   <p
                     className="text-[#FFD700] font-medium drop-shadow-lg"
@@ -1160,7 +1173,7 @@ export default function NailTechnicianReelPage() {
                       overflowWrap: 'normal'
                     }}
                   >
-                    {renderClickableWords(nextWord.english)}
+                    {renderClickableWords(nextWord.english, nextWord.englishForTts)}
                   </h2>
                   <p
                     className="text-[#FFD700] font-medium drop-shadow-lg"
