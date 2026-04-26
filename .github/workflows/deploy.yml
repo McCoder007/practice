@@ -35,9 +35,11 @@ jobs:
         env:
           NEXT_PUBLIC_GOOGLE_TTS_API_KEY: ${{ secrets.GOOGLE_TTS_API_KEY }}
           FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
+          NEXT_PUBLIC_BUILD_VERSION: ${{ github.sha }}
         run: |
           cd vocabulary-next
           npm ci
+          echo "{\"version\":\"${NEXT_PUBLIC_BUILD_VERSION}\"}" > public/build-version.json
           npm run build -- --no-lint
           mkdir -p ../vocabulary-next
           cp -r out/* ../vocabulary-next/
