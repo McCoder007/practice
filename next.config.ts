@@ -6,6 +6,7 @@ const nextConfig: NextConfig = {
   env: {
     NEXT_PUBLIC_GOOGLE_TTS_API_KEY: process.env.GOOGLE_TTS_API_KEY || '',
     NEXT_PUBLIC_FIREBASE_API_KEY: process.env.FIREBASE_API_KEY || '',
+    NEXT_PUBLIC_BUILD_VERSION: process.env.NEXT_PUBLIC_BUILD_VERSION || 'dev-local',
   },
   basePath: '/practice',
   eslint: {
