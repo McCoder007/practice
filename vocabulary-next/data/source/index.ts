@@ -29,6 +29,8 @@ import { day26 } from './day26';
 import { day27 } from './day27';
 import { day28 } from './day28';
 import { day29 } from './day29';
+import { day30 } from './day30';
+import { day31 } from './day31';
 
 // Export as a single object for backward compatibility
 export const rawVocabularyData = {
@@ -61,6 +63,8 @@ export const rawVocabularyData = {
   day27,
   day28,
   day29,
+  day30,
+  day31,
 };
 
 // Export each day individually
@@ -93,3 +97,5 @@ export { day26 };
 export { day27 };
 export { day28 };
 export { day29 };
+export { day30 };
+export { day31 };
