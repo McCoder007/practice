@@ -59,15 +59,6 @@ export const day32: VocabularyEntry[] = [
         type: "proper noun"
     },
     {
-        word: "Discussion and Connection",
-        word_translation: "讨论与联系",
-        word_translation_japanese: "ディスカッションと関連づけ",
-        sentence: "Discussion and Connection means talking about the story and sharing your own ideas.",
-        translation: "Discussion and Connection 的意思是讨论故事并分享自己的想法。",
-        translation_japanese: "Discussion and Connection は、物語について話し、自分の考えを共有することです。",
-        type: "noun phrase"
-    },
-    {
         word: "Else",
         word_translation: "其他的；别人",
         word_translation_japanese: "ほかの人",
