@@ -20,6 +20,16 @@ const getMenuItems = (language: "chinese" | "japanese") => [
     hoverColor: "hover:from-pink-500/20 hover:to-rose-600/20"
   },
   {
+    title: "Nail Technician Q&A | 美甲问答",
+    href: "/nail-technician-qa-reel",
+    icon: Film,
+    description: "Swipe through nail technician questions and reveal each answer",
+    color: "from-cyan-500/10 to-blue-600/10",
+    iconColor: "text-cyan-500",
+    borderColor: "border-cyan-500/20",
+    hoverColor: "hover:from-cyan-500/20 hover:to-blue-600/20"
+  },
+  {
     title: language === "japanese" ? "Nail Technician | ネイルテクニシャン" : "Nail Technician | 美甲师",
     href: "/nail-technician-reel",
     icon: Film,
