@@ -144,3 +144,24 @@ body {
   opacity: 0;
   pointer-events: none;
 }
+
+@keyframes qa-answer-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(0.75rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.qa-answer-reveal {
+  animation: qa-answer-reveal 180ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .qa-answer-reveal {
+    animation: none;
+  }
+}
