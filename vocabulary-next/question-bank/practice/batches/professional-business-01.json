@@ -1,0 +1,278 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "professional-business-01",
+  "topic": "Professional conduct, communication, career planning, and business",
+  "status": "authored-awaiting-independent-review",
+  "authoredAt": "2026-08-13",
+  "author": "codex-authoring-run-2026-08-13-professional-01",
+  "authoritySource": "Milady Standard Foundations",
+  "questionIds": [
+    "practice-nail-test-q074", "practice-nail-test-q082", "practice-comprehensive-001",
+    "practice-comprehensive-002", "practice-comprehensive-003", "practice-comprehensive-004",
+    "practice-comprehensive-005", "practice-comprehensive-007", "practice-comprehensive-008",
+    "practice-comprehensive-009", "practice-comprehensive-010", "practice-comprehensive-012",
+    "practice-comprehensive-013", "practice-comprehensive-014", "practice-comprehensive-031",
+    "practice-comprehensive-032", "practice-comprehensive-033", "practice-comprehensive-035",
+    "practice-comprehensive-036", "practice-comprehensive-037", "practice-comprehensive-038",
+    "practice-comprehensive-039", "practice-comprehensive-040", "practice-comprehensive-041",
+    "practice-comprehensive-101", "practice-comprehensive-102", "practice-comprehensive-104",
+    "practice-comprehensive-105", "practice-comprehensive-106", "practice-comprehensive-107",
+    "practice-comprehensive-108", "practice-comprehensive-157", "practice-comprehensive-158",
+    "practice-comprehensive-159", "practice-comprehensive-160", "practice-comprehensive-163",
+    "practice-comprehensive-165", "practice-comprehensive-166", "practice-comprehensive-167",
+    "practice-comprehensive-168", "practice-comprehensive-169"
+  ],
+  "newQuarantineIds": [
+    "practice-nail-test-n011", "practice-comprehensive-006", "practice-comprehensive-011",
+    "practice-comprehensive-034", "practice-comprehensive-164", "practice-comprehensive-172"
+  ],
+  "entries": {
+    "practice-nail-test-q074": {
+      "why": ["Booking the next visit helps the client return when the nails need care. It also makes the salon schedule clearer.", "预约下一次服务，可帮助客户在指甲需要护理时回来，也让沙龙排程更清楚。"],
+      "lock": ["post-service: offer the next appointment.", "服务结束后：询问是否预约下次服务。"],
+      "relation": "purpose",
+      "refs": [["Career Planning - Rebooking", "255-260", 750]]
+    },
+    "practice-nail-test-q082": {
+      "why": ["A nail technician cares for healthy nails. A nail disease needs care from a doctor or another licensed medical worker.", "美甲师护理健康指甲。指甲疾病需要由医生或其他有执照的医务人员处理。"],
+      "lock": ["nail technician = healthy nail care, not disease treatment.", "美甲师 = 健康指甲护理，不治疗疾病。"],
+      "relation": "scope-safety",
+      "refs": [["The Nail Profession - Scope of Practice", "5-12", 29]]
+    },
+    "practice-comprehensive-001": {
+      "why": ["A mission statement explains why an organization exists and what values guide its choices. It gives workers one shared direction.", "mission statement（使命宣言）说明机构存在的目的和指导选择的价值观，让工作人员有共同方向。"],
+      "lock": ["mission statement = purpose plus values.", "mission statement = 目的加价值观。"],
+      "relation": "purpose",
+      "refs": [["Life Skills - Mission Statements", "9", 504]]
+    },
+    "practice-comprehensive-002": {
+      "why": ["Hiding product facts prevents a client from making an informed choice. Selling through missing or false information is unethical.", "隐瞒产品信息会让客户无法在充分了解后作出选择。依靠缺失或虚假信息销售是不道德的。"],
+      "lock": ["ethical selling = honest, complete product information.", "道德销售 = 诚实、完整的产品信息。"],
+      "relation": "cause-category",
+      "refs": [["Life Skills - Ethics", "3-9", 498]]
+    },
+    "practice-comprehensive-003": {
+      "why": ["Diplomacy means giving a clear message with respect and care. Kind wording helps solve problems without attacking the other person.", "diplomacy（得体沟通）表示清楚表达信息，同时保持尊重和体贴。友善措辞能解决问题，而不攻击对方。"],
+      "lock": ["diplomacy = clear message delivered kindly.", "diplomacy = 友善而清楚地表达。"],
+      "relation": "meaning-purpose",
+      "refs": [["Communication - Diplomacy", "55-60", 550]]
+    },
+    "practice-comprehensive-004": {
+      "why": ["Clients form an impression from clothing, cleanliness, speech, body language, and work habits. Together these create a professional image.", "客户会从穿着、清洁、说话、肢体语言和工作习惯形成印象，这些共同构成 professional image（职业形象）。"],
+      "lock": ["professional image = appearance plus workplace conduct.", "职业形象 = 外表加工作行为。"],
+      "relation": "category",
+      "refs": [["Life Skills - Professional Image", "3-9", 498]]
+    },
+    "practice-comprehensive-005": {
+      "why": ["Work ethic describes dependability, effort, honesty, and responsibility. Hygiene is essential professional behavior, but it is a separate cleanliness practice.", "work ethic（职业操守）包括可靠、努力、诚实和负责。卫生习惯也是必要职业行为，但属于单独的清洁要求。"],
+      "lock": ["work ethic = how responsibly you work.", "work ethic = 工作是否负责。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Life Skills - Work Ethic and Hygiene", "3-15", 498]]
+    },
+    "practice-comprehensive-007": {
+      "why": ["A client consultation gathers goals, history, condition, and preferences before work begins. This is when the technician and client agree on a safe result.", "client consultation（客户咨询）在服务前了解目标、历史、状况和偏好，让美甲师与客户共同确定安全结果。"],
+      "lock": ["determine client needs during consultation.", "在客户咨询时确定客户需要。"],
+      "relation": "sequence-purpose",
+      "refs": [["Communicating for Success - Client Consultation", "52-58", 547]]
+    },
+    "practice-comprehensive-008": {
+      "why": ["Reflective listening repeats the client's meaning in new words. The client can then confirm the message or correct a misunderstanding.", "reflective listening（复述式倾听）用自己的话重复客户意思，让客户确认信息或纠正误解。"],
+      "lock": ["listen, restate, confirm.", "倾听、复述、确认。"],
+      "relation": "sequence-purpose",
+      "refs": [["Communicating for Success - Reflective Listening", "58", 553]]
+    },
+    "practice-comprehensive-009": {
+      "why": ["A solution must address the real reason for the complaint. Asking and listening first prevents the technician from guessing or arguing.", "解决方案必须针对客户不满的真正原因。先询问并倾听，可避免美甲师猜测或争辩。"],
+      "lock": ["unhappy client: first learn why.", "客户不满：先了解原因。"],
+      "relation": "sequence-purpose",
+      "refs": [["Communicating for Success - Handling Complaints", "55-60", 550]]
+    },
+    "practice-comprehensive-010": {
+      "why": ["Joining gossip can damage trust and expose private information. A professional changes the subject or stays politely neutral.", "参与闲话会破坏信任，也可能泄露私人信息。专业人员应转移话题或礼貌保持中立。"],
+      "lock": ["client gossip = do not join.", "客户说闲话 = 不参与。"],
+      "relation": "safety-reason",
+      "refs": [["Communicating for Success - Professional Conversation", "55-60", 550]]
+    },
+    "practice-comprehensive-012": {
+      "why": ["Working while sick can spread illness to clients and coworkers. Staying home protects others and gives the body time to recover.", "生病时工作可能把疾病传给客户和同事。留在家中可保护他人，也让身体有时间恢复。"],
+      "lock": ["sick and contagious = stay home.", "生病且可能传染 = 留在家中。"],
+      "relation": "cause-effect",
+      "refs": [["Workplace Health - Illness Prevention", "90-94", 585]]
+    },
+    "practice-comprehensive-013": {
+      "why": ["Ergonomics fits tools, posture, and movement to the worker's body. Better positioning reduces repeated strain on bones, joints, muscles, and nerves.", "ergonomics（人体工学）让工具、姿势和动作适合工作人员身体，从而减少骨、关节、肌肉和神经的反复劳损。"],
+      "lock": ["ergonomics = arrange work to reduce body strain.", "人体工学 = 调整工作以减少身体劳损。"],
+      "relation": "purpose",
+      "refs": [["Workplace Safety - Ergonomics", "181-184", 676]]
+    },
+    "practice-comprehensive-014": {
+      "why": ["Feet about shoulder width apart create a stable base for lifting. Bending the knees then lets the strong leg muscles carry the load.", "双脚约与肩同宽可形成稳定的抬举基础。再弯曲膝盖，让强壮的腿部肌肉承担重量。"],
+      "lock": ["safe lift: feet apart, knees bent, load close.", "安全抬举：双脚分开、屈膝、物品靠近身体。"],
+      "relation": "procedure-purpose",
+      "refs": [["Workplace Safety - Safe Lifting", "181-184", 676]]
+    },
+    "practice-comprehensive-031": {
+      "why": ["Soft skills describe how a person communicates and works with others. Study habits support learning, but they are not mainly workplace interaction skills.", "soft skills（软技能）描述一个人如何沟通并与他人合作。学习习惯帮助学习，但主要不是工作互动技能。"],
+      "lock": ["soft skills = communication and people skills.", "软技能 = 沟通和人际技能。"],
+      "relation": "category-contrast",
+      "refs": [["Career Planning - Soft Skills", "219-224", 715]]
+    },
+    "practice-comprehensive-032": {
+      "why": ["Achievements show what changed because of a person's work. They give an employer more evidence than a simple list of job duties.", "achievements（成就）说明工作带来了什么结果，比只列出职责更能向雇主提供能力证据。"],
+      "lock": ["resume positions: emphasize results and achievements.", "简历工作经历：突出结果和成就。"],
+      "relation": "purpose",
+      "refs": [["Career Planning - Resumes", "226-230", 721]]
+    },
+    "practice-comprehensive-033": {
+      "why": ["A service career exists to meet client needs safely and professionally. Client trust and repeat visits support the technician's long-term work.", "服务职业的核心是安全、专业地满足客户需要。客户信任和再次光顾支持美甲师长期发展。"],
+      "lock": ["service career = centered on clients.", "服务职业 = 以客户为中心。"],
+      "relation": "purpose",
+      "refs": [["Career Planning - Service Careers", "219-224", 715]]
+    },
+    "practice-comprehensive-035": {
+      "why": ["Ticket upgrading means suggesting a useful added service that matches the client's needs. The goal is added value, not pressure.", "ticket upgrading（提升客单）表示根据客户需要建议有用的附加服务，重点是增加价值，而不是强迫购买。"],
+      "lock": ["ticket upgrading = suitable added service.", "ticket upgrading = 合适的附加服务。"],
+      "relation": "meaning-purpose",
+      "refs": [["Career Planning - Ticket Upgrading", "257", 752]]
+    },
+    "practice-comprehensive-036": {
+      "why": ["Practice improves movement, planning, and product control. As skill grows, the same safe service usually takes less time.", "练习能改善动作、计划和产品控制。技能提高后，同样安全的服务通常会用更少时间。"],
+      "lock": ["more experience = efficient service without rushing.", "经验增加 = 提高效率，但不仓促。"],
+      "relation": "cause-effect",
+      "refs": [["Career Planning - Building Speed and Skill", "219-230", 715]]
+    },
+    "practice-comprehensive-037": {
+      "why": ["An organizational plan explains ownership, management, staffing, and daily operation. It shows who is responsible for running each part of the business.", "organizational plan（组织计划）说明所有权、管理、人员和日常运营，明确谁负责经营各部分。"],
+      "lock": ["organizational plan = how the business will run.", "组织计划 = 企业怎样运营。"],
+      "relation": "purpose",
+      "refs": [["Business Fundamentals - Business Plans", "272-280", 767]]
+    },
+    "practice-comprehensive-038": {
+      "why": ["A marketing plan identifies target clients, their needs, competitors, pricing, and promotion. The research guides how the business will attract clients.", "marketing plan（营销计划）确定目标客户、需求、竞争者、定价和推广，指导企业怎样吸引客户。"],
+      "lock": ["marketing plan = target clients plus how to reach them.", "营销计划 = 目标客户加接触方法。"],
+      "relation": "purpose",
+      "refs": [["Business Fundamentals - Marketing Plans", "272-280", 767]]
+    },
+    "practice-comprehensive-039": {
+      "why": ["A mission statement states the business's purpose, values, services, and quality direction. It guides later choices about operations and client experience.", "mission statement（使命宣言）说明企业目的、价值观、服务和质量方向，指导后续运营和客户体验选择。"],
+      "lock": ["mission statement guides what the business stands for.", "使命宣言指导企业代表什么。"],
+      "relation": "purpose",
+      "refs": [["Business Fundamentals - Mission Statements", "272", 767]]
+    },
+    "practice-comprehensive-040": {
+      "why": ["Each suitable added service or retail product increases the amount on a client ticket. Across many clients, those additions create more business revenue.", "每项合适的附加服务或零售产品都会提高客户账单金额，累积后会增加企业收入。"],
+      "lock": ["services plus retail sales = additional revenue.", "服务加零售销售 = 额外收入。"],
+      "relation": "cause-effect",
+      "refs": [["Career Planning - Service and Retail Sales", "255-260", 750]]
+    },
+    "practice-comprehensive-041": {
+      "why": ["Early nail services focused mainly on natural-nail care and simple polish. Later products added tips, acrylic, gel, and detailed nail art.", "早期美甲主要护理天然指甲并使用简单甲油；后来出现甲片、丙烯酸、凝胶和精细美甲艺术。"],
+      "lock": ["later nail history = more enhancement and art choices.", "后期美甲历史 = 更多人工甲和艺术选择。"],
+      "relation": "timeline-contrast",
+      "refs": [["The Nail Profession - History of Nail Technology", "5-12", 29]]
+    },
+    "practice-comprehensive-101": {
+      "why": ["Products, techniques, safety rules, and client tastes change over time. Continuing education helps a professional stay safe and useful.", "产品、技术、安全规定和客户喜好会不断变化。持续学习能帮助专业人员保持安全和能力。"],
+      "lock": ["changing industry = keep learning.", "行业变化 = 持续学习。"],
+      "relation": "cause-effect",
+      "refs": [["Career Planning - Continuing Education", "219-230", 715]]
+    },
+    "practice-comprehensive-102": {
+      "why": ["Ethics are principles used to judge right and wrong behavior. They guide honest, safe, fair choices even when no one is watching.", "ethics（道德原则）用于判断行为对错，即使无人监督，也指导诚实、安全和公平的选择。"],
+      "lock": ["ethics = principles for right conduct.", "ethics = 指导正确行为的原则。"],
+      "relation": "meaning-purpose",
+      "refs": [["Life Skills - Ethics", "3-9", 498]]
+    },
+    "practice-comprehensive-104": {
+      "why": ["Ethical practice combines skill, honesty, respect, privacy, current knowledge, and accurate information. Clients can make safer choices when all are present.", "道德执业结合技能、诚实、尊重、隐私、最新知识和准确信息，使客户能作出更安全的选择。"],
+      "lock": ["ethical practice = skilled, honest, respectful, accurate.", "道德执业 = 有技能、诚实、尊重、准确。"],
+      "relation": "category-purpose",
+      "refs": [["Life Skills - Ethical Practice", "3-9", 498]]
+    },
+    "practice-comprehensive-105": {
+      "why": ["Personality is the combined pattern of a person's attitudes, behavior, and traits. It affects how others experience communication and service.", "personality（个性）是态度、行为和特征的综合模式，会影响他人对沟通和服务的感受。"],
+      "lock": ["personality = traits plus attitudes plus behavior.", "personality = 特征加态度加行为。"],
+      "relation": "category",
+      "refs": [["Life Skills - Personality", "3-9", 498]]
+    },
+    "practice-comprehensive-106": {
+      "why": ["Reacting is an immediate emotional action. Responding pauses long enough to understand the message and choose useful words.", "reacting 是立即的情绪动作；responding 会先停一下理解信息，再选择有帮助的措辞。"],
+      "lock": ["pause and respond; do not react quickly.", "先停一下再回应；不要立即情绪反应。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Communicating for Success - Responding Versus Reacting", "55-60", 550]]
+    },
+    "practice-comprehensive-107": {
+      "why": ["The service record is the salon's ongoing professional record of products, results, and client history. Staff use it to plan later services.", "service record（服务记录）是沙龙保存的产品、结果和客户历史记录，工作人员用它计划后续服务。"],
+      "lock": ["service record = salon's client-service history.", "服务记录 = 沙龙保存的客户服务历史。"],
+      "relation": "purpose",
+      "refs": [["Communicating for Success - Service Record Cards", "52-58", 547]]
+    },
+    "practice-comprehensive-108": {
+      "why": ["Research gives the technician examples of shapes, colors, trends, and practical limits. Those examples help begin a focused style conversation.", "研究可让美甲师了解形状、颜色、趋势和实际限制，从而更有针对性地与客户讨论个人风格。"],
+      "lock": ["style guidance starts with informed research.", "风格建议从充分研究开始。"],
+      "relation": "sequence-purpose",
+      "refs": [["Communicating for Success - Helping Clients Choose", "52-60", 547]]
+    },
+    "practice-comprehensive-157": {
+      "why": ["Soft skills are people and communication abilities used at work. Study habits help a student learn but are not mainly client-interaction skills.", "soft skills（软技能）是工作中的人际和沟通能力。学习习惯帮助学生学习，但主要不是客户互动技能。"],
+      "lock": ["soft skills = working well with people.", "软技能 = 与人良好合作。"],
+      "relation": "category-contrast",
+      "refs": [["Career Planning - Soft Skills", "219-224", 715]]
+    },
+    "practice-comprehensive-158": {
+      "why": ["Networking builds professional relationships before help is needed. Starting with a few genuine contacts can gradually widen career opportunities.", "networking（建立职业关系）是在需要帮助前先建立联系。从少量真诚联系开始，可逐渐扩大职业机会。"],
+      "lock": ["networking = build professional contacts and relationships.", "networking = 建立职业联系人和关系。"],
+      "relation": "purpose",
+      "refs": [["Career Planning - Networking", "224-225", 720]]
+    },
+    "practice-comprehensive-159": {
+      "why": ["A resume gives an employer a short written view of education, experience, skills, and achievements. It helps decide who receives an interview.", "resume（简历）简要书面介绍教育、经验、技能和成就，帮助雇主决定邀请谁面试。"],
+      "lock": ["resume = written education and work summary.", "resume = 教育和工作经历的书面总结。"],
+      "relation": "purpose",
+      "refs": [["Career Planning - Resumes", "226-230", 721]]
+    },
+    "practice-comprehensive-160": {
+      "why": ["Knowing daily job realities helps a new professional set honest expectations and explain services clearly. Honest preparation supports client trust and repeat visits.", "了解日常工作实际情况，可让新专业人员设定真实期望并清楚说明服务，从而建立客户信任和再次光顾。"],
+      "lock": ["know the job, explain honestly, build trust.", "了解工作、诚实说明、建立信任。"],
+      "relation": "cause-effect",
+      "refs": [["Career Planning - Preparing for Employment", "219-230", 715]]
+    },
+    "practice-comprehensive-163": {
+      "why": ["Retailing means recommending and selling a take-home product that supports the client's service result. The recommendation should match a real need.", "retailing（零售）表示推荐并销售能帮助客户维持服务效果的居家产品，推荐应符合真实需要。"],
+      "lock": ["retailing = suitable take-home product sale.", "retailing = 销售合适的居家产品。"],
+      "relation": "meaning-purpose",
+      "refs": [["Career Planning - Retailing", "255-260", 750]]
+    },
+    "practice-comprehensive-165": {
+      "why": ["A location should be convenient and suitable for the clients the business expects to serve. Their travel, price, parking, and service needs affect success.", "店址应方便并适合主要目标客户。客户的出行、价格、停车和服务需要都会影响经营成功。"],
+      "lock": ["business location follows target-client needs.", "经营地点要符合目标客户需要。"],
+      "relation": "cause-effect",
+      "refs": [["Business Fundamentals - Choosing a Location", "280-287", 775]]
+    },
+    "practice-comprehensive-166": {
+      "why": ["A booth renter is self-employed and must attract enough clients to cover rent and expenses. A steady loyal clientele lowers that financial risk.", "booth renter（租位经营者）属于自雇，需要足够客户支付租金和费用。稳定忠实的客户群可降低财务风险。"],
+      "lock": ["booth rental works best with steady loyal clients.", "租位经营最适合已有稳定忠实客户。"],
+      "relation": "cause-effect",
+      "refs": [["Business Fundamentals - Booth Rental", "248-249", 743]]
+    },
+    "practice-comprehensive-167": {
+      "why": ["Booth renters operate as independent business owners. They manage supplies, records, taxes, clients, and schedules instead of depending on an employer.", "租位经营者作为独立业主经营，需要自己管理用品、记录、税务、客户和排程，而不能依赖雇主。"],
+      "lock": ["booth rental = self-employment and self-sufficiency.", "租位经营 = 自雇和自立经营。"],
+      "relation": "meaning-consequence",
+      "refs": [["Business Fundamentals - Booth Rental", "248-249", 743]]
+    },
+    "practice-comprehensive-168": {
+      "why": ["Personnel means the people employed by a business. In a salon, this includes the staff members who perform and support daily work.", "personnel（人员）指企业雇用的人。在沙龙中，包括执行和支持日常工作的员工。"],
+      "lock": ["personnel = staff or employees.", "personnel = 员工。"],
+      "relation": "term-meaning",
+      "refs": [["Business Fundamentals - Managing Personnel", "287-289", 782]]
+    },
+    "practice-comprehensive-169": {
+      "why": ["A stable tipping policy gives clients and workers clear expectations. Constant changes create confusion and can feel unfair.", "稳定的小费政策让客户和员工有清楚预期。不断改变会造成混乱，也可能让人觉得不公平。"],
+      "lock": ["tipping policy = clear, written, consistent.", "小费政策 = 清楚、书面、一致。"],
+      "relation": "cause-effect",
+      "refs": [["Business Fundamentals - Policies and Tipping", "287-290", 782]]
+    }
+  },
+  "notes": "All candidates remain unreviewed. Six subjective, idiomatic, legally unstable, or factually weak items were quarantined."
+}

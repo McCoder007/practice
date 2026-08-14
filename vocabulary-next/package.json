@@ -7,8 +7,16 @@
     "dev:turbo": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint .",
+    "validate:source-audit": "node question-bank/scripts/validate-source-audit.js",
+    "validate:release": "node question-bank/scripts/validate-release.js",
+    "audit:teaching-copy": "node question-bank/scripts/audit-teaching-copy.js",
+    "verify:sources": "python3 -B question-bank/scripts/verify_sources.py",
+    "build:practice-bank": "python3 -B question-bank/scripts/build_practice_bank.py",
+    "prebuild": "npm run validate:release",
     "test:qa-reel": "node --experimental-strip-types --test lib/nail-technician-qa-reel.test.mjs",
+    "test:exam-quiz": "npm run validate:release && node --experimental-strip-types --test lib/exam-quiz-reel.test.mjs",
+    "test": "node --experimental-strip-types --test lib/*.test.mjs question-bank/scripts/*.test.mjs",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

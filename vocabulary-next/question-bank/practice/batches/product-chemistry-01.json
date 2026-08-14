@@ -1,0 +1,222 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "product-chemistry-01",
+  "topic": "Product chemistry and chemical safety",
+  "status": "authored-awaiting-independent-review",
+  "authoredAt": "2026-08-13",
+  "author": "codex-authoring-run-2026-08-13-chemistry-01",
+  "authoritySource": "Milady Standard Nail Technology 8th Edition",
+  "questionIds": [
+    "practice-nail-test-q095",
+    "practice-nail-test-q101",
+    "practice-nail-test-q169",
+    "practice-nail-test-q173",
+    "practice-nail-test-n005",
+    "practice-nail-test-n050",
+    "practice-nail-test-n054",
+    "practice-theory-update-010",
+    "practice-theory-update-011",
+    "practice-theory-update-012",
+    "practice-theory-update-013",
+    "practice-comprehensive-024",
+    "practice-comprehensive-025",
+    "practice-comprehensive-089",
+    "practice-comprehensive-090",
+    "practice-comprehensive-137",
+    "practice-comprehensive-138",
+    "practice-comprehensive-139",
+    "practice-comprehensive-141",
+    "practice-comprehensive-142",
+    "practice-comprehensive-144",
+    "practice-comprehensive-145",
+    "practice-comprehensive-146",
+    "practice-comprehensive-147",
+    "practice-comprehensive-148",
+    "practice-comprehensive-149",
+    "practice-comprehensive-150",
+    "practice-comprehensive-151"
+  ],
+  "newQuarantineIds": [
+    "practice-nail-test-q009",
+    "practice-nail-test-q012",
+    "practice-nail-test-q058",
+    "practice-nail-test-q070",
+    "practice-nail-test-q121",
+    "practice-nail-test-q143",
+    "practice-nail-test-q171",
+    "practice-nail-test-q189",
+    "practice-comprehensive-140",
+    "practice-comprehensive-143"
+  ],
+  "entries": {
+    "practice-nail-test-q095": {
+      "why": ["Polish dries when its liquid leaves as vapor and a solid film remains. The material changes form, but no new substance is made.", "甲油中的液体变成蒸气离开后，会留下固体薄膜。材料的形态改变了，但没有产生新物质。"],
+      "lock": ["evaporation changes form, not chemical identity.", "蒸发改变形态，不改变物质本身。"],
+      "relation": "cause-effect",
+      "refs": [["Nail Product Chemistry - Coatings That Harden by Evaporation", "121-122", 145]]
+    },
+    "practice-nail-test-q101": {
+      "why": ["Liquid monomer can enter the body through skin contact. A spill on the feet is therefore exposure by absorption through the skin.", "液体 monomer（单体）可通过皮肤接触进入身体。洒在脚上属于经皮肤吸收造成的接触。"],
+      "lock": ["chemical through skin = absorption.", "化学品通过皮肤进入 = 吸收。"],
+      "relation": "route",
+      "refs": [["Chemistry and Chemical Safety - Routes of Entry", "165-166", 660]]
+    },
+    "practice-nail-test-q169": {
+      "why": ["An oligomer is a short chain of joined molecules. Gel contains these short chains so it can harden quickly when the correct light is used.", "oligomer（低聚物）是由分子连接成的短链。凝胶含有这些短链，因此在正确灯光下能快速硬化。"],
+      "lock": ["gel uses oligomers that join into longer chains.", "凝胶中的低聚物会连接成更长的链。"],
+      "relation": "function",
+      "refs": [["Nail Product Chemistry - Oligomers", "123", 147]]
+    },
+    "practice-nail-test-q173": {
+      "why": ["Cyanoacrylate is the fast-setting material in nail adhesive. Small amounts harden when they meet moisture on the nail surface.", "cyanoacrylate（氰基丙烯酸酯）是美甲胶中的快速固化材料，少量产品接触甲面水分后会变硬。"],
+      "lock": ["nail adhesive = cyanoacrylate.", "美甲胶 = 氰基丙烯酸酯。"],
+      "relation": "ingredient-function",
+      "refs": [["Nail Product Chemistry - Nail Adhesives", "125-126", 149]]
+    },
+    "practice-nail-test-n005": {
+      "why": ["The pH scale shows whether a water-based product is acidic or alkaline. Seven is neutral; lower numbers are acidic and higher numbers are alkaline.", "pH 值表示含水产品偏酸还是偏碱。7 是中性，低于 7 为酸性，高于 7 为碱性。"],
+      "lock": ["pH below 7 = acid; above 7 = alkaline.", "pH 低于 7 = 酸性；高于 7 = 碱性。"],
+      "relation": "scale",
+      "refs": [["Chemistry and Chemical Safety - The pH Scale", "165-167", 660]]
+    },
+    "practice-nail-test-n050": {
+      "why": ["An MSDS was the older product safety sheet. It included exposure limits, ways chemicals enter the body, and steps for protection and control.", "MSDS 是过去使用的产品安全资料表，包含接触限值、化学品进入身体的途径，以及防护和控制方法。"],
+      "lock": ["MSDS/SDS covers hazards, exposure, and protection.", "MSDS/SDS 包含危险、接触和防护信息。"],
+      "relation": "purpose",
+      "refs": [["Chemistry and Chemical Safety - Safety Data Sheets", "173-175", 668]]
+    },
+    "practice-nail-test-n054": {
+      "why": ["Nitrocellulose forms the hard film in traditional nail enamel. When the liquid parts evaporate, this film stays on the nail.", "nitrocellulose（硝化纤维素）在传统甲油中形成坚硬薄膜。液体成分蒸发后，这层膜留在指甲上。"],
+      "lock": ["nitrocellulose = film former in nail enamel.", "硝化纤维素 = 甲油中的成膜材料。"],
+      "relation": "ingredient-function",
+      "refs": [["Nail Product Chemistry - Nail Polish", "125-126", 149]]
+    },
+    "practice-theory-update-010": {
+      "why": ["A monomer is one small molecule that can join with many others. In a liquid-and-powder nail system, the monomer portion is liquid.", "monomer（单体）是能与许多其他分子连接的小分子。在液粉人工甲系统中，单体部分是液体。"],
+      "lock": ["monomer = liquid; polymer = powder.", "monomer = 液体；polymer = 粉末。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Nail Product Chemistry - Monomers and Polymers", "122", 146]]
+    },
+    "practice-theory-update-011": {
+      "why": ["A polymer is a long chain made when many monomers join. In a liquid-and-powder nail system, the polymer portion is powder.", "polymer（聚合物）是许多单体连接形成的长链。在液粉人工甲系统中，聚合物部分是粉末。"],
+      "lock": ["polymer = powder; monomer = liquid.", "polymer = 粉末；monomer = 液体。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Nail Product Chemistry - Monomers and Polymers", "122", 146]]
+    },
+    "practice-theory-update-012": {
+      "why": ["Polymerization joins small monomer molecules into long chains. As the chains form, the nail product changes from workable material into a hard coating.", "polymerization（聚合反应）把小的单体分子连接成长链。链形成时，美甲材料会从可操作状态变成坚硬涂层。"],
+      "lock": ["polymerization = molecules join and product hardens.", "polymerization = 分子连接，产品变硬。"],
+      "relation": "action-result",
+      "refs": [["Nail Product Chemistry - Polymerization", "122-123", 146]]
+    },
+    "practice-theory-update-013": {
+      "why": ["A solvent is a liquid that dissolves another material. Acetone dissolves many soak-off nail coatings so they can be removed gently.", "solvent（溶剂）是能溶解其他材料的液体。丙酮能溶解许多可浸泡卸除的美甲涂层，便于轻柔卸除。"],
+      "lock": ["acetone = solvent for many soak-off coatings.", "丙酮 = 许多可泡卸涂层的溶剂。"],
+      "relation": "function",
+      "refs": [["Chemistry and Chemical Safety - Solvents and Solutions", "159", 654]]
+    },
+    "practice-comprehensive-024": {
+      "why": ["pH measures the balance between acid and alkaline qualities in a water-based substance. It does not measure product strength or temperature.", "pH 衡量含水物质的酸碱平衡，不表示产品强度或温度。"],
+      "lock": ["pH = acidity versus alkalinity.", "pH = 酸性与碱性。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Chemistry and Chemical Safety - The pH Scale", "165-167", 660]]
+    },
+    "practice-comprehensive-025": {
+      "why": ["Bleach can react with other chemicals and release poisonous gas. Never mix it with hydrogen peroxide unless a product label specifically directs it.", "漂白剂与其他化学品反应时可能释放有毒气体。除非产品标签明确要求，否则绝不能与过氧化氢混合。"],
+      "lock": ["bleach plus other chemicals can make poisonous gas.", "漂白剂与其他化学品混合可能产生有毒气体。"],
+      "relation": "safety-reason",
+      "refs": [["Chemistry and Chemical Safety - Mixing and Incompatible Chemicals", "171-173", 666]]
+    },
+    "practice-comprehensive-089": {
+      "why": ["A catalyst helps a chemical reaction happen faster without becoming part of the final product. Nail products use catalysts to control hardening speed.", "catalyst（催化剂）能加快化学反应，但不会成为最终产品的一部分。美甲产品用它控制硬化速度。"],
+      "lock": ["catalyst = speeds a chemical reaction.", "catalyst = 加快化学反应。"],
+      "relation": "function",
+      "refs": [["Nail Product Chemistry - Catalysts", "123", 147]]
+    },
+    "practice-comprehensive-090": {
+      "why": ["Benzoyl peroxide starts the chain-forming reaction in many liquid-and-powder systems. It is mixed into the powder as an initiator.", "benzoyl peroxide（过氧化苯甲酰）能启动许多液粉系统中的成链反应，并作为引发剂混在粉末中。"],
+      "lock": ["benzoyl peroxide = common powder initiator.", "过氧化苯甲酰 = 常见粉末引发剂。"],
+      "relation": "ingredient-function",
+      "refs": [["Monomer Liquid and Polymer Powder - Initiators", "321-324", 345]]
+    },
+    "practice-comprehensive-137": {
+      "why": ["A product's effect depends on how body tissue responds to its ingredients and amount. Repeated contact can turn a small reaction into sensitivity.", "产品效果取决于身体组织对成分和用量的反应。反复接触可能使轻微反应发展成敏感。"],
+      "lock": ["product effect depends on the body's response.", "产品效果取决于身体反应。"],
+      "relation": "cause-effect",
+      "refs": [["Chemistry and Chemical Safety - Chemical Reactions and Exposure", "154-176", 649]]
+    },
+    "practice-comprehensive-138": {
+      "why": ["An element contains only one kind of atom and cannot be broken into a simpler chemical substance. Oxygen and carbon are examples.", "element（元素）只含一种原子，不能用化学方法分解成更简单的物质。氧和碳都是元素。"],
+      "lock": ["element = one kind of atom.", "element = 一种原子组成的物质。"],
+      "relation": "category",
+      "refs": [["Chemistry and Chemical Safety - Elements", "154-155", 649]]
+    },
+    "practice-comprehensive-139": {
+      "why": ["Scientists recognize 118 chemical elements. Every material is made from these elements alone or joined in compounds.", "科学界确认有 118 种化学元素。所有材料都由这些元素单独组成，或由它们结合成化合物。"],
+      "lock": ["known chemical elements = 118.", "已知化学元素 = 118 种。"],
+      "relation": "category",
+      "refs": [["Chemistry and Chemical Safety - Elements", "154-155", 649]]
+    },
+    "practice-comprehensive-141": {
+      "why": ["Atoms are the smallest units that keep an element's identity. Different arrangements of atoms make different substances.", "atom（原子）是仍保持元素性质的最小单位。原子的不同组合会形成不同物质。"],
+      "lock": ["atoms = basic units of matter.", "atoms = 物质的基本单位。"],
+      "relation": "category",
+      "refs": [["Chemistry and Chemical Safety - Atoms", "155", 650]]
+    },
+    "practice-comprehensive-142": {
+      "why": ["Table salt contains sodium and chlorine atoms chemically joined in a fixed ratio. Joining different elements makes it a compound molecule.", "食盐由钠原子和氯原子按固定比例化学结合。不同元素结合后形成化合物分子。"],
+      "lock": ["table salt = sodium plus chlorine compound.", "食盐 = 钠和氯形成的化合物。"],
+      "relation": "example-category",
+      "refs": [["Chemistry and Chemical Safety - Compound Molecules", "156", 651]]
+    },
+    "practice-comprehensive-144": {
+      "why": ["The solute is the material being dissolved; the solvent does the dissolving. In salt water, salt is the solute and water is the solvent.", "solute（溶质）是被溶解的材料，solvent（溶剂）负责溶解。在盐水中，盐是溶质，水是溶剂。"],
+      "lock": ["salt = solute; water = solvent.", "盐 = 溶质；水 = 溶剂。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Chemistry and Chemical Safety - Solutions", "159", 654]]
+    },
+    "practice-comprehensive-145": {
+      "why": ["Miscible liquids mix evenly and stay mixed. Immiscible liquids separate into layers, as oil and water do.", "miscible（互溶）的液体能均匀混合并保持混合；immiscible（不互溶）的液体会像油和水一样分层。"],
+      "lock": ["miscible = mixes; immiscible = separates.", "miscible = 能混合；immiscible = 会分层。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Chemistry and Chemical Safety - Miscible and Immiscible Liquids", "159-160", 654]]
+    },
+    "practice-comprehensive-146": {
+      "why": ["A solute is the part that becomes dissolved. Salt is a solute when it disappears evenly into water.", "solute（溶质）是被溶解的部分。盐均匀溶入水中时，盐就是溶质。"],
+      "lock": ["solute = substance being dissolved.", "solute = 被溶解的物质。"],
+      "relation": "example-category",
+      "refs": [["Chemistry and Chemical Safety - Solutions", "159", 654]]
+    },
+    "practice-comprehensive-147": {
+      "why": ["A solvent is the part that dissolves another material and forms a solution. Water is the solvent in salt water.", "solvent（溶剂）是溶解其他材料并形成溶液的部分。盐水中的水就是溶剂。"],
+      "lock": ["solvent = substance that does the dissolving.", "solvent = 负责溶解的物质。"],
+      "relation": "example-category",
+      "refs": [["Chemistry and Chemical Safety - Solutions", "159", 654]]
+    },
+    "practice-comprehensive-148": {
+      "why": ["A true solution stays evenly mixed and does not separate while standing. This makes it a stable mixture.", "真正的溶液能保持均匀混合，静置时也不会分层，因此属于稳定混合物。"],
+      "lock": ["solution = stable, evenly mixed material.", "solution = 稳定、均匀的混合物。"],
+      "relation": "recognition",
+      "refs": [["Chemistry and Chemical Safety - Solutions", "159", 654]]
+    },
+    "practice-comprehensive-149": {
+      "why": ["Overexposure means too much contact over time. As the amount or length of contact rises, the chance of a harmful reaction also rises.", "overexposure（过度接触）表示长时间接触过多。接触量或接触时间增加时，有害反应的风险也会上升。"],
+      "lock": ["more exposure = greater chance of harm.", "接触越多 = 伤害风险越高。"],
+      "relation": "cause-effect",
+      "refs": [["Chemistry and Chemical Safety - Overexposure", "165", 660]]
+    },
+    "practice-comprehensive-150": {
+      "why": ["An SDS keeps product dangers, first aid, spill cleanup, and safe handling in one place. Workers need quick access during an emergency.", "SDS 把产品危险、急救、泄漏清理和安全处理信息集中在一起。发生紧急情况时，工作人员必须能快速查到。"],
+      "lock": ["SDS = emergency product-safety information.", "SDS = 紧急情况下的产品安全信息。"],
+      "relation": "purpose",
+      "refs": [["Chemistry and Chemical Safety - Safety Data Sheets", "173-175", 668]]
+    },
+    "practice-comprehensive-151": {
+      "why": ["SDS sections always follow the same order. After the product is identified, the next section lists its dangers and warning symbols.", "SDS 各部分的顺序固定。产品确认信息之后，下一部分会列出危险和警示图标。"],
+      "lock": ["SDS section 1: Identification; section 2: Hazards.", "SDS 第 1 部分：识别；第 2 部分：危险。"],
+      "relation": "sequence",
+      "refs": [["Chemistry and Chemical Safety - SDS Categories", "174-175", 669]]
+    }
+  },
+  "notes": "All candidates remain unreviewed. Ten generic, outdated, or scientifically unsupported source items were quarantined rather than normalized silently."
+}

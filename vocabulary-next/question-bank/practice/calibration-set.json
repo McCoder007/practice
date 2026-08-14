@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.0.0",
+  "status": "voice-approved",
+  "selectedAt": "2026-08-13",
+  "productOwnerVoiceApproval": {
+    "reviewer": "Shawn",
+    "approvedAt": "2026-08-13",
+    "scope": "ESL-first educational voice and depth for future authoring batches",
+    "note": "Approved after avoidable difficult English was replaced with simpler wording. This approval does not mark any card as independently reviewed or releasable."
+  },
+  "safeTeachingCopyIds": [
+    "practice-nail-test-q001",
+    "practice-nail-test-q018",
+    "practice-nail-test-q047",
+    "practice-nail-test-q054",
+    "practice-nail-test-q055",
+    "practice-nail-test-q098",
+    "practice-comprehensive-042",
+    "practice-theory-update-009",
+    "practice-nail-test-q178",
+    "practice-nail-test-q110",
+    "practice-nail-test-q145",
+    "practice-nail-test-q087",
+    "practice-nail-test-q028",
+    "practice-theory-update-001",
+    "practice-nail-test-q034",
+    "practice-nail-test-q164",
+    "practice-comprehensive-081",
+    "practice-nail-test-q191"
+  ],
+  "disputeCalibrationIds": [
+    "practice-nail-test-q004",
+    "practice-nail-test-q007",
+    "practice-nail-test-q014",
+    "practice-nail-test-q046",
+    "practice-nail-test-q068",
+    "practice-nail-test-q175"
+  ],
+  "notes": "The six disputed cards test fail-closed quarantine behavior. They intentionally have no teaching copy and cannot ship without an explicit named resolution. The product owner approved the ESL-first voice and depth of the 18 authored examples. The cards remain unreviewed and unshipped until independent answer, teaching, English, and Chinese review is recorded."
+}

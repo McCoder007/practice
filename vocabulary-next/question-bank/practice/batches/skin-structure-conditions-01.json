@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "skin-structure-conditions-01",
+  "topic": "Skin structure, functions, disorders, and diseases",
+  "status": "authored-awaiting-independent-review",
+  "authoredAt": "2026-08-13",
+  "author": "codex-authoring-run-2026-08-13-skin-01",
+  "authoritySource": "Milady Standard Nail Technology 8th Edition",
+  "questionIds": [
+    "practice-nail-test-q053",
+    "practice-nail-test-q149",
+    "practice-nail-test-q170",
+    "practice-nail-test-q193",
+    "practice-nail-test-n059",
+    "practice-comprehensive-046",
+    "practice-comprehensive-047",
+    "practice-comprehensive-048",
+    "practice-comprehensive-049",
+    "practice-comprehensive-181",
+    "practice-comprehensive-182",
+    "practice-comprehensive-183",
+    "practice-comprehensive-185",
+    "practice-comprehensive-187",
+    "practice-comprehensive-188",
+    "practice-comprehensive-189",
+    "practice-comprehensive-190",
+    "practice-comprehensive-191",
+    "practice-comprehensive-192"
+  ],
+  "newQuarantineIds": [
+    "practice-comprehensive-050",
+    "practice-comprehensive-051",
+    "practice-comprehensive-186"
+  ],
+  "entries": {
+    "practice-nail-test-q053": {
+      "why": ["Sweat glands in the skin release perspiration. Perspiration carries water, salt, and small amounts of waste out of the body.", "皮肤里的汗腺会排出汗液。汗液把水、盐和少量废物带出身体。"],
+      "lock": ["skin removes some waste through sweat.", "皮肤通过汗液排出少量废物。"],
+      "relation": "function",
+      "refs": [["Skin Functions - Excretion", "79-80", 103]]
+    },
+    "practice-nail-test-q149": {
+      "why": ["Sebum is skin oil that helps keep skin soft. Sweat adds water; together they form a thin protective surface layer.", "sebum（皮脂）是帮助皮肤保持柔软的油脂。汗液提供水分，两者共同形成薄薄的表面保护层。"],
+      "lock": ["sebum adds oil; sweat adds water.", "皮脂提供油分；汗液提供水分。"],
+      "relation": "function-contrast",
+      "refs": [["Skin Functions - Secretion and Excretion", "79-80", 103]]
+    },
+    "practice-nail-test-q170": {
+      "why": ["The epidermis is the skin's outer layer. Its surface is made of dead cells that are continually shed and replaced.", "epidermis（表皮）是皮肤最外层。它的表面由不断脱落并被替换的死细胞组成。"],
+      "lock": ["epidermis = outer skin layer.", "epidermis = 皮肤外层。"],
+      "relation": "body-location",
+      "refs": [["Skin Structure - Epidermis", "78-79", 102]]
+    },
+    "practice-nail-test-q193": {
+      "why": ["Exfoliation removes dead cells from the skin surface. Removing this rough outer buildup makes the skin feel smoother.", "exfoliation（去角质）能去掉皮肤表面的死细胞。除去粗糙的表层堆积后，皮肤会更光滑。"],
+      "lock": ["exfoliate = remove dead surface cells.", "exfoliate = 去除表面死细胞。"],
+      "relation": "action-result",
+      "refs": [["Skin Care - Exfoliation", "83-84", 107]]
+    },
+    "practice-nail-test-n059": {
+      "why": ["The epidermis is above the dermis and the deeper fatty layer. It is the part of the skin that faces the outside world.", "epidermis（表皮）位于真皮和更深的脂肪层上方，是皮肤接触外界的部分。"],
+      "lock": ["outermost skin = epidermis.", "最外层皮肤 = 表皮。"],
+      "relation": "body-location",
+      "refs": [["Skin Structure - Epidermis", "78-79", 102]]
+    },
+    "practice-comprehensive-046": {
+      "why": ["Skin condition affects which products and services are safe. Knowing what healthy skin needs helps a technician avoid irritation and injury.", "皮肤状况会影响哪些产品和服务是安全的。了解健康皮肤的基本需要，可帮助美甲师避免刺激和损伤。"],
+      "lock": ["know skin needs before choosing a service.", "选择服务前先了解皮肤需要。"],
+      "relation": "purpose",
+      "refs": [["Skin Structure, Disorders, and Diseases - Skin Health", "78-90", 102]]
+    },
+    "practice-comprehensive-047": {
+      "why": ["The epidermis forms the body's outside covering. It protects the living tissue below from water loss, injury, and germs.", "epidermis（表皮）形成身体外层，保护下面的活组织，减少水分流失、损伤和细菌进入。"],
+      "lock": ["epidermis = protective outer layer.", "epidermis = 保护性外层。"],
+      "relation": "body-location-function",
+      "refs": [["Skin Structure - Epidermis", "78-79", 102]]
+    },
+    "practice-comprehensive-048": {
+      "why": ["Healthy skin can bend and stretch with body movement. Rigid means stiff and unable to bend easily, so it is not a healthy quality.", "健康皮肤能随着身体动作弯曲和伸展。rigid 表示僵硬、不易弯曲，因此不是健康皮肤的特点。"],
+      "lock": ["healthy skin = flexible, not rigid.", "健康皮肤 = 柔韧，不僵硬。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Skin Structure - Characteristics of Healthy Skin", "80-81", 104]],
+      "definedExamTerms": ["rigid"]
+    },
+    "practice-comprehensive-049": {
+      "why": ["Sensitization develops after repeated contact with a product. Later, even a small amount can cause a strong allergic reaction.", "sensitization（致敏）可能在反复接触产品后形成。之后即使少量接触，也可能引起强烈过敏反应。"],
+      "lock": ["repeated contact can lead to sensitization.", "反复接触可能导致致敏。"],
+      "relation": "cause-effect",
+      "refs": [["Skin Disorders - Product Sensitization", "82-84", 106]]
+    },
+    "practice-comprehensive-181": {
+      "why": ["Skin cells need oxygen and nutrients to stay alive and repair damage. Blood carries both to the skin.", "皮肤细胞需要氧气和营养物质来生存并修复损伤。血液把这两样带到皮肤。"],
+      "lock": ["blood carries oxygen plus nutrients to skin.", "血液把氧气和营养物质带到皮肤。"],
+      "relation": "function",
+      "refs": [["Skin Structure - Blood Supply", "79-80", 103]]
+    },
+    "practice-comprehensive-182": {
+      "why": ["The stratum lucidum is a clear layer of the epidermis. It is found in thick skin such as the palms and soles.", "stratum lucidum（透明层）是表皮中的透明层，存在于手掌和脚底等较厚的皮肤中。"],
+      "lock": ["stratum lucidum = clear layer in thick skin.", "stratum lucidum = 厚皮肤中的透明层。"],
+      "relation": "body-location",
+      "refs": [["Skin Structure - Stratum Lucidum", "78-79", 102]]
+    },
+    "practice-comprehensive-183": {
+      "why": ["Sebaceous glands make skin oil and usually open into hair follicles. The palms have no hair follicles, so they have no sebaceous glands.", "皮脂腺制造皮脂，通常开口于毛囊。手掌没有毛囊，因此也没有皮脂腺。"],
+      "lock": ["palms: no hair follicles, no sebaceous glands.", "手掌：没有毛囊，也没有皮脂腺。"],
+      "relation": "cause-effect",
+      "refs": [["Skin Structure - Sebaceous Glands", "80-81", 104]]
+    },
+    "practice-comprehensive-185": {
+      "why": ["Skin forms a physical covering around the body. This layer helps block injury, germs, and excessive water loss.", "皮肤在身体外形成保护层，帮助阻挡损伤和细菌，并防止水分过度流失。"],
+      "lock": ["main skin role = protection.", "皮肤主要作用 = 保护。"],
+      "relation": "function",
+      "refs": [["Functions of the Skin - Protection", "79-80", 103]]
+    },
+    "practice-comprehensive-187": {
+      "why": ["An ulcer is an open sore where skin or a moist body lining has been lost. Open skin can let germs enter.", "ulcer（溃疡）是皮肤或湿润黏膜缺损形成的开放性伤口。皮肤破开后，细菌可能进入。"],
+      "lock": ["ulcer = open sore.", "ulcer = 开放性溃疡。"],
+      "relation": "meaning-consequence",
+      "refs": [["Skin Lesions - Ulcer", "85-86", 109]]
+    },
+    "practice-comprehensive-188": {
+      "why": ["A fissure is a deep crack that reaches the dermis. Because the skin is split open, it can hurt and let germs enter.", "fissure（皮肤裂隙）是深达真皮的裂口。皮肤裂开后可能疼痛，也可能让细菌进入。"],
+      "lock": ["fissure = deep open skin crack.", "fissure = 深而开放的皮肤裂口。"],
+      "relation": "meaning-consequence",
+      "refs": [["Skin Lesions - Fissure", "85-86", 109]]
+    },
+    "practice-comprehensive-189": {
+      "why": ["In the ABCDE warning check, B means border. A mole with an uneven or unclear border should be checked by a doctor.", "在 ABCDE 警示检查中，B 代表 border（边界）。边界不规则或不清楚的痣应由医生检查。"],
+      "lock": ["ABCDE: B = border irregularity.", "ABCDE：B = 边界不规则。"],
+      "relation": "recognition",
+      "refs": [["Skin Cancer - ABCDE Checklist", "86-87", 110]]
+    },
+    "practice-comprehensive-190": {
+      "why": ["A mole is a colored spot formed by groups of pigment-making cells. A change in its shape, color, or size needs medical attention.", "mole（痣）是色素细胞聚集形成的有色斑点。形状、颜色或大小发生变化时需要就医检查。"],
+      "lock": ["changing mole = refer for medical examination.", "痣发生变化 = 建议就医检查。"],
+      "relation": "meaning-safety",
+      "refs": [["Skin Disorders - Moles", "85-86", 109]]
+    },
+    "practice-comprehensive-191": {
+      "why": ["Melanoma is a dangerous cancer of pigment-making skin cells. Early medical treatment matters because it can spread through the body.", "melanoma（黑色素瘤）是色素细胞发生的危险皮肤癌。它可能扩散到全身，因此早期就医很重要。"],
+      "lock": ["melanoma = dangerous skin cancer.", "melanoma = 危险的皮肤癌。"],
+      "relation": "meaning-consequence",
+      "refs": [["Skin Cancer - Melanoma", "86-87", 110]]
+    },
+    "practice-comprehensive-192": {
+      "why": ["Cellulitis is a bacterial infection in deeper skin tissue. It needs medical care, but ordinary person-to-person contact does not spread it easily.", "cellulitis（蜂窝织炎）是较深皮肤组织的细菌感染，需要医疗处理，但一般接触不容易在人与人之间传播。"],
+      "lock": ["cellulitis = serious infection, not highly contagious.", "cellulitis = 严重感染，但不是高度传染。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Skin Inflammations - Cellulitis", "87-89", 111]]
+    }
+  },
+  "notes": "All candidates remain unreviewed. Two source items were quarantined because their keyed claims are not supported as unique textbook facts."
+}

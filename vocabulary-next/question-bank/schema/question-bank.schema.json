@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/nail-technology-practice-bank.schema.json",
+  "title": "Nail Technology Bilingual Practice Pool",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "language", "sourceTitle", "generatedAt", "statistics", "questions"],
+  "properties": {
+    "schemaVersion": { "const": "2.0.0" },
+    "language": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source", "translation"],
+      "properties": {
+        "source": { "const": "en" },
+        "translation": { "const": "zh-Hans" }
+      }
+    },
+    "sourceTitle": { "type": "string", "minLength": 1 },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "statistics": { "type": "object" },
+    "questions": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/question" }
+    }
+  },
+  "$defs": {
+    "localizedText": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en", "zh"],
+      "properties": {
+        "en": { "type": "string" },
+        "zh": { "type": "string" }
+      }
+    },
+    "choice": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "en", "zh"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-d]$" },
+        "en": { "type": "string", "minLength": 1 },
+        "zh": { "type": "string", "minLength": 1 }
+      }
+    },
+    "question": {
+      "type": "object",
+      "required": ["id", "section", "chapter", "collection", "question", "choices", "correctChoice", "sources", "choicesOrigin", "status"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^practice-" },
+        "section": { "const": "practice" },
+        "chapter": { "const": 0 },
+        "chapterTitle": { "$ref": "#/$defs/localizedText" },
+        "collection": { "const": "practice-pool" },
+        "type": { "const": "multiple-choice" },
+        "question": { "$ref": "#/$defs/localizedText" },
+        "choices": { "type": "array" },
+        "correctChoice": { "type": "string" },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["book", "itemRef"],
+            "properties": {
+              "book": { "type": "string" },
+              "itemRef": { "type": "string" }
+            }
+          }
+        },
+        "choicesOrigin": { "enum": ["source", "authored-distractors", ""] },
+        "rawKey": { "type": "string" },
+        "normalizedKey": { "type": "string" },
+        "keyedChoiceText": { "type": "string" },
+        "status": { "enum": ["staging", "quarantined", "approved", "omitted"] },
+        "explanation": { "$ref": "#/$defs/localizedText" },
+        "lockPoint": { "$ref": "#/$defs/localizedText" },
+        "sourceWarning": { "$ref": "#/$defs/localizedText" },
+        "auditNote": { "type": "string" },
+        "distractorFamily": { "type": "string" },
+        "displayQuestionEn": { "type": "string" },
+        "verificationWarning": { "type": "string" },
+        "omitReason": { "type": "string" },
+        "disputeReason": { "type": "string" },
+        "reviewReason": { "$ref": "#/$defs/localizedText" },
+        "questionEn": { "type": "string" },
+        "answerEn": { "type": "string" },
+        "kind": { "type": "string" }
+      }
+    }
+  }
+}

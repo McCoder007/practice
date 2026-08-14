@@ -1,0 +1,267 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "infection-control-safety-02",
+  "topic": "Infection control, disease transmission, and workplace safety",
+  "status": "authored-awaiting-independent-review",
+  "authoredAt": "2026-08-13",
+  "author": "codex-authoring-run-2026-08-13-infection-02",
+  "authoritySource": "Milady Standard Foundations",
+  "questionIds": [
+    "practice-nail-test-q033", "practice-nail-test-q036", "practice-nail-test-q042",
+    "practice-nail-test-q064", "practice-nail-test-q069", "practice-nail-test-q071",
+    "practice-nail-test-q079", "practice-nail-test-q102", "practice-nail-test-q198",
+    "practice-nail-test-n006", "practice-nail-test-n012", "practice-nail-test-n016",
+    "practice-nail-test-n017", "practice-nail-test-n019", "practice-nail-test-n022",
+    "practice-nail-test-n025", "practice-nail-test-n029", "practice-nail-test-n047",
+    "practice-theory-update-022", "practice-theory-update-030", "practice-comprehensive-015",
+    "practice-comprehensive-017", "practice-comprehensive-018", "practice-comprehensive-019",
+    "practice-comprehensive-021", "practice-comprehensive-058", "practice-comprehensive-071",
+    "practice-comprehensive-110", "practice-comprehensive-111", "practice-comprehensive-112",
+    "practice-comprehensive-118", "practice-comprehensive-120", "practice-comprehensive-122",
+    "practice-comprehensive-124", "practice-comprehensive-128", "practice-comprehensive-130",
+    "practice-comprehensive-131", "practice-comprehensive-132", "practice-comprehensive-135"
+  ],
+  "newQuarantineIds": [
+    "practice-nail-test-q052", "practice-nail-test-q125", "practice-nail-test-n018",
+    "practice-nail-test-n020", "practice-nail-test-n021", "practice-nail-test-n023",
+    "practice-nail-test-n027", "practice-theory-update-023", "practice-comprehensive-123"
+  ],
+  "entries": {
+    "practice-nail-test-q033": {
+      "why": ["Some bacteria have thin tail-like flagella that move back and forth. This movement pushes the bacterial cell through liquid.", "有些细菌带有细长尾状的 flagella（鞭毛）。鞭毛来回运动，推动细菌在液体中移动。"],
+      "lock": ["flagella = tails that move some bacteria.", "flagella = 帮助某些细菌移动的尾状结构。"],
+      "relation": "structure-function",
+      "refs": [["Infection Control - Bacteria", "103-106", 598]]
+    },
+    "practice-nail-test-q036": {
+      "why": ["A contagious disease can pass from one person to another. It may spread through touch, shared objects, droplets, or air.", "contagious disease（传染病）可从一个人传给另一个人，可能通过接触、共用物品、飞沫或空气传播。"],
+      "lock": ["contagious = can spread person to person.", "contagious = 能在人与人之间传播。"],
+      "relation": "meaning-consequence",
+      "refs": [["Infection Control - Communicable Disease", "99-103", 594]]
+    },
+    "practice-nail-test-q042": {
+      "why": ["A used towel can hold skin material, product, and germs from one client. Replace it with a clean towel before the next client.", "用过的毛巾可能带有上一位客户的皮屑、产品和细菌。下一位客户前必须换成干净毛巾。"],
+      "lock": ["every client = fresh clean towels.", "每位客户 = 使用干净新毛巾。"],
+      "relation": "safety-reason",
+      "refs": [["Infection Control - Linens and Single-Use Materials", "137-140", 632]]
+    },
+    "practice-nail-test-q064": {
+      "why": ["Sodium hypochlorite is the active germ-killing chemical in household chlorine bleach. Bleach must be mixed and used only as its label directs.", "sodium hypochlorite（次氯酸钠）是家用含氯漂白剂中的有效杀菌成分。必须按标签说明配制和使用。"],
+      "lock": ["sodium hypochlorite = chlorine bleach ingredient.", "次氯酸钠 = 含氯漂白剂成分。"],
+      "relation": "ingredient-category",
+      "refs": [["Infection Control - Sodium Hypochlorite", "119-123", 614]]
+    },
+    "practice-nail-test-q069": {
+      "why": ["Immunity is the body's defense against germs that cause disease. It recognizes threats and helps destroy them before or during infection.", "immunity（免疫力）是身体对抗致病细菌的防御能力，能识别威胁，并在感染前后帮助清除它们。"],
+      "lock": ["immunity = body's disease defense.", "immunity = 身体抵抗疾病的能力。"],
+      "relation": "function",
+      "refs": [["Infection Control - Immunity", "109-113", 604]]
+    },
+    "practice-nail-test-q071": {
+      "why": ["Stopping immediately prevents more injury and limits blood contact. The technician can then put on gloves and follow the exposure procedure.", "立即停止服务可避免继续受伤并减少血液接触。之后美甲师应戴手套并执行暴露处理步骤。"],
+      "lock": ["client cut: stop first, then gloves and safety steps.", "客户被割伤：先停止，再戴手套并执行安全步骤。"],
+      "relation": "sequence-safety",
+      "refs": [["Infection Control - Procedure 5-3: Client Injury", "141-143", 636]]
+    },
+    "practice-nail-test-q079": {
+      "why": ["Redness and pain around a broken enhancement may signal injury or infection. Stop the service and avoid the area instead of covering the problem.", "断裂人工甲周围出现红肿和疼痛，可能表示受伤或感染。应停止服务并避开该处，不要把问题盖住。"],
+      "lock": ["red, painful nail = stop and do not touch.", "指甲红痛 = 停止服务，不要触碰。"],
+      "relation": "recognition-safety",
+      "refs": [["Infection Control - When to Stop a Service", "126-143", 621]]
+    },
+    "practice-nail-test-q102": {
+      "why": ["Sanitation lowers the number of germs through cleaning and safe habits. It reduces spread, but stronger disinfection is still required for reusable tools.", "sanitation（卫生处理）通过清洁和安全习惯减少细菌数量，从而降低传播；可重复使用的工具仍需进一步消毒。"],
+      "lock": ["sanitation lowers germs; disinfection kills most.", "卫生处理减少细菌；消毒杀死大多数细菌。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Infection Control - Cleaning and Disinfection", "115-118", 610]]
+    },
+    "practice-nail-test-q198": {
+      "why": ["A broken nail with swelling and redness may be injured or infected. Working on it can worsen the damage or spread germs.", "断裂指甲伴有肿胀和发红，可能受伤或感染。继续操作会加重损伤或传播细菌。"],
+      "lock": ["broken plus red and swollen = no service on that nail.", "断裂加红肿 = 不在该指甲上服务。"],
+      "relation": "recognition-safety",
+      "refs": [["Infection Control - When to Stop a Service", "126-143", 621]]
+    },
+    "practice-nail-test-n006": {
+      "why": ["Rubbing with soap for at least 20 seconds loosens dirt and germs from all hand surfaces. Running water then carries them away.", "用肥皂揉搓至少 20 秒，能从手部各表面松动污垢和细菌，再由流动水冲走。"],
+      "lock": ["soap scrub time = at least 20 seconds.", "肥皂揉搓时间 = 至少 20 秒。"],
+      "relation": "procedure-purpose",
+      "refs": [["Infection Control - Hand Washing", "135", 630]]
+    },
+    "practice-nail-test-n012": {
+      "why": ["Cleaning is the first infection-control step because it removes visible material. Disinfectant cannot reach a dirty tool surface well.", "清洁是感染控制第一步，因为它去掉可见污物。工具表面脏时，消毒剂无法充分接触。"],
+      "lock": ["first clean; then disinfect.", "先清洁；再消毒。"],
+      "relation": "sequence-purpose",
+      "refs": [["Infection Control - Two-Step Infection Control", "115-118", 610]]
+    },
+    "practice-nail-test-n016": {
+      "why": ["Bacilli are bacteria shaped like short rods. Shape helps classify bacteria; cocci are round and spirilla are spiral-shaped.", "bacilli（杆菌）是短杆状细菌。细菌可按形状分类；cocci 是球状，spirilla 是螺旋状。"],
+      "lock": ["bacilli = rod-shaped bacteria.", "bacilli = 杆状细菌。"],
+      "relation": "category-contrast",
+      "refs": [["Infection Control - Bacterial Shapes", "103-106", 598]]
+    },
+    "practice-nail-test-n017": {
+      "why": ["A boil is limited to one small body area, so it is a local infection. A general infection affects the body more widely.", "疖只发生在身体一个小区域，因此属于 local infection（局部感染）；全身感染影响范围更广。"],
+      "lock": ["boil = local infection.", "疖 = 局部感染。"],
+      "relation": "category-contrast",
+      "refs": [["Infection Control - Local and Systemic Infections", "106-109", 601]]
+    },
+    "practice-nail-test-n019": {
+      "why": ["Sterilization destroys every kind of germ, not only the types that cause disease. It also destroys bacteria that are helpful or harmless.", "sterilization（灭菌）会消灭所有种类的细菌，不只消灭致病细菌，也会消灭有益或无害的细菌。"],
+      "lock": ["sterilization = destroys all forms of germs.", "sterilization = 消灭所有形态的细菌。"],
+      "relation": "scope",
+      "refs": [["Infection Control - Sterilization", "118", 613]]
+    },
+    "practice-nail-test-n022": {
+      "why": ["A germicide is a product that kills germs. A disinfectant is a germicide made for cleaned tools and hard surfaces, not for skin.", "germicide（杀菌剂）是杀死细菌的产品。disinfectant 是用于已清洁工具和坚硬表面的杀菌剂，不能用于皮肤。"],
+      "lock": ["disinfectant = germ killer for tools and hard surfaces.", "disinfectant = 用于工具和坚硬表面的杀菌剂。"],
+      "relation": "category",
+      "refs": [["Infection Control - Disinfectants", "118-123", 613]]
+    },
+    "practice-nail-test-n025": {
+      "why": ["Saprophytes live on dead or decaying material and usually do not cause disease. They differ from bacteria that attack living tissue.", "saprophytes（腐生菌）生活在死亡或腐败物质上，通常不致病，不同于侵害活组织的致病细菌。"],
+      "lock": ["saprophytes = usually harmless decomposers.", "saprophytes = 通常无害的分解者。"],
+      "relation": "category-contrast",
+      "refs": [["Infection Control - Nonpathogenic Bacteria", "103-106", 598]]
+    },
+    "practice-nail-test-n029": {
+      "why": ["A salon disinfectant must state that it kills bacteria, viruses, and fungi. These label claims show the product has the required range of action.", "沙龙消毒剂标签必须说明能杀死细菌、病毒和真菌，表示产品具有所需的作用范围。"],
+      "lock": ["disinfectant label: bacteria plus viruses plus fungi.", "消毒剂标签：细菌、病毒、真菌。"],
+      "relation": "label-requirement",
+      "refs": [["Infection Control - EPA-Registered Disinfectants", "117-123", 612]]
+    },
+    "practice-nail-test-n047": {
+      "why": ["Saprophytes use dead organic material for food and generally do not cause disease. This places them among nonpathogenic bacteria.", "saprophytes（腐生菌）以死亡有机物为食，通常不引起疾病，因此属于非致病细菌。"],
+      "lock": ["saprophytes = nonpathogenic bacteria.", "saprophytes = 非致病细菌。"],
+      "relation": "category",
+      "refs": [["Infection Control - Nonpathogenic Bacteria", "103-106", 598]]
+    },
+    "practice-theory-update-022": {
+      "why": ["Hand sanitizer lowers germs on hands when they are not visibly dirty. Soap and water are still needed when dirt can be seen.", "双手没有明显污垢时，免洗手消毒剂可减少细菌；看得见污垢时仍需用肥皂和水洗手。"],
+      "lock": ["clean-looking hands: sanitizer; visible dirt: soap and water.", "手看起来干净：免洗消毒；有污垢：肥皂和水。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Infection Control - Hand Sanitizers", "117", 612]]
+    },
+    "practice-theory-update-030": {
+      "why": ["A nail brush reaches under free edges and around nail folds while washing. Its bristles loosen material that fingers alone may miss.", "nail brush（指甲刷）在清洗时能刷到游离缘下和甲襞周围，刷毛可松动手指难以清除的残留物。"],
+      "lock": ["under-nail cleaning = nail brush.", "甲下清洁 = 指甲刷。"],
+      "relation": "tool-purpose",
+      "refs": [["Infection Control - Hand and Nail Washing", "135", 630]]
+    },
+    "practice-comprehensive-015": {
+      "why": ["Cleaning removes visible dirt and material with soap, water, and rubbing. It prepares a hard surface for the separate disinfection step.", "cleaning（清洁）用肥皂、水和摩擦去掉可见污垢，为坚硬表面的下一步消毒做准备。"],
+      "lock": ["visible dirt removed = cleaned.", "可见污垢已去除 = 已清洁。"],
+      "relation": "action-result",
+      "refs": [["Infection Control - Cleaning", "101, 115", 596]]
+    },
+    "practice-comprehensive-017": {
+      "why": ["Direct transmission happens through person-to-person contact. Indirect transmission uses a contaminated object, surface, food, or other middle source.", "direct transmission（直接传播）通过人与人接触发生；indirect transmission（间接传播）通过受污染物品、表面、食物或其他中间来源发生。"],
+      "lock": ["direct = person contact; indirect = contaminated middle source.", "直接 = 人与人接触；间接 = 受污染的中间来源。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Infection Control - Modes of Transmission", "99-103", 594]]
+    },
+    "practice-comprehensive-018": {
+      "why": ["Large respiratory droplets fall from the air fairly quickly. Smaller airborne material can remain floating longer and travel farther.", "较大的呼吸飞沫会较快落下；更小的空气传播物可悬浮更久，也能传播更远。"],
+      "lock": ["droplets fall sooner; airborne material stays longer.", "飞沫较快落下；空气传播物停留更久。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Infection Control - Droplet and Airborne Transmission", "100-103", 595]]
+    },
+    "practice-comprehensive-019": {
+      "why": ["Salon disinfectants need label claims for killing required germs and directions for safe use. They are not required to be allergy-free.", "沙龙消毒剂需要有杀菌范围和安全用法的标签说明，但不要求保证完全不会引起过敏。"],
+      "lock": ["disinfectant requirement = germ-killing claims, not allergy-free.", "消毒剂要求 = 杀菌说明，不是保证无过敏。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Infection Control - Choosing Disinfectants", "117-123", 612]]
+    },
+    "practice-comprehensive-021": {
+      "why": ["A disinfectant label must identify the product, directions, germs killed, and wet time. A product can be ready to use, so 'concentrate' is not required.", "消毒剂标签必须标明产品、用法、杀菌范围和湿润时间。产品也可能是即用型，因此不一定写 concentrate（浓缩液）。"],
+      "lock": ["disinfectant may be concentrate or ready to use.", "消毒剂可以是浓缩型，也可以是即用型。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Infection Control - Disinfectant Labels", "117-123", 612]]
+    },
+    "practice-comprehensive-058": {
+      "why": ["Fumes are a mix of tiny smoke-like bits and chemical vapor in air. A smell alone does not measure how much exposure is present.", "fumes（烟雾）是空气中烟状细小物和化学蒸气的混合物。只闻到气味不能说明接触量有多少。"],
+      "lock": ["fumes = smoke-like material plus vapor.", "fumes = 烟状细小物加蒸气。"],
+      "relation": "category",
+      "refs": [["Nail Product Chemistry - Vapors, Dusts, and Fumes", "126-130", 150]]
+    },
+    "practice-comprehensive-071": {
+      "why": ["Microtrauma means damage too small to see, such as tiny skin openings from rough filing or shaving. These openings can let germs enter.", "microtrauma（微小创伤）是小到看不见的损伤，例如粗糙修锉或剃毛造成的微小皮肤开口，可能让细菌进入。"],
+      "lock": ["microtrauma = unseen skin opening.", "microtrauma = 看不见的皮肤小开口。"],
+      "relation": "meaning-consequence",
+      "refs": [["Pedicuring - Microtrauma", "206-207", 230]]
+    },
+    "practice-comprehensive-110": {
+      "why": ["Immunity recognizes germs and organizes the body's response against them. It can prevent infection or help the body recover.", "immunity（免疫力）能识别细菌并组织身体防御，帮助预防感染或促进恢复。"],
+      "lock": ["immunity = resist and destroy disease-causing germs.", "immunity = 抵抗并清除致病细菌。"],
+      "relation": "function",
+      "refs": [["Infection Control - Immunity", "109-113", 604]]
+    },
+    "practice-comprehensive-111": {
+      "why": ["Vaccination trains the immune system to recognize a specific disease. Because this protection develops after birth, it is acquired immunity.", "疫苗训练免疫系统识别特定疾病。因为这种保护是在出生后获得的，所以属于 acquired immunity（获得性免疫）。"],
+      "lock": ["vaccination = acquired immunity.", "疫苗接种 = 获得性免疫。"],
+      "relation": "cause-category",
+      "refs": [["Infection Control - Acquired Immunity", "109-113", 604]]
+    },
+    "practice-comprehensive-112": {
+      "why": ["An allergy is an immune response to a substance that is normally harmless. The response can cause itching, redness, swelling, or breathing problems.", "allergy（过敏）是免疫系统对通常无害物质产生的反应，可能引起瘙痒、发红、肿胀或呼吸问题。"],
+      "lock": ["allergy = immune overreaction to a substance.", "allergy = 免疫系统对某种物质过度反应。"],
+      "relation": "meaning-consequence",
+      "refs": [["Infection Control - Allergies", "109-113", 604]]
+    },
+    "practice-comprehensive-118": {
+      "why": ["Pathogenic bacteria are the types that can cause illness or infection. Most bacteria are not pathogenic and do not cause disease.", "pathogenic bacteria（致病细菌）是能引起疾病或感染的细菌；大多数细菌并不致病。"],
+      "lock": ["pathogenic = disease-causing.", "pathogenic = 会致病。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Infection Control - Pathogenic and Nonpathogenic Bacteria", "103-106", 598]]
+    },
+    "practice-comprehensive-120": {
+      "why": ["Communicable means a disease can move from one person to another. The spread may be direct or through an indirect source.", "communicable（可传播的）表示疾病能从一个人传给另一个人，传播可以是直接的，也可以通过中间来源。"],
+      "lock": ["communicable disease = can spread between people.", "communicable disease = 能在人与人之间传播。"],
+      "relation": "meaning",
+      "refs": [["Infection Control - Communicable Disease", "99-103", 594]]
+    },
+    "practice-comprehensive-122": {
+      "why": ["Bloodborne pathogens are disease-causing germs carried in blood or body fluid. Hepatitis viruses and HIV are important examples.", "bloodborne pathogens（血源性病原体）是由血液或体液携带的致病细菌或病毒，例如肝炎病毒和 HIV。"],
+      "lock": ["bloodborne = carried in blood or body fluid.", "bloodborne = 由血液或体液携带。"],
+      "relation": "category-example",
+      "refs": [["Infection Control - Bloodborne Pathogens", "126-128", 621]]
+    },
+    "practice-comprehensive-124": {
+      "why": ["Sterilization destroys every form of germ. Spores are a very hard-to-kill resting form of some bacteria, and sterilization destroys them too.", "sterilization（灭菌）会消灭所有形态的细菌。spores（芽孢）是某些细菌很难杀死的休眠形态，灭菌也能消灭它们。"],
+      "lock": ["sterilization kills all germs, including spores.", "灭菌会杀死所有细菌，包括芽孢。"],
+      "relation": "scope",
+      "refs": [["Infection Control - Sterilization", "118", 613]],
+      "definedExamTerms": ["spores"]
+    },
+    "practice-comprehensive-128": {
+      "why": ["Disinfectants kill most harmful germs on cleaned hard surfaces, but not every bacterial form. Sterilization is the process that destroys all forms.", "消毒剂能杀死已清洁坚硬表面上的大多数有害细菌，但不能杀死所有细菌形态；灭菌才能消灭全部。"],
+      "lock": ["disinfection = most germs; sterilization = all forms.", "消毒 = 大多数细菌；灭菌 = 所有形态。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Infection Control - Disinfection and Sterilization", "118", 613]]
+    },
+    "practice-comprehensive-130": {
+      "why": ["Tuberculosis bacteria can travel in very small airborne material from an infected person's lungs. Another person can become infected by breathing it in.", "结核菌可随感染者肺部排出的微小空气传播物移动，其他人吸入后可能感染。"],
+      "lock": ["tuberculosis spreads by inhalation.", "结核病通过吸入传播。"],
+      "relation": "route",
+      "refs": [["Infection Control - Airborne Disease", "100-103", 595]]
+    },
+    "practice-comprehensive-131": {
+      "why": ["Phenolic disinfectants contain strong chemicals that can harm tissue and are linked with cancer risk. Follow label protection rules and avoid skin contact.", "phenolic disinfectants（酚类消毒剂）含有强效化学品，可能伤害组织，并与癌症风险有关。应按标签采取防护并避免接触皮肤。"],
+      "lock": ["phenolic disinfectant = strong chemical; protect skin.", "酚类消毒剂 = 强效化学品；保护皮肤。"],
+      "relation": "safety-reason",
+      "refs": [["Infection Control - Phenolic Disinfectants", "120-123", 615]]
+    },
+    "practice-comprehensive-132": {
+      "why": ["Disinfectant works only after dirt is removed and on a hard surface that does not soak up liquid. Soft or dirty material cannot be disinfected this way.", "消毒剂要在污垢已去除、不会吸收液体的坚硬表面上才能起作用。柔软或肮脏材料不能这样消毒。"],
+      "lock": ["disinfectant: cleaned hard surface only.", "消毒剂：只用于已清洁的坚硬表面。"],
+      "relation": "condition",
+      "refs": [["Infection Control - Disinfectable Surfaces", "118-123", 613]]
+    },
+    "practice-comprehensive-135": {
+      "why": ["Gloves can collect blood, body fluid, and germs during one task. Remove and discard them after use, then wash hands before new gloves.", "手套在一次操作中可能沾上血液、体液和细菌。使用后要脱下丢弃，洗手后再换新手套。"],
+      "lock": ["single glove use = discard, wash, replace.", "手套一次使用后 = 丢弃、洗手、更换。"],
+      "relation": "sequence-safety",
+      "refs": [["Infection Control - Disposable Gloves", "127", 622]]
+    }
+  },
+  "notes": "All candidates remain unreviewed. Nine outdated, damaged, or unsafe infection-control source items were quarantined."
+}

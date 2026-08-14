@@ -1,0 +1,206 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "remaining-technical-01",
+  "topic": "Remaining procedures, nail care, electrical safety, and professional safety",
+  "status": "authored-awaiting-independent-review",
+  "authoredAt": "2026-08-13",
+  "author": "codex-authoring-run-2026-08-13-technical-01",
+  "authoritySource": "Milady Standard Nail Technology 8th Edition",
+  "questionIds": [
+    "practice-nail-test-q010", "practice-nail-test-q040", "practice-nail-test-q084",
+    "practice-nail-test-q089", "practice-nail-test-q100", "practice-nail-test-q103",
+    "practice-nail-test-q136", "practice-nail-test-q162", "practice-nail-test-q167",
+    "practice-nail-test-q177", "practice-nail-test-q190", "practice-nail-test-q192",
+    "practice-nail-test-q194", "practice-nail-test-q195", "practice-nail-test-q201",
+    "practice-nail-test-n008", "practice-nail-test-n010", "practice-nail-test-n035",
+    "practice-nail-test-n057", "practice-comprehensive-026", "practice-comprehensive-027",
+    "practice-comprehensive-029", "practice-comprehensive-030", "practice-comprehensive-116",
+    "practice-comprehensive-117", "practice-comprehensive-121", "practice-comprehensive-155",
+    "practice-comprehensive-156", "practice-comprehensive-171"
+  ],
+  "newQuarantineIds": [
+    "practice-nail-test-q021", "practice-nail-test-q023", "practice-nail-test-q025",
+    "practice-nail-test-q063", "practice-nail-test-q065", "practice-nail-test-q096",
+    "practice-nail-test-q119", "practice-nail-test-q120", "practice-nail-test-q126",
+    "practice-nail-test-q196", "practice-nail-test-q202", "practice-nail-test-n002",
+    "practice-nail-test-n032", "practice-nail-test-n040", "practice-nail-test-n041",
+    "practice-comprehensive-152", "practice-comprehensive-153"
+  ],
+  "entries": {
+    "practice-nail-test-q010": {
+      "why": ["Warm water softens dead tissue around the nail plate. This makes gentle cuticle care easier without forcing or scraping living skin.", "温水能软化甲板周围的死皮，使甲小皮护理更容易，也不必用力推刮活皮肤。"],
+      "lock": ["nail soak = soften tissue before gentle care.", "泡甲 = 在轻柔护理前软化组织。"],
+      "relation": "purpose",
+      "refs": [["Manicuring - Soaking the Nails", "172-178", 196]]
+    },
+    "practice-nail-test-q040": {
+      "why": ["A door injury can break small blood vessels under the nail plate. The trapped blood creates a dark bruised-nail-bed disorder.", "指甲被门夹伤会使甲板下的小血管破裂，积血形成深色的甲床瘀伤。"],
+      "lock": ["impact plus dark blood under nail = bruised nail bed.", "撞击加甲下深色积血 = 甲床瘀伤。"],
+      "relation": "cause-recognition",
+      "refs": [["Nail Disorders - Bruised Nail Bed", "105", 129]]
+    },
+    "practice-nail-test-q084": {
+      "why": ["Exfoliants contain small rough materials such as sand or beads. Rubbing them over skin loosens and removes dead surface cells.", "exfoliants（去角质产品）含有沙粒或小珠等细小粗糙材料，摩擦皮肤时会松动并去除表面死细胞。"],
+      "lock": ["exfoliant grains remove dead surface skin.", "去角质颗粒去除表面死皮。"],
+      "relation": "ingredient-function",
+      "refs": [["Pedicuring - Exfoliating Products", "196-205", 220]]
+    },
+    "practice-nail-test-q089": {
+      "why": ["Some gel systems leave a sticky surface after curing. A lint-free pad with the maker's recommended alcohol removes this layer without damaging the cured gel.", "有些凝胶系统固化后会留下黏层。用无绒棉片和制造商建议的酒精，可擦去黏层而不损坏已固化凝胶。"],
+      "lock": ["gel sticky layer = lint-free alcohol wipe.", "凝胶黏层 = 用无绒棉片蘸酒精擦除。"],
+      "relation": "procedure-purpose",
+      "refs": [["UV and LED Gels - Removing the Inhibition Layer", "378-382", 402]]
+    },
+    "practice-nail-test-q100": {
+      "why": ["Freezing removes enough heat for a liquid's moving molecules to lock into a fixed shape. The material is then a solid.", "冻结会带走足够热量，使液体中移动的分子固定成形，因此材料变成固体。"],
+      "lock": ["liquid freezes = solid.", "液体冻结 = 固体。"],
+      "relation": "cause-effect",
+      "refs": [["Chemistry and Chemical Safety - States of Matter", "154-158", 649]]
+    },
+    "practice-nail-test-q103": {
+      "why": ["Eggshell nails are thin, white, and very flexible. A fine file removes less nail material and lowers the chance of splitting.", "eggshell nails（蛋壳甲）薄、白而且非常柔软。细砂甲锉去除的甲板较少，可降低分裂风险。"],
+      "lock": ["thin eggshell nail = gentle fine file.", "薄弱蛋壳甲 = 轻柔使用细砂甲锉。"],
+      "relation": "condition-tool",
+      "refs": [["Nail Disorders - Eggshell Nails", "105-107", 129]]
+    },
+    "practice-nail-test-q136": {
+      "why": ["A nail-whitening product is made to lighten surface discoloration. It should be used only after ruling out infection or another nail condition.", "指甲美白产品用于淡化表面变色，但使用前应先排除感染或其他指甲问题。"],
+      "lock": ["surface yellow stain = nail-whitening product after safety check.", "表面黄渍 = 安全检查后使用指甲美白产品。"],
+      "relation": "product-purpose",
+      "refs": [["Manicuring - Nail Bleaches and Whiteners", "153-157", 177]]
+    },
+    "practice-nail-test-q162": {
+      "why": ["Warm oil adds oil to dry nail folds and cuticle tissue. Heat helps the oil spread and leaves the area softer.", "温热油能为干燥甲襞和甲小皮补充油分，热度帮助油均匀铺开，使该区域更柔软。"],
+      "lock": ["hot-oil treatment = soften dry nail-area skin.", "热油护理 = 软化干燥甲周皮肤。"],
+      "relation": "purpose",
+      "refs": [["Manicuring - Hot Oil Manicure", "178-181", 202]]
+    },
+    "practice-nail-test-q167": {
+      "why": ["Oil temporarily improves flexibility and softens dry skin around ridged nails. It does not remove the ridges, which form in the growing nail.", "油能暂时提高指甲柔韧度并软化纵纹甲周围的干皮，但不能消除由指甲生长形成的纹路。"],
+      "lock": ["oil softens dryness; it does not erase ridges.", "油能软化干燥，但不能消除甲纹。"],
+      "relation": "benefit-limit",
+      "refs": [["Nail Disorders - Ridged Nails and Oil Treatments", "103-107", 127]]
+    },
+    "practice-nail-test-q177": {
+      "why": ["Repeated rubbing separates upper skin layers and fluid fills the space. This raised fluid pocket is a blister.", "反复摩擦会使表层皮肤分开，液体进入空隙，形成隆起的水疱。"],
+      "lock": ["repeated rubbing can form a blister.", "反复摩擦可能形成水疱。"],
+      "relation": "cause-effect",
+      "refs": [["Skin Disorders - Blisters", "84-86", 108]]
+    },
+    "practice-nail-test-q190": {
+      "why": ["A solvent is the liquid that dissolves another material to make a solution. Water dissolves salt; acetone dissolves some nail coatings.", "solvent（溶剂）是溶解其他材料形成溶液的液体。水能溶解盐，丙酮能溶解某些美甲涂层。"],
+      "lock": ["solvent = does the dissolving.", "solvent = 负责溶解。"],
+      "relation": "function-example",
+      "refs": [["Chemistry and Chemical Safety - Solvents and Solutions", "159", 654]]
+    },
+    "practice-nail-test-q192": {
+      "why": ["Cross-linking connects polymer chains to one another. The connected network is stronger and more resistant to solvents than separate chains.", "cross-linking（交联）把聚合物链彼此连接。连接后的网状结构比独立链更坚固，也更不容易被溶剂破坏。"],
+      "lock": ["cross-linking joins chains for strength.", "cross-linking 连接链条以增加强度。"],
+      "relation": "action-result",
+      "refs": [["Nail Product Chemistry - Cross-Linking Polymer Chains", "123-124", 147]]
+    },
+    "practice-nail-test-q194": {
+      "why": ["A nail file smooths a rough free edge by removing tiny high spots. Use a suitable fine grit so the toenail does not split.", "甲锉通过去掉游离缘上的细小凸点来磨平粗糙处。应使用合适的细砂，避免脚趾甲分裂。"],
+      "lock": ["rough toenail edge = gentle fine filing.", "脚趾甲边缘粗糙 = 轻柔细锉。"],
+      "relation": "tool-purpose",
+      "refs": [["Pedicuring - Filing Toenails", "210-216", 234]]
+    },
+    "practice-nail-test-q195": {
+      "why": ["Warm water softens dry foot skin and surface buildup. Softened skin is easier to clean and care for gently.", "温水能软化足部干皮和表面堆积物，使后续清洁和护理更轻柔容易。"],
+      "lock": ["foot soak = soften skin before care.", "泡脚 = 护理前软化皮肤。"],
+      "relation": "purpose",
+      "refs": [["Pedicuring - Basic Pedicure Procedure", "213-216", 237]]
+    },
+    "practice-nail-test-q201": {
+      "why": ["An approved callus bit works predictably on dry skin because the technician can see and control what is removed. Wet skin can tear.", "合规的胼胝磨头在干燥皮肤上更容易观察并控制去除量；湿皮肤可能被撕伤。"],
+      "lock": ["callus filing = dry skin and approved technique.", "胼胝修磨 = 干燥皮肤并使用合规方法。"],
+      "relation": "condition-safety",
+      "refs": [["Electric Filing - Pedicure Bits and Callus Work", "248-251", 272]]
+    },
+    "practice-nail-test-n008": {
+      "why": ["A balanced diet supplies protein, vitamins, minerals, fats, carbohydrates, and water. The body needs this range to grow and repair tissue.", "均衡饮食提供蛋白质、维生素、矿物质、脂肪、碳水化合物和水，身体需要这些营养来生长和修复组织。"],
+      "lock": ["good health needs a balanced diet, not one nutrient.", "健康需要均衡饮食，不是单一营养。"],
+      "relation": "cause-effect",
+      "refs": [["General Anatomy - Nutrition", "48-50", 72]]
+    },
+    "practice-nail-test-n010": {
+      "why": ["Healthy adult fingernails grow about one-tenth inch each month on average. Growth varies with age, health, season, and finger.", "健康成人手指甲平均每月生长约十分之一英寸。生长速度会因年龄、健康、季节和手指而变化。"],
+      "lock": ["average fingernail growth = about 1/10 inch monthly.", "手指甲平均生长 = 每月约 1/10 英寸。"],
+      "relation": "measurement-context",
+      "refs": [["Nail Growth - Growth Rate", "103-104", 127]]
+    },
+    "practice-nail-test-n035": {
+      "why": ["Long buffing strokes from the base toward the free edge follow the nail's growth direction. Controlled strokes help create even shine without sawing the skin.", "从甲根向游离缘做长抛光动作，顺着指甲生长方向。稳定动作能均匀增亮，也不会来回摩擦皮肤。"],
+      "lock": ["buff from nail base toward free edge.", "从甲根向游离缘抛光。"],
+      "relation": "direction-purpose",
+      "refs": [["Manicuring - Buffing", "157-160", 181]]
+    },
+    "practice-nail-test-n057": {
+      "why": ["A chamois buffer with a mild polishing powder smooths very small surface marks. The fine action creates shine without deep filing.", "麂皮抛光器配温和抛光粉，可磨平很细小的表面痕迹，在不深度修锉的情况下增加光泽。"],
+      "lock": ["chamois plus fine polish = natural shine.", "麂皮加细抛光粉 = 天然光泽。"],
+      "relation": "tool-purpose",
+      "refs": [["Manicuring - Buffers and Polishing", "157-160", 181]]
+    },
+    "practice-comprehensive-026": {
+      "why": ["A wire that is too small resists the required electrical flow and becomes hot. Excess heat can melt insulation and start a fire.", "电线太细时无法安全承载所需电流，会发热。过热可能熔化绝缘层并引起火灾。"],
+      "lock": ["undersized wire plus high current = overheating.", "电线过细加大电流 = 过热。"],
+      "relation": "cause-effect",
+      "refs": [["Electricity and Electrical Safety - Overloaded Circuits", "184-191", 679]]
+    },
+    "practice-comprehensive-027": {
+      "why": ["A fuse contains a part that melts when current becomes too high. Melting opens the circuit and stops dangerous heating.", "fuse（保险丝）内有电流过大时会熔断的部分。熔断后电路断开，阻止危险过热。"],
+      "lock": ["fuse melts to stop excessive current.", "保险丝熔断以停止过大电流。"],
+      "relation": "function",
+      "refs": [["Electricity and Electrical Safety - Fuses", "184-191", 679]]
+    },
+    "practice-comprehensive-029": {
+      "why": ["A contraindication is a condition that makes a treatment unsafe or unsuitable. The service may need to change, wait, or be refused.", "contraindication（禁忌状况）是使某项护理不安全或不适合的情况。服务可能需要调整、推迟或拒绝。"],
+      "lock": ["contraindication = reason not to perform a treatment.", "contraindication = 不应进行某项护理的原因。"],
+      "relation": "meaning-consequence",
+      "refs": [["Professional Practice - Contraindications", "86-90", 110]]
+    },
+    "practice-comprehensive-030": {
+      "why": ["Deductive reasoning starts with known facts or rules and applies them to reach a specific conclusion. Each step must follow logically.", "deductive reasoning（演绎推理）从已知事实或规则出发，应用它们得出具体结论，每一步都要符合逻辑。"],
+      "lock": ["deduction = general facts to specific conclusion.", "演绎 = 从一般事实到具体结论。"],
+      "relation": "sequence",
+      "refs": [["Life Skills - Critical Thinking and Deductive Reasoning", "14-17", 38]]
+    },
+    "practice-comprehensive-116": {
+      "why": ["Federal agencies regulate chemical products sold across state lines. States more often regulate licenses and which salon services a worker may perform.", "联邦机构管理跨州销售的化学产品；各州通常更多管理执照和沙龙工作人员可提供的服务。"],
+      "lock": ["chemical sales = often federal; salon licenses = state.", "化学品销售 = 常由联邦管理；沙龙执照 = 州管理。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Regulation - Federal and State Agencies", "94-98", 589]]
+    },
+    "practice-comprehensive-117": {
+      "why": ["A law sets a broad legal requirement. Rules and regulations give the detailed steps used to carry out that law.", "law（法律）规定广泛的法律要求；rules and regulations（规则和法规）给出执行法律的具体步骤。"],
+      "lock": ["law = broad; regulation = specific details.", "法律 = 广泛要求；法规 = 具体细节。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Regulation - Laws, Rules, and Regulations", "94-98", 589]]
+    },
+    "practice-comprehensive-121": {
+      "why": ["An occupational disease is illness caused by conditions or exposure at work. Repeated chemical contact can create this kind of work-related illness.", "occupational disease（职业病）是由工作条件或工作接触造成的疾病。反复接触化学品可能引起这种职业相关疾病。"],
+      "lock": ["illness caused by work exposure = occupational disease.", "工作接触造成的疾病 = 职业病。"],
+      "relation": "cause-category",
+      "refs": [["Chemistry and Chemical Safety - Occupational Exposure", "165-176", 660]]
+    },
+    "practice-comprehensive-155": {
+      "why": ["Ultraviolet light starts vitamin D production in skin. Too much UV also damages skin, so this benefit does not make unprotected exposure safe.", "ultraviolet light（紫外线）会启动皮肤制造维生素 D，但过量紫外线也会损伤皮肤，因此不能无防护暴露。"],
+      "lock": ["UV helps make vitamin D but can also damage skin.", "紫外线帮助制造维生素 D，也可能损伤皮肤。"],
+      "relation": "benefit-risk",
+      "refs": [["Electricity and Light Therapy - Ultraviolet Light", "191-194", 686]]
+    },
+    "practice-comprehensive-156": {
+      "why": ["Phototherapy means using light as a treatment. Different light colors or wavelengths are chosen for different skin goals.", "phototherapy（光疗）表示用光进行护理。不同颜色或波长的光用于不同皮肤目标。"],
+      "lock": ["phototherapy = light therapy.", "phototherapy = 光疗。"],
+      "relation": "term-meaning",
+      "refs": [["Electricity and Light Therapy - Light Therapy", "191-194", 686]]
+    },
+    "practice-comprehensive-171": {
+      "why": ["Gel polish hardens through light curing and forms a cross-linked coating. This coating usually resists chipping longer than traditional air-dried polish.", "凝胶甲油通过灯光固化形成交联网状涂层，通常比自然风干的传统甲油更耐崩裂、保持更久。"],
+      "lock": ["gel polish = light-cured, longer-wearing color.", "凝胶甲油 = 灯光固化、颜色更持久。"],
+      "relation": "cause-effect",
+      "refs": [["UV and LED Gels - Gel Polish", "370-376", 394]]
+    }
+  },
+  "notes": "All candidates remain unreviewed. Seventeen damaged, obsolete, or non-unique technical items were quarantined."
+}

@@ -1,0 +1,250 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "anatomy-massage-01",
+  "topic": "Anatomy, physiology, nutrition, and massage",
+  "status": "authored-awaiting-independent-review",
+  "authoredAt": "2026-08-13",
+  "author": "codex-authoring-run-2026-08-13-anatomy-01",
+  "authoritySource": "Milady Standard Nail Technology 8th Edition",
+  "questionIds": [
+    "practice-nail-test-q002", "practice-nail-test-q013", "practice-nail-test-q019",
+    "practice-nail-test-q032", "practice-nail-test-q035", "practice-nail-test-q041",
+    "practice-nail-test-q075", "practice-nail-test-q085", "practice-nail-test-q086",
+    "practice-nail-test-q108", "practice-nail-test-q109", "practice-nail-test-q111",
+    "practice-nail-test-q116", "practice-nail-test-q118", "practice-nail-test-q137",
+    "practice-nail-test-q146", "practice-nail-test-q147", "practice-nail-test-q166",
+    "practice-nail-test-q179", "practice-nail-test-q185", "practice-nail-test-q188",
+    "practice-nail-test-n014", "practice-nail-test-n038", "practice-nail-test-n048",
+    "practice-nail-test-n055", "practice-nail-test-n056", "practice-comprehensive-043",
+    "practice-comprehensive-044", "practice-comprehensive-045", "practice-comprehensive-109",
+    "practice-comprehensive-114", "practice-comprehensive-173", "practice-comprehensive-174",
+    "practice-comprehensive-176", "practice-comprehensive-177", "practice-comprehensive-178",
+    "practice-comprehensive-180"
+  ],
+  "newQuarantineIds": ["practice-nail-test-q024", "practice-nail-test-q144", "practice-comprehensive-175"],
+  "entries": {
+    "practice-nail-test-q002": {
+      "why": ["Tapotement uses quick, light tapping or striking movements. It stimulates the area instead of using the slow gliding strokes of effleurage.", "tapotement（叩击法）使用快速、轻柔的拍打动作，作用偏刺激，不同于 effleurage 的缓慢滑动。"],
+      "lock": ["tapotement = quick tapping.", "tapotement = 快速叩击。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Manicuring - Massage Movements", "162", 186]]
+    },
+    "practice-nail-test-q013": {
+      "why": ["The patella is the small bone in front of the knee joint. It protects the joint and helps the thigh muscles straighten the leg.", "patella（髌骨）位于膝关节前方，保护关节，并帮助大腿肌肉伸直腿部。"],
+      "lock": ["patella = kneecap.", "patella = 膝盖骨。"],
+      "relation": "body-location-function",
+      "refs": [["General Anatomy - Bones of the Leg", "28-31", 52]]
+    },
+    "practice-nail-test-q019": {
+      "why": ["The tibia is the large lower-leg bone commonly called the shinbone. It carries much of the body's weight between the knee and ankle.", "tibia（胫骨）是小腿较大的骨，也叫 shinbone（胫骨），在膝与踝之间承受大部分体重。"],
+      "lock": ["tibia = shinbone.", "tibia = 胫骨。"],
+      "relation": "body-location",
+      "refs": [["General Anatomy - Bones of the Leg", "28-31", 52]]
+    },
+    "practice-nail-test-q032": {
+      "why": ["The talus sits between the lower-leg bones and the heel bone. This large ankle bone transfers body weight into the foot.", "talus（距骨）位于小腿骨与跟骨之间，把身体重量传到足部。"],
+      "lock": ["talus = major ankle bone.", "talus = 主要踝骨。"],
+      "relation": "body-location-function",
+      "refs": [["General Anatomy - Bones of the Foot", "29-31", 53]]
+    },
+    "practice-nail-test-q035": {
+      "why": ["Abductor muscles move a body part away from the body's center line. In the hand, they spread the fingers apart.", "abductor muscles（外展肌）让身体部位远离身体中线；在手部，它们使手指分开。"],
+      "lock": ["abductors spread fingers apart.", "外展肌使手指分开。"],
+      "relation": "action",
+      "refs": [["General Anatomy - Muscles of the Hand", "32-34", 56]]
+    },
+    "practice-nail-test-q041": {
+      "why": ["Abduction means movement away from the center. The hand's abductor muscles therefore move the fingers away from one another.", "abduction 表示远离中线的动作，因此手部外展肌会让手指彼此分开。"],
+      "lock": ["abductor = away; fingers spread.", "abductor = 向外；手指分开。"],
+      "relation": "word-action",
+      "refs": [["General Anatomy - Muscles of the Hand", "32-34", 56]]
+    },
+    "practice-nail-test-q075": {
+      "why": ["The ulnar nerve travels along the little-finger side of the forearm and hand. It supplies feeling and movement to the little finger area.", "ulnar nerve（尺神经）沿前臂和手的小指侧走行，负责小指区域的感觉和动作。"],
+      "lock": ["ulnar nerve = little-finger side.", "ulnar nerve = 小指侧。"],
+      "relation": "body-location-function",
+      "refs": [["General Anatomy - Nerves of the Arm and Hand", "34-36", 58]]
+    },
+    "practice-nail-test-q085": {
+      "why": ["The humerus is the long bone between the shoulder and elbow. It forms the upper arm and connects with the forearm at the elbow.", "humerus（肱骨）是肩与肘之间的长骨，构成上臂，并在肘部连接前臂。"],
+      "lock": ["humerus = upper-arm bone.", "humerus = 上臂骨。"],
+      "relation": "body-location",
+      "refs": [["General Anatomy - Bones of the Arm", "27-30", 51]]
+    },
+    "practice-nail-test-q086": {
+      "why": ["Digital nerves are the small nerve branches that enter the fingers. They carry touch, pain, and temperature signals.", "digital nerves（指神经）是进入手指的小神经分支，传递触觉、疼痛和温度信号。"],
+      "lock": ["digital nerves = nerves of the fingers.", "digital nerves = 手指神经。"],
+      "relation": "body-location-function",
+      "refs": [["General Anatomy - Nerves of the Hand", "34-36", 58]]
+    },
+    "practice-nail-test-q108": {
+      "why": ["The five metacarpal bones form the palm between the wrist and fingers. Each one lines up with a finger or thumb.", "五块 metacarpals（掌骨）在手腕与手指之间构成手掌，每一块对应一根手指或拇指。"],
+      "lock": ["metacarpals = palm bones.", "metacarpals = 掌骨。"],
+      "relation": "body-location",
+      "refs": [["General Anatomy - Bones of the Hand", "27-30", 51]]
+    },
+    "practice-nail-test-q109": {
+      "why": ["Two small sesamoid bones usually sit under the joint at the base of the big toe. They help tendons move smoothly under pressure.", "两块小的 sesamoid bones（籽骨）通常位于大脚趾根部关节下方，帮助肌腱在受压时顺畅移动。"],
+      "lock": ["sesamoid bones = small bones under the big-toe joint.", "籽骨 = 大脚趾关节下的小骨。"],
+      "relation": "body-location-function",
+      "refs": [["General Anatomy - Bones of the Foot", "29-31", 53]]
+    },
+    "practice-nail-test-q111": {
+      "why": ["The tibia forms the front, weight-bearing part of the lower leg. Its common name is the shinbone.", "tibia（胫骨）构成小腿前方主要承重部分，常用名称是 shinbone。"],
+      "lock": ["tibia = shinbone.", "tibia = 胫骨。"],
+      "relation": "term-meaning",
+      "refs": [["General Anatomy - Bones of the Leg", "28-31", 52]]
+    },
+    "practice-nail-test-q116": {
+      "why": ["Shinbone is the everyday name for the tibia. It is the larger of the two lower-leg bones.", "shinbone 是 tibia（胫骨）的日常名称，也是两块小腿骨中较大的一块。"],
+      "lock": ["shinbone = tibia.", "shinbone = 胫骨。"],
+      "relation": "term-meaning",
+      "refs": [["General Anatomy - Bones of the Leg", "28-31", 52]]
+    },
+    "practice-nail-test-q118": {
+      "why": ["Extensor muscles straighten a joint. Forearm extensors pull on tendons that open and straighten the fingers.", "extensor muscles（伸肌）负责伸直关节。前臂伸肌牵拉肌腱，使手指张开并伸直。"],
+      "lock": ["extensors straighten fingers; flexors bend them.", "伸肌伸直手指；屈肌弯曲手指。"],
+      "relation": "meaningful-contrast",
+      "refs": [["General Anatomy - Muscles of the Forearm and Hand", "32-34", 56]]
+    },
+    "practice-nail-test-q137": {
+      "why": ["Phalanges are the bones of the fingers and toes. Each finger has three, except the thumb, which has two.", "phalanges（指骨或趾骨）构成手指和脚趾。每根手指有三块，拇指有两块。"],
+      "lock": ["phalanges = finger and toe bones.", "phalanges = 指骨和趾骨。"],
+      "relation": "body-location",
+      "refs": [["General Anatomy - Bones of the Hand and Foot", "27-31", 51]]
+    },
+    "practice-nail-test-q146": {
+      "why": ["The pronator muscle rotates the forearm so the palm turns downward or inward. The opposite action is turning the palm upward.", "pronator muscle（旋前肌）使前臂旋转，让手掌向下或向内；相反动作是让手掌向上。"],
+      "lock": ["pronator = palm turns inward or down.", "pronator = 手掌向内或向下。"],
+      "relation": "action",
+      "refs": [["General Anatomy - Muscles of the Forearm", "32-34", 56]]
+    },
+    "practice-nail-test-q147": {
+      "why": ["Abductor muscles pull the fingers away from the hand's center. Adductor muscles perform the opposite action and bring them together.", "abductor muscles（外展肌）使手指远离手部中线；adductor muscles 做相反动作，使手指合拢。"],
+      "lock": ["abductors apart; adductors together.", "外展肌分开；内收肌合拢。"],
+      "relation": "meaningful-contrast",
+      "refs": [["General Anatomy - Muscles of the Hand", "32-34", 56]]
+    },
+    "practice-nail-test-q166": {
+      "why": ["Histology studies tissues, which are groups of similar cells doing a shared job. Anatomy studies larger body structures.", "histology（组织学）研究由相似细胞组成并共同工作的组织；anatomy 研究较大的身体结构。"],
+      "lock": ["histology = study of tissues.", "histology = 组织学。"],
+      "relation": "category-contrast",
+      "refs": [["General Anatomy - Cells and Tissues", "18-22", 42]]
+    },
+    "practice-nail-test-q179": {
+      "why": ["Slow, controlled massage can reduce muscle tension and calm the nervous system. This helps the client feel relaxed.", "缓慢、稳定的按摩可减轻肌肉紧张并安抚神经系统，帮助客户感到放松。"],
+      "lock": ["massage can reduce tension and support relaxation.", "按摩可减轻紧张并帮助放松。"],
+      "relation": "cause-effect",
+      "refs": [["Manicuring - Benefits of Massage", "160-163", 184]]
+    },
+    "practice-nail-test-q185": {
+      "why": ["The calcaneus forms the heel and is the largest foot bone. The femur is larger, but it belongs to the thigh, not the foot.", "calcaneus（跟骨）构成脚跟，是足部最大的骨。femur 更大，但它属于大腿，不属于足部。"],
+      "lock": ["largest foot bone = calcaneus; largest thigh bone = femur.", "足部最大骨 = 跟骨；大腿骨 = 股骨。"],
+      "relation": "meaningful-contrast",
+      "refs": [["General Anatomy - Bones of the Foot", "29-31", 53]]
+    },
+    "practice-nail-test-q188": {
+      "why": ["Tapotement is a series of fast tapping or striking movements. It is more stimulating than a slow gliding massage movement.", "tapotement（叩击法）是一连串快速拍打动作，比缓慢滑动的按摩动作更有刺激性。"],
+      "lock": ["rapid tapping = tapotement.", "快速叩击 = tapotement。"],
+      "relation": "action",
+      "refs": [["Manicuring - Massage Movements", "162", 186]]
+    },
+    "practice-nail-test-n014": {
+      "why": ["Nerve tissue receives signals and sends instructions between the brain, spinal cord, muscles, and organs. This communication coordinates body activity.", "神经组织接收信号，并在大脑、脊髓、肌肉和器官之间传递指令，从而协调身体活动。"],
+      "lock": ["nerve tissue = receive, send, coordinate.", "神经组织 = 接收、传递、协调。"],
+      "relation": "function",
+      "refs": [["General Anatomy - Nerve Tissue", "22-24", 46]]
+    },
+    "practice-nail-test-n038": {
+      "why": ["Adductor muscles move a body part toward the center line. In the hand, they bring separated fingers back together.", "adductor muscles（内收肌）使身体部位靠近中线；在手部，它们把分开的手指合拢。"],
+      "lock": ["adductors bring fingers together.", "内收肌使手指合拢。"],
+      "relation": "action",
+      "refs": [["General Anatomy - Muscles of the Hand", "32-34", 56]]
+    },
+    "practice-nail-test-n048": {
+      "why": ["Gliding joints let flat bone surfaces slide over one another. The wrist and ankle use this small sliding movement for flexibility.", "gliding joints（滑动关节）让较平的骨面彼此滑动。腕部和踝部利用这种小幅滑动获得灵活性。"],
+      "lock": ["wrist and ankle = gliding joints.", "腕部和踝部 = 滑动关节。"],
+      "relation": "body-location-function",
+      "refs": [["General Anatomy - Joints", "30-32", 54]]
+    },
+    "practice-nail-test-n055": {
+      "why": ["Metacarpals are five long, narrow bones that make the palm. They connect the wrist bones to the finger bones.", "metacarpals（掌骨）是构成手掌的五块细长骨，连接腕骨和指骨。"],
+      "lock": ["metacarpals = palm bones.", "metacarpals = 掌骨。"],
+      "relation": "body-location",
+      "refs": [["General Anatomy - Bones of the Hand", "27-30", 51]]
+    },
+    "practice-nail-test-n056": {
+      "why": ["Metatarsals are five long bones in the middle of the foot. They connect the ankle-area bones to the toe bones.", "metatarsals（跖骨）是足部中间的五块长骨，连接踝部骨和趾骨。"],
+      "lock": ["metatarsals = middle-foot bones.", "metatarsals = 足中部骨。"],
+      "relation": "body-location",
+      "refs": [["General Anatomy - Bones of the Foot", "29-31", 53]]
+    },
+    "practice-comprehensive-043": {
+      "why": ["Growing cells take in nutrients and make waste. Removing that waste prevents harmful material from building up inside the cell.", "生长中的细胞会吸收营养并产生废物。排出废物可防止有害物质在细胞内堆积。"],
+      "lock": ["cell growth needs nutrients in and waste out.", "细胞生长需要营养进入、废物排出。"],
+      "relation": "cause-effect",
+      "refs": [["General Anatomy - Cell Functions", "18-20", 42]]
+    },
+    "practice-comprehensive-044": {
+      "why": ["Metabolism includes all chemical activity that keeps cells alive. It changes nutrients into energy and materials the body can use.", "metabolism（新陈代谢）包括维持细胞生命的全部化学活动，把营养转化为能量和身体可用的材料。"],
+      "lock": ["metabolism = life-supporting chemical activity in cells.", "metabolism = 细胞中维持生命的化学活动。"],
+      "relation": "function",
+      "refs": [["General Anatomy - Metabolism", "18-20", 42]]
+    },
+    "practice-comprehensive-045": {
+      "why": ["Massage pressure usually moves from a muscle's insertion toward its origin. This direction follows blood return toward the heart and avoids forcing blood outward.", "按摩压力通常从肌肉止点移向起点，顺着血液回流心脏的方向，避免把血液向外推。"],
+      "lock": ["massage pressure: insertion toward origin.", "按摩压力：从止点向起点。"],
+      "relation": "direction-purpose",
+      "refs": [["Manicuring - Massage Principles", "160-163", 184]]
+    },
+    "practice-comprehensive-109": {
+      "why": ["Proteins supply building material for muscles, blood, and new cells. The body also uses them to repair damaged tissue.", "proteins（蛋白质）为肌肉、血液和新细胞提供构建材料，身体也用它修复受损组织。"],
+      "lock": ["protein = build and repair body tissue.", "蛋白质 = 构建并修复身体组织。"],
+      "relation": "function",
+      "refs": [["General Anatomy - Nutrition and Proteins", "48-50", 72]]
+    },
+    "practice-comprehensive-114": {
+      "why": ["Carbohydrates are the body's main quick energy source. Cells break them down to power movement, heat, and normal body functions.", "carbohydrates（碳水化合物）是身体主要的快速能量来源。细胞分解它们，为活动、产热和正常功能供能。"],
+      "lock": ["carbohydrates = main energy nutrient.", "碳水化合物 = 主要供能营养素。"],
+      "relation": "function",
+      "refs": [["General Anatomy - Nutrition and Carbohydrates", "48-50", 72]]
+    },
+    "practice-comprehensive-173": {
+      "why": ["Glands take materials from the blood and change them into useful products such as hormones, sweat, oil, or digestive fluids.", "glands（腺体）从血液取得材料，并把它们转化为激素、汗液、油脂或消化液等有用物质。"],
+      "lock": ["glands make and release body substances.", "腺体制造并释放身体物质。"],
+      "relation": "function",
+      "refs": [["General Anatomy - Glands", "42-47", 66]]
+    },
+    "practice-comprehensive-174": {
+      "why": ["The pineal gland releases melatonin, a hormone that helps control the sleep-wake cycle. Darkness normally increases its release.", "pineal gland（松果体）释放 melatonin（褪黑素），帮助控制睡眠与清醒周期；黑暗通常会增加释放。"],
+      "lock": ["pineal gland = melatonin and sleep timing.", "松果体 = 褪黑素和睡眠节律。"],
+      "relation": "function",
+      "refs": [["General Anatomy - Endocrine Glands", "42-47", 66]]
+    },
+    "practice-comprehensive-176": {
+      "why": ["Protoplasm is the living material inside a cell, including its fluid and working structures. Cell activities take place within it.", "protoplasm（原生质）是细胞内的活性物质，包括液体和工作结构；细胞活动在其中进行。"],
+      "lock": ["protoplasm = living material of a cell.", "protoplasm = 细胞内的活性物质。"],
+      "relation": "category-function",
+      "refs": [["General Anatomy - Cells", "18-20", 42]]
+    },
+    "practice-comprehensive-177": {
+      "why": ["Myology is the study of muscles, including their structure and movement. Osteology is the study of bones.", "myology（肌肉学）研究肌肉的结构和动作；osteology（骨学）研究骨。"],
+      "lock": ["myology = muscles; osteology = bones.", "myology = 肌肉；osteology = 骨。"],
+      "relation": "meaningful-contrast",
+      "refs": [["General Anatomy - Muscular System", "31-34", 55]]
+    },
+    "practice-comprehensive-178": {
+      "why": ["Minerals give bone its hardness and strength. About two-thirds of bone material is mineral, while the remaining part adds some flexibility.", "矿物质让骨坚硬有强度。骨材料约三分之二是矿物质，其余部分提供一定韧性。"],
+      "lock": ["bone = about two-thirds mineral.", "骨 = 约三分之二为矿物质。"],
+      "relation": "composition-function",
+      "refs": [["General Anatomy - Skeletal System", "24-31", 48]]
+    },
+    "practice-comprehensive-180": {
+      "why": ["The serratus anterior is a chest muscle that moves the shoulder blade. It is not located in the foot.", "serratus anterior（前锯肌）是胸部肌肉，负责移动肩胛骨，并不位于足部。"],
+      "lock": ["serratus anterior = chest, not foot.", "前锯肌 = 胸部，不是足部。"],
+      "relation": "body-location-contrast",
+      "refs": [["General Anatomy - Muscles of the Trunk", "31-34", 55]]
+    }
+  },
+  "notes": "All candidates remain unreviewed. Three anatomically vague or subjective items were quarantined."
+}

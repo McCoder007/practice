@@ -1,0 +1,506 @@
+{
+  "schemaVersion": "1.0.0",
+  "notice": "Learner-facing bilingual review reasons for held questions. Internal status remains quarantined. A Chinese translation does not approve a held question.",
+  "records": {
+    "practice-nail-test-q004": {
+      "en": "The source keys primer as the substance that causes heat during acrylic application. Heat is produced by the exothermic polymerization reaction, not by primer, so the keyed answer is not safe to teach.",
+      "zh": "原题把 primer（底涂）当成丙烯酸甲发热的原因。热量来自放热的聚合反应，不是来自底涂，所以这个原题答案不适合当作正确知识来教。"
+    },
+    "practice-nail-test-q006": {
+      "en": "The source says to finish a gel service by applying nourishing oil to the client's hands. Gel procedures typically apply cuticle oil to surrounding skin; the keyed body location and product are too vague.",
+      "zh": "原题说凝胶服务结束时要把营养油涂在客人手上。凝胶流程通常是把死皮油涂在指甲周围皮肤上；原题的部位和产品都太笼统，不能当作标准步骤。"
+    },
+    "practice-nail-test-q007": {
+      "en": "The source recommends liquid disinfectant when a client is allergic to a hand-wash ingredient. Disinfectant is not a safe substitute for hand-washing product on skin.",
+      "zh": "原题建议：如果客人对洗手产品里的成分过敏，就改用液体消毒剂。消毒剂不能安全地代替皮肤上的洗手产品。"
+    },
+    "practice-nail-test-q009": {
+      "en": "The source answer is sensible general hygiene, but the textbook does not support the specific work-desk rule and the item cannot add a non-restating teaching fact from the available authority.",
+      "zh": "原题答案作为一般卫生建议说得通，但教材并不支持这条具体的工作台规则，现有资料也无法写出不重复题目本身的教学内容。"
+    },
+    "practice-nail-test-q011": {
+      "en": "On the infection-control ladder, disinfection is not sterilization. The source key treats these two different steps as the same.",
+      "zh": "在感染控制层级里，disinfection（消毒）不是 sterilization（灭菌）。原题答案把这两个不同步骤当成同一件事。"
+    },
+    "practice-nail-test-q012": {
+      "en": "The source says all gel nails are removed by soaking in acetone. Soak-off gels may be soaked, but hard gels must be filed off, so the generic key is unsafe.",
+      "zh": "原题说所有凝胶甲都可以用丙酮浸泡卸除。可浸泡凝胶可以泡除，但硬凝胶必须打磨去除，所以这个笼统答案不安全。"
+    },
+    "practice-nail-test-q014": {
+      "en": "The source describes UV-light cabinet use as hospital-grade disinfection/sterilization. A UV storage cabinet does not replace required cleaning and EPA-registered disinfection.",
+      "zh": "原题把紫外线柜子说成医院级消毒或灭菌。紫外线储存柜不能代替必须的清洁和 EPA 注册消毒剂消毒。"
+    },
+    "practice-nail-test-q021": {
+      "en": "The source gives a universal 60-degree angle for filing nail corners. Filing direction and shape vary by desired nail shape; the textbook does not support this exact rule.",
+      "zh": "原题给出打磨指甲边角的统一 60 度规则。打磨方向和形状会随目标甲型变化，教材并不支持这条固定角度。"
+    },
+    "practice-nail-test-q023": {
+      "en": "The phrase 'file metal tips for paper files' does not identify a recognized implement or procedure. The keyed 'nail tip file' does not resolve the damaged stem.",
+      "zh": "原题短语“file metal tips for paper files”无法对应公认的工具或步骤。原题答案“nail tip file”也补不了这道损坏的题目。"
+    },
+    "practice-nail-test-q024": {
+      "en": "The source says the liver discharges waste containing bile. The liver produces bile, the gallbladder stores it, and the intestine eliminates waste; the stem combines different functions.",
+      "zh": "原题说肝脏排出含胆汁的废物。肝脏产生胆汁，胆囊储存胆汁，肠道排出废物；题目把不同功能混在一起了。"
+    },
+    "practice-nail-test-q025": {
+      "en": "The source question asks what must happen before tools are used on another client, but the keyed answer repeats 'used on another client' and supplies no safety action.",
+      "zh": "原题问工具用到下一位客人之前必须做什么，但原题答案只是重复“用到另一位客人”，没有给出任何安全操作。"
+    },
+    "practice-nail-test-q027": {
+      "en": "The source recommends UV gel for a client allergic to acrylic liquid. Many acrylic and gel systems share methacrylate allergens, so substitution without medical/product-specific guidance is unsafe.",
+      "zh": "原题建议对丙烯酸液体过敏的客人改用 UV 凝胶。许多丙烯酸和凝胶产品含有相关的 methacrylates 过敏原，没有医疗或产品说明就替换是不安全的。"
+    },
+    "practice-nail-test-q029": {
+      "en": "The keyed cause 'incorrect usage of the UV light' is too vague and the symptom description does not identify a unique product, lamp, curing-time, or application error.",
+      "zh": "原题原因“UV 灯使用不正确”太含糊。症状描述也无法指向某一个产品、灯具、固化时间或操作错误。"
+    },
+    "practice-nail-test-q037": {
+      "en": "The source says the first pedicure step is to put on gloves and ask the client to wash their hands. The textbook pre-service sequence requires technician hand washing and does not support this combined first step.",
+      "zh": "原题说足部护理的第一步是戴手套并请客人洗手。教材的服务前步骤要求技师先洗手，并不支持把这两件事合成第一步。"
+    },
+    "practice-nail-test-q038": {
+      "en": "The source recommends reducing lamp time to reduce heat. Shortening required cure time can leave gel undercured and increase allergy and service-breakdown risk.",
+      "zh": "原题建议缩短灯照时间来减少发热。缩短必要的固化时间可能使凝胶固化不足，增加过敏和作品失败的风险。"
+    },
+    "practice-nail-test-q039": {
+      "en": "The stem asks how applying tips differs from acrylic gel, but the key 'UV light' does not form a complete or unambiguous comparison. The intended fact cannot be recovered reliably.",
+      "zh": "题目问贴甲片和丙烯酸凝胶有何不同，但原题答案“UV light”不能形成完整、明确的对比。真正要考的事实无法可靠还原。"
+    },
+    "practice-nail-test-q043": {
+      "en": "The keyed advice to recommend polish that 'suits their nails' is subjective and gives no condition, product property, or unique educational fact to review.",
+      "zh": "原题建议推荐“适合客人指甲”的指甲油，这很主观，没有给出甲况、产品特性或可审核的具体知识点。"
+    },
+    "practice-nail-test-q044": {
+      "en": "The source keys nickel as a file-tip material, but the textbook describes carbide, diamond, ceramic, and abrasive bands for electric-file bits; nickel appears only as an implement plating.",
+      "zh": "原题把 nickel（镍）当成磨头材料。教材里电动磨甲机磨头是碳化钨、金刚石、陶瓷和砂圈；镍只出现在工具镀层里。"
+    },
+    "practice-nail-test-q046": {
+      "en": "The source answers a term question with the tautology 'a chemical reaction.' The textbook term for the reaction that joins monomers into polymers is polymerization.",
+      "zh": "原题用“化学反应”来回答一个术语题，等于同义反复。教材里把单体连接成聚合物的反应名称是 polymerization（聚合）。"
+    },
+    "practice-nail-test-q049": {
+      "en": "The source treats hypertrophy as another name for onychauxis. Hypertrophy is a general increase in tissue size, while onychauxis specifically describes abnormal nail thickening; they are not safe synonyms.",
+      "zh": "原题把 hypertrophy 当成 onychauxis 的别名。hypertrophy 泛指组织变大，onychauxis 特指指甲异常增厚；两者不能安全地当作同一词。"
+    },
+    "practice-nail-test-q050": {
+      "en": "The key 'Incorrect usage' is too vague to identify or teach the cause of a client's heat complaint.",
+      "zh": "原题答案“Incorrect usage（使用不正确）”太含糊，无法说明或教学客人感觉发热的真正原因。"
+    },
+    "practice-nail-test-q051": {
+      "en": "The source says gel on a broken acrylic nail should be thicker from base to tip. Proper structure requires controlled thickness in the stress area, not uniform thick product across the nail.",
+      "zh": "原题说断裂的丙烯酸甲上，凝胶要从甲根到甲尖都更厚。正确结构是在应力区控制厚度，而不是整甲均匀堆厚。"
+    },
+    "practice-nail-test-q052": {
+      "en": "The source equates sodium hypochlorite with either floor cleaner or bleach. It is the active chemical in chlorine bleach, but not every floor cleaner is sodium hypochlorite.",
+      "zh": "原题把 sodium hypochlorite（次氯酸钠）等同于地板清洁剂或漂白水。它是含氯漂白水里的有效成分，但不是每一种地板清洁剂都是次氯酸钠。"
+    },
+    "practice-nail-test-q056": {
+      "en": "The client asks for no artificial nails, but the source recommends builder gel, which is an enhancement product. The answer conflicts with the client's stated choice.",
+      "zh": "客人明确不想做假甲，原题却推荐 builder gel（建构凝胶），这属于增强产品。答案与客人的选择冲突。"
+    },
+    "practice-nail-test-q058": {
+      "en": "The source gives one universal rinse-dry-dispose rule for empty chemical containers. Disposal must follow the product label and local requirements; some containers should not be rinsed.",
+      "zh": "原题给空化学容器规定了统一的冲洗、晾干、丢弃方法。处置必须遵循产品标签和当地规定；有些容器不应冲洗。"
+    },
+    "practice-nail-test-q059": {
+      "en": "The instruction to attach fake nails 'securely under the tip of the natural nail' does not describe a recognized tip, form, or full-cover application and could place product incorrectly.",
+      "zh": "原题说把假甲“牢固贴在真甲甲尖下方”，这不是公认的甲片、甲模或全贴应用方法，还可能把产品放错位置。"
+    },
+    "practice-nail-test-q060": {
+      "en": "The source says to press a metal cuticle tool on the nail bed. The textbook procedure uses gentle pressure on the moist nail plate and avoids injury to living tissue.",
+      "zh": "原题说把金属死皮工具压在 nail bed（甲床）上。教材做法是在湿润的 nail plate（甲板）上轻轻施压，避免伤到活组织。"
+    },
+    "practice-nail-test-q061": {
+      "en": "The source says builder gel binds polymer and monomer. Builder gel is not the agent that combines liquid monomer and polymer powder; the premise is chemically unsound.",
+      "zh": "原题说 builder gel 能结合 polymer 和 monomer。建构凝胶并不是把液体单体和聚合物粉结合在一起的物质，这个前提在化学上不成立。"
+    },
+    "practice-nail-test-q063": {
+      "en": "The source recommends checking nail strength by pressing at the tip without defining natural or enhanced nails, safe pressure, or the stress area. The procedure is too vague.",
+      "zh": "原题建议按压甲尖来检查指甲强度，但没有说明是天然甲还是增强甲、安全力度，或应力区在哪里。这个步骤太含糊。"
+    },
+    "practice-nail-test-q065": {
+      "en": "Cuticle oil can improve flexibility and dryness but does not treat or repair a split nail. The word 'treat' overstates what the product can do.",
+      "zh": "死皮油可以改善柔软度和干燥，但不能治疗或修复裂甲。“treat（治疗）”这个词夸大了产品作用。"
+    },
+    "practice-nail-test-q068": {
+      "en": "The source assigns an unsupported exact figure of about 99 percent harmless bacteria. The textbook says most bacteria are nonpathogenic but does not support this percentage.",
+      "zh": "原题给出约 99% 细菌无害这个没有依据的精确数字。教材说大多数细菌是非致病的，但并不支持这个百分比。"
+    },
+    "practice-nail-test-q070": {
+      "en": "The source equates a chemical smell with fumes. Odor alone does not identify fumes or exposure level, and the textbook defines fumes more specifically than a smell in the room.",
+      "zh": "原题把化学气味等同于 fumes（烟雾/挥发物）。单靠气味不能判断是不是烟雾，也不能判断暴露程度；教材对 fumes 的定义比“房间里有味道”更具体。"
+    },
+    "practice-nail-test-q073": {
+      "en": "Several abrasives can shape an acrylic free edge; the generic stem does not make 'metal file' uniquely correct.",
+      "zh": "多种打磨工具都可以修丙烯酸甲的游离缘；题目太笼统，不能证明只有“金属锉”才正确。"
+    },
+    "practice-nail-test-q077": {
+      "en": "'Protective gear' is too broad for a most-important safety question, and several specific protective measures could also be correct.",
+      "zh": "“防护装备”对“最重要的安全措施”这类题来说太宽。多种具体防护做法也可能正确。"
+    },
+    "practice-nail-test-q080": {
+      "en": "'Strong massage on the surface of the arm' does not uniquely define deep-tissue massage and does not match the textbook's named basic massage movements.",
+      "zh": "“在手臂表面做强力按摩”并不能唯一定义深层组织按摩，也不符合教材里命名的基本按摩手法。"
+    },
+    "practice-nail-test-q081": {
+      "en": "The source recommends slightly rounded toenail corners. General safety guidance is to trim toenails straight across to reduce ingrown-nail risk, so this wording should not ship as a rule.",
+      "zh": "原题建议脚趾甲边角略圆。一般安全做法是把脚趾甲剪成平直，以减少嵌甲风险，所以这句不应作为规则发布。"
+    },
+    "practice-nail-test-q083": {
+      "en": "The keyed answer gives two different massage techniques ('Shiatsu or Effleurage'), so the item has no single defensible correct choice.",
+      "zh": "原题答案给出两种不同按摩手法（Shiatsu 或 Effleurage），因此没有一个可以单独成立的正确答案。"
+    },
+    "practice-nail-test-q088": {
+      "en": "The keyed term 'Ethyl acrylic' is not a recognized monomer name. The likely intended term is ethyl methacrylate, but the source wording is not reliable enough to silently correct.",
+      "zh": "原题术语 Ethyl acrylic 不是公认的单体名称。可能想说 ethyl methacrylate，但原文不够可靠，不能悄悄改掉。"
+    },
+    "practice-nail-test-q090": {
+      "en": "The key 'incorrect polymer ratio' does not state whether the bead was too wet or too dry and cannot uniquely explain a crack in the middle of an enhancement.",
+      "zh": "原题“polymer 比例不正确”没有说明粉珠太湿还是太干，也不能单独解释增强甲中间开裂的原因。"
+    },
+    "practice-nail-test-q091": {
+      "en": "The source calls the patella the largest bone in the knee area. The patella is the largest sesamoid bone; the femur is the body's largest bone. The stem is too imprecise to ship with this key.",
+      "zh": "原题把 patella（髌骨）说成膝盖附近最大的骨头。髌骨是最大的籽骨；人体最大的骨头是 femur（股骨）。题目措辞太不精确，不能带着这个答案发布。"
+    },
+    "practice-nail-test-q092": {
+      "en": "The source says a round natural nail requires an oval tip. Tip shape should fit the nail and desired result; the generic stem does not make oval uniquely correct.",
+      "zh": "原题说圆形真甲必须用椭圆形甲片。甲片形状应匹配指甲和目标效果；笼统题目不能证明只有椭圆形才正确。"
+    },
+    "practice-nail-test-q093": {
+      "en": "The keyed placement 'at the tip's edge and the stopping point at the nail tip' is unclear and does not identify the contact area, stop point, or sidewall fit safely.",
+      "zh": "原题位置“在甲片边缘，停止点在甲尖”意思不清，不能安全说明接触区、停止点或侧壁贴合。"
+    },
+    "practice-nail-test-q096": {
+      "en": "The stem asks which type of light can be used for treatment but keys 'light therapy,' which is the treatment category rather than a type of light.",
+      "zh": "题目问哪种光可以用于治疗，原题答案却是 light therapy（光疗）。那是治疗类别，不是一种光。"
+    },
+    "practice-nail-test-q099": {
+      "en": "The source treats all gel nails as acetone soak-off products. Hard gels must be filed off, so foil-and-acetone removal is not a safe generic instruction.",
+      "zh": "原题把所有凝胶甲都当成可用丙酮浸泡卸除的产品。硬凝胶必须打磨去除，所以锡纸加丙酮不是安全的通用卸甲方法。"
+    },
+    "practice-nail-test-q104": {
+      "en": "Calling stiletto the universally weakest shape ignores length, product, apex, and structure. The textbook does not support one shape as uniquely weakest in every case.",
+      "zh": "把 stiletto（尖形甲）说成永远最弱的甲型，忽略了长度、产品、apex（应力高点）和结构。教材并不支持某一种甲型在所有情况下都最弱。"
+    },
+    "practice-nail-test-q113": {
+      "en": "A heat spike can result from thick product, damaged nails, lamp mismatch, or curing chemistry. 'Lamp on too long' is not a unique or sufficiently safe diagnosis.",
+      "zh": "突然发热可能来自产品过厚、指甲受损、灯不匹配或固化化学反应。“灯开太久”不是唯一、也不足够安全的判断。"
+    },
+    "practice-nail-test-q115": {
+      "en": "Several massage techniques can be used on the hand; the generic stem does not uniquely identify tapotement.",
+      "zh": "手上可以使用多种按摩手法；题目太笼统，不能唯一定为 tapotement（叩击法）。"
+    },
+    "practice-nail-test-q117": {
+      "en": "Two to three weeks is a common maintenance/fill interval, not a universal requirement to remove acrylic nails. The source wording would teach an incorrect rule.",
+      "zh": "两到三周常见于补甲或维护，并不是必须卸除丙烯酸甲的普遍规定。原题措辞会教错规则。"
+    },
+    "practice-nail-test-q119": {
+      "en": "The source recommends a cotton-tipped wooden stick to clean under nail tips. Current procedure favors washing with a nail brush or an appropriate blunt implement; fibers can remain behind.",
+      "zh": "原题建议用棉头木签清洁甲片下方。现行做法更主张用指甲刷或合适的钝头工具清洗；棉纤维可能残留。"
+    },
+    "practice-nail-test-q120": {
+      "en": "Short round nails do not uniquely require a French tip design. This is a style preference, not a technical suitability rule.",
+      "zh": "短圆形指甲并不必须做法式甲尖。这是风格偏好，不是技术上的唯一适合规则。"
+    },
+    "practice-nail-test-q121": {
+      "en": "The stem asks for one chemical solution but the key combines disinfectants for surfaces with antiseptics for skin. These are different product categories, so there is no single keyed answer.",
+      "zh": "题目只要一种化学溶液，原题答案却把物体表面消毒剂和皮肤防腐剂混在一起。这是不同产品类别，所以没有单一正确答案。"
+    },
+    "practice-nail-test-q122": {
+      "en": "The source says to assess a bandaged finger but does not define whether the wound is open, infected, or safe to expose. Removing or inspecting a client's bandage is outside a clear salon safety procedure.",
+      "zh": "原题说要检查包扎的手指，但没有说明伤口是否开放、感染，或能否露出。拆开或检查客人绷带超出了明确的沙龙安全程序。"
+    },
+    "practice-nail-test-q124": {
+      "en": "The source says to remove artificial nails from a client with suspected mold or fungal disease. A nail technician should not diagnose or work on a suspected infection; the item needs a safety rewrite.",
+      "zh": "原题说怀疑有霉菌或真菌时先卸假甲。美甲师不应诊断或在疑似感染上操作；这道题需要按安全要求重写。"
+    },
+    "practice-nail-test-q125": {
+      "en": "The source says bacteria invade living organisms 70 percent of the time without illness and calls them symbiotic. The percentage and use of 'invade' are unsupported and biologically misleading.",
+      "zh": "原题说细菌有 70% 的时间侵入生物体却不致病，并称之为共生。这个百分比和“invade（侵入）”都没有依据，在生物学上会误导。"
+    },
+    "practice-nail-test-q126": {
+      "en": "The source recommends a cotton-tipped stick for cleaning nail tips without identifying the service or material. The procedure is not uniquely safe or supported.",
+      "zh": "原题建议用棉签清洁甲尖，但没有说明是什么服务或材料。这个步骤既不是唯一安全做法，也没有足够依据。"
+    },
+    "practice-nail-test-q127": {
+      "en": "The source explains roughness only as 'incorrect filing technique' without identifying pressure, bit, angle, grit, or movement. The key is too vague to teach.",
+      "zh": "原题把粗糙只解释成“打磨手法不正确”，没有说明力度、磨头、角度、砂目或动作。这个答案太含糊，没法教学。"
+    },
+    "practice-nail-test-q128": {
+      "en": "The source says gel polish protects color without a UV lamp. Gel polish requires the matching UV or LED curing lamp, so the key is chemically incorrect.",
+      "zh": "原题说 gel polish 不用 UV 灯也能保护颜色。凝胶甲油需要配套的 UV 或 LED 固化灯，所以这个答案在化学上是错的。"
+    },
+    "practice-nail-test-q129": {
+      "en": "The source keys Polymer for permanent visible skin damage. This is unsupported and conflicts with the textbook's skin-damage guidance; no reliable correction can be inferred from the prompt.",
+      "zh": "原题把 Polymer 当成造成明显永久皮肤损伤的原因。这没有依据，也和教材的皮肤损伤说明冲突；从题目无法可靠推出正确改法。"
+    },
+    "practice-nail-test-q130": {
+      "en": "Effleurage is itself a gliding/stroking massage movement. The phrase 'combined with a gliding motion' does not uniquely define it.",
+      "zh": "effleurage（轻抚法）本身就是滑动、抚过的按摩动作。“结合滑动动作”并不能唯一定义它。"
+    },
+    "practice-nail-test-q131": {
+      "en": "The answer describes a product bead, while the stem/distractor structure was extracted as a tool question. It needs question-specific visual/procedural authoring.",
+      "zh": "答案描述的是产品粉珠，但题目和干扰项被提取成了工具题。这道题需要按具体视觉或操作重新编写。"
+    },
+    "practice-nail-test-q133": {
+      "en": "'Using personal protective equipment' is too broad to be the unique answer to a most-important safety item.",
+      "zh": "“使用个人防护装备”太宽，不能作为“最重要安全事项”的唯一答案。"
+    },
+    "practice-nail-test-q140": {
+      "en": "The source keys nail bed as the part that protects against bacterial infection. The textbook assigns the seal/barrier role at the free edge to the hyponychium, so this key is not safe to teach.",
+      "zh": "原题把 nail bed（甲床）说成防止细菌感染的部位。教材把游离缘的封闭/屏障作用归于 hyponychium（甲下皮），所以这个答案不适合教学。"
+    },
+    "practice-nail-test-q141": {
+      "en": "The source treats a UV cabinet as a sterilizer after hospital-level disinfection. UV cabinets are not a substitute for required cleaning and EPA-registered disinfection, so this wording is unsafe.",
+      "zh": "原题把紫外线柜子当成医院级消毒之后的灭菌器。紫外线柜不能代替必须的清洁和 EPA 注册消毒，所以这句不安全。"
+    },
+    "practice-nail-test-q142": {
+      "en": "Recommending UV gel for an acrylic-liquid allergy is unsafe because both systems may contain related methacrylates that can trigger the same allergy.",
+      "zh": "对丙烯酸液体过敏却推荐 UV 凝胶是不安全的，因为两套产品都可能含有相关的 methacrylates，会引发同样的过敏。"
+    },
+    "practice-nail-test-q143": {
+      "en": "The source says acrylic primer is methacrylic acid. Acid-based primers may contain methacrylic acid, but nonacid and acid-free primers also exist, so the generic statement is false.",
+      "zh": "原题说丙烯酸底涂就是 methacrylic acid（甲基丙烯酸）。酸性底涂可能含这种酸，但也有非酸和无酸底涂，所以这句笼统说法是错的。"
+    },
+    "practice-nail-test-q144": {
+      "en": "The stem combines gliding with tapping but keys a misspelled effleurage. Effleurage is gliding; tapping is tapotement, so two different movements are mixed together.",
+      "zh": "题目把滑动和轻拍混在一起，原题答案还是拼错的 effleurage。effleurage 是滑动，轻拍是 tapotement，两种手法被混成一题。"
+    },
+    "practice-nail-test-q150": {
+      "en": "The stem 'efforts to prevent growth' does not define immunity, the keyed answer. The intended concept cannot be recovered reliably from the source wording.",
+      "zh": "题目“阻止生长的努力”并不能定义 immunity（免疫），也就是原题答案。从原文无法可靠还原想考的概念。"
+    },
+    "practice-nail-test-q152": {
+      "en": "The instruction to apply acrylic 'at the point of attachment' does not identify a safe location or procedure for a bitten nail and cannot support one unique answer.",
+      "zh": "原题说在“附着点”上丙烯酸，并没有说明咬甲时的安全位置或步骤，也不能支持唯一答案。"
+    },
+    "practice-nail-test-q154": {
+      "en": "Naturally curved, long nails do not uniquely require UV gel. Product choice depends on the client's goal and nail condition, which the stem does not provide.",
+      "zh": "天生弯曲的长甲并不必须用 UV 凝胶。产品选择取决于客人目标和甲况，题目没有提供这些信息。"
+    },
+    "practice-nail-test-q155": {
+      "en": "A flat, smooth nail does not uniquely require builder gel. The desired service and structural need are missing, so several products could be appropriate.",
+      "zh": "平整光滑的指甲并不必须用 builder gel。缺少目标服务和结构需求，多种产品都可能合适。"
+    },
+    "practice-nail-test-q160": {
+      "en": "The source calls the tacky surface left by an odorless monomer a 'curing layer.' The recognized concept is an inhibition/tacky layer; the keyed term is not reliable.",
+      "zh": "原题把无味单体留下的黏层叫做 curing layer。公认概念是 inhibition/tacky layer（抑制层/黏层）；原题术语不可靠。"
+    },
+    "practice-nail-test-q161": {
+      "en": "The textbook term is pathogenic organisms. The source key 'infectious organisms' is not the expected exam term.",
+      "zh": "教材术语是 pathogenic organisms（致病生物）。原题答案 infectious organisms 不是预期的考试用语。"
+    },
+    "practice-nail-test-q165": {
+      "en": "Full-cover nails are not universally the easiest artificial nails to remove; removal depends on the adhesive and product chemistry.",
+      "zh": "全贴甲并不是普遍最容易卸除的假甲；卸除难度取决于胶水和产品化学。"
+    },
+    "practice-nail-test-q171": {
+      "en": "The source says methacrylic acid is the main ingredient in primer. This applies only to acid-based primers; the textbook describes nonacid and acid-free primers as well.",
+      "zh": "原题说 methacrylic acid 是底涂的主要成分。这只适用于酸性底涂；教材也写了非酸和无酸底涂。"
+    },
+    "practice-nail-test-q175": {
+      "en": "Rinsing out dirty water alone does not disinfect a foot bath. Shipping this keyed answer would teach an unsafe infection-control procedure.",
+      "zh": "只冲掉脏水并不能给足浴盆消毒。如果把这个原题答案当作正确答案，会教出不安全的感染控制步骤。"
+    },
+    "practice-nail-test-q187": {
+      "en": "Course length is jurisdiction- and schedule-dependent; the source gives six months without identifying a program or licensing jurisdiction.",
+      "zh": "课程时长取决于管辖区和课程安排；原题写六个月，却没有说明是哪个项目或哪个执照地区。"
+    },
+    "practice-nail-test-q189": {
+      "en": "The stem asks for a chemical reaction that accelerates but keys catalyst. A catalyst is a substance that speeds a reaction, not a reaction itself, so the grammar changes the scientific meaning.",
+      "zh": "题目问的是会加速的化学反应，原题答案却是 catalyst（催化剂）。催化剂是加快反应的物质，不是反应本身，语法改变了科学含义。"
+    },
+    "practice-nail-test-q196": {
+      "en": "The phrase 'working next to the nail' does not identify the sidewall, skin, or enhancement surface, so the keyed 45-degree electric-file angle cannot be applied safely.",
+      "zh": "“在指甲旁边操作”没有说明是侧壁、皮肤还是增强甲表面，所以原题的 45 度电动磨甲角度不能安全套用。"
+    },
+    "practice-nail-test-q197": {
+      "en": "The source uniquely blames too much adhesive for a cracked tip. Cracks can result from sizing, fit, impact, structure, or adhesive use, and the stem gives no diagnostic evidence.",
+      "zh": "原题把甲片中间裂纹只归咎于胶水太多。裂纹也可能来自尺寸、贴合、撞击、结构或胶水用法，题目没有给出判断依据。"
+    },
+    "practice-nail-test-q200": {
+      "en": "The source calls carbide the 'sharpest material' for an electric file. Bit cutting action depends on design and grit; carbide, diamond, ceramic, and sanding bands are not ranked by one universal sharpness rule.",
+      "zh": "原题把 carbide 说成电动磨甲机“最锋利的材料”。切削效果取决于设计和砂目；碳化钨、金刚石、陶瓷和砂圈不能用一条通用锋利规则排序。"
+    },
+    "practice-nail-test-q202": {
+      "en": "Disinfecting a client's hands after a service is not inherently the single incorrect action. The stem supplies no complete post-service sequence or useful unique contrast.",
+      "zh": "服务后给客人手部消毒，本身不一定就是唯一错误做法。题目没有完整的服务后步骤，也没有有用的唯一对比。"
+    },
+    "practice-nail-test-q203": {
+      "en": "The source says the FDA prohibits MMA in nail products. FDA enforcement history and state bans are more nuanced; the agency has not issued the simple universal prohibition claimed.",
+      "zh": "原题说 FDA 禁止美甲产品使用 MMA。FDA 执法历史和各州禁令更复杂；该机构并没有发出原题所说的那种简单、全面禁止。"
+    },
+    "practice-nail-test-q204": {
+      "en": "The source says a nail tip is placed at the arch of the nail. Tips attach at their contact area and stop point; the arch is not the universal placement location.",
+      "zh": "原题说甲片放在指甲的 arch（拱起处）。甲片应贴在接触区和停止点；拱起处不是通用放置位置。"
+    },
+    "practice-nail-test-n002": {
+      "en": "Cleaning before an enhancement helps remove many contaminants but does not guarantee prevention of fungus. The source teaches an overconfident medical outcome.",
+      "zh": "做增强甲前清洁有助于去掉许多污染物，但不能保证防止真菌。原题把这个医疗结果说得过于肯定。"
+    },
+    "practice-nail-test-n003": {
+      "en": "The source says polyester resin is the ingredient in every top coat. Top-coat formulas vary and the textbook does not support one universal resin ingredient.",
+      "zh": "原题说每一种亮油都含 polyester resin。亮油配方各不相同，教材并不支持只有这一种树脂成分。"
+    },
+    "practice-nail-test-n004": {
+      "en": "The source keys onychia for inflammation with pus, redness, and swelling. Milady defines onychia as matrix inflammation with nail shedding, while pus and surrounding-tissue inflammation point toward paronychia.",
+      "zh": "原题把有脓、红、肿的炎症叫 onychia。Milady 把 onychia 定义为甲母质炎症并伴随脱甲；脓液和周围组织炎症更指向 paronychia（甲沟炎）。"
+    },
+    "practice-nail-test-n009": {
+      "en": "More than one synthetic gel-brush shape can blend and shape gel. The stem gives no service detail that makes a small flat brush uniquely correct.",
+      "zh": "不止一种合成凝胶笔形状可以推匀和塑形。题目没有服务细节证明只有小扁笔才正确。"
+    },
+    "practice-nail-test-n011": {
+      "en": "The keyed 'pleasing personality' is subjective, culturally loaded, and not a measurable requirement for student success. It cannot support fair educational review.",
+      "zh": "原题答案“讨人喜欢的性格”很主观，带有文化偏见，也不是可测量的学生成功条件。它无法支持公平的教学审核。"
+    },
+    "practice-nail-test-n013": {
+      "en": "More than one noninfectious nail condition may receive a carefully adapted manicure. The stem does not make onychophagy the only safe answer.",
+      "zh": "多种非传染性甲况都可以接受谨慎调整后的美甲。题目并不能证明只有 onychophagy（咬甲）才是安全答案。"
+    },
+    "practice-nail-test-n015": {
+      "en": "The source calls the nail root the only true living part, but the matrix is the living growth tissue and other tissues in the nail unit are also living. The absolute wording is inaccurate.",
+      "zh": "原题说甲根是唯一真正的活组织，但 matrix（甲母质）才是生长活组织，甲单位里还有其他活组织。这种绝对说法不准确。"
+    },
+    "practice-nail-test-n018": {
+      "en": "The key uses the outdated lay phrase 'blood poisoning' as a general infection. This may refer to sepsis or bloodstream infection, which are distinct medical conditions.",
+      "zh": "原题用过时俗语 blood poisoning（血液中毒）当作一般感染。它可能指 sepsis 或血液感染，这些是不同的医学情况。"
+    },
+    "practice-nail-test-n020": {
+      "en": "The source calls a 1,000 ppm quaternary ammonium solution a wet sanitizer. Product concentration and contact time must follow the current label; this old generic rule is unsafe.",
+      "zh": "原题把 1,000 ppm 季铵盐溶液叫做湿式消毒剂。产品浓度和接触时间必须遵循现行标签；这条旧的笼统规则不安全。"
+    },
+    "practice-nail-test-n021": {
+      "en": "The source recommends 70 percent methyl alcohol for sharp tools. Current salon practice requires cleaning and an EPA-registered disinfectant; methanol is toxic and not an acceptable generic implement disinfectant.",
+      "zh": "原题建议用 70% 甲醇处理锋利工具。现行沙龙做法要求先清洁，再用 EPA 注册消毒剂；甲醇有毒，不能当作通用工具消毒剂。"
+    },
+    "practice-nail-test-n023": {
+      "en": "The source uses perionychium as the skin surrounding the nail. Current textbook terminology identifies specific nail folds, eponychium, and hyponychium and does not use this term.",
+      "zh": "原题用 perionychium 表示指甲周围皮肤。现行教材使用具体的甲皱襞、eponychium 和 hyponychium，并不使用这个词。"
+    },
+    "practice-nail-test-n026": {
+      "en": "The source keys onychoptosis for inflamed tissue surrounding the nail. The recognized term is paronychia; onychoptosis means shedding or falling off of the nail.",
+      "zh": "原题把指甲周围组织发炎叫做 onychoptosis。公认术语是 paronychia（甲沟炎）；onychoptosis 指指甲脱落。"
+    },
+    "practice-nail-test-n027": {
+      "en": "The source recommends 3 percent hydrogen peroxide for a small cut. Current exposure procedures use washing, antiseptic offered to the client, and a bandage; peroxide is not the first universal rule.",
+      "zh": "原题建议小伤口用 3% 过氧化氢。现行暴露处理是冲洗、向客人提供防腐剂并包扎；过氧化氢不是第一条通用规则。"
+    },
+    "practice-nail-test-n028": {
+      "en": "The source answer is damaged ('on a most nail bed') and incorrectly places a metal pusher on the nail bed. A pusher is used gently and nearly flat on the nail plate, not living nail-bed tissue.",
+      "zh": "原题答案损坏（on a most nail bed），还错误地把金属推棒放在甲床上。推棒应几乎放平，轻轻用在甲板上，而不是活的甲床组织上。"
+    },
+    "practice-nail-test-n031": {
+      "en": "The source teaches immersion in 70 percent ethyl alcohol for ten minutes as implement disinfection. This is outdated and not a safe general salon disinfection rule.",
+      "zh": "原题把工具浸入 70% 乙醇十分钟当作消毒。这已经过时，不是安全的通用沙龙消毒规则。"
+    },
+    "practice-nail-test-n032": {
+      "en": "The source uses the older term nail mantle for the deep fold holding the root. Current terminology uses proximal nail fold and matrix-area structures.",
+      "zh": "原题用旧词 nail mantle 表示包住甲根的深褶。现行术语使用 proximal nail fold（近端甲皱襞）和甲母质区域结构。"
+    },
+    "practice-nail-test-n033": {
+      "en": "The keyed all-of-the-above answer combines several muscles, while the generated alternatives name muscles that each control some hand movement. The stem is not exclusive.",
+      "zh": "原题“以上都是”把几块肌肉合在一起，而生成的其他选项也各自控制部分手部运动。题目并没有唯一排他的答案。"
+    },
+    "practice-nail-test-n036": {
+      "en": "The source keys the obsolete phrase 'scarf skin' as another name for cuticle. Current textbook terminology defines cuticle as dead tissue attached to the nail plate and does not use this synonym.",
+      "zh": "原题把过时说法 scarf skin 当作 cuticle 的别名。现行教材把 cuticle 定义为附着在甲板上的死组织，并不使用这个同义词。"
+    },
+    "practice-nail-test-n039": {
+      "en": "The stem defines nail walls but keys 'Body.' Nail walls are folds of skin overlapping the sides of the nail; the keyed answer does not complete the statement.",
+      "zh": "题目定义的是 nail walls（甲侧壁），原题答案却是 Body。甲侧壁是覆盖指甲两侧的皮肤皱褶；这个答案没有把句子补完整。"
+    },
+    "practice-nail-test-n040": {
+      "en": "The source relies on the outdated nail mantle term and answers only 'base of the nail,' which is too imprecise to identify root and matrix anatomy.",
+      "zh": "原题依赖过时的 nail mantle 术语，答案只有“指甲底部”，太不精确，无法说明甲根和甲母质解剖。"
+    },
+    "practice-nail-test-n041": {
+      "en": "The question treats mantle as a recognized alternative among three main natural-nail parts. Current textbook anatomy uses more specific structures and does not support this classification.",
+      "zh": "题目把 mantle 当成天然甲三个主要部分之一的选项。现行教材解剖使用更具体的结构，并不支持这种分类。"
+    },
+    "practice-nail-test-n042": {
+      "en": "The stem asks which option is not a nail disease, but more than one listed condition can be classified as a disorder or skin condition rather than a nail disease.",
+      "zh": "题目问哪一项不是指甲疾病，但列出的情况里，不止一项可归为障碍或皮肤问题，而不是指甲疾病。"
+    },
+    "practice-nail-test-n058": {
+      "en": "The source says the nail body is attached to skin at the fingertip. The nail plate rests on the nail bed and its free edge extends beyond the fingertip, so the keyed wording is anatomically misleading.",
+      "zh": "原题说甲体附着在指尖皮肤上。甲板贴在甲床上，游离缘伸出指尖，所以原题措辞在解剖上会误导。"
+    },
+    "practice-theory-update-023": {
+      "en": "The source requires blood-contaminated metal tools to be sterilized before reuse. Milady requires proper cleaning and EPA-registered disinfection; sterilization requirements depend on jurisdiction and equipment.",
+      "zh": "原题要求被血液污染的金属工具在再次使用前必须灭菌。Milady 要求正确清洁和 EPA 注册消毒；是否需要灭菌取决于管辖区和设备。"
+    },
+    "practice-theory-update-024": {
+      "en": "The source says putting on gloves is the first action after accidentally cutting a client. Milady Procedure 5-3 says to stop the service immediately before putting on gloves, so the keyed sequence is unsafe to teach as written.",
+      "zh": "原题说不小心割伤客人后第一件事是戴手套。Milady 程序 5-3 说应先立即停止服务，再戴手套，所以原题顺序按原文教学不安全。"
+    },
+    "practice-comprehensive-006": {
+      "en": "The EXCEPT item says emphasizing work ethic and hygiene is not a step for avoiding social-media mistakes. That answer is unrelated to the other platform-safety actions and does not teach one clear rule.",
+      "zh": "这道 EXCEPT 题把强调职业道德和卫生说成不是避免社交媒体错误的步骤。这个答案和其他平台安全做法无关，也教不出一条清楚规则。"
+    },
+    "practice-comprehensive-011": {
+      "en": "The source presents lack of water as the universal number-one cause of daytime fatigue. Fatigue has many medical and lifestyle causes, and the exact ranking is unsupported.",
+      "zh": "原题把缺水说成白天疲劳的全球第一原因。疲劳有很多医学和生活方式原因，这个精确排名没有依据。"
+    },
+    "practice-comprehensive-034": {
+      "en": "The item gives U.S. tax and Social Security benefit advice without jurisdiction, employment status, or current-law context. This legally and financially sensitive claim requires current specialist review.",
+      "zh": "这道题给出美国税务和社会保障福利建议，却没有说明管辖区、就业状态或现行法律背景。这种法律和财务敏感说法需要由当前专业人员审核。"
+    },
+    "practice-comprehensive-050": {
+      "en": "The source presents eczema and dermatitis as separate conditions with a fixed symptom contrast. Eczema is a form of dermatitis, and the textbook does not support this as a reliable either-or distinction.",
+      "zh": "原题把 eczema 和 dermatitis 说成症状固定对比的两种病。eczema 是 dermatitis 的一种，教材并不支持这种可靠的二选一区分。"
+    },
+    "practice-comprehensive-051": {
+      "en": "The source keys cheeks as the face area where nail technicians are most likely to experience skin allergies. The textbook discusses product allergy and exposure but does not support this unique body-location claim.",
+      "zh": "原题把脸颊说成美甲师最容易出现皮肤过敏的面部位置。教材讨论产品过敏和接触，但并不支持这个唯一部位说法。"
+    },
+    "practice-comprehensive-072": {
+      "en": "The source asks about shaving within 48 hours before a pedicure. Milady advises clients not to shave or wax their legs within 24 hours before a pedicure, so the source's exact time window is not supported.",
+      "zh": "原题问足部护理前 48 小时内剃毛。Milady 建议客人在足部护理前 24 小时内不要剃腿毛或热蜡，所以原题的精确时间并不被支持。"
+    },
+    "practice-comprehensive-075": {
+      "en": "The keyed statement says pressing down always increases machine speed. That behavior applies only to a particular variable-speed foot control, not to every electric file or handpiece control.",
+      "zh": "原题说往下踩总会加快机器速度。这种表现只适用于某一种变速脚控，不是每一台电动磨甲机或手柄控制都这样。"
+    },
+    "practice-comprehensive-115": {
+      "en": "The source marks sanitization as destroying all microbial life. Established fact: sterilization destroys all microbial life, including spores.",
+      "zh": "原题把 sanitization（清洁卫生处理）标成能杀死所有微生物。既定事实是：sterilization（灭菌）才能杀死所有微生物，包括芽孢。"
+    },
+    "practice-comprehensive-123": {
+      "en": "The keyed term 'Pediculous capitis' is misspelled. The recognized condition is pediculosis capitis, and the damaged key should not be silently corrected in source custody.",
+      "zh": "原题术语 Pediculous capitis 拼写错误。公认病名是 pediculosis capitis（头虱病）。在保留原文的规则下，不能悄悄改正这个损坏的答案。"
+    },
+    "practice-comprehensive-140": {
+      "en": "The source gives an exact count of 98 elements occurring naturally on Earth. The boundary depends on how trace and short-lived elements are classified, so this unsupported exact figure is not safe to teach.",
+      "zh": "原题给出地球上自然存在的元素正好 98 种。这个界限取决于如何划分痕量和短寿命元素，所以这个没有依据的精确数字不适合教学。"
+    },
+    "practice-comprehensive-143": {
+      "en": "The source asks for a compound molecule but keys exposed metal rusting. Rusting is a chemical reaction; it is not itself an example of a compound molecule.",
+      "zh": "题目要的是化合物分子，原题答案却是暴露金属生锈。生锈是化学反应，它本身不是化合物分子的例子。"
+    },
+    "practice-comprehensive-152": {
+      "en": "The source keys ohms for electrical current. Current is measured in amperes; ohms measure resistance, so the keyed answer is incorrect.",
+      "zh": "原题用 ohms（欧姆）表示电流。电流用 amperes（安培）计量；欧姆计量的是电阻，所以原题答案不正确。"
+    },
+    "practice-comprehensive-153": {
+      "en": "The stem misspells watts as 'Walts.' Although the definition describes watts, source custody forbids silently repairing the tested term.",
+      "zh": "题目把 watts 拼成 Walts。虽然定义描述的是瓦特，但保留原文的规则禁止悄悄修好被考的术语。"
+    },
+    "practice-comprehensive-164": {
+      "en": "The stem depends on the culture-specific idiom 'glass as half full.' The item tests English figurative language more than professional knowledge and is unsuitable for the ESL teaching pool.",
+      "zh": "题目依赖英语习语“杯子是半满的”。它更多在考英语比喻，而不是专业知识，不适合英语学习者教学题库。"
+    },
+    "practice-comprehensive-172": {
+      "en": "The source says distributor sales consultant is least satisfying for someone who enjoys training. Distributor educators and sales consultants often teach products, so the key is not uniquely defensible.",
+      "zh": "原题说喜欢培训的人最不满意经销商销售顾问工作。经销商教育人员和销售顾问常常也教产品，所以这个答案并不能唯一成立。"
+    },
+    "practice-comprehensive-175": {
+      "en": "The source asks which body system is least important for a nail technician. Relative importance is subjective and does not create a unique factual answer.",
+      "zh": "原题问哪个身体系统对美甲师最不重要。相对重要性是主观的，不能产生唯一的事实答案。"
+    },
+    "practice-comprehensive-186": {
+      "en": "The source repeats the healthy-skin question with misspellings in both the stem and keyed choice ('sin' and 'regid'). The clean duplicate comprehensive-048 is retained, so this damaged version is held for review.",
+      "zh": "原题重复了健康皮肤那道题，题干和原题选项都有拼写错误（sin 和 regid）。已保留干净的重复题 comprehensive-048，所以这个损坏版本继续待审核。"
+    }
+  }
+}

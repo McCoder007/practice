@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "manicure-pedicure-01",
+  "topic": "Manicure and pedicure procedures",
+  "status": "authored-awaiting-independent-review",
+  "authoredAt": "2026-08-13",
+  "author": "codex-authoring-run-2026-08-13-manicure-pedicure-01",
+  "authoritySource": "Milady Standard Nail Technology 8th Edition",
+  "questionIds": [
+    "practice-nail-test-q072",
+    "practice-nail-test-q076",
+    "practice-nail-test-q112",
+    "practice-nail-test-q132",
+    "practice-nail-test-q139",
+    "practice-nail-test-q148",
+    "practice-nail-test-q174",
+    "practice-nail-test-q181",
+    "practice-nail-test-q182",
+    "practice-nail-test-n001",
+    "practice-nail-test-n007",
+    "practice-nail-test-n037",
+    "practice-nail-test-n045",
+    "practice-theory-update-027",
+    "practice-comprehensive-063",
+    "practice-comprehensive-068",
+    "practice-comprehensive-069",
+    "practice-comprehensive-070",
+    "practice-comprehensive-073"
+  ],
+  "newQuarantineIds": [
+    "practice-nail-test-q006",
+    "practice-nail-test-q037",
+    "practice-nail-test-q043",
+    "practice-nail-test-q122",
+    "practice-nail-test-n028",
+    "practice-nail-test-n036"
+  ],
+  "entries": {
+    "practice-nail-test-q072": {
+      "why": ["Non-acetone remover takes off polish without quickly softening many nail tips and enhancements. Acetone can damage or loosen some enhancement products.", "non-acetone remover（无丙酮卸甲液）可去除甲油，又不会迅速软化许多甲片和人工甲产品。丙酮可能损坏或松动某些产品。"],
+      "lock": ["tips or enhancements = use non-acetone polish remover.", "甲片或人工甲 = 使用无丙酮卸甲液。"],
+      "relation": "safety-reason",
+      "refs": [["Manicuring - Polish Removers", "149-150", 173]]
+    },
+    "practice-nail-test-q076": {
+      "why": ["Effleurage uses smooth, gentle strokes that glide over the skin. These strokes help the client relax and begin or end a massage.", "effleurage（轻抚法）用平稳、轻柔的滑动动作按摩皮肤，帮助客户放松，也常用于按摩的开始或结束。"],
+      "lock": ["effleurage = gentle gliding strokes.", "effleurage = 轻柔滑动。"],
+      "relation": "action",
+      "refs": [["Manicuring - Hand and Arm Massage", "162", 186]]
+    },
+    "practice-nail-test-q112": {
+      "why": ["Dry toenails are easier to see and control with a file. Filing wet, softened nails can tear or split them.", "干燥的脚趾甲更容易看清并控制甲锉。湿软的脚趾甲在修锉时可能撕裂或分层。"],
+      "lock": ["file toenails when they are dry.", "脚趾甲干燥时再修锉。"],
+      "relation": "safety-reason",
+      "refs": [["Pedicuring - Basic Pedicure Procedure", "213-216", 237]]
+    },
+    "practice-nail-test-q132": {
+      "why": ["Nail polish remover contains a liquid that dissolves the dried polish film. This lets the color wipe away without scraping the nail.", "卸甲液含有能溶解干燥甲油膜的液体，使颜色可以擦掉，不必刮伤指甲。"],
+      "lock": ["polish remover dissolves the polish film.", "卸甲液会溶解甲油膜。"],
+      "relation": "action-result",
+      "refs": [["Manicuring - Polish Removers", "149-150", 173]]
+    },
+    "practice-nail-test-q139": {
+      "why": ["Warm water softens dry foot skin and makes dead surface buildup easier to remove. Soaking also prepares the feet for the service.", "温水能软化足部干燥皮肤，使表面死皮更容易去除，也为后续足部护理做好准备。"],
+      "lock": ["foot soak = soften skin before care.", "泡脚 = 护理前软化皮肤。"],
+      "relation": "purpose",
+      "refs": [["Pedicuring - Basic Pedicure Procedure", "213-216", 237]]
+    },
+    "practice-nail-test-q148": {
+      "why": ["Petrissage is a kneading movement that lifts, squeezes, and presses soft tissue. It is deeper than the light strokes of effleurage.", "petrissage（揉捏法）会提起、挤压并按压软组织，比 effleurage 的轻柔滑动动作更深。"],
+      "lock": ["petrissage = kneading; effleurage = gliding.", "petrissage = 揉捏；effleurage = 轻抚滑动。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Manicuring - Massage Movements", "162-163", 186]]
+    },
+    "practice-nail-test-q174": {
+      "why": ["Keeping the toenail edge mostly straight reduces pressure at the corners. Deeply rounding the corners can encourage the nail to grow into skin.", "脚趾甲边缘保持基本平直，可减少两侧角落的压力。把角落剪得太圆，可能让指甲长进皮肤。"],
+      "lock": ["toenails = trim mostly straight across.", "脚趾甲 = 基本平直横剪。"],
+      "relation": "safety-reason",
+      "refs": [["Pedicuring - Shortening Toenails", "210-214", 234]]
+    },
+    "practice-nail-test-q181": {
+      "why": ["A straight toenail edge leaves the side corners visible instead of cutting them deep. This helps prevent painful ingrown nails.", "脚趾甲横向平剪可保留两侧角落，不会剪得过深，有助于防止疼痛的嵌甲。"],
+      "lock": ["straight toenail edge helps prevent ingrown nails.", "脚趾甲平直边缘有助于防止嵌甲。"],
+      "relation": "cause-effect",
+      "refs": [["Pedicuring - Shortening Toenails", "210-214", 234]]
+    },
+    "practice-nail-test-q182": {
+      "why": ["File a toenail straight across, then soften the sharp corners slightly. Filing deep into the sides can injure skin and promote an ingrown nail.", "脚趾甲应横向平直修锉，再轻轻磨圆尖角。深入两侧修锉可能伤到皮肤，并促成嵌甲。"],
+      "lock": ["file toenails straight; soften corners only slightly.", "脚趾甲横向平锉；只轻微磨圆尖角。"],
+      "relation": "procedure",
+      "refs": [["Pedicuring - Basic Pedicure Procedure", "214", 238]]
+    },
+    "practice-nail-test-n001": {
+      "why": ["Non-acetone remover removes polish more slowly but is less likely to soften a nail tip or acrylic enhancement during routine polish removal.", "无丙酮卸甲液去除甲油较慢，但在日常卸甲油时不容易软化甲片或丙烯酸人工甲。"],
+      "lock": ["enhancement polish change = non-acetone remover.", "人工甲更换甲油 = 无丙酮卸甲液。"],
+      "relation": "safety-reason",
+      "refs": [["Manicuring - Polish Removers", "149-150", 173]]
+    },
+    "practice-nail-test-n007": {
+      "why": ["A hangnail is torn, dry skin beside the nail. Cuticle oil softens that skin and helps prevent more cracking.", "hangnail（倒刺）是指甲旁撕裂的干燥皮肤。甲缘油能软化皮肤，帮助防止继续开裂。"],
+      "lock": ["hangnail care = soften dry skin with oil.", "倒刺护理 = 用油软化干燥皮肤。"],
+      "relation": "cause-effect",
+      "refs": [["Nail Disorders - Hangnails", "106", 130]]
+    },
+    "practice-nail-test-n037": {
+      "why": ["Leaving a small gap keeps striping tape away from living skin and the moving free edge. The gap helps the design stay sealed.", "留出小间隙，可让装饰胶带远离活皮肤和会活动的游离缘，帮助图案保持密封。"],
+      "lock": ["striping tape gap = 1/16 inch from each edge.", "装饰胶带间隙 = 距两端各 1/16 英寸。"],
+      "relation": "procedure-purpose",
+      "refs": [["Nail Art - Striping Tape Application", "288", 312]]
+    },
+    "practice-nail-test-n045": {
+      "why": ["Gentle joint movement relaxes the foot before deeper massage. Starting softly also lets the technician notice pain or limited movement.", "在较深层按摩前先轻柔活动关节，可放松足部，也能让美甲师发现疼痛或活动受限。"],
+      "lock": ["foot massage starts with gentle joint movement.", "足部按摩先从轻柔关节活动开始。"],
+      "relation": "sequence",
+      "refs": [["Pedicuring - Foot and Leg Massage", "217-219", 241]]
+    },
+    "practice-theory-update-027": {
+      "why": ["Weekly deep disinfection gives the solution more time inside the spa system. Leaving it overnight helps disinfect areas that water flows through.", "每周深度消毒让消毒液在足浴系统内停留更久。过夜浸泡有助于消毒水流经过的内部区域。"],
+      "lock": ["weekly foot-spa disinfection = leave solution overnight.", "每周足浴设备消毒 = 消毒液留置过夜。"],
+      "relation": "procedure-purpose",
+      "refs": [["Pedicuring - Weekly Foot Spa Disinfection", "225", 249]]
+    },
+    "practice-comprehensive-063": {
+      "why": ["A manicure improves the natural nails and cares for the hands. It does not mean diagnosing or treating a nail disease.", "manicure（手部美甲护理）美化天然指甲并护理双手，不包括诊断或治疗指甲疾病。"],
+      "lock": ["manicure = hand and natural-nail care.", "manicure = 手部和天然指甲护理。"],
+      "relation": "category",
+      "refs": [["Manicuring - Definition and Scope", "137-138", 161]]
+    },
+    "practice-comprehensive-068": {
+      "why": ["Top coat forms the last clear layer over colored polish. It adds shine and takes wear before the color layer does.", "top coat（亮油）在彩色甲油上形成最后一层透明保护膜，增加光泽，并先承受日常磨损。"],
+      "lock": ["top coat = shine plus chip protection.", "top coat = 增加光泽并防止崩裂。"],
+      "relation": "purpose",
+      "refs": [["Manicuring - Nail Coatings and Top Coat", "153", 177]]
+    },
+    "practice-comprehensive-069": {
+      "why": ["A pedicure cares for healthy feet and toenails. Treating foot disease requires a medical professional and is outside salon work.", "pedicure（足部美甲护理）护理健康的足部和脚趾甲。治疗足部疾病需要医疗人员，不属于沙龙服务。"],
+      "lock": ["pedicure = care, not disease treatment.", "pedicure = 护理，不治疗疾病。"],
+      "relation": "scope-safety",
+      "refs": [["Pedicuring - Scope of Pedicure Services", "190-191", 214]]
+    },
+    "practice-comprehensive-070": {
+      "why": ["A curette has a small rounded scoop that can lift loose material near the nail. A sharp tool could cut living skin.", "curette（刮匙）有小而圆的勺形端，可轻轻带走指甲附近的松散残留物；尖锐工具可能割伤活皮肤。"],
+      "lock": ["curette = rounded scoop for loose nail debris.", "curette = 清除松散甲周残留物的圆头小勺。"],
+      "relation": "tool-purpose",
+      "refs": [["Pedicuring - Curettes", "198", 222]]
+    },
+    "practice-comprehensive-073": {
+      "why": ["Friction uses firm rubbing pressure. The thick skin on the bottom of the foot can safely receive this movement during a pedicure massage.", "friction（摩擦法）使用较强的摩擦压力。足底皮肤较厚，在足部按摩中可以安全使用这种动作。"],
+      "lock": ["pedicure friction = bottom of the foot only.", "足部 friction = 只用于足底。"],
+      "relation": "body-location-safety",
+      "refs": [["Pedicuring - Foot Massage", "218", 242]]
+    }
+  },
+  "notes": "All candidates remain unreviewed. Six vague, damaged, or unsafe source items were quarantined rather than authored around."
+}
