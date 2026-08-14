@@ -1,8 +1,8 @@
 {
   "extractionScript": "extract_practice_sources.py",
   "scriptVersion": "1.0.0",
-  "gitCommit": "c3f4c46",
-  "generatedAt": "2026-08-14T05:04:20Z",
+  "gitCommit": "3fd6755",
+  "generatedAt": "2026-08-14T05:45:38Z",
   "sources": [
     {
       "filename": "NAIL TEST (EN) .docx",

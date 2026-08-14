@@ -5,7 +5,7 @@
     "translation": "zh-Hans"
   },
   "sourceTitle": "Practice pool from local Word sources",
-  "generatedAt": "2026-08-14T05:04:20Z",
+  "generatedAt": "2026-08-14T05:45:38Z",
   "statistics": {
     "total": 475,
     "approved": 348,
@@ -18789,8 +18789,9 @@
         },
         {
           "id": "b",
-          "en": "Onyx / Natural nail",
-          "zh": "甲（Onyx）/ 天然指甲"
+          "en": "Onyx",
+          "zh": "甲（Onyx）",
+          "sourceEn": "Onyx / Natural nail"
         },
         {
           "id": "c",
@@ -18818,6 +18819,14 @@
       "normalizedKey": "b",
       "keyedChoiceText": "Onyx / Natural nail",
       "kind": "source-mcq",
+      "sourceChoiceCorrections": [
+        {
+          "choiceId": "b",
+          "sourceEn": "Onyx / Natural nail",
+          "displayEn": "Onyx",
+          "reason": "The source restates 'Natural nail' after Onyx; the scientific name is only Onyx, so drop the common name from choice B."
+        }
+      ],
       "explanation": {
         "en": "Onyx is the scientific name for the natural nail. The word refers to the hard nail plate made mainly of keratin.",
         "zh": "onyx 是天然指甲的科学名称，指主要由角蛋白组成的坚硬甲板。"
@@ -18837,7 +18846,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-nail-structure-01",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "f9f2fbc37909feffeb7253f1c4684bea747988ad45cd1a3b49b477d16b228e0b"
+      "reviewCandidateHash": "0883689fb89d9a3ba247a6d5c3acfc81345ac2238dbc95ff95fa25d7beb4e71f"
     },
     {
       "id": "practice-theory-update-003",

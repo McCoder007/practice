@@ -525,6 +525,13 @@ ANSWER_OVERRIDES: dict[str, str] = {}
 # remains attached to the choice so transcription verification still compares
 # the exact Word text and the correction stays auditable.
 SOURCE_CHOICE_DISPLAY_OVERRIDES = {
+    "practice-theory-update-002": {
+        "b": {
+            "en": "Onyx",
+            "zh": "甲（Onyx）",
+            "reason": "The source restates 'Natural nail' after Onyx; the scientific name is only Onyx, so drop the common name from choice B.",
+        },
+    },
     "practice-comprehensive-117": {
         "b": {
             "en": "They are less specific than laws.",
