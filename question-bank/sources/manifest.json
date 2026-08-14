@@ -1,0 +1,51 @@
+{
+  "extractionScript": "extract_practice_sources.py",
+  "scriptVersion": "1.0.0",
+  "gitCommit": "c3f4c46",
+  "generatedAt": "2026-08-14T05:04:20Z",
+  "sources": [
+    {
+      "filename": "NAIL TEST (EN) .docx",
+      "book": "NAIL TEST (EN)",
+      "sha256": "748715fc2f60bad09ea6f0e6c1534882ca1021d236847c3a7ce557da95635e7f",
+      "bytes": 898077,
+      "extractedItemCounts": {
+        "staging": 264,
+        "shipped": 156,
+        "quarantined": 106,
+        "omitted": 2
+      }
+    },
+    {
+      "filename": "NEW UPDATE NAILS THEORY.docx",
+      "book": "NEW UPDATE NAILS THEORY",
+      "sha256": "418b137822564bf763f2e817ca8c2673e2cacf00db71c532513e5312a8a60d23",
+      "bytes": 9008,
+      "extractedItemCounts": {
+        "staging": 30,
+        "shipped": 28,
+        "quarantined": 2,
+        "omitted": 0
+      }
+    },
+    {
+      "filename": "Theory Nail-Milady Comprehensive - English.docx",
+      "book": "Theory Nail-Milady Comprehensive - English",
+      "sha256": "72df688f1ddba184fe16369d05ca03a1bf7bd603ef62f3f9f89066ecd1711866",
+      "bytes": 173079,
+      "extractedItemCounts": {
+        "staging": 181,
+        "shipped": 164,
+        "quarantined": 17,
+        "omitted": 0
+      }
+    }
+  ],
+  "counts": {
+    "total": 475,
+    "approved": 348,
+    "staging": 0,
+    "quarantined": 125,
+    "omitted": 2
+  }
+}

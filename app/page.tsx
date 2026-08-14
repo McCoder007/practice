@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Book, ArrowRightLeft, Clock, ListChecks, ListTodo, Scale, Film, PenLine } from "lucide-react"
+import { Book, ArrowRightLeft, Clock, ListChecks, ListTodo, Scale, Film, PenLine, GraduationCap } from "lucide-react"
 import { motion } from "framer-motion"
 import { cn } from "@/lib/utils"
 import { NavigationMenu } from "@/components/NavigationMenu"
@@ -18,6 +18,16 @@ const getMenuItems = (language: "chinese" | "japanese") => [
     iconColor: "text-pink-500",
     borderColor: "border-pink-500/20",
     hoverColor: "hover:from-pink-500/20 hover:to-rose-600/20"
+  },
+  {
+    title: "Exam Practice | 考试练习",
+    href: "/exam-quiz",
+    icon: GraduationCap,
+    description: "Random sets or ordered 25s by source, with Why after each answer",
+    color: "from-indigo-500/10 to-indigo-600/10",
+    iconColor: "text-indigo-500",
+    borderColor: "border-indigo-500/20",
+    hoverColor: "hover:from-indigo-500/20 hover:to-indigo-600/20"
   },
   {
     title: "Nail Technician Q&A | 美甲问答",

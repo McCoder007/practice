@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.0.0",
+  "capturedAt": "2026-08-13",
+  "purpose": "Checksum-backed containment snapshot. These artifacts are comparison evidence only and are not approved teaching content.",
+  "counts": {
+    "staging": 475,
+    "shipped": 473,
+    "quarantined": 0,
+    "omitted": 2,
+    "generatedApprovedOverrides": 43
+  },
+  "artifacts": [
+    {
+      "path": "practice/questions.json",
+      "sha256": "91fc2676478ec50f53432b99df3dd9897d44030209ca3019e4eeff3827521001"
+    },
+    {
+      "path": "practice/staging.json",
+      "sha256": "075268cdcd77d5247c0646fe2530ddb5c23eeb2b0d2b80bffa9df8b733fb0dff"
+    },
+    {
+      "path": "reports/review-ledger.json",
+      "sha256": "04e151f9f9456bb13f641d0cc9ecac20b6fd0107c56179a2c928b66e2184a864"
+    },
+    {
+      "path": "review/practice.html",
+      "sha256": "4c113b1e5545caeb6e19f4aadc3ca081c9a0713bd0fb93ce3f9502bf984aa05d"
+    },
+    {
+      "path": "sources/id-map.json",
+      "sha256": "7e5c9498ecedd5882990d0be9328a31e75fcb07bc64d0e33657e8c6f3182d7e2"
+    },
+    {
+      "path": "sources/manifest.json",
+      "sha256": "6e5c4553c4d3b3a0f7640f99ad9941ae7414ec70cde0ac1c8276c00052c68441"
+    }
+  ]
+}

@@ -1,0 +1,1090 @@
+{
+  "schemaVersion": "1.0.0",
+  "language": {
+    "source": "en",
+    "translation": "zh-Hans"
+  },
+  "entries": {
+    "practice-nail-test-q001": {
+      "id": "practice-nail-test-q001",
+      "explanation": {
+        "en": "Hold the electric file straight against the end of the acrylic nail. It cuts across the end instead of shaping the top.",
+        "zh": "把电动磨甲机垂直对准丙烯酸甲的前端。这样会横向磨短前端，而不是打磨甲面形状。"
+      },
+      "lockPoint": {
+        "en": "90 degrees = hold the file straight to the nail end.",
+        "zh": "90 度 = 磨甲机垂直对准指甲前端。"
+      },
+      "teachingRelation": "action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Electric Filing - Shortening the Nails",
+          "printedPage": "242",
+          "pdfPage": 266
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-a",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q018": {
+      "id": "practice-nail-test-q018",
+      "explanation": {
+        "en": "Disinfection means using a chemical to kill most germs on a hard surface after the surface has been cleaned.",
+        "zh": "disinfection（消毒）是指先把坚硬表面清洁干净，再用化学消毒剂杀死上面的大多数细菌。"
+      },
+      "lockPoint": {
+        "en": "clean the hard surface first; disinfect it second.",
+        "zh": "先清洁坚硬表面，再进行消毒。"
+      },
+      "teachingRelation": "sequence",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Step 2: Disinfecting",
+          "printedPage": "118",
+          "pdfPage": 613
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-a",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q047": {
+      "id": "practice-nail-test-q047",
+      "explanation": {
+        "en": "An infection starts when germs that cause illness get inside body tissue and live or grow there.",
+        "zh": "当会使人生病的细菌进入人体组织，并在里面生存或生长时，就形成 infection（感染）。"
+      },
+      "lockPoint": {
+        "en": "infection = harmful germs living inside body tissue.",
+        "zh": "infection = 有害细菌进入人体组织并在里面生存。"
+      },
+      "teachingRelation": "cause-effect",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Principles of Infection",
+          "printedPage": "99",
+          "pdfPage": 594
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-a",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q054": {
+      "id": "practice-nail-test-q054",
+      "explanation": {
+        "en": "Sterilization kills every kind of germ. Disinfection kills most germs, but it does not kill every kind.",
+        "zh": "sterilization（灭菌）能杀死所有种类的微生物；disinfection（消毒）只能杀死大多数微生物，不能杀死全部。"
+      },
+      "lockPoint": {
+        "en": "sterilization = kills all germs; disinfection = kills most.",
+        "zh": "sterilization = 杀死全部微生物；disinfection = 杀死大多数微生物。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Sterilization and Disinfection",
+          "printedPage": "118",
+          "pdfPage": 613
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-a",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q055": {
+      "id": "practice-nail-test-q055",
+      "explanation": {
+        "en": "The hyponychium is living skin under the nail tip. It helps stop germs from reaching the skin below the nail.",
+        "zh": "hyponychium（甲下皮）是指甲前端下方的活皮肤。它帮助阻止细菌进入指甲下面的皮肤。"
+      },
+      "lockPoint": {
+        "en": "hyponychium = skin under the nail tip.",
+        "zh": "hyponychium = 指甲前端下方的皮肤。"
+      },
+      "teachingRelation": "body-location",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Structure - Hyponychium",
+          "printedPage": "102",
+          "pdfPage": 126
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-a",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q098": {
+      "id": "practice-nail-test-q098",
+      "explanation": {
+        "en": "The matrix makes new cells that grow into the nail plate. It sits under the skin at the base of the nail.",
+        "zh": "matrix（甲母质）产生新细胞，这些细胞长成甲板。甲母质位于指甲根部的皮肤下面。"
+      },
+      "lockPoint": {
+        "en": "matrix = the area that grows the nail plate.",
+        "zh": "matrix = 让甲板生长的部位。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Structure - Matrix",
+          "printedPage": "100",
+          "pdfPage": 124
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-a",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-comprehensive-042": {
+      "id": "practice-comprehensive-042",
+      "explanation": {
+        "en": "A pedicure cares for natural toenails and the skin of the feet. The other services add product to make a new nail layer.",
+        "zh": "pedicure（足部美甲护理）护理天然脚趾甲和足部皮肤。其他服务都会添加产品，做出新的甲面层。"
+      },
+      "lockPoint": {
+        "en": "pedicure = natural toenail and foot care.",
+        "zh": "pedicure = 天然脚趾甲和足部护理。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Pedicuring - Pedicuring Services",
+          "printedPage": "191",
+          "pdfPage": 215
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-a",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-theory-update-009": {
+      "id": "practice-theory-update-009",
+      "explanation": {
+        "en": "Primer helps the nail product stick to the natural nail. This helps stop the product from lifting.",
+        "zh": "primer（底剂）帮助美甲产品黏在天然指甲上，从而减少产品翘起。"
+      },
+      "lockPoint": {
+        "en": "primer = helps nail product stick.",
+        "zh": "primer = 帮助美甲产品黏牢。"
+      },
+      "teachingRelation": "purpose",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Product Chemistry - Nail Primer",
+          "printedPage": "117",
+          "pdfPage": 141
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-a",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q178": {
+      "id": "practice-nail-test-q178",
+      "explanation": {
+        "en": "Acetone is a solvent. A solvent is a liquid that can soften and remove some nail products.",
+        "zh": "acetone（丙酮）是一种 solvent（溶剂）。溶剂是可以软化并卸除某些美甲产品的液体。"
+      },
+      "lockPoint": {
+        "en": "acetone = liquid that removes some nail products.",
+        "zh": "acetone = 可卸除某些美甲产品的液体。"
+      },
+      "teachingRelation": "action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - Polish Remover",
+          "printedPage": "149",
+          "pdfPage": 173
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-a",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q110": {
+      "id": "practice-nail-test-q110",
+      "explanation": {
+        "en": "The ulna is the arm bone on the little-finger side. The radius is on the thumb side.",
+        "zh": "ulna（尺骨）是手臂靠小指一侧的骨；radius（桡骨）在靠拇指的一侧。"
+      },
+      "lockPoint": {
+        "en": "ulna = little-finger side; radius = thumb side.",
+        "zh": "ulna = 小指侧；radius = 拇指侧。"
+      },
+      "teachingRelation": "body-location",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Anatomy - Bones of the Arms and Hands",
+          "printedPage": "26",
+          "pdfPage": 50
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-a",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q145": {
+      "id": "practice-nail-test-q145",
+      "explanation": {
+        "en": "Tapotement uses quick taps on the skin. Effleurage moves the hands slowly and smoothly instead.",
+        "zh": "tapotement（叩击法）是在皮肤上快速轻拍；effleurage（轻抚法）则让双手缓慢、平滑地移动。"
+      },
+      "lockPoint": {
+        "en": "tapotement = quick taps; effleurage = slow, smooth hand movement.",
+        "zh": "tapotement = 快速轻拍；effleurage = 双手缓慢、平滑地移动。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - General Movements for Massage",
+          "printedPage": "162",
+          "pdfPage": 186
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-a",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q087": {
+      "id": "practice-nail-test-q087",
+      "explanation": {
+        "en": "Ask about allergies before the service. This helps you avoid products that may hurt the client.",
+        "zh": "服务前要询问顾客是否过敏，这样可以避开可能伤害顾客的产品。"
+      },
+      "lockPoint": {
+        "en": "ask about allergies before choosing products.",
+        "zh": "选择产品前，先询问过敏情况。"
+      },
+      "teachingRelation": "safety-reason",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - The Manicure Consultation",
+          "printedPage": "156",
+          "pdfPage": 180
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-a",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q028": {
+      "id": "practice-nail-test-q028",
+      "explanation": {
+        "en": "Healthy, unbroken skin helps keep outside germs from entering the body. A cut gives germs a way in.",
+        "zh": "健康、没有破损的 skin（皮肤）能阻止外界细菌进入身体；伤口会给细菌留下入口。"
+      },
+      "lockPoint": {
+        "en": "unbroken skin helps keep germs out.",
+        "zh": "没有破损的皮肤可帮助阻挡细菌。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Skin Structure - Functions of the Skin",
+          "printedPage": "62",
+          "pdfPage": 86
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-a",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-theory-update-001": {
+      "id": "practice-theory-update-001",
+      "explanation": {
+        "en": "Onychia means the nail's growth area is sore and swollen. Infection or injury can cause it.",
+        "zh": "onychia（甲母质炎）是指甲生长部位疼痛、肿胀，可能由感染或受伤引起。"
+      },
+      "lockPoint": {
+        "en": "onychia = a sore, swollen nail growth area.",
+        "zh": "onychia = 指甲生长部位疼痛、肿胀。"
+      },
+      "teachingRelation": "cause-effect",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Disorders and Diseases - Onychia",
+          "printedPage": "109",
+          "pdfPage": 133
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-a",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q034": {
+      "id": "practice-nail-test-q034",
+      "explanation": {
+        "en": "MMA makes very hard nails that are difficult to remove. Removing them can hurt the natural nail, so the FDA says not to use MMA.",
+        "zh": "MMA 会做出非常坚硬、难以卸除的美甲，卸除时可能伤害天然指甲，因此 FDA 要求不要使用 MMA。"
+      },
+      "lockPoint": {
+        "en": "MMA monomer = do not use for nail services.",
+        "zh": "MMA 单体液 = 不可用于美甲服务。"
+      },
+      "teachingRelation": "safety-reason",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Product Chemistry - Methyl Methacrylate Monomer",
+          "printedPage": "124-125",
+          "pdfPage": 148
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-a",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q164": {
+      "id": "practice-nail-test-q164",
+      "explanation": {
+        "en": "Electric filing puts small pieces of dust into the air. A mask that fits well helps keep this dust out of your mouth and nose.",
+        "zh": "电动磨甲会让细小粉尘进入空气。贴合良好的口罩可帮助阻止粉尘进入口鼻。"
+      },
+      "lockPoint": {
+        "en": "electric file dust = wear a mask that fits well.",
+        "zh": "电动磨甲粉尘 = 戴贴合良好的口罩。"
+      },
+      "teachingRelation": "safety-reason",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Product Chemistry - Dust Masks",
+          "printedPage": "129-130",
+          "pdfPage": 153
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-a",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-comprehensive-081": {
+      "id": "practice-comprehensive-081",
+      "explanation": {
+        "en": "Oil, water, dust, or dead skin left on the nail can stop a tip from sticking. If that material lifts, the tip lifts too.",
+        "zh": "甲面残留的油、水、粉尘或死皮会让甲片黏不牢；这些残留物一旦翘起，甲片也会翘起。"
+      },
+      "lockPoint": {
+        "en": "clean, dry nail = the tip sticks better.",
+        "zh": "指甲清洁、干燥 = 甲片黏得更牢。"
+      },
+      "teachingRelation": "cause-effect",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Tips - Dry Manicure or Nail Preparation",
+          "printedPage": "255",
+          "pdfPage": 279
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-a",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q191": {
+      "id": "practice-nail-test-q191",
+      "explanation": {
+        "en": "Cross-linking joins polymer chains to each other. Joining the chains makes the nail product stronger and harder to remove.",
+        "zh": "cross-linking（交联）把聚合物链互相连接。连接这些链会让美甲产品更坚固，也更难卸除。"
+      },
+      "lockPoint": {
+        "en": "cross-linking = polymer chains joined for strength.",
+        "zh": "cross-linking = 连接聚合物链，使产品更坚固。"
+      },
+      "teachingRelation": "action-result",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Product Chemistry - Cross-Linking Polymer Chains",
+          "printedPage": "123-124",
+          "pdfPage": 147
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-a",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q016": {
+      "id": "practice-nail-test-q016",
+      "explanation": {
+        "en": "An MSDS was the older safety sheet for a product. It listed dangerous ingredients and explained how to use, store, and handle the product safely.",
+        "zh": "MSDS 是过去使用的产品安全资料表。它列出危险成分，并说明怎样安全使用、存放和处理该产品。"
+      },
+      "lockPoint": {
+        "en": "MSDS/SDS = product dangers plus safe handling.",
+        "zh": "MSDS/SDS = 产品危险信息和安全处理方法。"
+      },
+      "teachingRelation": "purpose",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry and Chemical Safety - Interpret Safety Data Sheets",
+          "printedPage": "173-175",
+          "pdfPage": 668
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q022": {
+      "id": "practice-nail-test-q022",
+      "explanation": {
+        "en": "Soap and running water remove dirt and germs from the hands. This helps stop germs from moving from one person to another.",
+        "zh": "肥皂和流动水能洗掉手上的污垢和细菌，帮助阻止细菌从一个人传到另一个人。"
+      },
+      "lockPoint": {
+        "en": "wash hands before and after each client.",
+        "zh": "每位客户服务前后都要洗手。"
+      },
+      "teachingRelation": "cause-effect",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Hand Washing",
+          "printedPage": "135",
+          "pdfPage": 630
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q026": {
+      "id": "practice-nail-test-q026",
+      "explanation": {
+        "en": "Used products and dust can remain anywhere on the work table. Clean and disinfect the whole table before the next client.",
+        "zh": "使用过的产品和粉尘可能留在工作台的任何位置。下一位客户到来前，要清洁并消毒整个工作台。"
+      },
+      "lockPoint": {
+        "en": "after each client: clean and disinfect the whole table.",
+        "zh": "每位客户之后：清洁并消毒整个工作台。"
+      },
+      "teachingRelation": "safety-reason",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - The Nail Technology Work Table",
+          "printedPage": "137",
+          "pdfPage": 161
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q045": {
+      "id": "practice-nail-test-q045",
+      "explanation": {
+        "en": "Changing the towels removes used material. Disinfecting the table kills most germs left on its hard surface.",
+        "zh": "更换毛巾可以移走用过的材料；消毒工作台可以杀死坚硬表面上残留的大多数细菌。"
+      },
+      "lockPoint": {
+        "en": "every client = clean towels plus a disinfected table.",
+        "zh": "每位客户 = 干净毛巾和已消毒的工作台。"
+      },
+      "teachingRelation": "action-result",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - The Nail Technology Work Table",
+          "printedPage": "137",
+          "pdfPage": 161
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q094": {
+      "id": "practice-nail-test-q094",
+      "explanation": {
+        "en": "Fingers can carry germs into the cream. A clean spatula removes one amount without touching the product that remains.",
+        "zh": "手指可能把细菌带进面霜。用干净的小刮勺取出一次用量，不会碰到容器中剩余的产品。"
+      },
+      "lockPoint": {
+        "en": "cream in a tub = use a clean spatula.",
+        "zh": "罐装面霜 = 用干净的小刮勺取用。"
+      },
+      "teachingRelation": "safety-reason",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Standard Precautions",
+          "printedPage": "125",
+          "pdfPage": 620
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q106": {
+      "id": "practice-nail-test-q106",
+      "explanation": {
+        "en": "An MSDS was the older name for an SDS. This sheet tells workers about product dangers and safe handling.",
+        "zh": "MSDS 是 SDS 过去的名称。这份资料表告诉工作人员产品有哪些危险，以及怎样安全处理。"
+      },
+      "lockPoint": {
+        "en": "MSDS/SDS = product safety instructions.",
+        "zh": "MSDS/SDS = 产品安全说明。"
+      },
+      "teachingRelation": "purpose",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry and Chemical Safety - Interpret Safety Data Sheets",
+          "printedPage": "173-175",
+          "pdfPage": 668
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q107": {
+      "id": "practice-nail-test-q107",
+      "explanation": {
+        "en": "A safety sheet only helps when its information is current and workers can reach it quickly during an emergency.",
+        "zh": "安全资料表必须内容最新，而且工作人员在紧急情况下能马上拿到，才真正有用。"
+      },
+      "lockPoint": {
+        "en": "safety sheet = current and easy to reach.",
+        "zh": "安全资料表 = 内容最新，随时可取。"
+      },
+      "teachingRelation": "purpose",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry and Chemical Safety - Interpret Safety Data Sheets",
+          "printedPage": "174",
+          "pdfPage": 669
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q135": {
+      "id": "practice-nail-test-q135",
+      "explanation": {
+        "en": "Used tools may carry dirt and germs. Clean them first, then disinfect them before they are used again.",
+        "zh": "用过的工具可能带有污垢和细菌。再次使用前，要先清洁，再消毒。"
+      },
+      "lockPoint": {
+        "en": "used tools: clean first, disinfect second.",
+        "zh": "用过的工具：先清洁，再消毒。"
+      },
+      "teachingRelation": "sequence",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Two-Step Infection Control",
+          "printedPage": "115",
+          "pdfPage": 610
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q138": {
+      "id": "practice-nail-test-q138",
+      "explanation": {
+        "en": "OSHA protects workers. It requires employers to keep safety sheets for dangerous workplace products.",
+        "zh": "OSHA（美国职业安全与健康管理局）保护工作人员，并要求雇主保存工作场所危险产品的安全资料表。"
+      },
+      "lockPoint": {
+        "en": "OSHA = worker safety and SDS rules.",
+        "zh": "OSHA = 工作人员安全和 SDS 规定。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry and Chemical Safety - Interpret Safety Data Sheets",
+          "printedPage": "173-174",
+          "pdfPage": 668
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q151": {
+      "id": "practice-nail-test-q151",
+      "explanation": {
+        "en": "Each disinfectant needs its own amount of water and wet time. The product label gives the correct directions.",
+        "zh": "每种消毒剂需要的加水量和保持湿润时间不同。产品标签会给出正确的使用说明。"
+      },
+      "lockPoint": {
+        "en": "mixing and wet time = follow the label.",
+        "zh": "加水量和湿润时间 = 按标签说明。"
+      },
+      "teachingRelation": "safety-reason",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Disinfectant Labels",
+          "printedPage": "119",
+          "pdfPage": 614
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q163": {
+      "id": "practice-nail-test-q163",
+      "explanation": {
+        "en": "Each client can leave germs in the foot basin or on tools. Cleaning and disinfecting after every client stops those germs from reaching the next client.",
+        "zh": "每位客户都可能在足浴盆或工具上留下细菌。每位客户之后进行清洁和消毒，可防止细菌传给下一位客户。"
+      },
+      "lockPoint": {
+        "en": "foot basin and tools: disinfect after every client.",
+        "zh": "足浴盆和工具：每位客户之后都要消毒。"
+      },
+      "teachingRelation": "cause-effect",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Pedicuring - Cleaning and Disinfecting Foot Spas",
+          "printedPage": "220-226",
+          "pdfPage": 244
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q183": {
+      "id": "practice-nail-test-q183",
+      "explanation": {
+        "en": "The manufacturer must provide the product's SDS. It has the exact safety information for that product.",
+        "zh": "产品制造商必须提供该产品的 SDS。表中有这项产品的具体安全信息。"
+      },
+      "lockPoint": {
+        "en": "get the SDS from the product manufacturer.",
+        "zh": "向产品制造商索取 SDS。"
+      },
+      "teachingRelation": "source",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry and Chemical Safety - Interpret Safety Data Sheets",
+          "printedPage": "174",
+          "pdfPage": 669
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-nail-test-q184": {
+      "id": "practice-nail-test-q184",
+      "explanation": {
+        "en": "Workers may need an SDS during normal use or an emergency. Keeping it at work makes the safety information easy to reach.",
+        "zh": "工作人员在日常使用或紧急情况下都可能需要 SDS。把它保存在工作场所，才能随时查到安全信息。"
+      },
+      "lockPoint": {
+        "en": "SDS = keep it at the workplace.",
+        "zh": "SDS = 保存在工作场所。"
+      },
+      "teachingRelation": "purpose",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry and Chemical Safety - Interpret Safety Data Sheets",
+          "printedPage": "174",
+          "pdfPage": 669
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-theory-update-017": {
+      "id": "practice-theory-update-017",
+      "explanation": {
+        "en": "Oil and dirt can cover germs and block the disinfectant. Clean the tool first so the disinfectant can touch its surface.",
+        "zh": "油和污垢可能盖住细菌，挡住消毒剂。先清洁工具，消毒剂才能接触工具表面。"
+      },
+      "lockPoint": {
+        "en": "dirty tool: clean first, disinfect second.",
+        "zh": "脏工具：先清洁，再消毒。"
+      },
+      "teachingRelation": "cause-effect",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Two-Step Infection Control",
+          "printedPage": "115",
+          "pdfPage": 610
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-theory-update-020": {
+      "id": "practice-theory-update-020",
+      "explanation": {
+        "en": "Bacterial spores are a very hard-to-kill form of bacteria. Salon disinfectants do not kill them.",
+        "zh": "bacterial spores（细菌芽孢）是非常难杀死的一种细菌形态。沙龙消毒剂不能杀死它们。"
+      },
+      "lockPoint": {
+        "en": "disinfectant kills most germs, not bacterial spores.",
+        "zh": "消毒剂能杀死大多数细菌，但不能杀死细菌芽孢。"
+      },
+      "definedExamTerms": [
+        "bacterial spores"
+      ],
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Step 2: Disinfecting",
+          "printedPage": "118",
+          "pdfPage": 613
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-theory-update-021": {
+      "id": "practice-theory-update-021",
+      "explanation": {
+        "en": "Cleaning removes visible dirt and many germs. It prepares the item for the stronger second step: disinfection.",
+        "zh": "清洁能去掉看得见的污垢和许多细菌，并为下一步消毒做好准备。"
+      },
+      "lockPoint": {
+        "en": "level 1 = cleaning; level 2 = disinfection.",
+        "zh": "第一级 = 清洁；第二级 = 消毒。"
+      },
+      "teachingRelation": "sequence",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Two-Step Infection Control",
+          "printedPage": "115-118",
+          "pdfPage": 610
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-theory-update-025": {
+      "id": "practice-theory-update-025",
+      "explanation": {
+        "en": "Turning each glove inside out keeps the dirty outside away from bare skin. It also holds both used gloves together for disposal.",
+        "zh": "逐只把手套由内向外翻，可以避免脏的外侧碰到裸露皮肤，也能把两只用过的手套包在一起丢弃。"
+      },
+      "lockPoint": {
+        "en": "remove gloves inside out; touch only the clean side.",
+        "zh": "脱手套时由内向外翻，只碰干净的一面。"
+      },
+      "teachingRelation": "safety-reason",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Removing Disposable Gloves",
+          "printedPage": "127",
+          "pdfPage": 622
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-theory-update-026": {
+      "id": "practice-theory-update-026",
+      "explanation": {
+        "en": "Clean, dry tools need a closed place after sterilization. The cover protects them from new dirt and germs before use.",
+        "zh": "工具灭菌并干燥后，需要放在封闭处。盖子能防止工具在使用前再次沾上污垢和细菌。"
+      },
+      "lockPoint": {
+        "en": "treated tools = clean, dry, closed storage.",
+        "zh": "处理后的工具 = 清洁、干燥、封闭存放。"
+      },
+      "teachingRelation": "purpose",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Storing Disinfected Implements",
+          "printedPage": "140",
+          "pdfPage": 635
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-theory-update-028": {
+      "id": "practice-theory-update-028",
+      "explanation": {
+        "en": "Disinfectants need the correct wet time to work. That time differs by product, so follow the maker's directions.",
+        "zh": "消毒剂必须保持正确的湿润时间才能起作用。不同产品需要的时间不同，所以要按制造商说明操作。"
+      },
+      "lockPoint": {
+        "en": "pedicure basin wet time = follow product directions.",
+        "zh": "足浴盆消毒时间 = 按产品说明。"
+      },
+      "teachingRelation": "safety-reason",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Pedicuring - Cleaning and Disinfecting Basic Foot Basins or Tubs",
+          "printedPage": "226",
+          "pdfPage": 250
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-theory-update-029": {
+      "id": "practice-theory-update-029",
+      "explanation": {
+        "en": "Scrubbing loosens dirt and product left in the basin. Disinfectant cannot work well until that material is removed.",
+        "zh": "刷洗能除去足浴盆里残留的污垢和产品。先清除这些东西，消毒剂才能充分接触盆面。"
+      },
+      "lockPoint": {
+        "en": "scrub the basin first; disinfect it second.",
+        "zh": "先刷洗足浴盆，再消毒。"
+      },
+      "teachingRelation": "sequence",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Pedicuring - Cleaning and Disinfecting Foot Spas",
+          "printedPage": "221-226",
+          "pdfPage": 245
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-comprehensive-016": {
+      "id": "practice-comprehensive-016",
+      "explanation": {
+        "en": "Infection control breaks the path germs use to move between people. It protects both the client and the worker.",
+        "zh": "infection control（感染控制）能切断细菌在人与人之间传播的途径，保护客户和工作人员。"
+      },
+      "lockPoint": {
+        "en": "infection control = stop germs from spreading.",
+        "zh": "infection control = 阻止细菌传播。"
+      },
+      "teachingRelation": "purpose",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Principles and Practices",
+          "printedPage": "115",
+          "pdfPage": 610
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-comprehensive-020": {
+      "id": "practice-comprehensive-020",
+      "explanation": {
+        "en": "Disinfection uses a chemical to kill most harmful germs on a cleaned hard surface. It does not kill every kind.",
+        "zh": "disinfection（消毒）是在清洁后的坚硬表面使用化学消毒剂，杀死大多数有害细菌，但不能杀死全部。"
+      },
+      "lockPoint": {
+        "en": "disinfection = kills most germs, not all.",
+        "zh": "disinfection = 杀死大多数细菌，不是全部。"
+      },
+      "teachingRelation": "meaningful-contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Step 2: Disinfecting",
+          "printedPage": "118",
+          "pdfPage": 613
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-comprehensive-022": {
+      "id": "practice-comprehensive-022",
+      "explanation": {
+        "en": "Broken skin gives blood or body fluid a way into the body. Work contact like this is an exposure incident and needs the safety procedure.",
+        "zh": "破损皮肤会让血液或体液有机会进入身体。工作中发生这种接触就是 exposure incident（暴露事件），必须执行安全处理步骤。"
+      },
+      "lockPoint": {
+        "en": "blood plus broken skin at work = exposure incident.",
+        "zh": "工作中血液接触破损皮肤 = 暴露事件。"
+      },
+      "teachingRelation": "cause-effect",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Exposure Incidents",
+          "printedPage": "128",
+          "pdfPage": 623
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-comprehensive-023": {
+      "id": "practice-comprehensive-023",
+      "explanation": {
+        "en": "A tool that falls on the floor may pick up germs. Replace it, or clean and disinfect it before continuing.",
+        "zh": "工具掉到地上可能沾上细菌。应立即换一件工具，或在继续服务前清洁并消毒掉落的工具。"
+      },
+      "lockPoint": {
+        "en": "dropped tool = replace it or disinfect before reuse.",
+        "zh": "工具掉地 = 更换，或消毒后再用。"
+      },
+      "teachingRelation": "safety-reason",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Disinfecting Implements During a Service",
+          "printedPage": "129",
+          "pdfPage": 624
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-comprehensive-028": {
+      "id": "practice-comprehensive-028",
+      "explanation": {
+        "en": "An unused appliance can still cause heat, shock, or fire while plugged in. Unplug it by holding the plug, not the cord.",
+        "zh": "电器即使没有使用，插着电也可能引起过热、触电或火灾。拔插头时要握住插头，不要拉电线。"
+      },
+      "lockPoint": {
+        "en": "unused appliance = unplug it by the plug.",
+        "zh": "不用的电器 = 握住插头拔下。"
+      },
+      "teachingRelation": "safety-reason",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Electricity and Electrical Safety - Electrical Equipment Safety",
+          "printedPage": "190",
+          "pdfPage": 685
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-comprehensive-067": {
+      "id": "practice-comprehensive-067",
+      "explanation": {
+        "en": "Gloves can carry germs from one client to another. Use a new pair for every client and wash your hands when changing them.",
+        "zh": "手套可能把细菌从一位客户带给另一位。每位客户都要换一副新手套，更换时也要洗手。"
+      },
+      "lockPoint": {
+        "en": "every client = new gloves.",
+        "zh": "每位客户 = 一副新手套。"
+      },
+      "teachingRelation": "cause-effect",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Personal Protective Equipment",
+          "printedPage": "127",
+          "pdfPage": 622
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-comprehensive-119": {
+      "id": "practice-comprehensive-119",
+      "explanation": {
+        "en": "Pus forms while the body fights an infection. Seeing pus is a sign of a bacterial infection.",
+        "zh": "身体对抗感染时可能形成脓。看到脓，说明可能有细菌感染。"
+      },
+      "lockPoint": {
+        "en": "pus = sign of bacterial infection.",
+        "zh": "脓 = 细菌感染的迹象。"
+      },
+      "teachingRelation": "recognition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Bacterial Infections",
+          "printedPage": "106",
+          "pdfPage": 601
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-comprehensive-125": {
+      "id": "practice-comprehensive-125",
+      "explanation": {
+        "en": "Cleaning removes visible dirt and many germs. Disinfectant cannot reach the surface well until the dirt is gone.",
+        "zh": "清洁能去掉看得见的污垢和许多细菌。先除去污垢，消毒剂才能充分接触表面。"
+      },
+      "lockPoint": {
+        "en": "step 1 = clean away dirt.",
+        "zh": "第一步 = 清除污垢。"
+      },
+      "teachingRelation": "sequence",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Two-Step Infection Control",
+          "printedPage": "115",
+          "pdfPage": 610
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-comprehensive-126": {
+      "id": "practice-comprehensive-126",
+      "explanation": {
+        "en": "After cleaning removes dirt, disinfecting kills most harmful germs left on the hard surface.",
+        "zh": "清洁去掉污垢后，再进行消毒，杀死坚硬表面上剩余的大多数有害细菌。"
+      },
+      "lockPoint": {
+        "en": "step 2 = disinfect the cleaned surface.",
+        "zh": "第二步 = 消毒已清洁的表面。"
+      },
+      "teachingRelation": "sequence",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Two-Step Infection Control",
+          "printedPage": "115-118",
+          "pdfPage": 610
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-comprehensive-133": {
+      "id": "practice-comprehensive-133",
+      "explanation": {
+        "en": "An unmarked container can be mistaken for another product. Label every container so workers know what is inside and how to use it.",
+        "zh": "没有标签的容器可能被误认成另一种产品。每个容器都要贴标签，让工作人员知道里面是什么以及怎样使用。"
+      },
+      "lockPoint": {
+        "en": "every chemical container needs a clear label.",
+        "zh": "每个化学品容器都需要清楚的标签。"
+      },
+      "teachingRelation": "safety-reason",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Disinfectant Containers",
+          "printedPage": "123",
+          "pdfPage": 618
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    },
+    "practice-comprehensive-134": {
+      "id": "practice-comprehensive-134",
+      "explanation": {
+        "en": "Standard Precautions treat all blood and body fluids as able to spread illness. Workers use the same safety steps with every client.",
+        "zh": "Standard Precautions（标准预防措施）把所有血液和体液都视为可能传播疾病，因此对每位客户都采用相同的安全步骤。"
+      },
+      "lockPoint": {
+        "en": "Standard Precautions = treat all blood as unsafe.",
+        "zh": "Standard Precautions = 把所有血液都视为有感染风险。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Standard Precautions",
+          "printedPage": "126",
+          "pdfPage": 621
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-13-infection-01",
+      "authoredAt": "2026-08-13"
+    }
+  }
+}

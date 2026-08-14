@@ -1,0 +1,316 @@
+# Practice pool discrepancies
+
+Staging is source-faithful to the Word files. Shipped items are transcription-checked, fact-signed, and review-gated.
+Do not call the whole product 100% accurate while Word keys can be factually wrong.
+
+## Omitted items
+
+- `practice-nail-test-q048`: unrecoverable: missing answer
+  - stem: What should be done to help the polish last longer?
+- `practice-nail-test-n034`: unrecoverable: numbered item has no distinct answer
+  - stem: Adult nails grow at an average rate of 1/8 to 1/10 inch per month
+
+## Quarantined (not shipped)
+
+- `practice-nail-test-q004`: The source keys primer as the substance that causes heat during acrylic application. Heat is produced by the exothermic polymerization reaction, not by primer, so the keyed answer is not safe to teach.
+  - Word key: `` (Primer)
+- `practice-nail-test-q006`: The source says to finish a gel service by applying nourishing oil to the client's hands. Gel procedures typically apply cuticle oil to surrounding skin; the keyed body location and product are too vague.
+  - Word key: `` (Apply nourishing oil to the client’s hands)
+- `practice-nail-test-q007`: The source recommends liquid disinfectant when a client is allergic to a hand-wash ingredient. Disinfectant is not a safe substitute for hand-washing product on skin.
+  - Word key: `` (Liquid disinfectant)
+- `practice-nail-test-q009`: The source answer is sensible general hygiene, but the textbook does not support the specific work-desk rule and the item cannot add a non-restating teaching fact from the available authority.
+  - Word key: `` (Avoid eating at the work desk)
+- `practice-nail-test-q011`: infection-control ladder: disinfection is not sterilization
+  - Word key: `` (Sterilization)
+- `practice-nail-test-q012`: The source says all gel nails are removed by soaking in acetone. Soak-off gels may be soaked, but hard gels must be filed off, so the generic key is unsafe.
+  - Word key: `` (Soak in acetone)
+- `practice-nail-test-q014`: The source describes UV-light cabinet use as hospital-grade disinfection/sterilization. A UV storage cabinet does not replace required cleaning and EPA-registered disinfection.
+  - Word key: `` (Hospital-grade disinfection)
+- `practice-nail-test-q021`: The source gives a universal 60-degree angle for filing nail corners. Filing direction and shape vary by desired nail shape; the textbook does not support this exact rule.
+  - Word key: `` (60 degrees)
+- `practice-nail-test-q023`: The phrase 'file metal tips for paper files' does not identify a recognized implement or procedure. The keyed 'nail tip file' does not resolve the damaged stem.
+  - Word key: `` (Nail tip file)
+- `practice-nail-test-q024`: The source says the liver discharges waste containing bile. The liver produces bile, the gallbladder stores it, and the intestine eliminates waste; the stem combines different functions.
+  - Word key: `` (Liver)
+- `practice-nail-test-q025`: The source question asks what must happen before tools are used on another client, but the keyed answer repeats 'used on another client' and supplies no safety action.
+  - Word key: `` (Used on another client)
+- `practice-nail-test-q027`: The source recommends UV gel for a client allergic to acrylic liquid. Many acrylic and gel systems share methacrylate allergens, so substitution without medical/product-specific guidance is unsafe.
+  - Word key: `` (UV gel)
+- `practice-nail-test-q029`: The keyed cause 'incorrect usage of the UV light' is too vague and the symptom description does not identify a unique product, lamp, curing-time, or application error.
+  - Word key: `` (Incorrect usage of the UV light)
+- `practice-nail-test-q037`: The source says the first pedicure step is to put on gloves and ask the client to wash their hands. The textbook pre-service sequence requires technician hand washing and does not support this combined first step.
+  - Word key: `` (Put on gloves and ask the client to wash their hands)
+- `practice-nail-test-q038`: The source recommends reducing lamp time to reduce heat. Shortening required cure time can leave gel undercured and increase allergy and service-breakdown risk.
+  - Word key: `` (Reduce the time under the light)
+- `practice-nail-test-q039`: The stem asks how applying tips differs from acrylic gel, but the key 'UV light' does not form a complete or unambiguous comparison. The intended fact cannot be recovered reliably.
+  - Word key: `` (UV light)
+- `practice-nail-test-q043`: The keyed advice to recommend polish that 'suits their nails' is subjective and gives no condition, product property, or unique educational fact to review.
+  - Word key: `` (Recommend a type that suits their nails)
+- `practice-nail-test-q044`: The source keys nickel as a file-tip material, but the textbook describes carbide, diamond, ceramic, and abrasive bands for electric-file bits; nickel appears only as an implement plating.
+  - Word key: `` (Nickel)
+- `practice-nail-test-q046`: The source answers a term question with the tautology 'a chemical reaction.' The textbook term for the reaction that joins monomers into polymers is polymerization.
+  - Word key: `` (A chemical reaction)
+- `practice-nail-test-q049`: The source treats hypertrophy as another name for onychauxis. Hypertrophy is a general increase in tissue size, while onychauxis specifically describes abnormal nail thickening; they are not safe synonyms.
+  - Word key: `` (Onychauxis)
+- `practice-nail-test-q050`: The key 'Incorrect usage' is too vague to identify or teach the cause of a client's heat complaint.
+  - Word key: `` (Incorrect usage)
+- `practice-nail-test-q051`: The source says gel on a broken acrylic nail should be thicker from base to tip. Proper structure requires controlled thickness in the stress area, not uniform thick product across the nail.
+  - Word key: `` (From the nail base to the tip)
+- `practice-nail-test-q052`: The source equates sodium hypochlorite with either floor cleaner or bleach. It is the active chemical in chlorine bleach, but not every floor cleaner is sodium hypochlorite.
+  - Word key: `` (Floor cleaner or BLEACH)
+- `practice-nail-test-q056`: The client asks for no artificial nails, but the source recommends builder gel, which is an enhancement product. The answer conflicts with the client's stated choice.
+  - Word key: `` (Builder gel)
+- `practice-nail-test-q058`: The source gives one universal rinse-dry-dispose rule for empty chemical containers. Disposal must follow the product label and local requirements; some containers should not be rinsed.
+  - Word key: `` (Rinse, Dry and Dispose of them)
+- `practice-nail-test-q059`: The instruction to attach fake nails 'securely under the tip of the natural nail' does not describe a recognized tip, form, or full-cover application and could place product incorrectly.
+  - Word key: `` (Securely under the tip of the natural nail)
+- `practice-nail-test-q060`: The source says to press a metal cuticle tool on the nail bed. The textbook procedure uses gentle pressure on the moist nail plate and avoids injury to living tissue.
+  - Word key: `` (Horizontally, gently pressing on the nail bed)
+- `practice-nail-test-q061`: The source says builder gel binds polymer and monomer. Builder gel is not the agent that combines liquid monomer and polymer powder; the premise is chemically unsound.
+  - Word key: `` (Builder gel)
+- `practice-nail-test-q063`: The source recommends checking nail strength by pressing at the tip without defining natural or enhanced nails, safe pressure, or the stress area. The procedure is too vague.
+  - Word key: `` (By applying pressure at the tip)
+- `practice-nail-test-q065`: Cuticle oil can improve flexibility and dryness but does not treat or repair a split nail. The word 'treat' overstates what the product can do.
+  - Word key: `` (Cuticle oil)
+- `practice-nail-test-q068`: The source assigns an unsupported exact figure of about 99 percent harmless bacteria. The textbook says most bacteria are nonpathogenic but does not support this percentage.
+  - Word key: `` (around 99% of bacteria are harmless)
+- `practice-nail-test-q070`: The source equates a chemical smell with fumes. Odor alone does not identify fumes or exposure level, and the textbook defines fumes more specifically than a smell in the room.
+  - Word key: `` (Fumes)
+- `practice-nail-test-q073`: Several abrasives can shape an acrylic free edge; the generic stem does not make 'metal file' uniquely correct.
+  - Word key: `` (Metal file)
+- `practice-nail-test-q077`: 'Protective gear' is too broad for a most-important safety question, and several specific protective measures could also be correct.
+  - Word key: `` (Protective gear)
+- `practice-nail-test-q080`: 'Strong massage on the surface of the arm' does not uniquely define deep-tissue massage and does not match the textbook's named basic massage movements.
+  - Word key: `` (Deep tissue massage)
+- `practice-nail-test-q081`: The source recommends slightly rounded toenail corners. General safety guidance is to trim toenails straight across to reduce ingrown-nail risk, so this wording should not ship as a rule.
+  - Word key: `` (Straight with slightly rounded corners)
+- `practice-nail-test-q083`: The keyed answer gives two different massage techniques ('Shiatsu or Effleurage'), so the item has no single defensible correct choice.
+  - Word key: `` (Shiatsu or Effeurage)
+- `practice-nail-test-q088`: The keyed term 'Ethyl acrylic' is not a recognized monomer name. The likely intended term is ethyl methacrylate, but the source wording is not reliable enough to silently correct.
+  - Word key: `` (Ethyl acrylic)
+- `practice-nail-test-q090`: The key 'incorrect polymer ratio' does not state whether the bead was too wet or too dry and cannot uniquely explain a crack in the middle of an enhancement.
+  - Word key: `` (Incorrect polymer ratio,)
+- `practice-nail-test-q091`: The source calls the patella the largest bone in the knee area. The patella is the largest sesamoid bone; the femur is the body's largest bone. The stem is too imprecise to ship with this key.
+  - Word key: `` (Patella)
+- `practice-nail-test-q092`: The source says a round natural nail requires an oval tip. Tip shape should fit the nail and desired result; the generic stem does not make oval uniquely correct.
+  - Word key: `` (Oval-shaped)
+- `practice-nail-test-q093`: The keyed placement 'at the tip's edge and the stopping point at the nail tip' is unclear and does not identify the contact area, stop point, or sidewall fit safely.
+  - Word key: `` (At the tip's edge and the stopping point at the nail tip)
+- `practice-nail-test-q096`: The stem asks which type of light can be used for treatment but keys 'light therapy,' which is the treatment category rather than a type of light.
+  - Word key: `` (Light therapy)
+- `practice-nail-test-q099`: The source treats all gel nails as acetone soak-off products. Hard gels must be filed off, so foil-and-acetone removal is not a safe generic instruction.
+  - Word key: `` (Soak a cotton ball with acetone and wrap it in aluminum foil)
+- `practice-nail-test-q104`: Calling stiletto the universally weakest shape ignores length, product, apex, and structure. The textbook does not support one shape as uniquely weakest in every case.
+  - Word key: `` (Stiletto Nail Shape)
+- `practice-nail-test-q113`: A heat spike can result from thick product, damaged nails, lamp mismatch, or curing chemistry. 'Lamp on too long' is not a unique or sufficiently safe diagnosis.
+  - Word key: `` (The lamp was on too long)
+- `practice-nail-test-q115`: Several massage techniques can be used on the hand; the generic stem does not uniquely identify tapotement.
+  - Word key: `` (Tapotement)
+- `practice-nail-test-q117`: Two to three weeks is a common maintenance/fill interval, not a universal requirement to remove acrylic nails. The source wording would teach an incorrect rule.
+  - Word key: `` (Every 2-3 weeks and maximum of 4 weeks)
+- `practice-nail-test-q119`: The source recommends a cotton-tipped wooden stick to clean under nail tips. Current procedure favors washing with a nail brush or an appropriate blunt implement; fibers can remain behind.
+  - Word key: `` (A cotton-tipped wooden stick)
+- `practice-nail-test-q120`: Short round nails do not uniquely require a French tip design. This is a style preference, not a technical suitability rule.
+  - Word key: `` (Short round nails)
+- `practice-nail-test-q121`: The stem asks for one chemical solution but the key combines disinfectants for surfaces with antiseptics for skin. These are different product categories, so there is no single keyed answer.
+  - Word key: `` (Disinfectants for surfaces and Antiseptics for living tissue)
+- `practice-nail-test-q122`: The source says to assess a bandaged finger but does not define whether the wound is open, infected, or safe to expose. Removing or inspecting a client's bandage is outside a clear salon safety procedure.
+  - Word key: `` (Assess the condition of the injured finger)
+- `practice-nail-test-q124`: The source says to remove artificial nails from a client with suspected mold or fungal disease. A nail technician should not diagnose or work on a suspected infection; the item needs a safety rewrite.
+  - Word key: `` (Remove the artificial nails first)
+- `practice-nail-test-q125`: The source says bacteria invade living organisms 70 percent of the time without illness and calls them symbiotic. The percentage and use of 'invade' are unsupported and biologically misleading.
+  - Word key: `` (Symbiotic organisms)
+- `practice-nail-test-q126`: The source recommends a cotton-tipped stick for cleaning nail tips without identifying the service or material. The procedure is not uniquely safe or supported.
+  - Word key: `` (A cotton-tipped stick)
+- `practice-nail-test-q127`: The source explains roughness only as 'incorrect filing technique' without identifying pressure, bit, angle, grit, or movement. The key is too vague to teach.
+  - Word key: `` (Incorrect filing technique)
+- `practice-nail-test-q128`: The source says gel polish protects color without a UV lamp. Gel polish requires the matching UV or LED curing lamp, so the key is chemically incorrect.
+  - Word key: `` (Gel polish)
+- `practice-nail-test-q129`: The source keys Polymer for permanent visible skin damage. This is unsupported and conflicts with the textbook's skin-damage guidance; no reliable correction can be inferred from the prompt.
+  - Word key: `` (Polymer)
+- `practice-nail-test-q130`: Effleurage is itself a gliding/stroking massage movement. The phrase 'combined with a gliding motion' does not uniquely define it.
+  - Word key: `` (Effleurage)
+- `practice-nail-test-q131`: The answer describes a product bead, while the stem/distractor structure was extracted as a tool question. It needs question-specific visual/procedural authoring.
+  - Word key: `` (A rounded bead of product forms at the brush tip)
+- `practice-nail-test-q133`: 'Using personal protective equipment' is too broad to be the unique answer to a most-important safety item.
+  - Word key: `` (Using personal protective equipment)
+- `practice-nail-test-q140`: The source keys nail bed as the part that protects against bacterial infection. The textbook assigns the seal/barrier role at the free edge to the hyponychium, so this key is not safe to teach.
+  - Word key: `` (The nail bed)
+- `practice-nail-test-q141`: The source treats a UV cabinet as a sterilizer after hospital-level disinfection. UV cabinets are not a substitute for required cleaning and EPA-registered disinfection, so this wording is unsafe.
+  - Word key: `` (Tools disinfected to hospital standards)
+- `practice-nail-test-q142`: Recommending UV gel for an acrylic-liquid allergy is unsafe because both systems may contain related methacrylates that can trigger the same allergy.
+  - Word key: `` (UV Gel)
+- `practice-nail-test-q143`: The source says acrylic primer is methacrylic acid. Acid-based primers may contain methacrylic acid, but nonacid and acid-free primers also exist, so the generic statement is false.
+  - Word key: `` (Acid methacrylic (primer))
+- `practice-nail-test-q144`: The stem combines gliding with tapping but keys a misspelled effleurage. Effleurage is gliding; tapping is tapotement, so two different movements are mixed together.
+  - Word key: `` (Effeurage)
+- `practice-nail-test-q150`: The stem 'efforts to prevent growth' does not define immunity, the keyed answer. The intended concept cannot be recovered reliably from the source wording.
+  - Word key: `` (Immunity)
+- `practice-nail-test-q152`: The instruction to apply acrylic 'at the point of attachment' does not identify a safe location or procedure for a bitten nail and cannot support one unique answer.
+  - Word key: `` (At the point of attachment)
+- `practice-nail-test-q154`: Naturally curved, long nails do not uniquely require UV gel. Product choice depends on the client's goal and nail condition, which the stem does not provide.
+  - Word key: `` (UV Gel)
+- `practice-nail-test-q155`: A flat, smooth nail does not uniquely require builder gel. The desired service and structural need are missing, so several products could be appropriate.
+  - Word key: `` (Builder gel)
+- `practice-nail-test-q160`: The source calls the tacky surface left by an odorless monomer a 'curing layer.' The recognized concept is an inhibition/tacky layer; the keyed term is not reliable.
+  - Word key: `` (A curing layer)
+- `practice-nail-test-q161`: The textbook term is pathogenic organisms. The source key 'infectious organisms' is not the expected exam term.
+  - Word key: `` (Infectious organisms)
+- `practice-nail-test-q165`: Full-cover nails are not universally the easiest artificial nails to remove; removal depends on the adhesive and product chemistry.
+  - Word key: `` (Full-cover nails)
+- `practice-nail-test-q171`: The source says methacrylic acid is the main ingredient in primer. This applies only to acid-based primers; the textbook describes nonacid and acid-free primers as well.
+  - Word key: `` (Methacrylic Acid)
+- `practice-nail-test-q175`: Rinsing out dirty water alone does not disinfect a foot bath. Shipping this keyed answer would teach an unsafe infection-control procedure.
+  - Word key: `` (Rinse off the dirty water)
+- `practice-nail-test-q187`: Course length is jurisdiction- and schedule-dependent; the source gives six months without identifying a program or licensing jurisdiction.
+  - Word key: `` (6 months)
+- `practice-nail-test-q189`: The stem asks for a chemical reaction that accelerates but keys catalyst. A catalyst is a substance that speeds a reaction, not a reaction itself, so the grammar changes the scientific meaning.
+  - Word key: `` (A catalyst)
+- `practice-nail-test-q196`: The phrase 'working next to the nail' does not identify the sidewall, skin, or enhancement surface, so the keyed 45-degree electric-file angle cannot be applied safely.
+  - Word key: `` (At a 45-degree angle to the nail surface)
+- `practice-nail-test-q197`: The source uniquely blames too much adhesive for a cracked tip. Cracks can result from sizing, fit, impact, structure, or adhesive use, and the stem gives no diagnostic evidence.
+  - Word key: `` (Too much adhesive used)
+- `practice-nail-test-q200`: The source calls carbide the 'sharpest material' for an electric file. Bit cutting action depends on design and grit; carbide, diamond, ceramic, and sanding bands are not ranked by one universal sharpness rule.
+  - Word key: `` (Carbide (carbide bit))
+- `practice-nail-test-q202`: Disinfecting a client's hands after a service is not inherently the single incorrect action. The stem supplies no complete post-service sequence or useful unique contrast.
+  - Word key: `` (Disinfect the client’s hands)
+- `practice-nail-test-q203`: The source says the FDA prohibits MMA in nail products. FDA enforcement history and state bans are more nuanced; the agency has not issued the simple universal prohibition claimed.
+  - Word key: `` (FDA)
+- `practice-nail-test-q204`: The source says a nail tip is placed at the arch of the nail. Tips attach at their contact area and stop point; the arch is not the universal placement location.
+  - Word key: `` (The arch of the nail)
+- `practice-nail-test-n002`: Cleaning before an enhancement helps remove many contaminants but does not guarantee prevention of fungus. The source teaches an overconfident medical outcome.
+  - Word key: `` (To Prevent Fungus)
+- `practice-nail-test-n003`: The source says polyester resin is the ingredient in every top coat. Top-coat formulas vary and the textbook does not support one universal resin ingredient.
+  - Word key: `` (Polyester Resin)
+- `practice-nail-test-n004`: The source keys onychia for inflammation with pus, redness, and swelling. Milady defines onychia as matrix inflammation with nail shedding, while pus and surrounding-tissue inflammation point toward paronychia.
+  - Word key: `` (Onychia)
+- `practice-nail-test-n009`: More than one synthetic gel-brush shape can blend and shape gel. The stem gives no service detail that makes a small flat brush uniquely correct.
+  - Word key: `` (Small Flat synthetic Brush)
+- `practice-nail-test-n011`: The keyed 'pleasing personality' is subjective, culturally loaded, and not a measurable requirement for student success. It cannot support fair educational review.
+  - Word key: `` (Pleasing Personality)
+- `practice-nail-test-n013`: More than one noninfectious nail condition may receive a carefully adapted manicure. The stem does not make onychophagy the only safe answer.
+  - Word key: `` (Onychophagy)
+- `practice-nail-test-n015`: The source calls the nail root the only true living part, but the matrix is the living growth tissue and other tissues in the nail unit are also living. The absolute wording is inaccurate.
+  - Word key: `` (Nail Root)
+- `practice-nail-test-n018`: The key uses the outdated lay phrase 'blood poisoning' as a general infection. This may refer to sepsis or bloodstream infection, which are distinct medical conditions.
+  - Word key: `` (Blood Poisoning)
+- `practice-nail-test-n020`: The source calls a 1,000 ppm quaternary ammonium solution a wet sanitizer. Product concentration and contact time must follow the current label; this old generic rule is unsafe.
+  - Word key: `` (Wet Sanitizer)
+- `practice-nail-test-n021`: The source recommends 70 percent methyl alcohol for sharp tools. Current salon practice requires cleaning and an EPA-registered disinfectant; methanol is toxic and not an acceptable generic implement disinfectant.
+  - Word key: `` (70% Methyl Alcohol)
+- `practice-nail-test-n023`: The source uses perionychium as the skin surrounding the nail. Current textbook terminology identifies specific nail folds, eponychium, and hyponychium and does not use this term.
+  - Word key: `` (Perionychium)
+- `practice-nail-test-n026`: The source keys onychoptosis for inflamed tissue surrounding the nail. The recognized term is paronychia; onychoptosis means shedding or falling off of the nail.
+  - Word key: `` (Onychoptosis)
+- `practice-nail-test-n027`: The source recommends 3 percent hydrogen peroxide for a small cut. Current exposure procedures use washing, antiseptic offered to the client, and a bandage; peroxide is not the first universal rule.
+  - Word key: `` (3% hydrogen peroxide)
+- `practice-nail-test-n028`: The source answer is damaged ('on a most nail bed') and incorrectly places a metal pusher on the nail bed. A pusher is used gently and nearly flat on the nail plate, not living nail-bed tissue.
+  - Word key: `` (Flat, with gentle pressure, on a most nail bed)
+- `practice-nail-test-n031`: The source teaches immersion in 70 percent ethyl alcohol for ten minutes as implement disinfection. This is outdated and not a safe general salon disinfection rule.
+  - Word key: `` (10 minutes)
+- `practice-nail-test-n032`: The source uses the older term nail mantle for the deep fold holding the root. Current terminology uses proximal nail fold and matrix-area structures.
+  - Word key: `` (Nail Mantle)
+- `practice-nail-test-n033`: The keyed all-of-the-above answer combines several muscles, while the generated alternatives name muscles that each control some hand movement. The stem is not exclusive.
+  - Word key: `` (Supinator’s, flexors, extensors, All of the Above)
+- `practice-nail-test-n036`: The source keys the obsolete phrase 'scarf skin' as another name for cuticle. Current textbook terminology defines cuticle as dead tissue attached to the nail plate and does not use this synonym.
+  - Word key: `` (scarf skin)
+- `practice-nail-test-n039`: The stem defines nail walls but keys 'Body.' Nail walls are folds of skin overlapping the sides of the nail; the keyed answer does not complete the statement.
+  - Word key: `` (Body)
+- `practice-nail-test-n040`: The source relies on the outdated nail mantle term and answers only 'base of the nail,' which is too imprecise to identify root and matrix anatomy.
+  - Word key: `` (Base of the nail)
+- `practice-nail-test-n041`: The question treats mantle as a recognized alternative among three main natural-nail parts. Current textbook anatomy uses more specific structures and does not support this classification.
+  - Word key: `` (Mantle)
+- `practice-nail-test-n042`: The stem asks which option is not a nail disease, but more than one listed condition can be classified as a disorder or skin condition rather than a nail disease.
+  - Word key: `` (Onychophagy)
+- `practice-nail-test-n058`: The source says the nail body is attached to skin at the fingertip. The nail plate rests on the nail bed and its free edge extends beyond the fingertip, so the keyed wording is anatomically misleading.
+  - Word key: `` (Nail Body)
+- `practice-theory-update-023`: The source requires blood-contaminated metal tools to be sterilized before reuse. Milady requires proper cleaning and EPA-registered disinfection; sterilization requirements depend on jurisdiction and equipment.
+  - Word key: `c` (Properly cleaned and sterilized before reuse)
+- `practice-theory-update-024`: The source says putting on gloves is the first action after accidentally cutting a client. Milady Procedure 5-3 says to stop the service immediately before putting on gloves, so the keyed sequence is unsafe to teach as written.
+  - Word key: `b` (Put on gloves)
+- `practice-comprehensive-006`: The EXCEPT item says emphasizing work ethic and hygiene is not a step for avoiding social-media mistakes. That answer is unrelated to the other platform-safety actions and does not teach one clear rule.
+  - Word key: `b` (Emphasize a strong work ethic as well as good hygiene.)
+- `practice-comprehensive-011`: The source presents lack of water as the universal number-one cause of daytime fatigue. Fatigue has many medical and lifestyle causes, and the exact ranking is unsupported.
+  - Word key: `a` (Lack of water)
+- `practice-comprehensive-034`: The item gives U.S. tax and Social Security benefit advice without jurisdiction, employment status, or current-law context. This legally and financially sensitive claim requires current specialist review.
+  - Word key: `d` (you will increase the amount of Social Security benefits you'll receive after retirement)
+- `practice-comprehensive-050`: The source presents eczema and dermatitis as separate conditions with a fixed symptom contrast. Eczema is a form of dermatitis, and the textbook does not support this as a reliable either-or distinction.
+  - Word key: `c` (Eczema is painful and itchy, whereas dermatitis can often appear as a rash-like irritation.)
+- `practice-comprehensive-051`: The source keys cheeks as the face area where nail technicians are most likely to experience skin allergies. The textbook discusses product allergy and exposure but does not support this unique body-location claim.
+  - Word key: `d` (cheeks)
+- `practice-comprehensive-072`: The source asks about shaving within 48 hours before a pedicure. Milady advises clients not to shave or wax their legs within 24 hours before a pedicure, so the source's exact time window is not supported.
+  - Word key: `d` (increased risk of irritation or infection)
+- `practice-comprehensive-075`: The keyed statement says pressing down always increases machine speed. That behavior applies only to a particular variable-speed foot control, not to every electric file or handpiece control.
+  - Word key: `d` (As you press down, the machine speed increases; as you reduce pressure, the speed decreases.)
+- `practice-comprehensive-115`: Word key marks Sanitization as destroying ALL microbial life. Established fact: sterilization destroys all microbial life, including spores.
+  - Word key: `a` (Sanitization)
+- `practice-comprehensive-123`: The keyed term 'Pediculous capitis' is misspelled. The recognized condition is pediculosis capitis, and the damaged key should not be silently corrected in source custody.
+  - Word key: `c` (Pediculous capitis)
+- `practice-comprehensive-140`: The source gives an exact count of 98 elements occurring naturally on Earth. The boundary depends on how trace and short-lived elements are classified, so this unsupported exact figure is not safe to teach.
+  - Word key: `c` (98)
+- `practice-comprehensive-143`: The source asks for a compound molecule but keys exposed metal rusting. Rusting is a chemical reaction; it is not itself an example of a compound molecule.
+  - Word key: `c` (Exposed metal rusting)
+- `practice-comprehensive-152`: The source keys ohms for electrical current. Current is measured in amperes; ohms measure resistance, so the keyed answer is incorrect.
+  - Word key: `c` (ohms)
+- `practice-comprehensive-153`: The stem misspells watts as 'Walts.' Although the definition describes watts, source custody forbids silently repairing the tested term.
+  - Word key: `a` (how much electrical energy is being used in one second)
+- `practice-comprehensive-164`: The stem depends on the culture-specific idiom 'glass as half full.' The item tests English figurative language more than professional knowledge and is unsuitable for the ESL teaching pool.
+  - Word key: `a` (Positive)
+- `practice-comprehensive-172`: The source says distributor sales consultant is least satisfying for someone who enjoys training. Distributor educators and sales consultants often teach products, so the key is not uniquely defensible.
+  - Word key: `a` (distributor sales consultant)
+- `practice-comprehensive-175`: The source asks which body system is least important for a nail technician. Relative importance is subjective and does not create a unique factual answer.
+  - Word key: `c` (reproductive)
+- `practice-comprehensive-186`: The source repeats the healthy-skin question with misspellings in both the stem and keyed choice ('sin' and 'regid'). The clean duplicate comprehensive-048 is retained, so this damaged version is quarantined.
+  - Word key: `b` (regid)
+
+## OCR / key-letter normalizations
+
+- `practice-comprehensive-010`: raw `с` → normalized `c`
+- `practice-comprehensive-018`: raw `А` → normalized `a`
+- `practice-comprehensive-024`: raw `С` → normalized `c`
+- `practice-comprehensive-025`: raw `С` → normalized `c`
+- `practice-comprehensive-027`: raw `С` → normalized `c`
+- `practice-comprehensive-028`: raw `С` → normalized `c`
+- `practice-comprehensive-030`: raw `а` → normalized `a`
+- `practice-comprehensive-032`: raw `С` → normalized `c`
+- `practice-comprehensive-035`: raw `С` → normalized `c`
+- `practice-comprehensive-038`: raw `А` → normalized `a`
+- `practice-comprehensive-039`: raw `А` → normalized `a`
+- `practice-comprehensive-044`: raw `А` → normalized `a`
+- `practice-comprehensive-045`: raw `С` → normalized `c`
+- `practice-comprehensive-047`: raw `А` → normalized `a`
+- `practice-comprehensive-056`: raw `С` → normalized `c`
+- `practice-comprehensive-070`: raw `с` → normalized `c`
+- `practice-comprehensive-073`: raw `С` → normalized `c`
+- `practice-comprehensive-076`: raw `С` → normalized `c`
+- `practice-comprehensive-077`: raw `С` → normalized `c`
+- `practice-comprehensive-078`: raw `С` → normalized `c`
+- `practice-comprehensive-085`: raw `С` → normalized `c`
+- `practice-comprehensive-088`: raw `С` → normalized `c`
+- `practice-comprehensive-089`: raw `С` → normalized `c`
+- `practice-comprehensive-093`: raw `С` → normalized `c`
+
+## Duplicate collapses
+
+- canonical `practice-comprehensive-002` absorbed `practice-comprehensive-103`
+- canonical `practice-comprehensive-013` absorbed `practice-comprehensive-113`
+- canonical `practice-comprehensive-020` absorbed `practice-comprehensive-127`
+- canonical `practice-comprehensive-021` absorbed `practice-comprehensive-129`
+- canonical `practice-comprehensive-022` absorbed `practice-comprehensive-136`
+- canonical `practice-comprehensive-029` absorbed `practice-comprehensive-154`
+- canonical `practice-comprehensive-033` absorbed `practice-comprehensive-161`
+- canonical `practice-comprehensive-035` absorbed `practice-comprehensive-162`
+- canonical `practice-comprehensive-040` absorbed `practice-comprehensive-170`
+- canonical `practice-comprehensive-045` absorbed `practice-comprehensive-179`
+- canonical `practice-comprehensive-047` absorbed `practice-comprehensive-184`
+
+## Variant retentions (same stem, different choices or keys)
+
+- `practice-comprehensive-105`, `practice-comprehensive-124`: same stem retained as variants because choices or keyed answers differ
+- `practice-comprehensive-142`, `practice-comprehensive-143`: same stem retained as variants because choices or keyed answers differ
+
+## ID-map notes
+
+A prior inventory said NAIL TEST numbered items 1–2 were missing; they are present (`practice-nail-test-n001`, `n002`) without a period after the number.
+Comprehensive #116 and #168 are present; stems have no space after `N.`.
+

@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "enhancements-02",
+  "topic": "Enhancement systems, electric filing, wraps, resins, dips, gels, and nail art",
+  "status": "authored-awaiting-independent-review",
+  "authoredAt": "2026-08-13",
+  "author": "codex-authoring-run-2026-08-13-enhancements-02",
+  "authoritySource": "Milady Standard Nail Technology 8th Edition",
+  "questionIds": [
+    "practice-comprehensive-060", "practice-comprehensive-061", "practice-comprehensive-062",
+    "practice-comprehensive-064", "practice-comprehensive-065", "practice-comprehensive-066",
+    "practice-comprehensive-074", "practice-comprehensive-076", "practice-comprehensive-077",
+    "practice-comprehensive-078", "practice-comprehensive-079", "practice-comprehensive-080",
+    "practice-comprehensive-082", "practice-comprehensive-083", "practice-comprehensive-084",
+    "practice-comprehensive-085", "practice-comprehensive-086", "practice-comprehensive-087",
+    "practice-comprehensive-088", "practice-comprehensive-091", "practice-comprehensive-092",
+    "practice-comprehensive-093", "practice-comprehensive-094", "practice-comprehensive-095",
+    "practice-comprehensive-096", "practice-comprehensive-097", "practice-comprehensive-098",
+    "practice-comprehensive-099", "practice-comprehensive-100"
+  ],
+  "newQuarantineIds": ["practice-comprehensive-075"],
+  "entries": {
+    "practice-comprehensive-060": {
+      "why": ["Oil on the nail plate can block an enhancement from bonding. Primer is most useful on oily nails because it helps the product hold.", "甲板上的油分会阻碍人工甲产品黏附。油性指甲最需要 primer（底剂），因为它能帮助产品黏牢。"],
+      "lock": ["oily nail plate = primer may improve the bond.", "油性甲板 = primer 可帮助黏附。"],
+      "relation": "cause-effect",
+      "refs": [["Nail Product Chemistry - Primers", "117-119", 141]]
+    },
+    "practice-comprehensive-061": {
+      "why": ["Overfiling removes too many nail-plate layers. Porous means having more tiny openings, so the thinned nail absorbs liquids more easily and becomes weak.", "过度修锉会去掉太多甲板层。porous 表示有更多微小孔隙，因此变薄的指甲更容易吸收液体，也更脆弱。"],
+      "lock": ["overfiling = thin, weak nail with more tiny openings.", "过度修锉 = 指甲变薄、变弱、孔隙增多。"],
+      "relation": "cause-effect",
+      "refs": [["Nail Product Chemistry - Dangers of Over-Filing", "119-120", 143]],
+      "definedExamTerms": ["porous"]
+    },
+    "practice-comprehensive-062": {
+      "why": ["Scrubbing removes oil, dust, and germs from the nail plate. Product can bond more evenly when nothing is trapped underneath it.", "刷洗能去掉甲板上的油、粉尘和细菌。下面没有残留物时，产品能更均匀地黏附。"],
+      "lock": ["before enhancement product: scrub the nail clean.", "涂人工甲产品前：刷洗甲面。"],
+      "relation": "sequence-purpose",
+      "refs": [["Nail Product Chemistry - Preparing for Adhesion", "119", 143]]
+    },
+    "practice-comprehensive-064": {
+      "why": ["Scope of practice sets the services a license holder may legally perform. It protects clients by keeping workers within their training and state rules.", "scope of practice（执业范围）规定持证人员可以合法提供哪些服务，让工作人员只在培训和州规定范围内操作。"],
+      "lock": ["scope of practice = services legally allowed.", "scope of practice = 法律允许的服务范围。"],
+      "relation": "meaning-purpose",
+      "refs": [["The Nail Profession - Scope of Practice", "5-12", 29]]
+    },
+    "practice-comprehensive-065": {
+      "why": ["Fans and open windows move contaminated air around but may not remove it. A proper air system captures dust and vapor near their source.", "风扇和开窗只是移动受污染空气，不一定把它排走。正确的空气系统会在粉尘和蒸气产生处附近捕捉并排出。"],
+      "lock": ["salon air control = capture pollution at its source.", "沙龙空气控制 = 在污染源附近捕捉。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Nail Product Chemistry - Salon Air Quality", "126-130", 150]]
+    },
+    "practice-comprehensive-066": {
+      "why": ["An N95 mask filters very small airborne dust when it fits the face correctly. A loose paper mask leaves gaps around the edges.", "N95 口罩贴合面部时能过滤很小的空气粉尘。宽松的普通纸口罩边缘会留下空隙。"],
+      "lock": ["nail dust mask = well-fitted N95.", "美甲粉尘口罩 = 贴合良好的 N95。"],
+      "relation": "tool-purpose",
+      "refs": [["Nail Product Chemistry - Dust Masks", "129-130", 153]]
+    },
+    "practice-comprehensive-074": {
+      "why": ["Torque is the turning force of an electric file. Strong torque helps the bit keep moving when light working pressure is applied.", "torque（扭矩）是电动磨甲机的转动力。扭矩足够时，轻微施压工作也能保持磨头转动。"],
+      "lock": ["torque = turning force under pressure.", "torque = 受压时的转动力。"],
+      "relation": "meaning-function",
+      "refs": [["Electric Filing - Machine Power and Torque", "230-240", 254]]
+    },
+    "practice-comprehensive-076": {
+      "why": ["A wobbling bit sends repeated uneven movement into the hand and arm. Over time, that strain can injure muscles, tendons, or nerves.", "晃动的磨头会把反复而不均匀的震动传到手和手臂。长期下来可能损伤肌肉、肌腱或神经。"],
+      "lock": ["wobbling bit = repeated strain injury risk.", "磨头晃动 = 反复劳损风险。"],
+      "relation": "cause-effect",
+      "refs": [["Electric Filing - Ergonomics and Bit Balance", "230-240", 254]]
+    },
+    "practice-comprehensive-077": {
+      "why": ["A pencil grip gives fine control without squeezing the handpiece tightly. It also keeps the wrist in a more natural working position.", "像握铅笔一样握手柄，可精细控制而不必用力抓紧，也让手腕保持更自然的工作姿势。"],
+      "lock": ["handpiece grip = relaxed pencil hold.", "手柄握法 = 放松的握笔姿势。"],
+      "relation": "procedure-purpose",
+      "refs": [["Electric Filing - Holding the Handpiece", "230-240", 254]]
+    },
+    "practice-comprehensive-078": {
+      "why": ["Heavy pressure lets one part of the bit cut too deeply into the enhancement or nail. Light pressure and constant movement prevent ring-shaped grooves.", "压力过大会让磨头某处切得太深。轻压并持续移动，可防止磨出环形沟槽。"],
+      "lock": ["avoid fire rings: light pressure and steady movement.", "避免火圈：轻压并持续移动。"],
+      "relation": "cause-effect",
+      "refs": [["Electric Filing - Avoiding Rings of Fire", "244-248", 268]]
+    },
+    "practice-comprehensive-079": {
+      "why": ["Controlled file strokes remove product evenly. Good file skill prevents low spots, high spots, and an uneven finished surface.", "稳定控制甲锉动作能均匀去除产品。良好的修锉技术可防止高低不平的完成表面。"],
+      "lock": ["controlled filing = even surface.", "稳定修锉 = 表面均匀。"],
+      "relation": "cause-effect",
+      "refs": [["Electric Filing - Finish Filing", "244-248", 268]]
+    },
+    "practice-comprehensive-080": {
+      "why": ["A tip adds a ready-made extension piece. A form sits under the free edge so product can be shaped into an extension.", "tip（甲片）直接增加预制延长部分；form（纸托）放在游离缘下，让产品在上面塑造成延长甲。"],
+      "lock": ["extension methods = tip or form.", "延长甲方法 = 甲片或纸托。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Nail Extensions - Tips and Forms", "252-283", 276]]
+    },
+    "practice-comprehensive-082": {
+      "why": ["A nail form fits under the free edge and temporarily supports wet product. After the product hardens, the form is removed.", "nail form（纸托）放在游离缘下，暂时支撑未硬化产品。产品硬化后再取下纸托。"],
+      "lock": ["form = temporary guide under the free edge.", "form = 游离缘下的临时塑形支撑。"],
+      "relation": "tool-purpose",
+      "refs": [["Nail Forms - Purpose and Fit", "276-283", 300]]
+    },
+    "practice-comprehensive-083": {
+      "why": ["A fine buffer smooths small adhesive remains without taking off too much natural nail. Heavy filing can thin and damage the plate.", "细砂抛光锉能磨平少量残胶，又不会去掉太多天然甲板。用力粗锉会使甲板变薄受损。"],
+      "lock": ["tip removal residue = gentle fine buffer.", "卸甲片后的残胶 = 轻柔使用细砂抛光锉。"],
+      "relation": "tool-purpose",
+      "refs": [["Nail Tips - Removal", "264-267", 288]]
+    },
+    "practice-comprehensive-084": {
+      "why": ["Matching the middle, index, and ring nail lengths creates visual balance across the hand. The thumb and little finger are adjusted to fit their size.", "中指、食指和无名指长度一致，可让整只手看起来平衡。拇指和小指则按各自大小调整。"],
+      "lock": ["index, middle, ring = matching extension length.", "食指、中指、无名指 = 延长长度一致。"],
+      "relation": "design-balance",
+      "refs": [["Nail Tips - Length and Shape", "260-264", 284]]
+    },
+    "practice-comprehensive-085": {
+      "why": ["Nail resin can repair, reinforce, or secure wrap fabric. A resin layer alone is not the normal method for building a permanent long extension.", "美甲树脂可用于修补、加固或固定包裹材料。单独使用树脂层并不是制作永久长延长甲的正常方法。"],
+      "lock": ["resin = repair and reinforcement, not permanent extension alone.", "树脂 = 修补和加固，不单独制作永久延长甲。"],
+      "relation": "category",
+      "refs": [["Nail Wraps and Resins - Uses", "286-305", 310]]
+    },
+    "practice-comprehensive-086": {
+      "why": ["Thin resin spreads easily and exposes more material to moisture, so it hardens faster. Thick resin moves slowly and generally needs more curing time.", "稀树脂容易铺开，更多材料接触水分，因此硬化较快。稠树脂流动慢，通常需要更长固化时间。"],
+      "lock": ["thin resin = faster cure; thick resin = slower cure.", "稀树脂 = 固化较快；稠树脂 = 固化较慢。"],
+      "relation": "cause-effect",
+      "refs": [["Nail Wraps and Resins - Viscosity and Cure", "286-305", 310]]
+    },
+    "practice-comprehensive-087": {
+      "why": ["A nail wrap places fabric over the nail or around a tip, then secures it with resin. The fabric adds support to a weak or repaired area.", "nail wrap（指甲包裹）把纤维材料铺在指甲或甲片周围，再用树脂固定。纤维能支撑薄弱或修补部位。"],
+      "lock": ["nail wrap = fabric plus resin support.", "nail wrap = 纤维材料加树脂支撑。"],
+      "relation": "action-purpose",
+      "refs": [["Nail Wraps - Definition and Uses", "286-305", 310]]
+    },
+    "practice-comprehensive-088": {
+      "why": ["A dip system builds an acrylic overlay while colored powder supplies the color. This combines structure and nail color in the same service.", "dip system（蘸粉系统）用粉末建立丙烯酸覆盖层，同时由有色粉末提供颜色，把结构和甲色合在一次服务中。"],
+      "lock": ["dip system = overlay plus color together.", "dip system = 覆盖加颜色一次完成。"],
+      "relation": "category-feature",
+      "refs": [["Dip Systems - Features", "306-315", 330]]
+    },
+    "practice-comprehensive-091": {
+      "why": ["A medium bead has enough liquid to wet the powder without running. It stays workable and holds its shape during application.", "中等湿度的小球有足够液体润湿粉末，又不会流动，涂布时容易操作并能保持形状。"],
+      "lock": ["ideal working bead = medium, not wet or dry.", "理想操作小球 = 中等，不太湿也不太干。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Monomer Liquid and Polymer Powder - Mix Ratio", "324-330", 348]]
+    },
+    "practice-comprehensive-092": {
+      "why": ["A wet bead contains more monomer than powder, so it looks shiny and spreads easily. The stated wet ratio is two liquid parts to one powder part.", "湿小球含有较多单体液，因此表面发亮并容易流动。这里的湿比例是两份液体配一份粉末。"],
+      "lock": ["wet bead = 2 liquid to 1 powder.", "湿小球 = 2 份液体配 1 份粉末。"],
+      "relation": "ratio-recognition",
+      "refs": [["Monomer Liquid and Polymer Powder - Mix Ratio", "324-330", 348]]
+    },
+    "practice-comprehensive-093": {
+      "why": ["A fine-grit buffer removes very small scratches left after shaping. Coarser grit would create new deep scratches instead of refining the finish.", "细砂抛光锉能去掉塑形后留下的细小划痕。粗砂会产生新的深划痕，不能完成细致表面。"],
+      "lock": ["finish filing and buffing = fine grit.", "完成修锉和抛光 = 细砂。"],
+      "relation": "tool-purpose",
+      "refs": [["Electric Filing - Finish Filing and Buffing", "244-248", 268]]
+    },
+    "practice-comprehensive-094": {
+      "why": ["Hard gel does not dissolve in acetone. It must be carefully reduced with a file, leaving the natural nail protected underneath.", "hard gel（硬胶）不能被丙酮溶解，必须用甲锉小心磨除，同时保护下面的天然指甲。"],
+      "lock": ["hard gel removal = file, not soak.", "硬胶卸除 = 修锉，不浸泡。"],
+      "relation": "meaningful-contrast",
+      "refs": [["UV and LED Gels - Hard Gel Removal", "378-382", 402]]
+    },
+    "practice-comprehensive-095": {
+      "why": ["Adhesion means how well two surfaces hold together. Bonding gel creates a connecting layer between the prepared nail plate and later gel layers.", "adhesion（黏附）表示两个表面结合得多牢。粘接胶在处理好的甲板和后续凝胶层之间形成连接层。"],
+      "lock": ["bonding gel = helps gel hold to the nail plate.", "粘接胶 = 帮助凝胶黏住甲板。"],
+      "relation": "purpose",
+      "refs": [["UV and LED Gels - Bonding Gels", "370-376", 394]],
+      "definedExamTerms": ["adhesion"]
+    },
+    "practice-comprehensive-096": {
+      "why": ["Polymer gel combines polymer powder with a hard-gel product. The mixture gives the technician a thicker material for building structure.", "polymer gel（聚合物凝胶）把聚合物粉末与硬胶结合，形成较稠的材料，用于建立结构。"],
+      "lock": ["polymer gel = polymer powder plus hard gel.", "polymer gel = 聚合物粉末加硬胶。"],
+      "relation": "category-composition",
+      "refs": [["UV and LED Gels - Polymer Gels", "370-379", 394]]
+    },
+    "practice-comprehensive-097": {
+      "why": ["UV and LED gel stays workable until matching light starts its hardening reaction. Each applied layer therefore needs its own complete light cure.", "UV 和 LED 凝胶会保持可操作状态，直到匹配灯光启动硬化反应。因此每一层涂布后都要单独完整固化。"],
+      "lock": ["gel application = cure every layer with matching light.", "凝胶涂布 = 每层都用匹配灯光固化。"],
+      "relation": "sequence-cause",
+      "refs": [["UV and LED Gels - Light Curing", "370-376", 394]]
+    },
+    "practice-comprehensive-098": {
+      "why": ["Nail art gives salons more designs and add-on services to sell. More service choices can raise the amount earned from each appointment.", "美甲艺术让沙龙可以销售更多设计和附加服务。服务选择增加后，每次预约的收入也可能提高。"],
+      "lock": ["more nail-art services = more revenue opportunities.", "更多美甲艺术服务 = 更多收入机会。"],
+      "relation": "cause-effect",
+      "refs": [["Nail Art - Industry Impact", "390-396", 414]]
+    },
+    "practice-comprehensive-099": {
+      "why": ["Marbleizing moves two or more wet colors into curved lines before they set. The mixed movement creates a stone-like swirled pattern.", "marbleizing（大理石纹）在颜色未干前把两种或更多颜色拉成弯曲线条，形成像石纹一样的旋涡图案。"],
+      "lock": ["marbleizing = swirls made from wet colors.", "marbleizing = 湿颜色形成的旋涡纹。"],
+      "relation": "action-result",
+      "refs": [["Nail Art - Marbleizing", "396-405", 420]]
+    },
+    "practice-comprehensive-100": {
+      "why": ["A smooth bead has an even liquid-to-powder mix with no dry lumps. That consistency spreads evenly and creates a cleaner design.", "表面平滑的小球具有均匀液粉比例，没有干粉块，因此铺展均匀，也能做出更整洁的图案。"],
+      "lock": ["good acrylic art bead = smooth and evenly mixed.", "好的丙烯酸彩绘小球 = 平滑、混合均匀。"],
+      "relation": "recognition-purpose",
+      "refs": [["Nail Art - Monomer Liquid and Polymer Powder Art", "405-412", 429]]
+    }
+  },
+  "notes": "All candidates remain unreviewed. One context-dependent machine-control item was quarantined."
+}

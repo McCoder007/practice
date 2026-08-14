@@ -40,3 +40,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Local copyrighted sources and the unshipped Milady Exam Review archive.
+# A gitignored folder is not a backup — keep the external checksummed copy too.
+/question-bank/archive/
+/question-bank/Temp/
+/docs/Exam Review for Milady Standard Nail Technology 8th edition.pdf
+/question-bank/reports/source-attestation.json

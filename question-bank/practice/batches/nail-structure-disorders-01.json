@@ -1,0 +1,215 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "nail-structure-disorders-01",
+  "topic": "Nail structure, growth, disorders, and diseases",
+  "status": "authored-awaiting-independent-review",
+  "authoredAt": "2026-08-13",
+  "author": "codex-authoring-run-2026-08-13-nail-structure-01",
+  "authoritySource": "Milady Standard Nail Technology 8th Edition",
+  "questionIds": [
+    "practice-nail-test-q015",
+    "practice-nail-test-q017",
+    "practice-nail-test-q020",
+    "practice-nail-test-q030",
+    "practice-nail-test-q031",
+    "practice-nail-test-q057",
+    "practice-nail-test-q114",
+    "practice-nail-test-q153",
+    "practice-nail-test-q159",
+    "practice-nail-test-q180",
+    "practice-nail-test-n024",
+    "practice-nail-test-n030",
+    "practice-nail-test-n043",
+    "practice-nail-test-n044",
+    "practice-nail-test-n049",
+    "practice-nail-test-n051",
+    "practice-nail-test-n052",
+    "practice-nail-test-n053",
+    "practice-theory-update-002",
+    "practice-theory-update-003",
+    "practice-theory-update-004",
+    "practice-theory-update-005",
+    "practice-comprehensive-052",
+    "practice-comprehensive-053",
+    "practice-comprehensive-054",
+    "practice-comprehensive-055",
+    "practice-comprehensive-056",
+    "practice-comprehensive-057"
+  ],
+  "newQuarantineIds": [
+    "practice-nail-test-q049",
+    "practice-nail-test-n004",
+    "practice-nail-test-n058"
+  ],
+  "entries": {
+    "practice-nail-test-q015": {
+      "why": ["The nail body is the visible nail plate. It rests on the nail bed and moves forward as new nail cells grow.", "nail body（甲体）就是看得见的甲板。它位于甲床上，并随着新甲细胞生长而向前移动。"],
+      "lock": ["nail body = visible plate on the nail bed.", "nail body = 位于甲床上的可见甲板。"],
+      "relation": "body-location",
+      "refs": [["Nail Structure - Nail Plate", "99-100", 123]]
+    },
+    "practice-nail-test-q017": {
+      "why": ["The free edge is the part of the nail plate that has grown past the fingertip. It no longer rests on the nail bed.", "free edge（游离缘）是长出指尖之外的甲板部分，下面不再有甲床支撑。"],
+      "lock": ["free edge = nail past the fingertip.", "free edge = 长出指尖外的指甲部分。"],
+      "relation": "body-location",
+      "refs": [["Nail Structure - Nail Plate and Free Edge", "99", 123]]
+    },
+    "practice-nail-test-q020": {
+      "why": ["Verruca is the technical name for a wart. It is a raised skin growth caused by a virus and can spread to other people.", "verruca（疣）是 wart 的专业名称。它是病毒引起的凸起皮肤增生，并可能传给他人。"],
+      "lock": ["verruca = wart caused by a virus.", "verruca = 病毒引起的疣。"],
+      "relation": "meaning-consequence",
+      "refs": [["Skin Disorders and Diseases - Verruca", "86", 110]]
+    },
+    "practice-nail-test-q030": {
+      "why": ["Onycholysis means the nail plate has separated from the nail bed. Injury or an allergic reaction can cause this separation.", "onycholysis（甲剥离）是甲板与甲床分开。受伤或过敏反应都可能造成这种分离。"],
+      "lock": ["onycholysis = nail plate lifts from nail bed.", "onycholysis = 甲板与甲床分离。"],
+      "relation": "meaning-cause",
+      "refs": [["Nail Diseases - Onycholysis", "109", 133]]
+    },
+    "practice-nail-test-q031": {
+      "why": ["The free edge grows beyond the fingertip. This is the part that can be shortened and shaped with a file.", "free edge（游离缘）长出指尖之外，是可以用甲锉修短和塑形的部分。"],
+      "lock": ["free edge = fileable nail beyond the fingertip.", "free edge = 指尖外可修锉的指甲部分。"],
+      "relation": "body-location",
+      "refs": [["Nail Structure - Nail Plate and Free Edge", "99", 123]]
+    },
+    "practice-nail-test-q057": {
+      "why": ["Cuticle nippers trim only loose, dead tissue. Cutting living skin can cause bleeding and create a way for germs to enter.", "甲小皮钳只用于剪除松散的死皮。剪到活皮肤会出血，也可能让细菌进入。"],
+      "lock": ["cuticle nippers = loose dead tissue only.", "甲小皮钳 = 只剪松散死皮。"],
+      "relation": "tool-purpose",
+      "refs": [["Manicuring - Nail Implements and Cuticle Nippers", "165", 189]]
+    },
+    "practice-nail-test-q114": {
+      "why": ["Ringworm is a fungal infection of the skin, not a worm. A nail technician should not work on an infected area.", "ringworm（癣）是真菌引起的皮肤感染，并不是虫。美甲师不能在感染部位进行服务。"],
+      "lock": ["ringworm = fungal skin infection.", "ringworm = 真菌性皮肤感染。"],
+      "relation": "meaning-safety",
+      "refs": [["Skin Diseases - Tinea Corporis", "85-86", 109]]
+    },
+    "practice-nail-test-q153": {
+      "why": ["Verruca is the medical word for a wart. Because a virus causes it, salon contact may spread it.", "verruca（疣）是 wart 的医学名称。它由病毒引起，沙龙接触可能使它传播。"],
+      "lock": ["verruca = contagious wart.", "verruca = 可传染的疣。"],
+      "relation": "meaning-consequence",
+      "refs": [["Skin Disorders and Diseases - Verruca", "86", 110]]
+    },
+    "practice-nail-test-q159": {
+      "why": ["Tinea is the medical name for a fungal infection. Ringworm is one type of tinea that affects the skin.", "tinea（癣）是真菌感染的医学名称。ringworm 是影响皮肤的一种癣。"],
+      "lock": ["ringworm = tinea = fungal infection.", "ringworm = tinea = 真菌感染。"],
+      "relation": "category",
+      "refs": [["Skin Diseases - Tinea", "85-86", 109]]
+    },
+    "practice-nail-test-q180": {
+      "why": ["The nail bed is living skin under the nail plate. It supports the plate as the plate grows toward the free edge.", "nail bed（甲床）是甲板下面的活皮肤，在甲板向游离缘生长时提供支撑。"],
+      "lock": ["nail bed = living support under the nail plate.", "nail bed = 甲板下方的活皮肤支撑层。"],
+      "relation": "body-location",
+      "refs": [["Nail Structure - Nail Bed", "100", 124]]
+    },
+    "practice-nail-test-n024": {
+      "why": ["The hyponychium is living skin under the free edge. It helps block germs from reaching the nail bed.", "hyponychium（甲下皮）是游离缘下方的活皮肤，帮助阻止细菌进入甲床。"],
+      "lock": ["hyponychium = skin under the free edge.", "hyponychium = 游离缘下方的皮肤。"],
+      "relation": "body-location",
+      "refs": [["Nail Structure - Hyponychium", "102", 126]]
+    },
+    "practice-nail-test-n030": {
+      "why": ["The nail bed is the living skin that supports the nail body. The nail plate slowly moves across it as it grows.", "nail bed（甲床）是支撑甲体的活皮肤。甲板生长时会慢慢向前滑过甲床。"],
+      "lock": ["nail body rests on the nail bed.", "甲体位于甲床上。"],
+      "relation": "body-location",
+      "refs": [["Nail Structure - Nail Bed", "100", 124]]
+    },
+    "practice-nail-test-n043": {
+      "why": ["The matrix makes the new cells that form the nail plate. A healthy matrix allows the nail to keep growing.", "matrix（甲母质）制造形成甲板的新细胞。甲母质健康，指甲才能持续生长。"],
+      "lock": ["matrix = nail growth area.", "matrix = 指甲生长区。"],
+      "relation": "function",
+      "refs": [["Nail Structure - Matrix", "100", 124]]
+    },
+    "practice-nail-test-n044": {
+      "why": ["Onychocryptosis is an ingrown nail. The nail edge grows into nearby living skin and may cause pain and swelling.", "onychocryptosis（嵌甲）就是 ingrown nail。甲缘长进周围活皮肤，可能引起疼痛和肿胀。"],
+      "lock": ["onychocryptosis = ingrown nail.", "onychocryptosis = 嵌甲。"],
+      "relation": "meaning-consequence",
+      "refs": [["Nail Diseases - Onychocryptosis", "109", 133]]
+    },
+    "practice-nail-test-n049": {
+      "why": ["Onychauxis is unusual thickening or overgrowth of the nail plate. The nail becomes thicker instead of simply growing longer.", "onychauxis（甲肥厚）是甲板异常增厚或过度生长，指甲变厚，而不只是变长。"],
+      "lock": ["onychauxis = nail plate becomes too thick.", "onychauxis = 甲板异常变厚。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Nail Disorders - Onychauxis", "105-107", 129]]
+    },
+    "practice-nail-test-n051": {
+      "why": ["The hyponychium lies between the fingertip and the nail's free edge. This living skin forms a protective seal.", "hyponychium（甲下皮）位于指尖与指甲游离缘之间，这层活皮肤形成保护性密封。"],
+      "lock": ["free edge underneath = hyponychium.", "游离缘下方 = 甲下皮。"],
+      "relation": "body-location",
+      "refs": [["Nail Structure - Hyponychium", "102", 126]]
+    },
+    "practice-nail-test-n052": {
+      "why": ["Onychorrhexis describes nails that split easily and have lengthwise ridges. Gentle service helps avoid making the splitting worse.", "onychorrhexis（甲纵裂）指容易裂开并有纵向纹路的指甲。操作要轻柔，避免裂纹加重。"],
+      "lock": ["onychorrhexis = split, brittle, ridged nails.", "onychorrhexis = 易裂、脆弱、有纵纹的指甲。"],
+      "relation": "recognition",
+      "refs": [["Nail Disorders - Onychorrhexis", "107", 131]]
+    },
+    "practice-nail-test-n053": {
+      "why": ["Leukonychia appears as white spots inside the nail plate. Small injuries to the matrix commonly cause these spots.", "leukonychia（甲白斑）表现为甲板内的白点，通常由甲母质受到轻微损伤引起。"],
+      "lock": ["leukonychia = white spots in the nail plate.", "leukonychia = 甲板内的白点。"],
+      "relation": "recognition-cause",
+      "refs": [["Nail Disorders - Leukonychia", "106", 130]]
+    },
+    "practice-theory-update-002": {
+      "why": ["Onyx is the scientific name for the natural nail. The word refers to the hard nail plate made mainly of keratin.", "onyx 是天然指甲的科学名称，指主要由角蛋白组成的坚硬甲板。"],
+      "lock": ["onyx = natural nail.", "onyx = 天然指甲。"],
+      "relation": "term-meaning",
+      "refs": [["Nail Structure - The Natural Nail", "97-99", 121]]
+    },
+    "practice-theory-update-003": {
+      "why": ["Nail growth slows with age, and older nails often hold less water. Less water makes the nail more brittle.", "随着年龄增长，指甲生长会变慢，而且含水量常会减少。水分少会让指甲更脆。"],
+      "lock": ["older nails = slower growth and more brittleness.", "老年指甲 = 生长较慢，也更脆。"],
+      "relation": "cause-effect",
+      "refs": [["Nail Growth - Aging", "103-104", 127]]
+    },
+    "practice-theory-update-004": {
+      "why": ["Greenish-yellow color under an artificial nail often comes from bacterial growth in trapped moisture. Remove the product and do not cover the area again.", "人工甲下出现黄绿色，常是细菌在被困住的水分中生长造成的。应卸除产品，不要再次覆盖该处。"],
+      "lock": ["green under an enhancement = suspect bacteria.", "人工甲下发绿 = 怀疑细菌生长。"],
+      "relation": "recognition-cause",
+      "refs": [["Nail Diseases - Bacterial Infection", "109-110", 133]]
+    },
+    "practice-theory-update-005": {
+      "why": ["Fungal infections can spread and are outside a nail technician's work. Refuse the service and refer the client to a doctor.", "真菌感染可能传播，也不属于美甲师的处理范围。应拒绝服务，并建议客户就医。"],
+      "lock": ["suspected fungus = no service; refer to a doctor.", "怀疑真菌感染 = 不服务，建议就医。"],
+      "relation": "safety-reason",
+      "refs": [["Nail Diseases - Fungal Infections", "110", 134]]
+    },
+    "practice-comprehensive-052": {
+      "why": ["A healthy nail contains some water, so it can bend slightly without breaking. A nail that is too dry becomes hard and brittle.", "健康指甲含有一定水分，因此可以轻微弯曲而不断裂。指甲太干会变硬、变脆。"],
+      "lock": ["healthy nail = firm but flexible.", "健康指甲 = 坚实但有弹性。"],
+      "relation": "cause-effect",
+      "refs": [["Nail Structure - Water Content and Flexibility", "100", 124]]
+    },
+    "practice-comprehensive-053": {
+      "why": ["Water helps the nail plate bend. When the nail holds less water, it becomes harder and less flexible.", "水分帮助甲板弯曲。指甲含水量越低，就会越硬，越不容易弯曲。"],
+      "lock": ["less nail water = harder nail.", "指甲水分越少 = 指甲越硬。"],
+      "relation": "cause-effect",
+      "refs": [["Nail Structure - Water Content and Flexibility", "100", 124]]
+    },
+    "practice-comprehensive-054": {
+      "why": ["The cuticle is dead tissue attached to the nail plate. It seals the gap where the plate meets living skin and helps block germs.", "cuticle（甲小皮）是附着在甲板上的死皮。它封住甲板与活皮肤之间的缝隙，帮助阻挡细菌。"],
+      "lock": ["cuticle = dead seal on the nail plate.", "cuticle = 甲板上的死皮密封层。"],
+      "relation": "function",
+      "refs": [["Nail Structure - Cuticle", "101", 125]]
+    },
+    "practice-comprehensive-055": {
+      "why": ["The proximal nail fold is living skin that covers the matrix and part of the nail plate. The cuticle is dead tissue stuck to the plate.", "proximal nail fold（近端甲襞）是覆盖甲母质和部分甲板的活皮肤；cuticle 是附着在甲板上的死皮。"],
+      "lock": ["nail fold = living skin; cuticle = dead tissue.", "甲襞 = 活皮肤；cuticle = 死皮。"],
+      "relation": "meaningful-contrast",
+      "refs": [["Nail Structure - Proximal Nail Fold and Cuticle", "99-102", 123]]
+    },
+    "practice-comprehensive-056": {
+      "why": ["Tinea pedis is a fungal infection of the feet. Because it can spread, a nail technician must not perform a service on it.", "tinea pedis（足癣）是真菌性足部感染。它可能传播，所以美甲师不能在感染部位进行服务。"],
+      "lock": ["tinea pedis = contagious foot fungus.", "tinea pedis = 可传染的足部真菌感染。"],
+      "relation": "meaning-safety",
+      "refs": [["Nail Diseases - Tinea Pedis", "110", 134]]
+    },
+    "practice-comprehensive-057": {
+      "why": ["An ingrown toenail grows into living skin and may become infected. Nail technicians do not treat it; the client needs medical care.", "嵌甲会长进活皮肤，并可能发生感染。美甲师不能处理，客户需要接受医疗护理。"],
+      "lock": ["ingrown toenail = no salon service.", "嵌甲 = 不进行沙龙服务。"],
+      "relation": "safety-reason",
+      "refs": [["Nail Diseases - Onychocryptosis", "109", 133]]
+    }
+  },
+  "notes": "All candidates remain unreviewed. Three source items were quarantined because their wording or keyed diagnosis is not safe to teach as written."
+}

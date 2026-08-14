@@ -1,0 +1,214 @@
+{
+  "schemaVersion": "1.0.0",
+  "id": "enhancements-01",
+  "topic": "Electric filing, tips, acrylic, and gel fundamentals",
+  "status": "authored-awaiting-independent-review",
+  "authoredAt": "2026-08-13",
+  "author": "codex-authoring-run-2026-08-13-enhancements-01",
+  "authoritySource": "Milady Standard Nail Technology 8th Edition",
+  "questionIds": [
+    "practice-nail-test-q003", "practice-nail-test-q005", "practice-nail-test-q008",
+    "practice-nail-test-q062", "practice-nail-test-q066", "practice-nail-test-q067",
+    "practice-nail-test-q078", "practice-nail-test-q097", "practice-nail-test-q105",
+    "practice-nail-test-q123", "practice-nail-test-q134", "practice-nail-test-q156",
+    "practice-nail-test-q157", "practice-nail-test-q158", "practice-nail-test-q168",
+    "practice-nail-test-q172", "practice-nail-test-q176", "practice-nail-test-q186",
+    "practice-nail-test-q199", "practice-nail-test-n046", "practice-nail-test-n060",
+    "practice-theory-update-006", "practice-theory-update-007", "practice-theory-update-008",
+    "practice-theory-update-014", "practice-theory-update-015", "practice-theory-update-016",
+    "practice-theory-update-018", "practice-theory-update-019", "practice-comprehensive-059"
+  ],
+  "newQuarantineIds": [
+    "practice-nail-test-q027", "practice-nail-test-q029", "practice-nail-test-q038",
+    "practice-nail-test-q051", "practice-nail-test-q056", "practice-nail-test-q059",
+    "practice-nail-test-q090", "practice-nail-test-q093", "practice-nail-test-q099",
+    "practice-nail-test-q104", "practice-nail-test-q113", "practice-nail-test-q127",
+    "practice-nail-test-q128", "practice-nail-test-q142", "practice-nail-test-q152",
+    "practice-nail-test-q154", "practice-nail-test-q155", "practice-nail-test-q165",
+    "practice-nail-test-q197", "practice-nail-test-q203", "practice-nail-test-q204",
+    "practice-nail-test-n003"
+  ],
+  "entries": {
+    "practice-nail-test-q003": {
+      "why": ["Hold the electric file at about 30 degrees while shaping the enhancement. This lets the bit meet the surface without cutting straight into it.", "塑形人工甲时，把电动磨甲机保持约 30 度。这样磨头能接触表面，而不会垂直切入产品。"],
+      "lock": ["30 degrees = shape the enhancement surface.", "30 度 = 塑形人工甲表面。"],
+      "relation": "procedure-purpose",
+      "refs": [["Electric Filing - Shaping an Enhancement", "242-248", 266]]
+    },
+    "practice-nail-test-q005": {
+      "why": ["For shortening, the bit works across the nail's end instead of over the top surface. A 90-degree position keeps that cut straight.", "修短时，磨头横向作用于指甲前端，而不是甲面。保持 90 度能让前端切口平直。"],
+      "lock": ["90 degrees = shorten the nail end.", "90 度 = 修短指甲前端。"],
+      "relation": "procedure-purpose",
+      "refs": [["Electric Filing - Shortening the Nails", "242", 266]]
+    },
+    "practice-nail-test-q008": {
+      "why": ["A full-cover tip extends over the whole nail plate. It can create a smooth protective covering when a bitten nail has very little free edge.", "全覆盖甲片会盖住整个甲板。被咬指甲几乎没有游离缘时，它能形成平整的保护性覆盖。"],
+      "lock": ["full-cover tip = covers the whole nail plate.", "全覆盖甲片 = 覆盖整个甲板。"],
+      "relation": "category-purpose",
+      "refs": [["Nail Tips - Full-Coverage Tips", "252-260", 276]]
+    },
+    "practice-nail-test-q062": {
+      "why": ["LED-curable gel contains ingredients that react to LED light. The correct lamp starts the hardening reaction in each gel layer.", "可用 LED 固化的凝胶含有对 LED 光反应的成分。正确的灯会启动每层凝胶的硬化反应。"],
+      "lock": ["LED-curable gel hardens under the matching LED lamp.", "LED 凝胶要在匹配的 LED 灯下硬化。"],
+      "relation": "cause-effect",
+      "refs": [["UV and LED Gels - Light Curing", "370-376", 394]]
+    },
+    "practice-nail-test-q066": {
+      "why": ["A balanced enhancement has a smooth curve and enough support in the stress area. Poor balance can look uneven and can break more easily.", "结构平衡的人工甲有平顺曲线，受力区也有足够支撑。结构不平衡会显得不均匀，也更容易断裂。"],
+      "lock": ["good balance = even shape plus stress-area support.", "良好结构 = 形状均匀，受力区有支撑。"],
+      "relation": "cause-effect",
+      "refs": [["Electric Filing - Properly Structured Nails", "262-263", 286]]
+    },
+    "practice-nail-test-q067": {
+      "why": ["Acetone softens many liquid-and-powder enhancements. Continued soaking lets the product release without prying or scraping the natural nail.", "丙酮能软化许多液粉人工甲产品。持续浸泡可让产品脱离，不必撬刮天然指甲。"],
+      "lock": ["acrylic removal = soak; never pry.", "丙烯酸人工甲卸除 = 浸泡，不要硬撬。"],
+      "relation": "action-result",
+      "refs": [["Monomer Liquid and Polymer Powder - Removal", "348-351", 372]]
+    },
+    "practice-nail-test-q078": {
+      "why": ["Builder gel stays in place well enough to create shape and height. It can build a curved structure instead of only adding color.", "builder gel（建构胶）能保持形状，用来建立高度和弧度，而不只是增加颜色。"],
+      "lock": ["builder gel = build shape and strength.", "builder gel = 建立形状和强度。"],
+      "relation": "purpose",
+      "refs": [["UV and LED Gels - Building Gels", "370-379", 394]]
+    },
+    "practice-nail-test-q097": {
+      "why": ["Product touching skin cannot bond correctly to the nail plate. As the skin moves and sheds, it pulls the attached product up and causes lifting.", "碰到皮肤的产品不能正确黏附甲板。皮肤活动和脱落时，会把相连的产品拉起，造成翘起。"],
+      "lock": ["product on skin = lifting risk.", "产品碰到皮肤 = 容易翘起。"],
+      "relation": "cause-effect",
+      "refs": [["Nail Product Chemistry - Avoiding Skin Contact", "117-120", 141]]
+    },
+    "practice-nail-test-q105": {
+      "why": ["Some cured gels leave a sticky surface layer because air stops the top from curing fully. Alcohol removes that layer after curing is complete.", "有些凝胶固化后会留下黏层，因为空气会阻碍最上层完全固化。完成固化后可用酒精擦去黏层。"],
+      "lock": ["after gel curing: wipe the sticky layer with alcohol.", "凝胶固化后：用酒精擦去黏层。"],
+      "relation": "cause-action",
+      "refs": [["UV and LED Gels - Removing the Inhibition Layer", "378-382", 402]]
+    },
+    "practice-nail-test-q123": {
+      "why": ["As the natural nail grows, an empty area appears near the base. A fill places new product in that growth area and restores the structure.", "天然指甲生长后，甲根附近会出现空出的新生区。fill（补甲）会在该区域加入新产品，恢复人工甲结构。"],
+      "lock": ["fill = add product at new growth.", "fill = 在新生区补加产品。"],
+      "relation": "procedure-purpose",
+      "refs": [["Nail Enhancement Maintenance - Fills", "346-351", 370]]
+    },
+    "practice-nail-test-q134": {
+      "why": ["Gel preparation and alcohol can dry the skin around the nail. Applying oil at the end replaces surface oil and softens that skin.", "凝胶准备步骤和酒精可能使甲周皮肤干燥。最后涂油能补充表面油分并软化皮肤。"],
+      "lock": ["after the sticky layer is removed: apply cuticle oil.", "擦去黏层后：涂甲缘油。"],
+      "relation": "sequence-purpose",
+      "refs": [["UV and LED Gels - Post-Service", "378-382", 402]]
+    },
+    "practice-nail-test-q156": {
+      "why": ["Nail adhesive hardens quickly when it meets moisture on the nail. Use only a small amount because excess adhesive can spread onto skin.", "美甲胶接触甲面水分后会快速硬化。只需少量使用，过多可能流到皮肤上。"],
+      "lock": ["nail adhesive = small amount, fast hardening.", "美甲胶 = 少量使用，快速硬化。"],
+      "relation": "cause-safety",
+      "refs": [["Nail Product Chemistry - Nail Adhesives", "125-126", 149]]
+    },
+    "practice-nail-test-q157": {
+      "why": ["In a liquid-and-powder system, monomer is the liquid part. It wets the polymer powder so the two can form a workable bead.", "在液粉系统中，monomer（单体）是液体部分。它润湿 polymer 粉末，使两者形成可操作的小球。"],
+      "lock": ["acrylic liquid = monomer.", "丙烯酸液体 = monomer。"],
+      "relation": "category-function",
+      "refs": [["Monomer Liquid and Polymer Powder - Product Chemistry", "321-324", 345]]
+    },
+    "practice-nail-test-q158": {
+      "why": ["If acrylic is still firm, it needs more acetone time. Pushing or prying before it softens can pull layers from the natural nail.", "如果丙烯酸产品仍然坚硬，就需要继续用丙酮浸泡。未软化前推刮或硬撬，会带走天然甲板层。"],
+      "lock": ["still hard = keep soaking, never force removal.", "仍然坚硬 = 继续浸泡，不要强行卸除。"],
+      "relation": "safety-reason",
+      "refs": [["Monomer Liquid and Polymer Powder - Removal", "348-351", 372]]
+    },
+    "practice-nail-test-q168": {
+      "why": ["Nitrocellulose stays behind as a smooth film after polish solvents evaporate. This film holds the color on the nail.", "甲油溶剂蒸发后，nitrocellulose（硝化纤维素）会留下平滑薄膜，把颜色固定在指甲上。"],
+      "lock": ["nail polish film former = nitrocellulose.", "甲油成膜材料 = 硝化纤维素。"],
+      "relation": "ingredient-function",
+      "refs": [["Nail Product Chemistry - Nail Polish", "125-126", 149]]
+    },
+    "practice-nail-test-q172": {
+      "why": ["Gel polish adds long-wearing color while keeping the natural nail's own shape. It is a coating, not a product built into a long extension.", "gel polish（凝胶甲油）能在保留天然指甲形状的同时提供持久颜色。它是涂层，不是用来建构长延长甲的产品。"],
+      "lock": ["gel polish = lasting color on the natural nail.", "gel polish = 天然指甲上的持久颜色。"],
+      "relation": "category",
+      "refs": [["UV and LED Gels - Gel Polish", "370-376", 394]]
+    },
+    "practice-nail-test-q176": {
+      "why": ["Oil, water, and dust block product from touching the nail plate. A clean, dry surface gives the product direct contact and a stronger bond.", "油、水和粉尘会挡住产品接触甲板。清洁、干燥的表面能让产品直接接触并黏得更牢。"],
+      "lock": ["a better bond starts with a clean, dry nail.", "更牢黏附从清洁、干燥的指甲开始。"],
+      "relation": "cause-effect",
+      "refs": [["Nail Product Chemistry - Preparing for Adhesion", "119", 143]]
+    },
+    "practice-nail-test-q186": {
+      "why": ["Keeping the bit flat and moving spreads pressure over the product surface. Tilting one edge into the nail can cut a visible ring.", "让磨头平贴并持续移动，可把压力分散在产品表面。把一侧斜压进指甲会磨出明显环沟。"],
+      "lock": ["avoid fire rings: bit flat, light pressure, keep moving.", "避免火圈：磨头平贴、轻压、持续移动。"],
+      "relation": "procedure-purpose",
+      "refs": [["Electric Filing - Avoiding Rings of Fire", "244-248", 268]]
+    },
+    "practice-nail-test-q199": {
+      "why": ["A correctly cured gel may still feel sticky because of its top surface layer. Alcohol wipes away this layer without removing the hardened gel below.", "正确固化的凝胶仍可能因表面黏层而发黏。酒精可擦掉这层黏层，而不会卸掉下面已硬化的凝胶。"],
+      "lock": ["cured but sticky = wipe the surface layer with alcohol.", "已固化但发黏 = 用酒精擦表面黏层。"],
+      "relation": "cause-action",
+      "refs": [["UV and LED Gels - Removing the Inhibition Layer", "378-382", 402]]
+    },
+    "practice-nail-test-n046": {
+      "why": ["Finished acrylic is made of long polymer chains created during hardening. The liquid monomer and powder system becomes a solid polymer coating.", "完成固化的丙烯酸人工甲由长聚合物链组成。液体单体和粉末系统会变成固体聚合物涂层。"],
+      "lock": ["finished acrylic = hardened polymer.", "完成的丙烯酸人工甲 = 已硬化聚合物。"],
+      "relation": "action-result",
+      "refs": [["Nail Product Chemistry - Polymerization", "122-123", 146]]
+    },
+    "practice-nail-test-n060": {
+      "why": ["Monomer liquid combines with polymer powder to make an acrylic bead. The bead then hardens through polymerization.", "monomer 液体与 polymer 粉末结合形成丙烯酸小球，随后通过聚合反应硬化。"],
+      "lock": ["liquid acrylic part = monomer.", "丙烯酸液体部分 = monomer。"],
+      "relation": "category-function",
+      "refs": [["Monomer Liquid and Polymer Powder - Product Chemistry", "321-324", 345]]
+    },
+    "practice-theory-update-006": {
+      "why": ["A correctly sized tip reaches from one nail sidewall to the other without pressing the skin. A tip that is too small can crack or lift.", "尺寸正确的甲片应从一侧甲沟覆盖到另一侧，又不压皮肤。甲片太小会受力，容易裂开或翘起。"],
+      "lock": ["tip width = sidewall to sidewall.", "甲片宽度 = 从一侧甲沟到另一侧。"],
+      "relation": "fit-purpose",
+      "refs": [["Nail Tips - Proper Sizing", "252-260", 276]]
+    },
+    "practice-theory-update-007": {
+      "why": ["The stress area carries the most force where the free edge meets the nail bed. Proper thickness there helps prevent cracking.", "stress area（受力区）位于游离缘与甲床交界处，承受的力量最大。这里厚度正确可帮助防止断裂。"],
+      "lock": ["strength check = stress area.", "强度检查 = 受力区。"],
+      "relation": "body-location-function",
+      "refs": [["Nail Enhancement Structure - Stress Area", "262-263", 286]]
+    },
+    "practice-theory-update-008": {
+      "why": ["Hardened acrylic makes a light clicking sound when tapped. The brush handle tests the surface without pressing a finger into soft product.", "硬化的丙烯酸产品轻敲时会发出清脆声。用刷柄测试，不会像手指那样压进未硬化产品。"],
+      "lock": ["test acrylic hardness with a light brush-handle tap.", "用刷柄轻敲测试丙烯酸是否硬化。"],
+      "relation": "procedure-purpose",
+      "refs": [["Monomer Liquid and Polymer Powder - Testing the Cure", "327-335", 351]]
+    },
+    "practice-theory-update-014": {
+      "why": ["Acrylic touching the cuticle or skin cannot stay bonded to the nail plate. Skin movement lifts that product edge and lets water enter.", "丙烯酸产品碰到甲小皮或皮肤后，无法持续黏附甲板。皮肤活动会抬起产品边缘，也可能让水进入。"],
+      "lock": ["leave a small product gap around living skin.", "产品与活皮肤之间要留小间隙。"],
+      "relation": "cause-effect",
+      "refs": [["Nail Product Chemistry - Avoiding Skin Contact", "117-120", 141]]
+    },
+    "practice-theory-update-015": {
+      "why": ["Gel that receives too little curing light stays weak inside even if the surface looks hard. That weak layer can crack or break.", "凝胶接受的固化光不足时，即使表面看似坚硬，内部仍然薄弱，因此可能开裂或断裂。"],
+      "lock": ["too little curing = weak gel that may crack.", "固化不足 = 凝胶薄弱，可能开裂。"],
+      "relation": "cause-effect",
+      "refs": [["UV and LED Gels - Proper Curing", "370-376", 394]]
+    },
+    "practice-theory-update-016": {
+      "why": ["Holding the handpiece parallel keeps the bit's working surface even with the nail. A steep angle puts too much pressure on one small area.", "手柄与甲面保持平行，可让磨头工作面均匀接触。角度太陡会把过多压力集中在一个小区域。"],
+      "lock": ["electric file = parallel, light, moving.", "电动磨甲机 = 平行、轻压、移动。"],
+      "relation": "procedure-purpose",
+      "refs": [["Electric Filing - Handpiece Position", "240-248", 264]]
+    },
+    "practice-theory-update-018": {
+      "why": ["A flat hand keeps wet gel polish centered on the nail. Tilting the hand lets the product flow toward the sidewalls and skin.", "手放平可让未固化的凝胶甲油保持在甲面中央。手倾斜会让产品流向两侧甲沟和皮肤。"],
+      "lock": ["gel polish application = keep the hand flat.", "涂凝胶甲油 = 手保持平放。"],
+      "relation": "cause-effect",
+      "refs": [["UV and LED Gels - Gel Polish Application", "374-382", 398]]
+    },
+    "practice-theory-update-019": {
+      "why": ["A synthetic brush keeps its shape while moving gel and does not absorb much product. Natural hair is better suited to some liquid systems.", "合成刷在移动凝胶时能保持形状，也不会吸收太多产品。天然毛刷更适合某些液体系统。"],
+      "lock": ["gel brush = synthetic bristles.", "凝胶刷 = 合成刷毛。"],
+      "relation": "tool-purpose",
+      "refs": [["UV and LED Gels - Brushes", "370-374", 394]]
+    },
+    "practice-comprehensive-059": {
+      "why": ["Product bonds best when it touches the nail plate directly. Oil, dust, or moisture between them creates a weak layer that can lift.", "产品直接接触甲板时黏得最牢。中间有油、粉尘或水分会形成薄弱层，容易翘起。"],
+      "lock": ["good bond starts with a clean nail surface.", "牢固黏附从清洁甲面开始。"],
+      "relation": "cause-effect",
+      "refs": [["Nail Product Chemistry - Preparing for Adhesion", "119", 143]]
+    }
+  },
+  "notes": "All candidates remain unreviewed. Twenty-two product-dependent, ambiguous, or unsafe legacy items were quarantined."
+}
