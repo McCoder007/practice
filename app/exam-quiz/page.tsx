@@ -37,9 +37,11 @@ import type {
 import { isRandomQuizMode } from "@/data/exam-quiz/types"
 import {
   canAdvanceNext,
+  choicePositionLabel,
   classifyExamReelGesture,
   drawPracticeSession,
   assertPlayablePool,
+  shuffleQuestionChoices,
   sliceSourceRange,
   summarizeSession,
   visibleChoicesAfterReveal,
@@ -301,6 +303,7 @@ function QuizCard({
           {shownChoices.map((choice) => {
             const isSelected = answer?.selectedChoiceId === choice.id
             const isCorrectChoice = choice.id === question.correctChoiceId
+            const positionLabel = choicePositionLabel(question.choices, choice.id)
 
             return (
               <button
@@ -323,7 +326,7 @@ function QuizCard({
                 )}
               >
                 <span className="text-sm font-semibold sm:text-base">
-                  <span className="mr-1.5 opacity-70">{choice.id.toUpperCase()}.</span>
+                  <span className="mr-1.5 opacity-70">{positionLabel}.</span>
                   {choice.en}
                 </span>
                 <span className="text-xs text-[#FFD700] sm:text-sm">{choice.zh}</span>
@@ -823,9 +826,10 @@ export default function ExamQuizPage() {
         ...held.questions.map((question) => question.id),
         ...OMITTED_PRACTICE_IDS,
       ])
-      const sessionQuestions = isRandomQuizMode(mode)
+      const selectedQuestions = isRandomQuizMode(mode)
         ? drawPracticeSession(questions, mode === "quick" ? QUICK_COUNT : PRACTICE_COUNT)
         : sliceSourceRange(questions, mode.sourceId, mode.offset)
+      const sessionQuestions = shuffleQuestionChoices(selectedQuestions)
       if (sessionQuestions.length === 0) return
       currentIndexRef.current = 0
       setCurrentIndex(0)
