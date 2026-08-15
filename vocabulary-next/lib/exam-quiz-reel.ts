@@ -1,6 +1,7 @@
 import { getPracticeSource, SOURCE_CHUNK_SIZE } from "../data/exam-quiz/catalog.ts"
 import type {
   ExamAnswerRecord,
+  ExamQuestion,
   ExamResultsSummary,
   ExamSession,
   PracticeSourceId,
@@ -42,6 +43,24 @@ export function drawPracticeSession<T extends { id: string }>(
   }
   const shuffled = fisherYatesShuffle(unique, random)
   return shuffled.slice(0, Math.min(size, shuffled.length))
+}
+
+export function shuffleQuestionChoices(
+  questions: readonly ExamQuestion[],
+  random: () => number = Math.random,
+): ExamQuestion[] {
+  return questions.map((question) => ({
+    ...question,
+    choices: fisherYatesShuffle(question.choices, random),
+  }))
+}
+
+export function choicePositionLabel(
+  choices: readonly { id: string }[],
+  choiceId: string,
+): string {
+  const position = choices.findIndex((choice) => choice.id === choiceId)
+  return position < 0 ? "" : String.fromCharCode("A".charCodeAt(0) + position)
 }
 
 /** Filter by source ID prefix and take a contiguous slice in bank (JSON) order — not shuffled. */
