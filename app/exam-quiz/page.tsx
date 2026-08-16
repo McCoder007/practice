@@ -12,10 +12,12 @@ import {
 
 import Link from "next/link"
 
+import { ExamQuizChineseToggle } from "@/components/ExamQuizChineseToggle"
 import { NavigationMenu } from "@/components/NavigationMenu"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Progress } from "@/components/ui/progress"
+import { useExamQuizPreferences } from "@/contexts/ExamQuizPreferencesContext"
 import {
   PRACTICE_COUNT,
   PRACTICE_SOURCES,
@@ -87,19 +89,22 @@ const SOURCE_ACCENT_CLASSES = {
 function ModePicker({
   loading,
   onSelect,
+  showChinese,
 }: {
   loading: boolean
   onSelect: (mode: QuizMode) => void
+  showChinese: boolean
 }) {
   return (
-    <div className="mx-auto flex w-full max-w-md flex-col gap-3 px-4 py-8">
-      <h1 className="px-10 text-center text-xl font-bold text-slate-900 sm:px-0 sm:text-2xl dark:text-white">
-        {PRACTICE_TITLE.en} | {PRACTICE_TITLE.zh}
+    <div className="mx-auto flex w-full max-w-md flex-col gap-3 px-4 pb-8 pt-20">
+      <h1 className="text-center text-xl font-bold text-slate-900 sm:text-2xl dark:text-white">
+        {PRACTICE_TITLE.en}
+        {showChinese && <> | {PRACTICE_TITLE.zh}</>}
       </h1>
       <p className="text-center text-sm text-slate-600 dark:text-slate-300">
         {loading
-          ? "Loading questions… | 正在加载题目…"
-          : "Random questions from the approved practice pool | 从已审核练习题库随机抽题"}
+          ? `Loading questions…${showChinese ? " | 正在加载题目…" : ""}`
+          : `Random questions from the approved practice pool${showChinese ? " | 从已审核练习题库随机抽题" : ""}`}
       </p>
       <div className="mt-2 flex flex-col gap-3">
         <Card
@@ -111,10 +116,11 @@ function ModePicker({
         >
           <CardContent className="px-5">
             <h2 className="text-lg font-bold text-slate-900 dark:text-white">
-              Quick practice | 快速练习
+              Quick practice{showChinese && " | 快速练习"}
             </h2>
             <p className="text-sm text-slate-600 dark:text-slate-300">
-              {QUICK_COUNT} random questions | {QUICK_COUNT} 道随机题目
+              {QUICK_COUNT} random questions
+              {showChinese && ` | ${QUICK_COUNT} 道随机题目`}
             </p>
           </CardContent>
         </Card>
@@ -127,10 +133,11 @@ function ModePicker({
         >
           <CardContent className="px-5">
             <h2 className="text-lg font-bold text-slate-900 dark:text-white">
-              Practice set | 练习套题
+              Practice set{showChinese && " | 练习套题"}
             </h2>
             <p className="text-sm text-slate-600 dark:text-slate-300">
-              {PRACTICE_COUNT} random questions | {PRACTICE_COUNT} 道随机题目
+              {PRACTICE_COUNT} random questions
+              {showChinese && ` | ${PRACTICE_COUNT} 道随机题目`}
             </p>
           </CardContent>
         </Card>
@@ -140,7 +147,8 @@ function ModePicker({
           return (
             <section key={source.id} className="mt-6 flex flex-col gap-3">
               <h2 className="px-1 text-sm font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-                {source.title.en} | {source.title.zh}
+                {source.title.en}
+                {showChinese && <> | {source.title.zh}</>}
               </h2>
               {ranges.map((range) => (
                 <Card
@@ -161,10 +169,12 @@ function ModePicker({
                 >
                   <CardContent className="px-5">
                     <h3 className="text-lg font-bold text-slate-900 dark:text-white">
-                      Questions {range.start}–{range.end} | 第 {range.start}–{range.end} 题
+                      Questions {range.start}–{range.end}
+                      {showChinese && <> | 第 {range.start}–{range.end} 题</>}
                     </h3>
                     <p className="text-sm text-slate-600 dark:text-slate-300">
-                      {range.count} questions in source order | {range.count} 道题目，按原顺序
+                      {range.count} questions in source order
+                      {showChinese && <> | {range.count} 道题目，按原顺序</>}
                     </p>
                   </CardContent>
                 </Card>
@@ -178,11 +188,12 @@ function ModePicker({
           className="mt-6 block rounded-xl border border-amber-200/80 bg-amber-50/70 px-5 py-4 text-left shadow-none transition-colors hover:bg-amber-50 dark:border-amber-900/40 dark:bg-amber-950/20 dark:hover:bg-amber-950/30"
         >
           <h2 className="text-base font-semibold text-amber-950 dark:text-amber-100">
-            {QUESTIONS_TO_REVIEW_TITLE.en} | {QUESTIONS_TO_REVIEW_TITLE.zh}
+            {QUESTIONS_TO_REVIEW_TITLE.en}
+            {showChinese && <> | {QUESTIONS_TO_REVIEW_TITLE.zh}</>}
           </h2>
           <p className="mt-1 text-sm leading-relaxed text-amber-900/80 dark:text-amber-200/80">
-            {HELD_FOR_REVIEW_COUNT} questions not in the approved study pool | {HELD_FOR_REVIEW_COUNT}{" "}
-            道题目不属于已审核学习题库
+            {HELD_FOR_REVIEW_COUNT} questions not in the approved study pool
+            {showChinese && <> | {HELD_FOR_REVIEW_COUNT} 道题目不属于已审核学习题库</>}
           </p>
         </Link>
       </div>
@@ -198,6 +209,7 @@ type QuizCardProps = {
   cardRef?: React.RefObject<HTMLDivElement | null>
   position: "-100%" | "0" | "100%"
   isLast: boolean
+  showChinese: boolean
   onSelectChoice: (choiceId: string) => void
   onSkip: () => void
   onSpeak: (text: string) => void
@@ -251,6 +263,7 @@ function QuizCard({
   cardRef,
   position,
   isLast,
+  showChinese,
   onSelectChoice,
   onSkip,
   onSpeak,
@@ -293,9 +306,14 @@ function QuizCard({
           className="max-w-4xl text-center font-bold leading-tight drop-shadow-2xl"
           style={responsiveTextStyle(question.question.en.length)}
         />
-        <p className="max-w-4xl text-center text-sm font-medium leading-snug text-[#FFD700] drop-shadow-lg sm:text-base">
-          {question.question.zh}
-        </p>
+        {showChinese && (
+          <p
+            className="max-w-4xl text-center text-sm font-medium leading-snug text-[#FFD700] drop-shadow-lg sm:text-base"
+            lang="zh-Hans"
+          >
+            {question.question.zh}
+          </p>
+        )}
       </section>
 
       <section className="relative z-10 min-h-0 flex-1 overflow-y-auto border-t border-white/25 px-3 py-2 sm:px-6">
@@ -329,7 +347,11 @@ function QuizCard({
                   <span className="mr-1.5 opacity-70">{positionLabel}.</span>
                   {choice.en}
                 </span>
-                <span className="text-xs text-[#FFD700] sm:text-sm">{choice.zh}</span>
+                {showChinese && (
+                  <span className="text-xs text-[#FFD700] sm:text-sm" lang="zh-Hans">
+                    {choice.zh}
+                  </span>
+                )}
               </button>
             )
           })}
@@ -350,7 +372,7 @@ function QuizCard({
             size="sm"
           >
             <SkipForward className="h-4 w-4" />
-            Skip | 跳过
+            Skip{showChinese && " | 跳过"}
           </Button>
         </section>
       )}
@@ -375,18 +397,23 @@ function QuizCard({
               <XCircle className="h-5 w-5 shrink-0 text-rose-300" />
             )}
             <p className="font-bold">
-              {isSkipped ? "Skipped | 已跳过" : isCorrect ? "Correct! 正确！" : "Not quite 不太对"}
+              {isSkipped
+                ? `Skipped${showChinese ? " | 已跳过" : ""}`
+                : isCorrect
+                  ? `Correct!${showChinese ? " 正确！" : ""}`
+                  : `Not quite${showChinese ? " 不太对" : ""}`}
             </p>
           </div>
           {!isCorrect && correctChoice && (
             <p className="text-sm text-white/90">
-              {correctChoice.en} · {correctChoice.zh}
+              {correctChoice.en}
+              {showChinese && <> · <span lang="zh-Hans">{correctChoice.zh}</span></>}
             </p>
           )}
           {question.sourceWarning && (
             <div className="rounded-lg border border-amber-300/60 bg-amber-950/35 p-2.5">
               <p className="text-xs font-semibold tracking-wide text-amber-200 uppercase">
-                Original source note / 原始资料说明
+                Original source note{showChinese && " / 原始资料说明"}
               </p>
               <Speakable
                 text={question.sourceWarning.en}
@@ -395,11 +422,17 @@ function QuizCard({
                 label="Speak source warning"
                 className="mt-1 text-left text-sm text-white"
               />
-              <p className="mt-1 text-xs text-[#FFD700]">{question.sourceWarning.zh}</p>
+              {showChinese && (
+                <p className="mt-1 text-xs text-[#FFD700]" lang="zh-Hans">
+                  {question.sourceWarning.zh}
+                </p>
+              )}
             </div>
           )}
           <div className="space-y-1">
-            <p className="text-xs font-semibold tracking-wide text-white/70 uppercase">Why / 为什么</p>
+            <p className="text-xs font-semibold tracking-wide text-white/70 uppercase">
+              Why{showChinese && " / 为什么"}
+            </p>
             <Speakable
               text={question.explanation.en}
               enabled={isCurrent}
@@ -407,10 +440,16 @@ function QuizCard({
               label="Speak Why"
               className="text-left text-sm text-white"
             />
-            <p className="text-xs text-[#FFD700]">{question.explanation.zh}</p>
+            {showChinese && (
+              <p className="text-xs text-[#FFD700]" lang="zh-Hans">
+                {question.explanation.zh}
+              </p>
+            )}
           </div>
           <div className="space-y-1">
-            <p className="text-xs font-semibold tracking-wide text-white/70 uppercase">Lock this / 记重点</p>
+            <p className="text-xs font-semibold tracking-wide text-white/70 uppercase">
+              Lock this{showChinese && " / 记重点"}
+            </p>
             <Speakable
               text={question.lockPoint.en}
               enabled={isCurrent}
@@ -418,7 +457,11 @@ function QuizCard({
               label="Speak Lock this"
               className="text-left text-sm font-medium text-white"
             />
-            <p className="text-xs text-[#FFD700]">{question.lockPoint.zh}</p>
+            {showChinese && (
+              <p className="text-xs text-[#FFD700]" lang="zh-Hans">
+                {question.lockPoint.zh}
+              </p>
+            )}
           </div>
           <Button
             type="button"
@@ -430,7 +473,9 @@ function QuizCard({
             className="mt-1 gap-2 self-start bg-white text-slate-900 hover:bg-white/90"
             size="sm"
           >
-            {isLast ? "See results | 查看结果" : "Next | 下一题"}
+            {isLast
+              ? `See results${showChinese ? " | 查看结果" : ""}`
+              : `Next${showChinese ? " | 下一题" : ""}`}
             <ArrowRight className="h-4 w-4" />
           </Button>
         </section>
@@ -442,28 +487,31 @@ function QuizCard({
 function ResultsScreen({
   session,
   summary,
+  showChinese,
   onRestart,
   onHome,
 }: {
   session: ExamSession
   summary: ExamResultsSummary
+  showChinese: boolean
   onRestart: () => void
   onHome: () => void
 }) {
   return (
-    <div className="mx-auto flex w-full max-w-xl flex-col gap-4 px-4 py-10">
+    <div className="mx-auto flex w-full max-w-xl flex-col gap-4 px-4 pb-10 pt-20">
       <h1 className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-center text-2xl font-bold text-transparent">
-        Practice complete! | 练习完成！
+        Practice complete!{showChinese && " | 练习完成！"}
       </h1>
       <p className="text-center text-xl font-medium text-slate-900 dark:text-white">
-        Your score: {summary.correct} / {summary.total} | 得分：{summary.correct} / {summary.total}
+        Your score: {summary.correct} / {summary.total}
+        {showChinese && <> | 得分：{summary.correct} / {summary.total}</>}
       </p>
 
       {summary.missed.length > 0 && (
         <Card>
           <CardContent className="space-y-3 px-5">
             <h3 className="text-sm font-semibold text-slate-700 dark:text-slate-200">
-              Review missed questions | 复习错题
+              Review missed questions{showChinese && " | 复习错题"}
             </h3>
             {summary.missed.map((answer) => {
               const question = session.questions.find((candidate) => candidate.id === answer.questionId)
@@ -481,30 +529,49 @@ function ResultsScreen({
                   )}
                 >
                   <p className="text-xs font-semibold tracking-wide text-slate-500 uppercase dark:text-slate-400">
-                    {answer.skipped ? "Skipped | 已跳过" : "Incorrect | 错误"}
+                    {answer.skipped
+                      ? `Skipped${showChinese ? " | 已跳过" : ""}`
+                      : `Incorrect${showChinese ? " | 错误" : ""}`}
                   </p>
                   <p className="text-sm font-medium text-slate-900 dark:text-white">{question.question.en}</p>
-                  <p className="text-xs text-slate-500 dark:text-slate-400">{question.question.zh}</p>
+                  {showChinese && (
+                    <p className="text-xs text-slate-500 dark:text-slate-400" lang="zh-Hans">
+                      {question.question.zh}
+                    </p>
+                  )}
                   <p className="mt-1 text-xs text-emerald-700 dark:text-emerald-400">
-                    Correct: {correctChoice.en} | 正确答案：{correctChoice.zh}
+                    Correct: {correctChoice.en}
+                    {showChinese && <> | 正确答案：<span lang="zh-Hans">{correctChoice.zh}</span></>}
                   </p>
                   {question.sourceWarning && (
                     <div className="mt-2 rounded-md border border-amber-300 bg-amber-50 p-2 dark:border-amber-700 dark:bg-amber-950/30">
                       <p className="text-xs font-semibold text-amber-900 dark:text-amber-200">
-                        Original source note / 原始资料说明
+                        Original source note{showChinese && " / 原始资料说明"}
                       </p>
                       <p className="text-xs text-amber-900 dark:text-amber-100">{question.sourceWarning.en}</p>
-                      <p className="text-xs text-amber-700 dark:text-amber-300">{question.sourceWarning.zh}</p>
+                      {showChinese && (
+                        <p className="text-xs text-amber-700 dark:text-amber-300" lang="zh-Hans">
+                          {question.sourceWarning.zh}
+                        </p>
+                      )}
                     </div>
                   )}
                   <p className="mt-1 text-xs text-slate-700 dark:text-slate-200">
-                    Why / 为什么: {question.explanation.en}
+                    Why{showChinese && " / 为什么"}: {question.explanation.en}
                   </p>
-                  <p className="text-xs text-slate-500 dark:text-slate-400">{question.explanation.zh}</p>
+                  {showChinese && (
+                    <p className="text-xs text-slate-500 dark:text-slate-400" lang="zh-Hans">
+                      {question.explanation.zh}
+                    </p>
+                  )}
                   <p className="mt-1 text-xs font-medium text-slate-800 dark:text-slate-100">
-                    Lock this / 记重点: {question.lockPoint.en}
+                    Lock this{showChinese && " / 记重点"}: {question.lockPoint.en}
                   </p>
-                  <p className="text-xs text-slate-500 dark:text-slate-400">{question.lockPoint.zh}</p>
+                  {showChinese && (
+                    <p className="text-xs text-slate-500 dark:text-slate-400" lang="zh-Hans">
+                      {question.lockPoint.zh}
+                    </p>
+                  )}
                 </div>
               )
             })}
@@ -515,11 +582,11 @@ function ResultsScreen({
       <div className="mt-2 flex flex-col gap-2 sm:flex-row">
         <Button onClick={onRestart} size="lg" className="flex-1 gap-2">
           <RotateCcw className="h-4 w-4" />
-          Restart | 重新开始
+          Restart{showChinese && " | 重新开始"}
         </Button>
         <Button onClick={onHome} size="lg" variant="ghost" className="flex-1 gap-2">
           <Home className="h-4 w-4" />
-          Home | 主页
+          Home{showChinese && " | 主页"}
         </Button>
       </div>
     </div>
@@ -527,6 +594,7 @@ function ResultsScreen({
 }
 
 export default function ExamQuizPage() {
+  const { showChinese } = useExamQuizPreferences()
   const [screen, setScreen] = useState<ExamQuizScreen>({ step: "mode" })
   const [session, setSession] = useState<ExamSession | null>(null)
   const [loadingQuiz, setLoadingQuiz] = useState(false)
@@ -863,15 +931,19 @@ export default function ExamQuizPage() {
       <>
         <NavigationMenu />
         <main className="flex h-dvh w-screen flex-col overflow-hidden bg-black">
-          <header className="relative z-20 flex h-16 shrink-0 flex-col items-center justify-center gap-1 border-b border-white/10 bg-black/70 px-16 text-center backdrop-blur-md">
-            <p className="text-xs font-medium text-white/70">
-              {PRACTICE_TITLE.en} | {PRACTICE_TITLE.zh}
+          <header className="relative z-20 grid h-16 shrink-0 grid-cols-[3.25rem_minmax(0,1fr)_auto] grid-rows-2 items-center gap-x-2 border-b border-white/10 bg-black/70 px-3 py-2 text-center backdrop-blur-md">
+            <p className="col-start-2 row-start-1 text-[11px] font-medium leading-tight text-white/70 sm:text-xs">
+              {PRACTICE_TITLE.en}
+              {showChinese && <> | {PRACTICE_TITLE.zh}</>}
             </p>
-            <div className="flex w-full max-w-xs items-center gap-2">
+            <div className="col-start-2 row-start-2 flex w-full items-center gap-2">
               <span className="shrink-0 text-xs text-white/80">
                 {currentIndex + 1}/{total}
               </span>
               <Progress value={progress} className="h-1.5 flex-1 bg-white/15" />
+            </div>
+            <div className="col-start-3 row-span-2 row-start-1 flex justify-end">
+              <ExamQuizChineseToggle placement="inline" />
             </div>
           </header>
 
@@ -892,6 +964,7 @@ export default function ExamQuizPage() {
               cardRef={currentCardRef}
               position="0"
               isLast={currentIndex === total - 1}
+              showChinese={showChinese}
               onSelectChoice={(choiceId) => selectChoice(current, choiceId)}
               onSkip={() => skipQuestion(current)}
               onSpeak={(text) => playText(text)}
@@ -905,6 +978,7 @@ export default function ExamQuizPage() {
               cardRef={previousCardRef}
               position="-100%"
               isLast={false}
+              showChinese={showChinese}
               onSelectChoice={() => {}}
               onSkip={() => {}}
               onSpeak={() => {}}
@@ -918,6 +992,7 @@ export default function ExamQuizPage() {
               cardRef={nextCardRef}
               position="100%"
               isLast={false}
+              showChinese={showChinese}
               onSelectChoice={() => {}}
               onSkip={() => {}}
               onSpeak={() => {}}
@@ -934,10 +1009,12 @@ export default function ExamQuizPage() {
     return (
       <>
         <NavigationMenu />
+        <ExamQuizChineseToggle />
         <div className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
           <ResultsScreen
             session={session}
             summary={summary}
+            showChinese={showChinese}
             onRestart={() => startQuiz(session.mode)}
             onHome={goHome}
           />
@@ -949,8 +1026,9 @@ export default function ExamQuizPage() {
   return (
     <>
       <NavigationMenu />
+      <ExamQuizChineseToggle />
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
-        <ModePicker loading={loadingQuiz} onSelect={startQuiz} />
+        <ModePicker loading={loadingQuiz} onSelect={startQuiz} showChinese={showChinese} />
       </div>
     </>
   )
