@@ -20,6 +20,16 @@ const getMenuItems = (language: "chinese" | "japanese") => [
     hoverColor: "hover:from-pink-500/20 hover:to-rose-600/20"
   },
   {
+    title: "Official Exam Practice | 官方考试练习",
+    href: "/official-exam-quiz",
+    icon: GraduationCap,
+    description: "10 or 25 random questions, plus five ordered banks of 20",
+    color: "from-violet-500/10 to-purple-600/10",
+    iconColor: "text-violet-500",
+    borderColor: "border-violet-500/20",
+    hoverColor: "hover:from-violet-500/20 hover:to-purple-600/20"
+  },
+  {
     title: "Exam Practice | 考试练习",
     href: "/exam-quiz",
     icon: GraduationCap,

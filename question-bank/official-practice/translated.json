@@ -1,0 +1,3612 @@
+{
+  "generatedAt": "2026-08-26T19:05:33.137Z",
+  "sourceFiles": [
+    "NIC Nail Technology Practice Exam - Trivie Learn.mhtml",
+    "Results - Trivie Learn Quiz 2.mhtml"
+  ],
+  "statistics": {
+    "total": 100
+  },
+  "questions": [
+    {
+      "id": "official-practice-001",
+      "question": {
+        "en": "An example of a disease caused by a plant parasite is",
+        "zh": "由植物寄生虫引起的疾病示例是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "diphtheria.",
+          "zh": "白喉。"
+        },
+        {
+          "id": "b",
+          "en": "hepatitis.",
+          "zh": "肝炎。"
+        },
+        {
+          "id": "c",
+          "en": "ringworm.",
+          "zh": "癣。"
+        },
+        {
+          "id": "d",
+          "en": "scabies.",
+          "zh": "疥疮。"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q01"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-002",
+      "question": {
+        "en": "Monomer liquids, UV gels, and adhesives will form",
+        "zh": "单体液、UV凝胶和粘合剂会产生"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "fumes.",
+          "zh": "烟雾。"
+        },
+        {
+          "id": "b",
+          "en": "gases.",
+          "zh": "气体。"
+        },
+        {
+          "id": "c",
+          "en": "dust.",
+          "zh": "粉尘。"
+        },
+        {
+          "id": "d",
+          "en": "vapors.",
+          "zh": "蒸气。"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q02"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-003",
+      "question": {
+        "en": "Which of the following is a secondary skin lesion?",
+        "zh": "以下哪项是继发性皮损？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Tumor",
+          "zh": "肿瘤"
+        },
+        {
+          "id": "b",
+          "en": "Fissure",
+          "zh": "皲裂"
+        },
+        {
+          "id": "c",
+          "en": "Papule",
+          "zh": "丘疹"
+        },
+        {
+          "id": "d",
+          "en": "Bulla",
+          "zh": "大疱"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q03"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-004",
+      "question": {
+        "en": "Which of the following is a characteristic of nail polishes, top coats, and base coats?",
+        "zh": "以下哪项是指甲油、亮油和底油的特性？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "They adhere best when the nail is etched.",
+          "zh": "指甲经过打磨处理后，它们的附着效果最好。"
+        },
+        {
+          "id": "b",
+          "en": "They work by evaporation.",
+          "zh": "它们通过蒸发起作用。"
+        },
+        {
+          "id": "c",
+          "en": "They polymerize.",
+          "zh": "它们会发生聚合反应。"
+        },
+        {
+          "id": "d",
+          "en": "They require a catalyst.",
+          "zh": "它们需要催化剂。"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q04"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-005",
+      "question": {
+        "en": "An example of a tubercle is",
+        "zh": "结节的示例是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "acne.",
+          "zh": "痤疮。"
+        },
+        {
+          "id": "b",
+          "en": "freckles.",
+          "zh": "雀斑。"
+        },
+        {
+          "id": "c",
+          "en": "a cyst.",
+          "zh": "囊肿。"
+        },
+        {
+          "id": "d",
+          "en": "a wart.",
+          "zh": "疣。"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q05"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-006",
+      "question": {
+        "en": "A characteristic of natural nails is that",
+        "zh": "天然指甲的一个特性是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "they are appendages of the skin.",
+          "zh": "它们是皮肤的附属器官。"
+        },
+        {
+          "id": "b",
+          "en": "they are primarily composed of calcium.",
+          "zh": "它们主要由钙构成。"
+        },
+        {
+          "id": "c",
+          "en": "growth occurs most quickly in elderly persons.",
+          "zh": "老年人的指甲生长速度最快。"
+        },
+        {
+          "id": "d",
+          "en": "the growth of the nail plate solely depends on the circulatory system.",
+          "zh": "甲板的生长完全依赖于循环系统。"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q06"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-007",
+      "question": {
+        "en": "A technical term for ingrown nails is",
+        "zh": "嵌甲的专业术语是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "onychocryptosis.",
+          "zh": "嵌甲症。"
+        },
+        {
+          "id": "b",
+          "en": "onychophagy.",
+          "zh": "咬甲癖。"
+        },
+        {
+          "id": "c",
+          "en": "onychomycosis.",
+          "zh": "甲真菌病。"
+        },
+        {
+          "id": "d",
+          "en": "onychia.",
+          "zh": "甲炎。"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q07"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-008",
+      "question": {
+        "en": "A disease that can affect the nail bed causing it to develop yellowish to reddish spots under the nail plate called salmon patches is",
+        "zh": "一种会影响甲床、使甲板下方出现被称为鲑鱼斑的黄红色斑点的疾病是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "onychocryptosis.",
+          "zh": "嵌甲症。"
+        },
+        {
+          "id": "b",
+          "en": "onycholysis.",
+          "zh": "甲剥离。"
+        },
+        {
+          "id": "c",
+          "en": "nail psoriasis.",
+          "zh": "甲银屑病。"
+        },
+        {
+          "id": "d",
+          "en": "paronychia.",
+          "zh": "甲沟炎。"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q08"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-009",
+      "question": {
+        "en": "The practitioner has accidently cut her client with a metal implement. This implement needs to be",
+        "zh": "从业者不慎用金属器械划伤了客户。该器械需要被"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "discarded.",
+          "zh": "丢弃。"
+        },
+        {
+          "id": "b",
+          "en": "disinfected.",
+          "zh": "消毒。"
+        },
+        {
+          "id": "c",
+          "en": "sterilized.",
+          "zh": "灭菌。"
+        },
+        {
+          "id": "d",
+          "en": "double bagged and discarded.",
+          "zh": "双层打包后丢弃。"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q09"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-010",
+      "question": {
+        "en": "Which of the following muscles moves the foot up and extends the toes?",
+        "zh": "以下哪块肌肉能使脚向上移动并伸展脚趾？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Extensor digitorum",
+          "zh": "趾长伸肌"
+        },
+        {
+          "id": "b",
+          "en": "Tibialis anterior",
+          "zh": "胫骨前肌"
+        },
+        {
+          "id": "c",
+          "en": "Peroneous longus",
+          "zh": "腓骨长肌"
+        },
+        {
+          "id": "d",
+          "en": "Soleus",
+          "zh": "比目鱼肌"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q10"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-011",
+      "question": {
+        "en": "What should be done to implements after they are removed from the disinfectant?",
+        "zh": "器械从消毒剂中取出后应如何处理？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Replace with implements currently being used",
+          "zh": "更换为正在使用中的器械"
+        },
+        {
+          "id": "b",
+          "en": "Mist with an antibacterial solvent",
+          "zh": "喷洒抗菌溶剂"
+        },
+        {
+          "id": "c",
+          "en": "Rinse thoroughly with water and dry",
+          "zh": "用水彻底冲洗并擦干"
+        },
+        {
+          "id": "d",
+          "en": "Cover with an absorbent material",
+          "zh": "用吸水材料覆盖"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q11"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-012",
+      "question": {
+        "en": "Bacteria are also known as",
+        "zh": "细菌也被称为"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "parasites.",
+          "zh": "寄生虫。"
+        },
+        {
+          "id": "b",
+          "en": "microbes/germs.",
+          "zh": "微生物/病菌。"
+        },
+        {
+          "id": "c",
+          "en": "viruses.",
+          "zh": "病毒。"
+        },
+        {
+          "id": "d",
+          "en": "fungi.",
+          "zh": "真菌。"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q12"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-013",
+      "question": {
+        "en": "What bones are found in the hands and feet?",
+        "zh": "手部和足部的骨骼是什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Carpus",
+          "zh": "腕骨"
+        },
+        {
+          "id": "b",
+          "en": "Talus",
+          "zh": "距骨"
+        },
+        {
+          "id": "c",
+          "en": "Phalanges",
+          "zh": "指骨/趾骨"
+        },
+        {
+          "id": "d",
+          "en": "Trochanters",
+          "zh": "转子"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q13"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-014",
+      "question": {
+        "en": "Which of the following is the largest human organ?",
+        "zh": "以下哪项是人体最大的器官？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Heart",
+          "zh": "心脏"
+        },
+        {
+          "id": "b",
+          "en": "Brain",
+          "zh": "大脑"
+        },
+        {
+          "id": "c",
+          "en": "Skin",
+          "zh": "皮肤"
+        },
+        {
+          "id": "d",
+          "en": "Lungs",
+          "zh": "肺"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q14"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-015",
+      "question": {
+        "en": "What is the cause of onychomycosis?",
+        "zh": "甲真菌病的病因是什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Keratin",
+          "zh": "角蛋白"
+        },
+        {
+          "id": "b",
+          "en": "Fungus",
+          "zh": "真菌"
+        },
+        {
+          "id": "c",
+          "en": "Bacteria",
+          "zh": "细菌"
+        },
+        {
+          "id": "d",
+          "en": "Inflammation",
+          "zh": "炎症"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q15"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-016",
+      "question": {
+        "en": "When consulting a client with an agnail, the proper consultation care advice would be to",
+        "zh": "在为有倒刺的客户提供咨询时，正确的护理建议是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "cut surrounding skin.",
+          "zh": "剪除周围皮肤。"
+        },
+        {
+          "id": "b",
+          "en": "carefully buff the nail plate.",
+          "zh": "小心地抛光甲板。"
+        },
+        {
+          "id": "c",
+          "en": "receive a hot oil manicure.",
+          "zh": "接受热油手部美甲护理。"
+        },
+        {
+          "id": "d",
+          "en": "advise the client to consider nail enhancements.",
+          "zh": "建议客户考虑做美甲增强。"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q16"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-017",
+      "question": {
+        "en": "The cuticle attached to the nail plate is considered a",
+        "zh": "附着在甲板上的甲小皮被视为一种"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "nerve.",
+          "zh": "神经。"
+        },
+        {
+          "id": "b",
+          "en": "blood vessel.",
+          "zh": "血管。"
+        },
+        {
+          "id": "c",
+          "en": "tissue.",
+          "zh": "组织。"
+        },
+        {
+          "id": "d",
+          "en": "matrix.",
+          "zh": "甲母质。"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q17"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-018",
+      "question": {
+        "en": "Cuticle removers should not be left on more than 10 minutes due to ingredient of",
+        "zh": "甲小皮软化剂不应停留超过10分钟，原因是其含有以下成分"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "glycerin.",
+          "zh": "甘油。"
+        },
+        {
+          "id": "b",
+          "en": "hydrogen peroxide at 6%.",
+          "zh": "6%的过氧化氢。"
+        },
+        {
+          "id": "c",
+          "en": "sodium hydroxide or potassium hydroxide at 2 - 5%.",
+          "zh": "2%至5%的氢氧化钠或氢氧化钾。"
+        },
+        {
+          "id": "d",
+          "en": "silicone.",
+          "zh": "硅酮。"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q18"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-019",
+      "question": {
+        "en": "Which of the following is an example of a single-use item?",
+        "zh": "以下哪项是一次性用品的示例？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Glass file",
+          "zh": "玻璃锉"
+        },
+        {
+          "id": "b",
+          "en": "Nipper",
+          "zh": "甲钳"
+        },
+        {
+          "id": "c",
+          "en": "Pumice stone",
+          "zh": "浮石"
+        },
+        {
+          "id": "d",
+          "en": "Metal cuticle pusher",
+          "zh": "金属推皮棒"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q19"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-020",
+      "question": {
+        "en": "What determines the thickness, width, and curvature of the natural nail?",
+        "zh": "什么决定了天然指甲的厚度、宽度和弧度？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Nail bed",
+          "zh": "甲床"
+        },
+        {
+          "id": "b",
+          "en": "Hyponychium",
+          "zh": "甲下皮"
+        },
+        {
+          "id": "c",
+          "en": "Eponychium",
+          "zh": "甲上皮"
+        },
+        {
+          "id": "d",
+          "en": "Matrix",
+          "zh": "甲母质"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q20"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-021",
+      "question": {
+        "en": "Which of the following is true regarding multi-use and single-use items?",
+        "zh": "关于多次使用用品和一次性用品，以下哪项是正确的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Multi-use items may be reused for different clients without cleaning",
+          "zh": "多次使用用品无需清洁即可为不同客户重复使用"
+        },
+        {
+          "id": "b",
+          "en": "Single-use items may be reused for the same client when stored in an individual client packet",
+          "zh": "一次性用品若存放在客户专属包内，可为同一客户重复使用"
+        },
+        {
+          "id": "c",
+          "en": "Single-use items are porous and must be disposed of after each use",
+          "zh": "一次性用品具有多孔性，每次使用后都必须丢弃"
+        },
+        {
+          "id": "d",
+          "en": "Multi-use items are nonporous and cannot be disinfected",
+          "zh": "多次使用用品是无孔的，且无法消毒"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q21"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-022",
+      "question": {
+        "en": "Parasites need which of the following to survive?",
+        "zh": "寄生虫需要以下哪项才能生存？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Host",
+          "zh": "宿主"
+        },
+        {
+          "id": "b",
+          "en": "Pathogen",
+          "zh": "病原体"
+        },
+        {
+          "id": "c",
+          "en": "Toxin",
+          "zh": "毒素"
+        },
+        {
+          "id": "d",
+          "en": "Virus",
+          "zh": "病毒"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q22"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-023",
+      "question": {
+        "en": "Obvious signs of nail diseases will show redness, swelling, pus and is possibly painful for the client. When these conditions are present the technician should always consult with the client and",
+        "zh": "指甲疾病的明显迹象包括发红、肿胀、流脓，并可能使客户感到疼痛。出现这些情况时，美甲师应始终与客户沟通并"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "give a basic manicure or pedicure service.",
+          "zh": "提供基础手部或足部美甲护理服务。"
+        },
+        {
+          "id": "b",
+          "en": "practice safe sanitation procedures.",
+          "zh": "执行安全的卫生操作规范。"
+        },
+        {
+          "id": "c",
+          "en": "refer the client to medical experts.",
+          "zh": "将客户转介给医疗专业人员。"
+        },
+        {
+          "id": "d",
+          "en": "wear protective gloves.",
+          "zh": "佩戴防护手套。"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q23"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-024",
+      "question": {
+        "en": "Which of the following is a government agency that regulates and enforces safety and health standards?",
+        "zh": "以下哪项是负责制定并执行安全与健康标准的政府机构？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Material Safety Data Sheets",
+          "zh": "物料安全数据表"
+        },
+        {
+          "id": "b",
+          "en": "Environmental Protection Agency",
+          "zh": "环境保护署"
+        },
+        {
+          "id": "c",
+          "en": "Occupational Safety and Health Administration",
+          "zh": "职业安全与健康管理局"
+        },
+        {
+          "id": "d",
+          "en": "Universal Precaution",
+          "zh": "普遍预防措施"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q24"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-025",
+      "question": {
+        "en": "Items that cannot be disinfected are referred to as",
+        "zh": "无法消毒的物品被称为"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "reusable.",
+          "zh": "可重复使用的。"
+        },
+        {
+          "id": "b",
+          "en": "multi-use.",
+          "zh": "多次使用的。"
+        },
+        {
+          "id": "c",
+          "en": "client packs.",
+          "zh": "客户包。"
+        },
+        {
+          "id": "d",
+          "en": "single-use.",
+          "zh": "一次性使用的。"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q25"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-026",
+      "question": {
+        "en": "The largest leg bone is",
+        "zh": "最大的腿骨是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "femur.",
+          "zh": "股骨。"
+        },
+        {
+          "id": "b",
+          "en": "tibia.",
+          "zh": "胫骨。"
+        },
+        {
+          "id": "c",
+          "en": "patella.",
+          "zh": "髌骨。"
+        },
+        {
+          "id": "d",
+          "en": "fibula.",
+          "zh": "腓骨。"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q26"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-027",
+      "question": {
+        "en": "Which of the following is a chemical reaction that may produce heat?",
+        "zh": "以下哪项是可能产生热量的化学反应？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Emulsifying",
+          "zh": "乳化"
+        },
+        {
+          "id": "b",
+          "en": "Suspending",
+          "zh": "悬浮"
+        },
+        {
+          "id": "c",
+          "en": "Catalyst",
+          "zh": "催化剂"
+        },
+        {
+          "id": "d",
+          "en": "Polymerization",
+          "zh": "聚合反应"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q27"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-028",
+      "question": {
+        "en": "Which of the following are white spots on the nails?",
+        "zh": "以下哪项是指甲上的白点？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Onychocryptosis",
+          "zh": "嵌甲症"
+        },
+        {
+          "id": "b",
+          "en": "Onychophagy",
+          "zh": "咬甲癖"
+        },
+        {
+          "id": "c",
+          "en": "Leuconychia",
+          "zh": "白甲症"
+        },
+        {
+          "id": "d",
+          "en": "Onychauxis",
+          "zh": "甲肥厚症"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q28"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-029",
+      "question": {
+        "en": "During a service, disposable items contaminated by blood MUST be",
+        "zh": "在服务过程中，被血液污染的一次性用品必须被"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "disinfected.",
+          "zh": "消毒。"
+        },
+        {
+          "id": "b",
+          "en": "discarded.",
+          "zh": "丢弃。"
+        },
+        {
+          "id": "c",
+          "en": "wiped clean.",
+          "zh": "擦拭干净。"
+        },
+        {
+          "id": "d",
+          "en": "washed with soap.",
+          "zh": "用肥皂清洗。"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q29"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-030",
+      "question": {
+        "en": "What is another name for the dermis layer of the skin?",
+        "zh": "皮肤真皮层的另一个名称是什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Spiny layer",
+          "zh": "棘层"
+        },
+        {
+          "id": "b",
+          "en": "Horny layer",
+          "zh": "角质层"
+        },
+        {
+          "id": "c",
+          "en": "True skin",
+          "zh": "真皮"
+        },
+        {
+          "id": "d",
+          "en": "Basal cell",
+          "zh": "基底细胞"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q30"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-031",
+      "question": {
+        "en": "Which layer of the skin is treated by salon products?",
+        "zh": "沙龙产品作用于皮肤的哪一层？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Stratum germinativum",
+          "zh": "生发层"
+        },
+        {
+          "id": "b",
+          "en": "Stratum corneum",
+          "zh": "角质层"
+        },
+        {
+          "id": "c",
+          "en": "Stratum lucidum",
+          "zh": "透明层"
+        },
+        {
+          "id": "d",
+          "en": "Stratum mucosum",
+          "zh": "黏液层"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q31"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-032",
+      "question": {
+        "en": "Specialized ligaments of the nail serve what function?",
+        "zh": "指甲的特殊韧带具有什么功能？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Forms protective barrier to prevent bacteria from entering nail bed",
+          "zh": "形成保护屏障，防止细菌进入甲床"
+        },
+        {
+          "id": "b",
+          "en": "Attaches nail bed to the bone",
+          "zh": "将甲床连接到骨骼"
+        },
+        {
+          "id": "c",
+          "en": "Attaches nail plate to the nail bed",
+          "zh": "将甲板连接到甲床"
+        },
+        {
+          "id": "d",
+          "en": "Form tracks on either side of nail for the nail to move as it grows",
+          "zh": "在指甲两侧形成沟槽，使指甲在生长时能够移动"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q32"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-033",
+      "question": {
+        "en": "Which of the following layers of the skin is continuously shed and replaced by cells made of keratin?",
+        "zh": "皮肤的哪一层会持续脱落，并由角蛋白构成的细胞替换？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Papillary",
+          "zh": "乳头层"
+        },
+        {
+          "id": "b",
+          "en": "Horny",
+          "zh": "角质层"
+        },
+        {
+          "id": "c",
+          "en": "Spiny",
+          "zh": "棘层"
+        },
+        {
+          "id": "d",
+          "en": "TRUE",
+          "zh": "真皮层"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q33"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-034",
+      "question": {
+        "en": "The nail plate extends from the matrix to the",
+        "zh": "甲板从甲母质延伸到"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "cuticle.",
+          "zh": "甲小皮。"
+        },
+        {
+          "id": "b",
+          "en": "lunula.",
+          "zh": "甲半月。"
+        },
+        {
+          "id": "c",
+          "en": "nail bed.",
+          "zh": "甲床。"
+        },
+        {
+          "id": "d",
+          "en": "free edge.",
+          "zh": "游离缘。"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q34"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-035",
+      "question": {
+        "en": "Which of the following has a pH?",
+        "zh": "以下哪项具有pH值？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Cuticle oil",
+          "zh": "甲小皮油"
+        },
+        {
+          "id": "b",
+          "en": "Detergent",
+          "zh": "洗涤剂"
+        },
+        {
+          "id": "c",
+          "en": "Nail polish",
+          "zh": "指甲油"
+        },
+        {
+          "id": "d",
+          "en": "Monomer",
+          "zh": "单体液"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q35"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-036",
+      "question": {
+        "en": "Increased curvature nail plates have deep or sharp curves at the free edge. This shape is determined by",
+        "zh": "弧度增大的甲板在游离缘处有较深或较尖锐的弧度。这种形状由以下哪项决定"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "the matrix.",
+          "zh": "甲母质。"
+        },
+        {
+          "id": "b",
+          "en": "the nail bed.",
+          "zh": "甲床。"
+        },
+        {
+          "id": "c",
+          "en": "a bruised nail.",
+          "zh": "淤伤的指甲。"
+        },
+        {
+          "id": "d",
+          "en": "Beau’s lines.",
+          "zh": "博氏线。"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q36"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-037",
+      "question": {
+        "en": "Which of the following describes paronychia?",
+        "zh": "以下哪项描述了甲沟炎？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "It is a fungal infection of the feet.",
+          "zh": "它是一种足部真菌感染。"
+        },
+        {
+          "id": "b",
+          "en": "It is a darkening of the fingernails or toenails.",
+          "zh": "它是指甲或趾甲变暗。"
+        },
+        {
+          "id": "c",
+          "en": "It is a bacterial infection of tissues surrounding the nail.",
+          "zh": "它是甲周组织的细菌感染。"
+        },
+        {
+          "id": "d",
+          "en": "It causes tiny pits or severe roughness on the surface of the nail plate.",
+          "zh": "它会导致甲板表面出现细小凹陷或严重粗糙。"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q37"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-038",
+      "question": {
+        "en": "The growth of a healthy human nail plate is largely determined by proper diet, exercise, and physical health. The shape, width, and thickness is determined by",
+        "zh": "健康人体甲板的生长在很大程度上取决于合理的饮食、运动和身体健康状况。而其形状、宽度和厚度则取决于"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "the nail bed.",
+          "zh": "甲床。"
+        },
+        {
+          "id": "b",
+          "en": "the matrix.",
+          "zh": "甲母质。"
+        },
+        {
+          "id": "c",
+          "en": "the nail plate.",
+          "zh": "甲板。"
+        },
+        {
+          "id": "d",
+          "en": "the nail folds.",
+          "zh": "甲襞。"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q38"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-039",
+      "question": {
+        "en": "What is the name of a substance that speeds up a chemical reaction?",
+        "zh": "加速化学反应的物质名称是什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Inhibitor",
+          "zh": "抑制剂"
+        },
+        {
+          "id": "b",
+          "en": "Catalyst",
+          "zh": "催化剂"
+        },
+        {
+          "id": "c",
+          "en": "Evaporation",
+          "zh": "蒸发"
+        },
+        {
+          "id": "d",
+          "en": "Primer",
+          "zh": "底剂"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q39"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-040",
+      "question": {
+        "en": "What is the name of the muscle that turns the palm upward?",
+        "zh": "使掌心向上转动的肌肉名称是什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Flexor",
+          "zh": "屈肌"
+        },
+        {
+          "id": "b",
+          "en": "Supinator",
+          "zh": "旋后肌"
+        },
+        {
+          "id": "c",
+          "en": "Pronator",
+          "zh": "旋前肌"
+        },
+        {
+          "id": "d",
+          "en": "Extensor",
+          "zh": "伸肌"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q40"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-041",
+      "question": {
+        "en": "The application of which of the following removes dead skin during a pedicure?",
+        "zh": "在足部美甲护理中，涂抹以下哪项可以去除死皮？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Paraffin wax",
+          "zh": "石蜡"
+        },
+        {
+          "id": "b",
+          "en": "Foot soaks",
+          "zh": "泡脚液"
+        },
+        {
+          "id": "c",
+          "en": "Effleurage",
+          "zh": "轻抚法"
+        },
+        {
+          "id": "d",
+          "en": "Exfoliation scrub",
+          "zh": "去角质磨砂膏"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q01"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-042",
+      "question": {
+        "en": "When performing a pedicure service, it is extremely important to remember not to push or cut the eponychium. This is especially important for clients with diseases like",
+        "zh": "在提供足部美甲护理服务时，切记不要推压或剪除甲上皮，这一点极为重要。对于患有以下疾病的客户尤其重要"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "tinea pedis.",
+          "zh": "足癣。"
+        },
+        {
+          "id": "b",
+          "en": "diabetes.",
+          "zh": "糖尿病。"
+        },
+        {
+          "id": "c",
+          "en": "onychosis.",
+          "zh": "甲病。"
+        },
+        {
+          "id": "d",
+          "en": "agnai.",
+          "zh": "倒刺。"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q02"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-043",
+      "question": {
+        "en": "Pedicure massages are defined as rubbing, pinching, kneading, and tapping. The medical dictionary refers to these as",
+        "zh": "足部按摩被定义为揉搓、捏、揉捻和轻拍。医学词典将这些动作称为"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "metatarsal scissors.",
+          "zh": "跖骨剪。"
+        },
+        {
+          "id": "b",
+          "en": "a method of manipulation.",
+          "zh": "一种手法操作。"
+        },
+        {
+          "id": "c",
+          "en": "effleurage movement.",
+          "zh": "轻抚法动作。"
+        },
+        {
+          "id": "d",
+          "en": "fist twist compression.",
+          "zh": "拳式扭转按压。"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q03"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-044",
+      "question": {
+        "en": "Which of the following is a relaxation movement that involves pressing the skin's tissue on top of the foot during a pedicure?",
+        "zh": "以下哪项是足部美甲护理中按压脚背皮肤组织的放松手法？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Effleurage",
+          "zh": "轻抚法"
+        },
+        {
+          "id": "b",
+          "en": "Petrissage",
+          "zh": "揉捏法"
+        },
+        {
+          "id": "c",
+          "en": "Tapotement",
+          "zh": "叩击法"
+        },
+        {
+          "id": "d",
+          "en": "Friction",
+          "zh": "摩擦法"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q04"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-045",
+      "question": {
+        "en": "Acrylic nail removal is achieved by using which of the following liquids?",
+        "zh": "水晶甲的卸除需要使用以下哪种液体？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Dehydrator",
+          "zh": "干燥剂"
+        },
+        {
+          "id": "b",
+          "en": "Acetone",
+          "zh": "丙酮"
+        },
+        {
+          "id": "c",
+          "en": "Primer",
+          "zh": "底剂"
+        },
+        {
+          "id": "d",
+          "en": "Resin",
+          "zh": "树脂"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q05"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-046",
+      "question": {
+        "en": "During a client assessment for a manicure, the skin around one nail is red and swollen. What action should be taken by the practitioner?",
+        "zh": "在为手部美甲护理进行客户评估时，发现一根指甲周围的皮肤发红肿胀。从业者应采取什么行动？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Service the nails, but avoid touching the red one",
+          "zh": "为指甲提供服务，但避免触碰发红的那根"
+        },
+        {
+          "id": "b",
+          "en": "Tell the client about the disease and refer the client to a physician",
+          "zh": "告知客户这一情况，并将客户转介给医生"
+        },
+        {
+          "id": "c",
+          "en": "Use hypoallergenic products for the service",
+          "zh": "在服务中使用低致敏性产品"
+        },
+        {
+          "id": "d",
+          "en": "Reschedule after the fungus heals",
+          "zh": "待真菌感染痊愈后重新预约"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q06"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-047",
+      "question": {
+        "en": "Which of the following is used by the nail practitioner when giving a foot massage?",
+        "zh": "美甲师在进行足部按摩时会使用以下哪项？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Lotion",
+          "zh": "乳液"
+        },
+        {
+          "id": "b",
+          "en": "Scrub",
+          "zh": "磨砂膏"
+        },
+        {
+          "id": "c",
+          "en": "Antiseptic",
+          "zh": "防腐剂"
+        },
+        {
+          "id": "d",
+          "en": "Water",
+          "zh": "水"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q07"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-048",
+      "question": {
+        "en": "What implement adds shine and smoothes wavy ridges on the natural nail during a manicure?",
+        "zh": "在手部美甲护理中，哪种器械能为天然指甲增加光泽并抚平波状隆起？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Course file",
+          "zh": "粗目锉"
+        },
+        {
+          "id": "b",
+          "en": "Metal file",
+          "zh": "金属锉"
+        },
+        {
+          "id": "c",
+          "en": "Nail brush",
+          "zh": "指甲刷"
+        },
+        {
+          "id": "d",
+          "en": "Nail buffer",
+          "zh": "抛光棒"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q08"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-049",
+      "question": {
+        "en": "The application of which kind of light cures gel nails?",
+        "zh": "使用哪种光源可以固化凝胶指甲？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Ultraviolet",
+          "zh": "紫外线"
+        },
+        {
+          "id": "b",
+          "en": "Incandescent",
+          "zh": "白炽灯"
+        },
+        {
+          "id": "c",
+          "en": "Fluorescent",
+          "zh": "荧光灯"
+        },
+        {
+          "id": "d",
+          "en": "Infrared",
+          "zh": "红外线"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q09"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-050",
+      "question": {
+        "en": "Which of the following gel products is recommended for the client who wishes to have the nails easily removed?",
+        "zh": "对于希望指甲能够轻松卸除的客户，推荐使用以下哪种凝胶产品？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Building",
+          "zh": "塑形凝胶"
+        },
+        {
+          "id": "b",
+          "en": "Self-leveling",
+          "zh": "自流平凝胶"
+        },
+        {
+          "id": "c",
+          "en": "Air-dry",
+          "zh": "风干型凝胶"
+        },
+        {
+          "id": "d",
+          "en": "Soft gel",
+          "zh": "软凝胶"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q10"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-051",
+      "question": {
+        "en": "Lifting problems with enhancements are usually caused by",
+        "zh": "美甲增强产品出现翘起问题通常是由于"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "not roughing up the nail enough.",
+          "zh": "未充分打磨甲板。"
+        },
+        {
+          "id": "b",
+          "en": "improper preparation; clean and dry.",
+          "zh": "准备工作不当；未做到清洁和干燥。"
+        },
+        {
+          "id": "c",
+          "en": "not conditioning nail plate with oil.",
+          "zh": "未用油护理甲板。"
+        },
+        {
+          "id": "d",
+          "en": "removing cuticle.",
+          "zh": "去除了甲小皮。"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q11"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-052",
+      "question": {
+        "en": "Which of the following may be used to dissolve soft tissue adhering directly to the nail plate?",
+        "zh": "以下哪项可用于溶解直接粘附在甲板上的软组织？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Acetone",
+          "zh": "丙酮"
+        },
+        {
+          "id": "b",
+          "en": "Nail bleach",
+          "zh": "指甲漂白剂"
+        },
+        {
+          "id": "c",
+          "en": "Cuticle remover",
+          "zh": "甲小皮软化剂"
+        },
+        {
+          "id": "d",
+          "en": "Nail conditioner",
+          "zh": "指甲护理素"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q12"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-053",
+      "question": {
+        "en": "Which of the following implements are disposable after using on a client?",
+        "zh": "以下哪种器械在为客户使用后需要丢弃？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Abrasive file",
+          "zh": "磨甲锉"
+        },
+        {
+          "id": "b",
+          "en": "Clippers",
+          "zh": "指甲剪"
+        },
+        {
+          "id": "c",
+          "en": "Metal pusher",
+          "zh": "金属推皮棒"
+        },
+        {
+          "id": "d",
+          "en": "Nippers",
+          "zh": "甲钳"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q13"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-054",
+      "question": {
+        "en": "During the creation of the artificial nail, which of the following speeds up the chemical process?",
+        "zh": "在制作人工甲的过程中，以下哪项可以加速化学反应过程？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Initiator",
+          "zh": "引发剂"
+        },
+        {
+          "id": "b",
+          "en": "Catalyst",
+          "zh": "催化剂"
+        },
+        {
+          "id": "c",
+          "en": "Polymerization",
+          "zh": "聚合反应"
+        },
+        {
+          "id": "d",
+          "en": "Acrylic liquid",
+          "zh": "水晶甲液"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q14"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-055",
+      "question": {
+        "en": "Which of the following is used to cleanse and soften the nails during a manicure?",
+        "zh": "在手部美甲护理中，以下哪项用于清洁并软化指甲？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Fingerbowl",
+          "zh": "浸指碗"
+        },
+        {
+          "id": "b",
+          "en": "Warming lotion",
+          "zh": "加温乳液"
+        },
+        {
+          "id": "c",
+          "en": "Cuticle pusher",
+          "zh": "推皮棒"
+        },
+        {
+          "id": "d",
+          "en": "Hand sanitizer",
+          "zh": "免洗洗手液"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q15"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-056",
+      "question": {
+        "en": "Which of the following abrasive files is recommended for shaping nails during a manicure?",
+        "zh": "在手部美甲护理中，推荐使用以下哪种磨甲锉修整指甲形状？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Medium grit",
+          "zh": "中目"
+        },
+        {
+          "id": "b",
+          "en": "Electric",
+          "zh": "电动锉"
+        },
+        {
+          "id": "c",
+          "en": "Coarse grit",
+          "zh": "粗目"
+        },
+        {
+          "id": "d",
+          "en": "Nail buffer",
+          "zh": "抛光棒"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q16"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-057",
+      "question": {
+        "en": "Which of the following is one of the safest and most common solvents used in the salon?",
+        "zh": "以下哪项是沙龙中最安全、最常用的溶剂之一？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Primer",
+          "zh": "底剂"
+        },
+        {
+          "id": "b",
+          "en": "Acrylate",
+          "zh": "丙烯酸酯"
+        },
+        {
+          "id": "c",
+          "en": "Acetone",
+          "zh": "丙酮"
+        },
+        {
+          "id": "d",
+          "en": "Enamel",
+          "zh": "指甲油"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q17"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-058",
+      "question": {
+        "en": "Which of the following is one of the three basic ingredients in the acrylic hardening process?",
+        "zh": "以下哪项是水晶甲硬化过程中三种基本成分之一？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Primer",
+          "zh": "底剂"
+        },
+        {
+          "id": "b",
+          "en": "Adhesive",
+          "zh": "粘合剂"
+        },
+        {
+          "id": "c",
+          "en": "Monomer",
+          "zh": "单体液"
+        },
+        {
+          "id": "d",
+          "en": "Hardener",
+          "zh": "硬化剂"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q18"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-059",
+      "question": {
+        "en": "Which of the following smoothes calluses on the foot?",
+        "zh": "以下哪项可以磨平足部胼胝？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Foot file",
+          "zh": "足锉"
+        },
+        {
+          "id": "b",
+          "en": "Towels",
+          "zh": "毛巾"
+        },
+        {
+          "id": "c",
+          "en": "Warm water",
+          "zh": "温水"
+        },
+        {
+          "id": "d",
+          "en": "Curette",
+          "zh": "刮匙"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q19"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-060",
+      "question": {
+        "en": "After the pedicure is completed, the practitioner's hand washing should last a minimum of how many seconds?",
+        "zh": "足部美甲护理完成后，从业者洗手时间至少应持续多少秒？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "5",
+          "zh": "5"
+        },
+        {
+          "id": "b",
+          "en": "10",
+          "zh": "10"
+        },
+        {
+          "id": "c",
+          "en": "15",
+          "zh": "15"
+        },
+        {
+          "id": "d",
+          "en": "30",
+          "zh": "30"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q20"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-061",
+      "question": {
+        "en": "Which of the following natural nail filing techniques may cause ingrown nails?",
+        "zh": "以下哪种天然指甲锉磨方式可能导致嵌甲？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Back and forth",
+          "zh": "来回锉磨"
+        },
+        {
+          "id": "b",
+          "en": "Into the corners",
+          "zh": "锉入两侧甲角"
+        },
+        {
+          "id": "c",
+          "en": "Zigzag motion",
+          "zh": "之字形动作"
+        },
+        {
+          "id": "d",
+          "en": "After the soaking in the fingerbowl",
+          "zh": "在浸指碗中浸泡之后"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q21"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-062",
+      "question": {
+        "en": "A practitioner should refuse to service a client when which of the following is present?",
+        "zh": "出现以下哪种情况时，从业者应拒绝为客户提供服务？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Infection, inflammation, or swelling",
+          "zh": "感染、炎症或肿胀"
+        },
+        {
+          "id": "b",
+          "en": "Discoloration and bruising",
+          "zh": "变色和淤伤"
+        },
+        {
+          "id": "c",
+          "en": "Fragile, soft, and curved nails",
+          "zh": "脆弱、柔软且弯曲的指甲"
+        },
+        {
+          "id": "d",
+          "en": "Ridges, white spots, or splits",
+          "zh": "脊纹、白点或裂纹"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q22"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-063",
+      "question": {
+        "en": "Which of the following massage movements is used on the bottom of the foot to stimulate blood flow?",
+        "zh": "以下哪种按摩手法用于足底以刺激血液循环？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Effleurage",
+          "zh": "轻抚法"
+        },
+        {
+          "id": "b",
+          "en": "Petrissage",
+          "zh": "揉捏法"
+        },
+        {
+          "id": "c",
+          "en": "Tapotement",
+          "zh": "叩击法"
+        },
+        {
+          "id": "d",
+          "en": "Friction",
+          "zh": "摩擦法"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q23"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-064",
+      "question": {
+        "en": "Which one of the following elements on a client's nail consultation form helps protect the practitioner from liability?",
+        "zh": "客户美甲咨询表上的哪项内容有助于保护从业者免于承担责任？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Medical history",
+          "zh": "病史"
+        },
+        {
+          "id": "b",
+          "en": "Client referral",
+          "zh": "客户转介"
+        },
+        {
+          "id": "c",
+          "en": "Service fee",
+          "zh": "服务费"
+        },
+        {
+          "id": "d",
+          "en": "Communication preferences",
+          "zh": "沟通偏好"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q24"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-065",
+      "question": {
+        "en": "Which of the following is the bonding agent that secures the nail tip to the natural nail?",
+        "zh": "以下哪项是将甲片固定到天然指甲上的粘合剂？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Fabric wrap",
+          "zh": "织物包裹"
+        },
+        {
+          "id": "b",
+          "en": "Primer",
+          "zh": "底剂"
+        },
+        {
+          "id": "c",
+          "en": "Adhesive",
+          "zh": "粘合剂"
+        },
+        {
+          "id": "d",
+          "en": "Monomer",
+          "zh": "单体液"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q25"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-066",
+      "question": {
+        "en": "The inhibition layer on gel nails is removed using",
+        "zh": "凝胶甲上的阻聚层应使用以下哪项去除"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "a gel sealer.",
+          "zh": "凝胶封层剂。"
+        },
+        {
+          "id": "b",
+          "en": "an initiator.",
+          "zh": "引发剂。"
+        },
+        {
+          "id": "c",
+          "en": "an activator.",
+          "zh": "活化剂。"
+        },
+        {
+          "id": "d",
+          "en": "a gel cleanser.",
+          "zh": "凝胶清洁剂。"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q26"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-067",
+      "question": {
+        "en": "The process of creating beautiful sculptured nails is the combination of monomer liquid and",
+        "zh": "打造精美雕塑指甲的过程是单体液与以下哪项的结合"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "polymerization.",
+          "zh": "聚合反应。"
+        },
+        {
+          "id": "b",
+          "en": "fiberglass.",
+          "zh": "玻璃纤维。"
+        },
+        {
+          "id": "c",
+          "en": "viscosity.",
+          "zh": "黏度。"
+        },
+        {
+          "id": "d",
+          "en": "polymer powder.",
+          "zh": "聚合物粉。"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q27"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-068",
+      "question": {
+        "en": "When giving a pedicure what solution should never be added while the client's feet are in the spa bath?",
+        "zh": "在进行足部美甲护理时，客户双脚浸泡在足浴中时绝不应添加哪种溶液？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Antiseptic",
+          "zh": "防腐剂"
+        },
+        {
+          "id": "b",
+          "en": "Liquid Soap",
+          "zh": "液体皂"
+        },
+        {
+          "id": "c",
+          "en": "Disinfectant",
+          "zh": "消毒剂"
+        },
+        {
+          "id": "d",
+          "en": "Foot soak",
+          "zh": "泡脚液"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q28"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-069",
+      "question": {
+        "en": "Which of the following should be used to apply cuticle remover?",
+        "zh": "以下哪项应用于涂抹甲小皮软化剂？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Three-way nail buffer",
+          "zh": "三面抛光棒"
+        },
+        {
+          "id": "b",
+          "en": "Cuticle nippers",
+          "zh": "甲小皮钳"
+        },
+        {
+          "id": "c",
+          "en": "Cotton tipped wooden stick",
+          "zh": "棉头木棒"
+        },
+        {
+          "id": "d",
+          "en": "Nail brush",
+          "zh": "指甲刷"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q29"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-070",
+      "question": {
+        "en": "The massage movement that should be perfected and expertly used for the purpose of relaxing the client during a pedicure is called",
+        "zh": "在足部美甲护理中，为使客户放松而应熟练掌握并运用的按摩手法被称为"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "tapotement.",
+          "zh": "叩击法。"
+        },
+        {
+          "id": "b",
+          "en": "friction.",
+          "zh": "摩擦法。"
+        },
+        {
+          "id": "c",
+          "en": "effleurage.",
+          "zh": "轻抚法。"
+        },
+        {
+          "id": "d",
+          "en": "petrissage.",
+          "zh": "揉捏法。"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q30"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-071",
+      "question": {
+        "en": "For professionals who offer nail enhancement services, the purchase of an electric file is an asset. When choosing you will want to consider the machine's torque. Torque is referred to as the machine's",
+        "zh": "对于提供美甲增强服务的从业者来说，购置一台电动磨甲机很有帮助。选购时需要考虑机器的扭矩。扭矩指的是机器的"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "speed.",
+          "zh": "转速。"
+        },
+        {
+          "id": "b",
+          "en": "usage.",
+          "zh": "用途。"
+        },
+        {
+          "id": "c",
+          "en": "maintenance.",
+          "zh": "保养。"
+        },
+        {
+          "id": "d",
+          "en": "power.",
+          "zh": "动力。"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q31"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-072",
+      "question": {
+        "en": "Which of the following services is recommended for dry skin and nails?",
+        "zh": "以下哪项服务推荐用于干性皮肤和指甲？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Warm oil/lotion",
+          "zh": "热油/乳液护理"
+        },
+        {
+          "id": "b",
+          "en": "Reflexology",
+          "zh": "反射疗法"
+        },
+        {
+          "id": "c",
+          "en": "Nail conditioner",
+          "zh": "指甲护理素"
+        },
+        {
+          "id": "d",
+          "en": "Massage lotion",
+          "zh": "按摩乳液"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q32"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-073",
+      "question": {
+        "en": "The nail technician is ready to set up for the next client, who is getting nail tip enhancements. The tip adhesive used to secure the tip to the client's natural nail is called",
+        "zh": "美甲师准备为下一位客户提供甲片增强服务。用于将甲片固定到客户天然指甲上的粘合剂被称为"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "curette.",
+          "zh": "刮匙。"
+        },
+        {
+          "id": "b",
+          "en": "adhesive bonding agent.",
+          "zh": "粘合剂。"
+        },
+        {
+          "id": "c",
+          "en": "primers.",
+          "zh": "底剂。"
+        },
+        {
+          "id": "d",
+          "en": "repair patch.",
+          "zh": "修补贴片。"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q33"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-074",
+      "question": {
+        "en": "Removing residual oil on the nail plate before the application of a nail tip uses which of the following products?",
+        "zh": "在贴甲片之前去除甲板上残留的油脂需要使用以下哪种产品？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Overlay",
+          "zh": "覆盖层"
+        },
+        {
+          "id": "b",
+          "en": "Resin",
+          "zh": "树脂"
+        },
+        {
+          "id": "c",
+          "en": "Accelerator",
+          "zh": "促进剂"
+        },
+        {
+          "id": "d",
+          "en": "Dehydrator",
+          "zh": "干燥剂"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q34"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-075",
+      "question": {
+        "en": "Which of the following implements is used to shape and reduce the length of the nail plate?",
+        "zh": "以下哪种器械用于修形并缩短甲板长度？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Buffer",
+          "zh": "抛光棒"
+        },
+        {
+          "id": "b",
+          "en": "Pusher",
+          "zh": "推皮棒"
+        },
+        {
+          "id": "c",
+          "en": "Nipper",
+          "zh": "甲钳"
+        },
+        {
+          "id": "d",
+          "en": "File",
+          "zh": "指甲锉"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q35"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-076",
+      "question": {
+        "en": "After a nail service is completed, single-use implements are placed in which of the following receptacles?",
+        "zh": "美甲服务完成后，一次性器械应放入以下哪种容器？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Trash container",
+          "zh": "垃圾桶"
+        },
+        {
+          "id": "b",
+          "en": "Cleaning solution",
+          "zh": "清洁溶液"
+        },
+        {
+          "id": "c",
+          "en": "Station drawer",
+          "zh": "工作台抽屉"
+        },
+        {
+          "id": "d",
+          "en": "Sealed plastic bag with a biohazard sticker",
+          "zh": "贴有生物危害标志的密封塑料袋"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q36"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-077",
+      "question": {
+        "en": "Which of the following implements can be used to loosen the cuticle?",
+        "zh": "以下哪种器械可用于松开甲小皮？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Wooden pusher",
+          "zh": "木质推皮棒"
+        },
+        {
+          "id": "b",
+          "en": "Nippers",
+          "zh": "甲钳"
+        },
+        {
+          "id": "c",
+          "en": "Nail buffer",
+          "zh": "抛光棒"
+        },
+        {
+          "id": "d",
+          "en": "Metal spatula",
+          "zh": "金属刮刀"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q37"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-078",
+      "question": {
+        "en": "While smoothing the nail plate, the buffer should be lifted to prevent",
+        "zh": "在抛光甲板时，应抬起抛光棒以防止"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "beveling.",
+          "zh": "斜边。"
+        },
+        {
+          "id": "b",
+          "en": "yellowing.",
+          "zh": "发黄。"
+        },
+        {
+          "id": "c",
+          "en": "scratches.",
+          "zh": "划痕。"
+        },
+        {
+          "id": "d",
+          "en": "burning.",
+          "zh": "灼伤。"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q38"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-079",
+      "question": {
+        "en": "Which of the following supplies remove discoloration under the free edge?",
+        "zh": "以下哪种用品可以去除游离缘下方的变色？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Polish remover",
+          "zh": "卸甲水"
+        },
+        {
+          "id": "b",
+          "en": "Nail bleach",
+          "zh": "指甲漂白剂"
+        },
+        {
+          "id": "c",
+          "en": "Sunscreen stabilizer",
+          "zh": "防晒稳定剂"
+        },
+        {
+          "id": "d",
+          "en": "Base coat",
+          "zh": "底油"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q39"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-080",
+      "question": {
+        "en": "If a client's light-cured nails break often, gel with which of the following should be applied to add strength to the nail?",
+        "zh": "如果客户的光固化指甲经常断裂，应涂抹含有以下哪种成分的凝胶来增强指甲强度？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Fabric",
+          "zh": "织物"
+        },
+        {
+          "id": "b",
+          "en": "Monomer",
+          "zh": "单体液"
+        },
+        {
+          "id": "c",
+          "en": "Polymers",
+          "zh": "聚合物"
+        },
+        {
+          "id": "d",
+          "en": "Accelerator",
+          "zh": "促进剂"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q40"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-081",
+      "question": {
+        "en": "Dry, flaky skin and calluses can be softened during a pedicure by using",
+        "zh": "在足部美甲护理中，可使用以下哪项软化干燥脱皮的皮肤和胼胝"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "scrubs.",
+          "zh": "磨砂膏。"
+        },
+        {
+          "id": "b",
+          "en": "powder.",
+          "zh": "粉末。"
+        },
+        {
+          "id": "c",
+          "en": "acetone.",
+          "zh": "丙酮。"
+        },
+        {
+          "id": "d",
+          "en": "antiseptic.",
+          "zh": "防腐剂。"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q41"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-082",
+      "question": {
+        "en": "Which of the following types of lights are used in the curing of artificial nail products?",
+        "zh": "以下哪种光源用于固化人工甲产品？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Fluorescent",
+          "zh": "荧光灯"
+        },
+        {
+          "id": "b",
+          "en": "Incandescent",
+          "zh": "白炽灯"
+        },
+        {
+          "id": "c",
+          "en": "LED",
+          "zh": "LED灯"
+        },
+        {
+          "id": "d",
+          "en": "Ultraviolet",
+          "zh": "紫外线灯"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q42"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-083",
+      "question": {
+        "en": "Which of the following products should be added to the pedicure bath?",
+        "zh": "以下哪种产品应添加到足浴中？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Lotions",
+          "zh": "乳液"
+        },
+        {
+          "id": "b",
+          "en": "Disinfectant",
+          "zh": "消毒剂"
+        },
+        {
+          "id": "c",
+          "en": "Foot soaks",
+          "zh": "泡脚液"
+        },
+        {
+          "id": "d",
+          "en": "Exfoliating scrub",
+          "zh": "去角质磨砂膏"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q43"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-084",
+      "question": {
+        "en": "Which of the following is applied before the primer to remove moisture and oils from the plate before the application of acrylic nails?",
+        "zh": "在涂抹底剂之前，使用以下哪项去除甲板上的水分和油脂，以便进行水晶甲护理？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Antiseptic",
+          "zh": "防腐剂"
+        },
+        {
+          "id": "b",
+          "en": "Dehydrator",
+          "zh": "干燥剂"
+        },
+        {
+          "id": "c",
+          "en": "Adhesive",
+          "zh": "粘合剂"
+        },
+        {
+          "id": "d",
+          "en": "Monomer liquid",
+          "zh": "单体液"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q44"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-085",
+      "question": {
+        "en": "With a basic manicure, care should be taken when filing the fingernails. Fingernails are thinner and more fragile and should be filed",
+        "zh": "在基础手部美甲护理中，修剪指甲时应格外小心。指甲较薄且更脆弱，修剪时应"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "in any direction after soaking.",
+          "zh": "浸泡后朝任意方向锉磨。"
+        },
+        {
+          "id": "b",
+          "en": "right to center, then left to center.",
+          "zh": "从右侧锉向中间，再从左侧锉向中间。"
+        },
+        {
+          "id": "c",
+          "en": "right to center, then left to center, nails should be wet.",
+          "zh": "从右侧锉向中间，再从左侧锉向中间，指甲应保持湿润。"
+        },
+        {
+          "id": "d",
+          "en": "in a back and forth sawing motion.",
+          "zh": "以来回拉锯的方式锉磨。"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q45"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-086",
+      "question": {
+        "en": "Disposable nail implements are discarded because they",
+        "zh": "一次性美甲器械之所以被丢弃，是因为它们"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "are unable to be disinfected and reused.",
+          "zh": "无法被消毒并重复使用。"
+        },
+        {
+          "id": "b",
+          "en": "are inexpensive and easily replaceable.",
+          "zh": "价格低廉且易于更换。"
+        },
+        {
+          "id": "c",
+          "en": "are made from recyclable substances.",
+          "zh": "由可回收材料制成。"
+        },
+        {
+          "id": "d",
+          "en": "contain nonpathogens.",
+          "zh": "含有非致病性微生物。"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q46"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-087",
+      "question": {
+        "en": "What treatment is considered a luxurious add-on that traps moisture in the skin and increases circulation?",
+        "zh": "哪种护理被视为一种奢华的附加项目，能够锁住皮肤水分并促进血液循环？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Conditioning oil manicure",
+          "zh": "护理油手部美甲护理"
+        },
+        {
+          "id": "b",
+          "en": "Petrissage",
+          "zh": "揉捏法"
+        },
+        {
+          "id": "c",
+          "en": "Aromatherapy",
+          "zh": "芳香疗法"
+        },
+        {
+          "id": "d",
+          "en": "Paraffin wax treatment",
+          "zh": "石蜡护理"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q47"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-088",
+      "question": {
+        "en": "Which part of the nail tip has the position stop to align with the natural nail?",
+        "zh": "甲片的哪个部位设有定位止点，用于与天然指甲对齐？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Wrap",
+          "zh": "包裹层"
+        },
+        {
+          "id": "b",
+          "en": "Free edge",
+          "zh": "游离缘"
+        },
+        {
+          "id": "c",
+          "en": "Tip",
+          "zh": "尖端"
+        },
+        {
+          "id": "d",
+          "en": "Well",
+          "zh": "贴合槽"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q48"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-089",
+      "question": {
+        "en": "Abrasive files are used to remove and shape which of the following?",
+        "zh": "磨甲锉用于去除并修整以下哪项？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Lunula",
+          "zh": "甲半月"
+        },
+        {
+          "id": "b",
+          "en": "Nail bed",
+          "zh": "甲床"
+        },
+        {
+          "id": "c",
+          "en": "Cuticle",
+          "zh": "甲小皮"
+        },
+        {
+          "id": "d",
+          "en": "Free edge",
+          "zh": "游离缘"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q49"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-090",
+      "question": {
+        "en": "When using an electric file, the result of RPMs adjusted too high is",
+        "zh": "使用电动磨甲机时，若转速调得过高，会导致"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "diminished heat.",
+          "zh": "热量减少。"
+        },
+        {
+          "id": "b",
+          "en": "a dull finish.",
+          "zh": "表面暗淡。"
+        },
+        {
+          "id": "c",
+          "en": "a perfect finish.",
+          "zh": "完美的表面。"
+        },
+        {
+          "id": "d",
+          "en": "excessive heat.",
+          "zh": "过热。"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q50"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-091",
+      "question": {
+        "en": "A client has chronic cold hands with dry skin. Which of the following treatments is recommended for this condition?",
+        "zh": "一位客户长期手部冰凉且皮肤干燥。针对这种情况，推荐以下哪种护理？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Aromatherapy",
+          "zh": "芳香疗法"
+        },
+        {
+          "id": "b",
+          "en": "Paraffin",
+          "zh": "石蜡护理"
+        },
+        {
+          "id": "c",
+          "en": "Exfoliation",
+          "zh": "去角质"
+        },
+        {
+          "id": "d",
+          "en": "Mask",
+          "zh": "手膜护理"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q51"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-092",
+      "question": {
+        "en": "Since massages increase circulation, which medical condition will need a physician's approval before a massage service can be provided?",
+        "zh": "由于按摩会促进血液循环，以下哪种病症在提供按摩服务前需要获得医生批准？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Nail disorder",
+          "zh": "指甲疾患"
+        },
+        {
+          "id": "b",
+          "en": "Onychophagy",
+          "zh": "咬甲癖"
+        },
+        {
+          "id": "c",
+          "en": "High blood pressure",
+          "zh": "高血压"
+        },
+        {
+          "id": "d",
+          "en": "Onychorrhexis",
+          "zh": "甲纵裂"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q52"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-093",
+      "question": {
+        "en": "Acrylic nail applications use which of the following products to remove moisture and oil from the nail plate?",
+        "zh": "水晶甲护理使用以下哪种产品去除甲板上的水分和油脂？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Primer",
+          "zh": "底剂"
+        },
+        {
+          "id": "b",
+          "en": "Dehydrator",
+          "zh": "干燥剂"
+        },
+        {
+          "id": "c",
+          "en": "Polymer",
+          "zh": "聚合物粉"
+        },
+        {
+          "id": "d",
+          "en": "Monomer",
+          "zh": "单体液"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q53"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-094",
+      "question": {
+        "en": "Reusable forms are made of aluminum or",
+        "zh": "可重复使用的甲模由铝或以下哪种材料制成"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "plastic.",
+          "zh": "塑料。"
+        },
+        {
+          "id": "b",
+          "en": "paper.",
+          "zh": "纸。"
+        },
+        {
+          "id": "c",
+          "en": "Mylar.",
+          "zh": "聚酯薄膜。"
+        },
+        {
+          "id": "d",
+          "en": "ABS.",
+          "zh": "ABS塑料。"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q54"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-095",
+      "question": {
+        "en": "Which one of the following products is applied just before colored nail polish?",
+        "zh": "以下哪种产品在涂抹彩色指甲油之前使用？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Sealer",
+          "zh": "封层剂"
+        },
+        {
+          "id": "b",
+          "en": "Nail dehydrator",
+          "zh": "指甲干燥剂"
+        },
+        {
+          "id": "c",
+          "en": "Base coat",
+          "zh": "底油"
+        },
+        {
+          "id": "d",
+          "en": "Nail oil",
+          "zh": "护甲油"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q55"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-096",
+      "question": {
+        "en": "Debris is removed from under the free edge during the manicure using which of the following nail implements?",
+        "zh": "在手部美甲护理中，使用以下哪种器械清除游离缘下方的碎屑？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Clippers",
+          "zh": "指甲剪"
+        },
+        {
+          "id": "b",
+          "en": "Pusher",
+          "zh": "推皮棒"
+        },
+        {
+          "id": "c",
+          "en": "File",
+          "zh": "指甲锉"
+        },
+        {
+          "id": "d",
+          "en": "Brush",
+          "zh": "指甲刷"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q56"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-097",
+      "question": {
+        "en": "Which of the following relaxing massage movements used in manicures and pedicures are slow, rhythmic, and stroking?",
+        "zh": "在手部和足部美甲护理中使用的以下哪种放松按摩手法是缓慢、有节奏且抚摸式的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Tapotement",
+          "zh": "叩击法"
+        },
+        {
+          "id": "b",
+          "en": "Vibration",
+          "zh": "振动法"
+        },
+        {
+          "id": "c",
+          "en": "Petrissage",
+          "zh": "揉捏法"
+        },
+        {
+          "id": "d",
+          "en": "Effleurage",
+          "zh": "轻抚法"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q57"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-098",
+      "question": {
+        "en": "Which of the following nail implements and supplies needs to be disinfected before and after every service?",
+        "zh": "以下哪种美甲器械和用品需要在每次服务前后都进行消毒？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Metal pusher",
+          "zh": "金属推皮棒"
+        },
+        {
+          "id": "b",
+          "en": "Three or four way buffer",
+          "zh": "三面或四面抛光棒"
+        },
+        {
+          "id": "c",
+          "en": "Towel",
+          "zh": "毛巾"
+        },
+        {
+          "id": "d",
+          "en": "Arm cushion",
+          "zh": "手臂垫"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q58"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-099",
+      "question": {
+        "en": "Which of the following contains the information needed for a successful nail service?",
+        "zh": "以下哪项包含成功完成美甲服务所需的信息？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Salon menu",
+          "zh": "沙龙服务菜单"
+        },
+        {
+          "id": "b",
+          "en": "Booking appointments",
+          "zh": "预约安排"
+        },
+        {
+          "id": "c",
+          "en": "Consultation area",
+          "zh": "咨询区"
+        },
+        {
+          "id": "d",
+          "en": "Client card",
+          "zh": "客户档案卡"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q59"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-100",
+      "question": {
+        "en": "UV gels require which of the following to improve adhesion to the nail?",
+        "zh": "UV凝胶需要以下哪项来提高其与指甲的附着力？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Primer",
+          "zh": "底剂"
+        },
+        {
+          "id": "b",
+          "en": "Sealer",
+          "zh": "封层剂"
+        },
+        {
+          "id": "c",
+          "en": "Brush",
+          "zh": "刷子"
+        },
+        {
+          "id": "d",
+          "en": "Accelerator",
+          "zh": "促进剂"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q60"
+        }
+      ]
+    }
+  ]
+}

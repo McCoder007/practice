@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-08-26T19:44:24.361Z",
+  "totalQuestions": 100,
+  "bilingualEntries": 100,
+  "batchCounts": [
+    {
+      "filename": "01-scientific-concepts-001-020.json",
+      "entries": 20
+    },
+    {
+      "filename": "02-scientific-concepts-021-040.json",
+      "entries": 20
+    },
+    {
+      "filename": "03-procedures-041-060.json",
+      "entries": 20
+    },
+    {
+      "filename": "04-procedures-061-080.json",
+      "entries": 20
+    },
+    {
+      "filename": "05-procedures-081-100.json",
+      "entries": 20
+    }
+  ],
+  "bannedPhraseHits": 0,
+  "lengthViolations": 0,
+  "possibleRestatements": 0,
+  "sharedQualityFlags": 0,
+  "longestExplanationWords": 26,
+  "longestLockPointWords": 10,
+  "factualReviewNotes": "phase-3-review-notes.json"
+}

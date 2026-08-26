@@ -1,0 +1,127 @@
+{
+  "author": "codex-authoring-run-2026-08-26-phase-3",
+  "authoredAt": "2026-08-26",
+  "authoritySource": "Milady Standard Nail Technology 8th Edition",
+  "entries": {
+    "official-practice-021": {
+      "why": ["Porous single-use items can hold germs where disinfectant cannot safely reach. They must be discarded after every client.", "多孔的一次性用品会在消毒剂难以安全到达的部位藏住微生物，因此每位客户使用后都必须丢弃。"],
+      "lock": ["porous = single use; hard reusable items may be disinfected.", "多孔 = 一次性；坚硬的可重复使用用品可进行消毒。"],
+      "relation": "contrast",
+      "refs": [["Milady Standard Foundations - Infection Control - Multiuse and Single-Use Items", "121-122", 616]]
+    },
+    "official-practice-022": {
+      "why": ["A parasite lives on or inside another organism and takes nourishment from it. That supporting organism is called the host.", "parasite（寄生虫）生活在另一生物体表面或体内，并从中获取营养。提供生存条件的生物称为 host（宿主）。"],
+      "lock": ["parasite depends on a host.", "parasite 依赖 host 生存。"],
+      "relation": "relationship",
+      "refs": [["Milady Standard Foundations - Infection Control - Parasites", "108", 603]]
+    },
+    "official-practice-023": {
+      "why": ["Redness, swelling, pus, and pain can signal infection or serious tissue irritation. Nail technicians must stop the service and refer the client for medical care.", "发红、肿胀、流脓和疼痛可能表示感染或严重组织刺激。美甲师必须停止服务，并转介客户接受医疗处理。"],
+      "lock": ["infection signs = no service; medical referral.", "出现感染迹象 = 不提供服务；转介医疗人员。"],
+      "relation": "safety-rule",
+      "refs": [["Nail Structure, Disorders, and Diseases - Diseases of the Nail", "108", 132]]
+    },
+    "official-practice-024": {
+      "why": ["OSHA sets and enforces workplace safety and health standards. It also requires employers to communicate chemical hazards and provide required protection.", "OSHA（职业安全与健康管理局）制定并执行工作场所安全与健康标准，也要求雇主说明化学危害并提供必要防护。"],
+      "lock": ["OSHA = workplace safety and health enforcement.", "OSHA = 执行工作场所安全与健康标准。"],
+      "relation": "function",
+      "refs": [["Milady Standard Foundations - Infection Control - Federal Agencies", "89", 584]]
+    },
+    "official-practice-025": {
+      "why": ["An item that cannot be cleaned and disinfected safely cannot move between clients. It is classified as single-use and discarded after service.", "无法安全清洁和消毒的用品不能在客户之间重复使用，应归为一次性用品，并在服务后丢弃。"],
+      "lock": ["cannot disinfect = single use.", "无法消毒 = 一次性使用。"],
+      "relation": "safety-rule",
+      "refs": [["Milady Standard Foundations - Infection Control - Single-Use Items", "122", 617]]
+    },
+    "official-practice-026": {
+      "why": ["The femur runs from the hip to the knee. It is the longest and strongest bone in the body and the largest bone of the leg.", "femur（股骨）从髋部延伸到膝部，是人体最长、最强壮的骨骼，也是腿部最大的骨骼。"],
+      "lock": ["femur = thigh bone, hip to knee.", "femur = 从髋部到膝部的大腿骨。"],
+      "relation": "location",
+      "refs": [["General Anatomy and Physiology - Bones of the Leg and Foot", "25-26", 49]]
+    },
+    "official-practice-027": {
+      "why": ["Polymerization links many small monomer molecules into long polymer chains. This curing reaction releases energy and may produce noticeable heat.", "polymerization（聚合反应）把许多小的单体分子连接成长聚合物链。固化时会释放能量，并可能产生明显热量。"],
+      "lock": ["polymerization = monomers join and release heat.", "polymerization = 单体连接并释放热量。"],
+      "relation": "process",
+      "refs": [["Monomer Liquid and Polymer Powder Nail Enhancements - Polymerization", "322-323", 346]]
+    },
+    "official-practice-028": {
+      "why": ["Leukonychia appears as white spots on the nail plate, often after minor injury to matrix cells. The spots grow forward with the plate.", "leukonychia（白甲症）表现为甲板白点，常由甲母质细胞轻微受伤引起；白点会随甲板向前生长。"],
+      "lock": ["leukonychia = white spots that grow out.", "leukonychia = 会随指甲长出的白点。"],
+      "relation": "recognition",
+      "refs": [["Nail Structure, Disorders, and Diseases - Nail Disorders", "105", 129]]
+    },
+    "official-practice-029": {
+      "why": ["A blood-contaminated disposable item cannot be disinfected for reuse. Place it in the proper waste container immediately after the service.", "被血液污染的一次性用品不能消毒后重复使用，应在服务后立即放入规定的废弃物容器。"],
+      "lock": ["blood-contaminated disposable = discard safely.", "沾血的一次性用品 = 安全丢弃。"],
+      "relation": "safety-rule",
+      "refs": [["Milady Standard Foundations - Infection Control - Blood Exposure Procedure", "126-127", 621]]
+    },
+    "official-practice-030": {
+      "why": ["The dermis is called true skin because it contains living tissue, nerves, blood vessels, glands, and support structures beneath the epidermis.", "dermis（真皮）又称 true skin，因为它位于表皮下方，含有活体组织、神经、血管、腺体和支撑结构。"],
+      "lock": ["dermis = living true skin below epidermis.", "dermis = 表皮下方的活体真皮。"],
+      "relation": "location",
+      "refs": [["Skin Structure, Disorders, and Diseases - Dermis", "64-66", 88]]
+    },
+    "official-practice-031": {
+      "why": ["Salon products act mainly on the stratum corneum, the outer layer of dead keratin cells. They should not reach living skin layers.", "沙龙产品主要作用于 stratum corneum（角质层），即最外层的死亡角蛋白细胞，不应进入活体皮肤层。"],
+      "lock": ["salon products act on the stratum corneum.", "沙龙产品作用于 stratum corneum。"],
+      "relation": "location",
+      "refs": [["Skin Structure, Disorders, and Diseases - Epidermis", "61-63", 85]]
+    },
+    "official-practice-032": {
+      "why": ["Specialized nail ligaments connect the nail bed and matrix to the underlying bone. This support keeps the nail unit securely positioned.", "指甲的特殊韧带把甲床和甲母质连接到下方骨骼，为甲单位提供稳固支撑。"],
+      "lock": ["specialized ligaments anchor nail bed to bone.", "特殊韧带把甲床固定到骨骼。"],
+      "relation": "function",
+      "refs": [["Nail Structure, Disorders, and Diseases - Specialized Ligaments", "102", 126]]
+    },
+    "official-practice-033": {
+      "why": ["The horny layer, or stratum corneum, contains dead keratin cells. These surface cells are continually shed and replaced from below.", "horny layer（角质层）即 stratum corneum，由死亡的角蛋白细胞组成；表面细胞持续脱落，并由下层细胞补充。"],
+      "lock": ["horny layer = stratum corneum = shedding surface.", "horny layer = stratum corneum = 持续脱落的表层。"],
+      "relation": "process",
+      "refs": [["Skin Structure, Disorders, and Diseases - Layers of the Epidermis", "62", 86]]
+    },
+    "official-practice-034": {
+      "why": ["The nail plate is produced in the matrix and moves forward over the nail bed. Its distal end extends beyond the fingertip as the free edge.", "甲板在甲母质中形成，并沿甲床向前移动；末端超过指尖的部分就是 free edge（游离缘）。"],
+      "lock": ["nail plate path: matrix to free edge.", "甲板路径：从甲母质到游离缘。"],
+      "relation": "sequence",
+      "refs": [["Nail Structure, Disorders, and Diseases - Nail Plate", "98-100", 122]]
+    },
+    "official-practice-035": {
+      "why": ["pH measures acidity or alkalinity only in water-based solutions. Detergent mixes with water, while oils, polish, and monomer are not measured this way.", "pH 只用于测量水性溶液的酸碱度。洗涤剂会与水混合，而油、指甲油和单体液不按这种方式测量。"],
+      "lock": ["pH applies to water-based solutions.", "pH 适用于水性溶液。"],
+      "relation": "category",
+      "refs": [["Milady Standard Foundations - Chemistry - The pH Scale", "180-182", 675]]
+    },
+    "official-practice-036": {
+      "why": ["The matrix forms the nail plate, so its shape guides the plate's natural curvature. A wider or curved matrix produces a matching plate form.", "甲母质形成甲板，因此其形状决定甲板的天然弧度；较宽或较弯的甲母质会形成相应的甲板形态。"],
+      "lock": ["plate curvature begins in the matrix.", "甲板弧度始于甲母质。"],
+      "relation": "cause-effect",
+      "refs": [["Nail Structure, Disorders, and Diseases - Matrix", "101", 125]]
+    },
+    "official-practice-037": {
+      "why": ["Paronychia is a bacterial infection of tissue around the nail plate. Redness, swelling, pain, or pus requires medical referral.", "paronychia（甲沟炎）是甲板周围组织的细菌感染。若有发红、肿胀、疼痛或流脓，应转介医疗人员。"],
+      "lock": ["paronychia = bacterial infection around the nail.", "paronychia = 指甲周围的细菌感染。"],
+      "relation": "recognition",
+      "refs": [["Nail Structure, Disorders, and Diseases - Overview of Nail Diseases", "109", 133]]
+    },
+    "official-practice-038": {
+      "why": ["Matrix cells create the plate and determine its basic dimensions. Health affects growth quality and speed, but matrix structure controls shape.", "甲母质细胞形成甲板并决定其基本尺寸。健康状况会影响生长质量和速度，但甲母质结构控制形状。"],
+      "lock": ["health affects growth; matrix controls dimensions.", "健康影响生长；甲母质控制尺寸和形状。"],
+      "relation": "contrast",
+      "refs": [["Nail Structure, Disorders, and Diseases - Nail Growth and Matrix", "101-104", 125]]
+    },
+    "official-practice-039": {
+      "why": ["A catalyst speeds a chemical reaction without becoming part of the finished product. In nail systems, it helps control curing time.", "catalyst（催化剂）会加快化学反应，但不会成为最终产品的一部分；在美甲系统中，它帮助控制固化时间。"],
+      "lock": ["catalyst = speeds a reaction.", "catalyst = 加快化学反应。"],
+      "relation": "function",
+      "refs": [["Monomer Liquid and Polymer Powder Nail Enhancements - Catalysts and Initiators", "322", 346]]
+    },
+    "official-practice-040": {
+      "why": ["The supinator rotates the radius outward so the palm faces upward. A pronator turns the hand inward so the palm faces down.", "supinator（旋后肌）使桡骨向外旋转，让手掌朝上；pronator（旋前肌）使手向内转，让手掌朝下。"],
+      "lock": ["supinator = palm up; pronator = palm down.", "supinator = 手掌向上；pronator = 手掌向下。"],
+      "relation": "contrast",
+      "refs": [["General Anatomy and Physiology - Muscles of the Shoulder and Arm", "31", 55]]
+    }
+  }
+}

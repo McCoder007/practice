@@ -1,0 +1,127 @@
+{
+  "author": "codex-authoring-run-2026-08-26-phase-3",
+  "authoredAt": "2026-08-26",
+  "authoritySource": "Milady Standard Nail Technology 8th Edition",
+  "entries": {
+    "official-practice-081": {
+      "why": ["A gritty scrub loosens dead, flaky surface cells and helps reduce callus buildup. Moisturizing ingredients leave the skin softer after exfoliation.", "含颗粒的磨砂膏会松动干燥脱屑的表面死亡细胞，并帮助减轻老茧；保湿成分让去角质后的皮肤更柔软。"],
+      "lock": ["scrub = exfoliate flakes and soften calluses.", "磨砂膏 = 去除皮屑并软化老茧。"],
+      "relation": "function",
+      "refs": [["Pedicuring - Exfoliating Scrub", "201", 225]]
+    },
+    "official-practice-082": {
+      "why": ["Artificial gel products cure when photoinitiators absorb ultraviolet energy. UV and LED gel lamps deliver selected ultraviolet wavelengths.", "人工凝胶产品中的光引发剂吸收 ultraviolet（紫外线）能量后固化；UV 灯和 LED 凝胶灯都会提供特定紫外线波长。"],
+      "lock": ["gel curing uses ultraviolet energy.", "凝胶固化使用紫外线能量。"],
+      "relation": "process",
+      "refs": [["Light-Cured Gels - UV and LED Lamps", "355", 379]]
+    },
+    "official-practice-083": {
+      "why": ["A foot soak is made for pedicure bath water. It cleans, deodorizes, and softens feet without exposing skin to surface disinfectant.", "foot soak（足浴浸泡剂）专为足浴水配制，可清洁、除味并软化足部，不会让皮肤接触表面消毒剂。"],
+      "lock": ["pedicure bath = foot soak product.", "足浴水 = 加入足浴浸泡剂。"],
+      "relation": "function",
+      "refs": [["Pedicuring - Foot Soaks", "201", 225]]
+    },
+    "official-practice-084": {
+      "why": ["Dehydrator temporarily removes moisture and oil from the nail plate. Primer follows on the clean surface to improve product attachment.", "dehydrator（干燥剂）暂时去除甲板上的水分和油脂；随后在清洁表面使用底剂，以提高产品附着力。"],
+      "lock": ["enhancement prep: dehydrator before primer.", "增强甲准备顺序：先干燥剂，后底剂。"],
+      "relation": "sequence",
+      "refs": [["Nail Product Chemistry - Nail Dehydrators and Primers", "117-119", 141]]
+    },
+    "official-practice-085": {
+      "why": ["Filing from each side toward the center reduces stress on a thin natural nail. A back-and-forth sawing motion can split fragile layers.", "从左右两侧分别向中心锉，可减少薄天然指甲承受的压力；来回拉锯式锉磨可能使脆弱甲层裂开。"],
+      "lock": ["fragile nail: each side toward center.", "脆弱指甲：两侧分别向中心锉。"],
+      "relation": "action",
+      "refs": [["Manicuring - Filing the Natural Nail", "153-154", 177]]
+    },
+    "official-practice-086": {
+      "why": ["Disposable implements are porous or otherwise unsuitable for complete disinfection. Reusing them can transfer germs from one client to another.", "一次性器械具有多孔性，或因其他原因无法彻底消毒；重复使用可能把微生物从一位客户传给另一位。"],
+      "lock": ["cannot disinfect safely = discard after use.", "无法安全消毒 = 使用后丢弃。"],
+      "relation": "safety-reason",
+      "refs": [["Milady Standard Foundations - Infection Control - Single-Use Items", "122", 617]]
+    },
+    "official-practice-087": {
+      "why": ["Warm paraffin coats the skin and slows moisture loss. The retained warmth increases local circulation and makes dry skin feel softer.", "温热石蜡包覆皮肤并减缓水分流失；保留的热量会促进局部循环，使干燥皮肤感觉更柔软。"],
+      "lock": ["paraffin = trapped moisture plus gentle warmth.", "石蜡护理 = 锁住水分并提供温热。"],
+      "relation": "cause-effect",
+      "refs": [["Manicuring - Paraffin Wax Treatments", "165-167", 189]]
+    },
+    "official-practice-088": {
+      "why": ["The well is the recessed area of a nail tip that contacts the natural nail. Its position stop guides correct alignment.", "well（甲片贴合区）是甲片上与天然指甲接触的凹陷部分，其中的定位止点用于引导正确对齐。"],
+      "lock": ["tip well = contact and alignment area.", "甲片 well = 接触和对齐区域。"],
+      "relation": "location",
+      "refs": [["Nail Tips and Forms - Nail Tip Anatomy", "254-257", 278]]
+    },
+    "official-practice-089": {
+      "why": ["An abrasive file removes length and shapes the free edge that extends beyond the fingertip. It should not be used on living nail-bed tissue.", "指甲锉用于缩短并塑造超过指尖的 free edge（游离缘），不应用于活体甲床组织。"],
+      "lock": ["abrasive file works on the free edge.", "指甲锉作用于游离缘。"],
+      "relation": "location",
+      "refs": [["Manicuring - Abrasive Nail Files", "140-142", 164]]
+    },
+    "official-practice-090": {
+      "why": ["A bit spinning too fast creates excess friction heat. Use the lowest effective speed, light pressure, and continuous movement.", "磨头转速过高会产生过多摩擦热。应使用能有效工作的最低转速、轻压力，并持续移动。"],
+      "lock": ["high RPM plus friction = excess heat.", "高转速加摩擦 = 过热。"],
+      "relation": "cause-effect",
+      "refs": [["Electric Filing - RPM Speed and Safe Use", "231-234", 255]]
+    },
+    "official-practice-091": {
+      "why": ["Warm paraffin holds heat around the hands and reduces moisture loss. This combination comforts cold hands and softens dry skin.", "温热石蜡可在手部周围保温并减少水分流失，因此能舒缓手部冰凉并软化干燥皮肤。"],
+      "lock": ["cold, dry hands = warm paraffin treatment.", "手部冰凉干燥 = 温热石蜡护理。"],
+      "relation": "condition-action",
+      "refs": [["Manicuring - Paraffin Wax Treatments", "165-167", 189]]
+    },
+    "official-practice-092": {
+      "why": ["Massage increases circulation. Severe or uncontrolled high blood pressure is a contraindication, so the client needs medical guidance before massage.", "按摩会促进血液循环。严重或未受控制的高血压属于禁忌，因此按摩前需要医疗人员指导。"],
+      "lock": ["uncontrolled high blood pressure = medical clearance before massage.", "未受控制的高血压 = 按摩前取得医疗许可。"],
+      "relation": "safety-reason",
+      "refs": [["Manicuring - Massage Contraindications", "161", 185]]
+    },
+    "official-practice-093": {
+      "why": ["A dehydrator removes surface moisture and oil before liquid-and-powder application. Cleaner contact helps reduce lifting and improves attachment.", "dehydrator（干燥剂）在液体与粉末产品施工前去除表面水分和油脂；更清洁的接触可减少起翘并提高附着。"],
+      "lock": ["dehydrator prepares a clean, dry plate.", "干燥剂把甲板处理得清洁、干燥。"],
+      "relation": "function",
+      "refs": [["Nail Product Chemistry - Nail Dehydrators", "119", 143]]
+    },
+    "official-practice-094": {
+      "why": ["Reusable forms are durable aluminum or plastic guides placed under the free edge. They can be cleaned and disinfected between clients.", "可重复使用的甲模是放在游离缘下方的耐用铝制或塑料导向工具，可在客户之间清洁和消毒。"],
+      "lock": ["reusable forms = aluminum or plastic.", "可重复使用的甲模 = 铝制或塑料。"],
+      "relation": "category",
+      "refs": [["Nail Tips and Forms - Nail Forms", "273-276", 297]]
+    },
+    "official-practice-095": {
+      "why": ["Base coat creates an even foundation and improves colored polish attachment. It can also help protect the natural plate from staining.", "base coat（底油）形成均匀基础，并提高彩色指甲油的附着力，也能帮助保护天然甲板免受染色。"],
+      "lock": ["polish order: base coat before color.", "指甲油顺序：先底油，再彩色指甲油。"],
+      "relation": "sequence",
+      "refs": [["Manicuring - Base Coat", "151", 175]]
+    },
+    "official-practice-096": {
+      "why": ["A clean nail brush removes loose debris from beneath the free edge without scraping living tissue. Brush gently and rinse away residue.", "清洁的指甲刷可清除游离缘下方松散碎屑，不会刮伤活体组织；应轻柔刷洗并冲净残留。"],
+      "lock": ["under free edge: clean gently with a nail brush.", "游离缘下方：用指甲刷轻柔清洁。"],
+      "relation": "action",
+      "refs": [["Manicuring - Implements - Nail Brushes", "144-145", 168]]
+    },
+    "official-practice-097": {
+      "why": ["Effleurage keeps the hands in contact while using slow, rhythmic strokes. The predictable gliding movement is calming and relaxing.", "effleurage（轻抚法）让双手保持接触，并使用缓慢、有节奏的抚摸；稳定的滑行动作可使人平静放松。"],
+      "lock": ["effleurage = slow, rhythmic, gliding strokes.", "effleurage = 缓慢、有节奏的滑行轻抚。"],
+      "relation": "recognition",
+      "refs": [["Manicuring - General Movements for Massage", "162", 186]]
+    },
+    "official-practice-098": {
+      "why": ["A metal pusher has a hard reusable surface, so it must be cleaned and disinfected before each client and after every service.", "金属推皮棒表面坚硬且可重复使用，因此每位客户服务前和每次服务后都必须清洁并消毒。"],
+      "lock": ["reusable metal pusher = clean and disinfect every service.", "可重复使用的金属推皮棒 = 每次服务都清洁消毒。"],
+      "relation": "safety-rule",
+      "refs": [["Milady Standard Foundations - Infection Control - Reusable Items", "119-121", 614]]
+    },
+    "official-practice-099": {
+      "why": ["A client card records health information, preferences, products, dates, and service results. Reviewing it supports safe, consistent future services.", "客户档案卡记录健康信息、偏好、产品、日期和服务结果；查看记录有助于以后提供安全一致的服务。"],
+      "lock": ["client card = history for planning successful services.", "客户档案卡 = 规划成功服务所需的历史记录。"],
+      "relation": "function",
+      "refs": [["Manicuring - Client Consultation and Service Record", "156-158", 180]]
+    },
+    "official-practice-100": {
+      "why": ["Primer improves attachment between a prepared nail plate and gel when the product system requires it. Apply only the amount directed by the manufacturer.", "产品系统要求时，primer（底剂）可提高处理好的甲板与凝胶之间的附着力；用量应严格遵循制造商说明。"],
+      "lock": ["primer = bonding aid used as directed.", "primer = 按说明使用的附着辅助产品。"],
+      "relation": "function",
+      "refs": [["Nail Product Chemistry - Nail Primer", "117-118", 141]]
+    }
+  }
+}

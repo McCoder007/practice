@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/schemas/official-practice-question-bank.schema.json",
+  "title": "Official Exam Practice Bilingual Pool",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "language", "sourceTitle", "generatedAt", "statistics", "questions"],
+  "properties": {
+    "schemaVersion": { "const": "2.0.0" },
+    "language": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source", "translation"],
+      "properties": {
+        "source": { "const": "en" },
+        "translation": { "const": "zh-Hans" }
+      }
+    },
+    "sourceTitle": { "type": "string", "minLength": 1 },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "statistics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["total", "approved", "bankCount", "bankSize"],
+      "properties": {
+        "total": { "const": 100 },
+        "approved": { "const": 100 },
+        "bankCount": { "const": 5 },
+        "bankSize": { "const": 20 }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 100,
+      "maxItems": 100,
+      "items": { "$ref": "#/$defs/question" }
+    }
+  },
+  "$defs": {
+    "localizedText": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en", "zh"],
+      "properties": {
+        "en": { "type": "string", "minLength": 1 },
+        "zh": { "type": "string", "minLength": 1 }
+      }
+    },
+    "choice": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "en", "zh"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-d]$" },
+        "en": { "type": "string", "minLength": 1 },
+        "zh": { "type": "string", "minLength": 1 }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["book", "itemRef"],
+      "properties": {
+        "book": { "type": "string", "minLength": 1 },
+        "itemRef": { "type": "string", "pattern": "^q[0-9]{2}$" }
+      }
+    },
+    "authorityRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source", "section", "printedPage", "pdfPage"],
+      "properties": {
+        "source": { "const": "Milady Standard Nail Technology 8th Edition" },
+        "section": { "type": "string", "minLength": 1 },
+        "printedPage": { "type": "string", "minLength": 1 },
+        "pdfPage": { "type": "integer", "minimum": 1 }
+      }
+    },
+    "question": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "section", "chapter", "chapterTitle", "collection", "type", "question", "choices", "correctChoice", "sources", "choicesOrigin", "status", "explanation", "lockPoint", "teachingRelation", "authorityRefs", "teachingAuthor", "authoredAt"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^official-practice-[0-9]{3}$" },
+        "section": { "const": "practice" },
+        "chapter": { "const": 0 },
+        "chapterTitle": { "$ref": "#/$defs/localizedText" },
+        "collection": { "const": "official-practice-pool" },
+        "type": { "const": "multiple-choice" },
+        "question": { "$ref": "#/$defs/localizedText" },
+        "choices": {
+          "type": "array",
+          "minItems": 4,
+          "maxItems": 4,
+          "items": { "$ref": "#/$defs/choice" }
+        },
+        "correctChoice": { "type": "string", "pattern": "^[a-d]$" },
+        "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/source" } },
+        "choicesOrigin": { "const": "source" },
+        "status": { "const": "approved" },
+        "explanation": { "$ref": "#/$defs/localizedText" },
+        "lockPoint": { "$ref": "#/$defs/localizedText" },
+        "teachingRelation": { "type": "string", "minLength": 1 },
+        "authorityRefs": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/authorityRef" } },
+        "teachingAuthor": { "type": "string", "minLength": 1 },
+        "authoredAt": { "type": "string", "format": "date" }
+      }
+    }
+  }
+}

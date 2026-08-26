@@ -1,0 +1,2232 @@
+{
+  "schemaVersion": "1.0.0",
+  "language": {
+    "source": "en",
+    "translation": "zh-Hans"
+  },
+  "generatedAt": "2026-08-26T19:44:24.361Z",
+  "batches": [
+    {
+      "filename": "01-scientific-concepts-001-020.json",
+      "entries": 20
+    },
+    {
+      "filename": "02-scientific-concepts-021-040.json",
+      "entries": 20
+    },
+    {
+      "filename": "03-procedures-041-060.json",
+      "entries": 20
+    },
+    {
+      "filename": "04-procedures-061-080.json",
+      "entries": 20
+    },
+    {
+      "filename": "05-procedures-081-100.json",
+      "entries": 20
+    }
+  ],
+  "entries": {
+    "official-practice-001": {
+      "id": "official-practice-001",
+      "explanation": {
+        "en": "Ringworm is a contagious fungal skin infection. On hands or feet, it may form itchy rings, peeling skin, or small blisters.",
+        "zh": "ringworm（癣）是一种会传染的真菌性皮肤感染。发生在手足时，可能出现瘙痒的环形斑、脱皮或小水疱。"
+      },
+      "lockPoint": {
+        "en": "ringworm = fungal infection; scabies = animal parasite.",
+        "zh": "ringworm = 真菌感染；scabies（疥疮）= 动物寄生虫感染。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Skin Structure, Disorders, and Diseases - Infectious Skin Disorders",
+          "printedPage": "86",
+          "pdfPage": 110
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-002": {
+      "id": "official-practice-002",
+      "explanation": {
+        "en": "Liquids form vapors when they evaporate into air. Monomer liquid, gel ingredients, and adhesives release vapors rather than smoke-like fumes.",
+        "zh": "液体蒸发到空气中会形成 vapor（蒸气）。单体液、凝胶成分和粘合剂释放的是蒸气，不是含烟尘的 fumes（烟雾）。"
+      },
+      "lockPoint": {
+        "en": "liquid evaporates = vapor; burning material = fumes.",
+        "zh": "液体蒸发 = vapor；物质燃烧 = fumes。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Product Chemistry - Gases, Vapors, and Fumes",
+          "printedPage": "116",
+          "pdfPage": 140
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-003": {
+      "id": "official-practice-003",
+      "explanation": {
+        "en": "A fissure is a crack that reaches into living skin. Secondary lesions develop after skin damage or a change in a primary lesion.",
+        "zh": "fissure（皲裂）是深入活体皮肤的裂口。继发性皮损会在皮肤受损后，或原发性皮损发生变化后形成。"
+      },
+      "lockPoint": {
+        "en": "fissure = secondary crack in the skin.",
+        "zh": "fissure = 皮肤上的继发性裂口。"
+      },
+      "teachingRelation": "recognition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Skin Structure, Disorders, and Diseases - Secondary Skin Lesions",
+          "printedPage": "80",
+          "pdfPage": 104
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-004": {
+      "id": "official-practice-004",
+      "explanation": {
+        "en": "Traditional nail polish hardens as solvents evaporate and leave a coating behind. It does not need the polymerization used by enhancement products.",
+        "zh": "传统指甲油中的溶剂蒸发后，会留下并形成涂层。它不需要像美甲增强材料那样发生聚合反应。"
+      },
+      "lockPoint": {
+        "en": "nail polish = solvent evaporation; enhancements may polymerize.",
+        "zh": "指甲油 = 溶剂蒸发；美甲增强材料可能发生聚合。"
+      },
+      "teachingRelation": "process",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Product Chemistry - Nail Coating Products",
+          "printedPage": "121",
+          "pdfPage": 145
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-005": {
+      "id": "official-practice-005",
+      "explanation": {
+        "en": "Cysts and tubercles are raised primary lesions that may occur above or below the skin. Both require medical referral, not salon treatment.",
+        "zh": "cyst（囊肿）和 tubercle（结节）都是可位于皮肤表面或下方的隆起性原发皮损，都应转介医疗人员，不能在沙龙处理。"
+      },
+      "lockPoint": {
+        "en": "raised primary lesion = recognize and refer.",
+        "zh": "隆起性原发皮损 = 识别后转介。"
+      },
+      "teachingRelation": "safety-reason",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Skin Structure, Disorders, and Diseases - Primary Skin Lesions",
+          "printedPage": "78",
+          "pdfPage": 102
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-006": {
+      "id": "official-practice-006",
+      "explanation": {
+        "en": "Natural nails are skin appendages made mainly of keratin. They grow from matrix cells rather than being made primarily of calcium.",
+        "zh": "天然指甲是皮肤的附属器官，主要由 keratin（角蛋白）构成。它由甲母质细胞生长形成，并非主要由钙构成。"
+      },
+      "lockPoint": {
+        "en": "natural nail = keratin skin appendage.",
+        "zh": "天然指甲 = 由角蛋白构成的皮肤附属器官。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Structure, Disorders, and Diseases - Natural Nail Structure",
+          "printedPage": "97",
+          "pdfPage": 121
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-007": {
+      "id": "official-practice-007",
+      "explanation": {
+        "en": "Onychocryptosis occurs when a nail grows into the tissue at its side. The painful area requires medical referral when infection, redness, or swelling appears.",
+        "zh": "onychocryptosis（嵌甲症）是指指甲长入侧边组织。若出现感染、发红或肿胀，疼痛部位应转介医疗人员。"
+      },
+      "lockPoint": {
+        "en": "onychocryptosis = nail growing into side tissue.",
+        "zh": "onychocryptosis = 指甲长入侧边组织。"
+      },
+      "teachingRelation": "recognition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Structure, Disorders, and Diseases - Overview of Nail Diseases",
+          "printedPage": "109",
+          "pdfPage": 133
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-008": {
+      "id": "official-practice-008",
+      "explanation": {
+        "en": "Nail psoriasis can affect the nail bed and create yellow-red salmon patches beneath the plate. It may also cause pitting or roughness.",
+        "zh": "nail psoriasis（甲银屑病）会影响甲床，在甲板下形成黄红色的鲑鱼斑，也可能造成点状凹陷或粗糙。"
+      },
+      "lockPoint": {
+        "en": "salmon patches under the plate = nail psoriasis.",
+        "zh": "甲板下的鲑鱼斑 = nail psoriasis。"
+      },
+      "teachingRelation": "recognition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Structure, Disorders, and Diseases - Nail Psoriasis",
+          "printedPage": "111",
+          "pdfPage": 135
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-009": {
+      "id": "official-practice-009",
+      "explanation": {
+        "en": "A reusable metal implement must be cleaned before proper disinfection. Disinfection kills most harmful germs remaining on the hard surface.",
+        "zh": "可重复使用的金属器械必须先清洁，再正确消毒。disinfection（消毒）会杀死坚硬表面残留的大多数有害微生物。"
+      },
+      "lockPoint": {
+        "en": "reusable metal implement: clean first, disinfect second.",
+        "zh": "可重复使用的金属器械：先清洁，再消毒。"
+      },
+      "teachingRelation": "sequence",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Milady Standard Foundations - Infection Control - Cleaning and Disinfecting",
+          "printedPage": "117-119",
+          "pdfPage": 612
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-010": {
+      "id": "official-practice-010",
+      "explanation": {
+        "en": "The extensor digitorum longus bends the foot upward and extends the toes. Other lower-leg muscles move the foot in different directions.",
+        "zh": "extensor digitorum longus（趾长伸肌）使足部向上弯曲并伸展脚趾。其他小腿肌肉负责不同方向的足部动作。"
+      },
+      "lockPoint": {
+        "en": "extensor digitorum longus = foot up, toes extend.",
+        "zh": "extensor digitorum longus = 足部上抬，脚趾伸展。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "General Anatomy and Physiology - Muscles of the Lower Leg and Foot",
+          "printedPage": "32",
+          "pdfPage": 56
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-011": {
+      "id": "official-practice-011",
+      "explanation": {
+        "en": "Rinsing removes disinfectant residue after the required contact time. Drying prevents dilution and contamination before the implement is stored in a clean place.",
+        "zh": "达到规定接触时间后，冲洗可去除消毒剂残留；擦干可避免稀释和污染，再把器械存放在清洁处。"
+      },
+      "lockPoint": {
+        "en": "after disinfectant: rinse, dry, then store clean.",
+        "zh": "取出消毒剂后：冲洗、擦干，再清洁存放。"
+      },
+      "teachingRelation": "sequence",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Milady Standard Foundations - Infection Control - Disinfecting Reusable Items",
+          "printedPage": "120",
+          "pdfPage": 615
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-012": {
+      "id": "official-practice-012",
+      "explanation": {
+        "en": "Bacteria are microscopic living organisms commonly called microbes or germs. Some are harmless or helpful, while pathogenic bacteria can cause disease.",
+        "zh": "bacteria（细菌）是微小的活体生物，也常称为 microbes 或 germs。有些无害或有益，致病菌则会引起疾病。"
+      },
+      "lockPoint": {
+        "en": "bacteria = microbes; pathogenic bacteria cause disease.",
+        "zh": "bacteria = 微生物；致病性细菌会引起疾病。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Milady Standard Foundations - Infection Control - Bacteria",
+          "printedPage": "99-101",
+          "pdfPage": 594
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-013": {
+      "id": "official-practice-013",
+      "explanation": {
+        "en": "Phalanges are the bones of the fingers and toes. Each finger has three phalanges, while each thumb has two.",
+        "zh": "phalanges（指骨和趾骨）构成手指和脚趾。每根手指有三节指骨，每个拇指有两节。"
+      },
+      "lockPoint": {
+        "en": "phalanges = finger and toe bones.",
+        "zh": "phalanges = 手指和脚趾的骨骼。"
+      },
+      "teachingRelation": "location",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "General Anatomy and Physiology - Bones of the Hand and Foot",
+          "printedPage": "24-26",
+          "pdfPage": 48
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-014": {
+      "id": "official-practice-014",
+      "explanation": {
+        "en": "Skin covers and protects the entire body. Its large surface area makes it the body's largest organ.",
+        "zh": "皮肤覆盖并保护全身。由于覆盖面积很大，它是人体最大的器官。"
+      },
+      "lockPoint": {
+        "en": "skin = protective covering and largest organ.",
+        "zh": "皮肤 = 保护性覆盖层，也是最大的器官。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Skin Structure, Disorders, and Diseases - Functions of the Skin",
+          "printedPage": "59-60",
+          "pdfPage": 83
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-015": {
+      "id": "official-practice-015",
+      "explanation": {
+        "en": "Onychomycosis is a fungal infection of the nail plate. It may cause white patches, pale yellow streaks, or a crumbling free edge.",
+        "zh": "onychomycosis（甲真菌病）是甲板的真菌感染，可能出现白斑、淡黄色条纹或游离缘碎裂。"
+      },
+      "lockPoint": {
+        "en": "onychomycosis = fungal nail infection.",
+        "zh": "onychomycosis = 指甲真菌感染。"
+      },
+      "teachingRelation": "cause-effect",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Structure, Disorders, and Diseases - Overview of Nail Diseases",
+          "printedPage": "109",
+          "pdfPage": 133
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-016": {
+      "id": "official-practice-016",
+      "explanation": {
+        "en": "A warm oil manicure softens and conditions dry skin around an agnail. Cutting living surrounding skin can cause injury and infection.",
+        "zh": "温油手部护理可软化并滋润倒刺周围的干燥皮肤。剪切周围的活体皮肤可能造成受伤和感染。"
+      },
+      "lockPoint": {
+        "en": "agnail care = soften and condition; do not cut living skin.",
+        "zh": "倒刺护理 = 软化并滋润；不要剪活体皮肤。"
+      },
+      "teachingRelation": "safety-reason",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - Conditioning Oil Manicure",
+          "printedPage": "164-165",
+          "pdfPage": 188
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-017": {
+      "id": "official-practice-017",
+      "explanation": {
+        "en": "Cuticle is dead tissue attached to the nail plate. The living eponychium surrounds the plate and should not be cut.",
+        "zh": "cuticle（甲小皮）是附着在甲板上的死亡组织；eponychium（甲上皮）是甲板周围的活体组织，不应剪切。"
+      },
+      "lockPoint": {
+        "en": "cuticle = dead tissue on plate; eponychium = living skin.",
+        "zh": "cuticle = 甲板上的死亡组织；eponychium = 活体皮肤。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Structure, Disorders, and Diseases - Nail Anatomy",
+          "printedPage": "99-101",
+          "pdfPage": 123
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-018": {
+      "id": "official-practice-018",
+      "explanation": {
+        "en": "Cuticle removers contain strong alkaline ingredients that dissolve dead tissue. Leaving them too long can irritate or burn living skin.",
+        "zh": "甲小皮软化剂含有能溶解死亡组织的强碱性成分。停留过久会刺激或灼伤活体皮肤。"
+      },
+      "lockPoint": {
+        "en": "cuticle remover = alkaline; limit contact time.",
+        "zh": "甲小皮软化剂 = 碱性；限制接触时间。"
+      },
+      "teachingRelation": "safety-reason",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - Nail Cosmetics - Cuticle Removers",
+          "printedPage": "148",
+          "pdfPage": 172
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-019": {
+      "id": "official-practice-019",
+      "explanation": {
+        "en": "A pumice stone is porous, so it cannot be properly disinfected. A porous implement must be discarded after one service.",
+        "zh": "浮石具有多孔性，无法被正确消毒。多孔器械每次服务后都必须丢弃。"
+      },
+      "lockPoint": {
+        "en": "porous implement = single use, then discard.",
+        "zh": "多孔器械 = 一次性使用，之后丢弃。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Milady Standard Foundations - Infection Control - Single-Use Items",
+          "printedPage": "122",
+          "pdfPage": 617
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-020": {
+      "id": "official-practice-020",
+      "explanation": {
+        "en": "The matrix produces nail plate cells. Its size, length, and shape influence the plate's thickness, width, and curvature.",
+        "zh": "matrix（甲母质）产生甲板细胞。甲母质的大小、长度和形状会影响甲板的厚度、宽度和弧度。"
+      },
+      "lockPoint": {
+        "en": "matrix shape controls nail plate shape.",
+        "zh": "甲母质形状决定甲板形状。"
+      },
+      "teachingRelation": "cause-effect",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Structure, Disorders, and Diseases - Matrix",
+          "printedPage": "101",
+          "pdfPage": 125
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-021": {
+      "id": "official-practice-021",
+      "explanation": {
+        "en": "Porous single-use items can hold germs where disinfectant cannot safely reach. They must be discarded after every client.",
+        "zh": "多孔的一次性用品会在消毒剂难以安全到达的部位藏住微生物，因此每位客户使用后都必须丢弃。"
+      },
+      "lockPoint": {
+        "en": "porous = single use; hard reusable items may be disinfected.",
+        "zh": "多孔 = 一次性；坚硬的可重复使用用品可进行消毒。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Milady Standard Foundations - Infection Control - Multiuse and Single-Use Items",
+          "printedPage": "121-122",
+          "pdfPage": 616
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-022": {
+      "id": "official-practice-022",
+      "explanation": {
+        "en": "A parasite lives on or inside another organism and takes nourishment from it. That supporting organism is called the host.",
+        "zh": "parasite（寄生虫）生活在另一生物体表面或体内，并从中获取营养。提供生存条件的生物称为 host（宿主）。"
+      },
+      "lockPoint": {
+        "en": "parasite depends on a host.",
+        "zh": "parasite 依赖 host 生存。"
+      },
+      "teachingRelation": "relationship",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Milady Standard Foundations - Infection Control - Parasites",
+          "printedPage": "108",
+          "pdfPage": 603
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-023": {
+      "id": "official-practice-023",
+      "explanation": {
+        "en": "Redness, swelling, pus, and pain can signal infection or serious tissue irritation. Nail technicians must stop the service and refer the client for medical care.",
+        "zh": "发红、肿胀、流脓和疼痛可能表示感染或严重组织刺激。美甲师必须停止服务，并转介客户接受医疗处理。"
+      },
+      "lockPoint": {
+        "en": "infection signs = no service; medical referral.",
+        "zh": "出现感染迹象 = 不提供服务；转介医疗人员。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Structure, Disorders, and Diseases - Diseases of the Nail",
+          "printedPage": "108",
+          "pdfPage": 132
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-024": {
+      "id": "official-practice-024",
+      "explanation": {
+        "en": "OSHA sets and enforces workplace safety and health standards. It also requires employers to communicate chemical hazards and provide required protection.",
+        "zh": "OSHA（职业安全与健康管理局）制定并执行工作场所安全与健康标准，也要求雇主说明化学危害并提供必要防护。"
+      },
+      "lockPoint": {
+        "en": "OSHA = workplace safety and health enforcement.",
+        "zh": "OSHA = 执行工作场所安全与健康标准。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Milady Standard Foundations - Infection Control - Federal Agencies",
+          "printedPage": "89",
+          "pdfPage": 584
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-025": {
+      "id": "official-practice-025",
+      "explanation": {
+        "en": "An item that cannot be cleaned and disinfected safely cannot move between clients. It is classified as single-use and discarded after service.",
+        "zh": "无法安全清洁和消毒的用品不能在客户之间重复使用，应归为一次性用品，并在服务后丢弃。"
+      },
+      "lockPoint": {
+        "en": "cannot disinfect = single use.",
+        "zh": "无法消毒 = 一次性使用。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Milady Standard Foundations - Infection Control - Single-Use Items",
+          "printedPage": "122",
+          "pdfPage": 617
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-026": {
+      "id": "official-practice-026",
+      "explanation": {
+        "en": "The femur runs from the hip to the knee. It is the longest and strongest bone in the body and the largest bone of the leg.",
+        "zh": "femur（股骨）从髋部延伸到膝部，是人体最长、最强壮的骨骼，也是腿部最大的骨骼。"
+      },
+      "lockPoint": {
+        "en": "femur = thigh bone, hip to knee.",
+        "zh": "femur = 从髋部到膝部的大腿骨。"
+      },
+      "teachingRelation": "location",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "General Anatomy and Physiology - Bones of the Leg and Foot",
+          "printedPage": "25-26",
+          "pdfPage": 49
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-027": {
+      "id": "official-practice-027",
+      "explanation": {
+        "en": "Polymerization links many small monomer molecules into long polymer chains. This curing reaction releases energy and may produce noticeable heat.",
+        "zh": "polymerization（聚合反应）把许多小的单体分子连接成长聚合物链。固化时会释放能量，并可能产生明显热量。"
+      },
+      "lockPoint": {
+        "en": "polymerization = monomers join and release heat.",
+        "zh": "polymerization = 单体连接并释放热量。"
+      },
+      "teachingRelation": "process",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Polymerization",
+          "printedPage": "322-323",
+          "pdfPage": 346
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-028": {
+      "id": "official-practice-028",
+      "explanation": {
+        "en": "Leukonychia appears as white spots on the nail plate, often after minor injury to matrix cells. The spots grow forward with the plate.",
+        "zh": "leukonychia（白甲症）表现为甲板白点，常由甲母质细胞轻微受伤引起；白点会随甲板向前生长。"
+      },
+      "lockPoint": {
+        "en": "leukonychia = white spots that grow out.",
+        "zh": "leukonychia = 会随指甲长出的白点。"
+      },
+      "teachingRelation": "recognition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Structure, Disorders, and Diseases - Nail Disorders",
+          "printedPage": "105",
+          "pdfPage": 129
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-029": {
+      "id": "official-practice-029",
+      "explanation": {
+        "en": "A blood-contaminated disposable item cannot be disinfected for reuse. Place it in the proper waste container immediately after the service.",
+        "zh": "被血液污染的一次性用品不能消毒后重复使用，应在服务后立即放入规定的废弃物容器。"
+      },
+      "lockPoint": {
+        "en": "blood-contaminated disposable = discard safely.",
+        "zh": "沾血的一次性用品 = 安全丢弃。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Milady Standard Foundations - Infection Control - Blood Exposure Procedure",
+          "printedPage": "126-127",
+          "pdfPage": 621
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-030": {
+      "id": "official-practice-030",
+      "explanation": {
+        "en": "The dermis is called true skin because it contains living tissue, nerves, blood vessels, glands, and support structures beneath the epidermis.",
+        "zh": "dermis（真皮）又称 true skin，因为它位于表皮下方，含有活体组织、神经、血管、腺体和支撑结构。"
+      },
+      "lockPoint": {
+        "en": "dermis = living true skin below epidermis.",
+        "zh": "dermis = 表皮下方的活体真皮。"
+      },
+      "teachingRelation": "location",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Skin Structure, Disorders, and Diseases - Dermis",
+          "printedPage": "64-66",
+          "pdfPage": 88
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-031": {
+      "id": "official-practice-031",
+      "explanation": {
+        "en": "Salon products act mainly on the stratum corneum, the outer layer of dead keratin cells. They should not reach living skin layers.",
+        "zh": "沙龙产品主要作用于 stratum corneum（角质层），即最外层的死亡角蛋白细胞，不应进入活体皮肤层。"
+      },
+      "lockPoint": {
+        "en": "salon products act on the stratum corneum.",
+        "zh": "沙龙产品作用于 stratum corneum。"
+      },
+      "teachingRelation": "location",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Skin Structure, Disorders, and Diseases - Epidermis",
+          "printedPage": "61-63",
+          "pdfPage": 85
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-032": {
+      "id": "official-practice-032",
+      "explanation": {
+        "en": "Specialized nail ligaments connect the nail bed and matrix to the underlying bone. This support keeps the nail unit securely positioned.",
+        "zh": "指甲的特殊韧带把甲床和甲母质连接到下方骨骼，为甲单位提供稳固支撑。"
+      },
+      "lockPoint": {
+        "en": "specialized ligaments anchor nail bed to bone.",
+        "zh": "特殊韧带把甲床固定到骨骼。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Structure, Disorders, and Diseases - Specialized Ligaments",
+          "printedPage": "102",
+          "pdfPage": 126
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-033": {
+      "id": "official-practice-033",
+      "explanation": {
+        "en": "The horny layer, or stratum corneum, contains dead keratin cells. These surface cells are continually shed and replaced from below.",
+        "zh": "horny layer（角质层）即 stratum corneum，由死亡的角蛋白细胞组成；表面细胞持续脱落，并由下层细胞补充。"
+      },
+      "lockPoint": {
+        "en": "horny layer = stratum corneum = shedding surface.",
+        "zh": "horny layer = stratum corneum = 持续脱落的表层。"
+      },
+      "teachingRelation": "process",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Skin Structure, Disorders, and Diseases - Layers of the Epidermis",
+          "printedPage": "62",
+          "pdfPage": 86
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-034": {
+      "id": "official-practice-034",
+      "explanation": {
+        "en": "The nail plate is produced in the matrix and moves forward over the nail bed. Its distal end extends beyond the fingertip as the free edge.",
+        "zh": "甲板在甲母质中形成，并沿甲床向前移动；末端超过指尖的部分就是 free edge（游离缘）。"
+      },
+      "lockPoint": {
+        "en": "nail plate path: matrix to free edge.",
+        "zh": "甲板路径：从甲母质到游离缘。"
+      },
+      "teachingRelation": "sequence",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Structure, Disorders, and Diseases - Nail Plate",
+          "printedPage": "98-100",
+          "pdfPage": 122
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-035": {
+      "id": "official-practice-035",
+      "explanation": {
+        "en": "pH measures acidity or alkalinity only in water-based solutions. Detergent mixes with water, while oils, polish, and monomer are not measured this way.",
+        "zh": "pH 只用于测量水性溶液的酸碱度。洗涤剂会与水混合，而油、指甲油和单体液不按这种方式测量。"
+      },
+      "lockPoint": {
+        "en": "pH applies to water-based solutions.",
+        "zh": "pH 适用于水性溶液。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Milady Standard Foundations - Chemistry - The pH Scale",
+          "printedPage": "180-182",
+          "pdfPage": 675
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-036": {
+      "id": "official-practice-036",
+      "explanation": {
+        "en": "The matrix forms the nail plate, so its shape guides the plate's natural curvature. A wider or curved matrix produces a matching plate form.",
+        "zh": "甲母质形成甲板，因此其形状决定甲板的天然弧度；较宽或较弯的甲母质会形成相应的甲板形态。"
+      },
+      "lockPoint": {
+        "en": "plate curvature begins in the matrix.",
+        "zh": "甲板弧度始于甲母质。"
+      },
+      "teachingRelation": "cause-effect",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Structure, Disorders, and Diseases - Matrix",
+          "printedPage": "101",
+          "pdfPage": 125
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-037": {
+      "id": "official-practice-037",
+      "explanation": {
+        "en": "Paronychia is a bacterial infection of tissue around the nail plate. Redness, swelling, pain, or pus requires medical referral.",
+        "zh": "paronychia（甲沟炎）是甲板周围组织的细菌感染。若有发红、肿胀、疼痛或流脓，应转介医疗人员。"
+      },
+      "lockPoint": {
+        "en": "paronychia = bacterial infection around the nail.",
+        "zh": "paronychia = 指甲周围的细菌感染。"
+      },
+      "teachingRelation": "recognition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Structure, Disorders, and Diseases - Overview of Nail Diseases",
+          "printedPage": "109",
+          "pdfPage": 133
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-038": {
+      "id": "official-practice-038",
+      "explanation": {
+        "en": "Matrix cells create the plate and determine its basic dimensions. Health affects growth quality and speed, but matrix structure controls shape.",
+        "zh": "甲母质细胞形成甲板并决定其基本尺寸。健康状况会影响生长质量和速度，但甲母质结构控制形状。"
+      },
+      "lockPoint": {
+        "en": "health affects growth; matrix controls dimensions.",
+        "zh": "健康影响生长；甲母质控制尺寸和形状。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Structure, Disorders, and Diseases - Nail Growth and Matrix",
+          "printedPage": "101-104",
+          "pdfPage": 125
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-039": {
+      "id": "official-practice-039",
+      "explanation": {
+        "en": "A catalyst speeds a chemical reaction without becoming part of the finished product. In nail systems, it helps control curing time.",
+        "zh": "catalyst（催化剂）会加快化学反应，但不会成为最终产品的一部分；在美甲系统中，它帮助控制固化时间。"
+      },
+      "lockPoint": {
+        "en": "catalyst = speeds a reaction.",
+        "zh": "catalyst = 加快化学反应。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Catalysts and Initiators",
+          "printedPage": "322",
+          "pdfPage": 346
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-040": {
+      "id": "official-practice-040",
+      "explanation": {
+        "en": "The supinator rotates the radius outward so the palm faces upward. A pronator turns the hand inward so the palm faces down.",
+        "zh": "supinator（旋后肌）使桡骨向外旋转，让手掌朝上；pronator（旋前肌）使手向内转，让手掌朝下。"
+      },
+      "lockPoint": {
+        "en": "supinator = palm up; pronator = palm down.",
+        "zh": "supinator = 手掌向上；pronator = 手掌向下。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "General Anatomy and Physiology - Muscles of the Shoulder and Arm",
+          "printedPage": "31",
+          "pdfPage": 55
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-041": {
+      "id": "official-practice-041",
+      "explanation": {
+        "en": "An exfoliating scrub uses fine abrasive material to loosen dead surface cells. It also helps smooth dry, flaky skin and reduce calluses.",
+        "zh": "exfoliating scrub（去角质磨砂膏）利用细小磨料松动表面死亡细胞，还能帮助平滑干燥脱屑皮肤并减轻老茧。"
+      },
+      "lockPoint": {
+        "en": "scrub = mechanical removal of dead surface skin.",
+        "zh": "磨砂膏 = 机械去除表面死亡皮肤。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Pedicuring - Exfoliating Scrub",
+          "printedPage": "201",
+          "pdfPage": 225
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-042": {
+      "id": "official-practice-042",
+      "explanation": {
+        "en": "Diabetes can reduce circulation and healing, so even a small cut may become serious. Never cut living eponychium tissue.",
+        "zh": "diabetes（糖尿病）可能降低血液循环和愈合能力，因此小伤口也可能变严重。绝不能剪切活体甲上皮组织。"
+      },
+      "lockPoint": {
+        "en": "diabetes + living skin = avoid injury.",
+        "zh": "糖尿病客户的活体皮肤 = 避免造成损伤。"
+      },
+      "teachingRelation": "safety-reason",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Pedicuring - Clients with Diabetes",
+          "printedPage": "205-207",
+          "pdfPage": 229
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-043": {
+      "id": "official-practice-043",
+      "explanation": {
+        "en": "Massage is the manual manipulation of soft body tissues. Rubbing, kneading, pinching, and tapping are movements used to produce relaxation.",
+        "zh": "massage（按摩）是用手对身体软组织进行操作；揉擦、揉捏、捏压和叩击等动作可帮助放松。"
+      },
+      "lockPoint": {
+        "en": "massage = manual tissue manipulation.",
+        "zh": "massage = 用手操作软组织。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - General Movements for Massage",
+          "printedPage": "162",
+          "pdfPage": 186
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-044": {
+      "id": "official-practice-044",
+      "explanation": {
+        "en": "Petrissage lifts, squeezes, and presses soft tissue. On the foot, this kneading movement can relax tissue without rapid tapping.",
+        "zh": "petrissage（揉捏法）会提起、挤压并按压软组织；在足部，这种揉捏动作可使组织放松，不使用快速叩击。"
+      },
+      "lockPoint": {
+        "en": "petrissage = lift, squeeze, and press tissue.",
+        "zh": "petrissage = 提起、挤压并按压组织。"
+      },
+      "teachingRelation": "action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - General Movements for Massage",
+          "printedPage": "162",
+          "pdfPage": 186
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-045": {
+      "id": "official-practice-045",
+      "explanation": {
+        "en": "Acetone is a solvent that softens many soak-off enhancement products. Product can then be removed gently without prying it from the nail.",
+        "zh": "acetone（丙酮）是一种能软化多种可卸式美甲增强材料的溶剂，使产品可被轻柔去除，无需从指甲上撬下。"
+      },
+      "lockPoint": {
+        "en": "acetone = solvent for soak-off removal.",
+        "zh": "acetone = 用于浸泡卸除的溶剂。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Product Removal",
+          "printedPage": "339",
+          "pdfPage": 363
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-046": {
+      "id": "official-practice-046",
+      "explanation": {
+        "en": "Red, swollen tissue may indicate infection or serious irritation. Do not diagnose or service the area; explain the concern and refer the client.",
+        "zh": "组织发红、肿胀可能表示感染或严重刺激。不要诊断或护理该部位，应说明问题并转介客户就医。"
+      },
+      "lockPoint": {
+        "en": "redness and swelling = stop and refer.",
+        "zh": "发红和肿胀 = 停止服务并转介。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Structure, Disorders, and Diseases - Diseases of the Nail",
+          "printedPage": "108",
+          "pdfPage": 132
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-047": {
+      "id": "official-practice-047",
+      "explanation": {
+        "en": "Massage lotion reduces drag between the hands and skin. Controlled glide helps the practitioner apply smooth pressure without pulling dry tissue.",
+        "zh": "按摩乳液可减少双手与皮肤之间的摩擦，使从业者能够平稳施压，不会拉扯干燥组织。"
+      },
+      "lockPoint": {
+        "en": "massage lotion = smooth glide with less drag.",
+        "zh": "按摩乳液 = 顺滑移动并减少摩擦。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Pedicuring - Foot and Leg Massage",
+          "printedPage": "218-220",
+          "pdfPage": 242
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-048": {
+      "id": "official-practice-048",
+      "explanation": {
+        "en": "A nail buffer uses a fine abrasive to smooth minor surface ridges and create shine. Excess pressure can thin or heat the plate.",
+        "zh": "nail buffer（抛光棒）利用细磨料平滑轻微表面纹路并增加光泽；压力过大会使甲板变薄或发热。"
+      },
+      "lockPoint": {
+        "en": "buffer = smooth and shine, using light pressure.",
+        "zh": "抛光棒 = 轻压平滑并增加光泽。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - Implements - Buffers",
+          "printedPage": "141-143",
+          "pdfPage": 165
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-049": {
+      "id": "official-practice-049",
+      "explanation": {
+        "en": "Gel photoinitiators absorb ultraviolet energy and start curing. The lamp must match the gel system so the product hardens fully.",
+        "zh": "凝胶中的 photoinitiator（光引发剂）吸收紫外线能量后启动固化；灯具必须与凝胶系统匹配，产品才能完全硬化。"
+      },
+      "lockPoint": {
+        "en": "gel cures when photoinitiator absorbs UV energy.",
+        "zh": "凝胶固化 = 光引发剂吸收紫外线能量。"
+      },
+      "teachingRelation": "process",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Light-Cured Gels - Gel Chemistry and Curing",
+          "printedPage": "353-355",
+          "pdfPage": 377
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-050": {
+      "id": "official-practice-050",
+      "explanation": {
+        "en": "Soft gel has a structure that acetone can penetrate and break down. Hard gel must usually be filed off instead of soaked off.",
+        "zh": "soft gel（软凝胶）的结构可让丙酮渗透并分解；hard gel（硬凝胶）通常需要磨除，不能浸泡卸除。"
+      },
+      "lockPoint": {
+        "en": "soft gel = soak off; hard gel = file off.",
+        "zh": "soft gel = 浸泡卸除；hard gel = 磨除。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Light-Cured Gels - Soft and Hard Gels",
+          "printedPage": "354-356",
+          "pdfPage": 378
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-051": {
+      "id": "official-practice-051",
+      "explanation": {
+        "en": "Oil, moisture, or cuticle left on the plate blocks product contact. Careful cleaning and drying create the surface needed for strong attachment.",
+        "zh": "甲板上残留的油、水分或甲小皮会阻碍产品接触。仔细清洁并擦干，才能形成牢固附着所需的表面。"
+      },
+      "lockPoint": {
+        "en": "prevent lifting: prepare a clean, dry nail plate.",
+        "zh": "防止起翘：把甲板处理得清洁、干燥。"
+      },
+      "teachingRelation": "cause-effect",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Product Chemistry - Adhesion of Nail Enhancements",
+          "printedPage": "119",
+          "pdfPage": 143
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-052": {
+      "id": "official-practice-052",
+      "explanation": {
+        "en": "Cuticle remover softens and dissolves dead tissue attached to the nail plate. It must stay off living skin and be removed on time.",
+        "zh": "cuticle remover（甲小皮软化剂）会软化并溶解附着在甲板上的死亡组织，必须避开活体皮肤并按时清除。"
+      },
+      "lockPoint": {
+        "en": "cuticle remover dissolves dead tissue on the plate.",
+        "zh": "甲小皮软化剂溶解甲板上的死亡组织。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - Nail Cosmetics - Cuticle Removers",
+          "printedPage": "148",
+          "pdfPage": 172
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-053": {
+      "id": "official-practice-053",
+      "explanation": {
+        "en": "Most abrasive files are porous and cannot be disinfected completely. Use a new file for each client, then discard it.",
+        "zh": "多数指甲锉具有多孔性，无法彻底消毒。每位客户使用新锉，服务后将其丢弃。"
+      },
+      "lockPoint": {
+        "en": "porous abrasive file = one client, one use.",
+        "zh": "多孔指甲锉 = 一位客户，一次使用。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - Implements - Abrasive Nail Files",
+          "printedPage": "140-142",
+          "pdfPage": 164
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-054": {
+      "id": "official-practice-054",
+      "explanation": {
+        "en": "A catalyst speeds the curing reaction by activating initiators. It helps control how quickly the enhancement hardens after liquid and powder combine.",
+        "zh": "catalyst（催化剂）通过激活引发剂来加快固化反应，帮助控制液体与粉末混合后增强材料的硬化速度。"
+      },
+      "lockPoint": {
+        "en": "catalyst controls curing speed.",
+        "zh": "catalyst 控制固化速度。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Catalysts and Initiators",
+          "printedPage": "322",
+          "pdfPage": 346
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-055": {
+      "id": "official-practice-055",
+      "explanation": {
+        "en": "A finger bowl holds warm soapy water that cleans and softens the nails and surrounding skin. Soaking time should remain brief.",
+        "zh": "finger bowl（浸手碗）盛放温肥皂水，用于清洁并软化指甲及周围皮肤；浸泡时间应保持简短。"
+      },
+      "lockPoint": {
+        "en": "finger bowl = brief cleansing and softening soak.",
+        "zh": "浸手碗 = 短时间清洁和软化浸泡。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - Equipment - Finger Bowls",
+          "printedPage": "136-138",
+          "pdfPage": 160
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-056": {
+      "id": "official-practice-056",
+      "explanation": {
+        "en": "A medium-grit abrasive shapes the free edge with control. Coarse abrasives can remove too much material and damage a natural nail.",
+        "zh": "中等砂砾度指甲锉可受控地塑造游离缘；粗砂锉可能去除过多材料并损伤天然指甲。"
+      },
+      "lockPoint": {
+        "en": "natural nail shaping = medium grit, gentle pressure.",
+        "zh": "天然指甲塑形 = 中等砂砾度，轻柔用力。"
+      },
+      "teachingRelation": "safety-reason",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - Abrasive Nail Files and Grit",
+          "printedPage": "140-142",
+          "pdfPage": 164
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-057": {
+      "id": "official-practice-057",
+      "explanation": {
+        "en": "Acetone is a widely used salon solvent that dissolves many nail coatings. Safe use still requires fresh air, closed containers, and skin protection.",
+        "zh": "acetone（丙酮）是沙龙常用的溶剂，可溶解多种指甲涂层；安全使用仍需保持空气流通、密闭容器并保护皮肤。"
+      },
+      "lockPoint": {
+        "en": "acetone = common nail-product solvent.",
+        "zh": "acetone = 常见的美甲产品溶剂。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Product Chemistry - Solvents",
+          "printedPage": "123-124",
+          "pdfPage": 147
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-058": {
+      "id": "official-practice-058",
+      "explanation": {
+        "en": "Monomer liquid reacts with polymer powder during curing. Catalysts and initiators control the chain reaction that turns the mixture into a solid enhancement.",
+        "zh": "monomer liquid（单体液）在固化时与聚合物粉反应；催化剂和引发剂控制链式反应，使混合物变成固体增强材料。"
+      },
+      "lockPoint": {
+        "en": "liquid-and-powder system begins with monomer liquid.",
+        "zh": "液体与粉末系统以 monomer liquid 为液体成分。"
+      },
+      "teachingRelation": "process",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Chemistry",
+          "printedPage": "321-324",
+          "pdfPage": 345
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-059": {
+      "id": "official-practice-059",
+      "explanation": {
+        "en": "A foot file smooths thick callused skin with controlled abrasion. Use light pressure and never file living or broken skin.",
+        "zh": "foot file（足部锉）通过受控磨削平滑厚老茧。应轻柔用力，绝不能磨活体或破损皮肤。"
+      },
+      "lockPoint": {
+        "en": "foot file = smooth callus, not living skin.",
+        "zh": "足部锉 = 平滑老茧，不磨活体皮肤。"
+      },
+      "teachingRelation": "safety-reason",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Pedicuring - Pedicure Implements - Foot Files",
+          "printedPage": "210-212",
+          "pdfPage": 234
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-060": {
+      "id": "official-practice-060",
+      "explanation": {
+        "en": "Thorough handwashing uses soap, friction, rinsing, and complete drying to remove germs after a service and before touching clean supplies.",
+        "zh": "彻底洗手需要使用肥皂、摩擦、冲洗并完全擦干，以清除服务后的微生物，再接触清洁用品。"
+      },
+      "lockPoint": {
+        "en": "handwashing = soap, friction, rinse, and dry.",
+        "zh": "洗手 = 肥皂、摩擦、冲洗、擦干。"
+      },
+      "teachingRelation": "sequence",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Milady Standard Foundations - Infection Control - Hand Washing",
+          "printedPage": "135",
+          "pdfPage": 630
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-061": {
+      "id": "official-practice-061",
+      "explanation": {
+        "en": "Filing deeply into nail corners can leave a sharp edge that grows into side tissue. Shape the free edge without cutting into corners.",
+        "zh": "向指甲两侧深处锉磨会留下尖锐边缘，生长时可能刺入侧边组织。应塑造游离缘，不要锉进两侧角落。"
+      },
+      "lockPoint": {
+        "en": "avoid ingrown nails: do not file into corners.",
+        "zh": "避免嵌甲：不要锉进两侧角落。"
+      },
+      "teachingRelation": "cause-effect",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Pedicuring - Trimming and Filing Toenails",
+          "printedPage": "219-220",
+          "pdfPage": 243
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-062": {
+      "id": "official-practice-062",
+      "explanation": {
+        "en": "Infection, redness, or swelling can worsen during a service and may spread germs. Refuse service and refer the client for medical advice.",
+        "zh": "感染、发红或肿胀可能在服务中加重，也可能传播微生物。应拒绝服务，并建议客户咨询医疗人员。"
+      },
+      "lockPoint": {
+        "en": "infection, redness, or swelling = no service.",
+        "zh": "感染、发红或肿胀 = 不提供服务。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Structure, Disorders, and Diseases - Recognizing Nail Disease",
+          "printedPage": "108-109",
+          "pdfPage": 132
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-063": {
+      "id": "official-practice-063",
+      "explanation": {
+        "en": "Friction uses firm rubbing movements that move one tissue layer over another. On the sole, it can stimulate local circulation.",
+        "zh": "friction（摩擦法）用较有力的揉擦使一层组织在另一层上移动；用于足底时，可刺激局部血液循环。"
+      },
+      "lockPoint": {
+        "en": "pedicure friction = firm rubbing on the sole.",
+        "zh": "足部 friction = 在足底进行有力揉擦。"
+      },
+      "teachingRelation": "action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Pedicuring - Foot and Leg Massage - Friction",
+          "printedPage": "220",
+          "pdfPage": 244
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-064": {
+      "id": "official-practice-064",
+      "explanation": {
+        "en": "Medical history identifies conditions, medicines, and allergies that may change or prevent a service. Recording it shows that safety risks were reviewed.",
+        "zh": "病史记录可发现会改变或禁止服务的疾病、药物和过敏情况；保存记录能证明已评估安全风险。"
+      },
+      "lockPoint": {
+        "en": "medical history = safety screen and liability record.",
+        "zh": "病史 = 安全筛查和责任记录。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - Client Consultation and Service Record",
+          "printedPage": "156-158",
+          "pdfPage": 180
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-065": {
+      "id": "official-practice-065",
+      "explanation": {
+        "en": "Tip adhesive forms the bond between the plastic tip and prepared natural nail. Correct fit and a clean surface help prevent air pockets.",
+        "zh": "tip adhesive（甲片粘合剂）在塑料甲片与处理好的天然指甲之间形成粘结；尺寸合适且表面清洁可防止气泡。"
+      },
+      "lockPoint": {
+        "en": "tip adhesive bonds plastic tip to natural nail.",
+        "zh": "甲片粘合剂把塑料甲片粘到天然指甲。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Tips and Forms - Nail Tip Adhesives",
+          "printedPage": "258-260",
+          "pdfPage": 282
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-066": {
+      "id": "official-practice-066",
+      "explanation": {
+        "en": "Some gels cure with a sticky inhibition layer where oxygen contacts the surface. Gel cleanser removes that residue after final curing.",
+        "zh": "有些凝胶在表面接触氧气处固化后会留下黏性的 inhibition layer（抑制层）；最终固化后用凝胶清洁剂去除。"
+      },
+      "lockPoint": {
+        "en": "sticky gel inhibition layer = remove with gel cleanser.",
+        "zh": "黏性凝胶抑制层 = 用凝胶清洁剂去除。"
+      },
+      "teachingRelation": "process",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Light-Cured Gels - Inhibition Layer",
+          "printedPage": "358",
+          "pdfPage": 382
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-067": {
+      "id": "official-practice-067",
+      "explanation": {
+        "en": "Monomer liquid wets polymer powder to form a workable bead. Polymerization then links the material into a hard sculptured enhancement.",
+        "zh": "monomer liquid（单体液）润湿 polymer powder（聚合物粉）形成可操作的珠体，随后聚合反应使材料连接并硬化成雕塑甲。"
+      },
+      "lockPoint": {
+        "en": "sculptured acrylic = monomer liquid + polymer powder.",
+        "zh": "雕塑水晶甲 = 单体液 + 聚合物粉。"
+      },
+      "teachingRelation": "process",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Chemistry",
+          "printedPage": "321-324",
+          "pdfPage": 345
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-068": {
+      "id": "official-practice-068",
+      "explanation": {
+        "en": "Disinfectant is for cleaning the empty spa after the client leaves. Adding it during soaking exposes skin to a chemical not meant for service water.",
+        "zh": "消毒剂用于客户离开后清洁空的足浴盆。客户浸泡时加入，会让皮肤接触不适用于服务用水的化学品。"
+      },
+      "lockPoint": {
+        "en": "foot bath during service: soak product, never disinfectant.",
+        "zh": "服务中的足浴水：加浸泡产品，绝不加消毒剂。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Pedicuring - Pedicure Products and Spa Disinfection",
+          "printedPage": "213-216",
+          "pdfPage": 237
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-069": {
+      "id": "official-practice-069",
+      "explanation": {
+        "en": "A cotton-tipped wooden stick places a small amount of remover precisely on dead cuticle. Controlled application helps keep alkaline product off living skin.",
+        "zh": "棉头木棒可把少量软化剂准确涂在死亡甲小皮上；受控涂抹有助于避免碱性产品接触活体皮肤。"
+      },
+      "lockPoint": {
+        "en": "cuticle remover: apply precisely with cotton-tipped stick.",
+        "zh": "甲小皮软化剂：用棉头木棒准确涂抹。"
+      },
+      "teachingRelation": "action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - Basic Manicure Procedure",
+          "printedPage": "176-180",
+          "pdfPage": 200
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-070": {
+      "id": "official-practice-070",
+      "explanation": {
+        "en": "Effleurage uses slow, rhythmic gliding strokes with steady contact. Its gentle pattern is the main massage movement for client relaxation.",
+        "zh": "effleurage（轻抚法）使用缓慢、有节奏的滑行动作并保持稳定接触，是让客户放松的主要按摩手法。"
+      },
+      "lockPoint": {
+        "en": "effleurage = slow gliding strokes for relaxation.",
+        "zh": "effleurage = 用缓慢滑行动作帮助放松。"
+      },
+      "teachingRelation": "action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - General Movements for Massage",
+          "printedPage": "162",
+          "pdfPage": 186
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-071": {
+      "id": "official-practice-071",
+      "explanation": {
+        "en": "Torque is the motor's power to keep the bit turning under pressure. Higher torque allows effective filing at a lower speed.",
+        "zh": "torque（扭矩）是电机在受压时仍保持磨头转动的力量。扭矩较高时，可用较低转速有效磨削。"
+      },
+      "lockPoint": {
+        "en": "torque = turning power under pressure.",
+        "zh": "torque = 受压时保持转动的力量。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Electric Filing - Power and Torque",
+          "printedPage": "231",
+          "pdfPage": 255
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-072": {
+      "id": "official-practice-072",
+      "explanation": {
+        "en": "Warm oil or lotion adds moisture and softens dry skin and nails. Gentle warmth also helps the product spread comfortably.",
+        "zh": "温热的油或乳液可补充水分并软化干燥皮肤和指甲；温和热度也能让产品更舒适地铺开。"
+      },
+      "lockPoint": {
+        "en": "dry skin and nails = warm oil or lotion.",
+        "zh": "皮肤和指甲干燥 = 温油或温热乳液。"
+      },
+      "teachingRelation": "condition-action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - Conditioning Oil Manicure",
+          "printedPage": "164-165",
+          "pdfPage": 188
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-073": {
+      "id": "official-practice-073",
+      "explanation": {
+        "en": "An adhesive bonding agent joins two unlike surfaces: the artificial tip and natural nail plate. It is not a primer or repair fabric.",
+        "zh": "adhesive bonding agent（粘合剂）连接两种不同表面，即人工甲片和天然甲板；它不是底剂或修补纤维。"
+      },
+      "lockPoint": {
+        "en": "tip application needs an adhesive bonding agent.",
+        "zh": "粘贴甲片需要 adhesive bonding agent。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Tips and Forms - Nail Tip Adhesives",
+          "printedPage": "258-260",
+          "pdfPage": 282
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-074": {
+      "id": "official-practice-074",
+      "explanation": {
+        "en": "A dehydrator temporarily removes surface oil and moisture that can block attachment. The prepared plate must stay clean before the tip is applied.",
+        "zh": "dehydrator（干燥剂）会暂时去除阻碍附着的表面油脂和水分；贴甲片前，处理好的甲板必须保持清洁。"
+      },
+      "lockPoint": {
+        "en": "dehydrator = temporary oil and moisture removal.",
+        "zh": "dehydrator = 暂时去除油脂和水分。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Product Chemistry - Nail Dehydrators",
+          "printedPage": "119",
+          "pdfPage": 143
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-075": {
+      "id": "official-practice-075",
+      "explanation": {
+        "en": "A nail file removes length from the free edge and shapes its outline. Choose suitable grit and use controlled strokes to protect the plate.",
+        "zh": "指甲锉可缩短游离缘并塑造轮廓；应选择合适砂砾度并控制锉磨动作，以保护甲板。"
+      },
+      "lockPoint": {
+        "en": "file = shorten and shape the free edge.",
+        "zh": "指甲锉 = 缩短并塑造游离缘。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - Abrasive Nail Files",
+          "printedPage": "140-142",
+          "pdfPage": 164
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-076": {
+      "id": "official-practice-076",
+      "explanation": {
+        "en": "Single-use implements cannot be disinfected for another client. Put them directly into a covered trash container after service unless local rules require special disposal.",
+        "zh": "一次性器械不能消毒后供另一位客户使用。服务后应直接放入有盖垃圾桶，除非当地规定要求特殊处置。"
+      },
+      "lockPoint": {
+        "en": "used single-use implement = trash container.",
+        "zh": "用过的一次性器械 = 放入垃圾桶。"
+      },
+      "teachingRelation": "sequence",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Milady Standard Foundations - Infection Control - Single-Use Items",
+          "printedPage": "122",
+          "pdfPage": 617
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-077": {
+      "id": "official-practice-077",
+      "explanation": {
+        "en": "A wooden pusher gently loosens softened dead cuticle from the nail plate. It should not push or cut living eponychium tissue.",
+        "zh": "wooden pusher（木质推皮棒）可轻柔松动甲板上已软化的死亡甲小皮，不应推压或剪切活体甲上皮。"
+      },
+      "lockPoint": {
+        "en": "wooden pusher = loosen softened dead cuticle.",
+        "zh": "木质推皮棒 = 松动已软化的死亡甲小皮。"
+      },
+      "teachingRelation": "action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - Implements - Wooden Pushers",
+          "printedPage": "143-145",
+          "pdfPage": 167
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-078": {
+      "id": "official-practice-078",
+      "explanation": {
+        "en": "Continuous buffing in one spot creates friction heat. Lift and move the buffer regularly to keep the nail plate comfortable.",
+        "zh": "在同一点持续抛光会产生摩擦热。应经常抬起并移动抛光棒，让甲板保持舒适。"
+      },
+      "lockPoint": {
+        "en": "lift the buffer to prevent friction heat.",
+        "zh": "抬起抛光棒，防止摩擦发热。"
+      },
+      "teachingRelation": "cause-effect",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - Buffing the Natural Nail",
+          "printedPage": "154-155",
+          "pdfPage": 178
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-079": {
+      "id": "official-practice-079",
+      "explanation": {
+        "en": "Nail bleach is formulated to lighten stains beneath the free edge. It is used carefully after debris has been removed.",
+        "zh": "nail bleach（指甲漂白剂）用于淡化游离缘下方的污渍，应在清除碎屑后谨慎使用。"
+      },
+      "lockPoint": {
+        "en": "nail bleach = lighten stains under free edge.",
+        "zh": "指甲漂白剂 = 淡化游离缘下方污渍。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - Nail Cosmetics - Nail Bleach",
+          "printedPage": "149",
+          "pdfPage": 173
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-080": {
+      "id": "official-practice-080",
+      "explanation": {
+        "en": "Fabric reinforcement spreads stress through the gel enhancement and adds support to weak areas. It can reduce repeated cracking or breaking.",
+        "zh": "纤维加固材料可把受力分散到凝胶增强层，并支撑薄弱部位，从而减少反复开裂或断裂。"
+      },
+      "lockPoint": {
+        "en": "fabric in gel = added reinforcement.",
+        "zh": "凝胶中加入纤维 = 增加强度。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Light-Cured Gels - Gel Reinforcement",
+          "printedPage": "370-372",
+          "pdfPage": 394
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-081": {
+      "id": "official-practice-081",
+      "explanation": {
+        "en": "A gritty scrub loosens dead, flaky surface cells and helps reduce callus buildup. Moisturizing ingredients leave the skin softer after exfoliation.",
+        "zh": "含颗粒的磨砂膏会松动干燥脱屑的表面死亡细胞，并帮助减轻老茧；保湿成分让去角质后的皮肤更柔软。"
+      },
+      "lockPoint": {
+        "en": "scrub = exfoliate flakes and soften calluses.",
+        "zh": "磨砂膏 = 去除皮屑并软化老茧。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Pedicuring - Exfoliating Scrub",
+          "printedPage": "201",
+          "pdfPage": 225
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-082": {
+      "id": "official-practice-082",
+      "explanation": {
+        "en": "Artificial gel products cure when photoinitiators absorb ultraviolet energy. UV and LED gel lamps deliver selected ultraviolet wavelengths.",
+        "zh": "人工凝胶产品中的光引发剂吸收 ultraviolet（紫外线）能量后固化；UV 灯和 LED 凝胶灯都会提供特定紫外线波长。"
+      },
+      "lockPoint": {
+        "en": "gel curing uses ultraviolet energy.",
+        "zh": "凝胶固化使用紫外线能量。"
+      },
+      "teachingRelation": "process",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Light-Cured Gels - UV and LED Lamps",
+          "printedPage": "355",
+          "pdfPage": 379
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-083": {
+      "id": "official-practice-083",
+      "explanation": {
+        "en": "A foot soak is made for pedicure bath water. It cleans, deodorizes, and softens feet without exposing skin to surface disinfectant.",
+        "zh": "foot soak（足浴浸泡剂）专为足浴水配制，可清洁、除味并软化足部，不会让皮肤接触表面消毒剂。"
+      },
+      "lockPoint": {
+        "en": "pedicure bath = foot soak product.",
+        "zh": "足浴水 = 加入足浴浸泡剂。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Pedicuring - Foot Soaks",
+          "printedPage": "201",
+          "pdfPage": 225
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-084": {
+      "id": "official-practice-084",
+      "explanation": {
+        "en": "Dehydrator temporarily removes moisture and oil from the nail plate. Primer follows on the clean surface to improve product attachment.",
+        "zh": "dehydrator（干燥剂）暂时去除甲板上的水分和油脂；随后在清洁表面使用底剂，以提高产品附着力。"
+      },
+      "lockPoint": {
+        "en": "enhancement prep: dehydrator before primer.",
+        "zh": "增强甲准备顺序：先干燥剂，后底剂。"
+      },
+      "teachingRelation": "sequence",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Product Chemistry - Nail Dehydrators and Primers",
+          "printedPage": "117-119",
+          "pdfPage": 141
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-085": {
+      "id": "official-practice-085",
+      "explanation": {
+        "en": "Filing from each side toward the center reduces stress on a thin natural nail. A back-and-forth sawing motion can split fragile layers.",
+        "zh": "从左右两侧分别向中心锉，可减少薄天然指甲承受的压力；来回拉锯式锉磨可能使脆弱甲层裂开。"
+      },
+      "lockPoint": {
+        "en": "fragile nail: each side toward center.",
+        "zh": "脆弱指甲：两侧分别向中心锉。"
+      },
+      "teachingRelation": "action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - Filing the Natural Nail",
+          "printedPage": "153-154",
+          "pdfPage": 177
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-086": {
+      "id": "official-practice-086",
+      "explanation": {
+        "en": "Disposable implements are porous or otherwise unsuitable for complete disinfection. Reusing them can transfer germs from one client to another.",
+        "zh": "一次性器械具有多孔性，或因其他原因无法彻底消毒；重复使用可能把微生物从一位客户传给另一位。"
+      },
+      "lockPoint": {
+        "en": "cannot disinfect safely = discard after use.",
+        "zh": "无法安全消毒 = 使用后丢弃。"
+      },
+      "teachingRelation": "safety-reason",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Milady Standard Foundations - Infection Control - Single-Use Items",
+          "printedPage": "122",
+          "pdfPage": 617
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-087": {
+      "id": "official-practice-087",
+      "explanation": {
+        "en": "Warm paraffin coats the skin and slows moisture loss. The retained warmth increases local circulation and makes dry skin feel softer.",
+        "zh": "温热石蜡包覆皮肤并减缓水分流失；保留的热量会促进局部循环，使干燥皮肤感觉更柔软。"
+      },
+      "lockPoint": {
+        "en": "paraffin = trapped moisture plus gentle warmth.",
+        "zh": "石蜡护理 = 锁住水分并提供温热。"
+      },
+      "teachingRelation": "cause-effect",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - Paraffin Wax Treatments",
+          "printedPage": "165-167",
+          "pdfPage": 189
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-088": {
+      "id": "official-practice-088",
+      "explanation": {
+        "en": "The well is the recessed area of a nail tip that contacts the natural nail. Its position stop guides correct alignment.",
+        "zh": "well（甲片贴合区）是甲片上与天然指甲接触的凹陷部分，其中的定位止点用于引导正确对齐。"
+      },
+      "lockPoint": {
+        "en": "tip well = contact and alignment area.",
+        "zh": "甲片 well = 接触和对齐区域。"
+      },
+      "teachingRelation": "location",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Tips and Forms - Nail Tip Anatomy",
+          "printedPage": "254-257",
+          "pdfPage": 278
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-089": {
+      "id": "official-practice-089",
+      "explanation": {
+        "en": "An abrasive file removes length and shapes the free edge that extends beyond the fingertip. It should not be used on living nail-bed tissue.",
+        "zh": "指甲锉用于缩短并塑造超过指尖的 free edge（游离缘），不应用于活体甲床组织。"
+      },
+      "lockPoint": {
+        "en": "abrasive file works on the free edge.",
+        "zh": "指甲锉作用于游离缘。"
+      },
+      "teachingRelation": "location",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - Abrasive Nail Files",
+          "printedPage": "140-142",
+          "pdfPage": 164
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-090": {
+      "id": "official-practice-090",
+      "explanation": {
+        "en": "A bit spinning too fast creates excess friction heat. Use the lowest effective speed, light pressure, and continuous movement.",
+        "zh": "磨头转速过高会产生过多摩擦热。应使用能有效工作的最低转速、轻压力，并持续移动。"
+      },
+      "lockPoint": {
+        "en": "high RPM plus friction = excess heat.",
+        "zh": "高转速加摩擦 = 过热。"
+      },
+      "teachingRelation": "cause-effect",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Electric Filing - RPM Speed and Safe Use",
+          "printedPage": "231-234",
+          "pdfPage": 255
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-091": {
+      "id": "official-practice-091",
+      "explanation": {
+        "en": "Warm paraffin holds heat around the hands and reduces moisture loss. This combination comforts cold hands and softens dry skin.",
+        "zh": "温热石蜡可在手部周围保温并减少水分流失，因此能舒缓手部冰凉并软化干燥皮肤。"
+      },
+      "lockPoint": {
+        "en": "cold, dry hands = warm paraffin treatment.",
+        "zh": "手部冰凉干燥 = 温热石蜡护理。"
+      },
+      "teachingRelation": "condition-action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - Paraffin Wax Treatments",
+          "printedPage": "165-167",
+          "pdfPage": 189
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-092": {
+      "id": "official-practice-092",
+      "explanation": {
+        "en": "Massage increases circulation. Severe or uncontrolled high blood pressure is a contraindication, so the client needs medical guidance before massage.",
+        "zh": "按摩会促进血液循环。严重或未受控制的高血压属于禁忌，因此按摩前需要医疗人员指导。"
+      },
+      "lockPoint": {
+        "en": "uncontrolled high blood pressure = medical clearance before massage.",
+        "zh": "未受控制的高血压 = 按摩前取得医疗许可。"
+      },
+      "teachingRelation": "safety-reason",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - Massage Contraindications",
+          "printedPage": "161",
+          "pdfPage": 185
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-093": {
+      "id": "official-practice-093",
+      "explanation": {
+        "en": "A dehydrator removes surface moisture and oil before liquid-and-powder application. Cleaner contact helps reduce lifting and improves attachment.",
+        "zh": "dehydrator（干燥剂）在液体与粉末产品施工前去除表面水分和油脂；更清洁的接触可减少起翘并提高附着。"
+      },
+      "lockPoint": {
+        "en": "dehydrator prepares a clean, dry plate.",
+        "zh": "干燥剂把甲板处理得清洁、干燥。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Product Chemistry - Nail Dehydrators",
+          "printedPage": "119",
+          "pdfPage": 143
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-094": {
+      "id": "official-practice-094",
+      "explanation": {
+        "en": "Reusable forms are durable aluminum or plastic guides placed under the free edge. They can be cleaned and disinfected between clients.",
+        "zh": "可重复使用的甲模是放在游离缘下方的耐用铝制或塑料导向工具，可在客户之间清洁和消毒。"
+      },
+      "lockPoint": {
+        "en": "reusable forms = aluminum or plastic.",
+        "zh": "可重复使用的甲模 = 铝制或塑料。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Tips and Forms - Nail Forms",
+          "printedPage": "273-276",
+          "pdfPage": 297
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-095": {
+      "id": "official-practice-095",
+      "explanation": {
+        "en": "Base coat creates an even foundation and improves colored polish attachment. It can also help protect the natural plate from staining.",
+        "zh": "base coat（底油）形成均匀基础，并提高彩色指甲油的附着力，也能帮助保护天然甲板免受染色。"
+      },
+      "lockPoint": {
+        "en": "polish order: base coat before color.",
+        "zh": "指甲油顺序：先底油，再彩色指甲油。"
+      },
+      "teachingRelation": "sequence",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - Base Coat",
+          "printedPage": "151",
+          "pdfPage": 175
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-096": {
+      "id": "official-practice-096",
+      "explanation": {
+        "en": "A clean nail brush removes loose debris from beneath the free edge without scraping living tissue. Brush gently and rinse away residue.",
+        "zh": "清洁的指甲刷可清除游离缘下方松散碎屑，不会刮伤活体组织；应轻柔刷洗并冲净残留。"
+      },
+      "lockPoint": {
+        "en": "under free edge: clean gently with a nail brush.",
+        "zh": "游离缘下方：用指甲刷轻柔清洁。"
+      },
+      "teachingRelation": "action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - Implements - Nail Brushes",
+          "printedPage": "144-145",
+          "pdfPage": 168
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-097": {
+      "id": "official-practice-097",
+      "explanation": {
+        "en": "Effleurage keeps the hands in contact while using slow, rhythmic strokes. The predictable gliding movement is calming and relaxing.",
+        "zh": "effleurage（轻抚法）让双手保持接触，并使用缓慢、有节奏的抚摸；稳定的滑行动作可使人平静放松。"
+      },
+      "lockPoint": {
+        "en": "effleurage = slow, rhythmic, gliding strokes.",
+        "zh": "effleurage = 缓慢、有节奏的滑行轻抚。"
+      },
+      "teachingRelation": "recognition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - General Movements for Massage",
+          "printedPage": "162",
+          "pdfPage": 186
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-098": {
+      "id": "official-practice-098",
+      "explanation": {
+        "en": "A metal pusher has a hard reusable surface, so it must be cleaned and disinfected before each client and after every service.",
+        "zh": "金属推皮棒表面坚硬且可重复使用，因此每位客户服务前和每次服务后都必须清洁并消毒。"
+      },
+      "lockPoint": {
+        "en": "reusable metal pusher = clean and disinfect every service.",
+        "zh": "可重复使用的金属推皮棒 = 每次服务都清洁消毒。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Milady Standard Foundations - Infection Control - Reusable Items",
+          "printedPage": "119-121",
+          "pdfPage": 614
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-099": {
+      "id": "official-practice-099",
+      "explanation": {
+        "en": "A client card records health information, preferences, products, dates, and service results. Reviewing it supports safe, consistent future services.",
+        "zh": "客户档案卡记录健康信息、偏好、产品、日期和服务结果；查看记录有助于以后提供安全一致的服务。"
+      },
+      "lockPoint": {
+        "en": "client card = history for planning successful services.",
+        "zh": "客户档案卡 = 规划成功服务所需的历史记录。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Manicuring - Client Consultation and Service Record",
+          "printedPage": "156-158",
+          "pdfPage": 180
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    },
+    "official-practice-100": {
+      "id": "official-practice-100",
+      "explanation": {
+        "en": "Primer improves attachment between a prepared nail plate and gel when the product system requires it. Apply only the amount directed by the manufacturer.",
+        "zh": "产品系统要求时，primer（底剂）可提高处理好的甲板与凝胶之间的附着力；用量应严格遵循制造商说明。"
+      },
+      "lockPoint": {
+        "en": "primer = bonding aid used as directed.",
+        "zh": "primer = 按说明使用的附着辅助产品。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology 8th Edition",
+          "section": "Nail Product Chemistry - Nail Primer",
+          "printedPage": "117-118",
+          "pdfPage": 141
+        }
+      ],
+      "author": "codex-authoring-run-2026-08-26-phase-3",
+      "authoredAt": "2026-08-26"
+    }
+  }
+}
