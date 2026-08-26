@@ -1,0 +1,127 @@
+{
+  "author": "codex-authoring-run-2026-08-26-phase-3",
+  "authoredAt": "2026-08-26",
+  "authoritySource": "Milady Standard Nail Technology 8th Edition",
+  "entries": {
+    "official-practice-001": {
+      "why": ["Ringworm is a contagious fungal skin infection. On hands or feet, it may form itchy rings, peeling skin, or small blisters.", "ringworm（癣）是一种会传染的真菌性皮肤感染。发生在手足时，可能出现瘙痒的环形斑、脱皮或小水疱。"],
+      "lock": ["ringworm = fungal infection; scabies = animal parasite.", "ringworm = 真菌感染；scabies（疥疮）= 动物寄生虫感染。"],
+      "relation": "contrast",
+      "refs": [["Skin Structure, Disorders, and Diseases - Infectious Skin Disorders", "86", 110]]
+    },
+    "official-practice-002": {
+      "why": ["Liquids form vapors when they evaporate into air. Monomer liquid, gel ingredients, and adhesives release vapors rather than smoke-like fumes.", "液体蒸发到空气中会形成 vapor（蒸气）。单体液、凝胶成分和粘合剂释放的是蒸气，不是含烟尘的 fumes（烟雾）。"],
+      "lock": ["liquid evaporates = vapor; burning material = fumes.", "液体蒸发 = vapor；物质燃烧 = fumes。"],
+      "relation": "contrast",
+      "refs": [["Nail Product Chemistry - Gases, Vapors, and Fumes", "116", 140]]
+    },
+    "official-practice-003": {
+      "why": ["A fissure is a crack that reaches into living skin. Secondary lesions develop after skin damage or a change in a primary lesion.", "fissure（皲裂）是深入活体皮肤的裂口。继发性皮损会在皮肤受损后，或原发性皮损发生变化后形成。"],
+      "lock": ["fissure = secondary crack in the skin.", "fissure = 皮肤上的继发性裂口。"],
+      "relation": "recognition",
+      "refs": [["Skin Structure, Disorders, and Diseases - Secondary Skin Lesions", "80", 104]]
+    },
+    "official-practice-004": {
+      "why": ["Traditional nail polish hardens as solvents evaporate and leave a coating behind. It does not need the polymerization used by enhancement products.", "传统指甲油中的溶剂蒸发后，会留下并形成涂层。它不需要像美甲增强材料那样发生聚合反应。"],
+      "lock": ["nail polish = solvent evaporation; enhancements may polymerize.", "指甲油 = 溶剂蒸发；美甲增强材料可能发生聚合。"],
+      "relation": "process",
+      "refs": [["Nail Product Chemistry - Nail Coating Products", "121", 145]]
+    },
+    "official-practice-005": {
+      "why": ["Cysts and tubercles are raised primary lesions that may occur above or below the skin. Both require medical referral, not salon treatment.", "cyst（囊肿）和 tubercle（结节）都是可位于皮肤表面或下方的隆起性原发皮损，都应转介医疗人员，不能在沙龙处理。"],
+      "lock": ["raised primary lesion = recognize and refer.", "隆起性原发皮损 = 识别后转介。"],
+      "relation": "safety-reason",
+      "refs": [["Skin Structure, Disorders, and Diseases - Primary Skin Lesions", "78", 102]]
+    },
+    "official-practice-006": {
+      "why": ["Natural nails are skin appendages made mainly of keratin. They grow from matrix cells rather than being made primarily of calcium.", "天然指甲是皮肤的附属器官，主要由 keratin（角蛋白）构成。它由甲母质细胞生长形成，并非主要由钙构成。"],
+      "lock": ["natural nail = keratin skin appendage.", "天然指甲 = 由角蛋白构成的皮肤附属器官。"],
+      "relation": "category",
+      "refs": [["Nail Structure, Disorders, and Diseases - Natural Nail Structure", "97", 121]]
+    },
+    "official-practice-007": {
+      "why": ["Onychocryptosis occurs when a nail grows into the tissue at its side. The painful area requires medical referral when infection, redness, or swelling appears.", "onychocryptosis（嵌甲症）是指指甲长入侧边组织。若出现感染、发红或肿胀，疼痛部位应转介医疗人员。"],
+      "lock": ["onychocryptosis = nail growing into side tissue.", "onychocryptosis = 指甲长入侧边组织。"],
+      "relation": "recognition",
+      "refs": [["Nail Structure, Disorders, and Diseases - Overview of Nail Diseases", "109", 133]]
+    },
+    "official-practice-008": {
+      "why": ["Nail psoriasis can affect the nail bed and create yellow-red salmon patches beneath the plate. It may also cause pitting or roughness.", "nail psoriasis（甲银屑病）会影响甲床，在甲板下形成黄红色的鲑鱼斑，也可能造成点状凹陷或粗糙。"],
+      "lock": ["salmon patches under the plate = nail psoriasis.", "甲板下的鲑鱼斑 = nail psoriasis。"],
+      "relation": "recognition",
+      "refs": [["Nail Structure, Disorders, and Diseases - Nail Psoriasis", "111", 135]]
+    },
+    "official-practice-009": {
+      "why": ["A reusable metal implement must be cleaned before proper disinfection. Disinfection kills most harmful germs remaining on the hard surface.", "可重复使用的金属器械必须先清洁，再正确消毒。disinfection（消毒）会杀死坚硬表面残留的大多数有害微生物。"],
+      "lock": ["reusable metal implement: clean first, disinfect second.", "可重复使用的金属器械：先清洁，再消毒。"],
+      "relation": "sequence",
+      "refs": [["Milady Standard Foundations - Infection Control - Cleaning and Disinfecting", "117-119", 612]]
+    },
+    "official-practice-010": {
+      "why": ["The extensor digitorum longus bends the foot upward and extends the toes. Other lower-leg muscles move the foot in different directions.", "extensor digitorum longus（趾长伸肌）使足部向上弯曲并伸展脚趾。其他小腿肌肉负责不同方向的足部动作。"],
+      "lock": ["extensor digitorum longus = foot up, toes extend.", "extensor digitorum longus = 足部上抬，脚趾伸展。"],
+      "relation": "function",
+      "refs": [["General Anatomy and Physiology - Muscles of the Lower Leg and Foot", "32", 56]]
+    },
+    "official-practice-011": {
+      "why": ["Rinsing removes disinfectant residue after the required contact time. Drying prevents dilution and contamination before the implement is stored in a clean place.", "达到规定接触时间后，冲洗可去除消毒剂残留；擦干可避免稀释和污染，再把器械存放在清洁处。"],
+      "lock": ["after disinfectant: rinse, dry, then store clean.", "取出消毒剂后：冲洗、擦干，再清洁存放。"],
+      "relation": "sequence",
+      "refs": [["Milady Standard Foundations - Infection Control - Disinfecting Reusable Items", "120", 615]]
+    },
+    "official-practice-012": {
+      "why": ["Bacteria are microscopic living organisms commonly called microbes or germs. Some are harmless or helpful, while pathogenic bacteria can cause disease.", "bacteria（细菌）是微小的活体生物，也常称为 microbes 或 germs。有些无害或有益，致病菌则会引起疾病。"],
+      "lock": ["bacteria = microbes; pathogenic bacteria cause disease.", "bacteria = 微生物；致病性细菌会引起疾病。"],
+      "relation": "category",
+      "refs": [["Milady Standard Foundations - Infection Control - Bacteria", "99-101", 594]]
+    },
+    "official-practice-013": {
+      "why": ["Phalanges are the bones of the fingers and toes. Each finger has three phalanges, while each thumb has two.", "phalanges（指骨和趾骨）构成手指和脚趾。每根手指有三节指骨，每个拇指有两节。"],
+      "lock": ["phalanges = finger and toe bones.", "phalanges = 手指和脚趾的骨骼。"],
+      "relation": "location",
+      "refs": [["General Anatomy and Physiology - Bones of the Hand and Foot", "24-26", 48]]
+    },
+    "official-practice-014": {
+      "why": ["Skin covers and protects the entire body. Its large surface area makes it the body's largest organ.", "皮肤覆盖并保护全身。由于覆盖面积很大，它是人体最大的器官。"],
+      "lock": ["skin = protective covering and largest organ.", "皮肤 = 保护性覆盖层，也是最大的器官。"],
+      "relation": "function",
+      "refs": [["Skin Structure, Disorders, and Diseases - Functions of the Skin", "59-60", 83]]
+    },
+    "official-practice-015": {
+      "why": ["Onychomycosis is a fungal infection of the nail plate. It may cause white patches, pale yellow streaks, or a crumbling free edge.", "onychomycosis（甲真菌病）是甲板的真菌感染，可能出现白斑、淡黄色条纹或游离缘碎裂。"],
+      "lock": ["onychomycosis = fungal nail infection.", "onychomycosis = 指甲真菌感染。"],
+      "relation": "cause-effect",
+      "refs": [["Nail Structure, Disorders, and Diseases - Overview of Nail Diseases", "109", 133]]
+    },
+    "official-practice-016": {
+      "why": ["A warm oil manicure softens and conditions dry skin around an agnail. Cutting living surrounding skin can cause injury and infection.", "温油手部护理可软化并滋润倒刺周围的干燥皮肤。剪切周围的活体皮肤可能造成受伤和感染。"],
+      "lock": ["agnail care = soften and condition; do not cut living skin.", "倒刺护理 = 软化并滋润；不要剪活体皮肤。"],
+      "relation": "safety-reason",
+      "refs": [["Manicuring - Conditioning Oil Manicure", "164-165", 188]]
+    },
+    "official-practice-017": {
+      "why": ["Cuticle is dead tissue attached to the nail plate. The living eponychium surrounds the plate and should not be cut.", "cuticle（甲小皮）是附着在甲板上的死亡组织；eponychium（甲上皮）是甲板周围的活体组织，不应剪切。"],
+      "lock": ["cuticle = dead tissue on plate; eponychium = living skin.", "cuticle = 甲板上的死亡组织；eponychium = 活体皮肤。"],
+      "relation": "contrast",
+      "refs": [["Nail Structure, Disorders, and Diseases - Nail Anatomy", "99-101", 123]]
+    },
+    "official-practice-018": {
+      "why": ["Cuticle removers contain strong alkaline ingredients that dissolve dead tissue. Leaving them too long can irritate or burn living skin.", "甲小皮软化剂含有能溶解死亡组织的强碱性成分。停留过久会刺激或灼伤活体皮肤。"],
+      "lock": ["cuticle remover = alkaline; limit contact time.", "甲小皮软化剂 = 碱性；限制接触时间。"],
+      "relation": "safety-reason",
+      "refs": [["Manicuring - Nail Cosmetics - Cuticle Removers", "148", 172]]
+    },
+    "official-practice-019": {
+      "why": ["A pumice stone is porous, so it cannot be properly disinfected. A porous implement must be discarded after one service.", "浮石具有多孔性，无法被正确消毒。多孔器械每次服务后都必须丢弃。"],
+      "lock": ["porous implement = single use, then discard.", "多孔器械 = 一次性使用，之后丢弃。"],
+      "relation": "safety-rule",
+      "refs": [["Milady Standard Foundations - Infection Control - Single-Use Items", "122", 617]]
+    },
+    "official-practice-020": {
+      "why": ["The matrix produces nail plate cells. Its size, length, and shape influence the plate's thickness, width, and curvature.", "matrix（甲母质）产生甲板细胞。甲母质的大小、长度和形状会影响甲板的厚度、宽度和弧度。"],
+      "lock": ["matrix shape controls nail plate shape.", "甲母质形状决定甲板形状。"],
+      "relation": "cause-effect",
+      "refs": [["Nail Structure, Disorders, and Diseases - Matrix", "101", 125]]
+    }
+  }
+}

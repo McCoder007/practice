@@ -1,0 +1,3112 @@
+{
+  "generatedAt": "2026-08-26T19:05:33.137Z",
+  "sourceFiles": [
+    "NIC Nail Technology Practice Exam - Trivie Learn.mhtml",
+    "Results - Trivie Learn Quiz 2.mhtml"
+  ],
+  "statistics": {
+    "total": 100
+  },
+  "questions": [
+    {
+      "id": "official-practice-001",
+      "question": {
+        "en": "An example of a disease caused by a plant parasite is"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "diphtheria."
+        },
+        {
+          "id": "b",
+          "en": "hepatitis."
+        },
+        {
+          "id": "c",
+          "en": "ringworm."
+        },
+        {
+          "id": "d",
+          "en": "scabies."
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q01"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-002",
+      "question": {
+        "en": "Monomer liquids, UV gels, and adhesives will form"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "fumes."
+        },
+        {
+          "id": "b",
+          "en": "gases."
+        },
+        {
+          "id": "c",
+          "en": "dust."
+        },
+        {
+          "id": "d",
+          "en": "vapors."
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q02"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-003",
+      "question": {
+        "en": "Which of the following is a secondary skin lesion?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Tumor"
+        },
+        {
+          "id": "b",
+          "en": "Fissure"
+        },
+        {
+          "id": "c",
+          "en": "Papule"
+        },
+        {
+          "id": "d",
+          "en": "Bulla"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q03"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-004",
+      "question": {
+        "en": "Which of the following is a characteristic of nail polishes, top coats, and base coats?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "They adhere best when the nail is etched."
+        },
+        {
+          "id": "b",
+          "en": "They work by evaporation."
+        },
+        {
+          "id": "c",
+          "en": "They polymerize."
+        },
+        {
+          "id": "d",
+          "en": "They require a catalyst."
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q04"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-005",
+      "question": {
+        "en": "An example of a tubercle is"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "acne."
+        },
+        {
+          "id": "b",
+          "en": "freckles."
+        },
+        {
+          "id": "c",
+          "en": "a cyst."
+        },
+        {
+          "id": "d",
+          "en": "a wart."
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q05"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-006",
+      "question": {
+        "en": "A characteristic of natural nails is that"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "they are appendages of the skin."
+        },
+        {
+          "id": "b",
+          "en": "they are primarily composed of calcium."
+        },
+        {
+          "id": "c",
+          "en": "growth occurs most quickly in elderly persons."
+        },
+        {
+          "id": "d",
+          "en": "the growth of the nail plate solely depends on the circulatory system."
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q06"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-007",
+      "question": {
+        "en": "A technical term for ingrown nails is"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "onychocryptosis."
+        },
+        {
+          "id": "b",
+          "en": "onychophagy."
+        },
+        {
+          "id": "c",
+          "en": "onychomycosis."
+        },
+        {
+          "id": "d",
+          "en": "onychia."
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q07"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-008",
+      "question": {
+        "en": "A disease that can affect the nail bed causing it to develop yellowish to reddish spots under the nail plate called salmon patches is"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "onychocryptosis."
+        },
+        {
+          "id": "b",
+          "en": "onycholysis."
+        },
+        {
+          "id": "c",
+          "en": "nail psoriasis."
+        },
+        {
+          "id": "d",
+          "en": "paronychia."
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q08"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-009",
+      "question": {
+        "en": "The practitioner has accidently cut her client with a metal implement. This implement needs to be"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "discarded."
+        },
+        {
+          "id": "b",
+          "en": "disinfected."
+        },
+        {
+          "id": "c",
+          "en": "sterilized."
+        },
+        {
+          "id": "d",
+          "en": "double bagged and discarded."
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q09"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-010",
+      "question": {
+        "en": "Which of the following muscles moves the foot up and extends the toes?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Extensor digitorum"
+        },
+        {
+          "id": "b",
+          "en": "Tibialis anterior"
+        },
+        {
+          "id": "c",
+          "en": "Peroneous longus"
+        },
+        {
+          "id": "d",
+          "en": "Soleus"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q10"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-011",
+      "question": {
+        "en": "What should be done to implements after they are removed from the disinfectant?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Replace with implements currently being used"
+        },
+        {
+          "id": "b",
+          "en": "Mist with an antibacterial solvent"
+        },
+        {
+          "id": "c",
+          "en": "Rinse thoroughly with water and dry"
+        },
+        {
+          "id": "d",
+          "en": "Cover with an absorbent material"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q11"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-012",
+      "question": {
+        "en": "Bacteria are also known as"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "parasites."
+        },
+        {
+          "id": "b",
+          "en": "microbes/germs."
+        },
+        {
+          "id": "c",
+          "en": "viruses."
+        },
+        {
+          "id": "d",
+          "en": "fungi."
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q12"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-013",
+      "question": {
+        "en": "What bones are found in the hands and feet?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Carpus"
+        },
+        {
+          "id": "b",
+          "en": "Talus"
+        },
+        {
+          "id": "c",
+          "en": "Phalanges"
+        },
+        {
+          "id": "d",
+          "en": "Trochanters"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q13"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-014",
+      "question": {
+        "en": "Which of the following is the largest human organ?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Heart"
+        },
+        {
+          "id": "b",
+          "en": "Brain"
+        },
+        {
+          "id": "c",
+          "en": "Skin"
+        },
+        {
+          "id": "d",
+          "en": "Lungs"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q14"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-015",
+      "question": {
+        "en": "What is the cause of onychomycosis?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Keratin"
+        },
+        {
+          "id": "b",
+          "en": "Fungus"
+        },
+        {
+          "id": "c",
+          "en": "Bacteria"
+        },
+        {
+          "id": "d",
+          "en": "Inflammation"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q15"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-016",
+      "question": {
+        "en": "When consulting a client with an agnail, the proper consultation care advice would be to"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "cut surrounding skin."
+        },
+        {
+          "id": "b",
+          "en": "carefully buff the nail plate."
+        },
+        {
+          "id": "c",
+          "en": "receive a hot oil manicure."
+        },
+        {
+          "id": "d",
+          "en": "advise the client to consider nail enhancements."
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q16"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-017",
+      "question": {
+        "en": "The cuticle attached to the nail plate is considered a"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "nerve."
+        },
+        {
+          "id": "b",
+          "en": "blood vessel."
+        },
+        {
+          "id": "c",
+          "en": "tissue."
+        },
+        {
+          "id": "d",
+          "en": "matrix."
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q17"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-018",
+      "question": {
+        "en": "Cuticle removers should not be left on more than 10 minutes due to ingredient of"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "glycerin."
+        },
+        {
+          "id": "b",
+          "en": "hydrogen peroxide at 6%."
+        },
+        {
+          "id": "c",
+          "en": "sodium hydroxide or potassium hydroxide at 2 - 5%."
+        },
+        {
+          "id": "d",
+          "en": "silicone."
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q18"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-019",
+      "question": {
+        "en": "Which of the following is an example of a single-use item?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Glass file"
+        },
+        {
+          "id": "b",
+          "en": "Nipper"
+        },
+        {
+          "id": "c",
+          "en": "Pumice stone"
+        },
+        {
+          "id": "d",
+          "en": "Metal cuticle pusher"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q19"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-020",
+      "question": {
+        "en": "What determines the thickness, width, and curvature of the natural nail?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Nail bed"
+        },
+        {
+          "id": "b",
+          "en": "Hyponychium"
+        },
+        {
+          "id": "c",
+          "en": "Eponychium"
+        },
+        {
+          "id": "d",
+          "en": "Matrix"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q20"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-021",
+      "question": {
+        "en": "Which of the following is true regarding multi-use and single-use items?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Multi-use items may be reused for different clients without cleaning"
+        },
+        {
+          "id": "b",
+          "en": "Single-use items may be reused for the same client when stored in an individual client packet"
+        },
+        {
+          "id": "c",
+          "en": "Single-use items are porous and must be disposed of after each use"
+        },
+        {
+          "id": "d",
+          "en": "Multi-use items are nonporous and cannot be disinfected"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q21"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-022",
+      "question": {
+        "en": "Parasites need which of the following to survive?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Host"
+        },
+        {
+          "id": "b",
+          "en": "Pathogen"
+        },
+        {
+          "id": "c",
+          "en": "Toxin"
+        },
+        {
+          "id": "d",
+          "en": "Virus"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q22"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-023",
+      "question": {
+        "en": "Obvious signs of nail diseases will show redness, swelling, pus and is possibly painful for the client. When these conditions are present the technician should always consult with the client and"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "give a basic manicure or pedicure service."
+        },
+        {
+          "id": "b",
+          "en": "practice safe sanitation procedures."
+        },
+        {
+          "id": "c",
+          "en": "refer the client to medical experts."
+        },
+        {
+          "id": "d",
+          "en": "wear protective gloves."
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q23"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-024",
+      "question": {
+        "en": "Which of the following is a government agency that regulates and enforces safety and health standards?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Material Safety Data Sheets"
+        },
+        {
+          "id": "b",
+          "en": "Environmental Protection Agency"
+        },
+        {
+          "id": "c",
+          "en": "Occupational Safety and Health Administration"
+        },
+        {
+          "id": "d",
+          "en": "Universal Precaution"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q24"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-025",
+      "question": {
+        "en": "Items that cannot be disinfected are referred to as"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "reusable."
+        },
+        {
+          "id": "b",
+          "en": "multi-use."
+        },
+        {
+          "id": "c",
+          "en": "client packs."
+        },
+        {
+          "id": "d",
+          "en": "single-use."
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q25"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-026",
+      "question": {
+        "en": "The largest leg bone is"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "femur."
+        },
+        {
+          "id": "b",
+          "en": "tibia."
+        },
+        {
+          "id": "c",
+          "en": "patella."
+        },
+        {
+          "id": "d",
+          "en": "fibula."
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q26"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-027",
+      "question": {
+        "en": "Which of the following is a chemical reaction that may produce heat?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Emulsifying"
+        },
+        {
+          "id": "b",
+          "en": "Suspending"
+        },
+        {
+          "id": "c",
+          "en": "Catalyst"
+        },
+        {
+          "id": "d",
+          "en": "Polymerization"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q27"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-028",
+      "question": {
+        "en": "Which of the following are white spots on the nails?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Onychocryptosis"
+        },
+        {
+          "id": "b",
+          "en": "Onychophagy"
+        },
+        {
+          "id": "c",
+          "en": "Leuconychia"
+        },
+        {
+          "id": "d",
+          "en": "Onychauxis"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q28"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-029",
+      "question": {
+        "en": "During a service, disposable items contaminated by blood MUST be"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "disinfected."
+        },
+        {
+          "id": "b",
+          "en": "discarded."
+        },
+        {
+          "id": "c",
+          "en": "wiped clean."
+        },
+        {
+          "id": "d",
+          "en": "washed with soap."
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q29"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-030",
+      "question": {
+        "en": "What is another name for the dermis layer of the skin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Spiny layer"
+        },
+        {
+          "id": "b",
+          "en": "Horny layer"
+        },
+        {
+          "id": "c",
+          "en": "True skin"
+        },
+        {
+          "id": "d",
+          "en": "Basal cell"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q30"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-031",
+      "question": {
+        "en": "Which layer of the skin is treated by salon products?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Stratum germinativum"
+        },
+        {
+          "id": "b",
+          "en": "Stratum corneum"
+        },
+        {
+          "id": "c",
+          "en": "Stratum lucidum"
+        },
+        {
+          "id": "d",
+          "en": "Stratum mucosum"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q31"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-032",
+      "question": {
+        "en": "Specialized ligaments of the nail serve what function?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Forms protective barrier to prevent bacteria from entering nail bed"
+        },
+        {
+          "id": "b",
+          "en": "Attaches nail bed to the bone"
+        },
+        {
+          "id": "c",
+          "en": "Attaches nail plate to the nail bed"
+        },
+        {
+          "id": "d",
+          "en": "Form tracks on either side of nail for the nail to move as it grows"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q32"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-033",
+      "question": {
+        "en": "Which of the following layers of the skin is continuously shed and replaced by cells made of keratin?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Papillary"
+        },
+        {
+          "id": "b",
+          "en": "Horny"
+        },
+        {
+          "id": "c",
+          "en": "Spiny"
+        },
+        {
+          "id": "d",
+          "en": "TRUE"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q33"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-034",
+      "question": {
+        "en": "The nail plate extends from the matrix to the"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "cuticle."
+        },
+        {
+          "id": "b",
+          "en": "lunula."
+        },
+        {
+          "id": "c",
+          "en": "nail bed."
+        },
+        {
+          "id": "d",
+          "en": "free edge."
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q34"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-035",
+      "question": {
+        "en": "Which of the following has a pH?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Cuticle oil"
+        },
+        {
+          "id": "b",
+          "en": "Detergent"
+        },
+        {
+          "id": "c",
+          "en": "Nail polish"
+        },
+        {
+          "id": "d",
+          "en": "Monomer"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q35"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-036",
+      "question": {
+        "en": "Increased curvature nail plates have deep or sharp curves at the free edge. This shape is determined by"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "the matrix."
+        },
+        {
+          "id": "b",
+          "en": "the nail bed."
+        },
+        {
+          "id": "c",
+          "en": "a bruised nail."
+        },
+        {
+          "id": "d",
+          "en": "Beau’s lines."
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q36"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-037",
+      "question": {
+        "en": "Which of the following describes paronychia?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "It is a fungal infection of the feet."
+        },
+        {
+          "id": "b",
+          "en": "It is a darkening of the fingernails or toenails."
+        },
+        {
+          "id": "c",
+          "en": "It is a bacterial infection of tissues surrounding the nail."
+        },
+        {
+          "id": "d",
+          "en": "It causes tiny pits or severe roughness on the surface of the nail plate."
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q37"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-038",
+      "question": {
+        "en": "The growth of a healthy human nail plate is largely determined by proper diet, exercise, and physical health. The shape, width, and thickness is determined by"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "the nail bed."
+        },
+        {
+          "id": "b",
+          "en": "the matrix."
+        },
+        {
+          "id": "c",
+          "en": "the nail plate."
+        },
+        {
+          "id": "d",
+          "en": "the nail folds."
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q38"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-039",
+      "question": {
+        "en": "What is the name of a substance that speeds up a chemical reaction?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Inhibitor"
+        },
+        {
+          "id": "b",
+          "en": "Catalyst"
+        },
+        {
+          "id": "c",
+          "en": "Evaporation"
+        },
+        {
+          "id": "d",
+          "en": "Primer"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q39"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-040",
+      "question": {
+        "en": "What is the name of the muscle that turns the palm upward?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Flexor"
+        },
+        {
+          "id": "b",
+          "en": "Supinator"
+        },
+        {
+          "id": "c",
+          "en": "Pronator"
+        },
+        {
+          "id": "d",
+          "en": "Extensor"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "NIC Nail Technology Practice Exam - Trivie Learn",
+          "itemRef": "q40"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-041",
+      "question": {
+        "en": "The application of which of the following removes dead skin during a pedicure?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Paraffin wax"
+        },
+        {
+          "id": "b",
+          "en": "Foot soaks"
+        },
+        {
+          "id": "c",
+          "en": "Effleurage"
+        },
+        {
+          "id": "d",
+          "en": "Exfoliation scrub"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q01"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-042",
+      "question": {
+        "en": "When performing a pedicure service, it is extremely important to remember not to push or cut the eponychium. This is especially important for clients with diseases like"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "tinea pedis."
+        },
+        {
+          "id": "b",
+          "en": "diabetes."
+        },
+        {
+          "id": "c",
+          "en": "onychosis."
+        },
+        {
+          "id": "d",
+          "en": "agnai."
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q02"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-043",
+      "question": {
+        "en": "Pedicure massages are defined as rubbing, pinching, kneading, and tapping. The medical dictionary refers to these as"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "metatarsal scissors."
+        },
+        {
+          "id": "b",
+          "en": "a method of manipulation."
+        },
+        {
+          "id": "c",
+          "en": "effleurage movement."
+        },
+        {
+          "id": "d",
+          "en": "fist twist compression."
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q03"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-044",
+      "question": {
+        "en": "Which of the following is a relaxation movement that involves pressing the skin's tissue on top of the foot during a pedicure?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Effleurage"
+        },
+        {
+          "id": "b",
+          "en": "Petrissage"
+        },
+        {
+          "id": "c",
+          "en": "Tapotement"
+        },
+        {
+          "id": "d",
+          "en": "Friction"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q04"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-045",
+      "question": {
+        "en": "Acrylic nail removal is achieved by using which of the following liquids?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Dehydrator"
+        },
+        {
+          "id": "b",
+          "en": "Acetone"
+        },
+        {
+          "id": "c",
+          "en": "Primer"
+        },
+        {
+          "id": "d",
+          "en": "Resin"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q05"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-046",
+      "question": {
+        "en": "During a client assessment for a manicure, the skin around one nail is red and swollen. What action should be taken by the practitioner?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Service the nails, but avoid touching the red one"
+        },
+        {
+          "id": "b",
+          "en": "Tell the client about the disease and refer the client to a physician"
+        },
+        {
+          "id": "c",
+          "en": "Use hypoallergenic products for the service"
+        },
+        {
+          "id": "d",
+          "en": "Reschedule after the fungus heals"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q06"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-047",
+      "question": {
+        "en": "Which of the following is used by the nail practitioner when giving a foot massage?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Lotion"
+        },
+        {
+          "id": "b",
+          "en": "Scrub"
+        },
+        {
+          "id": "c",
+          "en": "Antiseptic"
+        },
+        {
+          "id": "d",
+          "en": "Water"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q07"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-048",
+      "question": {
+        "en": "What implement adds shine and smoothes wavy ridges on the natural nail during a manicure?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Course file"
+        },
+        {
+          "id": "b",
+          "en": "Metal file"
+        },
+        {
+          "id": "c",
+          "en": "Nail brush"
+        },
+        {
+          "id": "d",
+          "en": "Nail buffer"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q08"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-049",
+      "question": {
+        "en": "The application of which kind of light cures gel nails?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Ultraviolet"
+        },
+        {
+          "id": "b",
+          "en": "Incandescent"
+        },
+        {
+          "id": "c",
+          "en": "Fluorescent"
+        },
+        {
+          "id": "d",
+          "en": "Infrared"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q09"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-050",
+      "question": {
+        "en": "Which of the following gel products is recommended for the client who wishes to have the nails easily removed?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Building"
+        },
+        {
+          "id": "b",
+          "en": "Self-leveling"
+        },
+        {
+          "id": "c",
+          "en": "Air-dry"
+        },
+        {
+          "id": "d",
+          "en": "Soft gel"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q10"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-051",
+      "question": {
+        "en": "Lifting problems with enhancements are usually caused by"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "not roughing up the nail enough."
+        },
+        {
+          "id": "b",
+          "en": "improper preparation; clean and dry."
+        },
+        {
+          "id": "c",
+          "en": "not conditioning nail plate with oil."
+        },
+        {
+          "id": "d",
+          "en": "removing cuticle."
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q11"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-052",
+      "question": {
+        "en": "Which of the following may be used to dissolve soft tissue adhering directly to the nail plate?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Acetone"
+        },
+        {
+          "id": "b",
+          "en": "Nail bleach"
+        },
+        {
+          "id": "c",
+          "en": "Cuticle remover"
+        },
+        {
+          "id": "d",
+          "en": "Nail conditioner"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q12"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-053",
+      "question": {
+        "en": "Which of the following implements are disposable after using on a client?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Abrasive file"
+        },
+        {
+          "id": "b",
+          "en": "Clippers"
+        },
+        {
+          "id": "c",
+          "en": "Metal pusher"
+        },
+        {
+          "id": "d",
+          "en": "Nippers"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q13"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-054",
+      "question": {
+        "en": "During the creation of the artificial nail, which of the following speeds up the chemical process?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Initiator"
+        },
+        {
+          "id": "b",
+          "en": "Catalyst"
+        },
+        {
+          "id": "c",
+          "en": "Polymerization"
+        },
+        {
+          "id": "d",
+          "en": "Acrylic liquid"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q14"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-055",
+      "question": {
+        "en": "Which of the following is used to cleanse and soften the nails during a manicure?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Fingerbowl"
+        },
+        {
+          "id": "b",
+          "en": "Warming lotion"
+        },
+        {
+          "id": "c",
+          "en": "Cuticle pusher"
+        },
+        {
+          "id": "d",
+          "en": "Hand sanitizer"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q15"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-056",
+      "question": {
+        "en": "Which of the following abrasive files is recommended for shaping nails during a manicure?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Medium grit"
+        },
+        {
+          "id": "b",
+          "en": "Electric"
+        },
+        {
+          "id": "c",
+          "en": "Coarse grit"
+        },
+        {
+          "id": "d",
+          "en": "Nail buffer"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q16"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-057",
+      "question": {
+        "en": "Which of the following is one of the safest and most common solvents used in the salon?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Primer"
+        },
+        {
+          "id": "b",
+          "en": "Acrylate"
+        },
+        {
+          "id": "c",
+          "en": "Acetone"
+        },
+        {
+          "id": "d",
+          "en": "Enamel"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q17"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-058",
+      "question": {
+        "en": "Which of the following is one of the three basic ingredients in the acrylic hardening process?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Primer"
+        },
+        {
+          "id": "b",
+          "en": "Adhesive"
+        },
+        {
+          "id": "c",
+          "en": "Monomer"
+        },
+        {
+          "id": "d",
+          "en": "Hardener"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q18"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-059",
+      "question": {
+        "en": "Which of the following smoothes calluses on the foot?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Foot file"
+        },
+        {
+          "id": "b",
+          "en": "Towels"
+        },
+        {
+          "id": "c",
+          "en": "Warm water"
+        },
+        {
+          "id": "d",
+          "en": "Curette"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q19"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-060",
+      "question": {
+        "en": "After the pedicure is completed, the practitioner's hand washing should last a minimum of how many seconds?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "5"
+        },
+        {
+          "id": "b",
+          "en": "10"
+        },
+        {
+          "id": "c",
+          "en": "15"
+        },
+        {
+          "id": "d",
+          "en": "30"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q20"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-061",
+      "question": {
+        "en": "Which of the following natural nail filing techniques may cause ingrown nails?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Back and forth"
+        },
+        {
+          "id": "b",
+          "en": "Into the corners"
+        },
+        {
+          "id": "c",
+          "en": "Zigzag motion"
+        },
+        {
+          "id": "d",
+          "en": "After the soaking in the fingerbowl"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q21"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-062",
+      "question": {
+        "en": "A practitioner should refuse to service a client when which of the following is present?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Infection, inflammation, or swelling"
+        },
+        {
+          "id": "b",
+          "en": "Discoloration and bruising"
+        },
+        {
+          "id": "c",
+          "en": "Fragile, soft, and curved nails"
+        },
+        {
+          "id": "d",
+          "en": "Ridges, white spots, or splits"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q22"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-063",
+      "question": {
+        "en": "Which of the following massage movements is used on the bottom of the foot to stimulate blood flow?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Effleurage"
+        },
+        {
+          "id": "b",
+          "en": "Petrissage"
+        },
+        {
+          "id": "c",
+          "en": "Tapotement"
+        },
+        {
+          "id": "d",
+          "en": "Friction"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q23"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-064",
+      "question": {
+        "en": "Which one of the following elements on a client's nail consultation form helps protect the practitioner from liability?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Medical history"
+        },
+        {
+          "id": "b",
+          "en": "Client referral"
+        },
+        {
+          "id": "c",
+          "en": "Service fee"
+        },
+        {
+          "id": "d",
+          "en": "Communication preferences"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q24"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-065",
+      "question": {
+        "en": "Which of the following is the bonding agent that secures the nail tip to the natural nail?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Fabric wrap"
+        },
+        {
+          "id": "b",
+          "en": "Primer"
+        },
+        {
+          "id": "c",
+          "en": "Adhesive"
+        },
+        {
+          "id": "d",
+          "en": "Monomer"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q25"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-066",
+      "question": {
+        "en": "The inhibition layer on gel nails is removed using"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "a gel sealer."
+        },
+        {
+          "id": "b",
+          "en": "an initiator."
+        },
+        {
+          "id": "c",
+          "en": "an activator."
+        },
+        {
+          "id": "d",
+          "en": "a gel cleanser."
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q26"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-067",
+      "question": {
+        "en": "The process of creating beautiful sculptured nails is the combination of monomer liquid and"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "polymerization."
+        },
+        {
+          "id": "b",
+          "en": "fiberglass."
+        },
+        {
+          "id": "c",
+          "en": "viscosity."
+        },
+        {
+          "id": "d",
+          "en": "polymer powder."
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q27"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-068",
+      "question": {
+        "en": "When giving a pedicure what solution should never be added while the client's feet are in the spa bath?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Antiseptic"
+        },
+        {
+          "id": "b",
+          "en": "Liquid Soap"
+        },
+        {
+          "id": "c",
+          "en": "Disinfectant"
+        },
+        {
+          "id": "d",
+          "en": "Foot soak"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q28"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-069",
+      "question": {
+        "en": "Which of the following should be used to apply cuticle remover?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Three-way nail buffer"
+        },
+        {
+          "id": "b",
+          "en": "Cuticle nippers"
+        },
+        {
+          "id": "c",
+          "en": "Cotton tipped wooden stick"
+        },
+        {
+          "id": "d",
+          "en": "Nail brush"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q29"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-070",
+      "question": {
+        "en": "The massage movement that should be perfected and expertly used for the purpose of relaxing the client during a pedicure is called"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "tapotement."
+        },
+        {
+          "id": "b",
+          "en": "friction."
+        },
+        {
+          "id": "c",
+          "en": "effleurage."
+        },
+        {
+          "id": "d",
+          "en": "petrissage."
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q30"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-071",
+      "question": {
+        "en": "For professionals who offer nail enhancement services, the purchase of an electric file is an asset. When choosing you will want to consider the machine's torque. Torque is referred to as the machine's"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "speed."
+        },
+        {
+          "id": "b",
+          "en": "usage."
+        },
+        {
+          "id": "c",
+          "en": "maintenance."
+        },
+        {
+          "id": "d",
+          "en": "power."
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q31"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-072",
+      "question": {
+        "en": "Which of the following services is recommended for dry skin and nails?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Warm oil/lotion"
+        },
+        {
+          "id": "b",
+          "en": "Reflexology"
+        },
+        {
+          "id": "c",
+          "en": "Nail conditioner"
+        },
+        {
+          "id": "d",
+          "en": "Massage lotion"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q32"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-073",
+      "question": {
+        "en": "The nail technician is ready to set up for the next client, who is getting nail tip enhancements. The tip adhesive used to secure the tip to the client's natural nail is called"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "curette."
+        },
+        {
+          "id": "b",
+          "en": "adhesive bonding agent."
+        },
+        {
+          "id": "c",
+          "en": "primers."
+        },
+        {
+          "id": "d",
+          "en": "repair patch."
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q33"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-074",
+      "question": {
+        "en": "Removing residual oil on the nail plate before the application of a nail tip uses which of the following products?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Overlay"
+        },
+        {
+          "id": "b",
+          "en": "Resin"
+        },
+        {
+          "id": "c",
+          "en": "Accelerator"
+        },
+        {
+          "id": "d",
+          "en": "Dehydrator"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q34"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-075",
+      "question": {
+        "en": "Which of the following implements is used to shape and reduce the length of the nail plate?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Buffer"
+        },
+        {
+          "id": "b",
+          "en": "Pusher"
+        },
+        {
+          "id": "c",
+          "en": "Nipper"
+        },
+        {
+          "id": "d",
+          "en": "File"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q35"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-076",
+      "question": {
+        "en": "After a nail service is completed, single-use implements are placed in which of the following receptacles?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Trash container"
+        },
+        {
+          "id": "b",
+          "en": "Cleaning solution"
+        },
+        {
+          "id": "c",
+          "en": "Station drawer"
+        },
+        {
+          "id": "d",
+          "en": "Sealed plastic bag with a biohazard sticker"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q36"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-077",
+      "question": {
+        "en": "Which of the following implements can be used to loosen the cuticle?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Wooden pusher"
+        },
+        {
+          "id": "b",
+          "en": "Nippers"
+        },
+        {
+          "id": "c",
+          "en": "Nail buffer"
+        },
+        {
+          "id": "d",
+          "en": "Metal spatula"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q37"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-078",
+      "question": {
+        "en": "While smoothing the nail plate, the buffer should be lifted to prevent"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "beveling."
+        },
+        {
+          "id": "b",
+          "en": "yellowing."
+        },
+        {
+          "id": "c",
+          "en": "scratches."
+        },
+        {
+          "id": "d",
+          "en": "burning."
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q38"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-079",
+      "question": {
+        "en": "Which of the following supplies remove discoloration under the free edge?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Polish remover"
+        },
+        {
+          "id": "b",
+          "en": "Nail bleach"
+        },
+        {
+          "id": "c",
+          "en": "Sunscreen stabilizer"
+        },
+        {
+          "id": "d",
+          "en": "Base coat"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q39"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-080",
+      "question": {
+        "en": "If a client's light-cured nails break often, gel with which of the following should be applied to add strength to the nail?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Fabric"
+        },
+        {
+          "id": "b",
+          "en": "Monomer"
+        },
+        {
+          "id": "c",
+          "en": "Polymers"
+        },
+        {
+          "id": "d",
+          "en": "Accelerator"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q40"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-081",
+      "question": {
+        "en": "Dry, flaky skin and calluses can be softened during a pedicure by using"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "scrubs."
+        },
+        {
+          "id": "b",
+          "en": "powder."
+        },
+        {
+          "id": "c",
+          "en": "acetone."
+        },
+        {
+          "id": "d",
+          "en": "antiseptic."
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q41"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-082",
+      "question": {
+        "en": "Which of the following types of lights are used in the curing of artificial nail products?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Fluorescent"
+        },
+        {
+          "id": "b",
+          "en": "Incandescent"
+        },
+        {
+          "id": "c",
+          "en": "LED"
+        },
+        {
+          "id": "d",
+          "en": "Ultraviolet"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q42"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-083",
+      "question": {
+        "en": "Which of the following products should be added to the pedicure bath?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Lotions"
+        },
+        {
+          "id": "b",
+          "en": "Disinfectant"
+        },
+        {
+          "id": "c",
+          "en": "Foot soaks"
+        },
+        {
+          "id": "d",
+          "en": "Exfoliating scrub"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q43"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-084",
+      "question": {
+        "en": "Which of the following is applied before the primer to remove moisture and oils from the plate before the application of acrylic nails?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Antiseptic"
+        },
+        {
+          "id": "b",
+          "en": "Dehydrator"
+        },
+        {
+          "id": "c",
+          "en": "Adhesive"
+        },
+        {
+          "id": "d",
+          "en": "Monomer liquid"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q44"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-085",
+      "question": {
+        "en": "With a basic manicure, care should be taken when filing the fingernails. Fingernails are thinner and more fragile and should be filed"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "in any direction after soaking."
+        },
+        {
+          "id": "b",
+          "en": "right to center, then left to center."
+        },
+        {
+          "id": "c",
+          "en": "right to center, then left to center, nails should be wet."
+        },
+        {
+          "id": "d",
+          "en": "in a back and forth sawing motion."
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q45"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-086",
+      "question": {
+        "en": "Disposable nail implements are discarded because they"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "are unable to be disinfected and reused."
+        },
+        {
+          "id": "b",
+          "en": "are inexpensive and easily replaceable."
+        },
+        {
+          "id": "c",
+          "en": "are made from recyclable substances."
+        },
+        {
+          "id": "d",
+          "en": "contain nonpathogens."
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q46"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-087",
+      "question": {
+        "en": "What treatment is considered a luxurious add-on that traps moisture in the skin and increases circulation?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Conditioning oil manicure"
+        },
+        {
+          "id": "b",
+          "en": "Petrissage"
+        },
+        {
+          "id": "c",
+          "en": "Aromatherapy"
+        },
+        {
+          "id": "d",
+          "en": "Paraffin wax treatment"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q47"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-088",
+      "question": {
+        "en": "Which part of the nail tip has the position stop to align with the natural nail?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Wrap"
+        },
+        {
+          "id": "b",
+          "en": "Free edge"
+        },
+        {
+          "id": "c",
+          "en": "Tip"
+        },
+        {
+          "id": "d",
+          "en": "Well"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q48"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-089",
+      "question": {
+        "en": "Abrasive files are used to remove and shape which of the following?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Lunula"
+        },
+        {
+          "id": "b",
+          "en": "Nail bed"
+        },
+        {
+          "id": "c",
+          "en": "Cuticle"
+        },
+        {
+          "id": "d",
+          "en": "Free edge"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q49"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-090",
+      "question": {
+        "en": "When using an electric file, the result of RPMs adjusted too high is"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "diminished heat."
+        },
+        {
+          "id": "b",
+          "en": "a dull finish."
+        },
+        {
+          "id": "c",
+          "en": "a perfect finish."
+        },
+        {
+          "id": "d",
+          "en": "excessive heat."
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q50"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-091",
+      "question": {
+        "en": "A client has chronic cold hands with dry skin. Which of the following treatments is recommended for this condition?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Aromatherapy"
+        },
+        {
+          "id": "b",
+          "en": "Paraffin"
+        },
+        {
+          "id": "c",
+          "en": "Exfoliation"
+        },
+        {
+          "id": "d",
+          "en": "Mask"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q51"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-092",
+      "question": {
+        "en": "Since massages increase circulation, which medical condition will need a physician's approval before a massage service can be provided?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Nail disorder"
+        },
+        {
+          "id": "b",
+          "en": "Onychophagy"
+        },
+        {
+          "id": "c",
+          "en": "High blood pressure"
+        },
+        {
+          "id": "d",
+          "en": "Onychorrhexis"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q52"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-093",
+      "question": {
+        "en": "Acrylic nail applications use which of the following products to remove moisture and oil from the nail plate?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Primer"
+        },
+        {
+          "id": "b",
+          "en": "Dehydrator"
+        },
+        {
+          "id": "c",
+          "en": "Polymer"
+        },
+        {
+          "id": "d",
+          "en": "Monomer"
+        }
+      ],
+      "correctChoice": "b",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q53"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-094",
+      "question": {
+        "en": "Reusable forms are made of aluminum or"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "plastic."
+        },
+        {
+          "id": "b",
+          "en": "paper."
+        },
+        {
+          "id": "c",
+          "en": "Mylar."
+        },
+        {
+          "id": "d",
+          "en": "ABS."
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q54"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-095",
+      "question": {
+        "en": "Which one of the following products is applied just before colored nail polish?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Sealer"
+        },
+        {
+          "id": "b",
+          "en": "Nail dehydrator"
+        },
+        {
+          "id": "c",
+          "en": "Base coat"
+        },
+        {
+          "id": "d",
+          "en": "Nail oil"
+        }
+      ],
+      "correctChoice": "c",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q55"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-096",
+      "question": {
+        "en": "Debris is removed from under the free edge during the manicure using which of the following nail implements?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Clippers"
+        },
+        {
+          "id": "b",
+          "en": "Pusher"
+        },
+        {
+          "id": "c",
+          "en": "File"
+        },
+        {
+          "id": "d",
+          "en": "Brush"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q56"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-097",
+      "question": {
+        "en": "Which of the following relaxing massage movements used in manicures and pedicures are slow, rhythmic, and stroking?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Tapotement"
+        },
+        {
+          "id": "b",
+          "en": "Vibration"
+        },
+        {
+          "id": "c",
+          "en": "Petrissage"
+        },
+        {
+          "id": "d",
+          "en": "Effleurage"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q57"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-098",
+      "question": {
+        "en": "Which of the following nail implements and supplies needs to be disinfected before and after every service?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Metal pusher"
+        },
+        {
+          "id": "b",
+          "en": "Three or four way buffer"
+        },
+        {
+          "id": "c",
+          "en": "Towel"
+        },
+        {
+          "id": "d",
+          "en": "Arm cushion"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q58"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-099",
+      "question": {
+        "en": "Which of the following contains the information needed for a successful nail service?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Salon menu"
+        },
+        {
+          "id": "b",
+          "en": "Booking appointments"
+        },
+        {
+          "id": "c",
+          "en": "Consultation area"
+        },
+        {
+          "id": "d",
+          "en": "Client card"
+        }
+      ],
+      "correctChoice": "d",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q59"
+        }
+      ]
+    },
+    {
+      "id": "official-practice-100",
+      "question": {
+        "en": "UV gels require which of the following to improve adhesion to the nail?"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Primer"
+        },
+        {
+          "id": "b",
+          "en": "Sealer"
+        },
+        {
+          "id": "c",
+          "en": "Brush"
+        },
+        {
+          "id": "d",
+          "en": "Accelerator"
+        }
+      ],
+      "correctChoice": "a",
+      "sources": [
+        {
+          "book": "Nail Technology Procedures - Trivie Learn",
+          "itemRef": "q60"
+        }
+      ]
+    }
+  ]
+}

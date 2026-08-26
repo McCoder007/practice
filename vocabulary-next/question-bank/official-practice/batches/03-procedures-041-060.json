@@ -1,0 +1,127 @@
+{
+  "author": "codex-authoring-run-2026-08-26-phase-3",
+  "authoredAt": "2026-08-26",
+  "authoritySource": "Milady Standard Nail Technology 8th Edition",
+  "entries": {
+    "official-practice-041": {
+      "why": ["An exfoliating scrub uses fine abrasive material to loosen dead surface cells. It also helps smooth dry, flaky skin and reduce calluses.", "exfoliating scrub（去角质磨砂膏）利用细小磨料松动表面死亡细胞，还能帮助平滑干燥脱屑皮肤并减轻老茧。"],
+      "lock": ["scrub = mechanical removal of dead surface skin.", "磨砂膏 = 机械去除表面死亡皮肤。"],
+      "relation": "function",
+      "refs": [["Pedicuring - Exfoliating Scrub", "201", 225]]
+    },
+    "official-practice-042": {
+      "why": ["Diabetes can reduce circulation and healing, so even a small cut may become serious. Never cut living eponychium tissue.", "diabetes（糖尿病）可能降低血液循环和愈合能力，因此小伤口也可能变严重。绝不能剪切活体甲上皮组织。"],
+      "lock": ["diabetes + living skin = avoid injury.", "糖尿病客户的活体皮肤 = 避免造成损伤。"],
+      "relation": "safety-reason",
+      "refs": [["Pedicuring - Clients with Diabetes", "205-207", 229]]
+    },
+    "official-practice-043": {
+      "why": ["Massage is the manual manipulation of soft body tissues. Rubbing, kneading, pinching, and tapping are movements used to produce relaxation.", "massage（按摩）是用手对身体软组织进行操作；揉擦、揉捏、捏压和叩击等动作可帮助放松。"],
+      "lock": ["massage = manual tissue manipulation.", "massage = 用手操作软组织。"],
+      "relation": "category",
+      "refs": [["Manicuring - General Movements for Massage", "162", 186]]
+    },
+    "official-practice-044": {
+      "why": ["Petrissage lifts, squeezes, and presses soft tissue. On the foot, this kneading movement can relax tissue without rapid tapping.", "petrissage（揉捏法）会提起、挤压并按压软组织；在足部，这种揉捏动作可使组织放松，不使用快速叩击。"],
+      "lock": ["petrissage = lift, squeeze, and press tissue.", "petrissage = 提起、挤压并按压组织。"],
+      "relation": "action",
+      "refs": [["Manicuring - General Movements for Massage", "162", 186]]
+    },
+    "official-practice-045": {
+      "why": ["Acetone is a solvent that softens many soak-off enhancement products. Product can then be removed gently without prying it from the nail.", "acetone（丙酮）是一种能软化多种可卸式美甲增强材料的溶剂，使产品可被轻柔去除，无需从指甲上撬下。"],
+      "lock": ["acetone = solvent for soak-off removal.", "acetone = 用于浸泡卸除的溶剂。"],
+      "relation": "function",
+      "refs": [["Monomer Liquid and Polymer Powder Nail Enhancements - Product Removal", "339", 363]]
+    },
+    "official-practice-046": {
+      "why": ["Red, swollen tissue may indicate infection or serious irritation. Do not diagnose or service the area; explain the concern and refer the client.", "组织发红、肿胀可能表示感染或严重刺激。不要诊断或护理该部位，应说明问题并转介客户就医。"],
+      "lock": ["redness and swelling = stop and refer.", "发红和肿胀 = 停止服务并转介。"],
+      "relation": "safety-rule",
+      "refs": [["Nail Structure, Disorders, and Diseases - Diseases of the Nail", "108", 132]]
+    },
+    "official-practice-047": {
+      "why": ["Massage lotion reduces drag between the hands and skin. Controlled glide helps the practitioner apply smooth pressure without pulling dry tissue.", "按摩乳液可减少双手与皮肤之间的摩擦，使从业者能够平稳施压，不会拉扯干燥组织。"],
+      "lock": ["massage lotion = smooth glide with less drag.", "按摩乳液 = 顺滑移动并减少摩擦。"],
+      "relation": "function",
+      "refs": [["Pedicuring - Foot and Leg Massage", "218-220", 242]]
+    },
+    "official-practice-048": {
+      "why": ["A nail buffer uses a fine abrasive to smooth minor surface ridges and create shine. Excess pressure can thin or heat the plate.", "nail buffer（抛光棒）利用细磨料平滑轻微表面纹路并增加光泽；压力过大会使甲板变薄或发热。"],
+      "lock": ["buffer = smooth and shine, using light pressure.", "抛光棒 = 轻压平滑并增加光泽。"],
+      "relation": "function",
+      "refs": [["Manicuring - Implements - Buffers", "141-143", 165]]
+    },
+    "official-practice-049": {
+      "why": ["Gel photoinitiators absorb ultraviolet energy and start curing. The lamp must match the gel system so the product hardens fully.", "凝胶中的 photoinitiator（光引发剂）吸收紫外线能量后启动固化；灯具必须与凝胶系统匹配，产品才能完全硬化。"],
+      "lock": ["gel cures when photoinitiator absorbs UV energy.", "凝胶固化 = 光引发剂吸收紫外线能量。"],
+      "relation": "process",
+      "refs": [["Light-Cured Gels - Gel Chemistry and Curing", "353-355", 377]]
+    },
+    "official-practice-050": {
+      "why": ["Soft gel has a structure that acetone can penetrate and break down. Hard gel must usually be filed off instead of soaked off.", "soft gel（软凝胶）的结构可让丙酮渗透并分解；hard gel（硬凝胶）通常需要磨除，不能浸泡卸除。"],
+      "lock": ["soft gel = soak off; hard gel = file off.", "soft gel = 浸泡卸除；hard gel = 磨除。"],
+      "relation": "contrast",
+      "refs": [["Light-Cured Gels - Soft and Hard Gels", "354-356", 378]]
+    },
+    "official-practice-051": {
+      "why": ["Oil, moisture, or cuticle left on the plate blocks product contact. Careful cleaning and drying create the surface needed for strong attachment.", "甲板上残留的油、水分或甲小皮会阻碍产品接触。仔细清洁并擦干，才能形成牢固附着所需的表面。"],
+      "lock": ["prevent lifting: prepare a clean, dry nail plate.", "防止起翘：把甲板处理得清洁、干燥。"],
+      "relation": "cause-effect",
+      "refs": [["Nail Product Chemistry - Adhesion of Nail Enhancements", "119", 143]]
+    },
+    "official-practice-052": {
+      "why": ["Cuticle remover softens and dissolves dead tissue attached to the nail plate. It must stay off living skin and be removed on time.", "cuticle remover（甲小皮软化剂）会软化并溶解附着在甲板上的死亡组织，必须避开活体皮肤并按时清除。"],
+      "lock": ["cuticle remover dissolves dead tissue on the plate.", "甲小皮软化剂溶解甲板上的死亡组织。"],
+      "relation": "function",
+      "refs": [["Manicuring - Nail Cosmetics - Cuticle Removers", "148", 172]]
+    },
+    "official-practice-053": {
+      "why": ["Most abrasive files are porous and cannot be disinfected completely. Use a new file for each client, then discard it.", "多数指甲锉具有多孔性，无法彻底消毒。每位客户使用新锉，服务后将其丢弃。"],
+      "lock": ["porous abrasive file = one client, one use.", "多孔指甲锉 = 一位客户，一次使用。"],
+      "relation": "safety-rule",
+      "refs": [["Manicuring - Implements - Abrasive Nail Files", "140-142", 164]]
+    },
+    "official-practice-054": {
+      "why": ["A catalyst speeds the curing reaction by activating initiators. It helps control how quickly the enhancement hardens after liquid and powder combine.", "catalyst（催化剂）通过激活引发剂来加快固化反应，帮助控制液体与粉末混合后增强材料的硬化速度。"],
+      "lock": ["catalyst controls curing speed.", "catalyst 控制固化速度。"],
+      "relation": "function",
+      "refs": [["Monomer Liquid and Polymer Powder Nail Enhancements - Catalysts and Initiators", "322", 346]]
+    },
+    "official-practice-055": {
+      "why": ["A finger bowl holds warm soapy water that cleans and softens the nails and surrounding skin. Soaking time should remain brief.", "finger bowl（浸手碗）盛放温肥皂水，用于清洁并软化指甲及周围皮肤；浸泡时间应保持简短。"],
+      "lock": ["finger bowl = brief cleansing and softening soak.", "浸手碗 = 短时间清洁和软化浸泡。"],
+      "relation": "function",
+      "refs": [["Manicuring - Equipment - Finger Bowls", "136-138", 160]]
+    },
+    "official-practice-056": {
+      "why": ["A medium-grit abrasive shapes the free edge with control. Coarse abrasives can remove too much material and damage a natural nail.", "中等砂砾度指甲锉可受控地塑造游离缘；粗砂锉可能去除过多材料并损伤天然指甲。"],
+      "lock": ["natural nail shaping = medium grit, gentle pressure.", "天然指甲塑形 = 中等砂砾度，轻柔用力。"],
+      "relation": "safety-reason",
+      "refs": [["Manicuring - Abrasive Nail Files and Grit", "140-142", 164]]
+    },
+    "official-practice-057": {
+      "why": ["Acetone is a widely used salon solvent that dissolves many nail coatings. Safe use still requires fresh air, closed containers, and skin protection.", "acetone（丙酮）是沙龙常用的溶剂，可溶解多种指甲涂层；安全使用仍需保持空气流通、密闭容器并保护皮肤。"],
+      "lock": ["acetone = common nail-product solvent.", "acetone = 常见的美甲产品溶剂。"],
+      "relation": "function",
+      "refs": [["Nail Product Chemistry - Solvents", "123-124", 147]]
+    },
+    "official-practice-058": {
+      "why": ["Monomer liquid reacts with polymer powder during curing. Catalysts and initiators control the chain reaction that turns the mixture into a solid enhancement.", "monomer liquid（单体液）在固化时与聚合物粉反应；催化剂和引发剂控制链式反应，使混合物变成固体增强材料。"],
+      "lock": ["liquid-and-powder system begins with monomer liquid.", "液体与粉末系统以 monomer liquid 为液体成分。"],
+      "relation": "process",
+      "refs": [["Monomer Liquid and Polymer Powder Nail Enhancements - Chemistry", "321-324", 345]]
+    },
+    "official-practice-059": {
+      "why": ["A foot file smooths thick callused skin with controlled abrasion. Use light pressure and never file living or broken skin.", "foot file（足部锉）通过受控磨削平滑厚老茧。应轻柔用力，绝不能磨活体或破损皮肤。"],
+      "lock": ["foot file = smooth callus, not living skin.", "足部锉 = 平滑老茧，不磨活体皮肤。"],
+      "relation": "safety-reason",
+      "refs": [["Pedicuring - Pedicure Implements - Foot Files", "210-212", 234]]
+    },
+    "official-practice-060": {
+      "why": ["Thorough handwashing uses soap, friction, rinsing, and complete drying to remove germs after a service and before touching clean supplies.", "彻底洗手需要使用肥皂、摩擦、冲洗并完全擦干，以清除服务后的微生物，再接触清洁用品。"],
+      "lock": ["handwashing = soap, friction, rinse, and dry.", "洗手 = 肥皂、摩擦、冲洗、擦干。"],
+      "relation": "sequence",
+      "refs": [["Milady Standard Foundations - Infection Control - Hand Washing", "135", 630]]
+    }
+  }
+}

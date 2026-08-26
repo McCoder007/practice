@@ -1,0 +1,67 @@
+{
+  "phase": 3,
+  "reviewedAt": "2026-08-26",
+  "source": "Milady Standard Nail Technology 8th Edition",
+  "notes": [
+    {
+      "id": "official-practice-005",
+      "severity": "source-key-conflict",
+      "trivieCorrectChoice": "c",
+      "trivieCorrectText": "a cyst.",
+      "textbookReference": {
+        "section": "Skin Structure, Disorders, and Diseases - Primary Skin Lesions",
+        "printedPage": "78",
+        "pdfPage": 102
+      },
+      "finding": "The textbook treats cyst and tubercle as distinct primary lesions: a cyst can be drained, while a tubercle cannot. Phase 3 preserves the Trivie key but does not teach that a cyst is a tubercle. Resolve before Phase 4 approval."
+    },
+    {
+      "id": "official-practice-060",
+      "severity": "source-key-conflict",
+      "trivieCorrectChoice": "d",
+      "trivieCorrectText": "30",
+      "textbookReference": {
+        "section": "Milady Standard Foundations - Infection Control - Hand Washing",
+        "printedPage": "135",
+        "pdfPage": 630
+      },
+      "finding": "The textbook hand-washing procedure says to lather for a minimum of 20 seconds, not 30 seconds. Phase 3 preserves the Trivie key but omits the unsupported duration. Resolve before Phase 4 approval."
+    },
+    {
+      "id": "official-practice-082",
+      "severity": "choice-ambiguity",
+      "trivieCorrectChoice": "d",
+      "trivieCorrectText": "Ultraviolet",
+      "textbookReference": {
+        "section": "Light-Cured Gels - UV and LED Lamps",
+        "printedPage": "355",
+        "pdfPage": 379
+      },
+      "finding": "The keyed energy type is ultraviolet, but the LED distractor is potentially confusing because LED gel lamps also emit selected ultraviolet wavelengths. The explanation preserves this distinction. Review wording before approval."
+    },
+    {
+      "id": "official-practice-092",
+      "severity": "wording-overgeneralization",
+      "trivieCorrectChoice": "c",
+      "trivieCorrectText": "High blood pressure",
+      "textbookReference": {
+        "section": "Manicuring - Massage Contraindications",
+        "printedPage": "161",
+        "pdfPage": 185
+      },
+      "finding": "The textbook specifically contraindicates massage for severe, uncontrolled hypertension; many clients with stable treated hypertension may receive massage. The explanation includes the required nuance."
+    },
+    {
+      "id": "official-practice-100",
+      "severity": "wording-overgeneralization",
+      "trivieCorrectChoice": "a",
+      "trivieCorrectText": "Primer",
+      "textbookReference": {
+        "section": "Nail Product Chemistry - Nail Primer",
+        "printedPage": "117-118",
+        "pdfPage": 141
+      },
+      "finding": "Primer improves adhesion, but not every UV gel system universally requires it. The explanation limits the claim to systems whose manufacturer directions call for primer."
+    }
+  ]
+}

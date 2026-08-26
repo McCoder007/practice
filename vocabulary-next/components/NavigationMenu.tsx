@@ -33,6 +33,11 @@ const getMenuItems = (language: "chinese" | "japanese"): MenuItem[] => [
     icon: Film,
   },
   {
+    title: "Official Exam Practice | 官方考试练习",
+    href: "/official-exam-quiz",
+    icon: GraduationCap,
+  },
+  {
     title: "Exam Practice | 考试练习",
     href: "/exam-quiz",
     icon: GraduationCap,

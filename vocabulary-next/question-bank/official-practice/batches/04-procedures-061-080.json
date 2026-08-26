@@ -1,0 +1,127 @@
+{
+  "author": "codex-authoring-run-2026-08-26-phase-3",
+  "authoredAt": "2026-08-26",
+  "authoritySource": "Milady Standard Nail Technology 8th Edition",
+  "entries": {
+    "official-practice-061": {
+      "why": ["Filing deeply into nail corners can leave a sharp edge that grows into side tissue. Shape the free edge without cutting into corners.", "向指甲两侧深处锉磨会留下尖锐边缘，生长时可能刺入侧边组织。应塑造游离缘，不要锉进两侧角落。"],
+      "lock": ["avoid ingrown nails: do not file into corners.", "避免嵌甲：不要锉进两侧角落。"],
+      "relation": "cause-effect",
+      "refs": [["Pedicuring - Trimming and Filing Toenails", "219-220", 243]]
+    },
+    "official-practice-062": {
+      "why": ["Infection, redness, or swelling can worsen during a service and may spread germs. Refuse service and refer the client for medical advice.", "感染、发红或肿胀可能在服务中加重，也可能传播微生物。应拒绝服务，并建议客户咨询医疗人员。"],
+      "lock": ["infection, redness, or swelling = no service.", "感染、发红或肿胀 = 不提供服务。"],
+      "relation": "safety-rule",
+      "refs": [["Nail Structure, Disorders, and Diseases - Recognizing Nail Disease", "108-109", 132]]
+    },
+    "official-practice-063": {
+      "why": ["Friction uses firm rubbing movements that move one tissue layer over another. On the sole, it can stimulate local circulation.", "friction（摩擦法）用较有力的揉擦使一层组织在另一层上移动；用于足底时，可刺激局部血液循环。"],
+      "lock": ["pedicure friction = firm rubbing on the sole.", "足部 friction = 在足底进行有力揉擦。"],
+      "relation": "action",
+      "refs": [["Pedicuring - Foot and Leg Massage - Friction", "220", 244]]
+    },
+    "official-practice-064": {
+      "why": ["Medical history identifies conditions, medicines, and allergies that may change or prevent a service. Recording it shows that safety risks were reviewed.", "病史记录可发现会改变或禁止服务的疾病、药物和过敏情况；保存记录能证明已评估安全风险。"],
+      "lock": ["medical history = safety screen and liability record.", "病史 = 安全筛查和责任记录。"],
+      "relation": "function",
+      "refs": [["Manicuring - Client Consultation and Service Record", "156-158", 180]]
+    },
+    "official-practice-065": {
+      "why": ["Tip adhesive forms the bond between the plastic tip and prepared natural nail. Correct fit and a clean surface help prevent air pockets.", "tip adhesive（甲片粘合剂）在塑料甲片与处理好的天然指甲之间形成粘结；尺寸合适且表面清洁可防止气泡。"],
+      "lock": ["tip adhesive bonds plastic tip to natural nail.", "甲片粘合剂把塑料甲片粘到天然指甲。"],
+      "relation": "function",
+      "refs": [["Nail Tips and Forms - Nail Tip Adhesives", "258-260", 282]]
+    },
+    "official-practice-066": {
+      "why": ["Some gels cure with a sticky inhibition layer where oxygen contacts the surface. Gel cleanser removes that residue after final curing.", "有些凝胶在表面接触氧气处固化后会留下黏性的 inhibition layer（抑制层）；最终固化后用凝胶清洁剂去除。"],
+      "lock": ["sticky gel inhibition layer = remove with gel cleanser.", "黏性凝胶抑制层 = 用凝胶清洁剂去除。"],
+      "relation": "process",
+      "refs": [["Light-Cured Gels - Inhibition Layer", "358", 382]]
+    },
+    "official-practice-067": {
+      "why": ["Monomer liquid wets polymer powder to form a workable bead. Polymerization then links the material into a hard sculptured enhancement.", "monomer liquid（单体液）润湿 polymer powder（聚合物粉）形成可操作的珠体，随后聚合反应使材料连接并硬化成雕塑甲。"],
+      "lock": ["sculptured acrylic = monomer liquid + polymer powder.", "雕塑水晶甲 = 单体液 + 聚合物粉。"],
+      "relation": "process",
+      "refs": [["Monomer Liquid and Polymer Powder Nail Enhancements - Chemistry", "321-324", 345]]
+    },
+    "official-practice-068": {
+      "why": ["Disinfectant is for cleaning the empty spa after the client leaves. Adding it during soaking exposes skin to a chemical not meant for service water.", "消毒剂用于客户离开后清洁空的足浴盆。客户浸泡时加入，会让皮肤接触不适用于服务用水的化学品。"],
+      "lock": ["foot bath during service: soak product, never disinfectant.", "服务中的足浴水：加浸泡产品，绝不加消毒剂。"],
+      "relation": "safety-rule",
+      "refs": [["Pedicuring - Pedicure Products and Spa Disinfection", "213-216", 237]]
+    },
+    "official-practice-069": {
+      "why": ["A cotton-tipped wooden stick places a small amount of remover precisely on dead cuticle. Controlled application helps keep alkaline product off living skin.", "棉头木棒可把少量软化剂准确涂在死亡甲小皮上；受控涂抹有助于避免碱性产品接触活体皮肤。"],
+      "lock": ["cuticle remover: apply precisely with cotton-tipped stick.", "甲小皮软化剂：用棉头木棒准确涂抹。"],
+      "relation": "action",
+      "refs": [["Manicuring - Basic Manicure Procedure", "176-180", 200]]
+    },
+    "official-practice-070": {
+      "why": ["Effleurage uses slow, rhythmic gliding strokes with steady contact. Its gentle pattern is the main massage movement for client relaxation.", "effleurage（轻抚法）使用缓慢、有节奏的滑行动作并保持稳定接触，是让客户放松的主要按摩手法。"],
+      "lock": ["effleurage = slow gliding strokes for relaxation.", "effleurage = 用缓慢滑行动作帮助放松。"],
+      "relation": "action",
+      "refs": [["Manicuring - General Movements for Massage", "162", 186]]
+    },
+    "official-practice-071": {
+      "why": ["Torque is the motor's power to keep the bit turning under pressure. Higher torque allows effective filing at a lower speed.", "torque（扭矩）是电机在受压时仍保持磨头转动的力量。扭矩较高时，可用较低转速有效磨削。"],
+      "lock": ["torque = turning power under pressure.", "torque = 受压时保持转动的力量。"],
+      "relation": "function",
+      "refs": [["Electric Filing - Power and Torque", "231", 255]]
+    },
+    "official-practice-072": {
+      "why": ["Warm oil or lotion adds moisture and softens dry skin and nails. Gentle warmth also helps the product spread comfortably.", "温热的油或乳液可补充水分并软化干燥皮肤和指甲；温和热度也能让产品更舒适地铺开。"],
+      "lock": ["dry skin and nails = warm oil or lotion.", "皮肤和指甲干燥 = 温油或温热乳液。"],
+      "relation": "condition-action",
+      "refs": [["Manicuring - Conditioning Oil Manicure", "164-165", 188]]
+    },
+    "official-practice-073": {
+      "why": ["An adhesive bonding agent joins two unlike surfaces: the artificial tip and natural nail plate. It is not a primer or repair fabric.", "adhesive bonding agent（粘合剂）连接两种不同表面，即人工甲片和天然甲板；它不是底剂或修补纤维。"],
+      "lock": ["tip application needs an adhesive bonding agent.", "粘贴甲片需要 adhesive bonding agent。"],
+      "relation": "function",
+      "refs": [["Nail Tips and Forms - Nail Tip Adhesives", "258-260", 282]]
+    },
+    "official-practice-074": {
+      "why": ["A dehydrator temporarily removes surface oil and moisture that can block attachment. The prepared plate must stay clean before the tip is applied.", "dehydrator（干燥剂）会暂时去除阻碍附着的表面油脂和水分；贴甲片前，处理好的甲板必须保持清洁。"],
+      "lock": ["dehydrator = temporary oil and moisture removal.", "dehydrator = 暂时去除油脂和水分。"],
+      "relation": "function",
+      "refs": [["Nail Product Chemistry - Nail Dehydrators", "119", 143]]
+    },
+    "official-practice-075": {
+      "why": ["A nail file removes length from the free edge and shapes its outline. Choose suitable grit and use controlled strokes to protect the plate.", "指甲锉可缩短游离缘并塑造轮廓；应选择合适砂砾度并控制锉磨动作，以保护甲板。"],
+      "lock": ["file = shorten and shape the free edge.", "指甲锉 = 缩短并塑造游离缘。"],
+      "relation": "function",
+      "refs": [["Manicuring - Abrasive Nail Files", "140-142", 164]]
+    },
+    "official-practice-076": {
+      "why": ["Single-use implements cannot be disinfected for another client. Put them directly into a covered trash container after service unless local rules require special disposal.", "一次性器械不能消毒后供另一位客户使用。服务后应直接放入有盖垃圾桶，除非当地规定要求特殊处置。"],
+      "lock": ["used single-use implement = trash container.", "用过的一次性器械 = 放入垃圾桶。"],
+      "relation": "sequence",
+      "refs": [["Milady Standard Foundations - Infection Control - Single-Use Items", "122", 617]]
+    },
+    "official-practice-077": {
+      "why": ["A wooden pusher gently loosens softened dead cuticle from the nail plate. It should not push or cut living eponychium tissue.", "wooden pusher（木质推皮棒）可轻柔松动甲板上已软化的死亡甲小皮，不应推压或剪切活体甲上皮。"],
+      "lock": ["wooden pusher = loosen softened dead cuticle.", "木质推皮棒 = 松动已软化的死亡甲小皮。"],
+      "relation": "action",
+      "refs": [["Manicuring - Implements - Wooden Pushers", "143-145", 167]]
+    },
+    "official-practice-078": {
+      "why": ["Continuous buffing in one spot creates friction heat. Lift and move the buffer regularly to keep the nail plate comfortable.", "在同一点持续抛光会产生摩擦热。应经常抬起并移动抛光棒，让甲板保持舒适。"],
+      "lock": ["lift the buffer to prevent friction heat.", "抬起抛光棒，防止摩擦发热。"],
+      "relation": "cause-effect",
+      "refs": [["Manicuring - Buffing the Natural Nail", "154-155", 178]]
+    },
+    "official-practice-079": {
+      "why": ["Nail bleach is formulated to lighten stains beneath the free edge. It is used carefully after debris has been removed.", "nail bleach（指甲漂白剂）用于淡化游离缘下方的污渍，应在清除碎屑后谨慎使用。"],
+      "lock": ["nail bleach = lighten stains under free edge.", "指甲漂白剂 = 淡化游离缘下方污渍。"],
+      "relation": "function",
+      "refs": [["Manicuring - Nail Cosmetics - Nail Bleach", "149", 173]]
+    },
+    "official-practice-080": {
+      "why": ["Fabric reinforcement spreads stress through the gel enhancement and adds support to weak areas. It can reduce repeated cracking or breaking.", "纤维加固材料可把受力分散到凝胶增强层，并支撑薄弱部位，从而减少反复开裂或断裂。"],
+      "lock": ["fabric in gel = added reinforcement.", "凝胶中加入纤维 = 增加强度。"],
+      "relation": "function",
+      "refs": [["Light-Cured Gels - Gel Reinforcement", "370-372", 394]]
+    }
+  }
+}
