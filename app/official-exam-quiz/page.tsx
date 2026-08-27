@@ -324,12 +324,12 @@ function QuizCard({
                   isRevealed && !isSelected && isCorrectChoice && "border-emerald-400/80 bg-emerald-500/10",
                 )}
               >
-                <span className="text-sm font-semibold sm:text-base">
+                <span className="text-base font-semibold sm:text-lg">
                   <span className="mr-1.5 opacity-70">{positionLabel}.</span>
                   {choice.en}
                 </span>
                 {showChinese && (
-                  <span className="text-xs text-[#FFD700] sm:text-sm" lang="zh-Hans">
+                  <span className="text-sm text-[#FFD700] sm:text-base" lang="zh-Hans">
                     {choice.zh}
                   </span>
                 )}
@@ -340,7 +340,7 @@ function QuizCard({
       </section>
 
       {isCurrent && !isRevealed && (
-        <section className="relative z-10 flex flex-none justify-start border-t border-white/20 px-3 py-2.5 sm:px-6">
+        <section className="relative z-10 flex flex-none justify-start border-t border-white/20 px-3 pt-2.5 pb-[calc(1.5rem+env(safe-area-inset-bottom))] sm:px-6">
           <Button
             type="button"
             variant="secondary"
@@ -361,7 +361,7 @@ function QuizCard({
       {isCurrent && isRevealed && (
         <section
           className={cn(
-            "qa-answer-reveal relative z-10 flex max-h-[55%] min-h-0 flex-none flex-col gap-2 overflow-y-auto border-t px-3 py-2.5 backdrop-blur-sm sm:px-6",
+            "qa-answer-reveal relative z-10 flex max-h-[65%] min-h-0 flex-none flex-col gap-2.5 overflow-y-auto border-t px-3 pt-2.5 pb-[calc(1.5rem+env(safe-area-inset-bottom))] backdrop-blur-sm sm:px-6",
             isSkipped
               ? "border-amber-400/60 bg-amber-500/20"
               : isCorrect
@@ -377,7 +377,7 @@ function QuizCard({
             ) : (
               <XCircle className="h-5 w-5 shrink-0 text-rose-300" />
             )}
-            <p className="font-bold">
+            <p className="text-lg font-bold">
               {isSkipped
                 ? `Skipped${showChinese ? " | 已跳过" : ""}`
                 : isCorrect
@@ -386,14 +386,14 @@ function QuizCard({
             </p>
           </div>
           {!isCorrect && correctChoice && (
-            <p className="text-sm text-white/90">
+            <p className="text-base text-white/90">
               {correctChoice.en}
               {showChinese && <> · <span lang="zh-Hans">{correctChoice.zh}</span></>}
             </p>
           )}
           {question.sourceWarning && (
             <div className="rounded-lg border border-amber-300/60 bg-amber-950/35 p-2.5">
-              <p className="text-xs font-semibold tracking-wide text-amber-200 uppercase">
+              <p className="text-sm font-semibold tracking-wide text-amber-200 uppercase">
                 Original source note{showChinese && " / 原始资料说明"}
               </p>
               <Speakable
@@ -401,17 +401,17 @@ function QuizCard({
                 enabled={isCurrent}
                 onSpeak={onSpeak}
                 label="Speak source warning"
-                className="mt-1 text-left text-sm text-white"
+                className="mt-1 text-left text-base text-white"
               />
               {showChinese && (
-                <p className="mt-1 text-xs text-[#FFD700]" lang="zh-Hans">
+                <p className="mt-1 text-sm text-[#FFD700]" lang="zh-Hans">
                   {question.sourceWarning.zh}
                 </p>
               )}
             </div>
           )}
           <div className="space-y-1">
-            <p className="text-xs font-semibold tracking-wide text-white/70 uppercase">
+            <p className="text-sm font-semibold tracking-wide text-white/70 uppercase">
               Why{showChinese && " / 为什么"}
             </p>
             <Speakable
@@ -419,16 +419,16 @@ function QuizCard({
               enabled={isCurrent}
               onSpeak={onSpeak}
               label="Speak Why"
-              className="text-left text-sm text-white"
+              className="text-left text-base text-white"
             />
             {showChinese && (
-              <p className="text-xs text-[#FFD700]" lang="zh-Hans">
+              <p className="text-sm text-[#FFD700]" lang="zh-Hans">
                 {question.explanation.zh}
               </p>
             )}
           </div>
           <div className="space-y-1">
-            <p className="text-xs font-semibold tracking-wide text-white/70 uppercase">
+            <p className="text-sm font-semibold tracking-wide text-white/70 uppercase">
               Lock this{showChinese && " / 记重点"}
             </p>
             <Speakable
@@ -436,10 +436,10 @@ function QuizCard({
               enabled={isCurrent}
               onSpeak={onSpeak}
               label="Speak Lock this"
-              className="text-left text-sm font-medium text-white"
+              className="text-left text-base font-medium text-white"
             />
             {showChinese && (
-              <p className="text-xs text-[#FFD700]" lang="zh-Hans">
+              <p className="text-sm text-[#FFD700]" lang="zh-Hans">
                 {question.lockPoint.zh}
               </p>
             )}
