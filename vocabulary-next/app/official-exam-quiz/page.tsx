@@ -12,6 +12,7 @@ import {
 
 import { OfficialExamQuizChineseToggle } from "@/components/OfficialExamQuizChineseToggle"
 import { NavigationMenu } from "@/components/NavigationMenu"
+import { PerfectScoreCelebration } from "@/components/PerfectScoreCelebration"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Progress } from "@/components/ui/progress"
@@ -465,6 +466,27 @@ function QuizCard({
   )
 }
 
+function quizModeLabel(mode: QuizMode): { en: string; zh: string } {
+  if (mode === "quick") {
+    return { en: "Quick practice", zh: "快速练习" }
+  }
+  if (mode === "practice") {
+    return { en: "Practice set", zh: "练习套题" }
+  }
+  const source = PRACTICE_SOURCES.find((entry) => entry.id === mode.sourceId)
+  if (!source) {
+    return { en: "Unknown quiz", zh: "未知测验" }
+  }
+  const range = sourceRangeCards(source.approvedCount).find((card) => card.offset === mode.offset)
+  if (!range) {
+    return { en: source.title.en, zh: source.title.zh }
+  }
+  return {
+    en: `${source.title.en} Q${range.start}–${range.end}`,
+    zh: `${source.title.zh} 第 ${range.start}–${range.end} 题`,
+  }
+}
+
 function ResultsScreen({
   session,
   summary,
@@ -478,15 +500,33 @@ function ResultsScreen({
   onRestart: () => void
   onHome: () => void
 }) {
+  const quizLabel = quizModeLabel(session.mode)
+  const isPerfectScore = summary.total > 0 && summary.correct === summary.total
+
   return (
-    <div className="mx-auto flex w-full max-w-xl flex-col gap-4 px-4 pb-10 pt-20">
-      <h1 className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-center text-2xl font-bold text-transparent">
-        Practice complete!{showChinese && " | 练习完成！"}
-      </h1>
-      <p className="text-center text-xl font-medium text-slate-900 dark:text-white">
-        Your score: {summary.correct} / {summary.total}
-        {showChinese && <> | 得分：{summary.correct} / {summary.total}</>}
-      </p>
+    <div className="quiz-results-screen mx-auto flex w-full max-w-xl flex-col gap-4 px-4 pt-20">
+      {isPerfectScore ? (
+        <PerfectScoreCelebration
+          correct={summary.correct}
+          total={summary.total}
+          quizLabel={quizLabel}
+          showChinese={showChinese}
+        />
+      ) : (
+        <>
+          <h1 className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-center text-2xl font-bold text-transparent">
+            Practice complete!{showChinese && " | 练习完成！"}
+          </h1>
+          <p className="text-center text-base font-medium text-slate-600 dark:text-slate-300">
+            {quizLabel.en}
+            {showChinese && <> | {quizLabel.zh}</>}
+          </p>
+          <p className="text-center text-xl font-medium text-slate-900 dark:text-white">
+            Your score: {summary.correct} / {summary.total}
+            {showChinese && <> | 得分：{summary.correct} / {summary.total}</>}
+          </p>
+        </>
+      )}
 
       {summary.missed.length > 0 && (
         <Card>
@@ -560,10 +600,12 @@ function ResultsScreen({
         </Card>
       )}
 
-      <div className="mt-2 flex flex-col gap-2 sm:flex-row">
+      <div className="quiz-results-actions mt-2 flex flex-col gap-2 sm:flex-row">
         <Button onClick={onRestart} size="lg" className="flex-1 gap-2">
           <RotateCcw className="h-4 w-4" />
-          Restart{showChinese && " | 重新开始"}
+          {isPerfectScore && isRandomQuizMode(session.mode)
+            ? `Practice new questions${showChinese ? " | 练习新题目" : ""}`
+            : `Restart${showChinese ? " | 重新开始" : ""}`}
         </Button>
         <Button onClick={onHome} size="lg" variant="ghost" className="flex-1 gap-2">
           <Home className="h-4 w-4" />
