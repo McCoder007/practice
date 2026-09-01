@@ -148,9 +148,20 @@ function ModePicker({
           const ranges = sourceRangeCards(source.approvedCount)
           return (
             <section key={source.id} className="mt-6 flex flex-col gap-3">
-              <h2 className="px-1 text-sm font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-                {source.title.en}
-                {showChinese && <> | {source.title.zh}</>}
+              <h2 className="flex flex-wrap items-baseline gap-x-2 gap-y-1 px-1 text-sm font-semibold tracking-wide text-slate-500 dark:text-slate-400">
+                <span className="uppercase">
+                  {source.title.en}
+                  {showChinese && <> | {source.title.zh}</>}
+                </span>
+                <Link
+                  href={source.originalHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  prefetch={false}
+                  className="normal-case font-semibold text-slate-700 underline decoration-slate-400 underline-offset-2 hover:text-slate-900 dark:text-slate-200 dark:decoration-slate-500 dark:hover:text-white"
+                >
+                  Original / 原文
+                </Link>
               </h2>
               {ranges.map((range) => (
                 <Card
