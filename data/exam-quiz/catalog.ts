@@ -12,7 +12,7 @@ export const QUESTIONS_TO_REVIEW_TITLE: LocalizedText = {
 
 export const QUICK_COUNT = 10
 export const PRACTICE_COUNT = 30
-export const SOURCE_CHUNK_SIZE = 25
+export const SOURCE_CHUNK_SIZE = 20
 export const APPROVED_PRACTICE_COUNT = 348
 export const HELD_FOR_REVIEW_COUNT = 125
 export const OMITTED_PRACTICE_IDS = [

@@ -33,7 +33,7 @@ const getMenuItems = (language: "chinese" | "japanese") => [
     title: "Exam Practice | 考试练习",
     href: "/exam-quiz",
     icon: GraduationCap,
-    description: "Random sets or ordered 25s by source, with Why after each answer",
+    description: "Random sets or ordered 20s by source, with Why after each answer",
     color: "from-indigo-500/10 to-indigo-600/10",
     iconColor: "text-indigo-500",
     borderColor: "border-indigo-500/20",
