@@ -17,6 +17,9 @@
 /.next/
 /out/
 
+# generated pdf.js worker copy
+/public/pdfjs/
+
 # production
 /build
 
