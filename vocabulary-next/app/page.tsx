@@ -43,7 +43,7 @@ const getMenuItems = (language: "chinese" | "japanese") => [
     title: "Nail Technician Q&A | 美甲问答",
     href: "/nail-technician-qa-reel",
     icon: Film,
-    description: "Swipe through nail technician questions and reveal each answer",
+    description: "Nail Test Q&A in banks of 20, matching Exam Practice",
     color: "from-cyan-500/10 to-blue-600/10",
     iconColor: "text-cyan-500",
     borderColor: "border-cyan-500/20",
