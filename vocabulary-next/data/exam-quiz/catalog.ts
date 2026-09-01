@@ -27,6 +27,8 @@ export type PracticeSourceMeta = {
   idPrefix: string
   /** Approved question count for this source (must match questions.json). */
   approvedCount: number
+  /** Public PDF of the original Word source, served from /public. */
+  originalHref: string
   /** Soft accent for section cards (Tailwind class fragments). */
   accent: "violet" | "rose" | "cyan"
 }
@@ -38,6 +40,7 @@ export const PRACTICE_SOURCES: readonly PracticeSourceMeta[] = [
     title: { en: "Nail Test", zh: "美甲测试" },
     idPrefix: "practice-nail-test-",
     approvedCount: 156,
+    originalHref: "/exam-quiz/originals/nail-test.pdf",
     accent: "violet",
   },
   {
@@ -45,6 +48,7 @@ export const PRACTICE_SOURCES: readonly PracticeSourceMeta[] = [
     title: { en: "Theory Update", zh: "理论更新" },
     idPrefix: "practice-theory-update-",
     approvedCount: 28,
+    originalHref: "/exam-quiz/originals/theory-update.pdf",
     accent: "rose",
   },
   {
@@ -52,6 +56,7 @@ export const PRACTICE_SOURCES: readonly PracticeSourceMeta[] = [
     title: { en: "Milady Comprehensive", zh: "Milady 综合" },
     idPrefix: "practice-comprehensive-",
     approvedCount: 164,
+    originalHref: "/exam-quiz/originals/milady-comprehensive.pdf",
     accent: "cyan",
   },
 ] as const
