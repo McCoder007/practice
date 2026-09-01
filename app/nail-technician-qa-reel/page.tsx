@@ -10,16 +10,24 @@ import {
   type PointerEvent as ReactPointerEvent,
 } from "react"
 
+import Link from "next/link"
+
+import { ExamQuizChineseToggle } from "@/components/ExamQuizChineseToggle"
 import { NavigationMenu } from "@/components/NavigationMenu"
-import {
-  nailTechnicianQuestions,
-  type NailTechnicianQuestion,
-} from "@/data/nail-technician-qa"
+import { Button } from "@/components/ui/button"
+import { Card, CardContent } from "@/components/ui/card"
+import { Progress } from "@/components/ui/progress"
+import { useExamQuizPreferences } from "@/contexts/ExamQuizPreferencesContext"
+import { getPracticeSource, sourceRangeCards } from "@/data/exam-quiz/catalog"
+import { loadPracticeQuestions } from "@/data/exam-quiz/loadChapter"
 import { initializeAnalytics, logEvent } from "@/lib/analytics"
 import {
+  canQaAdvanceNext,
   classifyQaReelGesture,
-  fisherYatesShuffle,
-  type GestureOutcome,
+  qaBankLabel,
+  sliceNailTestQaRange,
+  type QaBankMode,
+  type QaCard,
 } from "@/lib/nail-technician-qa-reel"
 import {
   getBackgroundForWord,
@@ -31,9 +39,17 @@ import {
   preloadTexts,
   stopTTS,
 } from "@/lib/tts"
+import { cn } from "@/lib/utils"
+import { Home, RotateCcw } from "lucide-react"
 
-type QuestionCardData = NailTechnicianQuestion & {
-  id: number
+const QA_TITLE = { en: "Nail Technician Q&A", zh: "美甲问答" } as const
+const ANIMATION_MS = 300
+
+type QaScreen = { step: "mode" } | { step: "quiz" } | { step: "finished" }
+
+type QaSession = {
+  mode: QaBankMode
+  cards: QaCard[]
 }
 
 type ActiveGesture = {
@@ -44,9 +60,10 @@ type ActiveGesture = {
 }
 
 type QuestionCardProps = {
-  card: QuestionCardData
+  card: QaCard
   isCurrent: boolean
   isRevealed: boolean
+  showChinese: boolean
   background: string
   cardRef?: React.RefObject<HTMLDivElement | null>
   position: "-100%" | "0" | "100%"
@@ -55,7 +72,8 @@ type QuestionCardProps = {
   onSpeakAnswer: () => void
 }
 
-const ANIMATION_MS = 300
+const SOURCE_ACCENT_CLASSES =
+  "border-violet-200 bg-gradient-to-r from-violet-50 to-white dark:border-violet-900/50 dark:from-violet-950/30 dark:to-slate-800"
 
 function responsiveTextStyle(length: number, kind: "question" | "answer"): CSSProperties {
   const longTextScale = length > 140 ? 1.05 : length > 90 ? 1.2 : length > 55 ? 1.4 : 1.65
@@ -67,10 +85,121 @@ function responsiveTextStyle(length: number, kind: "question" | "answer"): CSSPr
   }
 }
 
+function stopPointerGesture(event: ReactPointerEvent<HTMLElement>) {
+  event.stopPropagation()
+}
+
+function BankPicker({
+  loading,
+  onSelect,
+  showChinese,
+}: {
+  loading: boolean
+  onSelect: (mode: QaBankMode) => void
+  showChinese: boolean
+}) {
+  const source = getPracticeSource("nail-test")
+  const ranges = sourceRangeCards(source.approvedCount)
+
+  return (
+    <div className="mx-auto flex w-full max-w-md flex-col gap-3 px-4 pb-8 pt-20">
+      <h1 className="text-center text-xl font-bold text-slate-900 sm:text-2xl dark:text-white">
+        {QA_TITLE.en}
+        {showChinese && <> | {QA_TITLE.zh}</>}
+      </h1>
+      <p className="text-center text-sm text-slate-600 dark:text-slate-300">
+        {loading
+          ? `Loading questions…${showChinese ? " | 正在加载题目…" : ""}`
+          : `Nail Test Q&A in banks of 20, matching Exam Practice${showChinese ? " | 美甲测试问答，按考试练习的 20 题分组" : ""}`}
+      </p>
+      <section className="mt-2 flex flex-col gap-3">
+        <h2 className="flex flex-wrap items-baseline gap-x-2 gap-y-1 px-1 text-sm font-semibold tracking-wide text-slate-500 dark:text-slate-400">
+          <span className="uppercase">
+            {source.title.en}
+            {showChinese && <> | {source.title.zh}</>}
+          </span>
+          <Link
+            href={source.originalHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            prefetch={false}
+            className="normal-case font-semibold text-slate-700 underline decoration-slate-400 underline-offset-2 hover:text-slate-900 dark:text-slate-200 dark:decoration-slate-500 dark:hover:text-white"
+          >
+            Original / 原文
+          </Link>
+        </h2>
+        {ranges.map((range) => (
+          <Card
+            key={range.offset}
+            onClick={() => !loading && onSelect({ offset: range.offset })}
+            className={cn(
+              "cursor-pointer border-2 transition-shadow hover:shadow-md",
+              SOURCE_ACCENT_CLASSES,
+              loading && "pointer-events-none opacity-60",
+            )}
+          >
+            <CardContent className="px-5">
+              <h3 className="text-lg font-bold text-slate-900 dark:text-white">
+                Questions {range.start}–{range.end}
+                {showChinese && <> | 第 {range.start}–{range.end} 题</>}
+              </h3>
+              <p className="text-sm text-slate-600 dark:text-slate-300">
+                {range.count} questions in source order
+                {showChinese && <> | {range.count} 道题目，按原顺序</>}
+              </p>
+            </CardContent>
+          </Card>
+        ))}
+      </section>
+    </div>
+  )
+}
+
+function FinishedScreen({
+  session,
+  showChinese,
+  onRestart,
+  onBackToMenu,
+}: {
+  session: QaSession
+  showChinese: boolean
+  onRestart: () => void
+  onBackToMenu: () => void
+}) {
+  const bankLabel = qaBankLabel(session.mode.offset)
+
+  return (
+    <div className="mx-auto flex w-full max-w-xl flex-col gap-4 px-4 pt-20">
+      <h1 className="bg-gradient-to-r from-cyan-600 to-blue-600 bg-clip-text text-center text-2xl font-bold text-transparent">
+        Set complete!{showChinese && " | 本组完成！"}
+      </h1>
+      <p className="text-center text-base font-medium text-slate-600 dark:text-slate-300">
+        {bankLabel.en}
+        {showChinese && <> | {bankLabel.zh}</>}
+      </p>
+      <p className="text-center text-lg text-slate-700 dark:text-slate-200">
+        You reviewed {session.cards.length} questions
+        {showChinese && <> | 你已复习 {session.cards.length} 道题目</>}
+      </p>
+      <div className="mt-2 flex flex-col gap-2 sm:flex-row">
+        <Button onClick={onRestart} size="lg" className="flex-1 gap-2">
+          <RotateCcw className="h-4 w-4" />
+          Restart{showChinese && " | 重新开始"}
+        </Button>
+        <Button onClick={onBackToMenu} size="lg" variant="ghost" className="flex-1 gap-2">
+          <Home className="h-4 w-4" />
+          Back to menu{showChinese && " | 返回菜单"}
+        </Button>
+      </div>
+    </div>
+  )
+}
+
 function QuestionCard({
   card,
   isCurrent,
   isRevealed,
+  showChinese,
   background,
   cardRef,
   position,
@@ -78,10 +207,6 @@ function QuestionCard({
   onSpeakQuestion,
   onSpeakAnswer,
 }: QuestionCardProps) {
-  const stopPointerGesture = (event: ReactPointerEvent<HTMLElement>) => {
-    event.stopPropagation()
-  }
-
   return (
     <div
       ref={cardRef}
@@ -114,12 +239,15 @@ function QuestionCard({
             {card.question.en}
           </h2>
         )}
-        <p
-          className="max-w-5xl font-medium leading-snug text-[#FFD700] drop-shadow-lg"
-          style={responsiveTextStyle(card.question.zh.length, "answer")}
-        >
-          {card.question.zh}
-        </p>
+        {showChinese && (
+          <p
+            className="max-w-5xl font-medium leading-snug text-[#FFD700] drop-shadow-lg"
+            style={responsiveTextStyle(card.question.zh.length, "answer")}
+            lang="zh-Hans"
+          >
+            {card.question.zh}
+          </p>
+        )}
       </section>
 
       <section className="relative z-10 min-h-0 border-t border-white/30 p-3 sm:p-5">
@@ -173,12 +301,15 @@ function QuestionCard({
                 {card.answer.en}
               </p>
             )}
-            <p
-              className="max-w-5xl font-medium leading-snug text-[#FFD700] drop-shadow-lg"
-              style={responsiveTextStyle(card.answer.zh.length, "answer")}
-            >
-              {card.answer.zh}
-            </p>
+            {showChinese && (
+              <p
+                className="max-w-5xl font-medium leading-snug text-[#FFD700] drop-shadow-lg"
+                style={responsiveTextStyle(card.answer.zh.length, "answer")}
+                lang="zh-Hans"
+              >
+                {card.answer.zh}
+              </p>
+            )}
           </div>
         )}
       </section>
@@ -187,9 +318,12 @@ function QuestionCard({
 }
 
 export default function NailTechnicianQaReelPage() {
-  const [deck, setDeck] = useState<QuestionCardData[] | null>(null)
+  const { showChinese } = useExamQuizPreferences()
+  const [screen, setScreen] = useState<QaScreen>({ step: "mode" })
+  const [session, setSession] = useState<QaSession | null>(null)
+  const [loadingBank, setLoadingBank] = useState(false)
   const [currentIndex, setCurrentIndex] = useState(0)
-  const [revealedCardId, setRevealedCardId] = useState<number | null>(null)
+  const [revealedCardId, setRevealedCardId] = useState<string | null>(null)
   const [animating, setAnimating] = useState(false)
 
   const containerRef = useRef<HTMLDivElement>(null)
@@ -200,6 +334,7 @@ export default function NailTechnicianQaReelPage() {
   const activeGestureRef = useRef<ActiveGesture | null>(null)
   const gestureInvalidatedRef = useRef(false)
   const animationTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const practicePoolRef = useRef<Awaited<ReturnType<typeof loadPracticeQuestions>> | null>(null)
 
   const resetCardPositions = useCallback((withAnimation: boolean) => {
     const transition = withAnimation ? `transform ${ANIMATION_MS}ms ease-out` : "none"
@@ -228,20 +363,14 @@ export default function NailTechnicianQaReelPage() {
   }, [resetCardPositions])
 
   useEffect(() => {
-    const cards = nailTechnicianQuestions.map((question, id) => ({
-      ...question,
-      id,
-    }))
-    setDeck(fisherYatesShuffle(cards))
-  }, [])
-
-  useEffect(() => {
     initializeAnalytics().catch((error) => {
       console.error("Failed to initialize analytics:", error)
     })
   }, [])
 
   useEffect(() => {
+    if (screen.step !== "quiz") return
+
     const originalOverflow = document.body.style.overflow
     const originalTouchAction = document.body.style.touchAction
     const originalHtmlOverflow = document.documentElement.style.overflow
@@ -257,161 +386,200 @@ export default function NailTechnicianQaReelPage() {
       clearAudioQueue()
       stopTTS()
     }
-  }, [])
+  }, [screen.step])
 
   useLayoutEffect(() => {
+    if (screen.step !== "quiz") return
     resetCardPositions(false)
-  }, [currentIndex, resetCardPositions])
+  }, [currentIndex, resetCardPositions, screen.step])
 
   useEffect(() => {
-    if (!deck?.length) return
-    const previousIndex = (currentIndex - 1 + deck.length) % deck.length
-    const nextIndex = (currentIndex + 1) % deck.length
+    if (screen.step !== "quiz" || !session?.cards.length) return
+    const cards = session.cards
+    const previous = currentIndex > 0 ? cards[currentIndex - 1] : null
+    const current = cards[currentIndex]
+    const next = currentIndex < cards.length - 1 ? cards[currentIndex + 1] : null
 
-    preloadTexts([
-      deck[currentIndex].question.en,
-      deck[currentIndex].answer.en,
-      deck[previousIndex].question.en,
-      deck[nextIndex].question.en,
-    ])
-  }, [currentIndex, deck])
+    const texts = [current.question.en, current.answer.en]
+    if (previous) texts.push(previous.question.en)
+    if (next) texts.push(next.question.en)
+    preloadTexts(texts)
+  }, [currentIndex, screen.step, session])
 
   const revealCurrentAnswer = useCallback(() => {
-    if (!deck || animating) return
-    const currentCard = deck[currentIndexRef.current]
+    if (!session || animating) return
+    const currentCard = session.cards[currentIndexRef.current]
     if (!currentCard || revealedCardId === currentCard.id) return
 
     setRevealedCardId(currentCard.id)
     logEvent("qa_answer_revealed", { card_id: currentCard.id })
-  }, [animating, deck, revealedCardId])
+  }, [animating, revealedCardId, session])
 
-  const speak = useCallback((text: string, cardId: number, kind: "question" | "answer") => {
+  const speak = useCallback((text: string, cardId: string, kind: "question" | "answer") => {
     playText(text)
     logEvent(kind === "question" ? "qa_question_audio_played" : "qa_answer_audio_played", {
       card_id: cardId,
     })
   }, [])
 
-  const commitNavigation = useCallback((outcome: Extract<GestureOutcome, "swipeNext" | "swipePrevious">) => {
-    if (!deck?.length || animating) return
+  const finishBank = useCallback(() => {
+    setAnimating(false)
+    setScreen({ step: "finished" })
+  }, [])
 
-    activeGestureRef.current = null
-    gestureInvalidatedRef.current = false
-    setRevealedCardId(null)
-    clearAudioQueue()
-    stopTTS()
-    setAnimating(true)
+  const advance = useCallback(
+    (direction: "next" | "previous") => {
+      if (!session?.cards.length || animating) return
 
-    const currentCard = currentCardRef.current
-    const targetCard = outcome === "swipeNext" ? nextCardRef.current : previousCardRef.current
-    if (currentCard) {
-      currentCard.style.transition = `transform ${ANIMATION_MS}ms ease-out`
-      currentCard.style.transform = outcome === "swipeNext"
-        ? "translateY(-100%)"
-        : "translateY(100%)"
-    }
-    if (targetCard) {
-      targetCard.style.transition = `transform ${ANIMATION_MS}ms ease-out`
-      targetCard.style.transform = "translateY(0)"
-    }
+      const cards = session.cards
+      const idx = currentIndexRef.current
+      const currentCard = cards[idx]
+      const isRevealed = revealedCardId === currentCard.id
 
-    animationTimeoutRef.current = setTimeout(() => {
-      const offset = outcome === "swipeNext" ? 1 : -1
-      const nextIndex = (currentIndexRef.current + offset + deck.length) % deck.length
-      currentIndexRef.current = nextIndex
-      setCurrentIndex(nextIndex)
-      setAnimating(false)
-      animationTimeoutRef.current = null
-    }, ANIMATION_MS)
-  }, [animating, deck])
+      if (direction === "previous" && idx === 0) {
+        resetCardPositions(true)
+        return
+      }
 
-  const handlePointerDown = useCallback((event: ReactPointerEvent<HTMLDivElement>) => {
-    if (animating) return
+      if (direction === "next" && !canQaAdvanceNext(isRevealed)) {
+        resetCardPositions(true)
+        return
+      }
 
-    if (activeGestureRef.current) {
-      cancelGesture()
-      return
-    }
+      activeGestureRef.current = null
+      gestureInvalidatedRef.current = false
+      setRevealedCardId(null)
+      clearAudioQueue()
+      stopTTS()
 
-    const target = event.target as HTMLElement
-    const startedInAnswerRegion = Boolean(
-      target.closest('[data-qa-answer-region="true"][aria-expanded="false"]'),
-    )
+      const isFinishing = direction === "next" && idx === cards.length - 1
+      setAnimating(true)
 
-    gestureInvalidatedRef.current = false
-    activeGestureRef.current = {
-      pointerId: event.pointerId,
-      startX: event.clientX,
-      startY: event.clientY,
-      startedInAnswerRegion,
-    }
-    event.currentTarget.setPointerCapture(event.pointerId)
-  }, [animating, cancelGesture])
+      const outgoing = currentCardRef.current
+      const incoming = direction === "next" ? nextCardRef.current : previousCardRef.current
+      if (outgoing) {
+        outgoing.style.transition = `transform ${ANIMATION_MS}ms ease-out`
+        outgoing.style.transform = direction === "next" ? "translateY(-100%)" : "translateY(100%)"
+      }
+      if (incoming && !isFinishing) {
+        incoming.style.transition = `transform ${ANIMATION_MS}ms ease-out`
+        incoming.style.transform = "translateY(0)"
+      }
 
-  const handlePointerMove = useCallback((event: ReactPointerEvent<HTMLDivElement>) => {
-    const gesture = activeGestureRef.current
-    if (!gesture || gesture.pointerId !== event.pointerId || gestureInvalidatedRef.current || animating) {
-      return
-    }
+      animationTimeoutRef.current = setTimeout(() => {
+        if (isFinishing) {
+          finishBank()
+          animationTimeoutRef.current = null
+          return
+        }
+        const nextIdx = direction === "next" ? idx + 1 : idx - 1
+        currentIndexRef.current = nextIdx
+        setCurrentIndex(nextIdx)
+        setAnimating(false)
+        animationTimeoutRef.current = null
+      }, ANIMATION_MS)
+    },
+    [animating, finishBank, resetCardPositions, revealedCardId, session],
+  )
 
-    const deltaY = gesture.startY - event.clientY
-    const movePercent = Math.min(100, Math.abs(deltaY) / window.innerHeight * 100)
-    const currentCard = currentCardRef.current
-    const previousCard = previousCardRef.current
-    const nextCard = nextCardRef.current
+  const handlePointerDown = useCallback(
+    (event: ReactPointerEvent<HTMLDivElement>) => {
+      if (animating) return
 
-    if (currentCard) currentCard.style.transition = "none"
-    if (previousCard) previousCard.style.transition = "none"
-    if (nextCard) nextCard.style.transition = "none"
+      if (activeGestureRef.current) {
+        cancelGesture()
+        return
+      }
 
-    if (deltaY > 0) {
-      if (currentCard) currentCard.style.transform = `translateY(-${movePercent}%)`
-      if (nextCard) nextCard.style.transform = `translateY(${100 - movePercent}%)`
-      if (previousCard) previousCard.style.transform = "translateY(-100%)"
-    } else if (deltaY < 0) {
-      if (currentCard) currentCard.style.transform = `translateY(${movePercent}%)`
-      if (previousCard) previousCard.style.transform = `translateY(${-100 + movePercent}%)`
-      if (nextCard) nextCard.style.transform = "translateY(100%)"
-    }
-  }, [animating])
+      const target = event.target as HTMLElement
+      const startedInAnswerRegion = Boolean(
+        target.closest('[data-qa-answer-region="true"][aria-expanded="false"]'),
+      )
 
-  const handlePointerUp = useCallback((event: ReactPointerEvent<HTMLDivElement>) => {
-    const gesture = activeGestureRef.current
-    if (
-      !gesture ||
-      gesture.pointerId !== event.pointerId ||
-      gestureInvalidatedRef.current ||
-      animating
-    ) {
-      cancelGesture()
-      return
-    }
+      gestureInvalidatedRef.current = false
+      activeGestureRef.current = {
+        pointerId: event.pointerId,
+        startX: event.clientX,
+        startY: event.clientY,
+        startedInAnswerRegion,
+      }
+      event.currentTarget.setPointerCapture(event.pointerId)
+    },
+    [animating, cancelGesture],
+  )
 
-    const outcome = classifyQaReelGesture({
-      deltaX: event.clientX - gesture.startX,
-      deltaY: gesture.startY - event.clientY,
-      startedInAnswerRegion: gesture.startedInAnswerRegion,
-      swipeThresholdPx: window.innerHeight * 0.1,
-    })
+  const handlePointerMove = useCallback(
+    (event: ReactPointerEvent<HTMLDivElement>) => {
+      const gesture = activeGestureRef.current
+      if (!gesture || gesture.pointerId !== event.pointerId || gestureInvalidatedRef.current || animating) {
+        return
+      }
 
-    activeGestureRef.current = null
-    if (event.currentTarget.hasPointerCapture(event.pointerId)) {
-      event.currentTarget.releasePointerCapture(event.pointerId)
-    }
+      const deltaY = gesture.startY - event.clientY
+      const movePercent = Math.min(100, Math.abs(deltaY) / window.innerHeight * 100)
+      const currentCard = currentCardRef.current
+      const previousCard = previousCardRef.current
+      const nextCard = nextCardRef.current
 
-    if (outcome === "swipeNext" || outcome === "swipePrevious") {
-      commitNavigation(outcome)
-    } else {
-      resetCardPositions(true)
-      if (outcome === "tapReveal") revealCurrentAnswer()
-    }
-  }, [animating, cancelGesture, commitNavigation, resetCardPositions, revealCurrentAnswer])
+      if (currentCard) currentCard.style.transition = "none"
+      if (previousCard) previousCard.style.transition = "none"
+      if (nextCard) nextCard.style.transition = "none"
+
+      if (deltaY > 0) {
+        if (currentCard) currentCard.style.transform = `translateY(-${movePercent}%)`
+        if (nextCard) nextCard.style.transform = `translateY(${100 - movePercent}%)`
+        if (previousCard) previousCard.style.transform = "translateY(-100%)"
+      } else if (deltaY < 0) {
+        if (currentCard) currentCard.style.transform = `translateY(${movePercent}%)`
+        if (previousCard) previousCard.style.transform = `translateY(${-100 + movePercent}%)`
+        if (nextCard) nextCard.style.transform = "translateY(100%)"
+      }
+    },
+    [animating],
+  )
+
+  const handlePointerUp = useCallback(
+    (event: ReactPointerEvent<HTMLDivElement>) => {
+      const gesture = activeGestureRef.current
+      if (
+        !gesture ||
+        gesture.pointerId !== event.pointerId ||
+        gestureInvalidatedRef.current ||
+        animating
+      ) {
+        cancelGesture()
+        return
+      }
+
+      const outcome = classifyQaReelGesture({
+        deltaX: event.clientX - gesture.startX,
+        deltaY: gesture.startY - event.clientY,
+        startedInAnswerRegion: gesture.startedInAnswerRegion,
+        swipeThresholdPx: window.innerHeight * 0.1,
+      })
+
+      activeGestureRef.current = null
+      if (event.currentTarget.hasPointerCapture(event.pointerId)) {
+        event.currentTarget.releasePointerCapture(event.pointerId)
+      }
+
+      if (outcome === "swipeNext" || outcome === "swipePrevious") {
+        advance(outcome === "swipeNext" ? "next" : "previous")
+      } else {
+        resetCardPositions(true)
+        if (outcome === "tapReveal") revealCurrentAnswer()
+      }
+    },
+    [animating, advance, cancelGesture, resetCardPositions, revealCurrentAnswer],
+  )
 
   const handleLostPointerCapture = useCallback(() => {
     if (activeGestureRef.current) cancelGesture()
   }, [cancelGesture])
 
   useEffect(() => {
+    if (screen.step !== "quiz") return
+
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.defaultPrevented || animating) return
       const target = event.target as HTMLElement | null
@@ -419,103 +587,171 @@ export default function NailTechnicianQaReelPage() {
 
       if (event.key === "ArrowDown") {
         event.preventDefault()
-        commitNavigation("swipeNext")
+        advance("next")
       } else if (event.key === "ArrowUp") {
         event.preventDefault()
-        commitNavigation("swipePrevious")
+        advance("previous")
       }
     }
 
     window.addEventListener("keydown", handleKeyDown)
     return () => window.removeEventListener("keydown", handleKeyDown)
-  }, [animating, commitNavigation])
+  }, [advance, animating, screen.step])
 
-  if (!deck) {
+  const startBank = useCallback(async (mode: QaBankMode) => {
+    setLoadingBank(true)
+    try {
+      if (!practicePoolRef.current) {
+        practicePoolRef.current = await loadPracticeQuestions()
+      }
+      const cards = sliceNailTestQaRange(practicePoolRef.current, mode.offset)
+      if (cards.length === 0) return
+
+      currentIndexRef.current = 0
+      setCurrentIndex(0)
+      setRevealedCardId(null)
+      setSession({ mode, cards })
+      setScreen({ step: "quiz" })
+    } finally {
+      setLoadingBank(false)
+    }
+  }, [])
+
+  const restartBank = useCallback(() => {
+    if (!session) return
+    currentIndexRef.current = 0
+    setCurrentIndex(0)
+    setRevealedCardId(null)
+    setAnimating(false)
+    setScreen({ step: "quiz" })
+  }, [session])
+
+  const backToMenu = useCallback(() => {
+    setSession(null)
+    setCurrentIndex(0)
+    setRevealedCardId(null)
+    setAnimating(false)
+    setScreen({ step: "mode" })
+  }, [])
+
+  if (screen.step === "quiz" && session) {
+    const cards = session.cards
+    const total = cards.length
+    const currentCard = cards[currentIndex]
+    const previousCard = currentIndex > 0 ? cards[currentIndex - 1] : null
+    const nextCard = currentIndex < total - 1 ? cards[currentIndex + 1] : null
+    const bankLabel = qaBankLabel(session.mode.offset)
+    const currentBgIndex = getBackgroundIndexForWord(currentIndex, 0)
+    const currentBg = getBackgroundForWord(currentIndex, 0)
+    const previousBg = previousCard
+      ? getBackgroundForWord(currentIndex - 1, 0, currentBgIndex)
+      : "#000"
+    const nextBg = nextCard ? getBackgroundForWord(currentIndex + 1, 0, currentBgIndex) : "#000"
+    const progress = (currentIndex / total) * 100
+
     return (
       <>
         <NavigationMenu />
-        <main className="flex h-dvh items-center justify-center bg-black text-white/70">
-          Loading questions…
+        <main className="flex h-dvh w-screen flex-col overflow-hidden bg-black">
+          <header className="relative z-20 grid h-16 shrink-0 grid-cols-[3.25rem_minmax(0,1fr)_auto] grid-rows-2 items-center gap-x-2 border-b border-white/10 bg-black/70 px-3 py-2 text-center backdrop-blur-md">
+            <p className="col-start-2 row-start-1 text-[11px] font-medium leading-tight text-white/70 sm:text-xs">
+              {bankLabel.en}
+              {showChinese && <> | {bankLabel.zh}</>}
+            </p>
+            <div className="col-start-2 row-start-2 flex w-full items-center gap-2">
+              <span className="shrink-0 text-xs text-white/80">
+                {currentIndex + 1}/{total}
+              </span>
+              <Progress value={progress} className="h-1.5 flex-1 bg-white/15" />
+            </div>
+            <div className="col-start-3 row-span-2 row-start-1 flex justify-end">
+              <ExamQuizChineseToggle placement="inline" />
+            </div>
+          </header>
+
+          <div
+            ref={containerRef}
+            className="relative flex-1 touch-none overflow-hidden select-none"
+            onPointerDown={handlePointerDown}
+            onPointerMove={handlePointerMove}
+            onPointerUp={handlePointerUp}
+            onPointerCancel={cancelGesture}
+            onLostPointerCapture={handleLostPointerCapture}
+          >
+            <QuestionCard
+              card={currentCard}
+              isCurrent
+              isRevealed={revealedCardId === currentCard.id}
+              showChinese={showChinese}
+              background={currentBg}
+              cardRef={currentCardRef}
+              position="0"
+              onReveal={revealCurrentAnswer}
+              onSpeakQuestion={() => speak(currentCard.question.en, currentCard.id, "question")}
+              onSpeakAnswer={() => speak(currentCard.answer.en, currentCard.id, "answer")}
+            />
+            {previousCard ? (
+              <QuestionCard
+                card={previousCard}
+                isCurrent={false}
+                isRevealed={false}
+                showChinese={showChinese}
+                background={previousBg}
+                cardRef={previousCardRef}
+                position="-100%"
+                onReveal={() => {}}
+                onSpeakQuestion={() => {}}
+                onSpeakAnswer={() => {}}
+              />
+            ) : (
+              <div ref={previousCardRef} className="absolute inset-0 -translate-y-full" aria-hidden />
+            )}
+            {nextCard ? (
+              <QuestionCard
+                card={nextCard}
+                isCurrent={false}
+                isRevealed={false}
+                showChinese={showChinese}
+                background={nextBg}
+                cardRef={nextCardRef}
+                position="100%"
+                onReveal={() => {}}
+                onSpeakQuestion={() => {}}
+                onSpeakAnswer={() => {}}
+              />
+            ) : (
+              <div ref={nextCardRef} className="absolute inset-0 translate-y-full" aria-hidden />
+            )}
+          </div>
         </main>
       </>
     )
   }
 
-  if (deck.length === 0) {
+  if (screen.step === "finished" && session) {
     return (
       <>
         <NavigationMenu />
-        <main className="flex h-dvh items-center justify-center bg-black text-white/70">
-          No questions available.
-        </main>
+        <ExamQuizChineseToggle />
+        <div className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
+          <FinishedScreen
+            session={session}
+            showChinese={showChinese}
+            onRestart={restartBank}
+            onBackToMenu={backToMenu}
+          />
+        </div>
       </>
     )
   }
-
-  const previousIndex = (currentIndex - 1 + deck.length) % deck.length
-  const nextIndex = (currentIndex + 1) % deck.length
-  const currentCard = deck[currentIndex]
-  const previousCard = deck[previousIndex]
-  const nextCard = deck[nextIndex]
-  const currentBackgroundIndex = getBackgroundIndexForWord(currentCard.id, 0)
-  const currentBackground = getBackgroundForWord(currentCard.id, 0)
-  const previousBackground = getBackgroundForWord(previousCard.id, 0, currentBackgroundIndex)
-  const nextBackground = getBackgroundForWord(nextCard.id, 0, currentBackgroundIndex)
 
   return (
     <>
       <NavigationMenu />
-      <main className="flex h-dvh w-screen flex-col overflow-hidden bg-black">
-        <header className="relative z-20 flex h-14 shrink-0 items-center justify-center border-b border-white/10 bg-black/65 px-16 text-center backdrop-blur-md">
-          <h1 className="text-base font-semibold text-white sm:text-lg">
-            Nail Technician Q&amp;A | 美甲问答
-          </h1>
-        </header>
-
-        <div
-          ref={containerRef}
-          className="relative flex-1 touch-none overflow-hidden select-none"
-          onPointerDown={handlePointerDown}
-          onPointerMove={handlePointerMove}
-          onPointerUp={handlePointerUp}
-          onPointerCancel={cancelGesture}
-          onLostPointerCapture={handleLostPointerCapture}
-        >
-          <QuestionCard
-            card={currentCard}
-            isCurrent
-            isRevealed={revealedCardId === currentCard.id}
-            background={currentBackground}
-            cardRef={currentCardRef}
-            position="0"
-            onReveal={revealCurrentAnswer}
-            onSpeakQuestion={() => speak(currentCard.question.en, currentCard.id, "question")}
-            onSpeakAnswer={() => speak(currentCard.answer.en, currentCard.id, "answer")}
-          />
-          <QuestionCard
-            card={previousCard}
-            isCurrent={false}
-            isRevealed={false}
-            background={previousBackground}
-            cardRef={previousCardRef}
-            position="-100%"
-            onReveal={() => {}}
-            onSpeakQuestion={() => {}}
-            onSpeakAnswer={() => {}}
-          />
-          <QuestionCard
-            card={nextCard}
-            isCurrent={false}
-            isRevealed={false}
-            background={nextBackground}
-            cardRef={nextCardRef}
-            position="100%"
-            onReveal={() => {}}
-            onSpeakQuestion={() => {}}
-            onSpeakAnswer={() => {}}
-          />
-        </div>
-      </main>
+      <ExamQuizChineseToggle />
+      <div className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
+        <BankPicker loading={loadingBank} onSelect={startBank} showChinese={showChinese} />
+      </div>
     </>
   )
 }
