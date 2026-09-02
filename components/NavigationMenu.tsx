@@ -19,6 +19,7 @@ interface MenuItem {
   title: string
   href: string
   icon: React.ComponentType<{ className?: string }>
+  hidden?: boolean
 }
 
 const getMenuItems = (language: "chinese" | "japanese"): MenuItem[] => [
@@ -33,24 +34,15 @@ const getMenuItems = (language: "chinese" | "japanese"): MenuItem[] => [
     icon: Film,
   },
   {
-    title: "Official Exam Practice | 官方考试练习",
-    href: "/official-exam-quiz",
+    title: "Nail Exam Practice | 美甲考试练习",
+    href: "/nail-exam-practice",
     icon: GraduationCap,
-  },
-  {
-    title: "Exam Practice | 考试练习",
-    href: "/exam-quiz",
-    icon: GraduationCap,
-  },
-  {
-    title: "Nail Technician Q&A | 美甲问答",
-    href: "/nail-technician-qa-reel",
-    icon: Film,
   },
   {
     title: language === "japanese" ? "Nail Technician | ネイルテクニシャン" : "Nail Technician | 美甲师",
     href: "/nail-technician-reel",
     icon: Film,
+    hidden: true,
   },
   {
     title: "Verb Reel | 动词卷轴",
@@ -103,7 +95,7 @@ export function NavigationMenu() {
   const pathname = usePathname()
   const { language, setLanguage } = useLanguage()
   const [open, setOpen] = useState(false)
-  const menuItems = getMenuItems(language)
+  const menuItems = getMenuItems(language).filter((item) => !item.hidden)
 
   const handleLinkClick = () => {
     setOpen(false)
@@ -128,7 +120,10 @@ export function NavigationMenu() {
         <div className="mt-6 flex flex-col gap-2">
           {menuItems.map((item) => {
             const Icon = item.icon
-            const isActive = pathname === item.href
+            const isActive =
+              item.href === "/"
+                ? pathname === "/"
+                : pathname === item.href || pathname.startsWith(`${item.href}/`)
             return (
               <Link
                 key={item.href}

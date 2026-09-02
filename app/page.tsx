@@ -20,34 +20,14 @@ const getMenuItems = (language: "chinese" | "japanese") => [
     hoverColor: "hover:from-pink-500/20 hover:to-rose-600/20"
   },
   {
-    title: "Official Exam Practice | 官方考试练习",
-    href: "/official-exam-quiz",
+    title: "Nail Exam Practice | 美甲考试练习",
+    href: "/nail-exam-practice",
     icon: GraduationCap,
-    description: "10 or 25 random questions, plus five ordered banks of 20",
-    color: "from-violet-500/10 to-purple-600/10",
+    description: "Choose a question bank, then Multiple Choice or Study Cards",
+    color: "from-violet-500/10 to-indigo-600/10",
     iconColor: "text-violet-500",
     borderColor: "border-violet-500/20",
-    hoverColor: "hover:from-violet-500/20 hover:to-purple-600/20"
-  },
-  {
-    title: "Exam Practice | 考试练习",
-    href: "/exam-quiz",
-    icon: GraduationCap,
-    description: "Random sets or ordered 20s by source, with Why after each answer",
-    color: "from-indigo-500/10 to-indigo-600/10",
-    iconColor: "text-indigo-500",
-    borderColor: "border-indigo-500/20",
-    hoverColor: "hover:from-indigo-500/20 hover:to-indigo-600/20"
-  },
-  {
-    title: "Nail Technician Q&A | 美甲问答",
-    href: "/nail-technician-qa-reel",
-    icon: Film,
-    description: "Nail Test Q&A in banks of 20, matching Exam Practice",
-    color: "from-cyan-500/10 to-blue-600/10",
-    iconColor: "text-cyan-500",
-    borderColor: "border-cyan-500/20",
-    hoverColor: "hover:from-cyan-500/20 hover:to-blue-600/20"
+    hoverColor: "hover:from-violet-500/20 hover:to-indigo-600/20"
   },
   {
     title: language === "japanese" ? "Nail Technician | ネイルテクニシャン" : "Nail Technician | 美甲师",
@@ -57,7 +37,8 @@ const getMenuItems = (language: "chinese" | "japanese") => [
     color: "from-fuchsia-500/10 to-pink-600/10",
     iconColor: "text-fuchsia-500",
     borderColor: "border-fuchsia-500/20",
-    hoverColor: "hover:from-fuchsia-500/20 hover:to-pink-600/20"
+    hoverColor: "hover:from-fuchsia-500/20 hover:to-pink-600/20",
+    hidden: true,
   },
   {
     title: "Verb Reel | 动词卷轴",
@@ -153,7 +134,7 @@ const getMenuItems = (language: "chinese" | "japanese") => [
 
 export default function HomePage() {
   const { language } = useLanguage()
-  const menuItems = getMenuItems(language)
+  const menuItems = getMenuItems(language).filter((item) => !item.hidden)
 
   return (
     <>

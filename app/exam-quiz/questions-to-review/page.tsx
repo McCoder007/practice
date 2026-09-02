@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/accordion"
 import { useExamQuizPreferences } from "@/contexts/ExamQuizPreferencesContext"
 import { QUESTIONS_TO_REVIEW_TITLE } from "@/data/exam-quiz/catalog"
+import { NAIL_EXAM_PRACTICE_HREF, NAIL_EXAM_PRACTICE_TITLE } from "@/data/nail-exam-practice/catalog"
 import { loadQuestionsToReview } from "@/data/exam-quiz/loadChapter"
 import type { HeldQuestionBank } from "@/data/exam-quiz/types"
 import { cn } from "@/lib/utils"
@@ -38,10 +39,11 @@ export default function QuestionsToReviewPage() {
       <main className="min-h-screen bg-[#f7f3ea] text-stone-900">
         <div className="mx-auto flex w-full max-w-md flex-col gap-4 px-4 pb-16 pt-20">
           <Link
-            href="/exam-quiz"
+            href={NAIL_EXAM_PRACTICE_HREF}
             className="ml-12 text-sm font-medium text-stone-600 underline-offset-4 hover:text-stone-900 hover:underline sm:ml-0"
           >
-            Back to Exam Practice{showChinese && " | 返回考试练习"}
+            Back to {NAIL_EXAM_PRACTICE_TITLE.en}
+            {showChinese && <> | 返回{NAIL_EXAM_PRACTICE_TITLE.zh}</>}
           </Link>
           <header className="rounded-2xl border border-amber-200 bg-[#fff8ee] px-4 py-5">
             <p className="text-xs font-semibold tracking-[0.18em] text-amber-800/80 uppercase">
