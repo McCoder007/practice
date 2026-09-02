@@ -27,6 +27,7 @@ import {
   classifyExamReelGesture,
   summarizeSession,
 } from "@/lib/exam-quiz-reel"
+import type { NailExamGroupHistoryEntry } from "@/lib/nail-exam-practice-history"
 import {
   getBackgroundForWord,
   getBackgroundIndexForWord,
@@ -51,6 +52,7 @@ export function NailExamMultipleChoiceSession({
   chineseToggle,
   chineseToggleFixed,
   isRandom,
+  onComplete,
   onRestart,
   onExit,
 }: {
@@ -60,6 +62,7 @@ export function NailExamMultipleChoiceSession({
   chineseToggle: ReactNode
   chineseToggleFixed?: ReactNode
   isRandom: boolean
+  onComplete?: (result: { correct: number; total: number }) => NailExamGroupHistoryEntry
   onRestart: () => void
   onExit: () => void
 }) {
@@ -67,6 +70,7 @@ export function NailExamMultipleChoiceSession({
   const [session, setSession] = useState<SessionState>({ questions, answers: {} })
   const [currentIndex, setCurrentIndex] = useState(0)
   const [animating, setAnimating] = useState(false)
+  const [completionHistory, setCompletionHistory] = useState<NailExamGroupHistoryEntry | null>(null)
 
   const containerRef = useRef<HTMLDivElement>(null)
   const currentCardRef = useRef<HTMLDivElement>(null)
@@ -84,6 +88,7 @@ export function NailExamMultipleChoiceSession({
     currentIndexRef.current = 0
     setCurrentIndex(0)
     setScreen({ step: "quiz" })
+    setCompletionHistory(null)
   }, [questions])
 
   useEffect(() => {
@@ -214,9 +219,15 @@ export function NailExamMultipleChoiceSession({
   }, [])
 
   const finishQuiz = useCallback(() => {
+    const summary = summarizeSession({
+      mode: isRandom ? "quick" : { kind: "source-range", sourceId: "nail-test", offset: 0 },
+      questions: session.questions,
+      answers: session.answers,
+    })
+    setCompletionHistory(onComplete?.({ correct: summary.correct, total: summary.total }) ?? null)
     setAnimating(false)
     setScreen({ step: "results" })
-  }, [])
+  }, [isRandom, onComplete, session.answers, session.questions])
 
   const advance = useCallback(
     (direction: "next" | "previous") => {
@@ -399,6 +410,23 @@ export function NailExamMultipleChoiceSession({
                   {showChinese && <> | 得分：{summary.correct} / {summary.total}</>}
                 </p>
               </>
+            )}
+
+            {completionHistory && (
+              <div className="rounded-xl border border-slate-200 bg-white/70 px-4 py-2 text-center text-sm font-medium text-slate-700 dark:border-slate-700 dark:bg-slate-900/40 dark:text-slate-200">
+                <p>
+                  Group history: {completionHistory.attempts}{" "}
+                  {completionHistory.attempts === 1 ? "attempt" : "attempts"} · {completionHistory.perfect}{" "}
+                  perfect {completionHistory.perfect === 1 ? "score" : "scores"} · Highest score:{" "}
+                  {completionHistory.bestScore}/{completionHistory.total}
+                </p>
+                {showChinese && (
+                  <p lang="zh-Hans">
+                    本组记录：尝试 {completionHistory.attempts} 次 · 满分 {completionHistory.perfect} 次 · 最高分：
+                    {completionHistory.bestScore}/{completionHistory.total}
+                  </p>
+                )}
+              </div>
             )}
 
             {summary.missed.length > 0 && (

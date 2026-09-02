@@ -1,6 +1,6 @@
 "use client"
 
-import { useCallback, useState, type ReactNode } from "react"
+import { useCallback, useEffect, useState, type ReactNode } from "react"
 
 import Link from "next/link"
 
@@ -27,6 +27,14 @@ import {
 } from "@/data/nail-exam-practice/catalog"
 import { loadPracticeQuestions as loadOfficialQuestions } from "@/data/official-exam-quiz/loadChapter"
 import { assertPlayablePool, drawPracticeSession, shuffleQuestionChoices } from "@/lib/exam-quiz-reel"
+import {
+  clearNailExamBankHistory,
+  nailExamGroupHistoryId,
+  nextNailExamGroupHistoryEntry,
+  readNailExamGroupHistory,
+  writeNailExamGroupHistory,
+  type NailExamGroupHistory,
+} from "@/lib/nail-exam-practice-history"
 import { sliceStudyCardsRange, type QaCard } from "@/lib/nail-technician-qa-reel"
 import { cn } from "@/lib/utils"
 
@@ -55,6 +63,7 @@ type ActiveSession =
       title: LocalizedText
       questions: ExamQuestion[]
       isRandom: boolean
+      groupHistoryId?: string
       restart: () => Promise<void>
     }
   | {
@@ -81,13 +90,23 @@ export function NailExamBankExperience({
   const [format, setFormat] = useState<StudyFormatId>("multiple-choice")
   const [loading, setLoading] = useState(false)
   const [session, setSession] = useState<ActiveSession | null>(null)
+  const [groupHistory, setGroupHistory] = useState<NailExamGroupHistory>({})
+
+  useEffect(() => {
+    setGroupHistory(readNailExamGroupHistory(window.localStorage))
+  }, [])
 
   const changeFormat = useCallback((next: StudyFormatId) => {
     setFormat(next)
   }, [])
 
   const beginMultipleChoice = useCallback(
-    async (title: LocalizedText, select: (pool: ExamQuestion[]) => ExamQuestion[], isRandom: boolean) => {
+    async (
+      title: LocalizedText,
+      select: (pool: ExamQuestion[]) => ExamQuestion[],
+      isRandom: boolean,
+      groupHistoryId?: string,
+    ) => {
       setLoading(true)
       try {
         const pool = await loadBankPool(bank)
@@ -101,6 +120,7 @@ export function NailExamBankExperience({
             title,
             questions: nextSelected,
             isRandom,
+            groupHistoryId,
             restart: start,
           })
         }
@@ -109,6 +129,7 @@ export function NailExamBankExperience({
           title,
           questions: selected,
           isRandom,
+          groupHistoryId,
           restart: start,
         })
       } finally {
@@ -154,7 +175,12 @@ export function NailExamBankExperience({
         void beginStudyCards(title, offset)
         return
       }
-      void beginMultipleChoice(title, (pool) => sliceBankGroup(pool, bank, offset), false)
+      void beginMultipleChoice(
+        title,
+        (pool) => sliceBankGroup(pool, bank, offset),
+        false,
+        nailExamGroupHistoryId(bank.id, start, end),
+      )
     },
     [bank, beginMultipleChoice, beginStudyCards, format],
   )
@@ -168,6 +194,21 @@ export function NailExamBankExperience({
         chineseToggle={chineseToggleInline}
         chineseToggleFixed={chineseToggleFixed}
         isRandom={session.isRandom}
+        onComplete={
+          session.groupHistoryId
+            ? ({ correct, total }) => {
+                const nextEntry = nextNailExamGroupHistoryEntry(
+                  groupHistory[session.groupHistoryId!],
+                  correct,
+                  total,
+                )
+                const nextHistory = { ...groupHistory, [session.groupHistoryId!]: nextEntry }
+                setGroupHistory(nextHistory)
+                writeNailExamGroupHistory(window.localStorage, nextHistory)
+                return nextEntry
+              }
+            : undefined
+        }
         onRestart={() => {
           void session.restart()
         }}
@@ -252,6 +293,7 @@ export function NailExamBankExperience({
             <div className="grid grid-cols-2 gap-2">
               {groups.map((range) => {
                 const label = groupLabel(range.start, range.end)
+                const historyEntry = groupHistory[nailExamGroupHistoryId(bank.id, range.start, range.end)]
                 return (
                   <button
                     key={range.offset}
@@ -259,14 +301,42 @@ export function NailExamBankExperience({
                     disabled={loading}
                     onClick={() => startGroup(range.offset, range.start, range.end)}
                     className={cn(
-                      "min-h-12 rounded-xl border px-3 py-2 text-left text-lg font-semibold shadow-sm transition-shadow hover:shadow-md disabled:opacity-60",
+                      "min-h-[7.75rem] rounded-xl border px-3 py-2 text-left text-lg font-semibold shadow-sm transition-shadow hover:shadow-md disabled:opacity-60",
                       ACCENT[bank.accent],
                     )}
                   >
                     {label.en}
-                    {showChinese && (
-                      <span className="mt-0.5 block text-base font-medium opacity-80">{label.zh}</span>
-                    )}
+                    <span className="mt-1 block min-h-12 text-xs leading-4 font-medium opacity-80">
+                      {format === "multiple-choice" && (
+                        historyEntry ? (
+                          <>
+                            <span className="block">
+                              Attempts: {historyEntry.attempts} · Perfect: {historyEntry.perfect}
+                            </span>
+                            {showChinese && (
+                              <span className="block" lang="zh-Hans">
+                                尝试：{historyEntry.attempts} · 满分：{historyEntry.perfect}
+                              </span>
+                            )}
+                            <span className="block text-[11px]">
+                              Highest score: {historyEntry.bestScore}/{historyEntry.total}
+                            </span>
+                            {showChinese && (
+                              <span className="block text-[11px]" lang="zh-Hans">
+                                最高分：{historyEntry.bestScore}/{historyEntry.total}
+                              </span>
+                            )}
+                          </>
+                        ) : (
+                          <>
+                            <span className="block">Not attempted yet</span>
+                            {showChinese && (
+                              <span className="block" lang="zh-Hans">尚未尝试</span>
+                            )}
+                          </>
+                        )
+                      )}
+                    </span>
                   </button>
                 )
               })}
@@ -320,6 +390,27 @@ export function NailExamBankExperience({
               >
                 Original / 原文
               </Link>
+            )}
+            {Object.keys(groupHistory).some((key) => key.startsWith(`${bank.id}:`)) && (
+              <div className="mt-3 border-t border-slate-200 pt-3 dark:border-slate-700">
+                <p className="text-sm text-slate-600 dark:text-slate-300">
+                  Practice history stays in this browser only.
+                  {showChinese && <> | 练习记录仅保存在此浏览器中。</>}
+                </p>
+                <button
+                  type="button"
+                  className="mt-2 min-h-11 text-sm font-medium text-rose-700 underline underline-offset-2 dark:text-rose-300"
+                  onClick={() => {
+                    const confirmed = window.confirm(
+                      "Clear the Multiple Choice history for this bank?\n清除此题库的选择题练习记录吗？",
+                    )
+                    if (!confirmed) return
+                    setGroupHistory(clearNailExamBankHistory(window.localStorage, groupHistory, bank.id))
+                  }}
+                >
+                  Clear this bank’s history{showChinese && " | 清除此题库记录"}
+                </button>
+              </div>
             )}
           </details>
         </div>
