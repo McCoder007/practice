@@ -13,11 +13,6 @@ export const NAIL_EXAM_PRACTICE_DESCRIPTION: LocalizedText = {
   zh: "选择题库，再用选择题或学习卡练习",
 }
 
-export const STUDY_CARDS_HELPER: LocalizedText = {
-  en: "Read the question, then reveal the answer.",
-  zh: "先看题目，再揭晓答案。",
-}
-
 export const LEARNER_FACING_QUESTION_COUNT = 448
 
 export type StudyFormatId = "multiple-choice" | "study-cards"
@@ -143,8 +138,6 @@ export const STUDY_FORMATS: readonly {
   { id: "multiple-choice", title: { en: "Multiple Choice", zh: "选择题" } },
   { id: "study-cards", title: { en: "Study Cards", zh: "学习卡" } },
 ]
-
-export const STUDY_FORMAT_PREFERENCE_KEY = "nail-exam-practice-study-format"
 
 /** Old learner routes that must not show textbook sections or source-named banks. */
 export const LEGACY_EXAM_PRACTICE_REDIRECTS = [
