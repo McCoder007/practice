@@ -21,8 +21,9 @@ export function OriginalSourceViewer({ source }: { source: PracticeSourceMeta })
   const [errorMessage, setErrorMessage] = useState("")
 
   useEffect(() => {
-    const container = pagesRef.current
-    if (!container) return
+    const pagesEl = pagesRef.current
+    if (!pagesEl) return
+    const pagesContainer: HTMLDivElement = pagesEl
 
     let cancelled = false
     const loadingTasks: { destroy(): Promise<unknown> }[] = []
@@ -30,7 +31,7 @@ export function OriginalSourceViewer({ source }: { source: PracticeSourceMeta })
     async function renderPdf() {
       setStatus("loading")
       setErrorMessage("")
-      container.replaceChildren()
+      pagesContainer.replaceChildren()
 
       try {
         const pdfjs = await import("pdfjs-dist")
@@ -44,7 +45,7 @@ export function OriginalSourceViewer({ source }: { source: PracticeSourceMeta })
           return
         }
 
-        const width = container.clientWidth || window.innerWidth
+        const width = pagesContainer.clientWidth || window.innerWidth
         const outputScale = Math.min(window.devicePixelRatio || 1, 2)
 
         for (let pageNumber = 1; pageNumber <= pdf.numPages; pageNumber += 1) {
@@ -68,7 +69,7 @@ export function OriginalSourceViewer({ source }: { source: PracticeSourceMeta })
           if (!canvasContext) throw new Error("Could not create canvas context")
 
           await page.render({ canvasContext, viewport, transform }).promise
-          if (!cancelled) container.appendChild(canvas)
+          if (!cancelled) pagesContainer.appendChild(canvas)
         }
 
         await pdf.destroy()
