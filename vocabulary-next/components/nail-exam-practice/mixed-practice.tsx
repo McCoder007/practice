@@ -80,16 +80,16 @@ export function NailExamMixedPractice() {
         <div className="mx-auto flex w-full max-w-md flex-col gap-4">
           <Link
             href={NAIL_EXAM_PRACTICE_HREF}
-            className="text-sm font-medium text-slate-600 underline-offset-2 hover:underline dark:text-slate-300"
+            className="text-lg font-medium text-slate-600 underline-offset-2 hover:underline dark:text-slate-300"
           >
             ← {NAIL_EXAM_PRACTICE_TITLE.en}
             {showChinese && <> | {NAIL_EXAM_PRACTICE_TITLE.zh}</>}
           </Link>
-          <h1 className="text-2xl font-bold text-slate-900 dark:text-white">
+          <h1 className="text-4xl font-bold text-slate-900 dark:text-white">
             {MIXED_PRACTICE.title.en}
             {showChinese && <> | {MIXED_PRACTICE.title.zh}</>}
           </h1>
-          <p className="text-sm text-slate-600 dark:text-slate-300">
+          <p className="text-lg text-slate-600 dark:text-slate-300">
             {MIXED_PRACTICE.description.en}
             {showChinese && <> | {MIXED_PRACTICE.description.zh}</>}
           </p>
@@ -103,11 +103,11 @@ export function NailExamMixedPractice() {
               }}
               className="min-h-12 rounded-xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-left disabled:opacity-60 dark:border-emerald-900/50 dark:bg-emerald-950/30"
             >
-              <span className="block text-sm font-semibold text-slate-900 dark:text-white">
+              <span className="block text-lg font-semibold text-slate-900 dark:text-white">
                 {option.title.en}
                 {showChinese && <> | {option.title.zh}</>}
               </span>
-              <span className="text-xs text-slate-600 dark:text-slate-300">
+              <span className="text-base text-slate-600 dark:text-slate-300">
                 {option.count} random questions
                 {showChinese && ` | ${option.count} 道随机题目`}
               </span>

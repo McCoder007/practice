@@ -1,6 +1,6 @@
 "use client"
 
-import { useCallback, useEffect, useState, type ReactNode } from "react"
+import { useCallback, useState, type ReactNode } from "react"
 
 import Link from "next/link"
 
@@ -14,9 +14,7 @@ import type { ExamQuestion, LocalizedText } from "@/data/exam-quiz/types"
 import {
   NAIL_EXAM_PRACTICE_HREF,
   NAIL_EXAM_PRACTICE_TITLE,
-  STUDY_CARDS_HELPER,
   STUDY_FORMATS,
-  STUDY_FORMAT_PREFERENCE_KEY,
   bankGroupCards,
   bankSummaryLine,
   getNailExamBank,
@@ -38,24 +36,6 @@ const ACCENT = {
   cyan: "border-cyan-200 bg-cyan-50 text-cyan-950 dark:border-cyan-900/50 dark:bg-cyan-950/30 dark:text-cyan-50",
   amber: "border-amber-200 bg-amber-50 text-amber-950 dark:border-amber-900/50 dark:bg-amber-950/30 dark:text-amber-50",
 } as const
-
-function readFormatPreference(): StudyFormatId {
-  try {
-    const stored = window.localStorage.getItem(STUDY_FORMAT_PREFERENCE_KEY)
-    if (stored === "multiple-choice" || stored === "study-cards") return stored
-  } catch {
-    // Ignore storage failures and keep the Multiple Choice default.
-  }
-  return "multiple-choice"
-}
-
-function writeFormatPreference(format: StudyFormatId) {
-  try {
-    window.localStorage.setItem(STUDY_FORMAT_PREFERENCE_KEY, format)
-  } catch {
-    // Preference persistence is optional.
-  }
-}
 
 async function loadBankPool(bank: NailExamBank): Promise<ExamQuestion[]> {
   if (bank.pool === "official") {
@@ -102,13 +82,8 @@ export function NailExamBankExperience({
   const [loading, setLoading] = useState(false)
   const [session, setSession] = useState<ActiveSession | null>(null)
 
-  useEffect(() => {
-    setFormat(readFormatPreference())
-  }, [])
-
   const changeFormat = useCallback((next: StudyFormatId) => {
     setFormat(next)
-    writeFormatPreference(next)
   }, [])
 
   const beginMultipleChoice = useCallback(
@@ -225,24 +200,24 @@ export function NailExamBankExperience({
         <div className="mx-auto flex w-full max-w-md flex-col gap-4">
           <Link
             href={NAIL_EXAM_PRACTICE_HREF}
-            className="text-sm font-medium text-slate-600 underline-offset-2 hover:underline dark:text-slate-300"
+            className="text-lg font-medium text-slate-600 underline-offset-2 hover:underline dark:text-slate-300"
           >
             ← {NAIL_EXAM_PRACTICE_TITLE.en}
             {showChinese && <> | {NAIL_EXAM_PRACTICE_TITLE.zh}</>}
           </Link>
           <div>
-            <h1 className="text-2xl font-bold text-slate-900 dark:text-white">
+            <h1 className="text-4xl font-bold text-slate-900 dark:text-white">
               {bank.publicName.en}
               {showChinese && <> | {bank.publicName.zh}</>}
             </h1>
-            <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">
+            <p className="mt-1 text-lg text-slate-600 dark:text-slate-300">
               {summary.en}
               {showChinese && <> | {summary.zh}</>}
             </p>
           </div>
 
           <div>
-            <p className="mb-2 text-sm font-semibold text-slate-700 dark:text-slate-200">
+            <p className="mb-2 text-lg font-semibold text-slate-700 dark:text-slate-200">
               Study format{showChinese && " | 学习方式"}
             </p>
             <div className="grid grid-cols-2 gap-2">
@@ -253,7 +228,7 @@ export function NailExamBankExperience({
                     key={option.id}
                     type="button"
                     variant={selected ? "default" : "outline"}
-                    className="min-h-11 whitespace-normal px-2 py-2 text-sm"
+                    className="min-h-11 h-auto whitespace-normal px-2 py-2 !text-lg"
                     aria-pressed={selected}
                     onClick={() => changeFormat(option.id)}
                   >
@@ -268,16 +243,10 @@ export function NailExamBankExperience({
                 )
               })}
             </div>
-            {format === "study-cards" && (
-              <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
-                {STUDY_CARDS_HELPER.en}
-                {showChinese && <> | {STUDY_CARDS_HELPER.zh}</>}
-              </p>
-            )}
           </div>
 
           <div>
-            <p className="mb-2 text-sm font-semibold text-slate-700 dark:text-slate-200">
+            <p className="mb-2 text-lg font-semibold text-slate-700 dark:text-slate-200">
               Question groups{showChinese && " | 题目分组"}
             </p>
             <div className="grid grid-cols-2 gap-2">
@@ -290,13 +259,13 @@ export function NailExamBankExperience({
                     disabled={loading}
                     onClick={() => startGroup(range.offset, range.start, range.end)}
                     className={cn(
-                      "min-h-12 rounded-xl border px-3 py-2 text-left text-sm font-semibold shadow-sm transition-shadow hover:shadow-md disabled:opacity-60",
+                      "min-h-12 rounded-xl border px-3 py-2 text-left text-lg font-semibold shadow-sm transition-shadow hover:shadow-md disabled:opacity-60",
                       ACCENT[bank.accent],
                     )}
                   >
                     {label.en}
                     {showChinese && (
-                      <span className="mt-0.5 block text-xs font-medium opacity-80">{label.zh}</span>
+                      <span className="mt-0.5 block text-base font-medium opacity-80">{label.zh}</span>
                     )}
                   </button>
                 )
@@ -306,7 +275,7 @@ export function NailExamBankExperience({
 
           {format === "multiple-choice" && bank.randomOptions.length > 0 && (
             <div>
-              <p className="mb-2 text-sm font-semibold text-slate-700 dark:text-slate-200">
+              <p className="mb-2 text-lg font-semibold text-slate-700 dark:text-slate-200">
                 Random practice{showChinese && " | 随机练习"}
               </p>
               <div className="flex flex-col gap-2">
@@ -325,11 +294,11 @@ export function NailExamBankExperience({
                     }
                     className="min-h-12 rounded-xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-left disabled:opacity-60 dark:border-emerald-900/50 dark:bg-emerald-950/30"
                   >
-                    <span className="block text-sm font-semibold text-slate-900 dark:text-white">
+                    <span className="block text-lg font-semibold text-slate-900 dark:text-white">
                       {option.title.en}
                       {showChinese && <> | {option.title.zh}</>}
                     </span>
-                    <span className="text-xs text-slate-600 dark:text-slate-300">
+                    <span className="text-base text-slate-600 dark:text-slate-300">
                       {option.count} random questions
                       {showChinese && ` | ${option.count} 道随机题目`}
                     </span>
@@ -339,7 +308,7 @@ export function NailExamBankExperience({
             </div>
           )}
 
-          <details className="rounded-xl border border-slate-200 bg-white/80 px-4 py-3 text-sm dark:border-slate-700 dark:bg-slate-900/40">
+          <details className="rounded-xl border border-slate-200 bg-white/80 px-4 py-3 text-lg dark:border-slate-700 dark:bg-slate-900/40">
             <summary className="cursor-pointer font-medium text-slate-700 dark:text-slate-200">
               Source information{showChinese && " | 来源说明"}
             </summary>

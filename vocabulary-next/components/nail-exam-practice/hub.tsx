@@ -19,6 +19,7 @@ const ACCENT = {
   rose: "border-rose-200 from-rose-50 to-white dark:border-rose-900/50 dark:from-rose-950/30 dark:to-slate-800",
   cyan: "border-cyan-200 from-cyan-50 to-white dark:border-cyan-900/50 dark:from-cyan-950/30 dark:to-slate-800",
   amber: "border-amber-200 from-amber-50 to-white dark:border-amber-900/50 dark:from-amber-950/30 dark:to-slate-800",
+  emerald: "border-emerald-200 from-emerald-50 to-white dark:border-emerald-900/50 dark:from-emerald-950/30 dark:to-slate-800",
 } as const
 
 export function NailExamPracticeHub() {
@@ -40,10 +41,6 @@ export function NailExamPracticeHub() {
             {NAIL_EXAM_PRACTICE_TITLE.en}
             {showChinese && <> | {NAIL_EXAM_PRACTICE_TITLE.zh}</>}
           </h1>
-          <p className="text-center text-sm text-slate-600 dark:text-slate-300">
-            Choose a question bank, then a study format and group.
-            {showChinese && " | 选择题库，再选学习方式和题目分组。"}
-          </p>
 
           {NAIL_EXAM_BANKS.map((bank) => {
             const summary = bankSummaryLine(bank)
@@ -51,11 +48,11 @@ export function NailExamPracticeHub() {
               <Link key={bank.id} href={bank.href}>
                 <Card
                   className={cn(
-                    "border-2 bg-gradient-to-r transition-shadow hover:shadow-md",
+                    "gap-1.5 border-2 bg-gradient-to-r py-4 transition-shadow hover:shadow-md",
                     ACCENT[bank.accent],
                   )}
                 >
-                  <CardHeader className="px-5 pb-1">
+                  <CardHeader className="px-5 pb-0">
                     <CardTitle className="text-lg">
                       {bank.publicName.en}
                       {showChinese && <> | {bank.publicName.zh}</>}
@@ -66,32 +63,33 @@ export function NailExamPracticeHub() {
                       {summary.en}
                       {showChinese && <> | {summary.zh}</>}
                     </p>
-                    <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
-                      Multiple Choice · Study Cards
-                      {showChinese && " | 选择题 · 学习卡"}
-                    </p>
                   </CardContent>
                 </Card>
               </Link>
             )
           })}
 
-          <section className="mt-4 rounded-xl border border-dashed border-slate-300 p-4 dark:border-slate-600">
-            <h2 className="text-sm font-semibold uppercase tracking-wide text-slate-500">
-              {MIXED_PRACTICE.title.en}
-              {showChinese && <> | {MIXED_PRACTICE.title.zh}</>}
-            </h2>
-            <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">
-              {MIXED_PRACTICE.description.en}
-              {showChinese && <> | {MIXED_PRACTICE.description.zh}</>}
-            </p>
-            <Link
-              href={MIXED_PRACTICE.href}
-              className="mt-3 inline-flex min-h-11 items-center text-sm font-semibold text-slate-800 underline underline-offset-2 dark:text-slate-100"
+          <Link href={MIXED_PRACTICE.href}>
+            <Card
+              className={cn(
+                "gap-1.5 border-2 bg-gradient-to-r py-4 transition-shadow hover:shadow-md",
+                ACCENT.emerald,
+              )}
             >
-              Open Mixed Practice{showChinese && " | 打开混合练习"}
-            </Link>
-          </section>
+              <CardHeader className="px-5 pb-0">
+                <CardTitle className="text-lg">
+                  {MIXED_PRACTICE.title.en}
+                  {showChinese && <> | {MIXED_PRACTICE.title.zh}</>}
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="px-5">
+                <p className="text-sm text-slate-600 dark:text-slate-300">
+                  {MIXED_PRACTICE.description.en}
+                  {showChinese && <> | {MIXED_PRACTICE.description.zh}</>}
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
         </div>
       </div>
     </>
