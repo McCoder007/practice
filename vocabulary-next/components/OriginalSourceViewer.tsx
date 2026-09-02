@@ -7,6 +7,7 @@ import { ExamQuizChineseToggle } from "@/components/ExamQuizChineseToggle"
 import { NavigationMenu } from "@/components/NavigationMenu"
 import { useExamQuizPreferences } from "@/contexts/ExamQuizPreferencesContext"
 import type { PracticeSourceMeta } from "@/data/exam-quiz/catalog"
+import { bankHrefForPracticeSource } from "@/data/nail-exam-practice/catalog"
 import { cn } from "@/lib/utils"
 
 function publicAssetUrl(path: string) {
@@ -98,10 +99,10 @@ export function OriginalSourceViewer({ source }: { source: PracticeSourceMeta })
       <main className="min-h-screen bg-[#f7f3ea] text-stone-900">
         <div className="mx-auto flex w-full max-w-md flex-col gap-4 px-4 pb-16 pt-20">
           <Link
-            href="/exam-quiz"
+            href={bankHrefForPracticeSource(source.id)}
             className="ml-12 text-sm font-medium text-stone-600 underline-offset-4 hover:text-stone-900 hover:underline sm:ml-0"
           >
-            Back to Exam Practice{showChinese && " | 返回考试练习"}
+            Back to practice bank{showChinese && " | 返回练习题库"}
           </Link>
           <header className="rounded-2xl border border-violet-200 bg-[#fff8ee] px-4 py-5">
             <p className="text-xs font-semibold tracking-[0.18em] text-violet-800/80 uppercase">

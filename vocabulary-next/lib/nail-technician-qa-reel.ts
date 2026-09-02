@@ -3,12 +3,15 @@ import {
   sourceRangeCards,
   type SourceRangeCard,
 } from "../data/exam-quiz/catalog.ts"
+import { sliceBankGroup } from "../data/nail-exam-practice/catalog.ts"
 import type { ExamQuestion } from "../data/exam-quiz/types.ts"
 import { sliceSourceRange } from "./exam-quiz-reel.ts"
 
 export type QaCard = {
   id: string
   question: { en: string; zh: string }
+  /** Stable keyed choice ID from the canonical multiple-choice question. */
+  answerId: string
   answer: { en: string; zh: string }
 }
 
@@ -69,14 +72,34 @@ export function fisherYatesShuffle<T>(
 }
 
 export function examQuestionToQaCard(question: ExamQuestion): QaCard {
-  const correctChoice = question.choices.find((choice) => choice.id === question.correctChoiceId)
-  if (!correctChoice) {
-    throw new Error(`missing correct choice for question ${question.id}`)
+  if (!question.id?.trim()) {
+    throw new Error("missing question id")
+  }
+
+  const keyedId = question.correctChoiceId
+  if (!keyedId?.trim()) {
+    throw new Error(`missing keyed correct-choice id for question ${question.id}`)
+  }
+
+  const choiceIds = question.choices.map((choice) => choice.id)
+  if (new Set(choiceIds).size !== choiceIds.length) {
+    throw new Error(`duplicate choice ids for question ${question.id}`)
+  }
+
+  const matches = question.choices.filter((choice) => choice.id === keyedId)
+  if (matches.length !== 1) {
+    throw new Error(`keyed correct choice does not resolve uniquely for question ${question.id}`)
+  }
+
+  const correctChoice = matches[0]
+  if (!correctChoice.en.trim() || !correctChoice.zh.trim()) {
+    throw new Error(`empty translated answer for question ${question.id}`)
   }
 
   return {
     id: question.id,
     question: question.question,
+    answerId: correctChoice.id,
     answer: { en: correctChoice.en, zh: correctChoice.zh },
   }
 }
@@ -86,6 +109,14 @@ export function sliceNailTestQaRange(
   offset: number,
 ): QaCard[] {
   return sliceSourceRange(pool, "nail-test", offset).map(examQuestionToQaCard)
+}
+
+export function sliceStudyCardsRange(
+  pool: readonly ExamQuestion[],
+  idPrefix: string,
+  offset: number,
+): QaCard[] {
+  return sliceBankGroup(pool, { idPrefix }, offset).map(examQuestionToQaCard)
 }
 
 export function nailTestQaRangeCards(): SourceRangeCard[] {
