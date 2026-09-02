@@ -29,6 +29,8 @@ export type PracticeSourceMeta = {
   approvedCount: number
   /** Public PDF of the original Word source, served from /public. */
   originalHref: string
+  /** In-app viewer route (avoids iOS PWA PDF takeover with no back button). */
+  originalViewerHref: string
   /** Soft accent for section cards (Tailwind class fragments). */
   accent: "violet" | "rose" | "cyan"
 }
@@ -41,6 +43,7 @@ export const PRACTICE_SOURCES: readonly PracticeSourceMeta[] = [
     idPrefix: "practice-nail-test-",
     approvedCount: 156,
     originalHref: "/exam-quiz/originals/nail-test.pdf",
+    originalViewerHref: "/exam-quiz/original/nail-test",
     accent: "violet",
   },
   {
@@ -49,6 +52,7 @@ export const PRACTICE_SOURCES: readonly PracticeSourceMeta[] = [
     idPrefix: "practice-theory-update-",
     approvedCount: 28,
     originalHref: "/exam-quiz/originals/theory-update.pdf",
+    originalViewerHref: "/exam-quiz/original/theory-update",
     accent: "rose",
   },
   {
@@ -57,6 +61,7 @@ export const PRACTICE_SOURCES: readonly PracticeSourceMeta[] = [
     idPrefix: "practice-comprehensive-",
     approvedCount: 164,
     originalHref: "/exam-quiz/originals/milady-comprehensive.pdf",
+    originalViewerHref: "/exam-quiz/original/comprehensive",
     accent: "cyan",
   },
 ] as const
