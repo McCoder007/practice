@@ -3,7 +3,7 @@
 import React, { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Menu, Home, Film, Book, ListTodo, ListChecks, Scale, ArrowRightLeft, Clock, PenLine, GraduationCap } from "lucide-react"
+import { Menu, Home, Film, Book, ListTodo, ListChecks, Scale, ArrowRightLeft, Clock, PenLine, GraduationCap, Image } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import {
   Sheet,
@@ -37,6 +37,11 @@ const getMenuItems = (language: "chinese" | "japanese"): MenuItem[] => [
     title: "Nail Exam Practice | 美甲考试练习",
     href: "/nail-exam-practice",
     icon: GraduationCap,
+  },
+  {
+    title: "Picture Vocabulary | 图片词汇",
+    href: "/picture-vocabulary",
+    icon: Image,
   },
   {
     title: language === "japanese" ? "Nail Technician | ネイルテクニシャン" : "Nail Technician | 美甲师",
