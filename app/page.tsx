@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Book, ArrowRightLeft, Clock, ListChecks, ListTodo, Scale, Film, PenLine, GraduationCap } from "lucide-react"
+import { Book, ArrowRightLeft, Clock, ListChecks, ListTodo, Scale, Film, PenLine, GraduationCap, Image } from "lucide-react"
 import { motion } from "framer-motion"
 import { cn } from "@/lib/utils"
 import { NavigationMenu } from "@/components/NavigationMenu"
@@ -28,6 +28,16 @@ const getMenuItems = (language: "chinese" | "japanese") => [
     iconColor: "text-violet-500",
     borderColor: "border-violet-500/20",
     hoverColor: "hover:from-violet-500/20 hover:to-indigo-600/20"
+  },
+  {
+    title: "Picture Vocabulary | 图片词汇",
+    href: "/picture-vocabulary",
+    icon: Image,
+    description: "Learn everyday words from pictures with audio",
+    color: "from-cyan-500/10 to-blue-600/10",
+    iconColor: "text-cyan-500",
+    borderColor: "border-cyan-500/20",
+    hoverColor: "hover:from-cyan-500/20 hover:to-blue-600/20"
   },
   {
     title: language === "japanese" ? "Nail Technician | ネイルテクニシャン" : "Nail Technician | 美甲师",
