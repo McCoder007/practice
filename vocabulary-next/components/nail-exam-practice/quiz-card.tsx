@@ -142,7 +142,7 @@ export function NailExamQuizCard({
 
             return (
               <button
-                key={choice.id}
+                key={`${question.id}-${choice.id}`}
                 type="button"
                 onPointerDown={stopPointerGesture}
                 onClick={(event) => {
