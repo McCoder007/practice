@@ -1,8 +1,9 @@
 "use client"
 
 import { ChevronRight } from "lucide-react"
-import { Card, CardTitle } from "@/components/ui/card"
+import { Card } from "@/components/ui/card"
 import type { PictureVocabularySet, PictureVocabularyWord } from "@/data/picture-vocabulary"
+import { SetTitle } from "@/components/picture-vocabulary/SetTitle"
 
 interface SetPickerProps {
   sets: PictureVocabularySet[]
@@ -37,12 +38,12 @@ export function SetPicker({ sets, onSelect }: SetPickerProps) {
           >
             <div className="flex flex-col gap-3 px-5">
               <div className="flex items-center justify-between gap-3">
-                <CardTitle className="text-lg">{set.name}</CardTitle>
-                <div className="flex items-center gap-2 shrink-0">
-                  <span className="text-xs font-medium text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-500/10 px-2.5 py-1 rounded-full whitespace-nowrap">
-                    {set.words.length} words
+                <SetTitle set={set} />
+                <div className="flex items-center gap-1.5 shrink-0 text-slate-400 dark:text-slate-500">
+                  <span className="text-sm tabular-nums whitespace-nowrap">
+                    {set.words.length}
                   </span>
-                  <ChevronRight className="h-5 w-5 text-slate-400" />
+                  <ChevronRight className="h-5 w-5" />
                 </div>
               </div>
               <div className="flex gap-2 overflow-hidden" aria-hidden="true">

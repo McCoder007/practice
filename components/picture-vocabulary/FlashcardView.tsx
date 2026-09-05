@@ -200,18 +200,18 @@ export function FlashcardView({ words, statuses, onStatusChange }: FlashcardView
         </div>
       </div>
 
-      <div className="flex gap-3 min-h-[40px]">
+      <div className="flex gap-3 min-h-12 -mt-1">
         {revealed && (
           <>
             <Button
               variant="outline"
-              className="flex-1 border-amber-400 text-amber-600 hover:bg-amber-50"
+              className="flex-1 h-12 text-base font-semibold border-amber-400 text-amber-600 hover:bg-amber-50"
               onClick={() => advance("learning")}
             >
               🤔 Still learning
             </Button>
             <Button
-              className="flex-1 bg-green-600 hover:bg-green-700 text-white"
+              className="flex-1 h-12 text-base font-semibold bg-green-600 hover:bg-green-700 text-white"
               onClick={() => advance("known")}
             >
               🎉 Got it
