@@ -2,11 +2,10 @@
 
 import { ChevronRight } from "lucide-react"
 import { Card, CardTitle } from "@/components/ui/card"
-import type { PictureVocabularySet, PictureVocabularyWord, WordStatus } from "@/data/picture-vocabulary"
+import type { PictureVocabularySet, PictureVocabularyWord } from "@/data/picture-vocabulary"
 
 interface SetPickerProps {
   sets: PictureVocabularySet[]
-  progress: Record<string, Record<string, WordStatus>>
   onSelect: (setId: string) => void
 }
 
@@ -25,7 +24,7 @@ function pickThumbnails(words: PictureVocabularyWord[]): PictureVocabularyWord[]
   return Array.from({ length: THUMBNAIL_COUNT }, (_, i) => words[Math.floor(i * step)])
 }
 
-export function SetPicker({ sets, progress, onSelect }: SetPickerProps) {
+export function SetPicker({ sets, onSelect }: SetPickerProps) {
   return (
     <div className="w-full max-w-md mx-auto space-y-3">
       {sets.map((set) => {

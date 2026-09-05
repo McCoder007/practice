@@ -9,7 +9,7 @@ import { SetPicker } from "@/components/picture-vocabulary/SetPicker"
 import { FlashcardView } from "@/components/picture-vocabulary/FlashcardView"
 import { WordListView } from "@/components/picture-vocabulary/WordListView"
 
-const STORAGE_KEY = "pictureVocabProgress"
+const LEGACY_STORAGE_KEY = "pictureVocabProgress"
 
 type Progress = Record<string, Record<string, WordStatus>>
 type Tab = "flashcards" | "learning" | "known"
@@ -21,22 +21,14 @@ export default function PictureVocabularyPage() {
   const [activeSetId, setActiveSetId] = useState<string | null>(null)
   const [activeTab, setActiveTab] = useState<Tab>("flashcards")
 
+  // Drop leftover long-lived progress from earlier builds.
   useEffect(() => {
     try {
-      const stored = localStorage.getItem(STORAGE_KEY)
-      if (stored) setProgress(JSON.parse(stored))
+      localStorage.removeItem(LEGACY_STORAGE_KEY)
     } catch {
       // localStorage might not be available
     }
   }, [])
-
-  useEffect(() => {
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(progress))
-    } catch {
-      // localStorage might not be available
-    }
-  }, [progress])
 
   const activeSet = pictureVocabularySets.find((set) => set.id === activeSetId) ?? null
 
@@ -61,7 +53,6 @@ export default function PictureVocabularyPage() {
           </h1>
           <SetPicker
             sets={pictureVocabularySets}
-            progress={progress}
             onSelect={(id) => {
               setActiveSetId(id)
               setActiveTab("flashcards")
