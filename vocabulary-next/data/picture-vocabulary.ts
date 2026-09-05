@@ -8,14 +8,18 @@ export interface PictureVocabularyWord {
 
 export interface PictureVocabularySet {
   id: string
+  number: number
   name: string
+  chinese: string
   words: PictureVocabularyWord[]
 }
 
 export const pictureVocabularySets: PictureVocabularySet[] = [
   {
     id: 'set1',
-    name: 'Set 1',
+    number: 1,
+    name: 'Everyday',
+    chinese: '日常',
     words: [
       { image: '/picture-vocabulary/headphones.webp', english: 'headphones', chinese: '耳机' },
       { image: '/picture-vocabulary/basketball.webp', english: 'basketball', chinese: '篮球' },
@@ -37,7 +41,9 @@ export const pictureVocabularySets: PictureVocabularySet[] = [
   },
   {
     id: 'set2',
-    name: 'Set 2',
+    number: 2,
+    name: 'Everyday',
+    chinese: '日常',
     words: [
       { image: '/picture-vocabulary/wallet.webp', english: 'wallet', chinese: '钱包' },
       { image: '/picture-vocabulary/scale.webp', english: 'scale', chinese: '体重秤 / 秤' },
@@ -69,7 +75,9 @@ export const pictureVocabularySets: PictureVocabularySet[] = [
   },
   {
     id: 'set3',
-    name: 'Set 3',
+    number: 3,
+    name: 'Gym',
+    chinese: '健身房',
     words: [
       { image: '/picture-vocabulary/leg_press_machine.webp', english: 'leg press machine', chinese: '腿举机' },
       { image: '/picture-vocabulary/chest_press_machine.webp', english: 'chest press machine', chinese: '推胸机' },
@@ -95,6 +103,54 @@ export const pictureVocabularySets: PictureVocabularySet[] = [
       { image: '/picture-vocabulary/jump_rope.webp', english: 'jump rope', chinese: '跳绳' },
       { image: '/picture-vocabulary/medicine_ball.webp', english: 'medicine ball', chinese: '药球' },
       { image: '/picture-vocabulary/exercise_mat.webp', english: 'exercise mat', chinese: '运动垫' },
+    ],
+  },
+  {
+    id: 'set4',
+    number: 4,
+    name: 'Household',
+    chinese: '家居',
+    words: [
+      { image: '/picture-vocabulary/alarm_clock.webp', english: 'alarm clock', chinese: '闹钟' },
+      { image: '/picture-vocabulary/toothbrush.webp', english: 'toothbrush', chinese: '牙刷' },
+      { image: '/picture-vocabulary/toothpaste.webp', english: 'toothpaste', chinese: '牙膏' },
+      { image: '/picture-vocabulary/shower.webp', english: 'shower', chinese: '淋浴' },
+      { image: '/picture-vocabulary/towel.webp', english: 'towel', chinese: '毛巾' },
+      { image: '/picture-vocabulary/comb.webp', english: 'comb', chinese: '梳子' },
+      { image: '/picture-vocabulary/mirror.webp', english: 'mirror', chinese: '镜子' },
+      { image: '/picture-vocabulary/laundry_basket.webp', english: 'laundry basket', chinese: '洗衣篮' },
+      { image: '/picture-vocabulary/washing_machine.webp', english: 'washing machine', chinese: '洗衣机' },
+      { image: '/picture-vocabulary/vacuum_cleaner.webp', english: 'vacuum cleaner', chinese: '吸尘器' },
+      { image: '/picture-vocabulary/broom.webp', english: 'broom', chinese: '扫帚' },
+      { image: '/picture-vocabulary/mop.webp', english: 'mop', chinese: '拖把' },
+      { image: '/picture-vocabulary/trash_can.webp', english: 'trash can', chinese: '垃圾桶' },
+      { image: '/picture-vocabulary/pillow.webp', english: 'pillow', chinese: '枕头' },
+      { image: '/picture-vocabulary/blanket.webp', english: 'blanket', chinese: '毯子' },
+      { image: '/picture-vocabulary/clothes_hanger.webp', english: 'clothes hanger', chinese: '衣架' },
+    ],
+  },
+  {
+    id: 'set5',
+    number: 5,
+    name: 'Kitchen',
+    chinese: '厨房',
+    words: [
+      { image: '/picture-vocabulary/refrigerator.webp', english: 'refrigerator', chinese: '冰箱' },
+      { image: '/picture-vocabulary/microwave.webp', english: 'microwave', chinese: '微波炉' },
+      { image: '/picture-vocabulary/stove.webp', english: 'stove', chinese: '炉灶' },
+      { image: '/picture-vocabulary/toaster.webp', english: 'toaster', chinese: '烤面包机' },
+      { image: '/picture-vocabulary/blender.webp', english: 'blender', chinese: '搅拌机' },
+      { image: '/picture-vocabulary/kettle.webp', english: 'kettle', chinese: '水壶' },
+      { image: '/picture-vocabulary/frying_pan.webp', english: 'frying pan', chinese: '煎锅' },
+      { image: '/picture-vocabulary/pot.webp', english: 'pot', chinese: '锅' },
+      { image: '/picture-vocabulary/cutting_board.webp', english: 'cutting board', chinese: '菜板' },
+      { image: '/picture-vocabulary/kitchen_knife.webp', english: 'kitchen knife', chinese: '菜刀' },
+      { image: '/picture-vocabulary/spatula.webp', english: 'spatula', chinese: '锅铲' },
+      { image: '/picture-vocabulary/measuring_cup.webp', english: 'measuring cup', chinese: '量杯' },
+      { image: '/picture-vocabulary/can_opener.webp', english: 'can opener', chinese: '开罐器' },
+      { image: '/picture-vocabulary/oven_mitt.webp', english: 'oven mitt', chinese: '隔热手套' },
+      { image: '/picture-vocabulary/coffee_maker.webp', english: 'coffee maker', chinese: '咖啡机' },
+      { image: '/picture-vocabulary/cheese_grater.webp', english: 'cheese grater', chinese: '奶酪刨丝器' },
     ],
   },
 ]

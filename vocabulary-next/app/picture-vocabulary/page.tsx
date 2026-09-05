@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import { NavigationMenu } from "@/components/NavigationMenu"
 import { pictureVocabularySets, type WordStatus } from "@/data/picture-vocabulary"
 import { SetPicker } from "@/components/picture-vocabulary/SetPicker"
+import { SetTitle } from "@/components/picture-vocabulary/SetTitle"
 import { FlashcardView } from "@/components/picture-vocabulary/FlashcardView"
 import { WordListView } from "@/components/picture-vocabulary/WordListView"
 
@@ -81,7 +82,7 @@ export default function PictureVocabularyPage() {
       <div className="flex flex-col h-screen bg-slate-50 dark:bg-slate-900">
         <header className="p-2 pt-3 border-b sticky top-0 z-10 bg-white/80 dark:bg-slate-900/80 backdrop-blur-sm">
           <div className="flex items-center justify-center relative mb-2">
-            <h1 className="text-lg font-semibold">{activeSet.name}</h1>
+            <SetTitle set={activeSet} align="center" showNumber={false} />
           </div>
           <div className="flex justify-center gap-1">
             {TABS.map((tab) => (
