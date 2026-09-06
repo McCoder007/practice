@@ -3,7 +3,7 @@
 import React, { useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Menu, Home, Film, Book, ListTodo, ListChecks, Scale, ArrowRightLeft, Clock, PenLine, GraduationCap, Image } from "lucide-react"
+import { Menu, Home, Film, Book, ListTodo, ListChecks, Scale, ArrowRightLeft, Clock, PenLine, GraduationCap, Image, Check } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import {
   Sheet,
@@ -166,7 +166,7 @@ export function NavigationMenu() {
               >
                 <span>Chinese | 中文</span>
                 {language === "chinese" && (
-                  <span className="text-xs">✓</span>
+                  <Check className="h-4 w-4" />
                 )}
               </button>
               <button
@@ -183,7 +183,7 @@ export function NavigationMenu() {
               >
                 <span>Japanese | 日本語</span>
                 {language === "japanese" && (
-                  <span className="text-xs">✓</span>
+                  <Check className="h-4 w-4" />
                 )}
               </button>
             </div>

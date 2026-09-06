@@ -33,7 +33,7 @@ export function NailExamPracticeHub() {
         <div className="mx-auto flex w-full max-w-md flex-col gap-4">
           <Link
             href="/"
-            className="text-sm font-medium text-slate-600 underline-offset-2 hover:underline dark:text-slate-300"
+            className="text-lg font-medium text-slate-600 underline-offset-2 hover:underline dark:text-slate-300"
           >
             ← Study Zone
           </Link>

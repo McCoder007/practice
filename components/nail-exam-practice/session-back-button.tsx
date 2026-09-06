@@ -10,7 +10,7 @@ export function NailExamSessionBackButton({ onBack }: { onBack: () => void }) {
       type="button"
       variant="ghost"
       size="icon"
-      className="fixed top-4 left-4 z-50 h-10 w-10 rounded-full border bg-background/80 shadow-lg backdrop-blur-sm hover:bg-accent"
+      className="fixed top-4 left-4 z-50 h-10 w-10 rounded-full border border-white/30 bg-black/20 text-white shadow-lg backdrop-blur-sm hover:bg-black/30"
       aria-label="Back to question groups"
       onClick={onBack}
     >
