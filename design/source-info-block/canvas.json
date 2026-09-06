@@ -1,0 +1,11 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "x": 0, "y": 0, "w": 390, "h": 240 },
+    { "file": "Expanded.dc.html", "x": 470, "y": 0, "w": 390, "h": 460 }
+  ],
+  "annotations": [
+    { "id": "note-collapsed", "x": 0, "y": -80, "w": 390, "text": "Collapsed — icon-led row, chevron instead of the browser-default triangle." },
+    { "id": "note-expanded", "x": 470, "y": -80, "w": 390, "text": "Expanded — source note, an \"Original\" link styled as a link (not underlined text), and the clear-history action already shipped in code." }
+  ],
+  "launch": { "view": "canvas" }
+}

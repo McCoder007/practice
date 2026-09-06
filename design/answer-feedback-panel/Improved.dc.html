@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+  </style>
+</helmet>
+
+<div style="width: 400px; min-height: 620px; background: linear-gradient(165deg, #4a3d8a 0%, #5b3a72 55%, #603a63 100%); font-family: 'Inter', system-ui, sans-serif; color: #fff; padding: 18px 0 0;">
+
+  <div style="border-top: 2.5px solid #fb7185; background: rgba(244,63,94,0.22); backdrop-filter: blur(6px); padding: 16px 18px 18px; display: flex; flex-direction: column; gap: 12px;">
+
+    <!-- Heading with badge-style icon -->
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <span style="width: 32px; height: 32px; border-radius: 999px; background: rgba(244,63,94,0.35); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fecdd3" stroke-width="2.4"><circle cx="12" cy="12" r="10"/><path d="M15 9l-6 6M9 9l6 6"/></svg>
+      </span>
+      <span style="font-size: 18px; font-weight: 700;">Not quite 不太对</span>
+    </div>
+
+    <!-- Correct answer chunk -->
+    <div style="background: rgba(0,0,0,0.20); border-radius: 12px; padding: 10px 14px;">
+      <p style="margin: 0; font-size: 14px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: rgba(255,255,255,0.65);">Correct answer / 正确答案</p>
+      <p style="margin: 3px 0 0; font-size: 16px; font-weight: 600; color: #fff;">
+        ringworm <span style="color: rgba(255,255,255,0.5); font-weight: 500;">·</span> <span style="color: #ffd700;">癣</span>
+      </p>
+    </div>
+
+    <!-- Why chunk -->
+    <div style="background: rgba(0,0,0,0.20); border-radius: 12px; padding: 10px 14px;">
+      <p style="margin: 0; display: flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: rgba(255,255,255,0.65);">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.65)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 22h4M12 2a6 6 0 0 0-4 10.472V15a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1v-2.528A6 6 0 0 0 12 2Z"/></svg>
+        WHY / 为什么
+      </p>
+      <p style="margin: 4px 0 0; font-size: 16px; color: #fff; line-height: 1.4;">Ringworm is a contagious fungal skin infection. On hands or feet, it may form itchy rings, peeling skin, or small blisters.</p>
+      <p style="margin: 5px 0 0; font-size: 14px; color: #ffd700; line-height: 1.4;">ringworm（癣）是一种会传染的真菌性皮肤感染。发生在手足时，可能出现瘙痒的环形斑、脱皮或小水疱。</p>
+    </div>
+
+    <!-- Lock this chunk -->
+    <div style="background: rgba(0,0,0,0.20); border-radius: 12px; padding: 10px 14px;">
+      <p style="margin: 0; display: flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; color: rgba(255,255,255,0.65);">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.65)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+        LOCK THIS / 记重点
+      </p>
+      <p style="margin: 4px 0 0; font-size: 16px; font-weight: 500; color: #fff; line-height: 1.4;">ringworm = fungal infection; scabies = animal parasite.</p>
+      <p style="margin: 5px 0 0; font-size: 14px; color: #ffd700; line-height: 1.4;">ringworm = 真菌感染；scabies（疥疮）= 动物寄生虫感染。</p>
+    </div>
+
+    <button style="margin-top: 2px; display: inline-flex; align-items: center; gap: 6px; align-self: flex-start; background: #fff; color: #1e1b2e; font-size: 14px; font-weight: 600; border: none; border-radius: 8px; padding: 8px 14px; box-shadow: 0 1px 3px rgba(0,0,0,0.25);">
+      Next | 下一题
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1e1b2e" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+    </button>
+
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

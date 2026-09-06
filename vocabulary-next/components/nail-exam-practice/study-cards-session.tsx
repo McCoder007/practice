@@ -31,7 +31,7 @@ import {
   getBackgroundIndexForWord,
 } from "@/lib/word-reel-backgrounds"
 import { clearAudioQueue, playText, preloadTexts, stopTTS } from "@/lib/tts"
-import { Home, RotateCcw } from "lucide-react"
+import { ChevronDown, Home, RotateCcw } from "lucide-react"
 
 const ANIMATION_MS = 300
 
@@ -115,7 +115,7 @@ function QuestionCard({
         )}
         {showChinese && (
           <p
-            className="max-w-5xl font-medium leading-snug text-[#FFD700] drop-shadow-lg"
+            className="max-w-5xl font-medium leading-snug text-caption-secondary drop-shadow-lg"
             style={responsiveTextStyle(card.question.zh.length, "answer")}
             lang="zh-Hans"
           >
@@ -136,8 +136,11 @@ function QuestionCard({
             }}
             className="flex h-full w-full flex-col items-center justify-center gap-2 px-5 py-6 text-white/80"
           >
-            <span className="text-sm font-semibold tracking-wide uppercase">
-              Tap to reveal{showChinese && " | 点按揭晓"}
+            <span className="flex items-center gap-2 rounded-full border border-white/30 bg-black/20 px-4 py-2 shadow-sm backdrop-blur-sm">
+              <span className="text-sm font-semibold tracking-wide uppercase">
+                Tap to reveal{showChinese && " | 点按揭晓"}
+              </span>
+              <ChevronDown className="h-4 w-4 animate-bounce" aria-hidden />
             </span>
           </button>
         ) : (
@@ -166,7 +169,7 @@ function QuestionCard({
             )}
             {showChinese && (
               <p
-                className="max-w-5xl font-medium leading-snug text-[#FFD700] drop-shadow-lg"
+                className="max-w-5xl font-medium leading-snug text-caption-secondary drop-shadow-lg"
                 style={responsiveTextStyle(card.answer.zh.length, "answer")}
                 lang="zh-Hans"
               >
@@ -512,7 +515,7 @@ export function NailExamStudyCardsSession({
         {chineseToggleFixed ?? chineseToggle}
         <div className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100 dark:from-slate-900 dark:to-slate-800">
           <div className="mx-auto flex w-full max-w-xl flex-col gap-4 px-4 pt-20">
-            <h1 className="bg-gradient-to-r from-cyan-600 to-blue-600 bg-clip-text text-center text-2xl font-bold text-transparent">
+            <h1 className="bg-gradient-to-r from-violet-600 to-cyan-600 bg-clip-text text-center text-2xl font-bold text-transparent">
               Set complete!{showChinese && " | 本组完成！"}
             </h1>
             <p className="text-center text-base font-medium text-slate-600 dark:text-slate-300">
@@ -556,7 +559,7 @@ export function NailExamStudyCardsSession({
       <NailExamSessionBackButton onBack={() => leaveNailExamSession(onExit)} />
       <main className="flex h-dvh w-screen flex-col overflow-hidden bg-black">
         <header className="relative z-20 grid h-16 shrink-0 grid-cols-[3.25rem_minmax(0,1fr)_auto] grid-rows-2 items-center gap-x-2 border-b border-white/10 bg-black/70 px-3 py-2 text-center backdrop-blur-md">
-          <p className="col-start-2 row-start-1 text-[11px] font-medium leading-tight text-white/70 sm:text-xs">
+          <p className="col-start-2 row-start-1 text-xs leading-tight font-medium text-white/80">
             {title.en}
             {showChinese && <> | {title.zh}</>}
           </p>

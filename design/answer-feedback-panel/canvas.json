@@ -1,0 +1,11 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "x": 0, "y": 0, "w": 400, "h": 520 },
+    { "file": "Improved.dc.html", "x": 480, "y": 0, "w": 400, "h": 620 }
+  ],
+  "annotations": [
+    { "id": "note-current", "x": 0, "y": -60, "w": 400, "text": "Current" },
+    { "id": "note-improved", "x": 480, "y": -110, "w": 400, "text": "Improved — same font sizes throughout (18/16/14px, nothing shrunk). Adds: a \"Correct answer\" label so that line isn't floating with no context, icons on WHY/LOCK THIS, chunked cards for scannability, and a bolder red edge + icon badge so \"incorrect\" reads unmistakably at a glance." }
+  ],
+  "launch": { "view": "canvas" }
+}

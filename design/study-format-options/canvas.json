@@ -1,0 +1,13 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "x": 0, "y": 0, "w": 390, "h": 1080 },
+    { "file": "DirectionB.dc.html", "x": 470, "y": 0, "w": 390, "h": 1080 },
+    { "file": "DirectionC.dc.html", "x": 940, "y": 0, "w": 390, "h": 1080 }
+  ],
+  "annotations": [
+    { "id": "note-main", "x": 0, "y": -110, "w": 390, "text": "A — Segmented control (recommended)\nReads as one control with two settled states, not two competing buttons." },
+    { "id": "note-b", "x": 470, "y": -110, "w": 390, "text": "B — Icon tiles with check badge\nMost visual; the checkmark makes \"selected\" unambiguous at a glance." },
+    { "id": "note-c", "x": 940, "y": -110, "w": 390, "text": "C — Underline tabs\nQuietest option; borrows the tab pattern from OS/app navigation." }
+  ],
+  "launch": { "view": "canvas" }
+}

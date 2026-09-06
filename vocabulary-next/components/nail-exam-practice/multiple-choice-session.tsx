@@ -398,7 +398,7 @@ export function NailExamMultipleChoiceSession({
               />
             ) : (
               <>
-                <h1 className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-center text-2xl font-bold text-transparent">
+                <h1 className="bg-gradient-to-r from-violet-600 to-cyan-600 bg-clip-text text-center text-2xl font-bold text-transparent">
                   Practice complete!{showChinese && " | 练习完成！"}
                 </h1>
                 <p className="text-center text-base font-medium text-slate-600 dark:text-slate-300">
@@ -444,10 +444,10 @@ export function NailExamMultipleChoiceSession({
                       <div
                         key={answer.questionId}
                         className={cn(
-                          "rounded-lg border-l-4 px-3 py-2",
+                          "rounded-xl border px-3.5 py-2.5",
                           answer.skipped
-                            ? "border-amber-400 bg-amber-50 dark:bg-amber-950/20"
-                            : "border-rose-400 bg-rose-50 dark:bg-rose-950/20",
+                            ? "border-amber-200 bg-amber-50 dark:border-amber-900/50 dark:bg-amber-950/20"
+                            : "border-rose-200 bg-rose-50 dark:border-rose-900/50 dark:bg-rose-950/20",
                         )}
                       >
                         <p className="text-xs font-semibold tracking-wide text-slate-500 uppercase dark:text-slate-400">
@@ -507,7 +507,7 @@ export function NailExamMultipleChoiceSession({
       <NailExamSessionBackButton onBack={() => leaveNailExamSession(onExit)} />
       <main className="flex h-dvh w-screen flex-col overflow-hidden bg-black">
         <header className="relative z-20 grid h-16 shrink-0 grid-cols-[3.25rem_minmax(0,1fr)_auto] grid-rows-2 items-center gap-x-2 border-b border-white/10 bg-black/70 px-3 py-2 text-center backdrop-blur-md">
-          <p className="col-start-2 row-start-1 text-[11px] font-medium leading-tight text-white/70 sm:text-xs">
+          <p className="col-start-2 row-start-1 text-xs leading-tight font-medium text-white/80">
             {title.en}
             {showChinese && <> | {title.zh}</>}
           </p>

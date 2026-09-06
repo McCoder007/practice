@@ -4,10 +4,11 @@ import { useCallback, useEffect, useState, type ReactNode } from "react"
 
 import Link from "next/link"
 
+import { CheckCircle2, Layers, ListChecks, Trash2 } from "lucide-react"
+
 import { NailExamMultipleChoiceSession } from "@/components/nail-exam-practice/multiple-choice-session"
 import { NailExamStudyCardsSession } from "@/components/nail-exam-practice/study-cards-session"
 import { NavigationMenu } from "@/components/NavigationMenu"
-import { Button } from "@/components/ui/button"
 import { OMITTED_PRACTICE_IDS } from "@/data/exam-quiz/catalog"
 import { loadPracticeQuestions, loadQuestionsToReview } from "@/data/exam-quiz/loadChapter"
 import type { ExamQuestion, LocalizedText } from "@/data/exam-quiz/types"
@@ -44,6 +45,11 @@ const ACCENT = {
   cyan: "border-cyan-200 bg-cyan-50 text-cyan-950 dark:border-cyan-900/50 dark:bg-cyan-950/30 dark:text-cyan-50",
   amber: "border-amber-200 bg-amber-50 text-amber-950 dark:border-amber-900/50 dark:bg-amber-950/30 dark:text-amber-50",
 } as const
+
+const STUDY_FORMAT_ICONS: Record<StudyFormatId, typeof ListChecks> = {
+  "multiple-choice": ListChecks,
+  "study-cards": Layers,
+}
 
 async function loadBankPool(bank: NailExamBank): Promise<ExamQuestion[]> {
   if (bank.pool === "official") {
@@ -261,26 +267,36 @@ export function NailExamBankExperience({
             <p className="mb-2 text-lg font-semibold text-slate-700 dark:text-slate-200">
               Study format{showChinese && " | 学习方式"}
             </p>
-            <div className="grid grid-cols-2 gap-2">
+            <div className="flex gap-1 rounded-2xl bg-slate-200/70 p-1 dark:bg-slate-800">
               {STUDY_FORMATS.map((option) => {
                 const selected = format === option.id
+                const Icon = STUDY_FORMAT_ICONS[option.id]
                 return (
-                  <Button
+                  <button
                     key={option.id}
                     type="button"
-                    variant={selected ? "default" : "outline"}
-                    className="min-h-11 h-auto whitespace-normal px-2 py-2 !text-lg"
                     aria-pressed={selected}
                     onClick={() => changeFormat(option.id)}
-                  >
-                    {option.title.en}
-                    {showChinese && (
-                      <>
-                        <br />
-                        {option.title.zh}
-                      </>
+                    className={cn(
+                      "flex flex-1 flex-col items-center gap-1.5 rounded-xl px-2 py-3 transition-colors",
+                      selected
+                        ? "bg-white text-slate-900 shadow-sm dark:bg-slate-700 dark:text-white"
+                        : "text-slate-500 hover:text-slate-700 dark:text-slate-400 dark:hover:text-slate-200",
                     )}
-                  </Button>
+                  >
+                    <Icon className="size-5" strokeWidth={selected ? 2.25 : 2} aria-hidden />
+                    <span className={cn("text-base leading-tight", selected ? "font-bold" : "font-medium")}>
+                      {option.title.en}
+                      {showChinese && (
+                        <>
+                          <br />
+                          <span className="text-sm" lang="zh-Hans">
+                            {option.title.zh}
+                          </span>
+                        </>
+                      )}
+                    </span>
+                  </button>
                 )
               })}
             </div>
@@ -294,6 +310,7 @@ export function NailExamBankExperience({
               {groups.map((range) => {
                 const label = groupLabel(range.start, range.end)
                 const historyEntry = groupHistory[nailExamGroupHistoryId(bank.id, range.start, range.end)]
+                const perfect = format === "multiple-choice" && (historyEntry?.perfect ?? 0) > 0
                 return (
                   <button
                     key={range.offset}
@@ -301,10 +318,15 @@ export function NailExamBankExperience({
                     disabled={loading}
                     onClick={() => startGroup(range.offset, range.start, range.end)}
                     className={cn(
-                      "min-h-[7.75rem] rounded-xl border px-3 py-2 text-left text-lg font-semibold shadow-sm transition-shadow hover:shadow-md disabled:opacity-60",
+                      "relative min-h-[7.75rem] rounded-2xl border px-3 py-2 text-left text-lg font-semibold shadow-sm transition-shadow hover:shadow-md disabled:opacity-60",
                       ACCENT[bank.accent],
                     )}
                   >
+                    {perfect && (
+                      <span className="absolute top-2.5 right-2.5 flex size-5 items-center justify-center rounded-full bg-emerald-600 text-white dark:bg-emerald-500">
+                        <CheckCircle2 className="size-3.5" aria-hidden />
+                      </span>
+                    )}
                     {label.en}
                     <span className="mt-1 block min-h-12 text-xs leading-4 font-medium opacity-80">
                       {format === "multiple-choice" && (
@@ -318,11 +340,11 @@ export function NailExamBankExperience({
                                 尝试：{historyEntry.attempts} · 满分：{historyEntry.perfect}
                               </span>
                             )}
-                            <span className="block text-[11px]">
+                            <span className="block text-xs">
                               Highest score: {historyEntry.bestScore}/{historyEntry.total}
                             </span>
                             {showChinese && (
-                              <span className="block text-[11px]" lang="zh-Hans">
+                              <span className="block text-xs" lang="zh-Hans">
                                 最高分：{historyEntry.bestScore}/{historyEntry.total}
                               </span>
                             )}
@@ -362,7 +384,7 @@ export function NailExamBankExperience({
                         true,
                       )
                     }
-                    className="min-h-12 rounded-xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-left disabled:opacity-60 dark:border-emerald-900/50 dark:bg-emerald-950/30"
+                    className="min-h-12 rounded-2xl border border-emerald-200 bg-emerald-50 px-4 py-3 text-left disabled:opacity-60 dark:border-emerald-900/50 dark:bg-emerald-950/30"
                   >
                     <span className="block text-lg font-semibold text-slate-900 dark:text-white">
                       {option.title.en}
@@ -399,7 +421,7 @@ export function NailExamBankExperience({
                 </p>
                 <button
                   type="button"
-                  className="mt-2 min-h-11 text-sm font-medium text-rose-700 underline underline-offset-2 dark:text-rose-300"
+                  className="mt-2 inline-flex min-h-9 items-center gap-1.5 rounded-lg border border-rose-200 bg-rose-50 px-3 py-1.5 text-sm font-medium text-rose-700 transition-colors hover:bg-rose-100 dark:border-rose-900/50 dark:bg-rose-950/30 dark:text-rose-300 dark:hover:bg-rose-950/60"
                   onClick={() => {
                     const confirmed = window.confirm(
                       "Clear the Multiple Choice history for this bank?\n清除此题库的选择题练习记录吗？",
@@ -408,6 +430,7 @@ export function NailExamBankExperience({
                     setGroupHistory(clearNailExamBankHistory(window.localStorage, groupHistory, bank.id))
                   }}
                 >
+                  <Trash2 className="size-3.5" aria-hidden />
                   Clear this bank’s history{showChinese && " | 清除此题库记录"}
                 </button>
               </div>

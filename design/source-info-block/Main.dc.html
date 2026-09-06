@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&family=Inter:wght@400;500;600;700&display=swap">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    a { color: #7c3aed; }
+    a:hover { color: #6d28d9; }
+  </style>
+</helmet>
+
+<div style="width: 390px; min-height: 200px; background: #f7f7f8; font-family: 'Inter', system-ui, sans-serif; padding: 24px 20px;">
+
+  <!-- Collapsed disclosure -->
+  <div style="background: #ffffff; border: 1px solid #e4e4e7; border-radius: 16px; box-shadow: 0 1px 2px rgba(0,0,0,.04);">
+    <button type="button" style="width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 14px 16px; background: none; border: none; cursor: pointer; text-align: left;">
+      <span style="display: flex; align-items: center; gap: 10px;">
+        <span style="width: 28px; height: 28px; border-radius: 999px; background: #f4f4f5; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#71717a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><line x1="12" y1="11" x2="12" y2="16.5"/><circle cx="12" cy="8" r="0.9" fill="#71717a" stroke="none"/></svg>
+        </span>
+        <span style="font-weight: 600; font-size: 15px; color: #18181b;">Source information <span style="color: #a1a1aa; font-weight: 500;">|</span> 来源说明</span>
+      </span>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#a1a1aa" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+    </button>
+  </div>
+
+</div>
+</x-dc>
+</body>
+</html>
