@@ -244,7 +244,7 @@ export function NailExamBankExperience({
       <NavigationMenu />
       {chineseToggleFixed}
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100 px-4 pb-10 pt-20 dark:from-slate-900 dark:to-slate-800">
-        <div className="mx-auto flex w-full max-w-md flex-col gap-4">
+        <div className="mx-auto flex w-full max-w-md flex-col gap-7">
           <Link
             href={NAIL_EXAM_PRACTICE_HREF}
             className="text-lg font-medium text-slate-600 underline-offset-2 hover:underline dark:text-slate-300"
@@ -253,11 +253,15 @@ export function NailExamBankExperience({
             {showChinese && <> | {NAIL_EXAM_PRACTICE_TITLE.zh}</>}
           </Link>
           <div>
-            <h1 className="text-4xl font-bold text-slate-900 dark:text-white">
+            <h1 className="text-4xl leading-tight font-bold text-slate-900 dark:text-white">
               {bank.publicName.en}
-              {showChinese && <> | {bank.publicName.zh}</>}
             </h1>
-            <p className="mt-1 text-lg text-slate-600 dark:text-slate-300">
+            {showChinese && (
+              <p className="mt-1 text-xl font-semibold text-slate-400 dark:text-slate-500">
+                {bank.publicName.zh}
+              </p>
+            )}
+            <p className="mt-2.5 text-lg text-slate-600 dark:text-slate-300">
               {summary.en}
               {showChinese && <> | {summary.zh}</>}
             </p>
