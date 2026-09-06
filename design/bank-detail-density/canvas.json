@@ -1,0 +1,11 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "x": 0, "y": 0, "w": 390, "h": 1180 },
+    { "file": "Improved.dc.html", "x": 470, "y": 0, "w": 390, "h": 1180 }
+  ],
+  "annotations": [
+    { "id": "note-current", "x": 0, "y": -70, "w": 390, "text": "Current" },
+    { "id": "note-improved", "x": 470, "y": -160, "w": 390, "text": "Improved — same or larger font sizes throughout. Fixes: more space between sections, the giant bilingual title no longer forces an awkward 2-line wrap (English carries the weight, Chinese sits below it, lighter), and each group card's status collapses from 2 lines to 1 with more breathing room inside the card." }
+  ],
+  "launch": { "view": "canvas" }
+}
