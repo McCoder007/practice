@@ -154,14 +154,14 @@ export function NailExamBankExperience({
       setLoading(true)
       try {
         const pool = await loadBankPool(bank)
-        const cards = sliceStudyCardsRange(pool, bank.idPrefix, offset)
+        const cards = sliceStudyCardsRange(pool, bank, offset)
         if (cards.length === 0) return
         const start = async () => {
           const nextPool = await loadBankPool(bank)
           setSession({
             format: "study-cards",
             title,
-            cards: sliceStudyCardsRange(nextPool, bank.idPrefix, offset),
+            cards: sliceStudyCardsRange(nextPool, bank, offset),
             restart: start,
           })
         }

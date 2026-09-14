@@ -1,4 +1,5 @@
 import { SOURCE_CHUNK_SIZE, sourceRangeCards } from "../exam-quiz/catalog.ts"
+import type { SourceRangeCard } from "../exam-quiz/catalog.ts"
 import type { LocalizedText, PracticeSourceId } from "../exam-quiz/types.ts"
 
 export const NAIL_EXAM_PRACTICE_TITLE: LocalizedText = {
@@ -43,6 +44,10 @@ export type NailExamBank = {
   practiceSourceId?: PracticeSourceId
   approvedCount: number
   groupCount: number
+  /** Explicit question-group boundaries, when a bank doesn't use plain fixed-size
+   * chunking (e.g. a small trailing group gets merged into the previous one).
+   * When absent, groups fall back to fixed SOURCE_CHUNK_SIZE chunks. */
+  groupRanges?: readonly SourceRangeCard[]
   accent: "violet" | "rose" | "cyan" | "amber"
   formats: {
     multipleChoice: true
@@ -55,6 +60,29 @@ export type NailExamBank = {
 
 function groupCountFor(approvedCount: number): number {
   return sourceRangeCards(approvedCount, SOURCE_CHUNK_SIZE).length
+}
+
+/** Fixed-size chunks, except a trailing chunk of `mergeThreshold` questions or
+ * fewer gets folded into the previous chunk instead of standing alone (e.g.
+ * a 25-question chapter becomes one 1–25 group instead of 1–20 then 21–25). */
+function mergedGroupRanges(
+  totalCount: number,
+  chunkSize: number = SOURCE_CHUNK_SIZE,
+  mergeThreshold: number = 10,
+): SourceRangeCard[] {
+  if (totalCount <= 0 || chunkSize <= 0) return []
+  const ranges: SourceRangeCard[] = []
+  let offset = 0
+  while (offset < totalCount) {
+    let count = Math.min(chunkSize, totalCount - offset)
+    const remainderAfter = totalCount - (offset + count)
+    if (remainderAfter > 0 && remainderAfter <= mergeThreshold) {
+      count = totalCount - offset
+    }
+    ranges.push({ offset, start: offset + 1, end: offset + count, count })
+    offset += count
+  }
+  return ranges
 }
 
 export const NAIL_EXAM_BANKS: readonly NailExamBank[] = [
@@ -192,7 +220,8 @@ function buildMiladyChapterBank(
     pool: "milady-review",
     idPrefix: `milady-review-${section}-${chapterLabel}-`,
     approvedCount: info.count,
-    groupCount: groupCountFor(info.count),
+    groupCount: mergedGroupRanges(info.count).length,
+    groupRanges: mergedGroupRanges(info.count),
     accent,
     formats: { multipleChoice: true, studyCards: true },
     randomOptions: [],
@@ -214,7 +243,8 @@ const MILADY_COMPREHENSIVE_BANK: NailExamBank = {
   pool: "milady-review",
   idPrefix: "milady-review-comprehensive-",
   approvedCount: 100,
-  groupCount: groupCountFor(100),
+  groupCount: mergedGroupRanges(100).length,
+  groupRanges: mergedGroupRanges(100),
   accent: "cyan",
   formats: { multipleChoice: true, studyCards: true },
   randomOptions: [],
@@ -283,7 +313,7 @@ export function miladyReviewChapterCards(
     title: info.title,
     href: miladyChapterHref(section, info.chapter),
     questionCount: info.count,
-    groupCount: groupCountFor(info.count),
+    groupCount: mergedGroupRanges(info.count).length,
   }))
 }
 
@@ -342,8 +372,8 @@ export function bankHrefForPracticeSource(sourceId: PracticeSourceId): string {
   return bank?.href ?? NAIL_EXAM_PRACTICE_HREF
 }
 
-export function bankGroupCards(bank: Pick<NailExamBank, "approvedCount">) {
-  return sourceRangeCards(bank.approvedCount, SOURCE_CHUNK_SIZE)
+export function bankGroupCards(bank: Pick<NailExamBank, "approvedCount" | "groupRanges">) {
+  return bank.groupRanges ?? sourceRangeCards(bank.approvedCount, SOURCE_CHUNK_SIZE)
 }
 
 export function orderedQuestionsForBank<T extends { id: string }>(
@@ -355,14 +385,16 @@ export function orderedQuestionsForBank<T extends { id: string }>(
 
 export function sliceBankGroup<T extends { id: string }>(
   pool: readonly T[],
-  bank: Pick<NailExamBank, "idPrefix">,
+  bank: Pick<NailExamBank, "idPrefix" | "groupRanges">,
   offset: number,
   chunkSize: number = SOURCE_CHUNK_SIZE,
 ): T[] {
-  if (offset < 0 || chunkSize <= 0) return []
+  if (offset < 0) return []
+  const resolvedChunkSize = bank.groupRanges?.find((range) => range.offset === offset)?.count ?? chunkSize
+  if (resolvedChunkSize <= 0) return []
   return pool
     .filter((question) => question.id.startsWith(bank.idPrefix))
-    .slice(offset, offset + chunkSize)
+    .slice(offset, offset + resolvedChunkSize)
 }
 
 export function bankSummaryLine(bank: NailExamBank): LocalizedText {
