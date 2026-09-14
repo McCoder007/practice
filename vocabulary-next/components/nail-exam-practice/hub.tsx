@@ -5,6 +5,9 @@ import Link from "next/link"
 import { NavigationMenu } from "@/components/NavigationMenu"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import {
+  MILADY_REVIEW_DESCRIPTION,
+  MILADY_REVIEW_HREF,
+  MILADY_REVIEW_TITLE,
   MIXED_PRACTICE,
   NAIL_EXAM_BANKS,
   NAIL_EXAM_PRACTICE_TITLE,
@@ -20,6 +23,7 @@ const ACCENT = {
   cyan: "border-cyan-200 from-cyan-50 to-white dark:border-cyan-900/50 dark:from-cyan-950/30 dark:to-slate-800",
   amber: "border-amber-200 from-amber-50 to-white dark:border-amber-900/50 dark:from-amber-950/30 dark:to-slate-800",
   emerald: "border-emerald-200 from-emerald-50 to-white dark:border-emerald-900/50 dark:from-emerald-950/30 dark:to-slate-800",
+  indigo: "border-indigo-200 from-indigo-50 to-white dark:border-indigo-900/50 dark:from-indigo-950/30 dark:to-slate-800",
 } as const
 
 export function NailExamPracticeHub() {
@@ -68,6 +72,28 @@ export function NailExamPracticeHub() {
               </Link>
             )
           })}
+
+          <Link href={MILADY_REVIEW_HREF}>
+            <Card
+              className={cn(
+                "gap-1.5 border-2 bg-gradient-to-r py-4 transition-shadow hover:shadow-md",
+                ACCENT.indigo,
+              )}
+            >
+              <CardHeader className="px-5 pb-0">
+                <CardTitle className="text-lg">
+                  {MILADY_REVIEW_TITLE.en}
+                  {showChinese && <> | {MILADY_REVIEW_TITLE.zh}</>}
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="px-5">
+                <p className="text-sm text-slate-600 dark:text-slate-300">
+                  {MILADY_REVIEW_DESCRIPTION.en}
+                  {showChinese && <> | {MILADY_REVIEW_DESCRIPTION.zh}</>}
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
 
           <Link href={MIXED_PRACTICE.href}>
             <Card
