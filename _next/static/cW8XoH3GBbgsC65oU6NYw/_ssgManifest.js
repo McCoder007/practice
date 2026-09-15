@@ -1,1 +1,0 @@
-self.__SSG_MANIFEST=new Set(["\u002Fexam-quiz\u002Foriginal\u002F[sourceId]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

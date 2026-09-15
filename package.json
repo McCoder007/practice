@@ -15,6 +15,7 @@
     "build:practice-bank": "python3 -B question-bank/scripts/build_practice_bank.py",
     "assemble:official-practice": "node question-bank/scripts/assemble-official-practice.js",
     "validate:official-practice": "node question-bank/scripts/validate-official-practice.js",
+    "validate:milady-review": "node question-bank/scripts/validate-milady-review.js",
     "copy:pdf-worker": "mkdir -p public/pdfjs && cp node_modules/pdfjs-dist/build/pdf.worker.min.mjs public/pdfjs/pdf.worker.min.mjs",
     "postinstall": "npm run copy:pdf-worker",
     "prebuild": "npm run copy:pdf-worker && npm run validate:release",

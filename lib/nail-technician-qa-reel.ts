@@ -113,10 +113,11 @@ export function sliceNailTestQaRange(
 
 export function sliceStudyCardsRange(
   pool: readonly ExamQuestion[],
-  idPrefix: string,
+  bank: string | { idPrefix: string; groupRanges?: readonly SourceRangeCard[] },
   offset: number,
 ): QaCard[] {
-  return sliceBankGroup(pool, { idPrefix }, offset).map(examQuestionToQaCard)
+  const bankRef = typeof bank === "string" ? { idPrefix: bank } : bank
+  return sliceBankGroup(pool, bankRef, offset).map(examQuestionToQaCard)
 }
 
 export function nailTestQaRangeCards(): SourceRangeCard[] {

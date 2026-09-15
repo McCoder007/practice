@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fexam-quiz\u002Foriginal\u002F[sourceId]","\u002Fnail-exam-practice\u002Fmilady-review\u002Ffoundations\u002F[chapter]","\u002Fnail-exam-practice\u002Fmilady-review\u002Fnails\u002F[chapter]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

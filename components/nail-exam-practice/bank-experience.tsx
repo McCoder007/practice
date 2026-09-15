@@ -27,6 +27,7 @@ import {
   type StudyFormatId,
 } from "@/data/nail-exam-practice/catalog"
 import { loadPracticeQuestions as loadOfficialQuestions } from "@/data/official-exam-quiz/loadChapter"
+import { loadMiladyReviewQuestions } from "@/data/milady-review/loadChapter"
 import { assertPlayablePool, drawPracticeSession, shuffleQuestionChoices } from "@/lib/exam-quiz-reel"
 import {
   clearNailExamBankHistory,
@@ -54,6 +55,9 @@ const STUDY_FORMAT_ICONS: Record<StudyFormatId, typeof ListChecks> = {
 async function loadBankPool(bank: NailExamBank): Promise<ExamQuestion[]> {
   if (bank.pool === "official") {
     return loadOfficialQuestions()
+  }
+  if (bank.pool === "milady-review") {
+    return loadMiladyReviewQuestions()
   }
   const [questions, held] = await Promise.all([loadPracticeQuestions(), loadQuestionsToReview()])
   assertPlayablePool(questions, [
@@ -93,6 +97,8 @@ export function NailExamBankExperience({
   const bank = getNailExamBank(bankId)
   const groups = bankGroupCards(bank)
   const summary = bankSummaryLine(bank)
+  const backHref = bank.backHref ?? NAIL_EXAM_PRACTICE_HREF
+  const backTitle = bank.backTitle ?? NAIL_EXAM_PRACTICE_TITLE
   const [format, setFormat] = useState<StudyFormatId>("multiple-choice")
   const [loading, setLoading] = useState(false)
   const [session, setSession] = useState<ActiveSession | null>(null)
@@ -150,14 +156,14 @@ export function NailExamBankExperience({
       setLoading(true)
       try {
         const pool = await loadBankPool(bank)
-        const cards = sliceStudyCardsRange(pool, bank.idPrefix, offset)
+        const cards = sliceStudyCardsRange(pool, bank, offset)
         if (cards.length === 0) return
         const start = async () => {
           const nextPool = await loadBankPool(bank)
           setSession({
             format: "study-cards",
             title,
-            cards: sliceStudyCardsRange(nextPool, bank.idPrefix, offset),
+            cards: sliceStudyCardsRange(nextPool, bank, offset),
             restart: start,
           })
         }
@@ -246,11 +252,11 @@ export function NailExamBankExperience({
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100 px-4 pb-10 pt-20 dark:from-slate-900 dark:to-slate-800">
         <div className="mx-auto flex w-full max-w-md flex-col gap-7">
           <Link
-            href={NAIL_EXAM_PRACTICE_HREF}
+            href={backHref}
             className="text-lg font-medium text-slate-600 underline-offset-2 hover:underline dark:text-slate-300"
           >
-            ← {NAIL_EXAM_PRACTICE_TITLE.en}
-            {showChinese && <> | {NAIL_EXAM_PRACTICE_TITLE.zh}</>}
+            ← {backTitle.en}
+            {showChinese && <> | {backTitle.zh}</>}
           </Link>
           <div>
             <h1 className="text-4xl leading-tight font-bold text-slate-900 dark:text-white">
@@ -336,22 +342,20 @@ export function NailExamBankExperience({
                       {format === "multiple-choice" && (
                         historyEntry ? (
                           <>
-                            <span className="block">
-                              Attempts: {historyEntry.attempts} · Perfect: {historyEntry.perfect}
-                            </span>
-                            {showChinese && (
-                              <span className="block" lang="zh-Hans">
-                                尝试：{historyEntry.attempts} · 满分：{historyEntry.perfect}
+                            <span className="flex flex-wrap gap-x-1.5">
+                              <span className="whitespace-nowrap">
+                                {historyEntry.attempts} {historyEntry.attempts === 1 ? "attempt" : "attempts"}
                               </span>
-                            )}
-                            <span className="block text-xs">
-                              Highest score: {historyEntry.bestScore}/{historyEntry.total}
+                              <span className="whitespace-nowrap">· {historyEntry.perfect} perfect</span>
                             </span>
-                            {showChinese && (
-                              <span className="block text-xs" lang="zh-Hans">
-                                最高分：{historyEntry.bestScore}/{historyEntry.total}
+                            <span className="flex flex-wrap gap-x-1.5">
+                              <span className="whitespace-nowrap">
+                                Last {historyEntry.lastScore}/{historyEntry.total}
                               </span>
-                            )}
+                              <span className="whitespace-nowrap">
+                                · Best {historyEntry.bestScore}/{historyEntry.total}
+                              </span>
+                            </span>
                           </>
                         ) : (
                           <>

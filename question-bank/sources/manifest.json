@@ -39,6 +39,18 @@
         "quarantined": 17,
         "omitted": 0
       }
+    },
+    {
+      "filename": "Exam Review for Milady Standard Nail Technology 8th edition.pdf",
+      "book": "Exam Review for Milady Standard Nail Technology, 8th Edition",
+      "sha256": "642a81924422a8413a3480820bd68c0967ce10f8f0a9ff61c1a70e8e31cdf469",
+      "bytes": 4594479,
+      "extractedItemCounts": {
+        "total": 1148,
+        "approved": 1148,
+        "quarantined": 0,
+        "omitted": 0
+      }
     }
   ],
   "counts": {
