@@ -97,6 +97,8 @@ export function NailExamBankExperience({
   const bank = getNailExamBank(bankId)
   const groups = bankGroupCards(bank)
   const summary = bankSummaryLine(bank)
+  const backHref = bank.backHref ?? NAIL_EXAM_PRACTICE_HREF
+  const backTitle = bank.backTitle ?? NAIL_EXAM_PRACTICE_TITLE
   const [format, setFormat] = useState<StudyFormatId>("multiple-choice")
   const [loading, setLoading] = useState(false)
   const [session, setSession] = useState<ActiveSession | null>(null)
@@ -250,11 +252,11 @@ export function NailExamBankExperience({
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100 px-4 pb-10 pt-20 dark:from-slate-900 dark:to-slate-800">
         <div className="mx-auto flex w-full max-w-md flex-col gap-7">
           <Link
-            href={NAIL_EXAM_PRACTICE_HREF}
+            href={backHref}
             className="text-lg font-medium text-slate-600 underline-offset-2 hover:underline dark:text-slate-300"
           >
-            ← {NAIL_EXAM_PRACTICE_TITLE.en}
-            {showChinese && <> | {NAIL_EXAM_PRACTICE_TITLE.zh}</>}
+            ← {backTitle.en}
+            {showChinese && <> | {backTitle.zh}</>}
           </Link>
           <div>
             <h1 className="text-4xl leading-tight font-bold text-slate-900 dark:text-white">

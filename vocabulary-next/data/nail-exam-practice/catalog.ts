@@ -48,6 +48,10 @@ export type NailExamBank = {
    * chunking (e.g. a small trailing group gets merged into the previous one).
    * When absent, groups fall back to fixed SOURCE_CHUNK_SIZE chunks. */
   groupRanges?: readonly SourceRangeCard[]
+  /** Where the bank screen's back link goes, for banks nested more than one
+   * level below the hub. Defaults to the Nail Exam Practice hub when absent. */
+  backHref?: string
+  backTitle?: LocalizedText
   accent: "violet" | "rose" | "cyan" | "amber"
   formats: {
     multipleChoice: true
@@ -222,6 +226,8 @@ function buildMiladyChapterBank(
     approvedCount: info.count,
     groupCount: mergedGroupRanges(info.count).length,
     groupRanges: mergedGroupRanges(info.count),
+    backHref: `${MILADY_REVIEW_HREF}/${section}`,
+    backTitle: miladyReviewSectionTitle(section),
     accent,
     formats: { multipleChoice: true, studyCards: true },
     randomOptions: [],
@@ -245,6 +251,8 @@ const MILADY_COMPREHENSIVE_BANK: NailExamBank = {
   approvedCount: 100,
   groupCount: mergedGroupRanges(100).length,
   groupRanges: mergedGroupRanges(100),
+  backHref: MILADY_REVIEW_HREF,
+  backTitle: MILADY_REVIEW_TITLE,
   accent: "cyan",
   formats: { multipleChoice: true, studyCards: true },
   randomOptions: [],
