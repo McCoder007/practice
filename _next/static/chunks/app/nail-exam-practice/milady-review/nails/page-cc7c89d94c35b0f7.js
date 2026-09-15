@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[7049],{3318:(e,s,n)=>{Promise.resolve().then(n.bind(n,6308))},6308:(e,s,n)=>{"use strict";n.r(s),n.d(s,{default:()=>u});var r=n(5155),t=n(8e3);function u(){return(0,r.jsx)(t.Q,{section:"nails"})}}},e=>{var s=s=>e(e.s=s);e.O(0,[7244,9352,4196,8609,8e3,8441,1684,7358],()=>s(3318)),_N_E=e.O()}]);
