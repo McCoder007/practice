@@ -4,6 +4,7 @@ export type NailExamGroupHistoryEntry = {
   attempts: number
   perfect: number
   bestScore: number
+  lastScore: number
   total: number
 }
 
@@ -16,7 +17,7 @@ function isNonNegativeInteger(value: unknown): value is number {
   return Number.isInteger(value) && Number(value) >= 0
 }
 
-function isHistoryEntry(value: unknown): value is NailExamGroupHistoryEntry {
+function isLegacyHistoryEntry(value: unknown): value is Omit<NailExamGroupHistoryEntry, "lastScore"> {
   if (!value || typeof value !== "object") return false
   const entry = value as Partial<NailExamGroupHistoryEntry>
   const total = entry.total
@@ -32,6 +33,17 @@ function isHistoryEntry(value: unknown): value is NailExamGroupHistoryEntry {
   )
 }
 
+function isHistoryEntry(value: unknown): value is NailExamGroupHistoryEntry {
+  if (!isLegacyHistoryEntry(value)) return false
+  const lastScore = (value as Partial<NailExamGroupHistoryEntry>).lastScore
+  return lastScore === undefined || (isNonNegativeInteger(lastScore) && lastScore <= value.total)
+}
+
+// Older stored entries predate `lastScore`; fall back to `bestScore` so existing history keeps working.
+function migrateHistoryEntry(value: NailExamGroupHistoryEntry): NailExamGroupHistoryEntry {
+  return value.lastScore === undefined ? { ...value, lastScore: value.bestScore } : value
+}
+
 export function nailExamGroupHistoryId(bankId: string, start: number, end: number): string {
   return `${bankId}:${start}-${end}`
 }
@@ -44,9 +56,9 @@ export function readNailExamGroupHistory(storage: StorageReader): NailExamGroupH
     if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) return {}
 
     return Object.fromEntries(
-      Object.entries(parsed).filter((entry): entry is [string, NailExamGroupHistoryEntry] =>
-        isHistoryEntry(entry[1]),
-      ),
+      Object.entries(parsed)
+        .filter((entry): entry is [string, NailExamGroupHistoryEntry] => isHistoryEntry(entry[1]))
+        .map(([key, value]) => [key, migrateHistoryEntry(value)]),
     )
   } catch {
     return {}
@@ -66,6 +78,7 @@ export function nextNailExamGroupHistoryEntry(
     attempts: (compatiblePrevious?.attempts ?? 0) + 1,
     perfect: (compatiblePrevious?.perfect ?? 0) + (safeCorrect === safeTotal ? 1 : 0),
     bestScore: Math.max(compatiblePrevious?.bestScore ?? 0, safeCorrect),
+    lastScore: safeCorrect,
     total: safeTotal,
   }
 }

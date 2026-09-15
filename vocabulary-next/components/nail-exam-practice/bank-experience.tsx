@@ -342,22 +342,20 @@ export function NailExamBankExperience({
                       {format === "multiple-choice" && (
                         historyEntry ? (
                           <>
-                            <span className="block">
-                              Attempts: {historyEntry.attempts} · Perfect: {historyEntry.perfect}
-                            </span>
-                            {showChinese && (
-                              <span className="block" lang="zh-Hans">
-                                尝试：{historyEntry.attempts} · 满分：{historyEntry.perfect}
+                            <span className="flex flex-wrap gap-x-1.5">
+                              <span className="whitespace-nowrap">
+                                {historyEntry.attempts} {historyEntry.attempts === 1 ? "attempt" : "attempts"}
                               </span>
-                            )}
-                            <span className="block text-xs">
-                              Highest score: {historyEntry.bestScore}/{historyEntry.total}
+                              <span className="whitespace-nowrap">· {historyEntry.perfect} perfect</span>
                             </span>
-                            {showChinese && (
-                              <span className="block text-xs" lang="zh-Hans">
-                                最高分：{historyEntry.bestScore}/{historyEntry.total}
+                            <span className="flex flex-wrap gap-x-1.5">
+                              <span className="whitespace-nowrap">
+                                Last {historyEntry.lastScore}/{historyEntry.total}
                               </span>
-                            )}
+                              <span className="whitespace-nowrap">
+                                · Best {historyEntry.bestScore}/{historyEntry.total}
+                              </span>
+                            </span>
                           </>
                         ) : (
                           <>
