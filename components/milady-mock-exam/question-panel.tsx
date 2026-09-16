@@ -15,7 +15,7 @@ export function MockExamQuestionPanel({
   onSelectChoice: (choiceId: string) => void
 }) {
   return (
-    <div className="flex-1 overflow-y-auto bg-white px-6 py-6">
+    <div data-tutorial="question" className="flex-1 overflow-y-auto bg-white px-6 py-6">
       <div className="mb-6 border-b border-neutral-200 pb-4 text-base text-neutral-900">
         <p>{question.question.en}</p>
         {showChinese ? <p className="mt-1 text-neutral-500">{question.question.zh}</p> : null}
@@ -26,6 +26,7 @@ export function MockExamQuestionPanel({
           return (
             <button
               key={choice.id}
+              data-tutorial={index === 0 ? "answer-choice" : undefined}
               type="button"
               onClick={() => onSelectChoice(choice.id)}
               className={cn(

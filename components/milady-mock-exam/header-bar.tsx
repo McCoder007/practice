@@ -17,7 +17,10 @@ export function MockExamHeaderBar({
   onToggleChinese: () => void
 }) {
   return (
-    <div className="flex items-center justify-between border-b border-neutral-200 bg-white px-4 py-2.5">
+    <div
+      data-tutorial="header"
+      className="flex items-center justify-between border-b border-neutral-200 bg-white px-4 py-2.5"
+    >
       <div className="flex items-baseline gap-2">
         <span className="text-lg font-black italic tracking-tight text-neutral-900">
           Pro<span className="text-red-600">✓</span>
@@ -29,8 +32,10 @@ export function MockExamHeaderBar({
         <span className="text-sm text-neutral-500">{examId}</span>
       </div>
       <div className="flex items-center gap-3">
-        <MockExamChineseToggle showChinese={showChinese} onToggle={onToggleChinese} />
-        <div className="text-right text-sm text-neutral-800">
+        <div data-tutorial="chinese-toggle">
+          <MockExamChineseToggle showChinese={showChinese} onToggle={onToggleChinese} />
+        </div>
+        <div data-tutorial="candidate" className="text-right text-sm text-neutral-800">
           <span className="font-medium">{candidateName}</span>{" "}
           <span className="text-neutral-500">{candidateId}</span>
         </div>
