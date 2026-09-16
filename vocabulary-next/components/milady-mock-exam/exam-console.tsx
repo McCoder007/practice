@@ -10,6 +10,7 @@ import { MockExamQuestionPanel } from "@/components/milady-mock-exam/question-pa
 import { MockExamScoreScreen } from "@/components/milady-mock-exam/score-screen"
 import { MockExamStatusBar } from "@/components/milady-mock-exam/status-bar"
 import { MockExamSummaryPanel } from "@/components/milady-mock-exam/summary-panel"
+import { MockExamTutorialOverlay } from "@/components/milady-mock-exam/tutorial-overlay"
 import { loadMockExamQuestions, type MockExamQuestion } from "@/data/milady-mock-exam/loadQuestions"
 import {
   MOCK_EXAM_DURATION_SECONDS,
@@ -37,8 +38,17 @@ export function MockExamConsole() {
   const [showChinese, setShowChinese] = useState(false)
   const [activePanel, setActivePanel] = useState<PanelId>("none")
   const [candidateName, setCandidateName] = useState("Ermuciniu Wang")
+  const [tutorialRequested, setTutorialRequested] = useState(false)
+  const [showTutorial, setShowTutorial] = useState(false)
   const phaseRef = useRef(phase)
   phaseRef.current = phase
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search)
+    const value = params.get("tutorial")
+    const standardTrigger = params.has("tutorial") && (value === "" || value === "1" || value === "true")
+    setTutorialRequested(standardTrigger || params.get("") === "tutorial")
+  }, [])
 
   useEffect(() => {
     let cancelled = false
@@ -53,7 +63,7 @@ export function MockExamConsole() {
   }, [])
 
   useEffect(() => {
-    if (phase !== "in-progress") return
+    if (phase !== "in-progress" || showTutorial) return
     const interval = setInterval(() => {
       setTimeRemaining((prev) => {
         if (prev <= 1) {
@@ -65,7 +75,7 @@ export function MockExamConsole() {
       })
     }, 1000)
     return () => clearInterval(interval)
-  }, [phase])
+  }, [phase, showTutorial])
 
   const currentQuestion = questions[currentIndex]
 
@@ -84,6 +94,14 @@ export function MockExamConsole() {
     setActivePanel("none")
     setPhase("in-progress")
   }
+
+  useEffect(() => {
+    if (phase !== "start" || !tutorialRequested || pool.length === 0) return
+    startExam()
+    setShowTutorial(true)
+    // The tutorial deliberately starts only after the hidden URL flag and question pool are ready.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phase, tutorialRequested, pool.length])
 
   function selectChoice(choiceId: string) {
     if (!currentQuestion) return
@@ -111,6 +129,11 @@ export function MockExamConsole() {
 
   function goTo(index: number) {
     setCurrentIndex(Math.max(0, Math.min(questions.length - 1, index)))
+    setActivePanel("none")
+  }
+
+  function closeTutorial() {
+    setShowTutorial(false)
     setActivePanel("none")
   }
 
@@ -260,6 +283,7 @@ export function MockExamConsole() {
           </div>
         ) : null}
       </div>
+      {showTutorial ? <MockExamTutorialOverlay onClose={closeTutorial} /> : null}
     </div>
   )
 }

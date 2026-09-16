@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils"
 import { MOCK_EXAM_TEXT } from "@/lib/milady-mock-exam-i18n"
 
 type RailButtonProps = {
+  tutorialId: string
   labelEn: string
   labelZh: string
   showChinese: boolean
@@ -14,9 +15,10 @@ type RailButtonProps = {
   onClick: () => void
 }
 
-function RailButton({ labelEn, labelZh, showChinese, icon, active, onClick }: RailButtonProps) {
+function RailButton({ tutorialId, labelEn, labelZh, showChinese, icon, active, onClick }: RailButtonProps) {
   return (
     <button
+      data-tutorial={tutorialId}
       type="button"
       onClick={onClick}
       className={cn(
@@ -67,6 +69,7 @@ export function MockExamActionRail({
   return (
     <div className="flex w-[170px] shrink-0 flex-col bg-red-600">
       <RailButton
+        tutorialId="flag"
         labelEn={flagged ? MOCK_EXAM_TEXT.unflag.en : MOCK_EXAM_TEXT.flagged.en}
         labelZh={flagged ? MOCK_EXAM_TEXT.unflag.zh : MOCK_EXAM_TEXT.flagged.zh}
         showChinese={showChinese}
@@ -75,6 +78,7 @@ export function MockExamActionRail({
         onClick={onToggleFlag}
       />
       <RailButton
+        tutorialId="comment"
         labelEn={MOCK_EXAM_TEXT.comment.en}
         labelZh={MOCK_EXAM_TEXT.comment.zh}
         showChinese={showChinese}
@@ -83,6 +87,7 @@ export function MockExamActionRail({
         onClick={onOpenComment}
       />
       <RailButton
+        tutorialId="summary"
         labelEn={MOCK_EXAM_TEXT.summary.en}
         labelZh={MOCK_EXAM_TEXT.summary.zh}
         showChinese={showChinese}
@@ -91,6 +96,7 @@ export function MockExamActionRail({
         onClick={onOpenSummary}
       />
       <RailButton
+        tutorialId="calculator"
         labelEn={MOCK_EXAM_TEXT.calculator.en}
         labelZh={MOCK_EXAM_TEXT.calculator.zh}
         showChinese={showChinese}
@@ -99,6 +105,7 @@ export function MockExamActionRail({
         onClick={onOpenCalculator}
       />
       <RailButton
+        tutorialId="converter"
         labelEn={MOCK_EXAM_TEXT.unitConverter.en}
         labelZh={MOCK_EXAM_TEXT.unitConverter.zh}
         showChinese={showChinese}
@@ -110,6 +117,7 @@ export function MockExamActionRail({
       <div className="mt-auto flex flex-col bg-black">
         <div className="grid grid-cols-2 gap-1.5 p-3">
           <button
+            data-tutorial="back"
             type="button"
             onClick={onBack}
             disabled={!canGoBack}
@@ -122,6 +130,7 @@ export function MockExamActionRail({
             </span>
           </button>
           <button
+            data-tutorial="next"
             type="button"
             onClick={onNext}
             disabled={!canGoNext}
@@ -135,6 +144,7 @@ export function MockExamActionRail({
           </button>
         </div>
         <button
+          data-tutorial="end-test"
           type="button"
           onClick={onEndTest}
           className="mx-3 mb-3 flex items-center justify-center gap-2 rounded-sm bg-neutral-300 py-2.5 text-sm font-medium text-neutral-900 hover:bg-neutral-200"

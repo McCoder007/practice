@@ -19,7 +19,7 @@ export function MockExamSummaryPanel({
 }) {
   return (
     <div className="absolute inset-0 z-40 flex items-start justify-center bg-black/40 p-6">
-      <div className="flex max-h-full w-full max-w-2xl flex-col overflow-hidden rounded-md bg-white shadow-xl">
+      <div data-tutorial="summary-panel" className="flex max-h-full w-full max-w-2xl flex-col overflow-hidden rounded-md bg-white shadow-xl">
         <div className="flex items-center justify-between border-b border-neutral-200 px-5 py-4">
           <h2 className="text-lg font-semibold text-red-600">
             {MOCK_EXAM_TEXT.questionSummary.en}
@@ -73,6 +73,7 @@ export function MockExamSummaryPanel({
                 return (
                   <tr
                     key={question.id}
+                    data-tutorial={index === 0 ? "summary-first-row" : undefined}
                     onClick={() => onJumpTo(index)}
                     className="cursor-pointer border-b border-neutral-100 hover:bg-neutral-50"
                   >
@@ -85,6 +86,7 @@ export function MockExamSummaryPanel({
                     </td>
                     <td className="px-4 py-3 align-middle">
                       <span
+                        data-tutorial={index === 0 ? "summary-answered" : index === 1 ? "summary-unanswered" : undefined}
                         className={
                           state?.selectedChoiceId
                             ? "flex h-9 w-16 items-center justify-center rounded-md bg-green-500 text-base font-semibold text-white"
@@ -94,7 +96,12 @@ export function MockExamSummaryPanel({
                         {state?.selectedChoiceId ? "✓" : "–"}
                       </span>
                     </td>
-                    <td className="px-4 py-3 align-middle text-2xl leading-none text-red-600">{state?.flagged ? "⚑" : ""}</td>
+                    <td
+                      data-tutorial={index === 0 ? "summary-flagged" : undefined}
+                      className="px-4 py-3 align-middle text-2xl leading-none text-red-600"
+                    >
+                      {state?.flagged ? "⚑" : ""}
+                    </td>
                     <td className="px-4 py-3 align-middle text-2xl leading-none text-red-600">{state?.comment ? "🗩" : ""}</td>
                   </tr>
                 )
