@@ -1,17 +1,6 @@
 // Firebase Analytics implementation for React app
-import { initializeApp } from 'firebase/app';
 import { getAnalytics, logEvent as firebaseLogEvent, isSupported } from 'firebase/analytics';
-
-// Firebase config: API key from env (never committed), rest are project identifiers
-const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY || '',
-  authDomain: "esl-preposition-practice.firebaseapp.com",
-  projectId: "esl-preposition-practice",
-  storageBucket: "esl-preposition-practice.firebasestorage.app",
-  messagingSenderId: "23182734978",
-  appId: "1:23182734978:web:060de369f972ec36baa69b",
-  measurementId: "G-Z3QP99QCWD"
-};
+import { getFirebaseApp } from '@/lib/firebase-app';
 
 // Flag to prevent initializing Firebase multiple times
 let isAnalyticsInitialized = false;
@@ -60,14 +49,12 @@ export const initializeAnalytics = async () => {
   }
 
   try {
-    // Only initialize when API key is set (e.g. from env at build time)
-    if (!firebaseConfig.apiKey) {
+    const app = getFirebaseApp();
+    if (!app) {
       return null;
     }
     // Check if analytics is supported in this environment
     if (await isSupported()) {
-      // Initialize Firebase
-      const app = initializeApp(firebaseConfig);
       analyticsInstance = getAnalytics(app);
       isAnalyticsInitialized = true;
       

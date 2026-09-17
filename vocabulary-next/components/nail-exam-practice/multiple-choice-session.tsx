@@ -62,7 +62,7 @@ export function NailExamMultipleChoiceSession({
   chineseToggle: ReactNode
   chineseToggleFixed?: ReactNode
   isRandom: boolean
-  onComplete?: (result: { correct: number; total: number }) => NailExamGroupHistoryEntry
+  onComplete?: (result: { correct: number; total: number }) => NailExamGroupHistoryEntry | void
   onRestart: () => void
   onExit: () => void
 }) {

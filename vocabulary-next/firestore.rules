@@ -1,0 +1,118 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isAllowlistedAdmin() {
+      return request.auth != null
+        && exists(/databases/$(database)/documents/adminAllowlist/$(request.auth.uid));
+    }
+
+    match /nailExamAttempts/{attemptId} {
+      allow create: if request.resource.data.keys().hasOnly([
+          'attemptId', 'learnerId', 'startedAt', 'bankId', 'bankName',
+          'sessionTitle', 'isRandom', 'questionCount', 'correct',
+          'completedAt', 'status'
+        ])
+        && request.resource.data.attemptId == attemptId
+        && request.resource.data.attemptId is string
+        && request.resource.data.attemptId.size() <= 80
+        && request.resource.data.learnerId is string
+        && request.resource.data.learnerId.size() <= 80
+        && request.resource.data.bankId is string
+        && request.resource.data.bankId.size() <= 80
+        && request.resource.data.bankName is string
+        && request.resource.data.bankName.size() <= 120
+        && request.resource.data.sessionTitle is string
+        && request.resource.data.sessionTitle.size() <= 160
+        && request.resource.data.isRandom is bool
+        && request.resource.data.questionCount is int
+        && request.resource.data.questionCount > 0
+        && request.resource.data.questionCount <= 500
+        && (
+          (request.resource.data.status == 'started'
+            && request.resource.data.startedAt is int
+            && request.resource.data.correct == null
+            && request.resource.data.completedAt == null)
+          || (request.resource.data.status == 'completed'
+            && request.resource.data.startedAt == null
+            && request.resource.data.correct is int
+            && request.resource.data.correct >= 0
+            && request.resource.data.correct <= request.resource.data.questionCount
+            && request.resource.data.completedAt is int)
+        );
+
+      allow update: if resource.data.attemptId == attemptId
+        && resource.data.status == 'started'
+        && request.resource.data.attemptId == resource.data.attemptId
+        && request.resource.data.learnerId == resource.data.learnerId
+        && request.resource.data.startedAt == resource.data.startedAt
+        && request.resource.data.bankId == resource.data.bankId
+        && request.resource.data.bankName == resource.data.bankName
+        && request.resource.data.sessionTitle == resource.data.sessionTitle
+        && request.resource.data.isRandom == resource.data.isRandom
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly([
+          'correct', 'completedAt', 'questionCount', 'status'
+        ])
+        && request.resource.data.status == 'completed'
+        && request.resource.data.correct is int
+        && request.resource.data.correct >= 0
+        && request.resource.data.questionCount is int
+        && request.resource.data.questionCount > 0
+        && request.resource.data.questionCount <= 500
+        && request.resource.data.correct <= request.resource.data.questionCount
+        && request.resource.data.completedAt is int
+        && request.resource.data.completedAt >= resource.data.startedAt;
+
+      allow read: if isAllowlistedAdmin();
+      allow delete: if false;
+    }
+
+    match /nailExamLearners/{learnerId} {
+      allow create: if request.resource.data.keys().hasOnly([
+          'learnerId', 'lastActiveAt', 'recentActiveAt'
+        ])
+        && request.resource.data.learnerId == learnerId
+        && request.resource.data.learnerId is string
+        && request.resource.data.learnerId.size() <= 80
+        && request.resource.data.lastActiveAt is int
+        && request.resource.data.recentActiveAt is list
+        && request.resource.data.recentActiveAt.size() > 0
+        && request.resource.data.recentActiveAt.size() <= 3
+        && request.resource.data.recentActiveAt[0] is int
+        && (request.resource.data.recentActiveAt.size() < 2
+          || request.resource.data.recentActiveAt[1] is int)
+        && (request.resource.data.recentActiveAt.size() < 3
+          || request.resource.data.recentActiveAt[2] is int)
+        && request.resource.data.recentActiveAt[0] == request.resource.data.lastActiveAt;
+
+      allow update: if request.resource.data.keys().hasOnly([
+          'learnerId', 'lastActiveAt', 'recentActiveAt'
+        ])
+        && request.resource.data.learnerId == resource.data.learnerId
+        && request.resource.data.learnerId == learnerId
+        && request.resource.data.learnerId is string
+        && request.resource.data.learnerId.size() <= 80
+        && request.resource.data.lastActiveAt is int
+        && request.resource.data.lastActiveAt >= resource.data.lastActiveAt
+        && request.resource.data.recentActiveAt is list
+        && request.resource.data.recentActiveAt.size() > 0
+        && request.resource.data.recentActiveAt.size() <= 3
+        && request.resource.data.recentActiveAt[0] is int
+        && (request.resource.data.recentActiveAt.size() < 2
+          || request.resource.data.recentActiveAt[1] is int)
+        && (request.resource.data.recentActiveAt.size() < 3
+          || request.resource.data.recentActiveAt[2] is int)
+        && request.resource.data.recentActiveAt[0] == request.resource.data.lastActiveAt;
+
+      allow read: if isAllowlistedAdmin();
+      allow delete: if false;
+    }
+
+    match /adminAllowlist/{uid} {
+      allow read, write: if false;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
