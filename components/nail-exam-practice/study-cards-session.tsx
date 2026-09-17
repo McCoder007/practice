@@ -558,7 +558,7 @@ export function NailExamStudyCardsSession({
     <>
       <NailExamSessionBackButton onBack={() => leaveNailExamSession(onExit)} />
       <main className="flex h-dvh w-screen flex-col overflow-hidden bg-black">
-        <header className="relative z-20 grid h-16 shrink-0 grid-cols-[3.25rem_minmax(0,1fr)_auto] grid-rows-2 items-center gap-x-2 border-b border-white/10 bg-black/70 px-3 py-2 text-center backdrop-blur-md">
+        <header className="relative z-20 isolate grid h-16 shrink-0 grid-cols-[3.25rem_minmax(0,1fr)_auto] grid-rows-2 items-center gap-x-2 border-b border-white/10 bg-black px-3 py-2 text-center">
           <p className="col-start-2 row-start-1 text-xs leading-tight font-medium text-white/80">
             {title.en}
             {showChinese && <> | {title.zh}</>}
