@@ -76,12 +76,16 @@ service cloud.firestore {
         && request.resource.data.lastActiveAt is int
         && request.resource.data.recentActiveAt is list
         && request.resource.data.recentActiveAt.size() > 0
-        && request.resource.data.recentActiveAt.size() <= 3
+        && request.resource.data.recentActiveAt.size() <= 5
         && request.resource.data.recentActiveAt[0] is int
         && (request.resource.data.recentActiveAt.size() < 2
           || request.resource.data.recentActiveAt[1] is int)
         && (request.resource.data.recentActiveAt.size() < 3
           || request.resource.data.recentActiveAt[2] is int)
+        && (request.resource.data.recentActiveAt.size() < 4
+          || request.resource.data.recentActiveAt[3] is int)
+        && (request.resource.data.recentActiveAt.size() < 5
+          || request.resource.data.recentActiveAt[4] is int)
         && request.resource.data.recentActiveAt[0] == request.resource.data.lastActiveAt;
 
       allow update: if request.resource.data.keys().hasOnly([
@@ -95,12 +99,16 @@ service cloud.firestore {
         && request.resource.data.lastActiveAt >= resource.data.lastActiveAt
         && request.resource.data.recentActiveAt is list
         && request.resource.data.recentActiveAt.size() > 0
-        && request.resource.data.recentActiveAt.size() <= 3
+        && request.resource.data.recentActiveAt.size() <= 5
         && request.resource.data.recentActiveAt[0] is int
         && (request.resource.data.recentActiveAt.size() < 2
           || request.resource.data.recentActiveAt[1] is int)
         && (request.resource.data.recentActiveAt.size() < 3
           || request.resource.data.recentActiveAt[2] is int)
+        && (request.resource.data.recentActiveAt.size() < 4
+          || request.resource.data.recentActiveAt[3] is int)
+        && (request.resource.data.recentActiveAt.size() < 5
+          || request.resource.data.recentActiveAt[4] is int)
         && request.resource.data.recentActiveAt[0] == request.resource.data.lastActiveAt;
 
       allow read: if isAllowlistedAdmin();

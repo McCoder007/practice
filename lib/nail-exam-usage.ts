@@ -2,6 +2,7 @@ export const NAIL_EXAM_ATTEMPTS_COLLECTION = "nailExamAttempts"
 export const NAIL_EXAM_LEARNERS_COLLECTION = "nailExamLearners"
 export const NAIL_EXAM_LEARNER_ID_STORAGE_KEY = "nail-exam-learner-id:v1"
 export const NAIL_EXAM_ACTIVITY_STORAGE_KEY = "nail-exam-app-activity:v1"
+export const NAIL_EXAM_RECENT_HISTORY_LIMIT = 5
 
 export type NailExamAttemptStatus = "started" | "completed"
 
@@ -71,12 +72,17 @@ export function prepareRecentActivity(
   let previous: number[] = []
   try {
     const parsed = JSON.parse(storage.getItem(NAIL_EXAM_ACTIVITY_STORAGE_KEY) || "[]")
-    if (Array.isArray(parsed)) previous = parsed.filter(isFiniteInteger).slice(0, 3)
+    if (Array.isArray(parsed)) {
+      previous = parsed.filter(isFiniteInteger).slice(0, NAIL_EXAM_RECENT_HISTORY_LIMIT)
+    }
   } catch {
     previous = []
   }
   if (previous[0] && timestamp - previous[0] < minimumGapMs) return null
-  return [timestamp, ...previous.filter((item) => item !== timestamp)].slice(0, 3)
+  return [timestamp, ...previous.filter((item) => item !== timestamp)].slice(
+    0,
+    NAIL_EXAM_RECENT_HISTORY_LIMIT,
+  )
 }
 
 export function commitRecentActivity(storage: Pick<Storage, "setItem">, recentActiveAt: number[]): void {
@@ -258,7 +264,9 @@ export function parseNailExamLearnerActivity(value: unknown): NailExamLearnerAct
   const record = value as Record<string, unknown>
   if (!isNonEmptyString(record.learnerId) || !isFiniteInteger(record.lastActiveAt)) return null
   if (!Array.isArray(record.recentActiveAt)) return null
-  const recentActiveAt = record.recentActiveAt.filter(isFiniteInteger).slice(0, 3)
+  const recentActiveAt = record.recentActiveAt
+    .filter(isFiniteInteger)
+    .slice(0, NAIL_EXAM_RECENT_HISTORY_LIMIT)
   if (recentActiveAt.length === 0 || recentActiveAt[0] !== record.lastActiveAt) return null
   return { learnerId: record.learnerId, lastActiveAt: record.lastActiveAt, recentActiveAt }
 }
@@ -282,7 +290,7 @@ export function latestAttemptPerLearner(attempts: NailExamAttempt[]): NailExamAt
 
 export function recentAttemptsPerLearner(
   attempts: NailExamAttempt[],
-  count = 3,
+  count = NAIL_EXAM_RECENT_HISTORY_LIMIT,
 ): Map<string, NailExamAttempt[]> {
   const recent = new Map<string, NailExamAttempt[]>()
   for (const attempt of [...attempts].sort((a, b) => attemptSortTime(b) - attemptSortTime(a))) {

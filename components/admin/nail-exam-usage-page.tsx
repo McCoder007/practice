@@ -8,7 +8,7 @@ import Link from "next/link"
 
 import { getFirebaseApp } from "@/lib/firebase-app"
 import { loadNailExamAttempts, loadNailExamLearnerActivity } from "@/lib/nail-exam-usage-store"
-import { formatDuration, formatRelativeTime, learnerAlias, recentAttemptsPerLearner, type NailExamAttempt, type NailExamLearnerActivity } from "@/lib/nail-exam-usage"
+import { NAIL_EXAM_RECENT_HISTORY_LIMIT, formatDuration, formatRelativeTime, learnerAlias, recentAttemptsPerLearner, type NailExamAttempt, type NailExamLearnerActivity } from "@/lib/nail-exam-usage"
 
 type Period = "today" | "7d" | "30d" | "all"
 
@@ -33,7 +33,7 @@ function Score({ attempt }: { attempt: NailExamAttempt }) {
   if (percent === null) {
     return <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-50 px-2.5 py-1 text-xs font-semibold text-amber-800 ring-1 ring-inset ring-amber-200"><Clock3 size={13} aria-hidden="true" /> In progress</span>
   }
-  return <div className="text-right"><p className="text-lg font-bold tabular-nums text-[#36223a]">{attempt.correct}<span className="font-medium text-[#7d687e]">/{attempt.questionCount}</span></p><p className="text-xs font-medium text-[#8b7589]">{percent}%</p></div>
+  return <div className="text-right"><p className="text-[10px] font-bold uppercase tracking-[0.12em] text-[#a04f78]">Score</p><p className="text-lg font-bold tabular-nums text-[#36223a]">{attempt.correct}<span className="font-medium text-[#7d687e]">/{attempt.questionCount}</span></p><p className="text-xs font-medium text-[#8b7589]">{percent}%</p></div>
 }
 
 function MetricCard({ label, value, detail, icon: Icon }: { label: string; value: string | number; detail: string; icon: typeof Activity }) {
@@ -132,7 +132,7 @@ export function NailExamUsageAdminPage() {
       return {
         learnerId,
         recentAttempts,
-        recentActiveAt: recentActiveAt.slice(0, 3),
+        recentActiveAt: recentActiveAt.slice(0, NAIL_EXAM_RECENT_HISTORY_LIMIT),
         lastActiveAt: activity?.lastActiveAt || fallbackActivity[0] || 0,
       }
     }).sort((a, b) => b.lastActiveAt - a.lastActiveAt)
@@ -209,14 +209,14 @@ export function NailExamUsageAdminPage() {
         )}
         {learnerTimelines.length > 0 && (
           <section className="mt-8">
-            <div className="flex items-end justify-between gap-4"><div><h2 className="font-[family-name:var(--font-outfit)] text-2xl font-semibold">Learner timelines</h2><p className="mt-1 text-sm text-[#8b7589]">Last app activity and the three most recent exams.</p></div><span className="hidden text-xs text-[#9a8798] sm:block">Newest activity first</span></div>
+            <div className="flex items-end justify-between gap-4"><div><h2 className="font-[family-name:var(--font-outfit)] text-2xl font-semibold">Learner timelines</h2><p className="mt-1 text-sm text-[#8b7589]">Last five app activity times, exams, and scores.</p></div><span className="hidden text-xs text-[#9a8798] sm:block">Newest activity first</span></div>
             <div className="mt-4 grid gap-4 lg:grid-cols-2">
               {learnerTimelines.map((learner) => (
                 <article key={learner.learnerId} className="overflow-hidden rounded-3xl border border-[#eadde5] bg-white shadow-[0_8px_30px_rgba(78,42,68,0.05)]">
                   <div className="bg-gradient-to-r from-[#60304d] to-[#7d4565] px-5 py-4 text-white sm:px-6"><div className="flex items-start justify-between gap-4"><div><p className="font-[family-name:var(--font-outfit)] text-lg font-semibold">{learnerAlias(learner.learnerId)}</p><p className="mt-1 text-xs text-white/65">Private browser alias</p></div><div className="text-right"><p className="text-xs font-semibold uppercase tracking-wide text-[#f0cadd]">Last used</p><p className="mt-1 text-sm font-semibold">{learner.lastActiveAt ? formatRelativeTime(learner.lastActiveAt) : "Not recorded"}</p>{learner.lastActiveAt > 0 && <p className="mt-0.5 text-xs text-white/60">{formatClock(learner.lastActiveAt)}</p>}</div></div></div>
                   <div className="px-5 py-5 sm:px-6">
-                    <div><p className="text-xs font-bold uppercase tracking-[0.12em] text-[#9a5277]">Last 3 app activity times</p><ol className="mt-2 flex flex-wrap gap-2">{learner.recentActiveAt.length ? learner.recentActiveAt.map((timestamp, index) => <li key={`${timestamp}-${index}`} className="rounded-lg bg-[#f8f1f5] px-2.5 py-1.5 text-xs font-medium text-[#715c6e]">{formatClock(timestamp)}</li>) : <li className="text-sm text-[#9a8798]">No app activity recorded yet.</li>}</ol></div>
-                    <div className="mt-5"><p className="text-xs font-bold uppercase tracking-[0.12em] text-[#9a5277]">Last 3 exams</p><ol className="mt-3 space-y-3">{learner.recentAttempts.length ? learner.recentAttempts.map((attempt) => <li key={attempt.attemptId} className="rounded-2xl border border-[#eee4ea] bg-[#fdfafd] p-3.5"><div className="flex items-start justify-between gap-3"><div className="min-w-0"><p className="truncate text-sm font-semibold text-[#463044]">{attempt.sessionTitle}</p><dl className="mt-2 grid gap-1 text-xs text-[#7d687e]"><div className="flex gap-2"><dt className="w-14 shrink-0 font-semibold text-[#9a5277]">Started</dt><dd>{attempt.startedAt !== null ? formatClock(attempt.startedAt) : "Unavailable"}</dd></div><div className="flex gap-2"><dt className="w-14 shrink-0 font-semibold text-[#9a5277]">Finished</dt><dd>{attempt.completedAt ? formatClock(attempt.completedAt) : "Not finished"}</dd></div></dl></div><Score attempt={attempt} /></div><div className="mt-3 flex items-center gap-1.5 border-t border-[#eee4ea] pt-2.5 text-xs font-medium text-[#806b7d]"><Timer size={13} aria-hidden="true" /> {formatDuration(attempt.startedAt, attempt.completedAt)}</div></li>) : <li className="text-sm text-[#9a8798]">No exams recorded yet.</li>}</ol></div>
+                    <div><p className="text-xs font-bold uppercase tracking-[0.12em] text-[#9a5277]">Last 5 app activity times</p><ol className="mt-2 flex flex-wrap gap-2">{learner.recentActiveAt.length ? learner.recentActiveAt.map((timestamp, index) => <li key={`${timestamp}-${index}`} className="rounded-lg bg-[#f8f1f5] px-2.5 py-1.5 text-xs font-medium text-[#715c6e]">{formatClock(timestamp)}</li>) : <li className="text-sm text-[#9a8798]">No app activity recorded yet.</li>}</ol></div>
+                    <div className="mt-5"><p className="text-xs font-bold uppercase tracking-[0.12em] text-[#9a5277]">Last 5 exams and scores</p><ol className="mt-3 space-y-3">{learner.recentAttempts.length ? learner.recentAttempts.map((attempt) => <li key={attempt.attemptId} className="rounded-2xl border border-[#eee4ea] bg-[#fdfafd] p-3.5"><div className="flex items-start justify-between gap-3"><div className="min-w-0"><p className="truncate text-sm font-semibold text-[#463044]">{attempt.sessionTitle}</p><dl className="mt-2 grid gap-1 text-xs text-[#7d687e]"><div className="flex gap-2"><dt className="w-14 shrink-0 font-semibold text-[#9a5277]">Started</dt><dd>{attempt.startedAt !== null ? formatClock(attempt.startedAt) : "Unavailable"}</dd></div><div className="flex gap-2"><dt className="w-14 shrink-0 font-semibold text-[#9a5277]">Finished</dt><dd>{attempt.completedAt ? formatClock(attempt.completedAt) : "Not finished"}</dd></div></dl></div><Score attempt={attempt} /></div><div className="mt-3 flex items-center gap-1.5 border-t border-[#eee4ea] pt-2.5 text-xs font-medium text-[#806b7d]"><Timer size={13} aria-hidden="true" /> {formatDuration(attempt.startedAt, attempt.completedAt)}</div></li>) : <li className="text-sm text-[#9a8798]">No exams recorded yet.</li>}</ol></div>
                   </div>
                 </article>
               ))}
