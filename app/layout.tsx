@@ -6,6 +6,7 @@ import Script from 'next/script'
 import { ThemeProvider } from "@/components/theme-provider"
 import { LanguageProvider } from "@/contexts/LanguageContext"
 import { PwaUpdateChecker } from "@/components/PwaUpdateChecker"
+import { NailExamActivityTracker } from "@/components/NailExamActivityTracker"
 
 // Import primary font for headings and UI
 const outfit = Outfit({
@@ -114,6 +115,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ThemeProvider>
           <LanguageProvider>
             <PwaUpdateChecker />
+            <NailExamActivityTracker />
             <div className="relative flex min-h-screen flex-col bg-background">
               {children}
             </div>

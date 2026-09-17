@@ -37,6 +37,7 @@ import {
   writeNailExamGroupHistory,
   type NailExamGroupHistory,
 } from "@/lib/nail-exam-practice-history"
+import { createId } from "@/lib/nail-exam-usage"
 import { sliceStudyCardsRange, type QaCard } from "@/lib/nail-technician-qa-reel"
 import { cn } from "@/lib/utils"
 
@@ -74,6 +75,7 @@ type ActiveSession =
       questions: ExamQuestion[]
       isRandom: boolean
       groupHistoryId?: string
+      attemptId: string
       restart: () => Promise<void>
     }
   | {
@@ -124,26 +126,33 @@ export function NailExamBankExperience({
         const pool = await loadBankPool(bank)
         const selected = shuffleQuestionChoices(select(pool))
         if (selected.length === 0) return
-        const start = async () => {
+        async function start() {
           const nextPool = await loadBankPool(bank)
-          const nextSelected = shuffleQuestionChoices(select(nextPool))
+          openSession(shuffleQuestionChoices(select(nextPool)))
+        }
+        const openSession = (questions: ExamQuestion[]) => {
+          const attemptId = createId()
+          void import("@/lib/nail-exam-usage-store").then(({ reportNailExamStarted }) =>
+            reportNailExamStarted({
+              attemptId,
+              bankId: bank.id,
+              bankName: bank.publicName.en,
+              sessionTitle: title.en,
+              isRandom,
+              questionCount: questions.length,
+            }),
+          )
           setSession({
             format: "multiple-choice",
             title,
-            questions: nextSelected,
+            questions,
             isRandom,
             groupHistoryId,
-            restart: start,
+            attemptId,
+            restart: () => start(),
           })
         }
-        setSession({
-          format: "multiple-choice",
-          title,
-          questions: selected,
-          isRandom,
-          groupHistoryId,
-          restart: start,
-        })
+        openSession(selected)
       } finally {
         setLoading(false)
       }
@@ -206,21 +215,29 @@ export function NailExamBankExperience({
         chineseToggle={chineseToggleInline}
         chineseToggleFixed={chineseToggleFixed}
         isRandom={session.isRandom}
-        onComplete={
-          session.groupHistoryId
-            ? ({ correct, total }) => {
-                const nextEntry = nextNailExamGroupHistoryEntry(
-                  groupHistory[session.groupHistoryId!],
-                  correct,
-                  total,
-                )
-                const nextHistory = { ...groupHistory, [session.groupHistoryId!]: nextEntry }
-                setGroupHistory(nextHistory)
-                writeNailExamGroupHistory(window.localStorage, nextHistory)
-                return nextEntry
-              }
-            : undefined
-        }
+        onComplete={({ correct, total }) => {
+          void import("@/lib/nail-exam-usage-store").then(({ reportNailExamCompleted }) =>
+            reportNailExamCompleted({
+              attemptId: session.attemptId,
+              bankId: bank.id,
+              bankName: bank.publicName.en,
+              sessionTitle: session.title.en,
+              isRandom: session.isRandom,
+              questionCount: total,
+              correct,
+            }),
+          )
+          if (!session.groupHistoryId) return
+          const nextEntry = nextNailExamGroupHistoryEntry(
+            groupHistory[session.groupHistoryId],
+            correct,
+            total,
+          )
+          const nextHistory = { ...groupHistory, [session.groupHistoryId]: nextEntry }
+          setGroupHistory(nextHistory)
+          writeNailExamGroupHistory(window.localStorage, nextHistory)
+          return nextEntry
+        }}
         onRestart={() => {
           void session.restart()
         }}
