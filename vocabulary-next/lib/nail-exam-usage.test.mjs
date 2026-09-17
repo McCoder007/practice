@@ -21,6 +21,7 @@ import {
   parseNailExamAttempt,
   prepareRecentActivity,
   recentAttemptsPerLearner,
+  startOfPacificDay,
 } from "./nail-exam-usage.ts"
 
 function memoryStorage(initial = {}) {
@@ -223,6 +224,17 @@ test("exam duration is compact and handles unfinished or missing-start attempts"
   assert.equal(formatDuration(0, 12 * 60_000), "12 min")
   assert.equal(formatDuration(0, 75 * 60_000), "1 hr 15 min")
   assert.equal(formatDuration(null, 20_000), "Unavailable")
+})
+
+test("Today starts at Pacific midnight in standard and daylight time", () => {
+  assert.equal(
+    startOfPacificDay(Date.parse("2026-01-15T18:00:00Z")),
+    Date.parse("2026-01-15T08:00:00Z"),
+  )
+  assert.equal(
+    startOfPacificDay(Date.parse("2026-07-15T18:00:00Z")),
+    Date.parse("2026-07-15T07:00:00Z"),
+  )
 })
 
 test("a completion reported without a matching start preserves score honestly", () => {

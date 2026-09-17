@@ -3,6 +3,7 @@ export const NAIL_EXAM_LEARNERS_COLLECTION = "nailExamLearners"
 export const NAIL_EXAM_LEARNER_ID_STORAGE_KEY = "nail-exam-learner-id:v1"
 export const NAIL_EXAM_ACTIVITY_STORAGE_KEY = "nail-exam-app-activity:v1"
 export const NAIL_EXAM_RECENT_HISTORY_LIMIT = 5
+export const NAIL_EXAM_REPORTING_TIME_ZONE = "America/Los_Angeles"
 
 export type NailExamAttemptStatus = "started" | "completed"
 
@@ -315,6 +316,46 @@ export function formatDuration(startedAt: number | null, completedAt: number | n
 export function formatScore(attempt: NailExamAttempt): string {
   if (attempt.status !== "completed" || attempt.correct === null) return "In progress"
   return `${attempt.correct} / ${attempt.questionCount}`
+}
+
+function timeZoneOffsetAt(timestamp: number, timeZone: string): number {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    year: "numeric",
+    month: "numeric",
+    day: "numeric",
+    hour: "numeric",
+    minute: "numeric",
+    second: "numeric",
+    hourCycle: "h23",
+  }).formatToParts(timestamp)
+  const values = Object.fromEntries(parts.map((part) => [part.type, part.value]))
+  const timestampWithoutMilliseconds = Math.floor(timestamp / 1000) * 1000
+  return Date.UTC(
+    Number(values.year),
+    Number(values.month) - 1,
+    Number(values.day),
+    Number(values.hour),
+    Number(values.minute),
+    Number(values.second),
+  ) - timestampWithoutMilliseconds
+}
+
+export function startOfDayInTimeZone(timestamp: number, timeZone: string): number {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    year: "numeric",
+    month: "numeric",
+    day: "numeric",
+  }).formatToParts(timestamp)
+  const values = Object.fromEntries(parts.map((part) => [part.type, part.value]))
+  const utcMidnight = Date.UTC(Number(values.year), Number(values.month) - 1, Number(values.day))
+  const firstCandidate = utcMidnight - timeZoneOffsetAt(utcMidnight, timeZone)
+  return utcMidnight - timeZoneOffsetAt(firstCandidate, timeZone)
+}
+
+export function startOfPacificDay(timestamp: number): number {
+  return startOfDayInTimeZone(timestamp, NAIL_EXAM_REPORTING_TIME_ZONE)
 }
 
 export function formatRelativeTime(timestamp: number, now: number = Date.now()): string {
