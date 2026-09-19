@@ -1,9 +1,12 @@
 "use client"
 
 import React, { useState, useEffect, useCallback, useRef, Fragment, useMemo, useLayoutEffect } from "react"
+import { usePathname } from "next/navigation"
 import { ChevronLeft, ChevronRight, ChevronDown, ChevronUp, Volume2, VolumeX } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import nailTechnicianData from "@/data/nailTechnicianReel"
+import nailExamWordData from "@/data/nailExamWordReel"
+import type { DayData } from "@/data/vocabulary"
 import { playText, preloadTexts, playTextQueued, clearAudioQueue, warmAudioSession } from '@/lib/tts'
 import {
   initializeAnalytics,
@@ -39,25 +42,34 @@ interface WordCard {
 }
 
 // Helper function to calculate starting index for a specific day in 'all' mode
-const getDayStartingIndex = (day: number): number => {
+const getDayStartingIndex = (data: DayData[], day: number): number => {
   let index = 0
   for (let i = 0; i < day - 1; i++) {
-    index += nailTechnicianData[i].words.length
+    index += data[i].words.length
   }
   return index
 }
 
 // Helper function to calculate starting index for latest day in 'all' mode
-const getLatestDayStartingIndex = (): number => {
-  return getDayStartingIndex(nailTechnicianData.length)
+const getLatestDayStartingIndex = (data: DayData[]): number => {
+  return getDayStartingIndex(data, data.length)
 }
 
 export default function NailTechnicianReelPage() {
+  const pathname = usePathname()
+  const isNailExamWordReel = pathname === "/nail-exam-word-reel"
+  const data = isNailExamWordReel ? nailExamWordData : nailTechnicianData
+  const storageKey = isNailExamWordReel
+    ? "nail-exam-word-reel-auto-speak"
+    : "nail-technician-reel-auto-speak"
+  const title = isNailExamWordReel
+    ? { en: "Nail Exam Word Reel", zh: "美甲考试词汇卷轴" }
+    : { en: "Nail Technician", zh: "美甲师", ja: "ネイルテクニシャン" }
   const { language } = useLanguage()
   const [viewMode, setViewMode] = useState<'all' | 'day'>('all')
-  const [currentDay, setCurrentDay] = useState(nailTechnicianData.length)
+  const [currentDay, setCurrentDay] = useState(data.length)
   const [sheetOpen, setSheetOpen] = useState(false)
-  const initialIndex = getLatestDayStartingIndex()
+  const initialIndex = getLatestDayStartingIndex(data)
   const [currentIndex, setCurrentIndex] = useState(initialIndex)
   const [animating, setAnimating] = useState(false)
   const [analyticsInitialized, setAnalyticsInitialized] = useState(false)
@@ -102,7 +114,7 @@ export default function NailTechnicianReelPage() {
   const words = useMemo((): WordCard[] => {
     if (viewMode === 'all') {
       const allWords: WordCard[] = []
-      nailTechnicianData.forEach((dayData) => {
+      data.forEach((dayData) => {
         dayData.words.forEach((word, wordIndex) => {
           allWords.push({
             english: word.word,
@@ -120,7 +132,7 @@ export default function NailTechnicianReelPage() {
       })
       return allWords
     } else {
-      const dayData = nailTechnicianData.find((data) => data.day === currentDay) || nailTechnicianData[0]
+      const dayData = data.find((dayData) => dayData.day === currentDay) || data[0]
       return dayData.words.map((word, wordIndex) => ({
         english: word.word,
         englishForTts: word.ttsSsml ?? word.ttsWord ?? word.word,
@@ -134,7 +146,7 @@ export default function NailTechnicianReelPage() {
         wordIndex: wordIndex
       }))
     }
-  }, [viewMode, currentDay, language])
+  }, [viewMode, currentDay, language, data])
 
   // Keep wordsRef in sync with memoized words for use in callbacks
   useEffect(() => {
@@ -144,24 +156,24 @@ export default function NailTechnicianReelPage() {
   // Calculate starting index based on current mode
   const startingIndex = useMemo(() => {
     if (viewMode === 'all') {
-      return getDayStartingIndex(currentDay)
+      return getDayStartingIndex(data, currentDay)
     } else {
       return 0
     }
-  }, [viewMode, currentDay])
+  }, [viewMode, currentDay, data])
 
   // Reset current index when words change
   useEffect(() => {
     if (viewMode === 'all') {
       // When switching to 'all' mode, start at the current day's words
-      const dayIndex = getDayStartingIndex(currentDay)
+      const dayIndex = getDayStartingIndex(data, currentDay)
       setCurrentIndex(dayIndex)
       currentIndexRef.current = dayIndex
     } else {
       setCurrentIndex(0)
       currentIndexRef.current = 0
     }
-  }, [viewMode, currentDay])
+  }, [viewMode, currentDay, data])
 
   // Reset drag state when day changes to ensure scrolling works immediately
   useEffect(() => {
@@ -216,14 +228,14 @@ export default function NailTechnicianReelPage() {
   // Load auto-speak preference from localStorage
   useEffect(() => {
     try {
-      const stored = localStorage.getItem('nail-technician-reel-auto-speak')
+      const stored = localStorage.getItem(storageKey)
       if (stored === 'true') {
         setAutoSpeak(true)
       }
     } catch {
       // localStorage might not be available
     }
-  }, [])
+  }, [storageKey])
 
   // Speak the current word using refs to avoid stale closures
   const speakCurrentWord = useCallback((generation: number) => {
@@ -260,7 +272,7 @@ export default function NailTechnicianReelPage() {
     setAutoSpeak(prev => {
       const newValue = !prev
       try {
-        localStorage.setItem('nail-technician-reel-auto-speak', String(newValue))
+        localStorage.setItem(storageKey, String(newValue))
       } catch {
         // localStorage might not be available
       }
@@ -278,7 +290,7 @@ export default function NailTechnicianReelPage() {
       }
       return newValue
     })
-  }, [speakCurrentWord])
+  }, [speakCurrentWord, storageKey])
 
   // Track window width for responsive font sizing
   useEffect(() => {
@@ -675,7 +687,7 @@ export default function NailTechnicianReelPage() {
       // Build the allWords array to get the current word's day
       // (we can't use the memoized words here because it will change after setViewMode)
       const allWords: WordCard[] = []
-      nailTechnicianData.forEach((dayData) => {
+      data.forEach((dayData) => {
         dayData.words.forEach((word, wordIndex) => {
           allWords.push({
             english: word.word,
@@ -704,13 +716,13 @@ export default function NailTechnicianReelPage() {
       currentIndexRef.current = 0
     } else if (newMode === 'all') {
       // Switching to 'all' mode — jump to the current day's position
-      const dayIndex = getDayStartingIndex(currentDay)
+      const dayIndex = getDayStartingIndex(data, currentDay)
       setCurrentIndex(dayIndex)
       currentIndexRef.current = dayIndex
     }
 
     setViewMode(newMode)
-  }, [viewMode, currentDay])
+  }, [viewMode, currentDay, data])
 
   // Handle day navigation
   const handlePreviousDay = useCallback(() => {
@@ -725,11 +737,11 @@ export default function NailTechnicianReelPage() {
     setAnimating(false)
     
     const prevDay = currentDay
-    const newDay = currentDay > 1 ? currentDay - 1 : nailTechnicianData.length
+    const newDay = currentDay > 1 ? currentDay - 1 : data.length
     lastDayChangeTimeRef.current = Date.now()
     setCurrentDay(newDay)
     trackDayChange(newDay, prevDay)
-  }, [currentDay, animating, viewMode])
+  }, [currentDay, animating, viewMode, data.length])
 
   const handleNextDay = useCallback(() => {
     if (animating || viewMode === 'all') return
@@ -743,11 +755,11 @@ export default function NailTechnicianReelPage() {
     setAnimating(false)
     
     const prevDay = currentDay
-    const newDay = currentDay < nailTechnicianData.length ? currentDay + 1 : 1
+    const newDay = currentDay < data.length ? currentDay + 1 : 1
     lastDayChangeTimeRef.current = Date.now()
     setCurrentDay(newDay)
     trackDayChange(newDay, prevDay)
-  }, [currentDay, animating, viewMode])
+  }, [currentDay, animating, viewMode, data.length])
 
   // Handle day selection from dropdown
   const handleDaySelect = useCallback((selectedDay: number) => {
@@ -839,8 +851,6 @@ export default function NailTechnicianReelPage() {
   // Render clickable words (`headwordTts` is used for single-token headwords so TTS can differ from display, e.g. "nail polish")
   const renderClickableWords = useCallback((text: string, headwordTts: string, isExample: boolean = false) => {
     if (!text) return null
-    // Check if text is a phrase (contains spaces)
-    const isPhrase = text.trim().includes(' ')
     return text.split(/(\s+)/).map((token, idx) =>
       token.match(/\s+/)
         ? <Fragment key={idx}>{token}</Fragment>
@@ -849,8 +859,7 @@ export default function NailTechnicianReelPage() {
             key={idx}
             onClick={(e) => {
               e.stopPropagation() // Prevent parent onClick from firing
-              // Phrase headwords: play full displayed phrase; single word: use TTS-specific text
-              const spoken = isPhrase ? text : headwordTts
+              const spoken = headwordTts
               if (isExample) {
                 playAudio(spoken, 'sentence_audio_played')
               } else {
@@ -906,7 +915,7 @@ export default function NailTechnicianReelPage() {
           <div className="flex items-center justify-center relative mb-1">
             <div className="flex flex-col items-center flex-grow">
               <h1 className="text-lg font-semibold text-white">
-                {language === "japanese" ? "Nail Technician | ネイルテクニシャン" : "Nail Technician | 美甲师"}
+                {title.en} | {language === "japanese" ? (title.ja || title.zh) : title.zh}
               </h1>
             </div>
             <div className="absolute right-2 flex items-center gap-1">
@@ -945,7 +954,7 @@ export default function NailTechnicianReelPage() {
                 size="icon"
                 className="text-white hover:bg-white/20 rounded-full p-3 h-12 w-16"
                 onClick={handlePreviousDay}
-                disabled={nailTechnicianData.length <= 1 || animating}
+                disabled={data.length <= 1 || animating}
               >
                 <ChevronLeft className="h-10 w-10" />
                 <span className="sr-only">Previous Day</span>
@@ -964,7 +973,7 @@ export default function NailTechnicianReelPage() {
                     <SheetTitle className="text-white text-center">Select Day</SheetTitle>
                   </SheetHeader>
                   <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 gap-3 mt-6 max-h-[60vh] overflow-y-auto">
-                    {nailTechnicianData.map((dayData) => (
+                    {data.map((dayData) => (
                       <button
                         key={dayData.day}
                         onClick={() => handleDaySelect(dayData.day)}
@@ -984,7 +993,7 @@ export default function NailTechnicianReelPage() {
                 size="icon"
                 className="text-white hover:bg-white/20 rounded-full p-3 h-12 w-16"
                 onClick={handleNextDay}
-                disabled={nailTechnicianData.length <= 1 || animating}
+                disabled={data.length <= 1 || animating}
               >
                 <ChevronRight className="h-10 w-10" />
                 <span className="sr-only">Next Day</span>

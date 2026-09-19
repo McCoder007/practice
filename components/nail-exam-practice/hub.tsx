@@ -18,6 +18,7 @@ import { ExamQuizChineseToggle } from "@/components/ExamQuizChineseToggle"
 import { cn } from "@/lib/utils"
 
 const ACCENT = {
+  pink: "border-pink-200 from-pink-50 to-white dark:border-pink-900/50 dark:from-pink-950/30 dark:to-slate-800",
   violet: "border-violet-200 from-violet-50 to-white dark:border-violet-900/50 dark:from-violet-950/30 dark:to-slate-800",
   rose: "border-rose-200 from-rose-50 to-white dark:border-rose-900/50 dark:from-rose-950/30 dark:to-slate-800",
   cyan: "border-cyan-200 from-cyan-50 to-white dark:border-cyan-900/50 dark:from-cyan-950/30 dark:to-slate-800",
@@ -45,6 +46,28 @@ export function NailExamPracticeHub() {
             {NAIL_EXAM_PRACTICE_TITLE.en}
             {showChinese && <> | {NAIL_EXAM_PRACTICE_TITLE.zh}</>}
           </h1>
+
+          <Link href="/nail-exam-word-reel">
+            <Card
+              className={cn(
+                "gap-1.5 border-2 bg-gradient-to-r py-4 transition-shadow hover:shadow-md",
+                ACCENT.pink,
+              )}
+            >
+              <CardHeader className="px-5 pb-0">
+                <CardTitle className="text-lg">
+                  Nail Exam Word Reel
+                  {showChinese && <> | 美甲考试词汇卷轴</>}
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="px-5">
+                <p className="text-sm text-slate-600 dark:text-slate-300">
+                  48 vocabulary cards with test words and related forms
+                  {showChinese && <> | 48 张考试词汇及相关词形卡片</>}
+                </p>
+              </CardContent>
+            </Card>
+          </Link>
 
           {NAIL_EXAM_BANKS.map((bank) => {
             const summary = bankSummaryLine(bank)
