@@ -1,0 +1,74 @@
+FILE: IMG_4462.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 38
+---
+[0.50 @ 0.00,0.33] ile Help
+[0.50 @ 0.03,0.36] 12:09:47 P.M
+[0.50 @ 0.36,0.37] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.03,0.41] NĐIỂM
+[0.50 @ 0.14,0.41] CÂU HỎI SỐ:
+[1.00 @ 0.27,0.41] 19
+[0.30 @ 0.32,0.41] CỦA 97 CÂU HỎI.
+[1.00 @ -0.00,0.45] Sea salt and plastic beads are types of:
+[0.50 @ 0.63,0.44] Nail Trac Nghiem 2026 1.dll
+[1.00 @ 0.63,0.47] Nail Trac Nghiem 2026
+[0.50 @ 0.81,0.47] 2.dll
+[1.00 @ 0.63,0.48] Nail Trac Nghiem 2026
+[0.30 @ 0.81,0.49] 5_3.dll
+[0.50 @ 0.63,0.50] Nail Trac Nghiem 5.dll
+[1.00 @ 0.63,0.52] Nails Theory 2026.dll
+[0.50 @ 0.67,0.55] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ -0.00,0.57] RẢ LỜI:
+[0.30 @ 0.44,0.58] CẦU
+[0.30 @ 0.49,0.58] HÒI TẾP THEO
+[0.30 @ 0.65,0.59] TÀO BÀI MỚI
+[0.50 @ 0.64,0.62] HOẠC CÂU HỎI
+[0.50 @ 0.84,0.61] CHỌN BÀI THI
+[1.00 @ 0.04,0.63] Disinfectants
+[0.50 @ 0.63,0.67] TRÀ LỜI ĐÙNG: TRÀ LỜI SAI:
+[1.00 @ 0.87,0.68] ĐIỂM TỔNG KẾT
+[1.00 @ 0.04,0.70] Exfoliants (scrubs)
+[1.00 @ 0.66,0.70] 15
+[1.00 @ 0.78,0.71] 3
+[1.00 @ 0.04,0.79] Primer
+[0.50 @ 0.65,0.78] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.66,0.84] 00
+[0.30 @ 0.70,0.84] PHU
+[1.00 @ 0.75,0.84] 00
+[0.30 @ 0.79,0.84] GIA)
+[1.00 @ 0.84,0.85] 00
+[0.30 @ 0.89,0.84] SẮT ĐẦU
+[1.00 @ 0.04,0.87] Resin
+[1.00 @ 0.67,0.90] 00.00.00.00
+---LEFT_LINES---
+0.33|ile Help
+0.36|12:09:47 P.M
+0.37|ĐỀ THI: ( NAILS (EN) 2026 )
+0.41|NĐIỂM
+0.41|CÂU HỎI SỐ:
+0.41|19
+0.41|CỦA 97 CÂU HỎI.
+0.45|Sea salt and plastic beads are types of:
+0.57|RẢ LỜI:
+0.58|CẦU
+0.58|HÒI TẾP THEO
+0.63|Disinfectants
+0.70|Exfoliants (scrubs)
+0.79|Primer
+0.87|Resin
+---CONTENT---
+0.41|NĐIỂM
+0.45|Sea salt and plastic beads are types of:
+0.57|RẢ LỜI:
+0.58|CẦU
+0.58|HÒI TẾP THEO
+0.63|Disinfectants
+0.70|Exfoliants (scrubs)
+0.79|Primer
+0.87|Resin
+---CHOICE_ROWS---
+A y=0.58 meanG=174.0 lime=0.120 bright=33.6 text=RẢ LỜI:
+B y=0.59 meanG=167.1 lime=0.036 bright=13.9 text=CẦU
+C y=0.59 meanG=166.9 lime=0.031 bright=13.3 text=HÒI TẾP THEO
+D y=0.64 meanG=208.2 lime=0.639 bright=55.3 text=Disinfectants
+SELECTED_HINT: D bright=55.3 margin=21.6 text=Disinfectants

@@ -1,0 +1,71 @@
+FILE: IMG_4451.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 34
+---
+[0.50 @ 0.00,0.32] lelp
+[0.50 @ 0.01,0.35] 12:05:41 PMГ
+[0.30 @ 0.36,0.35] ĐẾ THI( NAILS (EN) 2026)
+[0.30 @ 0.00,0.40] IN ĐIỀM
+[0.50 @ 0.12,0.40] CÂU HỎI SỐ
+[1.00 @ 0.27,0.40] 8
+[0.50 @ 0.34,0.40] A 97 CAU HOI
+[1.00 @ 0.65,0.42] Nail Trac Nghiem 2026_1.dll
+[1.00 @ 0.00,0.44] icle nippers should be:
+[0.50 @ 0.65,0.45] Nail Trac Nghiem 2026_2.dli
+[0.50 @ 0.65,0.47] Nail Trac Nghiem 2026_3.dll
+[0.50 @ 0.65,0.49] Nail Trac Nghiem 5.dil
+[1.00 @ 0.65,0.51] Nails Theory 2026.dll
+[0.50 @ 0.70,0.54] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.00,0.58] A LỜI:
+[0.30 @ 0.45,0.58] CAUET
+[0.50 @ 0.52,0.58] N TIẾP THEO
+[0.30 @ 0.67,0.59] GHO BÀI MỚI
+[0.30 @ 0.66,0.61] HHÁC CẦU HỎI
+[0.50 @ 0.88,0.60] CHỌN BÀI T
+[1.00 @ 0.02,0.64] Shared among clients
+[0.30 @ 0.65,0.67] TRÀ LỜI ĐÙNG: TRÀ LỜI SAI:
+[1.00 @ 0.91,0.68] ĐIỂM TỔNG
+[1.00 @ 0.69,0.70] 7
+[1.00 @ 0.03,0.72] Sterili
+[1.00 @ 0.67,0.79] CHỈNH GIỜ CHO CUỘC TH
+[1.00 @ 0.03,0.81] ed after each client
+[1.00 @ 0.69,0.85] 00
+[1.00 @ 0.78,0.85] 00
+[0.30 @ 0.83,0.85] CIA)
+[1.00 @ 0.88,0.85] 00
+[0.30 @ 0.94,0.85] LATĐ
+[1.00 @ 0.03,0.89] Wiped with a towel only
+[1.00 @ 0.69,0.91] 00.00.00.00
+---LEFT_LINES---
+0.32|lelp
+0.35|12:05:41 PMГ
+0.35|ĐẾ THI( NAILS (EN) 2026)
+0.40|IN ĐIỀM
+0.40|CÂU HỎI SỐ
+0.40|8
+0.40|A 97 CAU HOI
+0.44|icle nippers should be:
+0.58|A LỜI:
+0.58|CAUET
+0.58|N TIẾP THEO
+0.64|Shared among clients
+0.72|Sterili
+0.81|ed after each client
+0.89|Wiped with a towel only
+---CONTENT---
+0.32|lelp
+0.35|ĐẾ THI( NAILS (EN) 2026)
+0.40|IN ĐIỀM
+0.44|icle nippers should be:
+0.58|A LỜI:
+0.58|CAUET
+0.64|Shared among clients
+0.72|Sterili
+0.81|ed after each client
+0.89|Wiped with a towel only
+---CHOICE_ROWS---
+A y=0.41 meanG=151.5 lime=0.050 bright=20.6 text=IN ĐIỀM
+B y=0.45 meanG=204.8 lime=0.559 bright=176.2 text=icle nippers should be:
+C y=0.59 meanG=165.4 lime=0.045 bright=12.4 text=A LỜI:
+D y=0.59 meanG=164.8 lime=0.046 bright=12.4 text=CAUET
+SELECTED_HINT: B bright=176.2 margin=155.6 text=icle nippers should be:

@@ -1,0 +1,75 @@
+FILE: IMG_4499.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 37
+---
+[1.00 @ 0.00,0.28] Help
+[1.00 @ 0.01,0.31] 12:32:55 PM
+[0.30 @ 0.36,0.30] ĐÈ THL ( NAILS (EN) 2026)
+[0.30 @ 0.01,0.36] N ĐIỀM
+[1.00 @ 0.12,0.36] CÂU HỎI SỐ
+[1.00 @ 0.26,0.36] 87
+[0.30 @ 0.31,0.36] CỦA 97 CÂU HỎI,
+[1.00 @ 0.65,0.38] Nail Trac Nghiem 2026_1.dil
+[1.00 @ 0.00,0.41] e nail bed and nail are attached to the finger bone by:
+[1.00 @ 0.65,0.41] Nail Trac Nghiem 2026
+[1.00 @ 0.84,0.40] 2.dll
+[0.50 @ 0.65,0.43] Nail Trac Nghiem 2026_3.dii
+[0.50 @ 0.65,0.45] Nail Trac Nghiem 5.dil
+[0.50 @ 0.65,0.47] Nails Theory 2026.dll
+[0.50 @ 0.69,0.50] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.00,0.54] À LỜI:
+[0.30 @ 0.45,0.54] CAJ
+[0.50 @ 0.54,0.54] TIÉP THEO
+[0.30 @ 0.68,0.54] HỘ BÀI MỚI
+[0.30 @ 0.68,0.57] UẶC CÂU HỎI
+[0.30 @ 0.87,0.55] CHỌN BẢI TH
+[1.00 @ 0.03,0.60] Speciali
+[0.30 @ 0.65,0.63] TRÀ LỜI ĐÚNG: TRÀ LỜI SAI:
+[1.00 @ 0.90,0.63] ĐIỂM TỔNG
+[1.00 @ 0.68,0.66] 78
+[1.00 @ 0.81,0.66] 8
+[1.00 @ 0.04,0.67] ed ligaments/connective tissue
+[0.50 @ 0.67,0.74] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.04,0.76] Dead skin
+[1.00 @ 0.69,0.80] 00
+[1.00 @ 0.78,0.80] 00
+[0.50 @ 0.82,0.80] GIẢY
+[1.00 @ 0.87,0.80] 00
+[0.30 @ 0.93,0.79] ĐẤT ĐẦ
+[1.00 @ 0.04,0.84] Nail polish
+[1.00 @ 0.00,0.87] D
+[1.00 @ 0.69,0.86] 00.00.00.00
+---LEFT_LINES---
+0.28|Help
+0.31|12:32:55 PM
+0.30|ĐÈ THL ( NAILS (EN) 2026)
+0.36|N ĐIỀM
+0.36|CÂU HỎI SỐ
+0.36|87
+0.36|CỦA 97 CÂU HỎI,
+0.41|e nail bed and nail are attached to the finger bone by:
+0.54|À LỜI:
+0.54|CAJ
+0.54|TIÉP THEO
+0.60|Speciali
+0.67|ed ligaments/connective tissue
+0.76|Dead skin
+0.84|Nail polish
+0.87|D
+---CONTENT---
+0.30|ĐÈ THL ( NAILS (EN) 2026)
+0.36|N ĐIỀM
+0.41|e nail bed and nail are attached to the finger bone by:
+0.54|À LỜI:
+0.54|CAJ
+0.54|TIÉP THEO
+0.60|Speciali
+0.67|ed ligaments/connective tissue
+0.76|Dead skin
+0.84|Nail polish
+---CHOICE_ROWS---
+A y=0.38 meanG=148.5 lime=0.065 bright=29.0 text=N ĐIỀM
+B y=0.42 meanG=201.4 lime=0.531 bright=176.3 text=e nail bed and nail are attached to the finger bone by:
+C y=0.55 meanG=161.7 lime=0.061 bright=14.8 text=À LỜI:
+D y=0.55 meanG=161.7 lime=0.062 bright=15.0 text=CAJ
+SELECTED_HINT: B bright=176.3 margin=147.3 text=e nail bed and nail are attached to the finger bone by:

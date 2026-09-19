@@ -1,0 +1,70 @@
+FILE: IMG_4505.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 36
+---
+[1.00 @ 0.00,0.30] Help
+[0.50 @ 0.02,0.33] 12:35:23 PN
+[0.50 @ 0.34,0.33] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.01,0.38] N ĐIỂM
+[1.00 @ 0.11,0.38] CÂU HỎI SỐ:
+[1.00 @ 0.25,0.38] 95
+[0.50 @ 0.29,0.38] CỦA 97 CÂU HỎI.
+[0.50 @ -0.00,0.42] lat should be added to a hand-soaking solution?
+[0.50 @ 0.61,0.41] Nail Trac Nghiem 2026_1.dll
+[0.50 @ 0.61,0.43] Nail Trac Nghiem 2026_2.dil
+[0.50 @ 0.61,0.45] Nail Trac Nghiem 2026_3.dll
+[0.50 @ 0.61,0.47] Nail Trac Nghiem 5.dll
+[1.00 @ 0.61,0.49] Nails Theory 2026.dll
+[0.50 @ 0.65,0.52] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ -0.00,0.54] Ả LỜI:
+[0.30 @ 0.12,0.55] RẤT TIẾT. KHÔNG PHẢI CÂU ĐÓ
+[0.50 @ 0.43,0.55] ÂU HỎI TIẾP THEO
+[0.50 @ 0.62,0.56] TAO BẢI MỚI
+[0.50 @ 0.61,0.59] HOẠC CẦU HỎI
+[1.00 @ 0.82,0.58] CHỌN BÀI THI
+[1.00 @ 0.03,0.60] Acetone
+[0.30 @ 0.60,0.64] TRẢ LỜI ĐÙNG: TRÀ LỜI SAI
+[1.00 @ 0.84,0.65] ĐIỂM TỔNG KẾT
+[1.00 @ 0.03,0.68] Softening oil
+[1.00 @ 0.64,0.67] 85
+[1.00 @ 0.75,0.67] 10
+[1.00 @ 0.03,0.76] Primer
+[1.00 @ 0.62,0.75] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.64,0.80] 00
+[0.30 @ 0.67,0.80] PHIUD
+[1.00 @ 0.72,0.80] 00
+[0.30 @ 0.76,0.81] GIAY
+[1.00 @ 0.81,0.81] 00
+[0.30 @ 0.86,0.81] HAT ĐÂU
+[1.00 @ 0.03,0.83] Resin
+[1.00 @ 0.64,0.86] 00.00.00.00
+---LEFT_LINES---
+0.30|Help
+0.33|12:35:23 PN
+0.33|ĐỀ THI: ( NAILS (EN) 2026)
+0.38|N ĐIỂM
+0.38|CÂU HỎI SỐ:
+0.38|95
+0.38|CỦA 97 CÂU HỎI.
+0.42|lat should be added to a hand-soaking solution?
+0.54|Ả LỜI:
+0.55|RẤT TIẾT. KHÔNG PHẢI CÂU ĐÓ
+0.55|ÂU HỎI TIẾP THEO
+0.60|Acetone
+0.68|Softening oil
+0.76|Primer
+0.83|Resin
+---CONTENT---
+0.38|N ĐIỂM
+0.42|lat should be added to a hand-soaking solution?
+0.54|Ả LỜI:
+0.60|Acetone
+0.68|Softening oil
+0.76|Primer
+0.83|Resin
+---CHOICE_ROWS---
+A y=0.55 meanG=148.6 lime=0.091 bright=24.9 text=Ả LỜI:
+B y=0.61 meanG=201.2 lime=0.693 bright=149.3 text=Acetone
+C y=0.69 meanG=214.5 lime=0.694 bright=50.2 text=Softening oil
+D y=0.76 meanG=210.5 lime=0.658 bright=40.4 text=Primer
+SELECTED_HINT: B bright=149.3 margin=99.1 text=Acetone

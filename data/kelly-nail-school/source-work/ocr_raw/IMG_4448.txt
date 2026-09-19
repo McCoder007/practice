@@ -1,0 +1,67 @@
+FILE: IMG_4448.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 33
+---
+[1.00 @ 0.00,0.33] Help
+[0.50 @ 0.02,0.36] 12:04:52 PM
+[0.30 @ 0.36,0.35] ĐÊ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.01,0.41] IN ĐIÊM
+[0.50 @ 0.13,0.40] CÂU HỎI SỐ:
+[1.00 @ 0.27,0.41] 5
+[0.30 @ 0.31,0.40] CỦA 97. CÂU HỎI!
+[0.50 @ 0.64,0.42] Nail Trac Nghiem 2026_1.dll
+[0.50 @ -0.00,0.45] le tool used to clean under the nails is:
+[1.00 @ 0.64,0.45] Nail Trac Nghiem 2026_2.dll
+[0.50 @ 0.64,0.47] Nail Trac Nghiem 2026_3.dil
+[0.50 @ 0.64,0.49] Nail Trac Nghiem 5.dll
+[1.00 @ 0.64,0.51] Nails Theory 2026.dll
+[0.50 @ 0.69,0.54] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ 0.00,0.58] RẢ LỜI:
+[0.30 @ 0.45,0.57] CANL ÔI TIẾP THEO
+[0.30 @ 0.66,0.58] HÁO BÀI MỚI
+[0.30 @ 0.65,0.60] HOẠC CẦU HỎI
+[0.30 @ 0.87,0.59] SHỌN BÀI THI
+[1.00 @ 0.04,0.64] Nippers
+[0.50 @ 0.64,0.67] TRÀ LỜI ĐÚNG: TRÀ LỜI SAI:
+[0.30 @ 0.90,0.66] ĐIỂM TỔNG KG
+[1.00 @ 0.04,0.72] Nail brush
+[1.00 @ 0.67,0.78] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.04,0.80] Electric file
+[1.00 @ 0.68,0.83] 00
+[1.00 @ 0.78,0.84] 00
+[0.30 @ 0.82,0.84] GA)
+[1.00 @ 0.86,0.84] 00
+[0.50 @ 0.92,0.83] SẮT ĐẦI
+[0.50 @ 0.05,0.88] Nail clipper
+[1.00 @ 0.01,0.90] D
+[1.00 @ 0.69,0.89] 00.00.00.00
+---LEFT_LINES---
+0.33|Help
+0.36|12:04:52 PM
+0.35|ĐÊ THI: ( NAILS (EN) 2026 )
+0.41|IN ĐIÊM
+0.40|CÂU HỎI SỐ:
+0.41|5
+0.40|CỦA 97. CÂU HỎI!
+0.45|le tool used to clean under the nails is:
+0.58|RẢ LỜI:
+0.57|CANL ÔI TIẾP THEO
+0.64|Nippers
+0.72|Nail brush
+0.80|Electric file
+0.88|Nail clipper
+0.90|D
+---CONTENT---
+0.35|ĐÊ THI: ( NAILS (EN) 2026 )
+0.41|IN ĐIÊM
+0.45|le tool used to clean under the nails is:
+0.58|RẢ LỜI:
+0.64|Nippers
+0.72|Nail brush
+0.88|Nail clipper
+---CHOICE_ROWS---
+A y=0.42 meanG=159.5 lime=0.091 bright=35.2 text=IN ĐIÊM
+B y=0.46 meanG=206.6 lime=0.562 bright=179.1 text=le tool used to clean under the nails is:
+C y=0.59 meanG=167.8 lime=0.045 bright=13.6 text=RẢ LỜI:
+D y=0.65 meanG=212.3 lime=0.711 bright=57.6 text=Nippers
+SELECTED_HINT: B bright=179.1 margin=121.5 text=le tool used to clean under the nails is:

@@ -1,0 +1,66 @@
+FILE: IMG_4467.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 37
+---
+[0.50 @ 0.02,0.38] File
+[1.00 @ 0.05,0.38] Help
+[0.50 @ 0.06,0.41] 12:12:39 PM
+[0.50 @ 0.39,0.41] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.06,0.45] IN ĐIỂM
+[1.00 @ 0.16,0.45] CÂU HỎI SỐ:
+[1.00 @ 0.29,0.45] 24
+[0.50 @ 0.34,0.45] CỦA 97 CÂU HỎI.
+[0.50 @ 0.65,0.48] Nail Trac Nghiem 2026_1.dll
+[1.00 @ 0.02,0.49] Ingrown hair is commonly associated with:
+[0.50 @ 0.65,0.50] Nail Trac Nghiem 2026_2.dll
+[1.00 @ 0.65,0.52] Nail Trac Nghiem 2026
+[0.30 @ 0.83,0.52] 3.dll
+[0.50 @ 0.65,0.54] Nail Trac Nghiem 5.dll
+[1.00 @ 0.65,0.56] Nails Theory 2026.dll
+[0.50 @ 0.69,0.58] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.02,0.61] TRẢ LỜI:
+[0.50 @ 0.46,0.62] CÂU HỒI TIẾP THAO
+[0.30 @ 0.67,0.63] TẠO BÀI MỚI
+[0.30 @ 0.66,0.65] HOẠC CÂU HỎI
+[1.00 @ 0.86,0.64] CHỌN BÀI THI
+[1.00 @ 0.07,0.67] Viruses
+[0.50 @ 0.65,0.71] TRẢ LỜI ĐÙNG: TRẢ LỜI SAI:
+[0.50 @ 0.89,0.71] ĐIỂM TỔNG KẾ
+[1.00 @ 0.68,0.73] 19
+[1.00 @ 0.07,0.75] Bacteria
+[0.50 @ 0.67,0.82] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.06,0.83] Allergies
+[0.30 @ 0.65,0.87] GIO
+[1.00 @ 0.69,0.88] 00
+[1.00 @ 0.72,0.88] PHUT
+[1.00 @ 0.78,0.88] 00
+[1.00 @ 0.82,0.88] GIAY
+[1.00 @ 0.86,0.88] 00
+[0.30 @ 0.92,0.87] SẤT ĐẦU
+[1.00 @ 0.06,0.91] Fungus
+[1.00 @ 0.69,0.93] 00.00.00.00
+---LEFT_LINES---
+0.38|File
+0.38|Help
+0.41|12:12:39 PM
+0.41|ĐỀ THI: ( NAILS (EN) 2026)
+0.45|IN ĐIỂM
+0.45|CÂU HỎI SỐ:
+0.45|24
+0.45|CỦA 97 CÂU HỎI.
+0.49|Ingrown hair is commonly associated with:
+0.61|TRẢ LỜI:
+0.62|CÂU HỒI TIẾP THAO
+0.67|Viruses
+0.75|Bacteria
+0.83|Allergies
+---CONTENT---
+0.49|Ingrown hair is commonly associated with:
+0.67|Viruses
+0.75|Bacteria
+0.83|Allergies
+---CHOICE_ROWS---
+A y=0.68 meanG=206.6 lime=0.671 bright=56.8 text=Viruses
+B y=0.76 meanG=208.0 lime=0.687 bright=50.6 text=Bacteria
+C y=0.84 meanG=207.8 lime=0.693 bright=43.1 text=Allergies
+SELECTED_HINT: none margin=6.2

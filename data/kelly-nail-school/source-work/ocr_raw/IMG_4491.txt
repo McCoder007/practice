@@ -1,0 +1,69 @@
+FILE: IMG_4491.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 36
+---
+[1.00 @ 0.00,0.31] le Help
+[1.00 @ 0.03,0.34] 12:26:41 PM
+[0.30 @ 0.39,0.33] ĐỀTHI(INAILS (EN) 2026)
+[0.50 @ 0.03,0.39] IN ĐIỂM
+[1.00 @ 0.15,0.39] CÂU HỎI SỐ:
+[1.00 @ 0.29,0.39] 63
+[0.50 @ 0.34,0.39] CỦA 97 CẦU HỎI.
+[1.00 @ 0.70,0.41] Nail Trac Nghiem 2026_1.dll
+[1.00 @ -0.00,0.44] To reduce the heat sensation during UV/LED curing, you should:
+[1.00 @ 0.70,0.43] Nail Trac Nghiem 2026
+[0.50 @ 0.91,0.43] 2.dll
+[1.00 @ 0.70,0.46] Nail Trac Nghiem 2026
+[1.00 @ 0.91,0.46] 3.dll
+[1.00 @ 0.70,0.48] Nail Trac Nghiem 5.dll
+[1.00 @ 0.70,0.50] Nails Theory 2026.dll
+[0.30 @ 0.75,0.53] ĐỀ THI: ( NAILS (EN)
+[0.50 @ -0.00,0.57] TRẢ LỜI:
+[0.30 @ 0.49,0.57] SAL HỘI TÉP THEO
+[0.30 @ 0.73,0.58] HHO BÀI MỚI
+[0.30 @ 0.71,0.61] HUẮC CÂU HỎI
+[0.30 @ 0.95,0.60] СНỌ
+[1.00 @ 0.05,0.64] Reduce curing time or cure in shorter intervals
+[0.50 @ 0.70,0.67] TRÃ LỜI ĐÙNG: TRÀ LỜI SAI:
+[1.00 @ 0.98,0.68] Đ
+[1.00 @ 0.74,0.70] 55
+[1.00 @ 0.88,0.71] 7
+[1.00 @ 0.05,0.72] Increase curing time continuously
+[0.50 @ 0.05,0.81] Press the nail firmly into the lamp
+[0.50 @ 0.73,0.80] CHÍNH GIỜ CHO CU
+[1.00 @ 0.74,0.86] 00
+[1.00 @ 0.85,0.86] 00
+[0.50 @ 0.89,0.86] GIAN
+[1.00 @ 0.94,0.86] 00
+[1.00 @ 0.05,0.89] Make no changes
+[1.00 @ 0.01,0.92] D
+[1.00 @ 0.75,0.93] 00.00.00.00
+---LEFT_LINES---
+0.31|le Help
+0.34|12:26:41 PM
+0.33|ĐỀTHI(INAILS (EN) 2026)
+0.39|IN ĐIỂM
+0.39|CÂU HỎI SỐ:
+0.39|63
+0.39|CỦA 97 CẦU HỎI.
+0.44|To reduce the heat sensation during UV/LED curing, you should:
+0.57|TRẢ LỜI:
+0.57|SAL HỘI TÉP THEO
+0.64|Reduce curing time or cure in shorter intervals
+0.72|Increase curing time continuously
+0.81|Press the nail firmly into the lamp
+0.89|Make no changes
+---CONTENT---
+0.39|CỦA 97 CẦU HỎI.
+0.44|To reduce the heat sensation during UV/LED curing, you should:
+0.57|SAL HỘI TÉP THEO
+0.64|Reduce curing time or cure in shorter intervals
+0.72|Increase curing time continuously
+0.81|Press the nail firmly into the lamp
+0.89|Make no changes
+---CHOICE_ROWS---
+A y=0.45 meanG=196.3 lime=0.509 bright=173.0 text=To reduce the heat sensation during UV/LED curing, you should:
+B y=0.59 meanG=159.9 lime=0.021 bright=10.9 text=SAL HỘI TÉP THEO
+C y=0.65 meanG=198.7 lime=0.592 bright=59.2 text=Reduce curing time or cure in shorter intervals
+D y=0.73 meanG=202.5 lime=0.637 bright=52.4 text=Increase curing time continuously
+SELECTED_HINT: A bright=173.0 margin=113.8 text=To reduce the heat sensation during UV/LED curing, you should:

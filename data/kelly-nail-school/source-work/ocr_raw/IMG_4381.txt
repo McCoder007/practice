@@ -1,0 +1,67 @@
+FILE: IMG_4381.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 35
+---
+[1.00 @ 0.00,0.28] ile Help
+[0.30 @ 0.03,0.31] 11:11:2240
+[0.50 @ 0.36,0.32] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.03,0.36] N ĐIỂM
+[1.00 @ 0.14,0.36] CÂU HỎI SÓ:
+[1.00 @ 0.27,0.36] 38
+[1.00 @ 0.31,0.36] CỦA 97 CÂU HỎI.
+[1.00 @ -0.00,0.40] Which step is part of the proper pedicure spa cleaning procedure?
+[0.50 @ 0.63,0.39] Nail Trac Nghiem 2026 _1.dll
+[1.00 @ 0.63,0.41] Nail Trac Nghiem 2026
+[0.30 @ 0.81,0.42] • 2.dll
+[0.50 @ 0.63,0.43] Nail Trac Nghiem 2026_3.dil
+[1.00 @ 0.63,0.45] Nail Trac Nghiem 5.dll
+[1.00 @ 0.63,0.47] Nails Theory 2026.dll
+[0.50 @ 0.67,0.50] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ -0.00,0.52] TRẢ LỜI:
+[0.50 @ 0.44,0.53] CÂU HỘI TIẾP THEO
+[0.30 @ 0.64,0.54] NẠO BÀI MỚI
+[0.50 @ 0.64,0.56] HOẶC CÂU HỎI
+[0.50 @ 0.84,0.56] GHIỌN BÀI THI
+[1.00 @ 0.05,0.58] Applying gel polish
+[0.50 @ 0.62,0.62] TRẢ LỜI ĐÙNG: TRÀ LỜI SAI:
+[1.00 @ 0.87,0.63] ĐIỂM TỔNG KẾT
+[1.00 @ 0.05,0.66] Scrubbing the basin
+[1.00 @ 0.66,0.65] 37
+[1.00 @ 0.05,0.74] Rinsing with hot water only
+[1.00 @ 0.64,0.73] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.66,0.78] 00
+[1.00 @ 0.75,0.79] 00
+[0.50 @ 0.79,0.79] GIAY
+[1.00 @ 0.83,0.79] 00
+[0.30 @ 0.89,0.79] ĐẤT ĐẦU
+[1.00 @ 0.05,0.81] Wiping with acetone
+[1.00 @ 0.66,0.84] 00.00.00.00
+[0.30 @ 0.36,0.98] XIN ĐỌC BAN HƯƠNG ĐAN O TRÊN
+---LEFT_LINES---
+0.28|ile Help
+0.31|11:11:2240
+0.32|ĐỀ THI: ( NAILS (EN) 2026)
+0.36|N ĐIỂM
+0.36|CÂU HỎI SÓ:
+0.36|38
+0.36|CỦA 97 CÂU HỎI.
+0.40|Which step is part of the proper pedicure spa cleaning procedure?
+0.52|TRẢ LỜI:
+0.53|CÂU HỘI TIẾP THEO
+0.58|Applying gel polish
+0.66|Scrubbing the basin
+0.74|Rinsing with hot water only
+0.81|Wiping with acetone
+---CONTENT---
+0.36|N ĐIỂM
+0.40|Which step is part of the proper pedicure spa cleaning procedure?
+0.58|Applying gel polish
+0.66|Scrubbing the basin
+0.74|Rinsing with hot water only
+0.81|Wiping with acetone
+---CHOICE_ROWS---
+A y=0.59 meanG=206.0 lime=0.657 bright=52.7 text=Applying gel polish
+B y=0.67 meanG=207.4 lime=0.663 bright=46.3 text=Scrubbing the basin
+C y=0.75 meanG=206.6 lime=0.665 bright=41.5 text=Rinsing with hot water only
+D y=0.82 meanG=205.8 lime=0.649 bright=34.7 text=Wiping with acetone
+SELECTED_HINT: none margin=6.4

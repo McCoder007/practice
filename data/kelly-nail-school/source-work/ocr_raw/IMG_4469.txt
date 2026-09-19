@@ -1,0 +1,72 @@
+FILE: IMG_4469.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 37
+---
+[1.00 @ 0.04,0.28] File Help
+[0.50 @ 0.08,0.31] 12:13:26 PM
+[0.50 @ 0.40,0.32] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.08,0.36] IN ĐIỀM
+[1.00 @ 0.18,0.36] CÂU HỎI SỐ:
+[1.00 @ 0.31,0.36] 26
+[0.30 @ 0.34,0.36] CỦA 97 CÂU HỎI.
+[1.00 @ 0.04,0.40] Pedicure spa disinfectant should be left in the basin according to:
+[1.00 @ 0.67,0.40] Nail Trac Nghiem 2026_1.dll
+[1.00 @ 0.67,0.42] Nail Trac Nghiem 2026_2.dll
+[0.50 @ 0.67,0.44] Nail Trac Nghiem 2026_3.dil
+[0.50 @ 0.67,0.46] Nail Trac Nghiem 5.dlI
+[1.00 @ 0.67,0.47] Nails Theory 2026.dll
+[0.50 @ 0.71,0.50] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ 0.04,0.52] TRẢ LỜI:
+[0.30 @ 0.23,0.53] VÂN. BẠN ĐÚNG RỒI
+[0.30 @ 0.48,0.53] CAU HỒI TIÉA THEO
+[0.30 @ 0.69,0.55] TẠO BÀI MỚI
+[1.00 @ 0.09,0.58] Personal preference
+[0.30 @ 0.67,0.57] HOẶC CÂU HỎI
+[1.00 @ 0.87,0.56] CHỌN BÀI THI
+[0.30 @ 0.66,0.62] TRẢ LỜI ĐÙNG: TRÀ LỜI SAI:
+[0.30 @ 0.90,0.63] ĐIỂM TỔNG KI
+[1.00 @ 0.09,0.65] 1 minute
+[1.00 @ 0.69,0.65] 22
+[1.00 @ 0.09,0.73] ManufacturerâCÓs instructions
+[1.00 @ 0.68,0.73] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.69,0.78] 00
+[0.30 @ 0.73,0.78] CHE
+[1.00 @ 0.78,0.78] 00
+[0.30 @ 0.82,0.78] GIA)
+[1.00 @ 0.86,0.79] 00
+[1.00 @ 0.92,0.78] BẤT ĐẦU
+[0.50 @ 0.09,0.81] 30 seconds
+[1.00 @ 0.70,0.84] 00.00.00.00
+[0.30 @ 0.40,0.97] XIN ĐỌC BAN HƯƠNG DAN O TREN
+[0.50 @ 0.83,0.98] Weduesdav. September 16
+---LEFT_LINES---
+0.28|File Help
+0.31|12:13:26 PM
+0.32|ĐỀ THI: ( NAILS (EN) 2026 )
+0.36|IN ĐIỀM
+0.36|CÂU HỎI SỐ:
+0.36|26
+0.36|CỦA 97 CÂU HỎI.
+0.40|Pedicure spa disinfectant should be left in the basin according to:
+0.52|TRẢ LỜI:
+0.53|VÂN. BẠN ĐÚNG RỒI
+0.53|CAU HỒI TIÉA THEO
+0.58|Personal preference
+0.65|1 minute
+0.73|ManufacturerâCÓs instructions
+0.81|30 seconds
+---CONTENT---
+0.36|IN ĐIỀM
+0.40|Pedicure spa disinfectant should be left in the basin according to:
+0.53|VÂN. BẠN ĐÚNG RỒI
+0.53|CAU HỒI TIÉA THEO
+0.58|Personal preference
+0.65|1 minute
+0.73|ManufacturerâCÓs instructions
+0.81|30 seconds
+---CHOICE_ROWS---
+A y=0.53 meanG=148.6 lime=0.067 bright=30.9 text=VÂN. BẠN ĐÚNG RỒI
+B y=0.54 meanG=146.0 lime=0.040 bright=23.6 text=CAU HỒI TIÉA THEO
+C y=0.59 meanG=204.4 lime=0.583 bright=56.8 text=Personal preference
+D y=0.66 meanG=208.4 lime=0.611 bright=49.4 text=1 minute
+SELECTED_HINT: none margin=7.4

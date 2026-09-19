@@ -1,0 +1,67 @@
+FILE: IMG_4416.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 33
+---
+[0.30 @ -0.00,0.31] 1:49:49 AN
+[0.30 @ 0.34,0.31] ĐỀ THI: (INAILS (EN) 2026)
+[0.30 @ -0.00,0.36] ĐIỀM
+[0.50 @ 0.10,0.36] CÂU HỎI SỐ:
+[1.00 @ 0.24,0.36] 72
+[0.30 @ 0.29,0.36] CỦA 97 CẦU HOI!
+[0.50 @ 0.63,0.38] Nail Trac Nghiem 2026_1.dll
+[1.00 @ 0.00,0.41] use, a toe separator should be:
+[1.00 @ 0.63,0.41] Nail Trac Nghiem 2026
+[0.30 @ 0.82,0.41] 2.dll
+[0.50 @ 0.63,0.42] Nail Trac Nghiem 2026_3.dll
+[0.50 @ 0.63,0.45] Nail Trac Nghiem 5.dil
+[0.50 @ 0.63,0.47] Nails Theory 2026.dll
+[0.50 @ 0.67,0.50] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.00,0.54] LƠI:
+[0.30 @ 0.43,0.53] CAI GOI TIEPTHEO
+[0.30 @ 0.65,0.54] 1O BÀI MỚI
+[0.30 @ 0.67,0.57] ẮC CÂU HỎI
+[0.50 @ 0.86,0.56] CHỌN BÀI THI
+[1.00 @ 0.01,0.60] Rinsed with water
+[0.50 @ 0.63,0.63] TRÀ LỜI ĐÚNG: TRÀ LỜI SAI:
+[0.30 @ 0.89,0.63] ĐỊỂM TỔNG K
+[1.00 @ 0.67,0.66] 67
+[1.00 @ 0.01,0.68] Disinfected
+[0.50 @ 0.65,0.74] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.01,0.77] Discarded
+[1.00 @ 0.67,0.80] 00
+[1.00 @ 0.76,0.80] 00
+[0.30 @ 0.81,0.80] GIAY
+[1.00 @ 0.86,0.81] 00
+[0.30 @ 0.92,0.80] TẮT ĐẦU
+[1.00 @ 0.01,0.85] Reused
+[1.00 @ 0.68,0.86] 00.00.00.00
+---LEFT_LINES---
+0.31|1:49:49 AN
+0.31|ĐỀ THI: (INAILS (EN) 2026)
+0.36|ĐIỀM
+0.36|CÂU HỎI SỐ:
+0.36|72
+0.36|CỦA 97 CẦU HOI!
+0.41|use, a toe separator should be:
+0.54|LƠI:
+0.53|CAI GOI TIEPTHEO
+0.60|Rinsed with water
+0.68|Disinfected
+0.77|Discarded
+0.85|Reused
+---CONTENT---
+0.36|ĐIỀM
+0.36|CỦA 97 CẦU HOI!
+0.41|use, a toe separator should be:
+0.54|LƠI:
+0.53|CAI GOI TIEPTHEO
+0.60|Rinsed with water
+0.68|Disinfected
+0.77|Discarded
+0.85|Reused
+---CHOICE_ROWS---
+A y=0.42 meanG=205.2 lime=0.599 bright=185.0 text=use, a toe separator should be:
+B y=0.55 meanG=163.2 lime=0.052 bright=14.4 text=LƠI:
+C y=0.55 meanG=162.9 lime=0.052 bright=14.4 text=CAI GOI TIEPTHEO
+D y=0.61 meanG=209.1 lime=0.677 bright=59.7 text=Rinsed with water
+SELECTED_HINT: A bright=185.0 margin=125.2 text=use, a toe separator should be:

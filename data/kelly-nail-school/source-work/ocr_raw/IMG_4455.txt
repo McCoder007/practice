@@ -1,0 +1,71 @@
+FILE: IMG_4455.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 35
+---
+[1.00 @ 0.00,0.28] Help
+[1.00 @ 0.01,0.32] 12:06:36 PM
+[0.30 @ 0.36,0.31] ĐỀ THI (INAILS (EN) 2026 )
+[0.30 @ 0.01,0.37] N ĐIỂM
+[0.50 @ 0.12,0.36] CÂU HỎI SỐ:
+[1.00 @ 0.27,0.37] 12
+[0.30 @ 0.31,0.36] CỦA 97 CẦU HOI.
+[0.50 @ 0.65,0.39] Nail Trac Nghiem 2026_1.dli
+[1.00 @ 0.01,0.41] artificial nail mainly contacts the natural nail at the:
+[0.50 @ 0.65,0.41] Nail Trac Nghiem 2026_2.dll
+[1.00 @ 0.65,0.43] Nail Trac Nghiem 2026
+[0.30 @ 0.85,0.43] 3.dl
+[1.00 @ 0.65,0.46] Nail Trac Nghiem 5.dli
+[1.00 @ 0.65,0.48] Nails Theory 2026.dll
+[0.50 @ 0.69,0.50] ĐỀ THI: ( NAILS (EN) 2026 )
+[1.00 @ 0.00,0.54] Ả LỜI:
+[0.30 @ 0.45,0.54] CẤU HON TẾP THEO
+[0.50 @ 0.67,0.55] THO BÀI MỚI
+[0.50 @ 0.69,0.57] IẮC CÂU HỎI
+[0.30 @ 0.88,0.56] CHỌN BÀI TH
+[1.00 @ 0.04,0.60] Contact area/well (where the tip meets the natural nail)
+[0.50 @ 0.65,0.64] TRÀ LỜI ĐÙNG: TRẢ LỜI SAI:
+[1.00 @ 0.90,0.63] ĐIỂM TỔNG
+[1.00 @ 0.69,0.66] 10
+[1.00 @ 0.81,0.67] 1
+[1.00 @ 0.04,0.68] Hand skin
+[0.50 @ 0.00,0.70] 3
+[1.00 @ 0.67,0.75] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.04,0.77] Palm
+[1.00 @ 0.69,0.80] 00
+[1.00 @ 0.78,0.81] 00
+[1.00 @ 0.87,0.81] 00
+[0.30 @ 0.92,0.80] SẮT Đ
+[1.00 @ 0.04,0.85] Finger joint
+[1.00 @ 0.69,0.86] 00.00.00.00
+---LEFT_LINES---
+0.28|Help
+0.32|12:06:36 PM
+0.31|ĐỀ THI (INAILS (EN) 2026 )
+0.37|N ĐIỂM
+0.36|CÂU HỎI SỐ:
+0.37|12
+0.36|CỦA 97 CẦU HOI.
+0.41|artificial nail mainly contacts the natural nail at the:
+0.54|Ả LỜI:
+0.54|CẤU HON TẾP THEO
+0.60|Contact area/well (where the tip meets the natural nail)
+0.68|Hand skin
+0.70|3
+0.77|Palm
+0.85|Finger joint
+---CONTENT---
+0.37|N ĐIỂM
+0.36|CỦA 97 CẦU HOI.
+0.41|artificial nail mainly contacts the natural nail at the:
+0.54|Ả LỜI:
+0.54|CẤU HON TẾP THEO
+0.60|Contact area/well (where the tip meets the natural nail)
+0.68|Hand skin
+0.77|Palm
+0.85|Finger joint
+---CHOICE_ROWS---
+A y=0.42 meanG=201.3 lime=0.474 bright=172.9 text=artificial nail mainly contacts the natural nail at the:
+B y=0.55 meanG=163.9 lime=0.066 bright=14.5 text=Ả LỜI:
+C y=0.55 meanG=164.7 lime=0.069 bright=14.6 text=CẤU HON TẾP THEO
+D y=0.61 meanG=203.4 lime=0.571 bright=58.0 text=Contact area/well (where the tip meets the natural nail)
+SELECTED_HINT: A bright=172.9 margin=114.9 text=artificial nail mainly contacts the natural nail at the:

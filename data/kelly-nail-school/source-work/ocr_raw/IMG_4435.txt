@@ -1,0 +1,71 @@
+FILE: IMG_4435.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 36
+---
+[1.00 @ 0.00,0.26] File Help
+[0.50 @ 0.05,0.29] 11:59:20 A.M
+[0.50 @ 0.38,0.29] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.04,0.34] N ĐIỂM
+[1.00 @ 0.15,0.34] CÂU HỎI SỐ:
+[1.00 @ 0.28,0.34] 90
+[1.00 @ 0.33,0.34] CỦA 97 CẦU HỎI.
+[1.00 @ 0.01,0.38] Which substance is used to bond two surfaces together or harden
+[1.00 @ 0.65,0.37] Nail Trac Nghiem 2026_1.dll
+[1.00 @ 0.01,0.41] in place?
+[1.00 @ 0.65,0.40] Nail Trac Nghiem 2026
+[0.30 @ 0.84,0.40] 2.dll
+[1.00 @ 0.65,0.42] Nail Trac Nghiem 2026
+[0.30 @ 0.83,0.42] _3.dli
+[1.00 @ 0.65,0.44] Nail Trac Nghiem 5.dll
+[0.50 @ 0.65,0.46] Nails Theory 2026.dll
+[0.50 @ 0.69,0.48] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ 0.02,0.50] TRẢ LỜI:
+[0.30 @ 0.52,0.52] ỞI TIẾP THEO
+[0.30 @ 0.69,0.53] 1O BẢI MỚI
+[0.30 @ 0.69,0.55] ÁC CÂU HỎI
+[0.50 @ 0.87,0.55] CHỌN BÀI THI
+[1.00 @ 0.06,0.57] Glue (adhesive)
+[0.50 @ 0.64,0.61] TRÀ LỜI ĐÙNG: TRÀ LỜI SAI-
+[0.50 @ 0.90,0.62] ĐIỂM TỔNG K
+[1.00 @ 0.06,0.64] Conditioning oil
+[1.00 @ 0.68,0.64] 83
+[1.00 @ 0.06,0.72] Hand cleanser
+[1.00 @ 0.66,0.72] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.68,0.78] 00
+[1.00 @ 0.77,0.78] 00
+[0.50 @ 0.81,0.78] GIAY
+[1.00 @ 0.86,0.78] 00
+[0.30 @ 0.92,0.78] ẮT ĐẦU
+[1.00 @ 0.06,0.80] Base coat
+[1.00 @ 0.68,0.84] 00.00.00.00
+---LEFT_LINES---
+0.26|File Help
+0.29|11:59:20 A.M
+0.29|ĐỀ THI: ( NAILS (EN) 2026)
+0.34|N ĐIỂM
+0.34|CÂU HỎI SỐ:
+0.34|90
+0.34|CỦA 97 CẦU HỎI.
+0.38|Which substance is used to bond two surfaces together or harden
+0.41|in place?
+0.50|TRẢ LỜI:
+0.52|ỞI TIẾP THEO
+0.57|Glue (adhesive)
+0.64|Conditioning oil
+0.72|Hand cleanser
+0.80|Base coat
+---CONTENT---
+0.34|N ĐIỂM
+0.34|CỦA 97 CẦU HỎI.
+0.38|Which substance is used to bond two surfaces together or harden
+0.41|in place?
+0.57|Glue (adhesive)
+0.64|Conditioning oil
+0.72|Hand cleanser
+0.80|Base coat
+---CHOICE_ROWS---
+A y=0.40 meanG=207.4 lime=0.642 bright=186.8 text=Which substance is used to bond two surfaces together or harden
+B y=0.42 meanG=220.0 lime=0.772 bright=215.6 text=in place?
+C y=0.57 meanG=206.9 lime=0.598 bright=56.8 text=Glue (adhesive)
+D y=0.65 meanG=210.3 lime=0.629 bright=51.8 text=Conditioning oil
+SELECTED_HINT: B bright=215.6 margin=28.8 text=in place?

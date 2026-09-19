@@ -1,0 +1,69 @@
+FILE: IMG_4411.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 34
+---
+[0.50 @ 0.02,0.35] File Help
+[0.30 @ 0.05,0.38] 1I:4S:273
+[0.50 @ 0.37,0.38] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.05,0.42] NĐIỂM
+[0.50 @ 0.15,0.42] CÂU HỎI SỐ:
+[1.00 @ 0.28,0.43] 67
+[0.50 @ 0.33,0.42] CỦA 97 CẦU HỎI.
+[0.50 @ 0.63,0.45] Nail Trac Nghiem 2026_1.dl
+[1.00 @ 0.02,0.46] What is Onychia?
+[0.50 @ 0.63,0.47] Nail Trac Nghiem 2026_2.dll
+[0.50 @ 0.63,0.49] Nail Trac Nghiem 2026_3.dll
+[1.00 @ 0.63,0.51] Nail Trac Nghiem 5.dll
+[0.50 @ 0.63,0.53] Nails Theory 2026.dll
+[0.50 @ 0.68,0.55] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ 0.02,0.58] TRÀ LỜI:
+[0.50 @ 0.45,0.59] CÂU HỘI TIẾP THEO
+[1.00 @ 0.65,0.60] TẠO BÀI MỚI
+[0.50 @ 0.64,0.62] HOẶC CÂU HỎI
+[0.50 @ 0.85,0.61] CHỌN BÀI THI
+[1.00 @ 0.06,0.64] Nail fungus
+[0.50 @ 0.63,0.68] TRÀ LỜI ĐÙNG: TRÀ LỜI SAI:
+[1.00 @ 0.88,0.68] ĐIỂM TỔNG KẾT
+[1.00 @ 0.67,0.70] 62
+[1.00 @ 0.06,0.71] Inflammation of the nail matrix/base
+[1.00 @ 0.06,0.80] Brittle nails
+[0.50 @ 0.65,0.78] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.67,0.84] 00
+[0.30 @ 0.71,0.84] PHUT
+[1.00 @ 0.76,0.84] 00
+[0.30 @ 0.80,0.84] CIAI
+[1.00 @ 0.84,0.84] 00
+[0.30 @ 0.90,0.84] HẮT ĐẦU
+[1.00 @ 0.06,0.87] Splitting nails
+[1.00 @ 0.68,0.90] 00.00.00.00
+---LEFT_LINES---
+0.35|File Help
+0.38|1I:4S:273
+0.38|ĐỀ THI: ( NAILS (EN) 2026 )
+0.42|NĐIỂM
+0.42|CÂU HỎI SỐ:
+0.43|67
+0.42|CỦA 97 CẦU HỎI.
+0.46|What is Onychia?
+0.58|TRÀ LỜI:
+0.59|CÂU HỘI TIẾP THEO
+0.64|Nail fungus
+0.71|Inflammation of the nail matrix/base
+0.80|Brittle nails
+0.87|Splitting nails
+---CONTENT---
+0.38|1I:4S:273
+0.42|NĐIỂM
+0.42|CỦA 97 CẦU HỎI.
+0.46|What is Onychia?
+0.58|TRÀ LỜI:
+0.64|Nail fungus
+0.71|Inflammation of the nail matrix/base
+0.80|Brittle nails
+0.87|Splitting nails
+---CHOICE_ROWS---
+A y=0.47 meanG=208.8 lime=0.712 bright=178.0 text=What is Onychia?
+B y=0.59 meanG=170.6 lime=0.046 bright=18.2 text=TRÀ LỜI:
+C y=0.65 meanG=208.1 lime=0.666 bright=55.7 text=Nail fungus
+D y=0.72 meanG=206.5 lime=0.621 bright=49.6 text=Inflammation of the nail matrix/base
+SELECTED_HINT: A bright=178.0 margin=122.4 text=What is Onychia?

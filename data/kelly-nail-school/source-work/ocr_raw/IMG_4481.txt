@@ -1,0 +1,73 @@
+FILE: IMG_4481.JPG
+ORIENTED: 3024x4032 CROP_TL: 181,725,2661,2822
+LINES: 36
+---
+[1.00 @ 0.15,0.36] File
+[0.50 @ 0.18,0.36] Help
+[1.00 @ 0.18,0.39] 12:21:10 PM
+[0.50 @ 0.42,0.39] ĐÊ THI: ( NAILS (EN) 2026 )
+[1.00 @ 0.18,0.42] IN ĐIỂM
+[0.50 @ 0.26,0.42] CÂU HỎI SỐ:
+[1.00 @ 0.36,0.42] 41
+[1.00 @ 0.39,0.42] CỦA 97 CÂU HỎI.
+[1.00 @ 0.15,0.45] Which step is part of the proper pedicure spa cleaning procedure?
+[1.00 @ 0.62,0.45] Nail Trac Nghiem 2026
+[0.50 @ 0.62,0.46] Nail Trac Nghiem 2026_2.dll
+[0.30 @ 0.75,0.46] 1.dll
+[1.00 @ 0.62,0.48] Nail Trac Nghiem 2026
+[0.50 @ 0.62,0.49] Nail Trac Nghiem 5.dll
+[0.30 @ 0.74,0.48] _3.dll
+[0.50 @ 0.62,0.51] Nails Theory 2026.dlI
+[0.30 @ 0.16,0.54] RÀ LỜI:
+[0.50 @ 0.65,0.53] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.48,0.55] CÁN HỎI TẾP THEO
+[0.30 @ 0.63,0.56] TẠO BÀI MỚI
+[1.00 @ 0.19,0.58] Applying gel polish
+[0.50 @ 0.62,0.57] HOẶC CÂU HỎI
+[0.30 @ 0.76,0.57] CHỌN BÀI THI
+[0.50 @ 0.61,0.62] TRÀ LỜI ĐÚNG: TRẢ LỜI SAI-
+[0.50 @ 0.78,0.62] ĐIỂM TỔNG KẾT
+[1.00 @ 0.19,0.64] Scrubbing the basin
+[1.00 @ 0.64,0.64] 36
+[1.00 @ 0.19,0.69] Rinsing with hot water only
+[0.50 @ 0.62,0.69] CHỈNH GIỜ CHO CUÔC THI
+[1.00 @ 0.63,0.73] 00
+[1.00 @ 0.69,0.74] 00
+[1.00 @ 0.19,0.75] Wiping with acetone
+[0.30 @ 0.80,0.74] ẤT ĐÂU
+[1.00 @ 0.64,0.77] 00.00.00.00
+[0.30 @ 0.45,0.87] CRUTKALOIGRO
+[0.50 @ 0.83,0.95] HP vs17e
+---LEFT_LINES---
+0.36|File
+0.36|Help
+0.39|12:21:10 PM
+0.39|ĐÊ THI: ( NAILS (EN) 2026 )
+0.42|IN ĐIỂM
+0.42|CÂU HỎI SỐ:
+0.42|41
+0.42|CỦA 97 CÂU HỎI.
+0.45|Which step is part of the proper pedicure spa cleaning procedure?
+0.54|RÀ LỜI:
+0.55|CÁN HỎI TẾP THEO
+0.58|Applying gel polish
+0.64|Scrubbing the basin
+0.69|Rinsing with hot water only
+0.75|Wiping with acetone
+0.87|CRUTKALOIGRO
+---CONTENT---
+0.39|ĐÊ THI: ( NAILS (EN) 2026 )
+0.45|Which step is part of the proper pedicure spa cleaning procedure?
+0.54|RÀ LỜI:
+0.55|CÁN HỎI TẾP THEO
+0.58|Applying gel polish
+0.64|Scrubbing the basin
+0.69|Rinsing with hot water only
+0.75|Wiping with acetone
+0.87|CRUTKALOIGRO
+---CHOICE_ROWS---
+A y=0.46 meanG=178.1 lime=0.457 bright=129.5 text=Which step is part of the proper pedicure spa cleaning procedure?
+B y=0.55 meanG=165.0 lime=0.168 bright=45.3 text=RÀ LỜI:
+C y=0.56 meanG=158.4 lime=0.073 bright=17.3 text=CÁN HỎI TẾP THEO
+D y=0.59 meanG=175.6 lime=0.407 bright=35.4 text=Applying gel polish
+SELECTED_HINT: A bright=129.5 margin=84.3 text=Which step is part of the proper pedicure spa cleaning procedure?

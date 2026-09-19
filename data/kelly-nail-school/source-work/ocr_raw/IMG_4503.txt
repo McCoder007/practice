@@ -1,0 +1,71 @@
+FILE: IMG_4503.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 35
+---
+[1.00 @ 0.03,0.40] File
+[1.00 @ 0.06,0.40] Help
+[1.00 @ 0.07,0.43] 12:34:42 PM
+[0.50 @ 0.38,0.43] ĐÊ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.06,0.47] N ĐIỂM
+[1.00 @ 0.17,0.47] CÂU HỎI SỐ:
+[1.00 @ 0.29,0.48] 92
+[0.50 @ 0.33,0.47] CỦA 97 CÂU HỎI.
+[1.00 @ 0.03,0.51] Polymer (plastic resin) is commonly found in which of the following
+[0.50 @ 0.63,0.50] Nail Trac Nghiem 2026_1.dil
+[0.50 @ 0.63,0.52] Nail Trac Nghiem 2026_2.dll
+[1.00 @ 0.03,0.54] products?
+[1.00 @ 0.63,0.54] Nail Trac Nghiem 2026_3.dll
+[0.50 @ 0.63,0.56] Nail Trac Nghiem 5.dll
+[1.00 @ 0.62,0.58] Nails Theory 2026.dll
+[0.50 @ 0.67,0.60] ĐỀ THI: ( NAILS (EN) 2026 )
+[1.00 @ 0.04,0.62] TRẢ LỜI:
+[0.30 @ 0.45,0.63] CÂU H L TIẾP THEO
+[0.30 @ 0.64,0.64] TAO BÀI MỚI
+[0.50 @ 0.63,0.66] HOẶC CÂU HỎI
+[0.50 @ 0.83,0.66] CHỌN BẢI THI
+[1.00 @ 0.08,0.68] Top coat
+[0.50 @ 0.62,0.72] TRÀ LỜI ĐÚNG: TRÀ LỜI SAI:
+[1.00 @ 0.85,0.72] ĐIỂM TỔNG KẾT
+[1.00 @ 0.08,0.75] Warm water
+[1.00 @ 0.66,0.74] 82
+[1.00 @ 0.08,0.83] Cotton balls
+[0.50 @ 0.64,0.82] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.66,0.87] 00
+[0.50 @ 0.69,0.87] PHUT
+[1.00 @ 0.74,0.88] 00
+[1.00 @ 0.82,0.88] 00
+[0.30 @ 0.87,0.87] VẤT ĐẦU
+[1.00 @ 0.07,0.90] Nail clippers
+[1.00 @ 0.66,0.93] 00.00.00.00
+---LEFT_LINES---
+0.40|File
+0.40|Help
+0.43|12:34:42 PM
+0.43|ĐÊ THI: ( NAILS (EN) 2026 )
+0.47|N ĐIỂM
+0.47|CÂU HỎI SỐ:
+0.48|92
+0.47|CỦA 97 CÂU HỎI.
+0.51|Polymer (plastic resin) is commonly found in which of the following
+0.54|products?
+0.62|TRẢ LỜI:
+0.63|CÂU H L TIẾP THEO
+0.68|Top coat
+0.75|Warm water
+0.83|Cotton balls
+0.90|Nail clippers
+---CONTENT---
+0.43|ĐÊ THI: ( NAILS (EN) 2026 )
+0.47|N ĐIỂM
+0.51|Polymer (plastic resin) is commonly found in which of the following
+0.54|products?
+0.68|Top coat
+0.75|Warm water
+0.83|Cotton balls
+0.90|Nail clippers
+---CHOICE_ROWS---
+A y=0.48 meanG=159.1 lime=0.084 bright=26.3 text=N ĐIỂM
+B y=0.52 meanG=204.1 lime=0.553 bright=175.4 text=Polymer (plastic resin) is commonly found in which of the following
+C y=0.54 meanG=216.8 lime=0.698 bright=211.5 text=products?
+D y=0.69 meanG=207.8 lime=0.625 bright=50.9 text=Top coat
+SELECTED_HINT: C bright=211.5 margin=36.1 text=products?

@@ -1,0 +1,35 @@
+FILE: IMG_4404.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 9
+---
+[0.50 @ 0.37,0.35] THI TÔNG QUÁT VỀ NAILS
+[1.00 @ 0.18,0.43] OSHA
+[0.30 @ 0.37,0.44] OCCUPATTOIAL SAFET/+ HEALTH
+[0.30 @ 0.64,0.47] ADiNiSTRATIOO
+[0.30 @ 0.10,0.52] (M) SDS (Sa
+[0.30 @ 0.39,0.51] Data Sheet
+[0.50 @ 0.36,0.56] Enviromental Protection Agenciy
+[0.30 @ 0.19,0.61] E. P.A
+[0.30 @ 0.67,0.99] VARIE
+---LEFT_LINES---
+0.35|THI TÔNG QUÁT VỀ NAILS
+0.43|OSHA
+0.44|OCCUPATTOIAL SAFET/+ HEALTH
+0.52|(M) SDS (Sa
+0.51|Data Sheet
+0.56|Enviromental Protection Agenciy
+0.61|E. P.A
+---CONTENT---
+0.35|THI TÔNG QUÁT VỀ NAILS
+0.43|OSHA
+0.44|OCCUPATTOIAL SAFET/+ HEALTH
+0.52|(M) SDS (Sa
+0.51|Data Sheet
+0.56|Enviromental Protection Agenciy
+0.61|E. P.A
+---CHOICE_ROWS---
+A y=0.45 meanG=160.0 lime=0.000 bright=4.9 text=OSHA
+B y=0.46 meanG=160.0 lime=0.000 bright=4.9 text=OCCUPATTOIAL SAFET/+ HEALTH
+C y=0.55 meanG=167.6 lime=0.000 bright=5.0 text=(M) SDS (Sa
+D y=0.54 meanG=168.1 lime=0.000 bright=5.2 text=Data Sheet
+SELECTED_HINT: none margin=0.1

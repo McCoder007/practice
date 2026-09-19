@@ -1,0 +1,65 @@
+FILE: IMG_4353.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 33
+---
+[1.00 @ -0.00,0.31] File Help
+[0.50 @ 0.04,0.34] 10:50:27 AM
+[0.30 @ 0.36,0.34] ĐỀ THI ( NAILS (EN) 2026)
+[0.50 @ 0.04,0.39] IN ĐIỂM
+[0.50 @ 0.14,0.38] CÂU HỎI SỐ
+[1.00 @ 0.28,0.39] 10
+[0.50 @ 0.32,0.38] CỦA 97 CẦU HỎI.
+[0.50 @ 0.65,0.41] Nail Trac Nghiem 2026_1.dll
+[1.00 @ 0.00,0.43] Cuticle remover helps to:
+[0.50 @ 0.65,0.43] Nail Trac Nghiem 2026_2.dil
+[0.50 @ 0.65,0.45] Nail Trac Nghiem 2026
+[0.50 @ 0.84,0.45] 3.dll
+[1.00 @ 0.65,0.47] Nail Trac Nghiem 5.dll
+[1.00 @ 0.64,0.49] Nails Theory 2026.dll
+[0.50 @ 0.69,0.52] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ 0.01,0.55] RẢ LỜI:
+[0.30 @ 0.45,0.56] CÂU HI HÉP THEO
+[0.30 @ 0.66,0.56] THO BÀI MỚI
+[0.30 @ 0.66,0.59] HHAC CÂU HỎI
+[0.50 @ 0.87,0.58] CHỌN BÀI TH
+[1.00 @ 0.05,0.61] Soften dead skin
+[0.50 @ 0.64,0.65] TRÀ LỜI ĐÙNG: TRÀ LỜI SAI-
+[0.30 @ 0.90,0.65] ĐIỂM TỔNG
+[0.50 @ 0.06,0.69] Add shine
+[1.00 @ 0.69,0.68] 9
+[1.00 @ 0.05,0.77] Make nails longer
+[0.50 @ 0.66,0.76] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.68,0.82] 00
+[1.00 @ 0.77,0.82] 00
+[1.00 @ 0.86,0.82] 00
+[0.30 @ 0.92,0.82] SAT ĐẦI
+[1.00 @ 0.06,0.85] Disinfect
+[1.00 @ 0.69,0.88] 00.00.00.00
+---LEFT_LINES---
+0.31|File Help
+0.34|10:50:27 AM
+0.34|ĐỀ THI ( NAILS (EN) 2026)
+0.39|IN ĐIỂM
+0.38|CÂU HỎI SỐ
+0.39|10
+0.38|CỦA 97 CẦU HỎI.
+0.43|Cuticle remover helps to:
+0.55|RẢ LỜI:
+0.56|CÂU HI HÉP THEO
+0.61|Soften dead skin
+0.69|Add shine
+0.77|Make nails longer
+0.85|Disinfect
+---CONTENT---
+0.38|CỦA 97 CẦU HỎI.
+0.55|RẢ LỜI:
+0.61|Soften dead skin
+0.69|Add shine
+0.77|Make nails longer
+0.85|Disinfect
+---CHOICE_ROWS---
+A y=0.56 meanG=171.8 lime=0.081 bright=17.7 text=RẢ LỜI:
+B y=0.62 meanG=200.9 lime=0.496 bright=44.3 text=Soften dead skin
+C y=0.70 meanG=203.5 lime=0.517 bright=40.1 text=Add shine
+D y=0.78 meanG=202.0 lime=0.480 bright=35.2 text=Make nails longer
+SELECTED_HINT: none margin=4.1

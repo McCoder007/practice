@@ -1,0 +1,64 @@
+FILE: IMG_4442.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 33
+---
+[0.30 @ 0.03,0.37] 12:01:56 P.J
+[0.50 @ 0.36,0.37] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.03,0.41] IN ĐIỂM
+[1.00 @ 0.14,0.41] CÂU HỎI SỐ:
+[1.00 @ 0.27,0.42] 97
+[0.30 @ 0.31,0.42] CỦA 97 CÂU HỎI.
+[1.00 @ -0.00,0.46] An artificial nail mainly contacts the natural nail at the:
+[0.50 @ 0.63,0.45] Nail Trac Nghiem 2026_1.dll
+[0.50 @ 0.63,0.46] Nail Trac Nghiem 2026_2.dli
+[1.00 @ 0.62,0.49] Nail Trac Nghiem 2026
+[0.30 @ 0.80,0.49] _3.dil
+[1.00 @ 0.62,0.50] Nail Trac Nghiem 5.dll
+[1.00 @ 0.62,0.52] Nails Theory 2026.dll
+[0.50 @ 0.67,0.55] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ -0.00,0.58] TRÁ LỜI:
+[0.30 @ 0.44,0.58] CÂU HỖI TẾP THEO
+[0.30 @ 0.63,0.59] HO BẢI MỚI
+[0.50 @ 0.66,0.62] ẶC CÂU HỎI
+[1.00 @ 0.84,0.61] CHỌN BÀI THI
+[1.00 @ 0.04,0.63] Contact area/well (where the tip meets the natural nail)
+[0.50 @ 0.62,0.67] TRÀ LỜI ĐÙNG: TRẢ LỜI SAI:
+[0.50 @ 0.86,0.68] ĐIỂM TỔNG KẾT
+[1.00 @ 0.04,0.71] Hand skin
+[1.00 @ 0.66,0.70] 89
+[1.00 @ 0.04,0.79] Palm
+[0.50 @ 0.64,0.78] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.66,0.84] 00
+[1.00 @ 0.75,0.84] 00
+[0.50 @ 0.78,0.84] GIA Y
+[1.00 @ 0.83,0.84] 00
+[0.30 @ 0.89,0.84] HẮT ĐẦU
+[1.00 @ 0.04,0.87] Finger joint
+[1.00 @ 0.66,0.90] 00.00.00.00
+---LEFT_LINES---
+0.37|12:01:56 P.J
+0.37|ĐỀ THI: ( NAILS (EN) 2026 )
+0.41|IN ĐIỂM
+0.41|CÂU HỎI SỐ:
+0.42|97
+0.42|CỦA 97 CÂU HỎI.
+0.46|An artificial nail mainly contacts the natural nail at the:
+0.58|TRÁ LỜI:
+0.58|CÂU HỖI TẾP THEO
+0.63|Contact area/well (where the tip meets the natural nail)
+0.71|Hand skin
+0.79|Palm
+0.87|Finger joint
+---CONTENT---
+0.46|An artificial nail mainly contacts the natural nail at the:
+0.58|TRÁ LỜI:
+0.63|Contact area/well (where the tip meets the natural nail)
+0.71|Hand skin
+0.79|Palm
+0.87|Finger joint
+---CHOICE_ROWS---
+A y=0.59 meanG=172.1 lime=0.074 bright=22.1 text=TRÁ LỜI:
+B y=0.65 meanG=209.6 lime=0.644 bright=59.1 text=Contact area/well (where the tip meets the natural nail)
+C y=0.72 meanG=212.3 lime=0.666 bright=47.3 text=Hand skin
+D y=0.80 meanG=210.0 lime=0.651 bright=39.0 text=Palm
+SELECTED_HINT: B bright=59.1 margin=11.7 text=Contact area/well (where the tip meets the natural nail)

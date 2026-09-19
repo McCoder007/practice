@@ -1,0 +1,71 @@
+FILE: IMG_4501.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 36
+---
+[1.00 @ -0.00,0.33] Help
+[1.00 @ 0.01,0.36] 12:33:54 PM
+[0.30 @ 0.36,0.36] ĐỀ THI: (INAILS (EN) 2026)
+[0.30 @ 0.01,0.41] NĐIỀM
+[1.00 @ 0.12,0.41] CÂU HỎI SỐ
+[1.00 @ 0.26,0.41] 90
+[0.50 @ 0.31,0.41] CỦA 97 CÂU HỎI!
+[1.00 @ 0.64,0.44] Nail Trac Nghiem 2026
+[0.50 @ 0.84,0.44] 1.dll
+[1.00 @ 0.00,0.45] properly sil ed nail tip should:
+[0.50 @ 0.64,0.46] Nail Trac Nghiem 2026_2.dll
+[0.50 @ 0.64,0.48] Nail Trac Nghiem 2026_3.dil
+[1.00 @ 0.64,0.50] Nail Trac Nghiem 5.dll
+[1.00 @ 0.64,0.52] Nails Theory 2026.dll
+[0.50 @ 0.69,0.55] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ -0.00,0.58] Ả LỜI:
+[0.30 @ 0.45,0.59] CAU
+[0.30 @ 0.49,0.58] HỘI TIẾP THEO
+[0.30 @ 0.67,0.60] THO BÀI MỚI
+[0.30 @ 0.65,0.62] HHẶC CÂU HỎI
+[0.50 @ 0.87,0.61] GHỌN BÀI THI
+[1.00 @ 0.03,0.64] Be smaller than the natural nail
+[0.50 @ 0.64,0.68] TRÀ LỜI ĐÙNG: TRÀ LỜI SAI:
+[0.30 @ 0.89,0.68] ĐIỂM TỔNG K
+[1.00 @ 0.68,0.71] 80
+[1.00 @ 0.04,0.72] Be larger than the natural nail
+[1.00 @ 0.80,0.71] 9
+[1.00 @ 0.66,0.79] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.04,0.80] Cover from one sidewall to the other
+[1.00 @ 0.68,0.85] 00
+[1.00 @ 0.77,0.85] 00
+[0.30 @ 0.81,0.85] GIAY
+[1.00 @ 0.86,0.85] 00
+[0.30 @ 0.92,0.85] ẤT ĐẦU
+[1.00 @ 0.04,0.88] Cover only the center of the nail
+[1.00 @ 0.68,0.91] 00.00.00.00
+---LEFT_LINES---
+0.33|Help
+0.36|12:33:54 PM
+0.36|ĐỀ THI: (INAILS (EN) 2026)
+0.41|NĐIỀM
+0.41|CÂU HỎI SỐ
+0.41|90
+0.41|CỦA 97 CÂU HỎI!
+0.45|properly sil ed nail tip should:
+0.58|Ả LỜI:
+0.59|CAU
+0.58|HỘI TIẾP THEO
+0.64|Be smaller than the natural nail
+0.72|Be larger than the natural nail
+0.80|Cover from one sidewall to the other
+0.88|Cover only the center of the nail
+---CONTENT---
+0.41|NĐIỀM
+0.45|properly sil ed nail tip should:
+0.58|Ả LỜI:
+0.59|CAU
+0.64|Be smaller than the natural nail
+0.72|Be larger than the natural nail
+0.80|Cover from one sidewall to the other
+0.88|Cover only the center of the nail
+---CHOICE_ROWS---
+A y=0.59 meanG=170.8 lime=0.090 bright=18.7 text=Ả LỜI:
+B y=0.60 meanG=168.0 lime=0.069 bright=14.9 text=CAU
+C y=0.65 meanG=208.7 lime=0.637 bright=55.8 text=Be smaller than the natural nail
+D y=0.73 meanG=210.0 lime=0.650 bright=49.4 text=Be larger than the natural nail
+SELECTED_HINT: none margin=6.4

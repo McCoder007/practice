@@ -1,0 +1,69 @@
+FILE: IMG_4450.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 35
+---
+[1.00 @ 0.01,0.28] Help
+[0.50 @ 0.02,0.31] 12:05:22 PM
+[0.30 @ 0.37,0.31] ĐÊ THI: UINAILS (EN) 2026 )
+[0.30 @ 0.02,0.36] IN ĐIỂM
+[0.50 @ 0.14,0.36] CÂU HỎI SỐ:
+[1.00 @ 0.28,0.36] 7
+[0.30 @ 0.32,0.35] CỦA 07 CAU HỎI.
+[0.50 @ 0.66,0.38] Nail Trac Nghiem 2026_1.dll
+[1.00 @ -0.00,0.41] lail forms are used to:
+[0.50 @ 0.66,0.40] Nail Trac Nghiem 2026_2.dil
+[1.00 @ 0.66,0.42] Nail Trac Nghiem 2026
+[0.30 @ 0.84,0.42] _3.dll
+[1.00 @ 0.66,0.44] Nail Trac Nghiem 5.dll
+[1.00 @ 0.65,0.46] Nails Theory 2026.dll
+[0.50 @ 0.70,0.49] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ -0.00,0.53] TRẢ LỜI:
+[0.30 @ 0.46,0.53] CẦU HỘI TIẾP THEO
+[0.50 @ 0.69,0.54] HO BÀI MỚI
+[0.30 @ 0.67,0.56] THÁC CÂU HỎI
+[0.50 @ 0.88,0.55] CHỌN BÀI TH
+[1.00 @ 0.05,0.59] Create nail extensions
+[0.50 @ 0.65,0.62] TRÀ LỜI ĐÚNG: TRÀ LỜI SAI:
+[1.00 @ 0.91,0.62] ĐIỂM TỔNG
+[1.00 @ 0.70,0.65] 6
+[1.00 @ 0.05,0.67] Scrub feet
+[0.30 @ 0.01,0.69] B
+[0.50 @ 0.68,0.74] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.05,0.76] Wash hands
+[1.00 @ 0.69,0.79] 00
+[1.00 @ 0.79,0.79] 00
+[1.00 @ 0.83,0.79] GIA
+[1.00 @ 0.87,0.79] 00
+[0.30 @ 0.93,0.79] SẤT ĐA
+[1.00 @ 0.06,0.84] Massage
+[1.00 @ 0.70,0.85] 00.00.00.00
+---LEFT_LINES---
+0.28|Help
+0.31|12:05:22 PM
+0.31|ĐÊ THI: UINAILS (EN) 2026 )
+0.36|IN ĐIỂM
+0.36|CÂU HỎI SỐ:
+0.36|7
+0.35|CỦA 07 CAU HỎI.
+0.41|lail forms are used to:
+0.53|TRẢ LỜI:
+0.53|CẦU HỘI TIẾP THEO
+0.59|Create nail extensions
+0.67|Scrub feet
+0.69|B
+0.76|Wash hands
+0.84|Massage
+---CONTENT---
+0.31|ĐÊ THI: UINAILS (EN) 2026 )
+0.35|CỦA 07 CAU HỎI.
+0.41|lail forms are used to:
+0.59|Create nail extensions
+0.67|Scrub feet
+0.76|Wash hands
+0.84|Massage
+---CHOICE_ROWS---
+A y=0.37 meanG=155.7 lime=0.107 bright=37.2 text=CỦA 07 CAU HỎI.
+B y=0.42 meanG=209.5 lime=0.638 bright=187.3 text=lail forms are used to:
+C y=0.60 meanG=208.3 lime=0.630 bright=60.1 text=Create nail extensions
+D y=0.68 meanG=211.7 lime=0.673 bright=53.2 text=Scrub feet
+SELECTED_HINT: B bright=187.3 margin=127.2 text=lail forms are used to:

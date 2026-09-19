@@ -1,0 +1,70 @@
+FILE: IMG_4348.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 33
+---
+[1.00 @ 0.00,0.27] Help
+[0.50 @ 0.02,0.30] 10:48:04 AM
+[0.30 @ 0.34,0.29] ĐỀ THI (NAILS (EN) 2026)
+[0.30 @ 0.01,0.34] N ĐIỂM
+[0.50 @ 0.12,0.34] CÂU HỎI SỐ
+[0.30 @ 0.30,0.34] CỦA 97 CẦU HỎI.
+[0.50 @ 0.63,0.37] Nail Trac Nghiem 2026_1.dli
+[1.00 @ -0.00,0.39] a client's feet show itching, peeling skin, or nail discoloration, it
+[0.50 @ 0.63,0.39] Nail Trac Nghiem 2026_2.dll
+[1.00 @ -0.00,0.42] ay indicate:
+[0.50 @ 0.63,0.41] Nail Trac Nghiem 2026_ 3.dll
+[0.50 @ 0.63,0.43] Nail Trac Nghiem 5.dll
+[1.00 @ 0.63,0.45] Nails Theory 2026.dll
+[0.50 @ 0.67,0.48] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ -0.00,0.51] Á LỜI:
+[0.30 @ 0.43,0.52] CAU H
+[1.00 @ 0.51,0.52] TIẾP THEO
+[0.30 @ 0.65,0.53] THỜ BÀI MỚI
+[0.30 @ 0.65,0.55] NHÁC CẦU HỎI
+[0.30 @ 0.85,0.54] CHỌN BÀI THI
+[1.00 @ 0.03,0.57] Nail fungus or athlete's foot
+[0.50 @ 0.62,0.61] IRÀ LỜI ĐÙNG: TRÀ LỜI SAI:
+[0.50 @ 0.88,0.61] ĐIỂM TỔNG KẾ
+[1.00 @ 0.03,0.65] Calluses
+[1.00 @ 0.67,0.64] 4
+[1.00 @ 0.03,0.73] Polish allergy
+[0.50 @ 0.64,0.73] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.66,0.78] 00
+[1.00 @ 0.76,0.78] 00
+[1.00 @ 0.84,0.79] 00
+[0.30 @ 0.90,0.78] NẤT ĐẦU
+[1.00 @ 0.03,0.81] Normal dry skin
+[1.00 @ 0.67,0.84] 00.00.00.00
+---LEFT_LINES---
+0.27|Help
+0.30|10:48:04 AM
+0.29|ĐỀ THI (NAILS (EN) 2026)
+0.34|N ĐIỂM
+0.34|CÂU HỎI SỐ
+0.34|CỦA 97 CẦU HỎI.
+0.39|a client's feet show itching, peeling skin, or nail discoloration, it
+0.42|ay indicate:
+0.51|Á LỜI:
+0.52|CAU H
+0.52|TIẾP THEO
+0.57|Nail fungus or athlete's foot
+0.65|Calluses
+0.73|Polish allergy
+0.81|Normal dry skin
+---CONTENT---
+0.34|N ĐIỂM
+0.34|CỦA 97 CẦU HỎI.
+0.39|a client's feet show itching, peeling skin, or nail discoloration, it
+0.42|ay indicate:
+0.51|Á LỜI:
+0.52|CAU H
+0.57|Nail fungus or athlete's foot
+0.65|Calluses
+0.73|Polish allergy
+0.81|Normal dry skin
+---CHOICE_ROWS---
+A y=0.40 meanG=196.4 lime=0.497 bright=167.1 text=a client's feet show itching, peeling skin, or nail discoloration, it
+B y=0.43 meanG=210.1 lime=0.638 bright=200.6 text=ay indicate:
+C y=0.52 meanG=168.0 lime=0.071 bright=16.6 text=Á LỜI:
+D y=0.53 meanG=165.8 lime=0.050 bright=11.7 text=CAU H
+SELECTED_HINT: B bright=200.6 margin=33.5 text=ay indicate:

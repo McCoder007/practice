@@ -1,0 +1,68 @@
+FILE: IMG_4475.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 35
+---
+[1.00 @ 0.05,0.40] File
+[1.00 @ 0.08,0.40] Help
+[1.00 @ 0.08,0.43] 12:14:25 PM
+[0.50 @ 0.40,0.42] ĐÊ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.08,0.47] N ĐIỂM
+[0.50 @ 0.19,0.47] CÂU HỎI SỐ
+[1.00 @ 0.31,0.47] 32
+[0.50 @ 0.36,0.47] CỦA 97 CẦU HỎI.
+[0.50 @ 0.66,0.49] Nail Trac Nghiem 2026_1.dil
+[1.00 @ 0.05,0.51] The brush commonly used for gel is:
+[0.50 @ 0.66,0.51] Nail Trac Nghiem 2026_2. dll
+[1.00 @ 0.66,0.53] Nail Trac Nghiem 2026
+[0.50 @ 0.84,0.53] 3.dll
+[0.50 @ 0.66,0.55] Nail Trac Nghiem 5.dll
+[1.00 @ 0.66,0.57] Nails Theory 2026.dll
+[0.50 @ 0.70,0.59] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ 0.05,0.63] TRẢ LỜI:
+[0.50 @ 0.51,0.62] THỎI TIẾP THEO
+[0.30 @ 0.68,0.63] TẠO BÀI MỚI
+[0.50 @ 0.66,0.66] THOẶC CÂU HỎI
+[1.00 @ 0.87,0.65] CHỌN BÀI THI
+[1.00 @ 0.10,0.68] Steel brush
+[0.50 @ 0.66,0.71] TRÀ LỜI ĐÙNG: TRÀ LỜI SAI:
+[0.30 @ 0.90,0.71] ĐIỂM TỔNG K
+[1.00 @ 0.70,0.74] 27
+[1.00 @ 0.10,0.76] Synthetic brush
+[0.50 @ 0.69,0.82] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.10,0.84] Wooden brush
+[1.00 @ 0.70,0.88] 00
+[1.00 @ 0.79,0.88] 00
+[0.50 @ 0.83,0.87] GIA)
+[1.00 @ 0.87,0.87] 00
+[0.30 @ 0.93,0.87] GẤT ĐẦ
+[1.00 @ 0.10,0.91] Paper brush
+[1.00 @ 0.71,0.93] 00.00.00.00
+---LEFT_LINES---
+0.40|File
+0.40|Help
+0.43|12:14:25 PM
+0.42|ĐÊ THI: ( NAILS (EN) 2026 )
+0.47|N ĐIỂM
+0.47|CÂU HỎI SỐ
+0.47|32
+0.47|CỦA 97 CẦU HỎI.
+0.51|The brush commonly used for gel is:
+0.63|TRẢ LỜI:
+0.62|THỎI TIẾP THEO
+0.68|Steel brush
+0.76|Synthetic brush
+0.84|Wooden brush
+---CONTENT---
+0.42|ĐÊ THI: ( NAILS (EN) 2026 )
+0.47|N ĐIỂM
+0.47|CỦA 97 CẦU HỎI.
+0.51|The brush commonly used for gel is:
+0.68|Steel brush
+0.76|Synthetic brush
+0.84|Wooden brush
+---CHOICE_ROWS---
+A y=0.48 meanG=150.6 lime=0.099 bright=36.1 text=N ĐIỂM
+B y=0.48 meanG=147.8 lime=0.072 bright=28.9 text=CỦA 97 CẦU HỎI.
+C y=0.52 meanG=201.8 lime=0.573 bright=174.2 text=The brush commonly used for gel is:
+D y=0.69 meanG=204.0 lime=0.612 bright=56.5 text=Steel brush
+SELECTED_HINT: C bright=174.2 margin=117.7 text=The brush commonly used for gel is:

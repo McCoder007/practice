@@ -1,0 +1,67 @@
+FILE: IMG_4373.JPG
+ORIENTED: 3024x4032 CROP_TL: 181,725,2661,2822
+LINES: 34
+---
+[1.00 @ 0.05,0.29] File Help
+[0.50 @ 0.09,0.32] 11:04:29 AM
+[0.50 @ 0.38,0.32] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.08,0.36] IN ĐIỀM
+[0.50 @ 0.18,0.36] CÂU HỎI SỐ
+[1.00 @ 0.30,0.36] 30
+[0.30 @ 0.34,0.36] CỦA 97 CÂU HỎI.
+[1.00 @ 0.05,0.39] Applying acrylic too close to the cuticle can cause:
+[0.50 @ 0.63,0.39] Nail Trac Nghiem 2026_1.dll
+[0.50 @ 0.63,0.41] Nail Trac Nghiem 2026_2.dll
+[1.00 @ 0.63,0.43] Nail Trac Nghiem 2026_3.dll
+[0.50 @ 0.62,0.45] Nail Trac Nghiem 5.dil
+[1.00 @ 0.62,0.47] Nails Theory 2026.dll
+[0.50 @ 0.66,0.49] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.06,0.50] RÀ LỜI:
+[0.30 @ 0.45,0.52] CÂU HÔP TẾP THEO
+[0.30 @ 0.64,0.53] HÀO BẢI MỚI
+[1.00 @ 0.09,0.56] Stronger nails
+[0.30 @ 0.63,0.56] HUẮC CẦU HỎI
+[0.50 @ 0.82,0.55] CHỘN BÀI THI
+[0.50 @ 0.62,0.61] TRẢ LỜI ĐÚNG: TRÃ LỜI SAI:
+[1.00 @ 0.84,0.61] ĐIỂM TỔNG KẾT
+[1.00 @ 0.09,0.63] Lifting
+[1.00 @ 0.65,0.63] 29
+[1.00 @ 0.09,0.70] Shinier nails
+[0.50 @ 0.63,0.71] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.65,0.76] 00
+[1.00 @ 0.08,0.77] Faster nail growth
+[1.00 @ 0.73,0.76] 00
+[0.30 @ 0.76,0.76] Eis
+[0.50 @ 0.81,0.76] 00
+[0.30 @ 0.86,0.76] ẤT ĐẦU
+[1.00 @ 0.65,0.81] 00.00.00.00
+[0.30 @ 0.37,0.93] XIN ĐỘC BĂN RƯƠNG ĐẦN O TKEN
+---LEFT_LINES---
+0.29|File Help
+0.32|11:04:29 AM
+0.32|ĐỀ THI: ( NAILS (EN) 2026 )
+0.36|IN ĐIỀM
+0.36|CÂU HỎI SỐ
+0.36|30
+0.36|CỦA 97 CÂU HỎI.
+0.39|Applying acrylic too close to the cuticle can cause:
+0.50|RÀ LỜI:
+0.52|CÂU HÔP TẾP THEO
+0.56|Stronger nails
+0.63|Lifting
+0.70|Shinier nails
+0.77|Faster nail growth
+---CONTENT---
+0.36|IN ĐIỀM
+0.39|Applying acrylic too close to the cuticle can cause:
+0.50|RÀ LỜI:
+0.56|Stronger nails
+0.63|Lifting
+0.70|Shinier nails
+0.77|Faster nail growth
+---CHOICE_ROWS---
+A y=0.51 meanG=178.6 lime=0.199 bright=50.0 text=RÀ LỜI:
+B y=0.57 meanG=197.2 lime=0.523 bright=41.8 text=Stronger nails
+C y=0.64 meanG=205.7 lime=0.624 bright=41.7 text=Lifting
+D y=0.71 meanG=201.8 lime=0.538 bright=33.4 text=Shinier nails
+SELECTED_HINT: A bright=50.0 margin=8.3 text=RÀ LỜI:

@@ -1,0 +1,70 @@
+FILE: IMG_4382.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 38
+---
+[1.00 @ 0.01,0.35] Help
+[0.30 @ 0.02,0.38] 11:12:44 A.M
+[0.30 @ 0.34,0.37] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.98,0.37] X
+[0.50 @ 0.02,0.42] IN ĐIỂM
+[0.50 @ 0.12,0.41] CÂU HỎI SỐ:
+[1.00 @ 0.25,0.42] 39
+[1.00 @ 0.30,0.42] CỦA 97 CÂU HỎI.
+[1.00 @ 0.61,0.44] Nail Trac Nghiem 2026
+[0.50 @ 0.80,0.44] 1.dll
+[1.00 @ -0.00,0.46] iter disinfection, tools should be:
+[0.50 @ 0.61,0.46] Nail Trac Nghiem 2026
+[1.00 @ 0.80,0.46] 2.dll
+[1.00 @ 0.61,0.48] Nail Trac Nghiem 2026
+[1.00 @ 0.79,0.48] 3.dll
+[0.50 @ 0.61,0.50] Nail Trac Nghiem 5.dll
+[1.00 @ 0.61,0.52] Nails Theory 2026.dll
+[0.50 @ 0.65,0.55] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ 0.00,0.58] RÀ LỜI:
+[0.30 @ 0.45,0.58] Lò HỘI TIẾP THEO
+[0.30 @ 0.62,0.59] HHO CẢU HỘI
+[0.50 @ 0.66,0.59] O BÀI MỚI
+[0.50 @ 0.83,0.61] CHỌN BÀI THI
+[1.00 @ 0.04,0.64] Dried and stored properly
+[0.30 @ 0.61,0.67] TRÀ LỜI ĐÙNG: TRÀ LỜI SAI-
+[1.00 @ 0.86,0.67] ĐIỂM TỔNG KẾT
+[1.00 @ 0.65,0.70] 38
+[1.00 @ 0.03,0.72] Used immediately while still wet
+[0.50 @ 0.63,0.78] CHỈNH GIỜ CHO CUỘC THI
+[0.50 @ 0.03,0.80] Thrown away
+[1.00 @ 0.65,0.84] 00
+[0.30 @ 0.69,0.84] THU
+[1.00 @ 0.74,0.84] 00
+[0.30 @ 0.78,0.84] GIA
+[1.00 @ 0.82,0.84] 00
+[0.30 @ 0.88,0.84] SẮT ĐẦU
+[1.00 @ 0.04,0.87] Rinsed with dirty water
+[1.00 @ 0.66,0.89] 00.00.00.00
+---LEFT_LINES---
+0.35|Help
+0.38|11:12:44 A.M
+0.37|ĐỀ THI: ( NAILS (EN) 2026 )
+0.42|IN ĐIỂM
+0.41|CÂU HỎI SỐ:
+0.42|39
+0.42|CỦA 97 CÂU HỎI.
+0.46|iter disinfection, tools should be:
+0.58|RÀ LỜI:
+0.58|Lò HỘI TIẾP THEO
+0.64|Dried and stored properly
+0.72|Used immediately while still wet
+0.80|Thrown away
+0.87|Rinsed with dirty water
+---CONTENT---
+0.46|iter disinfection, tools should be:
+0.58|RÀ LỜI:
+0.64|Dried and stored properly
+0.72|Used immediately while still wet
+0.80|Thrown away
+0.87|Rinsed with dirty water
+---CHOICE_ROWS---
+A y=0.59 meanG=170.6 lime=0.064 bright=12.5 text=RÀ LỜI:
+B y=0.65 meanG=212.9 lime=0.698 bright=54.0 text=Dried and stored properly
+C y=0.73 meanG=212.0 lime=0.678 bright=46.2 text=Used immediately while still wet
+D y=0.81 meanG=211.9 lime=0.698 bright=38.0 text=Thrown away
+SELECTED_HINT: none margin=7.8

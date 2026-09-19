@@ -1,0 +1,28 @@
+FILE: IMG_4477.JPG
+ORIENTED: 3024x4032 CROP_TL: 181,725,2661,2822
+LINES: 8
+---
+[0.30 @ 0.41,0.42] ДБпур
+[1.00 @ 0.82,0.43] n
+[0.30 @ 0.44,0.50] Dd:an
+[0.30 @ 0.08,0.52] Square Coffin Stiltto
+[0.30 @ 0.62,0.53] Almond
+[0.30 @ 0.22,0.63] 90°
+[0.30 @ 0.54,0.73] nvl
+[0.30 @ 0.90,0.75] PОCT
+---LEFT_LINES---
+0.42|ДБпур
+0.50|Dd:an
+0.52|Square Coffin Stiltto
+0.63|90°
+0.73|nvl
+---CONTENT---
+0.42|ДБпур
+0.50|Dd:an
+0.52|Square Coffin Stiltto
+0.63|90°
+0.73|nvl
+---CHOICE_ROWS---
+A y=0.65 meanG=181.2 lime=0.000 bright=2.7 text=90°
+B y=0.75 meanG=185.8 lime=0.000 bright=2.8 text=nvl
+SELECTED_HINT: none margin=0.1

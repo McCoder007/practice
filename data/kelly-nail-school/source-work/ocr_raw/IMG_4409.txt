@@ -1,0 +1,69 @@
+FILE: IMG_4409.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 35
+---
+[1.00 @ 0.01,0.33] Help
+[0.30 @ 0.02,0.36] 11:47:23 A.
+[0.50 @ 0.34,0.36] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.98,0.36] X
+[0.30 @ 0.02,0.40] NĐIỂM
+[0.50 @ 0.12,0.40] CÂU HỎI SỐ:
+[1.00 @ 0.26,0.41] 65
+[0.50 @ 0.30,0.40] CỦA 97 CẦU HỎI.
+[0.50 @ 0.62,0.43] Nail Trac Nghiem 2026_1.dll
+[1.00 @ 0.00,0.45] iticle nippers should be:
+[0.50 @ 0.62,0.45] Nail Trac Nghiem 2026_2.dll
+[1.00 @ 0.62,0.47] Nail Trac Nghiem 2026_3.dll
+[1.00 @ 0.62,0.49] Nail Trac Nghiem 5.dll
+[1.00 @ 0.62,0.51] Nails Theory 2026.dll
+[0.50 @ 0.66,0.53] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ -0.00,0.57] RẢ LỜI:
+[0.30 @ 0.43,0.57] CẦU HỎI TIẾP THEO
+[0.50 @ 0.64,0.58] TẢO BÀI MỚI
+[0.30 @ 0.63,0.60] HOÁC CẦU HỎI
+[0.50 @ 0.83,0.60] CHỌN BÀI THI
+[1.00 @ 0.03,0.63] Shared among clients
+[0.50 @ 0.61,0.66] TRÀ LỜI ĐÙNG: TRÀ LỜI SAI:
+[1.00 @ 0.86,0.66] ĐIỂM TỔNG KẾT
+[1.00 @ 0.65,0.69] 61
+[1.00 @ 0.03,0.70] Sterili
+[1.00 @ 0.77,0.69] 3
+[0.50 @ 0.64,0.77] CHỈNH GIỜ CHO CUỘC THI
+[0.50 @ 0.03,0.79] ed after each client
+[1.00 @ 0.65,0.82] 00
+[0.30 @ 0.69,0.82] PHUT
+[1.00 @ 0.74,0.83] 00
+[0.30 @ 0.78,0.83] CAY
+[0.30 @ 0.88,0.83] BẮT ĐẦU
+[1.00 @ 0.03,0.86] Wiped with a towel only
+[1.00 @ 0.66,0.88] 00.00.00.00
+---LEFT_LINES---
+0.33|Help
+0.36|11:47:23 A.
+0.36|ĐỀ THI: ( NAILS (EN) 2026)
+0.40|NĐIỂM
+0.40|CÂU HỎI SỐ:
+0.41|65
+0.40|CỦA 97 CẦU HỎI.
+0.45|iticle nippers should be:
+0.57|RẢ LỜI:
+0.57|CẦU HỎI TIẾP THEO
+0.63|Shared among clients
+0.70|Sterili
+0.79|ed after each client
+0.86|Wiped with a towel only
+---CONTENT---
+0.40|NĐIỂM
+0.40|CỦA 97 CẦU HỎI.
+0.45|iticle nippers should be:
+0.57|RẢ LỜI:
+0.63|Shared among clients
+0.70|Sterili
+0.79|ed after each client
+0.86|Wiped with a towel only
+---CHOICE_ROWS---
+A y=0.46 meanG=211.8 lime=0.706 bright=181.7 text=iticle nippers should be:
+B y=0.58 meanG=171.0 lime=0.075 bright=21.4 text=RẢ LỜI:
+C y=0.64 meanG=213.2 lime=0.722 bright=58.7 text=Shared among clients
+D y=0.71 meanG=212.0 lime=0.679 bright=47.3 text=Sterili
+SELECTED_HINT: A bright=181.7 margin=123.0 text=iticle nippers should be:

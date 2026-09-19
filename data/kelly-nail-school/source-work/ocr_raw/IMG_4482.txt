@@ -1,0 +1,72 @@
+FILE: IMG_4482.JPG
+ORIENTED: 3024x4032 CROP_TL: 181,725,2661,2822
+LINES: 36
+---
+[0.50 @ 0.19,0.38] File
+[1.00 @ 0.21,0.38] Help
+[0.50 @ 0.22,0.40] 12:22:03 P
+[0.30 @ 0.47,0.41] ĐE THI: (NAILS (EN) 2026)
+[0.30 @ 0.21,0.44] N ĐIỂM
+[0.50 @ 0.30,0.44] CÂU HỎI SỐ
+[1.00 @ 0.40,0.44] 45
+[0.50 @ 0.44,0.44] CỦA 97 CÂU HỎI.
+[1.00 @ 0.19,0.47] Which tool is used to shape and sculpt acrylic beads during acrylic
+[0.50 @ 0.69,0.47] Nail Trac Nghiem 2026_1.dll
+[1.00 @ 0.18,0.49] nail application?
+[0.50 @ 0.69,0.49] Nail Trac Nghiem 2026_2.dll
+[1.00 @ 0.69,0.50] Nail Trac Nghiem 2026
+[0.50 @ 0.69,0.52] Nail Trac Nghiem S.dll
+[0.30 @ 0.84,0.51] 3.dll
+[1.00 @ 0.69,0.53] Nails Theory 2026.dll
+[0.30 @ 0.19,0.56] RÁ LỜI:
+[0.50 @ 0.72,0.55] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ 0.53,0.58] CÂU HỘI TIẾP THEO
+[0.30 @ 0.70,0.59] BẠO BÀI MỚI
+[1.00 @ 0.22,0.61] Wooden stick (orangewood stick)
+[0.30 @ 0.69,0.61] HHÁC CẦU HỎI
+[0.30 @ 0.86,0.61] CHỌN BÀI THI
+[0.50 @ 0.68,0.66] TRẢ LỜI ĐÚNG: TRÃ LỜI SAI:
+[1.00 @ 0.22,0.67] Kolinsky brush (acrylic brush)
+[1.00 @ 0.88,0.66] ĐIỂM TỔNG KẾT
+[1.00 @ 0.71,0.68] 40
+[0.50 @ 0.22,0.74] Electric file
+[0.50 @ 0.70,0.74] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.21,0.79] Synthetic gel brush
+[1.00 @ 0.70,0.79] 00
+[1.00 @ 0.78,0.79] 00
+[1.00 @ 0.85,0.80] 00
+[0.30 @ 0.90,0.80] ẤT ĐÂU
+[1.00 @ 0.71,0.83] 00.00.00.00
+[0.30 @ 0.57,0.95] SNODAN OTRES
+---LEFT_LINES---
+0.38|File
+0.38|Help
+0.40|12:22:03 P
+0.41|ĐE THI: (NAILS (EN) 2026)
+0.44|N ĐIỂM
+0.44|CÂU HỎI SỐ
+0.44|45
+0.44|CỦA 97 CÂU HỎI.
+0.47|Which tool is used to shape and sculpt acrylic beads during acrylic
+0.49|nail application?
+0.56|RÁ LỜI:
+0.58|CÂU HỘI TIẾP THEO
+0.61|Wooden stick (orangewood stick)
+0.67|Kolinsky brush (acrylic brush)
+0.74|Electric file
+0.79|Synthetic gel brush
+---CONTENT---
+0.41|ĐE THI: (NAILS (EN) 2026)
+0.44|N ĐIỂM
+0.47|Which tool is used to shape and sculpt acrylic beads during acrylic
+0.49|nail application?
+0.56|RÁ LỜI:
+0.61|Wooden stick (orangewood stick)
+0.67|Kolinsky brush (acrylic brush)
+0.79|Synthetic gel brush
+---CHOICE_ROWS---
+A y=0.45 meanG=149.1 lime=0.078 bright=28.0 text=N ĐIỂM
+B y=0.49 meanG=169.9 lime=0.412 bright=122.1 text=Which tool is used to shape and sculpt acrylic beads during acrylic
+C y=0.50 meanG=179.8 lime=0.538 bright=151.4 text=nail application?
+D y=0.57 meanG=157.0 lime=0.147 bright=36.7 text=RÁ LỜI:
+SELECTED_HINT: C bright=151.4 margin=29.3 text=nail application?

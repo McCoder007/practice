@@ -1,0 +1,76 @@
+FILE: IMG_4422.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 39
+---
+[0.30 @ 0.00,0.31] le Help
+[0.30 @ 0.03,0.34] 11:52:54 AN
+[0.50 @ 0.36,0.34] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.03,0.39] IN ĐIỂM
+[0.50 @ 0.13,0.38] CÂU HỎI SỐ:
+[1.00 @ 0.27,0.39] 78
+[1.00 @ 0.31,0.39] CỦA 97 CÂU HỎI.
+[0.50 @ -0.00,0.42] Which term refers to the body's protection against the growth and
+[0.50 @ 0.63,0.42] Nail Trac Nghiem 2026_1.dil
+[1.00 @ 0.63,0.44] Nail Trac Nghiem 2026
+[0.30 @ 0.81,0.44] 2.dlI
+[1.00 @ -0.00,0.45] lisease-causing effects of bacteria?
+[1.00 @ 0.63,0.46] Nail Trac Nghiem 2026
+[0.30 @ 0.80,0.46] _3.dil
+[0.50 @ 0.63,0.48] Nail Trac Nghiem 5.dll
+[0.50 @ 0.63,0.50] Nails Theory 2026.dli
+[0.50 @ 0.67,0.52] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ -0.00,0.55] RÀ LỜI:
+[0.30 @ 0.44,0.56] CAL
+[0.30 @ 0.49,0.56] ĐI TIẾP THEO
+[0.30 @ 0.65,0.56] 140 BÀI MỚI
+[0.50 @ 0.64,0.59] HOẶC CÂU HỎI
+[1.00 @ 0.84,0.58] CHỌN BÀI THI
+[1.00 @ 0.04,0.60] Immunity
+[0.50 @ 0.62,0.65] TRẢ LỜI ĐÚNG: TRẢ LỜI SAI:
+[1.00 @ 0.87,0.65] ĐIỂM TỔNG KẾT
+[1.00 @ 0.04,0.68] Infection
+[1.00 @ 0.66,0.67] 72
+[0.50 @ 0.78,0.68] 5
+[0.50 @ 0.64,0.75] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.04,0.77] Allergy
+[1.00 @ 0.66,0.81] 00
+[1.00 @ 0.75,0.81] 00
+[0.30 @ 0.79,0.81] GIAY
+[1.00 @ 0.83,0.82] 00
+[0.30 @ 0.89,0.81] BẤT ĐẦU
+[1.00 @ 0.04,0.84] Dehydration
+[1.00 @ 0.00,0.86] D
+[1.00 @ 0.67,0.87] 00.00.00.00
+---LEFT_LINES---
+0.31|le Help
+0.34|11:52:54 AN
+0.34|ĐỀ THI: ( NAILS (EN) 2026)
+0.39|IN ĐIỂM
+0.38|CÂU HỎI SỐ:
+0.39|78
+0.39|CỦA 97 CÂU HỎI.
+0.42|Which term refers to the body's protection against the growth and
+0.45|lisease-causing effects of bacteria?
+0.55|RÀ LỜI:
+0.56|CAL
+0.56|ĐI TIẾP THEO
+0.60|Immunity
+0.68|Infection
+0.77|Allergy
+0.84|Dehydration
+0.86|D
+---CONTENT---
+0.42|Which term refers to the body's protection against the growth and
+0.45|lisease-causing effects of bacteria?
+0.55|RÀ LỜI:
+0.56|CAL
+0.60|Immunity
+0.68|Infection
+0.77|Allergy
+0.84|Dehydration
+---CHOICE_ROWS---
+A y=0.47 meanG=218.4 lime=0.754 bright=214.5 text=lisease-causing effects of bacteria?
+B y=0.56 meanG=173.9 lime=0.091 bright=28.3 text=RÀ LỜI:
+C y=0.57 meanG=169.2 lime=0.026 bright=14.8 text=CAL
+D y=0.62 meanG=211.5 lime=0.666 bright=56.7 text=Immunity
+SELECTED_HINT: A bright=214.5 margin=157.8 text=lisease-causing effects of bacteria?

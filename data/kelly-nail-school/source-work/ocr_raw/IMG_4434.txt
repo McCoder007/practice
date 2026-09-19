@@ -1,0 +1,73 @@
+FILE: IMG_4434.JPG
+ORIENTED: 2160x2880 CROP_TL: 129,518,1900,2015
+LINES: 38
+---
+[1.00 @ 0.01,0.27] Help
+[0.30 @ 0.02,0.30] 11:57:48 AM
+[0.50 @ 0.34,0.30] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.02,0.35] IN ĐIỂM
+[0.50 @ 0.12,0.35] CÂU HỎI SỐ:
+[1.00 @ 0.26,0.35] 89
+[0.50 @ 0.30,0.35] CỦA 97 CÂU HỎI.
+[0.50 @ 0.62,0.38] Nail Trac Nghiem 2026_1.dil
+[0.50 @ -0.00,0.39] hich of the following cannot be sterili l ed and must be replaced
+[1.00 @ 0.62,0.40] Nail Trac Nghiem 2026_2.dil
+[1.00 @ -0.00,0.42] stead?
+[1.00 @ 0.62,0.42] Nail Trac Nghiem 2026
+[0.30 @ 0.81,0.42] 3.dll
+[0.50 @ 0.62,0.44] Nail Trac Nghiem 5.dll
+[1.00 @ 0.62,0.46] Nails Theory 2026.dll
+[0.50 @ 0.67,0.48] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ -0.00,0.51] RẢ LỜI:
+[0.30 @ 0.43,0.52] CA
+[0.30 @ 0.52,0.52] TẾP THEO
+[0.30 @ 0.65,0.53] AO BAI MƠI
+[0.30 @ 0.63,0.55] HUÁC CÂU HỎI
+[0.50 @ 0.84,0.54] CHỌN BÀI THI
+[1.00 @ 0.04,0.57] Emery board (paper nail file)
+[0.50 @ 0.62,0.61] TRÀ LỜI ĐÙNG: TRÀ LỜI SAI:
+[1.00 @ 0.86,0.61] ĐIỂM TỔNG KẾT
+[1.00 @ 0.65,0.63] 82
+[1.00 @ 0.04,0.65] Metal cuticle pusher
+[1.00 @ 0.64,0.72] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.04,0.73] Nail clipper
+[1.00 @ 0.65,0.77] 00
+[0.30 @ 0.69,0.77] PHUT
+[1.00 @ 0.74,0.77] 00
+[1.00 @ 0.78,0.77] GIAY
+[0.30 @ 0.89,0.77] HT ĐẦU
+[1.00 @ 0.04,0.81] Metal cuticle nipper
+[1.00 @ 0.66,0.83] 00.00.00.00
+[0.30 @ 0.36,0.97] XIN ĐỘC BAN HƯƠNG DAN O TREN
+[0.30 @ 0.80,0.98] Veduesdav, Seprember 1n
+---LEFT_LINES---
+0.27|Help
+0.30|11:57:48 AM
+0.30|ĐỀ THI: ( NAILS (EN) 2026)
+0.35|IN ĐIỂM
+0.35|CÂU HỎI SỐ:
+0.35|89
+0.35|CỦA 97 CÂU HỎI.
+0.39|hich of the following cannot be sterili l ed and must be replaced
+0.42|stead?
+0.51|RẢ LỜI:
+0.52|CA
+0.52|TẾP THEO
+0.57|Emery board (paper nail file)
+0.65|Metal cuticle pusher
+0.73|Nail clipper
+0.81|Metal cuticle nipper
+---CONTENT---
+0.39|hich of the following cannot be sterili l ed and must be replaced
+0.42|stead?
+0.51|RẢ LỜI:
+0.52|TẾP THEO
+0.65|Metal cuticle pusher
+0.73|Nail clipper
+0.81|Metal cuticle nipper
+---CHOICE_ROWS---
+A y=0.43 meanG=220.1 lime=0.848 bright=215.6 text=stead?
+B y=0.52 meanG=168.5 lime=0.094 bright=23.3 text=RẢ LỜI:
+C y=0.53 meanG=165.7 lime=0.047 bright=14.2 text=TẾP THEO
+D y=0.66 meanG=211.8 lime=0.691 bright=52.4 text=Metal cuticle pusher
+SELECTED_HINT: A bright=215.6 margin=163.2 text=stead?

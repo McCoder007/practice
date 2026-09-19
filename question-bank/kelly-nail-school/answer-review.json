@@ -1,0 +1,40 @@
+{
+  "reviewedAt": "2026-09-19",
+  "reviewMethod": "Cross-check against the app's verified Practice and Milady pools, the source screenshots, and standard nail-technology principles.",
+  "answerOverrides": {
+    "kelly-031": {
+      "from": "a",
+      "to": "b",
+      "reason": "Acrylic beads are shaped and sculpted with the Kolinsky/acrylic brush, not an orangewood stick.",
+      "evidence": "Milady review nails chapter 11 describes pressing and smoothing enhancement product with a sable brush."
+    },
+    "kelly-036": {
+      "from": "a",
+      "to": "b",
+      "reason": "Hardened acrylic is tested with a light tap from the brush handle.",
+      "evidence": "Exact verified duplicate: practice-theory-update-008."
+    }
+  },
+  "choiceRepairs": {
+    "kelly-024": "Replaced a duplicated split Sterilization fragment with Antisepsis.",
+    "kelly-059": "Replaced the split continuation of choice C with a distinct unsafe towel-only distractor.",
+    "kelly-051": "Changed Primer to Nail adhesive because plastic tips are bonded with nail adhesive.",
+    "kelly-060": "Reconstructed the split choice as cleaned and disinfected after each client and added a distinct storage-without-cleaning distractor.",
+    "kelly-069": "Clarified that shorter curing intervals must still complete the manufacturer's total cure time.",
+    "kelly-084": "Replaced the split continuation of Sterilization with Disinfection.",
+    "kelly-085": "Added Disinfection as the missing fourth visible-choice alternative."
+  },
+  "questionRepairs": {
+    "kelly-053": {
+      "from": "When colorless monomer dries, it creates a sticky layer known as:",
+      "to": "When clear gel cures, it may create a sticky layer known as:",
+      "reason": "A sticky inhibition layer is associated with cured gel where oxygen contacts the surface, not dried monomer."
+    }
+  },
+  "excludedSourceItems": [
+    "Disposal of chemical products in a nail salon must follow regulations established by:",
+    "Disinfection means:",
+    "During weekly disinfection of a pedicure spa, the disinfectant solution should remain in the basin for:",
+    "Sterilization means:"
+  ]
+}

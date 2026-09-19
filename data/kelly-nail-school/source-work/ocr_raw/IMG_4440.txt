@@ -1,0 +1,68 @@
+FILE: IMG_4440.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 37
+---
+[1.00 @ 0.01,0.38] File
+[1.00 @ 0.04,0.38] Help
+[0.50 @ 0.05,0.41] 12:00:69 PM
+[0.30 @ 0.36,0.41] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.05,0.45] N ĐIỂM
+[1.00 @ 0.15,0.45] CÂU HỎI SỐ:
+[1.00 @ 0.28,0.45] 95
+[1.00 @ 0.32,0.45] CỦA 97 CÂU HỎI.
+[0.50 @ 0.62,0.48] Nail Trac Nghiem 2026
+[0.30 @ 0.79,0.48] _1.dli
+[1.00 @ 0.02,0.49] The tool used to remove dead skin from the feet is:
+[1.00 @ 0.62,0.50] Nail Trac Nghiem 2026
+[0.30 @ 0.79,0.50] • 2.dll
+[0.50 @ 0.62,0.51] Nail Trac Nghiem 2026_3.dll
+[0.50 @ 0.62,0.53] Nail Trac Nghiem 5.dll
+[1.00 @ 0.62,0.55] Nails Theory 2026.dll
+[0.50 @ 0.66,0.57] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ 0.02,0.61] TRẢ LỜI:
+[0.30 @ 0.44,0.61] CÂU GỎI TIẾP THEO
+[0.50 @ 0.64,0.62] TAO BÀI MỚI
+[0.50 @ 0.63,0.64] HOẶC CÂU HỎI
+[1.00 @ 0.82,0.63] CHỌN BÀI THI
+[1.00 @ 0.06,0.66] Foot file
+[0.50 @ 0.62,0.70] TRÀ LỜI ĐÚNG: TRÀ LỜI SAI:
+[1.00 @ 0.85,0.70] ĐIỂM TỔNG KẾT
+[1.00 @ 0.65,0.72] 87
+[1.00 @ 0.06,0.74] Gel brush
+[1.00 @ 0.77,0.73] 7
+[0.50 @ 0.64,0.80] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.06,0.82] Nippers
+[1.00 @ 0.65,0.86] 00
+[0.30 @ 0.69,0.86] РН0
+[1.00 @ 0.74,0.86] 00
+[1.00 @ 0.82,0.86] 00
+[0.30 @ 0.88,0.86] SẮT ĐẦU
+[1.00 @ 0.06,0.89] Acrylic brush
+[1.00 @ 0.66,0.91] 00.00.00.00
+---LEFT_LINES---
+0.38|File
+0.38|Help
+0.41|12:00:69 PM
+0.41|ĐỀ THI: ( NAILS (EN) 2026)
+0.45|N ĐIỂM
+0.45|CÂU HỎI SỐ:
+0.45|95
+0.45|CỦA 97 CÂU HỎI.
+0.49|The tool used to remove dead skin from the feet is:
+0.61|TRẢ LỜI:
+0.61|CÂU GỎI TIẾP THEO
+0.66|Foot file
+0.74|Gel brush
+0.82|Nippers
+0.89|Acrylic brush
+---CONTENT---
+0.45|N ĐIỂM
+0.49|The tool used to remove dead skin from the feet is:
+0.74|Gel brush
+0.82|Nippers
+0.89|Acrylic brush
+---CHOICE_ROWS---
+A y=0.74 meanG=207.4 lime=0.636 bright=50.4 text=Gel brush
+B y=0.83 meanG=207.3 lime=0.598 bright=43.4 text=Nippers
+C y=0.90 meanG=206.5 lime=0.502 bright=36.3 text=Acrylic brush
+SELECTED_HINT: none margin=7.1

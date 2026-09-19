@@ -1,0 +1,65 @@
+FILE: IMG_4418.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 34
+---
+[1.00 @ 0.03,0.27] File Help
+[0.30 @ 0.07,0.29] 11:51:24 ANI
+[0.50 @ 0.38,0.29] ĐÈ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.07,0.34] N ĐIỂM
+[0.30 @ 0.17,0.33] CÂU HỎI SỐ: 74 CỦA 97 CẦU HỎI.
+[0.50 @ 0.65,0.35] Nail Trac Nghiem 2026_1.dll
+[1.00 @ 0.03,0.38] Sea salt and plastic beads are types of:
+[0.50 @ 0.65,0.37] Nail Trac Nghiem 2026_2.dll
+[0.50 @ 0.65,0.40] Nail Trac Nghiem 2026_3.dll
+[1.00 @ 0.65,0.42] Nail Trac Nghiem 5.dll
+[0.50 @ 0.65,0.44] Nails Theory 2026.dll
+[0.50 @ 0.69,0.46] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ 0.04,0.50] TRẢ LỜI:
+[0.50 @ 0.46,0.50] CÂU HỘI TIẾP THEO
+[0.50 @ 0.67,0.50] TẠO BÀI MỚI
+[0.50 @ 0.66,0.52] HOẶC CÂU HỎI
+[0.50 @ 0.86,0.52] CHỌN BẢI THI
+[1.00 @ 0.09,0.55] Disinfectants
+[0.50 @ 0.65,0.59] TRÀ LỜI ĐÙNG: TRÀ LỜI SAI:
+[0.50 @ 0.89,0.58] ĐIỂM TỔNG KẾ
+[1.00 @ 0.68,0.61] 68
+[1.00 @ 0.80,0.61] 5
+[1.00 @ 0.09,0.63] Exfoliants (scrubs)
+[1.00 @ 0.67,0.69] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.09,0.71] Primer
+[1.00 @ 0.68,0.74] 00
+[1.00 @ 0.77,0.75] 00
+[0.30 @ 0.81,0.75] CAI
+[1.00 @ 0.86,0.75] 00
+[0.30 @ 0.91,0.74] CẮT ĐẦU
+[1.00 @ 0.09,0.78] Resin
+[1.00 @ 0.69,0.80] 00.00.00.00
+[0.30 @ 0.40,0.94] XIN ĐỌC BẢN HƯƠNG DAN O TREN
+[0.50 @ 0.83,0.95] Wednesdav. September 16
+---LEFT_LINES---
+0.27|File Help
+0.29|11:51:24 ANI
+0.29|ĐÈ THI: ( NAILS (EN) 2026 )
+0.34|N ĐIỂM
+0.33|CÂU HỎI SỐ: 74 CỦA 97 CẦU HỎI.
+0.38|Sea salt and plastic beads are types of:
+0.50|TRẢ LỜI:
+0.50|CÂU HỘI TIẾP THEO
+0.55|Disinfectants
+0.63|Exfoliants (scrubs)
+0.71|Primer
+0.78|Resin
+---CONTENT---
+0.29|ĐÈ THI: ( NAILS (EN) 2026 )
+0.34|N ĐIỂM
+0.38|Sea salt and plastic beads are types of:
+0.55|Disinfectants
+0.63|Exfoliants (scrubs)
+0.71|Primer
+0.78|Resin
+---CHOICE_ROWS---
+A y=0.35 meanG=153.4 lime=0.089 bright=34.2 text=N ĐIỂM
+B y=0.39 meanG=206.2 lime=0.634 bright=182.9 text=Sea salt and plastic beads are types of:
+C y=0.56 meanG=204.2 lime=0.558 bright=55.3 text=Disinfectants
+D y=0.64 meanG=206.3 lime=0.569 bright=50.2 text=Exfoliants (scrubs)
+SELECTED_HINT: B bright=182.9 margin=127.6 text=Sea salt and plastic beads are types of:

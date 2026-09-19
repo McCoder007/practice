@@ -1,0 +1,73 @@
+FILE: IMG_4420.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 38
+---
+[1.00 @ 0.01,0.30] Help
+[0.30 @ 0.02,0.32] 11:51:5741
+[0.50 @ 0.34,0.32] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.00,0.37] N ĐIÊM
+[0.50 @ 0.12,0.36] CÂU HỎI SỐ:
+[1.00 @ 0.25,0.37] 76
+[1.00 @ 0.29,0.37] CỦA 97 CẦU HỎI.
+[0.50 @ 0.61,0.39] Nail Trac Nghiem 2026_1.dli
+[0.30 @ 0.00,0.41] le nail bed is:
+[0.50 @ 0.61,0.41] Nail Trac Nghiem 2026_2.dll
+[1.00 @ 0.61,0.43] Nail Trac Nghiem 2026
+[0.30 @ 0.78,0.43] _3.dli
+[0.50 @ 0.60,0.45] Nail Trac Nghiem 5.dll
+[1.00 @ 0.60,0.47] Nails Theory 2026.dll
+[0.50 @ 0.65,0.50] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ 0.00,0.53] RẢ LỜI:
+[0.30 @ 0.42,0.53] CẦU HỒI TẾP THEO
+[0.30 @ 0.63,0.54] BẠO BÀI MỚI
+[1.00 @ 0.61,0.56] HOẶC CÂU HỎI
+[1.00 @ 0.82,0.55] CHỌN BÀI THI
+[1.00 @ 0.04,0.59] The skin around the nail
+[0.50 @ 0.60,0.62] TRÀ LỜI ĐÚNG: TRÀ LỜI SAI-
+[1.00 @ 0.84,0.62] ĐIỂM TỔNG KẾT
+[1.00 @ 0.64,0.64] 70
+[0.50 @ 0.76,0.65] 5
+[0.50 @ 0.04,0.66] The skin beneath the nail plate
+[0.50 @ 0.62,0.72] CHỈNH GIỜ CHO CUỘC THI
+[0.50 @ 0.04,0.74] The tip of the nail
+[1.00 @ 0.64,0.78] 00
+[0.50 @ 0.68,0.78] PHUT
+[1.00 @ 0.73,0.78] 00
+[0.30 @ 0.77,0.78] GIAY
+[1.00 @ 0.81,0.78] 00
+[0.30 @ 0.87,0.78] ẤT ĐẦU
+[1.00 @ 0.04,0.82] The nail wall
+[1.00 @ 0.65,0.83] 00.00.00.00
+[0.30 @ 0.35,0.98] XIN ĐỘC BẢN HƯƠNG DAN O TREN
+[0.50 @ 0.78,0.98] Wednesdav. Seprember 16
+---LEFT_LINES---
+0.30|Help
+0.32|11:51:5741
+0.32|ĐỀ THI: ( NAILS (EN) 2026 )
+0.37|N ĐIÊM
+0.36|CÂU HỎI SỐ:
+0.37|76
+0.37|CỦA 97 CẦU HỎI.
+0.41|le nail bed is:
+0.53|RẢ LỜI:
+0.53|CẦU HỒI TẾP THEO
+0.59|The skin around the nail
+0.66|The skin beneath the nail plate
+0.74|The tip of the nail
+0.82|The nail wall
+---CONTENT---
+0.37|N ĐIÊM
+0.37|CỦA 97 CẦU HỎI.
+0.41|le nail bed is:
+0.53|RẢ LỜI:
+0.53|CẦU HỒI TẾP THEO
+0.59|The skin around the nail
+0.66|The skin beneath the nail plate
+0.74|The tip of the nail
+0.82|The nail wall
+---CHOICE_ROWS---
+A y=0.42 meanG=213.3 lime=0.752 bright=184.7 text=le nail bed is:
+B y=0.54 meanG=171.0 lime=0.057 bright=18.3 text=RẢ LỜI:
+C y=0.54 meanG=169.1 lime=0.035 bright=14.9 text=CẦU HỒI TẾP THEO
+D y=0.60 meanG=212.6 lime=0.695 bright=60.0 text=The skin around the nail
+SELECTED_HINT: A bright=184.7 margin=124.7 text=le nail bed is:

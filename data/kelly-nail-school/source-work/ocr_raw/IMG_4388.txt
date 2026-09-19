@@ -1,0 +1,70 @@
+FILE: IMG_4388.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 35
+---
+[1.00 @ 0.00,0.34] Help
+[0.30 @ 0.01,0.37] 11:16:47 AM
+[0.30 @ 0.34,0.37] ĐỀ THI:(NAILS (EN) 2026)
+[0.30 @ 0.01,0.42] N ĐIỂM
+[0.50 @ 0.11,0.41] CÂU HỎI SỐ:
+[1.00 @ 0.25,0.42] 45
+[0.30 @ 0.29,0.42] CỦA 97, CÂU HỒI.
+[1.00 @ 0.62,0.44] Nail Trac Nghiem 2026_
+[0.30 @ 0.81,0.44] _1.dll
+[1.00 @ 0.00,0.46] a client with arthritis, stiff joints, and difficulty opening the
+[1.00 @ 0.62,0.46] Nail Trac Nghiem 2026
+[0.50 @ 0.81,0.46] 2. dll
+[1.00 @ -0.00,0.49] id, massage should focus on the:
+[1.00 @ 0.62,0.48] Nail Trac Nghiem 2026_3.dll
+[0.50 @ 0.62,0.50] Nail Trac Nghiem 5.dll
+[1.00 @ 0.62,0.52] Nails Theory 2026.dll
+[0.50 @ 0.66,0.55] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.00,0.58] Á LỜI:
+[0.30 @ 0.43,0.59] CÂUHEL TUP THEO
+[0.30 @ 0.64,0.60] (RAO BÀI MỚI
+[0.30 @ 0.63,0.62] HOÁC CÂU HỎI
+[0.50 @ 0.84,0.61] CHỌN BÀI THI
+[1.00 @ 0.02,0.65] Skeletal muscles
+[0.50 @ 0.62,0.68] TRÀ LỜI ĐÚNG: TRÀ LỜI SAI:
+[1.00 @ 0.87,0.68] ĐIỂM TỔNG KẾT
+[1.00 @ 0.65,0.70] 44
+[1.00 @ 0.02,0.72] Hand and finger muscles
+[1.00 @ 0.02,0.81] Nail muscles
+[0.50 @ 0.64,0.79] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.66,0.85] 00
+[1.00 @ 0.75,0.85] 00
+[1.00 @ 0.84,0.85] 00
+[0.30 @ 0.90,0.85] ẤT ĐẦU
+[1.00 @ 0.02,0.88] Skin muscles
+[1.00 @ 0.66,0.91] 00.00.00.00
+---LEFT_LINES---
+0.34|Help
+0.37|11:16:47 AM
+0.37|ĐỀ THI:(NAILS (EN) 2026)
+0.42|N ĐIỂM
+0.41|CÂU HỎI SỐ:
+0.42|45
+0.42|CỦA 97, CÂU HỒI.
+0.46|a client with arthritis, stiff joints, and difficulty opening the
+0.49|id, massage should focus on the:
+0.58|Á LỜI:
+0.59|CÂUHEL TUP THEO
+0.65|Skeletal muscles
+0.72|Hand and finger muscles
+0.81|Nail muscles
+0.88|Skin muscles
+---CONTENT---
+0.42|N ĐIỂM
+0.46|a client with arthritis, stiff joints, and difficulty opening the
+0.49|id, massage should focus on the:
+0.58|Á LỜI:
+0.65|Skeletal muscles
+0.72|Hand and finger muscles
+0.81|Nail muscles
+0.88|Skin muscles
+---CHOICE_ROWS---
+A y=0.50 meanG=207.0 lime=0.629 bright=199.0 text=id, massage should focus on the:
+B y=0.59 meanG=161.4 lime=0.073 bright=15.9 text=Á LỜI:
+C y=0.65 meanG=202.8 lime=0.630 bright=56.8 text=Skeletal muscles
+D y=0.73 meanG=204.3 lime=0.653 bright=51.3 text=Hand and finger muscles
+SELECTED_HINT: A bright=199.0 margin=142.2 text=id, massage should focus on the:

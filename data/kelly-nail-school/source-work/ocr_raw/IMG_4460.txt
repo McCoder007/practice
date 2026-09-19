@@ -1,0 +1,70 @@
+FILE: IMG_4460.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 39
+---
+[1.00 @ 0.01,0.33] Help
+[0.50 @ 0.02,0.36] 12:05:06 PM
+[0.50 @ 0.36,0.36] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.02,0.40] IN ĐIỂM
+[1.00 @ 0.12,0.40] CÂU HỎI SỐ:
+[1.00 @ 0.26,0.41] 17
+[1.00 @ 0.31,0.41] CỦA 97 CÂU HỎI.
+[1.00 @ -0.00,0.45] product that helps soften the skin is:
+[1.00 @ 0.63,0.44] Nail Trac Nghiem 2026
+[0.30 @ 0.81,0.45] _1.dll
+[1.00 @ 0.63,0.46] Nail Trac Nghiem 2026
+[0.50 @ 0.81,0.47] 2.dll
+[1.00 @ 0.63,0.48] Nail Trac Nghiem 2026
+[0.30 @ 0.82,0.49] 3.dll
+[0.50 @ 0.63,0.50] Nail Trac Nghiem 5.dil
+[1.00 @ 0.63,0.52] Nails Theory 2026.dll
+[0.50 @ 0.67,0.55] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ -0.00,0.57] Ả LỜI:
+[0.30 @ 0.47,0.58] KHỎI TIẾP THEO
+[0.30 @ 0.65,0.60] THO BÀI MỚI
+[0.30 @ 0.64,0.62] HUẶC CÂU HỎI
+[0.50 @ 0.85,0.62] CHỌN BẢI THI
+[1.00 @ 0.03,0.63] Cuticle oil
+[0.30 @ 0.56,0.66] I
+[0.50 @ 0.62,0.68] TRẢ LỜI ĐÙNG: TRÀ LỜI SAI:
+[1.00 @ 0.87,0.68] ĐIỂM TỔNG KẾT
+[1.00 @ 0.03,0.71] Primer
+[1.00 @ 0.66,0.70] 14
+[1.00 @ 0.78,0.71] 2
+[1.00 @ 0.02,0.80] Monomer
+[1.00 @ 0.64,0.79] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.66,0.85] 00
+[0.30 @ 0.70,0.85] THUT
+[1.00 @ 0.75,0.85] 00
+[0.30 @ 0.79,0.85] CIA)
+[1.00 @ 0.84,0.85] 00
+[0.30 @ 0.89,0.85] HẮT ĐẦU
+[1.00 @ 0.02,0.87] Polymer
+[1.00 @ 0.67,0.90] 00.00.00.00
+---LEFT_LINES---
+0.33|Help
+0.36|12:05:06 PM
+0.36|ĐỀ THI: ( NAILS (EN) 2026 )
+0.40|IN ĐIỂM
+0.40|CÂU HỎI SỐ:
+0.41|17
+0.41|CỦA 97 CÂU HỎI.
+0.45|product that helps soften the skin is:
+0.57|Ả LỜI:
+0.58|KHỎI TIẾP THEO
+0.63|Cuticle oil
+0.71|Primer
+0.80|Monomer
+0.87|Polymer
+---CONTENT---
+0.57|Ả LỜI:
+0.63|Cuticle oil
+0.71|Primer
+0.80|Monomer
+0.87|Polymer
+---CHOICE_ROWS---
+A y=0.64 meanG=209.4 lime=0.659 bright=56.0 text=Cuticle oil
+B y=0.72 meanG=212.3 lime=0.687 bright=49.9 text=Primer
+C y=0.81 meanG=209.8 lime=0.660 bright=41.4 text=Monomer
+D y=0.88 meanG=210.4 lime=0.660 bright=35.5 text=Polymer
+SELECTED_HINT: none margin=6.2

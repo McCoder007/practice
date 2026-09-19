@@ -1,0 +1,74 @@
+FILE: IMG_4498.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 41
+---
+[1.00 @ 0.00,0.24] Help
+[0.50 @ 0.01,0.27] 12:32:24 PM
+[0.50 @ 0.33,0.27] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.96,0.28] X
+[0.30 @ 0.01,0.31] IN ĐIỂM
+[0.50 @ 0.11,0.31] CÂU HỎI SỐ:
+[1.00 @ 0.24,0.32] 84
+[0.50 @ 0.29,0.32] CỦA 97 CÂU HỎI.
+[1.00 @ 0.00,0.35] test whether acrylic has hardened, what should you lightly tap
+[1.00 @ 0.60,0.35] Nail Trac Nghiem 2026
+[0.50 @ 0.79,0.35] 1.dll
+[1.00 @ 0.60,0.37] Nail Trac Nghiem 2026
+[0.30 @ 0.78,0.37] 2.dll
+[0.50 @ -0.00,0.38] e nail with?
+[1.00 @ 0.60,0.39] Nail Trac Nghiem 2026
+[0.30 @ 0.78,0.39] _3.dil
+[0.50 @ 0.60,0.40] Nail Trac Nghiem 5.dll
+[1.00 @ 0.60,0.43] Nails Theory 2026.dll
+[0.50 @ 0.64,0.45] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ -0.00,0.47] Ả LỜI:
+[0.50 @ 0.16,0.48] BẠN CHỌN ĐÚNG RỒI.
+[0.50 @ 0.41,0.48] CẦU HỎI TIẾP THEO
+[0.30 @ 0.62,0.50] TAO BẢI MỚI
+[0.50 @ 0.61,0.52] HOÁC CÂU HỎI
+[0.50 @ 0.81,0.51] CHỌN BÀI THI
+[1.00 @ 0.03,0.53] Nippers
+[0.30 @ 0.59,0.57] TRÀ LỜI ĐÙNG: TRÃ LỜI SAI:
+[0.50 @ 0.83,0.57] ĐIỂM TỔNG KẾT
+[1.00 @ 0.03,0.61] Brush handle
+[1.00 @ 0.63,0.60] 76
+[1.00 @ 0.03,0.69] Electric file
+[1.00 @ 0.61,0.68] CHỈNH GIỜ CHO CUỘC THI
+[0.30 @ 0.63,0.73] 00
+[0.30 @ 0.67,0.73] PHÚTI
+[1.00 @ 0.71,0.74] 00
+[0.30 @ 0.76,0.74] CAI
+[1.00 @ 0.80,0.74] 00
+[0.30 @ 0.85,0.74] ĐẮT ĐẦU
+[1.00 @ 0.03,0.76] Wooden cuticle stick
+[1.00 @ 0.63,0.79] 00.00.00.00
+[0.30 @ 0.76,0.93] veduesdav. September 16
+---LEFT_LINES---
+0.27|12:32:24 PM
+0.27|ĐỀ THI: ( NAILS (EN) 2026 )
+0.31|IN ĐIỂM
+0.31|CÂU HỎI SỐ:
+0.32|84
+0.32|CỦA 97 CÂU HỎI.
+0.35|test whether acrylic has hardened, what should you lightly tap
+0.38|e nail with?
+0.47|Ả LỜI:
+0.48|BẠN CHỌN ĐÚNG RỒI.
+0.48|CẦU HỎI TIẾP THEO
+0.53|Nippers
+0.61|Brush handle
+0.69|Electric file
+0.76|Wooden cuticle stick
+---CONTENT---
+0.35|test whether acrylic has hardened, what should you lightly tap
+0.38|e nail with?
+0.47|Ả LỜI:
+0.53|Nippers
+0.61|Brush handle
+0.76|Wooden cuticle stick
+---CHOICE_ROWS---
+A y=0.39 meanG=221.4 lime=0.825 bright=217.9 text=e nail with?
+B y=0.48 meanG=149.3 lime=0.135 bright=45.1 text=Ả LỜI:
+C y=0.54 meanG=210.7 lime=0.641 bright=60.7 text=Nippers
+D y=0.61 meanG=205.5 lime=0.706 bright=150.4 text=Brush handle
+SELECTED_HINT: A bright=217.9 margin=67.6 text=e nail with?

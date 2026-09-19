@@ -1,0 +1,73 @@
+FILE: IMG_4453.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 36
+---
+[1.00 @ 0.01,0.28] Help
+[0.50 @ 0.02,0.31] 12:06:12 PM
+[0.30 @ 0.37,0.31] ĐÊ THL CINAILS (ENX2026)
+[0.30 @ 0.00,0.36] IN ĐIỂM
+[0.50 @ 0.13,0.36] CÂU HỎI SỐ
+[1.00 @ 0.28,0.37] 10
+[0.30 @ 0.32,0.36] CỬA 97 CẦU HỎI
+[0.50 @ 0.66,0.39] Nail Trac Nghiem 2026_1.dli
+[0.50 @ 0.00,0.41] soaking bowi, cuticle pusher, and nail clipper are classified as:
+[1.00 @ 0.66,0.41] Nail Trac Nghiem 2026_2.dli
+[0.50 @ 0.66,0.43] Nail Trac Nghiem 2026_3.dil
+[0.50 @ 0.66,0.45] Nail Trac Nghiem 5.dll
+[1.00 @ 0.66,0.47] Nails Theory 2026.dll
+[0.50 @ 0.71,0.50] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ -0.00,0.54] RẢ LỜI:
+[0.30 @ 0.50,0.53] 145
+[0.30 @ 0.51,0.54] HƠN TIÉP THEO
+[0.30 @ 0.70,0.55] IÒ BẢI MỚI
+[0.30 @ 0.69,0.57] HIA Ở CÂU HỎI
+[0.50 @ 0.88,0.56] CHỌN BÀI TI
+[1.00 @ 0.04,0.60] Tools/implements
+[0.50 @ 0.66,0.63] TRÀ LỜI ĐÚNG: TRÀ LỜI SAI:
+[0.50 @ 0.91,0.63] ĐIỂM TỔNC
+[1.00 @ 0.70,0.66] 8
+[1.00 @ 0.82,0.66] 1
+[1.00 @ 0.05,0.68] Materials
+[1.00 @ 0.68,0.75] CHỈNH GIỜ CHO CUỘC TH
+[1.00 @ 0.05,0.77] Chemicals
+[1.00 @ 0.70,0.80] 00
+[1.00 @ 0.79,0.80] 00
+[0.30 @ 0.83,0.80] GIẢ
+[1.00 @ 0.88,0.80] 00
+[0.30 @ 0.94,0.80] BAT Đ
+[1.00 @ 0.05,0.84] Disposable supplies
+[1.00 @ 0.01,0.87] D
+[1.00 @ 0.70,0.86] 00.00.00.00
+---LEFT_LINES---
+0.28|Help
+0.31|12:06:12 PM
+0.31|ĐÊ THL CINAILS (ENX2026)
+0.36|IN ĐIỂM
+0.36|CÂU HỎI SỐ
+0.37|10
+0.36|CỬA 97 CẦU HỎI
+0.41|soaking bowi, cuticle pusher, and nail clipper are classified as:
+0.54|RẢ LỜI:
+0.53|145
+0.54|HƠN TIÉP THEO
+0.60|Tools/implements
+0.68|Materials
+0.77|Chemicals
+0.84|Disposable supplies
+0.87|D
+---CONTENT---
+0.31|ĐÊ THL CINAILS (ENX2026)
+0.36|CỬA 97 CẦU HỎI
+0.41|soaking bowi, cuticle pusher, and nail clipper are classified as:
+0.54|RẢ LỜI:
+0.54|HƠN TIÉP THEO
+0.60|Tools/implements
+0.68|Materials
+0.77|Chemicals
+0.84|Disposable supplies
+---CHOICE_ROWS---
+A y=0.37 meanG=151.7 lime=0.047 bright=21.0 text=CỬA 97 CẦU HỎI
+B y=0.42 meanG=201.6 lime=0.502 bright=176.8 text=soaking bowi, cuticle pusher, and nail clipper are classified as:
+C y=0.55 meanG=164.7 lime=0.070 bright=15.0 text=RẢ LỜI:
+D y=0.55 meanG=165.2 lime=0.072 bright=15.2 text=HƠN TIÉP THEO
+SELECTED_HINT: B bright=176.8 margin=155.7 text=soaking bowi, cuticle pusher, and nail clipper are classified as:

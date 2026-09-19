@@ -1,0 +1,73 @@
+FILE: IMG_4417.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 39
+---
+[1.00 @ 0.05,0.35] File Help
+[1.00 @ 0.08,0.38] 11:50:45 AM
+[0.50 @ 0.38,0.38] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.98,0.38] X
+[0.30 @ 0.08,0.43] IN ĐIÊM
+[0.50 @ 0.18,0.42] CÂU HỎI SỐ:
+[1.00 @ 0.30,0.43] 73
+[0.50 @ 0.34,0.42] CỦA 97 CÂU HỒI.
+[0.50 @ 0.63,0.45] Nail Trac Nghiem 2026
+[1.00 @ 0.80,0.45] 1.dll
+[1.00 @ 0.05,0.46] Relaxation massage usually involves:
+[1.00 @ 0.63,0.47] Nail Trac Nghiem 2026
+[0.50 @ 0.80,0.47] 2.dll
+[1.00 @ 0.63,0.49] Nail Trac Nghiem 2026
+[0.50 @ 0.80,0.49] 3.dll
+[1.00 @ 0.63,0.50] Nail Trac Nghiem 5.dll
+[1.00 @ 0.63,0.52] Nails Theory 2026.dll
+[1.00 @ 0.67,0.54] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.05,0.57] RÀ LỜI:
+[0.30 @ 0.46,0.58] CÂU HỒI TẾP THEO
+[0.50 @ 0.65,0.59] TẠO BÀI MỚI
+[0.50 @ 0.64,0.61] HOẶC CÂU HỎI
+[0.50 @ 0.84,0.60] CHỌN BAI THI
+[1.00 @ 0.09,0.63] Hard pounding
+[0.50 @ 0.63,0.66] TRÀ LỜI ĐÙNG: TRÀ LỜI SAI:
+[1.00 @ 0.86,0.67] ĐIỂM TỔNG KẾT
+[1.00 @ 0.67,0.69] 67
+[1.00 @ 0.09,0.70] Hard tapping
+[1.00 @ 0.78,0.69] 5
+[0.30 @ 0.05,0.72] B
+[1.00 @ 0.65,0.76] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.09,0.78] Gentle massage strokes
+[0.30 @ 0.63,0.82] GIO
+[1.00 @ 0.67,0.82] 00
+[0.30 @ 0.70,0.82] PHUT 00
+[1.00 @ 0.83,0.82] 00
+[0.50 @ 0.90,0.82] ẤT ĐẦU
+[1.00 @ 0.09,0.85] Joint cracking
+[1.00 @ 0.67,0.87] 00.00.00.00
+---LEFT_LINES---
+0.35|File Help
+0.38|11:50:45 AM
+0.38|ĐỀ THI: ( NAILS (EN) 2026 )
+0.43|IN ĐIÊM
+0.42|CÂU HỎI SỐ:
+0.43|73
+0.42|CỦA 97 CÂU HỒI.
+0.46|Relaxation massage usually involves:
+0.57|RÀ LỜI:
+0.58|CÂU HỒI TẾP THEO
+0.63|Hard pounding
+0.70|Hard tapping
+0.72|B
+0.78|Gentle massage strokes
+0.85|Joint cracking
+---CONTENT---
+0.43|IN ĐIÊM
+0.46|Relaxation massage usually involves:
+0.57|RÀ LỜI:
+0.63|Hard pounding
+0.70|Hard tapping
+0.78|Gentle massage strokes
+0.85|Joint cracking
+---CHOICE_ROWS---
+A y=0.58 meanG=168.1 lime=0.117 bright=27.0 text=RÀ LỜI:
+B y=0.64 meanG=200.8 lime=0.539 bright=53.1 text=Hard pounding
+C y=0.71 meanG=203.0 lime=0.569 bright=48.3 text=Hard tapping
+D y=0.79 meanG=201.8 lime=0.513 bright=41.1 text=Gentle massage strokes
+SELECTED_HINT: none margin=4.7

@@ -1,0 +1,70 @@
+FILE: IMG_4446.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 35
+---
+[1.00 @ 0.01,0.27] Help
+[0.30 @ 0.02,0.30] 12:04:29 P.M
+[0.30 @ 0.34,0.29] ĐỀ THI: (NAILS (EN) 2026)
+[0.30 @ 0.00,0.34] IN ĐIỄM
+[0.50 @ 0.12,0.34] CẦU HỎI SỐ:
+[1.00 @ 0.26,0.34] 3
+[0.50 @ 0.31,0.34] CỦA 97 CẦU HỎI.
+[0.50 @ 0.64,0.36] Nail Trac Nghiem 2026_1.dli
+[0.50 @ 0.00,0.39] /hite spots on a client's nails are a sign of:
+[0.50 @ 0.64,0.39] Nail Trac Nghiem 2026_2.dll
+[1.00 @ 0.64,0.41] Nail Trac Nghiem 2026
+[0.30 @ 0.82,0.41] _3.dll
+[0.50 @ 0.64,0.43] Nail Trac Nghiem 5.dll
+[1.00 @ 0.64,0.45] Nails Theory 2026.dll
+[0.50 @ 0.68,0.47] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ -0.00,0.51] RẢ LỜI:
+[0.30 @ 0.50,0.51] ÔI TIẾP THEO
+[0.30 @ 0.67,0.52] AO BÀI MỚI
+[0.30 @ 0.68,0.54] ẮC CÂU HỎI
+[0.50 @ 0.86,0.53] CHỌN BÀI THI
+[1.00 @ 0.04,0.57] Leukonychia (white nail condition)
+[0.50 @ 0.63,0.60] TRÀ LỜI ĐÚNG: TRÀ LỜI SAI:
+[0.50 @ 0.89,0.60] ĐIỂM TỔNG KẾ
+[1.00 @ 0.68,0.63] 2
+[1.00 @ 0.04,0.65] Albinism
+[0.50 @ 0.66,0.72] CHÍNH GIỜ CHO CUỘC THI
+[1.00 @ 0.05,0.73] Fungal hair infection
+[1.00 @ 0.67,0.77] 00
+[1.00 @ 0.77,0.77] 00
+[1.00 @ 0.85,0.77] 00
+[0.30 @ 0.91,0.77] SẤT ĐẦU
+[1.00 @ 0.05,0.81] Calluses
+[1.00 @ 0.68,0.83] 00.00.00.00
+[0.30 @ 0.84,0.98] ednesuav.
+[1.00 @ 0.91,0.98] September 10
+---LEFT_LINES---
+0.27|Help
+0.30|12:04:29 P.M
+0.29|ĐỀ THI: (NAILS (EN) 2026)
+0.34|IN ĐIỄM
+0.34|CẦU HỎI SỐ:
+0.34|3
+0.34|CỦA 97 CẦU HỎI.
+0.39|/hite spots on a client's nails are a sign of:
+0.51|RẢ LỜI:
+0.51|ÔI TIẾP THEO
+0.57|Leukonychia (white nail condition)
+0.65|Albinism
+0.73|Fungal hair infection
+0.81|Calluses
+---CONTENT---
+0.34|IN ĐIỄM
+0.34|CẦU HỎI SỐ:
+0.34|CỦA 97 CẦU HỎI.
+0.39|/hite spots on a client's nails are a sign of:
+0.51|RẢ LỜI:
+0.57|Leukonychia (white nail condition)
+0.65|Albinism
+0.73|Fungal hair infection
+0.81|Calluses
+---CHOICE_ROWS---
+A y=0.35 meanG=156.4 lime=0.047 bright=23.1 text=CỦA 97 CẦU HỎI.
+B y=0.40 meanG=212.4 lime=0.687 bright=193.3 text=/hite spots on a client's nails are a sign of:
+C y=0.52 meanG=170.3 lime=0.044 bright=13.3 text=RẢ LỜI:
+D y=0.58 meanG=211.9 lime=0.667 bright=58.9 text=Leukonychia (white nail condition)
+SELECTED_HINT: B bright=193.3 margin=134.5 text=/hite spots on a client's nails are a sign of:

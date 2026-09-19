@@ -1,0 +1,69 @@
+FILE: IMG_4345.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 35
+---
+[0.50 @ 0.01,0.23] File Help
+[1.00 @ 0.05,0.26] 10:45:38 AM
+[0.50 @ 0.34,0.26] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.97,0.28] X
+[0.30 @ 0.04,0.30] N ĐIỂM
+[0.50 @ 0.14,0.30] CÂU HỎI SỐ:
+[1.00 @ 0.27,0.31] 1
+[0.50 @ 0.30,0.30] CỦA 97 CÂU HỎI.
+[1.00 @ 0.01,0.34] The living skin at the base of the nail plate is called the:
+[0.50 @ 0.61,0.34] Nail Trac Nghiem 2026_1.dll
+[0.50 @ 0.61,0.36] Nail Trac Nghiem 2026_2.dli
+[0.50 @ 0.61,0.38] Nail Trac Nghiem 2026_3.dll
+[0.50 @ 0.60,0.40] Nail Trac Nghiem 5.dll
+[1.00 @ 0.60,0.42] Nails Theory 2026.dll
+[0.50 @ 0.64,0.45] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.02,0.46] RẢ LỜI:
+[1.00 @ 0.47,0.48] START
+[0.50 @ 0.62,0.49] TAO BÀI MỚI
+[0.50 @ 0.06,0.51] Eponychium, located at the base of the nail near the lunula
+[0.50 @ 0.61,0.51] HOẶC CÂU HỎI
+[1.00 @ 0.81,0.51] CHỌN BÀI THI
+[0.50 @ 0.59,0.56] TRÀ LỜI ĐÙNG: TRẢ LỜI SAI:
+[1.00 @ 0.06,0.58] Hyponychium
+[1.00 @ 0.83,0.58] ĐIỂM TỔNG KẾT
+[1.00 @ 0.06,0.66] Nail bed
+[1.00 @ 0.61,0.66] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.05,0.73] Cushion tissue
+[1.00 @ 0.62,0.72] 00
+[0.30 @ 0.66,0.72] PHU 100
+[0.30 @ 0.75,0.73] GIAY
+[1.00 @ 0.79,0.73] 00
+[0.30 @ 0.85,0.73] CẤT ĐẦU
+[1.00 @ 0.63,0.77] 00.00.00.00
+[0.30 @ 0.37,0.89] MO CACLAIHNHODCRION
+[0.30 @ 0.75,0.93] Vednesdav. Seprember
+---LEFT_LINES---
+0.26|10:45:38 AM
+0.26|ĐỀ THI: ( NAILS (EN) 2026)
+0.30|N ĐIỂM
+0.30|CÂU HỎI SỐ:
+0.31|1
+0.30|CỦA 97 CÂU HỎI.
+0.34|The living skin at the base of the nail plate is called the:
+0.46|RẢ LỜI:
+0.48|START
+0.51|Eponychium, located at the base of the nail near the lunula
+0.58|Hyponychium
+0.66|Nail bed
+0.73|Cushion tissue
+0.89|MO CACLAIHNHODCRION
+---CONTENT---
+0.30|N ĐIỂM
+0.34|The living skin at the base of the nail plate is called the:
+0.46|RẢ LỜI:
+0.51|Eponychium, located at the base of the nail near the lunula
+0.58|Hyponychium
+0.66|Nail bed
+0.73|Cushion tissue
+0.89|MO CACLAIHNHODCRION
+---CHOICE_ROWS---
+A y=0.47 meanG=181.3 lime=0.198 bright=50.8 text=RẢ LỜI:
+B y=0.53 meanG=204.4 lime=0.602 bright=46.6 text=Eponychium, located at the base of the nail near the lunula
+C y=0.59 meanG=210.1 lime=0.646 bright=39.5 text=Hyponychium
+D y=0.67 meanG=206.7 lime=0.564 bright=30.5 text=Nail bed
+SELECTED_HINT: none margin=4.1

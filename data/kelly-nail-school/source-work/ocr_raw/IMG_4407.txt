@@ -1,0 +1,71 @@
+FILE: IMG_4407.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 35
+---
+[0.50 @ 0.00,0.31] • Help
+[0.30 @ 0.02,0.34] 1I:46:05 A.NI
+[0.30 @ 0.36,0.34] ĐE THI( NAILS (EN) 2026)
+[0.50 @ 0.02,0.39] N ĐIỂM
+[1.00 @ 0.13,0.38] CÂU HỎI SỐ:
+[1.00 @ 0.27,0.39] 63
+[0.30 @ 0.31,0.39] CỦA 97. CẦU HỎI
+[0.50 @ 0.65,0.42] Nail Trac Nghiem 2026 1.dll
+[1.00 @ 0.00,0.43] hat are the bones in the palm of the hand called?
+[1.00 @ 0.65,0.44] Nail Trac Nghiem 2026
+[0.30 @ 0.85,0.44] 2. dll
+[0.50 @ 0.65,0.46] Nail Trac Nghiem 2026_3.dll
+[0.50 @ 0.65,0.48] Nail Trac Nghiem 5.dil
+[1.00 @ 0.65,0.50] Nails Theory 2026.dll
+[1.00 @ 0.69,0.53] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ -0.00,0.56] Ả LỜI:
+[0.30 @ 0.45,0.56] CAU L ỔI TIẾP THEO
+[0.30 @ 0.67,0.58] HNO BÀI MỚI
+[0.30 @ 0.66,0.60] H ĂC CÂU HỎI
+[0.30 @ 0.88,0.59] CHỌN BẢI TI
+[1.00 @ 0.03,0.62] Finger bones (phalanges)
+[0.50 @ 0.64,0.66] TRÀ LỜI ĐŨNG: TRẢ LỜI SAI:
+[0.30 @ 0.91,0.66] ĐỊM TỔNC
+[1.00 @ 0.03,0.70] Metacarpal bones
+[1.00 @ 0.68,0.69] 60
+[1.00 @ 0.81,0.69] 2
+[1.00 @ 0.03,0.78] Wrist bones (carpals)
+[1.00 @ 0.67,0.78] CHỈNH GIỜ CHO CUỘC TH
+[1.00 @ 0.68,0.84] 00
+[1.00 @ 0.78,0.84] 00
+[0.30 @ 0.82,0.84] GIAY
+[1.00 @ 0.87,0.84] 00
+[0.30 @ 0.93,0.84] BATĐ/
+[1.00 @ 0.03,0.87] Toe bones
+[1.00 @ 0.69,0.90] 00.00.00.00
+---LEFT_LINES---
+0.31|• Help
+0.34|1I:46:05 A.NI
+0.34|ĐE THI( NAILS (EN) 2026)
+0.39|N ĐIỂM
+0.38|CÂU HỎI SỐ:
+0.39|63
+0.39|CỦA 97. CẦU HỎI
+0.43|hat are the bones in the palm of the hand called?
+0.56|Ả LỜI:
+0.56|CAU L ỔI TIẾP THEO
+0.62|Finger bones (phalanges)
+0.70|Metacarpal bones
+0.78|Wrist bones (carpals)
+0.87|Toe bones
+---CONTENT---
+0.34|1I:46:05 A.NI
+0.34|ĐE THI( NAILS (EN) 2026)
+0.39|N ĐIỂM
+0.39|CỦA 97. CẦU HỎI
+0.43|hat are the bones in the palm of the hand called?
+0.56|Ả LỜI:
+0.62|Finger bones (phalanges)
+0.70|Metacarpal bones
+0.78|Wrist bones (carpals)
+0.87|Toe bones
+---CHOICE_ROWS---
+A y=0.35 meanG=121.6 lime=0.015 bright=5.5 text=ĐE THI( NAILS (EN) 2026)
+B y=0.40 meanG=142.1 lime=0.054 bright=21.8 text=N ĐIỂM
+C y=0.40 meanG=143.8 lime=0.071 bright=25.3 text=CỦA 97. CẦU HỎI
+D y=0.44 meanG=200.1 lime=0.582 bright=173.8 text=hat are the bones in the palm of the hand called?
+SELECTED_HINT: D bright=173.8 margin=148.5 text=hat are the bones in the palm of the hand called?

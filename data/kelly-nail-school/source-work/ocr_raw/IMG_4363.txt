@@ -1,0 +1,69 @@
+FILE: IMG_4363.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 35
+---
+[1.00 @ 0.00,0.28] File Help
+[0.30 @ 0.04,0.31] 10:56:13 AN
+[0.50 @ 0.36,0.31] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.04,0.36] NĐIỄM
+[0.30 @ 0.14,0.36] CÂU HỎI SỐ:
+[1.00 @ 0.27,0.36] 20
+[0.50 @ 0.32,0.36] CỦA 97 CẦU HỎI.
+[1.00 @ 0.64,0.39] Nail Trac Nghiem 2026_
+[1.00 @ 0.84,0.39] 1.dll
+[1.00 @ 0.00,0.40] Which item is used to soften and help remove foot calluses?
+[0.50 @ 0.64,0.41] Nail Trac Nghiem 2026_2.dll
+[1.00 @ 0.64,0.43] Nail Trac Nghiem 2026
+[0.30 @ 0.83,0.43] _3.dli
+[1.00 @ 0.64,0.45] Nail Trac Nghiem 5.dll
+[1.00 @ 0.64,0.47] Nails Theory 2026.dll
+[0.50 @ 0.69,0.49] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ 0.01,0.52] TRẢ LỜI:
+[0.30 @ 0.54,0.54] NEP THEO
+[0.30 @ 0.66,0.54] TAO BÀI MỚI
+[0.30 @ 0.66,0.56] NHAC CÂU HỎI
+[0.30 @ 0.87,0.56] CHỌN BÀI TH
+[1.00 @ 0.05,0.58] Pumice stone
+[0.50 @ 0.64,0.63] TRÀ LỜI ĐÙNG: TRÃ LỜI SAI:
+[0.30 @ 0.90,0.63] ĐỊỂM TỔNG
+[1.00 @ 0.05,0.66] Gel polish
+[1.00 @ 0.67,0.65] 19
+[1.00 @ 0.04,0.74] Nail glue
+[1.00 @ 0.66,0.74] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.67,0.80] 00
+[1.00 @ 0.77,0.80] 00
+[1.00 @ 0.04,0.82] Nail tip
+[1.00 @ 0.86,0.81] 00
+[0.30 @ 0.92,0.81] BẤT ĐẦ
+[0.50 @ 0.00,0.84] D
+[1.00 @ 0.68,0.86] 00.00.00.00
+---LEFT_LINES---
+0.28|File Help
+0.31|10:56:13 AN
+0.31|ĐỀ THI: ( NAILS (EN) 2026)
+0.36|NĐIỄM
+0.36|CÂU HỎI SỐ:
+0.36|20
+0.36|CỦA 97 CẦU HỎI.
+0.40|Which item is used to soften and help remove foot calluses?
+0.52|TRẢ LỜI:
+0.54|NEP THEO
+0.58|Pumice stone
+0.66|Gel polish
+0.74|Nail glue
+0.82|Nail tip
+0.84|D
+---CONTENT---
+0.36|NĐIỄM
+0.36|CỦA 97 CẦU HỎI.
+0.54|NEP THEO
+0.58|Pumice stone
+0.66|Gel polish
+0.74|Nail glue
+0.82|Nail tip
+---CHOICE_ROWS---
+A y=0.55 meanG=156.6 lime=0.065 bright=14.8 text=NEP THEO
+B y=0.59 meanG=197.0 lime=0.608 bright=57.6 text=Pumice stone
+C y=0.67 meanG=200.5 lime=0.631 bright=50.6 text=Gel polish
+D y=0.75 meanG=199.5 lime=0.602 bright=41.3 text=Nail glue
+SELECTED_HINT: none margin=7.0

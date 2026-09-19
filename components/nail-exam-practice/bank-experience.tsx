@@ -28,6 +28,7 @@ import {
 } from "@/data/nail-exam-practice/catalog"
 import { loadPracticeQuestions as loadOfficialQuestions } from "@/data/official-exam-quiz/loadChapter"
 import { loadMiladyReviewQuestions } from "@/data/milady-review/loadChapter"
+import { loadKellyNailSchoolQuestions } from "@/data/kelly-nail-school/loadQuestions"
 import { assertPlayablePool, drawPracticeSession, shuffleQuestionChoices } from "@/lib/exam-quiz-reel"
 import {
   clearNailExamBankHistory,
@@ -46,6 +47,7 @@ const ACCENT = {
   rose: "border-rose-200 bg-rose-50 text-rose-950 dark:border-rose-900/50 dark:bg-rose-950/30 dark:text-rose-50",
   cyan: "border-cyan-200 bg-cyan-50 text-cyan-950 dark:border-cyan-900/50 dark:bg-cyan-950/30 dark:text-cyan-50",
   amber: "border-amber-200 bg-amber-50 text-amber-950 dark:border-amber-900/50 dark:bg-amber-950/30 dark:text-amber-50",
+  emerald: "border-emerald-200 bg-emerald-50 text-emerald-950 dark:border-emerald-900/50 dark:bg-emerald-950/30 dark:text-emerald-50",
 } as const
 
 const STUDY_FORMAT_ICONS: Record<StudyFormatId, typeof ListChecks> = {
@@ -59,6 +61,9 @@ async function loadBankPool(bank: NailExamBank): Promise<ExamQuestion[]> {
   }
   if (bank.pool === "milady-review") {
     return loadMiladyReviewQuestions()
+  }
+  if (bank.pool === "kelly") {
+    return loadKellyNailSchoolQuestions()
   }
   const [questions, held] = await Promise.all([loadPracticeQuestions(), loadQuestionsToReview()])
   assertPlayablePool(questions, [

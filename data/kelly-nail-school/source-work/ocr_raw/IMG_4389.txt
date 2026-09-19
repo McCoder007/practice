@@ -1,0 +1,71 @@
+FILE: IMG_4389.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 36
+---
+[1.00 @ 0.00,0.32] Help
+[0.30 @ 0.01,0.35] 1:18:13 A.V1
+[0.50 @ 0.34,0.35] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.01,0.40] IN ĐIỂM
+[0.50 @ 0.12,0.39] CÂU HỎI SỐ
+[1.00 @ 0.25,0.40] 46
+[0.30 @ 0.30,0.40] CỦA 97 CÂU HỒI.
+[0.50 @ 0.63,0.42] Nail Trac Nghiem 2026_1.dli
+[1.00 @ 0.00,0.44] ou accidentally cut a client and they begin bleeding, the first
+[0.50 @ 0.63,0.44] Nail Trac Nghiem 2026
+[0.30 @ 0.82,0.44] 2.dll
+[0.50 @ -0.00,0.47] ng you should do is:
+[1.00 @ 0.63,0.46] Nail Trac Nghiem 2026
+[0.30 @ 0.82,0.46] _3.dil
+[0.50 @ 0.63,0.48] Nail Trac Nghiem 5.dli
+[1.00 @ 0.63,0.50] Nails Theory 2026.dll
+[0.50 @ 0.67,0.53] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.00,0.57] Á LỜI:
+[0.30 @ 0.52,0.57] TÉP THEO
+[0.30 @ 0.68,0.58] Ở BÀI MỚI
+[0.30 @ 0.67,0.60] ÁC CẦU HỎI
+[0.30 @ 0.85,0.59] CHỌN BÀI THI
+[1.00 @ 0.03,0.63] Wipe it dry
+[0.50 @ 0.63,0.66] TRẢ LỜI ĐÚNG: TRẢ LỜI SAI
+[0.50 @ 0.89,0.66] ĐIỂM TỔNG KẾ
+[1.00 @ 0.67,0.69] 45
+[1.00 @ 0.03,0.71] Put on gloves
+[1.00 @ 0.65,0.77] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.03,0.79] Continue the service
+[1.00 @ 0.67,0.83] 00
+[1.00 @ 0.76,0.83] 00
+[0.30 @ 0.81,0.83] CRAY
+[1.00 @ 0.85,0.83] 00
+[0.30 @ 0.91,0.83] HẮT ĐẦU
+[1.00 @ 0.03,0.87] Cover it with polish
+[1.00 @ 0.68,0.89] 00.00.00.00
+---LEFT_LINES---
+0.32|Help
+0.35|1:18:13 A.V1
+0.35|ĐỀ THI: ( NAILS (EN) 2026)
+0.40|IN ĐIỂM
+0.39|CÂU HỎI SỐ
+0.40|46
+0.40|CỦA 97 CÂU HỒI.
+0.44|ou accidentally cut a client and they begin bleeding, the first
+0.47|ng you should do is:
+0.57|Á LỜI:
+0.57|TÉP THEO
+0.63|Wipe it dry
+0.71|Put on gloves
+0.79|Continue the service
+0.87|Cover it with polish
+---CONTENT---
+0.44|ou accidentally cut a client and they begin bleeding, the first
+0.47|ng you should do is:
+0.57|Á LỜI:
+0.57|TÉP THEO
+0.63|Wipe it dry
+0.71|Put on gloves
+0.79|Continue the service
+0.87|Cover it with polish
+---CHOICE_ROWS---
+A y=0.48 meanG=213.9 lime=0.792 bright=210.1 text=ng you should do is:
+B y=0.58 meanG=162.2 lime=0.057 bright=12.6 text=Á LỜI:
+C y=0.58 meanG=163.1 lime=0.057 bright=12.6 text=TÉP THEO
+D y=0.64 meanG=207.8 lime=0.724 bright=55.9 text=Wipe it dry
+SELECTED_HINT: A bright=210.1 margin=154.1 text=ng you should do is:

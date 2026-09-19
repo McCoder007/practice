@@ -1,0 +1,71 @@
+FILE: IMG_4497.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 37
+---
+[1.00 @ 0.01,0.38] File
+[1.00 @ 0.04,0.38] Help
+[0.50 @ 0.05,0.41] 12:30:48 PM
+[0.30 @ 0.37,0.41] ĐÊ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.05,0.45] IN ĐIỂM
+[0.50 @ 0.15,0.45] CÂU HỎI SỐ:
+[1.00 @ 0.29,0.45] 76
+[0.30 @ 0.33,0.45] CỦA 97 CẦU HỎI
+[0.50 @ 0.64,0.48] Nail Trac Nghiem 2026
+[0.30 @ 0.82,0.48] _1.dll
+[1.00 @ 0.02,0.50] Which of the following cannot be sterili l ed and must be replaced
+[0.50 @ 0.64,0.50] Nail Trac Nghiem 2026_2.dll
+[1.00 @ 0.01,0.52] instead?
+[0.30 @ 0.64,0.52] Nail Trac Nghiem 2026_3.dll
+[0.50 @ 0.64,0.53] Nail Trac Nghiem 5.dll
+[1.00 @ 0.64,0.55] Nails Theory 2026.dll
+[0.50 @ 0.68,0.58] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.02,0.61] GRẢ LỜI:
+[1.00 @ 0.45,0.61] CẦU HỘI TIẾP THEO
+[0.30 @ 0.66,0.62] GÀO BÀI MỚI
+[0.50 @ 0.65,0.65] HOẶC CÂU HỎI
+[1.00 @ 0.86,0.64] CHỌN BÀI THI
+[1.00 @ 0.07,0.67] Emery board (paper nail file)
+[0.50 @ 0.64,0.70] IRẢ LỜI ĐÚNG: TRÀ LỜI SAI:
+[0.30 @ 0.88,0.70] ĐỊM TỔNG KẾ
+[1.00 @ 0.68,0.73] 67
+[1.00 @ 0.80,0.73] 8
+[1.00 @ 0.07,0.75] Metal cuticle pusher
+[0.50 @ 0.66,0.81] CHỈNH GIỜ CHO CUỘC THI
+[0.50 @ 0.07,0.83] Nail clipper
+[1.00 @ 0.68,0.87] 00
+[1.00 @ 0.72,0.87] PHU
+[1.00 @ 0.77,0.87] 00
+[0.30 @ 0.81,0.87] GIA)
+[0.50 @ 0.91,0.87] SẮT ĐẦU
+[0.50 @ 0.07,0.90] Metal cuticle nipper
+[1.00 @ 0.69,0.93] 00.00.00.00
+---LEFT_LINES---
+0.38|File
+0.38|Help
+0.41|12:30:48 PM
+0.41|ĐÊ THI: ( NAILS (EN) 2026)
+0.45|IN ĐIỂM
+0.45|CÂU HỎI SỐ:
+0.45|76
+0.45|CỦA 97 CẦU HỎI
+0.50|Which of the following cannot be sterili l ed and must be replaced
+0.52|instead?
+0.61|GRẢ LỜI:
+0.61|CẦU HỘI TIẾP THEO
+0.67|Emery board (paper nail file)
+0.75|Metal cuticle pusher
+0.83|Nail clipper
+---CONTENT---
+0.41|ĐÊ THI: ( NAILS (EN) 2026)
+0.45|CỦA 97 CẦU HỎI
+0.50|Which of the following cannot be sterili l ed and must be replaced
+0.52|instead?
+0.61|GRẢ LỜI:
+0.75|Metal cuticle pusher
+0.83|Nail clipper
+---CHOICE_ROWS---
+A y=0.46 meanG=150.6 lime=0.076 bright=27.5 text=CỦA 97 CẦU HỎI
+B y=0.51 meanG=204.6 lime=0.584 bright=179.0 text=Which of the following cannot be sterili l ed and must be replaced
+C y=0.53 meanG=220.7 lime=0.754 bright=216.6 text=instead?
+D y=0.62 meanG=168.2 lime=0.090 bright=15.8 text=GRẢ LỜI:
+SELECTED_HINT: C bright=216.6 margin=37.6 text=instead?

@@ -1,0 +1,67 @@
+FILE: IMG_4375.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 33
+---
+[1.00 @ 0.00,0.32] lelp
+[0.50 @ 0.00,0.35] 11:07:53 AN
+[0.50 @ 0.34,0.34] ĐỀ THI: (NAILS (EN) 2026 )
+[0.30 @ 0.00,0.40] N ĐIỂM
+[0.50 @ 0.11,0.39] CÂU HỎI S
+[1.00 @ 0.24,0.40] 32
+[0.50 @ 0.29,0.39] CỦA 97 CÂU HỎI.
+[0.50 @ 0.62,0.41] Nail Trac Nghiem 2026_1.dil
+[1.00 @ -0.00,0.44] gel that is not cured long enough may cause:
+[1.00 @ 0.62,0.43] Nail Trac Nghiem 2026_2.dii
+[1.00 @ 0.62,0.45] Nail Trac Nghiem 2026
+[0.30 @ 0.81,0.45] _3. dil
+[1.00 @ 0.62,0.47] Nail Trac Nghiem 5.dll
+[0.50 @ 0.62,0.49] Nails Theory 2026.dll
+[0.50 @ 0.67,0.52] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ -0.00,0.57] \ LỜI:
+[0.50 @ 0.43,0.56] CÂU HỒN TIẾP THEO
+[0.30 @ 0.64,0.57] HẠO BÀI MỚI
+[0.30 @ 0.64,0.59] TOÁC CẦU HỎI
+[0.30 @ 0.85,0.58] NHON BẢI THI
+[1.00 @ 0.02,0.63] Softer nails
+[0.30 @ 0.62,0.65] TRÀ LỜI ĐÙNG: TRÃ LỜI SAI:
+[0.30 @ 0.88,0.65] ĐỊỂM TỔNG KẾ
+[1.00 @ 0.66,0.68] 31
+[1.00 @ 0.02,0.70] Cracking or breaking
+[0.50 @ 0.65,0.77] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.03,0.79] Faster nail growth
+[1.00 @ 0.66,0.82] 00
+[1.00 @ 0.76,0.82] 00
+[1.00 @ 0.85,0.82] 00
+[0.30 @ 0.91,0.82] HẤT ĐẦU
+[1.00 @ 0.03,0.87] White discoloration
+[1.00 @ 0.67,0.88] 00.00.00.00
+---LEFT_LINES---
+0.32|lelp
+0.35|11:07:53 AN
+0.34|ĐỀ THI: (NAILS (EN) 2026 )
+0.40|N ĐIỂM
+0.39|CÂU HỎI S
+0.40|32
+0.39|CỦA 97 CÂU HỎI.
+0.44|gel that is not cured long enough may cause:
+0.57|\ LỜI:
+0.56|CÂU HỒN TIẾP THEO
+0.63|Softer nails
+0.70|Cracking or breaking
+0.79|Faster nail growth
+0.87|White discoloration
+---CONTENT---
+0.32|lelp
+0.40|N ĐIỂM
+0.44|gel that is not cured long enough may cause:
+0.57|\ LỜI:
+0.63|Softer nails
+0.70|Cracking or breaking
+0.79|Faster nail growth
+0.87|White discoloration
+---CHOICE_ROWS---
+A y=0.58 meanG=165.7 lime=0.015 bright=10.0 text=\ LỜI:
+B y=0.64 meanG=209.5 lime=0.729 bright=53.2 text=Softer nails
+C y=0.71 meanG=208.5 lime=0.721 bright=46.9 text=Cracking or breaking
+D y=0.80 meanG=207.6 lime=0.648 bright=40.1 text=Faster nail growth
+SELECTED_HINT: none margin=6.3

@@ -1,0 +1,67 @@
+FILE: IMG_4427.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 36
+---
+[1.00 @ 0.05,0.30] File Help
+[0.30 @ 0.08,0.33] 11:55:30 AM
+[0.50 @ 0.40,0.32] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.08,0.37] IN ĐIỂM
+[1.00 @ 0.18,0.37] CÂU HỎI SỐ:
+[1.00 @ 0.31,0.37] 83
+[0.50 @ 0.34,0.37] CỦA 97 CÂU HỎI.
+[1.00 @ 0.66,0.40] Nail Trac Nghiem 2026_1.dil
+[1.00 @ 0.05,0.41] An electric file should be held:
+[0.50 @ 0.66,0.42] Nail Trac Nghiem 2026_2.dll
+[0.50 @ 0.66,0.44] Nail Trac Nghiem 2026_3.dil
+[0.50 @ 0.66,0.45] Nail Trac Nghiem 5.dll
+[1.00 @ 0.66,0.47] Nails Theory 2026.dll
+[0.50 @ 0.70,0.50] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ 0.05,0.53] TRẢ LỜI:
+[0.30 @ 0.48,0.53] CAU HÔI TIỀN THEO
+[0.30 @ 0.68,0.54] HAO BẢI MỚI
+[0.50 @ 0.67,0.56] HOẠC CÂU HỎI
+[1.00 @ 0.87,0.56] CHỌN BÀI THI
+[1.00 @ 0.10,0.58] Perpendicular to the nail
+[0.50 @ 0.65,0.62] TRÀ LỜI ĐỨNG: TRẢ LỜI SAI:
+[0.50 @ 0.89,0.62] ĐIỂM TỔNG KẾ
+[1.00 @ 0.10,0.66] Parallel to the nail
+[1.00 @ 0.69,0.64] 76
+[1.00 @ 0.10,0.73] Touching the skin
+[1.00 @ 0.68,0.72] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.69,0.77] 00
+[0.30 @ 0.73,0.78] PHUTE
+[1.00 @ 0.78,0.78] 00
+[0.30 @ 0.82,0.78] GIAI
+[1.00 @ 0.86,0.78] 00
+[0.30 @ 0.92,0.78] HẤT ĐẦU
+[1.00 @ 0.10,0.80] Upright
+[1.00 @ 0.69,0.83] 00.00.00.00
+[0.30 @ 0.40,0.96] XIN ĐỤC BẢN HƯƠNG DAN O TREN
+[1.00 @ 0.83,0.98] Wednesdav. September 16
+---LEFT_LINES---
+0.30|File Help
+0.33|11:55:30 AM
+0.32|ĐỀ THI: ( NAILS (EN) 2026)
+0.37|IN ĐIỂM
+0.37|CÂU HỎI SỐ:
+0.37|83
+0.37|CỦA 97 CÂU HỎI.
+0.41|An electric file should be held:
+0.53|TRẢ LỜI:
+0.53|CAU HÔI TIỀN THEO
+0.58|Perpendicular to the nail
+0.66|Parallel to the nail
+0.73|Touching the skin
+0.80|Upright
+---CONTENT---
+0.53|CAU HÔI TIỀN THEO
+0.58|Perpendicular to the nail
+0.66|Parallel to the nail
+0.73|Touching the skin
+0.80|Upright
+---CHOICE_ROWS---
+A y=0.59 meanG=202.6 lime=0.542 bright=54.2 text=Perpendicular to the nail
+B y=0.66 meanG=204.0 lime=0.551 bright=46.7 text=Parallel to the nail
+C y=0.74 meanG=204.1 lime=0.539 bright=40.5 text=Touching the skin
+D y=0.81 meanG=204.0 lime=0.526 bright=33.1 text=Upright
+SELECTED_HINT: none margin=7.6

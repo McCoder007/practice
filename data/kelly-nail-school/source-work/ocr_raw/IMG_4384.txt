@@ -1,0 +1,76 @@
+FILE: IMG_4384.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 35
+---
+[1.00 @ 0.00,0.31] Help
+[0.50 @ 0.02,0.34] 11:14:42 AN
+[0.30 @ 0.34,0.33] ĐÈ THI C NAILS (EN) 2026)
+[0.30 @ 0.01,0.38] IN ĐIỀM
+[0.50 @ 0.12,0.38] CẦU HỎI SỐ:
+[1.00 @ 0.26,0.38] 41
+[0.30 @ 0.30,0.38] CỦA 97 CÂU HÓI.
+[1.00 @ 0.63,0.40] Nail Trac Nghiem 2026_1.dil
+[1.00 @ -0.00,0.43] iring weekly disinfection of a pedicure spa, the disinfectant
+[0.50 @ 0.63,0.42] Nail Trac Nghiem 2026_2.dll
+[0.50 @ 0.63,0.44] Nail Trac Nghiem 2026_3.dll
+[1.00 @ 0.00,0.45] lution should remain in the basin for:
+[0.50 @ 0.63,0.46] Nail Trac Nghiem 5.dll
+[1.00 @ 0.63,0.48] Nails Theory 2026.dll
+[0.50 @ 0.68,0.51] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ -0.00,0.55] RẢ LỜI:
+[0.30 @ 0.43,0.55] CAL
+[0.30 @ 0.49,0.55] LN TIÉP THEO
+[0.30 @ 0.65,0.56] TẢO BÀI MỚI
+[0.30 @ 0.66,0.57] HÁC CẦU HỎI
+[0.30 @ 0.86,0.57] CUON BÀI THI
+[1.00 @ 0.04,0.61] Overnight
+[0.50 @ 0.63,0.64] TRẢ LỜI ĐÙNG: TRÀ LỜI SAI:
+[0.30 @ 0.89,0.64] ĐỊỂM TỔNG K
+[1.00 @ 0.67,0.67] 40
+[1.00 @ 0.04,0.69] 10 minutes
+[1.00 @ 0.65,0.75] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.04,0.77] 1 hour
+[1.00 @ 0.67,0.81] 00
+[1.00 @ 0.77,0.81] 00
+[1.00 @ 0.86,0.82] 00
+[0.30 @ 0.92,0.81] ẤT ĐẦU
+[1.00 @ 0.04,0.85] 30 seconds
+[1.00 @ 0.01,0.87] D
+[1.00 @ 0.68,0.87] 00.00.00.00
+---LEFT_LINES---
+0.31|Help
+0.34|11:14:42 AN
+0.33|ĐÈ THI C NAILS (EN) 2026)
+0.38|IN ĐIỀM
+0.38|CẦU HỎI SỐ:
+0.38|41
+0.38|CỦA 97 CÂU HÓI.
+0.43|iring weekly disinfection of a pedicure spa, the disinfectant
+0.45|lution should remain in the basin for:
+0.55|RẢ LỜI:
+0.55|CAL
+0.55|LN TIÉP THEO
+0.61|Overnight
+0.69|10 minutes
+0.77|1 hour
+0.85|30 seconds
+0.87|D
+---CONTENT---
+0.33|ĐÈ THI C NAILS (EN) 2026)
+0.38|IN ĐIỀM
+0.38|CẦU HỎI SỐ:
+0.43|iring weekly disinfection of a pedicure spa, the disinfectant
+0.45|lution should remain in the basin for:
+0.55|RẢ LỜI:
+0.55|CAL
+0.55|LN TIÉP THEO
+0.61|Overnight
+0.69|10 minutes
+0.77|1 hour
+0.85|30 seconds
+---CHOICE_ROWS---
+A y=0.39 meanG=158.6 lime=0.112 bright=35.6 text=IN ĐIỀM
+B y=0.39 meanG=154.0 lime=0.065 bright=20.9 text=CẦU HỎI SỐ:
+C y=0.44 meanG=197.1 lime=0.453 bright=167.8 text=iring weekly disinfection of a pedicure spa, the disinfectant
+D y=0.46 meanG=210.6 lime=0.587 bright=200.4 text=lution should remain in the basin for:
+SELECTED_HINT: D bright=200.4 margin=32.6 text=lution should remain in the basin for:

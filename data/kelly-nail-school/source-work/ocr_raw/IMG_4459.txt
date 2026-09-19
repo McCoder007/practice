@@ -1,0 +1,67 @@
+FILE: IMG_4459.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 34
+---
+[1.00 @ 0.02,0.37] File Help
+[0.50 @ 0.05,0.40] 12:07:51 P
+[0.50 @ 0.36,0.40] ĐỀ THI: ( NAILS (EN) 2026)
+[0.50 @ 0.05,0.44] N ĐIỂM
+[0.50 @ 0.15,0.43] CÂU HỎI SỐ
+[1.00 @ 0.28,0.44] 16
+[0.50 @ 0.32,0.44] CỦA 97 CÂU HỎI.
+[1.00 @ 0.02,0.48] After serving a client and only changing the nail color, you should:
+[0.50 @ 0.61,0.46] Nail Trac Nghiem 2026_1.dll
+[1.00 @ 0.61,0.48] Nail Trac Nghiem 2026
+[0.30 @ 0.78,0.49] 2.dll
+[0.50 @ 0.61,0.50] Nail Trac Nghiem 2026_3.dll
+[1.00 @ 0.61,0.52] Nail Trac Nghiem 5.dll
+[1.00 @ 0.61,0.54] Nails Theory 2026.dll
+[0.50 @ 0.65,0.56] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.02,0.59] TRÁ LỜI:
+[0.50 @ 0.44,0.59] CẦU HỘI TIẾP THEO
+[0.50 @ 0.63,0.61] TẠO BÀI MỚI
+[0.50 @ 0.62,0.63] HOẶC CÂU HỎI
+[0.50 @ 0.81,0.62] CHỌN BÀI THI
+[1.00 @ 0.07,0.65] Disinfect tools and use a fresh towel
+[0.50 @ 0.61,0.68] TRÀ LỜI ĐÙNG: TRÀ LỜI SAI:
+[1.00 @ 0.84,0.68] ĐIỂM TỔNG KẾT
+[1.00 @ 0.07,0.72] Only use a fresh towel
+[1.00 @ 0.64,0.71] 13
+[1.00 @ 0.76,0.71] 2
+[0.50 @ 0.63,0.78] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.07,0.79] Do nothing
+[1.00 @ 0.64,0.83] 00
+[1.00 @ 0.73,0.84] 00
+[1.00 @ 0.81,0.84] 00
+[0.30 @ 0.86,0.84] NẶT ĐẦU
+[1.00 @ 0.06,0.86] Only wash your hands
+[1.00 @ 0.65,0.89] 00.00.00.00
+---LEFT_LINES---
+0.37|File Help
+0.40|12:07:51 P
+0.40|ĐỀ THI: ( NAILS (EN) 2026)
+0.44|N ĐIỂM
+0.43|CÂU HỎI SỐ
+0.44|16
+0.44|CỦA 97 CÂU HỎI.
+0.48|After serving a client and only changing the nail color, you should:
+0.59|TRÁ LỜI:
+0.59|CẦU HỘI TIẾP THEO
+0.65|Disinfect tools and use a fresh towel
+0.72|Only use a fresh towel
+0.79|Do nothing
+0.86|Only wash your hands
+---CONTENT---
+0.44|N ĐIỂM
+0.48|After serving a client and only changing the nail color, you should:
+0.59|TRÁ LỜI:
+0.65|Disinfect tools and use a fresh towel
+0.72|Only use a fresh towel
+0.79|Do nothing
+0.86|Only wash your hands
+---CHOICE_ROWS---
+A y=0.60 meanG=171.2 lime=0.120 bright=30.3 text=TRÁ LỜI:
+B y=0.65 meanG=202.0 lime=0.499 bright=52.9 text=Disinfect tools and use a fresh towel
+C y=0.73 meanG=207.2 lime=0.554 bright=47.6 text=Only use a fresh towel
+D y=0.80 meanG=207.2 lime=0.542 bright=42.3 text=Do nothing
+SELECTED_HINT: none margin=5.3

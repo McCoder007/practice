@@ -1,0 +1,68 @@
+FILE: IMG_4369.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 34
+---
+[0.50 @ -0.00,0.29] :00:35 AM
+[0.50 @ 0.32,0.29] ĐỀ THI: ( NAILS (EN) 2026)
+[1.00 @ -0.00,0.33] ĐIỂM
+[0.50 @ 0.09,0.33] CÂU HỎI SỐ:
+[1.00 @ 0.22,0.34] 26
+[0.30 @ 0.27,0.33] CỦA 97 CẦU HỎI.
+[1.00 @ -0.00,0.38] should be added to a hand-soaking solution?
+[0.50 @ 0.59,0.36] Nail Trac Nghiem 2026_1.dll
+[1.00 @ 0.59,0.38] Nail Trac Nghiem 2026
+[0.50 @ 0.78,0.39] 2.dll
+[0.50 @ 0.59,0.40] Nail Trac Nghiem 2026_3.dll
+[1.00 @ 0.59,0.43] Nail Trac Nghiem 5.dll
+[1.00 @ 0.59,0.45] Nails Theory 2026.dll
+[0.50 @ 0.63,0.47] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.00,0.50] ỚI:
+[0.50 @ 0.40,0.51] CÂU HỎI TẾP THEO
+[0.30 @ 0.62,0.52] AO BÀI MỚI
+[0.50 @ 0.61,0.54] HOẶC CÂU HỎI
+[0.30 @ 0.81,0.53] CHON BÀI THI
+[1.00 @ 0.00,0.56] Acetone
+[0.30 @ 0.59,0.60] TRÃ LỜI ĐŨNG: TRÀ LỜI SAI:
+[1.00 @ 0.84,0.60] ĐIỂM TỔNG KẾT
+[1.00 @ -0.00,0.64] Softening oil
+[1.00 @ 0.63,0.63] 25
+[1.00 @ 0.61,0.71] CHỈNH GIỜ CHO CUỘC THI
+[0.50 @ -0.00,0.72] Primer
+[1.00 @ 0.63,0.77] 00
+[1.00 @ 0.72,0.77] 00
+[1.00 @ 0.81,0.77] 00
+[0.30 @ 0.86,0.77] CẤT ĐẦU
+[1.00 @ 0.00,0.80] Resin
+[1.00 @ 0.63,0.83] 00.00.00.00
+[0.30 @ 0.32,0.97] XIN ĐỌC BAN HUƠNG ĐAN CYLRÊN
+[0.30 @ 0.78,0.99] meescav, sepientber
+---LEFT_LINES---
+0.29|:00:35 AM
+0.29|ĐỀ THI: ( NAILS (EN) 2026)
+0.33|ĐIỂM
+0.33|CÂU HỎI SỐ:
+0.34|26
+0.33|CỦA 97 CẦU HỎI.
+0.38|should be added to a hand-soaking solution?
+0.50|ỚI:
+0.51|CÂU HỎI TẾP THEO
+0.56|Acetone
+0.64|Softening oil
+0.72|Primer
+0.80|Resin
+---CONTENT---
+0.29|:00:35 AM
+0.33|ĐIỂM
+0.33|CỦA 97 CẦU HỎI.
+0.38|should be added to a hand-soaking solution?
+0.50|ỚI:
+0.56|Acetone
+0.64|Softening oil
+0.72|Primer
+0.80|Resin
+---CHOICE_ROWS---
+A y=0.39 meanG=201.9 lime=0.599 bright=175.8 text=should be added to a hand-soaking solution?
+B y=0.51 meanG=167.1 lime=0.063 bright=22.4 text=ỚI:
+C y=0.57 meanG=206.8 lime=0.628 bright=53.8 text=Acetone
+D y=0.65 meanG=209.0 lime=0.640 bright=48.5 text=Softening oil
+SELECTED_HINT: A bright=175.8 margin=122.0 text=should be added to a hand-soaking solution?

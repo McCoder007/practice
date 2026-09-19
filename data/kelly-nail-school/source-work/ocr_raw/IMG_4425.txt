@@ -1,0 +1,66 @@
+FILE: IMG_4425.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 34
+---
+[0.50 @ 0.00,0.31] . Help
+[0.30 @ 0.35,0.34] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.02,0.38] N ĐIỂM
+[0.50 @ 0.12,0.38] CÂU HỎI SỐ:
+[1.00 @ 0.26,0.39] 81
+[0.50 @ 0.31,0.39] CỦA 97 CÂU HỎI.
+[1.00 @ -0.00,0.43] hich of the following may indicate nail fungus?
+[0.50 @ 0.63,0.42] Nail Trac Nghiem 2026_1.dll
+[0.50 @ 0.63,0.44] Nail Trac Nghiem 2026 _2.dll
+[1.00 @ 0.63,0.46] Nail Trac Nghiem 2026
+[0.30 @ 0.80,0.47] _3.dil
+[0.50 @ 0.63,0.48] Nail Trac Nghiem 5.dil
+[1.00 @ 0.62,0.50] Nails Theory 2026.dll
+[0.50 @ 0.67,0.53] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.00,0.55] Ả LỜI:
+[0.30 @ 0.43,0.56] CÂU HỌI TIÀP THEO
+[0.30 @ 0.65,0.57] ÁO BÀI MỚI
+[0.30 @ 0.63,0.59] HOẠC CÂU HỎI
+[0.50 @ 0.84,0.59] CHỌN BÀI THI
+[1.00 @ 0.03,0.61] Thickened nails with yellow or cloudy-white discoloration
+[0.50 @ 0.62,0.65] TRÀ LỜI ĐÚNG: TRÀ LỜI SAI:
+[1.00 @ 0.86,0.66] ĐIỂM TỔNG KẾT
+[1.00 @ 0.03,0.69] Temporary redness of the skin
+[1.00 @ 0.66,0.68] 74
+[1.00 @ 0.78,0.69] 6
+[1.00 @ 0.03,0.77] Evenly pinknails
+[1.00 @ 0.64,0.76] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.65,0.82] 00
+[1.00 @ 0.74,0.82] 00
+[0.50 @ 0.78,0.82] GIA
+[1.00 @ 0.83,0.83] 00
+[0.30 @ 0.89,0.82] BẮT ĐÂU
+[1.00 @ 0.03,0.85] Normal, fast-growing nails
+[1.00 @ 0.66,0.88] 00.00.00.00
+---LEFT_LINES---
+0.31|. Help
+0.34|ĐỀ THI: ( NAILS (EN) 2026)
+0.38|N ĐIỂM
+0.38|CÂU HỎI SỐ:
+0.39|81
+0.39|CỦA 97 CÂU HỎI.
+0.43|hich of the following may indicate nail fungus?
+0.55|Ả LỜI:
+0.56|CÂU HỌI TIÀP THEO
+0.61|Thickened nails with yellow or cloudy-white discoloration
+0.69|Temporary redness of the skin
+0.77|Evenly pinknails
+0.85|Normal, fast-growing nails
+---CONTENT---
+0.38|N ĐIỂM
+0.43|hich of the following may indicate nail fungus?
+0.55|Ả LỜI:
+0.61|Thickened nails with yellow or cloudy-white discoloration
+0.69|Temporary redness of the skin
+0.77|Evenly pinknails
+0.85|Normal, fast-growing nails
+---CHOICE_ROWS---
+A y=0.56 meanG=172.9 lime=0.126 bright=32.7 text=Ả LỜI:
+B y=0.62 meanG=209.3 lime=0.658 bright=62.7 text=Thickened nails with yellow or cloudy-white discoloration
+C y=0.70 meanG=211.1 lime=0.663 bright=51.6 text=Temporary redness of the skin
+D y=0.78 meanG=210.8 lime=0.675 bright=42.8 text=Evenly pinknails
+SELECTED_HINT: B bright=62.7 margin=11.1 text=Thickened nails with yellow or cloudy-white discoloration

@@ -1,0 +1,67 @@
+FILE: IMG_4385.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 33
+---
+[0.30 @ 0.00,0.35] telp
+[0.30 @ 0.00,0.38] 11:15:07 A.
+[0.50 @ 0.33,0.37] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ -0.00,0.42] IN ĐIỄN
+[0.50 @ 0.11,0.41] CÂU HỎI SỐ:
+[1.00 @ 0.24,0.42] 42
+[0.50 @ 0.29,0.41] CỦA 97 CÂU HỎI.
+[0.50 @ 0.61,0.44] Nail Trac Nghiem 2026_1.dil
+[0.50 @ 0.00,0.46] ite spots on a client's nails are a sign of:
+[0.50 @ 0.61,0.46] Nail Trac Nghiem 2026_2.dll
+[0.50 @ 0.61,0.48] Nail Trac Nghiem 2026_3.dll
+[1.00 @ 0.61,0.50] Nail Trac Nghiem 5.dll
+[1.00 @ 0.61,0.52] Nails Theory 2026.dll
+[0.50 @ 0.66,0.54] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.00,0.59] À LỜI:
+[0.50 @ 0.42,0.58] CÂU HỒI TIẾN THEO
+[0.30 @ 0.64,0.59] LHO BÀI MỚI
+[0.30 @ 0.63,0.61] HGÁC CÂU HỎI
+[0.30 @ 0.84,0.60] GHỌN BẢI THI
+[1.00 @ 0.02,0.64] Leukonychia (white nail condition)
+[0.50 @ 0.61,0.68] TRÀ LỜI ĐÚNG: TRÀ LỜI SAI:
+[1.00 @ 0.87,0.67] ĐIỂM TỔNG KẾT
+[1.00 @ 0.65,0.70] 41
+[1.00 @ 0.02,0.72] Albinism
+[0.50 @ 0.64,0.79] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.03,0.81] Fungal hair infection
+[1.00 @ 0.65,0.84] 00
+[1.00 @ 0.75,0.84] 00
+[0.30 @ 0.79,0.84] GIA
+[1.00 @ 0.84,0.84] 00
+[0.30 @ 0.89,0.84] CẮT ĐẦU
+[1.00 @ 0.03,0.88] Calluses
+[1.00 @ 0.66,0.90] 00.00.00.00
+---LEFT_LINES---
+0.35|telp
+0.38|11:15:07 A.
+0.37|ĐỀ THI: ( NAILS (EN) 2026)
+0.42|IN ĐIỄN
+0.41|CÂU HỎI SỐ:
+0.42|42
+0.41|CỦA 97 CÂU HỎI.
+0.46|ite spots on a client's nails are a sign of:
+0.59|À LỜI:
+0.58|CÂU HỒI TIẾN THEO
+0.64|Leukonychia (white nail condition)
+0.72|Albinism
+0.81|Fungal hair infection
+0.88|Calluses
+---CONTENT---
+0.35|telp
+0.42|IN ĐIỄN
+0.46|ite spots on a client's nails are a sign of:
+0.59|À LỜI:
+0.64|Leukonychia (white nail condition)
+0.72|Albinism
+0.81|Fungal hair infection
+0.88|Calluses
+---CHOICE_ROWS---
+A y=0.60 meanG=168.0 lime=0.008 bright=9.3 text=À LỜI:
+B y=0.66 meanG=210.1 lime=0.679 bright=53.5 text=Leukonychia (white nail condition)
+C y=0.73 meanG=212.7 lime=0.748 bright=45.9 text=Albinism
+D y=0.82 meanG=209.2 lime=0.714 bright=39.5 text=Fungal hair infection
+SELECTED_HINT: none margin=7.6
