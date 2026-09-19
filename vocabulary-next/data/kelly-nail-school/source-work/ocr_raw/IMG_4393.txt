@@ -1,0 +1,70 @@
+FILE: IMG_4393.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 36
+---
+[0.50 @ 0.00,0.36] File Help
+[0.50 @ 0.04,0.39] 11:20:19 AM
+[0.50 @ 0.35,0.38] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.04,0.43] NĐIỂM
+[1.00 @ 0.14,0.42] CÂU HỎI SỐ:
+[1.00 @ 0.27,0.43] 50
+[1.00 @ 0.31,0.42] CỦA 97 CÂU HỎI.
+[1.00 @ 0.62,0.44] Nail Trac Nghiem 2026
+[0.50 @ 0.79,0.44] _1.dll
+[1.00 @ 0.01,0.47] Disinfectants can kill everything except:
+[1.00 @ 0.62,0.46] Nail Trac Nghiem 2026
+[1.00 @ 0.79,0.46] 2.dll
+[1.00 @ 0.62,0.48] Nail Trac Nghiem 2026
+[0.30 @ 0.79,0.48] _3.dll
+[0.50 @ 0.62,0.50] Nail Trac Nghiem 5.dil
+[1.00 @ 0.62,0.52] Nails Theory 2026.dll
+[0.50 @ 0.66,0.55] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ 0.02,0.59] TRÀ LỜI:
+[0.30 @ 0.44,0.58] CÁLG ỚI TẾP THEO
+[1.00 @ 0.64,0.59] TẠO BÀI MỚI
+[0.30 @ 0.63,0.61] HOẮC CÂU HỎI
+[0.50 @ 0.82,0.60] CHỌN BÀI THI
+[1.00 @ 0.06,0.64] Bacteria and viruses
+[0.50 @ 0.62,0.67] TRẢ LỜI ĐÙNG: TRÀ LỜI SAI:
+[1.00 @ 0.85,0.67] ĐIỂM TỔNG KẾT
+[1.00 @ 0.65,0.69] 49
+[1.00 @ 0.06,0.71] Dirt only
+[1.00 @ 0.64,0.77] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.07,0.79] Oil only
+[1.00 @ 0.66,0.82] 00
+[1.00 @ 0.74,0.83] 00
+[0.30 @ 0.78,0.82] GIA
+[1.00 @ 0.82,0.83] 00
+[0.30 @ 0.88,0.82] TẤT ĐẦU
+[1.00 @ 0.07,0.86] Bacterial spores
+[1.00 @ 0.66,0.88] 00.00.00.00
+---LEFT_LINES---
+0.36|File Help
+0.39|11:20:19 AM
+0.38|ĐỀ THI: ( NAILS (EN) 2026)
+0.43|NĐIỂM
+0.42|CÂU HỎI SỐ:
+0.43|50
+0.42|CỦA 97 CÂU HỎI.
+0.47|Disinfectants can kill everything except:
+0.59|TRÀ LỜI:
+0.58|CÁLG ỚI TẾP THEO
+0.64|Bacteria and viruses
+0.71|Dirt only
+0.79|Oil only
+0.86|Bacterial spores
+---CONTENT---
+0.43|NĐIỂM
+0.47|Disinfectants can kill everything except:
+0.59|TRÀ LỜI:
+0.58|CÁLG ỚI TẾP THEO
+0.64|Bacteria and viruses
+0.71|Dirt only
+0.79|Oil only
+0.86|Bacterial spores
+---CHOICE_ROWS---
+A y=0.60 meanG=170.3 lime=0.096 bright=16.1 text=TRÀ LỜI:
+B y=0.59 meanG=175.2 lime=0.163 bright=30.2 text=CÁLG ỚI TẾP THEO
+C y=0.65 meanG=210.2 lime=0.618 bright=54.7 text=Bacteria and viruses
+D y=0.72 meanG=213.1 lime=0.645 bright=49.3 text=Dirt only
+SELECTED_HINT: none margin=5.4

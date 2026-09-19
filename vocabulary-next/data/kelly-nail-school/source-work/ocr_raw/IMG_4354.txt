@@ -1,0 +1,65 @@
+FILE: IMG_4354.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 33
+---
+[1.00 @ 0.00,0.30] Help
+[0.30 @ 0.01,0.33] 10:50:54 AN
+[0.50 @ 0.33,0.33] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.01,0.38] IN ĐIỂM
+[1.00 @ 0.11,0.37] CÂU HỎI SỐ:
+[1.00 @ 0.24,0.38] 11
+[0.50 @ 0.29,0.38] CỦA 97 CÂU HỎI.
+[0.50 @ 0.60,0.40] Nail Trac Nghiem 2026_1.dll
+[1.00 @ -0.00,0.42] plying too much primer may cause:
+[0.50 @ 0.60,0.42] Nail Trac Nghiem 2026_2.dil
+[0.50 @ 0.60,0.44] Nail Trac Nghiem 2026
+[0.30 @ 0.78,0.44] _3.dll
+[0.50 @ 0.60,0.47] Nail Trac Nghiem 5.dll
+[1.00 @ 0.60,0.48] Nails Theory 2026.dll
+[0.50 @ 0.64,0.51] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.00,0.54] Ả LỜI:
+[0.50 @ 0.41,0.54] CẦU HỘI TIẾP THEO
+[0.30 @ 0.63,0.55] THO BÀI MỚI
+[0.30 @ 0.63,0.57] RẠC CẦU HỎI
+[0.30 @ 0.82,0.57] CHON BÀI THI
+[1.00 @ 0.02,0.59] Skin irritation and itching
+[0.50 @ 0.60,0.64] TRÀ LỜI ĐÙNG: TRẢ LỜI SAI:
+[1.00 @ 0.85,0.64] ĐIỂM TỔNG KẾT
+[1.00 @ 0.02,0.67] Faster nail growth
+[1.00 @ 0.63,0.66] 10
+[1.00 @ 0.02,0.76] Extra-hard nails
+[1.00 @ 0.62,0.74] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.64,0.80] 00
+[1.00 @ 0.73,0.81] 00
+[1.00 @ 0.82,0.81] 00
+[0.30 @ 0.88,0.81] CẤT ĐẦU
+[1.00 @ 0.02,0.83] No effect
+[1.00 @ 0.64,0.86] 00.00.00.00
+---LEFT_LINES---
+0.30|Help
+0.33|10:50:54 AN
+0.33|ĐỀ THI: ( NAILS (EN) 2026)
+0.38|IN ĐIỂM
+0.37|CÂU HỎI SỐ:
+0.38|11
+0.38|CỦA 97 CÂU HỎI.
+0.42|plying too much primer may cause:
+0.54|Ả LỜI:
+0.54|CẦU HỘI TIẾP THEO
+0.59|Skin irritation and itching
+0.67|Faster nail growth
+0.76|Extra-hard nails
+0.83|No effect
+---CONTENT---
+0.42|plying too much primer may cause:
+0.54|Ả LỜI:
+0.59|Skin irritation and itching
+0.67|Faster nail growth
+0.76|Extra-hard nails
+0.83|No effect
+---CHOICE_ROWS---
+A y=0.55 meanG=169.7 lime=0.104 bright=26.0 text=Ả LỜI:
+B y=0.61 meanG=204.6 lime=0.651 bright=51.6 text=Skin irritation and itching
+C y=0.68 meanG=207.9 lime=0.682 bright=46.0 text=Faster nail growth
+D y=0.76 meanG=205.6 lime=0.649 bright=37.8 text=Extra-hard nails
+SELECTED_HINT: none margin=5.6

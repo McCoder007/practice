@@ -1,0 +1,28 @@
+FILE: IMG_4345.JPG
+SIZE: 5712x4284 CROP: 80,400,3200,3000
+LINES: 21
+---
+[0.30 @ 0.62,0.01] _1.dll
+[0.50 @ 0.64,0.01] Nail Trac Nghiem 2026_2.dll
+[0.50 @ 0.66,0.01] Nail Trac Nghiem 2026_3.dII
+[0.50 @ 0.74,-0.00] ĐỀ THI: ( NAILS (EN
+[0.50 @ 0.61,0.05] Nail Trac Nghiem 2026
+[0.30 @ 0.89,0.05] TRẢ LỜI ĐÙNG: TRÃ LỜI SAI:
+[0.50 @ 0.69,0.07] Nail Trac Nghiem 5. dil
+[1.00 @ 0.71,0.08] Nails Theory 2026. dil
+[0.30 @ 0.80,0.12] TẠO BÀI MỚI
+[0.30 @ 0.83,0.11] HOẠC CÂU HỎI
+[0.50 @ 0.52,0.32] ĐỀ THI: (NAILS (EN) 2026)
+[1.00 @ 0.79,0.38] START
+[1.00 @ 0.62,0.44] living skin at the base of the nail plate is called the:
+[0.50 @ 0.57,0.47] CỦA 97 CÂU HỎI.
+[1.00 @ 0.83,0.45] Eponychium, located at the base of the nail near the lunula
+[0.30 @ 0.57,0.74] CÂU HỎI SỐ:
+[0.50 @ 0.92,0.84] Hyponychium
+[1.00 @ 0.52,0.89] 10:45:38 AM
+[0.30 @ 0.57,0.92] INĐIỂM
+[0.50 @ 0.76,0.94] \ LỜI:
+[1.00 @ 0.48,0.97] Help
+---GREEN---
+
+SELECTED_HINT: none

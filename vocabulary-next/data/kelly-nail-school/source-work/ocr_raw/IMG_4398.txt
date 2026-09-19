@@ -1,0 +1,73 @@
+FILE: IMG_4398.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 37
+---
+[1.00 @ 0.06,0.35] File
+[1.00 @ 0.08,0.35] Help
+[0.50 @ 0.09,0.38] 11:24:04 ANI
+[0.30 @ 0.40,0.38] ĐỀ THI: ( NAILS (EN) 2026)
+[0.50 @ 0.09,0.42] IN ĐIỂM
+[0.50 @ 0.19,0.42] CÂU HỎI SỐ:
+[1.00 @ 0.32,0.43] 55
+[0.30 @ 0.34,0.42] CỦA 97 CÂU HỎI
+[1.00 @ 0.05,0.46] During UV/LED curing, the heat-producing reaction causes the gel
+[1.00 @ 0.67,0.46] Nail Trac Nghiem 2026_1.dil
+[0.50 @ 0.05,0.49] to:
+[0.50 @ 0.66,0.48] Nail Trac Nghiem 2026 2.dll
+[0.50 @ 0.66,0.49] Nail Trac Nghiem 2026_3.dll
+[0.50 @ 0.66,0.51] Nail Trac Nghiem 5.dll
+[1.00 @ 0.66,0.53] Nails Theory 2026.dll
+[0.50 @ 0.70,0.56] ĐỂ THI: ( NAILS (EN) 2026 )
+[0.50 @ 0.05,0.57] TRÀ LỜI:
+[0.30 @ 0.48,0.59] CAU HỒI TÉP THEO
+[0.30 @ 0.68,0.60] ÀO BẢI MỚI
+[0.50 @ 0.10,0.63] Harden and cure into a solid coating
+[0.50 @ 0.67,0.62] HOẠC CẦU HỎI
+[0.50 @ 0.87,0.62] CHỌN BÀI THI
+[0.50 @ 0.66,0.68] TRÀ LỜI ĐÙNG: TRÀ LỜI SAI:
+[0.50 @ 0.90,0.69] ĐIỂM TỔNG K
+[1.00 @ 0.10,0.70] Melt
+[1.00 @ 0.69,0.70] 53
+[1.00 @ 0.81,0.71] 1
+[0.50 @ 0.09,0.78] Become wetter
+[1.00 @ 0.68,0.78] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.69,0.84] 00
+[0.50 @ 0.73,0.84] PHUI
+[1.00 @ 0.78,0.84] 00
+[0.30 @ 0.82,0.84] GIA)
+[1.00 @ 0.09,0.86] Thin out
+[0.50 @ 0.86,0.85] 00
+[0.30 @ 0.92,0.85] SẤT ĐẦU
+[1.00 @ 0.70,0.90] 00.00.00.00
+---LEFT_LINES---
+0.35|File
+0.35|Help
+0.38|11:24:04 ANI
+0.38|ĐỀ THI: ( NAILS (EN) 2026)
+0.42|IN ĐIỂM
+0.42|CÂU HỎI SỐ:
+0.43|55
+0.42|CỦA 97 CÂU HỎI
+0.46|During UV/LED curing, the heat-producing reaction causes the gel
+0.49|to:
+0.57|TRÀ LỜI:
+0.59|CAU HỒI TÉP THEO
+0.63|Harden and cure into a solid coating
+0.70|Melt
+0.78|Become wetter
+0.86|Thin out
+---CONTENT---
+0.46|During UV/LED curing, the heat-producing reaction causes the gel
+0.49|to:
+0.57|TRÀ LỜI:
+0.59|CAU HỒI TÉP THEO
+0.63|Harden and cure into a solid coating
+0.70|Melt
+0.78|Become wetter
+0.86|Thin out
+---CHOICE_ROWS---
+A y=0.49 meanG=220.6 lime=0.799 bright=214.2 text=to:
+B y=0.58 meanG=176.3 lime=0.143 bright=34.8 text=TRÀ LỜI:
+C y=0.60 meanG=167.2 lime=0.011 bright=8.9 text=CAU HỒI TÉP THEO
+D y=0.64 meanG=201.9 lime=0.552 bright=48.9 text=Harden and cure into a solid coating
+SELECTED_HINT: A bright=214.2 margin=165.3 text=to:

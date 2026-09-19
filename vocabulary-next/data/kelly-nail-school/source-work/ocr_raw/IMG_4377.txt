@@ -1,0 +1,68 @@
+FILE: IMG_4377.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 34
+---
+[1.00 @ 0.00,0.29] ile Help
+[1.00 @ 0.03,0.32] 11:09:06 A.M
+[0.30 @ 0.36,0.32] ĐỀ THI: ( NAILS (EN) 2026)
+[0.50 @ 0.03,0.36] IN ĐIỂM
+[1.00 @ 0.14,0.36] CÂU HỎI SỐ:
+[1.00 @ 0.27,0.37] 34
+[0.30 @ 0.32,0.37] CỦA 97 CẦU HỎI.
+[0.50 @ -0.00,0.41] olymeri l ation is the process of:
+[0.50 @ 0.64,0.40] Nail Trac Nghiem 2026_1.dll
+[0.50 @ 0.64,0.42] Nail Trac Nghiem 2026_2.dll
+[1.00 @ 0.64,0.44] Nail Trac Nghiem 2026
+[0.30 @ 0.82,0.44] _3.dll
+[0.50 @ 0.64,0.46] Nail Trac Nghiem 5.dll
+[0.50 @ 0.64,0.48] Nails Theory 2026.dl
+[0.50 @ 0.68,0.51] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ -0.00,0.53] TRÀ LỜI:
+[0.50 @ 0.45,0.54] CẦU HÔI TIẾP THEO
+[0.50 @ 0.66,0.56] THO BẢI MỚI
+[0.30 @ 0.65,0.58] HHẠC CẦU HỎI
+[1.00 @ 0.86,0.57] CHỌN BÀI THI
+[1.00 @ 0.04,0.59] Evaporation
+[0.50 @ 0.63,0.64] TRÀ LỜI ĐŨNG: TRẢ LỜI SAI:
+[0.50 @ 0.89,0.64] ĐIỂM TỔNG KI
+[1.00 @ 0.04,0.67] Hardening/bonding
+[1.00 @ 0.67,0.66] 33
+[0.30 @ 0.00,0.68] B
+[1.00 @ 0.04,0.75] Softening
+[1.00 @ 0.66,0.75] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.67,0.81] 00
+[1.00 @ 0.76,0.81] 00
+[1.00 @ 0.85,0.81] 00
+[0.50 @ 0.91,0.81] HẤT ĐẦU
+[1.00 @ 0.04,0.83] Color removal
+[1.00 @ 0.67,0.87] 00.00.00.00
+---LEFT_LINES---
+0.29|ile Help
+0.32|11:09:06 A.M
+0.32|ĐỀ THI: ( NAILS (EN) 2026)
+0.36|IN ĐIỂM
+0.36|CÂU HỎI SỐ:
+0.37|34
+0.37|CỦA 97 CẦU HỎI.
+0.41|olymeri l ation is the process of:
+0.53|TRÀ LỜI:
+0.54|CẦU HÔI TIẾP THEO
+0.59|Evaporation
+0.67|Hardening/bonding
+0.68|B
+0.75|Softening
+0.83|Color removal
+---CONTENT---
+0.37|CỦA 97 CẦU HỎI.
+0.41|olymeri l ation is the process of:
+0.53|TRÀ LỜI:
+0.59|Evaporation
+0.67|Hardening/bonding
+0.75|Softening
+0.83|Color removal
+---CHOICE_ROWS---
+A y=0.42 meanG=201.5 lime=0.609 bright=171.7 text=olymeri l ation is the process of:
+B y=0.54 meanG=170.0 lime=0.133 bright=33.3 text=TRÀ LỜI:
+C y=0.60 meanG=202.7 lime=0.589 bright=52.7 text=Evaporation
+D y=0.68 meanG=204.0 lime=0.579 bright=48.1 text=Hardening/bonding
+SELECTED_HINT: A bright=171.7 margin=119.0 text=olymeri l ation is the process of:

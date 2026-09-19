@@ -1,0 +1,68 @@
+FILE: IMG_4410.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 34
+---
+[0.30 @ 0.00,0.32] 47:39 A.I
+[0.50 @ 0.31,0.32] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.97,0.33] X
+[0.50 @ 0.00,0.37] ĐIỂM
+[0.50 @ 0.09,0.37] CÂU HỎI SỐ:
+[1.00 @ 0.22,0.38] 66
+[0.50 @ 0.27,0.37] CỦA 97 CẦU HỎI.
+[0.50 @ 0.59,0.40] Nail Trac Nghiem 2026_1.dil
+[1.00 @ 0.00,0.42] joints should be massaged by:
+[1.00 @ 0.59,0.42] Nail Trac Nghiem 2026_2.dll
+[0.50 @ 0.59,0.44] Nail Trac Nghiem 2026_3.dll
+[0.50 @ 0.59,0.46] Nail Trac Nghiem 5.dll
+[1.00 @ 0.59,0.48] Nails Theory 2026.dll
+[0.50 @ 0.64,0.51] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.00,0.54] ỜI:
+[0.50 @ 0.40,0.54] CẦU HỘI TIẤP THEO
+[0.30 @ 0.63,0.55] HO BÀI MỚI
+[0.30 @ 0.61,0.57] HOẶC CÂU HỎI
+[1.00 @ 0.81,0.57] GHỌN BÀI THI
+[1.00 @ 0.00,0.60] Pulling forcefully
+[0.50 @ 0.59,0.64] TRẢ LỜI ĐŨNG: TRÀ LỜI SAI:
+[1.00 @ 0.84,0.64] ĐIỂM TỔNG KẾT
+[1.00 @ 0.63,0.66] 62
+[1.00 @ 0.00,0.68] Gently rotating in circles
+[1.00 @ 0.75,0.67] 3
+[1.00 @ 0.61,0.74] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.00,0.76] Bending forcefully
+[1.00 @ 0.63,0.80] 00
+[0.30 @ 0.67,0.80] CHUT
+[1.00 @ 0.72,0.81] 00
+[1.00 @ 0.81,0.81] 00
+[0.30 @ 0.87,0.81] CẮT ĐẦU
+[1.00 @ -0.00,0.84] Tapping
+[1.00 @ 0.64,0.86] 00.00.00.00
+---LEFT_LINES---
+0.32|47:39 A.I
+0.32|ĐỀ THI: ( NAILS (EN) 2026)
+0.37|ĐIỂM
+0.37|CÂU HỎI SỐ:
+0.38|66
+0.37|CỦA 97 CẦU HỎI.
+0.42|joints should be massaged by:
+0.54|ỜI:
+0.54|CẦU HỘI TIẤP THEO
+0.60|Pulling forcefully
+0.68|Gently rotating in circles
+0.76|Bending forcefully
+0.84|Tapping
+---CONTENT---
+0.37|ĐIỂM
+0.37|CỦA 97 CẦU HỎI.
+0.42|joints should be massaged by:
+0.54|ỜI:
+0.54|CẦU HỘI TIẤP THEO
+0.60|Pulling forcefully
+0.68|Gently rotating in circles
+0.76|Bending forcefully
+0.84|Tapping
+---CHOICE_ROWS---
+A y=0.43 meanG=208.9 lime=0.704 bright=184.6 text=joints should be massaged by:
+B y=0.55 meanG=165.8 lime=0.058 bright=18.4 text=ỜI:
+C y=0.55 meanG=165.1 lime=0.049 bright=16.9 text=CẦU HỘI TIẤP THEO
+D y=0.61 meanG=210.9 lime=0.710 bright=59.8 text=Pulling forcefully
+SELECTED_HINT: A bright=184.6 margin=124.8 text=joints should be massaged by:

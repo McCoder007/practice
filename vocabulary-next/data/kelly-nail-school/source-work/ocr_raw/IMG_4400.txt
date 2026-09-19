@@ -1,0 +1,71 @@
+FILE: IMG_4400.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 37
+---
+[0.50 @ 0.01,0.35] File Help
+[0.30 @ 0.05,0.38] 17:25:22 41
+[0.30 @ 0.37,0.38] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.04,0.42] IN ĐIỂM
+[0.50 @ 0.15,0.42] CÂU HỎI SỐ:
+[1.00 @ 0.28,0.43] 57
+[0.50 @ 0.32,0.43] CỦA 97 CÂU HỎI.
+[1.00 @ 0.01,0.46] What is the first step in creating a French acrylic nail?
+[0.50 @ 0.64,0.46] Nail Trac Nghiem 2026_1.dll
+[0.50 @ 0.64,0.48] Nail Trac Nghiem 2026_2. dll
+[0.50 @ 0.64,0.50] Nail Trac Nghiem 2026_3.dll
+[1.00 @ 0.64,0.52] Nail Trac Nghiem 5.dll
+[1.00 @ 0.64,0.54] Nails Theory 2026.dll
+[0.50 @ 0.68,0.56] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ 0.01,0.59] TRÀ LỜI:
+[0.30 @ 0.45,0.60] CAU H
+[0.30 @ 0.51,0.60] C TIẾP THEO
+[0.30 @ 0.66,0.61] THO BÀI MỚI
+[0.30 @ 0.65,0.63] HUẶC CÂU HỎI
+[1.00 @ 0.86,0.63] CHỌN BÀI THI
+[1.00 @ 0.05,0.64] Apply top coat
+[0.50 @ 0.63,0.69] TRẢ LỜI ĐÚNG: TRẢ LỜI SAI
+[0.50 @ 0.88,0.69] ĐIỂM TỔNG KẾT
+[1.00 @ 0.05,0.72] Prepare the natural nail (clean, shape, and remove oils)
+[1.00 @ 0.67,0.72] 54
+[1.00 @ 0.79,0.72] 2
+[1.00 @ 0.05,0.81] Apply white acrylic powder
+[0.50 @ 0.66,0.80] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.67,0.86] 00
+[0.30 @ 0.71,0.86] PHUT
+[1.00 @ 0.76,0.86] 00
+[0.30 @ 0.80,0.86] CIAY
+[1.00 @ 0.85,0.86] 00
+[0.30 @ 0.90,0.86] ĐẤT ĐẦU
+[1.00 @ 0.05,0.88] Decorate the nail
+[1.00 @ 0.01,0.90] D
+[1.00 @ 0.68,0.92] 00.00.00.00
+---LEFT_LINES---
+0.35|File Help
+0.38|17:25:22 41
+0.38|ĐỀ THI: ( NAILS (EN) 2026)
+0.42|IN ĐIỂM
+0.42|CÂU HỎI SỐ:
+0.43|57
+0.43|CỦA 97 CÂU HỎI.
+0.46|What is the first step in creating a French acrylic nail?
+0.59|TRÀ LỜI:
+0.60|CAU H
+0.60|C TIẾP THEO
+0.64|Apply top coat
+0.72|Prepare the natural nail (clean, shape, and remove oils)
+0.81|Apply white acrylic powder
+0.88|Decorate the nail
+---CONTENT---
+0.46|What is the first step in creating a French acrylic nail?
+0.59|TRÀ LỜI:
+0.60|CAU H
+0.64|Apply top coat
+0.72|Prepare the natural nail (clean, shape, and remove oils)
+0.81|Apply white acrylic powder
+0.88|Decorate the nail
+---CHOICE_ROWS---
+A y=0.60 meanG=173.1 lime=0.105 bright=27.6 text=TRÀ LỜI:
+B y=0.61 meanG=167.7 lime=0.030 bright=11.1 text=CAU H
+C y=0.66 meanG=208.2 lime=0.659 bright=52.7 text=Apply top coat
+D y=0.74 meanG=207.2 lime=0.639 bright=49.4 text=Prepare the natural nail (clean, shape, and remove oils)
+SELECTED_HINT: none margin=3.3

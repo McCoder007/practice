@@ -1,0 +1,70 @@
+FILE: IMG_4456.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 36
+---
+[1.00 @ 0.00,0.33] le Help
+[1.00 @ 0.03,0.36] 12:06:46 PM
+[0.50 @ 0.37,0.36] ĐỀ THI: ( NAILS (EN) 2026
+[0.50 @ 0.03,0.41] IN ĐIỂM
+[0.50 @ 0.14,0.40] CẦU HỎI SỐ:
+[1.00 @ 0.28,0.41] 13
+[0.50 @ 0.32,0.41] CỦA 97 CÂU HỎI:
+[1.00 @ 0.65,0.43] Nail Trac Nghiem 2026_1.dll
+[1.00 @ 0.00,0.45] Disinfection means:
+[1.00 @ 0.65,0.46] Nail Trac Nghiem 2026
+[0.30 @ 0.84,0.46] 2.d.ll
+[1.00 @ 0.65,0.48] Nail Trac Nghiem 2026_3.dil
+[0.50 @ 0.65,0.50] Nail Trac Nghiem 5.dll
+[0.50 @ 0.65,0.52] Nails Theory 2026.dll
+[0.50 @ 0.70,0.54] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ 0.00,0.58] TRẢ LỜI:
+[0.30 @ 0.46,0.58] CAU
+[0.30 @ 0.51,0.58] ỘI TIẾP THAO
+[0.50 @ 0.67,0.59] TẢO BÀI MỚI
+[0.30 @ 0.66,0.61] HHÁC CÂU HỎI
+[0.30 @ 0.87,0.61] CHỌN BẢI TH
+[1.00 @ 0.05,0.64] Complete sterili
+[0.50 @ 0.65,0.67] TRẢ LỜI ĐÚNG: TRẢ LỜI SAI:
+[0.50 @ 0.90,0.67] ĐIỂM TỔNG I
+[1.00 @ 0.69,0.70] 11
+[1.00 @ 0.05,0.72] ation
+[1.00 @ 0.67,0.78] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.05,0.80] Disinfection
+[1.00 @ 0.69,0.84] 00
+[0.30 @ 0.73,0.84] PHLI
+[1.00 @ 0.78,0.84] 00
+[0.50 @ 0.82,0.84] GIẢY
+[1.00 @ 0.87,0.84] 00
+[0.30 @ 0.92,0.84] SẮT ĐẦI
+[1.00 @ 0.05,0.88] Scrubbing/cleaning
+[1.00 @ 0.69,0.90] 00.00.00.00
+---LEFT_LINES---
+0.33|le Help
+0.36|12:06:46 PM
+0.36|ĐỀ THI: ( NAILS (EN) 2026
+0.41|IN ĐIỂM
+0.40|CẦU HỎI SỐ:
+0.41|13
+0.41|CỦA 97 CÂU HỎI:
+0.45|Disinfection means:
+0.58|TRẢ LỜI:
+0.58|CAU
+0.58|ỘI TIẾP THAO
+0.64|Complete sterili
+0.72|ation
+0.80|Disinfection
+0.88|Scrubbing/cleaning
+---CONTENT---
+0.40|CẦU HỎI SỐ:
+0.45|Disinfection means:
+0.58|CAU
+0.64|Complete sterili
+0.72|ation
+0.80|Disinfection
+0.88|Scrubbing/cleaning
+---CHOICE_ROWS---
+A y=0.46 meanG=213.2 lime=0.706 bright=187.2 text=Disinfection means:
+B y=0.59 meanG=169.3 lime=0.048 bright=14.1 text=CAU
+C y=0.65 meanG=212.0 lime=0.710 bright=57.6 text=Complete sterili
+D y=0.72 meanG=211.3 lime=0.700 bright=47.9 text=ation
+SELECTED_HINT: A bright=187.2 margin=129.6 text=Disinfection means:

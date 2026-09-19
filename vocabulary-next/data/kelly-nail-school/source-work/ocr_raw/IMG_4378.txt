@@ -1,0 +1,68 @@
+FILE: IMG_4378.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 34
+---
+[1.00 @ 0.00,0.35] Help
+[0.30 @ 0.01,0.38] 11609223 A.
+[0.50 @ 0.34,0.37] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.01,0.42] IN ĐIỂM
+[0.50 @ 0.12,0.41] CÂU HỎI SÓ:
+[1.00 @ 0.25,0.42] 35
+[0.50 @ 0.29,0.41] CỦA 97 CÂU HỎI.
+[0.50 @ 0.61,0.43] Nail Trac Nghiem 2026_1.dll
+[1.00 @ 0.00,0.46] hich tool is used to shape and sculpt acrylic beads during acrylic
+[0.50 @ 0.61,0.45] Nail Trac Nghiem 2026_2.dli
+[1.00 @ 0.61,0.48] Nail Trac Nghiem 2026
+[0.50 @ 0.80,0.47] 3.dll
+[1.00 @ -0.00,0.49] il application?
+[1.00 @ 0.61,0.50] Nail Trac Nghiem 5.dll
+[0.50 @ 0.61,0.52] Nails Theory 2026.dll
+[0.50 @ 0.66,0.54] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ -0.00,0.58] Ả LỜI:
+[0.30 @ 0.42,0.58] CÂU HPI TEP THEO
+[0.30 @ 0.64,0.59] 1Ạ0 BÀI MỚI
+[0.30 @ 0.63,0.61] HHAC CẦU HỎI
+[0.50 @ 0.84,0.60] CHỌN BÀI THI
+[1.00 @ 0.03,0.64] Wooden stick (orangewood stick)
+[0.30 @ 0.61,0.67] TRẢ LỜI ĐŨNG: TRẢ LỜI SAI:
+[1.00 @ 0.87,0.67] ĐIỂM TỔNG KẾT
+[1.00 @ 0.65,0.70] 34
+[1.00 @ 0.03,0.72] Kolinsky brush (acrylic brush)
+[0.50 @ 0.64,0.78] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.04,0.80] Electric file
+[1.00 @ 0.65,0.84] 00
+[1.00 @ 0.75,0.84] 00
+[0.30 @ 0.84,0.84] 00
+[0.30 @ 0.89,0.84] GẤT ĐÂU
+[1.00 @ 0.04,0.88] Synthetic gel brush
+[1.00 @ 0.66,0.90] 00.00.00.00
+---LEFT_LINES---
+0.35|Help
+0.38|11609223 A.
+0.37|ĐỀ THI: ( NAILS (EN) 2026)
+0.42|IN ĐIỂM
+0.41|CÂU HỎI SÓ:
+0.42|35
+0.41|CỦA 97 CÂU HỎI.
+0.46|hich tool is used to shape and sculpt acrylic beads during acrylic
+0.49|il application?
+0.58|Ả LỜI:
+0.58|CÂU HPI TEP THEO
+0.64|Wooden stick (orangewood stick)
+0.72|Kolinsky brush (acrylic brush)
+0.80|Electric file
+0.88|Synthetic gel brush
+---CONTENT---
+0.38|11609223 A.
+0.46|hich tool is used to shape and sculpt acrylic beads during acrylic
+0.49|il application?
+0.58|Ả LỜI:
+0.64|Wooden stick (orangewood stick)
+0.72|Kolinsky brush (acrylic brush)
+0.88|Synthetic gel brush
+---CHOICE_ROWS---
+A y=0.50 meanG=223.9 lime=0.824 bright=220.9 text=il application?
+B y=0.59 meanG=170.6 lime=0.037 bright=10.9 text=Ả LỜI:
+C y=0.65 meanG=212.7 lime=0.694 bright=53.3 text=Wooden stick (orangewood stick)
+D y=0.73 meanG=212.4 lime=0.697 bright=45.9 text=Kolinsky brush (acrylic brush)
+SELECTED_HINT: A bright=220.9 margin=167.6 text=il application?

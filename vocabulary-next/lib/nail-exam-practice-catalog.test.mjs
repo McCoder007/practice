@@ -25,6 +25,7 @@ test("public catalog uses approved learner-facing names and routes", () => {
       ["bank-a", "Practice Bank A", "/nail-exam-practice/bank-a"],
       ["bank-b", "Practice Bank B", "/nail-exam-practice/bank-b"],
       ["bank-c", "Practice Bank C", "/nail-exam-practice/bank-c"],
+      ["kelly-nail-school", "Kelly Nail School", "/nail-exam-practice/kelly-nail-school"],
     ],
   )
   assert.deepEqual(
@@ -42,6 +43,7 @@ test("public banks map to unchanged internal pools and group counts", () => {
   const bankA = getNailExamBank("bank-a")
   const bankB = getNailExamBank("bank-b")
   const bankC = getNailExamBank("bank-c")
+  const kelly = getNailExamBank("kelly-nail-school")
 
   assert.equal(official.internalSourceName, "Official Practice pool")
   assert.equal(official.idPrefix, "official-practice-")
@@ -63,6 +65,12 @@ test("public banks map to unchanged internal pools and group counts", () => {
   assert.equal(bankC.practiceSourceId, PRACTICE_SOURCES[2].id)
   assert.equal(bankC.approvedCount, 164)
   assert.equal(bankC.groupCount, 9)
+
+  assert.equal(kelly.internalSourceName, "Kelly Nail School — NAILS (EN) 2026")
+  assert.equal(kelly.pool, "kelly")
+  assert.equal(kelly.idPrefix, "kelly-")
+  assert.equal(kelly.approvedCount, 89)
+  assert.equal(kelly.groupCount, 5)
 
   assert.equal(
     NAIL_EXAM_BANKS.reduce((sum, bank) => sum + bank.approvedCount, 0),
@@ -94,6 +102,12 @@ test("calculated group boundaries cover each bank exactly once", () => {
     start: 161,
     end: 164,
     count: 4,
+  })
+  assert.deepEqual(bankGroupCards(getNailExamBank("kelly-nail-school")).at(-1), {
+    offset: 80,
+    start: 81,
+    end: 89,
+    count: 9,
   })
 })
 

@@ -1,0 +1,67 @@
+FILE: IMG_4504.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 32
+---
+[1.00 @ 0.00,0.33] 12:35:02 PM
+[0.30 @ 0.34,0.33] ĐỀ THI ( NAILS (EN) 2026)
+[0.30 @ 0.00,0.38] N ĐIỂM
+[1.00 @ 0.11,0.37] CÂU HỎI SỐ
+[1.00 @ 0.24,0.38] 94
+[0.30 @ 0.29,0.38] CỬA 97 CẦU HỎI
+[1.00 @ -0.00,0.42] able items differ from disposable items because they:
+[0.50 @ 0.62,0.41] Nail Trac Nghiem 2026_1.dll
+[0.50 @ 0.62,0.43] Nail Trac Nghiem 2026_2.dll
+[0.50 @ 0.62,0.45] Nail Trac Nghiem 2026_3.dll
+[0.50 @ 0.62,0.47] Nail Trac Nghiem 5.dll
+[1.00 @ 0.62,0.50] Nails Theory 2026.dll
+[0.50 @ 0.66,0.52] ĐỀ THI: ( NAILS (EN) 2026 )
+[1.00 @ 0.00,0.55] LỜI:
+[0.30 @ 0.43,0.56] KAU
+[0.30 @ 0.49,0.56] CI TIẾP THEO
+[0.30 @ 0.64,0.57] THO BÀI MỚI
+[0.30 @ 0.63,0.59] HVẮC CẦU HỎI
+[1.00 @ 0.84,0.58] CHỌN BÀI THI
+[1.00 @ 0.02,0.61] Cost more or less
+[0.30 @ 0.61,0.65] TRÀ LỜI ĐÚNG: TRÀ LỜI SAI:
+[1.00 @ 0.86,0.65] ĐIỂM TỔNG KẾT
+[1.00 @ 0.02,0.69] Can be reused after proper processing
+[1.00 @ 0.65,0.67] 84
+[1.00 @ 0.77,0.68] 9
+[0.50 @ 0.63,0.75] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.02,0.77] Have different colors
+[1.00 @ 0.65,0.81] 00
+[1.00 @ 0.74,0.81] 00
+[0.30 @ 0.88,0.81] HẤT ĐẦU
+[1.00 @ 0.02,0.84] Have different si
+[1.00 @ 0.65,0.87] 00.00.00.00
+---LEFT_LINES---
+0.33|12:35:02 PM
+0.33|ĐỀ THI ( NAILS (EN) 2026)
+0.38|N ĐIỂM
+0.37|CÂU HỎI SỐ
+0.38|94
+0.38|CỬA 97 CẦU HỎI
+0.42|able items differ from disposable items because they:
+0.55|LỜI:
+0.56|KAU
+0.56|CI TIẾP THEO
+0.61|Cost more or less
+0.69|Can be reused after proper processing
+0.77|Have different colors
+0.84|Have different si
+---CONTENT---
+0.38|N ĐIỂM
+0.38|CỬA 97 CẦU HỎI
+0.42|able items differ from disposable items because they:
+0.55|LỜI:
+0.56|KAU
+0.61|Cost more or less
+0.69|Can be reused after proper processing
+0.77|Have different colors
+0.84|Have different si
+---CHOICE_ROWS---
+A y=0.44 meanG=201.4 lime=0.488 bright=170.5 text=able items differ from disposable items because they:
+B y=0.56 meanG=171.2 lime=0.107 bright=25.6 text=LỜI:
+C y=0.57 meanG=167.7 lime=0.076 bright=16.2 text=KAU
+D y=0.62 meanG=207.2 lime=0.579 bright=54.7 text=Cost more or less
+SELECTED_HINT: A bright=170.5 margin=115.8 text=able items differ from disposable items because they:

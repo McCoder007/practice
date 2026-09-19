@@ -1,0 +1,30 @@
+FILE: IMG_4500.JPG
+SIZE: 5712x4284 CROP: 200,450,3400,3000
+LINES: 23
+---
+[0.50 @ 0.69,0.01] Nail Trac Nghiem 2026_1.dll
+[0.30 @ 0.72,0.01] _2.dll
+[0.50 @ 0.81,-0.00] ĐỀ THI: ( NAILS (EN
+[0.50 @ 0.74,0.01] Nail Trac Nghiem 2026_3.dil
+[0.30 @ 0.95,0.04] TRẢ LỜI ĐÚNG: TRÀ LỜI SAI:
+[0.50 @ 0.72,0.06] Nail Trac Nghiem 2026
+[0.50 @ 0.76,0.07] Nail Trac Nghiem 5.dll
+[0.50 @ 0.78,0.08] Nails Theory 2026.dll
+[0.30 @ 0.86,0.11] TẠO BÀI MỚI
+[0.30 @ 0.89,0.10] HOAC CÂU HỎI
+[0.50 @ 0.98,0.21] 78
+[0.50 @ 0.61,0.31] ĐỀ THI: (NAILS (EN) 2026)
+[0.50 @ 0.85,0.30] CAT HỎI TIẾP THEO
+[1.00 @ 0.71,0.43] e nail bed and nail are attached to the finger bone by:
+[0.50 @ 0.66,0.45] CỦA 97 CẦU HỎI.
+[0.30 @ 0.84,0.59] RẤT TIÉT, KHÔNG PHẢI CÂU ĐÓ
+[1.00 @ 0.67,0.67] 87
+[0.30 @ 0.66,0.72] CÂU HỎI SỐ:
+[1.00 @ 0.61,0.87] 12:33:26 PM
+[1.00 @ 0.91,0.89] Speciali
+[0.30 @ 0.66,0.90] INĐIỂM
+[0.30 @ 0.84,0.92] Ả LỜI:
+[1.00 @ 0.58,0.96] Help
+---GREEN---
+
+SELECTED_HINT: none

@@ -1,0 +1,63 @@
+FILE: IMG_4472.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 30
+---
+[0.50 @ -0.00,0.37] ile Help
+[0.50 @ 0.03,0.40] 12:13:50 PM
+[0.50 @ 0.34,0.39] ĐÊ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.03,0.44] N ĐIEM
+[0.50 @ 0.13,0.44] CÂU HỎI SỐ
+[1.00 @ 0.26,0.44] 29
+[1.00 @ 0.31,0.44] CỦA 97 CÂU HỎI.
+[1.00 @ 0.61,0.46] Nail Trac Nghiem 2026_1.dll
+[1.00 @ 0.00,0.48] When treating a client's calluses, the main goal is to:
+[0.50 @ 0.61,0.48] Nail Trac Nghiem 2026_2.dil
+[0.50 @ 0.61,0.50] Nail Trac Nghiem 2026_3.dil
+[0.50 @ 0.61,0.51] Nail Trac Nghiem 5.dll
+[1.00 @ 0.61,0.53] Nails Theory 2026.dll
+[0.50 @ 0.65,0.56] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ -0.00,0.60] TRẢ LỜI:
+[0.50 @ 0.43,0.59] CÂU NỖI TIẾP THEO
+[0.50 @ 0.63,0.60] TAO BÀI MỚI
+[0.50 @ 0.62,0.62] HOẶC CÂU HỎI
+[0.50 @ 0.81,0.61] CHỌN BÀI THI
+[1.00 @ 0.05,0.65] Soften and smooth the callused area
+[0.50 @ 0.61,0.68] TRẢ LỜI ĐÙNG: TRÀ LỜI SAI:
+[1.00 @ 0.84,0.67] ĐIỂM TỔNG KẾT
+[1.00 @ 0.64,0.70] 24
+[1.00 @ 0.05,0.72] Make the skin drier and harder
+[1.00 @ 0.63,0.78] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.05,0.81] Cause all foot skin to peel off
+[1.00 @ 0.65,0.83] 00
+[0.30 @ 0.87,0.83] BẮT ĐÂU
+[1.00 @ 0.05,0.88] Increase skin thickness
+[1.00 @ 0.65,0.89] 00.00.00.00
+---LEFT_LINES---
+0.37|ile Help
+0.40|12:13:50 PM
+0.39|ĐÊ THI: ( NAILS (EN) 2026 )
+0.44|N ĐIEM
+0.44|CÂU HỎI SỐ
+0.44|29
+0.44|CỦA 97 CÂU HỎI.
+0.48|When treating a client's calluses, the main goal is to:
+0.60|TRẢ LỜI:
+0.59|CÂU NỖI TIẾP THEO
+0.65|Soften and smooth the callused area
+0.72|Make the skin drier and harder
+0.81|Cause all foot skin to peel off
+0.88|Increase skin thickness
+---CONTENT---
+0.39|ĐÊ THI: ( NAILS (EN) 2026 )
+0.44|N ĐIEM
+0.48|When treating a client's calluses, the main goal is to:
+0.65|Soften and smooth the callused area
+0.72|Make the skin drier and harder
+0.81|Cause all foot skin to peel off
+0.88|Increase skin thickness
+---CHOICE_ROWS---
+A y=0.45 meanG=162.7 lime=0.172 bright=53.3 text=N ĐIEM
+B y=0.49 meanG=206.8 lime=0.586 bright=181.6 text=When treating a client's calluses, the main goal is to:
+C y=0.66 meanG=208.4 lime=0.607 bright=59.1 text=Soften and smooth the callused area
+D y=0.74 meanG=210.2 lime=0.648 bright=52.8 text=Make the skin drier and harder
+SELECTED_HINT: B bright=181.6 margin=122.4 text=When treating a client's calluses, the main goal is to:

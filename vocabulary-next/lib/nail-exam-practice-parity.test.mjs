@@ -32,9 +32,12 @@ function loadApprovedPool(relativePath) {
 
 const officialPool = loadApprovedPool("question-bank/official-practice/questions.json")
 const practicePool = loadApprovedPool("question-bank/practice/questions.json")
+const kellyPool = loadApprovedPool("question-bank/kelly-nail-school/questions.json")
 
 function poolFor(bank) {
-  return bank.pool === "official" ? officialPool : practicePool
+  if (bank.pool === "official") return officialPool
+  if (bank.pool === "kelly") return kellyPool
+  return practicePool
 }
 
 test("every approved question converts to a Study Card from the keyed correct choice", () => {

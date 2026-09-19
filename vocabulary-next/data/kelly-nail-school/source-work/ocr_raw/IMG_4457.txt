@@ -1,0 +1,74 @@
+FILE: IMG_4457.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 38
+---
+[1.00 @ 0.00,0.35] Help
+[0.50 @ 0.01,0.38] 12:06:56 PM1
+[0.30 @ 0.35,0.38] ĐỀ THU ( NAILS (EN) 2026 )
+[0.30 @ 0.00,0.43] NĐIỂM
+[0.50 @ 0.12,0.42] CÂU HỎI SỐ
+[1.00 @ 0.26,0.43] 14
+[0.30 @ 0.30,0.43] CỦA 97 CẦU HỎI
+[1.00 @ 0.64,0.45] Nail Trac Nghiem 2026
+[0.50 @ 0.83,0.45] 1.dll
+[1.00 @ 0.00,0.47] en nails are weak, a nail hardener/strengthener should be
+[1.00 @ 0.64,0.47] Nail Trac Nghiem 2026
+[1.00 @ 0.83,0.47] 2.dll
+[1.00 @ -0.00,0.50] lied:
+[1.00 @ 0.64,0.49] Nail Trac Nghiem 2026
+[1.00 @ 0.83,0.49] 3.dll
+[1.00 @ 0.64,0.52] Nail Trac Nghiem 5.dll
+[0.50 @ 0.64,0.54] Nails Theory 2026.dll
+[0.50 @ 0.68,0.56] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.00,0.60] Ả LỜI:
+[0.30 @ 0.44,0.60] CAUAET
+[0.50 @ 0.53,0.60] TIẾP THEO
+[0.30 @ 0.66,0.61] HLO BAI MƠI
+[0.30 @ 0.66,0.64] HHZC CAU HÔI
+[0.30 @ 0.86,0.62] CHỌN BẢI THI
+[0.50 @ 0.03,0.66] Before the primer or base coat
+[0.50 @ 0.63,0.69] TRÀ LỜI ĐÚNG: TRÀ LỜI SAI:
+[0.30 @ 0.89,0.69] ĐIỂM TỔNG K
+[1.00 @ 0.68,0.72] 11
+[1.00 @ 0.80,0.73] 2
+[1.00 @ 0.03,0.74] After the top coat
+[1.00 @ 0.66,0.81] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.03,0.83] After nail removal
+[1.00 @ 0.68,0.87] 00
+[1.00 @ 0.77,0.87] 00
+[1.00 @ 0.86,0.87] 00
+[0.30 @ 0.92,0.86] TẮT ĐẦU
+[1.00 @ 0.03,0.91] After washing hands
+[1.00 @ 0.68,0.93] 00.00.00.00
+---LEFT_LINES---
+0.35|Help
+0.38|12:06:56 PM1
+0.38|ĐỀ THU ( NAILS (EN) 2026 )
+0.43|NĐIỂM
+0.42|CÂU HỎI SỐ
+0.43|14
+0.43|CỦA 97 CẦU HỎI
+0.47|en nails are weak, a nail hardener/strengthener should be
+0.50|lied:
+0.60|Ả LỜI:
+0.60|CAUAET
+0.60|TIẾP THEO
+0.66|Before the primer or base coat
+0.74|After the top coat
+0.83|After nail removal
+---CONTENT---
+0.43|NĐIỂM
+0.43|CỦA 97 CẦU HỎI
+0.47|en nails are weak, a nail hardener/strengthener should be
+0.50|lied:
+0.60|Ả LỜI:
+0.60|CAUAET
+0.66|Before the primer or base coat
+0.74|After the top coat
+0.83|After nail removal
+---CHOICE_ROWS---
+A y=0.48 meanG=201.7 lime=0.518 bright=176.9 text=en nails are weak, a nail hardener/strengthener should be
+B y=0.51 meanG=216.7 lime=0.672 bright=210.7 text=lied:
+C y=0.61 meanG=167.1 lime=0.063 bright=14.3 text=Ả LỜI:
+D y=0.61 meanG=167.1 lime=0.062 bright=14.1 text=CAUAET
+SELECTED_HINT: B bright=210.7 margin=33.8 text=lied:

@@ -1,0 +1,67 @@
+FILE: IMG_4358.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 33
+---
+[1.00 @ 0.01,0.32] File
+[1.00 @ 0.04,0.31] Help
+[0.50 @ 0.05,0.34] 10:53:33 AM
+[0.30 @ 0.36,0.34] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.05,0.39] N ĐIỂM
+[0.50 @ 0.15,0.38] CÂU HỎI SỐ:
+[1.00 @ 0.28,0.39] 15
+[0.50 @ 0.32,0.39] CỦA 97 CÂU HỎI
+[0.50 @ 0.63,0.41] Nail Trac Nghiem 2026_1.dii
+[1.00 @ 0.01,0.43] The nails of older adults usually:
+[0.50 @ 0.63,0.43] Nail Trac Nghiem 2026_2.dll
+[0.50 @ 0.63,0.45] Nail Trac Nghiem 2026_3.dil
+[1.00 @ 0.63,0.47] Nail Trac Nghiem 5.dll
+[1.00 @ 0.63,0.49] Nails Theory 2026.dll
+[0.50 @ 0.68,0.52] ĐỀ THI: ( NAILS (EN) 2026 )
+[1.00 @ 0.02,0.55] TRẢ LỜI:
+[0.30 @ 0.44,0.55] CẦU HIỘI TẾP THEO
+[0.30 @ 0.65,0.56] MCO BÀI MỚI
+[0.50 @ 0.64,0.58] HOÁC CẦU HỎI
+[0.50 @ 0.85,0.58] GHỌN BÀI THI
+[1.00 @ 0.06,0.60] Grow quickly
+[0.50 @ 0.63,0.64] TRÀ LỜI ĐÙNG: TRÀ LỜI SAI-
+[0.50 @ 0.88,0.65] ĐIỂM TỔNG KỂ
+[1.00 @ 0.06,0.68] Are brittle and grow slowly
+[1.00 @ 0.67,0.67] 14
+[1.00 @ 0.06,0.76] Are thick and soft
+[1.00 @ 0.65,0.75] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.67,0.81] 00
+[1.00 @ 0.76,0.81] 00
+[1.00 @ 0.85,0.82] 00
+[0.30 @ 0.90,0.81] CẤT ĐẦU
+[1.00 @ 0.06,0.83] Do not change
+[1.00 @ 0.67,0.87] 00.00.00.00
+---LEFT_LINES---
+0.32|File
+0.31|Help
+0.34|10:53:33 AM
+0.34|ĐỀ THI: ( NAILS (EN) 2026 )
+0.39|N ĐIỂM
+0.38|CÂU HỎI SỐ:
+0.39|15
+0.39|CỦA 97 CÂU HỎI
+0.43|The nails of older adults usually:
+0.55|TRẢ LỜI:
+0.55|CẦU HIỘI TẾP THEO
+0.60|Grow quickly
+0.68|Are brittle and grow slowly
+0.76|Are thick and soft
+0.83|Do not change
+---CONTENT---
+0.39|N ĐIỂM
+0.43|The nails of older adults usually:
+0.55|CẦU HIỘI TẾP THEO
+0.60|Grow quickly
+0.68|Are brittle and grow slowly
+0.76|Are thick and soft
+0.83|Do not change
+---CHOICE_ROWS---
+A y=0.56 meanG=163.4 lime=0.084 bright=15.4 text=CẦU HIỘI TẾP THEO
+B y=0.61 meanG=200.8 lime=0.567 bright=51.5 text=Grow quickly
+C y=0.69 meanG=202.3 lime=0.565 bright=46.4 text=Are brittle and grow slowly
+D y=0.77 meanG=202.0 lime=0.537 bright=38.7 text=Are thick and soft
+SELECTED_HINT: none margin=5.1

@@ -1,0 +1,71 @@
+FILE: IMG_4374.JPG
+ORIENTED: 3024x4032 CROP_TL: 181,725,2661,2822
+LINES: 37
+---
+[1.00 @ 0.01,0.27] File Help
+[0.30 @ 0.05,0.30] 11:04:574
+[0.30 @ 0.35,0.30] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.05,0.35] IN ĐIẾM
+[0.50 @ 0.15,0.34] CÂU HỎI SỐ:
+[1.00 @ 0.27,0.35] 31
+[0.50 @ 0.31,0.35] CỦA 97 CÂU HỎI.
+[1.00 @ 0.62,0.37] Nail Trac Nghiem 2026
+[1.00 @ 0.02,0.39] A soaking bowl, cuticle pusher, and nail clipper are classified as:
+[0.30 @ 0.79,0.38] 1.dll
+[1.00 @ 0.62,0.39] Nail Trac Nghiem 2026
+[0.30 @ 0.78,0.40] 2.dll
+[1.00 @ 0.62,0.41] Nail Trac Nghiem 2026
+[0.30 @ 0.78,0.41] _3.dll
+[0.50 @ 0.61,0.43] Nail Trac Nghiem 5.dll
+[1.00 @ 0.61,0.45] Nails Theory 2026.dll
+[0.50 @ 0.65,0.47] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ 0.03,0.50] RẢ LỜI:
+[0.30 @ 0.44,0.51] CẦU HỘI TẾP THEO
+[0.30 @ 0.63,0.52] LÁO BÀI MỚI
+[0.30 @ 0.62,0.54] HUAC CÂU HỎI
+[0.50 @ 0.81,0.53] CHƠN BÀI THI
+[1.00 @ 0.07,0.56] Tools/implements
+[0.30 @ 0.61,0.59] TRẢ LỜI ĐÙNG: TRẢ LỜI SAI:
+[1.00 @ 0.84,0.59] ĐIỂM TỔNG KẾT
+[1.00 @ 0.07,0.63] Materials
+[1.00 @ 0.64,0.62] 30
+[1.00 @ 0.07,0.70] Chemicals
+[0.50 @ 0.63,0.69] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.64,0.74] 00
+[0.30 @ 0.68,0.75] PANGAKUND
+[1.00 @ 0.73,0.75] 00
+[1.00 @ 0.81,0.75] 00
+[0.30 @ 0.86,0.75] ĐẤT ĐẦU
+[1.00 @ 0.07,0.77] Dispo sable supplies
+[1.00 @ 0.65,0.80] 00.00.00.00
+[0.30 @ 0.36,0.93] HIN ĐỰC BẢN HƯỜNG DÂN ONTKENN
+---LEFT_LINES---
+0.27|File Help
+0.30|11:04:574
+0.30|ĐỀ THI: ( NAILS (EN) 2026)
+0.35|IN ĐIẾM
+0.34|CÂU HỎI SỐ:
+0.35|31
+0.35|CỦA 97 CÂU HỎI.
+0.39|A soaking bowl, cuticle pusher, and nail clipper are classified as:
+0.50|RẢ LỜI:
+0.51|CẦU HỘI TẾP THEO
+0.56|Tools/implements
+0.63|Materials
+0.70|Chemicals
+0.77|Dispo sable supplies
+---CONTENT---
+0.35|IN ĐIẾM
+0.39|A soaking bowl, cuticle pusher, and nail clipper are classified as:
+0.50|RẢ LỜI:
+0.51|CẦU HỘI TẾP THEO
+0.56|Tools/implements
+0.63|Materials
+0.70|Chemicals
+0.77|Dispo sable supplies
+---CHOICE_ROWS---
+A y=0.51 meanG=176.4 lime=0.100 bright=28.3 text=RẢ LỜI:
+B y=0.52 meanG=171.6 lime=0.006 bright=9.8 text=CẦU HỘI TẾP THEO
+C y=0.57 meanG=207.8 lime=0.637 bright=49.4 text=Tools/implements
+D y=0.64 meanG=209.6 lime=0.642 bright=42.0 text=Materials
+SELECTED_HINT: none margin=7.5

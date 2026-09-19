@@ -1,0 +1,59 @@
+FILE: IMG_4443.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 37
+---
+[1.00 @ -0.00,0.24] File Help
+[1.00 @ 0.04,0.27] 12:02:12 PM
+[0.50 @ 0.37,0.27] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.04,0.32] N ĐIỂM
+[0.50 @ 0.14,0.31] CÂU HỎI SỐ:
+[0.50 @ 0.28,0.32] 97
+[0.50 @ 0.32,0.31] CỦA 97 CÂU HỎI.
+[1.00 @ 0.64,0.34] Nail Trac Nghiem 2026_1.dil
+[0.30 @ 0.13,0.36] Cuộc Thi Trắc Nghiệm Đã Hoàng Tất.-
+[1.00 @ 0.64,0.36] Nail Trac Nghiem 2026
+[0.50 @ 0.83,0.36] 2.dll
+[1.00 @ 0.01,0.38] Tổng cộng những câu hỏi đúng : 90
+[0.50 @ 0.64,0.38] Nail Trac Nghiem 2026_3.dll
+[0.50 @ 0.01,0.41] Tổng cộng những câu hỏi sai : 7
+[0.50 @ 0.64,0.40] Nail Trac Nghiem 5.dll
+[0.50 @ 0.64,0.42] Nails Theory 2026.dll
+[0.50 @ 0.01,0.44] Điểm tổng kết là : 92.78 %
+[0.50 @ 0.69,0.45] ĐỂ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.02,0.48] TRẢ LỜI:
+[1.00 @ 0.49,0.48] HỎI TIẾP THEO
+[0.30 @ 0.66,0.49] HẠO BÀI MỚI
+[0.30 @ 0.65,0.51] HUẠC CÂU HỎI
+[1.00 @ 0.86,0.50] CHỌN BÀI THI
+[0.30 @ 0.64,0.57] TRÀ LỜI DUNG: TRẢ LỜI SAI:
+[0.50 @ 0.89,0.57] ĐIỂM TỔNG KẾ
+[1.00 @ 0.62,0.60] These Are The Current Quiz Statistics
+[0.30 @ 0.91,0.60] 92.78 %
+[0.50 @ 0.66,0.68] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.68,0.73] 00
+[0.30 @ 0.72,0.73] PHUT
+[1.00 @ 0.77,0.74] 00
+[0.30 @ 0.81,0.73] GIA
+[1.00 @ 0.85,0.74] 00
+[0.30 @ 0.92,0.73] NẤT ĐẦU
+[1.00 @ 0.68,0.79] 00.00.00.00
+[0.50 @ 0.38,0.94] XIN ĐỌC BẢN HƯƠNG DẪN O TRÊN
+[0.50 @ 0.83,0.94] Veduesdav. Seprember 16
+---LEFT_LINES---
+0.27|12:02:12 PM
+0.27|ĐỀ THI: ( NAILS (EN) 2026 )
+0.32|N ĐIỂM
+0.31|CÂU HỎI SỐ:
+0.32|97
+0.31|CỦA 97 CÂU HỎI.
+0.36|Cuộc Thi Trắc Nghiệm Đã Hoàng Tất.-
+0.38|Tổng cộng những câu hỏi đúng : 90
+0.41|Tổng cộng những câu hỏi sai : 7
+0.44|Điểm tổng kết là : 92.78 %
+0.48|TRẢ LỜI:
+0.48|HỎI TIẾP THEO
+---CONTENT---
+0.32|N ĐIỂM
+0.44|Điểm tổng kết là : 92.78 %
+---CHOICE_ROWS---
+SELECTED_HINT: none

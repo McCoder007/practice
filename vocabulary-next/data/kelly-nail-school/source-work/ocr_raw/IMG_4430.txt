@@ -1,0 +1,69 @@
+FILE: IMG_4430.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 34
+---
+[1.00 @ 0.00,0.29] ile Help
+[1.00 @ 0.03,0.32] 11:56:55
+[0.50 @ 0.36,0.32] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.03,0.37] IN ĐIỂM
+[1.00 @ 0.14,0.36] CÂU HỎI SỐ:
+[1.00 @ 0.27,0.37] 86
+[0.50 @ 0.31,0.37] CỦA 97 CẦU HỎI.
+[0.50 @ 0.63,0.39] Nail Trac Nghiem 2026_1.dll
+[1.00 @ -0.00,0.41] When removing acrylic nails, if a client wants the process done
+[0.50 @ 0.63,0.41] Nail Trac Nghiem 2026_2.dll
+[1.00 @ 0.00,0.44] aster, you should:
+[0.50 @ 0.63,0.43] Nail Trac Nghiem 2026_3.dll
+[0.50 @ 0.63,0.45] Nail Trac Nghiem 5.dll
+[1.00 @ 0.62,0.47] Nails Theory 2026.dll
+[0.50 @ 0.67,0.50] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ -0.00,0.53] TRẢ LỜI:
+[0.30 @ 0.44,0.53] CẦU HỒ MIẾP THEO
+[0.30 @ 0.64,0.54] TAO BÀI MỚI
+[0.50 @ 0.64,0.56] HOẠC CÂU HỎI
+[0.50 @ 0.84,0.55] CHỌN BÀI THI
+[1.00 @ 0.05,0.59] Continue soaking properly in acetone
+[0.50 @ 0.62,0.62] TRÀ LỜI ĐÙNG: TRÀ LỜI SAI:
+[1.00 @ 0.87,0.62] ĐIỂM TỔNG KẾT
+[1.00 @ 0.66,0.65] 79
+[1.00 @ 0.05,0.66] Forcefully pull the nails off
+[0.50 @ 0.64,0.72] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.05,0.75] Pry the nails off with a sharp object
+[1.00 @ 0.66,0.78] 00
+[1.00 @ 0.75,0.78] 00
+[1.00 @ 0.84,0.78] 00
+[0.30 @ 0.89,0.78] SẤT ĐẦU
+[0.50 @ 0.05,0.82] Break the nails off by hand
+[1.00 @ 0.67,0.84] 00.00.00.00
+[0.30 @ 0.37,0.98] XIN ĐỌC BAN HƯONG DAN OHIREN
+---LEFT_LINES---
+0.29|ile Help
+0.32|11:56:55
+0.32|ĐỀ THI: ( NAILS (EN) 2026 )
+0.37|IN ĐIỂM
+0.36|CÂU HỎI SỐ:
+0.37|86
+0.37|CỦA 97 CẦU HỎI.
+0.41|When removing acrylic nails, if a client wants the process done
+0.44|aster, you should:
+0.53|TRẢ LỜI:
+0.53|CẦU HỒ MIẾP THEO
+0.59|Continue soaking properly in acetone
+0.66|Forcefully pull the nails off
+0.75|Pry the nails off with a sharp object
+0.82|Break the nails off by hand
+---CONTENT---
+0.37|CỦA 97 CẦU HỎI.
+0.41|When removing acrylic nails, if a client wants the process done
+0.44|aster, you should:
+0.53|CẦU HỒ MIẾP THEO
+0.59|Continue soaking properly in acetone
+0.66|Forcefully pull the nails off
+0.75|Pry the nails off with a sharp object
+0.82|Break the nails off by hand
+---CHOICE_ROWS---
+A y=0.42 meanG=201.4 lime=0.542 bright=178.6 text=When removing acrylic nails, if a client wants the process done
+B y=0.45 meanG=219.0 lime=0.720 bright=216.1 text=aster, you should:
+C y=0.54 meanG=165.1 lime=0.069 bright=17.0 text=CẦU HỒ MIẾP THEO
+D y=0.60 meanG=205.3 lime=0.573 bright=61.1 text=Continue soaking properly in acetone
+SELECTED_HINT: B bright=216.1 margin=37.5 text=aster, you should:

@@ -1,0 +1,71 @@
+FILE: IMG_4391.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 37
+---
+[1.00 @ 0.00,0.31] Help
+[0.30 @ 0.02,0.34] 11:19:45 A.
+[0.50 @ 0.34,0.33] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.01,0.39] N ĐIỂM
+[0.50 @ 0.12,0.38] CÂU HỎI SỐ:
+[1.00 @ 0.25,0.39] 48
+[0.50 @ 0.30,0.38] CỦA 97 CẦU HỎI.
+[1.00 @ 0.62,0.41] Nail Trac Nghiem 2026
+[1.00 @ 0.81,0.41] 1.dll
+[0.50 @ -0.00,0.43] ail fomms are used to:
+[1.00 @ 0.62,0.43] Nail Trac Nghiem 2026
+[0.50 @ 0.81,0.43] 2.dll
+[1.00 @ 0.62,0.45] Nail Trac Nghiem 2026
+[0.30 @ 0.80,0.45] _3.dil
+[0.50 @ 0.62,0.47] Nail Trac Nghiem 5.dll
+[0.50 @ 0.62,0.49] Nails Theory 2026.dll
+[0.50 @ 0.66,0.52] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ -0.00,0.55] Ả LỜI:
+[0.30 @ 0.43,0.55] CÂU HỘI TIN THEO
+[0.30 @ 0.64,0.56] TẠO BÀI MỚI
+[0.30 @ 0.63,0.58] HGẮC CẦU HỎI
+[0.50 @ 0.84,0.58] CHỌN BÀI THI
+[1.00 @ 0.03,0.61] Create nail extensions
+[0.50 @ 0.61,0.65] TRÀ LỜI ĐÚNG: TRẢ LỜI SAI:
+[1.00 @ 0.87,0.65] ĐIỂM TỔNG KẾT
+[1.00 @ 0.65,0.67] 47
+[1.00 @ 0.03,0.68] Scrub feet
+[1.00 @ 0.64,0.75] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.03,0.77] Wash hands
+[1.00 @ 0.65,0.81] 00
+[0.30 @ 0.69,0.81] FHUT
+[1.00 @ 0.75,0.82] 00
+[0.30 @ 0.79,0.82] CAAY
+[1.00 @ 0.84,0.82] 00
+[0.30 @ 0.89,0.82] ẤT ĐẦU
+[1.00 @ 0.03,0.84] Massage
+[1.00 @ 0.66,0.87] 00.00.00.00
+---LEFT_LINES---
+0.31|Help
+0.34|11:19:45 A.
+0.33|ĐỀ THI: ( NAILS (EN) 2026 )
+0.39|N ĐIỂM
+0.38|CÂU HỎI SỐ:
+0.39|48
+0.38|CỦA 97 CẦU HỎI.
+0.43|ail fomms are used to:
+0.55|Ả LỜI:
+0.55|CÂU HỘI TIN THEO
+0.61|Create nail extensions
+0.68|Scrub feet
+0.77|Wash hands
+0.84|Massage
+---CONTENT---
+0.39|N ĐIỂM
+0.38|CỦA 97 CẦU HỎI.
+0.43|ail fomms are used to:
+0.55|Ả LỜI:
+0.61|Create nail extensions
+0.68|Scrub feet
+0.77|Wash hands
+0.84|Massage
+---CHOICE_ROWS---
+A y=0.44 meanG=209.9 lime=0.741 bright=181.6 text=ail fomms are used to:
+B y=0.56 meanG=166.5 lime=0.062 bright=17.2 text=Ả LỜI:
+C y=0.62 meanG=209.3 lime=0.693 bright=56.7 text=Create nail extensions
+D y=0.69 meanG=209.5 lime=0.691 bright=48.2 text=Scrub feet
+SELECTED_HINT: A bright=181.6 margin=124.9 text=ail fomms are used to:

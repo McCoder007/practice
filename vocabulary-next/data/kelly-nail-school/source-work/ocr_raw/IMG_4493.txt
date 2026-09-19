@@ -1,0 +1,77 @@
+FILE: IMG_4493.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 40
+---
+[0.50 @ 0.00,0.33] elp
+[0.50 @ -0.00,0.36] 12:28:11 P.
+[0.30 @ 0.32,0.35] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ -0.00,0.40] N ĐIỂM
+[0.50 @ 0.10,0.40] CÂU HỎI SỐ:
+[1.00 @ 0.23,0.40] 66
+[0.50 @ 0.27,0.40] CỦA 97 CÂU HỎI.
+[1.00 @ 0.59,0.42] Nail Trac Nghiem 2026
+[1.00 @ 0.77,0.42] 1.dll
+[0.50 @ -0.00,0.44] ruse, a toe separator should be:
+[1.00 @ 0.59,0.44] Nail Trac Nghiem 2026
+[0.50 @ 0.77,0.44] 2.dll
+[1.00 @ 0.59,0.46] Nail Trac Nghiem 2026
+[0.30 @ 0.76,0.46] _3.dll
+[0.50 @ 0.59,0.48] Nail Trac Nghiem 5.dll
+[1.00 @ 0.59,0.50] Nails Theory 2026.dll
+[0.50 @ 0.63,0.53] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.00,0.57] LỜI:
+[0.50 @ 0.11,0.57] RẮT TIÉT. KHÔNG PHẢI CÂU ĐÓ.
+[0.30 @ 0.40,0.56] CÂU HỎI
+[0.30 @ 0.48,0.56] TIES THEO
+[0.50 @ 0.61,0.57] HẠO BÀI MỚI
+[0.30 @ 0.60,0.59] HOẠC CÂU HỎI
+[0.50 @ 0.80,0.58] CHỌN BẢI THI
+[1.00 @ 0.02,0.62] Rinsed with water
+[0.50 @ 0.59,0.65] TRÀ LỜI ĐÙNG: TRÀ LỜI SAI:
+[0.50 @ 0.83,0.65] ĐIỂM TỔNG KẾT
+[1.00 @ 0.62,0.68] 58
+[0.50 @ 0.74,0.68] 8
+[1.00 @ 0.02,0.70] Disinfected
+[0.50 @ 0.61,0.76] CHÍNH GIỜ CHO CUỘC THI
+[1.00 @ 0.02,0.78] Discarded
+[0.30 @ 0.63,0.81] 00
+[0.30 @ 0.67,0.81] PHÚTI
+[1.00 @ 0.71,0.82] 00
+[0.30 @ 0.76,0.82] GIA)
+[0.30 @ 0.80,0.82] 00
+[0.30 @ 0.86,0.81] BẮT ĐẦU
+[1.00 @ 0.02,0.85] Reused
+[1.00 @ 0.63,0.87] 00.00.00.00
+---LEFT_LINES---
+0.33|elp
+0.36|12:28:11 P.
+0.35|ĐỀ THI: ( NAILS (EN) 2026)
+0.40|N ĐIỂM
+0.40|CÂU HỎI SỐ:
+0.40|66
+0.40|CỦA 97 CÂU HỎI.
+0.44|ruse, a toe separator should be:
+0.57|LỜI:
+0.57|RẮT TIÉT. KHÔNG PHẢI CÂU ĐÓ.
+0.56|CÂU HỎI
+0.56|TIES THEO
+0.62|Rinsed with water
+0.70|Disinfected
+0.78|Discarded
+0.85|Reused
+---CONTENT---
+0.33|elp
+0.40|N ĐIỂM
+0.44|ruse, a toe separator should be:
+0.57|LỜI:
+0.56|TIES THEO
+0.62|Rinsed with water
+0.70|Disinfected
+0.78|Discarded
+0.85|Reused
+---CHOICE_ROWS---
+A y=0.57 meanG=144.0 lime=0.026 bright=9.9 text=LỜI:
+B y=0.57 meanG=145.2 lime=0.049 bright=13.0 text=TIES THEO
+C y=0.63 meanG=216.0 lime=0.729 bright=57.6 text=Rinsed with water
+D y=0.70 meanG=204.4 lime=0.740 bright=162.5 text=Disinfected
+SELECTED_HINT: D bright=162.5 margin=104.8 text=Disinfected

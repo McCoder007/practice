@@ -1,0 +1,68 @@
+FILE: IMG_4399.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 34
+---
+[0.30 @ -0.00,0.33] ile Help
+[0.30 @ 0.04,0.36] 11:24:22 AVI
+[0.30 @ 0.38,0.36] ĐỀ THI: (INAILS (EN) 2026)
+[0.50 @ 0.03,0.41] IN ĐIỂM
+[0.50 @ 0.14,0.41] CÂU HỎI SỐ:
+[1.00 @ 0.28,0.41] 56
+[0.30 @ 0.33,0.41] CỦA 97 CẦU HỎI
+[1.00 @ -0.00,0.45] What is used to help a plastic tip/artificial nail achere better to the
+[1.00 @ 0.66,0.44] Nail Trac Nghiem 2026_1.dll
+[1.00 @ 0.66,0.46] Nail Trac Nghiem 2026_2.dll
+[1.00 @ -0.00,0.48] atural nail?
+[0.50 @ 0.66,0.48] Nail Trac Nghiem 2026_3.dil
+[0.50 @ 0.66,0.51] Nail Trac Nghiem 5.dll
+[1.00 @ 0.66,0.53] Nails Theory 2026.dll
+[0.50 @ 0.71,0.55] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ -0.00,0.58] TRẢ LỜI:
+[0.30 @ 0.55,0.59] THEP THEO
+[0.30 @ 0.68,0.60] THO BÀI MỚI
+[0.30 @ 0.68,0.62] THẶC CÂU HỎI
+[0.50 @ 0.89,0.62] CHỌN BÀI 1
+[1.00 @ 0.04,0.64] Primer
+[0.50 @ 0.65,0.69] TRÀ LỜI ĐÙNG: TRÀ LỜI SAI:
+[0.30 @ 0.92,0.69] ĐỊỂM TỔN
+[1.00 @ 0.04,0.72] Conditioning oil
+[1.00 @ 0.69,0.71] 54
+[1.00 @ 0.04,0.81] Wann water
+[0.50 @ 0.68,0.80] CHỈNH GIỜ CHO CUỘC TH
+[1.00 @ 0.69,0.86] 00
+[1.00 @ 0.79,0.87] 00
+[1.00 @ 0.83,0.86] GIAY
+[1.00 @ 0.88,0.87] 00
+[0.30 @ 0.94,0.87] GAT Đ
+[1.00 @ 0.04,0.89] Exfoliating product
+[1.00 @ 0.70,0.92] 00.00.00.00
+---LEFT_LINES---
+0.33|ile Help
+0.36|11:24:22 AVI
+0.36|ĐỀ THI: (INAILS (EN) 2026)
+0.41|IN ĐIỂM
+0.41|CÂU HỎI SỐ:
+0.41|56
+0.41|CỦA 97 CẦU HỎI
+0.45|What is used to help a plastic tip/artificial nail achere better to the
+0.48|atural nail?
+0.58|TRẢ LỜI:
+0.59|THEP THEO
+0.64|Primer
+0.72|Conditioning oil
+0.81|Wann water
+0.89|Exfoliating product
+---CONTENT---
+0.41|CỦA 97 CẦU HỎI
+0.48|atural nail?
+0.59|THEP THEO
+0.64|Primer
+0.72|Conditioning oil
+0.81|Wann water
+0.89|Exfoliating product
+---CHOICE_ROWS---
+A y=0.49 meanG=211.4 lime=0.668 bright=205.3 text=atural nail?
+B y=0.60 meanG=163.5 lime=0.062 bright=14.9 text=THEP THEO
+C y=0.65 meanG=204.2 lime=0.626 bright=55.6 text=Primer
+D y=0.73 meanG=206.7 lime=0.659 bright=50.8 text=Conditioning oil
+SELECTED_HINT: A bright=205.3 margin=149.7 text=atural nail?

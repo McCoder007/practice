@@ -1,0 +1,73 @@
+FILE: IMG_4471.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 38
+---
+[1.00 @ -0.00,0.29] ile Help
+[0.50 @ 0.04,0.32] 12:13:39 P.M
+[0.50 @ 0.37,0.32] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.03,0.37] NĐIỂM
+[1.00 @ 0.14,0.36] CÂU HỎI SỐ:
+[1.00 @ 0.28,0.37] 28
+[0.50 @ 0.32,0.36] CỦA 97 CÂU HỎI.
+[0.50 @ 0.65,0.39] Nail Trac Nghiem 2026_1.dil
+[1.00 @ 0.00,0.41] When mixing a disinfectant solution, you should:
+[1.00 @ 0.65,0.41] Nail Trac Nghiem 2026
+[0.50 @ 0.83,0.41] 2.dll
+[1.00 @ 0.65,0.43] Nail Trac Nghiem 2026
+[0.30 @ 0.82,0.43] _3.dll
+[0.50 @ 0.65,0.45] Nail Trac Nghiem 5.dil
+[1.00 @ 0.64,0.47] Nails Theory 2026.dll
+[0.50 @ 0.69,0.50] ĐỀ THI: ( NAILS (EN) 2026 )
+[1.00 @ 0.00,0.53] TRẢ LỜI:
+[0.30 @ 0.45,0.53] CẦU HIỎI TIẾT THEO
+[0.30 @ 0.67,0.54] TẠO BÀI MỚI
+[0.30 @ 0.66,0.56] HDẠC CÂU HỎI
+[0.50 @ 0.86,0.55] GHỌN BÀI THI
+[1.00 @ 0.05,0.59] Make it as strong as you want
+[0.50 @ 0.64,0.62] TRẢ LỜI ĐÚNG: TRÀ LỜI SAI:
+[1.00 @ 0.89,0.62] ĐIỂM TỔNG KẾ
+[1.00 @ 0.68,0.65] 23
+[1.00 @ 0.80,0.65] 4
+[1.00 @ 0.05,0.67] Follow the manufacturer's instructions
+[0.30 @ 0.01,0.69] B
+[0.50 @ 0.67,0.73] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.06,0.75] Estimate without measuring
+[1.00 @ 0.68,0.79] 00
+[1.00 @ 0.77,0.79] 00
+[0.30 @ 0.81,0.79] GIAY
+[1.00 @ 0.86,0.79] 00
+[0.30 @ 0.92,0.78] SẤT ĐẦU
+[0.50 @ 0.06,0.83] Mix it with acetone
+[0.50 @ 0.02,0.85] D
+[1.00 @ 0.69,0.85] 00.00.00.00
+---LEFT_LINES---
+0.29|ile Help
+0.32|12:13:39 P.M
+0.32|ĐỀ THI: ( NAILS (EN) 2026)
+0.37|NĐIỂM
+0.36|CÂU HỎI SỐ:
+0.37|28
+0.36|CỦA 97 CÂU HỎI.
+0.41|When mixing a disinfectant solution, you should:
+0.53|TRẢ LỜI:
+0.53|CẦU HIỎI TIẾT THEO
+0.59|Make it as strong as you want
+0.67|Follow the manufacturer's instructions
+0.69|B
+0.75|Estimate without measuring
+0.83|Mix it with acetone
+0.85|D
+---CONTENT---
+0.37|NĐIỂM
+0.41|When mixing a disinfectant solution, you should:
+0.53|CẦU HIỎI TIẾT THEO
+0.59|Make it as strong as you want
+0.67|Follow the manufacturer's instructions
+0.75|Estimate without measuring
+0.83|Mix it with acetone
+---CHOICE_ROWS---
+A y=0.54 meanG=163.5 lime=0.021 bright=14.1 text=CẦU HIỎI TIẾT THEO
+B y=0.60 meanG=208.9 lime=0.691 bright=63.5 text=Make it as strong as you want
+C y=0.68 meanG=206.9 lime=0.640 bright=54.3 text=Follow the manufacturer's instructions
+D y=0.76 meanG=209.5 lime=0.687 bright=48.1 text=Estimate without measuring
+SELECTED_HINT: B bright=63.5 margin=9.2 text=Make it as strong as you want

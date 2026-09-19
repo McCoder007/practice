@@ -1,0 +1,69 @@
+FILE: IMG_4447.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 35
+---
+[1.00 @ 0.00,0.24] Help
+[1.00 @ 0.01,0.27] 12:04:46 PM
+[0.30 @ 0.36,0.27] ĐỀ THI: ( NAILS (EN)2026)
+[0.30 @ 0.01,0.33] IN ĐIỂM
+[0.50 @ 0.12,0.32] CÂU HỎI SỐ:
+[1.00 @ 0.28,0.32] 4
+[0.30 @ 0.31,0.32] CỦA 97 CẦU HỘI
+[1.00 @ 0.66,0.34] Nail Trac Nghiem 2026_1.dll
+[1.00 @ 0.00,0.37] nitation means:
+[0.50 @ 0.66,0.36] Nail Trac Nghiem 2026_2.dll
+[0.50 @ 0.66,0.39] Nail Trac Nghiem 2026_3.dil
+[0.50 @ 0.66,0.41] Nail Trac Nghiem 5.dll
+[1.00 @ 0.66,0.43] Nails Theory 2026.dll
+[0.50 @ 0.71,0.46] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.00,0.50] RẢ LỜI:
+[0.30 @ 0.46,0.50] CAUHOITIER THEO
+[0.30 @ 0.69,0.51] ÁO BÀI MỚI
+[0.30 @ 0.66,0.53] THHÁC CÂU HỎI
+[0.30 @ 0.89,0.52] CHỌN BÀI 1
+[1.00 @ 0.04,0.56] Cleaning and maintaining hygiene
+[0.50 @ 0.66,0.59] TRÀ LỜI ĐÙNG: TRÀ LỜI SAI:
+[0.30 @ 0.92,0.59] ĐIM TỔN
+[1.00 @ 0.70,0.62] 3
+[1.00 @ 0.04,0.64] Sterili
+[1.00 @ 0.68,0.70] CHỈNH GIỜ CHO CUỘC TH
+[1.00 @ 0.05,0.73] ation
+[1.00 @ 0.69,0.76] 00
+[1.00 @ 0.79,0.76] 00
+[1.00 @ 0.88,0.76] 00
+[0.30 @ 0.94,0.76] HAT Đ
+[1.00 @ 0.05,0.80] Polymeri
+[0.30 @ 0.01,0.83] D
+[1.00 @ 0.70,0.82] 00.00.00.00
+[0.30 @ 0.39,0.97] XIN ĐỘC BẢN HUƠNG DAN OHREN
+[0.50 @ 0.84,0.97] Wednesdav. Septemib
+---LEFT_LINES---
+0.27|12:04:46 PM
+0.27|ĐỀ THI: ( NAILS (EN)2026)
+0.33|IN ĐIỂM
+0.32|CÂU HỎI SỐ:
+0.32|4
+0.32|CỦA 97 CẦU HỘI
+0.37|nitation means:
+0.50|RẢ LỜI:
+0.50|CAUHOITIER THEO
+0.56|Cleaning and maintaining hygiene
+0.64|Sterili
+0.73|ation
+0.80|Polymeri
+0.83|D
+---CONTENT---
+0.32|CỦA 97 CẦU HỘI
+0.37|nitation means:
+0.50|RẢ LỜI:
+0.50|CAUHOITIER THEO
+0.56|Cleaning and maintaining hygiene
+0.64|Sterili
+0.73|ation
+0.80|Polymeri
+---CHOICE_ROWS---
+A y=0.38 meanG=209.3 lime=0.628 bright=188.2 text=nitation means:
+B y=0.51 meanG=163.1 lime=0.049 bright=13.4 text=RẢ LỜI:
+C y=0.51 meanG=163.1 lime=0.049 bright=13.4 text=CAUHOITIER THEO
+D y=0.57 meanG=205.9 lime=0.611 bright=60.9 text=Cleaning and maintaining hygiene
+SELECTED_HINT: A bright=188.2 margin=127.3 text=nitation means:

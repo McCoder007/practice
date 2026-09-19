@@ -14,7 +14,7 @@ export const NAIL_EXAM_PRACTICE_DESCRIPTION: LocalizedText = {
   zh: "选择题库，再用选择题或学习卡练习",
 }
 
-export const LEARNER_FACING_QUESTION_COUNT = 448
+export const LEARNER_FACING_QUESTION_COUNT = 537
 
 export type StudyFormatId = "multiple-choice" | "study-cards"
 export type NailExamBankId =
@@ -22,10 +22,11 @@ export type NailExamBankId =
   | "bank-a"
   | "bank-b"
   | "bank-c"
+  | "kelly-nail-school"
   | `milady-foundations-${string}`
   | `milady-nails-${string}`
   | "milady-comprehensive"
-export type NailExamPoolId = "official" | "practice" | "milady-review"
+export type NailExamPoolId = "official" | "practice" | "kelly" | "milady-review"
 
 export type NailExamRandomOption = {
   id: "quick" | "practice"
@@ -52,7 +53,7 @@ export type NailExamBank = {
    * level below the hub. Defaults to the Nail Exam Practice hub when absent. */
   backHref?: string
   backTitle?: LocalizedText
-  accent: "violet" | "rose" | "cyan" | "amber"
+  accent: "violet" | "rose" | "cyan" | "amber" | "emerald"
   formats: {
     multipleChoice: true
     studyCards: true
@@ -153,6 +154,19 @@ export const NAIL_EXAM_BANKS: readonly NailExamBank[] = [
     randomOptions: [],
     originalHref: "/exam-quiz/originals/milady-comprehensive.pdf",
     originalViewerHref: "/exam-quiz/original/comprehensive",
+  },
+  {
+    id: "kelly-nail-school",
+    publicName: { en: "Kelly Nail School", zh: "Kelly 美甲学校" },
+    href: "/nail-exam-practice/kelly-nail-school",
+    internalSourceName: "Kelly Nail School — NAILS (EN) 2026",
+    pool: "kelly",
+    idPrefix: "kelly-",
+    approvedCount: 89,
+    groupCount: groupCountFor(89),
+    accent: "emerald",
+    formats: { multipleChoice: true, studyCards: true },
+    randomOptions: [],
   },
 ] as const
 

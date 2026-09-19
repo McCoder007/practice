@@ -1,0 +1,69 @@
+FILE: IMG_4350.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 35
+---
+[1.00 @ 0.03,0.32] File
+[1.00 @ 0.06,0.32] Help
+[1.00 @ 0.07,0.35] 10:49:24 AM
+[0.50 @ 0.36,0.35] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.06,0.39] N ĐIỂM
+[0.50 @ 0.16,0.39] CÂU HỎI S
+[1.00 @ 0.29,0.40] 7
+[0.50 @ 0.32,0.39] CỦA 97 CÂU HỎI.
+[1.00 @ 0.03,0.43] When monomer and polymer are combined, they create:
+[1.00 @ 0.61,0.42] Nail Trac Nghiem 2026_
+[0.50 @ 0.79,0.42] _1.dll
+[0.50 @ 0.61,0.44] Nail Trac Nghiem 2026_2.dll
+[1.00 @ 0.61,0.46] Nail Trac Nghiem 2026_3.dll
+[0.50 @ 0.61,0.48] Nail Trac Nghiem 5.dll
+[1.00 @ 0.61,0.49] Nails Theory 2026.dll
+[0.50 @ 0.65,0.52] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.04,0.54] RÁ LỜI:
+[0.50 @ 0.44,0.55] CÂU HỒ NIẾP THEO
+[0.30 @ 0.63,0.56] TẠO BÀI MỚI
+[0.50 @ 0.62,0.58] HOẠC CÂU HỎI
+[1.00 @ 0.81,0.58] CHỌN BÀI THI
+[1.00 @ 0.08,0.60] A chemical reaction
+[0.30 @ 0.61,0.64] TRÀ LỜI ĐÚNG: TRẢ LỜI SAI:
+[1.00 @ 0.84,0.64] ĐIỂM TỔNG KẾT
+[1.00 @ 0.08,0.66] Water
+[0.30 @ 0.64,0.66] 6
+[1.00 @ 0.07,0.74] Conditioning oil
+[1.00 @ 0.63,0.73] CHỈNH GIỜ CHO CUỘC THI
+[0.50 @ 0.64,0.79] 00
+[1.00 @ 0.72,0.79] 00
+[1.00 @ 0.81,0.80] 00
+[0.30 @ 0.86,0.80] ẤT ĐẦU
+[1.00 @ 0.07,0.81] Nail polish remover
+[1.00 @ 0.65,0.84] 00.00.00.00
+[0.30 @ 0.36,0.97] XIN ĐỌC BAN HƯƠNG DAN O TREIN
+---LEFT_LINES---
+0.32|File
+0.32|Help
+0.35|10:49:24 AM
+0.35|ĐỀ THI: ( NAILS (EN) 2026)
+0.39|N ĐIỂM
+0.39|CÂU HỎI S
+0.40|7
+0.39|CỦA 97 CÂU HỎI.
+0.43|When monomer and polymer are combined, they create:
+0.54|RÁ LỜI:
+0.55|CÂU HỒ NIẾP THEO
+0.60|A chemical reaction
+0.66|Water
+0.74|Conditioning oil
+0.81|Nail polish remover
+---CONTENT---
+0.39|N ĐIỂM
+0.43|When monomer and polymer are combined, they create:
+0.54|RÁ LỜI:
+0.60|A chemical reaction
+0.66|Water
+0.74|Conditioning oil
+0.81|Nail polish remover
+---CHOICE_ROWS---
+A y=0.55 meanG=179.3 lime=0.119 bright=32.5 text=RÁ LỜI:
+B y=0.60 meanG=204.5 lime=0.547 bright=44.1 text=A chemical reaction
+C y=0.67 meanG=208.6 lime=0.572 bright=39.9 text=Water
+D y=0.75 meanG=204.9 lime=0.509 bright=33.9 text=Conditioning oil
+SELECTED_HINT: none margin=4.2

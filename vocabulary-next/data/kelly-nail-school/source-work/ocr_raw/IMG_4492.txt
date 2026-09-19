@@ -1,0 +1,71 @@
+FILE: IMG_4492.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 35
+---
+[1.00 @ -0.00,0.31] Help
+[0.50 @ 0.02,0.34] 12:27:13 PM
+[0.30 @ 0.34,0.34] ĐỀ THI: ( NAILS (EN) 2026)
+[0.50 @ 0.01,0.39] IN ĐIỂM
+[0.50 @ 0.12,0.38] CÂU HỎI SỐ
+[1.00 @ 0.25,0.39] 66
+[1.00 @ 0.30,0.38] CỦA 97 CẦU HỎI.
+[0.50 @ 0.63,0.41] Nail Trac Nghiem 2026_1.dll
+[1.00 @ 0.00,0.43] rer use, a toe separator should be:
+[0.50 @ 0.62,0.44] Nail Trac Nghiem 2026_2.dll
+[1.00 @ 0.62,0.46] Nail Trac Nghiem 2026
+[0.30 @ 0.81,0.46] _3.dil
+[1.00 @ 0.62,0.48] Nail Trac Nghiem 5.dll
+[1.00 @ 0.62,0.50] Nails Theory 2026.dll
+[0.50 @ 0.67,0.52] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.00,0.55] Ả LỜI:
+[0.30 @ 0.43,0.56] CAUH
+[0.30 @ 0.51,0.56] NẾP THEO
+[0.30 @ 0.64,0.57] HÀO BÀI MỚI
+[0.50 @ 0.64,0.59] HOẠC CÂU HỎI
+[1.00 @ 0.84,0.59] CHỌN BẢI THI
+[1.00 @ 0.03,0.61] Rinsed with water
+[0.50 @ 0.62,0.65] TRẢ LỜI ĐÙNG: TRÀ LỜI SAI:
+[1.00 @ 0.87,0.65] ĐIỂM TỔNG KẾT
+[1.00 @ 0.03,0.69] Disinfected
+[1.00 @ 0.66,0.68] 58
+[0.50 @ 0.64,0.76] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.03,0.77] Discarded
+[1.00 @ 0.66,0.82] 00
+[1.00 @ 0.75,0.82] 00
+[0.30 @ 0.79,0.82] CAI
+[1.00 @ 0.84,0.83] 00
+[0.30 @ 0.90,0.82] SẤT ĐẦU
+[1.00 @ 0.03,0.85] Reused
+[1.00 @ 0.66,0.88] 00.00.00.00
+---LEFT_LINES---
+0.31|Help
+0.34|12:27:13 PM
+0.34|ĐỀ THI: ( NAILS (EN) 2026)
+0.39|IN ĐIỂM
+0.38|CÂU HỎI SỐ
+0.39|66
+0.38|CỦA 97 CẦU HỎI.
+0.43|rer use, a toe separator should be:
+0.55|Ả LỜI:
+0.56|CAUH
+0.56|NẾP THEO
+0.61|Rinsed with water
+0.69|Disinfected
+0.77|Discarded
+0.85|Reused
+---CONTENT---
+0.38|CỦA 97 CẦU HỎI.
+0.43|rer use, a toe separator should be:
+0.55|Ả LỜI:
+0.56|CAUH
+0.56|NẾP THEO
+0.61|Rinsed with water
+0.69|Disinfected
+0.77|Discarded
+0.85|Reused
+---CHOICE_ROWS---
+A y=0.44 meanG=209.9 lime=0.649 bright=184.9 text=rer use, a toe separator should be:
+B y=0.56 meanG=169.4 lime=0.061 bright=18.8 text=Ả LỜI:
+C y=0.57 meanG=166.5 lime=0.034 bright=12.5 text=CAUH
+D y=0.57 meanG=166.5 lime=0.034 bright=12.5 text=NẾP THEO
+SELECTED_HINT: A bright=184.9 margin=166.2 text=rer use, a toe separator should be:

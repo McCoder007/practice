@@ -1,0 +1,70 @@
+FILE: IMG_4356.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 36
+---
+[1.00 @ 0.02,0.25] File Help
+[0.50 @ 0.06,0.28] 10:52:11 AM
+[0.30 @ 0.38,0.27] ĐÈ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.05,0.32] IN ĐIỂM
+[1.00 @ 0.16,0.32] CÂU HỎI SỐ:
+[1.00 @ 0.29,0.33] 13
+[0.30 @ 0.33,0.32] CỦA 97 CẦU HỎI.
+[1.00 @ 0.02,0.36] A metal nail file is commonly used to:
+[0.50 @ 0.66,0.35] Nail Trac Nghiem 2026_1.dll
+[1.00 @ 0.66,0.37] Nail Trac Nghiem 2026_2.dll
+[1.00 @ 0.66,0.39] Nail Trac Nghiem 2026
+[0.30 @ 0.85,0.40] _3.dli
+[0.50 @ 0.66,0.41] Nail Trac Nghiem 5.dll
+[0.50 @ 0.66,0.43] Nails Theory 2026.dll
+[0.50 @ 0.70,0.46] ĐỀ THI: ( NAILS (EN) 2026 )
+[1.00 @ 0.02,0.49] TRẢ LỜI:
+[0.30 @ 0.46,0.50] CAUHNON
+[0.30 @ 0.55,0.50] LỆP THEO
+[0.30 @ 0.68,0.51] UHO BÀI MỚI
+[0.30 @ 0.66,0.53] HHÁC CÂU HỎI
+[1.00 @ 0.88,0.52] CHỌN BÀI T
+[0.50 @ 0.07,0.55] Shape the free edge of the nail
+[0.50 @ 0.65,0.59] TRÀ LỜI ĐŨNG: TRÀ LỜI SAI:
+[0.50 @ 0.91,0.60] ĐIỂM TỔNC
+[1.00 @ 0.07,0.62] Cut dead skin
+[1.00 @ 0.69,0.62] 12
+[1.00 @ 0.07,0.70] Apply nail polish
+[0.50 @ 0.67,0.70] CHỈNH GIỜ CHO CUỘC TH
+[1.00 @ 0.69,0.76] 00
+[1.00 @ 0.78,0.76] 00
+[1.00 @ 0.87,0.77] 00
+[0.50 @ 0.07,0.78] Soak nails
+[0.30 @ 0.93,0.77] VAT ĐỈ
+[1.00 @ 0.69,0.82] 00.00.00.00
+[0.30 @ 0.38,0.96] XÍN ĐỌC BAN HƯONG DAN Ơ KEN
+[0.30 @ 0.84,0.98] Neuzestavo
+---LEFT_LINES---
+0.28|10:52:11 AM
+0.27|ĐÈ THI: ( NAILS (EN) 2026 )
+0.32|IN ĐIỂM
+0.32|CÂU HỎI SỐ:
+0.33|13
+0.32|CỦA 97 CẦU HỎI.
+0.36|A metal nail file is commonly used to:
+0.49|TRẢ LỜI:
+0.50|CAUHNON
+0.50|LỆP THEO
+0.55|Shape the free edge of the nail
+0.62|Cut dead skin
+0.70|Apply nail polish
+0.78|Soak nails
+---CONTENT---
+0.27|ĐÈ THI: ( NAILS (EN) 2026 )
+0.32|CỦA 97 CẦU HỎI.
+0.50|CAUHNON
+0.50|LỆP THEO
+0.55|Shape the free edge of the nail
+0.62|Cut dead skin
+0.70|Apply nail polish
+0.78|Soak nails
+---CHOICE_ROWS---
+A y=0.34 meanG=147.6 lime=0.094 bright=32.3 text=CỦA 97 CẦU HỎI.
+B y=0.51 meanG=163.9 lime=0.069 bright=13.4 text=CAUHNON
+C y=0.51 meanG=163.2 lime=0.068 bright=13.4 text=LỆP THEO
+D y=0.56 meanG=196.8 lime=0.514 bright=50.5 text=Shape the free edge of the nail
+SELECTED_HINT: D bright=50.5 margin=18.2 text=Shape the free edge of the nail

@@ -1,0 +1,65 @@
+FILE: IMG_4397.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 32
+---
+[1.00 @ 0.00,0.34] File Help
+[0.30 @ 0.04,0.37] 11:23:43 AM
+[0.30 @ 0.36,0.37] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.04,0.41] N ĐIỂM
+[0.50 @ 0.14,0.41] CÂU HỎI SỐ
+[1.00 @ 0.27,0.42] 54
+[0.30 @ 0.31,0.42] CỦA 97 CẦU HỎI
+[1.00 @ 0.00,0.45] When mixing a disinfectant solution, you should:
+[0.50 @ 0.62,0.45] Nail Trac Nghiem 2026_1.dll
+[0.50 @ 0.62,0.47] Nail Trac Nghiem 2026_2.dll
+[0.50 @ 0.62,0.49] Nail Trac Nghiem 2026_3.dll
+[1.00 @ 0.62,0.50] Nail Trac Nghiem 5.dll
+[1.00 @ 0.62,0.53] Nails Theory 2026.dll
+[0.50 @ 0.66,0.55] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ -0.00,0.57] TRẢ LỜI:
+[0.30 @ 0.49,0.58] LI TIẾP THEO
+[0.30 @ 0.64,0.60] THO BÀI MỚI
+[1.00 @ 0.04,0.63] Make it as strong as you want
+[0.30 @ 0.64,0.62] IHẠC CÂU HỎI
+[0.50 @ 0.83,0.62] CHỌN BÀI THI
+[0.50 @ 0.62,0.67] TRÀ LỜI ĐÚNG: TRẢ LỜI SAI:
+[1.00 @ 0.86,0.68] ĐIỂM TỔNG KẾT
+[1.00 @ 0.04,0.70] Follow the manufacturer's instructions
+[1.00 @ 0.65,0.70] 52
+[1.00 @ 0.04,0.78] Estimate without measuring
+[0.50 @ 0.63,0.78] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.65,0.84] 00
+[1.00 @ 0.74,0.84] 00
+[1.00 @ 0.82,0.85] 00
+[1.00 @ 0.03,0.86] Mix it with acetone
+[0.30 @ 0.88,0.85] ẤT ĐẦU
+[1.00 @ 0.65,0.90] 00.00.00.00
+---LEFT_LINES---
+0.34|File Help
+0.37|11:23:43 AM
+0.37|ĐỀ THI: ( NAILS (EN) 2026)
+0.41|N ĐIỂM
+0.41|CÂU HỎI SỐ
+0.42|54
+0.42|CỦA 97 CẦU HỎI
+0.45|When mixing a disinfectant solution, you should:
+0.57|TRẢ LỜI:
+0.58|LI TIẾP THEO
+0.63|Make it as strong as you want
+0.70|Follow the manufacturer's instructions
+0.78|Estimate without measuring
+0.86|Mix it with acetone
+---CONTENT---
+0.41|N ĐIỂM
+0.42|CỦA 97 CẦU HỎI
+0.45|When mixing a disinfectant solution, you should:
+0.63|Make it as strong as you want
+0.70|Follow the manufacturer's instructions
+0.78|Estimate without measuring
+0.86|Mix it with acetone
+---CHOICE_ROWS---
+A y=0.47 meanG=196.3 lime=0.535 bright=163.7 text=When mixing a disinfectant solution, you should:
+B y=0.64 meanG=201.5 lime=0.568 bright=56.1 text=Make it as strong as you want
+C y=0.71 meanG=203.2 lime=0.575 bright=50.9 text=Follow the manufacturer's instructions
+D y=0.80 meanG=203.7 lime=0.565 bright=43.6 text=Estimate without measuring
+SELECTED_HINT: A bright=163.7 margin=107.6 text=When mixing a disinfectant solution, you should:

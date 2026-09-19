@@ -1,0 +1,74 @@
+FILE: IMG_4465.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 40
+---
+[1.00 @ 0.02,0.26] File
+[1.00 @ 0.05,0.26] Help
+[0.50 @ 0.06,0.29] 12:10:51 PM
+[0.50 @ 0.39,0.29] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.06,0.34] N ĐIỀM
+[0.50 @ 0.16,0.33] CÂU HỎI SỐ:
+[1.00 @ 0.29,0.34] 22
+[1.00 @ 0.34,0.34] CỦA 97 CÂU HỎI.
+[1.00 @ 0.03,0.38] The scientific name for a natural nail is:
+[1.00 @ 0.65,0.37] Nail Trac Nghiem 2026
+[0.30 @ 0.83,0.37] 1.dli
+[1.00 @ 0.65,0.39] Nail Trac Nghiem 2026
+[0.30 @ 0.83,0.39] 2.dll
+[1.00 @ 0.65,0.41] Nail Trac Nghiem 2026
+[0.30 @ 0.82,0.41] _3.dll
+[0.50 @ 0.65,0.43] Nail Trac Nghiem 5.dll
+[1.00 @ 0.65,0.45] Nails Theory 2026.dll
+[0.50 @ 0.69,0.47] ĐỀ THI: ( NAILS (EN) 2026)
+[0.50 @ 0.03,0.50] TRÀ LỜI:
+[0.50 @ 0.46,0.51] CÂU HỒI TIẾP THEO
+[0.30 @ 0.67,0.51] MẠO BÀI MỚI
+[1.00 @ 0.66,0.54] HOẶC CÂU HỎI
+[0.50 @ 0.86,0.53] CHỌN BẢI THI
+[1.00 @ 0.08,0.56] Matrix
+[0.50 @ 0.65,0.60] TRÀ LỜI ĐÚNG: TRẢ LỜI SAI:
+[0.50 @ 0.88,0.60] ĐIỂM TỔNG KẾT
+[1.00 @ 0.68,0.62] 18
+[0.50 @ 0.08,0.63] Onyx / Natural nail
+[0.50 @ 0.67,0.70] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.08,0.71] Cuticle
+[1.00 @ 0.68,0.75] 00
+[0.50 @ 0.72,0.75] PHUT
+[1.00 @ 0.77,0.76] 00
+[0.30 @ 0.81,0.76] GIA)
+[1.00 @ 0.85,0.76] 00
+[0.30 @ 0.91,0.76] HẤT ĐẦU
+[1.00 @ 0.08,0.79] Lunula
+[1.00 @ 0.69,0.81] 00.00.00.00
+[0.30 @ 0.39,0.95] XIN ĐỌC BAN HƯƠNG DAN O TRÊN
+[0.30 @ 0.82,0.96] Weduesdav. September 16
+---LEFT_LINES---
+0.26|File
+0.26|Help
+0.29|12:10:51 PM
+0.29|ĐỀ THI: ( NAILS (EN) 2026)
+0.34|N ĐIỀM
+0.33|CÂU HỎI SỐ:
+0.34|22
+0.34|CỦA 97 CÂU HỎI.
+0.38|The scientific name for a natural nail is:
+0.50|TRÀ LỜI:
+0.51|CÂU HỒI TIẾP THEO
+0.56|Matrix
+0.63|Onyx / Natural nail
+0.71|Cuticle
+0.79|Lunula
+---CONTENT---
+0.34|N ĐIỀM
+0.38|The scientific name for a natural nail is:
+0.50|TRÀ LỜI:
+0.56|Matrix
+0.63|Onyx / Natural nail
+0.71|Cuticle
+0.79|Lunula
+---CHOICE_ROWS---
+A y=0.51 meanG=166.6 lime=0.052 bright=19.2 text=TRÀ LỜI:
+B y=0.57 meanG=203.7 lime=0.617 bright=55.5 text=Matrix
+C y=0.64 meanG=206.9 lime=0.640 bright=52.2 text=Onyx / Natural nail
+D y=0.72 meanG=207.4 lime=0.643 bright=44.3 text=Cuticle
+SELECTED_HINT: none margin=3.4

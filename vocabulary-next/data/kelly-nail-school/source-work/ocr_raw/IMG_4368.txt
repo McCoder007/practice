@@ -1,0 +1,71 @@
+FILE: IMG_4368.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 35
+---
+[0.50 @ -0.00,0.27] ile Help
+[0.30 @ 0.03,0.30] 10:59:16.A.
+[0.50 @ 0.34,0.30] ĐỀ THI: ( NAILS (EN) 2026
+[0.30 @ 0.03,0.34] N ĐIỂM
+[0.50 @ 0.13,0.34] CẦU HỎI SỐ:
+[1.00 @ 0.26,0.35] 25
+[0.30 @ 0.30,0.35] CỦA 97 CÂU HỎI,
+[1.00 @ -0.00,0.39] olymer (plastic resin) is commonly found in which of the following
+[1.00 @ 0.63,0.38] Nail Trac Nghiem 2026
+[0.30 @ 0.82,0.38] 1.dll
+[1.00 @ 0.63,0.40] Nail Trac Nghiem 2026
+[0.30 @ 0.81,0.40] • 2.dlI
+[1.00 @ -0.00,0.41] roducts?
+[0.50 @ 0.63,0.42] Nail Trac Nghiem 2026_3.dii
+[0.50 @ 0.62,0.44] Nail Trac Nghiem 5.dll
+[1.00 @ 0.62,0.46] Nails Theory 2026.dll
+[0.50 @ 0.67,0.48] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ -0.00,0.51] RẢ LỜI:
+[1.00 @ 0.51,0.52] TIẾP THEO
+[0.30 @ 0.64,0.53] HHO BẢI MỚI
+[0.30 @ 0.64,0.55] NUẠC CÂU HỎI
+[0.50 @ 0.85,0.55] QHỌN BÀI THI
+[1.00 @ 0.04,0.57] Top coat
+[0.50 @ 0.62,0.61] TRÀ LỜI ĐÚNG: TRÀ LỜI SAI-
+[1.00 @ 0.88,0.62] ĐIỂM TỔNG KẾ
+[0.50 @ 0.03,0.64] Warm water
+[1.00 @ 0.65,0.64] 24
+[1.00 @ 0.03,0.73] Cotton balls
+[1.00 @ 0.64,0.73] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.65,0.79] 00
+[1.00 @ 0.03,0.80] Nail clippers
+[1.00 @ 0.75,0.79] 00
+[1.00 @ 0.84,0.80] 00
+[0.30 @ 0.90,0.80] HẮT ĐẦU
+[1.00 @ 0.66,0.85] 00.00.00.00
+---LEFT_LINES---
+0.27|ile Help
+0.30|10:59:16.A.
+0.30|ĐỀ THI: ( NAILS (EN) 2026
+0.34|N ĐIỂM
+0.34|CẦU HỎI SỐ:
+0.35|25
+0.35|CỦA 97 CÂU HỎI,
+0.39|olymer (plastic resin) is commonly found in which of the following
+0.41|roducts?
+0.51|RẢ LỜI:
+0.52|TIẾP THEO
+0.57|Top coat
+0.64|Warm water
+0.73|Cotton balls
+0.80|Nail clippers
+---CONTENT---
+0.34|N ĐIỂM
+0.34|CẦU HỎI SỐ:
+0.39|olymer (plastic resin) is commonly found in which of the following
+0.41|roducts?
+0.51|RẢ LỜI:
+0.57|Top coat
+0.64|Warm water
+0.73|Cotton balls
+0.80|Nail clippers
+---CHOICE_ROWS---
+A y=0.40 meanG=192.0 lime=0.539 bright=165.2 text=olymer (plastic resin) is commonly found in which of the following
+B y=0.42 meanG=207.0 lime=0.680 bright=198.8 text=roducts?
+C y=0.52 meanG=164.6 lime=0.132 bright=33.0 text=RẢ LỜI:
+D y=0.58 meanG=198.9 lime=0.579 bright=52.9 text=Top coat
+SELECTED_HINT: B bright=198.8 margin=33.5 text=roducts?

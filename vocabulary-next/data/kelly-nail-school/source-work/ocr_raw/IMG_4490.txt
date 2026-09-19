@@ -1,0 +1,73 @@
+FILE: IMG_4490.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 37
+---
+[1.00 @ 0.00,0.23] lelp
+[1.00 @ -0.00,0.27] 12:26:16 PM
+[0.30 @ 0.35,0.27] ĐÉ THI: (INAILS (EN) 2026)
+[0.30 @ -0.00,0.31] N ĐIỂM
+[1.00 @ 0.11,0.31] CÂU HỎI SỐ:
+[1.00 @ 0.26,0.32] 60
+[0.50 @ 0.31,0.32] CỦA 97 CÂU HỎI
+[1.00 @ -0.00,0.36] educe exposure to chemicals/products during nail services,
+[1.00 @ 0.65,0.35] Nail Trac Nghiem 2026
+[0.30 @ 0.85,0.35] _1.dil
+[0.50 @ 0.65,0.37] Nail Trac Nghiem 2026_2.dll
+[0.50 @ 0.00,0.39] should:
+[0.50 @ 0.65,0.39] Nail Trac Nghiem 2026_3.dil
+[0.50 @ 0.65,0.42] Nail Trac Nghiem 5.dll
+[0.50 @ 0.65,0.44] Nails Theory 2026.dll
+[0.50 @ 0.70,0.47] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.00,0.50] LỜI:
+[0.30 @ 0.16,0.50] BẠN ĐÀ TRẢ LỜI ĐŨNG.
+[0.30 @ 0.45,0.50] CẢU HƠU TIẾP THEO
+[1.00 @ 0.67,0.51] THO BÀI MỚI
+[0.50 @ 0.66,0.54] HU ẶC CÂU HỎI
+[0.50 @ 0.88,0.53] GHỌN BÀI T
+[1.00 @ 0.02,0.56] Wash your hands and wear gloves properly
+[0.50 @ 0.65,0.60] TRÀ LỜI ĐÙNG: TRÀ LỜI SAI:
+[0.30 @ 0.91,0.60] ĐIỂM TỔN
+[0.50 @ 0.02,0.64] Not wash your hands
+[1.00 @ 0.69,0.63] 53
+[1.00 @ 0.02,0.73] Use more products
+[0.50 @ 0.66,0.72] CHỈNH GIỜ CHO CUỘC TH
+[1.00 @ 0.68,0.78] 00
+[0.30 @ 0.73,0.78] nнat
+[1.00 @ 0.78,0.78] 00
+[0.30 @ 0.82,0.78] GIẢY
+[1.00 @ 0.87,0.78] 00
+[0.30 @ 0.93,0.78] TAT ĐỈ
+[1.00 @ 0.02,0.81] Work faster
+[1.00 @ 0.69,0.84] 00.00.00.00
+---LEFT_LINES---
+0.27|12:26:16 PM
+0.27|ĐÉ THI: (INAILS (EN) 2026)
+0.31|N ĐIỂM
+0.31|CÂU HỎI SỐ:
+0.32|60
+0.32|CỦA 97 CÂU HỎI
+0.36|educe exposure to chemicals/products during nail services,
+0.39|should:
+0.50|LỜI:
+0.50|BẠN ĐÀ TRẢ LỜI ĐŨNG.
+0.50|CẢU HƠU TIẾP THEO
+0.56|Wash your hands and wear gloves properly
+0.64|Not wash your hands
+0.73|Use more products
+0.81|Work faster
+---CONTENT---
+0.27|ĐÉ THI: (INAILS (EN) 2026)
+0.31|N ĐIỂM
+0.36|educe exposure to chemicals/products during nail services,
+0.39|should:
+0.50|LỜI:
+0.56|Wash your hands and wear gloves properly
+0.64|Not wash your hands
+0.73|Use more products
+0.81|Work faster
+---CHOICE_ROWS---
+A y=0.33 meanG=140.4 lime=0.036 bright=20.0 text=N ĐIỂM
+B y=0.38 meanG=199.1 lime=0.583 bright=180.6 text=educe exposure to chemicals/products during nail services,
+C y=0.40 meanG=214.5 lime=0.726 bright=211.4 text=should:
+D y=0.51 meanG=136.3 lime=0.068 bright=30.1 text=LỜI:
+SELECTED_HINT: C bright=211.4 margin=30.7 text=should:

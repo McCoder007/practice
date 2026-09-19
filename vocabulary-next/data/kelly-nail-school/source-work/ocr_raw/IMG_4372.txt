@@ -1,0 +1,71 @@
+FILE: IMG_4372.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 37
+---
+[1.00 @ 0.01,0.26] Help
+[1.00 @ 0.02,0.29] 11:04:03 AM
+[0.50 @ 0.34,0.28] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.97,0.28] X
+[0.30 @ 0.02,0.33] IN ĐIỀM
+[0.50 @ 0.12,0.33] CÂU HỎI SÓ:
+[1.00 @ 0.25,0.33] 29
+[1.00 @ 0.30,0.33] CỦA 97 CÂU HỎI.
+[1.00 @ 0.61,0.35] Nail Trac Nghiem 2026_1.dii
+[1.00 @ 0.00,0.38] hen should a nail assessment be performed?
+[0.50 @ 0.61,0.37] Nail Trac Nghiem 2026_2.dll
+[0.50 @ 0.61,0.39] Nail Trac Nghiem 2026
+[0.30 @ 0.79,0.39] 5_3.dil
+[0.50 @ 0.61,0.41] Nail Trac Nghiem 5.dll
+[1.00 @ 0.61,0.43] Nails Theory 2026.dll
+[0.50 @ 0.66,0.46] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ -0.00,0.50] RẢ LỜI:
+[0.30 @ 0.43,0.49] CÂU HỒI TIỀP THEO
+[0.30 @ 0.63,0.50] BAO BÀI MỚI
+[0.50 @ 0.63,0.53] HOẶC CÂU HỒI
+[0.50 @ 0.83,0.51] CHỌN BÀI THI
+[1.00 @ 0.04,0.56] Before the service, during consultation and nail inspection
+[0.30 @ 0.61,0.58] TRÀ LỜI ĐÚNG: TRÀ LỜI SAI:
+[1.00 @ 0.86,0.58] ĐIỂM TỔNG KẾT
+[1.00 @ 0.65,0.61] 28
+[1.00 @ 0.04,0.63] After applying top coat
+[1.00 @ 0.64,0.69] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.04,0.71] After nail removal
+[1.00 @ 0.65,0.74] 00
+[1.00 @ 0.74,0.74] 00
+[1.00 @ 0.82,0.74] 00
+[0.30 @ 0.89,0.74] ẤT ĐÂU
+[1.00 @ 0.04,0.79] After the client leaves the salon
+[1.00 @ 0.00,0.81] D
+[1.00 @ 0.66,0.80] 00.00.00.00
+[0.30 @ 0.36,0.95] XIN ĐỌC BAN HUƠNG ĐAN C TREN
+[0.50 @ 0.80,0.95] Wednestav, september 10
+---LEFT_LINES---
+0.26|Help
+0.29|11:04:03 AM
+0.28|ĐỀ THI: ( NAILS (EN) 2026)
+0.33|IN ĐIỀM
+0.33|CÂU HỎI SÓ:
+0.33|29
+0.33|CỦA 97 CÂU HỎI.
+0.38|hen should a nail assessment be performed?
+0.50|RẢ LỜI:
+0.49|CÂU HỒI TIỀP THEO
+0.56|Before the service, during consultation and nail inspection
+0.63|After applying top coat
+0.71|After nail removal
+0.79|After the client leaves the salon
+0.81|D
+---CONTENT---
+0.33|IN ĐIỀM
+0.38|hen should a nail assessment be performed?
+0.50|RẢ LỜI:
+0.56|Before the service, during consultation and nail inspection
+0.63|After applying top coat
+0.71|After nail removal
+0.79|After the client leaves the salon
+---CHOICE_ROWS---
+A y=0.51 meanG=163.5 lime=0.019 bright=12.3 text=RẢ LỜI:
+B y=0.57 meanG=205.7 lime=0.597 bright=60.6 text=Before the service, during consultation and nail inspection
+C y=0.64 meanG=211.0 lime=0.656 bright=52.8 text=After applying top coat
+D y=0.72 meanG=211.3 lime=0.646 bright=45.3 text=After nail removal
+SELECTED_HINT: none margin=7.8

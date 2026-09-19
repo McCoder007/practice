@@ -1,0 +1,71 @@
+FILE: IMG_4426.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 35
+---
+[1.00 @ 0.00,0.30] Help
+[0.30 @ 0.02,0.33] 11:55:08 A.
+[0.50 @ 0.34,0.33] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.01,0.37] NĐIỂM
+[0.50 @ 0.12,0.37] CÂU HỎI SỐ:
+[1.00 @ 0.25,0.38] 82
+[1.00 @ 0.30,0.37] CỦA 97 CẦU HỎI.
+[0.50 @ 0.62,0.40] Nail Trac Nghiem 2026_1.dll
+[1.00 @ -0.00,0.42] properly si l ed nail tip should:
+[0.50 @ 0.62,0.42] Nail Trac Nghiem 2026_2.dll
+[0.50 @ 0.62,0.44] Nail Trac Nghiem 2026_3.dil
+[0.50 @ 0.62,0.46] Nail Trac Nghiem 5.dll
+[0.50 @ 0.62,0.48] Nails Theory 2026.dll
+[0.50 @ 0.67,0.51] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ 0.00,0.54] Ả LỜI:
+[0.30 @ 0.43,0.55] CAL
+[0.50 @ 0.48,0.54] HỘI TIẾP THEO
+[0.30 @ 0.66,0.56] AO BAI MỚI
+[0.30 @ 0.65,0.58] IDAC CAU HÓI
+[0.50 @ 0.84,0.57] CHỌN BÀI THI
+[1.00 @ 0.03,0.60] Be smaller than the natural nail
+[0.30 @ 0.62,0.64] TRÀ LỜI ĐÚNG: TRÀ LỜI SAI:
+[1.00 @ 0.87,0.64] ĐIỂM TỔNG KẾT
+[1.00 @ 0.66,0.66] 75
+[0.50 @ 0.03,0.68] Be larger than the natural nail
+[1.00 @ 0.64,0.75] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.03,0.76] Cover from one sidewall to the other
+[1.00 @ 0.66,0.81] 00
+[0.30 @ 0.70,0.81] PHUT
+[1.00 @ 0.75,0.81] 00
+[0.30 @ 0.79,0.81] GIAI
+[1.00 @ 0.84,0.81] 00
+[0.30 @ 0.90,0.81] SẶT ĐẦU
+[0.50 @ 0.03,0.84] Cover only the center of the nail
+[1.00 @ 0.67,0.87] 00.00.00.00
+---LEFT_LINES---
+0.30|Help
+0.33|11:55:08 A.
+0.33|ĐỀ THI: ( NAILS (EN) 2026)
+0.37|NĐIỂM
+0.37|CÂU HỎI SỐ:
+0.38|82
+0.37|CỦA 97 CẦU HỎI.
+0.42|properly si l ed nail tip should:
+0.54|Ả LỜI:
+0.55|CAL
+0.54|HỘI TIẾP THEO
+0.60|Be smaller than the natural nail
+0.68|Be larger than the natural nail
+0.76|Cover from one sidewall to the other
+0.84|Cover only the center of the nail
+---CONTENT---
+0.37|NĐIỂM
+0.37|CỦA 97 CẦU HỎI.
+0.42|properly si l ed nail tip should:
+0.54|Ả LỜI:
+0.55|CAL
+0.60|Be smaller than the natural nail
+0.68|Be larger than the natural nail
+0.76|Cover from one sidewall to the other
+0.84|Cover only the center of the nail
+---CHOICE_ROWS---
+A y=0.43 meanG=206.9 lime=0.719 bright=180.2 text=properly si l ed nail tip should:
+B y=0.55 meanG=163.7 lime=0.065 bright=19.9 text=Ả LỜI:
+C y=0.56 meanG=160.6 lime=0.035 bright=14.2 text=CAL
+D y=0.61 meanG=206.8 lime=0.668 bright=61.1 text=Be smaller than the natural nail
+SELECTED_HINT: A bright=180.2 margin=119.2 text=properly si l ed nail tip should:

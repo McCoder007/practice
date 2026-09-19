@@ -1,0 +1,70 @@
+FILE: IMG_4458.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 36
+---
+[1.00 @ 0.00,0.26] lelp
+[0.50 @ 0.00,0.29] 12:07:12 PMI
+[0.30 @ 0.37,0.29] ĐỀ THI:C NAILS (EN):2026)
+[0.30 @ 0.00,0.34] N ĐIỂM
+[0.50 @ 0.12,0.34] CÂU HỎI SỐ
+[1.00 @ 0.27,0.35] 15
+[0.30 @ 0.32,0.34] CỦA 97. CẦU HỎI.
+[0.50 @ 0.67,0.38] Nail Trac Nghiem 2026_1.dll
+[0.50 @ 0.00,0.40] correct way to use an electric file is to:
+[1.00 @ 0.67,0.40] Nail Trac Nghiem 2026
+[0.50 @ 0.87,0.40] 2.dll
+[0.50 @ 0.67,0.42] Nail Trac Nghiem 2026_3.dll
+[1.00 @ 0.67,0.44] Nail Trac Nghiem 5.dll
+[1.00 @ 0.67,0.46] Nails Theory 2026.dll
+[0.50 @ 0.72,0.49] ĐỀ THI: ( NAILS (EN) 2026
+[0.30 @ 0.00,0.53] A LỜI:
+[0.30 @ 0.46,0.53] CẦU HỘI TIẾP THEO
+[0.30 @ 0.69,0.54] THO BẢI MỚI
+[0.30 @ 0.69,0.57] HUÁC CÂU HỎI
+[0.50 @ 0.90,0.56] CHỌN BÀ
+[1.00 @ 0.02,0.59] Move it gently and avoid holding it in one place too long
+[0.50 @ 0.67,0.63] TRÀ LỜI ĐÙNG: TRÀ LỜI SAI:
+[1.00 @ 0.93,0.63] ĐIỂM TỔ
+[1.00 @ 0.71,0.66] 12
+[1.00 @ 0.84,0.66] 2
+[1.00 @ 0.03,0.68] Press hard against the nail
+[1.00 @ 0.69,0.75] CHỈNH GIỜ CHO CUỘC T
+[1.00 @ 0.03,0.77] Keep it in one spot for a long time to clean faster
+[1.00 @ 0.71,0.81] 00
+[0.30 @ 0.75,0.81] PHL
+[1.00 @ 0.80,0.81] 00
+[0.50 @ 0.85,0.81] GIAY
+[1.00 @ 0.89,0.81] 00
+[0.50 @ 0.96,0.81] AT
+[1.00 @ 0.03,0.85] Use high speed for every nail type
+[1.00 @ 0.71,0.87] 00.00.00.00
+---LEFT_LINES---
+0.26|lelp
+0.29|12:07:12 PMI
+0.29|ĐỀ THI:C NAILS (EN):2026)
+0.34|N ĐIỂM
+0.34|CÂU HỎI SỐ
+0.35|15
+0.34|CỦA 97. CẦU HỎI.
+0.40|correct way to use an electric file is to:
+0.53|A LỜI:
+0.53|CẦU HỘI TIẾP THEO
+0.59|Move it gently and avoid holding it in one place too long
+0.68|Press hard against the nail
+0.77|Keep it in one spot for a long time to clean faster
+0.85|Use high speed for every nail type
+---CONTENT---
+0.26|lelp
+0.34|N ĐIỂM
+0.34|CỦA 97. CẦU HỎI.
+0.53|A LỜI:
+0.59|Move it gently and avoid holding it in one place too long
+0.68|Press hard against the nail
+0.77|Keep it in one spot for a long time to clean faster
+0.85|Use high speed for every nail type
+---CHOICE_ROWS---
+A y=0.54 meanG=167.5 lime=0.059 bright=13.0 text=A LỜI:
+B y=0.61 meanG=206.1 lime=0.636 bright=59.6 text=Move it gently and avoid holding it in one place too long
+C y=0.69 meanG=210.7 lime=0.685 bright=51.7 text=Press hard against the nail
+D y=0.78 meanG=207.3 lime=0.625 bright=44.8 text=Keep it in one spot for a long time to clean faster
+SELECTED_HINT: none margin=7.8

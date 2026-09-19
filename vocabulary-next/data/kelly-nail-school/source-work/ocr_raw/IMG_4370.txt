@@ -1,0 +1,67 @@
+FILE: IMG_4370.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 34
+---
+[1.00 @ 0.01,0.26] Help
+[0.50 @ 0.02,0.29] 11:02:34 AM
+[0.50 @ 0.34,0.29] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.01,0.33] NĐIỂM
+[0.50 @ 0.12,0.33] CÂU HỎI SỐ:
+[1.00 @ 0.25,0.34] 27
+[0.50 @ 0.29,0.33] CỦA 97 CÂU HỎI.
+[1.00 @ -0.00,0.38] eenish-yellow discoloration on artificial nails is usually caused by:
+[0.50 @ 0.61,0.36] Nail Trac Nghiem 2026_1.dll
+[1.00 @ 0.61,0.39] Nail Trac Nghiem 2026_2.dll
+[0.50 @ 0.61,0.41] Nail Trac Nghiem 2026_3.dll
+[0.50 @ 0.61,0.43] Nail Trac Nghiem 5.dil
+[1.00 @ 0.61,0.45] Nails Theory 2026.dll
+[0.50 @ 0.65,0.47] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.00,0.50] Ả LỜI:
+[0.30 @ 0.42,0.51] CẦU HA TIẾP THEO
+[0.50 @ 0.63,0.52] TAO BÀI MỚI
+[0.30 @ 0.62,0.54] HOẠC CÂU HỎI
+[0.30 @ 0.82,0.53] QHƠN BÀI THI
+[1.00 @ 0.03,0.56] A virus
+[0.30 @ 0.61,0.60] TRẢ LỜI ĐÙNG: TRÀ LỜI SAI:
+[1.00 @ 0.85,0.60] ĐIỂM TỔNG KẾT
+[1.00 @ 0.03,0.63] Bacteria
+[1.00 @ 0.64,0.62] 26
+[1.00 @ 0.03,0.71] An allergy
+[1.00 @ 0.62,0.70] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.64,0.76] 00
+[1.00 @ 0.73,0.76] 00
+[1.00 @ 0.82,0.77] 00
+[0.50 @ 0.88,0.76] ẤT ĐẦU
+[1.00 @ 0.03,0.78] Trauma
+[1.00 @ 0.65,0.82] 00.00.00.00
+[0.50 @ 0.34,0.95] XIN ĐỌC BAN HƯƠNG DAN O TREN
+[0.30 @ 0.79,0.97] vednestav, beuteniber 1n
+---LEFT_LINES---
+0.26|Help
+0.29|11:02:34 AM
+0.29|ĐỀ THI: ( NAILS (EN) 2026)
+0.33|NĐIỂM
+0.33|CÂU HỎI SỐ:
+0.34|27
+0.33|CỦA 97 CÂU HỎI.
+0.38|eenish-yellow discoloration on artificial nails is usually caused by:
+0.50|Ả LỜI:
+0.51|CẦU HA TIẾP THEO
+0.56|A virus
+0.63|Bacteria
+0.71|An allergy
+0.78|Trauma
+---CONTENT---
+0.33|NĐIỂM
+0.38|eenish-yellow discoloration on artificial nails is usually caused by:
+0.50|Ả LỜI:
+0.56|A virus
+0.63|Bacteria
+0.71|An allergy
+0.78|Trauma
+---CHOICE_ROWS---
+A y=0.51 meanG=174.4 lime=0.077 bright=27.3 text=Ả LỜI:
+B y=0.56 meanG=209.7 lime=0.618 bright=50.8 text=A virus
+C y=0.64 meanG=212.3 lime=0.623 bright=45.8 text=Bacteria
+D y=0.72 meanG=211.1 lime=0.624 bright=40.0 text=An allergy
+SELECTED_HINT: none margin=5.0

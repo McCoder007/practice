@@ -1,0 +1,68 @@
+FILE: IMG_4349.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 34
+---
+[1.00 @ 0.00,0.26] File Help
+[0.30 @ 0.04,0.29] 10:48:33 ANI
+[0.30 @ 0.36,0.29] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.04,0.34] N ĐIỂM
+[0.50 @ 0.14,0.33] CÂU HỎI SỐ:
+[1.00 @ 0.28,0.34] 6
+[0.50 @ 0.32,0.34] CỦA 97 CÂU HỎI.
+[1.00 @ 0.00,0.38] Which of the following is a solvent?
+[1.00 @ 0.64,0.37] Nail Trac Nghiem 2026_1.dll
+[0.50 @ 0.64,0.39] Nail Trac Nghiem 2026_2.dll
+[1.00 @ 0.64,0.41] Nail Trac Nghiem 2026
+[0.30 @ 0.82,0.41] _3.dil
+[0.50 @ 0.63,0.43] Nail Trac Nghiem 5.dll
+[1.00 @ 0.63,0.45] Nails Theory 2026.dll
+[0.50 @ 0.68,0.48] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.02,0.50] RÀ LỜI:
+[0.30 @ 0.53,0.51] TEP THECA
+[0.30 @ 0.65,0.53] HNP BAI MƠI
+[1.00 @ 0.05,0.56] Polymer
+[0.30 @ 0.68,0.55] IC CAU HÓI
+[0.50 @ 0.86,0.54] CHỌN BÀI THI
+[0.50 @ 0.63,0.60] TRÀ LỜI ĐÙNG: TRÀ LỜI SAI:
+[0.50 @ 0.88,0.61] ĐIỂM TỔNG KẾ
+[1.00 @ 0.05,0.64] Acetone
+[1.00 @ 0.67,0.63] 5
+[1.00 @ 0.05,0.72] Resin
+[0.50 @ 0.65,0.72] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.66,0.77] 00
+[1.00 @ 0.76,0.78] 00
+[1.00 @ 0.05,0.79] Primer
+[1.00 @ 0.85,0.78] 00
+[0.30 @ 0.91,0.78] BÁT ĐẦU
+[1.00 @ 0.67,0.83] 00.00.00.00
+[0.30 @ 0.35,0.97] XIN ĐỌC BAN HƯƠNG DẪN O TRUN
+---LEFT_LINES---
+0.26|File Help
+0.29|10:48:33 ANI
+0.29|ĐỀ THI: ( NAILS (EN) 2026)
+0.34|N ĐIỂM
+0.33|CÂU HỎI SỐ:
+0.34|6
+0.34|CỦA 97 CÂU HỎI.
+0.38|Which of the following is a solvent?
+0.50|RÀ LỜI:
+0.51|TEP THECA
+0.56|Polymer
+0.64|Acetone
+0.72|Resin
+0.79|Primer
+---CONTENT---
+0.34|N ĐIỂM
+0.38|Which of the following is a solvent?
+0.50|RÀ LỜI:
+0.51|TEP THECA
+0.56|Polymer
+0.64|Acetone
+0.72|Resin
+0.79|Primer
+---CHOICE_ROWS---
+A y=0.51 meanG=170.4 lime=0.139 bright=31.5 text=RÀ LỜI:
+B y=0.52 meanG=164.5 lime=0.068 bright=13.5 text=TEP THECA
+C y=0.57 meanG=203.0 lime=0.630 bright=51.2 text=Polymer
+D y=0.64 meanG=205.5 lime=0.618 bright=44.5 text=Acetone
+SELECTED_HINT: none margin=6.7

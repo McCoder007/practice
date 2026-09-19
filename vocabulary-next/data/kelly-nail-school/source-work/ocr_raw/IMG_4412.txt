@@ -1,0 +1,70 @@
+FILE: IMG_4412.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 35
+---
+[0.30 @ 0.04,0.37] 1I:45:41 AL
+[0.50 @ 0.35,0.37] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.97,0.38] X
+[0.30 @ 0.03,0.41] NĐIỄM
+[1.00 @ 0.14,0.41] CÂU HỎI SỐ
+[1.00 @ 0.27,0.42] 68
+[0.50 @ 0.31,0.41] CỦA 97 CẦU HỎI.
+[1.00 @ 0.00,0.45] After disinfection, tools should be stored in a:
+[0.50 @ 0.61,0.44] Nail Trac Nghiem 2026_1.dll
+[0.50 @ 0.61,0.46] Nail Trac Nghiem 2026_2.dil
+[1.00 @ 0.61,0.48] Nail Trac Nghiem 2026
+[0.30 @ 0.78,0.49] _3.dil
+[0.50 @ 0.61,0.50] Nail Trac Nghiem 5.dll
+[1.00 @ 0.61,0.52] Nails Theory 2026.dll
+[0.50 @ 0.65,0.54] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.01,0.57] TRÀ LỜI:
+[0.30 @ 0.43,0.58] CÀU H RỊ TIẾP THEO
+[0.30 @ 0.64,0.59] AO BÀI MỚI
+[0.50 @ 0.62,0.61] HOẠC CÂU HỎI
+[0.50 @ 0.82,0.61] CHỌN BÀI THI
+[0.50 @ 0.05,0.63] Clean, dry, covered container or tray
+[0.30 @ 0.61,0.67] TRÀ LỜI ĐÙNG: TRẢ LỜI SAI:
+[1.00 @ 0.85,0.67] ĐIỂM TỔNG KẾT
+[1.00 @ 0.05,0.70] Dirty water basin
+[1.00 @ 0.64,0.69] 63
+[1.00 @ 0.76,0.70] 4
+[1.00 @ 0.05,0.78] Trash bag
+[0.50 @ 0.63,0.77] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.64,0.83] 00
+[1.00 @ 0.73,0.83] 00
+[1.00 @ 0.81,0.83] 00
+[0.30 @ 0.87,0.83] HẤT ĐẦU
+[1.00 @ 0.04,0.85] Humid open-air environment
+[1.00 @ 0.01,0.87] D
+[1.00 @ 0.65,0.88] 00.00.00.00
+---LEFT_LINES---
+0.37|1I:45:41 AL
+0.37|ĐỀ THI: ( NAILS (EN) 2026 )
+0.41|NĐIỄM
+0.41|CÂU HỎI SỐ
+0.42|68
+0.41|CỦA 97 CẦU HỎI.
+0.45|After disinfection, tools should be stored in a:
+0.57|TRÀ LỜI:
+0.58|CÀU H RỊ TIẾP THEO
+0.63|Clean, dry, covered container or tray
+0.70|Dirty water basin
+0.78|Trash bag
+0.85|Humid open-air environment
+0.87|D
+---CONTENT---
+0.37|1I:45:41 AL
+0.41|NĐIỄM
+0.41|CỦA 97 CẦU HỎI.
+0.45|After disinfection, tools should be stored in a:
+0.57|TRÀ LỜI:
+0.63|Clean, dry, covered container or tray
+0.70|Dirty water basin
+0.78|Trash bag
+0.85|Humid open-air environment
+---CHOICE_ROWS---
+A y=0.47 meanG=204.4 lime=0.657 bright=175.8 text=After disinfection, tools should be stored in a:
+B y=0.58 meanG=171.1 lime=0.143 bright=34.8 text=TRÀ LỜI:
+C y=0.64 meanG=205.0 lime=0.668 bright=57.3 text=Clean, dry, covered container or tray
+D y=0.71 meanG=206.7 lime=0.657 bright=49.0 text=Dirty water basin
+SELECTED_HINT: A bright=175.8 margin=118.4 text=After disinfection, tools should be stored in a:

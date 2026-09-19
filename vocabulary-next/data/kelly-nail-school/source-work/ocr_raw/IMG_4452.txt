@@ -1,0 +1,67 @@
+FILE: IMG_4452.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 34
+---
+[0.30 @ -0.00,0.30] 6:01 PM
+[0.30 @ 0.34,0.29] ĐỀ THI(NAILS(EN) 2026)
+[0.30 @ 0.00,0.35] IỀM
+[0.30 @ 0.09,0.34] CÂU HỎI SỐ
+[1.00 @ 0.25,0.35] 9
+[0.30 @ 0.29,0.35] CỦA 97 CÀU HỎI
+[0.50 @ 0.65,0.38] Nail Trac Nghiem 2026_1.dll
+[0.50 @ 0.00,0.40] ng skin at the base of the nail plate is called the:
+[1.00 @ 0.65,0.40] Nail Trac Nghiem 2026
+[0.50 @ 0.86,0.40] 2.dll
+[1.00 @ 0.65,0.42] Nail Trac Nghiem 2026
+[0.30 @ 0.86,0.43] _3.dil
+[0.50 @ 0.65,0.45] Nail Trac Nghiem 5.dll
+[1.00 @ 0.65,0.47] Nails Theory 2026.dll
+[0.50 @ 0.70,0.50] ĐỀ THI: ( NAILS (EN) 2026
+[0.30 @ 0.00,0.54] ỞI:
+[0.30 @ 0.44,0.54] CẢU XIỜN TIẾP THEO
+[0.30 @ 0.68,0.55] NNO BẢI MỚI
+[0.30 @ 0.66,0.58] HIHÁG CÂU HỎI
+[0.30 @ 0.90,0.57] THỌN BÀI
+[1.00 @ 0.00,0.61] -ponychium, located at the base of the nail near the lunula
+[0.50 @ 0.65,0.64] TRÀ LỜI ĐÙNG: TRẢ LỜI SAI:
+[1.00 @ 0.93,0.64] ĐIỂM TỔ
+[1.00 @ 0.70,0.67] 7
+[1.00 @ -0.00,0.69] lyponychium
+[1.00 @ 0.67,0.77] CHỈNH GIỜ CHO CUỘC T
+[1.00 @ -0.00,0.78] Nail bed
+[1.00 @ 0.69,0.83] 00
+[1.00 @ 0.79,0.83] 00
+[0.30 @ 0.84,0.83] GHAT
+[1.00 @ 0.89,0.83] 00
+[0.50 @ 0.95,0.83] SATI
+[1.00 @ 0.00,0.87] Cushion tissue
+[1.00 @ 0.70,0.89] 00.00.00.00
+---LEFT_LINES---
+0.30|6:01 PM
+0.29|ĐỀ THI(NAILS(EN) 2026)
+0.35|IỀM
+0.34|CÂU HỎI SỐ
+0.35|9
+0.35|CỦA 97 CÀU HỎI
+0.40|ng skin at the base of the nail plate is called the:
+0.54|ỞI:
+0.54|CẢU XIỜN TIẾP THEO
+0.61|-ponychium, located at the base of the nail near the lunula
+0.69|lyponychium
+0.78|Nail bed
+0.87|Cushion tissue
+---CONTENT---
+0.35|IỀM
+0.35|CỦA 97 CÀU HỎI
+0.40|ng skin at the base of the nail plate is called the:
+0.54|ỞI:
+0.61|-ponychium, located at the base of the nail near the lunula
+0.69|lyponychium
+0.78|Nail bed
+0.87|Cushion tissue
+---CHOICE_ROWS---
+A y=0.41 meanG=201.2 lime=0.592 bright=182.0 text=ng skin at the base of the nail plate is called the:
+B y=0.55 meanG=166.0 lime=0.013 bright=10.2 text=ỞI:
+C y=0.62 meanG=203.0 lime=0.661 bright=57.6 text=-ponychium, located at the base of the nail near the lunula
+D y=0.70 meanG=209.5 lime=0.728 bright=48.4 text=lyponychium
+SELECTED_HINT: A bright=182.0 margin=124.4 text=ng skin at the base of the nail plate is called the:

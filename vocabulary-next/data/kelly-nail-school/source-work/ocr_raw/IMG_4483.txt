@@ -1,0 +1,67 @@
+FILE: IMG_4483.JPG
+ORIENTED: 3024x4032 CROP_TL: 181,725,2661,2822
+LINES: 34
+---
+[1.00 @ -0.00,0.27] le Help
+[1.00 @ 0.03,0.30] 12:22:27 PMI
+[0.50 @ 0.36,0.31] ĐÊ THI: ( NAILS (EN) 2026)
+[0.50 @ 0.03,0.35] IN ĐIỂM
+[1.00 @ 0.14,0.35] CÂU HỎI SỐ:
+[1.00 @ 0.27,0.36] 47
+[0.50 @ 0.32,0.35] CỦA 97 CÂU HỎI.
+[0.50 @ -0.00,0.39] Nhen monomer and polymer are combined, they create:
+[1.00 @ 0.64,0.39] Nail Trac Nghiem 2026 1.dil
+[0.50 @ 0.64,0.41] Nail Trac Nghiem 2026_2.dil
+[0.50 @ 0.63,0.43] Nail Trac Nghiem 2026_3.dil
+[0.50 @ 0.63,0.44] Nail Trac Nghiem 5.dll
+[0.50 @ 0.63,0.47] Nails Theory 2026.dll
+[0.50 @ 0.68,0.49] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ -0.00,0.51] RẢ LỜI:
+[0.30 @ 0.45,0.52] CAL, TỘI TIẾP THEO
+[0.50 @ 0.65,0.54] TẠO BÀI MỚI
+[0.30 @ 0.64,0.56] HOẠC CÂU HỎI
+[0.50 @ 0.84,0.55] CHÔN BÀI THI
+[1.00 @ 0.05,0.57] A chemical reaction
+[0.50 @ 0.63,0.62] TRẢ LỜI ĐÙNG: TRẢ LỜI SAI:
+[0.50 @ 0.86,0.62] ĐIỂM TỔNG KÉT
+[1.00 @ 0.05,0.65] Water
+[1.00 @ 0.66,0.64] 41
+[1.00 @ 0.78,0.65] 5
+[1.00 @ 0.04,0.73] Conditioning oil
+[0.50 @ 0.65,0.72] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.66,0.77] 00
+[1.00 @ 0.75,0.78] 00
+[1.00 @ 0.83,0.78] 00
+[0.30 @ 0.88,0.78] TẤT ĐẦU
+[1.00 @ 0.04,0.81] Nail polish remover
+[1.00 @ 0.67,0.83] 00.00.00.00
+[0.30 @ 0.39,0.97] DỘC BAN HOONG DAN O TREN
+---LEFT_LINES---
+0.27|le Help
+0.30|12:22:27 PMI
+0.31|ĐÊ THI: ( NAILS (EN) 2026)
+0.35|IN ĐIỂM
+0.35|CÂU HỎI SỐ:
+0.36|47
+0.35|CỦA 97 CÂU HỎI.
+0.39|Nhen monomer and polymer are combined, they create:
+0.51|RẢ LỜI:
+0.52|CAL, TỘI TIẾP THEO
+0.57|A chemical reaction
+0.65|Water
+0.73|Conditioning oil
+0.81|Nail polish remover
+---CONTENT---
+0.31|ĐÊ THI: ( NAILS (EN) 2026)
+0.39|Nhen monomer and polymer are combined, they create:
+0.51|RẢ LỜI:
+0.57|A chemical reaction
+0.65|Water
+0.73|Conditioning oil
+0.81|Nail polish remover
+---CHOICE_ROWS---
+A y=0.41 meanG=205.1 lime=0.656 bright=181.2 text=Nhen monomer and polymer are combined, they create:
+B y=0.52 meanG=175.7 lime=0.121 bright=31.6 text=RẢ LỜI:
+C y=0.58 meanG=207.5 lime=0.635 bright=48.4 text=A chemical reaction
+D y=0.66 meanG=209.5 lime=0.659 bright=41.3 text=Water
+SELECTED_HINT: A bright=181.2 margin=132.7 text=Nhen monomer and polymer are combined, they create:

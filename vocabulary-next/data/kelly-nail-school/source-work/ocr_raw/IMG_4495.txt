@@ -1,0 +1,70 @@
+FILE: IMG_4495.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 35
+---
+[1.00 @ 0.00,0.29] Help
+[0.50 @ 0.01,0.33] 12:29:02 P.M
+[0.30 @ 0.34,0.33] ĐỀ THI: (INAILS (EN) 2026)
+[0.30 @ 0.00,0.37] N ĐIỂM
+[1.00 @ 0.12,0.37] CÂU HỎI SỐ:
+[1.00 @ 0.25,0.38] 71
+[0.30 @ 0.30,0.38] CỦA 97 CẦU HƠI.
+[1.00 @ -0.00,0.42] : nails of older adults usually:
+[1.00 @ 0.63,0.41] Nail Trac Nghiem 2026_1.dll
+[1.00 @ 0.63,0.43] Nail Trac Nghiem 2026_2.dll
+[0.50 @ 0.63,0.45] Nail Trac Nghiem 2026_3.dil
+[1.00 @ 0.63,0.47] Nail Trac Nghiem 5.dll
+[1.00 @ 0.62,0.49] Nails Theory 2026.dll
+[0.30 @ 0.98,0.51] V
+[0.50 @ 0.67,0.52] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.00,0.54] Á LỜI:
+[0.30 @ 0.43,0.55] CAU НOI ПЕРАНЕО
+[0.30 @ 0.65,0.57] HO BÀI MỚI
+[0.30 @ 0.65,0.59] VẶÁC CÂU HỎI
+[0.50 @ 0.84,0.58] CHỌN BÀI THI
+[1.00 @ 0.02,0.60] Grow quickly
+[0.50 @ 0.62,0.65] TRÀ LỜI ĐÚNG: TRẢ LỜI SAI:
+[1.00 @ 0.87,0.65] ĐIỂM TỔNG KẾT
+[1.00 @ 0.02,0.68] Are brittle and grow slowly
+[1.00 @ 0.65,0.67] 62
+[1.00 @ 0.78,0.68] 8
+[1.00 @ 0.02,0.77] Are thick and soft
+[1.00 @ 0.64,0.76] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.65,0.81] 00
+[1.00 @ 0.74,0.82] 00
+[0.30 @ 0.78,0.82] GAI
+[1.00 @ 0.83,0.82] 00
+[0.30 @ 0.89,0.82] BẤT ĐẦU
+[1.00 @ 0.03,0.84] Do not change
+[1.00 @ 0.66,0.87] 00.00.00.00
+---LEFT_LINES---
+0.29|Help
+0.33|12:29:02 P.M
+0.33|ĐỀ THI: (INAILS (EN) 2026)
+0.37|N ĐIỂM
+0.37|CÂU HỎI SỐ:
+0.38|71
+0.38|CỦA 97 CẦU HƠI.
+0.42|: nails of older adults usually:
+0.54|Á LỜI:
+0.55|CAU НOI ПЕРАНЕО
+0.60|Grow quickly
+0.68|Are brittle and grow slowly
+0.77|Are thick and soft
+0.84|Do not change
+---CONTENT---
+0.37|N ĐIỂM
+0.38|CỦA 97 CẦU HƠI.
+0.42|: nails of older adults usually:
+0.54|Á LỜI:
+0.55|CAU НOI ПЕРАНЕО
+0.60|Grow quickly
+0.68|Are brittle and grow slowly
+0.77|Are thick and soft
+0.84|Do not change
+---CHOICE_ROWS---
+A y=0.43 meanG=206.1 lime=0.609 bright=174.1 text=: nails of older adults usually:
+B y=0.55 meanG=170.9 lime=0.134 bright=32.7 text=Á LỜI:
+C y=0.56 meanG=164.6 lime=0.077 bright=16.5 text=CAU НOI ПЕРАНЕО
+D y=0.61 meanG=208.9 lime=0.641 bright=58.8 text=Grow quickly
+SELECTED_HINT: A bright=174.1 margin=115.3 text=: nails of older adults usually:

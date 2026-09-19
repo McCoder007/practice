@@ -1,0 +1,69 @@
+FILE: IMG_4444.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 33
+---
+[0.50 @ 0.05,0.32] File Help
+[1.00 @ 0.09,0.35] 12:03:59 PM
+[0.50 @ 0.39,0.35] ĐÊ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.08,0.39] N ĐIỂM
+[0.50 @ 0.18,0.39] CÂU HỎI SỐ:
+[1.00 @ 0.31,0.40] 1
+[0.50 @ 0.34,0.39] CỦA 97 CẦU HỎI.
+[0.50 @ 0.64,0.42] Nail Trac Nghiem 2026_1.dll
+[1.00 @ 0.05,0.43] When colorless monomer dries, it creates a sticky layer known as:
+[0.50 @ 0.64,0.44] Nail Trac Nghiem 2026_2.dll
+[1.00 @ 0.64,0.46] Nail Trac Nghiem 2026
+[0.50 @ 0.81,0.46] 3.dll
+[1.00 @ 0.64,0.48] Nail Trac Nghiem 5.dll
+[1.00 @ 0.64,0.49] Nails Theory 2026.dll
+[0.50 @ 0.68,0.52] ĐỀ THI: ( NAILS (EN) 2026 )
+[1.00 @ 0.06,0.54] RẢ LỜI:
+[0.50 @ 0.51,0.55] STAN
+[0.30 @ 0.64,0.56] •TAO BÀI MỚI
+[0.30 @ 0.64,0.58] HOẶC CÂU HỎI
+[0.50 @ 0.84,0.58] CHỌN BÀI THI
+[1.00 @ 0.10,0.60] Inhibition layer (tacky layer)
+[0.50 @ 0.63,0.64] TRÀ LỜI ĐÚNG: TRÀ LỜI SAI:
+[1.00 @ 0.87,0.64] ĐIỂM TỔNG KẾT
+[1.00 @ 0.10,0.67] Cuticle layer
+[1.00 @ 0.10,0.74] Horny layer (keratin layer)
+[1.00 @ 0.65,0.74] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.67,0.79] 00
+[1.00 @ 0.75,0.79] 00
+[1.00 @ 0.83,0.80] 00
+[0.30 @ 0.89,0.80] BẤT ĐÂU
+[1.00 @ 0.10,0.81] Base layer
+[1.00 @ 0.67,0.84] 00.00.00.00
+[0.30 @ 0.38,0.97] XIN ĐỌC BAN HƯƠNG DAN O TKEN
+---LEFT_LINES---
+0.32|File Help
+0.35|12:03:59 PM
+0.35|ĐÊ THI: ( NAILS (EN) 2026)
+0.39|N ĐIỂM
+0.39|CÂU HỎI SỐ:
+0.40|1
+0.39|CỦA 97 CẦU HỎI.
+0.43|When colorless monomer dries, it creates a sticky layer known as:
+0.54|RẢ LỜI:
+0.55|STAN
+0.60|Inhibition layer (tacky layer)
+0.67|Cuticle layer
+0.74|Horny layer (keratin layer)
+0.81|Base layer
+---CONTENT---
+0.35|ĐÊ THI: ( NAILS (EN) 2026)
+0.39|N ĐIỂM
+0.39|CỦA 97 CẦU HỎI.
+0.43|When colorless monomer dries, it creates a sticky layer known as:
+0.54|RẢ LỜI:
+0.55|STAN
+0.60|Inhibition layer (tacky layer)
+0.67|Cuticle layer
+0.74|Horny layer (keratin layer)
+0.81|Base layer
+---CHOICE_ROWS---
+A y=0.40 meanG=158.0 lime=0.120 bright=33.5 text=N ĐIỂM
+B y=0.40 meanG=160.4 lime=0.147 bright=40.7 text=CỦA 97 CẦU HỎI.
+C y=0.44 meanG=200.1 lime=0.531 bright=164.0 text=When colorless monomer dries, it creates a sticky layer known as:
+D y=0.55 meanG=173.6 lime=0.139 bright=31.0 text=RẢ LỜI:
+SELECTED_HINT: C bright=164.0 margin=123.3 text=When colorless monomer dries, it creates a sticky layer known as:

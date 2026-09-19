@@ -1,0 +1,65 @@
+FILE: IMG_4387.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 31
+---
+[0.30 @ -0.00,0.33] 11:16:00 A.V
+[0.30 @ 0.33,0.33] ĐÈ THI: ( NAILS (EN) 2026)
+[0.50 @ -0.00,0.38] N ĐIỂM
+[0.50 @ 0.10,0.37] CÂU HỎI SỐ:
+[1.00 @ 0.24,0.38] 44
+[0.50 @ 0.28,0.37] CỦA 97 CÂU HỎI.
+[0.50 @ 0.61,0.40] Nail Trac Nghiem 2026_1.dil
+[1.00 @ 0.00,0.42] client shows signs of nail fungus, you should:
+[0.50 @ 0.61,0.42] Nail Trac Nghiem 2026_2.dil
+[0.50 @ 0.61,0.44] Nail Trac Nghiem 2026_3.dll
+[0.50 @ 0.61,0.46] Nail Trac Nghiem 5.dll
+[1.00 @ 0.61,0.48] Nails Theory 2026.dll
+[0.50 @ 0.65,0.51] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.00,0.55] LỜI:
+[0.30 @ 0.50,0.55] ПẾP THEO
+[0.30 @ 0.64,0.55] NNP BÀI MỚI
+[0.30 @ 0.63,0.57] HUÁC CẦU HỎI
+[0.50 @ 0.83,0.57] GIỘN BÀI THI
+[1.00 @ 0.02,0.60] Continue the service
+[0.50 @ 0.61,0.64] TRÀ LỜI ĐÚNG: TRÀ LỜI SAI:
+[1.00 @ 0.86,0.64] ĐIỂM TỔNG KẾT
+[1.00 @ 0.64,0.66] 43
+[1.00 @ 0.02,0.68] Scrub harder
+[1.00 @ 0.63,0.75] CHỈNH GIỜ CHO CUỘC THI
+[0.50 @ 0.02,0.76] Refuse service and refer the client to a doctor
+[1.00 @ 0.65,0.81] 00
+[1.00 @ 0.74,0.81] 00
+[1.00 @ 0.83,0.81] 00
+[0.50 @ 0.89,0.81] SẮT ĐẦU
+[1.00 @ 0.03,0.84] Cover it with dark polish
+[1.00 @ 0.66,0.86] 00.00.00.00
+---LEFT_LINES---
+0.33|11:16:00 A.V
+0.33|ĐÈ THI: ( NAILS (EN) 2026)
+0.38|N ĐIỂM
+0.37|CÂU HỎI SỐ:
+0.38|44
+0.37|CỦA 97 CÂU HỎI.
+0.42|client shows signs of nail fungus, you should:
+0.55|LỜI:
+0.55|ПẾP THEO
+0.60|Continue the service
+0.68|Scrub harder
+0.76|Refuse service and refer the client to a doctor
+0.84|Cover it with dark polish
+---CONTENT---
+0.33|ĐÈ THI: ( NAILS (EN) 2026)
+0.38|N ĐIỂM
+0.42|client shows signs of nail fungus, you should:
+0.55|LỜI:
+0.55|ПẾP THEO
+0.60|Continue the service
+0.68|Scrub harder
+0.76|Refuse service and refer the client to a doctor
+0.84|Cover it with dark polish
+---CHOICE_ROWS---
+A y=0.39 meanG=157.7 lime=0.078 bright=29.5 text=N ĐIỂM
+B y=0.43 meanG=210.0 lime=0.653 bright=190.0 text=client shows signs of nail fungus, you should:
+C y=0.56 meanG=169.0 lime=0.067 bright=14.1 text=LỜI:
+D y=0.56 meanG=169.0 lime=0.067 bright=14.1 text=ПẾP THEO
+SELECTED_HINT: B bright=190.0 margin=160.5 text=client shows signs of nail fungus, you should:

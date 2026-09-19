@@ -1,0 +1,68 @@
+FILE: IMG_4367.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 35
+---
+[0.50 @ 0.00,0.25] e Help
+[0.30 @ 0.03,0.28] 10:59:59 ANI
+[0.50 @ 0.34,0.28] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.02,0.32] IN ĐIỂM
+[0.50 @ 0.13,0.32] CÂU HỎI SỐ:
+[1.00 @ 0.26,0.33] 24
+[0.50 @ 0.30,0.32] CỦA 97 CÂU HỎI.
+[1.00 @ -0.00,0.37] he cuticle is:
+[0.50 @ 0.63,0.36] Nail Trac Nghiem 2026 1.dll
+[0.50 @ 0.62,0.38] Nail Trac Nghiem 2026
+[0.50 @ 0.82,0.38] 2.dll
+[1.00 @ 0.62,0.40] Nail Trac Nghiem 2026_3.dil
+[0.50 @ 0.62,0.42] Nail Trac Nghiem 5.dll
+[1.00 @ 0.62,0.44] Nails Theory 2026.dll
+[0.50 @ 0.66,0.47] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.50 @ -0.00,0.49] RẢ LỜI:
+[0.30 @ 0.43,0.50] CALHOTTER THEO
+[0.30 @ 0.64,0.52] TÁO BÀI MỚI
+[1.00 @ 0.04,0.55] Dead tissue attached to the nail plate / the thin skin around the nail
+[0.30 @ 0.63,0.54] HUẶC CÂU HỎI
+[0.50 @ 0.84,0.54] CHỌN BẢI THI
+[0.30 @ 0.61,0.60] TRÃ LỜI ĐÚNG: TRẢ LỜI SAI:
+[0.30 @ 0.87,0.61] ĐỊM TỔNG KẾT
+[1.00 @ 0.04,0.62] Living nail tissue
+[1.00 @ 0.65,0.63] 23
+[1.00 @ 0.04,0.70] Bone
+[1.00 @ 0.63,0.71] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.04,0.78] Muscle
+[1.00 @ 0.65,0.77] 00
+[1.00 @ 0.74,0.77] 00
+[0.30 @ 0.78,0.77] GIAY
+[1.00 @ 0.83,0.78] 00
+[0.30 @ 0.89,0.78] ẤT ĐẦU
+[1.00 @ 0.65,0.82] 00.00.00.00
+[0.30 @ 0.34,0.96] XIN ĐỌC BAN HƯƠNG DAN O TREN
+---LEFT_LINES---
+0.25|e Help
+0.28|10:59:59 ANI
+0.28|ĐỀ THI: ( NAILS (EN) 2026 )
+0.32|IN ĐIỂM
+0.32|CÂU HỎI SỐ:
+0.33|24
+0.32|CỦA 97 CÂU HỎI.
+0.37|he cuticle is:
+0.49|RẢ LỜI:
+0.50|CALHOTTER THEO
+0.55|Dead tissue attached to the nail plate / the thin skin around the nail
+0.62|Living nail tissue
+0.70|Bone
+0.78|Muscle
+---CONTENT---
+0.37|he cuticle is:
+0.49|RẢ LỜI:
+0.50|CALHOTTER THEO
+0.55|Dead tissue attached to the nail plate / the thin skin around the nail
+0.62|Living nail tissue
+0.70|Bone
+0.78|Muscle
+---CHOICE_ROWS---
+A y=0.50 meanG=173.7 lime=0.138 bright=35.1 text=RẢ LỜI:
+B y=0.51 meanG=166.4 lime=0.051 bright=10.1 text=CALHOTTER THEO
+C y=0.57 meanG=204.4 lime=0.602 bright=53.9 text=Dead tissue attached to the nail plate / the thin skin around the nail
+D y=0.63 meanG=208.5 lime=0.587 bright=42.8 text=Living nail tissue
+SELECTED_HINT: C bright=53.9 margin=11.1 text=Dead tissue attached to the nail plate / the thin skin around the nail

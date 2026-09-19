@@ -1,0 +1,70 @@
+FILE: IMG_4439.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 36
+---
+[0.50 @ 0.03,0.33] File Help
+[1.00 @ 0.06,0.36] 12:00:53 PM
+[0.50 @ 0.38,0.36] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.98,0.38] X
+[0.50 @ 0.06,0.40] N ĐIỂM
+[0.50 @ 0.16,0.40] CÂU HỎI SỐ:
+[1.00 @ 0.29,0.41] 94
+[0.30 @ 0.33,0.41] CỦA 97 CÂU HỎI.
+[1.00 @ 0.02,0.44] Sanitation means:
+[1.00 @ 0.63,0.44] Nail Trac Nghiem 2026_1.dii
+[0.50 @ 0.63,0.46] Nail Trac Nghiem 2026_2.dll
+[0.50 @ 0.63,0.47] Nail Trac Nghiem 2026_3.dill
+[1.00 @ 0.63,0.49] Nail Trac Nghiem 5.dll
+[1.00 @ 0.63,0.51] Nails Theory 2026.dll
+[0.50 @ 0.67,0.54] ĐỀ THI: ( NAILS (EN) 2026 )
+[1.00 @ 0.02,0.55] TRẢ LỜI:
+[0.30 @ 0.47,0.57] Ừ HỎI TẾP THEO
+[0.30 @ 0.64,0.58] TAO BÀI MỚI
+[1.00 @ 0.07,0.61] Cleaning and maintaining hygiene
+[0.50 @ 0.64,0.60] HOẶC CÂU HỎI
+[0.50 @ 0.83,0.60] CHỌN BÀI THI
+[0.30 @ 0.03,0.63] A
+[0.50 @ 0.62,0.66] TRÀ LỜI ĐÚNG: TRÀ LỜI SAI:
+[1.00 @ 0.86,0.66] ĐIỂM TỔNG KẾT
+[1.00 @ 0.06,0.69] Sterili
+[1.00 @ 0.66,0.68] 86
+[1.00 @ 0.77,0.69] 7
+[1.00 @ 0.06,0.77] ation
+[1.00 @ 0.64,0.76] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.66,0.82] 00
+[1.00 @ 0.74,0.82] 00
+[0.30 @ 0.78,0.82] GIA)
+[1.00 @ 0.83,0.82] 00
+[0.50 @ 0.88,0.82] BẮT ĐẦU
+[1.00 @ 0.06,0.84] Polymeri
+[1.00 @ 0.66,0.88] 00.00.00.00
+---LEFT_LINES---
+0.33|File Help
+0.36|12:00:53 PM
+0.36|ĐỀ THI: ( NAILS (EN) 2026)
+0.40|N ĐIỂM
+0.40|CÂU HỎI SỐ:
+0.41|94
+0.41|CỦA 97 CÂU HỎI.
+0.44|Sanitation means:
+0.55|TRẢ LỜI:
+0.57|Ừ HỎI TẾP THEO
+0.61|Cleaning and maintaining hygiene
+0.63|A
+0.69|Sterili
+0.77|ation
+0.84|Polymeri
+---CONTENT---
+0.40|N ĐIỂM
+0.44|Sanitation means:
+0.57|Ừ HỎI TẾP THEO
+0.61|Cleaning and maintaining hygiene
+0.69|Sterili
+0.77|ation
+0.84|Polymeri
+---CHOICE_ROWS---
+A y=0.58 meanG=162.2 lime=0.063 bright=14.2 text=Ừ HỎI TẾP THEO
+B y=0.63 meanG=200.8 lime=0.563 bright=59.2 text=Cleaning and maintaining hygiene
+C y=0.69 meanG=207.0 lime=0.628 bright=51.5 text=Sterili
+D y=0.78 meanG=206.0 lime=0.600 bright=43.2 text=ation
+SELECTED_HINT: none margin=7.7

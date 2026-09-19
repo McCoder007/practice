@@ -1,0 +1,59 @@
+FILE: IMG_4506.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 33
+---
+[1.00 @ 0.00,0.31] Help
+[1.00 @ 0.01,0.34] 12:35:52 PM
+[0.30 @ 0.31,0.34] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.01,0.38] IN ĐIỂM
+[0.50 @ 0.11,0.38] CÂU HỎI SỐ
+[1.00 @ 0.23,0.39] 97
+[0.50 @ 0.27,0.38] CỦA 97 CÂU HỎI.
+[0.50 @ 0.09,0.42] -Cuộc Thi Trắc Nghiệm Đã Hoàng Tát--.
+[1.00 @ 0.56,0.41] Nail Trac Nghiem 2026_ 1.dll
+[1.00 @ 0.56,0.43] Nail Trac Nghiem 2026_2.dll
+[0.50 @ 0.56,0.45] Nail Trac Nghiem 2026_3.dll
+[0.50 @ 0.56,0.46] Nail Trac Nghiem 5. dil
+[1.00 @ 0.56,0.48] Nails Theory 2026.dll
+[0.50 @ 0.60,0.51] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ 0.00,0.53] Ả LỜI:
+[0.30 @ 0.41,0.54] TC HỎI TẾP THEO
+[0.30 @ 0.58,0.55] TẠO BÀI MỚI
+[0.50 @ 0.57,0.57] HOẶC CẦU HỎI
+[1.00 @ 0.75,0.56] CHỌN BÀI THI
+[1.00 @ 0.26,0.62] Quizer Pro 2007
+[0.50 @ 0.62,0.62] ING: TRÀ LỜI SAI:
+[0.50 @ 0.77,0.62] ĐIM TỔNG KẾT
+[1.00 @ 0.31,0.65] The Quiz has completed!. Press OK to view your score or you
+[1.00 @ 0.69,0.65] 10
+[1.00 @ 0.31,0.67] may need to print your score
+[0.50 @ 0.62,0.72] IH GIỜ CHO CUỘC THI
+[1.00 @ 0.59,0.77] 00
+[1.00 @ 0.67,0.77] 00
+[0.50 @ 0.74,0.77] 00
+[0.30 @ 0.79,0.77] BẤT ĐẦU
+[1.00 @ 0.59,0.82] 00.00.00.00
+[0.50 @ 0.32,0.94] XIN ĐỌC BẢN HƯƠNG DAN O TRÊN
+[0.50 @ 0.72,0.95] ednesdav. September 16
+---LEFT_LINES---
+0.31|Help
+0.34|12:35:52 PM
+0.34|ĐỀ THI: ( NAILS (EN) 2026 )
+0.38|IN ĐIỂM
+0.38|CÂU HỎI SỐ
+0.39|97
+0.38|CỦA 97 CÂU HỎI.
+0.42|-Cuộc Thi Trắc Nghiệm Đã Hoàng Tát--.
+0.53|Ả LỜI:
+0.54|TC HỎI TẾP THEO
+0.62|Quizer Pro 2007
+0.65|The Quiz has completed!. Press OK to view your score or you
+0.67|may need to print your score
+---CONTENT---
+0.53|Ả LỜI:
+0.54|TC HỎI TẾP THEO
+0.67|may need to print your score
+---CHOICE_ROWS---
+A y=0.55 meanG=168.1 lime=0.061 bright=12.4 text=TC HỎI TẾP THEO
+B y=0.67 meanG=218.9 lime=0.479 bright=35.2 text=may need to print your score
+SELECTED_HINT: B bright=35.2 margin=22.8 text=may need to print your score

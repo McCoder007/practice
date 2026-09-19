@@ -1,0 +1,72 @@
+FILE: IMG_4429.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 37
+---
+[0.30 @ 0.00,0.27] • Help
+[0.30 @ 0.02,0.30] 11:56:34 A.
+[0.50 @ 0.34,0.30] ĐỀ THI: ( NAILS (EN) 2026)
+[0.50 @ 0.02,0.34] NĐIỂM
+[0.30 @ 0.13,0.34] CÂU HỎI SÓ:
+[1.00 @ 0.26,0.35] 85
+[0.50 @ 0.31,0.34] CỦA 97 CÂU HỎI.
+[0.50 @ 0.63,0.37] Nail Trac Nghiem 2026_1.dll
+[1.00 @ 0.00,0.39] Vhich of the following is used to clean and exfoliate the feet
+[1.00 @ 0.63,0.39] Nail Trac Nghiem 2026_2.dll
+[1.00 @ 0.00,0.41] uring a pedicure?
+[0.50 @ 0.63,0.41] Nail Trac Nghiem 2026_3.dil
+[1.00 @ 0.63,0.43] Nail Trac Nghiem 5.dll
+[1.00 @ 0.62,0.45] Nails Theory 2026.dll
+[0.50 @ 0.67,0.48] ĐỀ THI: ( NAILS (EN) 2026 )
+[0.30 @ -0.00,0.51] RẢ LỜI:
+[0.50 @ 0.44,0.51] CẬU HỘI TIẾP THEO
+[0.30 @ 0.64,0.52] HAO BÀI MỚI
+[0.30 @ 0.64,0.54] HOẶC CÂU HỎI
+[1.00 @ 0.84,0.54] CHỌN BÀI THI
+[1.00 @ 0.04,0.57] Disinfectant
+[0.30 @ 0.62,0.61] TRÀ LỜI ĐÚNG: TRÃ LỜI SAI
+[1.00 @ 0.87,0.61] ĐIỂM TỔNG KẾT
+[1.00 @ 0.66,0.63] 78
+[1.00 @ 0.04,0.64] Exfoliant (scrub)
+[0.50 @ 0.64,0.71] CHỈNH GIỜ CHO CUỘC THI
+[1.00 @ 0.04,0.73] Nail glue
+[1.00 @ 0.66,0.77] 00
+[0.30 @ 0.70,0.77] GHIR
+[1.00 @ 0.75,0.77] 00
+[0.30 @ 0.80,0.77] MAY
+[1.00 @ 0.83,0.77] 00
+[0.30 @ 0.89,0.77] BẮT ĐẦU
+[1.00 @ 0.04,0.80] Gel polish
+[1.00 @ 0.66,0.83] 00.00.00.00
+[0.50 @ 0.36,0.97] XIN ĐỌC BAN HUONG DAN O TREN
+[0.50 @ 0.80,0.98] Vednesdav. Seprember 16
+---LEFT_LINES---
+0.27|• Help
+0.30|11:56:34 A.
+0.30|ĐỀ THI: ( NAILS (EN) 2026)
+0.34|NĐIỂM
+0.34|CÂU HỎI SÓ:
+0.35|85
+0.34|CỦA 97 CÂU HỎI.
+0.39|Vhich of the following is used to clean and exfoliate the feet
+0.41|uring a pedicure?
+0.51|RẢ LỜI:
+0.51|CẬU HỘI TIẾP THEO
+0.57|Disinfectant
+0.64|Exfoliant (scrub)
+0.73|Nail glue
+0.80|Gel polish
+---CONTENT---
+0.34|NĐIỂM
+0.39|Vhich of the following is used to clean and exfoliate the feet
+0.41|uring a pedicure?
+0.51|RẢ LỜI:
+0.57|Disinfectant
+0.64|Exfoliant (scrub)
+0.73|Nail glue
+0.80|Gel polish
+---CHOICE_ROWS---
+A y=0.42 meanG=218.8 lime=0.833 bright=216.0 text=uring a pedicure?
+B y=0.52 meanG=167.7 lime=0.090 bright=26.2 text=RẢ LỜI:
+C y=0.58 meanG=208.9 lime=0.661 bright=60.9 text=Disinfectant
+D y=0.65 meanG=211.0 lime=0.682 bright=54.5 text=Exfoliant (scrub)
+SELECTED_HINT: A bright=216.0 margin=155.1 text=uring a pedicure?

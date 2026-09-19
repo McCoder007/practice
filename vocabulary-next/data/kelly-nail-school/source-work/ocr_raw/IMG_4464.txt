@@ -1,0 +1,71 @@
+FILE: IMG_4464.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 36
+---
+[0.30 @ 0.00,0.36] e
+[1.00 @ 0.02,0.36] Help
+[0.50 @ 0.03,0.39] 12:10:10 PM
+[0.50 @ 0.36,0.38] ĐỀ THI: ( NAILS (EN) 2026)
+[0.30 @ 0.02,0.43] NĐIỂM
+[0.50 @ 0.13,0.43] CÂU HỎI SỐ:
+[1.00 @ 0.26,0.43] 21
+[0.50 @ 0.31,0.43] CỦA 97 CÂU HỎI.
+[0.50 @ 0.63,0.45] Nail Trac Nghiem 2026_1.dll
+[1.00 @ 0.00,0.48] Vhat is used to help a plastic tip/artificial nail achere better to the
+[0.50 @ 0.63,0.47] Nail Trac Nghiem 2026_2.dll
+[1.00 @ -0.00,0.50] atural nail?
+[1.00 @ 0.63,0.49] Nail Trac Nghiem 2026
+[0.30 @ 0.80,0.49] _3.dill
+[1.00 @ 0.63,0.51] Nail Trac Nghiem 5.dll
+[1.00 @ 0.63,0.53] Nails Theory 2026.dll
+[0.50 @ 0.67,0.56] ĐỀ THI: ( NAILS (EN) 2026)
+[0.50 @ 0.00,0.60] TRẢ LỜI:
+[0.50 @ 0.48,0.59] HỎI TIẾP THEO
+[0.30 @ 0.65,0.60] TẠO BÀI MỚI
+[0.50 @ 0.65,0.62] GÁC CÂU HỎI
+[0.50 @ 0.84,0.62] CHỌN BÀI THI
+[1.00 @ 0.04,0.66] Primer
+[0.50 @ 0.63,0.69] TRÀ LỜI ĐÚNG: TRÀ LỜI SAI:
+[1.00 @ 0.87,0.68] ĐIỂM TỔNG KẾT
+[1.00 @ 0.66,0.71] 17
+[1.00 @ 0.04,0.73] Conditioning oil
+[0.30 @ 0.00,0.75] B
+[1.00 @ 0.65,0.79] CHỈNH GIỜ CHO CUỘC THI
+[0.50 @ 0.04,0.82] Wann water
+[1.00 @ 0.67,0.85] 00
+[1.00 @ 0.76,0.85] 00
+[1.00 @ 0.84,0.85] 00
+[0.50 @ 0.90,0.85] SẮT ĐẦU
+[1.00 @ 0.04,0.89] Exfoliating product
+[1.00 @ 0.67,0.91] 00.00.00.00
+---LEFT_LINES---
+0.36|e
+0.36|Help
+0.39|12:10:10 PM
+0.38|ĐỀ THI: ( NAILS (EN) 2026)
+0.43|NĐIỂM
+0.43|CÂU HỎI SỐ:
+0.43|21
+0.43|CỦA 97 CÂU HỎI.
+0.48|Vhat is used to help a plastic tip/artificial nail achere better to the
+0.50|atural nail?
+0.60|TRẢ LỜI:
+0.59|HỎI TIẾP THEO
+0.66|Primer
+0.73|Conditioning oil
+0.75|B
+0.82|Wann water
+0.89|Exfoliating product
+---CONTENT---
+0.43|NĐIỂM
+0.50|atural nail?
+0.66|Primer
+0.73|Conditioning oil
+0.82|Wann water
+0.89|Exfoliating product
+---CHOICE_ROWS---
+A y=0.66 meanG=212.5 lime=0.730 bright=61.7 text=Primer
+B y=0.74 meanG=213.7 lime=0.741 bright=55.1 text=Conditioning oil
+C y=0.82 meanG=211.8 lime=0.725 bright=45.2 text=Wann water
+D y=0.90 meanG=209.9 lime=0.718 bright=39.0 text=Exfoliating product
+SELECTED_HINT: none margin=6.6

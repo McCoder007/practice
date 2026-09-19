@@ -1,0 +1,67 @@
+FILE: IMG_4402.JPG
+ORIENTED: 4284x5712 CROP_TL: 257,1028,3769,3998
+LINES: 37
+---
+[1.00 @ 0.00,0.22] Help
+[0.30 @ 0.01,0.25] 11:26:09 AM
+[0.30 @ 0.37,0.25] ĐÈTHI: (INAILS (EN) 2026 )
+[0.30 @ 0.01,0.30] IN ĐIỂM
+[0.50 @ 0.12,0.29] CÂU HỎI SÓ:
+[1.00 @ 0.27,0.30] 59
+[0.50 @ 0.32,0.30] CỦA 97 CÂU HỎI
+[0.50 @ 0.68,0.33] Nail Trac Nghiem 2026_1.dll
+[1.00 @ -0.00,0.35] e correct way to remove blood-contaminated gloves is to:
+[1.00 @ 0.68,0.35] Nail Trac Nghiem 2026
+[0.30 @ 0.88,0.36] 2.dll
+[1.00 @ 0.67,0.38] Nail Trac Nghiem 2026
+[0.30 @ 0.87,0.38] _3.dil
+[0.50 @ 0.67,0.40] Nail Trac Nghiem 5.dil
+[1.00 @ 0.67,0.42] Nails Theory 2026.dll
+[0.50 @ 0.72,0.45] ĐỀ THI: ( NAILS (EN) 202
+[0.50 @ -0.00,0.48] Ả LỜI:
+[0.30 @ 0.47,0.49] СALА ПЁР TНEО
+[0.30 @ 0.69,0.50] THO BÀI MỚI
+[0.30 @ 0.68,0.53] HHẮC CÂU HỎI
+[0.30 @ 0.91,0.52] CHỌN BỈ
+[1.00 @ 0.03,0.54] Touch the outside surface directly
+[0.50 @ 0.67,0.59] TRÀ LỜI ĐÙNG: TRÀ LỜI SAI:
+[0.50 @ 0.94,0.59] ĐIỂM T
+[1.00 @ 0.03,0.63] Remove both gloves at the same time
+[1.00 @ 0.71,0.62] 56
+[1.00 @ 0.84,0.62] 2
+[0.50 @ 0.69,0.70] CHỈNH GIỜ CHO CUỘC 1
+[1.00 @ 0.03,0.72] Remove one at a time, turning them inside out
+[1.00 @ 0.71,0.77] 00
+[1.00 @ 0.80,0.77] 00
+[0.30 @ 0.85,0.77] GA)
+[1.00 @ 0.90,0.77] 00
+[0.30 @ 0.96,0.77] BAT
+[1.00 @ 0.04,0.80] Wipe and reuse them
+[1.00 @ 0.71,0.83] 00.00.00.00
+[0.30 @ 0.38,0.98] XIN ĐỌC BAN HUƠNG ĐAN O TREN
+---LEFT_LINES---
+0.30|IN ĐIỂM
+0.29|CÂU HỎI SÓ:
+0.30|59
+0.30|CỦA 97 CÂU HỎI
+0.35|e correct way to remove blood-contaminated gloves is to:
+0.48|Ả LỜI:
+0.49|СALА ПЁР TНEО
+0.54|Touch the outside surface directly
+0.63|Remove both gloves at the same time
+0.72|Remove one at a time, turning them inside out
+0.80|Wipe and reuse them
+---CONTENT---
+0.35|e correct way to remove blood-contaminated gloves is to:
+0.48|Ả LỜI:
+0.49|СALА ПЁР TНEО
+0.54|Touch the outside surface directly
+0.63|Remove both gloves at the same time
+0.72|Remove one at a time, turning them inside out
+0.80|Wipe and reuse them
+---CHOICE_ROWS---
+A y=0.49 meanG=164.4 lime=0.045 bright=18.2 text=Ả LỜI:
+B y=0.50 meanG=162.3 lime=0.024 bright=11.2 text=СALА ПЁР TНEО
+C y=0.56 meanG=202.3 lime=0.600 bright=56.4 text=Touch the outside surface directly
+D y=0.64 meanG=205.9 lime=0.650 bright=53.4 text=Remove both gloves at the same time
+SELECTED_HINT: none margin=2.9
