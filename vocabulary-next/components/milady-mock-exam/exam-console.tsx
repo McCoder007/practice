@@ -36,6 +36,7 @@ export function MockExamConsole() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [timeRemaining, setTimeRemaining] = useState(MOCK_EXAM_DURATION_SECONDS)
   const [showChinese, setShowChinese] = useState(false)
+  const [instantFeedback, setInstantFeedback] = useState(false)
   const [activePanel, setActivePanel] = useState<PanelId>("none")
   const [candidateName, setCandidateName] = useState("Ermuciniu Wang")
   const [tutorialRequested, setTutorialRequested] = useState(false)
@@ -209,6 +210,8 @@ export function MockExamConsole() {
         candidateId={CANDIDATE_ID}
         showChinese={showChinese}
         onToggleChinese={() => setShowChinese((prev) => !prev)}
+        instantFeedback={instantFeedback}
+        onToggleInstantFeedback={() => setInstantFeedback((prev) => !prev)}
       />
       <MockExamStatusBar
         questionNumber={currentIndex + 1}
@@ -223,6 +226,7 @@ export function MockExamConsole() {
           question={currentQuestion}
           selectedChoiceId={currentState.selectedChoiceId}
           showChinese={showChinese}
+          instantFeedback={instantFeedback}
           onSelectChoice={selectChoice}
         />
         <MockExamActionRail
