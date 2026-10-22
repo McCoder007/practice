@@ -19,7 +19,7 @@ export function MockExamInstantFeedbackToggle({
       onClick={onToggle}
       className="group flex h-8 shrink-0 items-center justify-center gap-1.5 rounded-full border border-neutral-300 bg-white px-2.5 shadow-sm transition-colors hover:bg-neutral-50"
     >
-      <span className="text-xs font-semibold text-neutral-700">Instant Feedback</span>
+      <span className="text-xs font-semibold text-neutral-700">Check</span>
       <span
         aria-hidden="true"
         className={cn("relative h-4 w-7 shrink-0 rounded-full transition-colors", enabled ? "bg-emerald-500" : "bg-neutral-300")}
