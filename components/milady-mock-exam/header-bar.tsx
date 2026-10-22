@@ -1,6 +1,6 @@
 "use client"
 
-import { MockExamChineseToggle } from "@/components/milady-mock-exam/chinese-toggle"
+import { MockExamChineseToggle, MockExamInstantFeedbackToggle } from "@/components/milady-mock-exam/chinese-toggle"
 import { MOCK_EXAM_TEXT } from "@/lib/milady-mock-exam-i18n"
 
 export function MockExamHeaderBar({
@@ -9,12 +9,16 @@ export function MockExamHeaderBar({
   candidateId,
   showChinese,
   onToggleChinese,
+  instantFeedback,
+  onToggleInstantFeedback,
 }: {
   examId: string
   candidateName: string
   candidateId: string
   showChinese: boolean
   onToggleChinese: () => void
+  instantFeedback: boolean
+  onToggleInstantFeedback: () => void
 }) {
   return (
     <div
@@ -32,6 +36,7 @@ export function MockExamHeaderBar({
         <span className="text-sm text-neutral-500">{examId}</span>
       </div>
       <div className="flex items-center gap-3">
+        <MockExamInstantFeedbackToggle enabled={instantFeedback} onToggle={onToggleInstantFeedback} />
         <div data-tutorial="chinese-toggle">
           <MockExamChineseToggle showChinese={showChinese} onToggle={onToggleChinese} />
         </div>

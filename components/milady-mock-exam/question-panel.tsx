@@ -7,11 +7,13 @@ export function MockExamQuestionPanel({
   question,
   selectedChoiceId,
   showChinese,
+  instantFeedback,
   onSelectChoice,
 }: {
   question: MockExamQuestion
   selectedChoiceId: string | null
   showChinese: boolean
+  instantFeedback: boolean
   onSelectChoice: (choiceId: string) => void
 }) {
   return (
@@ -23,6 +25,8 @@ export function MockExamQuestionPanel({
       <div className="flex flex-col gap-3 max-w-3xl">
         {question.choices.map((choice, index) => {
           const selected = choice.id === selectedChoiceId
+          const reveal = instantFeedback && selected
+          const isCorrect = choice.id === question.correctChoiceId
           return (
             <button
               key={choice.id}
@@ -31,9 +35,13 @@ export function MockExamQuestionPanel({
               onClick={() => onSelectChoice(choice.id)}
               className={cn(
                 "flex items-start gap-3 rounded-sm px-4 py-3 text-left text-sm transition-colors",
-                selected
-                  ? "bg-red-600 text-white"
-                  : "bg-neutral-200 text-neutral-900 hover:bg-neutral-300",
+                reveal
+                  ? isCorrect
+                    ? "bg-emerald-600 text-white"
+                    : "bg-red-600 text-white"
+                  : selected && !instantFeedback
+                    ? "bg-red-600 text-white"
+                    : "bg-neutral-200 text-neutral-900 hover:bg-neutral-300",
               )}
             >
               <span className="font-medium">{index + 1}.</span>
