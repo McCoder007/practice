@@ -11,7 +11,13 @@ import { MockExamScoreScreen } from "@/components/milady-mock-exam/score-screen"
 import { MockExamStatusBar } from "@/components/milady-mock-exam/status-bar"
 import { MockExamSummaryPanel } from "@/components/milady-mock-exam/summary-panel"
 import { MockExamTutorialOverlay } from "@/components/milady-mock-exam/tutorial-overlay"
-import { loadMockExamQuestions, type MockExamQuestion } from "@/data/milady-mock-exam/loadQuestions"
+import {
+  DEFAULT_MOCK_EXAM_BANK,
+  MOCK_EXAM_BANKS,
+  loadMockExamQuestions,
+  type MockExamBankId,
+  type MockExamQuestion,
+} from "@/data/milady-mock-exam/loadQuestions"
 import {
   MOCK_EXAM_DURATION_SECONDS,
   buildMockExamSession,
@@ -30,7 +36,9 @@ const CANDIDATE_ID = "1402266"
 
 export function MockExamConsole() {
   const [phase, setPhase] = useState<Phase>("loading")
+  const [bankId, setBankId] = useState<MockExamBankId>(DEFAULT_MOCK_EXAM_BANK)
   const [pool, setPool] = useState<MockExamQuestion[]>([])
+  const [poolBankId, setPoolBankId] = useState<MockExamBankId | null>(null)
   const [questions, setQuestions] = useState<MockExamQuestion[]>([])
   const [answers, setAnswers] = useState<MockExamAnswers>({})
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -53,15 +61,18 @@ export function MockExamConsole() {
 
   useEffect(() => {
     let cancelled = false
-    loadMockExamQuestions().then((loaded) => {
+    loadMockExamQuestions(bankId).then((loaded) => {
       if (cancelled) return
       setPool(loaded)
-      setPhase("start")
+      setPoolBankId(bankId)
+      setPhase((prev) => (prev === "loading" ? "start" : prev))
     })
     return () => {
       cancelled = true
     }
-  }, [])
+  }, [bankId])
+
+  const poolReady = poolBankId === bankId
 
   useEffect(() => {
     if (phase !== "in-progress" || showTutorial) return
@@ -97,12 +108,19 @@ export function MockExamConsole() {
   }
 
   useEffect(() => {
-    if (phase !== "start" || !tutorialRequested || pool.length === 0) return
+    if (phase !== "start" || !tutorialRequested || !poolReady || pool.length === 0) return
     startExam()
     setShowTutorial(true)
     // The tutorial deliberately starts only after the hidden URL flag and question pool are ready.
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [phase, tutorialRequested, pool.length])
+  }, [phase, tutorialRequested, poolReady, pool.length])
+
+  function returnToStart() {
+    // Clear the tutorial flag so the start screen stays put for picking a bank.
+    setTutorialRequested(false)
+    setActivePanel("none")
+    setPhase("start")
+  }
 
   function selectChoice(choiceId: string) {
     if (!currentQuestion) return
@@ -159,11 +177,28 @@ export function MockExamConsole() {
           <span className="-mt-3 text-base text-neutral-500">{MOCK_EXAM_TEXT.examTitle.zh}</span>
         ) : null}
         <p className="max-w-md text-sm text-neutral-600">
-          {MOCK_EXAM_TEXT.examIntro.en(pool.length)}
+          {poolReady ? MOCK_EXAM_TEXT.examIntro.en(pool.length) : MOCK_EXAM_TEXT.loadingExam.en}
           {showChinese ? (
-            <span className="mt-1 block text-neutral-500">{MOCK_EXAM_TEXT.examIntro.zh(pool.length)}</span>
+            <span className="mt-1 block text-neutral-500">
+              {poolReady ? MOCK_EXAM_TEXT.examIntro.zh(pool.length) : MOCK_EXAM_TEXT.loadingExam.zh}
+            </span>
           ) : null}
         </p>
+        <label className="flex flex-col gap-1 text-sm text-neutral-700">
+          {MOCK_EXAM_TEXT.questionBank.en}
+          {showChinese ? <span className="text-xs text-neutral-500">{MOCK_EXAM_TEXT.questionBank.zh}</span> : null}
+          <select
+            value={bankId}
+            onChange={(event) => setBankId(event.target.value as MockExamBankId)}
+            className="rounded-sm border border-neutral-300 bg-white px-3 py-2 text-center"
+          >
+            {MOCK_EXAM_BANKS.map((bank) => (
+              <option key={bank.id} value={bank.id}>
+                {showChinese ? `${bank.name.en} · ${bank.name.zh}` : bank.name.en}
+              </option>
+            ))}
+          </select>
+        </label>
         <label className="flex flex-col gap-1 text-sm text-neutral-700">
           {MOCK_EXAM_TEXT.candidateName.en}
           {showChinese ? <span className="text-xs text-neutral-500">{MOCK_EXAM_TEXT.candidateName.zh}</span> : null}
@@ -176,7 +211,8 @@ export function MockExamConsole() {
         <button
           type="button"
           onClick={startExam}
-          className="rounded-sm bg-red-600 px-6 py-2.5 text-sm font-medium text-white hover:bg-red-700"
+          disabled={!poolReady || pool.length === 0}
+          className="rounded-sm bg-red-600 px-6 py-2.5 text-sm font-medium text-white hover:bg-red-700 disabled:cursor-not-allowed disabled:opacity-50"
         >
           {MOCK_EXAM_TEXT.beginExam.en}
           {showChinese ? <span className="ml-1.5">{MOCK_EXAM_TEXT.beginExam.zh}</span> : null}
@@ -194,7 +230,7 @@ export function MockExamConsole() {
         correct={correct}
         total={total}
         showChinese={showChinese}
-        onRestart={startExam}
+        onRestart={returnToStart}
       />
     )
   }
