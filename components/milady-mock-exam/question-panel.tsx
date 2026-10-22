@@ -29,18 +29,18 @@ export function MockExamQuestionPanel({
           const isCorrect = choice.id === question.correctChoiceId
           return (
             <button
-              key={choice.id}
+              key={`${question.id}:${choice.id}`}
               data-tutorial={index === 0 ? "answer-choice" : undefined}
               type="button"
               onClick={() => onSelectChoice(choice.id)}
               className={cn(
-                "flex items-start gap-3 rounded-sm px-4 py-3 text-left text-sm transition-colors",
+                "flex items-start gap-3 rounded-sm px-4 py-3 text-left text-sm",
                 reveal
                   ? isCorrect
                     ? "bg-emerald-600 text-white"
                     : "bg-red-600 text-white"
-                  : selected && !instantFeedback
-                    ? "bg-red-600 text-white"
+                  : selected
+                    ? "bg-blue-600 text-white"
                     : "bg-neutral-200 text-neutral-900 hover:bg-neutral-300",
               )}
             >
@@ -53,6 +53,11 @@ export function MockExamQuestionPanel({
                   </span>
                 ) : null}
               </span>
+              {reveal ? (
+                <span aria-label={isCorrect ? "Correct" : "Incorrect"} className="ml-auto text-lg font-bold leading-none">
+                  {isCorrect ? "✓" : "✗"}
+                </span>
+              ) : null}
             </button>
           )
         })}

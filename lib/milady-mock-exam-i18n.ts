@@ -31,6 +31,7 @@ export const MOCK_EXAM_TEXT = {
   yourAnswer: { en: "Your answer:", zh: "你的答案：" },
   correctAnswer: { en: "Correct answer:", zh: "正确答案：" },
   candidateName: { en: "Candidate name", zh: "考生姓名" },
+  questionBank: { en: "Question bank", zh: "题库" },
   beginExam: { en: "Begin Exam", zh: "开始考试" },
   loadingExam: { en: "Loading exam…", zh: "考试加载中……" },
   examIntro: {

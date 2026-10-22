@@ -9,7 +9,7 @@ export function MockExamInstantFeedbackToggle({
   enabled: boolean
   onToggle: () => void
 }) {
-  const label = enabled ? "Turn off instant feedback" : "Turn on instant feedback"
+  const label = enabled ? "Turn off Check (instant feedback)" : "Turn on Check (instant feedback)"
   return (
     <button
       type="button"
