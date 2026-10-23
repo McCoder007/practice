@@ -16,10 +16,10 @@ D. Fabric-covered to hide stains / 包一层布，遮住污渍
 
 **2. Why are fluorescent bulbs popular for manicure table lamps?**  
 为什么美甲桌台灯常用荧光灯（fluorescent bulb）？  
-A. They make polish dry faster. / 让指甲油干得更快。  
-B. They disinfect the work surface. / 能给桌面消毒。  
-C. They make skin look more golden. / 让皮肤看起来更偏金黄。  
-D. They give off cooler light. / 发出的光比较凉。 ✅  
+A. They make polish dry faster. / 让指甲油干得更快  
+B. They disinfect the work surface. / 能给桌面消毒  
+C. They make skin look more golden. / 让皮肤看起来更偏金黄  
+D. They give off cooler light. / 发出的光比较凉 ✅  
 *Why:* Fluorescent bulbs emit cooler light and do not heat objects under the lamp. Heat from a high-watt incandescent bulb can make some enhancement products cure too fast, causing cracking and lifting.  
 *为什么:* 荧光灯光线较凉，不会烤热灯下的东西。高瓦数白炽灯（incandescent bulb）的热量会让某些加固产品固化太快，导致开裂和翘起（lifting）。  
 *Lock this (real-life):* A regular bulb can burn your finger. A fluorescent one stays much cooler. It puts less heat on curing product.  
@@ -40,10 +40,10 @@ D. Neither chair / 两把都不要
 
 **4. After each client, a finger bowl must be**  
 每位顾客用完后，泡手碗（finger bowl）必须怎样处理？  
-A. cleaned and disinfected. / 清洁并消毒。 ✅  
-B. rinsed and refilled only. / 只冲一冲再加水。  
-C. thrown away. / 扔掉。  
-D. stored with the water in it. / 连水一起收起来。  
+A. cleaned and disinfected. / 清洁并消毒 ✅  
+B. rinsed and refilled only. / 只冲一冲再加水  
+C. thrown away. / 扔掉  
+D. stored with the water in it. / 连水一起收起来  
 *Why:* A finger bowl is used on client after client, so it is a multiuse item, not thrown away. Multiuse items must be cleaned and disinfected, not just rinsed, before the next client.  
 *为什么:* 泡手碗（finger bowl）一位接一位顾客重复使用，所以它是可重复使用的（multiuse）物品，不是用完就丢。可重复使用的物品在下一位顾客之前必须清洁并消毒，不能只冲一冲。  
 *Lock this (picture):* Warm, wet, and touched by skin: the perfect place for germs. Disinfect before the next hands go in.  
@@ -52,10 +52,10 @@ D. stored with the water in it. / 连水一起收起来。
 
 **5. A disinfection container must be large enough to**  
 消毒缸（disinfection container）必须大到能怎样？  
-A. hold the tips of implements only. / 只浸泡工具的尖端。  
-B. hold one implement at a time. / 一次只放一件工具。  
-C. fully cover implements, handles included. / 把工具完全浸没，包括手柄。 ✅  
-D. store a week of used implements. / 存放一周用过的工具。  
+A. hold the tips of implements only. / 只浸泡工具的尖端  
+B. hold one implement at a time. / 一次只放一件工具  
+C. fully cover implements, handles included. / 把工具完全浸没，包括手柄 ✅  
+D. store a week of used implements. / 存放一周用过的工具  
 *Why:* It must hold enough disinfectant to completely immerse several service sets. Containers that cannot submerge the entire implement, including handles, are not acceptable. Keep it closed when not in use.  
 *为什么:* 它要装足够的消毒液，能完全浸没好几套工具（service sets）。不能把整件工具（包括手柄）浸没的容器不能用。不用时要盖好。  
 *Lock this (reason-chain):* You hold a tool by its handle. If the handle sticks out of the liquid, its germs survive.  
@@ -100,10 +100,10 @@ D. Measures the client's body temperature / 测量顾客的体温
 
 **9. On an electric file, torque is**  
 打磨机的扭力（torque）是指什么？  
-A. the top speed of the bit. / 磨头的最高转速。  
-B. the size of the bit's shank. / 磨头柄（shank）的粗细。  
-C. its power to keep turning under pressure. / 受压时继续转动的力量。 ✅  
-D. the coarseness of the bit. / 磨头的粗糙程度。  
+A. the top speed of the bit. / 磨头的最高转速  
+B. the size of the bit's shank. / 磨头柄（shank）的粗细  
+C. its power to keep turning under pressure. / 受压时继续转动的力量 ✅  
+D. the coarseness of the bit. / 磨头的粗糙程度  
 *Why:* Torque is the machine's power, its ability to keep turning when you press during filing. High-torque machines do more at lower speeds. If the handpiece slows or stops under pressure, the speed is too low.  
 *为什么:* 扭力（torque）是机器的力量，也就是打磨时受压仍能继续转动的能力。高扭力机器在较低转速下就能做更多。手柄一受压就变慢或停转，说明转速太低。  
 *Lock this (chinese-character):* The Chinese name means "twisting power." Torque is turning power, not top speed.  
@@ -160,10 +160,10 @@ D. In the bit's shank / 在磨头柄（shank）里
 
 **14. On an electric file, RPM measures**  
 电动打磨机上的 RPM 测量的是什么？  
-A. full turns of the bit per minute. / 磨头每分钟转的整圈数。 ✅  
-B. the weight of the handpiece. / 手柄的重量。  
-C. the heat on the nail surface. / 指甲表面的温度。  
-D. the grit size of the bit. / 磨头的粗细（grit）。  
+A. full turns of the bit per minute. / 磨头每分钟转的整圈数 ✅  
+B. the weight of the handpiece. / 手柄的重量  
+C. the heat on the nail surface. / 指甲表面的温度  
+D. the grit size of the bit. / 磨头的粗细（grit）  
 *Why:* RPM means revolutions per minute: how many full circles the bit spins in one minute. Working in the middle of the machine's range makes the motor last longer.  
 *为什么:* RPM = revolutions per minute（每分钟转数），即磨头一分钟转几整圈。在机器转速范围的中间档工作，电机更耐用。  
 *Lock this (real-acronym):* R = Revolutions (full turns), P = Per, M = Minute. Like a car's speedometer, but for the bit.  
@@ -172,10 +172,10 @@ D. the grit size of the bit. / 磨头的粗细（grit）。
 
 **15. A concentric bit is one that**  
 concentric bit（同心磨头）是指什么样的磨头？  
-A. has a rounded safety tip. / 有圆头安全设计。  
-B. is used once, then thrown away. / 用一次就扔。  
-C. is balanced and does not wobble. / 平衡，不晃动。 ✅  
-D. has grooves called flutes. / 表面有叫 flutes（刃槽）的槽纹。  
+A. has a rounded safety tip. / 有圆头安全设计  
+B. is used once, then thrown away. / 用一次就扔  
+C. is balanced and does not wobble. / 平衡，不晃动 ✅  
+D. has grooves called flutes. / 表面有叫 flutes（刃槽）的槽纹  
 *Why:* Concentric bits are balanced, with the shank centered on the head, so they do not wobble or vibrate. Wobbling bits can damage the handpiece and the client's nail.  
 *为什么:* 同心磨头（concentric bit）是平衡的，柄（shank）正对磨头中心，所以不晃也不震。晃动的磨头会损坏手柄和顾客的指甲。  
 *Lock this (word-parts):* Con = together, centric = center. Head and shank share one center, so it spins without wobbling.  
@@ -208,10 +208,10 @@ D. Sanding band / 砂圈（sanding band） ✅
 
 **18. What does a UL mark on an electric file or UV lamp show?**  
 打磨机或 UV 灯上的 UL 标志说明什么？  
-A. Its electrical safety is certified. / 它的用电安全经过认证。 ✅  
-B. It is EPA-registered as a disinfectant. / 它是 EPA 注册的消毒产品。  
-C. It is licensed by the state board. / 它获得州委员会许可。  
-D. It was made in the United States. / 它是美国制造的。  
+A. Its electrical safety is certified. / 它的用电安全经过认证 ✅  
+B. It is EPA-registered as a disinfectant. / 它是 EPA 注册的消毒产品  
+C. It is licensed by the state board. / 它获得州委员会许可  
+D. It was made in the United States. / 它是美国制造的  
 *Why:* Underwriters Laboratories (UL) certifies that electrical appliances, such as UV lamps, pedicure chairs, heating mitts, and electric files, are safe when used according to the manufacturer's directions.  
 *为什么:* UL（Underwriters Laboratories，美国保险商实验室）认证电器，如 UV 灯、修脚椅、电热手套和打磨机，按厂家说明使用时是安全的。  
 *Lock this (real-acronym):* UL = Underwriters Laboratories, a lab that tests electric things. The UL mark means it passed safety tests.  

@@ -28,22 +28,22 @@
         {
           "id": "a",
           "en": "lunula.",
-          "zh": "甲半月（lunula）。"
+          "zh": "甲半月（lunula）"
         },
         {
           "id": "b",
           "en": "onyx.",
-          "zh": "甲（onyx）。"
+          "zh": "甲（onyx）"
         },
         {
           "id": "c",
           "en": "matrix.",
-          "zh": "甲母质（matrix）。"
+          "zh": "甲母质（matrix）"
         },
         {
           "id": "d",
           "en": "hyponychium.",
-          "zh": "甲下皮（hyponychium）。"
+          "zh": "甲下皮（hyponychium）"
         }
       ],
       "correctChoice": "b",
@@ -110,22 +110,22 @@
         {
           "id": "a",
           "en": "collagen.",
-          "zh": "胶原蛋白（collagen）。"
+          "zh": "胶原蛋白（collagen）"
         },
         {
           "id": "b",
           "en": "melanin.",
-          "zh": "黑色素（melanin）。"
+          "zh": "黑色素（melanin）"
         },
         {
           "id": "c",
           "en": "keratin.",
-          "zh": "角蛋白（keratin）。"
+          "zh": "角蛋白（keratin）"
         },
         {
           "id": "d",
           "en": "elastin.",
-          "zh": "弹性蛋白（elastin）。"
+          "zh": "弹性蛋白（elastin）"
         }
       ],
       "correctChoice": "c",
@@ -244,22 +244,22 @@
         {
           "id": "a",
           "en": "cuticle.",
-          "zh": "甲小皮（cuticle）。"
+          "zh": "甲小皮（cuticle）"
         },
         {
           "id": "b",
           "en": "eponychium.",
-          "zh": "甲上皮（eponychium）。"
+          "zh": "甲上皮（eponychium）"
         },
         {
           "id": "c",
           "en": "free edge.",
-          "zh": "游离缘（free edge）。"
+          "zh": "游离缘（free edge）"
         },
         {
           "id": "d",
           "en": "lunula.",
-          "zh": "甲半月（lunula）。"
+          "zh": "甲半月（lunula）"
         }
       ],
       "correctChoice": "d",
@@ -302,22 +302,22 @@
         {
           "id": "a",
           "en": "eponychium.",
-          "zh": "甲上皮（eponychium）。"
+          "zh": "甲上皮（eponychium）"
         },
         {
           "id": "b",
           "en": "hyponychium.",
-          "zh": "甲下皮（hyponychium）。"
+          "zh": "甲下皮（hyponychium）"
         },
         {
           "id": "c",
           "en": "cuticle.",
-          "zh": "甲小皮（cuticle）。"
+          "zh": "甲小皮（cuticle）"
         },
         {
           "id": "d",
           "en": "lateral nail fold.",
-          "zh": "侧甲襞（lateral nail fold）。"
+          "zh": "侧甲襞（lateral nail fold）"
         }
       ],
       "correctChoice": "c",
@@ -418,22 +418,22 @@
         {
           "id": "a",
           "en": "eponychium.",
-          "zh": "甲上皮（eponychium）。"
+          "zh": "甲上皮（eponychium）"
         },
         {
           "id": "b",
           "en": "lunula.",
-          "zh": "甲半月（lunula）。"
+          "zh": "甲半月（lunula）"
         },
         {
           "id": "c",
           "en": "nail bed.",
-          "zh": "甲床（nail bed）。"
+          "zh": "甲床（nail bed）"
         },
         {
           "id": "d",
           "en": "hyponychium.",
-          "zh": "甲下皮（hyponychium）。"
+          "zh": "甲下皮（hyponychium）"
         }
       ],
       "correctChoice": "d",
@@ -476,22 +476,22 @@
         {
           "id": "a",
           "en": "nail bed.",
-          "zh": "甲床（nail bed）。"
+          "zh": "甲床（nail bed）"
         },
         {
           "id": "b",
           "en": "nail plate.",
-          "zh": "甲板（nail plate）。"
+          "zh": "甲板（nail plate）"
         },
         {
           "id": "c",
           "en": "matrix.",
-          "zh": "甲母质（matrix）。"
+          "zh": "甲母质（matrix）"
         },
         {
           "id": "d",
           "en": "eponychium.",
-          "zh": "甲上皮（eponychium）。"
+          "zh": "甲上皮（eponychium）"
         }
       ],
       "correctChoice": "b",
@@ -538,22 +538,22 @@
         {
           "id": "a",
           "en": "It is rich in blood vessels.",
-          "zh": "它血管丰富。"
+          "zh": "它血管丰富"
         },
         {
           "id": "b",
           "en": "It contains extra melanin.",
-          "zh": "它含有较多黑色素。"
+          "zh": "它含有较多黑色素"
         },
         {
           "id": "c",
           "en": "Light reflects off the matrix.",
-          "zh": "光从甲母质反射。"
+          "zh": "光从甲母质反射"
         },
         {
           "id": "d",
           "en": "The cuticle covers it.",
-          "zh": "甲小皮盖在上面。"
+          "zh": "甲小皮盖在上面"
         }
       ],
       "correctChoice": "a",
@@ -708,22 +708,22 @@
         {
           "id": "a",
           "en": "proximal nail fold.",
-          "zh": "近端甲襞（proximal nail fold）。"
+          "zh": "近端甲襞（proximal nail fold）"
         },
         {
           "id": "b",
           "en": "lateral nail fold.",
-          "zh": "侧甲襞（lateral nail fold）。"
+          "zh": "侧甲襞（lateral nail fold）"
         },
         {
           "id": "c",
           "en": "hyponychium.",
-          "zh": "甲下皮（hyponychium）。"
+          "zh": "甲下皮（hyponychium）"
         },
         {
           "id": "d",
           "en": "eponychium.",
-          "zh": "甲上皮（eponychium）。"
+          "zh": "甲上皮（eponychium）"
         }
       ],
       "correctChoice": "b",
@@ -766,22 +766,22 @@
         {
           "id": "a",
           "en": "more slowly.",
-          "zh": "更慢。"
+          "zh": "更慢"
         },
         {
           "id": "b",
           "en": "at the same rate.",
-          "zh": "速度一样。"
+          "zh": "速度一样"
         },
         {
           "id": "c",
           "en": "faster in winter than summer.",
-          "zh": "冬天比夏天长得快。"
+          "zh": "冬天比夏天长得快"
         },
         {
           "id": "d",
           "en": "more rapidly.",
-          "zh": "更快。"
+          "zh": "更快"
         }
       ],
       "correctChoice": "d",
@@ -834,22 +834,22 @@
         {
           "id": "a",
           "en": "living tissue that must not be cut.",
-          "zh": "不能剪的活组织。"
+          "zh": "不能剪的活组织"
         },
         {
           "id": "b",
           "en": "dead tissue that can be trimmed.",
-          "zh": "可以修剪的死组织。"
+          "zh": "可以修剪的死组织"
         },
         {
           "id": "c",
           "en": "part of the nail plate.",
-          "zh": "甲板的一部分。"
+          "zh": "甲板的一部分"
         },
         {
           "id": "d",
           "en": "the same tissue as the cuticle.",
-          "zh": "与甲小皮是同一种组织。"
+          "zh": "与甲小皮是同一种组织"
         }
       ],
       "correctChoice": "a",
@@ -1010,22 +1010,22 @@
         {
           "id": "a",
           "en": "the winter months.",
-          "zh": "冬季。"
+          "zh": "冬季"
         },
         {
           "id": "b",
           "en": "old age.",
-          "zh": "老年。"
+          "zh": "老年"
         },
         {
           "id": "c",
           "en": "prenatal vitamin use.",
-          "zh": "服用孕期维生素时。"
+          "zh": "服用孕期维生素时"
         },
         {
           "id": "d",
           "en": "the last trimester of pregnancy.",
-          "zh": "怀孕的最后三个月（last trimester）。"
+          "zh": "怀孕的最后三个月（last trimester）"
         }
       ],
       "correctChoice": "d",
@@ -1126,22 +1126,22 @@
         {
           "id": "a",
           "en": "nail bed.",
-          "zh": "甲床（nail bed）。"
+          "zh": "甲床（nail bed）"
         },
         {
           "id": "b",
           "en": "cuticle.",
-          "zh": "甲小皮（cuticle）。"
+          "zh": "甲小皮（cuticle）"
         },
         {
           "id": "c",
           "en": "matrix.",
-          "zh": "甲母质（matrix）。"
+          "zh": "甲母质（matrix）"
         },
         {
           "id": "d",
           "en": "hyponychium.",
-          "zh": "甲下皮（hyponychium）。"
+          "zh": "甲下皮（hyponychium）"
         }
       ],
       "correctChoice": "c",
@@ -1194,22 +1194,22 @@
         {
           "id": "a",
           "en": "2 to 5 percent.",
-          "zh": "2% 至 5%。"
+          "zh": "2% 至 5%"
         },
         {
           "id": "b",
           "en": "15 to 25 percent.",
-          "zh": "15% 至 25%。"
+          "zh": "15% 至 25%"
         },
         {
           "id": "c",
           "en": "50 to 60 percent.",
-          "zh": "50% 至 60%。"
+          "zh": "50% 至 60%"
         },
         {
           "id": "d",
           "en": "75 to 85 percent.",
-          "zh": "75% 至 85%。"
+          "zh": "75% 至 85%"
         }
       ],
       "correctChoice": "b",

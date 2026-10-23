@@ -28,10 +28,10 @@ D. FDA / FDA（食品药品监督管理局）
 
 **3. Disinfection is NOT effective against**  
 消毒（disinfection）对下列哪一种无效？  
-A. most bacteria. / 大多数细菌。  
-B. viruses. / 病毒。  
-C. bacterial spores. / 细菌芽孢。 ✅  
-D. fungi. / 真菌。  
+A. most bacteria. / 大多数细菌  
+B. viruses. / 病毒  
+C. bacterial spores. / 细菌芽孢 ✅  
+D. fungi. / 真菌  
 *Why:* Disinfectants destroy most bacteria, fungi, and viruses on surfaces, but not bacterial spores. Only sterilization destroys spores.  
 *为什么:* disinfectants（消毒剂）能消灭表面上大多数细菌、真菌和病毒，但杀不死 bacterial spores（细菌芽孢）。只有 sterilization（灭菌）能消灭芽孢。  
 *Lock this (picture):* A spore wears a hard coat that disinfectant can't get through. It waits for good times, then takes it off.  
@@ -40,10 +40,10 @@ D. fungi. / 真菌。
 
 **4. What must be done to an implement before it can be disinfected?**  
 工具在消毒之前必须先做什么？  
-A. It must be cleaned. / 必须先清洁。 ✅  
-B. It must be sterilized. / 必须先灭菌。  
-C. It must be wiped with alcohol. / 必须先用酒精擦。  
-D. It must sit under UV light. / 必须先放在紫外线灯下。  
+A. It must be cleaned. / 必须先清洁 ✅  
+B. It must be sterilized. / 必须先灭菌  
+C. It must be wiped with alcohol. / 必须先用酒精擦  
+D. It must sit under UV light. / 必须先放在紫外线灯下  
 *Why:* Cleaning removes dirt, oils, and residue that block the disinfectant. A surface must be properly cleaned before it can be properly disinfected.  
 *为什么:* cleaning（清洁）能去掉会妨碍消毒剂起作用的污垢、油脂和残留物。表面必须先正确清洁，才能正确消毒。  
 *Lock this (comparison):* Milady’s picture: disinfecting without cleaning is like using mouthwash without brushing your teeth.  
@@ -52,10 +52,10 @@ D. It must sit under UV light. / 必须先放在紫外线灯下。
 
 **5. A disinfectant’s contact time is how long it must**  
 消毒剂的接触时间（contact time）是指它必须：  
-A. sit in the bottle after mixing. / 调好后在瓶子里放置。  
-B. dry before the tool is used. / 在使用工具前晾干。  
-C. stay visibly moist on the surface. / 在表面上保持肉眼可见的湿润。 ✅  
-D. heat up before use. / 使用前加热。  
+A. sit in the bottle after mixing. / 调好后在瓶子里放置  
+B. dry before the tool is used. / 在使用工具前晾干  
+C. stay visibly moist on the surface. / 在表面上保持肉眼可见的湿润 ✅  
+D. heat up before use. / 使用前加热  
 *Why:* Contact time is the time listed on the label that a disinfectant must stay visibly moist to kill the pathogens on the label. Times vary by product.  
 *为什么:* contact time（接触时间）是标签上写的、消毒剂必须保持肉眼可见湿润的时间，这样才能杀死标签上列出的病原体。不同产品时间不同。  
 *Lock this (word-link):* Contact means touching. Wet disinfectant keeps touching the germs. Once it dries, it stops working.  
@@ -64,10 +64,10 @@ D. heat up before use. / 使用前加热。
 
 **6. What is the correct way to dilute a disinfectant concentrate?**  
 稀释消毒剂浓缩液的正确方法是什么？  
-A. Add the water to the concentrate. / 把水倒入浓缩液中。  
-B. Add the concentrate to the water. / 把浓缩液倒入水中。 ✅  
-C. Add extra concentrate for strength. / 多加浓缩液让它更强。  
-D. Add bleach to boost it. / 加漂白水增强效果。  
+A. Add the water to the concentrate. / 把水倒入浓缩液中  
+B. Add the concentrate to the water. / 把浓缩液倒入水中 ✅  
+C. Add extra concentrate for strength. / 多加浓缩液让它更强  
+D. Add bleach to boost it. / 加漂白水增强效果  
 *Why:* Always add the disinfectant concentrate to the water. Adding water to the disinfectant can cause foaming, which leads to the wrong mixing ratio.  
 *为什么:* 一定要把消毒剂浓缩液倒进水里。把水倒进消毒剂里会起泡，导致配比不准。  
 *Lock this (real-life):* Run tap water onto bubble bath and foam rises. So pour the concentrate into the water instead.  
@@ -88,10 +88,10 @@ D. CDC / CDC（疾病控制与预防中心）
 
 **8. A salon disinfectant should be bactericidal, virucidal, and**  
 美容店用的消毒剂应能杀细菌（bactericidal）、杀病毒（virucidal），还要能：  
-A. sporicidal. / 杀芽孢（sporicidal）。  
-B. antiseptic. / 用作皮肤抗菌剂。  
-C. nontoxic. / 无毒。  
-D. fungicidal. / 杀真菌（fungicidal）。 ✅  
+A. sporicidal. / 杀芽孢（sporicidal）  
+B. antiseptic. / 用作皮肤抗菌剂  
+C. nontoxic. / 无毒  
+D. fungicidal. / 杀真菌（fungicidal） ✅  
 *Why:* At least, salon disinfectants must kill bacteria, viruses, and fungi: bactericidal, virucidal, fungicidal. Disinfectants do not kill spores (sporicidal). Only sterilizing does. Antiseptics are for skin, not tools.  
 *为什么:* 美容店用的消毒剂至少要能杀细菌、病毒和真菌：bactericidal（杀细菌）、virucidal（杀病毒）、fungicidal（杀真菌）。消毒剂杀不死芽孢（sporicidal 杀芽孢）。只有 sterilizing（灭菌）能做到。antiseptic（皮肤抗菌剂）是用在皮肤上的，不是用在工具上的。  
 *Lock this (word-parts):* -cidal = killing, as in pesticide. Bacteria, viruses, fungi: three germ groups, three -cidal words.  
@@ -112,10 +112,10 @@ D. Alcohol / 酒精
 
 **10. A tuberculocidal disinfectant is proven to kill**  
 具有杀结核菌作用（tuberculocidal）的消毒剂，经证实能杀死：  
-A. the bacterium that causes tuberculosis. / 引起结核病的细菌。 ✅  
-B. head lice. / 头虱。  
-C. the itch mite. / 疥螨。  
-D. all bacterial spores. / 所有细菌芽孢。  
+A. the bacterium that causes tuberculosis. / 引起结核病的细菌 ✅  
+B. head lice. / 头虱  
+C. the itch mite. / 疥螨  
+D. all bacterial spores. / 所有细菌芽孢  
 *Why:* Tuberculocidal disinfectants kill the bacterium that causes tuberculosis, plus the germs hospital disinfectants kill. Some states still require them, so check your state rules.  
 *为什么:* tuberculocidal disinfectants（杀结核菌消毒剂）能杀死引起 tuberculosis（结核病）的细菌，以及医院级消毒剂能杀的病菌。有些州仍然要求使用，要查本州规定。  
 *Lock this (word-parts):* Tuberculo = TB. TB spreads only by breathing it in, not by hands or surfaces.  
@@ -136,10 +136,10 @@ D. 30 days / 30 天
 
 **12. In the salon, isopropyl alcohol should be used only as**  
 在美甲店里，异丙醇（isopropyl alcohol）只应用作：  
-A. an implement disinfectant. / 工具消毒剂。  
-B. a sterilizer for metal tools. / 金属工具灭菌剂。  
-C. a pedicure basin disinfectant. / 足浴盆消毒剂。  
-D. a cleaner or antiseptic. / 清洁剂或皮肤抗菌剂。 ✅  
+A. an implement disinfectant. / 工具消毒剂  
+B. a sterilizer for metal tools. / 金属工具灭菌剂  
+C. a pedicure basin disinfectant. / 足浴盆消毒剂  
+D. a cleaner or antiseptic. / 清洁剂或皮肤抗菌剂 ✅  
 *Why:* Alcohol cleans skin but is very drying. Milady says it is not a disinfectant for surfaces or implements; use it only as a cleaner or antiseptic.  
 *为什么:* 酒精能清洁皮肤，但很容易让皮肤变干。Milady 说它不是用于表面或工具的消毒剂，只能当清洁剂或 antiseptic（皮肤抗菌剂）用。  
 *Lock this (real-life):* A strong smell is not proof. No word “disinfectant” on the label means it is only a cleaner.  
@@ -148,10 +148,10 @@ D. a cleaner or antiseptic. / 清洁剂或皮肤抗菌剂。 ✅
 
 **13. Antiseptics are made for use on**  
 皮肤抗菌剂（antiseptics）是用在哪里的？  
-A. implements. / 工具上。  
-B. work surfaces. / 工作台面上。  
-C. skin. / 皮肤上。 ✅  
-D. pedicure basins. / 足浴盆上。  
+A. implements. / 工具上  
+B. work surfaces. / 工作台面上  
+C. skin. / 皮肤上 ✅  
+D. pedicure basins. / 足浴盆上  
 *Why:* Antiseptics are germicides made for skin and are regulated by the FDA. They slow germ growth on skin but do not work for disinfecting implements or surfaces.  
 *为什么:* antiseptics（皮肤抗菌剂）是专为皮肤配制的杀菌剂，由 FDA 监管。它能减缓皮肤上病菌的生长，但不能用来给工具或台面消毒。  
 *Lock this (word-parts):* Anti = against, septic = rotting. On skin: FDA antiseptic. On tools: EPA disinfectant.  
@@ -160,10 +160,10 @@ D. pedicure basins. / 足浴盆上。
 
 **14. Disinfectants should be used only on surfaces that are**  
 消毒剂只能用在什么样的表面上？  
-A. covered in visible debris. / 有明显污垢残渣的表面。  
-B. clean, hard, and nonporous. / 干净、坚硬、不吸水的表面。 ✅  
-C. soft and absorbent. / 柔软、会吸水的表面。  
-D. human skin and nails. / 人的皮肤和指甲。  
+A. covered in visible debris. / 有明显污垢残渣的表面  
+B. clean, hard, and nonporous. / 干净、坚硬、不吸水的表面 ✅  
+C. soft and absorbent. / 柔软、会吸水的表面  
+D. human skin and nails. / 人的皮肤和指甲  
 *Why:* Use disinfectants only on clean, hard, nonporous surfaces. Nonporous items have no pores and cannot absorb liquids. Disinfectants are not for skin, hair, or nails.  
 *为什么:* 消毒剂只能用在干净、坚硬、nonporous（无孔、不吸水）的表面上。无孔物品没有小孔，不会吸收液体。消毒剂不能用在皮肤、头发或指甲上。  
 *Lock this (picture):* Porous is like a sponge: germs hide deep in the holes, where disinfectant can’t reach them all.  
@@ -172,10 +172,10 @@ D. human skin and nails. / 人的皮肤和指甲。
 
 **15. Toe separators cannot be disinfected, so after a pedicure they must be**  
 分趾器（toe separators）不能消毒，所以足疗后必须：  
-A. soaked in disinfectant overnight. / 在消毒液里泡一夜。  
-B. rinsed and saved for the next client. / 冲洗后留给下一位客人。  
-C. sprayed with alcohol and reused. / 喷酒精后再用。  
-D. thrown away or given to the client. / 丢掉或送给客人。 ✅  
+A. soaked in disinfectant overnight. / 在消毒液里泡一夜  
+B. rinsed and saved for the next client. / 冲洗后留给下一位客人  
+C. sprayed with alcohol and reused. / 喷酒精后再用  
+D. thrown away or given to the client. / 丢掉或送给客人 ✅  
 *Why:* Single-use items cannot be properly cleaned and disinfected, so they are used on one client only. Use a new set of toe separators for each client.  
 *为什么:* single-use（一次性）用品无法正确清洁和消毒，所以只能给一位客人用。每位客人都要用一副新的分趾器。  
 *Lock this (real-life):* Same group as wooden pushers and pedicure slippers: one client, then gone.  
@@ -196,10 +196,10 @@ D. Dip the client’s fingertip in / 让客人指尖直接蘸
 
 **17. Standard Precautions require you to treat all blood and body fluids as**  
 标准预防措施（Standard Precautions）要求你把所有血液和体液都当作：  
-A. safe unless the client looks sick. / 安全的，除非客人看起来生病。  
-B. a risk only in medical offices. / 只在医疗机构才有风险。  
-C. potentially infectious. / 可能有传染性。 ✅  
-D. harmless once they dry. / 干了就无害。  
+A. safe unless the client looks sick. / 安全的，除非客人看起来生病  
+B. a risk only in medical offices. / 只在医疗机构才有风险  
+C. potentially infectious. / 可能有传染性 ✅  
+D. harmless once they dry. / 干了就无害  
 *Why:* Standard Precautions are CDC guidelines. Many people carry infections with no symptoms, so you must assume any human blood or body fluid may be infectious.  
 *为什么:* Standard Precautions（标准预防措施）是 CDC 发布的指南。很多人带有传染病却没有症状（asymptomatic），所以要假定任何人的血液或体液都可能有传染性。  
 *Lock this (real-life):* Got a cold from a friend who felt fine? No signs doesn't mean no germs. Treat all blood as risky.  
@@ -208,10 +208,10 @@ D. harmless once they dry. / 干了就无害。
 
 **18. If you cut a client during a service, what should you do first?**  
 服务中不小心割伤了客人，第一步应该做什么？  
-A. Finish the nail first. / 先把这只指甲做完。  
-B. Stop the service. / 立即停止服务。 ✅  
-C. Apply polish to seal it. / 涂指甲油把伤口封住。  
-D. Disinfect your implements. / 先给工具消毒。  
+A. Finish the nail first. / 先把这只指甲做完  
+B. Stop the service. / 立即停止服务 ✅  
+C. Apply polish to seal it. / 涂指甲油把伤口封住  
+D. Disinfect your implements. / 先给工具消毒  
 *Why:* Milady’s client-injury steps start by stopping the service immediately. Next, put on gloves and calmly apologize. Then wash and dry the area, and offer antiseptic and a bandage.  
 *为什么:* Milady 处理客人受伤的步骤，第一步就是立刻停止服务。接着戴上手套，冷静地道歉。然后清洗、擦干伤处，并提供 antiseptic（皮肤抗菌剂）和创可贴。  
 *Lock this (real-life):* Same first step if you cut yourself: stop. Care for the wound before the nails.  
@@ -232,10 +232,10 @@ D. A sharps box / 锐器盒 ✅
 
 **20. After disinfection, implements are rinsed, dried, and stored**  
 工具消毒后，冲洗、擦干，然后存放在：  
-A. in a clean, covered container. / 干净、有盖的容器里。 ✅  
-B. in your apron pocket. / 你的围裙口袋里。  
-C. in the disinfectant overnight. / 消毒液里过夜。  
-D. on an open towel all day. / 敞开的毛巾上放一整天。  
+A. in a clean, covered container. / 干净、有盖的容器里 ✅  
+B. in your apron pocket. / 你的围裙口袋里  
+C. in the disinfectant overnight. / 消毒液里过夜  
+D. on an open towel all day. / 敞开的毛巾上放一整天  
 *Why:* Remove implements with tongs or gloves, rinse, and dry them completely. Store them in a clean, covered container, often labeled “disinfected” or “ready to use,” until needed.  
 *为什么:* 用镊子或戴手套取出工具，冲洗并彻底擦干。存放在干净、有盖的容器里（通常标明 disinfected 已消毒 或 ready to use 可使用），用时再拿。  
 *Lock this (real-life):* Never in your mouth or pocket: a clean tool picks up germs again the moment it touches them.  

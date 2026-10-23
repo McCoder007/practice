@@ -16,10 +16,10 @@ D. Is highly toxic / 毒性很强
 
 **2. In chemistry, an organic substance is one that**  
 在化学中，organic（有机）物质是指——  
-A. contains carbon. / 含有碳的物质。 ✅  
-B. comes only from plants. / 只来自植物的物质。  
-C. is always safe. / 一定安全的物质。  
-D. contains no water. / 不含水的物质。  
+A. contains carbon. / 含有碳的物质 ✅  
+B. comes only from plants. / 只来自植物的物质  
+C. is always safe. / 一定安全的物质  
+D. contains no water. / 不含水的物质  
 *Why:* Organic simply means a substance contains carbon. It does not mean natural, healthy, or safe. All nail enhancements are made from organic substances.  
 *为什么:* organic（有机）只表示物质含有碳，不代表天然、健康或安全。所有加固甲（nail enhancements）都是由有机物制成的。  
 *Lock this (name-trap):* "Organic" on a food label describes farming methods, not chemistry.  
@@ -64,10 +64,10 @@ D. Alcohols / 醇类（alcohols）
 
 **6. Nail adhesives (glues) and wraps are based on**  
 美甲胶水（adhesives）和包甲（wraps）以什么为基础？  
-A. cyanoacrylates. / 氰基丙烯酸酯（cyanoacrylates）。 ✅  
-B. methacrylates. / 甲基丙烯酸酯（methacrylates）。  
-C. acrylates. / 丙烯酸酯（acrylates）。  
-D. silicones. / 硅酮（silicones）。  
+A. cyanoacrylates. / 氰基丙烯酸酯（cyanoacrylates） ✅  
+B. methacrylates. / 甲基丙烯酸酯（methacrylates）  
+C. acrylates. / 丙烯酸酯（acrylates）  
+D. silicones. / 硅酮（silicones）  
 *Why:* All nail glues and wraps use cyanoacrylates. Methacrylates make liquid and powder systems and at least one UV gel. Other UV gels use acrylates.  
 *为什么:* 所有美甲胶水和包甲都用 cyanoacrylates（氰基丙烯酸酯）。methacrylates 用于液粉系统和至少一种 UV 凝胶；其他 UV 凝胶用 acrylates。  
 *Lock this (reason-chain):* A wrap is fabric stuck on with resin, a nail glue. So glue and wraps share one base: cyanoacrylate.  
@@ -196,10 +196,10 @@ D. Isopropyl alcohol / 异丙醇（isopropyl alcohol）
 
 **17. Cuticle removers contain sodium or potassium hydroxide, so they are**  
 死皮软化剂（cuticle remover）含氢氧化钠或氢氧化钾，因此它们——  
-A. low in pH and acidic. / pH 低，呈酸性。  
-B. high in pH and caustic. / pH 高，具有腐蚀性（caustic）。 ✅  
-C. neutral, with a pH of 7. / 中性，pH 为 7。  
-D. water-free, with no pH. / 不含水，没有 pH。  
+A. low in pH and acidic. / pH 低，呈酸性  
+B. high in pH and caustic. / pH 高，具有腐蚀性（caustic） ✅  
+C. neutral, with a pH of 7. / 中性，pH 为 7  
+D. water-free, with no pH. / 不含水，没有 pH  
 *Why:* Cuticle removers have a high pH (caustic) and irritate skin. They dissolve dead tissue on the nail plate, so keep them off the living skin of the eponychium.  
 *为什么:* 死皮软化剂 pH 高（caustic，腐蚀性），刺激皮肤。它们用来溶解甲板上的死组织，所以不要碰到甲上皮（eponychium）的活皮肤。  
 *Lock this (real-life):* Sodium hydroxide is a very strong alkali, also used in drain cleaners. Strong alkali means very high pH.  

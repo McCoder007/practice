@@ -4,10 +4,10 @@ Pre-Service Process · 20 questions · status: reviewed
 
 **1. Setting up the table and greeting the client are part of the**  
 布置工作台和迎接顾客属于哪个部分？  
-A. service procedure. / 服务程序（service procedure）。  
-B. post-service procedure. / 服务后程序（post-service procedure）。  
-C. client consultation. / 顾客咨询（client consultation）。  
-D. pre-service procedure. / 服务前程序（pre-service procedure）。 ✅  
+A. service procedure. / 服务程序（service procedure）  
+B. post-service procedure. / 服务后程序（post-service procedure）  
+C. client consultation. / 顾客咨询（client consultation）  
+D. pre-service procedure. / 服务前程序（pre-service procedure） ✅  
 *Why:* The pre-service procedure covers cleaning and disinfecting tools, setting up the table, and meeting, greeting, and escorting the client. The service and post-service come after.  
 *为什么:* pre-service procedure（服务前程序）包括清洁消毒工具、布置工作台，以及迎接、问候并引导顾客。之后才是服务程序和服务后程序。  
 *Lock this (comparison):* Like a restaurant before you order: table set, tools clean, guest greeted and seated.  
@@ -16,10 +16,10 @@ D. pre-service procedure. / 服务前程序（pre-service procedure）。 ✅
 
 **2. The client intake form is also called a**  
 client intake form（顾客登记表）也叫什么？  
-A. service record card. / 服务记录卡（service record card）。  
-B. health history form. / 健康史表（health history form）。 ✅  
-C. release form. / 免责声明表（release form）。  
-D. product purchase record. / 产品购买记录（product purchase record）。  
+A. service record card. / 服务记录卡（service record card）  
+B. health history form. / 健康史表（health history form） ✅  
+C. release form. / 免责声明表（release form）  
+D. product purchase record. / 产品购买记录（product purchase record）  
 *Why:* Every new client fills out an intake form, also called a client questionnaire, consultation card, or health history form. It lists medications, medical issues, and allergies that might affect services.  
 *为什么:* 每位新顾客都要填写 intake form（登记表），也叫顾客问卷、咨询卡（consultation card）或健康史表。表上列出可能影响服务的药物、疾病和过敏情况。  
 *Lock this (reason-chain):* It asks about medicines, allergies, and medical problems: the client's health history. That's its other name.  
@@ -76,10 +76,10 @@ D. Repeat: review what you agreed on / 复述（Repeat）：回顾双方商定�
 
 **7. Repeating in your own words what the client told you is called**  
 用自己的话复述顾客说过的内容，叫作什么？  
-A. reflective listening. / 反映式倾听（reflective listening）。 ✅  
-B. a needs assessment. / 需求评估（needs assessment）。  
-C. upselling. / 追加推荐（upselling）。  
-D. client analysis. / 顾客分析（client analysis）。  
+A. reflective listening. / 反映式倾听（reflective listening） ✅  
+B. a needs assessment. / 需求评估（needs assessment）  
+C. upselling. / 追加推荐（upselling）  
+D. client analysis. / 顾客分析（client analysis）  
 *Why:* Reflective listening means listening, then repeating in your own words what you think the client said. Don't interrupt, and ask the client to confirm you understood.  
 *为什么:* reflective listening（反映式倾听）是先听，再用自己的话复述你理解的顾客意思。不要打断，并请顾客确认你理解得对。  
 *Lock this (picture):* Reflect, like a mirror: the client's words come back to them. "So you want short, round nails?"  
@@ -88,10 +88,10 @@ D. client analysis. / 顾客分析（client analysis）。
 
 **8. When checking a client's nails and skin, a nail technician must never**  
 检查顾客的指甲和皮肤时，美甲师绝对不能——  
-A. record what they see. / 记录看到的情况。  
-B. ask about health conditions. / 询问健康状况。  
-C. diagnose a disease or disorder. / 诊断（diagnose）疾病或病症。 ✅  
-D. refer the client to a physician. / 建议顾客去看医生。  
+A. record what they see. / 记录看到的情况  
+B. ask about health conditions. / 询问健康状况  
+C. diagnose a disease or disorder. / 诊断（diagnose）疾病或病症 ✅  
+D. refer the client to a physician. / 建议顾客去看医生  
 *Why:* Nail techs are licensed for cosmetic services, not to diagnose, treat, or prescribe. You may tell a client you see what may be an unhealthy condition and refer them to a physician.  
 *为什么:* 美甲师的执照只允许做美容服务，不能诊断、治疗或开处方。你可以告诉顾客你看到了可能不健康的情况，并建议顾客就医。  
 *Lock this (real-life):* Naming the disease is a doctor's job. You can say, "Please show this to a doctor."  
@@ -100,10 +100,10 @@ D. refer the client to a physician. / 建议顾客去看医生。
 
 **9. A condition that requires avoiding certain treatments or products is a**  
 需要避免某些服务或产品的身体状况叫作什么？  
-A. consultation. / 咨询（consultation）。  
-B. scope of practice. / 执业范围（scope of practice）。  
-C. service record. / 服务记录（service record）。  
-D. contraindication. / 禁忌症（contraindication）。 ✅  
+A. consultation. / 咨询（consultation）  
+B. scope of practice. / 执业范围（scope of practice）  
+C. service record. / 服务记录（service record）  
+D. contraindication. / 禁忌症（contraindication） ✅  
 *Why:* A contraindication is a condition that requires avoiding certain treatments, procedures, or products to prevent unwanted side effects. Look for them on the intake form before services.  
 *为什么:* contraindication（禁忌症）是指需要避免某些疗程、步骤或产品，以防出现不良反应的身体状况。服务前要在登记表上查看。  
 *Lock this (word-parts):* Contra = against, indicate = point out: the condition points against the service.  
@@ -124,10 +124,10 @@ D. Right at the appointment time / 正好在预约时间到
 
 **11. If you are unsure whether a skin condition is safe to work on, require**  
 如果不确定某种皮肤状况能否服务，应该要求顾客提供什么？  
-A. a signed school release form. / 签好的学校免责声明表。  
-B. a physician's release. / 医生许可（physician's release）。 ✅  
-C. the salon manager's approval. / 沙龙经理的同意。  
-D. a second consultation. / 再做一次咨询。  
+A. a signed school release form. / 签好的学校免责声明表  
+B. a physician's release. / 医生许可（physician's release） ✅  
+C. the salon manager's approval. / 沙龙经理的同意  
+D. a second consultation. / 再做一次咨询  
 *Why:* If you are in doubt about something you see, the client must get a physician's release before any salon service. Never work on unhealthy skin or nails without written physician permission.  
 *为什么:* 对看到的情况有疑问时，顾客必须先拿到医生许可，才能接受任何沙龙服务。没有医生的书面许可，绝不处理不健康的皮肤或指甲。  
 *Lock this (comparison):* Like a coach asking for a doctor's note before an injured player returns.  
@@ -136,10 +136,10 @@ D. a second consultation. / 再做一次咨询。
 
 **12. Hand and arm massage is contraindicated for a client with**  
 顾客有以下哪种情况时，禁止（contraindicated）做手部和手臂按摩？  
-A. diabetes that is well controlled. / 控制良好的糖尿病。  
-B. high blood pressure controlled by medication. / 用药控制良好的高血压。  
-C. severe, uncontrolled hypertension. / 严重且未控制的高血压（hypertension）。 ✅  
-D. dry skin on the hands. / 手部皮肤干燥。  
+A. diabetes that is well controlled. / 控制良好的糖尿病  
+B. high blood pressure controlled by medication. / 用药控制良好的高血压  
+C. severe, uncontrolled hypertension. / 严重且未控制的高血压（hypertension） ✅  
+D. dry skin on the hands. / 手部皮肤干燥  
 *Why:* Clients with high blood pressure, diabetes, or circulation problems can often have massage if stabilized and under a doctor's care. Severe, uncontrolled hypertension is a contraindication.  
 *为什么:* 高血压、糖尿病或循环问题的顾客，如果病情稳定并有医生治疗，通常仍可按摩。严重且未控制的高血压则是禁忌症（contraindication）。  
 *Lock this (word-parts):* Un- = not, as in unsafe. Uncontrolled = not under control. That kind of high blood pressure means no massage.  
@@ -148,10 +148,10 @@ D. dry skin on the hands. / 手部皮肤干燥。
 
 **13. For a client with thin skin or poor clotting, you should avoid**  
 顾客皮肤薄或凝血差时，应该避免——  
-A. nipping the cuticles. / 用死皮剪剪死皮（nip the cuticles）。 ✅  
-B. using a fine-grit abrasive. / 使用细砂锉（fine-grit abrasive）。  
-C. removing dead tissue with a curette. / 用刮匙（curette）去除死组织。  
-D. using gentle massage pressure. / 按摩时用轻柔的力度。  
+A. nipping the cuticles. / 用死皮剪剪死皮（nip the cuticles） ✅  
+B. using a fine-grit abrasive. / 使用细砂锉（fine-grit abrasive）  
+C. removing dead tissue with a curette. / 用刮匙（curette）去除死组织  
+D. using gentle massage pressure. / 按摩时用轻柔的力度  
 *Why:* For these clients a small nick can quickly need medical care. Do not use sharp tools or nip cuticles. Use a curette to gently remove nonliving tissue and a fine-grit abrasive.  
 *为什么:* 对这类顾客来说，一个小破口就可能需要就医。不要用锋利工具，也不要剪死皮。改用刮匙轻轻去除死组织，并用细砂锉。  
 *Lock this (picture):* Like a ripe tomato: its thin skin splits at one small cut. Keep nippers and sharp tools away.  
@@ -184,10 +184,10 @@ D. To the retail display / 零售产品展示区
 
 **16. In proper hand washing, rub lathered hands for at least**  
 正确洗手时，起泡（lather）后至少要搓多久？  
-A. 5 seconds. / 5 秒。  
-B. 10 seconds. / 10 秒。  
-C. 20 seconds. / 20 秒。 ✅  
-D. 2 minutes. / 2 分钟。  
+A. 5 seconds. / 5 秒  
+B. 10 seconds. / 10 秒  
+C. 20 seconds. / 20 秒 ✅  
+D. 2 minutes. / 2 分钟  
 *Why:* Rub your hands together, all over and vigorously, until a lather forms. Keep going for at least 20 seconds, then rinse in warm running water.  
 *为什么:* 双手用力搓遍各处，直到起泡，至少持续 20 秒，然后用温水冲洗。  
 *Lock this (real-life):* Humming "Happy Birthday" twice takes about 20 seconds.  
@@ -220,10 +220,10 @@ D. Only when hand washing isn't possible / 只有在无法洗手时 ✅
 
 **19. Before a service, clean and disinfect the manicure table with**  
 服务前，应该用什么清洁消毒美甲桌？  
-A. hand sanitizer gel. / 免洗洗手凝胶。  
-B. isopropyl alcohol. / 异丙醇（isopropyl alcohol）。  
-C. an EPA-approved disinfectant. / 经 EPA 批准的消毒剂（EPA-approved disinfectant）。 ✅  
-D. plain warm water. / 清水（温水）。  
+A. hand sanitizer gel. / 免洗洗手凝胶  
+B. isopropyl alcohol. / 异丙醇（isopropyl alcohol）  
+C. an EPA-approved disinfectant. / 经 EPA 批准的消毒剂（EPA-approved disinfectant） ✅  
+D. plain warm water. / 清水（温水）  
 *Why:* Procedure 6-1 says to clean and disinfect the table and drawer with an EPA-approved disinfectant, following the label. Antiseptics and alcohol do not disinfect surfaces.  
 *为什么:* 程序 6-1 要求按标签说明，用经 EPA 批准的消毒剂清洁消毒美甲桌和抽屉。皮肤抗菌剂（antiseptics）和酒精不能给表面消毒。  
 *Lock this (real-acronym):* EPA = Environmental Protection Agency. A salon disinfectant must show an EPA registration number.  

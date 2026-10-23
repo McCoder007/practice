@@ -37,22 +37,22 @@
         {
           "id": "a",
           "en": "The resin absorbs the powder.",
-          "zh": "树脂吸收了粉。"
+          "zh": "树脂吸收了粉"
         },
         {
           "id": "b",
           "en": "It dries in the open air.",
-          "zh": "它在空气中自然风干。"
+          "zh": "它在空气中自然风干"
         },
         {
           "id": "c",
           "en": "The powder is mixed with water.",
-          "zh": "粉和水混合。"
+          "zh": "粉和水混合"
         },
         {
           "id": "d",
           "en": "Heat from a dryer melts it.",
-          "zh": "吹风机的热把它融化。"
+          "zh": "吹风机的热把它融化"
         }
       ],
       "correctChoice": "a",
@@ -101,22 +101,22 @@
         {
           "id": "a",
           "en": "coarse and always clear.",
-          "zh": "颗粒粗，而且总是透明的。"
+          "zh": "颗粒粗，而且总是透明的"
         },
         {
           "id": "b",
           "en": "made only for clear extensions.",
-          "zh": "只能用来做透明延长。"
+          "zh": "只能用来做透明延长"
         },
         {
           "id": "c",
           "en": "very fine, usually heavily pigmented.",
-          "zh": "非常细，通常颜色很浓。"
+          "zh": "非常细，通常颜色很浓"
         },
         {
           "id": "d",
           "en": "cured under a UV lamp.",
-          "zh": "要用 UV 灯固化。"
+          "zh": "要用 UV 灯固化"
         }
       ],
       "correctChoice": "c",
@@ -165,22 +165,22 @@
         {
           "id": "a",
           "en": "needs no UV or LED lamp.",
-          "zh": "不需要 UV 或 LED 灯。"
+          "zh": "不需要 UV 或 LED 灯"
         },
         {
           "id": "b",
           "en": "never needs maintenance.",
-          "zh": "永远不用维护。"
+          "zh": "永远不用维护"
         },
         {
           "id": "c",
           "en": "never needs a top resin.",
-          "zh": "完全不需要封层树脂。"
+          "zh": "完全不需要封层树脂"
         },
         {
           "id": "d",
           "en": "needs no resin at all.",
-          "zh": "完全不需要树脂。"
+          "zh": "完全不需要树脂"
         }
       ],
       "correctChoice": "a",
@@ -233,22 +233,22 @@
         {
           "id": "a",
           "en": "It helps the resin dry faster.",
-          "zh": "能让树脂干得更快。"
+          "zh": "能让树脂干得更快"
         },
         {
           "id": "b",
           "en": "It removes the activator odor.",
-          "zh": "能去除激活剂的气味。"
+          "zh": "能去除激活剂的气味"
         },
         {
           "id": "c",
           "en": "It adds color to the base.",
-          "zh": "能给底层树脂添加颜色。"
+          "zh": "能给底层树脂添加颜色"
         },
         {
           "id": "d",
           "en": "Powder bits would thicken the resin.",
-          "zh": "粉粒会让树脂变稠、拉丝。"
+          "zh": "粉粒会让树脂变稠、拉丝"
         }
       ],
       "correctChoice": "d",
@@ -305,22 +305,22 @@
         {
           "id": "a",
           "en": "use a small dish and discard leftovers.",
-          "zh": "用水晶杯（dappen dish）分装，剩粉丢掉。"
+          "zh": "用水晶杯（dappen dish）分装，剩粉丢掉"
         },
         {
           "id": "b",
           "en": "add activator to the powder jar.",
-          "zh": "往粉罐里加激活剂。"
+          "zh": "往粉罐里加激活剂"
         },
         {
           "id": "c",
           "en": "wipe the jar rim with alcohol.",
-          "zh": "用酒精擦罐口。"
+          "zh": "用酒精擦罐口"
         },
         {
           "id": "d",
           "en": "pour used powder back in the jar.",
-          "zh": "把用过的粉倒回罐里。"
+          "zh": "把用过的粉倒回罐里"
         }
       ],
       "correctChoice": "a",
@@ -369,22 +369,22 @@
         {
           "id": "a",
           "en": "fill the new growth in the new color.",
-          "zh": "用新颜色补新长出的部分。"
+          "zh": "用新颜色补新长出的部分"
         },
         {
           "id": "b",
           "en": "soak off and do a new service.",
-          "zh": "泡掉旧甲，重新做一次。"
+          "zh": "泡掉旧甲，重新做一次"
         },
         {
           "id": "c",
           "en": "dip the new color over the old.",
-          "zh": "直接在旧颜色上蘸新颜色。"
+          "zh": "直接在旧颜色上蘸新颜色"
         },
         {
           "id": "d",
           "en": "file off only the top resin.",
-          "zh": "只锉掉最上层的封层树脂。"
+          "zh": "只锉掉最上层的封层树脂"
         }
       ],
       "correctChoice": "b",
@@ -437,22 +437,22 @@
         {
           "id": "a",
           "en": "dry manicure.",
-          "zh": "干式修甲（dry manicure）。"
+          "zh": "干式修甲（dry manicure）"
         },
         {
           "id": "b",
           "en": "soak-off.",
-          "zh": "卸甲（soak-off）。"
+          "zh": "卸甲（soak-off）"
         },
         {
           "id": "c",
           "en": "overlay.",
-          "zh": "加固层（overlay）。"
+          "zh": "加固层（overlay）"
         },
         {
           "id": "d",
           "en": "rebalance.",
-          "zh": "重新平衡（rebalance）。"
+          "zh": "重新平衡（rebalance）"
         }
       ],
       "correctChoice": "d",
@@ -631,22 +631,22 @@
         {
           "id": "a",
           "en": "clipped off with nippers.",
-          "zh": "用死皮剪剪掉。"
+          "zh": "用死皮剪剪掉"
         },
         {
           "id": "b",
           "en": "left for new product to cover.",
-          "zh": "留着，让新产品盖住。"
+          "zh": "留着，让新产品盖住"
         },
         {
           "id": "c",
           "en": "soaked in acetone to soften.",
-          "zh": "泡丙酮把它泡软。"
+          "zh": "泡丙酮把它泡软"
         },
         {
           "id": "d",
           "en": "filed flush with the nail plate.",
-          "zh": "锉到和甲面齐平。"
+          "zh": "锉到和甲面齐平"
         }
       ],
       "correctChoice": "d",
@@ -685,22 +685,22 @@
         {
           "id": "a",
           "en": "just enough to remove shine.",
-          "zh": "只锉掉光泽就好。"
+          "zh": "只锉掉光泽就好"
         },
         {
           "id": "b",
           "en": "down into the natural nail.",
-          "zh": "一直锉进真甲里。"
+          "zh": "一直锉进真甲里"
         },
         {
           "id": "c",
           "en": "until it is paper-thin.",
-          "zh": "锉到像纸一样薄。"
+          "zh": "锉到像纸一样薄"
         },
         {
           "id": "d",
           "en": "not at all; just add product.",
-          "zh": "不用锉，直接加产品。"
+          "zh": "不用锉，直接加产品"
         }
       ],
       "correctChoice": "c",
@@ -817,22 +817,22 @@
         {
           "id": "a",
           "en": "Heat the acetone in a microwave.",
-          "zh": "用微波炉加热丙酮。"
+          "zh": "用微波炉加热丙酮"
         },
         {
           "id": "b",
           "en": "Warm it in the towel warmer.",
-          "zh": "放进毛巾加热柜里加热。"
+          "zh": "放进毛巾加热柜里加热"
         },
         {
           "id": "c",
           "en": "Blow a hair dryer on it.",
-          "zh": "用吹风机对着吹。"
+          "zh": "用吹风机对着吹"
         },
         {
           "id": "d",
           "en": "Set the acetone bowl in hot water.",
-          "zh": "把丙酮碗放进一碗热水里。"
+          "zh": "把丙酮碗放进一碗热水里"
         }
       ],
       "correctChoice": "d",
@@ -871,22 +871,22 @@
         {
           "id": "a",
           "en": "Air makes the acetone stronger.",
-          "zh": "空气会让丙酮变得更强。"
+          "zh": "空气会让丙酮变得更强"
         },
         {
           "id": "b",
           "en": "The natural nail absorbs the product.",
-          "zh": "真甲会把产品吸进去。"
+          "zh": "真甲会把产品吸进去"
         },
         {
           "id": "c",
           "en": "The softened product quickly hardens again.",
-          "zh": "已经变软的产品很快又会变硬。"
+          "zh": "已经变软的产品很快又会变硬"
         },
         {
           "id": "d",
           "en": "Acetone turns the nails white.",
-          "zh": "丙酮会让指甲变白。"
+          "zh": "丙酮会让指甲变白"
         }
       ],
       "correctChoice": "c",
@@ -935,22 +935,22 @@
         {
           "id": "a",
           "en": "It is too weak to remove product.",
-          "zh": "它太弱，卸不掉产品。"
+          "zh": "它太弱，卸不掉产品"
         },
         {
           "id": "b",
           "en": "It isn't tested or approved for skin.",
-          "zh": "它没有经过用于皮肤的测试或批准。"
+          "zh": "它没有经过用于皮肤的测试或批准"
         },
         {
           "id": "c",
           "en": "It hardens enhancements instead.",
-          "zh": "它反而会让美甲变硬。"
+          "zh": "它反而会让美甲变硬"
         },
         {
           "id": "d",
           "en": "It must be mixed with water first.",
-          "zh": "必须先兑水才能用。"
+          "zh": "必须先兑水才能用"
         }
       ],
       "correctChoice": "b",
@@ -989,22 +989,22 @@
         {
           "id": "a",
           "en": "were weakened by the enhancement.",
-          "zh": "被美甲削弱了。"
+          "zh": "被美甲削弱了"
         },
         {
           "id": "b",
           "en": "were dissolved by the acetone.",
-          "zh": "被丙酮溶解了。"
+          "zh": "被丙酮溶解了"
         },
         {
           "id": "c",
           "en": "hold extra moisture from soaking.",
-          "zh": "浸泡后含有额外的水分。"
+          "zh": "浸泡后含有额外的水分"
         },
         {
           "id": "d",
           "en": "still have primer on them.",
-          "zh": "上面还留着结合剂。"
+          "zh": "上面还留着结合剂"
         }
       ],
       "correctChoice": "c",
@@ -1047,22 +1047,22 @@
         {
           "id": "a",
           "en": "soaked off in acetone.",
-          "zh": "用丙酮泡掉。"
+          "zh": "用丙酮泡掉"
         },
         {
           "id": "b",
           "en": "left to grow out with the nail.",
-          "zh": "留着，随指甲长出去。"
+          "zh": "留着，随指甲长出去"
         },
         {
           "id": "c",
           "en": "pried off with a pusher.",
-          "zh": "用推棒撬掉。"
+          "zh": "用推棒撬掉"
         },
         {
           "id": "d",
           "en": "peeled off with tweezers.",
-          "zh": "用镊子撕掉。"
+          "zh": "用镊子撕掉"
         }
       ],
       "correctChoice": "b",
@@ -1115,22 +1115,22 @@
         {
           "id": "a",
           "en": "To let acetone get into the gel.",
-          "zh": "让丙酮渗进胶里。"
+          "zh": "让丙酮渗进胶里"
         },
         {
           "id": "b",
           "en": "To thin the natural nail plate.",
-          "zh": "把真甲甲面锉薄。"
+          "zh": "把真甲甲面锉薄"
         },
         {
           "id": "c",
           "en": "To warm the gel so it melts.",
-          "zh": "让胶变热融化。"
+          "zh": "让胶变热融化"
         },
         {
           "id": "d",
           "en": "To remove the cuticle.",
-          "zh": "去掉甲小皮。"
+          "zh": "去掉甲小皮"
         }
       ],
       "correctChoice": "a",
@@ -1179,22 +1179,22 @@
         {
           "id": "a",
           "en": "It can soak off hard gel too.",
-          "zh": "连硬胶也能泡掉。"
+          "zh": "连硬胶也能泡掉"
         },
         {
           "id": "b",
           "en": "It uses less remover and cuts odor.",
-          "zh": "卸甲液用得少，气味也小。"
+          "zh": "卸甲液用得少，气味也小"
         },
         {
           "id": "c",
           "en": "It needs no acetone at all.",
-          "zh": "完全不需要丙酮。"
+          "zh": "完全不需要丙酮"
         },
         {
           "id": "d",
           "en": "It cures any leftover gel.",
-          "zh": "能把残留的胶固化。"
+          "zh": "能把残留的胶固化"
         }
       ],
       "correctChoice": "b",
@@ -1237,22 +1237,22 @@
         {
           "id": "a",
           "en": "It looks hard and glossy.",
-          "zh": "看起来又硬又亮。"
+          "zh": "看起来又硬又亮"
         },
         {
           "id": "b",
           "en": "It is stuck tight to the nail.",
-          "zh": "还牢牢粘在指甲上。"
+          "zh": "还牢牢粘在指甲上"
         },
         {
           "id": "c",
           "en": "The foil feels warm.",
-          "zh": "锡纸摸起来是热的。"
+          "zh": "锡纸摸起来是热的"
         },
         {
           "id": "d",
           "en": "It is flaking off the nail.",
-          "zh": "它正在从指甲上片片剥落。"
+          "zh": "它正在从指甲上片片剥落"
         }
       ],
       "correctChoice": "d",

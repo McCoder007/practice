@@ -76,10 +76,10 @@ D. In small circles on the free edge / 在游离缘上小圈打转
 
 **7. Nail bleach in a manicure works best on**  
 修手时用的指甲漂白剂（nail bleach）对什么效果最好？  
-A. fungal discoloration. / 真菌引起的变色。  
-B. bruised nail beds. / 甲床瘀青。  
-C. ridged nails. / 纵纹甲。  
-D. surface stains, such as tobacco. / 表面污渍，例如烟渍。 ✅  
+A. fungal discoloration. / 真菌引起的变色  
+B. bruised nail beds. / 甲床瘀青  
+C. ridged nails. / 纵纹甲  
+D. surface stains, such as tobacco. / 表面污渍，例如烟渍 ✅  
 *Why:* Nail bleach is an optional step for yellow nails. Milady says it works best on surface stains, such as tobacco. Bruises and fungus are not surface stains, and ridges are not a color problem.  
 *为什么:* 指甲漂白（nail bleach）是针对发黄指甲的可选步骤。Milady 说它对烟渍这类表面污渍（surface stains）效果最好。瘀青和真菌都不是表面污渍，而甲面纵纹（ridges）也不是颜色问题。  
 *Lock this (contrast):* Stains sitting on top can be lifted. Color from under or inside the nail, like a bruise or fungus, cannot.  
@@ -124,10 +124,10 @@ D. To disinfect the nail plates / 给甲板消毒
 
 **11. Cleaning too hard under the free edge can cause**  
 清洁游离缘（free edge）下方太用力，可能会造成什么？  
-A. onychophagy. / 咬甲癖（onychophagy）。  
-B. nail psoriasis. / 指甲银屑病（nail psoriasis）。  
-C. onycholysis. / 甲剥离（onycholysis）。 ✅  
-D. ridged nails. / 纵纹甲（ridged nails）。  
+A. onychophagy. / 咬甲癖（onychophagy）  
+B. nail psoriasis. / 指甲银屑病（nail psoriasis）  
+C. onycholysis. / 甲剥离（onycholysis） ✅  
+D. ridged nails. / 纵纹甲（ridged nails）  
 *Why:* Clean under the free edge gently. Aggressive cleaning can break the hyponychium seal and cause onycholysis, the nail plate separating from the nail bed.  
 *为什么:* 清洁游离缘下方要轻柔。太用力会破坏 hyponychium（甲下皮）的密封，造成 onycholysis（甲剥离），也就是甲板与甲床分离。  
 *Lock this (reason-chain):* Dig hard under the tip, and the seal there breaks. Then the plate lifts off its bed: onycholysis.  

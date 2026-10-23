@@ -28,10 +28,10 @@ D. To harden weak nails / 让软甲变硬
 
 **3. Why is a white terry cloth towel best for nail services?**  
 为什么白色毛巾（terry cloth towel）最适合美甲服务？  
-A. It never needs to be laundered. / 永远不用洗。  
-B. It absorbs acetone without damage. / 吸了丙酮也不会坏。  
-C. It can be bleached between uses. / 每次用后可以漂白。 ✅  
-D. It is single-use and thrown away. / 是一次性的，用后扔掉。  
+A. It never needs to be laundered. / 永远不用洗  
+B. It absorbs acetone without damage. / 吸了丙酮也不会坏  
+C. It can be bleached between uses. / 每次用后可以漂白 ✅  
+D. It is single-use and thrown away. / 是一次性的，用后扔掉  
 *Why:* Cloth towels must be washed between clients; paper towels are thrown away. White terry cloth is best because it can be bleached during washing. Each client gets a fresh towel.  
 *为什么:* 布毛巾每位顾客之间都要洗；纸巾用后扔掉。白色毛巾最好，因为洗的时候可以漂白。每位顾客都用一条干净的毛巾。  
 *Lock this (real-life):* Bleach ruins the dye in a colored towel. A white towel has no color to lose.  
@@ -40,10 +40,10 @@ D. It is single-use and thrown away. / 是一次性的，用后扔掉。
 
 **4. Why are plastic-backed cotton pads used to remove polish?**  
 为什么用背面带塑料膜的棉片（plastic-backed pads）卸指甲油？  
-A. They can be disinfected and reused. / 可以消毒后再用。  
-B. They remove polish without any remover. / 不用洗甲水也能卸甲油。  
-C. They protect your fingertips from solvents. / 保护你的指尖不接触溶剂。 ✅  
-D. They add shine to the nail plate. / 让甲面更亮。  
+A. They can be disinfected and reused. / 可以消毒后再用  
+B. They remove polish without any remover. / 不用洗甲水也能卸甲油  
+C. They protect your fingertips from solvents. / 保护你的指尖不接触溶剂 ✅  
+D. They add shine to the nail plate. / 让甲面更亮  
 *Why:* Lint-free, plastic-backed pads are often used to remove polish. The plastic backing protects the nail professional's fingertips from overexposure to drying solvents and other chemicals.  
 *为什么:* 无尘、背面带塑料膜的棉片常用来卸甲油。塑料背膜保护美甲师的指尖，避免过度接触会让皮肤干燥的溶剂和其他化学品。  
 *Lock this (reason-chain):* Bare cotton soaks remover straight through to your fingertip. The plastic layer stops it, pad after pad, all day.  
@@ -88,10 +88,10 @@ D. Massaging the toes / 按摩脚趾
 
 **8. Disposable pedicure slippers are for clients who**  
 一次性修脚拖鞋（pedicure slippers）是给什么样的顾客准备的？  
-A. did not wear open-toe shoes. / 没穿露趾鞋来的顾客。 ✅  
-B. have a foot fungus. / 有足部真菌的顾客。  
-C. want a longer foot massage. / 想要更长足部按摩的顾客。  
-D. are allergic to nitrile gloves. / 对丁腈手套过敏的顾客。  
+A. did not wear open-toe shoes. / 没穿露趾鞋来的顾客 ✅  
+B. have a foot fungus. / 有足部真菌的顾客  
+C. want a longer foot massage. / 想要更长足部按摩的顾客  
+D. are allergic to nitrile gloves. / 对丁腈手套过敏的顾客  
 *Why:* Single-use paper or foam slippers are for clients who did not wear open-toe shoes or sandals and want to avoid smudging fresh toenail polish. They are made not to touch the nails.  
 *为什么:* 一次性纸拖或泡沫拖鞋，给没穿露趾鞋或凉鞋、又不想蹭花刚涂好的脚指甲油的顾客。拖鞋设计成不碰到指甲。  
 *Lock this (real-life):* Came in sneakers? Fresh polish can't go back inside them yet. Paper slippers keep the toes open until it dries.  
@@ -100,10 +100,10 @@ D. are allergic to nitrile gloves. / 对丁腈手套过敏的顾客。
 
 **9. How does a protein hardener protect the nail?**  
 蛋白硬甲油（protein hardener）是怎样保护指甲的？  
-A. It cross-links the keratin strands. / 让角蛋白链交联。  
-B. It dissolves dead tissue on the plate. / 溶解甲面上的死组织。  
-C. It forms a hard coating on the surface. / 在甲面形成一层坚硬的保护膜。 ✅  
-D. It is absorbed deep into the nail. / 深深渗入指甲内部。  
+A. It cross-links the keratin strands. / 让角蛋白链交联  
+B. It dissolves dead tissue on the plate. / 溶解甲面上的死组织  
+C. It forms a hard coating on the surface. / 在甲面形成一层坚硬的保护膜 ✅  
+D. It is absorbed deep into the nail. / 深深渗入指甲内部  
 *Why:* A protein hardener is clear polish plus protein, such as collagen. Collagen molecules are too large to be absorbed, so it forms a clear, hard coating without changing the nail plate itself.  
 *为什么:* 蛋白硬甲油是透明甲油加蛋白质（如胶原蛋白 collagen）。胶原蛋白分子太大，进不了甲板，所以它只在表面形成透明坚硬的膜，不改变甲板本身。  
 *Lock this (picture):* Like a big ball on a small cup: protein is too big to get in, so it stays on top.  
@@ -112,10 +112,10 @@ D. It is absorbed deep into the nail. / 深深渗入指甲内部。
 
 **10. Why apply cuticle oil with a disposable brush or dropper?**  
 为什么要用一次性刷子或滴管涂营养油（cuticle oil）？  
-A. Oil dissolves synthetic bristles. / 油会溶解合成刷毛。  
-B. Oil must be warmed before use. / 油使用前必须加热。  
-C. Droppers give a shinier finish. / 滴管涂出来更亮。  
-D. Oils can support bacterial growth. / 油可能滋生细菌。 ✅  
+A. Oil dissolves synthetic bristles. / 油会溶解合成刷毛  
+B. Oil must be warmed before use. / 油使用前必须加热  
+C. Droppers give a shinier finish. / 滴管涂出来更亮  
+D. Oils can support bacterial growth. / 油可能滋生细菌 ✅  
 *Why:* Polish, monomer, and gels cannot support pathogens, but oils can. A brush used for oil is considered contaminated, so use disposable brushes or droppers and throw them away after use.  
 *为什么:* 甲油、水晶液（monomer）和凝胶不会滋生病原体，但油会。涂过油的刷子要视为已污染，所以用一次性刷子或滴管，用完就扔。  
 *Lock this (reason-chain):* Oil brush touches skin, goes back in the bottle → germs grow in the oil → next client.  
@@ -148,10 +148,10 @@ D. Dissolving thick calluses / 溶解厚茧
 
 **13. Polish, enamel, lacquer, and varnish are**  
 polish、enamel、lacquer 和 varnish 是什么关系？  
-A. four products with different ingredients. / 成分不同的四种产品。  
-B. marketing names for the same product type. / 同一类产品的不同营销叫法。 ✅  
-C. four layers applied in order. / 按顺序涂的四层。  
-D. terms used only for gel polish. / 只用于凝胶甲油的名称。  
+A. four products with different ingredients. / 成分不同的四种产品  
+B. marketing names for the same product type. / 同一类产品的不同营销叫法 ✅  
+C. four layers applied in order. / 按顺序涂的四层  
+D. terms used only for gel polish. / 只用于凝胶甲油的名称  
 *Why:* Polish, enamel, lacquer, and varnish are marketing terms for the same type of product with similar ingredients: a solvent-based colored film applied to the nail plate.  
 *为什么:* polish、enamel、lacquer、varnish 都是营销用语，指成分相似的同一类产品：涂在甲面上的溶剂型有色膜。  
 *Lock this (comparison):* Like 'cell phone' and 'mobile phone': different names, one phone. Polish, enamel, lacquer, varnish: one product.  
@@ -160,10 +160,10 @@ D. terms used only for gel polish. / 只用于凝胶甲油的名称。
 
 **14. Topcoat is applied over colored polish to**  
 亮油/封层（topcoat）涂在有色甲油上面，是为了什么？  
-A. help the polish adhere to the nail. / 帮助甲油附着在指甲上。  
-B. harden thin, weak nails. / 让薄软的指甲变硬。  
-C. dissolve old polish faster. / 更快溶解旧甲油。  
-D. prevent chipping and add shine. / 防止剥落，增加光泽。 ✅  
+A. help the polish adhere to the nail. / 帮助甲油附着在指甲上  
+B. harden thin, weak nails. / 让薄软的指甲变硬  
+C. dissolve old polish faster. / 更快溶解旧甲油  
+D. prevent chipping and add shine. / 防止剥落，增加光泽 ✅  
 *Why:* Topcoat goes over colored polish to prevent chipping and add a shine or matte finish. Its film formers, often methacrylic or cellulose types, make a hard film once the solvent evaporates.  
 *为什么:* 亮油涂在有色甲油上，防止剥落，并做出亮面或哑光（matte）效果。其中的成膜剂（常为甲基丙烯酸类或纤维素类）在溶剂挥发后形成坚硬的膜。  
 *Lock this (chinese-character):* The Chinese name means "seal layer": the top coat seals the color in.  
@@ -172,10 +172,10 @@ D. prevent chipping and add shine. / 防止剥落，增加光泽。 ✅
 
 **15. Methylene glycol nail hardeners should never be used on nails that are**  
 含甲二醇（methylene glycol）的硬甲油绝不能用在什么样的指甲上？  
-A. thin and weak. / 又薄又软的。  
-B. bare, with no polish. / 没涂甲油的裸甲。  
-C. already very hard and brittle. / 本来就很硬、很脆的。 ✅  
-D. short and natural. / 短的真甲。  
+A. thin and weak. / 又薄又软的  
+B. bare, with no polish. / 没涂甲油的裸甲  
+C. already very hard and brittle. / 本来就很硬、很脆的 ✅  
+D. short and natural. / 短的真甲  
 *Why:* Methylene glycol cross-links keratin, making the nail stiffer. It helps thin, weak nails but can make already hard, brittle nails so rigid they split and shatter. Stop if problems appear.  
 *为什么:* 甲二醇（methylene glycol）让角蛋白（keratin）交联，指甲变得更硬。它适合薄软的指甲，但会让本来就硬、脆的指甲变得太僵，裂开甚至碎掉。出现问题就停用。  
 *Lock this (picture):* A brittle nail plus hardener is like dry spaghetti made stiffer: it snaps instead of bending.  
@@ -184,10 +184,10 @@ D. short and natural. / 短的真甲。
 
 **16. Why can't a tablet in pedicure water replace disinfecting the footbath?**  
 为什么往修脚水里放药片，不能代替给泡脚盆消毒？  
-A. Germ-killing strength would also harm skin. / 强到能杀菌的化学品也会伤皮肤。 ✅  
-B. Tablets only work in cold water. / 药片只在冷水里有效。  
-C. Tablets cost more than disinfectant. / 药片比消毒剂贵。  
-D. Tablets stain the basin. / 药片会把盆染色。  
+A. Germ-killing strength would also harm skin. / 强到能杀菌的化学品也会伤皮肤 ✅  
+B. Tablets only work in cold water. / 药片只在冷水里有效  
+C. Tablets cost more than disinfectant. / 药片比消毒剂贵  
+D. Tablets stain the basin. / 药片会把盆染色  
 *Why:* No tablet or additive in pedicure water replaces cleaning and disinfecting after each pedicure. Any chemical strong enough to kill pathogens can also harm the skin.  
 *为什么:* 任何放进修脚水里的药片或添加剂，都不能代替每次修脚后的清洁消毒。强到能杀死病原体的化学品也会伤皮肤。  
 *Lock this (picture):* Bleach cleans a bathtub, but nobody sits in bleach. Disinfect the empty tub after the feet come out.  
@@ -220,10 +220,10 @@ D. Acetone on a cotton pad / 沾了丙酮的棉片
 
 **19. Why wear safety glasses when using some callus softeners?**  
 为什么使用某些去茧软化剂（callus softener）时要戴护目镜？  
-A. They give off UV light. / 会发出紫外线。  
-B. They make a lot of dust. / 会产生大量粉尘。  
-C. They can be alkaline. / 它们可能是碱性的。 ✅  
-D. They are applied near the eyes. / 要涂在眼睛附近。  
+A. They give off UV light. / 会发出紫外线  
+B. They make a lot of dust. / 会产生大量粉尘  
+C. They can be alkaline. / 它们可能是碱性的 ✅  
+D. They are applied near the eyes. / 要涂在眼睛附近  
 *Why:* Some callus softeners are alkaline and potentially hazardous. Wear safety glasses and gloves when using or pouring them; misused, they can severely irritate the eyes, hands, and skin.  
 *为什么:* 有些去茧软化剂是碱性的，有潜在危险。使用或倒取时要戴护目镜和手套；用错了会严重刺激眼睛、手和皮肤。  
 *Lock this (reason-chain):* Pouring → a splash → alkali in the eye. Glasses stop the drop before it lands.  
@@ -232,10 +232,10 @@ D. They are applied near the eyes. / 要涂在眼睛附近。
 
 **20. Why should hydrogen peroxide never be used on an open cut?**  
 为什么双氧水（hydrogen peroxide）绝不能用在开放性伤口上？  
-A. It destroys cells that start healing. / 会破坏启动伤口愈合的细胞。 ✅  
-B. It is too weak to kill germs. / 太弱，杀不了病菌。  
-C. It stains the skin brown. / 会把皮肤染成棕色。  
-D. It is illegal in all salons. / 在所有沙龙都违法。  
+A. It destroys cells that start healing. / 会破坏启动伤口愈合的细胞 ✅  
+B. It is too weak to kill germs. / 太弱，杀不了病菌  
+C. It stains the skin brown. / 会把皮肤染成棕色  
+D. It is illegal in all salons. / 在所有沙龙都违法  
 *Why:* Hydrogen peroxide, usually 3 percent, works well as an antiseptic on skin. But never put it on an open cut: it destroys the cells that begin the healing process in a wound.  
 *为什么:* 双氧水一般用 3% 浓度，作为皮肤抗菌剂（antiseptic）效果不错。但绝不能用在开放性伤口上：它会破坏伤口里启动愈合的细胞。  
 *Lock this (real-life):* The bubbles on a cut look like cleaning, but peroxide also kills the cells that close the wound.  

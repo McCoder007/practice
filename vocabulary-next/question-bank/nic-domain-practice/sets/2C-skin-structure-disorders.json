@@ -144,22 +144,22 @@
         {
           "id": "a",
           "en": "subcutaneous tissue.",
-          "zh": "皮下组织（subcutaneous tissue）。"
+          "zh": "皮下组织（subcutaneous tissue）"
         },
         {
           "id": "b",
           "en": "epidermis.",
-          "zh": "表皮（epidermis）。"
+          "zh": "表皮（epidermis）"
         },
         {
           "id": "c",
           "en": "papillary layer.",
-          "zh": "乳头层（papillary layer）。"
+          "zh": "乳头层（papillary layer）"
         },
         {
           "id": "d",
           "en": "stratum lucidum.",
-          "zh": "透明层（stratum lucidum）。"
+          "zh": "透明层（stratum lucidum）"
         }
       ],
       "correctChoice": "a",
@@ -274,22 +274,22 @@
         {
           "id": "a",
           "en": "stratum granulosum.",
-          "zh": "颗粒层（stratum granulosum）。"
+          "zh": "颗粒层（stratum granulosum）"
         },
         {
           "id": "b",
           "en": "stratum lucidum.",
-          "zh": "透明层（stratum lucidum）。"
+          "zh": "透明层（stratum lucidum）"
         },
         {
           "id": "c",
           "en": "stratum corneum.",
-          "zh": "角质层（stratum corneum）。"
+          "zh": "角质层（stratum corneum）"
         },
         {
           "id": "d",
           "en": "stratum germinativum.",
-          "zh": "生发层（stratum germinativum）。"
+          "zh": "生发层（stratum germinativum）"
         }
       ],
       "correctChoice": "b",
@@ -452,22 +452,22 @@
         {
           "id": "a",
           "en": "oil glands.",
-          "zh": "油脂腺（oil glands）。"
+          "zh": "油脂腺（oil glands）"
         },
         {
           "id": "b",
           "en": "lymph nodes.",
-          "zh": "淋巴结（lymph nodes）。"
+          "zh": "淋巴结（lymph nodes）"
         },
         {
           "id": "c",
           "en": "sweat glands.",
-          "zh": "汗腺（sweat glands）。"
+          "zh": "汗腺（sweat glands）"
         },
         {
           "id": "d",
           "en": "endocrine glands.",
-          "zh": "内分泌腺（endocrine glands）。"
+          "zh": "内分泌腺（endocrine glands）"
         }
       ],
       "correctChoice": "c",
@@ -630,22 +630,22 @@
         {
           "id": "a",
           "en": "papule.",
-          "zh": "丘疹（papule）。"
+          "zh": "丘疹（papule）"
         },
         {
           "id": "b",
           "en": "vesicle.",
-          "zh": "水疱（vesicle）。"
+          "zh": "水疱（vesicle）"
         },
         {
           "id": "c",
           "en": "wheal.",
-          "zh": "风团（wheal）。"
+          "zh": "风团（wheal）"
         },
         {
           "id": "d",
           "en": "macule.",
-          "zh": "斑疹（macule）。"
+          "zh": "斑疹（macule）"
         }
       ],
       "correctChoice": "d",
@@ -758,22 +758,22 @@
         {
           "id": "a",
           "en": "fissure.",
-          "zh": "皲裂（fissure）。"
+          "zh": "皲裂（fissure）"
         },
         {
           "id": "b",
           "en": "scale.",
-          "zh": "鳞屑（scale）。"
+          "zh": "鳞屑（scale）"
         },
         {
           "id": "c",
           "en": "crust.",
-          "zh": "痂（crust）。"
+          "zh": "痂（crust）"
         },
         {
           "id": "d",
           "en": "excoriation.",
-          "zh": "抓伤（excoriation）。"
+          "zh": "抓伤（excoriation）"
         }
       ],
       "correctChoice": "a",
@@ -886,22 +886,22 @@
         {
           "id": "a",
           "en": "anhidrosis.",
-          "zh": "无汗症（anhidrosis）。"
+          "zh": "无汗症（anhidrosis）"
         },
         {
           "id": "b",
           "en": "hyperhidrosis.",
-          "zh": "多汗症（hyperhidrosis）。"
+          "zh": "多汗症（hyperhidrosis）"
         },
         {
           "id": "c",
           "en": "miliaria rubra.",
-          "zh": "红痱（miliaria rubra）。"
+          "zh": "红痱（miliaria rubra）"
         },
         {
           "id": "d",
           "en": "bromhidrosis.",
-          "zh": "臭汗症（bromhidrosis）。"
+          "zh": "臭汗症（bromhidrosis）"
         }
       ],
       "correctChoice": "d",
@@ -1024,22 +1024,22 @@
         {
           "id": "a",
           "en": "chloasma.",
-          "zh": "黄褐斑（chloasma）。"
+          "zh": "黄褐斑（chloasma）"
         },
         {
           "id": "b",
           "en": "vitiligo.",
-          "zh": "白癜风（vitiligo）。"
+          "zh": "白癜风（vitiligo）"
         },
         {
           "id": "c",
           "en": "leukoderma.",
-          "zh": "白斑病（leukoderma）。"
+          "zh": "白斑病（leukoderma）"
         },
         {
           "id": "d",
           "en": "a nevus.",
-          "zh": "胎记（nevus）。"
+          "zh": "胎记（nevus）"
         }
       ],
       "correctChoice": "a",
@@ -1082,22 +1082,22 @@
         {
           "id": "a",
           "en": "malignant melanoma.",
-          "zh": "恶性黑色素瘤（malignant melanoma）。"
+          "zh": "恶性黑色素瘤（malignant melanoma）"
         },
         {
           "id": "b",
           "en": "basal cell carcinoma.",
-          "zh": "基底细胞癌（basal cell carcinoma）。"
+          "zh": "基底细胞癌（basal cell carcinoma）"
         },
         {
           "id": "c",
           "en": "squamous cell carcinoma.",
-          "zh": "鳞状细胞癌（squamous cell carcinoma）。"
+          "zh": "鳞状细胞癌（squamous cell carcinoma）"
         },
         {
           "id": "d",
           "en": "a normal mole.",
-          "zh": "普通的痣（mole）。"
+          "zh": "普通的痣（mole）"
         }
       ],
       "correctChoice": "b",
@@ -1204,22 +1204,22 @@
         {
           "id": "a",
           "en": "freckle.",
-          "zh": "雀斑（freckle）。"
+          "zh": "雀斑（freckle）"
         },
         {
           "id": "b",
           "en": "birthmark.",
-          "zh": "胎记（birthmark）。"
+          "zh": "胎记（birthmark）"
         },
         {
           "id": "c",
           "en": "mole.",
-          "zh": "痣（mole）。"
+          "zh": "痣（mole）"
         },
         {
           "id": "d",
           "en": "wart.",
-          "zh": "疣（wart）。"
+          "zh": "疣（wart）"
         }
       ],
       "correctChoice": "d",

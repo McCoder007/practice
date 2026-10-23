@@ -86,22 +86,22 @@
         {
           "id": "a",
           "en": "They make polish dry faster.",
-          "zh": "让指甲油干得更快。"
+          "zh": "让指甲油干得更快"
         },
         {
           "id": "b",
           "en": "They disinfect the work surface.",
-          "zh": "能给桌面消毒。"
+          "zh": "能给桌面消毒"
         },
         {
           "id": "c",
           "en": "They make skin look more golden.",
-          "zh": "让皮肤看起来更偏金黄。"
+          "zh": "让皮肤看起来更偏金黄"
         },
         {
           "id": "d",
           "en": "They give off cooler light.",
-          "zh": "发出的光比较凉。"
+          "zh": "发出的光比较凉"
         }
       ],
       "correctChoice": "d",
@@ -212,22 +212,22 @@
         {
           "id": "a",
           "en": "cleaned and disinfected.",
-          "zh": "清洁并消毒。"
+          "zh": "清洁并消毒"
         },
         {
           "id": "b",
           "en": "rinsed and refilled only.",
-          "zh": "只冲一冲再加水。"
+          "zh": "只冲一冲再加水"
         },
         {
           "id": "c",
           "en": "thrown away.",
-          "zh": "扔掉。"
+          "zh": "扔掉"
         },
         {
           "id": "d",
           "en": "stored with the water in it.",
-          "zh": "连水一起收起来。"
+          "zh": "连水一起收起来"
         }
       ],
       "correctChoice": "a",
@@ -290,22 +290,22 @@
         {
           "id": "a",
           "en": "hold the tips of implements only.",
-          "zh": "只浸泡工具的尖端。"
+          "zh": "只浸泡工具的尖端"
         },
         {
           "id": "b",
           "en": "hold one implement at a time.",
-          "zh": "一次只放一件工具。"
+          "zh": "一次只放一件工具"
         },
         {
           "id": "c",
           "en": "fully cover implements, handles included.",
-          "zh": "把工具完全浸没，包括手柄。"
+          "zh": "把工具完全浸没，包括手柄"
         },
         {
           "id": "d",
           "en": "store a week of used implements.",
-          "zh": "存放一周用过的工具。"
+          "zh": "存放一周用过的工具"
         }
       ],
       "correctChoice": "c",
@@ -546,22 +546,22 @@
         {
           "id": "a",
           "en": "the top speed of the bit.",
-          "zh": "磨头的最高转速。"
+          "zh": "磨头的最高转速"
         },
         {
           "id": "b",
           "en": "the size of the bit's shank.",
-          "zh": "磨头柄（shank）的粗细。"
+          "zh": "磨头柄（shank）的粗细"
         },
         {
           "id": "c",
           "en": "its power to keep turning under pressure.",
-          "zh": "受压时继续转动的力量。"
+          "zh": "受压时继续转动的力量"
         },
         {
           "id": "d",
           "en": "the coarseness of the bit.",
-          "zh": "磨头的粗糙程度。"
+          "zh": "磨头的粗糙程度"
         }
       ],
       "correctChoice": "c",
@@ -870,22 +870,22 @@
         {
           "id": "a",
           "en": "full turns of the bit per minute.",
-          "zh": "磨头每分钟转的整圈数。"
+          "zh": "磨头每分钟转的整圈数"
         },
         {
           "id": "b",
           "en": "the weight of the handpiece.",
-          "zh": "手柄的重量。"
+          "zh": "手柄的重量"
         },
         {
           "id": "c",
           "en": "the heat on the nail surface.",
-          "zh": "指甲表面的温度。"
+          "zh": "指甲表面的温度"
         },
         {
           "id": "d",
           "en": "the grit size of the bit.",
-          "zh": "磨头的粗细（grit）。"
+          "zh": "磨头的粗细（grit）"
         }
       ],
       "correctChoice": "a",
@@ -928,22 +928,22 @@
         {
           "id": "a",
           "en": "has a rounded safety tip.",
-          "zh": "有圆头安全设计。"
+          "zh": "有圆头安全设计"
         },
         {
           "id": "b",
           "en": "is used once, then thrown away.",
-          "zh": "用一次就扔。"
+          "zh": "用一次就扔"
         },
         {
           "id": "c",
           "en": "is balanced and does not wobble.",
-          "zh": "平衡，不晃动。"
+          "zh": "平衡，不晃动"
         },
         {
           "id": "d",
           "en": "has grooves called flutes.",
-          "zh": "表面有叫 flutes（刃槽）的槽纹。"
+          "zh": "表面有叫 flutes（刃槽）的槽纹"
         }
       ],
       "correctChoice": "c",
@@ -1130,22 +1130,22 @@
         {
           "id": "a",
           "en": "Its electrical safety is certified.",
-          "zh": "它的用电安全经过认证。"
+          "zh": "它的用电安全经过认证"
         },
         {
           "id": "b",
           "en": "It is EPA-registered as a disinfectant.",
-          "zh": "它是 EPA 注册的消毒产品。"
+          "zh": "它是 EPA 注册的消毒产品"
         },
         {
           "id": "c",
           "en": "It is licensed by the state board.",
-          "zh": "它获得州委员会许可。"
+          "zh": "它获得州委员会许可"
         },
         {
           "id": "d",
           "en": "It was made in the United States.",
-          "zh": "它是美国制造的。"
+          "zh": "它是美国制造的"
         }
       ],
       "correctChoice": "a",

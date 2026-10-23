@@ -208,22 +208,22 @@
         {
           "id": "a",
           "en": "licensed by OSHA.",
-          "zh": "取得 OSHA 执照。"
+          "zh": "取得 OSHA 执照"
         },
         {
           "id": "b",
           "en": "tested yearly for allergies.",
-          "zh": "每年做过敏测试。"
+          "zh": "每年做过敏测试"
         },
         {
           "id": "c",
           "en": "certified in first aid.",
-          "zh": "取得急救证书。"
+          "zh": "取得急救证书"
         },
         {
           "id": "d",
           "en": "told about hazardous chemicals at work.",
-          "zh": "被告知工作场所中的危险化学品。"
+          "zh": "被告知工作场所中的危险化学品"
         }
       ],
       "correctChoice": "d",
@@ -338,22 +338,22 @@
         {
           "id": "a",
           "en": "Acetone makes peroxide odorless.",
-          "zh": "丙酮会让双氧水没有气味。"
+          "zh": "丙酮会让双氧水没有气味"
         },
         {
           "id": "b",
           "en": "Both lose strength in the dark.",
-          "zh": "两者在暗处都会失效。"
+          "zh": "两者在暗处都会失效"
         },
         {
           "id": "c",
           "en": "Mixed, they can start a fire.",
-          "zh": "两者混合可能起火。"
+          "zh": "两者混合可能起火"
         },
         {
           "id": "d",
           "en": "They form a sticky film.",
-          "zh": "会形成一层黏膜。"
+          "zh": "会形成一层黏膜"
         }
       ],
       "correctChoice": "c",
@@ -402,22 +402,22 @@
         {
           "id": "a",
           "en": "a stronger disinfectant.",
-          "zh": "更强的消毒剂。"
+          "zh": "更强的消毒剂"
         },
         {
           "id": "b",
           "en": "a gentle cleaner.",
-          "zh": "温和的清洁剂。"
+          "zh": "温和的清洁剂"
         },
         {
           "id": "c",
           "en": "an odorless foam.",
-          "zh": "无味的泡沫。"
+          "zh": "无味的泡沫"
         },
         {
           "id": "d",
           "en": "chlorine gas.",
-          "zh": "氯气。"
+          "zh": "氯气"
         }
       ],
       "correctChoice": "d",
@@ -538,22 +538,22 @@
         {
           "id": "a",
           "en": "product name, ingredients, and hazards.",
-          "zh": "产品名称、成分和危害。"
+          "zh": "产品名称、成分和危害"
         },
         {
           "id": "b",
           "en": "only the date it was mixed.",
-          "zh": "只写调配日期。"
+          "zh": "只写调配日期"
         },
         {
           "id": "c",
           "en": "the client’s name.",
-          "zh": "客人的名字。"
+          "zh": "客人的名字"
         },
         {
           "id": "d",
           "en": "nothing if the liquid is clear.",
-          "zh": "液体是透明的就不用标。"
+          "zh": "液体是透明的就不用标"
         }
       ],
       "correctChoice": "a",
@@ -722,22 +722,22 @@
         {
           "id": "a",
           "en": "allergic contact dermatitis.",
-          "zh": "过敏性接触性皮炎。"
+          "zh": "过敏性接触性皮炎"
         },
         {
           "id": "b",
           "en": "psoriasis.",
-          "zh": "银屑病。"
+          "zh": "银屑病"
         },
         {
           "id": "c",
           "en": "irritant contact dermatitis.",
-          "zh": "刺激性接触性皮炎。"
+          "zh": "刺激性接触性皮炎"
         },
         {
           "id": "d",
           "en": "tinea manus.",
-          "zh": "手癣。"
+          "zh": "手癣"
         }
       ],
       "correctChoice": "c",
@@ -794,22 +794,22 @@
         {
           "id": "a",
           "en": "sensitization.",
-          "zh": "致敏。"
+          "zh": "致敏"
         },
         {
           "id": "b",
           "en": "neutralization.",
-          "zh": "中和。"
+          "zh": "中和"
         },
         {
           "id": "c",
           "en": "polymerization.",
-          "zh": "聚合。"
+          "zh": "聚合"
         },
         {
           "id": "d",
           "en": "sterilization.",
-          "zh": "灭菌。"
+          "zh": "灭菌"
         }
       ],
       "correctChoice": "a",
@@ -936,22 +936,22 @@
         {
           "id": "a",
           "en": "bend at the waist and lift fast.",
-          "zh": "弯腰快速抬起。"
+          "zh": "弯腰快速抬起"
         },
         {
           "id": "b",
           "en": "twist your body as you lift.",
-          "zh": "边抬边扭身体。"
+          "zh": "边抬边扭身体"
         },
         {
           "id": "c",
           "en": "hold it far from your body.",
-          "zh": "让箱子离身体远一点。"
+          "zh": "让箱子离身体远一点"
         },
         {
           "id": "d",
           "en": "bend at the knees, not the back.",
-          "zh": "弯膝盖，不要弯腰。"
+          "zh": "弯膝盖，不要弯腰"
         }
       ],
       "correctChoice": "d",
@@ -1218,22 +1218,22 @@
         {
           "id": "a",
           "en": "Have the client extend their hand to you.",
-          "zh": "请客人把手伸到你这边。"
+          "zh": "请客人把手伸到你这边"
         },
         {
           "id": "b",
           "en": "Lean forward from the waist.",
-          "zh": "从腰部向前倾。"
+          "zh": "从腰部向前倾"
         },
         {
           "id": "c",
           "en": "Twist your body toward the client.",
-          "zh": "把身体转向客人。"
+          "zh": "把身体转向客人"
         },
         {
           "id": "d",
           "en": "Hold your elbows far from your body.",
-          "zh": "手肘远离身体。"
+          "zh": "手肘远离身体"
         }
       ],
       "correctChoice": "a",

@@ -22,22 +22,22 @@
         {
           "id": "a",
           "en": "indirect transmission.",
-          "zh": "间接传播。"
+          "zh": "间接传播"
         },
         {
           "id": "b",
           "en": "direct transmission.",
-          "zh": "直接传播。"
+          "zh": "直接传播"
         },
         {
           "id": "c",
           "en": "airborne transmission.",
-          "zh": "空气传播。"
+          "zh": "空气传播"
         },
         {
           "id": "d",
           "en": "respiratory droplet transmission.",
-          "zh": "呼吸道飞沫传播。"
+          "zh": "呼吸道飞沫传播"
         }
       ],
       "correctChoice": "b",
@@ -64,22 +64,22 @@
         {
           "id": "a",
           "en": "direct transmission.",
-          "zh": "直接传播。"
+          "zh": "直接传播"
         },
         {
           "id": "b",
           "en": "airborne transmission.",
-          "zh": "空气传播。"
+          "zh": "空气传播"
         },
         {
           "id": "c",
           "en": "indirect transmission.",
-          "zh": "间接传播。"
+          "zh": "间接传播"
         },
         {
           "id": "d",
           "en": "respiratory droplet transmission.",
-          "zh": "呼吸道飞沫传播。"
+          "zh": "呼吸道飞沫传播"
         }
       ],
       "correctChoice": "c",
@@ -190,22 +190,22 @@
         {
           "id": "a",
           "en": "a contagious disease.",
-          "zh": "传染性疾病。"
+          "zh": "传染性疾病"
         },
         {
           "id": "b",
           "en": "an occupational disease.",
-          "zh": "职业病。"
+          "zh": "职业病"
         },
         {
           "id": "c",
           "en": "a local infection.",
-          "zh": "局部感染。"
+          "zh": "局部感染"
         },
         {
           "id": "d",
           "en": "a systemic infection.",
-          "zh": "全身性感染。"
+          "zh": "全身性感染"
         }
       ],
       "correctChoice": "a",
@@ -232,22 +232,22 @@
         {
           "id": "a",
           "en": "a contagious disease.",
-          "zh": "传染性疾病。"
+          "zh": "传染性疾病"
         },
         {
           "id": "b",
           "en": "an occupational disease.",
-          "zh": "职业病。"
+          "zh": "职业病"
         },
         {
           "id": "c",
           "en": "a parasitic disease.",
-          "zh": "寄生虫病。"
+          "zh": "寄生虫病"
         },
         {
           "id": "d",
           "en": "a viral disease.",
-          "zh": "病毒性疾病。"
+          "zh": "病毒性疾病"
         }
       ],
       "correctChoice": "b",
@@ -274,22 +274,22 @@
         {
           "id": "a",
           "en": "pathogenic.",
-          "zh": "致病性细菌。"
+          "zh": "致病性细菌"
         },
         {
           "id": "b",
           "en": "staphylococci.",
-          "zh": "葡萄球菌。"
+          "zh": "葡萄球菌"
         },
         {
           "id": "c",
           "en": "mycobacteria.",
-          "zh": "分枝杆菌。"
+          "zh": "分枝杆菌"
         },
         {
           "id": "d",
           "en": "nonpathogenic.",
-          "zh": "非致病性细菌。"
+          "zh": "非致病性细菌"
         }
       ],
       "correctChoice": "d",
@@ -400,22 +400,22 @@
         {
           "id": "a",
           "en": "inflammation.",
-          "zh": "炎症。"
+          "zh": "炎症"
         },
         {
           "id": "b",
           "en": "contamination.",
-          "zh": "污染。"
+          "zh": "污染"
         },
         {
           "id": "c",
           "en": "decontamination.",
-          "zh": "去污染。"
+          "zh": "去污染"
         },
         {
           "id": "d",
           "en": "immunity.",
-          "zh": "免疫。"
+          "zh": "免疫"
         }
       ],
       "correctChoice": "a",
@@ -442,22 +442,22 @@
         {
           "id": "a",
           "en": "infection.",
-          "zh": "感染。"
+          "zh": "感染"
         },
         {
           "id": "b",
           "en": "inflammation.",
-          "zh": "炎症。"
+          "zh": "炎症"
         },
         {
           "id": "c",
           "en": "contamination.",
-          "zh": "污染。"
+          "zh": "污染"
         },
         {
           "id": "d",
           "en": "immunity.",
-          "zh": "免疫。"
+          "zh": "免疫"
         }
       ],
       "correctChoice": "d",
@@ -484,22 +484,22 @@
         {
           "id": "a",
           "en": "a virus.",
-          "zh": "病毒。"
+          "zh": "病毒"
         },
         {
           "id": "b",
           "en": "a fungus.",
-          "zh": "真菌。"
+          "zh": "真菌"
         },
         {
           "id": "c",
           "en": "staph bacteria.",
-          "zh": "葡萄球菌（细菌）。"
+          "zh": "葡萄球菌（细菌）"
         },
         {
           "id": "d",
           "en": "a parasite.",
-          "zh": "寄生虫。"
+          "zh": "寄生虫"
         }
       ],
       "correctChoice": "c",
@@ -526,22 +526,22 @@
         {
           "id": "a",
           "en": "pedicure bowls.",
-          "zh": "足浴盆。"
+          "zh": "足浴盆"
         },
         {
           "id": "b",
           "en": "nail polish.",
-          "zh": "指甲油。"
+          "zh": "指甲油"
         },
         {
           "id": "c",
           "en": "UV lamps.",
-          "zh": "UV 灯。"
+          "zh": "UV 灯"
         },
         {
           "id": "d",
           "en": "hand lotion.",
-          "zh": "护手霜。"
+          "zh": "护手霜"
         }
       ],
       "correctChoice": "a",
@@ -568,22 +568,22 @@
         {
           "id": "a",
           "en": "hair.",
-          "zh": "头发。"
+          "zh": "头发"
         },
         {
           "id": "b",
           "en": "eyeglasses.",
-          "zh": "眼镜。"
+          "zh": "眼镜"
         },
         {
           "id": "c",
           "en": "shoes.",
-          "zh": "鞋子。"
+          "zh": "鞋子"
         },
         {
           "id": "d",
           "en": "dirty hands.",
-          "zh": "脏手。"
+          "zh": "脏手"
         }
       ],
       "correctChoice": "d",
@@ -694,22 +694,22 @@
         {
           "id": "a",
           "en": "bloodborne pathogens.",
-          "zh": "血源性病原体。"
+          "zh": "血源性病原体"
         },
         {
           "id": "b",
           "en": "fungi.",
-          "zh": "真菌。"
+          "zh": "真菌"
         },
         {
           "id": "c",
           "en": "parasites.",
-          "zh": "寄生虫。"
+          "zh": "寄生虫"
         },
         {
           "id": "d",
           "en": "nonpathogenic bacteria.",
-          "zh": "非致病性细菌。"
+          "zh": "非致病性细菌"
         }
       ],
       "correctChoice": "a",
@@ -736,22 +736,22 @@
         {
           "id": "a",
           "en": "toxins.",
-          "zh": "毒素。"
+          "zh": "毒素"
         },
         {
           "id": "b",
           "en": "biofilms.",
-          "zh": "生物膜。"
+          "zh": "生物膜"
         },
         {
           "id": "c",
           "en": "viruses.",
-          "zh": "病毒。"
+          "zh": "病毒"
         },
         {
           "id": "d",
           "en": "antitoxins.",
-          "zh": "抗毒素。"
+          "zh": "抗毒素"
         }
       ],
       "correctChoice": "b",
@@ -778,22 +778,22 @@
         {
           "id": "a",
           "en": "a worm.",
-          "zh": "蠕虫。"
+          "zh": "蠕虫"
         },
         {
           "id": "b",
           "en": "a virus.",
-          "zh": "病毒。"
+          "zh": "病毒"
         },
         {
           "id": "c",
           "en": "bacteria.",
-          "zh": "细菌。"
+          "zh": "细菌"
         },
         {
           "id": "d",
           "en": "a fungus.",
-          "zh": "真菌。"
+          "zh": "真菌"
         }
       ],
       "correctChoice": "d",
@@ -820,22 +820,22 @@
         {
           "id": "a",
           "en": "a fungus.",
-          "zh": "真菌。"
+          "zh": "真菌"
         },
         {
           "id": "b",
           "en": "a virus.",
-          "zh": "病毒。"
+          "zh": "病毒"
         },
         {
           "id": "c",
           "en": "the itch mite.",
-          "zh": "疥螨。"
+          "zh": "疥螨"
         },
         {
           "id": "d",
           "en": "bacteria.",
-          "zh": "细菌。"
+          "zh": "细菌"
         }
       ],
       "correctChoice": "c",
@@ -946,22 +946,22 @@
         {
           "id": "a",
           "en": "most bacteria.",
-          "zh": "大多数细菌。"
+          "zh": "大多数细菌"
         },
         {
           "id": "b",
           "en": "viruses.",
-          "zh": "病毒。"
+          "zh": "病毒"
         },
         {
           "id": "c",
           "en": "bacterial spores.",
-          "zh": "细菌芽孢。"
+          "zh": "细菌芽孢"
         },
         {
           "id": "d",
           "en": "fungi.",
-          "zh": "真菌。"
+          "zh": "真菌"
         }
       ],
       "correctChoice": "c",
@@ -988,22 +988,22 @@
         {
           "id": "a",
           "en": "It must be cleaned.",
-          "zh": "必须先清洁。"
+          "zh": "必须先清洁"
         },
         {
           "id": "b",
           "en": "It must be sterilized.",
-          "zh": "必须先灭菌。"
+          "zh": "必须先灭菌"
         },
         {
           "id": "c",
           "en": "It must be wiped with alcohol.",
-          "zh": "必须先用酒精擦。"
+          "zh": "必须先用酒精擦"
         },
         {
           "id": "d",
           "en": "It must sit under UV light.",
-          "zh": "必须先放在紫外线灯下。"
+          "zh": "必须先放在紫外线灯下"
         }
       ],
       "correctChoice": "a",
@@ -1030,22 +1030,22 @@
         {
           "id": "a",
           "en": "sit in the bottle after mixing.",
-          "zh": "调好后在瓶子里放置。"
+          "zh": "调好后在瓶子里放置"
         },
         {
           "id": "b",
           "en": "dry before the tool is used.",
-          "zh": "在使用工具前晾干。"
+          "zh": "在使用工具前晾干"
         },
         {
           "id": "c",
           "en": "stay visibly moist on the surface.",
-          "zh": "在表面上保持肉眼可见的湿润。"
+          "zh": "在表面上保持肉眼可见的湿润"
         },
         {
           "id": "d",
           "en": "heat up before use.",
-          "zh": "使用前加热。"
+          "zh": "使用前加热"
         }
       ],
       "correctChoice": "c",
@@ -1072,22 +1072,22 @@
         {
           "id": "a",
           "en": "Add the water to the concentrate.",
-          "zh": "把水倒入浓缩液中。"
+          "zh": "把水倒入浓缩液中"
         },
         {
           "id": "b",
           "en": "Add the concentrate to the water.",
-          "zh": "把浓缩液倒入水中。"
+          "zh": "把浓缩液倒入水中"
         },
         {
           "id": "c",
           "en": "Add extra concentrate for strength.",
-          "zh": "多加浓缩液让它更强。"
+          "zh": "多加浓缩液让它更强"
         },
         {
           "id": "d",
           "en": "Add bleach to boost it.",
-          "zh": "加漂白水增强效果。"
+          "zh": "加漂白水增强效果"
         }
       ],
       "correctChoice": "b",
@@ -1156,22 +1156,22 @@
         {
           "id": "a",
           "en": "sporicidal.",
-          "zh": "杀芽孢（sporicidal）。"
+          "zh": "杀芽孢（sporicidal）"
         },
         {
           "id": "b",
           "en": "antiseptic.",
-          "zh": "用作皮肤抗菌剂。"
+          "zh": "用作皮肤抗菌剂"
         },
         {
           "id": "c",
           "en": "nontoxic.",
-          "zh": "无毒。"
+          "zh": "无毒"
         },
         {
           "id": "d",
           "en": "fungicidal.",
-          "zh": "杀真菌（fungicidal）。"
+          "zh": "杀真菌（fungicidal）"
         }
       ],
       "correctChoice": "d",
@@ -1240,22 +1240,22 @@
         {
           "id": "a",
           "en": "the bacterium that causes tuberculosis.",
-          "zh": "引起结核病的细菌。"
+          "zh": "引起结核病的细菌"
         },
         {
           "id": "b",
           "en": "head lice.",
-          "zh": "头虱。"
+          "zh": "头虱"
         },
         {
           "id": "c",
           "en": "the itch mite.",
-          "zh": "疥螨。"
+          "zh": "疥螨"
         },
         {
           "id": "d",
           "en": "all bacterial spores.",
-          "zh": "所有细菌芽孢。"
+          "zh": "所有细菌芽孢"
         }
       ],
       "correctChoice": "a",
@@ -1324,22 +1324,22 @@
         {
           "id": "a",
           "en": "an implement disinfectant.",
-          "zh": "工具消毒剂。"
+          "zh": "工具消毒剂"
         },
         {
           "id": "b",
           "en": "a sterilizer for metal tools.",
-          "zh": "金属工具灭菌剂。"
+          "zh": "金属工具灭菌剂"
         },
         {
           "id": "c",
           "en": "a pedicure basin disinfectant.",
-          "zh": "足浴盆消毒剂。"
+          "zh": "足浴盆消毒剂"
         },
         {
           "id": "d",
           "en": "a cleaner or antiseptic.",
-          "zh": "清洁剂或皮肤抗菌剂。"
+          "zh": "清洁剂或皮肤抗菌剂"
         }
       ],
       "correctChoice": "d",
@@ -1366,22 +1366,22 @@
         {
           "id": "a",
           "en": "implements.",
-          "zh": "工具上。"
+          "zh": "工具上"
         },
         {
           "id": "b",
           "en": "work surfaces.",
-          "zh": "工作台面上。"
+          "zh": "工作台面上"
         },
         {
           "id": "c",
           "en": "skin.",
-          "zh": "皮肤上。"
+          "zh": "皮肤上"
         },
         {
           "id": "d",
           "en": "pedicure basins.",
-          "zh": "足浴盆上。"
+          "zh": "足浴盆上"
         }
       ],
       "correctChoice": "c",
@@ -1408,22 +1408,22 @@
         {
           "id": "a",
           "en": "covered in visible debris.",
-          "zh": "有明显污垢残渣的表面。"
+          "zh": "有明显污垢残渣的表面"
         },
         {
           "id": "b",
           "en": "clean, hard, and nonporous.",
-          "zh": "干净、坚硬、不吸水的表面。"
+          "zh": "干净、坚硬、不吸水的表面"
         },
         {
           "id": "c",
           "en": "soft and absorbent.",
-          "zh": "柔软、会吸水的表面。"
+          "zh": "柔软、会吸水的表面"
         },
         {
           "id": "d",
           "en": "human skin and nails.",
-          "zh": "人的皮肤和指甲。"
+          "zh": "人的皮肤和指甲"
         }
       ],
       "correctChoice": "b",
@@ -1450,22 +1450,22 @@
         {
           "id": "a",
           "en": "soaked in disinfectant overnight.",
-          "zh": "在消毒液里泡一夜。"
+          "zh": "在消毒液里泡一夜"
         },
         {
           "id": "b",
           "en": "rinsed and saved for the next client.",
-          "zh": "冲洗后留给下一位客人。"
+          "zh": "冲洗后留给下一位客人"
         },
         {
           "id": "c",
           "en": "sprayed with alcohol and reused.",
-          "zh": "喷酒精后再用。"
+          "zh": "喷酒精后再用"
         },
         {
           "id": "d",
           "en": "thrown away or given to the client.",
-          "zh": "丢掉或送给客人。"
+          "zh": "丢掉或送给客人"
         }
       ],
       "correctChoice": "d",
@@ -1534,22 +1534,22 @@
         {
           "id": "a",
           "en": "safe unless the client looks sick.",
-          "zh": "安全的，除非客人看起来生病。"
+          "zh": "安全的，除非客人看起来生病"
         },
         {
           "id": "b",
           "en": "a risk only in medical offices.",
-          "zh": "只在医疗机构才有风险。"
+          "zh": "只在医疗机构才有风险"
         },
         {
           "id": "c",
           "en": "potentially infectious.",
-          "zh": "可能有传染性。"
+          "zh": "可能有传染性"
         },
         {
           "id": "d",
           "en": "harmless once they dry.",
-          "zh": "干了就无害。"
+          "zh": "干了就无害"
         }
       ],
       "correctChoice": "c",
@@ -1576,22 +1576,22 @@
         {
           "id": "a",
           "en": "Finish the nail first.",
-          "zh": "先把这只指甲做完。"
+          "zh": "先把这只指甲做完"
         },
         {
           "id": "b",
           "en": "Stop the service.",
-          "zh": "立即停止服务。"
+          "zh": "立即停止服务"
         },
         {
           "id": "c",
           "en": "Apply polish to seal it.",
-          "zh": "涂指甲油把伤口封住。"
+          "zh": "涂指甲油把伤口封住"
         },
         {
           "id": "d",
           "en": "Disinfect your implements.",
-          "zh": "先给工具消毒。"
+          "zh": "先给工具消毒"
         }
       ],
       "correctChoice": "b",
@@ -1660,22 +1660,22 @@
         {
           "id": "a",
           "en": "in a clean, covered container.",
-          "zh": "干净、有盖的容器里。"
+          "zh": "干净、有盖的容器里"
         },
         {
           "id": "b",
           "en": "in your apron pocket.",
-          "zh": "你的围裙口袋里。"
+          "zh": "你的围裙口袋里"
         },
         {
           "id": "c",
           "en": "in the disinfectant overnight.",
-          "zh": "消毒液里过夜。"
+          "zh": "消毒液里过夜"
         },
         {
           "id": "d",
           "en": "on an open towel all day.",
-          "zh": "敞开的毛巾上放一整天。"
+          "zh": "敞开的毛巾上放一整天"
         }
       ],
       "correctChoice": "a",
@@ -1828,22 +1828,22 @@
         {
           "id": "a",
           "en": "licensed by OSHA.",
-          "zh": "取得 OSHA 执照。"
+          "zh": "取得 OSHA 执照"
         },
         {
           "id": "b",
           "en": "tested yearly for allergies.",
-          "zh": "每年做过敏测试。"
+          "zh": "每年做过敏测试"
         },
         {
           "id": "c",
           "en": "certified in first aid.",
-          "zh": "取得急救证书。"
+          "zh": "取得急救证书"
         },
         {
           "id": "d",
           "en": "told about hazardous chemicals at work.",
-          "zh": "被告知工作场所中的危险化学品。"
+          "zh": "被告知工作场所中的危险化学品"
         }
       ],
       "correctChoice": "d",
@@ -1912,22 +1912,22 @@
         {
           "id": "a",
           "en": "Acetone makes peroxide odorless.",
-          "zh": "丙酮会让双氧水没有气味。"
+          "zh": "丙酮会让双氧水没有气味"
         },
         {
           "id": "b",
           "en": "Both lose strength in the dark.",
-          "zh": "两者在暗处都会失效。"
+          "zh": "两者在暗处都会失效"
         },
         {
           "id": "c",
           "en": "Mixed, they can start a fire.",
-          "zh": "两者混合可能起火。"
+          "zh": "两者混合可能起火"
         },
         {
           "id": "d",
           "en": "They form a sticky film.",
-          "zh": "会形成一层黏膜。"
+          "zh": "会形成一层黏膜"
         }
       ],
       "correctChoice": "c",
@@ -1954,22 +1954,22 @@
         {
           "id": "a",
           "en": "a stronger disinfectant.",
-          "zh": "更强的消毒剂。"
+          "zh": "更强的消毒剂"
         },
         {
           "id": "b",
           "en": "a gentle cleaner.",
-          "zh": "温和的清洁剂。"
+          "zh": "温和的清洁剂"
         },
         {
           "id": "c",
           "en": "an odorless foam.",
-          "zh": "无味的泡沫。"
+          "zh": "无味的泡沫"
         },
         {
           "id": "d",
           "en": "chlorine gas.",
-          "zh": "氯气。"
+          "zh": "氯气"
         }
       ],
       "correctChoice": "d",
@@ -2038,22 +2038,22 @@
         {
           "id": "a",
           "en": "product name, ingredients, and hazards.",
-          "zh": "产品名称、成分和危害。"
+          "zh": "产品名称、成分和危害"
         },
         {
           "id": "b",
           "en": "only the date it was mixed.",
-          "zh": "只写调配日期。"
+          "zh": "只写调配日期"
         },
         {
           "id": "c",
           "en": "the client’s name.",
-          "zh": "客人的名字。"
+          "zh": "客人的名字"
         },
         {
           "id": "d",
           "en": "nothing if the liquid is clear.",
-          "zh": "液体是透明的就不用标。"
+          "zh": "液体是透明的就不用标"
         }
       ],
       "correctChoice": "a",
@@ -2164,22 +2164,22 @@
         {
           "id": "a",
           "en": "allergic contact dermatitis.",
-          "zh": "过敏性接触性皮炎。"
+          "zh": "过敏性接触性皮炎"
         },
         {
           "id": "b",
           "en": "psoriasis.",
-          "zh": "银屑病。"
+          "zh": "银屑病"
         },
         {
           "id": "c",
           "en": "irritant contact dermatitis.",
-          "zh": "刺激性接触性皮炎。"
+          "zh": "刺激性接触性皮炎"
         },
         {
           "id": "d",
           "en": "tinea manus.",
-          "zh": "手癣。"
+          "zh": "手癣"
         }
       ],
       "correctChoice": "c",
@@ -2206,22 +2206,22 @@
         {
           "id": "a",
           "en": "sensitization.",
-          "zh": "致敏。"
+          "zh": "致敏"
         },
         {
           "id": "b",
           "en": "neutralization.",
-          "zh": "中和。"
+          "zh": "中和"
         },
         {
           "id": "c",
           "en": "polymerization.",
-          "zh": "聚合。"
+          "zh": "聚合"
         },
         {
           "id": "d",
           "en": "sterilization.",
-          "zh": "灭菌。"
+          "zh": "灭菌"
         }
       ],
       "correctChoice": "a",
@@ -2290,22 +2290,22 @@
         {
           "id": "a",
           "en": "bend at the waist and lift fast.",
-          "zh": "弯腰快速抬起。"
+          "zh": "弯腰快速抬起"
         },
         {
           "id": "b",
           "en": "twist your body as you lift.",
-          "zh": "边抬边扭身体。"
+          "zh": "边抬边扭身体"
         },
         {
           "id": "c",
           "en": "hold it far from your body.",
-          "zh": "让箱子离身体远一点。"
+          "zh": "让箱子离身体远一点"
         },
         {
           "id": "d",
           "en": "bend at the knees, not the back.",
-          "zh": "弯膝盖，不要弯腰。"
+          "zh": "弯膝盖，不要弯腰"
         }
       ],
       "correctChoice": "d",
@@ -2458,22 +2458,22 @@
         {
           "id": "a",
           "en": "Have the client extend their hand to you.",
-          "zh": "请客人把手伸到你这边。"
+          "zh": "请客人把手伸到你这边"
         },
         {
           "id": "b",
           "en": "Lean forward from the waist.",
-          "zh": "从腰部向前倾。"
+          "zh": "从腰部向前倾"
         },
         {
           "id": "c",
           "en": "Twist your body toward the client.",
-          "zh": "把身体转向客人。"
+          "zh": "把身体转向客人"
         },
         {
           "id": "d",
           "en": "Hold your elbows far from your body.",
-          "zh": "手肘远离身体。"
+          "zh": "手肘远离身体"
         }
       ],
       "correctChoice": "a",
@@ -2584,22 +2584,22 @@
         {
           "id": "a",
           "en": "a local infection.",
-          "zh": "局部感染（local infection）。"
+          "zh": "局部感染（local infection）"
         },
         {
           "id": "b",
           "en": "a systemic infection.",
-          "zh": "全身性感染（systemic infection）。"
+          "zh": "全身性感染（systemic infection）"
         },
         {
           "id": "c",
           "en": "a viral infection.",
-          "zh": "病毒感染（viral infection）。"
+          "zh": "病毒感染（viral infection）"
         },
         {
           "id": "d",
           "en": "an occupational disease.",
-          "zh": "职业病（occupational disease）。"
+          "zh": "职业病（occupational disease）"
         }
       ],
       "correctChoice": "a",
@@ -2626,22 +2626,22 @@
         {
           "id": "a",
           "en": "heat-and-pressure process in an autoclave.",
-          "zh": "在高压灭菌器（autoclave）里用高温高压的过程。"
+          "zh": "在高压灭菌器（autoclave）里用高温高压的过程"
         },
         {
           "id": "b",
           "en": "chemical process that destroys most germs.",
-          "zh": "能消灭大多数病菌的化学过程。"
+          "zh": "能消灭大多数病菌的化学过程"
         },
         {
           "id": "c",
           "en": "chemical process that destroys all spores.",
-          "zh": "能消灭所有芽孢的化学过程。"
+          "zh": "能消灭所有芽孢的化学过程"
         },
         {
           "id": "d",
           "en": "mechanical process that removes dirt.",
-          "zh": "去除脏污的机械过程（mechanical process）。"
+          "zh": "去除脏污的机械过程（mechanical process）"
         }
       ],
       "correctChoice": "d",
@@ -2710,22 +2710,22 @@
         {
           "id": "a",
           "en": "sterilize them.",
-          "zh": "让它们达到灭菌。"
+          "zh": "让它们达到灭菌"
         },
         {
           "id": "b",
           "en": "make the solution stronger.",
-          "zh": "让消毒液变得更强。"
+          "zh": "让消毒液变得更强"
         },
         {
           "id": "c",
           "en": "dull or damage them.",
-          "zh": "让它们变钝或损坏。"
+          "zh": "让它们变钝或损坏"
         },
         {
           "id": "d",
           "en": "make them rust-proof.",
-          "zh": "让它们不会生锈。"
+          "zh": "让它们不会生锈"
         }
       ],
       "correctChoice": "c",
@@ -2878,22 +2878,22 @@
         {
           "id": "a",
           "en": "an exposure incident.",
-          "zh": "暴露事件（exposure incident）。"
+          "zh": "暴露事件（exposure incident）"
         },
         {
           "id": "b",
           "en": "an occupational disease.",
-          "zh": "职业病（occupational disease）。"
+          "zh": "职业病（occupational disease）"
         },
         {
           "id": "c",
           "en": "a contraindication.",
-          "zh": "禁忌症（contraindication）。"
+          "zh": "禁忌症（contraindication）"
         },
         {
           "id": "d",
           "en": "a systemic infection.",
-          "zh": "全身性感染（systemic infection）。"
+          "zh": "全身性感染（systemic infection）"
         }
       ],
       "correctChoice": "a",
@@ -2920,22 +2920,22 @@
         {
           "id": "a",
           "en": "wipe it with alcohol.",
-          "zh": "用酒精擦一擦。"
+          "zh": "用酒精擦一擦"
         },
         {
           "id": "b",
           "en": "rinse it under hot water.",
-          "zh": "用热水冲一冲。"
+          "zh": "用热水冲一冲"
         },
         {
           "id": "c",
           "en": "clean it, then disinfect it.",
-          "zh": "先清洁，再消毒。"
+          "zh": "先清洁，再消毒"
         },
         {
           "id": "d",
           "en": "throw it away.",
-          "zh": "把它扔掉。"
+          "zh": "把它扔掉"
         }
       ],
       "correctChoice": "c",
@@ -3004,22 +3004,22 @@
         {
           "id": "a",
           "en": "gripping implements very tightly.",
-          "zh": "把工具握得很紧。"
+          "zh": "把工具握得很紧"
         },
         {
           "id": "b",
           "en": "proper ergonomics.",
-          "zh": "正确的人体工学（ergonomics）。"
+          "zh": "正确的人体工学（ergonomics）"
         },
         {
           "id": "c",
           "en": "bending forward toward the client.",
-          "zh": "身体前倾靠近客人。"
+          "zh": "身体前倾靠近客人"
         },
         {
           "id": "d",
           "en": "holding your arms away from your body.",
-          "zh": "手臂远离身体。"
+          "zh": "手臂远离身体"
         }
       ],
       "correctChoice": "b",
@@ -3088,22 +3088,22 @@
         {
           "id": "a",
           "en": "lunula.",
-          "zh": "甲半月（lunula）。"
+          "zh": "甲半月（lunula）"
         },
         {
           "id": "b",
           "en": "onyx.",
-          "zh": "甲（onyx）。"
+          "zh": "甲（onyx）"
         },
         {
           "id": "c",
           "en": "matrix.",
-          "zh": "甲母质（matrix）。"
+          "zh": "甲母质（matrix）"
         },
         {
           "id": "d",
           "en": "hyponychium.",
-          "zh": "甲下皮（hyponychium）。"
+          "zh": "甲下皮（hyponychium）"
         }
       ],
       "correctChoice": "b",
@@ -3130,22 +3130,22 @@
         {
           "id": "a",
           "en": "collagen.",
-          "zh": "胶原蛋白（collagen）。"
+          "zh": "胶原蛋白（collagen）"
         },
         {
           "id": "b",
           "en": "melanin.",
-          "zh": "黑色素（melanin）。"
+          "zh": "黑色素（melanin）"
         },
         {
           "id": "c",
           "en": "keratin.",
-          "zh": "角蛋白（keratin）。"
+          "zh": "角蛋白（keratin）"
         },
         {
           "id": "d",
           "en": "elastin.",
-          "zh": "弹性蛋白（elastin）。"
+          "zh": "弹性蛋白（elastin）"
         }
       ],
       "correctChoice": "c",
@@ -3214,22 +3214,22 @@
         {
           "id": "a",
           "en": "cuticle.",
-          "zh": "甲小皮（cuticle）。"
+          "zh": "甲小皮（cuticle）"
         },
         {
           "id": "b",
           "en": "eponychium.",
-          "zh": "甲上皮（eponychium）。"
+          "zh": "甲上皮（eponychium）"
         },
         {
           "id": "c",
           "en": "free edge.",
-          "zh": "游离缘（free edge）。"
+          "zh": "游离缘（free edge）"
         },
         {
           "id": "d",
           "en": "lunula.",
-          "zh": "甲半月（lunula）。"
+          "zh": "甲半月（lunula）"
         }
       ],
       "correctChoice": "d",
@@ -3256,22 +3256,22 @@
         {
           "id": "a",
           "en": "eponychium.",
-          "zh": "甲上皮（eponychium）。"
+          "zh": "甲上皮（eponychium）"
         },
         {
           "id": "b",
           "en": "hyponychium.",
-          "zh": "甲下皮（hyponychium）。"
+          "zh": "甲下皮（hyponychium）"
         },
         {
           "id": "c",
           "en": "cuticle.",
-          "zh": "甲小皮（cuticle）。"
+          "zh": "甲小皮（cuticle）"
         },
         {
           "id": "d",
           "en": "lateral nail fold.",
-          "zh": "侧甲襞（lateral nail fold）。"
+          "zh": "侧甲襞（lateral nail fold）"
         }
       ],
       "correctChoice": "c",
@@ -3340,22 +3340,22 @@
         {
           "id": "a",
           "en": "eponychium.",
-          "zh": "甲上皮（eponychium）。"
+          "zh": "甲上皮（eponychium）"
         },
         {
           "id": "b",
           "en": "lunula.",
-          "zh": "甲半月（lunula）。"
+          "zh": "甲半月（lunula）"
         },
         {
           "id": "c",
           "en": "nail bed.",
-          "zh": "甲床（nail bed）。"
+          "zh": "甲床（nail bed）"
         },
         {
           "id": "d",
           "en": "hyponychium.",
-          "zh": "甲下皮（hyponychium）。"
+          "zh": "甲下皮（hyponychium）"
         }
       ],
       "correctChoice": "d",
@@ -3382,22 +3382,22 @@
         {
           "id": "a",
           "en": "nail bed.",
-          "zh": "甲床（nail bed）。"
+          "zh": "甲床（nail bed）"
         },
         {
           "id": "b",
           "en": "nail plate.",
-          "zh": "甲板（nail plate）。"
+          "zh": "甲板（nail plate）"
         },
         {
           "id": "c",
           "en": "matrix.",
-          "zh": "甲母质（matrix）。"
+          "zh": "甲母质（matrix）"
         },
         {
           "id": "d",
           "en": "eponychium.",
-          "zh": "甲上皮（eponychium）。"
+          "zh": "甲上皮（eponychium）"
         }
       ],
       "correctChoice": "b",
@@ -3424,22 +3424,22 @@
         {
           "id": "a",
           "en": "It is rich in blood vessels.",
-          "zh": "它血管丰富。"
+          "zh": "它血管丰富"
         },
         {
           "id": "b",
           "en": "It contains extra melanin.",
-          "zh": "它含有较多黑色素。"
+          "zh": "它含有较多黑色素"
         },
         {
           "id": "c",
           "en": "Light reflects off the matrix.",
-          "zh": "光从甲母质反射。"
+          "zh": "光从甲母质反射"
         },
         {
           "id": "d",
           "en": "The cuticle covers it.",
-          "zh": "甲小皮盖在上面。"
+          "zh": "甲小皮盖在上面"
         }
       ],
       "correctChoice": "a",
@@ -3550,22 +3550,22 @@
         {
           "id": "a",
           "en": "proximal nail fold.",
-          "zh": "近端甲襞（proximal nail fold）。"
+          "zh": "近端甲襞（proximal nail fold）"
         },
         {
           "id": "b",
           "en": "lateral nail fold.",
-          "zh": "侧甲襞（lateral nail fold）。"
+          "zh": "侧甲襞（lateral nail fold）"
         },
         {
           "id": "c",
           "en": "hyponychium.",
-          "zh": "甲下皮（hyponychium）。"
+          "zh": "甲下皮（hyponychium）"
         },
         {
           "id": "d",
           "en": "eponychium.",
-          "zh": "甲上皮（eponychium）。"
+          "zh": "甲上皮（eponychium）"
         }
       ],
       "correctChoice": "b",
@@ -3592,22 +3592,22 @@
         {
           "id": "a",
           "en": "more slowly.",
-          "zh": "更慢。"
+          "zh": "更慢"
         },
         {
           "id": "b",
           "en": "at the same rate.",
-          "zh": "速度一样。"
+          "zh": "速度一样"
         },
         {
           "id": "c",
           "en": "faster in winter than summer.",
-          "zh": "冬天比夏天长得快。"
+          "zh": "冬天比夏天长得快"
         },
         {
           "id": "d",
           "en": "more rapidly.",
-          "zh": "更快。"
+          "zh": "更快"
         }
       ],
       "correctChoice": "d",
@@ -3634,22 +3634,22 @@
         {
           "id": "a",
           "en": "living tissue that must not be cut.",
-          "zh": "不能剪的活组织。"
+          "zh": "不能剪的活组织"
         },
         {
           "id": "b",
           "en": "dead tissue that can be trimmed.",
-          "zh": "可以修剪的死组织。"
+          "zh": "可以修剪的死组织"
         },
         {
           "id": "c",
           "en": "part of the nail plate.",
-          "zh": "甲板的一部分。"
+          "zh": "甲板的一部分"
         },
         {
           "id": "d",
           "en": "the same tissue as the cuticle.",
-          "zh": "与甲小皮是同一种组织。"
+          "zh": "与甲小皮是同一种组织"
         }
       ],
       "correctChoice": "a",
@@ -3760,22 +3760,22 @@
         {
           "id": "a",
           "en": "the winter months.",
-          "zh": "冬季。"
+          "zh": "冬季"
         },
         {
           "id": "b",
           "en": "old age.",
-          "zh": "老年。"
+          "zh": "老年"
         },
         {
           "id": "c",
           "en": "prenatal vitamin use.",
-          "zh": "服用孕期维生素时。"
+          "zh": "服用孕期维生素时"
         },
         {
           "id": "d",
           "en": "the last trimester of pregnancy.",
-          "zh": "怀孕的最后三个月（last trimester）。"
+          "zh": "怀孕的最后三个月（last trimester）"
         }
       ],
       "correctChoice": "d",
@@ -3844,22 +3844,22 @@
         {
           "id": "a",
           "en": "nail bed.",
-          "zh": "甲床（nail bed）。"
+          "zh": "甲床（nail bed）"
         },
         {
           "id": "b",
           "en": "cuticle.",
-          "zh": "甲小皮（cuticle）。"
+          "zh": "甲小皮（cuticle）"
         },
         {
           "id": "c",
           "en": "matrix.",
-          "zh": "甲母质（matrix）。"
+          "zh": "甲母质（matrix）"
         },
         {
           "id": "d",
           "en": "hyponychium.",
-          "zh": "甲下皮（hyponychium）。"
+          "zh": "甲下皮（hyponychium）"
         }
       ],
       "correctChoice": "c",
@@ -3886,22 +3886,22 @@
         {
           "id": "a",
           "en": "2 to 5 percent.",
-          "zh": "2% 至 5%。"
+          "zh": "2% 至 5%"
         },
         {
           "id": "b",
           "en": "15 to 25 percent.",
-          "zh": "15% 至 25%。"
+          "zh": "15% 至 25%"
         },
         {
           "id": "c",
           "en": "50 to 60 percent.",
-          "zh": "50% 至 60%。"
+          "zh": "50% 至 60%"
         },
         {
           "id": "d",
           "en": "75 to 85 percent.",
-          "zh": "75% 至 85%。"
+          "zh": "75% 至 85%"
         }
       ],
       "correctChoice": "b",
@@ -3928,22 +3928,22 @@
         {
           "id": "a",
           "en": "Soak it, then work gently.",
-          "zh": "先浸泡，再轻柔操作。"
+          "zh": "先浸泡，再轻柔操作"
         },
         {
           "id": "b",
           "en": "Do the service very carefully.",
-          "zh": "非常小心地照常服务。"
+          "zh": "非常小心地照常服务"
         },
         {
           "id": "c",
           "en": "Refuse service and refer to a physician.",
-          "zh": "拒绝服务，并建议去看医生。"
+          "zh": "拒绝服务，并建议去看医生"
         },
         {
           "id": "d",
           "en": "Apply antiseptic and continue.",
-          "zh": "涂抗菌剂后继续服务。"
+          "zh": "涂抗菌剂后继续服务"
         }
       ],
       "correctChoice": "c",
@@ -3970,22 +3970,22 @@
         {
           "id": "a",
           "en": "No, that is diagnosing.",
-          "zh": "不可以，那属于诊断。"
+          "zh": "不可以，那属于诊断"
         },
         {
           "id": "b",
           "en": "Yes, if you are sure.",
-          "zh": "可以，只要你有把握。"
+          "zh": "可以，只要你有把握"
         },
         {
           "id": "c",
           "en": "Yes, if the client signs a waiver.",
-          "zh": "可以，只要顾客签免责书。"
+          "zh": "可以，只要顾客签免责书"
         },
         {
           "id": "d",
           "en": "No, but you may suggest a treatment.",
-          "zh": "不可以，但可以推荐治疗方法。"
+          "zh": "不可以，但可以推荐治疗方法"
         }
       ],
       "correctChoice": "a",
@@ -4012,22 +4012,22 @@
         {
           "id": "a",
           "en": "ridged nails.",
-          "zh": "甲纵嵴（ridged nails）。"
+          "zh": "甲纵嵴（ridged nails）"
         },
         {
           "id": "b",
           "en": "splinter hemorrhages.",
-          "zh": "裂片形出血（splinter hemorrhages）。"
+          "zh": "裂片形出血（splinter hemorrhages）"
         },
         {
           "id": "c",
           "en": "leukonychia.",
-          "zh": "白甲（leukonychia）。"
+          "zh": "白甲（leukonychia）"
         },
         {
           "id": "d",
           "en": "Beau's lines.",
-          "zh": "博氏线（Beau's lines）。"
+          "zh": "博氏线（Beau's lines）"
         }
       ],
       "correctChoice": "d",
@@ -4096,22 +4096,22 @@
         {
           "id": "a",
           "en": "onychia.",
-          "zh": "甲母质炎（onychia）。"
+          "zh": "甲母质炎（onychia）"
         },
         {
           "id": "b",
           "en": "paronychia.",
-          "zh": "甲沟炎（paronychia）。"
+          "zh": "甲沟炎（paronychia）"
         },
         {
           "id": "c",
           "en": "onychomycosis.",
-          "zh": "甲真菌病（onychomycosis）。"
+          "zh": "甲真菌病（onychomycosis）"
         },
         {
           "id": "d",
           "en": "onychophagy.",
-          "zh": "咬甲癖（onychophagy）。"
+          "zh": "咬甲癖（onychophagy）"
         }
       ],
       "correctChoice": "a",
@@ -4180,22 +4180,22 @@
         {
           "id": "a",
           "en": "a fungal infection.",
-          "zh": "真菌感染。"
+          "zh": "真菌感染"
         },
         {
           "id": "b",
           "en": "a bacterial infection.",
-          "zh": "细菌感染。"
+          "zh": "细菌感染"
         },
         {
           "id": "c",
           "en": "minor injury to the matrix.",
-          "zh": "甲母质受到轻微损伤。"
+          "zh": "甲母质受到轻微损伤"
         },
         {
           "id": "d",
           "en": "an allergic reaction.",
-          "zh": "过敏反应。"
+          "zh": "过敏反应"
         }
       ],
       "correctChoice": "c",
@@ -4222,22 +4222,22 @@
         {
           "id": "a",
           "en": "leukonychia.",
-          "zh": "白甲（leukonychia）。"
+          "zh": "白甲（leukonychia）"
         },
         {
           "id": "b",
           "en": "melanonychia.",
-          "zh": "黑甲（melanonychia）。"
+          "zh": "黑甲（melanonychia）"
         },
         {
           "id": "c",
           "en": "Beau's lines.",
-          "zh": "博氏线（Beau's lines）。"
+          "zh": "博氏线（Beau's lines）"
         },
         {
           "id": "d",
           "en": "a bruised nail bed.",
-          "zh": "甲床瘀伤（bruised nail bed）。"
+          "zh": "甲床瘀伤（bruised nail bed）"
         }
       ],
       "correctChoice": "b",
@@ -4264,22 +4264,22 @@
         {
           "id": "a",
           "en": "a hangnail.",
-          "zh": "倒刺（hangnail）。"
+          "zh": "倒刺（hangnail）"
         },
         {
           "id": "b",
           "en": "paronychia.",
-          "zh": "甲沟炎（paronychia）。"
+          "zh": "甲沟炎（paronychia）"
         },
         {
           "id": "c",
           "en": "onychorrhexis.",
-          "zh": "脆甲（onychorrhexis）。"
+          "zh": "脆甲（onychorrhexis）"
         },
         {
           "id": "d",
           "en": "nail pterygium.",
-          "zh": "甲胬肉（nail pterygium）。"
+          "zh": "甲胬肉（nail pterygium）"
         }
       ],
       "correctChoice": "d",
@@ -4306,22 +4306,22 @@
         {
           "id": "a",
           "en": "bitten nails.",
-          "zh": "咬指甲（咬甲癖）。"
+          "zh": "咬指甲（咬甲癖）"
         },
         {
           "id": "b",
           "en": "split nails.",
-          "zh": "裂甲。"
+          "zh": "裂甲"
         },
         {
           "id": "c",
           "en": "ingrown nails.",
-          "zh": "嵌甲。"
+          "zh": "嵌甲"
         },
         {
           "id": "d",
           "en": "fungal nails.",
-          "zh": "真菌感染的指甲。"
+          "zh": "真菌感染的指甲"
         }
       ],
       "correctChoice": "a",
@@ -4348,22 +4348,22 @@
         {
           "id": "a",
           "en": "onychophagy.",
-          "zh": "咬甲癖（onychophagy）。"
+          "zh": "咬甲癖（onychophagy）"
         },
         {
           "id": "b",
           "en": "onycholysis.",
-          "zh": "甲剥离（onycholysis）。"
+          "zh": "甲剥离（onycholysis）"
         },
         {
           "id": "c",
           "en": "onychorrhexis.",
-          "zh": "脆甲（onychorrhexis）。"
+          "zh": "脆甲（onychorrhexis）"
         },
         {
           "id": "d",
           "en": "onychocryptosis.",
-          "zh": "嵌甲（onychocryptosis）。"
+          "zh": "嵌甲（onychocryptosis）"
         }
       ],
       "correctChoice": "c",
@@ -4390,22 +4390,22 @@
         {
           "id": "a",
           "en": "an eggshell nail.",
-          "zh": "蛋壳甲（eggshell nail）。"
+          "zh": "蛋壳甲（eggshell nail）"
         },
         {
           "id": "b",
           "en": "a pincer nail.",
-          "zh": "钳甲（pincer nail）。"
+          "zh": "钳甲（pincer nail）"
         },
         {
           "id": "c",
           "en": "a ridged nail.",
-          "zh": "甲纵嵴（ridged nail）。"
+          "zh": "甲纵嵴（ridged nail）"
         },
         {
           "id": "d",
           "en": "leukonychia.",
-          "zh": "白甲（leukonychia）。"
+          "zh": "白甲（leukonychia）"
         }
       ],
       "correctChoice": "b",
@@ -4432,22 +4432,22 @@
         {
           "id": "a",
           "en": "Filing thins and weakens the whole plate.",
-          "zh": "锉平会让整片甲板变薄变弱。"
+          "zh": "锉平会让整片甲板变薄变弱"
         },
         {
           "id": "b",
           "en": "They are a sign of infection.",
-          "zh": "它们是感染的迹象。"
+          "zh": "它们是感染的迹象"
         },
         {
           "id": "c",
           "en": "Filing makes them grow back faster.",
-          "zh": "锉了会长得更快。"
+          "zh": "锉了会长得更快"
         },
         {
           "id": "d",
           "en": "They are part of the nail bed.",
-          "zh": "它们是甲床的一部分。"
+          "zh": "它们是甲床的一部分"
         }
       ],
       "correctChoice": "a",
@@ -4474,22 +4474,22 @@
         {
           "id": "a",
           "en": "a wood splinter under the nail.",
-          "zh": "指甲下扎进木刺。"
+          "zh": "指甲下扎进木刺"
         },
         {
           "id": "b",
           "en": "a fungal infection.",
-          "zh": "真菌感染。"
+          "zh": "真菌感染"
         },
         {
           "id": "c",
           "en": "a bacterial infection.",
-          "zh": "细菌感染。"
+          "zh": "细菌感染"
         },
         {
           "id": "d",
           "en": "trauma that damages nail bed capillaries.",
-          "zh": "外伤损伤甲床毛细血管。"
+          "zh": "外伤损伤甲床毛细血管"
         }
       ],
       "correctChoice": "d",
@@ -4516,22 +4516,22 @@
         {
           "id": "a",
           "en": "cover it with an enhancement.",
-          "zh": "用延长甲把它盖住。"
+          "zh": "用延长甲把它盖住"
         },
         {
           "id": "b",
           "en": "file it smooth and polish it.",
-          "zh": "把它锉平再涂指甲油。"
+          "zh": "把它锉平再涂指甲油"
         },
         {
           "id": "c",
           "en": "refer the client to a physician.",
-          "zh": "建议顾客去看医生。"
+          "zh": "建议顾客去看医生"
         },
         {
           "id": "d",
           "en": "treat it with cuticle oil.",
-          "zh": "用护甲油处理。"
+          "zh": "用护甲油处理"
         }
       ],
       "correctChoice": "c",
@@ -4558,22 +4558,22 @@
         {
           "id": "a",
           "en": "bitten nails.",
-          "zh": "咬指甲。"
+          "zh": "咬指甲"
         },
         {
           "id": "b",
           "en": "ingrown nails.",
-          "zh": "嵌甲（指甲长进肉里）。"
+          "zh": "嵌甲（指甲长进肉里）"
         },
         {
           "id": "c",
           "en": "fungal nails.",
-          "zh": "真菌感染的指甲。"
+          "zh": "真菌感染的指甲"
         },
         {
           "id": "d",
           "en": "brittle nails.",
-          "zh": "易碎的指甲。"
+          "zh": "易碎的指甲"
         }
       ],
       "correctChoice": "b",
@@ -4600,22 +4600,22 @@
         {
           "id": "a",
           "en": "a bacterial infection around the nail.",
-          "zh": "指甲周围的细菌感染。"
+          "zh": "指甲周围的细菌感染"
         },
         {
           "id": "b",
           "en": "an inflammation of the matrix.",
-          "zh": "甲母质发炎。"
+          "zh": "甲母质发炎"
         },
         {
           "id": "c",
           "en": "a separation of plate and bed.",
-          "zh": "甲板与甲床分离。"
+          "zh": "甲板与甲床分离"
         },
         {
           "id": "d",
           "en": "a fungal infection of the nail plate.",
-          "zh": "甲板的真菌感染。"
+          "zh": "甲板的真菌感染"
         }
       ],
       "correctChoice": "d",
@@ -4642,22 +4642,22 @@
         {
           "id": "a",
           "en": "paronychia.",
-          "zh": "甲沟炎（paronychia）。"
+          "zh": "甲沟炎（paronychia）"
         },
         {
           "id": "b",
           "en": "onychia.",
-          "zh": "甲母质炎（onychia）。"
+          "zh": "甲母质炎（onychia）"
         },
         {
           "id": "c",
           "en": "onychomycosis.",
-          "zh": "甲真菌病（onychomycosis）。"
+          "zh": "甲真菌病（onychomycosis）"
         },
         {
           "id": "d",
           "en": "leukonychia.",
-          "zh": "白甲（leukonychia）。"
+          "zh": "白甲（leukonychia）"
         }
       ],
       "correctChoice": "a",
@@ -4684,22 +4684,22 @@
         {
           "id": "a",
           "en": "fungus.",
-          "zh": "真菌。"
+          "zh": "真菌"
         },
         {
           "id": "b",
           "en": "bacterium.",
-          "zh": "细菌。"
+          "zh": "细菌"
         },
         {
           "id": "c",
           "en": "virus.",
-          "zh": "病毒。"
+          "zh": "病毒"
         },
         {
           "id": "d",
           "en": "parasite.",
-          "zh": "寄生虫。"
+          "zh": "寄生虫"
         }
       ],
       "correctChoice": "b",
@@ -4726,22 +4726,22 @@
         {
           "id": "a",
           "en": "leukonychia.",
-          "zh": "白甲（leukonychia）。"
+          "zh": "白甲（leukonychia）"
         },
         {
           "id": "b",
           "en": "an eggshell nail.",
-          "zh": "蛋壳甲（eggshell nail）。"
+          "zh": "蛋壳甲（eggshell nail）"
         },
         {
           "id": "c",
           "en": "nail psoriasis.",
-          "zh": "甲银屑病（nail psoriasis）。"
+          "zh": "甲银屑病（nail psoriasis）"
         },
         {
           "id": "d",
           "en": "onychophagy.",
-          "zh": "咬甲癖（onychophagy）。"
+          "zh": "咬甲癖（onychophagy）"
         }
       ],
       "correctChoice": "c",
@@ -4852,22 +4852,22 @@
         {
           "id": "a",
           "en": "subcutaneous tissue.",
-          "zh": "皮下组织（subcutaneous tissue）。"
+          "zh": "皮下组织（subcutaneous tissue）"
         },
         {
           "id": "b",
           "en": "epidermis.",
-          "zh": "表皮（epidermis）。"
+          "zh": "表皮（epidermis）"
         },
         {
           "id": "c",
           "en": "papillary layer.",
-          "zh": "乳头层（papillary layer）。"
+          "zh": "乳头层（papillary layer）"
         },
         {
           "id": "d",
           "en": "stratum lucidum.",
-          "zh": "透明层（stratum lucidum）。"
+          "zh": "透明层（stratum lucidum）"
         }
       ],
       "correctChoice": "a",
@@ -4936,22 +4936,22 @@
         {
           "id": "a",
           "en": "stratum granulosum.",
-          "zh": "颗粒层（stratum granulosum）。"
+          "zh": "颗粒层（stratum granulosum）"
         },
         {
           "id": "b",
           "en": "stratum lucidum.",
-          "zh": "透明层（stratum lucidum）。"
+          "zh": "透明层（stratum lucidum）"
         },
         {
           "id": "c",
           "en": "stratum corneum.",
-          "zh": "角质层（stratum corneum）。"
+          "zh": "角质层（stratum corneum）"
         },
         {
           "id": "d",
           "en": "stratum germinativum.",
-          "zh": "生发层（stratum germinativum）。"
+          "zh": "生发层（stratum germinativum）"
         }
       ],
       "correctChoice": "b",
@@ -5062,22 +5062,22 @@
         {
           "id": "a",
           "en": "oil glands.",
-          "zh": "油脂腺（oil glands）。"
+          "zh": "油脂腺（oil glands）"
         },
         {
           "id": "b",
           "en": "lymph nodes.",
-          "zh": "淋巴结（lymph nodes）。"
+          "zh": "淋巴结（lymph nodes）"
         },
         {
           "id": "c",
           "en": "sweat glands.",
-          "zh": "汗腺（sweat glands）。"
+          "zh": "汗腺（sweat glands）"
         },
         {
           "id": "d",
           "en": "endocrine glands.",
-          "zh": "内分泌腺（endocrine glands）。"
+          "zh": "内分泌腺（endocrine glands）"
         }
       ],
       "correctChoice": "c",
@@ -5188,22 +5188,22 @@
         {
           "id": "a",
           "en": "papule.",
-          "zh": "丘疹（papule）。"
+          "zh": "丘疹（papule）"
         },
         {
           "id": "b",
           "en": "vesicle.",
-          "zh": "水疱（vesicle）。"
+          "zh": "水疱（vesicle）"
         },
         {
           "id": "c",
           "en": "wheal.",
-          "zh": "风团（wheal）。"
+          "zh": "风团（wheal）"
         },
         {
           "id": "d",
           "en": "macule.",
-          "zh": "斑疹（macule）。"
+          "zh": "斑疹（macule）"
         }
       ],
       "correctChoice": "d",
@@ -5272,22 +5272,22 @@
         {
           "id": "a",
           "en": "fissure.",
-          "zh": "皲裂（fissure）。"
+          "zh": "皲裂（fissure）"
         },
         {
           "id": "b",
           "en": "scale.",
-          "zh": "鳞屑（scale）。"
+          "zh": "鳞屑（scale）"
         },
         {
           "id": "c",
           "en": "crust.",
-          "zh": "痂（crust）。"
+          "zh": "痂（crust）"
         },
         {
           "id": "d",
           "en": "excoriation.",
-          "zh": "抓伤（excoriation）。"
+          "zh": "抓伤（excoriation）"
         }
       ],
       "correctChoice": "a",
@@ -5356,22 +5356,22 @@
         {
           "id": "a",
           "en": "anhidrosis.",
-          "zh": "无汗症（anhidrosis）。"
+          "zh": "无汗症（anhidrosis）"
         },
         {
           "id": "b",
           "en": "hyperhidrosis.",
-          "zh": "多汗症（hyperhidrosis）。"
+          "zh": "多汗症（hyperhidrosis）"
         },
         {
           "id": "c",
           "en": "miliaria rubra.",
-          "zh": "红痱（miliaria rubra）。"
+          "zh": "红痱（miliaria rubra）"
         },
         {
           "id": "d",
           "en": "bromhidrosis.",
-          "zh": "臭汗症（bromhidrosis）。"
+          "zh": "臭汗症（bromhidrosis）"
         }
       ],
       "correctChoice": "d",
@@ -5440,22 +5440,22 @@
         {
           "id": "a",
           "en": "chloasma.",
-          "zh": "黄褐斑（chloasma）。"
+          "zh": "黄褐斑（chloasma）"
         },
         {
           "id": "b",
           "en": "vitiligo.",
-          "zh": "白癜风（vitiligo）。"
+          "zh": "白癜风（vitiligo）"
         },
         {
           "id": "c",
           "en": "leukoderma.",
-          "zh": "白斑病（leukoderma）。"
+          "zh": "白斑病（leukoderma）"
         },
         {
           "id": "d",
           "en": "a nevus.",
-          "zh": "胎记（nevus）。"
+          "zh": "胎记（nevus）"
         }
       ],
       "correctChoice": "a",
@@ -5482,22 +5482,22 @@
         {
           "id": "a",
           "en": "malignant melanoma.",
-          "zh": "恶性黑色素瘤（malignant melanoma）。"
+          "zh": "恶性黑色素瘤（malignant melanoma）"
         },
         {
           "id": "b",
           "en": "basal cell carcinoma.",
-          "zh": "基底细胞癌（basal cell carcinoma）。"
+          "zh": "基底细胞癌（basal cell carcinoma）"
         },
         {
           "id": "c",
           "en": "squamous cell carcinoma.",
-          "zh": "鳞状细胞癌（squamous cell carcinoma）。"
+          "zh": "鳞状细胞癌（squamous cell carcinoma）"
         },
         {
           "id": "d",
           "en": "a normal mole.",
-          "zh": "普通的痣（mole）。"
+          "zh": "普通的痣（mole）"
         }
       ],
       "correctChoice": "b",
@@ -5566,22 +5566,22 @@
         {
           "id": "a",
           "en": "freckle.",
-          "zh": "雀斑（freckle）。"
+          "zh": "雀斑（freckle）"
         },
         {
           "id": "b",
           "en": "birthmark.",
-          "zh": "胎记（birthmark）。"
+          "zh": "胎记（birthmark）"
         },
         {
           "id": "c",
           "en": "mole.",
-          "zh": "痣（mole）。"
+          "zh": "痣（mole）"
         },
         {
           "id": "d",
           "en": "wart.",
-          "zh": "疣（wart）。"
+          "zh": "疣（wart）"
         }
       ],
       "correctChoice": "d",
@@ -5608,22 +5608,22 @@
         {
           "id": "a",
           "en": "humerus.",
-          "zh": "肱骨（humerus）。"
+          "zh": "肱骨（humerus）"
         },
         {
           "id": "b",
           "en": "radius.",
-          "zh": "桡骨（radius）。"
+          "zh": "桡骨（radius）"
         },
         {
           "id": "c",
           "en": "ulna.",
-          "zh": "尺骨（ulna）。"
+          "zh": "尺骨（ulna）"
         },
         {
           "id": "d",
           "en": "carpus.",
-          "zh": "腕骨（carpus）。"
+          "zh": "腕骨（carpus）"
         }
       ],
       "correctChoice": "a",
@@ -5692,22 +5692,22 @@
         {
           "id": "a",
           "en": "ulna.",
-          "zh": "尺骨（ulna）。"
+          "zh": "尺骨（ulna）"
         },
         {
           "id": "b",
           "en": "radius.",
-          "zh": "桡骨（radius）。"
+          "zh": "桡骨（radius）"
         },
         {
           "id": "c",
           "en": "humerus.",
-          "zh": "肱骨（humerus）。"
+          "zh": "肱骨（humerus）"
         },
         {
           "id": "d",
           "en": "metacarpus.",
-          "zh": "掌骨（metacarpus）。"
+          "zh": "掌骨（metacarpus）"
         }
       ],
       "correctChoice": "b",
@@ -5776,22 +5776,22 @@
         {
           "id": "a",
           "en": "carpus.",
-          "zh": "腕骨（carpus）。"
+          "zh": "腕骨（carpus）"
         },
         {
           "id": "b",
           "en": "phalanges.",
-          "zh": "指骨（phalanges）。"
+          "zh": "指骨（phalanges）"
         },
         {
           "id": "c",
           "en": "tarsals.",
-          "zh": "跗骨（tarsals）。"
+          "zh": "跗骨（tarsals）"
         },
         {
           "id": "d",
           "en": "metacarpus.",
-          "zh": "掌骨（metacarpus）。"
+          "zh": "掌骨（metacarpus）"
         }
       ],
       "correctChoice": "d",
@@ -5818,22 +5818,22 @@
         {
           "id": "a",
           "en": "metacarpals.",
-          "zh": "掌骨（metacarpals）。"
+          "zh": "掌骨（metacarpals）"
         },
         {
           "id": "b",
           "en": "phalanges.",
-          "zh": "指骨/趾骨（phalanges）。"
+          "zh": "指骨/趾骨（phalanges）"
         },
         {
           "id": "c",
           "en": "tarsals.",
-          "zh": "跗骨（tarsals）。"
+          "zh": "跗骨（tarsals）"
         },
         {
           "id": "d",
           "en": "carpals.",
-          "zh": "腕骨（carpals）。"
+          "zh": "腕骨（carpals）"
         }
       ],
       "correctChoice": "b",
@@ -5860,22 +5860,22 @@
         {
           "id": "a",
           "en": "extensors.",
-          "zh": "伸肌（extensors）。"
+          "zh": "伸肌（extensors）"
         },
         {
           "id": "b",
           "en": "flexors.",
-          "zh": "屈肌（flexors）。"
+          "zh": "屈肌（flexors）"
         },
         {
           "id": "c",
           "en": "adductors.",
-          "zh": "内收肌（adductors）。"
+          "zh": "内收肌（adductors）"
         },
         {
           "id": "d",
           "en": "pronators.",
-          "zh": "旋前肌（pronators）。"
+          "zh": "旋前肌（pronators）"
         }
       ],
       "correctChoice": "a",
@@ -5902,22 +5902,22 @@
         {
           "id": "a",
           "en": "fibula.",
-          "zh": "腓骨（fibula）。"
+          "zh": "腓骨（fibula）"
         },
         {
           "id": "b",
           "en": "femur.",
-          "zh": "股骨（femur）。"
+          "zh": "股骨（femur）"
         },
         {
           "id": "c",
           "en": "tibia.",
-          "zh": "胫骨（tibia）。"
+          "zh": "胫骨（tibia）"
         },
         {
           "id": "d",
           "en": "patella.",
-          "zh": "髌骨（patella）。"
+          "zh": "髌骨（patella）"
         }
       ],
       "correctChoice": "c",
@@ -6028,22 +6028,22 @@
         {
           "id": "a",
           "en": "tibia.",
-          "zh": "胫骨（tibia）。"
+          "zh": "胫骨（tibia）"
         },
         {
           "id": "b",
           "en": "fibula.",
-          "zh": "腓骨（fibula）。"
+          "zh": "腓骨（fibula）"
         },
         {
           "id": "c",
           "en": "femur.",
-          "zh": "股骨（femur）。"
+          "zh": "股骨（femur）"
         },
         {
           "id": "d",
           "en": "patella.",
-          "zh": "髌骨（patella）。"
+          "zh": "髌骨（patella）"
         }
       ],
       "correctChoice": "c",
@@ -6112,22 +6112,22 @@
         {
           "id": "a",
           "en": "origin.",
-          "zh": "起点（origin）。"
+          "zh": "起点（origin）"
         },
         {
           "id": "b",
           "en": "insertion.",
-          "zh": "止点（insertion）。"
+          "zh": "止点（insertion）"
         },
         {
           "id": "c",
           "en": "belly.",
-          "zh": "肌腹（belly）。"
+          "zh": "肌腹（belly）"
         },
         {
           "id": "d",
           "en": "ligament.",
-          "zh": "韧带（ligament）。"
+          "zh": "韧带（ligament）"
         }
       ],
       "correctChoice": "a",
@@ -6154,22 +6154,22 @@
         {
           "id": "a",
           "en": "adductors.",
-          "zh": "内收肌（adductors）。"
+          "zh": "内收肌（adductors）"
         },
         {
           "id": "b",
           "en": "extensors.",
-          "zh": "伸肌（extensors）。"
+          "zh": "伸肌（extensors）"
         },
         {
           "id": "c",
           "en": "abductors.",
-          "zh": "外展肌（abductors）。"
+          "zh": "外展肌（abductors）"
         },
         {
           "id": "d",
           "en": "pronators.",
-          "zh": "旋前肌（pronators）。"
+          "zh": "旋前肌（pronators）"
         }
       ],
       "correctChoice": "c",
@@ -6238,22 +6238,22 @@
         {
           "id": "a",
           "en": "bicep.",
-          "zh": "肱二头肌（bicep）。"
+          "zh": "肱二头肌（bicep）"
         },
         {
           "id": "b",
           "en": "tricep.",
-          "zh": "肱三头肌（tricep）。"
+          "zh": "肱三头肌（tricep）"
         },
         {
           "id": "c",
           "en": "pectoralis major.",
-          "zh": "胸大肌（pectoralis major）。"
+          "zh": "胸大肌（pectoralis major）"
         },
         {
           "id": "d",
           "en": "deltoid.",
-          "zh": "三角肌（deltoid）。"
+          "zh": "三角肌（deltoid）"
         }
       ],
       "correctChoice": "d",
@@ -6448,22 +6448,22 @@
         {
           "id": "a",
           "en": "nail bed.",
-          "zh": "甲床（nail bed）。"
+          "zh": "甲床（nail bed）"
         },
         {
           "id": "b",
           "en": "cuticle.",
-          "zh": "甲小皮（cuticle）。"
+          "zh": "甲小皮（cuticle）"
         },
         {
           "id": "c",
           "en": "lunula.",
-          "zh": "甲半月（lunula）。"
+          "zh": "甲半月（lunula）"
         },
         {
           "id": "d",
           "en": "proximal nail fold.",
-          "zh": "近端甲襞（proximal nail fold）。"
+          "zh": "近端甲襞（proximal nail fold）"
         }
       ],
       "correctChoice": "a",
@@ -6574,22 +6574,22 @@
         {
           "id": "a",
           "en": "secretion.",
-          "zh": "分泌（secretion）。"
+          "zh": "分泌（secretion）"
         },
         {
           "id": "b",
           "en": "absorption.",
-          "zh": "吸收（absorption）。"
+          "zh": "吸收（absorption）"
         },
         {
           "id": "c",
           "en": "sensation.",
-          "zh": "感觉（sensation）。"
+          "zh": "感觉（sensation）"
         },
         {
           "id": "d",
           "en": "excretion.",
-          "zh": "排泄（excretion）。"
+          "zh": "排泄（excretion）"
         }
       ],
       "correctChoice": "d",
@@ -6616,22 +6616,22 @@
         {
           "id": "a",
           "en": "keratin.",
-          "zh": "角蛋白（keratin）。"
+          "zh": "角蛋白（keratin）"
         },
         {
           "id": "b",
           "en": "melanin.",
-          "zh": "黑色素（melanin）。"
+          "zh": "黑色素（melanin）"
         },
         {
           "id": "c",
           "en": "sebum.",
-          "zh": "皮脂（sebum）。"
+          "zh": "皮脂（sebum）"
         },
         {
           "id": "d",
           "en": "collagen.",
-          "zh": "胶原蛋白（collagen）。"
+          "zh": "胶原蛋白（collagen）"
         }
       ],
       "correctChoice": "b",
@@ -6658,22 +6658,22 @@
         {
           "id": "a",
           "en": "pronators.",
-          "zh": "旋前肌（pronators）。"
+          "zh": "旋前肌（pronators）"
         },
         {
           "id": "b",
           "en": "supinators.",
-          "zh": "旋后肌（supinators）。"
+          "zh": "旋后肌（supinators）"
         },
         {
           "id": "c",
           "en": "flexors.",
-          "zh": "屈肌（flexors）。"
+          "zh": "屈肌（flexors）"
         },
         {
           "id": "d",
           "en": "abductors.",
-          "zh": "外展肌（abductors）。"
+          "zh": "外展肌（abductors）"
         }
       ],
       "correctChoice": "c",
@@ -6700,22 +6700,22 @@
         {
           "id": "a",
           "en": "metatarsals.",
-          "zh": "跖骨（metatarsals）。"
+          "zh": "跖骨（metatarsals）"
         },
         {
           "id": "b",
           "en": "tarsals.",
-          "zh": "跗骨（tarsals）。"
+          "zh": "跗骨（tarsals）"
         },
         {
           "id": "c",
           "en": "phalanges.",
-          "zh": "趾骨（phalanges）。"
+          "zh": "趾骨（phalanges）"
         },
         {
           "id": "d",
           "en": "metacarpals.",
-          "zh": "掌骨（metacarpals）。"
+          "zh": "掌骨（metacarpals）"
         }
       ],
       "correctChoice": "a",
@@ -6742,22 +6742,22 @@
         {
           "id": "a",
           "en": "tibia.",
-          "zh": "胫骨（tibia）。"
+          "zh": "胫骨（tibia）"
         },
         {
           "id": "b",
           "en": "fibula.",
-          "zh": "腓骨（fibula）。"
+          "zh": "腓骨（fibula）"
         },
         {
           "id": "c",
           "en": "femur.",
-          "zh": "股骨（femur）。"
+          "zh": "股骨（femur）"
         },
         {
           "id": "d",
           "en": "patella.",
-          "zh": "髌骨（patella）。"
+          "zh": "髌骨（patella）"
         }
       ],
       "correctChoice": "d",
@@ -6784,22 +6784,22 @@
         {
           "id": "a",
           "en": "a pincer nail.",
-          "zh": "钳甲（pincer nail）。"
+          "zh": "钳甲（pincer nail）"
         },
         {
           "id": "b",
           "en": "an eggshell nail.",
-          "zh": "蛋壳甲（eggshell nail）。"
+          "zh": "蛋壳甲（eggshell nail）"
         },
         {
           "id": "c",
           "en": "a ridged nail.",
-          "zh": "甲纵嵴（ridged nail）。"
+          "zh": "甲纵嵴（ridged nail）"
         },
         {
           "id": "d",
           "en": "a bruised nail bed.",
-          "zh": "甲床瘀伤（bruised nail bed）。"
+          "zh": "甲床瘀伤（bruised nail bed）"
         }
       ],
       "correctChoice": "b",
@@ -6826,22 +6826,22 @@
         {
           "id": "a",
           "en": "leukonychia.",
-          "zh": "白甲（leukonychia）。"
+          "zh": "白甲（leukonychia）"
         },
         {
           "id": "b",
           "en": "onychomycosis.",
-          "zh": "甲真菌病（onychomycosis）。"
+          "zh": "甲真菌病（onychomycosis）"
         },
         {
           "id": "c",
           "en": "onycholysis.",
-          "zh": "甲剥离（onycholysis）。"
+          "zh": "甲剥离（onycholysis）"
         },
         {
           "id": "d",
           "en": "paronychia.",
-          "zh": "甲沟炎（paronychia）。"
+          "zh": "甲沟炎（paronychia）"
         }
       ],
       "correctChoice": "b",
@@ -6868,22 +6868,22 @@
         {
           "id": "a",
           "en": "pustule.",
-          "zh": "脓疱（pustule）。"
+          "zh": "脓疱（pustule）"
         },
         {
           "id": "b",
           "en": "papule.",
-          "zh": "丘疹（papule）。"
+          "zh": "丘疹（papule）"
         },
         {
           "id": "c",
           "en": "vesicle.",
-          "zh": "水疱（vesicle）。"
+          "zh": "水疱（vesicle）"
         },
         {
           "id": "d",
           "en": "macule.",
-          "zh": "斑疹（macule）。"
+          "zh": "斑疹（macule）"
         }
       ],
       "correctChoice": "c",
@@ -6910,22 +6910,22 @@
         {
           "id": "a",
           "en": "an ulcer.",
-          "zh": "溃疡（ulcer）。"
+          "zh": "溃疡（ulcer）"
         },
         {
           "id": "b",
           "en": "a crust.",
-          "zh": "痂（crust）。"
+          "zh": "痂（crust）"
         },
         {
           "id": "c",
           "en": "a macule.",
-          "zh": "斑疹（macule）。"
+          "zh": "斑疹（macule）"
         },
         {
           "id": "d",
           "en": "a nodule.",
-          "zh": "结节（nodule）。"
+          "zh": "结节（nodule）"
         }
       ],
       "correctChoice": "a",
@@ -6952,22 +6952,22 @@
         {
           "id": "a",
           "en": "chloasma.",
-          "zh": "黄褐斑（chloasma）。"
+          "zh": "黄褐斑（chloasma）"
         },
         {
           "id": "b",
           "en": "a tan.",
-          "zh": "晒黑（tan）。"
+          "zh": "晒黑（tan）"
         },
         {
           "id": "c",
           "en": "a port-wine stain.",
-          "zh": "葡萄酒色斑（port-wine stain）。"
+          "zh": "葡萄酒色斑（port-wine stain）"
         },
         {
           "id": "d",
           "en": "vitiligo.",
-          "zh": "白癜风（vitiligo）。"
+          "zh": "白癜风（vitiligo）"
         }
       ],
       "correctChoice": "d",
@@ -7078,22 +7078,22 @@
         {
           "id": "a",
           "en": "a molecule.",
-          "zh": "分子（molecule）。"
+          "zh": "分子（molecule）"
         },
         {
           "id": "b",
           "en": "an atom.",
-          "zh": "原子（atom）。"
+          "zh": "原子（atom）"
         },
         {
           "id": "c",
           "en": "a compound.",
-          "zh": "化合物（compound）。"
+          "zh": "化合物（compound）"
         },
         {
           "id": "d",
           "en": "an element.",
-          "zh": "元素（element）。"
+          "zh": "元素（element）"
         }
       ],
       "correctChoice": "b",
@@ -7120,22 +7120,22 @@
         {
           "id": "a",
           "en": "elements.",
-          "zh": "元素（elements）。"
+          "zh": "元素（elements）"
         },
         {
           "id": "b",
           "en": "compounds.",
-          "zh": "化合物（compounds）。"
+          "zh": "化合物（compounds）"
         },
         {
           "id": "c",
           "en": "physical mixtures.",
-          "zh": "物理混合物（physical mixtures）。"
+          "zh": "物理混合物（physical mixtures）"
         },
         {
           "id": "d",
           "en": "polymers.",
-          "zh": "聚合物（polymers）。"
+          "zh": "聚合物（polymers）"
         }
       ],
       "correctChoice": "a",
@@ -7162,22 +7162,22 @@
         {
           "id": "a",
           "en": "an elemental molecule.",
-          "zh": "单质分子（elemental molecule）。"
+          "zh": "单质分子（elemental molecule）"
         },
         {
           "id": "b",
           "en": "a single element.",
-          "zh": "单一元素（element）。"
+          "zh": "单一元素（element）"
         },
         {
           "id": "c",
           "en": "a physical mixture.",
-          "zh": "物理混合物（physical mixture）。"
+          "zh": "物理混合物（physical mixture）"
         },
         {
           "id": "d",
           "en": "a compound.",
-          "zh": "化合物（compound）。"
+          "zh": "化合物（compound）"
         }
       ],
       "correctChoice": "d",
@@ -7246,22 +7246,22 @@
         {
           "id": "a",
           "en": "solute.",
-          "zh": "溶质（solute）。"
+          "zh": "溶质（solute）"
         },
         {
           "id": "b",
           "en": "solvent.",
-          "zh": "溶剂（solvent）。"
+          "zh": "溶剂（solvent）"
         },
         {
           "id": "c",
           "en": "emulsifier.",
-          "zh": "乳化剂（emulsifier）。"
+          "zh": "乳化剂（emulsifier）"
         },
         {
           "id": "d",
           "en": "catalyst.",
-          "zh": "催化剂（catalyst）。"
+          "zh": "催化剂（catalyst）"
         }
       ],
       "correctChoice": "a",
@@ -7288,22 +7288,22 @@
         {
           "id": "a",
           "en": "a solution.",
-          "zh": "溶液（solution）。"
+          "zh": "溶液（solution）"
         },
         {
           "id": "b",
           "en": "an emulsion.",
-          "zh": "乳液（emulsion）。"
+          "zh": "乳液（emulsion）"
         },
         {
           "id": "c",
           "en": "a suspension.",
-          "zh": "悬浮液（suspension）。"
+          "zh": "悬浮液（suspension）"
         },
         {
           "id": "d",
           "en": "a pure substance.",
-          "zh": "纯净物（pure substance）。"
+          "zh": "纯净物（pure substance）"
         }
       ],
       "correctChoice": "c",
@@ -7456,22 +7456,22 @@
         {
           "id": "a",
           "en": "immiscible.",
-          "zh": "不互溶的（immiscible）。"
+          "zh": "不互溶的（immiscible）"
         },
         {
           "id": "b",
           "en": "insoluble.",
-          "zh": "不溶的（insoluble）。"
+          "zh": "不溶的（insoluble）"
         },
         {
           "id": "c",
           "en": "emulsified.",
-          "zh": "乳化的（emulsified）。"
+          "zh": "乳化的（emulsified）"
         },
         {
           "id": "d",
           "en": "miscible.",
-          "zh": "可互溶的（miscible）。"
+          "zh": "可互溶的（miscible）"
         }
       ],
       "correctChoice": "d",
@@ -7498,22 +7498,22 @@
         {
           "id": "a",
           "en": "reduced.",
-          "zh": "还原（reduced）。"
+          "zh": "还原（reduced）"
         },
         {
           "id": "b",
           "en": "neutralized.",
-          "zh": "中和（neutralized）。"
+          "zh": "中和（neutralized）"
         },
         {
           "id": "c",
           "en": "oxidized.",
-          "zh": "氧化（oxidized）。"
+          "zh": "氧化（oxidized）"
         },
         {
           "id": "d",
           "en": "emulsified.",
-          "zh": "乳化（emulsified）。"
+          "zh": "乳化（emulsified）"
         }
       ],
       "correctChoice": "c",
@@ -7540,22 +7540,22 @@
         {
           "id": "a",
           "en": "endothermic.",
-          "zh": "吸热的（endothermic）。"
+          "zh": "吸热的（endothermic）"
         },
         {
           "id": "b",
           "en": "exothermic.",
-          "zh": "放热的（exothermic）。"
+          "zh": "放热的（exothermic）"
         },
         {
           "id": "c",
           "en": "evaporative.",
-          "zh": "蒸发性的（evaporative）。"
+          "zh": "蒸发性的（evaporative）"
         },
         {
           "id": "d",
           "en": "emulsifying.",
-          "zh": "乳化性的（emulsifying）。"
+          "zh": "乳化性的（emulsifying）"
         }
       ],
       "correctChoice": "b",
@@ -7582,22 +7582,22 @@
         {
           "id": "a",
           "en": "evaporation.",
-          "zh": "蒸发（evaporation）。"
+          "zh": "蒸发（evaporation）"
         },
         {
           "id": "b",
           "en": "polymerization.",
-          "zh": "聚合（polymerization）。"
+          "zh": "聚合（polymerization）"
         },
         {
           "id": "c",
           "en": "oxidation.",
-          "zh": "氧化（oxidation）。"
+          "zh": "氧化（oxidation）"
         },
         {
           "id": "d",
           "en": "neutralization.",
-          "zh": "中和（neutralization）。"
+          "zh": "中和（neutralization）"
         }
       ],
       "correctChoice": "a",
@@ -7624,22 +7624,22 @@
         {
           "id": "a",
           "en": "catalysts.",
-          "zh": "催化剂（catalysts）。"
+          "zh": "催化剂（catalysts）"
         },
         {
           "id": "b",
           "en": "initiators.",
-          "zh": "引发剂（initiators）。"
+          "zh": "引发剂（initiators）"
         },
         {
           "id": "c",
           "en": "monomers.",
-          "zh": "单体（monomers）。"
+          "zh": "单体（monomers）"
         },
         {
           "id": "d",
           "en": "solvents.",
-          "zh": "溶剂（solvents）。"
+          "zh": "溶剂（solvents）"
         }
       ],
       "correctChoice": "c",
@@ -7666,22 +7666,22 @@
         {
           "id": "a",
           "en": "a cross-linker.",
-          "zh": "交联剂（cross-linker）。"
+          "zh": "交联剂（cross-linker）"
         },
         {
           "id": "b",
           "en": "a catalyst.",
-          "zh": "催化剂（catalyst）。"
+          "zh": "催化剂（catalyst）"
         },
         {
           "id": "c",
           "en": "a photoinitiator.",
-          "zh": "光引发剂（photoinitiator）。"
+          "zh": "光引发剂（photoinitiator）"
         },
         {
           "id": "d",
           "en": "an oligomer.",
-          "zh": "寡聚物/低聚物（oligomer）。"
+          "zh": "寡聚物/低聚物（oligomer）"
         }
       ],
       "correctChoice": "d",
@@ -7750,22 +7750,22 @@
         {
           "id": "a",
           "en": "solvent.",
-          "zh": "溶剂（solvent）。"
+          "zh": "溶剂（solvent）"
         },
         {
           "id": "b",
           "en": "plasticizer.",
-          "zh": "增塑剂（plasticizer）。"
+          "zh": "增塑剂（plasticizer）"
         },
         {
           "id": "c",
           "en": "primer.",
-          "zh": "结合剂（primer）。"
+          "zh": "结合剂（primer）"
         },
         {
           "id": "d",
           "en": "catalyst.",
-          "zh": "催化剂（catalyst）。"
+          "zh": "催化剂（catalyst）"
         }
       ],
       "correctChoice": "d",
@@ -7792,22 +7792,22 @@
         {
           "id": "a",
           "en": "a cross-linker.",
-          "zh": "交联剂（cross-linker）。"
+          "zh": "交联剂（cross-linker）"
         },
         {
           "id": "b",
           "en": "an oligomer.",
-          "zh": "寡聚物（oligomer）。"
+          "zh": "寡聚物（oligomer）"
         },
         {
           "id": "c",
           "en": "a photoinitiator.",
-          "zh": "光引发剂（photoinitiator）。"
+          "zh": "光引发剂（photoinitiator）"
         },
         {
           "id": "d",
           "en": "a plasticizer.",
-          "zh": "增塑剂（plasticizer）。"
+          "zh": "增塑剂（plasticizer）"
         }
       ],
       "correctChoice": "a",
@@ -7834,22 +7834,22 @@
         {
           "id": "a",
           "en": "water content.",
-          "zh": "含水量（water content）。"
+          "zh": "含水量（water content）"
         },
         {
           "id": "b",
           "en": "oil content.",
-          "zh": "含油量（oil content）。"
+          "zh": "含油量（oil content）"
         },
         {
           "id": "c",
           "en": "acidity and alkalinity.",
-          "zh": "酸性和碱性的程度（acidity and alkalinity）。"
+          "zh": "酸性和碱性的程度（acidity and alkalinity）"
         },
         {
           "id": "d",
           "en": "hardness.",
-          "zh": "硬度（hardness）。"
+          "zh": "硬度（hardness）"
         }
       ],
       "correctChoice": "c",
@@ -7960,22 +7960,22 @@
         {
           "id": "a",
           "en": "contains carbon.",
-          "zh": "含有碳的物质。"
+          "zh": "含有碳的物质"
         },
         {
           "id": "b",
           "en": "comes only from plants.",
-          "zh": "只来自植物的物质。"
+          "zh": "只来自植物的物质"
         },
         {
           "id": "c",
           "en": "is always safe.",
-          "zh": "一定安全的物质。"
+          "zh": "一定安全的物质"
         },
         {
           "id": "d",
           "en": "contains no water.",
-          "zh": "不含水的物质。"
+          "zh": "不含水的物质"
         }
       ],
       "correctChoice": "a",
@@ -8128,22 +8128,22 @@
         {
           "id": "a",
           "en": "cyanoacrylates.",
-          "zh": "氰基丙烯酸酯（cyanoacrylates）。"
+          "zh": "氰基丙烯酸酯（cyanoacrylates）"
         },
         {
           "id": "b",
           "en": "methacrylates.",
-          "zh": "甲基丙烯酸酯（methacrylates）。"
+          "zh": "甲基丙烯酸酯（methacrylates）"
         },
         {
           "id": "c",
           "en": "acrylates.",
-          "zh": "丙烯酸酯（acrylates）。"
+          "zh": "丙烯酸酯（acrylates）"
         },
         {
           "id": "d",
           "en": "silicones.",
-          "zh": "硅酮（silicones）。"
+          "zh": "硅酮（silicones）"
         }
       ],
       "correctChoice": "a",
@@ -8590,22 +8590,22 @@
         {
           "id": "a",
           "en": "low in pH and acidic.",
-          "zh": "pH 低，呈酸性。"
+          "zh": "pH 低，呈酸性"
         },
         {
           "id": "b",
           "en": "high in pH and caustic.",
-          "zh": "pH 高，具有腐蚀性（caustic）。"
+          "zh": "pH 高，具有腐蚀性（caustic）"
         },
         {
           "id": "c",
           "en": "neutral, with a pH of 7.",
-          "zh": "中性，pH 为 7。"
+          "zh": "中性，pH 为 7"
         },
         {
           "id": "d",
           "en": "water-free, with no pH.",
-          "zh": "不含水，没有 pH。"
+          "zh": "不含水，没有 pH"
         }
       ],
       "correctChoice": "b",
@@ -8758,22 +8758,22 @@
         {
           "id": "a",
           "en": "evaporation.",
-          "zh": "蒸发（evaporation）。"
+          "zh": "蒸发（evaporation）"
         },
         {
           "id": "b",
           "en": "polymerization.",
-          "zh": "聚合（polymerization）。"
+          "zh": "聚合（polymerization）"
         },
         {
           "id": "c",
           "en": "condensation.",
-          "zh": "冷凝（condensation）。"
+          "zh": "冷凝（condensation）"
         },
         {
           "id": "d",
           "en": "neutralization.",
-          "zh": "中和（neutralization）。"
+          "zh": "中和（neutralization）"
         }
       ],
       "correctChoice": "b",
@@ -8800,22 +8800,22 @@
         {
           "id": "a",
           "en": "mixes well with oils and waxes.",
-          "zh": "能和油、蜡很好地混合。"
+          "zh": "能和油、蜡很好地混合"
         },
         {
           "id": "b",
           "en": "never turns into a vapor.",
-          "zh": "永远不会变成蒸气。"
+          "zh": "永远不会变成蒸气"
         },
         {
           "id": "c",
           "en": "speeds up every chemical reaction.",
-          "zh": "能加快所有化学反应。"
+          "zh": "能加快所有化学反应"
         },
         {
           "id": "d",
           "en": "dissolves more substances than any other solvent.",
-          "zh": "能溶解的物质比任何其他溶剂都多。"
+          "zh": "能溶解的物质比任何其他溶剂都多"
         }
       ],
       "correctChoice": "d",
@@ -8884,22 +8884,22 @@
         {
           "id": "a",
           "en": "filing dust and polymer powder.",
-          "zh": "锉甲粉尘和聚合物粉末。"
+          "zh": "锉甲粉尘和聚合物粉末"
         },
         {
           "id": "b",
           "en": "water and acetone vapors.",
-          "zh": "水和丙酮的蒸气。"
+          "zh": "水和丙酮的蒸气"
         },
         {
           "id": "c",
           "en": "soot-like particles and vapors.",
-          "zh": "类似烟灰的颗粒和蒸气。"
+          "zh": "类似烟灰的颗粒和蒸气"
         },
         {
           "id": "d",
           "en": "monomer liquid and oxygen.",
-          "zh": "单体液和氧气。"
+          "zh": "单体液和氧气"
         }
       ],
       "correctChoice": "c",
@@ -8926,22 +8926,22 @@
         {
           "id": "a",
           "en": "monomers and oligomers.",
-          "zh": "单体和寡聚物（oligomers）。"
+          "zh": "单体和寡聚物（oligomers）"
         },
         {
           "id": "b",
           "en": "sodium hydroxide and glycerin.",
-          "zh": "氢氧化钠和甘油。"
+          "zh": "氢氧化钠和甘油"
         },
         {
           "id": "c",
           "en": "protein, such as collagen.",
-          "zh": "蛋白质，例如胶原蛋白。"
+          "zh": "蛋白质，例如胶原蛋白"
         },
         {
           "id": "d",
           "en": "methacrylic or cellulose-type film formers.",
-          "zh": "甲基丙烯酸类或纤维素类成膜剂（film formers）。"
+          "zh": "甲基丙烯酸类或纤维素类成膜剂（film formers）"
         }
       ],
       "correctChoice": "d",
@@ -9010,22 +9010,22 @@
         {
           "id": "a",
           "en": "service procedure.",
-          "zh": "服务程序（service procedure）。"
+          "zh": "服务程序（service procedure）"
         },
         {
           "id": "b",
           "en": "post-service procedure.",
-          "zh": "服务后程序（post-service procedure）。"
+          "zh": "服务后程序（post-service procedure）"
         },
         {
           "id": "c",
           "en": "client consultation.",
-          "zh": "顾客咨询（client consultation）。"
+          "zh": "顾客咨询（client consultation）"
         },
         {
           "id": "d",
           "en": "pre-service procedure.",
-          "zh": "服务前程序（pre-service procedure）。"
+          "zh": "服务前程序（pre-service procedure）"
         }
       ],
       "correctChoice": "d",
@@ -9052,22 +9052,22 @@
         {
           "id": "a",
           "en": "service record card.",
-          "zh": "服务记录卡（service record card）。"
+          "zh": "服务记录卡（service record card）"
         },
         {
           "id": "b",
           "en": "health history form.",
-          "zh": "健康史表（health history form）。"
+          "zh": "健康史表（health history form）"
         },
         {
           "id": "c",
           "en": "release form.",
-          "zh": "免责声明表（release form）。"
+          "zh": "免责声明表（release form）"
         },
         {
           "id": "d",
           "en": "product purchase record.",
-          "zh": "产品购买记录（product purchase record）。"
+          "zh": "产品购买记录（product purchase record）"
         }
       ],
       "correctChoice": "b",
@@ -9262,22 +9262,22 @@
         {
           "id": "a",
           "en": "reflective listening.",
-          "zh": "反映式倾听（reflective listening）。"
+          "zh": "反映式倾听（reflective listening）"
         },
         {
           "id": "b",
           "en": "a needs assessment.",
-          "zh": "需求评估（needs assessment）。"
+          "zh": "需求评估（needs assessment）"
         },
         {
           "id": "c",
           "en": "upselling.",
-          "zh": "追加推荐（upselling）。"
+          "zh": "追加推荐（upselling）"
         },
         {
           "id": "d",
           "en": "client analysis.",
-          "zh": "顾客分析（client analysis）。"
+          "zh": "顾客分析（client analysis）"
         }
       ],
       "correctChoice": "a",
@@ -9304,22 +9304,22 @@
         {
           "id": "a",
           "en": "record what they see.",
-          "zh": "记录看到的情况。"
+          "zh": "记录看到的情况"
         },
         {
           "id": "b",
           "en": "ask about health conditions.",
-          "zh": "询问健康状况。"
+          "zh": "询问健康状况"
         },
         {
           "id": "c",
           "en": "diagnose a disease or disorder.",
-          "zh": "诊断（diagnose）疾病或病症。"
+          "zh": "诊断（diagnose）疾病或病症"
         },
         {
           "id": "d",
           "en": "refer the client to a physician.",
-          "zh": "建议顾客去看医生。"
+          "zh": "建议顾客去看医生"
         }
       ],
       "correctChoice": "c",
@@ -9346,22 +9346,22 @@
         {
           "id": "a",
           "en": "consultation.",
-          "zh": "咨询（consultation）。"
+          "zh": "咨询（consultation）"
         },
         {
           "id": "b",
           "en": "scope of practice.",
-          "zh": "执业范围（scope of practice）。"
+          "zh": "执业范围（scope of practice）"
         },
         {
           "id": "c",
           "en": "service record.",
-          "zh": "服务记录（service record）。"
+          "zh": "服务记录（service record）"
         },
         {
           "id": "d",
           "en": "contraindication.",
-          "zh": "禁忌症（contraindication）。"
+          "zh": "禁忌症（contraindication）"
         }
       ],
       "correctChoice": "d",
@@ -9430,22 +9430,22 @@
         {
           "id": "a",
           "en": "a signed school release form.",
-          "zh": "签好的学校免责声明表。"
+          "zh": "签好的学校免责声明表"
         },
         {
           "id": "b",
           "en": "a physician's release.",
-          "zh": "医生许可（physician's release）。"
+          "zh": "医生许可（physician's release）"
         },
         {
           "id": "c",
           "en": "the salon manager's approval.",
-          "zh": "沙龙经理的同意。"
+          "zh": "沙龙经理的同意"
         },
         {
           "id": "d",
           "en": "a second consultation.",
-          "zh": "再做一次咨询。"
+          "zh": "再做一次咨询"
         }
       ],
       "correctChoice": "b",
@@ -9472,22 +9472,22 @@
         {
           "id": "a",
           "en": "diabetes that is well controlled.",
-          "zh": "控制良好的糖尿病。"
+          "zh": "控制良好的糖尿病"
         },
         {
           "id": "b",
           "en": "high blood pressure controlled by medication.",
-          "zh": "用药控制良好的高血压。"
+          "zh": "用药控制良好的高血压"
         },
         {
           "id": "c",
           "en": "severe, uncontrolled hypertension.",
-          "zh": "严重且未控制的高血压（hypertension）。"
+          "zh": "严重且未控制的高血压（hypertension）"
         },
         {
           "id": "d",
           "en": "dry skin on the hands.",
-          "zh": "手部皮肤干燥。"
+          "zh": "手部皮肤干燥"
         }
       ],
       "correctChoice": "c",
@@ -9514,22 +9514,22 @@
         {
           "id": "a",
           "en": "nipping the cuticles.",
-          "zh": "用死皮剪剪死皮（nip the cuticles）。"
+          "zh": "用死皮剪剪死皮（nip the cuticles）"
         },
         {
           "id": "b",
           "en": "using a fine-grit abrasive.",
-          "zh": "使用细砂锉（fine-grit abrasive）。"
+          "zh": "使用细砂锉（fine-grit abrasive）"
         },
         {
           "id": "c",
           "en": "removing dead tissue with a curette.",
-          "zh": "用刮匙（curette）去除死组织。"
+          "zh": "用刮匙（curette）去除死组织"
         },
         {
           "id": "d",
           "en": "using gentle massage pressure.",
-          "zh": "按摩时用轻柔的力度。"
+          "zh": "按摩时用轻柔的力度"
         }
       ],
       "correctChoice": "a",
@@ -9640,22 +9640,22 @@
         {
           "id": "a",
           "en": "5 seconds.",
-          "zh": "5 秒。"
+          "zh": "5 秒"
         },
         {
           "id": "b",
           "en": "10 seconds.",
-          "zh": "10 秒。"
+          "zh": "10 秒"
         },
         {
           "id": "c",
           "en": "20 seconds.",
-          "zh": "20 秒。"
+          "zh": "20 秒"
         },
         {
           "id": "d",
           "en": "2 minutes.",
-          "zh": "2 分钟。"
+          "zh": "2 分钟"
         }
       ],
       "correctChoice": "c",
@@ -9766,22 +9766,22 @@
         {
           "id": "a",
           "en": "hand sanitizer gel.",
-          "zh": "免洗洗手凝胶。"
+          "zh": "免洗洗手凝胶"
         },
         {
           "id": "b",
           "en": "isopropyl alcohol.",
-          "zh": "异丙醇（isopropyl alcohol）。"
+          "zh": "异丙醇（isopropyl alcohol）"
         },
         {
           "id": "c",
           "en": "an EPA-approved disinfectant.",
-          "zh": "经 EPA 批准的消毒剂（EPA-approved disinfectant）。"
+          "zh": "经 EPA 批准的消毒剂（EPA-approved disinfectant）"
         },
         {
           "id": "d",
           "en": "plain warm water.",
-          "zh": "清水（温水）。"
+          "zh": "清水（温水）"
         }
       ],
       "correctChoice": "c",
@@ -9892,22 +9892,22 @@
         {
           "id": "a",
           "en": "They make polish dry faster.",
-          "zh": "让指甲油干得更快。"
+          "zh": "让指甲油干得更快"
         },
         {
           "id": "b",
           "en": "They disinfect the work surface.",
-          "zh": "能给桌面消毒。"
+          "zh": "能给桌面消毒"
         },
         {
           "id": "c",
           "en": "They make skin look more golden.",
-          "zh": "让皮肤看起来更偏金黄。"
+          "zh": "让皮肤看起来更偏金黄"
         },
         {
           "id": "d",
           "en": "They give off cooler light.",
-          "zh": "发出的光比较凉。"
+          "zh": "发出的光比较凉"
         }
       ],
       "correctChoice": "d",
@@ -9976,22 +9976,22 @@
         {
           "id": "a",
           "en": "cleaned and disinfected.",
-          "zh": "清洁并消毒。"
+          "zh": "清洁并消毒"
         },
         {
           "id": "b",
           "en": "rinsed and refilled only.",
-          "zh": "只冲一冲再加水。"
+          "zh": "只冲一冲再加水"
         },
         {
           "id": "c",
           "en": "thrown away.",
-          "zh": "扔掉。"
+          "zh": "扔掉"
         },
         {
           "id": "d",
           "en": "stored with the water in it.",
-          "zh": "连水一起收起来。"
+          "zh": "连水一起收起来"
         }
       ],
       "correctChoice": "a",
@@ -10018,22 +10018,22 @@
         {
           "id": "a",
           "en": "hold the tips of implements only.",
-          "zh": "只浸泡工具的尖端。"
+          "zh": "只浸泡工具的尖端"
         },
         {
           "id": "b",
           "en": "hold one implement at a time.",
-          "zh": "一次只放一件工具。"
+          "zh": "一次只放一件工具"
         },
         {
           "id": "c",
           "en": "fully cover implements, handles included.",
-          "zh": "把工具完全浸没，包括手柄。"
+          "zh": "把工具完全浸没，包括手柄"
         },
         {
           "id": "d",
           "en": "store a week of used implements.",
-          "zh": "存放一周用过的工具。"
+          "zh": "存放一周用过的工具"
         }
       ],
       "correctChoice": "c",
@@ -10186,22 +10186,22 @@
         {
           "id": "a",
           "en": "the top speed of the bit.",
-          "zh": "磨头的最高转速。"
+          "zh": "磨头的最高转速"
         },
         {
           "id": "b",
           "en": "the size of the bit's shank.",
-          "zh": "磨头柄（shank）的粗细。"
+          "zh": "磨头柄（shank）的粗细"
         },
         {
           "id": "c",
           "en": "its power to keep turning under pressure.",
-          "zh": "受压时继续转动的力量。"
+          "zh": "受压时继续转动的力量"
         },
         {
           "id": "d",
           "en": "the coarseness of the bit.",
-          "zh": "磨头的粗糙程度。"
+          "zh": "磨头的粗糙程度"
         }
       ],
       "correctChoice": "c",
@@ -10396,22 +10396,22 @@
         {
           "id": "a",
           "en": "full turns of the bit per minute.",
-          "zh": "磨头每分钟转的整圈数。"
+          "zh": "磨头每分钟转的整圈数"
         },
         {
           "id": "b",
           "en": "the weight of the handpiece.",
-          "zh": "手柄的重量。"
+          "zh": "手柄的重量"
         },
         {
           "id": "c",
           "en": "the heat on the nail surface.",
-          "zh": "指甲表面的温度。"
+          "zh": "指甲表面的温度"
         },
         {
           "id": "d",
           "en": "the grit size of the bit.",
-          "zh": "磨头的粗细（grit）。"
+          "zh": "磨头的粗细（grit）"
         }
       ],
       "correctChoice": "a",
@@ -10438,22 +10438,22 @@
         {
           "id": "a",
           "en": "has a rounded safety tip.",
-          "zh": "有圆头安全设计。"
+          "zh": "有圆头安全设计"
         },
         {
           "id": "b",
           "en": "is used once, then thrown away.",
-          "zh": "用一次就扔。"
+          "zh": "用一次就扔"
         },
         {
           "id": "c",
           "en": "is balanced and does not wobble.",
-          "zh": "平衡，不晃动。"
+          "zh": "平衡，不晃动"
         },
         {
           "id": "d",
           "en": "has grooves called flutes.",
-          "zh": "表面有叫 flutes（刃槽）的槽纹。"
+          "zh": "表面有叫 flutes（刃槽）的槽纹"
         }
       ],
       "correctChoice": "c",
@@ -10564,22 +10564,22 @@
         {
           "id": "a",
           "en": "Its electrical safety is certified.",
-          "zh": "它的用电安全经过认证。"
+          "zh": "它的用电安全经过认证"
         },
         {
           "id": "b",
           "en": "It is EPA-registered as a disinfectant.",
-          "zh": "它是 EPA 注册的消毒产品。"
+          "zh": "它是 EPA 注册的消毒产品"
         },
         {
           "id": "c",
           "en": "It is licensed by the state board.",
-          "zh": "它获得州委员会许可。"
+          "zh": "它获得州委员会许可"
         },
         {
           "id": "d",
           "en": "It was made in the United States.",
-          "zh": "它是美国制造的。"
+          "zh": "它是美国制造的"
         }
       ],
       "correctChoice": "a",
@@ -10690,22 +10690,22 @@
         {
           "id": "a",
           "en": "They can be disinfected without corroding.",
-          "zh": "消毒时不会腐蚀生锈。"
+          "zh": "消毒时不会腐蚀生锈"
         },
         {
           "id": "b",
           "en": "They only need rinsing between clients.",
-          "zh": "顾客之间只需冲洗一下。"
+          "zh": "顾客之间只需冲洗一下"
         },
         {
           "id": "c",
           "en": "They cost less than nickel-plated tools.",
-          "zh": "比镀镍工具便宜。"
+          "zh": "比镀镍工具便宜"
         },
         {
           "id": "d",
           "en": "They can be thrown away after use.",
-          "zh": "用完可以扔掉。"
+          "zh": "用完可以扔掉"
         }
       ],
       "correctChoice": "a",
@@ -10732,22 +10732,22 @@
         {
           "id": "a",
           "en": "cut away live skin at the nail fold.",
-          "zh": "剪掉甲沟（nail fold）上的活皮。"
+          "zh": "剪掉甲沟（nail fold）上的活皮"
         },
         {
           "id": "b",
           "en": "gently scrape cuticle tissue off the nail plate.",
-          "zh": "轻轻刮掉甲面上的死皮（cuticle）组织。"
+          "zh": "轻轻刮掉甲面上的死皮（cuticle）组织"
         },
         {
           "id": "c",
           "en": "shorten the free edge quickly.",
-          "zh": "快速剪短指甲前缘（free edge）。"
+          "zh": "快速剪短指甲前缘（free edge）"
         },
         {
           "id": "d",
           "en": "lift implements out of disinfectant.",
-          "zh": "把工具从消毒液里夹出来。"
+          "zh": "把工具从消毒液里夹出来"
         }
       ],
       "correctChoice": "b",
@@ -10858,22 +10858,22 @@
         {
           "id": "a",
           "en": "keep them tightly closed.",
-          "zh": "把它紧紧合上。"
+          "zh": "把它紧紧合上"
         },
         {
           "id": "b",
           "en": "soak only the blades.",
-          "zh": "只泡刀刃部分。"
+          "zh": "只泡刀刃部分"
         },
         {
           "id": "c",
           "en": "rinse them in hot water only.",
-          "zh": "只用热水冲洗。"
+          "zh": "只用热水冲洗"
         },
         {
           "id": "d",
           "en": "open the hinges.",
-          "zh": "把剪子张开，露出剪轴（hinge）。"
+          "zh": "把剪子张开，露出剪轴（hinge）"
         }
       ],
       "correctChoice": "d",
@@ -10942,22 +10942,22 @@
         {
           "id": "a",
           "en": "They are single-use plastic.",
-          "zh": "是一次性塑料的。"
+          "zh": "是一次性塑料的"
         },
         {
           "id": "b",
           "en": "They are larger, with a wider jaw opening.",
-          "zh": "更大，钳口张开更宽。"
+          "zh": "更大，钳口张开更宽"
         },
         {
           "id": "c",
           "en": "They are used to trim dead skin.",
-          "zh": "是用来修死皮的。"
+          "zh": "是用来修死皮的"
         },
         {
           "id": "d",
           "en": "They need no disinfecting.",
-          "zh": "不需要消毒。"
+          "zh": "不需要消毒"
         }
       ],
       "correctChoice": "b",
@@ -11110,22 +11110,22 @@
         {
           "id": "a",
           "en": "treat a toenail that is ingrown.",
-          "zh": "治疗嵌甲（ingrown nail）。"
+          "zh": "治疗嵌甲（ingrown nail）"
         },
         {
           "id": "b",
           "en": "file the top surface of the nail.",
-          "zh": "锉指甲的上表面。"
+          "zh": "锉指甲的上表面"
         },
         {
           "id": "c",
           "en": "push back the cuticle.",
-          "zh": "推死皮。"
+          "zh": "推死皮"
         },
         {
           "id": "d",
           "en": "file the sides of the free edge.",
-          "zh": "锉前缘的两侧。"
+          "zh": "锉前缘的两侧"
         }
       ],
       "correctChoice": "d",
@@ -11152,22 +11152,22 @@
         {
           "id": "a",
           "en": "clean debris from the nail folds.",
-          "zh": "清理甲沟里的污垢。"
+          "zh": "清理甲沟里的污垢"
         },
         {
           "id": "b",
           "en": "shape the toenail free edge.",
-          "zh": "修整脚指甲前缘的形状。"
+          "zh": "修整脚指甲前缘的形状"
         },
         {
           "id": "c",
           "en": "push cuticle tissue off the nail.",
-          "zh": "把死皮从甲面推掉。"
+          "zh": "把死皮从甲面推掉"
         },
         {
           "id": "d",
           "en": "reduce and smooth thick calluses.",
-          "zh": "磨薄、磨平厚茧。"
+          "zh": "磨薄、磨平厚茧"
         }
       ],
       "correctChoice": "d",
@@ -11236,22 +11236,22 @@
         {
           "id": "a",
           "en": "is used once a day, then disinfected.",
-          "zh": "每天用一次，然后消毒。"
+          "zh": "每天用一次，然后消毒"
         },
         {
           "id": "b",
           "en": "can be reused after a rinse.",
-          "zh": "冲洗后可以再用。"
+          "zh": "冲洗后可以再用"
         },
         {
           "id": "c",
           "en": "is made only of stainless steel.",
-          "zh": "只用不锈钢做的。"
+          "zh": "只用不锈钢做的"
         },
         {
           "id": "d",
           "en": "can't be disinfected, so it's thrown away.",
-          "zh": "无法消毒，用一次就扔。"
+          "zh": "无法消毒，用一次就扔"
         }
       ],
       "correctChoice": "d",
@@ -11320,22 +11320,22 @@
         {
           "id": "a",
           "en": "finer and gentler it is.",
-          "zh": "越细、越温和。"
+          "zh": "越细、越温和"
         },
         {
           "id": "b",
           "en": "larger its particles and more aggressive.",
-          "zh": "颗粒越大、研磨越猛。"
+          "zh": "颗粒越大、研磨越猛"
         },
         {
           "id": "c",
           "en": "safer it is on natural nails.",
-          "zh": "对真甲越安全。"
+          "zh": "对真甲越安全"
         },
         {
           "id": "d",
           "en": "fewer scratches it leaves.",
-          "zh": "留下的刮痕越少。"
+          "zh": "留下的刮痕越少"
         }
       ],
       "correctChoice": "b",
@@ -11362,22 +11362,22 @@
         {
           "id": "a",
           "en": "quickly reducing thick enhancement product.",
-          "zh": "快速磨薄厚的人造甲产品（enhancement）。"
+          "zh": "快速磨薄厚的人造甲产品（enhancement）"
         },
         {
           "id": "b",
           "en": "reducing thick heel calluses.",
-          "zh": "磨掉脚跟的厚茧。"
+          "zh": "磨掉脚跟的厚茧"
         },
         {
           "id": "c",
           "en": "buffing, polishing, and removing fine scratches.",
-          "zh": "抛光、上光、去除细小刮痕。"
+          "zh": "抛光、上光、去除细小刮痕"
         },
         {
           "id": "d",
           "en": "shortening the free edge fast.",
-          "zh": "快速磨短前缘。"
+          "zh": "快速磨短前缘"
         }
       ],
       "correctChoice": "c",
@@ -11614,22 +11614,22 @@
         {
           "id": "a",
           "en": "It never needs to be laundered.",
-          "zh": "永远不用洗。"
+          "zh": "永远不用洗"
         },
         {
           "id": "b",
           "en": "It absorbs acetone without damage.",
-          "zh": "吸了丙酮也不会坏。"
+          "zh": "吸了丙酮也不会坏"
         },
         {
           "id": "c",
           "en": "It can be bleached between uses.",
-          "zh": "每次用后可以漂白。"
+          "zh": "每次用后可以漂白"
         },
         {
           "id": "d",
           "en": "It is single-use and thrown away.",
-          "zh": "是一次性的，用后扔掉。"
+          "zh": "是一次性的，用后扔掉"
         }
       ],
       "correctChoice": "c",
@@ -11656,22 +11656,22 @@
         {
           "id": "a",
           "en": "They can be disinfected and reused.",
-          "zh": "可以消毒后再用。"
+          "zh": "可以消毒后再用"
         },
         {
           "id": "b",
           "en": "They remove polish without any remover.",
-          "zh": "不用洗甲水也能卸甲油。"
+          "zh": "不用洗甲水也能卸甲油"
         },
         {
           "id": "c",
           "en": "They protect your fingertips from solvents.",
-          "zh": "保护你的指尖不接触溶剂。"
+          "zh": "保护你的指尖不接触溶剂"
         },
         {
           "id": "d",
           "en": "They add shine to the nail plate.",
-          "zh": "让甲面更亮。"
+          "zh": "让甲面更亮"
         }
       ],
       "correctChoice": "c",
@@ -11824,22 +11824,22 @@
         {
           "id": "a",
           "en": "did not wear open-toe shoes.",
-          "zh": "没穿露趾鞋来的顾客。"
+          "zh": "没穿露趾鞋来的顾客"
         },
         {
           "id": "b",
           "en": "have a foot fungus.",
-          "zh": "有足部真菌的顾客。"
+          "zh": "有足部真菌的顾客"
         },
         {
           "id": "c",
           "en": "want a longer foot massage.",
-          "zh": "想要更长足部按摩的顾客。"
+          "zh": "想要更长足部按摩的顾客"
         },
         {
           "id": "d",
           "en": "are allergic to nitrile gloves.",
-          "zh": "对丁腈手套过敏的顾客。"
+          "zh": "对丁腈手套过敏的顾客"
         }
       ],
       "correctChoice": "a",
@@ -11866,22 +11866,22 @@
         {
           "id": "a",
           "en": "It cross-links the keratin strands.",
-          "zh": "让角蛋白链交联。"
+          "zh": "让角蛋白链交联"
         },
         {
           "id": "b",
           "en": "It dissolves dead tissue on the plate.",
-          "zh": "溶解甲面上的死组织。"
+          "zh": "溶解甲面上的死组织"
         },
         {
           "id": "c",
           "en": "It forms a hard coating on the surface.",
-          "zh": "在甲面形成一层坚硬的保护膜。"
+          "zh": "在甲面形成一层坚硬的保护膜"
         },
         {
           "id": "d",
           "en": "It is absorbed deep into the nail.",
-          "zh": "深深渗入指甲内部。"
+          "zh": "深深渗入指甲内部"
         }
       ],
       "correctChoice": "c",
@@ -11908,22 +11908,22 @@
         {
           "id": "a",
           "en": "Oil dissolves synthetic bristles.",
-          "zh": "油会溶解合成刷毛。"
+          "zh": "油会溶解合成刷毛"
         },
         {
           "id": "b",
           "en": "Oil must be warmed before use.",
-          "zh": "油使用前必须加热。"
+          "zh": "油使用前必须加热"
         },
         {
           "id": "c",
           "en": "Droppers give a shinier finish.",
-          "zh": "滴管涂出来更亮。"
+          "zh": "滴管涂出来更亮"
         },
         {
           "id": "d",
           "en": "Oils can support bacterial growth.",
-          "zh": "油可能滋生细菌。"
+          "zh": "油可能滋生细菌"
         }
       ],
       "correctChoice": "d",
@@ -12034,22 +12034,22 @@
         {
           "id": "a",
           "en": "four products with different ingredients.",
-          "zh": "成分不同的四种产品。"
+          "zh": "成分不同的四种产品"
         },
         {
           "id": "b",
           "en": "marketing names for the same product type.",
-          "zh": "同一类产品的不同营销叫法。"
+          "zh": "同一类产品的不同营销叫法"
         },
         {
           "id": "c",
           "en": "four layers applied in order.",
-          "zh": "按顺序涂的四层。"
+          "zh": "按顺序涂的四层"
         },
         {
           "id": "d",
           "en": "terms used only for gel polish.",
-          "zh": "只用于凝胶甲油的名称。"
+          "zh": "只用于凝胶甲油的名称"
         }
       ],
       "correctChoice": "b",
@@ -12076,22 +12076,22 @@
         {
           "id": "a",
           "en": "help the polish adhere to the nail.",
-          "zh": "帮助甲油附着在指甲上。"
+          "zh": "帮助甲油附着在指甲上"
         },
         {
           "id": "b",
           "en": "harden thin, weak nails.",
-          "zh": "让薄软的指甲变硬。"
+          "zh": "让薄软的指甲变硬"
         },
         {
           "id": "c",
           "en": "dissolve old polish faster.",
-          "zh": "更快溶解旧甲油。"
+          "zh": "更快溶解旧甲油"
         },
         {
           "id": "d",
           "en": "prevent chipping and add shine.",
-          "zh": "防止剥落，增加光泽。"
+          "zh": "防止剥落，增加光泽"
         }
       ],
       "correctChoice": "d",
@@ -12118,22 +12118,22 @@
         {
           "id": "a",
           "en": "thin and weak.",
-          "zh": "又薄又软的。"
+          "zh": "又薄又软的"
         },
         {
           "id": "b",
           "en": "bare, with no polish.",
-          "zh": "没涂甲油的裸甲。"
+          "zh": "没涂甲油的裸甲"
         },
         {
           "id": "c",
           "en": "already very hard and brittle.",
-          "zh": "本来就很硬、很脆的。"
+          "zh": "本来就很硬、很脆的"
         },
         {
           "id": "d",
           "en": "short and natural.",
-          "zh": "短的真甲。"
+          "zh": "短的真甲"
         }
       ],
       "correctChoice": "c",
@@ -12160,22 +12160,22 @@
         {
           "id": "a",
           "en": "Germ-killing strength would also harm skin.",
-          "zh": "强到能杀菌的化学品也会伤皮肤。"
+          "zh": "强到能杀菌的化学品也会伤皮肤"
         },
         {
           "id": "b",
           "en": "Tablets only work in cold water.",
-          "zh": "药片只在冷水里有效。"
+          "zh": "药片只在冷水里有效"
         },
         {
           "id": "c",
           "en": "Tablets cost more than disinfectant.",
-          "zh": "药片比消毒剂贵。"
+          "zh": "药片比消毒剂贵"
         },
         {
           "id": "d",
           "en": "Tablets stain the basin.",
-          "zh": "药片会把盆染色。"
+          "zh": "药片会把盆染色"
         }
       ],
       "correctChoice": "a",
@@ -12286,22 +12286,22 @@
         {
           "id": "a",
           "en": "They give off UV light.",
-          "zh": "会发出紫外线。"
+          "zh": "会发出紫外线"
         },
         {
           "id": "b",
           "en": "They make a lot of dust.",
-          "zh": "会产生大量粉尘。"
+          "zh": "会产生大量粉尘"
         },
         {
           "id": "c",
           "en": "They can be alkaline.",
-          "zh": "它们可能是碱性的。"
+          "zh": "它们可能是碱性的"
         },
         {
           "id": "d",
           "en": "They are applied near the eyes.",
-          "zh": "要涂在眼睛附近。"
+          "zh": "要涂在眼睛附近"
         }
       ],
       "correctChoice": "c",
@@ -12328,22 +12328,22 @@
         {
           "id": "a",
           "en": "It destroys cells that start healing.",
-          "zh": "会破坏启动伤口愈合的细胞。"
+          "zh": "会破坏启动伤口愈合的细胞"
         },
         {
           "id": "b",
           "en": "It is too weak to kill germs.",
-          "zh": "太弱，杀不了病菌。"
+          "zh": "太弱，杀不了病菌"
         },
         {
           "id": "c",
           "en": "It stains the skin brown.",
-          "zh": "会把皮肤染成棕色。"
+          "zh": "会把皮肤染成棕色"
         },
         {
           "id": "d",
           "en": "It is illegal in all salons.",
-          "zh": "在所有沙龙都违法。"
+          "zh": "在所有沙龙都违法"
         }
       ],
       "correctChoice": "a",
@@ -12412,22 +12412,22 @@
         {
           "id": "a",
           "en": "lifting the bit off the nail often.",
-          "zh": "经常把磨头抬离指甲。"
+          "zh": "经常把磨头抬离指甲"
         },
         {
           "id": "b",
           "en": "keeping the bit parallel to the nail.",
-          "zh": "让磨头与指甲保持平行。"
+          "zh": "让磨头与指甲保持平行"
         },
         {
           "id": "c",
           "en": "holding the bit at the wrong angle.",
-          "zh": "磨头拿的角度不对。"
+          "zh": "磨头拿的角度不对"
         },
         {
           "id": "d",
           "en": "using a finer grit bit.",
-          "zh": "使用更细目数的磨头。"
+          "zh": "使用更细目数的磨头"
         }
       ],
       "correctChoice": "c",
@@ -12454,22 +12454,22 @@
         {
           "id": "a",
           "en": "increase the machine's speed.",
-          "zh": "调高机器的转速。"
+          "zh": "调高机器的转速"
         },
         {
           "id": "b",
           "en": "lower the machine's speed.",
-          "zh": "调低机器的转速。"
+          "zh": "调低机器的转速"
         },
         {
           "id": "c",
           "en": "press on the bit's front edge.",
-          "zh": "压在磨头的前缘上。"
+          "zh": "压在磨头的前缘上"
         },
         {
           "id": "d",
           "en": "tilt the bit onto its edge.",
-          "zh": "把磨头侧过来用边缘磨。"
+          "zh": "把磨头侧过来用边缘磨"
         }
       ],
       "correctChoice": "a",
@@ -12496,22 +12496,22 @@
         {
           "id": "a",
           "en": "100 or less.",
-          "zh": "100 或更低。"
+          "zh": "100 或更低"
         },
         {
           "id": "b",
           "en": "150 to 180.",
-          "zh": "150 到 180。"
+          "zh": "150 到 180"
         },
         {
           "id": "c",
           "en": "240 and higher.",
-          "zh": "240 或更高。"
+          "zh": "240 或更高"
         },
         {
           "id": "d",
           "en": "no grit at all.",
-          "zh": "完全没有目数。"
+          "zh": "完全没有目数"
         }
       ],
       "correctChoice": "a",
@@ -12538,22 +12538,22 @@
         {
           "id": "a",
           "en": "a surgical-type mask.",
-          "zh": "外科式口罩。"
+          "zh": "外科式口罩"
         },
         {
           "id": "b",
           "en": "nitrile gloves.",
-          "zh": "丁腈手套。"
+          "zh": "丁腈手套"
         },
         {
           "id": "c",
           "en": "an N95-rated dust mask.",
-          "zh": "N95 级防尘口罩。"
+          "zh": "N95 级防尘口罩"
         },
         {
           "id": "d",
           "en": "safety glasses.",
-          "zh": "护目镜。"
+          "zh": "护目镜"
         }
       ],
       "correctChoice": "c",
@@ -12580,22 +12580,22 @@
         {
           "id": "a",
           "en": "acetone remover.",
-          "zh": "含丙酮洗甲水。"
+          "zh": "含丙酮洗甲水"
         },
         {
           "id": "b",
           "en": "non-acetone remover.",
-          "zh": "无丙酮洗甲水。"
+          "zh": "无丙酮洗甲水"
         },
         {
           "id": "c",
           "en": "cuticle remover.",
-          "zh": "死皮软化剂。"
+          "zh": "死皮软化剂"
         },
         {
           "id": "d",
           "en": "nail dehydrator.",
-          "zh": "脱水剂。"
+          "zh": "脱水剂"
         }
       ],
       "correctChoice": "b",
@@ -12622,22 +12622,22 @@
         {
           "id": "a",
           "en": "a moisturizer.",
-          "zh": "保湿剂。"
+          "zh": "保湿剂"
         },
         {
           "id": "b",
           "en": "a disinfectant.",
-          "zh": "消毒剂。"
+          "zh": "消毒剂"
         },
         {
           "id": "c",
           "en": "an emulsifier.",
-          "zh": "乳化剂。"
+          "zh": "乳化剂"
         },
         {
           "id": "d",
           "en": "an abrasive.",
-          "zh": "研磨剂（abrasive）。"
+          "zh": "研磨剂（abrasive）"
         }
       ],
       "correctChoice": "d",
@@ -12916,22 +12916,22 @@
         {
           "id": "a",
           "en": "fungal discoloration.",
-          "zh": "真菌引起的变色。"
+          "zh": "真菌引起的变色"
         },
         {
           "id": "b",
           "en": "bruised nail beds.",
-          "zh": "甲床瘀青。"
+          "zh": "甲床瘀青"
         },
         {
           "id": "c",
           "en": "ridged nails.",
-          "zh": "纵纹甲。"
+          "zh": "纵纹甲"
         },
         {
           "id": "d",
           "en": "surface stains, such as tobacco.",
-          "zh": "表面污渍，例如烟渍。"
+          "zh": "表面污渍，例如烟渍"
         }
       ],
       "correctChoice": "d",
@@ -13084,22 +13084,22 @@
         {
           "id": "a",
           "en": "onychophagy.",
-          "zh": "咬甲癖（onychophagy）。"
+          "zh": "咬甲癖（onychophagy）"
         },
         {
           "id": "b",
           "en": "nail psoriasis.",
-          "zh": "指甲银屑病（nail psoriasis）。"
+          "zh": "指甲银屑病（nail psoriasis）"
         },
         {
           "id": "c",
           "en": "onycholysis.",
-          "zh": "甲剥离（onycholysis）。"
+          "zh": "甲剥离（onycholysis）"
         },
         {
           "id": "d",
           "en": "ridged nails.",
-          "zh": "纵纹甲（ridged nails）。"
+          "zh": "纵纹甲（ridged nails）"
         }
       ],
       "correctChoice": "c",
@@ -13546,22 +13546,22 @@
         {
           "id": "a",
           "en": "effleurage.",
-          "zh": "轻抚法（effleurage）。"
+          "zh": "轻抚法（effleurage）"
         },
         {
           "id": "b",
           "en": "tapotement.",
-          "zh": "叩击法（tapotement）。"
+          "zh": "叩击法（tapotement）"
         },
         {
           "id": "c",
           "en": "pétrissage.",
-          "zh": "揉捏法（pétrissage）。"
+          "zh": "揉捏法（pétrissage）"
         },
         {
           "id": "d",
           "en": "friction.",
-          "zh": "摩擦法（friction）。"
+          "zh": "摩擦法（friction）"
         }
       ],
       "correctChoice": "a",
@@ -13588,22 +13588,22 @@
         {
           "id": "a",
           "en": "effleurage.",
-          "zh": "轻抚法（effleurage）。"
+          "zh": "轻抚法（effleurage）"
         },
         {
           "id": "b",
           "en": "vibration.",
-          "zh": "振动法（vibration）。"
+          "zh": "振动法（vibration）"
         },
         {
           "id": "c",
           "en": "tapotement.",
-          "zh": "叩击法（tapotement）。"
+          "zh": "叩击法（tapotement）"
         },
         {
           "id": "d",
           "en": "pétrissage.",
-          "zh": "揉捏法（pétrissage）。"
+          "zh": "揉捏法（pétrissage）"
         }
       ],
       "correctChoice": "d",
@@ -13630,22 +13630,22 @@
         {
           "id": "a",
           "en": "friction.",
-          "zh": "摩擦法（friction）。"
+          "zh": "摩擦法（friction）"
         },
         {
           "id": "b",
           "en": "tapotement.",
-          "zh": "叩击法（tapotement）。"
+          "zh": "叩击法（tapotement）"
         },
         {
           "id": "c",
           "en": "effleurage.",
-          "zh": "轻抚法（effleurage）。"
+          "zh": "轻抚法（effleurage）"
         },
         {
           "id": "d",
           "en": "vibration.",
-          "zh": "振动法（vibration）。"
+          "zh": "振动法（vibration）"
         }
       ],
       "correctChoice": "b",
@@ -13714,22 +13714,22 @@
         {
           "id": "a",
           "en": "tapotement.",
-          "zh": "叩击法（tapotement）。"
+          "zh": "叩击法（tapotement）"
         },
         {
           "id": "b",
           "en": "vibration.",
-          "zh": "振动法（vibration）。"
+          "zh": "振动法（vibration）"
         },
         {
           "id": "c",
           "en": "friction.",
-          "zh": "摩擦法（friction）。"
+          "zh": "摩擦法（friction）"
         },
         {
           "id": "d",
           "en": "effleurage.",
-          "zh": "轻抚法（effleurage）。"
+          "zh": "轻抚法（effleurage）"
         }
       ],
       "correctChoice": "c",
@@ -13798,22 +13798,22 @@
         {
           "id": "a",
           "en": "deep, sports-style muscle work.",
-          "zh": "深层的运动式肌肉按摩。"
+          "zh": "深层的运动式肌肉按摩"
         },
         {
           "id": "b",
           "en": "moving stiff joints.",
-          "zh": "活动僵硬的关节。"
+          "zh": "活动僵硬的关节"
         },
         {
           "id": "c",
           "en": "removing dead skin.",
-          "zh": "去除死皮。"
+          "zh": "去除死皮"
         },
         {
           "id": "d",
           "en": "relaxation.",
-          "zh": "放松。"
+          "zh": "放松"
         }
       ],
       "correctChoice": "d",
@@ -14008,22 +14008,22 @@
         {
           "id": "a",
           "en": "ask once about pressure.",
-          "zh": "问一次力度是否合适。"
+          "zh": "问一次力度是否合适"
         },
         {
           "id": "b",
           "en": "explain each movement.",
-          "zh": "解释每一个手法。"
+          "zh": "解释每一个手法"
         },
         {
           "id": "c",
           "en": "suggest retail products.",
-          "zh": "推荐零售产品。"
+          "zh": "推荐零售产品"
         },
         {
           "id": "d",
           "en": "keep the client awake.",
-          "zh": "让顾客保持清醒。"
+          "zh": "让顾客保持清醒"
         }
       ],
       "correctChoice": "a",
@@ -14092,22 +14092,22 @@
         {
           "id": "a",
           "en": "tapotement.",
-          "zh": "叩击法（tapotement）。"
+          "zh": "叩击法（tapotement）"
         },
         {
           "id": "b",
           "en": "pétrissage.",
-          "zh": "揉捏法（pétrissage）。"
+          "zh": "揉捏法（pétrissage）"
         },
         {
           "id": "c",
           "en": "vibration.",
-          "zh": "振动法（vibration）。"
+          "zh": "振动法（vibration）"
         },
         {
           "id": "d",
           "en": "skin drag.",
-          "zh": "皮肤拖拽（skin drag）。"
+          "zh": "皮肤拖拽（skin drag）"
         }
       ],
       "correctChoice": "d",
@@ -14134,22 +14134,22 @@
         {
           "id": "a",
           "en": "tapotement.",
-          "zh": "叩击法（tapotement）。"
+          "zh": "叩击法（tapotement）"
         },
         {
           "id": "b",
           "en": "feathering off.",
-          "zh": "羽毛式收尾（feathering off）。"
+          "zh": "羽毛式收尾（feathering off）"
         },
         {
           "id": "c",
           "en": "pétrissage.",
-          "zh": "揉捏法（pétrissage）。"
+          "zh": "揉捏法（pétrissage）"
         },
         {
           "id": "d",
           "en": "friction.",
-          "zh": "摩擦法（friction）。"
+          "zh": "摩擦法（friction）"
         }
       ],
       "correctChoice": "b",
@@ -14470,22 +14470,22 @@
         {
           "id": "a",
           "en": "as short as possible.",
-          "zh": "尽量剪短。"
+          "zh": "尽量剪短"
         },
         {
           "id": "b",
           "en": "to a rounded point.",
-          "zh": "剪成圆尖形。"
+          "zh": "剪成圆尖形"
         },
         {
           "id": "c",
           "en": "well past the end of the toe.",
-          "zh": "留得远超过脚趾尖。"
+          "zh": "留得远超过脚趾尖"
         },
         {
           "id": "d",
           "en": "straight across, even with the toe tip.",
-          "zh": "平剪，与脚趾尖齐平。"
+          "zh": "平剪，与脚趾尖齐平"
         }
       ],
       "correctChoice": "d",
@@ -14638,22 +14638,22 @@
         {
           "id": "a",
           "en": "every toenail.",
-          "zh": "每一个脚趾甲。"
+          "zh": "每一个脚趾甲"
         },
         {
           "id": "b",
           "en": "the little toe only.",
-          "zh": "只用在小脚趾。"
+          "zh": "只用在小脚趾"
         },
         {
           "id": "c",
           "en": "the big toe only.",
-          "zh": "只用在大脚趾。"
+          "zh": "只用在大脚趾"
         },
         {
           "id": "d",
           "en": "the top of the nail.",
-          "zh": "指甲表面。"
+          "zh": "指甲表面"
         }
       ],
       "correctChoice": "c",
@@ -14764,22 +14764,22 @@
         {
           "id": "a",
           "en": "grow back heavier.",
-          "zh": "长得更厚。"
+          "zh": "长得更厚"
         },
         {
           "id": "b",
           "en": "disappear for good.",
-          "zh": "永远消失。"
+          "zh": "永远消失"
         },
         {
           "id": "c",
           "en": "turn soft and moist.",
-          "zh": "变得柔软湿润。"
+          "zh": "变得柔软湿润"
         },
         {
           "id": "d",
           "en": "grow back thinner.",
-          "zh": "长得更薄。"
+          "zh": "长得更薄"
         }
       ],
       "correctChoice": "a",
@@ -15352,22 +15352,22 @@
         {
           "id": "a",
           "en": "fanning.",
-          "zh": "扇形压刷（fanning）。"
+          "zh": "扇形压刷（fanning）"
         },
         {
           "id": "b",
           "en": "beveling.",
-          "zh": "倒斜边（beveling）。"
+          "zh": "倒斜边（beveling）"
         },
         {
           "id": "c",
           "en": "capping.",
-          "zh": "包边（capping）。"
+          "zh": "包边（capping）"
         },
         {
           "id": "d",
           "en": "feathering.",
-          "zh": "羽化（feathering）。"
+          "zh": "羽化（feathering）"
         }
       ],
       "correctChoice": "c",
@@ -15562,22 +15562,22 @@
         {
           "id": "a",
           "en": "free edge.",
-          "zh": "游离缘（free edge）。"
+          "zh": "游离缘（free edge）"
         },
         {
           "id": "b",
           "en": "lunula.",
-          "zh": "甲半月（lunula）。"
+          "zh": "甲半月（lunula）"
         },
         {
           "id": "c",
           "en": "smile line.",
-          "zh": "微笑线（smile line）。"
+          "zh": "微笑线（smile line）"
         },
         {
           "id": "d",
           "en": "stress area.",
-          "zh": "受力区（stress area）。"
+          "zh": "受力区（stress area）"
         }
       ],
       "correctChoice": "c",
@@ -15604,22 +15604,22 @@
         {
           "id": "a",
           "en": "color blocking.",
-          "zh": "色块拼接（color blocking）。"
+          "zh": "色块拼接（color blocking）"
         },
         {
           "id": "b",
           "en": "ombre.",
-          "zh": "渐变（ombre）。"
+          "zh": "渐变（ombre）"
         },
         {
           "id": "c",
           "en": "a French manicure.",
-          "zh": "法式美甲。"
+          "zh": "法式美甲"
         },
         {
           "id": "d",
           "en": "marbleizing.",
-          "zh": "大理石纹（marbleizing）。"
+          "zh": "大理石纹（marbleizing）"
         }
       ],
       "correctChoice": "d",
@@ -15646,22 +15646,22 @@
         {
           "id": "a",
           "en": "dry, rough skin.",
-          "zh": "皮肤干燥粗糙。"
+          "zh": "皮肤干燥粗糙"
         },
         {
           "id": "b",
           "en": "impaired circulation.",
-          "zh": "血液循环不良。"
+          "zh": "血液循环不良"
         },
         {
           "id": "c",
           "en": "arthritis pain.",
-          "zh": "关节炎疼痛。"
+          "zh": "关节炎疼痛"
         },
         {
           "id": "d",
           "en": "callused hands.",
-          "zh": "手上有老茧。"
+          "zh": "手上有老茧"
         }
       ],
       "correctChoice": "b",
@@ -15772,22 +15772,22 @@
         {
           "id": "a",
           "en": "while the base coat is still wet.",
-          "zh": "底油还没干的时候。"
+          "zh": "底油还没干的时候"
         },
         {
           "id": "b",
           "en": "after the massage, before polishing.",
-          "zh": "按摩之后、上甲油之前。"
+          "zh": "按摩之后、上甲油之前"
         },
         {
           "id": "c",
           "en": "after the topcoat dries.",
-          "zh": "亮油干了之后。"
+          "zh": "亮油干了之后"
         },
         {
           "id": "d",
           "en": "before the nails are filed.",
-          "zh": "锉指甲之前。"
+          "zh": "锉指甲之前"
         }
       ],
       "correctChoice": "b",
@@ -16528,22 +16528,22 @@
         {
           "id": "a",
           "en": "apex.",
-          "zh": "甲峰（apex）。"
+          "zh": "甲峰（apex）"
         },
         {
           "id": "b",
           "en": "sidewall.",
-          "zh": "侧壁（sidewall）。"
+          "zh": "侧壁（sidewall）"
         },
         {
           "id": "c",
           "en": "stress area.",
-          "zh": "受力区（stress area）。"
+          "zh": "受力区（stress area）"
         },
         {
           "id": "d",
           "en": "position stop.",
-          "zh": "定位点（position stop）。"
+          "zh": "定位点（position stop）"
         }
       ],
       "correctChoice": "d",
@@ -16570,22 +16570,22 @@
         {
           "id": "a",
           "en": "It needs no adhesive.",
-          "zh": "它不需要甲片胶。"
+          "zh": "它不需要甲片胶"
         },
         {
           "id": "b",
           "en": "It is precut like a smile line.",
-          "zh": "它预先切成了微笑线形状。"
+          "zh": "它预先切成了微笑线形状"
         },
         {
           "id": "c",
           "en": "It has no position stop.",
-          "zh": "它没有定位点（position stop）。"
+          "zh": "它没有定位点（position stop）"
         },
         {
           "id": "d",
           "en": "It is made of softer plastic.",
-          "zh": "它用更软的塑料做成。"
+          "zh": "它用更软的塑料做成"
         }
       ],
       "correctChoice": "c",
@@ -16654,22 +16654,22 @@
         {
           "id": "a",
           "en": "mylar film.",
-          "zh": "聚酯薄膜（mylar）。"
+          "zh": "聚酯薄膜（mylar）"
         },
         {
           "id": "b",
           "en": "cyanoacrylate.",
-          "zh": "氰基丙烯酸酯（cyanoacrylate）。"
+          "zh": "氰基丙烯酸酯（cyanoacrylate）"
         },
         {
           "id": "c",
           "en": "aluminum.",
-          "zh": "铝。"
+          "zh": "铝"
         },
         {
           "id": "d",
           "en": "ABS plastic.",
-          "zh": "ABS 塑料。"
+          "zh": "ABS 塑料"
         }
       ],
       "correctChoice": "d",
@@ -16696,22 +16696,22 @@
         {
           "id": "a",
           "en": "only across the center.",
-          "zh": "只盖住中间部分。"
+          "zh": "只盖住中间部分"
         },
         {
           "id": "b",
           "en": "from sidewall to sidewall.",
-          "zh": "从侧壁到侧壁（sidewall to sidewall）。"
+          "zh": "从侧壁到侧壁（sidewall to sidewall）"
         },
         {
           "id": "c",
           "en": "past the sidewalls onto the skin.",
-          "zh": "超出侧壁，盖到皮肤上。"
+          "zh": "超出侧壁，盖到皮肤上"
         },
         {
           "id": "d",
           "en": "with a small gap at each side.",
-          "zh": "两侧各留一点空隙。"
+          "zh": "两侧各留一点空隙"
         }
       ],
       "correctChoice": "b",
@@ -16738,22 +16738,22 @@
         {
           "id": "a",
           "en": "5 to 10 seconds.",
-          "zh": "5 到 10 秒。"
+          "zh": "5 到 10 秒"
         },
         {
           "id": "b",
           "en": "30 to 60 seconds.",
-          "zh": "30 到 60 秒。"
+          "zh": "30 到 60 秒"
         },
         {
           "id": "c",
           "en": "2 to 3 minutes.",
-          "zh": "2 到 3 分钟。"
+          "zh": "2 到 3 分钟"
         },
         {
           "id": "d",
           "en": "5 to 10 minutes.",
-          "zh": "5 到 10 分钟。"
+          "zh": "5 到 10 分钟"
         }
       ],
       "correctChoice": "a",
@@ -16906,22 +16906,22 @@
         {
           "id": "a",
           "en": "The overlay is what glues the tip on.",
-          "zh": "甲片是靠加固层粘上去的。"
+          "zh": "甲片是靠加固层粘上去的"
         },
         {
           "id": "b",
           "en": "Tips alone are not strong enough.",
-          "zh": "单靠甲片不够坚固。"
+          "zh": "单靠甲片不够坚固"
         },
         {
           "id": "c",
           "en": "Bare tips dissolve in water.",
-          "zh": "没有加固层的甲片遇水会溶化。"
+          "zh": "没有加固层的甲片遇水会溶化"
         },
         {
           "id": "d",
           "en": "Bare tips cannot be filed.",
-          "zh": "没有加固层的甲片不能锉。"
+          "zh": "没有加固层的甲片不能锉"
         }
       ],
       "correctChoice": "b",
@@ -16948,22 +16948,22 @@
         {
           "id": "a",
           "en": "open into a large circle.",
-          "zh": "张开成一个大圆。"
+          "zh": "张开成一个大圆"
         },
         {
           "id": "b",
           "en": "be cut off straight across.",
-          "zh": "平直剪掉。"
+          "zh": "平直剪掉"
         },
         {
           "id": "c",
           "en": "tilt down toward the finger.",
-          "zh": "朝手指方向向下倾斜。"
+          "zh": "朝手指方向向下倾斜"
         },
         {
           "id": "d",
           "en": "close to a pinhole point.",
-          "zh": "收成尖，只留针孔大的开口。"
+          "zh": "收成尖，只留针孔大的开口"
         }
       ],
       "correctChoice": "d",
@@ -16990,22 +16990,22 @@
         {
           "id": "a",
           "en": "there is no gap under the free edge.",
-          "zh": "游离缘和纸托之间没有缝隙。"
+          "zh": "游离缘和纸托之间没有缝隙"
         },
         {
           "id": "b",
           "en": "it tilts down away from the nail.",
-          "zh": "纸托从指甲往下倾斜。"
+          "zh": "纸托从指甲往下倾斜"
         },
         {
           "id": "c",
           "en": "it presses into the hyponychium.",
-          "zh": "纸托压进甲下皮（hyponychium）。"
+          "zh": "纸托压进甲下皮（hyponychium）"
         },
         {
           "id": "d",
           "en": "its center line points to one side.",
-          "zh": "纸托中线偏向一侧。"
+          "zh": "纸托中线偏向一侧"
         }
       ],
       "correctChoice": "a",
@@ -17032,22 +17032,22 @@
         {
           "id": "a",
           "en": "a thin natural material with a tight weave.",
-          "zh": "很薄、织得很密的天然材料。"
+          "zh": "很薄、织得很密的天然材料"
         },
         {
           "id": "b",
           "en": "a tough plastic called ABS.",
-          "zh": "一种叫 ABS 的坚韧塑料。"
+          "zh": "一种叫 ABS 的坚韧塑料"
         },
         {
           "id": "c",
           "en": "a thin polyester film called mylar.",
-          "zh": "一种叫 mylar 的聚酯薄膜。"
+          "zh": "一种叫 mylar 的聚酯薄膜"
         },
         {
           "id": "d",
           "en": "a thin synthetic mesh with a loose weave.",
-          "zh": "很薄、织得较松的合成网布。"
+          "zh": "很薄、织得较松的合成网布"
         }
       ],
       "correctChoice": "d",
@@ -17074,22 +17074,22 @@
         {
           "id": "a",
           "en": "cyanoacrylate.",
-          "zh": "氰基丙烯酸酯（cyanoacrylate）。"
+          "zh": "氰基丙烯酸酯（cyanoacrylate）"
         },
         {
           "id": "b",
           "en": "ethyl methacrylate.",
-          "zh": "甲基丙烯酸乙酯（EMA）。"
+          "zh": "甲基丙烯酸乙酯（EMA）"
         },
         {
           "id": "c",
           "en": "benzoyl peroxide.",
-          "zh": "过氧化苯甲酰（BPO）。"
+          "zh": "过氧化苯甲酰（BPO）"
         },
         {
           "id": "d",
           "en": "butyl acetate.",
-          "zh": "乙酸丁酯（butyl acetate）。"
+          "zh": "乙酸丁酯（butyl acetate）"
         }
       ],
       "correctChoice": "a",
@@ -17158,22 +17158,22 @@
         {
           "id": "a",
           "en": "eponychium meets the nail plate.",
-          "zh": "甲上皮与甲面交界处。"
+          "zh": "甲上皮与甲面交界处"
         },
         {
           "id": "b",
           "en": "free edge meets the nail bed.",
-          "zh": "游离缘与甲床交界处。"
+          "zh": "游离缘与甲床交界处"
         },
         {
           "id": "c",
           "en": "nail plate meets the lateral fold.",
-          "zh": "甲面与侧甲襞交界处。"
+          "zh": "甲面与侧甲襞交界处"
         },
         {
           "id": "d",
           "en": "lunula meets the eponychium.",
-          "zh": "甲半月与甲上皮交界处。"
+          "zh": "甲半月与甲上皮交界处"
         }
       ],
       "correctChoice": "b",
@@ -17200,22 +17200,22 @@
         {
           "id": "a",
           "en": "It adds color only.",
-          "zh": "它只增加颜色。"
+          "zh": "它只增加颜色"
         },
         {
           "id": "b",
           "en": "It needs no overlay.",
-          "zh": "它不需要加固层。"
+          "zh": "它不需要加固层"
         },
         {
           "id": "c",
           "en": "It adds length to the nail.",
-          "zh": "它让指甲变长。"
+          "zh": "它让指甲变长"
         },
         {
           "id": "d",
           "en": "It is always made on a form.",
-          "zh": "它一定要用纸托来做。"
+          "zh": "它一定要用纸托来做"
         }
       ],
       "correctChoice": "c",
@@ -17284,22 +17284,22 @@
         {
           "id": "a",
           "en": "paper or mylar.",
-          "zh": "纸或聚酯薄膜（mylar）。"
+          "zh": "纸或聚酯薄膜（mylar）"
         },
         {
           "id": "b",
           "en": "silk or fiberglass.",
-          "zh": "丝绸或玻璃纤维。"
+          "zh": "丝绸或玻璃纤维"
         },
         {
           "id": "c",
           "en": "plastic or aluminum.",
-          "zh": "塑料或铝。"
+          "zh": "塑料或铝"
         },
         {
           "id": "d",
           "en": "wood or cardboard.",
-          "zh": "木头或硬纸板。"
+          "zh": "木头或硬纸板"
         }
       ],
       "correctChoice": "c",
@@ -17368,22 +17368,22 @@
         {
           "id": "a",
           "en": "a weak nail and skin irritation.",
-          "zh": "指甲变弱，并可能刺激皮肤。"
+          "zh": "指甲变弱，并可能刺激皮肤"
         },
         {
           "id": "b",
           "en": "brittleness and discoloration.",
-          "zh": "变脆和变色。"
+          "zh": "变脆和变色"
         },
         {
           "id": "c",
           "en": "many trapped air bubbles.",
-          "zh": "里面有很多气泡。"
+          "zh": "里面有很多气泡"
         },
         {
           "id": "d",
           "en": "a chalky white surface.",
-          "zh": "表面发白像粉笔。"
+          "zh": "表面发白像粉笔"
         }
       ],
       "correctChoice": "a",
@@ -17452,22 +17452,22 @@
         {
           "id": "a",
           "en": "it has no odor at all.",
-          "zh": "它完全没有气味。"
+          "zh": "它完全没有气味"
         },
         {
           "id": "b",
           "en": "it is made with MMA.",
-          "zh": "它是用 MMA 做的。"
+          "zh": "它是用 MMA 做的"
         },
         {
           "id": "c",
           "en": "others in the salon can't smell it.",
-          "zh": "店里的其他人闻不到它。"
+          "zh": "店里的其他人闻不到它"
         },
         {
           "id": "d",
           "en": "a perfume covers its odor.",
-          "zh": "加了香料盖住气味。"
+          "zh": "加了香料盖住气味"
         }
       ],
       "correctChoice": "c",
@@ -17494,22 +17494,22 @@
         {
           "id": "a",
           "en": "re-wet the brush with monomer.",
-          "zh": "再把笔刷蘸湿单体液。"
+          "zh": "再把笔刷蘸湿单体液"
         },
         {
           "id": "b",
           "en": "wipe the brush on a towel.",
-          "zh": "在纸巾上擦笔。"
+          "zh": "在纸巾上擦笔"
         },
         {
           "id": "c",
           "en": "use a dry mix ratio.",
-          "zh": "用偏干的液粉比。"
+          "zh": "用偏干的液粉比"
         },
         {
           "id": "d",
           "en": "press and smooth the bead.",
-          "zh": "按压并抹平水晶球。"
+          "zh": "按压并抹平水晶球"
         }
       ],
       "correctChoice": "a",
@@ -17536,22 +17536,22 @@
         {
           "id": "a",
           "en": "sandpaper that roughs up the nail.",
-          "zh": "把指甲磨粗的砂纸。"
+          "zh": "把指甲磨粗的砂纸"
         },
         {
           "id": "b",
           "en": "a glossy sealing topcoat.",
-          "zh": "一层亮面封层。"
+          "zh": "一层亮面封层"
         },
         {
           "id": "c",
           "en": "a dehydrator that dries the nail.",
-          "zh": "让指甲干燥的脱水剂。"
+          "zh": "让指甲干燥的脱水剂"
         },
         {
           "id": "d",
           "en": "two-sided sticky tape.",
-          "zh": "双面胶。"
+          "zh": "双面胶"
         }
       ],
       "correctChoice": "d",
@@ -17620,22 +17620,22 @@
         {
           "id": "a",
           "en": "very short nail beds.",
-          "zh": "甲床很短。"
+          "zh": "甲床很短"
         },
         {
           "id": "b",
           "en": "thick, curved toenails.",
-          "zh": "脚趾甲又厚又弯。"
+          "zh": "脚趾甲又厚又弯"
         },
         {
           "id": "c",
           "en": "oily nail plates.",
-          "zh": "甲面偏油。"
+          "zh": "甲面偏油"
         },
         {
           "id": "d",
           "en": "very sensitive skin.",
-          "zh": "皮肤非常敏感。"
+          "zh": "皮肤非常敏感"
         }
       ],
       "correctChoice": "c",
@@ -17662,22 +17662,22 @@
         {
           "id": "a",
           "en": "It stops the overlay from curing.",
-          "zh": "会让加固层无法固化。"
+          "zh": "会让加固层无法固化"
         },
         {
           "id": "b",
           "en": "It makes the tip stick too tightly.",
-          "zh": "会让甲片粘得太紧。"
+          "zh": "会让甲片粘得太紧"
         },
         {
           "id": "c",
           "en": "It turns the tip yellow in sunlight.",
-          "zh": "会让甲片在阳光下变黄。"
+          "zh": "会让甲片在阳光下变黄"
         },
         {
           "id": "d",
           "en": "It can melt the tip and weaken adhesive.",
-          "zh": "会让甲片融化，并削弱甲片胶。"
+          "zh": "会让甲片融化，并削弱甲片胶"
         }
       ],
       "correctChoice": "d",
@@ -17788,22 +17788,22 @@
         {
           "id": "a",
           "en": "They don't dissolve well in removers.",
-          "zh": "它们在卸甲液里不容易溶解。"
+          "zh": "它们在卸甲液里不容易溶解"
         },
         {
           "id": "b",
           "en": "They are too soft to file.",
-          "zh": "它们太软，没法锉。"
+          "zh": "它们太软，没法锉"
         },
         {
           "id": "c",
           "en": "They come off in water.",
-          "zh": "它们遇水就会脱落。"
+          "zh": "它们遇水就会脱落"
         },
         {
           "id": "d",
           "en": "They are glued on with resin.",
-          "zh": "它们是用树脂粘上去的。"
+          "zh": "它们是用树脂粘上去的"
         }
       ],
       "correctChoice": "a",
@@ -18082,22 +18082,22 @@
         {
           "id": "a",
           "en": "They look wet and shiny.",
-          "zh": "看起来湿润有光泽。"
+          "zh": "看起来湿润有光泽"
         },
         {
           "id": "b",
           "en": "They feel warm and soft.",
-          "zh": "摸起来温热、柔软。"
+          "zh": "摸起来温热、柔软"
         },
         {
           "id": "c",
           "en": "They click when tapped with a brush handle.",
-          "zh": "用笔杆轻敲时发出“咔嗒”声。"
+          "zh": "用笔杆轻敲时发出“咔嗒”声"
         },
         {
           "id": "d",
           "en": "They turn chalky white.",
-          "zh": "变成白垩色。"
+          "zh": "变成白垩色"
         }
       ],
       "correctChoice": "c",
@@ -18208,22 +18208,22 @@
         {
           "id": "a",
           "en": "cure faster and have longer-lasting bulbs.",
-          "zh": "固化更快，灯珠更耐用。"
+          "zh": "固化更快，灯珠更耐用"
         },
         {
           "id": "b",
           "en": "light all nails evenly from every side.",
-          "zh": "从各个方向均匀照亮所有指甲。"
+          "zh": "从各个方向均匀照亮所有指甲"
         },
         {
           "id": "c",
           "en": "need one to two minutes per layer.",
-          "zh": "每层需要 1 到 2 分钟。"
+          "zh": "每层需要 1 到 2 分钟"
         },
         {
           "id": "d",
           "en": "cure gel with heat instead of light.",
-          "zh": "靠热而不是光来固化。"
+          "zh": "靠热而不是光来固化"
         }
       ],
       "correctChoice": "a",
@@ -18292,22 +18292,22 @@
         {
           "id": "a",
           "en": "traditional gels.",
-          "zh": "传统胶（traditional gel）。"
+          "zh": "传统胶（traditional gel）"
         },
         {
           "id": "b",
           "en": "soak-off gels.",
-          "zh": "可卸胶（soak-off gel）。"
+          "zh": "可卸胶（soak-off gel）"
         },
         {
           "id": "c",
           "en": "building gels.",
-          "zh": "建构胶（building gel）。"
+          "zh": "建构胶（building gel）"
         },
         {
           "id": "d",
           "en": "polymer gels.",
-          "zh": "聚合物胶（polymer gel）。"
+          "zh": "聚合物胶（polymer gel）"
         }
       ],
       "correctChoice": "b",
@@ -18334,22 +18334,22 @@
         {
           "id": "a",
           "en": "can only be removed by filing.",
-          "zh": "只能锉掉。"
+          "zh": "只能锉掉"
         },
         {
           "id": "b",
           "en": "are hard gels for long extensions.",
-          "zh": "是用来做长延长的硬胶。"
+          "zh": "是用来做长延长的硬胶"
         },
         {
           "id": "c",
           "en": "come off faster than regular polish.",
-          "zh": "比普通甲油卸得更快。"
+          "zh": "比普通甲油卸得更快"
         },
         {
           "id": "d",
           "en": "come off with polish remover, but slowly.",
-          "zh": "可以用洗甲水卸，但比较慢。"
+          "zh": "可以用洗甲水卸，但比较慢"
         }
       ],
       "correctChoice": "d",
@@ -18418,22 +18418,22 @@
         {
           "id": "a",
           "en": "Hard gel will not cure over color.",
-          "zh": "硬胶在色胶上无法固化。"
+          "zh": "硬胶在色胶上无法固化"
         },
         {
           "id": "b",
           "en": "Soak-off topcoats cure without a lamp.",
-          "zh": "可卸封层不用照灯。"
+          "zh": "可卸封层不用照灯"
         },
         {
           "id": "c",
           "en": "Hard gel tops can crack as nails flex.",
-          "zh": "硬胶封层会在指甲弯曲时裂开。"
+          "zh": "硬胶封层会在指甲弯曲时裂开"
         },
         {
           "id": "d",
           "en": "Soak-off topcoats leave no shine.",
-          "zh": "可卸封层没有光泽。"
+          "zh": "可卸封层没有光泽"
         }
       ],
       "correctChoice": "c",
@@ -18502,22 +18502,22 @@
         {
           "id": "a",
           "en": "is thicker and can leave bumps.",
-          "zh": "更稠，可能留下凹凸。"
+          "zh": "更稠，可能留下凹凸"
         },
         {
           "id": "b",
           "en": "adds more thickness per coat.",
-          "zh": "每层加的厚度更多。"
+          "zh": "每层加的厚度更多"
         },
         {
           "id": "c",
           "en": "can never be used for building.",
-          "zh": "绝不能用来建构。"
+          "zh": "绝不能用来建构"
         },
         {
           "id": "d",
           "en": "is more fluid and leaves the nail smooth.",
-          "zh": "更流动，能让甲面平滑。"
+          "zh": "更流动，能让甲面平滑"
         }
       ],
       "correctChoice": "d",
@@ -18544,22 +18544,22 @@
         {
           "id": "a",
           "en": "polymer powder and hard gel.",
-          "zh": "聚合物粉和硬胶。"
+          "zh": "聚合物粉和硬胶"
         },
         {
           "id": "b",
           "en": "monomer liquid and nail resin.",
-          "zh": "单体液和甲用树脂。"
+          "zh": "单体液和甲用树脂"
         },
         {
           "id": "c",
           "en": "soft gel and acetone.",
-          "zh": "软胶和丙酮。"
+          "zh": "软胶和丙酮"
         },
         {
           "id": "d",
           "en": "dip powder and activator.",
-          "zh": "浸粉和激活剂。"
+          "zh": "浸粉和激活剂"
         }
       ],
       "correctChoice": "a",
@@ -18586,22 +18586,22 @@
         {
           "id": "a",
           "en": "Light makes the gel runny.",
-          "zh": "光会让胶变稀。"
+          "zh": "光会让胶变稀"
         },
         {
           "id": "b",
           "en": "Light fades the gel's color.",
-          "zh": "光会让胶褪色。"
+          "zh": "光会让胶褪色"
         },
         {
           "id": "c",
           "en": "Light can cure it in the container.",
-          "zh": "光会让胶在瓶里固化。"
+          "zh": "光会让胶在瓶里固化"
         },
         {
           "id": "d",
           "en": "Light gives gel a strong odor.",
-          "zh": "光会让胶产生强烈气味。"
+          "zh": "光会让胶产生强烈气味"
         }
       ],
       "correctChoice": "c",
@@ -18628,22 +18628,22 @@
         {
           "id": "a",
           "en": "Gel air-dries within seconds.",
-          "zh": "胶几秒钟就会自然风干。"
+          "zh": "胶几秒钟就会自然风干"
         },
         {
           "id": "b",
           "en": "Finger heat makes the gel runnier.",
-          "zh": "手指的温度会让胶变稀。"
+          "zh": "手指的温度会让胶变稀"
         },
         {
           "id": "c",
           "en": "The lamp must stay warm.",
-          "zh": "灯必须一直保持温热。"
+          "zh": "灯必须一直保持温热"
         },
         {
           "id": "d",
           "en": "Uncured gel turns yellow.",
-          "zh": "未固化的胶会变黄。"
+          "zh": "未固化的胶会变黄"
         }
       ],
       "correctChoice": "b",
@@ -18670,22 +18670,22 @@
         {
           "id": "a",
           "en": "changes color every few days.",
-          "zh": "每隔几天就换颜色。"
+          "zh": "每隔几天就换颜色"
         },
         {
           "id": "b",
           "en": "wants to remove it easily at home.",
-          "zh": "想在家自己轻松卸掉。"
+          "zh": "想在家自己轻松卸掉"
         },
         {
           "id": "c",
           "en": "wants a one-day extension.",
-          "zh": "只想戴一天的延长。"
+          "zh": "只想戴一天的延长"
         },
         {
           "id": "d",
           "en": "wears the same color for two weeks.",
-          "zh": "同一个颜色会戴两周。"
+          "zh": "同一个颜色会戴两周"
         }
       ],
       "correctChoice": "d",
@@ -18796,22 +18796,22 @@
         {
           "id": "a",
           "en": "is saved by a short acetone soak.",
-          "zh": "用丙酮泡一会儿就能救回来。"
+          "zh": "用丙酮泡一会儿就能救回来"
         },
         {
           "id": "b",
           "en": "softens if cured a second time.",
-          "zh": "再照一次灯就会变软。"
+          "zh": "再照一次灯就会变软"
         },
         {
           "id": "c",
           "en": "is ruined and cannot be repaired.",
-          "zh": "报废了，无法修复。"
+          "zh": "报废了，无法修复"
         },
         {
           "id": "d",
           "en": "can be cleaned with cuticle oil.",
-          "zh": "用指缘油就能洗干净。"
+          "zh": "用指缘油就能洗干净"
         }
       ],
       "correctChoice": "c",
@@ -18880,22 +18880,22 @@
         {
           "id": "a",
           "en": "It has no photoinitiator.",
-          "zh": "它不含光引发剂。"
+          "zh": "它不含光引发剂"
         },
         {
           "id": "b",
           "en": "Its cross-linking is only medium.",
-          "zh": "它的交联程度只是中等。"
+          "zh": "它的交联程度只是中等"
         },
         {
           "id": "c",
           "en": "It is never cured in a lamp.",
-          "zh": "它从来不需要照灯固化。"
+          "zh": "它从来不需要照灯固化"
         },
         {
           "id": "d",
           "en": "It already contains acetone.",
-          "zh": "它本身已经含有丙酮。"
+          "zh": "它本身已经含有丙酮"
         }
       ],
       "correctChoice": "b",
@@ -18922,22 +18922,22 @@
         {
           "id": "a",
           "en": "with a sticky layer to wipe off.",
-          "zh": "有一层要擦掉的黏层。"
+          "zh": "有一层要擦掉的黏层"
         },
         {
           "id": "b",
           "en": "dull, so it must be buffed.",
-          "zh": "哑光，必须抛光。"
+          "zh": "哑光，必须抛光"
         },
         {
           "id": "c",
           "en": "soft, so it soaks off fast.",
-          "zh": "很软，能很快泡掉。"
+          "zh": "很软，能很快泡掉"
         },
         {
           "id": "d",
           "en": "shiny, with no inhibition layer.",
-          "zh": "有光泽，没有浮胶层。"
+          "zh": "有光泽，没有浮胶层"
         }
       ],
       "correctChoice": "d",
@@ -19006,22 +19006,22 @@
         {
           "id": "a",
           "en": "The resin absorbs the powder.",
-          "zh": "树脂吸收了粉。"
+          "zh": "树脂吸收了粉"
         },
         {
           "id": "b",
           "en": "It dries in the open air.",
-          "zh": "它在空气中自然风干。"
+          "zh": "它在空气中自然风干"
         },
         {
           "id": "c",
           "en": "The powder is mixed with water.",
-          "zh": "粉和水混合。"
+          "zh": "粉和水混合"
         },
         {
           "id": "d",
           "en": "Heat from a dryer melts it.",
-          "zh": "吹风机的热把它融化。"
+          "zh": "吹风机的热把它融化"
         }
       ],
       "correctChoice": "a",
@@ -19048,22 +19048,22 @@
         {
           "id": "a",
           "en": "coarse and always clear.",
-          "zh": "颗粒粗，而且总是透明的。"
+          "zh": "颗粒粗，而且总是透明的"
         },
         {
           "id": "b",
           "en": "made only for clear extensions.",
-          "zh": "只能用来做透明延长。"
+          "zh": "只能用来做透明延长"
         },
         {
           "id": "c",
           "en": "very fine, usually heavily pigmented.",
-          "zh": "非常细，通常颜色很浓。"
+          "zh": "非常细，通常颜色很浓"
         },
         {
           "id": "d",
           "en": "cured under a UV lamp.",
-          "zh": "要用 UV 灯固化。"
+          "zh": "要用 UV 灯固化"
         }
       ],
       "correctChoice": "c",
@@ -19090,22 +19090,22 @@
         {
           "id": "a",
           "en": "needs no UV or LED lamp.",
-          "zh": "不需要 UV 或 LED 灯。"
+          "zh": "不需要 UV 或 LED 灯"
         },
         {
           "id": "b",
           "en": "never needs maintenance.",
-          "zh": "永远不用维护。"
+          "zh": "永远不用维护"
         },
         {
           "id": "c",
           "en": "never needs a top resin.",
-          "zh": "完全不需要封层树脂。"
+          "zh": "完全不需要封层树脂"
         },
         {
           "id": "d",
           "en": "needs no resin at all.",
-          "zh": "完全不需要树脂。"
+          "zh": "完全不需要树脂"
         }
       ],
       "correctChoice": "a",
@@ -19132,22 +19132,22 @@
         {
           "id": "a",
           "en": "It helps the resin dry faster.",
-          "zh": "能让树脂干得更快。"
+          "zh": "能让树脂干得更快"
         },
         {
           "id": "b",
           "en": "It removes the activator odor.",
-          "zh": "能去除激活剂的气味。"
+          "zh": "能去除激活剂的气味"
         },
         {
           "id": "c",
           "en": "It adds color to the base.",
-          "zh": "能给底层树脂添加颜色。"
+          "zh": "能给底层树脂添加颜色"
         },
         {
           "id": "d",
           "en": "Powder bits would thicken the resin.",
-          "zh": "粉粒会让树脂变稠、拉丝。"
+          "zh": "粉粒会让树脂变稠、拉丝"
         }
       ],
       "correctChoice": "d",
@@ -19174,22 +19174,22 @@
         {
           "id": "a",
           "en": "use a small dish and discard leftovers.",
-          "zh": "用水晶杯（dappen dish）分装，剩粉丢掉。"
+          "zh": "用水晶杯（dappen dish）分装，剩粉丢掉"
         },
         {
           "id": "b",
           "en": "add activator to the powder jar.",
-          "zh": "往粉罐里加激活剂。"
+          "zh": "往粉罐里加激活剂"
         },
         {
           "id": "c",
           "en": "wipe the jar rim with alcohol.",
-          "zh": "用酒精擦罐口。"
+          "zh": "用酒精擦罐口"
         },
         {
           "id": "d",
           "en": "pour used powder back in the jar.",
-          "zh": "把用过的粉倒回罐里。"
+          "zh": "把用过的粉倒回罐里"
         }
       ],
       "correctChoice": "a",
@@ -19216,22 +19216,22 @@
         {
           "id": "a",
           "en": "fill the new growth in the new color.",
-          "zh": "用新颜色补新长出的部分。"
+          "zh": "用新颜色补新长出的部分"
         },
         {
           "id": "b",
           "en": "soak off and do a new service.",
-          "zh": "泡掉旧甲，重新做一次。"
+          "zh": "泡掉旧甲，重新做一次"
         },
         {
           "id": "c",
           "en": "dip the new color over the old.",
-          "zh": "直接在旧颜色上蘸新颜色。"
+          "zh": "直接在旧颜色上蘸新颜色"
         },
         {
           "id": "d",
           "en": "file off only the top resin.",
-          "zh": "只锉掉最上层的封层树脂。"
+          "zh": "只锉掉最上层的封层树脂"
         }
       ],
       "correctChoice": "b",
@@ -19258,22 +19258,22 @@
         {
           "id": "a",
           "en": "dry manicure.",
-          "zh": "干式修甲（dry manicure）。"
+          "zh": "干式修甲（dry manicure）"
         },
         {
           "id": "b",
           "en": "soak-off.",
-          "zh": "卸甲（soak-off）。"
+          "zh": "卸甲（soak-off）"
         },
         {
           "id": "c",
           "en": "overlay.",
-          "zh": "加固层（overlay）。"
+          "zh": "加固层（overlay）"
         },
         {
           "id": "d",
           "en": "rebalance.",
-          "zh": "重新平衡（rebalance）。"
+          "zh": "重新平衡（rebalance）"
         }
       ],
       "correctChoice": "d",
@@ -19384,22 +19384,22 @@
         {
           "id": "a",
           "en": "clipped off with nippers.",
-          "zh": "用死皮剪剪掉。"
+          "zh": "用死皮剪剪掉"
         },
         {
           "id": "b",
           "en": "left for new product to cover.",
-          "zh": "留着，让新产品盖住。"
+          "zh": "留着，让新产品盖住"
         },
         {
           "id": "c",
           "en": "soaked in acetone to soften.",
-          "zh": "泡丙酮把它泡软。"
+          "zh": "泡丙酮把它泡软"
         },
         {
           "id": "d",
           "en": "filed flush with the nail plate.",
-          "zh": "锉到和甲面齐平。"
+          "zh": "锉到和甲面齐平"
         }
       ],
       "correctChoice": "d",
@@ -19426,22 +19426,22 @@
         {
           "id": "a",
           "en": "just enough to remove shine.",
-          "zh": "只锉掉光泽就好。"
+          "zh": "只锉掉光泽就好"
         },
         {
           "id": "b",
           "en": "down into the natural nail.",
-          "zh": "一直锉进真甲里。"
+          "zh": "一直锉进真甲里"
         },
         {
           "id": "c",
           "en": "until it is paper-thin.",
-          "zh": "锉到像纸一样薄。"
+          "zh": "锉到像纸一样薄"
         },
         {
           "id": "d",
           "en": "not at all; just add product.",
-          "zh": "不用锉，直接加产品。"
+          "zh": "不用锉，直接加产品"
         }
       ],
       "correctChoice": "c",
@@ -19510,22 +19510,22 @@
         {
           "id": "a",
           "en": "Heat the acetone in a microwave.",
-          "zh": "用微波炉加热丙酮。"
+          "zh": "用微波炉加热丙酮"
         },
         {
           "id": "b",
           "en": "Warm it in the towel warmer.",
-          "zh": "放进毛巾加热柜里加热。"
+          "zh": "放进毛巾加热柜里加热"
         },
         {
           "id": "c",
           "en": "Blow a hair dryer on it.",
-          "zh": "用吹风机对着吹。"
+          "zh": "用吹风机对着吹"
         },
         {
           "id": "d",
           "en": "Set the acetone bowl in hot water.",
-          "zh": "把丙酮碗放进一碗热水里。"
+          "zh": "把丙酮碗放进一碗热水里"
         }
       ],
       "correctChoice": "d",
@@ -19552,22 +19552,22 @@
         {
           "id": "a",
           "en": "Air makes the acetone stronger.",
-          "zh": "空气会让丙酮变得更强。"
+          "zh": "空气会让丙酮变得更强"
         },
         {
           "id": "b",
           "en": "The natural nail absorbs the product.",
-          "zh": "真甲会把产品吸进去。"
+          "zh": "真甲会把产品吸进去"
         },
         {
           "id": "c",
           "en": "The softened product quickly hardens again.",
-          "zh": "已经变软的产品很快又会变硬。"
+          "zh": "已经变软的产品很快又会变硬"
         },
         {
           "id": "d",
           "en": "Acetone turns the nails white.",
-          "zh": "丙酮会让指甲变白。"
+          "zh": "丙酮会让指甲变白"
         }
       ],
       "correctChoice": "c",
@@ -19594,22 +19594,22 @@
         {
           "id": "a",
           "en": "It is too weak to remove product.",
-          "zh": "它太弱，卸不掉产品。"
+          "zh": "它太弱，卸不掉产品"
         },
         {
           "id": "b",
           "en": "It isn't tested or approved for skin.",
-          "zh": "它没有经过用于皮肤的测试或批准。"
+          "zh": "它没有经过用于皮肤的测试或批准"
         },
         {
           "id": "c",
           "en": "It hardens enhancements instead.",
-          "zh": "它反而会让美甲变硬。"
+          "zh": "它反而会让美甲变硬"
         },
         {
           "id": "d",
           "en": "It must be mixed with water first.",
-          "zh": "必须先兑水才能用。"
+          "zh": "必须先兑水才能用"
         }
       ],
       "correctChoice": "b",
@@ -19636,22 +19636,22 @@
         {
           "id": "a",
           "en": "were weakened by the enhancement.",
-          "zh": "被美甲削弱了。"
+          "zh": "被美甲削弱了"
         },
         {
           "id": "b",
           "en": "were dissolved by the acetone.",
-          "zh": "被丙酮溶解了。"
+          "zh": "被丙酮溶解了"
         },
         {
           "id": "c",
           "en": "hold extra moisture from soaking.",
-          "zh": "浸泡后含有额外的水分。"
+          "zh": "浸泡后含有额外的水分"
         },
         {
           "id": "d",
           "en": "still have primer on them.",
-          "zh": "上面还留着结合剂。"
+          "zh": "上面还留着结合剂"
         }
       ],
       "correctChoice": "c",
@@ -19678,22 +19678,22 @@
         {
           "id": "a",
           "en": "soaked off in acetone.",
-          "zh": "用丙酮泡掉。"
+          "zh": "用丙酮泡掉"
         },
         {
           "id": "b",
           "en": "left to grow out with the nail.",
-          "zh": "留着，随指甲长出去。"
+          "zh": "留着，随指甲长出去"
         },
         {
           "id": "c",
           "en": "pried off with a pusher.",
-          "zh": "用推棒撬掉。"
+          "zh": "用推棒撬掉"
         },
         {
           "id": "d",
           "en": "peeled off with tweezers.",
-          "zh": "用镊子撕掉。"
+          "zh": "用镊子撕掉"
         }
       ],
       "correctChoice": "b",
@@ -19720,22 +19720,22 @@
         {
           "id": "a",
           "en": "To let acetone get into the gel.",
-          "zh": "让丙酮渗进胶里。"
+          "zh": "让丙酮渗进胶里"
         },
         {
           "id": "b",
           "en": "To thin the natural nail plate.",
-          "zh": "把真甲甲面锉薄。"
+          "zh": "把真甲甲面锉薄"
         },
         {
           "id": "c",
           "en": "To warm the gel so it melts.",
-          "zh": "让胶变热融化。"
+          "zh": "让胶变热融化"
         },
         {
           "id": "d",
           "en": "To remove the cuticle.",
-          "zh": "去掉甲小皮。"
+          "zh": "去掉甲小皮"
         }
       ],
       "correctChoice": "a",
@@ -19762,22 +19762,22 @@
         {
           "id": "a",
           "en": "It can soak off hard gel too.",
-          "zh": "连硬胶也能泡掉。"
+          "zh": "连硬胶也能泡掉"
         },
         {
           "id": "b",
           "en": "It uses less remover and cuts odor.",
-          "zh": "卸甲液用得少，气味也小。"
+          "zh": "卸甲液用得少，气味也小"
         },
         {
           "id": "c",
           "en": "It needs no acetone at all.",
-          "zh": "完全不需要丙酮。"
+          "zh": "完全不需要丙酮"
         },
         {
           "id": "d",
           "en": "It cures any leftover gel.",
-          "zh": "能把残留的胶固化。"
+          "zh": "能把残留的胶固化"
         }
       ],
       "correctChoice": "b",
@@ -19804,22 +19804,22 @@
         {
           "id": "a",
           "en": "It looks hard and glossy.",
-          "zh": "看起来又硬又亮。"
+          "zh": "看起来又硬又亮"
         },
         {
           "id": "b",
           "en": "It is stuck tight to the nail.",
-          "zh": "还牢牢粘在指甲上。"
+          "zh": "还牢牢粘在指甲上"
         },
         {
           "id": "c",
           "en": "The foil feels warm.",
-          "zh": "锡纸摸起来是热的。"
+          "zh": "锡纸摸起来是热的"
         },
         {
           "id": "d",
           "en": "It is flaking off the nail.",
-          "zh": "它正在从指甲上片片剥落。"
+          "zh": "它正在从指甲上片片剥落"
         }
       ],
       "correctChoice": "d",
@@ -19888,22 +19888,22 @@
         {
           "id": "a",
           "en": "heat spikes in the lamp.",
-          "zh": "照灯时烫手。"
+          "zh": "照灯时烫手"
         },
         {
           "id": "b",
           "en": "a yellow topcoat.",
-          "zh": "封层发黄。"
+          "zh": "封层发黄"
         },
         {
           "id": "c",
           "en": "lifting and nail infections.",
-          "zh": "起翘和指甲感染。"
+          "zh": "起翘和指甲感染"
         },
         {
           "id": "d",
           "en": "air bubbles in the bead.",
-          "zh": "水晶球里有气泡。"
+          "zh": "水晶球里有气泡"
         }
       ],
       "correctChoice": "c",
@@ -19930,22 +19930,22 @@
         {
           "id": "a",
           "en": "using a medium bead.",
-          "zh": "用了中等湿度的水晶球。"
+          "zh": "用了中等湿度的水晶球"
         },
         {
           "id": "b",
           "en": "product touching the skin.",
-          "zh": "产品碰到了皮肤。"
+          "zh": "产品碰到了皮肤"
         },
         {
           "id": "c",
           "en": "a 35 percent C-curve.",
-          "zh": "35% 的 C 弧（C-curve）。"
+          "zh": "35% 的 C 弧（C-curve）"
         },
         {
           "id": "d",
           "en": "storing powder in the dark.",
-          "zh": "把粉存放在暗处。"
+          "zh": "把粉存放在暗处"
         }
       ],
       "correctChoice": "b",
@@ -19972,22 +19972,22 @@
         {
           "id": "a",
           "en": "Low grits make product cure faster.",
-          "zh": "低目数会让产品固化更快。"
+          "zh": "低目数会让产品固化更快"
         },
         {
           "id": "b",
           "en": "Low grits are too smooth to shape.",
-          "zh": "低目数太细，修不出形状。"
+          "zh": "低目数太细，修不出形状"
         },
         {
           "id": "c",
           "en": "The vibration can cause lifting.",
-          "zh": "震动会导致起翘（lifting）。"
+          "zh": "震动会导致起翘（lifting）"
         },
         {
           "id": "d",
           "en": "Filing fresh product turns it yellow.",
-          "zh": "刚做好的产品一锉就变黄。"
+          "zh": "刚做好的产品一锉就变黄"
         }
       ],
       "correctChoice": "c",
@@ -20056,22 +20056,22 @@
         {
           "id": "a",
           "en": "nip off the lifted parts.",
-          "zh": "用死皮剪剪掉起翘部分。"
+          "zh": "用死皮剪剪掉起翘部分"
         },
         {
           "id": "b",
           "en": "prime the lifted area twice.",
-          "zh": "在起翘处涂两遍结合剂。"
+          "zh": "在起翘处涂两遍结合剂"
         },
         {
           "id": "c",
           "en": "fill right over the lifted area.",
-          "zh": "直接在起翘处补甲。"
+          "zh": "直接在起翘处补甲"
         },
         {
           "id": "d",
           "en": "soak it off and start fresh.",
-          "zh": "泡掉，重新做一套。"
+          "zh": "泡掉，重新做一套"
         }
       ],
       "correctChoice": "d",
@@ -20098,22 +20098,22 @@
         {
           "id": "a",
           "en": "Cure one thick layer at once.",
-          "zh": "一次固化一层厚胶。"
+          "zh": "一次固化一层厚胶"
         },
         {
           "id": "b",
           "en": "Cure several large beads at once.",
-          "zh": "一次固化好几颗大胶珠。"
+          "zh": "一次固化好几颗大胶珠"
         },
         {
           "id": "c",
           "en": "Slide the hand into the lamp slowly.",
-          "zh": "慢慢把手伸进灯里。"
+          "zh": "慢慢把手伸进灯里"
         },
         {
           "id": "d",
           "en": "Warm the gel before applying it.",
-          "zh": "上胶前先把胶加热。"
+          "zh": "上胶前先把胶加热"
         }
       ],
       "correctChoice": "c",
@@ -20140,22 +20140,22 @@
         {
           "id": "a",
           "en": "better product adhesion.",
-          "zh": "产品附着更好。"
+          "zh": "产品附着更好"
         },
         {
           "id": "b",
           "en": "faster natural nail growth.",
-          "zh": "真甲长得更快。"
+          "zh": "真甲长得更快"
         },
         {
           "id": "c",
           "en": "a yellow topcoat.",
-          "zh": "封层发黄。"
+          "zh": "封层发黄"
         },
         {
           "id": "d",
           "en": "lifting and breaking.",
-          "zh": "起翘和断裂。"
+          "zh": "起翘和断裂"
         }
       ],
       "correctChoice": "d",
@@ -20182,22 +20182,22 @@
         {
           "id": "a",
           "en": "add a third coat of primer.",
-          "zh": "再加第三层结合剂。"
+          "zh": "再加第三层结合剂"
         },
         {
           "id": "b",
           "en": "check your prep and application.",
-          "zh": "检查前处理和操作步骤。"
+          "zh": "检查前处理和操作步骤"
         },
         {
           "id": "c",
           "en": "switch to a wetter bead.",
-          "zh": "改用更湿的水晶球。"
+          "zh": "改用更湿的水晶球"
         },
         {
           "id": "d",
           "en": "skip the dehydrator step.",
-          "zh": "省掉脱水剂这一步。"
+          "zh": "省掉脱水剂这一步"
         }
       ],
       "correctChoice": "b",
@@ -20224,22 +20224,22 @@
         {
           "id": "a",
           "en": "discoloration and service breakdown.",
-          "zh": "变色和美甲提前损坏。"
+          "zh": "变色和美甲提前损坏"
         },
         {
           "id": "b",
           "en": "a faster, harder cure.",
-          "zh": "固化更快、更硬。"
+          "zh": "固化更快、更硬"
         },
         {
           "id": "c",
           "en": "trapped air bubbles.",
-          "zh": "里面夹着气泡。"
+          "zh": "里面夹着气泡"
         },
         {
           "id": "d",
           "en": "a heat spike during the cure.",
-          "zh": "固化时烫手。"
+          "zh": "固化时烫手"
         }
       ],
       "correctChoice": "a",
@@ -20266,22 +20266,22 @@
         {
           "id": "a",
           "en": "too wet.",
-          "zh": "太湿。"
+          "zh": "太湿"
         },
         {
           "id": "b",
           "en": "too dry.",
-          "zh": "太干。"
+          "zh": "太干"
         },
         {
           "id": "c",
           "en": "too warm.",
-          "zh": "太热。"
+          "zh": "太热"
         },
         {
           "id": "d",
           "en": "too small.",
-          "zh": "太小。"
+          "zh": "太小"
         }
       ],
       "correctChoice": "b",
@@ -20308,22 +20308,22 @@
         {
           "id": "a",
           "en": "They make the adhesive dry too fast.",
-          "zh": "气泡会让甲片胶干得太快。"
+          "zh": "气泡会让甲片胶干得太快"
         },
         {
           "id": "b",
           "en": "They change the tip's color.",
-          "zh": "气泡会让甲片变色。"
+          "zh": "气泡会让甲片变色"
         },
         {
           "id": "c",
           "en": "They stop the tip from being cut.",
-          "zh": "气泡会让甲片剪不动。"
+          "zh": "气泡会让甲片剪不动"
         },
         {
           "id": "d",
           "en": "They trap dirt and weaken the enhancement.",
-          "zh": "气泡会藏污纳垢，还会让美甲变弱。"
+          "zh": "气泡会藏污纳垢，还会让美甲变弱"
         }
       ],
       "correctChoice": "d",
@@ -20392,22 +20392,22 @@
         {
           "id": "a",
           "en": "allergic or irritant skin reactions.",
-          "zh": "皮肤过敏或刺激反应。"
+          "zh": "皮肤过敏或刺激反应"
         },
         {
           "id": "b",
           "en": "a harder, stronger enhancement.",
-          "zh": "美甲变得更硬更牢。"
+          "zh": "美甲变得更硬更牢"
         },
         {
           "id": "c",
           "en": "a heat spike in the lamp.",
-          "zh": "照灯时烫手。"
+          "zh": "照灯时烫手"
         },
         {
           "id": "d",
           "en": "air bubbles under the gel.",
-          "zh": "胶下面有气泡。"
+          "zh": "胶下面有气泡"
         }
       ],
       "correctChoice": "a",
@@ -20434,22 +20434,22 @@
         {
           "id": "a",
           "en": "It permanently stains the skin.",
-          "zh": "它会让皮肤永久染色。"
+          "zh": "它会让皮肤永久染色"
         },
         {
           "id": "b",
           "en": "It contains acetone that dries skin.",
-          "zh": "它含丙酮，会让皮肤干燥。"
+          "zh": "它含丙酮，会让皮肤干燥"
         },
         {
           "id": "c",
           "en": "It is partly cured and can cause allergies.",
-          "zh": "它是部分固化的胶，可能致敏。"
+          "zh": "它是部分固化的胶，可能致敏"
         },
         {
           "id": "d",
           "en": "It is too hot to touch.",
-          "zh": "它太烫，不能碰。"
+          "zh": "它太烫，不能碰"
         }
       ],
       "correctChoice": "c",
@@ -20476,22 +20476,22 @@
         {
           "id": "a",
           "en": "Wet beads give off more vapor.",
-          "zh": "湿球释放更多蒸气。"
+          "zh": "湿球释放更多蒸气"
         },
         {
           "id": "b",
           "en": "Extra monomer gets trapped in the nail.",
-          "zh": "多余的单体液被困在甲里。"
+          "zh": "多余的单体液被困在甲里"
         },
         {
           "id": "c",
           "en": "Wet beads contain extra BPO.",
-          "zh": "湿球含有更多 BPO。"
+          "zh": "湿球含有更多 BPO"
         },
         {
           "id": "d",
           "en": "Wet beads cure too hard.",
-          "zh": "湿球固化得太硬。"
+          "zh": "湿球固化得太硬"
         }
       ],
       "correctChoice": "b",
@@ -20518,22 +20518,22 @@
         {
           "id": "a",
           "en": "The blend can't be colored.",
-          "zh": "调出来的胶没法调色。"
+          "zh": "调出来的胶没法调色"
         },
         {
           "id": "b",
           "en": "It only cures in a UV lamp.",
-          "zh": "只能用 UV 灯固化。"
+          "zh": "只能用 UV 灯固化"
         },
         {
           "id": "c",
           "en": "It can cause allergic reactions.",
-          "zh": "可能引起过敏反应。"
+          "zh": "可能引起过敏反应"
         },
         {
           "id": "d",
           "en": "It turns into a soak-off gel.",
-          "zh": "会变成可卸胶。"
+          "zh": "会变成可卸胶"
         }
       ],
       "correctChoice": "c",
@@ -20602,22 +20602,22 @@
         {
           "id": "a",
           "en": "scraping off leftover product.",
-          "zh": "刮掉残留的产品。"
+          "zh": "刮掉残留的产品"
         },
         {
           "id": "b",
           "en": "using a soak-off topcoat.",
-          "zh": "用了可卸封层。"
+          "zh": "用了可卸封层"
         },
         {
           "id": "c",
           "en": "curing in an LED lamp.",
-          "zh": "在 LED 灯里固化。"
+          "zh": "在 LED 灯里固化"
         },
         {
           "id": "d",
           "en": "applying cuticle oil afterward.",
-          "zh": "之后涂了指缘油。"
+          "zh": "之后涂了指缘油"
         }
       ],
       "correctChoice": "a",
@@ -20854,22 +20854,22 @@
         {
           "id": "a",
           "en": "sticks less and cures slower.",
-          "zh": "粘得较差，固化较慢。"
+          "zh": "粘得较差，固化较慢"
         },
         {
           "id": "b",
           "en": "is used to build the apex.",
-          "zh": "用来做甲峰。"
+          "zh": "用来做甲峰"
         },
         {
           "id": "c",
           "en": "sticks better and cures faster.",
-          "zh": "粘得更好，固化更快。"
+          "zh": "粘得更好，固化更快"
         },
         {
           "id": "d",
           "en": "always needs an accelerator to cure.",
-          "zh": "一定要用加速剂才能固化。"
+          "zh": "一定要用加速剂才能固化"
         }
       ],
       "correctChoice": "c",
@@ -20896,22 +20896,22 @@
         {
           "id": "a",
           "en": "1/16 inch.",
-          "zh": "1/16 英寸。"
+          "zh": "1/16 英寸"
         },
         {
           "id": "b",
           "en": "1/2 inch.",
-          "zh": "1/2 英寸。"
+          "zh": "1/2 英寸"
         },
         {
           "id": "c",
           "en": "1 inch.",
-          "zh": "1 英寸。"
+          "zh": "1 英寸"
         },
         {
           "id": "d",
           "en": "no gap at all.",
-          "zh": "完全不留空隙。"
+          "zh": "完全不留空隙"
         }
       ],
       "correctChoice": "a",
@@ -21316,22 +21316,22 @@
         {
           "id": "a",
           "en": "wash their hands.",
-          "zh": "洗手。"
+          "zh": "洗手"
         },
         {
           "id": "b",
           "en": "fill out a consultation form.",
-          "zh": "填写咨询表。"
+          "zh": "填写咨询表"
         },
         {
           "id": "c",
           "en": "sign the disinfection log.",
-          "zh": "在消毒记录本上签字。"
+          "zh": "在消毒记录本上签字"
         },
         {
           "id": "d",
           "en": "book the next visit and pay.",
-          "zh": "预约下次服务并付款。"
+          "zh": "预约下次服务并付款"
         }
       ],
       "correctChoice": "d",
@@ -21442,22 +21442,22 @@
         {
           "id": "a",
           "en": "weekly visits for four to six weeks.",
-          "zh": "连续四到六周、每周一次的护理。"
+          "zh": "连续四到六周、每周一次的护理"
         },
         {
           "id": "b",
           "en": "daily visits for one week.",
-          "zh": "连续一周每天来。"
+          "zh": "连续一周每天来"
         },
         {
           "id": "c",
           "en": "one long session to remove it all.",
-          "zh": "一次长时间护理全部去掉。"
+          "zh": "一次长时间护理全部去掉"
         },
         {
           "id": "d",
           "en": "monthly razor callus shaving.",
-          "zh": "每月用刀片削一次老茧。"
+          "zh": "每月用刀片削一次老茧"
         }
       ],
       "correctChoice": "a",
@@ -21526,22 +21526,22 @@
         {
           "id": "a",
           "en": "They must be returned.",
-          "zh": "必须归还。"
+          "zh": "必须归还"
         },
         {
           "id": "b",
           "en": "They will smudge polish.",
-          "zh": "会蹭花指甲油。"
+          "zh": "会蹭花指甲油"
         },
         {
           "id": "c",
           "en": "They must be worn with socks.",
-          "zh": "必须配袜子穿。"
+          "zh": "必须配袜子穿"
         },
         {
           "id": "d",
           "en": "They can be slippery.",
-          "zh": "可能会打滑。"
+          "zh": "可能会打滑"
         }
       ],
       "correctChoice": "d",
@@ -21778,22 +21778,22 @@
         {
           "id": "a",
           "en": "the time and date of each disinfection.",
-          "zh": "每次消毒的时间和日期。"
+          "zh": "每次消毒的时间和日期"
         },
         {
           "id": "b",
           "en": "the client’s polish color.",
-          "zh": "客人用的指甲油颜色。"
+          "zh": "客人用的指甲油颜色"
         },
         {
           "id": "c",
           "en": "the client’s payment method.",
-          "zh": "客人的付款方式。"
+          "zh": "客人的付款方式"
         },
         {
           "id": "d",
           "en": "the foot soak scent used.",
-          "zh": "用的泡脚液香味。"
+          "zh": "用的泡脚液香味"
         }
       ],
       "correctChoice": "a",
@@ -21862,22 +21862,22 @@
         {
           "id": "a",
           "en": "grow out faster.",
-          "zh": "长得更快。"
+          "zh": "长得更快"
         },
         {
           "id": "b",
           "en": "become thicker.",
-          "zh": "变得更厚。"
+          "zh": "变得更厚"
         },
         {
           "id": "c",
           "en": "harden the natural nail.",
-          "zh": "让真甲变硬。"
+          "zh": "让真甲变硬"
         },
         {
           "id": "d",
           "en": "lift, crack, or break.",
-          "zh": "翘起、裂开或断掉。"
+          "zh": "翘起、裂开或断掉"
         }
       ],
       "correctChoice": "d",
@@ -21904,22 +21904,22 @@
         {
           "id": "a",
           "en": "The enhancement weakened them.",
-          "zh": "延长甲把它们弄弱了。"
+          "zh": "延长甲把它们弄弱了"
         },
         {
           "id": "b",
           "en": "They absorbed moisture while soaking.",
-          "zh": "浸泡时吸了水分。"
+          "zh": "浸泡时吸了水分"
         },
         {
           "id": "c",
           "en": "The primer ate into them.",
-          "zh": "结合剂把它们腐蚀了。"
+          "zh": "结合剂把它们腐蚀了"
         },
         {
           "id": "d",
           "en": "Acetone dissolved the nail plate.",
-          "zh": "丙酮溶解了甲板。"
+          "zh": "丙酮溶解了甲板"
         }
       ],
       "correctChoice": "b",
@@ -22030,22 +22030,22 @@
         {
           "id": "a",
           "en": "returned to the paraffin tub.",
-          "zh": "倒回蜡疗机里。"
+          "zh": "倒回蜡疗机里"
         },
         {
           "id": "b",
           "en": "saved for that client’s next visit.",
-          "zh": "留给这位客人下次用。"
+          "zh": "留给这位客人下次用"
         },
         {
           "id": "c",
           "en": "strained and reused.",
-          "zh": "过滤后再用。"
+          "zh": "过滤后再用"
         },
         {
           "id": "d",
           "en": "thrown away.",
-          "zh": "丢掉。"
+          "zh": "丢掉"
         }
       ],
       "correctChoice": "d",

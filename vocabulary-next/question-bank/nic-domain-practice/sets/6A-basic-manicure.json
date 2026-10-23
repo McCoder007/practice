@@ -402,22 +402,22 @@
         {
           "id": "a",
           "en": "fungal discoloration.",
-          "zh": "真菌引起的变色。"
+          "zh": "真菌引起的变色"
         },
         {
           "id": "b",
           "en": "bruised nail beds.",
-          "zh": "甲床瘀青。"
+          "zh": "甲床瘀青"
         },
         {
           "id": "c",
           "en": "ridged nails.",
-          "zh": "纵纹甲。"
+          "zh": "纵纹甲"
         },
         {
           "id": "d",
           "en": "surface stains, such as tobacco.",
-          "zh": "表面污渍，例如烟渍。"
+          "zh": "表面污渍，例如烟渍"
         }
       ],
       "correctChoice": "d",
@@ -668,22 +668,22 @@
         {
           "id": "a",
           "en": "onychophagy.",
-          "zh": "咬甲癖（onychophagy）。"
+          "zh": "咬甲癖（onychophagy）"
         },
         {
           "id": "b",
           "en": "nail psoriasis.",
-          "zh": "指甲银屑病（nail psoriasis）。"
+          "zh": "指甲银屑病（nail psoriasis）"
         },
         {
           "id": "c",
           "en": "onycholysis.",
-          "zh": "甲剥离（onycholysis）。"
+          "zh": "甲剥离（onycholysis）"
         },
         {
           "id": "d",
           "en": "ridged nails.",
-          "zh": "纵纹甲（ridged nails）。"
+          "zh": "纵纹甲（ridged nails）"
         }
       ],
       "correctChoice": "c",

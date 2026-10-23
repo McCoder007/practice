@@ -16,10 +16,10 @@ D. Acetone / 丙酮（acetone）
 
 **2. Compared with UV fluorescent lamps, LED lamps usually**  
 和 UV 荧光灯相比，LED 灯通常怎样？  
-A. cure faster and have longer-lasting bulbs. / 固化更快，灯珠更耐用。 ✅  
-B. light all nails evenly from every side. / 从各个方向均匀照亮所有指甲。  
-C. need one to two minutes per layer. / 每层需要 1 到 2 分钟。  
-D. cure gel with heat instead of light. / 靠热而不是光来固化。  
+A. cure faster and have longer-lasting bulbs. / 固化更快，灯珠更耐用 ✅  
+B. light all nails evenly from every side. / 从各个方向均匀照亮所有指甲  
+C. need one to two minutes per layer. / 每层需要 1 到 2 分钟  
+D. cure gel with heat instead of light. / 靠热而不是光来固化  
 *Why:* LED cure times are usually 5 to 60 seconds per layer, versus one to two minutes in UV, and LED bulbs last longer.  
 *为什么:* LED 灯每层固化通常只要 5 到 60 秒，UV 灯要 1 到 2 分钟，而且 LED 灯珠更耐用。  
 *Lock this (real-life):* Home LED bulbs last for years. Nail LED lamps too: longer-lasting bulbs, and gel cures faster.  
@@ -40,10 +40,10 @@ D. Filed off with a hand or electric file / 用手锉或电动磨甲机磨掉 �
 
 **4. Soft gels are also known as**  
 soft gel（软胶）又叫什么？  
-A. traditional gels. / 传统胶（traditional gel）。  
-B. soak-off gels. / 可卸胶（soak-off gel）。 ✅  
-C. building gels. / 建构胶（building gel）。  
-D. polymer gels. / 聚合物胶（polymer gel）。  
+A. traditional gels. / 传统胶（traditional gel）  
+B. soak-off gels. / 可卸胶（soak-off gel） ✅  
+C. building gels. / 建构胶（building gel）  
+D. polymer gels. / 聚合物胶（polymer gel）  
 *Why:* Soft gels, also called soak-off gels, overlay the natural nail and come off easily with acetone.  
 *为什么:* soft gel（软胶）也叫 soak-off gel（可卸胶），用于覆盖真甲，用丙酮就能轻松卸掉。  
 *Lock this (name-trap):* Name trap: traditional gel isn't old-style polish; it is hard gel. Most soft gels are colored gel polish.  
@@ -52,10 +52,10 @@ D. polymer gels. / 聚合物胶（polymer gel）。
 
 **5. Milady describes hybrid gels as gel polishes that**  
 Milady 说混合胶（hybrid gel）是什么样的甲油胶？  
-A. can only be removed by filing. / 只能锉掉。  
-B. are hard gels for long extensions. / 是用来做长延长的硬胶。  
-C. come off faster than regular polish. / 比普通甲油卸得更快。  
-D. come off with polish remover, but slowly. / 可以用洗甲水卸，但比较慢。 ✅  
+A. can only be removed by filing. / 只能锉掉  
+B. are hard gels for long extensions. / 是用来做长延长的硬胶  
+C. come off faster than regular polish. / 比普通甲油卸得更快  
+D. come off with polish remover, but slowly. / 可以用洗甲水卸，但比较慢 ✅  
 *Why:* Hybrid gels have the durability and gloss of gel but can be removed like polish with polish remover, though it takes longer. Gel polishes originally had to be filed off.  
 *为什么:* hybrid gel（混合胶）有光疗胶的持久和光泽，却能像普通甲油一样用洗甲水卸掉，只是时间更长。早期的甲油胶只能靠打磨去除。  
 *Lock this (real-life):* Hybrid car: gas and electric. Hybrid gel: gel and polish. It lasts like gel, comes off like polish, but slower.  
@@ -76,10 +76,10 @@ D. Buff it in with cuticle oil / 用指缘油抛进去
 
 **7. Why is a soak-off gel topcoat used over gel polish?**  
 为什么甲油胶上面要用可卸封层（soak-off gel topcoat）？  
-A. Hard gel will not cure over color. / 硬胶在色胶上无法固化。  
-B. Soak-off topcoats cure without a lamp. / 可卸封层不用照灯。  
-C. Hard gel tops can crack as nails flex. / 硬胶封层会在指甲弯曲时裂开。 ✅  
-D. Soak-off topcoats leave no shine. / 可卸封层没有光泽。  
+A. Hard gel will not cure over color. / 硬胶在色胶上无法固化  
+B. Soak-off topcoats cure without a lamp. / 可卸封层不用照灯  
+C. Hard gel tops can crack as nails flex. / 硬胶封层会在指甲弯曲时裂开 ✅  
+D. Soak-off topcoats leave no shine. / 可卸封层没有光泽  
 *Why:* After gel polish, the nail is still flexible. A traditional hard finishing gel could crack on top of the color when the nail bends, so use a soak-off gel topcoat.  
 *为什么:* 涂了甲油胶后，指甲仍然有弹性。传统硬胶封层可能在指甲弯曲时在色胶上裂开，所以要用可卸封层。  
 *Lock this (picture):* Paint a stiff coat over a rubber band, then stretch it: the stiff coat cracks.  
@@ -100,10 +100,10 @@ D. Gel polish / 甲油胶（gel polish）
 
 **9. Compared with nonself-leveling gel, a self-leveling gel**  
 和非自流平胶相比，自流平胶（self-leveling gel）怎样？  
-A. is thicker and can leave bumps. / 更稠，可能留下凹凸。  
-B. adds more thickness per coat. / 每层加的厚度更多。  
-C. can never be used for building. / 绝不能用来建构。  
-D. is more fluid and leaves the nail smooth. / 更流动，能让甲面平滑。 ✅  
+A. is thicker and can leave bumps. / 更稠，可能留下凹凸  
+B. adds more thickness per coat. / 每层加的厚度更多  
+C. can never be used for building. / 绝不能用来建构  
+D. is more fluid and leaves the nail smooth. / 更流动，能让甲面平滑 ✅  
 *Why:* A self-leveling gel is more fluid and leaves the nail smooth. A nonself-leveling gel is very thick, can leave bumps, and adds more thickness.  
 *为什么:* self-leveling gel（自流平胶）更流动，能让甲面平滑。nonself-leveling gel（非自流平胶）很稠，可能留下凹凸，但加厚更多。  
 *Lock this (picture):* Like pancake batter poured in a pan: it spreads flat by itself.  
@@ -112,10 +112,10 @@ D. is more fluid and leaves the nail smooth. / 更流动，能让甲面平滑。
 
 **10. Polymer gel, also called polygel, is a mix of**  
 polymer gel（聚合物胶），也叫 polygel，是什么的混合物？  
-A. polymer powder and hard gel. / 聚合物粉和硬胶。 ✅  
-B. monomer liquid and nail resin. / 单体液和甲用树脂。  
-C. soft gel and acetone. / 软胶和丙酮。  
-D. dip powder and activator. / 浸粉和激活剂。  
+A. polymer powder and hard gel. / 聚合物粉和硬胶 ✅  
+B. monomer liquid and nail resin. / 单体液和甲用树脂  
+C. soft gel and acetone. / 软胶和丙酮  
+D. dip powder and activator. / 浸粉和激活剂  
 *Why:* Polymer gels, also called polygel or acrygel, are made from polymer powder and hard gel. They are very thick and are filed off for removal.  
 *为什么:* polymer gel（聚合物胶），也叫 polygel 或 acrygel，由聚合物粉和硬胶混合而成。很稠，卸除时要锉掉。  
 *Lock this (word-parts):* Acry-gel = acrylic powder + gel in one tube: squeeze it out like toothpaste, cut it with a spatula.  
@@ -124,10 +124,10 @@ D. dip powder and activator. / 浸粉和激活剂。
 
 **11. Why must gel be kept away from windows and table lamps?**  
 为什么光疗胶要远离窗户和台灯？  
-A. Light makes the gel runny. / 光会让胶变稀。  
-B. Light fades the gel's color. / 光会让胶褪色。  
-C. Light can cure it in the container. / 光会让胶在瓶里固化。 ✅  
-D. Light gives gel a strong odor. / 光会让胶产生强烈气味。  
+A. Light makes the gel runny. / 光会让胶变稀  
+B. Light fades the gel's color. / 光会让胶褪色  
+C. Light can cure it in the container. / 光会让胶在瓶里固化 ✅  
+D. Light gives gel a strong odor. / 光会让胶产生强烈气味  
 *Why:* Gels are light cured. If a gel container is left open near a window or lamp, the gel can harden in the container. Store gels in a cabinet, away from heat and light.  
 *为什么:* 光疗胶靠光固化。胶瓶开着放在窗边或灯旁，胶就会在瓶里变硬。要把胶放在柜子里，远离热源和光。  
 *Lock this (real-life):* Sunlight contains UV, the same kind of light many curing lamps use.  
@@ -136,10 +136,10 @@ D. Light gives gel a strong odor. / 光会让胶产生强烈气味。
 
 **12. Why should each finger be cured right after gel is applied?**  
 为什么每个手指上完胶要马上照灯？  
-A. Gel air-dries within seconds. / 胶几秒钟就会自然风干。  
-B. Finger heat makes the gel runnier. / 手指的温度会让胶变稀。 ✅  
-C. The lamp must stay warm. / 灯必须一直保持温热。  
-D. Uncured gel turns yellow. / 未固化的胶会变黄。  
+A. Gel air-dries within seconds. / 胶几秒钟就会自然风干  
+B. Finger heat makes the gel runnier. / 手指的温度会让胶变稀 ✅  
+C. The lamp must stay warm. / 灯必须一直保持温热  
+D. Uncured gel turns yellow. / 未固化的胶会变黄  
 *Why:* Gel is temperature sensitive: thicker when cold and runnier when warm. Even finger heat affects it, so cure each finger right away, before gel runs onto the skin.  
 *为什么:* 光疗胶对温度敏感：冷时稠，热时稀。连手指的温度都会影响它，所以每个手指上完胶要马上照灯，免得胶流到皮肤上。  
 *Lock this (picture):* Butter on a warm plate softens and slides. Gel on a warm finger does the same.  
@@ -148,10 +148,10 @@ D. Uncured gel turns yellow. / 未固化的胶会变黄。
 
 **13. Gel polish is the best fit for a client who**  
 甲油胶最适合哪种客人？  
-A. changes color every few days. / 每隔几天就换颜色。  
-B. wants to remove it easily at home. / 想在家自己轻松卸掉。  
-C. wants a one-day extension. / 只想戴一天的延长。  
-D. wears the same color for two weeks. / 同一个颜色会戴两周。 ✅  
+A. changes color every few days. / 每隔几天就换颜色  
+B. wants to remove it easily at home. / 想在家自己轻松卸掉  
+C. wants a one-day extension. / 只想戴一天的延长  
+D. wears the same color for two weeks. / 同一个颜色会戴两周 ✅  
 *Why:* Gel polish stays chip-free for about two weeks, so it suits a client who keeps one color. A client who changes color often is better with traditional polish, which comes off easily.  
 *为什么:* 甲油胶能保持约两周不掉色，适合一直戴同一个颜色的客人。经常换颜色的客人更适合普通甲油，因为很容易卸。  
 *Lock this (reason-chain):* Gel polish needs an acetone soak to remove. New color every few days? That's a soak every few days.  
@@ -184,10 +184,10 @@ D. Hard gel / 硬胶（hard gel）
 
 **16. If gel cures inside your application brush, the brush**  
 如果胶在笔刷里固化了，这支笔会怎样？  
-A. is saved by a short acetone soak. / 用丙酮泡一会儿就能救回来。  
-B. softens if cured a second time. / 再照一次灯就会变软。  
-C. is ruined and cannot be repaired. / 报废了，无法修复。 ✅  
-D. can be cleaned with cuticle oil. / 用指缘油就能洗干净。  
+A. is saved by a short acetone soak. / 用丙酮泡一会儿就能救回来  
+B. softens if cured a second time. / 再照一次灯就会变软  
+C. is ruined and cannot be repaired. / 报废了，无法修复 ✅  
+D. can be cleaned with cuticle oil. / 用指缘油就能洗干净  
 *Why:* If gel cures in your brush, it is ruined. Keep brushes covered from all light, and clean gel off with nail cleanser or alcohol on a wipe.  
 *为什么:* 胶一旦在笔刷里固化，笔就报废了。笔刷要盖好、避开所有光源，用无尘纸蘸甲面清洁剂或酒精把胶擦掉。  
 *Lock this (contrast):* Acrylic brush gone hard? Soak in acetone no more than 3 to 5 minutes. Gel brush gone hard? No rescue.  
@@ -208,10 +208,10 @@ D. Removes the inhibition layer / 去除浮胶层
 
 **18. Why is the color layer of gel polish easy to remove?**  
 为什么甲油胶的色胶层容易卸除？  
-A. It has no photoinitiator. / 它不含光引发剂。  
-B. Its cross-linking is only medium. / 它的交联程度只是中等。 ✅  
-C. It is never cured in a lamp. / 它从来不需要照灯固化。  
-D. It already contains acetone. / 它本身已经含有丙酮。  
+A. It has no photoinitiator. / 它不含光引发剂  
+B. Its cross-linking is only medium. / 它的交联程度只是中等 ✅  
+C. It is never cured in a lamp. / 它从来不需要照灯固化  
+D. It already contains acetone. / 它本身已经含有丙酮  
 *Why:* Gel polish color has a medium level of cross-linking, so it stays flexible and comes off easily. The tighter the cross-linking, the harder and stronger the gel.  
 *为什么:* 甲油胶色胶层的 cross-linking（交联）程度中等，所以有弹性、容易卸除。交联越紧密，胶就越硬越牢。  
 *Lock this (picture):* Cross-links are like ladder steps joining two sides. Color layer: only a medium number, so it bends and soaks off.  
@@ -220,10 +220,10 @@ D. It already contains acetone. / 它本身已经含有丙酮。
 
 **19. A tack-free finishing gel cures**  
 免洗封层（tack-free finishing gel）固化后是什么样？  
-A. with a sticky layer to wipe off. / 有一层要擦掉的黏层。  
-B. dull, so it must be buffed. / 哑光，必须抛光。  
-C. soft, so it soaks off fast. / 很软，能很快泡掉。  
-D. shiny, with no inhibition layer. / 有光泽，没有浮胶层。 ✅  
+A. with a sticky layer to wipe off. / 有一层要擦掉的黏层  
+B. dull, so it must be buffed. / 哑光，必须抛光  
+C. soft, so it soaks off fast. / 很软，能很快泡掉  
+D. shiny, with no inhibition layer. / 有光泽，没有浮胶层 ✅  
 *Why:* There are two finishing gels: one cures with a sticky inhibition layer that must be cleaned, and a tack-free one that cures to a high shine without it.  
 *为什么:* finishing gel（封层胶）有两种：一种固化后有黏黏的浮胶层，需要擦掉；另一种 tack-free（免洗）的固化后直接高亮，没有浮胶层。  
 *Lock this (word-parts):* Tacky = sticky, like the glue side of tape. Tack-free = never sticky, so there is nothing to wipe.  

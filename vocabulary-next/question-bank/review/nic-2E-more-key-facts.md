@@ -4,10 +4,10 @@ Anatomy and Physiology · 15 questions · status: reviewed
 
 **1. The living skin that supports the nail plate as it grows is the**  
 在甲板生长时托住甲板的活皮肤是  
-A. nail bed. / 甲床（nail bed）。 ✅  
-B. cuticle. / 甲小皮（cuticle）。  
-C. lunula. / 甲半月（lunula）。  
-D. proximal nail fold. / 近端甲襞（proximal nail fold）。  
+A. nail bed. / 甲床（nail bed） ✅  
+B. cuticle. / 甲小皮（cuticle）  
+C. lunula. / 甲半月（lunula）  
+D. proximal nail fold. / 近端甲襞（proximal nail fold）  
 *Why:* The nail bed is living skin under the nail plate. It supports the plate as it grows toward the free edge. It has many nerves and blood vessels.  
 *为什么:* nail bed（甲床）是甲板下面的活皮肤。甲板朝游离缘（free edge）生长时，甲床一直托着它。甲床里有很多神经和血管。  
 *Lock this (picture):* Picture a bed: the nail plate lies on it and slides along it as it grows.  
@@ -40,10 +40,10 @@ D. Gives the nail bed its pink color / 让甲床呈粉红色
 
 **4. Perspiration from the sweat glands leaving through the skin is called**  
 汗腺分泌的汗液经皮肤排出，这叫做  
-A. secretion. / 分泌（secretion）。  
-B. absorption. / 吸收（absorption）。  
-C. sensation. / 感觉（sensation）。  
-D. excretion. / 排泄（excretion）。 ✅  
+A. secretion. / 分泌（secretion）  
+B. absorption. / 吸收（absorption）  
+C. sensation. / 感觉（sensation）  
+D. excretion. / 排泄（excretion） ✅  
 *Why:* Excretion is a skin function. Sweat from the sweat glands goes out through the skin, with salts and minerals. Secretion is different: it is oil (sebum) from the oil glands.  
 *为什么:* excretion（排泄）是皮肤的一种功能。汗腺的汗液从皮肤排出去，同时带走盐分和矿物质。secretion（分泌）不一样：它指的是皮脂腺分泌的油脂，也就是皮脂（sebum）。  
 *Lock this (body-cue):* On a hot day, your palms get wet. Palms have many sweat glands: that is excretion.  
@@ -52,10 +52,10 @@ D. excretion. / 排泄（excretion）。 ✅
 
 **5. The color of the skin depends mainly on**  
 皮肤的颜色主要取决于  
-A. keratin. / 角蛋白（keratin）。  
-B. melanin. / 黑色素（melanin）。 ✅  
-C. sebum. / 皮脂（sebum）。  
-D. collagen. / 胶原蛋白（collagen）。  
+A. keratin. / 角蛋白（keratin）  
+B. melanin. / 黑色素（melanin） ✅  
+C. sebum. / 皮脂（sebum）  
+D. collagen. / 胶原蛋白（collagen）  
 *Why:* Skin color depends mainly on melanin, tiny grains of pigment (color). Melanocytes make it. Melanin also helps protect cells from too much UV.  
 *为什么:* 皮肤颜色主要取决于 melanin（黑色素），也就是细小的色素颗粒。它由黑素细胞（melanocytes）制造。黑色素还能帮助保护细胞，不受过多紫外线（UV）伤害。  
 *Lock this (real-life):* After a summer in the sun, skin turns darker: a tan. That color change is melanin at work.  
@@ -64,10 +64,10 @@ D. collagen. / 胶原蛋白（collagen）。
 
 **6. The muscles that bend the wrist are the**  
 负责弯曲手腕的肌肉是  
-A. pronators. / 旋前肌（pronators）。  
-B. supinators. / 旋后肌（supinators）。  
-C. flexors. / 屈肌（flexors）。 ✅  
-D. abductors. / 外展肌（abductors）。  
+A. pronators. / 旋前肌（pronators）  
+B. supinators. / 旋后肌（supinators）  
+C. flexors. / 屈肌（flexors） ✅  
+D. abductors. / 外展肌（abductors）  
 *Why:* Flexors bend the wrist. Extensors do the opposite: they straighten the wrist, hand, and fingers.  
 *为什么:* flexors（屈肌）负责弯曲手腕。伸肌（extensors）正好相反：把手腕、手和手指伸直。  
 *Lock this (contrast):* Pronators turn the palm down. Supinators turn it up. Abductors spread the fingers. None of them bend the wrist.  
@@ -76,10 +76,10 @@ D. abductors. / 外展肌（abductors）。
 
 **7. The five long, slender bones of the foot are the**  
 脚上五块细长的骨头是  
-A. metatarsals. / 跖骨（metatarsals）。 ✅  
-B. tarsals. / 跗骨（tarsals）。  
-C. phalanges. / 趾骨（phalanges）。  
-D. metacarpals. / 掌骨（metacarpals）。  
+A. metatarsals. / 跖骨（metatarsals） ✅  
+B. tarsals. / 跗骨（tarsals）  
+C. phalanges. / 趾骨（phalanges）  
+D. metacarpals. / 掌骨（metacarpals）  
 *Why:* The five metatarsals are long and slender, like the metacarpals of the hand. The foot has 26 bones: 7 tarsals, 5 metatarsals, and 14 phalanges.  
 *为什么:* 五块 metatarsals（跖骨）细而长，就像手上的掌骨（metacarpals）。脚一共有 26 块骨头：7 块跗骨、5 块跖骨和 14 块趾骨。  
 *Lock this (comparison):* Hand and foot match. Carpus and metacarpus are in the wrist and palm. Tarsals and metatarsals are in the foot.  
@@ -88,10 +88,10 @@ D. metacarpals. / 掌骨（metacarpals）。
 
 **8. The bone that forms the cap of the knee joint is the**  
 构成膝关节盖子的骨头是  
-A. tibia. / 胫骨（tibia）。  
-B. fibula. / 腓骨（fibula）。  
-C. femur. / 股骨（femur）。  
-D. patella. / 髌骨（patella）。 ✅  
+A. tibia. / 胫骨（tibia）  
+B. fibula. / 腓骨（fibula）  
+C. femur. / 股骨（femur）  
+D. patella. / 髌骨（patella） ✅  
 *Why:* The patella, also called the accessory bone, forms the cap of the knee joint. People call it the kneecap.  
 *为什么:* patella（髌骨）也叫 accessory bone（副骨），构成膝关节的盖子，也就是俗称的 kneecap（膝盖骨）。  
 *Lock this (body-cue):* Sit down and tap the hard bone on the front of your knee: that is the patella.  
@@ -100,10 +100,10 @@ D. patella. / 髌骨（patella）。 ✅
 
 **9. A thin, white nail plate that bends more than normal is**  
 又薄又白、比正常更容易弯的甲板是  
-A. a pincer nail. / 钳甲（pincer nail）。  
-B. an eggshell nail. / 蛋壳甲（eggshell nail）。 ✅  
-C. a ridged nail. / 甲纵嵴（ridged nail）。  
-D. a bruised nail bed. / 甲床瘀伤（bruised nail bed）。  
+A. a pincer nail. / 钳甲（pincer nail）  
+B. an eggshell nail. / 蛋壳甲（eggshell nail） ✅  
+C. a ridged nail. / 甲纵嵴（ridged nail）  
+D. a bruised nail bed. / 甲床瘀伤（bruised nail bed）  
 *Why:* An eggshell nail is thin, white, and bends more than normal. Causes include poor diet, heredity, internal disease, medication, or overfiling with an abrasive.  
 *为什么:* eggshell nail（蛋壳甲）又薄又白，比正常指甲更容易弯。原因包括饮食不当、遗传、内科疾病、药物，或用锉条锉得太多。  
 *Lock this (picture):* Thin and white like an eggshell. Heavy filing can cause it, so file gently.  
@@ -112,10 +112,10 @@ D. a bruised nail bed. / 甲床瘀伤（bruised nail bed）。
 
 **10. Whitish patches that can be scraped off the nail surface may be**  
 指甲表面可以刮掉的白色斑块，可能是  
-A. leukonychia. / 白甲（leukonychia）。  
-B. onychomycosis. / 甲真菌病（onychomycosis）。 ✅  
-C. onycholysis. / 甲剥离（onycholysis）。  
-D. paronychia. / 甲沟炎（paronychia）。  
+A. leukonychia. / 白甲（leukonychia）  
+B. onychomycosis. / 甲真菌病（onychomycosis） ✅  
+C. onycholysis. / 甲剥离（onycholysis）  
+D. paronychia. / 甲沟炎（paronychia）  
 *Why:* Onychomycosis is nail fungus. It may show as whitish patches that scrape off the surface, pale yellow streaks in the plate, or a crumbling free edge.  
 *为什么:* onychomycosis（甲真菌病）就是指甲真菌感染。表现可以是表面能刮掉的白色斑块、甲板里淡黄色的条纹，或游离缘碎裂。  
 *Lock this (contrast):* Leukonychia white spots are harmless and grow out. Send clients with fungus patches to a doctor.  
@@ -124,10 +124,10 @@ D. paronychia. / 甲沟炎（paronychia）。
 
 **11. A small blister or sac containing clear fluid is a**  
 装着清澈液体的小水泡或小囊是  
-A. pustule. / 脓疱（pustule）。  
-B. papule. / 丘疹（papule）。  
-C. vesicle. / 水疱（vesicle）。 ✅  
-D. macule. / 斑疹（macule）。  
+A. pustule. / 脓疱（pustule）  
+B. papule. / 丘疹（papule）  
+C. vesicle. / 水疱（vesicle） ✅  
+D. macule. / 斑疹（macule）  
 *Why:* A vesicle is a small blister or sac of clear fluid, within or just under the epidermis. Poison ivy and poison oak can cause vesicles.  
 *为什么:* vesicle（水疱）是装着清澈液体的小水泡或小囊，位于表皮里面或表皮正下方。毒葛（poison ivy）和毒栎（poison oak）都可能引起水疱。  
 *Lock this (word-link):* Clear fluid: vesicle. Pus in a white or yellow center: pustule. You can see "pus" inside pustule.  
@@ -136,10 +136,10 @@ D. macule. / 斑疹（macule）。
 
 **12. An open lesion on the skin with loss of skin depth is**  
 皮肤上开放性的、伴有皮肤深度缺损的皮损是  
-A. an ulcer. / 溃疡（ulcer）。 ✅  
-B. a crust. / 痂（crust）。  
-C. a macule. / 斑疹（macule）。  
-D. a nodule. / 结节（nodule）。  
+A. an ulcer. / 溃疡（ulcer） ✅  
+B. a crust. / 痂（crust）  
+C. a macule. / 斑疹（macule）  
+D. a nodule. / 结节（nodule）  
 *Why:* An ulcer is an open lesion on the skin or mucous membrane. Skin depth is lost, and fluid or pus may leak out. It is a secondary lesion.  
 *为什么:* ulcer（溃疡）是皮肤或黏膜上的开放性皮损。皮肤深度缺损，可能流出液体或脓。它属于继发性皮损（secondary lesion）。  
 *Lock this (chinese-character):* The Chinese name means "broken-open sore": the skin breaks open and some of it is gone.  
@@ -148,10 +148,10 @@ D. a nodule. / 结节（nodule）。
 
 **13. Hereditary milky-white spots on the skin are called**  
 皮肤上遗传性的乳白色斑点叫做  
-A. chloasma. / 黄褐斑（chloasma）。  
-B. a tan. / 晒黑（tan）。  
-C. a port-wine stain. / 葡萄酒色斑（port-wine stain）。  
-D. vitiligo. / 白癜风（vitiligo）。 ✅  
+A. chloasma. / 黄褐斑（chloasma）  
+B. a tan. / 晒黑（tan）  
+C. a port-wine stain. / 葡萄酒色斑（port-wine stain）  
+D. vitiligo. / 白癜风（vitiligo） ✅  
 *Why:* Vitiligo is milky-white spots on the skin, a kind of leukoderma. It is hereditary: it is passed down in families.  
 *为什么:* vitiligo（白癜风）是皮肤上的乳白色斑点，属于白斑病（leukoderma）的一种。它是遗传性的（hereditary），会在家族里代代相传。  
 *Lock this (chinese-character):* Its Chinese name starts with the character for white. Protect these spots from too much UV light.  

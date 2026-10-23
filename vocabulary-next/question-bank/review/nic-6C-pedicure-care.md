@@ -40,10 +40,10 @@ D. The toe separators / 分趾器
 
 **4. Unless the client asks otherwise, toenails are trimmed**  
 除非顾客另有要求，脚趾甲应该怎么剪？  
-A. as short as possible. / 尽量剪短。  
-B. to a rounded point. / 剪成圆尖形。  
-C. well past the end of the toe. / 留得远超过脚趾尖。  
-D. straight across, even with the toe tip. / 平剪，与脚趾尖齐平。 ✅  
+A. as short as possible. / 尽量剪短  
+B. to a rounded point. / 剪成圆尖形  
+C. well past the end of the toe. / 留得远超过脚趾尖  
+D. straight across, even with the toe tip. / 平剪，与脚趾尖齐平 ✅  
 *Why:* Trim toenails straight across and even with the end of the toes, unless the client requests otherwise. Leave no rough edges or hooks that could invite infection.  
 *为什么:* 除非顾客另有要求，脚趾甲要平剪，与脚趾末端齐平。不要留下粗糙边缘或倒钩，以免引起感染。  
 *Lock this (reason-chain):* Straight across, even with the toe tip. Deep, curved corners leave sharp sides that can grow into the skin.  
@@ -88,10 +88,10 @@ D. Lift the edge with a curette / 用刮匙（curette）把边缘挑起来
 
 **8. In a basic pedicure, the nail rasp is used, if needed, on**  
 基础修脚中，甲锉刀（nail rasp）在需要时用在哪里？  
-A. every toenail. / 每一个脚趾甲。  
-B. the little toe only. / 只用在小脚趾。  
-C. the big toe only. / 只用在大脚趾。 ✅  
-D. the top of the nail. / 指甲表面。  
+A. every toenail. / 每一个脚趾甲  
+B. the little toe only. / 只用在小脚趾  
+C. the big toe only. / 只用在大脚趾 ✅  
+D. the top of the nail. / 指甲表面  
 *Why:* Use the nail rasp only on the big toe, if needed. Draw it gently along the side of the free edge to smooth sharp points; never use it on top of the nail.  
 *为什么:* 甲锉刀只在需要时用在大脚趾上。沿着游离缘的侧边轻轻拉，把尖角磨平；绝不能用在指甲表面。  
 *Lock this (contrast):* The rasp is narrow: it smooths the big toe's side edges only. Never the top, never other toes.  
@@ -124,10 +124,10 @@ D. They protect the skin underneath / 老茧保护下面的皮肤 ✅
 
 **11. Using a razor-type callus shaver can make calluses**  
 使用剃刀式去茧刀（callus shaver），可能让老茧怎样？  
-A. grow back heavier. / 长得更厚。 ✅  
-B. disappear for good. / 永远消失。  
-C. turn soft and moist. / 变得柔软湿润。  
-D. grow back thinner. / 长得更薄。  
+A. grow back heavier. / 长得更厚 ✅  
+B. disappear for good. / 永远消失  
+C. turn soft and moist. / 变得柔软湿润  
+D. grow back thinner. / 长得更薄  
 *Why:* Never use a razor-type callus shaver. It is against the law in most states, can cause infection, and makes calluses grow back heavier as the skin protects itself.  
 *为什么:* 绝不能用剃刀式去茧刀。在大多数州这是违法的，会引起感染，而且皮肤为了保护自己，老茧会长得更厚。  
 *Lock this (reason-chain):* Shaving hurts the skin. So it grows back thicker to protect itself.  

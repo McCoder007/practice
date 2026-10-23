@@ -16,10 +16,10 @@ D. Massage only the fingers / 只按摩手指
 
 **2. Gliding strokes over the skin with varying pressure are called**  
 双手以不同力度在皮肤上滑动的一连串手法称为什么？  
-A. effleurage. / 轻抚法（effleurage）。 ✅  
-B. tapotement. / 叩击法（tapotement）。  
-C. pétrissage. / 揉捏法（pétrissage）。  
-D. friction. / 摩擦法（friction）。  
+A. effleurage. / 轻抚法（effleurage） ✅  
+B. tapotement. / 叩击法（tapotement）  
+C. pétrissage. / 揉捏法（pétrissage）  
+D. friction. / 摩擦法（friction）  
 *Why:* Effleurage is a succession of strokes in which the hands glide over an area of the body with varying pressure or contact. It is a relaxing movement.  
 *为什么:* effleurage（轻抚法）是双手以不同力度或接触程度在身体某部位滑动的一连串手法，能让顾客放松。  
 *Lock this (picture):* Effleurage = gliding strokes, like smoothing a bed sheet with your hand. Slide, don't tap or squeeze.  
@@ -28,10 +28,10 @@ D. friction. / 摩擦法（friction）。
 
 **3. Lifting, squeezing, and pressing the tissue is called**  
 提起、挤压并按压组织的手法称为什么？  
-A. effleurage. / 轻抚法（effleurage）。  
-B. vibration. / 振动法（vibration）。  
-C. tapotement. / 叩击法（tapotement）。  
-D. pétrissage. / 揉捏法（pétrissage）。 ✅  
+A. effleurage. / 轻抚法（effleurage）  
+B. vibration. / 振动法（vibration）  
+C. tapotement. / 叩击法（tapotement）  
+D. pétrissage. / 揉捏法（pétrissage） ✅  
 *Why:* Pétrissage, or kneading, lifts, squeezes, and presses the tissue. It moves flesh and muscle over the bones and increases blood flow.  
 *为什么:* pétrissage（揉捏法），也叫 kneading，是提起、挤压并按压组织。它让肌肉在骨头上移动，促进血液流动。  
 *Lock this (picture):* Pétrissage = kneading. Picture your hands lifting and squeezing bread dough.  
@@ -40,10 +40,10 @@ D. pétrissage. / 揉捏法（pétrissage）。 ✅
 
 **4. A rapid tapping or striking motion of the hands is called**  
 双手快速拍打或敲击皮肤的手法称为什么？  
-A. friction. / 摩擦法（friction）。  
-B. tapotement. / 叩击法（tapotement）。 ✅  
-C. effleurage. / 轻抚法（effleurage）。  
-D. vibration. / 振动法（vibration）。  
+A. friction. / 摩擦法（friction）  
+B. tapotement. / 叩击法（tapotement） ✅  
+C. effleurage. / 轻抚法（effleurage）  
+D. vibration. / 振动法（vibration）  
 *Why:* Tapotement is quick tapping or striking against the skin. The others do not strike: effleurage slides, friction twists and rubs, and vibration shakes without the hand leaving the skin.  
 *为什么:* 叩击法（tapotement）是快速拍打或敲击皮肤。其他手法都不敲打：轻抚法（effleurage）是滑动，摩擦法（friction）是扭转和搓揉，振动法（vibration）是手不离开皮肤地抖动。  
 *Lock this (word-link):* Tapotement starts with "tap." Picture fingertips drumming quickly on a table.  
@@ -64,10 +64,10 @@ D. Effleurage / 轻抚法（effleurage）
 
 **6. Placing the hands around the forearm and twisting them in opposite directions, like wringing a washcloth, is**  
 双手环住前臂，朝相反方向扭转，像拧毛巾一样，这是哪种手法？  
-A. tapotement. / 叩击法（tapotement）。  
-B. vibration. / 振动法（vibration）。  
-C. friction. / 摩擦法（friction）。 ✅  
-D. effleurage. / 轻抚法（effleurage）。  
+A. tapotement. / 叩击法（tapotement）  
+B. vibration. / 振动法（vibration）  
+C. friction. / 摩擦法（friction） ✅  
+D. effleurage. / 轻抚法（effleurage）  
 *Why:* Friction presses one layer of tissue over another. The hands go around the arm and twist gently in opposite directions, as you would wring out a washcloth.  
 *为什么:* friction（摩擦法）是让一层组织压在另一层上移动。双手环住手臂，轻轻朝相反方向扭转，就像拧毛巾。  
 *Lock this (chinese-character):* The Chinese name for friction: both characters have the hand part, and both mean rub.  
@@ -88,10 +88,10 @@ D. Pétrissage / 揉捏法（pétrissage）
 
 **8. The massage in a manicure or pedicure is mainly for**  
 修手或修脚中的按摩主要是为了什么？  
-A. deep, sports-style muscle work. / 深层的运动式肌肉按摩。  
-B. moving stiff joints. / 活动僵硬的关节。  
-C. removing dead skin. / 去除死皮。  
-D. relaxation. / 放松。 ✅  
+A. deep, sports-style muscle work. / 深层的运动式肌肉按摩  
+B. moving stiff joints. / 活动僵硬的关节  
+C. removing dead skin. / 去除死皮  
+D. relaxation. / 放松 ✅  
 *Why:* Body massage can be for relaxation or therapy, but massage during a manicure or pedicure is purely for relaxation. A nail technician is not licensed for deep, sports-like massage.  
 *为什么:* 全身按摩可以是放松或治疗，但修手修脚中的按摩纯粹是为了放松。美甲师没有做深层运动按摩的执照。  
 *Lock this (real-life):* Salons asked clients: massage is the part of a nail service they enjoy most. Relaxing brings them back.  
@@ -148,10 +148,10 @@ D. Light lotion application / 轻轻涂抹乳液
 
 **13. During the massage, the technician should speak only to**  
 按摩过程中，技师只应该为了什么开口说话？  
-A. ask once about pressure. / 问一次力度是否合适。 ✅  
-B. explain each movement. / 解释每一个手法。  
-C. suggest retail products. / 推荐零售产品。  
-D. keep the client awake. / 让顾客保持清醒。  
+A. ask once about pressure. / 问一次力度是否合适 ✅  
+B. explain each movement. / 解释每一个手法  
+C. suggest retail products. / 推荐零售产品  
+D. keep the client awake. / 让顾客保持清醒  
 *Why:* Do not talk during the massage except to ask once whether your touch should be more or less firm. Talking takes away the relaxation.  
 *为什么:* 按摩时不要说话，只问一次手法要重一点还是轻一点。说话会破坏放松的效果。  
 *Lock this (real-life):* Some clients just want to rest quietly. Milady: talk about products later, while you polish.  
@@ -172,10 +172,10 @@ D. Finish without adding lotion / 不补乳液，直接做完
 
 **15. Resistance from too little massage lotion on the skin is called**  
 按摩乳液太少、手在皮肤上受到阻力，这称为什么？  
-A. tapotement. / 叩击法（tapotement）。  
-B. pétrissage. / 揉捏法（pétrissage）。  
-C. vibration. / 振动法（vibration）。  
-D. skin drag. / 皮肤拖拽（skin drag）。 ✅  
+A. tapotement. / 叩击法（tapotement）  
+B. pétrissage. / 揉捏法（pétrissage）  
+C. vibration. / 振动法（vibration）  
+D. skin drag. / 皮肤拖拽（skin drag） ✅  
 *Why:* Apply enough lotion so your hands move across the skin without resistance. That resistance, called skin drag, is not comfortable for the client.  
 *为什么:* 要涂足够的乳液，让手在皮肤上滑动没有阻力。这种阻力叫 skin drag（皮肤拖拽），会让顾客不舒服。  
 *Lock this (picture):* A dry palm on a dry arm drags like a rubber sole on a gym floor.  
@@ -184,10 +184,10 @@ D. skin drag. / 皮肤拖拽（skin drag）。 ✅
 
 **16. The light stroke off the fingertips that ends a massage is called**  
 按摩结束时，从指尖轻轻滑出的最后动作称为什么？  
-A. tapotement. / 叩击法（tapotement）。  
-B. feathering off. / 羽毛式收尾（feathering off）。 ✅  
-C. pétrissage. / 揉捏法（pétrissage）。  
-D. friction. / 摩擦法（friction）。  
+A. tapotement. / 叩击法（tapotement）  
+B. feathering off. / 羽毛式收尾（feathering off） ✅  
+C. pétrissage. / 揉捏法（pétrissage）  
+D. friction. / 摩擦法（friction）  
 *Why:* To finish, pull your fingers lightly from the back of the hands down and off the fingertips, two to three times. This final movement is called feathering off.  
 *为什么:* 最后，用手指从顾客手背轻轻滑下、滑出指尖，做两到三次。这个收尾动作叫 feathering off（羽毛式收尾）。  
 *Lock this (real-life):* Feathering is the goodbye signal: experienced clients feel it and know the massage is ending.  

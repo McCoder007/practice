@@ -40,10 +40,10 @@ D. Fire-Fighting Measures / 消防措施
 
 **4. OSHA’s Hazard Communication Standard requires that employees be**  
 OSHA 的危害沟通标准（Hazard Communication Standard）要求员工：  
-A. licensed by OSHA. / 取得 OSHA 执照。  
-B. tested yearly for allergies. / 每年做过敏测试。  
-C. certified in first aid. / 取得急救证书。  
-D. told about hazardous chemicals at work. / 被告知工作场所中的危险化学品。 ✅  
+A. licensed by OSHA. / 取得 OSHA 执照  
+B. tested yearly for allergies. / 每年做过敏测试  
+C. certified in first aid. / 取得急救证书  
+D. told about hazardous chemicals at work. / 被告知工作场所中的危险化学品 ✅  
 *Why:* The Hazard Communication Standard requires that employees be told about any chemical at work that could be hazardous. Manufacturers share this information through the SDS.  
 *为什么:* Hazard Communication Standard（危害沟通标准）要求告知员工工作场所中任何可能有危险的化学品。厂家通过 SDS 提供这些信息。  
 *Lock this (real-acronym):* OSHA = Occupational Safety and Health Administration. It protects workers: your “right to know.”  
@@ -64,10 +64,10 @@ D. In unlabeled spray bottles / 装在没贴标签的喷瓶里
 
 **6. Why should hydrogen peroxide not be stored next to acetone?**  
 为什么双氧水（hydrogen peroxide）不能和丙酮（acetone）放在一起？  
-A. Acetone makes peroxide odorless. / 丙酮会让双氧水没有气味。  
-B. Both lose strength in the dark. / 两者在暗处都会失效。  
-C. Mixed, they can start a fire. / 两者混合可能起火。 ✅  
-D. They form a sticky film. / 会形成一层黏膜。  
+A. Acetone makes peroxide odorless. / 丙酮会让双氧水没有气味  
+B. Both lose strength in the dark. / 两者在暗处都会失效  
+C. Mixed, they can start a fire. / 两者混合可能起火 ✅  
+D. They form a sticky film. / 会形成一层黏膜  
 *Why:* Hydrogen peroxide is an oxidizer and acetone is a flammable solvent. If they mix, they can start a fire, so know how stored chemicals react before placing them together.  
 *为什么:* hydrogen peroxide（双氧水）是氧化剂，acetone（丙酮）是易燃溶剂。两者一旦混合就可能起火，所以存放前要知道相邻的化学品会怎么反应。  
 *Lock this (reason-chain):* Fire needs fuel, oxygen, and heat. Acetone is the fuel; peroxide gives off extra oxygen.  
@@ -76,10 +76,10 @@ D. They form a sticky film. / 会形成一层黏膜。
 
 **7. Mixing bleach with vinegar creates**  
 漂白水和醋混在一起，会产生：  
-A. a stronger disinfectant. / 更强的消毒剂。  
-B. a gentle cleaner. / 温和的清洁剂。  
-C. an odorless foam. / 无味的泡沫。  
-D. chlorine gas. / 氯气。 ✅  
+A. a stronger disinfectant. / 更强的消毒剂  
+B. a gentle cleaner. / 温和的清洁剂  
+C. an odorless foam. / 无味的泡沫  
+D. chlorine gas. / 氯气 ✅  
 *Why:* Never mix bleach with other cleaning products unless the label says to. Even vinegar and bleach make chlorine gas, so store bleach away from other chemicals.  
 *为什么:* 除非标签说可以，否则漂白水绝不能和其他清洁产品混合。连醋加漂白水都会产生氯气，所以漂白水要和其他化学品分开存放。  
 *Lock this (reason-chain):* Bleach + an acid like vinegar → chlorine gas → breathing that gas can kill.  
@@ -100,10 +100,10 @@ D. 300°F / 华氏 300 度
 
 **9. A concentrate mixed into a spray bottle must be labeled with**  
 浓缩液兑好装进喷瓶后，瓶上必须标明：  
-A. product name, ingredients, and hazards. / 产品名称、成分和危害。 ✅  
-B. only the date it was mixed. / 只写调配日期。  
-C. the client’s name. / 客人的名字。  
-D. nothing if the liquid is clear. / 液体是透明的就不用标。  
+A. product name, ingredients, and hazards. / 产品名称、成分和危害 ✅  
+B. only the date it was mixed. / 只写调配日期  
+C. the client’s name. / 客人的名字  
+D. nothing if the liquid is clear. / 液体是透明的就不用标  
 *Why:* When a concentrate is mixed into a secondary container, such as a spray bottle, label it with the product name, ingredients, and any hazards the manufacturer lists.  
 *为什么:* 浓缩液兑好装进 secondary container（二次容器，比如喷瓶）后，要标明产品名称、成分，以及厂家列出的所有危害。  
 *Lock this (real-life):* A clear liquid could be water or disinfectant. Nobody should have to guess, or sniff.  
@@ -136,10 +136,10 @@ D. Hazard(s) Identification / 危害识别 ✅
 
 **12. A rash caused by a harsh substance, not by an allergy, is called**  
 由会伤皮肤的物质（而不是过敏）引起的皮疹，叫作：  
-A. allergic contact dermatitis. / 过敏性接触性皮炎。  
-B. psoriasis. / 银屑病。  
-C. irritant contact dermatitis. / 刺激性接触性皮炎。 ✅  
-D. tinea manus. / 手癣。  
+A. allergic contact dermatitis. / 过敏性接触性皮炎  
+B. psoriasis. / 银屑病  
+C. irritant contact dermatitis. / 刺激性接触性皮炎 ✅  
+D. tinea manus. / 手癣  
 *Why:* Contact dermatitis is skin inflammation from touching a substance. If the substance irritates the skin, it is irritant contact dermatitis. If the skin becomes allergic, it is allergic contact dermatitis.  
 *为什么:* contact dermatitis（接触性皮炎）是皮肤接触某种物质后发炎。物质刺激皮肤，就是 irritant contact dermatitis（刺激性接触性皮炎）；皮肤对它过敏，就是 allergic contact dermatitis（过敏性接触性皮炎）。  
 *Lock this (contrast):* Irritant: harsh stuff hurts skin. Allergic: after months of touching, skin fights one ingredient, sometimes for life.  
@@ -148,10 +148,10 @@ D. tinea manus. / 手癣。
 
 **13. A greatly increased allergic sensitivity to a product is called**  
 对某种产品的过敏反应大大增强，这叫作：  
-A. sensitization. / 致敏。 ✅  
-B. neutralization. / 中和。  
-C. polymerization. / 聚合。  
-D. sterilization. / 灭菌。  
+A. sensitization. / 致敏 ✅  
+B. neutralization. / 中和  
+C. polymerization. / 聚合  
+D. sterilization. / 灭菌  
 *Why:* Sensitization is a greatly increased or exaggerated allergic sensitivity to products. With each skin exposure during a service, the risk of sensitization rises.  
 *为什么:* sensitization（致敏）是对产品的过敏反应大大增强。服务中皮肤每接触一次，致敏风险就更高一些。  
 *Lock this (word-link):* Sensitization comes from "sensitive": the skin becomes much too sensitive to a product.  
@@ -172,10 +172,10 @@ D. A home air purifier / 家用空气净化器
 
 **15. When lifting a box of supplies, you should**  
 搬一箱用品时，应该：  
-A. bend at the waist and lift fast. / 弯腰快速抬起。  
-B. twist your body as you lift. / 边抬边扭身体。  
-C. hold it far from your body. / 让箱子离身体远一点。  
-D. bend at the knees, not the back. / 弯膝盖，不要弯腰。 ✅  
+A. bend at the waist and lift fast. / 弯腰快速抬起  
+B. twist your body as you lift. / 边抬边扭身体  
+C. hold it far from your body. / 让箱子离身体远一点  
+D. bend at the knees, not the back. / 弯膝盖，不要弯腰 ✅  
 *Why:* Keep your feet shoulder-width apart, bend at the knees, keep the load close, and lift with your legs. Do not twist or make fast, jerky moves.  
 *为什么:* 双脚与肩同宽，弯曲膝盖，让重物贴近身体，用腿部发力抬起。不要扭身，也不要猛地发力。  
 *Lock this (body-cue):* Bend your knees to pick up a box: feel your thighs work. Your legs lift. Your back stays straight.  
@@ -220,10 +220,10 @@ D. An eyewash bottle / 洗眼瓶 ✅
 
 **19. During a manicure, how should you avoid reaching across the table?**  
 做美甲时，怎样避免越过桌子去够客人的手？  
-A. Have the client extend their hand to you. / 请客人把手伸到你这边。 ✅  
-B. Lean forward from the waist. / 从腰部向前倾。  
-C. Twist your body toward the client. / 把身体转向客人。  
-D. Hold your elbows far from your body. / 手肘远离身体。  
+A. Have the client extend their hand to you. / 请客人把手伸到你这边 ✅  
+B. Lean forward from the waist. / 从腰部向前倾  
+C. Twist your body toward the client. / 把身体转向客人  
+D. Hold your elbows far from your body. / 手肘远离身体  
 *Why:* Ergonomics means setting up work so your body moves comfortably and safely. Have the client extend their hand across the table, and keep your back, neck, and wrists straight.  
 *为什么:* ergonomics（人体工学）就是让身体在工作中动得舒适、安全。请客人把手伸过桌子给你，保持背部、颈部和手腕挺直。  
 *Lock this (body-cue):* Reach far across a table and feel your back pull. So ask for the client's hand instead.  

@@ -28,22 +28,22 @@
         {
           "id": "a",
           "en": "a molecule.",
-          "zh": "分子（molecule）。"
+          "zh": "分子（molecule）"
         },
         {
           "id": "b",
           "en": "an atom.",
-          "zh": "原子（atom）。"
+          "zh": "原子（atom）"
         },
         {
           "id": "c",
           "en": "a compound.",
-          "zh": "化合物（compound）。"
+          "zh": "化合物（compound）"
         },
         {
           "id": "d",
           "en": "an element.",
-          "zh": "元素（element）。"
+          "zh": "元素（element）"
         }
       ],
       "correctChoice": "b",
@@ -110,22 +110,22 @@
         {
           "id": "a",
           "en": "elements.",
-          "zh": "元素（elements）。"
+          "zh": "元素（elements）"
         },
         {
           "id": "b",
           "en": "compounds.",
-          "zh": "化合物（compounds）。"
+          "zh": "化合物（compounds）"
         },
         {
           "id": "c",
           "en": "physical mixtures.",
-          "zh": "物理混合物（physical mixtures）。"
+          "zh": "物理混合物（physical mixtures）"
         },
         {
           "id": "d",
           "en": "polymers.",
-          "zh": "聚合物（polymers）。"
+          "zh": "聚合物（polymers）"
         }
       ],
       "correctChoice": "a",
@@ -184,22 +184,22 @@
         {
           "id": "a",
           "en": "an elemental molecule.",
-          "zh": "单质分子（elemental molecule）。"
+          "zh": "单质分子（elemental molecule）"
         },
         {
           "id": "b",
           "en": "a single element.",
-          "zh": "单一元素（element）。"
+          "zh": "单一元素（element）"
         },
         {
           "id": "c",
           "en": "a physical mixture.",
-          "zh": "物理混合物（physical mixture）。"
+          "zh": "物理混合物（physical mixture）"
         },
         {
           "id": "d",
           "en": "a compound.",
-          "zh": "化合物（compound）。"
+          "zh": "化合物（compound）"
         }
       ],
       "correctChoice": "d",
@@ -330,22 +330,22 @@
         {
           "id": "a",
           "en": "solute.",
-          "zh": "溶质（solute）。"
+          "zh": "溶质（solute）"
         },
         {
           "id": "b",
           "en": "solvent.",
-          "zh": "溶剂（solvent）。"
+          "zh": "溶剂（solvent）"
         },
         {
           "id": "c",
           "en": "emulsifier.",
-          "zh": "乳化剂（emulsifier）。"
+          "zh": "乳化剂（emulsifier）"
         },
         {
           "id": "d",
           "en": "catalyst.",
-          "zh": "催化剂（catalyst）。"
+          "zh": "催化剂（catalyst）"
         }
       ],
       "correctChoice": "a",
@@ -394,22 +394,22 @@
         {
           "id": "a",
           "en": "a solution.",
-          "zh": "溶液（solution）。"
+          "zh": "溶液（solution）"
         },
         {
           "id": "b",
           "en": "an emulsion.",
-          "zh": "乳液（emulsion）。"
+          "zh": "乳液（emulsion）"
         },
         {
           "id": "c",
           "en": "a suspension.",
-          "zh": "悬浮液（suspension）。"
+          "zh": "悬浮液（suspension）"
         },
         {
           "id": "d",
           "en": "a pure substance.",
-          "zh": "纯净物（pure substance）。"
+          "zh": "纯净物（pure substance）"
         }
       ],
       "correctChoice": "c",
@@ -666,22 +666,22 @@
         {
           "id": "a",
           "en": "immiscible.",
-          "zh": "不互溶的（immiscible）。"
+          "zh": "不互溶的（immiscible）"
         },
         {
           "id": "b",
           "en": "insoluble.",
-          "zh": "不溶的（insoluble）。"
+          "zh": "不溶的（insoluble）"
         },
         {
           "id": "c",
           "en": "emulsified.",
-          "zh": "乳化的（emulsified）。"
+          "zh": "乳化的（emulsified）"
         },
         {
           "id": "d",
           "en": "miscible.",
-          "zh": "可互溶的（miscible）。"
+          "zh": "可互溶的（miscible）"
         }
       ],
       "correctChoice": "d",
@@ -724,22 +724,22 @@
         {
           "id": "a",
           "en": "reduced.",
-          "zh": "还原（reduced）。"
+          "zh": "还原（reduced）"
         },
         {
           "id": "b",
           "en": "neutralized.",
-          "zh": "中和（neutralized）。"
+          "zh": "中和（neutralized）"
         },
         {
           "id": "c",
           "en": "oxidized.",
-          "zh": "氧化（oxidized）。"
+          "zh": "氧化（oxidized）"
         },
         {
           "id": "d",
           "en": "emulsified.",
-          "zh": "乳化（emulsified）。"
+          "zh": "乳化（emulsified）"
         }
       ],
       "correctChoice": "c",
@@ -782,22 +782,22 @@
         {
           "id": "a",
           "en": "endothermic.",
-          "zh": "吸热的（endothermic）。"
+          "zh": "吸热的（endothermic）"
         },
         {
           "id": "b",
           "en": "exothermic.",
-          "zh": "放热的（exothermic）。"
+          "zh": "放热的（exothermic）"
         },
         {
           "id": "c",
           "en": "evaporative.",
-          "zh": "蒸发性的（evaporative）。"
+          "zh": "蒸发性的（evaporative）"
         },
         {
           "id": "d",
           "en": "emulsifying.",
-          "zh": "乳化性的（emulsifying）。"
+          "zh": "乳化性的（emulsifying）"
         }
       ],
       "correctChoice": "b",
@@ -850,22 +850,22 @@
         {
           "id": "a",
           "en": "evaporation.",
-          "zh": "蒸发（evaporation）。"
+          "zh": "蒸发（evaporation）"
         },
         {
           "id": "b",
           "en": "polymerization.",
-          "zh": "聚合（polymerization）。"
+          "zh": "聚合（polymerization）"
         },
         {
           "id": "c",
           "en": "oxidation.",
-          "zh": "氧化（oxidation）。"
+          "zh": "氧化（oxidation）"
         },
         {
           "id": "d",
           "en": "neutralization.",
-          "zh": "中和（neutralization）。"
+          "zh": "中和（neutralization）"
         }
       ],
       "correctChoice": "a",
@@ -922,22 +922,22 @@
         {
           "id": "a",
           "en": "catalysts.",
-          "zh": "催化剂（catalysts）。"
+          "zh": "催化剂（catalysts）"
         },
         {
           "id": "b",
           "en": "initiators.",
-          "zh": "引发剂（initiators）。"
+          "zh": "引发剂（initiators）"
         },
         {
           "id": "c",
           "en": "monomers.",
-          "zh": "单体（monomers）。"
+          "zh": "单体（monomers）"
         },
         {
           "id": "d",
           "en": "solvents.",
-          "zh": "溶剂（solvents）。"
+          "zh": "溶剂（solvents）"
         }
       ],
       "correctChoice": "c",
@@ -980,22 +980,22 @@
         {
           "id": "a",
           "en": "a cross-linker.",
-          "zh": "交联剂（cross-linker）。"
+          "zh": "交联剂（cross-linker）"
         },
         {
           "id": "b",
           "en": "a catalyst.",
-          "zh": "催化剂（catalyst）。"
+          "zh": "催化剂（catalyst）"
         },
         {
           "id": "c",
           "en": "a photoinitiator.",
-          "zh": "光引发剂（photoinitiator）。"
+          "zh": "光引发剂（photoinitiator）"
         },
         {
           "id": "d",
           "en": "an oligomer.",
-          "zh": "寡聚物/低聚物（oligomer）。"
+          "zh": "寡聚物/低聚物（oligomer）"
         }
       ],
       "correctChoice": "d",
@@ -1102,22 +1102,22 @@
         {
           "id": "a",
           "en": "solvent.",
-          "zh": "溶剂（solvent）。"
+          "zh": "溶剂（solvent）"
         },
         {
           "id": "b",
           "en": "plasticizer.",
-          "zh": "增塑剂（plasticizer）。"
+          "zh": "增塑剂（plasticizer）"
         },
         {
           "id": "c",
           "en": "primer.",
-          "zh": "结合剂（primer）。"
+          "zh": "结合剂（primer）"
         },
         {
           "id": "d",
           "en": "catalyst.",
-          "zh": "催化剂（catalyst）。"
+          "zh": "催化剂（catalyst）"
         }
       ],
       "correctChoice": "d",
@@ -1160,22 +1160,22 @@
         {
           "id": "a",
           "en": "a cross-linker.",
-          "zh": "交联剂（cross-linker）。"
+          "zh": "交联剂（cross-linker）"
         },
         {
           "id": "b",
           "en": "an oligomer.",
-          "zh": "寡聚物（oligomer）。"
+          "zh": "寡聚物（oligomer）"
         },
         {
           "id": "c",
           "en": "a photoinitiator.",
-          "zh": "光引发剂（photoinitiator）。"
+          "zh": "光引发剂（photoinitiator）"
         },
         {
           "id": "d",
           "en": "a plasticizer.",
-          "zh": "增塑剂（plasticizer）。"
+          "zh": "增塑剂（plasticizer）"
         }
       ],
       "correctChoice": "a",
@@ -1222,22 +1222,22 @@
         {
           "id": "a",
           "en": "water content.",
-          "zh": "含水量（water content）。"
+          "zh": "含水量（water content）"
         },
         {
           "id": "b",
           "en": "oil content.",
-          "zh": "含油量（oil content）。"
+          "zh": "含油量（oil content）"
         },
         {
           "id": "c",
           "en": "acidity and alkalinity.",
-          "zh": "酸性和碱性的程度（acidity and alkalinity）。"
+          "zh": "酸性和碱性的程度（acidity and alkalinity）"
         },
         {
           "id": "d",
           "en": "hardness.",
-          "zh": "硬度（hardness）。"
+          "zh": "硬度（hardness）"
         }
       ],
       "correctChoice": "c",

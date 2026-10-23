@@ -16,10 +16,10 @@ D. Twice as much liquid / 液体是粉的 2 倍
 
 **2. Too little powder in the bead can cause**  
 水晶球里粉太少，会造成什么问题？  
-A. a weak nail and skin irritation. / 指甲变弱，并可能刺激皮肤。 ✅  
-B. brittleness and discoloration. / 变脆和变色。  
-C. many trapped air bubbles. / 里面有很多气泡。  
-D. a chalky white surface. / 表面发白像粉笔。  
+A. a weak nail and skin irritation. / 指甲变弱，并可能刺激皮肤 ✅  
+B. brittleness and discoloration. / 变脆和变色  
+C. many trapped air bubbles. / 里面有很多气泡  
+D. a chalky white surface. / 表面发白像粉笔  
 *Why:* Too little powder makes the enhancement weak and raises the risk of skin irritation or sensitivity. Too much powder cures incorrectly and can cause brittleness or discoloration.  
 *为什么:* 粉太少会让甲变弱，并增加皮肤刺激或过敏的风险。粉太多则固化不正确，可能变脆或变色。  
 *Lock this (picture):* Milady's cookie rule: too much flour, dry and crumbly; too little flour, soft and gooey.  
@@ -40,10 +40,10 @@ D. Round and shiny; settles but doesn't run / 圆润有光泽，会稍微摊开�
 
 **4. A monomer liquid is called odorless when**  
 单体液（monomer liquid）在什么情况下被称为 odorless（无味）？  
-A. it has no odor at all. / 它完全没有气味。  
-B. it is made with MMA. / 它是用 MMA 做的。  
-C. others in the salon can't smell it. / 店里的其他人闻不到它。 ✅  
-D. a perfume covers its odor. / 加了香料盖住气味。  
+A. it has no odor at all. / 它完全没有气味  
+B. it is made with MMA. / 它是用 MMA 做的  
+C. others in the salon can't smell it. / 店里的其他人闻不到它 ✅  
+D. a perfume covers its odor. / 加了香料盖住气味  
 *Why:* Odorless products still have a slight odor. If others in the salon can't detect it, it is called odorless; if they notice a slight odor, it is called low odor.  
 *为什么:* odorless（无味）产品其实仍有轻微气味。店里其他人闻不出来，就叫无味；能闻到一点，就叫 low odor（低味）。  
 *Lock this (name-trap):* Name trap: "odorless" liquids use a different monomer with little smell. The smell is weak, not gone.  
@@ -52,10 +52,10 @@ D. a perfume covers its odor. / 加了香料盖住气味。
 
 **5. When shaping an odorless bead on the nail, you should never**  
 在指甲上塑形无味水晶球时，绝对不能做什么？  
-A. re-wet the brush with monomer. / 再把笔刷蘸湿单体液。 ✅  
-B. wipe the brush on a towel. / 在纸巾上擦笔。  
-C. use a dry mix ratio. / 用偏干的液粉比。  
-D. press and smooth the bead. / 按压并抹平水晶球。  
+A. re-wet the brush with monomer. / 再把笔刷蘸湿单体液 ✅  
+B. wipe the brush on a towel. / 在纸巾上擦笔  
+C. use a dry mix ratio. / 用偏干的液粉比  
+D. press and smooth the bead. / 按压并抹平水晶球  
 *Why:* Odorless products use a dry mix ratio. Re-wetting the brush changes the ratio and can cause discoloration, service breakdown, and skin irritation. Wiping the brush often is correct.  
 *为什么:* 无味产品要用 dry mix ratio（偏干的液粉比）。再蘸湿笔刷会改变液粉比，可能导致变色、美甲提前损坏和皮肤刺激。勤擦笔刷才是对的。  
 *Lock this (reason-chain):* Each extra dip adds liquid on the nail, so the dry bead slowly becomes a wet one.  
@@ -64,10 +64,10 @@ D. press and smooth the bead. / 按压并抹平水晶球。
 
 **6. Acid-free primer works most like**  
 无酸结合剂（acid-free primer）的作用最像什么？  
-A. sandpaper that roughs up the nail. / 把指甲磨粗的砂纸。  
-B. a glossy sealing topcoat. / 一层亮面封层。  
-C. a dehydrator that dries the nail. / 让指甲干燥的脱水剂。  
-D. two-sided sticky tape. / 双面胶。 ✅  
+A. sandpaper that roughs up the nail. / 把指甲磨粗的砂纸  
+B. a glossy sealing topcoat. / 一层亮面封层  
+C. a dehydrator that dries the nail. / 让指甲干燥的脱水剂  
+D. two-sided sticky tape. / 双面胶 ✅  
 *Why:* One end of the acid-free primer molecule bonds to nail protein; the other end bonds to the monomer as it cures. That is why Milady compares it to two-sided tape.  
 *为什么:* acid-free primer（无酸结合剂）分子的一端和指甲蛋白结合，另一端在单体固化时和单体结合，所以 Milady 把它比作双面胶。  
 *Lock this (real-life):* Hang a poster with two-sided tape: wall on one side, poster on the other. Nail = wall, product = poster.  
@@ -88,10 +88,10 @@ D. Primer, then buff off the shine / 先结合剂，再磨掉光泽
 
 **8. Nail primer is especially useful for a client with**  
 结合剂（nail primer）对哪种客人特别有用？  
-A. very short nail beds. / 甲床很短。  
-B. thick, curved toenails. / 脚趾甲又厚又弯。  
-C. oily nail plates. / 甲面偏油。 ✅  
-D. very sensitive skin. / 皮肤非常敏感。  
+A. very short nail beds. / 甲床很短  
+B. thick, curved toenails. / 脚趾甲又厚又弯  
+C. oily nail plates. / 甲面偏油 ✅  
+D. very sensitive skin. / 皮肤非常敏感  
 *Why:* Primer improves adhesion, so it is especially useful when a client has oily nail plates, where adhesion is a problem. Use it sparingly; one thin coat is enough for most clients.  
 *为什么:* primer（结合剂）能增强附着，所以对甲面偏油、不容易附着的客人特别有用。要少量使用，大多数客人一薄层就够了。  
 *Lock this (picture):* An oily nail is like a slippery floor. Primer works like non-slip shoes: it helps product hold on.  
@@ -100,10 +100,10 @@ D. very sensitive skin. / 皮肤非常敏感。
 
 **9. Why should nail primer be kept off plastic nail tips?**  
 为什么结合剂不能涂到塑料甲片上？  
-A. It stops the overlay from curing. / 会让加固层无法固化。  
-B. It makes the tip stick too tightly. / 会让甲片粘得太紧。  
-C. It turns the tip yellow in sunlight. / 会让甲片在阳光下变黄。  
-D. It can melt the tip and weaken adhesive. / 会让甲片融化，并削弱甲片胶。 ✅  
+A. It stops the overlay from curing. / 会让加固层无法固化  
+B. It makes the tip stick too tightly. / 会让甲片粘得太紧  
+C. It turns the tip yellow in sunlight. / 会让甲片在阳光下变黄  
+D. It can melt the tip and weaken adhesive. / 会让甲片融化，并削弱甲片胶 ✅  
 *Why:* Primer goes only on the natural nail, and only once. On plastic tips it can melt the tip, make it brittle, and break down the tip adhesive.  
 *为什么:* primer（结合剂）只涂在真甲上，而且只涂一次。涂在塑料甲片上，可能让甲片融化、变脆，并破坏甲片胶。  
 *Lock this (reason-chain):* Primer is made to grab the natural nail, not plastic. On a plastic tip, it can melt the tip instead.  
@@ -136,10 +136,10 @@ D. Not at all; leave the shine / 完全不锉，保留光泽
 
 **12. Why are MMA enhancements usually pried off the nail?**  
 为什么 MMA 美甲通常是被硬撬下来的？  
-A. They don't dissolve well in removers. / 它们在卸甲液里不容易溶解。 ✅  
-B. They are too soft to file. / 它们太软，没法锉。  
-C. They come off in water. / 它们遇水就会脱落。  
-D. They are glued on with resin. / 它们是用树脂粘上去的。  
+A. They don't dissolve well in removers. / 它们在卸甲液里不容易溶解 ✅  
+B. They are too soft to file. / 它们太软，没法锉  
+C. They come off in water. / 它们遇水就会脱落  
+D. They are glued on with resin. / 它们是用树脂粘上去的  
 *Why:* MMA does not dissolve well in product removers, so it is usually pried from the nail plate, causing more damage. MMA is not to be used on nails.  
 *为什么:* MMA 在卸甲液里不容易溶解，所以通常被从甲面上硬撬下来，造成更多损伤。指甲上不能使用 MMA。  
 *Lock this (picture):* Like chewing gum stuck in hair: it won't wash out, so it gets pulled, and hair comes with it.  
@@ -220,10 +220,10 @@ D. Thickest at the edge for strength / 前缘最厚，以增加强度
 
 **19. How can you tell liquid and powder nails have hardened?**  
 怎样判断水晶甲已经变硬了？  
-A. They look wet and shiny. / 看起来湿润有光泽。  
-B. They feel warm and soft. / 摸起来温热、柔软。  
-C. They click when tapped with a brush handle. / 用笔杆轻敲时发出“咔嗒”声。 ✅  
-D. They turn chalky white. / 变成白垩色。  
+A. They look wet and shiny. / 看起来湿润有光泽  
+B. They feel warm and soft. / 摸起来温热、柔软  
+C. They click when tapped with a brush handle. / 用笔杆轻敲时发出“咔嗒”声 ✅  
+D. They turn chalky white. / 变成白垩色  
 *Why:* Nails are hard when they make a clicking sound when lightly tapped with a brush handle. Then you can shape them with an abrasive or electric file.  
 *为什么:* 用笔杆轻敲指甲时发出清脆的“咔嗒”声，就说明已经变硬，这时可以用锉条或电动磨甲机修形。  
 *Lock this (comparison):* Knock on a hard table and it clicks; knock on soft clay and it makes almost no sound.  

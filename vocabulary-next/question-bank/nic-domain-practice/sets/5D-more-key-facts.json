@@ -135,22 +135,22 @@
         {
           "id": "a",
           "en": "lifting the bit off the nail often.",
-          "zh": "经常把磨头抬离指甲。"
+          "zh": "经常把磨头抬离指甲"
         },
         {
           "id": "b",
           "en": "keeping the bit parallel to the nail.",
-          "zh": "让磨头与指甲保持平行。"
+          "zh": "让磨头与指甲保持平行"
         },
         {
           "id": "c",
           "en": "holding the bit at the wrong angle.",
-          "zh": "磨头拿的角度不对。"
+          "zh": "磨头拿的角度不对"
         },
         {
           "id": "d",
           "en": "using a finer grit bit.",
-          "zh": "使用更细目数的磨头。"
+          "zh": "使用更细目数的磨头"
         }
       ],
       "correctChoice": "c",
@@ -209,22 +209,22 @@
         {
           "id": "a",
           "en": "increase the machine's speed.",
-          "zh": "调高机器的转速。"
+          "zh": "调高机器的转速"
         },
         {
           "id": "b",
           "en": "lower the machine's speed.",
-          "zh": "调低机器的转速。"
+          "zh": "调低机器的转速"
         },
         {
           "id": "c",
           "en": "press on the bit's front edge.",
-          "zh": "压在磨头的前缘上。"
+          "zh": "压在磨头的前缘上"
         },
         {
           "id": "d",
           "en": "tilt the bit onto its edge.",
-          "zh": "把磨头侧过来用边缘磨。"
+          "zh": "把磨头侧过来用边缘磨"
         }
       ],
       "correctChoice": "a",
@@ -281,22 +281,22 @@
         {
           "id": "a",
           "en": "100 or less.",
-          "zh": "100 或更低。"
+          "zh": "100 或更低"
         },
         {
           "id": "b",
           "en": "150 to 180.",
-          "zh": "150 到 180。"
+          "zh": "150 到 180"
         },
         {
           "id": "c",
           "en": "240 and higher.",
-          "zh": "240 或更高。"
+          "zh": "240 或更高"
         },
         {
           "id": "d",
           "en": "no grit at all.",
-          "zh": "完全没有目数。"
+          "zh": "完全没有目数"
         }
       ],
       "correctChoice": "a",
@@ -361,22 +361,22 @@
         {
           "id": "a",
           "en": "a surgical-type mask.",
-          "zh": "外科式口罩。"
+          "zh": "外科式口罩"
         },
         {
           "id": "b",
           "en": "nitrile gloves.",
-          "zh": "丁腈手套。"
+          "zh": "丁腈手套"
         },
         {
           "id": "c",
           "en": "an N95-rated dust mask.",
-          "zh": "N95 级防尘口罩。"
+          "zh": "N95 级防尘口罩"
         },
         {
           "id": "d",
           "en": "safety glasses.",
-          "zh": "护目镜。"
+          "zh": "护目镜"
         }
       ],
       "correctChoice": "c",
@@ -443,22 +443,22 @@
         {
           "id": "a",
           "en": "acetone remover.",
-          "zh": "含丙酮洗甲水。"
+          "zh": "含丙酮洗甲水"
         },
         {
           "id": "b",
           "en": "non-acetone remover.",
-          "zh": "无丙酮洗甲水。"
+          "zh": "无丙酮洗甲水"
         },
         {
           "id": "c",
           "en": "cuticle remover.",
-          "zh": "死皮软化剂。"
+          "zh": "死皮软化剂"
         },
         {
           "id": "d",
           "en": "nail dehydrator.",
-          "zh": "脱水剂。"
+          "zh": "脱水剂"
         }
       ],
       "correctChoice": "b",
@@ -521,22 +521,22 @@
         {
           "id": "a",
           "en": "a moisturizer.",
-          "zh": "保湿剂。"
+          "zh": "保湿剂"
         },
         {
           "id": "b",
           "en": "a disinfectant.",
-          "zh": "消毒剂。"
+          "zh": "消毒剂"
         },
         {
           "id": "c",
           "en": "an emulsifier.",
-          "zh": "乳化剂。"
+          "zh": "乳化剂"
         },
         {
           "id": "d",
           "en": "an abrasive.",
-          "zh": "研磨剂（abrasive）。"
+          "zh": "研磨剂（abrasive）"
         }
       ],
       "correctChoice": "d",

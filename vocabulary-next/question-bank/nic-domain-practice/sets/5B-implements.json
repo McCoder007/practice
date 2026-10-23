@@ -28,22 +28,22 @@
         {
           "id": "a",
           "en": "They can be disinfected without corroding.",
-          "zh": "消毒时不会腐蚀生锈。"
+          "zh": "消毒时不会腐蚀生锈"
         },
         {
           "id": "b",
           "en": "They only need rinsing between clients.",
-          "zh": "顾客之间只需冲洗一下。"
+          "zh": "顾客之间只需冲洗一下"
         },
         {
           "id": "c",
           "en": "They cost less than nickel-plated tools.",
-          "zh": "比镀镍工具便宜。"
+          "zh": "比镀镍工具便宜"
         },
         {
           "id": "d",
           "en": "They can be thrown away after use.",
-          "zh": "用完可以扔掉。"
+          "zh": "用完可以扔掉"
         }
       ],
       "correctChoice": "a",
@@ -86,22 +86,22 @@
         {
           "id": "a",
           "en": "cut away live skin at the nail fold.",
-          "zh": "剪掉甲沟（nail fold）上的活皮。"
+          "zh": "剪掉甲沟（nail fold）上的活皮"
         },
         {
           "id": "b",
           "en": "gently scrape cuticle tissue off the nail plate.",
-          "zh": "轻轻刮掉甲面上的死皮（cuticle）组织。"
+          "zh": "轻轻刮掉甲面上的死皮（cuticle）组织"
         },
         {
           "id": "c",
           "en": "shorten the free edge quickly.",
-          "zh": "快速剪短指甲前缘（free edge）。"
+          "zh": "快速剪短指甲前缘（free edge）"
         },
         {
           "id": "d",
           "en": "lift implements out of disinfectant.",
-          "zh": "把工具从消毒液里夹出来。"
+          "zh": "把工具从消毒液里夹出来"
         }
       ],
       "correctChoice": "b",
@@ -278,22 +278,22 @@
         {
           "id": "a",
           "en": "keep them tightly closed.",
-          "zh": "把它紧紧合上。"
+          "zh": "把它紧紧合上"
         },
         {
           "id": "b",
           "en": "soak only the blades.",
-          "zh": "只泡刀刃部分。"
+          "zh": "只泡刀刃部分"
         },
         {
           "id": "c",
           "en": "rinse them in hot water only.",
-          "zh": "只用热水冲洗。"
+          "zh": "只用热水冲洗"
         },
         {
           "id": "d",
           "en": "open the hinges.",
-          "zh": "把剪子张开，露出剪轴（hinge）。"
+          "zh": "把剪子张开，露出剪轴（hinge）"
         }
       ],
       "correctChoice": "d",
@@ -418,22 +418,22 @@
         {
           "id": "a",
           "en": "They are single-use plastic.",
-          "zh": "是一次性塑料的。"
+          "zh": "是一次性塑料的"
         },
         {
           "id": "b",
           "en": "They are larger, with a wider jaw opening.",
-          "zh": "更大，钳口张开更宽。"
+          "zh": "更大，钳口张开更宽"
         },
         {
           "id": "c",
           "en": "They are used to trim dead skin.",
-          "zh": "是用来修死皮的。"
+          "zh": "是用来修死皮的"
         },
         {
           "id": "d",
           "en": "They need no disinfecting.",
-          "zh": "不需要消毒。"
+          "zh": "不需要消毒"
         }
       ],
       "correctChoice": "b",
@@ -704,22 +704,22 @@
         {
           "id": "a",
           "en": "treat a toenail that is ingrown.",
-          "zh": "治疗嵌甲（ingrown nail）。"
+          "zh": "治疗嵌甲（ingrown nail）"
         },
         {
           "id": "b",
           "en": "file the top surface of the nail.",
-          "zh": "锉指甲的上表面。"
+          "zh": "锉指甲的上表面"
         },
         {
           "id": "c",
           "en": "push back the cuticle.",
-          "zh": "推死皮。"
+          "zh": "推死皮"
         },
         {
           "id": "d",
           "en": "file the sides of the free edge.",
-          "zh": "锉前缘的两侧。"
+          "zh": "锉前缘的两侧"
         }
       ],
       "correctChoice": "d",
@@ -776,22 +776,22 @@
         {
           "id": "a",
           "en": "clean debris from the nail folds.",
-          "zh": "清理甲沟里的污垢。"
+          "zh": "清理甲沟里的污垢"
         },
         {
           "id": "b",
           "en": "shape the toenail free edge.",
-          "zh": "修整脚指甲前缘的形状。"
+          "zh": "修整脚指甲前缘的形状"
         },
         {
           "id": "c",
           "en": "push cuticle tissue off the nail.",
-          "zh": "把死皮从甲面推掉。"
+          "zh": "把死皮从甲面推掉"
         },
         {
           "id": "d",
           "en": "reduce and smooth thick calluses.",
-          "zh": "磨薄、磨平厚茧。"
+          "zh": "磨薄、磨平厚茧"
         }
       ],
       "correctChoice": "d",
@@ -926,22 +926,22 @@
         {
           "id": "a",
           "en": "is used once a day, then disinfected.",
-          "zh": "每天用一次，然后消毒。"
+          "zh": "每天用一次，然后消毒"
         },
         {
           "id": "b",
           "en": "can be reused after a rinse.",
-          "zh": "冲洗后可以再用。"
+          "zh": "冲洗后可以再用"
         },
         {
           "id": "c",
           "en": "is made only of stainless steel.",
-          "zh": "只用不锈钢做的。"
+          "zh": "只用不锈钢做的"
         },
         {
           "id": "d",
           "en": "can't be disinfected, so it's thrown away.",
-          "zh": "无法消毒，用一次就扔。"
+          "zh": "无法消毒，用一次就扔"
         }
       ],
       "correctChoice": "d",
@@ -1064,22 +1064,22 @@
         {
           "id": "a",
           "en": "finer and gentler it is.",
-          "zh": "越细、越温和。"
+          "zh": "越细、越温和"
         },
         {
           "id": "b",
           "en": "larger its particles and more aggressive.",
-          "zh": "颗粒越大、研磨越猛。"
+          "zh": "颗粒越大、研磨越猛"
         },
         {
           "id": "c",
           "en": "safer it is on natural nails.",
-          "zh": "对真甲越安全。"
+          "zh": "对真甲越安全"
         },
         {
           "id": "d",
           "en": "fewer scratches it leaves.",
-          "zh": "留下的刮痕越少。"
+          "zh": "留下的刮痕越少"
         }
       ],
       "correctChoice": "b",
@@ -1132,22 +1132,22 @@
         {
           "id": "a",
           "en": "quickly reducing thick enhancement product.",
-          "zh": "快速磨薄厚的人造甲产品（enhancement）。"
+          "zh": "快速磨薄厚的人造甲产品（enhancement）"
         },
         {
           "id": "b",
           "en": "reducing thick heel calluses.",
-          "zh": "磨掉脚跟的厚茧。"
+          "zh": "磨掉脚跟的厚茧"
         },
         {
           "id": "c",
           "en": "buffing, polishing, and removing fine scratches.",
-          "zh": "抛光、上光、去除细小刮痕。"
+          "zh": "抛光、上光、去除细小刮痕"
         },
         {
           "id": "d",
           "en": "shortening the free edge fast.",
-          "zh": "快速磨短前缘。"
+          "zh": "快速磨短前缘"
         }
       ],
       "correctChoice": "c",

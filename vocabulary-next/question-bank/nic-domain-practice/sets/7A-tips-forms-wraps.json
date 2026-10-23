@@ -99,22 +99,22 @@
         {
           "id": "a",
           "en": "apex.",
-          "zh": "甲峰（apex）。"
+          "zh": "甲峰（apex）"
         },
         {
           "id": "b",
           "en": "sidewall.",
-          "zh": "侧壁（sidewall）。"
+          "zh": "侧壁（sidewall）"
         },
         {
           "id": "c",
           "en": "stress area.",
-          "zh": "受力区（stress area）。"
+          "zh": "受力区（stress area）"
         },
         {
           "id": "d",
           "en": "position stop.",
-          "zh": "定位点（position stop）。"
+          "zh": "定位点（position stop）"
         }
       ],
       "correctChoice": "d",
@@ -163,22 +163,22 @@
         {
           "id": "a",
           "en": "It needs no adhesive.",
-          "zh": "它不需要甲片胶。"
+          "zh": "它不需要甲片胶"
         },
         {
           "id": "b",
           "en": "It is precut like a smile line.",
-          "zh": "它预先切成了微笑线形状。"
+          "zh": "它预先切成了微笑线形状"
         },
         {
           "id": "c",
           "en": "It has no position stop.",
-          "zh": "它没有定位点（position stop）。"
+          "zh": "它没有定位点（position stop）"
         },
         {
           "id": "d",
           "en": "It is made of softer plastic.",
-          "zh": "它用更软的塑料做成。"
+          "zh": "它用更软的塑料做成"
         }
       ],
       "correctChoice": "c",
@@ -281,22 +281,22 @@
         {
           "id": "a",
           "en": "mylar film.",
-          "zh": "聚酯薄膜（mylar）。"
+          "zh": "聚酯薄膜（mylar）"
         },
         {
           "id": "b",
           "en": "cyanoacrylate.",
-          "zh": "氰基丙烯酸酯（cyanoacrylate）。"
+          "zh": "氰基丙烯酸酯（cyanoacrylate）"
         },
         {
           "id": "c",
           "en": "aluminum.",
-          "zh": "铝。"
+          "zh": "铝"
         },
         {
           "id": "d",
           "en": "ABS plastic.",
-          "zh": "ABS 塑料。"
+          "zh": "ABS 塑料"
         }
       ],
       "correctChoice": "d",
@@ -347,22 +347,22 @@
         {
           "id": "a",
           "en": "only across the center.",
-          "zh": "只盖住中间部分。"
+          "zh": "只盖住中间部分"
         },
         {
           "id": "b",
           "en": "from sidewall to sidewall.",
-          "zh": "从侧壁到侧壁（sidewall to sidewall）。"
+          "zh": "从侧壁到侧壁（sidewall to sidewall）"
         },
         {
           "id": "c",
           "en": "past the sidewalls onto the skin.",
-          "zh": "超出侧壁，盖到皮肤上。"
+          "zh": "超出侧壁，盖到皮肤上"
         },
         {
           "id": "d",
           "en": "with a small gap at each side.",
-          "zh": "两侧各留一点空隙。"
+          "zh": "两侧各留一点空隙"
         }
       ],
       "correctChoice": "b",
@@ -415,22 +415,22 @@
         {
           "id": "a",
           "en": "5 to 10 seconds.",
-          "zh": "5 到 10 秒。"
+          "zh": "5 到 10 秒"
         },
         {
           "id": "b",
           "en": "30 to 60 seconds.",
-          "zh": "30 到 60 秒。"
+          "zh": "30 到 60 秒"
         },
         {
           "id": "c",
           "en": "2 to 3 minutes.",
-          "zh": "2 到 3 分钟。"
+          "zh": "2 到 3 分钟"
         },
         {
           "id": "d",
           "en": "5 to 10 minutes.",
-          "zh": "5 到 10 分钟。"
+          "zh": "5 到 10 分钟"
         }
       ],
       "correctChoice": "a",
@@ -655,22 +655,22 @@
         {
           "id": "a",
           "en": "The overlay is what glues the tip on.",
-          "zh": "甲片是靠加固层粘上去的。"
+          "zh": "甲片是靠加固层粘上去的"
         },
         {
           "id": "b",
           "en": "Tips alone are not strong enough.",
-          "zh": "单靠甲片不够坚固。"
+          "zh": "单靠甲片不够坚固"
         },
         {
           "id": "c",
           "en": "Bare tips dissolve in water.",
-          "zh": "没有加固层的甲片遇水会溶化。"
+          "zh": "没有加固层的甲片遇水会溶化"
         },
         {
           "id": "d",
           "en": "Bare tips cannot be filed.",
-          "zh": "没有加固层的甲片不能锉。"
+          "zh": "没有加固层的甲片不能锉"
         }
       ],
       "correctChoice": "b",
@@ -719,22 +719,22 @@
         {
           "id": "a",
           "en": "open into a large circle.",
-          "zh": "张开成一个大圆。"
+          "zh": "张开成一个大圆"
         },
         {
           "id": "b",
           "en": "be cut off straight across.",
-          "zh": "平直剪掉。"
+          "zh": "平直剪掉"
         },
         {
           "id": "c",
           "en": "tilt down toward the finger.",
-          "zh": "朝手指方向向下倾斜。"
+          "zh": "朝手指方向向下倾斜"
         },
         {
           "id": "d",
           "en": "close to a pinhole point.",
-          "zh": "收成尖，只留针孔大的开口。"
+          "zh": "收成尖，只留针孔大的开口"
         }
       ],
       "correctChoice": "d",
@@ -777,22 +777,22 @@
         {
           "id": "a",
           "en": "there is no gap under the free edge.",
-          "zh": "游离缘和纸托之间没有缝隙。"
+          "zh": "游离缘和纸托之间没有缝隙"
         },
         {
           "id": "b",
           "en": "it tilts down away from the nail.",
-          "zh": "纸托从指甲往下倾斜。"
+          "zh": "纸托从指甲往下倾斜"
         },
         {
           "id": "c",
           "en": "it presses into the hyponychium.",
-          "zh": "纸托压进甲下皮（hyponychium）。"
+          "zh": "纸托压进甲下皮（hyponychium）"
         },
         {
           "id": "d",
           "en": "its center line points to one side.",
-          "zh": "纸托中线偏向一侧。"
+          "zh": "纸托中线偏向一侧"
         }
       ],
       "correctChoice": "a",
@@ -841,22 +841,22 @@
         {
           "id": "a",
           "en": "a thin natural material with a tight weave.",
-          "zh": "很薄、织得很密的天然材料。"
+          "zh": "很薄、织得很密的天然材料"
         },
         {
           "id": "b",
           "en": "a tough plastic called ABS.",
-          "zh": "一种叫 ABS 的坚韧塑料。"
+          "zh": "一种叫 ABS 的坚韧塑料"
         },
         {
           "id": "c",
           "en": "a thin polyester film called mylar.",
-          "zh": "一种叫 mylar 的聚酯薄膜。"
+          "zh": "一种叫 mylar 的聚酯薄膜"
         },
         {
           "id": "d",
           "en": "a thin synthetic mesh with a loose weave.",
-          "zh": "很薄、织得较松的合成网布。"
+          "zh": "很薄、织得较松的合成网布"
         }
       ],
       "correctChoice": "d",
@@ -899,22 +899,22 @@
         {
           "id": "a",
           "en": "cyanoacrylate.",
-          "zh": "氰基丙烯酸酯（cyanoacrylate）。"
+          "zh": "氰基丙烯酸酯（cyanoacrylate）"
         },
         {
           "id": "b",
           "en": "ethyl methacrylate.",
-          "zh": "甲基丙烯酸乙酯（EMA）。"
+          "zh": "甲基丙烯酸乙酯（EMA）"
         },
         {
           "id": "c",
           "en": "benzoyl peroxide.",
-          "zh": "过氧化苯甲酰（BPO）。"
+          "zh": "过氧化苯甲酰（BPO）"
         },
         {
           "id": "d",
           "en": "butyl acetate.",
-          "zh": "乙酸丁酯（butyl acetate）。"
+          "zh": "乙酸丁酯（butyl acetate）"
         }
       ],
       "correctChoice": "a",
@@ -1061,22 +1061,22 @@
         {
           "id": "a",
           "en": "eponychium meets the nail plate.",
-          "zh": "甲上皮与甲面交界处。"
+          "zh": "甲上皮与甲面交界处"
         },
         {
           "id": "b",
           "en": "free edge meets the nail bed.",
-          "zh": "游离缘与甲床交界处。"
+          "zh": "游离缘与甲床交界处"
         },
         {
           "id": "c",
           "en": "nail plate meets the lateral fold.",
-          "zh": "甲面与侧甲襞交界处。"
+          "zh": "甲面与侧甲襞交界处"
         },
         {
           "id": "d",
           "en": "lunula meets the eponychium.",
-          "zh": "甲半月与甲上皮交界处。"
+          "zh": "甲半月与甲上皮交界处"
         }
       ],
       "correctChoice": "b",
@@ -1119,22 +1119,22 @@
         {
           "id": "a",
           "en": "It adds color only.",
-          "zh": "它只增加颜色。"
+          "zh": "它只增加颜色"
         },
         {
           "id": "b",
           "en": "It needs no overlay.",
-          "zh": "它不需要加固层。"
+          "zh": "它不需要加固层"
         },
         {
           "id": "c",
           "en": "It adds length to the nail.",
-          "zh": "它让指甲变长。"
+          "zh": "它让指甲变长"
         },
         {
           "id": "d",
           "en": "It is always made on a form.",
-          "zh": "它一定要用纸托来做。"
+          "zh": "它一定要用纸托来做"
         }
       ],
       "correctChoice": "c",
@@ -1241,22 +1241,22 @@
         {
           "id": "a",
           "en": "paper or mylar.",
-          "zh": "纸或聚酯薄膜（mylar）。"
+          "zh": "纸或聚酯薄膜（mylar）"
         },
         {
           "id": "b",
           "en": "silk or fiberglass.",
-          "zh": "丝绸或玻璃纤维。"
+          "zh": "丝绸或玻璃纤维"
         },
         {
           "id": "c",
           "en": "plastic or aluminum.",
-          "zh": "塑料或铝。"
+          "zh": "塑料或铝"
         },
         {
           "id": "d",
           "en": "wood or cardboard.",
-          "zh": "木头或硬纸板。"
+          "zh": "木头或硬纸板"
         }
       ],
       "correctChoice": "c",

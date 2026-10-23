@@ -304,22 +304,22 @@
         {
           "id": "a",
           "en": "fanning.",
-          "zh": "扇形压刷（fanning）。"
+          "zh": "扇形压刷（fanning）"
         },
         {
           "id": "b",
           "en": "beveling.",
-          "zh": "倒斜边（beveling）。"
+          "zh": "倒斜边（beveling）"
         },
         {
           "id": "c",
           "en": "capping.",
-          "zh": "包边（capping）。"
+          "zh": "包边（capping）"
         },
         {
           "id": "d",
           "en": "feathering.",
-          "zh": "羽化（feathering）。"
+          "zh": "羽化（feathering）"
         }
       ],
       "correctChoice": "c",
@@ -622,22 +622,22 @@
         {
           "id": "a",
           "en": "free edge.",
-          "zh": "游离缘（free edge）。"
+          "zh": "游离缘（free edge）"
         },
         {
           "id": "b",
           "en": "lunula.",
-          "zh": "甲半月（lunula）。"
+          "zh": "甲半月（lunula）"
         },
         {
           "id": "c",
           "en": "smile line.",
-          "zh": "微笑线（smile line）。"
+          "zh": "微笑线（smile line）"
         },
         {
           "id": "d",
           "en": "stress area.",
-          "zh": "受力区（stress area）。"
+          "zh": "受力区（stress area）"
         }
       ],
       "correctChoice": "c",
@@ -680,22 +680,22 @@
         {
           "id": "a",
           "en": "color blocking.",
-          "zh": "色块拼接（color blocking）。"
+          "zh": "色块拼接（color blocking）"
         },
         {
           "id": "b",
           "en": "ombre.",
-          "zh": "渐变（ombre）。"
+          "zh": "渐变（ombre）"
         },
         {
           "id": "c",
           "en": "a French manicure.",
-          "zh": "法式美甲。"
+          "zh": "法式美甲"
         },
         {
           "id": "d",
           "en": "marbleizing.",
-          "zh": "大理石纹（marbleizing）。"
+          "zh": "大理石纹（marbleizing）"
         }
       ],
       "correctChoice": "d",
@@ -742,22 +742,22 @@
         {
           "id": "a",
           "en": "dry, rough skin.",
-          "zh": "皮肤干燥粗糙。"
+          "zh": "皮肤干燥粗糙"
         },
         {
           "id": "b",
           "en": "impaired circulation.",
-          "zh": "血液循环不良。"
+          "zh": "血液循环不良"
         },
         {
           "id": "c",
           "en": "arthritis pain.",
-          "zh": "关节炎疼痛。"
+          "zh": "关节炎疼痛"
         },
         {
           "id": "d",
           "en": "callused hands.",
-          "zh": "手上有老茧。"
+          "zh": "手上有老茧"
         }
       ],
       "correctChoice": "b",
@@ -956,22 +956,22 @@
         {
           "id": "a",
           "en": "while the base coat is still wet.",
-          "zh": "底油还没干的时候。"
+          "zh": "底油还没干的时候"
         },
         {
           "id": "b",
           "en": "after the massage, before polishing.",
-          "zh": "按摩之后、上甲油之前。"
+          "zh": "按摩之后、上甲油之前"
         },
         {
           "id": "c",
           "en": "after the topcoat dries.",
-          "zh": "亮油干了之后。"
+          "zh": "亮油干了之后"
         },
         {
           "id": "d",
           "en": "before the nails are filed.",
-          "zh": "锉指甲之前。"
+          "zh": "锉指甲之前"
         }
       ],
       "correctChoice": "b",

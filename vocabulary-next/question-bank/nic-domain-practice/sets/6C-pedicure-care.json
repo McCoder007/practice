@@ -234,22 +234,22 @@
         {
           "id": "a",
           "en": "as short as possible.",
-          "zh": "尽量剪短。"
+          "zh": "尽量剪短"
         },
         {
           "id": "b",
           "en": "to a rounded point.",
-          "zh": "剪成圆尖形。"
+          "zh": "剪成圆尖形"
         },
         {
           "id": "c",
           "en": "well past the end of the toe.",
-          "zh": "留得远超过脚趾尖。"
+          "zh": "留得远超过脚趾尖"
         },
         {
           "id": "d",
           "en": "straight across, even with the toe tip.",
-          "zh": "平剪，与脚趾尖齐平。"
+          "zh": "平剪，与脚趾尖齐平"
         }
       ],
       "correctChoice": "d",
@@ -490,22 +490,22 @@
         {
           "id": "a",
           "en": "every toenail.",
-          "zh": "每一个脚趾甲。"
+          "zh": "每一个脚趾甲"
         },
         {
           "id": "b",
           "en": "the little toe only.",
-          "zh": "只用在小脚趾。"
+          "zh": "只用在小脚趾"
         },
         {
           "id": "c",
           "en": "the big toe only.",
-          "zh": "只用在大脚趾。"
+          "zh": "只用在大脚趾"
         },
         {
           "id": "d",
           "en": "the top of the nail.",
-          "zh": "指甲表面。"
+          "zh": "指甲表面"
         }
       ],
       "correctChoice": "c",
@@ -694,22 +694,22 @@
         {
           "id": "a",
           "en": "grow back heavier.",
-          "zh": "长得更厚。"
+          "zh": "长得更厚"
         },
         {
           "id": "b",
           "en": "disappear for good.",
-          "zh": "永远消失。"
+          "zh": "永远消失"
         },
         {
           "id": "c",
           "en": "turn soft and moist.",
-          "zh": "变得柔软湿润。"
+          "zh": "变得柔软湿润"
         },
         {
           "id": "d",
           "en": "grow back thinner.",
-          "zh": "长得更薄。"
+          "zh": "长得更薄"
         }
       ],
       "correctChoice": "a",
