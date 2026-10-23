@@ -70,21 +70,22 @@ export function playText(text: string) {
 }
 
 /**
- * Play text slowly (default 0.75x) for pronunciation practice.
- * Same voice and pitch as playText, just slower.
+ * Play text slowly for pronunciation practice. Google's voice is asked to
+ * speak at this speed (default 0.6), which sounds clearer than stretching
+ * normal-speed audio. The browser voice fallback uses the same speed.
  */
-export function playTextSlow(text: string, rate = 0.75) {
+export function playTextSlow(text: string, speakingRate = 0.6) {
   if (typeof window === 'undefined' || !text) return
   stopTTS();
   clearQueue();
 
   if (window.googleTTS?.speakSlow) {
-    window.googleTTS.speakSlow(text, rate).catch(error => {
+    window.googleTTS.speakSlow(text, speakingRate).catch(error => {
       console.error("Google TTS failed, falling back to browser TTS:", error);
-      playBrowserTTS(text, 0.9 * rate);
+      playBrowserTTS(text, speakingRate);
     });
   } else if ('speechSynthesis' in window) {
-    playBrowserTTS(text, 0.9 * rate);
+    playBrowserTTS(text, speakingRate);
   }
 }
 
