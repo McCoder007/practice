@@ -1,6 +1,7 @@
 import { SOURCE_CHUNK_SIZE, sourceRangeCards } from "../exam-quiz/catalog.ts"
 import type { SourceRangeCard } from "../exam-quiz/catalog.ts"
 import type { LocalizedText, PracticeSourceId } from "../exam-quiz/types.ts"
+import { EXAM_TOPIC_INDEX } from "../nic-domain-practice/index.generated.ts"
 
 export const NAIL_EXAM_PRACTICE_TITLE: LocalizedText = {
   en: "Nail Exam Practice",
@@ -26,13 +27,21 @@ export type NailExamBankId =
   | `milady-foundations-${string}`
   | `milady-nails-${string}`
   | "milady-comprehensive"
-export type NailExamPoolId = "official" | "practice" | "kelly" | "milady-review"
+  | `exam-topic-${string}`
+export type NailExamPoolId = "official" | "practice" | "kelly" | "milady-review" | "exam-topics"
 
 export type NailExamRandomOption = {
-  id: "quick" | "practice"
+  id: "quick" | "practice" | "topic-mix" | "full-test" | "half-test"
   count: number
   title: LocalizedText
+  /** Shown under the title instead of "N random questions". */
+  description?: LocalizedText
+  /** Draw in proportion to the NIC exam weights instead of uniformly. */
+  weighted?: boolean
 }
+
+/** A question group. `label` replaces the "Questions 1–20" tile text (e.g. a set title). */
+export type NailExamGroupRange = SourceRangeCard & { label?: LocalizedText }
 
 export type NailExamBank = {
   id: NailExamBankId
@@ -48,12 +57,14 @@ export type NailExamBank = {
   /** Explicit question-group boundaries, when a bank doesn't use plain fixed-size
    * chunking (e.g. a small trailing group gets merged into the previous one).
    * When absent, groups fall back to fixed SOURCE_CHUNK_SIZE chunks. */
-  groupRanges?: readonly SourceRangeCard[]
+  groupRanges?: readonly NailExamGroupRange[]
   /** Where the bank screen's back link goes, for banks nested more than one
    * level below the hub. Defaults to the Nail Exam Practice hub when absent. */
   backHref?: string
   backTitle?: LocalizedText
   accent: "violet" | "rose" | "cyan" | "amber" | "emerald"
+  /** Overrides the default "N questions · N groups" line. */
+  summary?: LocalizedText
   formats: {
     multipleChoice: true
     studyCards: true
@@ -352,6 +363,126 @@ export function getMiladyReviewChapterBankId(
   return miladyChapterBankId(section, chapter)
 }
 
+// ---------------------------------------------------------------------------
+// Study by Exam Topic: questions written for each NIC exam content area.
+
+export const EXAM_TOPICS_TITLE: LocalizedText = { en: "Study by Exam Topic", zh: "按考试主题学习" }
+export const EXAM_TOPICS_HREF = "/nail-exam-practice/exam-topics"
+export const EXAM_TOPICS_SOURCE_NAME = EXAM_TOPIC_INDEX.sourceTitle
+export const EXAM_TOPICS_QUESTION_COUNT: number = EXAM_TOPIC_INDEX.totalQuestions
+export const EXAM_TOPICS_DESCRIPTION: LocalizedText = {
+  en: `${EXAM_TOPIC_INDEX.domains.length} exam topics · ${EXAM_TOPICS_QUESTION_COUNT} questions · tips to remember`,
+  zh: `${EXAM_TOPIC_INDEX.domains.length} 大考试主题 · ${EXAM_TOPICS_QUESTION_COUNT} 道题 · 附记忆技巧`,
+}
+
+export type ExamTopicSet = { setId: string; title: LocalizedText; offset: number; count: number }
+
+export type ExamTopic = {
+  id: string
+  order: number
+  title: LocalizedText
+  examWeightPercent: number
+  questionCount: number
+  sets: readonly ExamTopicSet[]
+  href: string
+  bankId: NailExamBankId
+}
+
+const EXAM_TOPIC_ACCENTS: readonly NailExamBank["accent"][] = ["violet", "rose", "cyan", "amber", "emerald"]
+
+export const EXAM_TOPICS: readonly ExamTopic[] = EXAM_TOPIC_INDEX.domains.map((domain) => ({
+  id: domain.id,
+  order: domain.order,
+  title: domain.title,
+  examWeightPercent: domain.examWeightPercent,
+  questionCount: domain.questionCount,
+  sets: domain.sets,
+  href: `${EXAM_TOPICS_HREF}/${domain.id}`,
+  bankId: `exam-topic-${domain.id}` as NailExamBankId,
+}))
+
+/** Topic id + exam weight, for drawing practice tests weighted like the real exam. */
+export const EXAM_TOPIC_WEIGHTS = EXAM_TOPICS.map((topic) => ({
+  id: topic.id,
+  examWeightPercent: topic.examWeightPercent,
+}))
+
+export function examTopicSummary(topic: Pick<ExamTopic, "examWeightPercent" | "sets" | "questionCount">): LocalizedText {
+  const setWord = topic.sets.length === 1 ? "set" : "sets"
+  return {
+    en: `${topic.examWeightPercent}% of the exam · ${topic.sets.length} ${setWord} · ${topic.questionCount} questions`,
+    zh: `占考试 ${topic.examWeightPercent}% · ${topic.sets.length} 套 · ${topic.questionCount} 道题`,
+  }
+}
+
+function buildExamTopicBank(topic: ExamTopic, index: number): NailExamBank {
+  return {
+    id: topic.bankId,
+    publicName: topic.title,
+    href: topic.href,
+    internalSourceName: `${EXAM_TOPICS_SOURCE_NAME} — ${topic.title.en}`,
+    pool: "exam-topics",
+    // Question ids are nic-<topic order><set letter>-NN, e.g. nic-1a-01.
+    idPrefix: `nic-${topic.order}`,
+    approvedCount: topic.questionCount,
+    groupCount: topic.sets.length,
+    groupRanges: topic.sets.map((set) => ({
+      offset: set.offset,
+      start: set.offset + 1,
+      end: set.offset + set.count,
+      count: set.count,
+      label: set.title,
+    })),
+    backHref: EXAM_TOPICS_HREF,
+    backTitle: EXAM_TOPICS_TITLE,
+    accent: EXAM_TOPIC_ACCENTS[index % EXAM_TOPIC_ACCENTS.length],
+    summary: examTopicSummary(topic),
+    formats: { multipleChoice: true, studyCards: true },
+    randomOptions:
+      topic.sets.length > 1
+        ? [{ id: "topic-mix", count: 20, title: { en: "Mix all sets in this topic", zh: "本主题各套混合练习" } }]
+        : [],
+  }
+}
+
+export const EXAM_TOPIC_BANKS: readonly NailExamBank[] = EXAM_TOPICS.map(buildExamTopicBank)
+
+export const EXAM_TOPICS_PRACTICE_TEST_BANK: NailExamBank = {
+  id: "exam-topic-practice-test",
+  publicName: { en: "Practice Test", zh: "模拟测试" },
+  href: `${EXAM_TOPICS_HREF}/practice-test`,
+  internalSourceName: `${EXAM_TOPICS_SOURCE_NAME} — weighted practice test`,
+  pool: "exam-topics",
+  idPrefix: "nic-",
+  approvedCount: EXAM_TOPICS_QUESTION_COUNT,
+  groupCount: 0,
+  groupRanges: [],
+  backHref: EXAM_TOPICS_HREF,
+  backTitle: EXAM_TOPICS_TITLE,
+  accent: "violet",
+  summary: {
+    en: "A new random test each time, with each topic's share matching the real exam",
+    zh: "每次随机出新题，各主题题量比例与真实考试相同",
+  },
+  formats: { multipleChoice: true, studyCards: true },
+  randomOptions: [
+    {
+      id: "full-test",
+      count: 100,
+      weighted: true,
+      title: { en: "Full practice test", zh: "完整模拟测试" },
+      description: { en: "100 questions, like the real exam", zh: "100 道题，与真实考试相同" },
+    },
+    {
+      id: "half-test",
+      count: 50,
+      weighted: true,
+      title: { en: "Half practice test", zh: "半套模拟测试" },
+      description: { en: "50 questions, same mix of topics", zh: "50 道题，主题比例相同" },
+    },
+  ],
+}
+
 export const MIXED_PRACTICE = {
   title: { en: "Mixed Practice", zh: "混合练习" } satisfies LocalizedText,
   href: "/nail-exam-practice/mixed",
@@ -384,7 +515,9 @@ export const LEGACY_EXAM_PRACTICE_REDIRECTS = [
 export function getNailExamBank(bankId: NailExamBankId): NailExamBank {
   const bank =
     NAIL_EXAM_BANKS.find((entry) => entry.id === bankId) ??
-    MILADY_REVIEW_BANKS.find((entry) => entry.id === bankId)
+    MILADY_REVIEW_BANKS.find((entry) => entry.id === bankId) ??
+    EXAM_TOPIC_BANKS.find((entry) => entry.id === bankId) ??
+    (bankId === EXAM_TOPICS_PRACTICE_TEST_BANK.id ? EXAM_TOPICS_PRACTICE_TEST_BANK : undefined)
   if (!bank) throw new Error(`unknown nail exam bank: ${bankId}`)
   return bank
 }
@@ -394,7 +527,9 @@ export function bankHrefForPracticeSource(sourceId: PracticeSourceId): string {
   return bank?.href ?? NAIL_EXAM_PRACTICE_HREF
 }
 
-export function bankGroupCards(bank: Pick<NailExamBank, "approvedCount" | "groupRanges">) {
+export function bankGroupCards(
+  bank: Pick<NailExamBank, "approvedCount" | "groupRanges">,
+): readonly NailExamGroupRange[] {
   return bank.groupRanges ?? sourceRangeCards(bank.approvedCount, SOURCE_CHUNK_SIZE)
 }
 
@@ -420,6 +555,7 @@ export function sliceBankGroup<T extends { id: string }>(
 }
 
 export function bankSummaryLine(bank: NailExamBank): LocalizedText {
+  if (bank.summary) return bank.summary
   return {
     en: `${bank.approvedCount} questions · ${bank.groupCount} groups`,
     zh: `${bank.approvedCount} 道题目 · ${bank.groupCount} 组`,
@@ -433,7 +569,13 @@ export function groupLabel(start: number, end: number): LocalizedText {
   }
 }
 
-export function sessionGroupLabel(bank: NailExamBank, start: number, end: number): LocalizedText {
+export function sessionGroupLabel(
+  bank: NailExamBank,
+  start: number,
+  end: number,
+  label?: LocalizedText,
+): LocalizedText {
+  if (label) return label
   return {
     en: `${bank.publicName.en} Q${start}–${end}`,
     zh: `${bank.publicName.zh} 第 ${start}–${end} 题`,

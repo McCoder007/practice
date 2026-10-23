@@ -1,0 +1,1273 @@
+{
+  "schemaVersion": "1.0.0",
+  "setId": "7B",
+  "domain": {
+    "id": "enhancements",
+    "order": 7,
+    "title": {
+      "en": "Nail Enhancements: Application, Maintenance, and Removal",
+      "zh": "美甲延长与加固：施做、维护与卸除"
+    },
+    "examWeightPercent": 20
+  },
+  "title": {
+    "en": "Monomer Liquid and Polymer Powder",
+    "zh": "水晶甲：单体液与聚合物粉"
+  },
+  "status": "reviewed",
+  "authoredAt": "2026-10-22",
+  "sourceBook": "Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020)",
+  "review": {
+    "reviewedAt": "2026-10-23",
+    "checks": [
+      "quotes found on cited pages (verify-nic-domain-evidence.py)",
+      "blind answer check: 20/20 matched key (changed and new questions re-checked)",
+      "content and Chinese review: fixes applied",
+      "memory hooks fact-checked (word origins, Chinese characters, textbook facts): fixes applied"
+    ]
+  },
+  "questions": [
+    {
+      "id": "nic-7b-01",
+      "question": {
+        "en": "A medium bead uses about how much liquid compared with powder?",
+        "zh": "中等湿度的水晶球（medium bead）里，液体大约是粉的多少？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Half as much liquid",
+          "zh": "液体是粉的一半"
+        },
+        {
+          "id": "b",
+          "en": "Equal amounts",
+          "zh": "液体和粉一样多"
+        },
+        {
+          "id": "c",
+          "en": "One and a half times as much",
+          "zh": "液体是粉的 1.5 倍"
+        },
+        {
+          "id": "d",
+          "en": "Twice as much liquid",
+          "zh": "液体是粉的 2 倍"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Equal liquid and powder makes a dry bead; twice as much liquid makes a wet bead. A medium bead is halfway between and is usually the ideal mix ratio.",
+        "zh": "液体和粉等量是 dry bead（干球）；液体是粉的两倍是 wet bead（湿球）。medium bead（中球）介于两者之间，通常是最理想的 mix ratio（液粉比）。"
+      },
+      "lockPoint": {
+        "en": "Medium comes from Latin medius, 'middle': halfway between dry (1 to 1) and wet (2 to 1).",
+        "zh": "medium 来自拉丁语 medius，意思是“中间”：正好在干球（1:1）和湿球（2:1）的中间。"
+      },
+      "teachingRelation": "number",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Monomer Liquid",
+          "pdfPage": 348,
+          "printedPage": "324"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 348,
+          "quote": "If equal amounts of liquid and powder are used to create the bead, it is called a dry bead."
+        },
+        {
+          "pdfPage": 348,
+          "quote": "If twice as much liquid as powder is used to create the bead, it is called a wet bead. Halfway between these two is a medium bead, which contains one-and-a-half more liquid than powder."
+        },
+        {
+          "pdfPage": 348,
+          "quote": "In general, medium beads are the ideal mix ratio for working with monomer liquids and polymer powders."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-7b-02",
+      "question": {
+        "en": "Too little powder in the bead can cause",
+        "zh": "水晶球里粉太少，会造成什么问题？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "a weak nail and skin irritation.",
+          "zh": "指甲变弱，并可能刺激皮肤。"
+        },
+        {
+          "id": "b",
+          "en": "brittleness and discoloration.",
+          "zh": "变脆和变色。"
+        },
+        {
+          "id": "c",
+          "en": "many trapped air bubbles.",
+          "zh": "里面有很多气泡。"
+        },
+        {
+          "id": "d",
+          "en": "a chalky white surface.",
+          "zh": "表面发白像粉笔。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Too little powder makes the enhancement weak and raises the risk of skin irritation or sensitivity. Too much powder cures incorrectly and can cause brittleness or discoloration.",
+        "zh": "粉太少会让甲变弱，并增加皮肤刺激或过敏的风险。粉太多则固化不正确，可能变脆或变色。"
+      },
+      "lockPoint": {
+        "en": "Milady's cookie rule: too much flour, dry and crumbly; too little flour, soft and gooey.",
+        "zh": "Milady 的饼干比喻：面粉太多，又干又碎；面粉太少，又软又黏。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Monomer Liquid",
+          "pdfPage": 348,
+          "printedPage": "324"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 348,
+          "quote": "If too little powder is used, the nail enhancement can become weak, and the risk of clients developing skin irritation and sensitivity may increase."
+        },
+        {
+          "pdfPage": 348,
+          "quote": "If too much powder is picked up in the bead, the enhancement will cure incorrectly and may lead to brittleness and/or discoloration."
+        },
+        {
+          "pdfPage": 348,
+          "quote": "if too much flour is added when making cookies, the cookies will be dry and crumbly; too little flour will make the cookies soft and gooey"
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-7b-03",
+      "question": {
+        "en": "What does the perfect bead look like when placed on a form?",
+        "zh": "理想的水晶球放到纸托上时是什么样子？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Dry, with loose powder around it",
+          "zh": "偏干，周围有没吸透的粉"
+        },
+        {
+          "id": "b",
+          "en": "Runny, spreading across the form",
+          "zh": "很稀，在纸托上流开"
+        },
+        {
+          "id": "c",
+          "en": "Lumpy and full of air bubbles",
+          "zh": "疙疙瘩瘩，满是气泡"
+        },
+        {
+          "id": "d",
+          "en": "Round and shiny; settles but doesn't run",
+          "zh": "圆润有光泽，会稍微摊开但不流动"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "A perfect bead is round and shiny, and it settles on the form without running. Dry powder around it means too little liquid; dripping means too wet.",
+        "zh": "理想的水晶球圆润有光泽，放在纸托上会稍微摊开但不会流动。周围有干粉说明液体太少；会滴落说明太湿。"
+      },
+      "lockPoint": {
+        "en": "Picture a dab of thick hair gel on a plate: round, glossy, slumps a little, then holds.",
+        "zh": "想象盘子上的一小坨发胶：圆润有光泽，稍微摊开，然后就定住不动。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Monomer Liquid",
+          "pdfPage": 348,
+          "printedPage": "324"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Nail Brush",
+          "pdfPage": 352,
+          "printedPage": "328"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 348,
+          "quote": "The perfect bead will be round and shiny; when placed on a form, it will settle but not run."
+        },
+        {
+          "pdfPage": 352,
+          "quote": "If it has dried powder around it, you need to leave more liquid in your brush. If it drips off the end of your brush, it's too wet"
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-7b-04",
+      "question": {
+        "en": "A monomer liquid is called odorless when",
+        "zh": "单体液（monomer liquid）在什么情况下被称为 odorless（无味）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "it has no odor at all.",
+          "zh": "它完全没有气味。"
+        },
+        {
+          "id": "b",
+          "en": "it is made with MMA.",
+          "zh": "它是用 MMA 做的。"
+        },
+        {
+          "id": "c",
+          "en": "others in the salon can't smell it.",
+          "zh": "店里的其他人闻不到它。"
+        },
+        {
+          "id": "d",
+          "en": "a perfume covers its odor.",
+          "zh": "加了香料盖住气味。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Odorless products still have a slight odor. If others in the salon can't detect it, it is called odorless; if they notice a slight odor, it is called low odor.",
+        "zh": "odorless（无味）产品其实仍有轻微气味。店里其他人闻不出来，就叫无味；能闻到一点，就叫 low odor（低味）。"
+      },
+      "lockPoint": {
+        "en": "Name trap: odorless liquids swap the usual ethyl monomer for low-smell monomers. The scent is faint, not gone.",
+        "zh": "名字陷阱：odorless 产品把常用的乙基单体换成气味很淡的单体。味道变淡了，但没有消失。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Odorless Monomer Liquid and Polymer Powder Products",
+          "pdfPage": 347,
+          "printedPage": "323"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 347,
+          "quote": "Even though these products are called odorless, they do have a slight odor. Generally, if a monomer liquid does not produce a strong enough odor so that others in the salon or spa can detect its presence, it is considered to be an odorless product."
+        },
+        {
+          "pdfPage": 347,
+          "quote": "Those that create a slight odor in the salon or spa are called low odor."
+        },
+        {
+          "pdfPage": 347,
+          "quote": "Rather than using ethyl acrylic, these products rely on monomers that have little odor."
+        }
+      ],
+      "hookType": "name-trap"
+    },
+    {
+      "id": "nic-7b-05",
+      "question": {
+        "en": "When shaping an odorless bead on the nail, you should never",
+        "zh": "在指甲上塑形无味水晶球时，绝对不能做什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "re-wet the brush with monomer.",
+          "zh": "再把笔刷蘸湿单体液。"
+        },
+        {
+          "id": "b",
+          "en": "wipe the brush on a towel.",
+          "zh": "在纸巾上擦笔。"
+        },
+        {
+          "id": "c",
+          "en": "use a dry mix ratio.",
+          "zh": "用偏干的液粉比。"
+        },
+        {
+          "id": "d",
+          "en": "press and smooth the bead.",
+          "zh": "按压并抹平水晶球。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Odorless products use a dry mix ratio. Re-wetting the brush changes the ratio and can cause discoloration, service breakdown, and skin irritation. Wiping the brush often is correct.",
+        "zh": "无味产品要用 dry mix ratio（偏干的液粉比）。再蘸湿笔刷会改变液粉比，可能导致变色、美甲提前损坏和皮肤刺激。勤擦笔刷才是对的。"
+      },
+      "lockPoint": {
+        "en": "Each extra dip adds liquid on the nail, so the dry bead slowly becomes a wet one.",
+        "zh": "每多蘸一次，指甲上的液体就多一点，干球就慢慢变成了湿球。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Odorless Monomer Liquid and Polymer Powder Products",
+          "pdfPage": 347,
+          "printedPage": "323"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 347,
+          "quote": "In general, odorless products must be used with a dry mix ratio"
+        },
+        {
+          "pdfPage": 347,
+          "quote": "Wipe your brush frequently to avoid the product sticking to the hairs. Never re-wet the brush with monomer liquid. This will change the mix ratio, which can lead to product discoloration, service breakdown, and increased risk of skin irritation and sensitivity."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-7b-06",
+      "question": {
+        "en": "Acid-free primer works most like",
+        "zh": "无酸结合剂（acid-free primer）的作用最像什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "sandpaper that roughs up the nail.",
+          "zh": "把指甲磨粗的砂纸。"
+        },
+        {
+          "id": "b",
+          "en": "a glossy sealing topcoat.",
+          "zh": "一层亮面封层。"
+        },
+        {
+          "id": "c",
+          "en": "a dehydrator that dries the nail.",
+          "zh": "让指甲干燥的脱水剂。"
+        },
+        {
+          "id": "d",
+          "en": "two-sided sticky tape.",
+          "zh": "双面胶。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "One end of the acid-free primer molecule bonds to nail protein; the other end bonds to the monomer as it cures. That is why Milady compares it to two-sided tape.",
+        "zh": "acid-free primer（无酸结合剂）分子的一端和指甲蛋白结合，另一端在单体固化时和单体结合，所以 Milady 把它比作双面胶。"
+      },
+      "lockPoint": {
+        "en": "Primer comes from prime, likely from Latin primus 'first': it's the first coat under the product.",
+        "zh": "primer 来自 prime，很可能源自拉丁语 primus（第一）：它是产品下面的第一层。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Nail Primer",
+          "pdfPage": 349,
+          "printedPage": "325"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 349,
+          "quote": "One end of the primer molecule chemically bonds to the nail protein in the natural nail; the other end of the molecule is a methacrylate, so it bonds to the monomer liquid as it cures. Think of this as a two-sided sticky tape."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-7b-07",
+      "question": {
+        "en": "When preparing nails for liquid and powder, which order is correct?",
+        "zh": "做水晶甲前处理时，哪个顺序是对的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Primer, then dehydrator",
+          "zh": "先结合剂，再脱水剂"
+        },
+        {
+          "id": "b",
+          "en": "Dehydrator, then primer",
+          "zh": "先脱水剂，再结合剂"
+        },
+        {
+          "id": "c",
+          "en": "Dehydrator, then nail cleanser",
+          "zh": "先脱水剂，再甲面清洁剂"
+        },
+        {
+          "id": "d",
+          "en": "Primer, then buff off the shine",
+          "zh": "先结合剂，再磨掉光泽"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Milady's steps apply nail dehydrator first to remove moisture and oil, then nail primer to improve adhesion. Product goes on only after the primer is dry.",
+        "zh": "Milady 的步骤是先涂 dehydrator（脱水剂）去除水分和油分，再涂 primer（结合剂）增强附着。结合剂干了之后才上产品。"
+      },
+      "lockPoint": {
+        "en": "Clean the surface, then add the grip: dry the nail first, then lay the two-sided tape.",
+        "zh": "先把表面弄干净，再加“抓力”：先让指甲干燥，再贴上那层“双面胶”。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - One-Color Liquid and Powder Maintenance",
+          "pdfPage": 368,
+          "printedPage": "344"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Nail Primer",
+          "pdfPage": 349,
+          "printedPage": "325"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 368,
+          "quote": "Apply nail dehydrator to all nails. Apply nail primer to all nails."
+        },
+        {
+          "pdfPage": 349,
+          "quote": "Never apply nail enhancement product over wet nail primer."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-7b-08",
+      "question": {
+        "en": "Nail primer is especially useful for a client with",
+        "zh": "结合剂（nail primer）对哪种客人特别有用？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "very short nail beds.",
+          "zh": "甲床很短。"
+        },
+        {
+          "id": "b",
+          "en": "thick, curved toenails.",
+          "zh": "脚趾甲又厚又弯。"
+        },
+        {
+          "id": "c",
+          "en": "oily nail plates.",
+          "zh": "甲面偏油。"
+        },
+        {
+          "id": "d",
+          "en": "very sensitive skin.",
+          "zh": "皮肤非常敏感。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Primer improves adhesion, so it is especially useful when a client has oily nail plates, where adhesion is a problem. Use it sparingly; one thin coat is enough for most clients.",
+        "zh": "primer（结合剂）能增强附着，所以对甲面偏油、不容易附着的客人特别有用。要少量使用，大多数客人一薄层就够了。"
+      },
+      "lockPoint": {
+        "en": "Oil blocks adhesion the way grease stops tape from sticking to a pan.",
+        "zh": "油会妨碍附着，就像胶带贴不住油腻的锅。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Adhesion, Adhesives, and Primers",
+          "pdfPage": 142,
+          "printedPage": "118"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Adhesion, Adhesives, and Primers",
+          "pdfPage": 141,
+          "printedPage": "117"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 142,
+          "quote": "These are especially useful if the client has oily nail plates, where adhesion is a problem."
+        },
+        {
+          "pdfPage": 141,
+          "quote": "A nail primer (NAYL PRY-mer) is a substance that improves adhesion."
+        },
+        {
+          "pdfPage": 141,
+          "quote": "Oils, waxes, and soil will contaminate a surface and block adhesion."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-7b-09",
+      "question": {
+        "en": "Why should nail primer be kept off plastic nail tips?",
+        "zh": "为什么结合剂不能涂到塑料甲片上？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "It stops the overlay from curing.",
+          "zh": "会让加固层无法固化。"
+        },
+        {
+          "id": "b",
+          "en": "It makes the tip stick too tightly.",
+          "zh": "会让甲片粘得太紧。"
+        },
+        {
+          "id": "c",
+          "en": "It turns the tip yellow in sunlight.",
+          "zh": "会让甲片在阳光下变黄。"
+        },
+        {
+          "id": "d",
+          "en": "It can melt the tip and weaken adhesive.",
+          "zh": "会让甲片融化，并削弱甲片胶。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Primer goes only on the natural nail, and only once. On plastic tips it can melt the tip, make it brittle, and break down the tip adhesive.",
+        "zh": "primer（结合剂）只涂在真甲上，而且只涂一次。涂在塑料甲片上，可能让甲片融化、变脆，并破坏甲片胶。"
+      },
+      "lockPoint": {
+        "en": "In a repair, Milady primes only the exposed natural nail, never the old product.",
+        "zh": "修补时，Milady 只在露出的真甲上涂结合剂，从不涂在旧产品上。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Nail Primer",
+          "pdfPage": 349,
+          "printedPage": "325"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Liquid and Powder Nail Enhancement Repair",
+          "pdfPage": 355,
+          "printedPage": "331"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 349,
+          "quote": "Nail primer should only be applied to the nail only once and only to the natural nail. Avoid putting nail primer on plastic nail tips, as it can cause the tip to melt, become brittle, and break down the adhesive"
+        },
+        {
+          "pdfPage": 355,
+          "quote": "If any natural nail is showing, you will need to apply nail dehydrator and primer to the exposed natural nail."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-7b-10",
+      "question": {
+        "en": "Before using acid-based primer, what should you put on?",
+        "zh": "使用酸性结合剂之前，应该戴上什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Protective gloves and safety eyewear",
+          "zh": "防护手套和护目镜"
+        },
+        {
+          "id": "b",
+          "en": "A dust mask only",
+          "zh": "只戴防尘口罩"
+        },
+        {
+          "id": "c",
+          "en": "Barrier cream on the cuticle only",
+          "zh": "只在甲小皮处涂隔离霜"
+        },
+        {
+          "id": "d",
+          "en": "A hairnet and an apron",
+          "zh": "发网和围裙"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Acid-based primer is corrosive and can cause serious, sometimes irreversible, damage to skin and eyes. Always wear protective gloves and safety eyewear.",
+        "zh": "acid-based primer（酸性结合剂）有腐蚀性，可能对皮肤和眼睛造成严重、有时无法逆转的伤害。务必戴防护手套和护目镜。"
+      },
+      "lockPoint": {
+        "en": "Corrosive comes from Latin corrodere, 'to gnaw away': acid primer can burn and scar skin and eyes.",
+        "zh": "corrosive（腐蚀性）来自拉丁语 corrodere，意思是“啃掉”：酸性结合剂会灼伤皮肤和眼睛，留下疤痕。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Nail Primer",
+          "pdfPage": 349,
+          "printedPage": "325"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 349,
+          "quote": "Acid-based nail primers are very effective but can cause serious—and sometimes irreversible—damage to the skin and eyes. Never use acid-based nail primer or any other corrosive material without wearing protective gloves and safety eyewear."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-7b-11",
+      "question": {
+        "en": "Before applying enhancements, how much should the natural nail be filed?",
+        "zh": "做美甲加固前，真甲应该锉到什么程度？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Until the surface feels rough",
+          "zh": "锉到表面摸起来很粗"
+        },
+        {
+          "id": "b",
+          "en": "Only enough to remove the shine",
+          "zh": "只锉掉表面光泽"
+        },
+        {
+          "id": "c",
+          "en": "Until the nail plate is thin",
+          "zh": "锉到甲面变薄"
+        },
+        {
+          "id": "d",
+          "en": "Not at all; leave the shine",
+          "zh": "完全不锉，保留光泽"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "It is a myth that products stick only to a roughed-up nail. Adhesion is best on a clean, dry plate, so remove only the surface shine. A thinner plate is a weaker base.",
+        "zh": "认为指甲要磨粗产品才粘得住，是一种误解。甲面干净、干燥时附着最好，所以只需去掉表面光泽。甲面越薄，基础越弱。"
+      },
+      "lockPoint": {
+        "en": "Milady: the nail tech's first duty is to keep the nail plate thick, strong, and healthy.",
+        "zh": "Milady 说：美甲师的第一职责，是让甲面保持厚实、坚固、健康。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Adhesion of Nail Enhancements",
+          "pdfPage": 143,
+          "printedPage": "119"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 143,
+          "quote": "It is a myth that nail enhancements and tips do not stick unless you rough up the nail. Roughing up the nail is potentially harmful to clients' nails. Adhesion is best when the nail plate is clean and dry."
+        },
+        {
+          "pdfPage": 143,
+          "quote": "to remove only the surface shine"
+        },
+        {
+          "pdfPage": 143,
+          "quote": "Thinner nail plates create a weaker foundation for nail enhancements."
+        },
+        {
+          "pdfPage": 143,
+          "quote": "Keeping the nail plate thick, strong, and healthy is the nail professional's first duty!"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-7b-12",
+      "question": {
+        "en": "Why are MMA enhancements usually pried off the nail?",
+        "zh": "为什么 MMA 美甲通常是被硬撬下来的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "They don't dissolve well in removers.",
+          "zh": "它们在卸甲液里不容易溶解。"
+        },
+        {
+          "id": "b",
+          "en": "They are too soft to file.",
+          "zh": "它们太软，没法锉。"
+        },
+        {
+          "id": "c",
+          "en": "They come off in water.",
+          "zh": "它们遇水就会脱落。"
+        },
+        {
+          "id": "d",
+          "en": "They are glued on with resin.",
+          "zh": "它们是用树脂粘上去的。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "MMA does not dissolve well in product removers, so it is usually pried from the nail plate, causing more damage. MMA is not to be used on nails.",
+        "zh": "MMA 在卸甲液里不容易溶解，所以通常被从甲面上硬撬下来，造成更多损伤。指甲上不能使用 MMA。"
+      },
+      "lockPoint": {
+        "en": "MMA is the liquid in surgeons' bone cement for fixing artificial joints: built to stay put, not soak off.",
+        "zh": "MMA 是外科骨水泥的液体成分，用来固定人工关节：它就是要牢牢不动，而不是被泡掉。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Chemistry of Liquid and Powder",
+          "pdfPage": 345,
+          "printedPage": "321"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Methacrylates",
+          "pdfPage": 148,
+          "printedPage": "124"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 345,
+          "quote": "MMA is extremely difficult to remove. Since it will not dissolve well in product removers, it is usually pried from the nail plate, creating more damage."
+        },
+        {
+          "pdfPage": 148,
+          "quote": "MMA is the preferred bone repair cement for implantation into the body."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-7b-13",
+      "question": {
+        "en": "How should a small amount of leftover monomer liquid be thrown away?",
+        "zh": "少量剩余的单体液应该怎样丢弃？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Pour it straight into a plastic bag",
+          "zh": "直接倒进塑料袋"
+        },
+        {
+          "id": "b",
+          "en": "Pour it back into the bottle",
+          "zh": "倒回原瓶"
+        },
+        {
+          "id": "c",
+          "en": "Pour onto an absorbent towel, then bag it",
+          "zh": "倒在吸水纸巾上，再装进塑料袋"
+        },
+        {
+          "id": "d",
+          "en": "Pour it down the sink",
+          "zh": "倒进水槽"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Pour it into a very absorbent paper towel, place that in a plastic bag, and seal the bag in a closed waste container. Never pour it back into the original container.",
+        "zh": "把它倒在吸水性很强的纸巾上，放进塑料袋，再封好丢进有盖垃圾桶。绝不能倒回原瓶。"
+      },
+      "lockPoint": {
+        "en": "Every brush dip leaves powder in the dish, so pouring it back would spoil the whole bottle.",
+        "zh": "笔刷每蘸一次都会把粉带进杯里，倒回去会污染整瓶液体。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Storing and Disposing of Products",
+          "pdfPage": 353,
+          "printedPage": "329"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Dappen Dish",
+          "pdfPage": 351,
+          "printedPage": "327"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 353,
+          "quote": "To dispose of a small amount of leftover monomer liquid, carefully pour it into a very absorbent paper towel and then place it in a plastic bag."
+        },
+        {
+          "pdfPage": 353,
+          "quote": "never pour it directly into the plastic bag!"
+        },
+        {
+          "pdfPage": 351,
+          "quote": "Each time the brush is dipped into the dappen dish of monomer, it is contaminated with small amounts of polymer powder."
+        },
+        {
+          "pdfPage": 351,
+          "quote": "Never pour the unused portion of monomer liquid back into the original container."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-7b-14",
+      "question": {
+        "en": "What kind of brush is best for liquid and powder?",
+        "zh": "做水晶甲（liquid and powder）最好用哪种笔刷？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Synthetic nylon bristles",
+          "zh": "合成尼龙毛"
+        },
+        {
+          "id": "b",
+          "en": "Natural hair, like kolinsky or sable",
+          "zh": "天然毛，如貂毛（kolinsky）或紫貂毛（sable）"
+        },
+        {
+          "id": "c",
+          "en": "A foam-tipped applicator",
+          "zh": "海绵头涂抹棒"
+        },
+        {
+          "id": "d",
+          "en": "An extra-large size 16 brush",
+          "zh": "特大号 16 号笔"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Natural hair absorbs and holds monomer like a reservoir. Synthetic brushes don't pick up enough liquid or release it properly, and size 12 to 16 brushes hold too much.",
+        "zh": "天然毛能像水库一样吸住并保存单体液。合成毛吸不够单体液，放液也不顺畅；而 12 到 16 号的大笔又吸得太多。"
+      },
+      "lockPoint": {
+        "en": "Gel uses a nylon brush; acrylic uses natural hair. The most common acrylic brush is a #8 oval.",
+        "zh": "光疗胶用尼龙笔，水晶甲用天然毛笔。最常用的水晶笔是 8 号椭圆笔。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Nail Brush",
+          "pdfPage": 351,
+          "printedPage": "327"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Chemistry of Liquid and Powder",
+          "pdfPage": 345,
+          "printedPage": "321"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Supplies for Gel Application",
+          "pdfPage": 383,
+          "printedPage": "359"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 351,
+          "quote": "The best nail brush to use for liquid and powder enhancements is a natural hairbrush composed of kolinsky, sable, or a blend of both."
+        },
+        {
+          "pdfPage": 345,
+          "quote": "The natural hair bristles absorb and hold the monomer liquid, like a reservoir."
+        },
+        {
+          "pdfPage": 351,
+          "quote": "Avoid overly large brushes (size 12 to 16), since they can hold excessive amounts of liquid"
+        },
+        {
+          "pdfPage": 351,
+          "quote": "The most commonly used brush for monomer liquid or polymer powder is a #8 oval brush"
+        },
+        {
+          "pdfPage": 383,
+          "quote": "Brushes with small, flat (or oval) nylon bristles that are used to hold and spread the gel."
+        }
+      ],
+      "hookType": "contrast"
+    },
+    {
+      "id": "nic-7b-15",
+      "question": {
+        "en": "How should you wipe your liquid and powder brush on the towel?",
+        "zh": "做水晶甲时，笔刷应该怎样在纸巾上擦？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Rapidly back and forth",
+          "zh": "快速来回擦"
+        },
+        {
+          "id": "b",
+          "en": "In small, quick circles",
+          "zh": "打小圈快速擦"
+        },
+        {
+          "id": "c",
+          "en": "Pressed flat and twisted",
+          "zh": "压扁后再扭转"
+        },
+        {
+          "id": "d",
+          "en": "In one direction, pulling it along",
+          "zh": "朝一个方向拖着擦"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Wipe in one direction, pulling the brush along the towel. Rubbing back and forth presses the hairs against the sharp metal ferrule and can cut them off.",
+        "zh": "朝一个方向、拖着笔刷在纸巾上擦。来回猛擦会把笔毛压在锋利的金属笔箍（ferrule）边上，可能把毛割断。"
+      },
+      "lockPoint": {
+        "en": "Scrubbing hair over a metal edge works like sawing: each pass cuts a few more hairs.",
+        "zh": "在金属边上来回擦，就像拉锯：每来回一次，就多割断几根毛。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Nail Brush",
+          "pdfPage": 352,
+          "printedPage": "328"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 352,
+          "quote": "Avoid wiping your brush rapidly back and forth against a table towel. This can press the hairs against the sharp edge of the metal ferrule and cut them off. Instead, wipe in one direction, pulling the brush along the towel."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-7b-16",
+      "question": {
+        "en": "Which initiator in polymer powder starts the chain reaction that cures the product?",
+        "zh": "聚合物粉里哪种引发剂（initiator）启动让产品固化的链式反应？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Benzoyl peroxide (BPO)",
+          "zh": "过氧化苯甲酰（BPO）"
+        },
+        {
+          "id": "b",
+          "en": "A photoinitiator",
+          "zh": "光引发剂（photoinitiator）"
+        },
+        {
+          "id": "c",
+          "en": "Methacrylic acid",
+          "zh": "甲基丙烯酸（methacrylic acid）"
+        },
+        {
+          "id": "d",
+          "en": "Cyanoacrylate",
+          "zh": "氰基丙烯酸酯（cyanoacrylate）"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "BPO is the initiator added to polymer powder. Powders carry different amounts of BPO to suit a certain liquid, so use the powder made for your monomer.",
+        "zh": "BPO（过氧化苯甲酰）是加在聚合物粉里的引发剂。不同的粉含 BPO 的量不同，以配合特定的单体液，所以要用和你的单体液配套的粉。"
+      },
+      "lockPoint": {
+        "en": "BPO is the same ingredient as in some acne creams; nail powders use much less of it.",
+        "zh": "BPO 和一些祛痘膏里的成分一样，只是美甲粉里的用量少得多。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Chemistry of Liquid and Powder",
+          "pdfPage": 346,
+          "printedPage": "322"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Chemistry of Liquid and Powder",
+          "pdfPage": 347,
+          "printedPage": "323"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 346,
+          "quote": "The initiator that is added to the polymer powder is called benzoyl peroxide (BPO)"
+        },
+        {
+          "pdfPage": 346,
+          "quote": "BPO is used to start the chain reaction that leads to curing (hardening) of the nail enhancement. There is much less BPO in nail powders than in acne treatments."
+        },
+        {
+          "pdfPage": 347,
+          "quote": "This is why it is very important to use the polymer powder that was designed for the monomer liquid that you are using."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-7b-17",
+      "question": {
+        "en": "Where is the apex of a nail enhancement built?",
+        "zh": "美甲延长的甲峰（apex）做在哪里？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "At the cuticle",
+          "zh": "在甲小皮处"
+        },
+        {
+          "id": "b",
+          "en": "At the very end of the free edge",
+          "zh": "在游离缘的最末端"
+        },
+        {
+          "id": "c",
+          "en": "Along the sidewalls",
+          "zh": "沿着两侧"
+        },
+        {
+          "id": "d",
+          "en": "Over the stress area",
+          "zh": "在受力区（stress area）上方"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "The stress area, where the nail grows past the finger, needs extra product. That highest point is the apex, and it lets the base, sidewalls, and tip stay thin.",
+        "zh": "stress area（受力区）是指甲长出手指的地方，需要额外的产品。这里最高的点就是 apex（甲峰/拱点），有了它，根部、两侧和前端都可以做薄。"
+      },
+      "lockPoint": {
+        "en": "A diving board bends most where it leaves the platform. That is where it needs the most support.",
+        "zh": "跳水板在离开跳台的地方弯得最厉害，那里最需要加强。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Properly Structured Nail Enhancement",
+          "pdfPage": 286,
+          "printedPage": "262"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 286,
+          "quote": "The stress area (STRESS AH-ree-ah), where the natural nail grows beyond the finger and becomes the free edge, needs extra product and strength to support the artificial extension. This becomes the highest point in the nail and is known as the apex (A-peks) or arch (ARCH)."
+        },
+        {
+          "pdfPage": 286,
+          "quote": "Having strength in the apex allows the base of the nail, sidewalls, and tip to be thin, yet leaves the nail strong enough to resist breaking."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-7b-18",
+      "question": {
+        "en": "How thick should the sidewalls and edge of an enhancement be?",
+        "zh": "美甲延长的两侧和前缘应该做多厚？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "As thick as the apex",
+          "zh": "和甲峰一样厚"
+        },
+        {
+          "id": "b",
+          "en": "Credit-card thin",
+          "zh": "像信用卡一样薄"
+        },
+        {
+          "id": "c",
+          "en": "Twice as thick as the apex",
+          "zh": "甲峰的两倍厚"
+        },
+        {
+          "id": "d",
+          "en": "Thickest at the edge for strength",
+          "zh": "前缘最厚，以增加强度"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "The enhancement should graduate smoothly from the cuticle to the end, with the sidewalls and edge credit-card thin. Thin nails are comfortable; the apex gives the strength.",
+        "zh": "美甲延长应从甲小皮处平滑过渡到末端，两侧和前缘像信用卡一样薄。薄才舒服，强度靠甲峰提供。"
+      },
+      "lockPoint": {
+        "en": "Take a credit card from your wallet: about 0.76 mm thick. That is the edge you are aiming for.",
+        "zh": "从钱包里拿出一张信用卡：大约 0.76 毫米厚，这就是前缘要的厚度。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Properly Structured Nail Enhancement",
+          "pdfPage": 287,
+          "printedPage": "263"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 287,
+          "quote": "The sidewalls and tip's edge should be credit-card thin."
+        },
+        {
+          "pdfPage": 287,
+          "quote": "The enhancement should graduate seamlessly from the cuticle area to the end of the nail extension so you do not feel an edge."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-7b-19",
+      "question": {
+        "en": "How can you tell liquid and powder nails have hardened?",
+        "zh": "怎样判断水晶甲已经变硬了？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "They look wet and shiny.",
+          "zh": "看起来湿润有光泽。"
+        },
+        {
+          "id": "b",
+          "en": "They feel warm and soft.",
+          "zh": "摸起来温热、柔软。"
+        },
+        {
+          "id": "c",
+          "en": "They click when tapped with a brush handle.",
+          "zh": "用笔杆轻敲时发出“咔嗒”声。"
+        },
+        {
+          "id": "d",
+          "en": "They turn chalky white.",
+          "zh": "变成白垩色。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Nails are hard when they make a clicking sound when lightly tapped with a brush handle. Then you can shape them with an abrasive or electric file.",
+        "zh": "用笔杆轻敲指甲时发出清脆的“咔嗒”声，就说明已经变硬，这时可以用锉条或电动磨甲机修形。"
+      },
+      "lockPoint": {
+        "en": "Knock on a hard table and it clicks; knock on soft clay and it just thuds.",
+        "zh": "敲硬桌子会“咔咔”响，敲软泥只会发出闷闷的声音。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - One-Color Liquid and Powder Maintenance",
+          "pdfPage": 369,
+          "printedPage": "345"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 369,
+          "quote": "Nails are hard when they make a clicking sound when lightly tapped with a brush handle."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-7b-20",
+      "question": {
+        "en": "Why does a dappen dish usually have a narrow opening?",
+        "zh": "水晶杯（dappen dish）为什么通常开口很窄？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "To measure the mix ratio",
+          "zh": "用来量液粉比"
+        },
+        {
+          "id": "b",
+          "en": "To reduce evaporation of the liquid",
+          "zh": "减少液体挥发"
+        },
+        {
+          "id": "c",
+          "en": "To keep the brush hairs pointed",
+          "zh": "让笔毛保持尖头"
+        },
+        {
+          "id": "d",
+          "en": "To help the monomer cure",
+          "zh": "帮助单体液固化"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Narrow openings cut down evaporation of liquids into the air. Wide-mouth jars increase evaporation and let dust and debris in. The dish should also have a lid.",
+        "zh": "窄口能减少液体挥发到空气中。广口容器会加快挥发，还会让灰尘杂质掉进去。水晶杯还应该有盖子。"
+      },
+      "lockPoint": {
+        "en": "A puddle dries fast, but water in a narrow bottle lasts for days. Less open surface, less escapes.",
+        "zh": "地上一滩水很快就干，窄口瓶里的水却能放好几天。暴露的面越小，挥发得越少。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Dappen Dish",
+          "pdfPage": 351,
+          "printedPage": "327"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 351,
+          "quote": "These dishes usually have narrow openings to minimize the evaporation of liquids into the air. Open-mouth jars or other containers with large openings can dramatically increase evaporation and allow liquids and powders to be contaminated with dust and other debris."
+        }
+      ],
+      "hookType": "picture"
+    }
+  ]
+}

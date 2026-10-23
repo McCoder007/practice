@@ -1,0 +1,1288 @@
+{
+  "schemaVersion": "1.0.0",
+  "setId": "5C",
+  "domain": {
+    "id": "tools",
+    "order": 5,
+    "title": {
+      "en": "Nail Service Tools",
+      "zh": "美甲服务工具"
+    },
+    "examWeightPercent": 13
+  },
+  "title": {
+    "en": "Supplies and Professional Products",
+    "zh": "耗材与专业产品"
+  },
+  "status": "reviewed",
+  "authoredAt": "2026-10-22",
+  "sourceBook": "Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020)",
+  "questions": [
+    {
+      "id": "nic-5c-01",
+      "question": {
+        "en": "For a manicure and pedicure on the same client, which glove rule is correct?",
+        "zh": "为同一位顾客做美甲和修脚时，哪种戴手套的做法是对的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "One pair for both services",
+          "zh": "两项服务用同一副"
+        },
+        {
+          "id": "b",
+          "en": "A new pair for each service",
+          "zh": "每项服务换一副新手套"
+        },
+        {
+          "id": "c",
+          "en": "Gloves only for the pedicure",
+          "zh": "只有修脚时戴手套"
+        },
+        {
+          "id": "d",
+          "en": "The same pair, washed between",
+          "zh": "同一副手套，中间洗一洗再用"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Gloves are single-use PPE. Wear a new set for each service, even on the same client. Wash your hands, or use antimicrobial gel cleanser, between sets of gloves.",
+        "zh": "手套是一次性的个人防护装备（PPE）。即使是同一位顾客，每项服务都要换一副新手套。换手套之间要洗手，或使用抗菌凝胶清洁剂。"
+      },
+      "lockPoint": {
+        "en": "Gloves that touched feet and foot water carry those germs. A fresh pair keeps them off the hands.",
+        "zh": "碰过脚和泡脚水的手套带着那里的病菌。换新手套，病菌就不会带到手上。"
+      },
+      "teachingRelation": "number",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Gloves",
+          "pdfPage": 170,
+          "printedPage": "146"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Gloves",
+          "pdfPage": 224,
+          "printedPage": "200"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 170,
+          "quote": "When you perform a manicure and a pedicure on the same client, you must wear a new set of gloves for each service."
+        },
+        {
+          "pdfPage": 170,
+          "quote": "apply antimicrobial gel cleanser between sets of gloves"
+        },
+        {
+          "pdfPage": 224,
+          "quote": "to prevent exposure to pathogens that may be present on the feet or in the water"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-5c-02",
+      "question": {
+        "en": "Why do some polish removers contain aloe, vitamin E, or oils?",
+        "zh": "为什么有些洗甲水里加了芦荟、维生素 E 或油？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "To keep nails and skin from drying",
+          "zh": "防止指甲和皮肤变干"
+        },
+        {
+          "id": "b",
+          "en": "To make the remover work faster",
+          "zh": "让洗甲水卸得更快"
+        },
+        {
+          "id": "c",
+          "en": "To disinfect the nail plate",
+          "zh": "给甲面消毒"
+        },
+        {
+          "id": "d",
+          "en": "To harden weak nails",
+          "zh": "让软甲变硬"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Acetone and non-acetone removers can both dry the cuticle and skin. Added aloe, vitamin E, or oils help prevent drying. Some technicians feel these extras slow removal.",
+        "zh": "含丙酮和无丙酮的洗甲水都会让死皮和皮肤变干。添加芦荟、维生素 E 或油可以帮助防止干燥。有些美甲师觉得这些添加物会让卸甲变慢。"
+      },
+      "lockPoint": {
+        "en": "Removers dissolve skin oils along with polish → dry, rough cuticles. The added oils and vitamin E put some back.",
+        "zh": "洗甲水溶掉甲油的同时，也溶掉皮肤的油脂 → 死皮变干变糙。加进去的油和维生素 E 能补回一些。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Polish Remover",
+          "pdfPage": 173,
+          "printedPage": "149"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Polish Remover",
+          "pdfPage": 174,
+          "printedPage": "150"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 173,
+          "quote": "may contain additional ingredients, such as aloe, vitamin E, or oils to prevent drying of the nail plate"
+        },
+        {
+          "pdfPage": 174,
+          "quote": "both can be drying to the cuticle and surrounding skin"
+        },
+        {
+          "pdfPage": 174,
+          "quote": "They feel the added ingredients in polish removers slow the removal process"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-5c-03",
+      "question": {
+        "en": "Why is a white terry cloth towel best for nail services?",
+        "zh": "为什么白色毛巾（terry cloth towel）最适合美甲服务？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "It never needs to be laundered.",
+          "zh": "永远不用洗。"
+        },
+        {
+          "id": "b",
+          "en": "It absorbs acetone without damage.",
+          "zh": "吸了丙酮也不会坏。"
+        },
+        {
+          "id": "c",
+          "en": "It can be bleached between uses.",
+          "zh": "每次用后可以漂白。"
+        },
+        {
+          "id": "d",
+          "en": "It is single-use and thrown away.",
+          "zh": "是一次性的，用后扔掉。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Cloth towels must be washed between clients; paper towels are thrown away. White terry cloth is best because it can be bleached during washing. Each client gets a fresh towel.",
+        "zh": "布毛巾每位顾客之间都要洗；纸巾用后扔掉。白色毛巾最好，因为洗的时候可以漂白。每位顾客都用一条干净的毛巾。"
+      },
+      "lockPoint": {
+        "en": "Bleach ruins the dye in a colored towel. A white towel has no color to lose.",
+        "zh": "漂白剂会把彩色毛巾的颜色漂掉；白毛巾本来就没颜色可掉。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Single-Use or Terry Cloth Towels",
+          "pdfPage": 172,
+          "printedPage": "148"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 172,
+          "quote": "The best terry cloth towel for use in a personal service is white, as it can be bleached during washing between uses."
+        },
+        {
+          "pdfPage": 172,
+          "quote": "Cloth towels must be washed between clients; paper towels must be thrown away after use."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-5c-04",
+      "question": {
+        "en": "Why are plastic-backed cotton pads used to remove polish?",
+        "zh": "为什么用背面带塑料膜的棉片（plastic-backed pads）卸指甲油？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "They can be disinfected and reused.",
+          "zh": "可以消毒后再用。"
+        },
+        {
+          "id": "b",
+          "en": "They remove polish without any remover.",
+          "zh": "不用洗甲水也能卸甲油。"
+        },
+        {
+          "id": "c",
+          "en": "They protect your fingertips from solvents.",
+          "zh": "保护你的指尖不接触溶剂。"
+        },
+        {
+          "id": "d",
+          "en": "They add shine to the nail plate.",
+          "zh": "让甲面更亮。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Lint-free, plastic-backed pads are often used to remove polish. The plastic backing protects the nail professional's fingertips from overexposure to drying solvents and other chemicals.",
+        "zh": "无尘、背面带塑料膜的棉片常用来卸甲油。塑料背膜保护美甲师的指尖，避免过度接触会让皮肤干燥的溶剂和其他化学品。"
+      },
+      "lockPoint": {
+        "en": "Bare cotton soaks remover straight through to your fingertip. The plastic layer stops it, pad after pad, all day.",
+        "zh": "纯棉片会让洗甲水直接渗到你的指尖。那层塑料把它挡住，一片又一片，一整天都如此。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Gauze, Cotton Balls, Pledgets, or Plastic-Backed Pads",
+          "pdfPage": 172,
+          "printedPage": "148"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 172,
+          "quote": "Plastic backing protects nail professionals’ fingertips from overexposure to drying solvents and other chemicals"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-5c-05",
+      "question": {
+        "en": "Which tool is used to apply cuticle remover?",
+        "zh": "用什么工具涂死皮软化剂（cuticle remover）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "A pair of nail nippers",
+          "zh": "一把死皮剪（nippers）"
+        },
+        {
+          "id": "b",
+          "en": "A three-way buffer",
+          "zh": "三面抛光条（buffer）"
+        },
+        {
+          "id": "c",
+          "en": "A plastic nail brush",
+          "zh": "塑料指甲刷（nail brush）"
+        },
+        {
+          "id": "d",
+          "en": "A cotton-tipped wooden pusher",
+          "zh": "裹了棉花的木棒（wooden pusher）"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Apply cuticle remover with a cotton-tipped wooden or metal pusher or a cotton swab, spreading it on the nail plate. Keep it off living skin, which it can dry or irritate.",
+        "zh": "用裹棉花的木棒、钢推或棉签涂死皮软化剂，涂在甲面上。不要碰到活皮肤，否则会干燥或刺激。"
+      },
+      "lockPoint": {
+        "en": "The cotton tip works like a tiny paintbrush: paint the remover onto the plate, not the skin.",
+        "zh": "棉花头就像一支小画笔：把软化剂“画”在甲面上，不要画到皮肤上。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Performing a Basic Manicure",
+          "pdfPage": 202,
+          "printedPage": "178"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 202,
+          "quote": "Using a cotton-tipped wooden or metal pusher or cotton swab, apply cuticle remover to the cuticle on each nail plate"
+        },
+        {
+          "pdfPage": 202,
+          "quote": "Do not apply this type of product on living skin, as it can cause dryness or irritation."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-5c-06",
+      "question": {
+        "en": "Why should you wear gloves when using an exfoliating scrub?",
+        "zh": "为什么用去角质磨砂膏（exfoliating scrub）时要戴手套？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "To keep the scrub from drying out",
+          "zh": "防止磨砂膏变干"
+        },
+        {
+          "id": "b",
+          "en": "So the scrub works more deeply",
+          "zh": "让磨砂膏作用更深"
+        },
+        {
+          "id": "c",
+          "en": "Because scrubs are always alkaline",
+          "zh": "因为磨砂膏都是碱性的"
+        },
+        {
+          "id": "d",
+          "en": "To protect your hands from irritation",
+          "zh": "保护你的手不受刺激"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "An exfoliating scrub is usually a water-based lotion with an abrasive, such as pumice or sea sand. Wear gloves with these products, because repeated use irritates the skin on the hands.",
+        "zh": "去角质磨砂膏通常是含研磨颗粒（如浮石或海沙）的水性乳液。使用时必须戴手套，因为反复接触会刺激手部皮肤。"
+      },
+      "lockPoint": {
+        "en": "One scrub feels nice to the client. Ten scrubs a day is sandpaper on your own hands.",
+        "zh": "顾客做一次觉得舒服；你一天做十次，等于拿砂纸磨自己的手。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Exfoliating Scrub",
+          "pdfPage": 225,
+          "printedPage": "201"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 225,
+          "quote": "is usually a water-based lotion that contains an abrasive as the exfoliating agent"
+        },
+        {
+          "pdfPage": 225,
+          "quote": "Nail technicians must wear gloves when using these products, as repeated use will irritate the skin on the hands."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-5c-07",
+      "question": {
+        "en": "What are toe separators used for?",
+        "zh": "分趾器（toe separators）是用来做什么的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Cleaning between the toes",
+          "zh": "清洁脚趾之间"
+        },
+        {
+          "id": "b",
+          "en": "Keeping toes apart during polishing",
+          "zh": "涂指甲油时把脚趾分开"
+        },
+        {
+          "id": "c",
+          "en": "Holding the foot in the footbath",
+          "zh": "把脚固定在泡脚盆里"
+        },
+        {
+          "id": "d",
+          "en": "Massaging the toes",
+          "zh": "按摩脚趾"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Toe separators keep the toes apart while the toenails are polished. They cannot be cleaned and disinfected, so a new set is used for each client, then thrown away or given to the client.",
+        "zh": "分趾器在涂脚指甲油时把脚趾分开。它无法清洁消毒，所以每位顾客用一套新的，用后扔掉或送给顾客。"
+      },
+      "lockPoint": {
+        "en": "Toes squeezed together smudge wet polish onto each other. Space between them keeps the polish clean.",
+        "zh": "脚趾挤在一起，湿甲油会蹭到隔壁脚趾。分开了，甲油才干净。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Toe Separators",
+          "pdfPage": 224,
+          "printedPage": "200"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 224,
+          "quote": "Toe separators are used to keep the toes apart while the technician is polishing the client’s toenails."
+        },
+        {
+          "pdfPage": 224,
+          "quote": "Since toe separators cannot be cleaned and disinfected, they are considered a single-use implement."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-5c-08",
+      "question": {
+        "en": "Disposable pedicure slippers are for clients who",
+        "zh": "一次性修脚拖鞋（pedicure slippers）是给什么样的顾客准备的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "did not wear open-toe shoes.",
+          "zh": "没穿露趾鞋来的顾客。"
+        },
+        {
+          "id": "b",
+          "en": "have a foot fungus.",
+          "zh": "有足部真菌的顾客。"
+        },
+        {
+          "id": "c",
+          "en": "want a longer foot massage.",
+          "zh": "想要更长足部按摩的顾客。"
+        },
+        {
+          "id": "d",
+          "en": "are allergic to nitrile gloves.",
+          "zh": "对丁腈手套过敏的顾客。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Single-use paper or foam slippers are for clients who did not wear open-toe shoes or sandals and want to avoid smudging fresh toenail polish. They are made not to touch the nails.",
+        "zh": "一次性纸拖或泡沫拖鞋，给没穿露趾鞋或凉鞋、又不想蹭花刚涂好的脚指甲油的顾客。拖鞋设计成不碰到指甲。"
+      },
+      "lockPoint": {
+        "en": "Warn clients: paper or foam slippers can be slippery when walking or driving.",
+        "zh": "提醒顾客：纸拖或泡沫拖鞋可能很滑，走路和开车时要小心。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Pedicure Slippers",
+          "pdfPage": 224,
+          "printedPage": "200"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 224,
+          "quote": "Single-use paper or foam slippers are provided for clients who did not wear open-toe shoes or sandals into the salon and want to avoid smudging their newly applied toenail polish."
+        },
+        {
+          "pdfPage": 224,
+          "quote": "They are specially designed not to touch the nails while being worn."
+        },
+        {
+          "pdfPage": 224,
+          "quote": "these can be slippery, so they should use care when walking or driving"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-5c-09",
+      "question": {
+        "en": "How does a protein hardener protect the nail?",
+        "zh": "蛋白硬甲油（protein hardener）是怎样保护指甲的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "It cross-links the keratin strands.",
+          "zh": "让角蛋白链交联。"
+        },
+        {
+          "id": "b",
+          "en": "It dissolves dead tissue on the plate.",
+          "zh": "溶解甲面上的死组织。"
+        },
+        {
+          "id": "c",
+          "en": "It forms a hard coating on the surface.",
+          "zh": "在甲面形成一层坚硬的保护膜。"
+        },
+        {
+          "id": "d",
+          "en": "It is absorbed deep into the nail.",
+          "zh": "深深渗入指甲内部。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "A protein hardener is clear polish plus protein, such as collagen. Collagen molecules are too large to be absorbed, so it forms a clear, hard coating without changing the nail plate itself.",
+        "zh": "蛋白硬甲油是透明甲油加蛋白质（如胶原蛋白 collagen）。胶原蛋白分子太大，进不了甲板，所以它只在表面形成透明坚硬的膜，不改变甲板本身。"
+      },
+      "lockPoint": {
+        "en": "Nylon-fiber hardeners work the same way: a coating only, not a treatment.",
+        "zh": "尼龙纤维硬甲油也一样：只是表面一层膜，不是治疗。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Nail Hardener",
+          "pdfPage": 176,
+          "printedPage": "152"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 176,
+          "quote": "is a combination of clear polish and protein, such as collagen"
+        },
+        {
+          "pdfPage": 176,
+          "quote": "This provides a clear, hard coating on the surface of the nail but does not change or affect the natural nail plate itself."
+        },
+        {
+          "pdfPage": 176,
+          "quote": "Protein (collagen) has very large molecules that cannot be absorbed into the nail plate."
+        },
+        {
+          "pdfPage": 176,
+          "quote": "Therefore, the protection they provide comes from the coating itself. They are not therapeutic."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-5c-10",
+      "question": {
+        "en": "Why apply cuticle oil with a disposable brush or dropper?",
+        "zh": "为什么要用一次性刷子或滴管涂营养油（cuticle oil）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Oil dissolves synthetic bristles.",
+          "zh": "油会溶解合成刷毛。"
+        },
+        {
+          "id": "b",
+          "en": "Oil must be warmed before use.",
+          "zh": "油使用前必须加热。"
+        },
+        {
+          "id": "c",
+          "en": "Droppers give a shinier finish.",
+          "zh": "滴管涂出来更亮。"
+        },
+        {
+          "id": "d",
+          "en": "Oils can support bacterial growth.",
+          "zh": "油可能滋生细菌。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Polish, monomer, and gels cannot support pathogens, but oils can. A brush used for oil is considered contaminated, so use disposable brushes or droppers and throw them away after use.",
+        "zh": "甲油、水晶液（monomer）和凝胶不会滋生病原体，但油会。涂过油的刷子要视为已污染，所以用一次性刷子或滴管，用完就扔。"
+      },
+      "lockPoint": {
+        "en": "Oil brush touches skin, goes back in the bottle → germs grow in the oil → next client.",
+        "zh": "刷子碰过皮肤又伸回油瓶 → 病菌在油里繁殖 → 传给下一位顾客。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Nail Brushes",
+          "pdfPage": 168,
+          "printedPage": "144"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Nail Brushes",
+          "pdfPage": 169,
+          "printedPage": "145"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 169,
+          "quote": "a brush used to apply oil to the nail plate or cuticles should be considered contaminated since these products can become exposed to bacteria and do support bacterial growth"
+        },
+        {
+          "pdfPage": 169,
+          "quote": "You should use disposable brushes or droppers to apply oils to the nail plate or surrounding skin and dispose of them after use."
+        },
+        {
+          "pdfPage": 168,
+          "quote": "when you are using products that are not capable of harboring or supporting the growth of pathogenic microbes"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-5c-11",
+      "question": {
+        "en": "Which product is a barrier that seals in the skin's moisture?",
+        "zh": "哪种产品是一层屏障，能锁住皮肤水分？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Nail cream",
+          "zh": "护甲霜（nail cream）"
+        },
+        {
+          "id": "b",
+          "en": "Nail oil",
+          "zh": "营养油（nail oil）"
+        },
+        {
+          "id": "c",
+          "en": "Cuticle remover",
+          "zh": "死皮软化剂"
+        },
+        {
+          "id": "d",
+          "en": "Polish remover",
+          "zh": "洗甲水"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Nail creams are barrier products: they seal the skin's surface and hold in moisture. Nail oils absorb into the nail plate and skin. Oils and lotions usually last longer than creams.",
+        "zh": "护甲霜（nail cream）是屏障类产品：封住皮肤表面、锁住水分。营养油（nail oil）会渗入甲面和皮肤。油和乳液的效果通常比霜持久。"
+      },
+      "lockPoint": {
+        "en": "Cream is a lid on a pot: it keeps water in. Oil is a drink: it soaks into the nail.",
+        "zh": "霜像锅盖，把水分盖在里面；油像饮料，被指甲“喝”进去。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Nail Creams, Lotions, and Oils",
+          "pdfPage": 174,
+          "printedPage": "150"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 174,
+          "quote": "are barrier products: They contain ingredients designed to seal the surface of the skin around the nails and hold in the subdermal moisture in the skin"
+        },
+        {
+          "pdfPage": 174,
+          "quote": "are designed to be absorbed into the nail plate to increase flexibility"
+        },
+        {
+          "pdfPage": 174,
+          "quote": "will have longer-lasting effects than creams"
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-5c-12",
+      "question": {
+        "en": "What is a foot soak added to pedicure water for?",
+        "zh": "往修脚水里加泡脚粉/泡脚液（foot soak）是为了什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Disinfecting the footbath",
+          "zh": "给泡脚盆消毒"
+        },
+        {
+          "id": "b",
+          "en": "Softening and cleansing the feet",
+          "zh": "软化并清洁脚部"
+        },
+        {
+          "id": "c",
+          "en": "Removing toenail polish",
+          "zh": "卸除脚指甲油"
+        },
+        {
+          "id": "d",
+          "en": "Dissolving thick calluses",
+          "zh": "溶解厚茧"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "A foot soak is added to the pedicure bath to soften the skin on the feet. A good one is gentle but thoroughly cleans and deodorizes. It does not disinfect the footbath.",
+        "zh": "泡脚粉/泡脚液加进修脚水里，用来软化脚部皮肤。好的泡脚产品温和而彻底地清洁、除臭。它不能给泡脚盆消毒。"
+      },
+      "lockPoint": {
+        "en": "Think bath salts for feet: a softer, fresher foot, not a cleaner tub.",
+        "zh": "就像给脚用的浴盐：让脚更软、更清爽，但盆并不会因此变干净。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Foot Soaks",
+          "pdfPage": 225,
+          "printedPage": "201"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 225,
+          "quote": "is a product that is added to the water in the pedicure bath to soften the skin on the feet"
+        },
+        {
+          "pdfPage": 225,
+          "quote": "A good foot soak product is gentle but effective and thoroughly cleans and deodorizes the feet."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-5c-13",
+      "question": {
+        "en": "Polish, enamel, lacquer, and varnish are",
+        "zh": "polish、enamel、lacquer 和 varnish 是什么关系？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "four products with different ingredients.",
+          "zh": "成分不同的四种产品。"
+        },
+        {
+          "id": "b",
+          "en": "marketing names for the same product type.",
+          "zh": "同一类产品的不同营销叫法。"
+        },
+        {
+          "id": "c",
+          "en": "four layers applied in order.",
+          "zh": "按顺序涂的四层。"
+        },
+        {
+          "id": "d",
+          "en": "terms used only for gel polish.",
+          "zh": "只用于凝胶甲油的名称。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Polish, enamel, lacquer, and varnish are marketing terms for the same type of product with similar ingredients: a solvent-based colored film applied to the nail plate.",
+        "zh": "polish、enamel、lacquer、varnish 都是营销用语，指成分相似的同一类产品：涂在甲面上的溶剂型有色膜。"
+      },
+      "lockPoint": {
+        "en": "Lacquer, enamel, and varnish first named finishes for wood and metal; nail brands borrowed those fancy names for one product.",
+        "zh": "lacquer（漆）、enamel（搪瓷/珐琅）、varnish（清漆）原本是木器和金属表面涂层的名称，甲油品牌借来给同一种产品起好听的名字。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Colored Polish, Enamel, Lacquer, or Varnish",
+          "pdfPage": 175,
+          "printedPage": "151"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 175,
+          "quote": "All of these terms are actually marketing terms used to describe the same types of products containing similar ingredients."
+        },
+        {
+          "pdfPage": 175,
+          "quote": "Polish is a generic term describing any type of solvent-based colored film applied to the nail plate"
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-5c-14",
+      "question": {
+        "en": "Topcoat is applied over colored polish to",
+        "zh": "亮油/封层（topcoat）涂在有色甲油上面，是为了什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "help the polish adhere to the nail.",
+          "zh": "帮助甲油附着在指甲上。"
+        },
+        {
+          "id": "b",
+          "en": "harden thin, weak nails.",
+          "zh": "让薄软的指甲变硬。"
+        },
+        {
+          "id": "c",
+          "en": "dissolve old polish faster.",
+          "zh": "更快溶解旧甲油。"
+        },
+        {
+          "id": "d",
+          "en": "prevent chipping and add shine.",
+          "zh": "防止剥落，增加光泽。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Topcoat goes over colored polish to prevent chipping and add a shine or matte finish. Its film formers, often methacrylic or cellulose types, make a hard film once the solvent evaporates.",
+        "zh": "亮油涂在有色甲油上，防止剥落，并做出亮面或哑光（matte）效果。其中的成膜剂（常为甲基丙烯酸类或纤维素类）在溶剂挥发后形成坚硬的膜。"
+      },
+      "lockPoint": {
+        "en": "封层: 封 = seal, as in 封口 (seal an envelope). The top layer seals the color in.",
+        "zh": "封层：封 = 封口的封。最上面一层把颜色封在里面。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Topcoat",
+          "pdfPage": 177,
+          "printedPage": "153"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 177,
+          "quote": "Topcoats are applied over colored polish to prevent chipping and to add a shine or a matte finish to the nail."
+        },
+        {
+          "pdfPage": 177,
+          "quote": "Typically the main ingredients are methacrylic or cellulose-type film formers."
+        }
+      ],
+      "hookType": "chinese-character"
+    },
+    {
+      "id": "nic-5c-15",
+      "question": {
+        "en": "Methylene glycol nail hardeners should never be used on nails that are",
+        "zh": "含甲二醇（methylene glycol）的硬甲油绝不能用在什么样的指甲上？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "thin and weak.",
+          "zh": "又薄又软的。"
+        },
+        {
+          "id": "b",
+          "en": "bare, with no polish.",
+          "zh": "没涂甲油的裸甲。"
+        },
+        {
+          "id": "c",
+          "en": "already very hard and brittle.",
+          "zh": "本来就很硬、很脆的。"
+        },
+        {
+          "id": "d",
+          "en": "short and natural.",
+          "zh": "短的真甲。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Methylene glycol cross-links keratin, making the nail stiffer. It helps thin, weak nails but can make already hard, brittle nails so rigid they split and shatter. Stop if problems appear.",
+        "zh": "甲二醇（methylene glycol）让角蛋白（keratin）交联，指甲变得更硬。它适合薄软的指甲，但会让本来就硬、脆的指甲变得太僵，裂开甚至碎掉。出现问题就停用。"
+      },
+      "lockPoint": {
+        "en": "A brittle nail plus hardener is like dry spaghetti made stiffer: it snaps instead of bending.",
+        "zh": "脆指甲再用硬甲油，就像干意面更硬了：一弯就断。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Nail Hardener",
+          "pdfPage": 176,
+          "printedPage": "152"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Nail Hardener",
+          "pdfPage": 177,
+          "printedPage": "153"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 176,
+          "quote": "an ingredient that creates bridges or cross-links between the keratin strands"
+        },
+        {
+          "pdfPage": 177,
+          "quote": "These products are useful for thin and weak nail plates, but should never be applied to nails that are already very hard, rigid, and/or brittle."
+        },
+        {
+          "pdfPage": 177,
+          "quote": "Methylene glycol hardeners can make brittle nails become so rigid that they may split and shatter."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-5c-16",
+      "question": {
+        "en": "Why can't a tablet in pedicure water replace disinfecting the footbath?",
+        "zh": "为什么往修脚水里放药片，不能代替给泡脚盆消毒？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Germ-killing strength would also harm skin.",
+          "zh": "强到能杀菌的化学品也会伤皮肤。"
+        },
+        {
+          "id": "b",
+          "en": "Tablets only work in cold water.",
+          "zh": "药片只在冷水里有效。"
+        },
+        {
+          "id": "c",
+          "en": "Tablets cost more than disinfectant.",
+          "zh": "药片比消毒剂贵。"
+        },
+        {
+          "id": "d",
+          "en": "Tablets stain the basin.",
+          "zh": "药片会把盆染色。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "No tablet or additive in pedicure water replaces cleaning and disinfecting after each pedicure. Any chemical strong enough to kill pathogens can also harm the skin.",
+        "zh": "任何放进修脚水里的药片或添加剂，都不能代替每次修脚后的清洁消毒。强到能杀死病原体的化学品也会伤皮肤。"
+      },
+      "lockPoint": {
+        "en": "Disinfectants are pesticides and must never touch skin. So real disinfecting happens after the feet leave the tub.",
+        "zh": "在美国，消毒剂按 pesticide（杀生物剂，由 EPA 登记管理）归类，绝不能接触皮肤；所以真正的消毒要等脚离开、盆空了以后才做。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Professional Pedicure Products",
+          "pdfPage": 225,
+          "printedPage": "201"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Disinfectants",
+          "pdfPage": 614,
+          "printedPage": "119"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Electric Filing - Disinfecting Metal Bits",
+          "pdfPage": 261,
+          "printedPage": "237"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 225,
+          "quote": "There is no tablet or additive that can be put into the water during a pedicure that replaces the requirement of properly cleaning and disinfecting after each pedicure"
+        },
+        {
+          "pdfPage": 225,
+          "quote": "Any chemical that is strong enough to adequately kill pathogens can be harmful to the skin."
+        },
+        {
+          "pdfPage": 614,
+          "quote": "Disinfectants are pesticides and can be harmful if absorbed through the skin."
+        },
+        {
+          "pdfPage": 261,
+          "quote": "Disinfectants must never be allowed to come into contact with the skin."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-5c-17",
+      "question": {
+        "en": "Which scrub ingredient should be avoided because it can clog the pedicure drain?",
+        "zh": "哪种磨砂成分可能堵塞修脚盆下水口，应避免使用？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Jojoba beads",
+          "zh": "荷荷巴微珠（jojoba beads）"
+        },
+        {
+          "id": "b",
+          "en": "Sea sand",
+          "zh": "海沙"
+        },
+        {
+          "id": "c",
+          "en": "Pumice",
+          "zh": "浮石粉（pumice）"
+        },
+        {
+          "id": "d",
+          "en": "Corn meal",
+          "zh": "玉米粉（corn meal）"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Scrubs use exfoliants like sea sand, apricot kernels, pumice, quartz, or jojoba beads. Avoid ingredients that expand and clog the drain, such as corn meal, and avoid overly abrasive scrubs.",
+        "zh": "磨砂膏（scrub）常用海沙、杏核粉、浮石、石英或荷荷巴微珠去角质。要避免会膨胀堵塞下水口的成分，如玉米粉，也要避免太粗的磨砂膏。"
+      },
+      "lockPoint": {
+        "en": "Corn meal soaks up water and swells, like oatmeal in a bowl. Swollen grains plug the drain.",
+        "zh": "玉米粉吸水会膨胀，就像碗里泡开的燕麦片。胀大的颗粒会堵住下水口。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Exfoliating Scrub",
+          "pdfPage": 225,
+          "printedPage": "201"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 225,
+          "quote": "Sea sand, ground apricot kernels, pumice, quartz crystals, and jojoba beads are exfoliating agents that may be found in pedicure scrubs."
+        },
+        {
+          "pdfPage": 225,
+          "quote": "avoid using products with ingredients that will expand and clog the pedicure drain, such as corn meal"
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-5c-18",
+      "question": {
+        "en": "You nick a client's skin. After washing the cut, what do you offer?",
+        "zh": "你不小心划破了顾客的皮肤。清洗伤口后，应给顾客提供什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "EPA-registered disinfectant",
+          "zh": "EPA 注册的消毒剂"
+        },
+        {
+          "id": "b",
+          "en": "Antiseptic and an adhesive bandage",
+          "zh": "抗菌剂（antiseptic）和创可贴"
+        },
+        {
+          "id": "c",
+          "en": "Cuticle remover",
+          "zh": "死皮软化剂"
+        },
+        {
+          "id": "d",
+          "en": "Acetone on a cotton pad",
+          "zh": "沾了丙酮的棉片"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Stop the service, put on gloves, wash the injured area with soap, rinse, and pat dry. Then offer the client antiseptic and an adhesive bandage. Disinfectants are for surfaces, not skin.",
+        "zh": "先停止服务、戴上手套，用肥皂清洗伤处，冲净后拍干。然后给顾客抗菌剂（antiseptic）和创可贴。消毒剂是给物体表面用的，不能用在皮肤上。"
+      },
+      "lockPoint": {
+        "en": "Anti = against, septic = rotting or infected. An antiseptic fights infection on living skin.",
+        "zh": "anti = 对抗，septic = 腐烂、感染。antiseptic 就是在活皮肤上对抗感染的。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Exposure Incident: Client Injury",
+          "pdfPage": 636,
+          "printedPage": "141"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Exposure Incident: Client Injury",
+          "pdfPage": 637,
+          "printedPage": "142"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Waterless Hand Sanitizers",
+          "pdfPage": 612,
+          "printedPage": "117"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 636,
+          "quote": "Put on gloves (if you were not already wearing gloves for the procedure)"
+        },
+        {
+          "pdfPage": 637,
+          "quote": "wash the injured area with soap, and rinse under running water"
+        },
+        {
+          "pdfPage": 637,
+          "quote": "Offer your client antiseptic and an adhesive bandage."
+        },
+        {
+          "pdfPage": 612,
+          "quote": "are chemical germicides formulated for use on skin"
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-5c-19",
+      "question": {
+        "en": "Why wear safety glasses when using some callus softeners?",
+        "zh": "为什么使用某些去茧软化剂（callus softener）时要戴护目镜？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "They give off UV light.",
+          "zh": "会发出紫外线。"
+        },
+        {
+          "id": "b",
+          "en": "They make a lot of dust.",
+          "zh": "会产生大量粉尘。"
+        },
+        {
+          "id": "c",
+          "en": "They can be alkaline.",
+          "zh": "它们可能是碱性的。"
+        },
+        {
+          "id": "d",
+          "en": "They are applied near the eyes.",
+          "zh": "要涂在眼睛附近。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Some callus softeners are alkaline and potentially hazardous. Wear safety glasses and gloves when using or pouring them; misused, they can severely irritate the eyes, hands, and skin.",
+        "zh": "有些去茧软化剂是碱性的，有潜在危险。使用或倒取时要戴护目镜和手套；用错了会严重刺激眼睛、手和皮肤。"
+      },
+      "lockPoint": {
+        "en": "Pouring → a splash → alkali in the eye. Glasses stop the drop before it lands.",
+        "zh": "倒取 → 溅出来 → 碱液进眼睛。护目镜在液滴落进眼里之前挡住它。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Callus Softener",
+          "pdfPage": 226,
+          "printedPage": "202"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 226,
+          "quote": "Some callus softeners are alkaline and potentially hazardous."
+        },
+        {
+          "pdfPage": 226,
+          "quote": "safety glasses should be worn whenever those types of products are used or poured"
+        },
+        {
+          "pdfPage": 226,
+          "quote": "may cause severe irritation to the nail technician’s eyes, hands, and skin"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-5c-20",
+      "question": {
+        "en": "Why should hydrogen peroxide never be used on an open cut?",
+        "zh": "为什么双氧水（hydrogen peroxide）绝不能用在开放性伤口上？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "It destroys cells that start healing.",
+          "zh": "会破坏启动伤口愈合的细胞。"
+        },
+        {
+          "id": "b",
+          "en": "It is too weak to kill germs.",
+          "zh": "太弱，杀不了病菌。"
+        },
+        {
+          "id": "c",
+          "en": "It stains the skin brown.",
+          "zh": "会把皮肤染成棕色。"
+        },
+        {
+          "id": "d",
+          "en": "It is illegal in all salons.",
+          "zh": "在所有沙龙都违法。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Hydrogen peroxide, usually 3 percent, works well as an antiseptic on skin. But never put it on an open cut: it destroys the cells that begin the healing process in a wound.",
+        "zh": "双氧水一般用 3% 浓度，作为皮肤抗菌剂（antiseptic）效果不错。但绝不能用在开放性伤口上：它会破坏伤口里启动愈合的细胞。"
+      },
+      "lockPoint": {
+        "en": "The bubbles on a cut look like cleaning, but peroxide also kills the cells that close the wound.",
+        "zh": "伤口上冒泡看起来像在清洁，其实双氧水也在杀死让伤口愈合的细胞。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Common Antiseptics",
+          "pdfPage": 613,
+          "printedPage": "118"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 613,
+          "quote": "It is generally used at 3 percent strength and works well as an antiseptic."
+        },
+        {
+          "pdfPage": 613,
+          "quote": "it should never be used on an open cut, as it destroys the cells that begin the healing process in a wound"
+        }
+      ],
+      "hookType": "real-life"
+    }
+  ],
+  "review": {
+    "reviewedAt": "2026-10-23",
+    "checks": [
+      "quotes found on cited pages (verify-nic-domain-evidence.py)",
+      "blind answer check: 20/20 matched key; 6 new or edited questions re-checked blind (all matched)",
+      "content and Chinese review (two rounds): fixes applied",
+      "memory hooks fact-checked (word origins, Chinese characters, textbook facts), two rounds: fixes applied",
+      "cross-set overlap check against existing NIC Domain Practice sets: duplicated facts replaced"
+    ]
+  }
+}

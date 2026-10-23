@@ -1,0 +1,1265 @@
+{
+  "schemaVersion": "1.0.0",
+  "setId": "4A",
+  "domain": {
+    "id": "pre-service",
+    "order": 4,
+    "title": {
+      "en": "Pre-Service Process",
+      "zh": "服务前流程"
+    },
+    "examWeightPercent": 5
+  },
+  "title": {
+    "en": "Pre-Service: Consultation and Setup",
+    "zh": "服务前：咨询与准备"
+  },
+  "status": "reviewed",
+  "authoredAt": "2026-10-23",
+  "sourceBook": "Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020)",
+  "questions": [
+    {
+      "id": "nic-4a-01",
+      "question": {
+        "en": "Setting up the table and greeting the client are part of the",
+        "zh": "布置工作台和迎接顾客属于哪个部分？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "service procedure.",
+          "zh": "服务程序（service procedure）。"
+        },
+        {
+          "id": "b",
+          "en": "post-service procedure.",
+          "zh": "服务后程序（post-service procedure）。"
+        },
+        {
+          "id": "c",
+          "en": "client consultation.",
+          "zh": "顾客咨询（client consultation）。"
+        },
+        {
+          "id": "d",
+          "en": "pre-service procedure.",
+          "zh": "服务前程序（pre-service procedure）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "The pre-service procedure covers cleaning and disinfecting tools, setting up the table, and meeting, greeting, and escorting the client. The service and post-service come after.",
+        "zh": "pre-service procedure（服务前程序）包括清洁消毒工具、布置工作台，以及迎接、问候并引导顾客。之后才是服务程序和服务后程序。"
+      },
+      "lockPoint": {
+        "en": "Like a restaurant before you order: table set, tools clean, guest greeted and seated.",
+        "zh": "就像餐厅点菜前：桌子摆好、餐具洗净、客人迎进来并安排入座。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Three-Part Procedure",
+          "pdfPage": 179,
+          "printedPage": "155"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 179,
+          "quote": "The pre-service procedure is an organized, step-by-step plan for cleaning and disinfecting your tools, implements, and materials; setting up the basic manicuring table; and meeting, greeting, and escorting your client to your service area."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-4a-02",
+      "question": {
+        "en": "The client intake form is also called a",
+        "zh": "client intake form（顾客登记表）也叫什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "service record card.",
+          "zh": "服务记录卡（service record card）。"
+        },
+        {
+          "id": "b",
+          "en": "health history form.",
+          "zh": "健康史表（health history form）。"
+        },
+        {
+          "id": "c",
+          "en": "release form.",
+          "zh": "免责声明表（release form）。"
+        },
+        {
+          "id": "d",
+          "en": "product purchase record.",
+          "zh": "产品购买记录（product purchase record）。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Every new client fills out an intake form, also called a client questionnaire, consultation card, or health history form. It lists medications, medical issues, and allergies that might affect services.",
+        "zh": "每位新顾客都要填写 intake form（登记表），也叫顾客问卷、咨询卡（consultation card）或健康史表。表上列出可能影响服务的药物、疾病和过敏情况。"
+      },
+      "lockPoint": {
+        "en": "Intake = what you take in at the start: the client's facts before any service.",
+        "zh": "intake = “收进来”：服务开始前，先把顾客的资料收集进来。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Communicating for Success - The Client Intake Form",
+          "pdfPage": 545,
+          "printedPage": "50"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Communicating for Success - The Client Intake Form",
+          "pdfPage": 546,
+          "printedPage": "51"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 545,
+          "quote": "Every new client should fill out a client intake form (KLY-ent IN-tayk FORM)—also called a client questionnaire, consultation card, or health history form."
+        },
+        {
+          "pdfPage": 546,
+          "quote": "along with any known medical issues, skin or scalp disorders, or allergies that might affect services"
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-4a-03",
+      "question": {
+        "en": "Who fills out the service record card?",
+        "zh": "谁来填写服务记录卡（service record card）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "The nail technician",
+          "zh": "做服务的美甲师"
+        },
+        {
+          "id": "b",
+          "en": "The client",
+          "zh": "顾客"
+        },
+        {
+          "id": "c",
+          "en": "The salon receptionist",
+          "zh": "沙龙前台"
+        },
+        {
+          "id": "d",
+          "en": "The client's physician",
+          "zh": "顾客的医生"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "The service record card is the client's permanent record of services, results, and products used. The technician who performs the service completes and updates it at each visit.",
+        "zh": "service record card（服务记录卡）是顾客的永久记录，记载做过的服务、效果和用过的产品。由做服务的技师填写，每次来访都要更新。"
+      },
+      "lockPoint": {
+        "en": "Intake form: the client writes it before. Record card: you write it after.",
+        "zh": "登记表（intake form）：顾客服务前填；记录卡：技师服务后写。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Communicating for Success - The Client Intake Form",
+          "pdfPage": 547,
+          "printedPage": "52"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 547,
+          "quote": "the client’s permanent progress record of services received, results, formulations, and products used during the service or purchased"
+        },
+        {
+          "pdfPage": 547,
+          "quote": "The service record card is not intended for the client’s use and is completed by the beauty professional performing the service."
+        }
+      ],
+      "hookType": "contrast"
+    },
+    {
+      "id": "nic-4a-04",
+      "question": {
+        "en": "How should paper client intake forms be stored?",
+        "zh": "纸质顾客登记表（intake form）应该怎样保存？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "At the front desk for easy access",
+          "zh": "放在前台方便拿取"
+        },
+        {
+          "id": "b",
+          "en": "In the nail station drawer",
+          "zh": "放在美甲台抽屉里"
+        },
+        {
+          "id": "c",
+          "en": "In a lockable, fireproof cabinet",
+          "zh": "放在可上锁的防火柜里"
+        },
+        {
+          "id": "d",
+          "en": "With the client to take home",
+          "zh": "交给顾客带回家"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Intake forms are legal documents and must be kept confidential. Lock paper forms in fireproof cabinets, and protect electronic forms with firewalls and passwords.",
+        "zh": "登记表是法律文件，必须保密。纸质表格要锁在防火柜里，电子表格要用防火墙和密码保护。"
+      },
+      "lockPoint": {
+        "en": "Leaking a client's form can bring legal trouble, just like leaking a patient's medical chart.",
+        "zh": "泄露顾客登记表可能惹上官司，就像泄露病人的病历一样。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Communicating for Success - The Client Intake Form",
+          "pdfPage": 547,
+          "printedPage": "52"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 547,
+          "quote": "remember that client intake forms are legal documents and should be kept confidential"
+        },
+        {
+          "pdfPage": 547,
+          "quote": "Physical forms should be secured in lockable, fireproof cabinets and electronic forms protected with firewalls and adequate passwords."
+        },
+        {
+          "pdfPage": 547,
+          "quote": "Failure to maintain client confidentiality can have legal ramifications."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-4a-05",
+      "question": {
+        "en": "How often should you do a client consultation?",
+        "zh": "应该多久做一次顾客咨询（client consultation）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Only on the first visit",
+          "zh": "只在第一次来时"
+        },
+        {
+          "id": "b",
+          "en": "Before every service",
+          "zh": "每次服务之前"
+        },
+        {
+          "id": "c",
+          "en": "Once a year",
+          "zh": "每年一次"
+        },
+        {
+          "id": "d",
+          "en": "Only if the client asks",
+          "zh": "只在顾客要求时"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "A consultation should be part of every service and every visit, done before the service starts. Changes can happen between visits, so record them on the service record card.",
+        "zh": "每次服务、每次来访都要在开始前做咨询。两次来访之间情况可能有变化，要记在服务记录卡上。"
+      },
+      "lockPoint": {
+        "en": "Even regulars get asked: a new medicine, allergy, or pregnancy may have started since last time.",
+        "zh": "老顾客也要问：上次之后可能开始吃新药、出现新的过敏或怀孕了。"
+      },
+      "teachingRelation": "number",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Communicating for Success - Conduct the Client Consultation",
+          "pdfPage": 549,
+          "printedPage": "54"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Communicating for Success - How to Use the Intake Form",
+          "pdfPage": 548,
+          "printedPage": "53"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 549,
+          "quote": "A consultation should be performed as part of every single service and shop visit."
+        },
+        {
+          "pdfPage": 548,
+          "quote": "Changes can occur between visits"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-4a-06",
+      "question": {
+        "en": "Which step of the 10-step consultation is the most critical?",
+        "zh": "10 步咨询法中，哪一步最关键？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Upsell: suggest added services",
+          "zh": "追加推荐（Upsell）：建议加做服务"
+        },
+        {
+          "id": "b",
+          "en": "Assess: find the client's needs",
+          "zh": "评估（Assess）：了解顾客需求"
+        },
+        {
+          "id": "c",
+          "en": "Show and tell: see styles they like",
+          "zh": "展示（Show and tell）：看顾客喜欢的款式"
+        },
+        {
+          "id": "d",
+          "en": "Repeat: review what you agreed on",
+          "zh": "复述（Repeat）：回顾双方商定的内容"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Step 10, Repeat, restates everything you agreed on, for example, \"What I heard you say is…\" It is the most critical step because it determines the final service.",
+        "zh": "第 10 步“复述”（Repeat）要把双方商定的内容再说一遍，例如“我听到您说的是……”。这一步最关键，因为它决定最终做什么服务。"
+      },
+      "lockPoint": {
+        "en": "Like a server reading your order back before it goes to the kitchen.",
+        "zh": "就像服务员下单前把你点的菜再念一遍。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Communicating for Success - 10-Step Consultation Method",
+          "pdfPage": 555,
+          "printedPage": "60"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 555,
+          "quote": "Reiterate everything that you have agreed upon by using a phrase like"
+        },
+        {
+          "pdfPage": 555,
+          "quote": "This is the most critical step of the consultation process because it determines the ultimate service(s)."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-4a-07",
+      "question": {
+        "en": "Repeating in your own words what the client told you is called",
+        "zh": "用自己的话复述顾客说过的内容，叫作什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "reflective listening.",
+          "zh": "反映式倾听（reflective listening）。"
+        },
+        {
+          "id": "b",
+          "en": "a needs assessment.",
+          "zh": "需求评估（needs assessment）。"
+        },
+        {
+          "id": "c",
+          "en": "upselling.",
+          "zh": "追加推荐（upselling）。"
+        },
+        {
+          "id": "d",
+          "en": "client analysis.",
+          "zh": "顾客分析（client analysis）。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Reflective listening means listening, then repeating in your own words what you think the client said. Don't interrupt, and ask the client to confirm you understood.",
+        "zh": "reflective listening（反映式倾听）是先听，再用自己的话复述你理解的顾客意思。不要打断，并请顾客确认你理解得对。"
+      },
+      "lockPoint": {
+        "en": "Reflect comes from Latin reflectere, \"bend back\": you send the client's words back, like a mirror.",
+        "zh": "reflect 来自拉丁语 reflectere“折回”：像镜子一样，把顾客的话“照”回去，请顾客确认。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Communicating for Success - 10-Step Consultation Method",
+          "pdfPage": 553,
+          "printedPage": "58"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 553,
+          "quote": "Listening to the client and then repeating, in your own words, what you think the client is telling you is known as reflective listening"
+        },
+        {
+          "pdfPage": 553,
+          "quote": "Then ask for confirmation to make certain you understand what the client wants or needs."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-4a-08",
+      "question": {
+        "en": "When checking a client's nails and skin, a nail technician must never",
+        "zh": "检查顾客的指甲和皮肤时，美甲师绝对不能——"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "record what they see.",
+          "zh": "记录看到的情况。"
+        },
+        {
+          "id": "b",
+          "en": "ask about health conditions.",
+          "zh": "询问健康状况。"
+        },
+        {
+          "id": "c",
+          "en": "diagnose a disease or disorder.",
+          "zh": "诊断（diagnose）疾病或病症。"
+        },
+        {
+          "id": "d",
+          "en": "refer the client to a physician.",
+          "zh": "建议顾客去看医生。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Nail techs are licensed for cosmetic services, not to diagnose, treat, or prescribe. You may tell a client you see what may be an unhealthy condition and refer them to a physician.",
+        "zh": "美甲师的执照只允许做美容服务，不能诊断、治疗或开处方。你可以告诉顾客你看到了可能不健康的情况，并建议顾客就医。"
+      },
+      "lockPoint": {
+        "en": "Diagnose: Greek dia, \"apart,\" + gnosis, \"knowing\": telling one disease apart from another.",
+        "zh": "diagnose 来自希腊语 dia（分开）+ gnosis（认识）：分辨是哪一种病，这是医生的工作。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - The Manicure Consultation",
+          "pdfPage": 181,
+          "printedPage": "157"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nails - Identify Unhealthy Conditions of the Nail",
+          "pdfPage": 128,
+          "printedPage": "104"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 181,
+          "quote": "You must be careful not to diagnose a disease or disorder in any way."
+        },
+        {
+          "pdfPage": 128,
+          "quote": "You are not licensed to diagnose, treat, or prescribe"
+        },
+        {
+          "pdfPage": 128,
+          "quote": "You can tell them that you have observed what may be an unhealthy condition and refer them to a physician."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-4a-09",
+      "question": {
+        "en": "A condition that requires avoiding certain treatments or products is a",
+        "zh": "需要避免某些服务或产品的身体状况叫作什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "consultation.",
+          "zh": "咨询（consultation）。"
+        },
+        {
+          "id": "b",
+          "en": "scope of practice.",
+          "zh": "执业范围（scope of practice）。"
+        },
+        {
+          "id": "c",
+          "en": "service record.",
+          "zh": "服务记录（service record）。"
+        },
+        {
+          "id": "d",
+          "en": "contraindication.",
+          "zh": "禁忌症（contraindication）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "A contraindication is a condition that requires avoiding certain treatments, procedures, or products to prevent unwanted side effects. Look for them on the intake form before services.",
+        "zh": "contraindication（禁忌症）是指需要避免某些疗程、步骤或产品，以防出现不良反应的身体状况。服务前要在登记表上查看。"
+      },
+      "lockPoint": {
+        "en": "Contra = against, indicate = point out: the condition points against the service.",
+        "zh": "contra = 反对，indicate = 指出：这个状况提示“不要做”这项服务。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Electricity & Electrical Safety - Contraindication",
+          "pdfPage": 690,
+          "printedPage": "195"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Pre-Massage Considerations",
+          "pdfPage": 185,
+          "printedPage": "161"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 690,
+          "quote": "referring to a condition that requires avoiding certain treatments, procedures, or products to prevent undesirable side effects"
+        },
+        {
+          "pdfPage": 185,
+          "quote": "consult the client’s consultation or intake form"
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-4a-10",
+      "question": {
+        "en": "When booking a new client, how early should they arrive?",
+        "zh": "为新顾客预约时，应请顾客提前多久到达？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "15 minutes before the appointment",
+          "zh": "预约时间前 15 分钟"
+        },
+        {
+          "id": "b",
+          "en": "5 minutes before the appointment",
+          "zh": "预约时间前 5 分钟"
+        },
+        {
+          "id": "c",
+          "en": "1 hour before the appointment",
+          "zh": "预约时间前 1 小时"
+        },
+        {
+          "id": "d",
+          "en": "Right at the appointment time",
+          "zh": "正好在预约时间到"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "When booking, tell new clients the salon needs some information first (the client intake form), so they should arrive 15 minutes early. Also plan 5 to 15 minutes for the consultation.",
+        "zh": "预约时要告诉新顾客，服务前需要先填写顾客登记表（client intake form），所以要提前 15 分钟到。另外，日程里还要留出 5 到 15 分钟做顾客咨询（client consultation）。"
+      },
+      "lockPoint": {
+        "en": "Like a first doctor visit: new patients are often asked to come 15 minutes early to fill out forms.",
+        "zh": "就像第一次去看医生：初诊病人常被要求提前 15 分钟到，先填表格。"
+      },
+      "teachingRelation": "number",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Communicating for Success - How to Use the Intake Form",
+          "pdfPage": 548,
+          "printedPage": "53"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 548,
+          "quote": "it is important to arrive 15 minutes ahead of the appointment time"
+        },
+        {
+          "pdfPage": 548,
+          "quote": "allow time in your schedule to do a 5- to 15-minute client consultation"
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-4a-11",
+      "question": {
+        "en": "If you are unsure whether a skin condition is safe to work on, require",
+        "zh": "如果不确定某种皮肤状况能否服务，应该要求顾客提供什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "a signed school release form.",
+          "zh": "签好的学校免责声明表。"
+        },
+        {
+          "id": "b",
+          "en": "a physician's release.",
+          "zh": "医生许可（physician's release）。"
+        },
+        {
+          "id": "c",
+          "en": "the salon manager's approval.",
+          "zh": "沙龙经理的同意。"
+        },
+        {
+          "id": "d",
+          "en": "a second consultation.",
+          "zh": "再做一次咨询。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "If you are in doubt about something you see, the client must get a physician's release before any salon service. Never work on unhealthy skin or nails without written physician permission.",
+        "zh": "对看到的情况有疑问时，顾客必须先拿到医生许可，才能接受任何沙龙服务。没有医生的书面许可，绝不处理不健康的皮肤或指甲。"
+      },
+      "lockPoint": {
+        "en": "Like a coach asking for a doctor's note before an injured player returns.",
+        "zh": "就像受伤的球员要拿到医生证明，教练才让球员重新上场。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin Structure, Disorders, and Diseases",
+          "pdfPage": 101,
+          "printedPage": "77"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nails - Identify Unhealthy Conditions of the Nail",
+          "pdfPage": 128,
+          "printedPage": "104"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 101,
+          "quote": "If you are in doubt about something you see, you should require your client to obtain a physician’s release before performing any salon services."
+        },
+        {
+          "pdfPage": 128,
+          "quote": "Never diagnose, treat, or work on unhealthy skin or nails without written permission from a licensed physician in your state."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-4a-12",
+      "question": {
+        "en": "Hand and arm massage is contraindicated for a client with",
+        "zh": "顾客有以下哪种情况时，禁止（contraindicated）做手部和手臂按摩？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "diabetes that is well controlled.",
+          "zh": "控制良好的糖尿病。"
+        },
+        {
+          "id": "b",
+          "en": "high blood pressure controlled by medication.",
+          "zh": "用药控制良好的高血压。"
+        },
+        {
+          "id": "c",
+          "en": "severe, uncontrolled hypertension.",
+          "zh": "严重且未控制的高血压（hypertension）。"
+        },
+        {
+          "id": "d",
+          "en": "dry skin on the hands.",
+          "zh": "手部皮肤干燥。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Clients with high blood pressure, diabetes, or circulation problems can often have massage if stabilized and under a doctor's care. Severe, uncontrolled hypertension is a contraindication.",
+        "zh": "高血压、糖尿病或循环问题的顾客，如果病情稳定并有医生治疗，通常仍可按摩。严重且未控制的高血压则是禁忌症（contraindication）。"
+      },
+      "lockPoint": {
+        "en": "Hyper = over, as in hyperactive. Tension here means pressure: hypertension = blood pressure too high.",
+        "zh": "hyper = 过度（hyperactive 过度活跃），tension 在这里指压力：hypertension 就是血压过高。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Pre-Massage Considerations",
+          "pdfPage": 185,
+          "printedPage": "161"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 185,
+          "quote": "Many clients who have high blood pressure (hypertension), diabetes, or circulatory conditions may still have a hand and/or arm massage with-out concern, especially if their condition is stabilized and they are being treated by a physician."
+        },
+        {
+          "pdfPage": 185,
+          "quote": "Hand and/or arm massage is, however, contraindicated for clients with severe, uncontrolled hypertension."
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-4a-13",
+      "question": {
+        "en": "For a client with thin skin or poor clotting, you should avoid",
+        "zh": "顾客皮肤薄或凝血差时，应该避免——"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "nipping the cuticles.",
+          "zh": "用死皮剪剪死皮（nip the cuticles）。"
+        },
+        {
+          "id": "b",
+          "en": "using a fine-grit abrasive.",
+          "zh": "使用细砂锉（fine-grit abrasive）。"
+        },
+        {
+          "id": "c",
+          "en": "removing dead tissue with a curette.",
+          "zh": "用刮匙（curette）去除死组织。"
+        },
+        {
+          "id": "d",
+          "en": "using gentle massage pressure.",
+          "zh": "按摩时用轻柔的力度。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "For these clients a small nick can quickly need medical care. Do not use sharp tools or nip cuticles. Use a curette to gently remove nonliving tissue and a fine-grit abrasive.",
+        "zh": "对这类顾客来说，一个小破口就可能需要就医。不要用锋利工具，也不要剪死皮。改用刮匙轻轻去除死组织，并用细砂锉。"
+      },
+      "lockPoint": {
+        "en": "Thin skin and poor clotting often come with aging, blood thinners, or chemo: check the intake form first.",
+        "zh": "皮肤薄、凝血差常见于老人、服抗凝血药或做化疗的顾客：先看登记表再选工具。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Tools and Implements (special health considerations)",
+          "pdfPage": 194,
+          "printedPage": "170"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 194,
+          "quote": "Depending on your client, they may have thinner skin, difficulty clotting, or a lowered immune system."
+        },
+        {
+          "pdfPage": 194,
+          "quote": "Do not nip the cuticles. It is better to use a curette to gently remove nonliving tissue from the nail plate."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-4a-14",
+      "question": {
+        "en": "Why look closely at the nails right after removing old polish?",
+        "zh": "为什么卸掉旧甲油后要马上仔细检查指甲？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "To see which polish brand was used",
+          "zh": "看用的是哪个牌子的甲油"
+        },
+        {
+          "id": "b",
+          "en": "To match the new polish color",
+          "zh": "搭配新的甲油颜色"
+        },
+        {
+          "id": "c",
+          "en": "To decide the massage length",
+          "zh": "决定按摩时间长短"
+        },
+        {
+          "id": "d",
+          "en": "To check for hidden abnormalities",
+          "zh": "检查被遮住的异常（abnormalities）"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "In the basic manicure, remove all traces of old polish first. Then look closely at the nails for abnormalities the polish could have hidden.",
+        "zh": "基础修甲时，先把旧甲油彻底卸干净，再仔细检查指甲，看有没有被甲油遮住的异常。"
+      },
+      "lockPoint": {
+        "en": "Like taking off sunglasses to check someone's eyes: remove the cover first.",
+        "zh": "就像摘下墨镜才看得清眼睛：先卸甲油，才看得到甲面问题。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-3 Performing a Basic Manicure",
+          "pdfPage": 201,
+          "printedPage": "177"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 201,
+          "quote": "Look closely at the nails to check for abnormalities that could have been hidden by the polish."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-4a-15",
+      "question": {
+        "en": "After greeting a client, where do you take them first?",
+        "zh": "迎接顾客之后，先带顾客去哪里？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Straight to your manicure table",
+          "zh": "直接到美甲台"
+        },
+        {
+          "id": "b",
+          "en": "To the hand-washing area",
+          "zh": "洗手区（hand-washing area）"
+        },
+        {
+          "id": "c",
+          "en": "To the front desk to pay",
+          "zh": "前台付款"
+        },
+        {
+          "id": "d",
+          "en": "To the retail display",
+          "zh": "零售产品展示区"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "In Procedure 6-1, you greet the client and get their consultation card. Then escort them to wash their hands with a fresh nail brush before they sit at your table.",
+        "zh": "按程序 6-1，先迎接顾客、拿到咨询卡，再带顾客用一把干净的指甲刷洗手，然后才请顾客坐到美甲台前。"
+      },
+      "lockPoint": {
+        "en": "Clean hands first, so your disinfected table stays clean.",
+        "zh": "先洗手，你刚消毒好的台面才能保持干净。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-1 Pre-Service Procedure",
+          "pdfPage": 198,
+          "printedPage": "174"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Hand Washing",
+          "pdfPage": 179,
+          "printedPage": "155"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 198,
+          "quote": "Escort your client to the hand-washing area. Hand your client a fresh nail brush and ask them to wash their hands."
+        },
+        {
+          "pdfPage": 179,
+          "quote": "have your clients wash their hands before they sit down at your cleaned and disinfected manicure table"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-4a-16",
+      "question": {
+        "en": "In proper hand washing, rub lathered hands for at least",
+        "zh": "正确洗手时，起泡（lather）后至少要搓多久？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "5 seconds.",
+          "zh": "5 秒。"
+        },
+        {
+          "id": "b",
+          "en": "10 seconds.",
+          "zh": "10 秒。"
+        },
+        {
+          "id": "c",
+          "en": "20 seconds.",
+          "zh": "20 秒。"
+        },
+        {
+          "id": "d",
+          "en": "2 minutes.",
+          "zh": "2 分钟。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Rub your hands together, all over and vigorously, until a lather forms. Keep going for at least 20 seconds, then rinse in warm running water.",
+        "zh": "双手用力搓遍各处，直到起泡，至少持续 20 秒，然后用温水冲洗。"
+      },
+      "lockPoint": {
+        "en": "Humming \"Happy Birthday\" twice takes about 20 seconds.",
+        "zh": "哼两遍《生日快乐歌》大约就是 20 秒。"
+      },
+      "teachingRelation": "number",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Procedure 5-1 Proper Hand Washing",
+          "pdfPage": 630,
+          "printedPage": "135"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Procedure 5-1 Proper Hand Washing",
+          "pdfPage": 632,
+          "printedPage": "137"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 630,
+          "quote": "Rub your hands together, all over and vigorously, until a lather forms. Continue for a minimum of 20 seconds."
+        },
+        {
+          "pdfPage": 632,
+          "quote": "Rinse hands in warm running water."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-4a-17",
+      "question": {
+        "en": "Why use liquid soap in a pump instead of bar soap?",
+        "zh": "为什么用按压瓶装的液体皂（liquid soap），而不用肥皂块（bar soap）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Bar soap can harbor bacteria",
+          "zh": "肥皂块会滋生细菌"
+        },
+        {
+          "id": "b",
+          "en": "Liquid soap kills all germs",
+          "zh": "液体皂能杀死所有病菌"
+        },
+        {
+          "id": "c",
+          "en": "Bar soap is too acidic",
+          "zh": "肥皂块酸性太强"
+        },
+        {
+          "id": "d",
+          "en": "Liquid soap needs no rinsing",
+          "zh": "液体皂不用冲洗"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Bar soap harbors bacteria and can become a breeding ground for pathogens. Milady recommends liquid soap in pump containers at the hand-washing station.",
+        "zh": "肥皂块容易藏细菌，会变成病原菌（pathogens）的温床。Milady 建议洗手区使用按压瓶装的液体皂。"
+      },
+      "lockPoint": {
+        "en": "Picture a wet, slimy soap bar sitting in a dish everyone touches.",
+        "zh": "想象一块湿滑的肥皂，放在人人都摸过的皂碟里。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Soap",
+          "pdfPage": 173,
+          "printedPage": "149"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Hand Washing",
+          "pdfPage": 612,
+          "printedPage": "117"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 173,
+          "quote": "bar soap harbors bacteria and can become a breeding ground for pathogenic"
+        },
+        {
+          "pdfPage": 612,
+          "quote": "use liquid soaps in pump containers"
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-4a-18",
+      "question": {
+        "en": "When may hand sanitizer replace hand washing?",
+        "zh": "什么时候可以用免洗洗手液（hand sanitizer）代替洗手？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Before every service",
+          "zh": "每次服务前"
+        },
+        {
+          "id": "b",
+          "en": "When hands are visibly dirty",
+          "zh": "手上明显有污垢时"
+        },
+        {
+          "id": "c",
+          "en": "After every pedicure",
+          "zh": "每次修脚后"
+        },
+        {
+          "id": "d",
+          "en": "Only when hand washing isn't possible",
+          "zh": "只有在无法洗手时"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Sanitizers do not replace proper hand washing. Use them only when water is not available. They don't work on visibly dirty hands, and their alcohol dries the skin.",
+        "zh": "免洗洗手液不能代替正确洗手，只有在没有水时才用。手上有明显污垢时它不起作用，里面的酒精还会让皮肤变干。"
+      },
+      "lockPoint": {
+        "en": "Too much alcohol → dry, cracked skin → openings that let germs in.",
+        "zh": "酒精用多了 → 皮肤干裂 → 裂口让病菌趁虚而入。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Hand Sanitizer",
+          "pdfPage": 180,
+          "printedPage": "156"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Waterless Hand Sanitizers",
+          "pdfPage": 612,
+          "printedPage": "117"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 180,
+          "quote": "they are to be used only when water is not available for hand washing"
+        },
+        {
+          "pdfPage": 612,
+          "quote": "When there is visible dirt/debris on the hands, neither waterless hand sanitizers nor antiseptics will work until the dirt/debris is removed"
+        },
+        {
+          "pdfPage": 612,
+          "quote": "the high percentage of alcohol can dry the skin to the point of causing openings that allow for infectious agents to infect you"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-4a-19",
+      "question": {
+        "en": "Before a service, clean and disinfect the manicure table with",
+        "zh": "服务前，应该用什么清洁消毒美甲桌？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "hand sanitizer gel.",
+          "zh": "免洗洗手凝胶。"
+        },
+        {
+          "id": "b",
+          "en": "isopropyl alcohol.",
+          "zh": "异丙醇（isopropyl alcohol）。"
+        },
+        {
+          "id": "c",
+          "en": "an EPA-approved disinfectant.",
+          "zh": "经 EPA 批准的消毒剂（EPA-approved disinfectant）。"
+        },
+        {
+          "id": "d",
+          "en": "plain warm water.",
+          "zh": "清水（温水）。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Procedure 6-1 says to clean and disinfect the table and drawer with an EPA-approved disinfectant, following the label. Antiseptics and alcohol do not disinfect surfaces.",
+        "zh": "程序 6-1 要求按标签说明，用经 EPA 批准的消毒剂清洁消毒美甲桌和抽屉。皮肤抗菌剂（antiseptics）和酒精不能给表面消毒。"
+      },
+      "lockPoint": {
+        "en": "EPA = Environmental Protection Agency. A salon disinfectant must show an EPA registration number.",
+        "zh": "EPA = 美国国家环境保护局。沙龙用的消毒剂标签上必须有 EPA 注册号。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-1 Pre-Service Procedure",
+          "pdfPage": 195,
+          "printedPage": "171"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Common Antiseptics",
+          "pdfPage": 613,
+          "printedPage": "118"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 195,
+          "quote": "clean and disinfect the manicure table and drawer with an EPA-approved disinfectant, according to the directions on the product label"
+        },
+        {
+          "pdfPage": 613,
+          "quote": "Alcohol is not a disinfectant for surfaces or implements"
+        },
+        {
+          "pdfPage": 613,
+          "quote": "A disinfectant used in the shop must carry an EPA registration number"
+        }
+      ],
+      "hookType": "real-acronym"
+    },
+    {
+      "id": "nic-4a-20",
+      "question": {
+        "en": "Where does a right-handed nail tech place abrasives and buffers?",
+        "zh": "惯用右手的美甲师应把锉条（abrasives）和抛光块（buffers）放在哪里？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "On the left side of the table",
+          "zh": "桌子左侧"
+        },
+        {
+          "id": "b",
+          "en": "On the right side of the table",
+          "zh": "桌子右侧"
+        },
+        {
+          "id": "c",
+          "en": "In the client's lap",
+          "zh": "顾客腿上"
+        },
+        {
+          "id": "d",
+          "en": "Inside the disinfection container",
+          "zh": "消毒容器里"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "In the basic table setup, place abrasives, buffers, supplies, and products on your right if you are right-handed, or on your left if you are left-handed.",
+        "zh": "布置基础工作台时，惯用右手就把锉条、抛光块、用品和产品放在右边；惯用左手就放在左边。"
+      },
+      "lockPoint": {
+        "en": "Tools on your working-hand side: you grab them without reaching across your own work.",
+        "zh": "工具放在惯用手那一侧：伸手就拿到，不用越过正在做的手。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-1 Pre-Service Procedure",
+          "pdfPage": 196,
+          "printedPage": "172"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-1 Pre-Service Procedure",
+          "pdfPage": 197,
+          "printedPage": "173"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 196,
+          "quote": "Place the abrasives and buffers of your choice on the table to your right (or to the left, if you are left-handed)."
+        },
+        {
+          "pdfPage": 197,
+          "quote": "Place the supplies and products needed for your service to the right if you are right-handed, and to the left if you are left-handed."
+        }
+      ],
+      "hookType": "real-life"
+    }
+  ],
+  "review": {
+    "reviewedAt": "2026-10-23",
+    "checks": [
+      "quotes found on cited pages (verify-nic-domain-evidence.py)",
+      "blind answer check: 20/20 matched key; changed questions re-checked blind",
+      "content and Chinese review: fixes applied",
+      "memory hooks fact-checked (word origins, textbook facts): fixes applied"
+    ]
+  }
+}

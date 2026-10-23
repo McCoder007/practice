@@ -1,0 +1,1312 @@
+{
+  "schemaVersion": "1.0.0",
+  "setId": "6B",
+  "domain": {
+    "id": "manicure-pedicure",
+    "order": 6,
+    "title": {
+      "en": "Manicure and Pedicure Services",
+      "zh": "手部与足部护理服务"
+    },
+    "examWeightPercent": 18
+  },
+  "title": {
+    "en": "Massage",
+    "zh": "按摩"
+  },
+  "status": "reviewed",
+  "authoredAt": "2026-10-22",
+  "sourceBook": "Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020)",
+  "review": {
+    "reviewedAt": "2026-10-23",
+    "checks": [
+      "quotes found on cited pages (verify-nic-domain-evidence.py)",
+      "blind answer check: 20/20 matched key (changed stems and choices re-checked blind)",
+      "content and Chinese review: fixes applied, re-reviewed after changes",
+      "memory hooks fact-checked (word origins, textbook facts): fixes applied",
+      "overlap check against sibling sets 1B, 4A, 5A, 5B, 5C: overlapping items replaced"
+    ]
+  },
+  "questions": [
+    {
+      "id": "nic-6b-01",
+      "question": {
+        "en": "You are unsure whether a client's medical condition allows massage. What should you do?",
+        "zh": "你不确定顾客的健康状况是否适合按摩，应该怎么做？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Give a shorter, deeper massage",
+          "zh": "做时间更短、力度更深的按摩"
+        },
+        {
+          "id": "b",
+          "en": "Use only tapotement",
+          "zh": "只用叩击法（tapotement）"
+        },
+        {
+          "id": "c",
+          "en": "Leave massage out of the service",
+          "zh": "这次服务不做按摩"
+        },
+        {
+          "id": "d",
+          "en": "Massage only the fingers",
+          "zh": "只按摩手指"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Discuss medical conditions during the consultation. Milady says to be conservative: when in doubt, don't include massage. Encourage the client to ask their physician.",
+        "zh": "在咨询时讨论顾客的健康状况。Milady 说要保守：拿不准时，就不要做按摩，并鼓励顾客先咨询医生。"
+      },
+      "lockPoint": {
+        "en": "Stable, treated high blood pressure or diabetes is often fine. Severe, uncontrolled hypertension rules out hand and arm massage.",
+        "zh": "病情稳定、正在治疗的高血压或糖尿病通常可以按摩；严重且未控制的高血压则不能做手部和手臂按摩。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Pre-Massage Considerations",
+          "pdfPage": 186,
+          "printedPage": "162"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Pre-Massage Considerations",
+          "pdfPage": 185,
+          "printedPage": "161"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 186,
+          "quote": "When making decisions about whether to perform a massage on a person who has a medical condition, be conservative. When in doubt, don’t include massage as part of your service."
+        },
+        {
+          "pdfPage": 185,
+          "quote": "If your client has not discussed massage with their physician, encourage them to do so."
+        },
+        {
+          "pdfPage": 185,
+          "quote": "Hand and arm massages are said to be optional during a basic manicure"
+        },
+        {
+          "pdfPage": 185,
+          "quote": "Hand and/or arm massage is, however, contraindicated for clients with severe, uncontrolled hypertension."
+        }
+      ],
+      "hookType": "contrast"
+    },
+    {
+      "id": "nic-6b-02",
+      "question": {
+        "en": "Gliding strokes over the skin with varying pressure are called",
+        "zh": "双手以不同力度在皮肤上滑动的一连串手法称为什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "effleurage.",
+          "zh": "轻抚法（effleurage）。"
+        },
+        {
+          "id": "b",
+          "en": "tapotement.",
+          "zh": "叩击法（tapotement）。"
+        },
+        {
+          "id": "c",
+          "en": "pétrissage.",
+          "zh": "揉捏法（pétrissage）。"
+        },
+        {
+          "id": "d",
+          "en": "friction.",
+          "zh": "摩擦法（friction）。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Effleurage is a succession of strokes in which the hands glide over an area of the body with varying pressure or contact. It is a relaxing movement.",
+        "zh": "effleurage（轻抚法）是双手以不同力度或接触程度在身体某部位滑动的一连串手法，能让顾客放松。"
+      },
+      "lockPoint": {
+        "en": "From French effleurer, \"to touch lightly\": the hands skim over the skin.",
+        "zh": "源自法语 effleurer，意思是“轻轻触碰”：双手轻轻掠过皮肤。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - General Movements for Massage",
+          "pdfPage": 186,
+          "printedPage": "162"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 186,
+          "quote": "Effleurage (ef-loo-RAHZ) is a succession of strokes in which the hands glide over an area of the body with varying degrees of pressure or contact."
+        },
+        {
+          "pdfPage": 186,
+          "quote": "This is a relaxing movement for your client."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-6b-03",
+      "question": {
+        "en": "Lifting, squeezing, and pressing the tissue is called",
+        "zh": "提起、挤压并按压组织的手法称为什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "effleurage.",
+          "zh": "轻抚法（effleurage）。"
+        },
+        {
+          "id": "b",
+          "en": "vibration.",
+          "zh": "振动法（vibration）。"
+        },
+        {
+          "id": "c",
+          "en": "tapotement.",
+          "zh": "叩击法（tapotement）。"
+        },
+        {
+          "id": "d",
+          "en": "pétrissage.",
+          "zh": "揉捏法（pétrissage）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Pétrissage, or kneading, lifts, squeezes, and presses the tissue. It moves flesh and muscle over the bones and increases blood flow.",
+        "zh": "pétrissage（揉捏法），也叫 kneading，是提起、挤压并按压组织。它让肌肉在骨头上移动，促进血液流动。"
+      },
+      "lockPoint": {
+        "en": "From French pétrir, \"to knead,\" as a baker kneads bread dough.",
+        "zh": "源自法语 pétrir，意思是“揉面”，就像面包师揉面团。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - General Movements for Massage",
+          "pdfPage": 186,
+          "printedPage": "162"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-5 Hand and Arm Massage",
+          "pdfPage": 211,
+          "printedPage": "187"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 186,
+          "quote": "Pétrissage (PEH-treh-sahzh), or kneading, is lifting, squeezing, and pressing the tissue."
+        },
+        {
+          "pdfPage": 211,
+          "quote": "Kneading (pétrissage) is a squeezing motion that moves flesh and muscles over the bones beneath in opposite directions, stimulating and increasing blood flow."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-6b-04",
+      "question": {
+        "en": "A rapid tapping or striking motion of the hands is called",
+        "zh": "双手快速拍打或敲击皮肤的手法称为什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "friction.",
+          "zh": "摩擦法（friction）。"
+        },
+        {
+          "id": "b",
+          "en": "tapotement.",
+          "zh": "叩击法（tapotement）。"
+        },
+        {
+          "id": "c",
+          "en": "effleurage.",
+          "zh": "轻抚法（effleurage）。"
+        },
+        {
+          "id": "d",
+          "en": "vibration.",
+          "zh": "振动法（vibration）。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Tapotement is a rapid tapping or striking motion of the hands against the skin.",
+        "zh": "tapotement（叩击法）是双手快速拍打或敲击皮肤。"
+      },
+      "lockPoint": {
+        "en": "From French tapoter, \"to tap\" or pat lightly. Picture fingertips drumming on a table.",
+        "zh": "源自法语 tapoter，意思是“轻拍、轻敲”。想象手指在桌上轻敲打拍子。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - General Movements for Massage",
+          "pdfPage": 186,
+          "printedPage": "162"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 186,
+          "quote": "Tapotement (tah-POTE-ment) is a rapid tapping or striking motion of the hands against the skin."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-6b-05",
+      "question": {
+        "en": "Which massage movement shakes the tissue without the hand leaving the skin?",
+        "zh": "哪种按摩手法是手不离开皮肤、持续抖动组织？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Tapotement",
+          "zh": "叩击法（tapotement）"
+        },
+        {
+          "id": "b",
+          "en": "Vibration",
+          "zh": "振动法（vibration）"
+        },
+        {
+          "id": "c",
+          "en": "Pétrissage",
+          "zh": "揉捏法（pétrissage）"
+        },
+        {
+          "id": "d",
+          "en": "Effleurage",
+          "zh": "轻抚法（effleurage）"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Vibration is a continuous trembling or shaking movement applied by the hand without leaving contact with the skin. Tapotement, by contrast, strikes the skin.",
+        "zh": "vibration（振动法）是手不离开皮肤、持续颤动或抖动。tapotement（叩击法）则是敲打皮肤。"
+      },
+      "lockPoint": {
+        "en": "Like a phone buzzing in your hand: it shakes, but it never leaves your palm.",
+        "zh": "就像手机在手里震动：一直在抖，但从不离开你的手掌。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - General Movements for Massage",
+          "pdfPage": 186,
+          "printedPage": "162"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 186,
+          "quote": "Vibration (vy-BRAY-shun) is a continuous trembling or shaking movement applied by the hand without leaving contact with the skin."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-6b-06",
+      "question": {
+        "en": "Placing the hands around the forearm and twisting them in opposite directions, like wringing a washcloth, is",
+        "zh": "双手环住前臂，朝相反方向扭转，像拧毛巾一样，这是哪种手法？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "tapotement.",
+          "zh": "叩击法（tapotement）。"
+        },
+        {
+          "id": "b",
+          "en": "vibration.",
+          "zh": "振动法（vibration）。"
+        },
+        {
+          "id": "c",
+          "en": "friction.",
+          "zh": "摩擦法（friction）。"
+        },
+        {
+          "id": "d",
+          "en": "effleurage.",
+          "zh": "轻抚法（effleurage）。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Friction presses one layer of tissue over another. The hands go around the arm and twist gently in opposite directions, as you would wring out a washcloth.",
+        "zh": "friction（摩擦法）是让一层组织压在另一层上移动。双手环住手臂，轻轻朝相反方向扭转，就像拧毛巾。"
+      },
+      "lockPoint": {
+        "en": "Friction comes from Latin fricare, \"to rub\": one layer of tissue rubs against another.",
+        "zh": "friction 来自拉丁语 fricare，意思是“摩擦”：一层组织在另一层上摩擦。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - General Movements for Massage",
+          "pdfPage": 186,
+          "printedPage": "162"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-5 Hand and Arm Massage",
+          "pdfPage": 210,
+          "printedPage": "186"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 186,
+          "quote": "Friction (FRIK-shun) incorporates various strokes that manipulate or press one layer of tissue over another."
+        },
+        {
+          "pdfPage": 186,
+          "quote": "are then gently twisted in opposite directions on the arm, as one would wring out a washcloth."
+        },
+        {
+          "pdfPage": 210,
+          "quote": "gently twist in opposite directions, as you would wring out a washcloth, from the wrist to the elbow"
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-6b-07",
+      "question": {
+        "en": "Which massage movement should nail technicians perfect and use most?",
+        "zh": "美甲师最应该练好、用得最多的按摩手法是哪一种？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Effleurage",
+          "zh": "轻抚法（effleurage）"
+        },
+        {
+          "id": "b",
+          "en": "Tapotement",
+          "zh": "叩击法（tapotement）"
+        },
+        {
+          "id": "c",
+          "en": "Friction",
+          "zh": "摩擦法（friction）"
+        },
+        {
+          "id": "d",
+          "en": "Pétrissage",
+          "zh": "揉捏法（pétrissage）"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Milady says effleurage is the movement to perfect, vary, and use expertly, because it is relaxing and calming. Use the other movements less, and with gentle care.",
+        "zh": "Milady 说 effleurage（轻抚法）是要练好、灵活变化、熟练运用的手法，因为它让人放松平静。其他手法少用，并且要轻柔。"
+      },
+      "lockPoint": {
+        "en": "Effleurage is the main dish; the other four movements are seasoning, used lightly.",
+        "zh": "effleurage 是主菜，其他四种手法只是调味料，少放一点。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Caution (massage movements)",
+          "pdfPage": 186,
+          "printedPage": "162"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 186,
+          "quote": "effleurage is the movement that nail professionals should perfect, vary, and expertly use in services"
+        },
+        {
+          "pdfPage": 186,
+          "quote": "Effleurage is relaxing and calming and meets the overall purpose of massage in manicures and pedicures."
+        },
+        {
+          "pdfPage": 186,
+          "quote": "the others should be used less and with gentle care."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-6b-08",
+      "question": {
+        "en": "The massage in a manicure or pedicure is mainly for",
+        "zh": "修手或修脚中的按摩主要是为了什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "deep, sports-style muscle work.",
+          "zh": "深层的运动式肌肉按摩。"
+        },
+        {
+          "id": "b",
+          "en": "moving stiff joints.",
+          "zh": "活动僵硬的关节。"
+        },
+        {
+          "id": "c",
+          "en": "removing dead skin.",
+          "zh": "去除死皮。"
+        },
+        {
+          "id": "d",
+          "en": "relaxation.",
+          "zh": "放松。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Body massage can be for relaxation or therapy, but massage during a manicure or pedicure is purely for relaxation. A nail technician is not licensed for deep, sports-like massage.",
+        "zh": "全身按摩可以是放松或治疗，但修手修脚中的按摩纯粹是为了放松。美甲师没有做深层运动按摩的执照。"
+      },
+      "lockPoint": {
+        "en": "Client surveys rank massage as the most enjoyed part of any nail service. Relaxation brings them back.",
+        "zh": "顾客调查显示，按摩是所有美甲服务中最受欢迎的部分。放松的感觉让顾客回头。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Benefits of a Pedicure Massage",
+          "pdfPage": 231,
+          "printedPage": "207"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Men's Massage",
+          "pdfPage": 184,
+          "printedPage": "160"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 231,
+          "quote": "the focus of a massage performed during a manicure or pedicure is purely relaxation."
+        },
+        {
+          "pdfPage": 184,
+          "quote": "Remember you are not licensed to perform a deep, sports-like massage."
+        },
+        {
+          "pdfPage": 231,
+          "quote": "According to client salon surveys, massage is the most enjoyed feature of any nail service."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-6b-09",
+      "question": {
+        "en": "In a traditional manicure, when is the hand massage done?",
+        "zh": "传统修手中，手部按摩在什么时候做？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Before the old polish is removed",
+          "zh": "卸旧甲油之前"
+        },
+        {
+          "id": "b",
+          "en": "Before the nails are filed",
+          "zh": "锉指甲之前"
+        },
+        {
+          "id": "c",
+          "en": "After the topcoat is applied",
+          "zh": "涂完亮油之后"
+        },
+        {
+          "id": "d",
+          "en": "After the manicure steps, just before polish",
+          "zh": "修手步骤之后、上甲油之前"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Milady places the massage after the basic manicure procedures, just before the polish application. The nail plates are then cleaned of lotion before polishing.",
+        "zh": "Milady 把按摩安排在基础修手步骤之后、上甲油之前。按摩后要先把甲板上的乳液清干净，再上甲油。"
+      },
+      "lockPoint": {
+        "en": "Massage after polish would smudge the fresh color. So: massage, clean the plates, then polish.",
+        "zh": "上完甲油再按摩会把新甲油弄花。所以顺序是：按摩 → 清洁甲板 → 上甲油。"
+      },
+      "teachingRelation": "sequence",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - General Movements for Massage",
+          "pdfPage": 186,
+          "printedPage": "162"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 186,
+          "quote": "In the traditional manicure, the massage is performed after the basic manicure procedures, just before the polish application."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-6b-10",
+      "question": {
+        "en": "Why must massage lotion be removed from the nail plate before polishing?",
+        "zh": "为什么上甲油前必须把甲板上的按摩乳液清除干净？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Polish will not adhere well",
+          "zh": "甲油会附着不牢"
+        },
+        {
+          "id": "b",
+          "en": "Lotion turns polish yellow",
+          "zh": "乳液会让甲油变黄"
+        },
+        {
+          "id": "c",
+          "en": "Lotion makes polish dry too fast",
+          "zh": "乳液会让甲油干得太快"
+        },
+        {
+          "id": "d",
+          "en": "Lotion spreads infection",
+          "zh": "乳液会传播感染"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Remove all traces of lotion or oil from the nail plate after the massage, or the polish will not adhere well. Use alcohol, acetone, or polish remover, and clean under the free edge.",
+        "zh": "按摩后要把甲板上的乳液或油完全清掉，否则甲油附着不牢。可用酒精、丙酮（acetone）或卸甲水，游离缘下面也要清干净。"
+      },
+      "lockPoint": {
+        "en": "Tape won't stick to an oily surface. Polish is the same.",
+        "zh": "胶带贴不住油腻的表面，甲油也一样。"
+      },
+      "teachingRelation": "cause-effect",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-3 Performing a Basic Manicure",
+          "pdfPage": 205,
+          "printedPage": "181"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - General Movements for Massage",
+          "pdfPage": 187,
+          "printedPage": "163"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 205,
+          "quote": "Remove all traces of lotion or oil from the nail plate after the massage and before polishing, or the polish will not adhere well."
+        },
+        {
+          "pdfPage": 187,
+          "quote": "You can use alcohol, acetone, or nail polish remover to perform this task"
+        },
+        {
+          "pdfPage": 205,
+          "quote": "Do not forget to clean under the free edge of the nail plate to remove any remaining massage lotion."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-6b-11",
+      "question": {
+        "en": "How should you sit while giving a hand and arm massage?",
+        "zh": "做手部和手臂按摩时，你应该怎么坐？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Leaning forward toward the client",
+          "zh": "身体前倾靠近顾客"
+        },
+        {
+          "id": "b",
+          "en": "Perched on the edge of the chair",
+          "zh": "只坐在椅子边缘"
+        },
+        {
+          "id": "c",
+          "en": "Relaxed, feet flat, not stretching forward",
+          "zh": "放松，双脚平放，不向前伸"
+        },
+        {
+          "id": "d",
+          "en": "Standing beside the client",
+          "zh": "站在顾客旁边"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Sit comfortably with correct, relaxed posture and both feet flat on the floor. Do not stretch or lean toward the client; strained positions can injure your back, neck, and shoulders.",
+        "zh": "坐得舒服，姿势端正放松，双脚平放在地上。不要伸长身子或前倾靠近顾客；姿势别扭会伤到背、颈和肩。"
+      },
+      "lockPoint": {
+        "en": "Leaning in for one massage feels fine. Leaning in all day, every day, adds up to injury.",
+        "zh": "做一次按摩时前倾没什么感觉。天天整天前倾，伤害就会累积起来。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Here's a Tip (massage posture)",
+          "pdfPage": 185,
+          "printedPage": "161"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 185,
+          "quote": "make sure that you are sitting in a comfortable position and not stretching or leaning forward toward your customer."
+        },
+        {
+          "pdfPage": 185,
+          "quote": "Your posture should be correct and relaxed and your feet parallel and flat on the floor."
+        },
+        {
+          "pdfPage": 185,
+          "quote": "Sitting or working in an uncomfortable or strained position can cause back, neck, and shoulder injuries."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-6b-12",
+      "question": {
+        "en": "For a client with arthritis, which massage should be avoided?",
+        "zh": "顾客有关节炎（arthritis）时，应避免哪种按摩？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Slow, rhythmic strokes",
+          "zh": "缓慢、有节奏的手法"
+        },
+        {
+          "id": "b",
+          "en": "Vigorous, strong movements",
+          "zh": "剧烈、用力的手法"
+        },
+        {
+          "id": "c",
+          "en": "Gentle effleurage",
+          "zh": "轻柔的轻抚法"
+        },
+        {
+          "id": "d",
+          "en": "Light lotion application",
+          "zh": "轻轻涂抹乳液"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Avoid vigorous or strong massage on clients with arthritis. Do not press on or manipulate painful joints; smooth on lotion with gentle pressure instead.",
+        "zh": "关节炎顾客要避免剧烈或用力的按摩。不要按压或活动疼痛的关节，改用轻柔的力度涂抹乳液。"
+      },
+      "lockPoint": {
+        "en": "Arthr = joint, itis = inflammation. Inflamed joints need a gentle glide, not force.",
+        "zh": "arthr = 关节，itis = 发炎。发炎的关节只能轻轻滑过，不能用力。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Pre-Massage Considerations",
+          "pdfPage": 185,
+          "printedPage": "161"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Clients with Painful Joints",
+          "pdfPage": 193,
+          "printedPage": "169"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 185,
+          "quote": "Avoid performing vigorous or strong massage techniques on clients who have arthritis."
+        },
+        {
+          "pdfPage": 193,
+          "quote": "Do not manipulate the joints during the massage portion of the service."
+        },
+        {
+          "pdfPage": 193,
+          "quote": "Gently smooth the lotion on the client’s skin applying gentle pressure."
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-6b-13",
+      "question": {
+        "en": "During the massage, the technician should speak only to",
+        "zh": "按摩过程中，技师只应该为了什么开口说话？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "ask once about pressure.",
+          "zh": "问一次力度是否合适。"
+        },
+        {
+          "id": "b",
+          "en": "explain each movement.",
+          "zh": "解释每一个手法。"
+        },
+        {
+          "id": "c",
+          "en": "suggest retail products.",
+          "zh": "推荐零售产品。"
+        },
+        {
+          "id": "d",
+          "en": "keep the client awake.",
+          "zh": "让顾客保持清醒。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Do not talk during the massage except to ask once whether your touch should be more or less firm. Talking takes away the relaxation.",
+        "zh": "按摩时不要说话，只问一次手法要重一点还是轻一点。说话会破坏放松的效果。"
+      },
+      "lockPoint": {
+        "en": "Save product advice for polishing time, Milady's suggestion for clients who want to drift off.",
+        "zh": "推荐产品留到上甲油的时候再说，这是 Milady 对想放松打盹的顾客的建议。"
+      },
+      "teachingRelation": "action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Pre-Massage Considerations",
+          "pdfPage": 185,
+          "printedPage": "161"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Interaction during the Service",
+          "pdfPage": 228,
+          "printedPage": "204"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 185,
+          "quote": "Do not talk to your client during the massage except to ask once whether your touch should be more or less firm."
+        },
+        {
+          "pdfPage": 185,
+          "quote": "Talking eliminates the relaxation therapy of the massage."
+        },
+        {
+          "pdfPage": 228,
+          "quote": "discuss your product recommendations during polishing or when closing the service."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-6b-14",
+      "question": {
+        "en": "You need more lotion in the middle of a massage. What should you do?",
+        "zh": "按摩到一半需要补乳液，应该怎么做？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Stop and wash your hands",
+          "zh": "停下来洗手"
+        },
+        {
+          "id": "b",
+          "en": "Lift both hands for a moment",
+          "zh": "两只手暂时都离开"
+        },
+        {
+          "id": "c",
+          "en": "Keep one hand on the client",
+          "zh": "一只手始终留在顾客身上"
+        },
+        {
+          "id": "d",
+          "en": "Finish without adding lotion",
+          "zh": "不补乳液，直接做完"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Always leave one hand on the client's hand or arm and get more product with the other. A pump container makes this easy.",
+        "zh": "一只手始终放在顾客的手或手臂上，用另一只手取乳液。用按压瓶会更方便。"
+      },
+      "lockPoint": {
+        "en": "Like holding a child's hand while crossing a street: grab things with your other hand.",
+        "zh": "就像牵着孩子过马路：要拿东西，就用另一只手。"
+      },
+      "teachingRelation": "action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Here's a Tip (more lotion)",
+          "pdfPage": 211,
+          "printedPage": "187"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Massage Techniques",
+          "pdfPage": 185,
+          "printedPage": "161"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 211,
+          "quote": "When more cream, oil, or lotion is needed during the massage, always leave one hand on the client’s hand or arm and retrieve more product with the other hand."
+        },
+        {
+          "pdfPage": 211,
+          "quote": "Having your product in a pump container facilitates this important massage technique."
+        },
+        {
+          "pdfPage": 185,
+          "quote": "the technician should always have one hand on the client’s arm or hand during the movements and the transitions between them."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-6b-15",
+      "question": {
+        "en": "Resistance from too little massage lotion on the skin is called",
+        "zh": "按摩乳液太少、手在皮肤上受到阻力，这称为什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "tapotement.",
+          "zh": "叩击法（tapotement）。"
+        },
+        {
+          "id": "b",
+          "en": "pétrissage.",
+          "zh": "揉捏法（pétrissage）。"
+        },
+        {
+          "id": "c",
+          "en": "vibration.",
+          "zh": "振动法（vibration）。"
+        },
+        {
+          "id": "d",
+          "en": "skin drag.",
+          "zh": "皮肤拖拽（skin drag）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Apply enough lotion so your hands move across the skin without resistance. That resistance, called skin drag, is not comfortable for the client.",
+        "zh": "要涂足够的乳液，让手在皮肤上滑动没有阻力。这种阻力叫 skin drag（皮肤拖拽），会让顾客不舒服。"
+      },
+      "lockPoint": {
+        "en": "A dry palm on a dry arm drags like a rubber sole on a gym floor.",
+        "zh": "干手掌在干手臂上，就像橡胶鞋底在体育馆地板上拖着走。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-5 Hand and Arm Massage",
+          "pdfPage": 208,
+          "printedPage": "184"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 208,
+          "quote": "Apply enough to allow movement across the skin without resistance (such resistance is known as skin drag)."
+        },
+        {
+          "pdfPage": 208,
+          "quote": "Skin drag is not comfortable for the client."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-6b-16",
+      "question": {
+        "en": "The light stroke off the fingertips that ends a massage is called",
+        "zh": "按摩结束时，从指尖轻轻滑出的最后动作称为什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "tapotement.",
+          "zh": "叩击法（tapotement）。"
+        },
+        {
+          "id": "b",
+          "en": "feathering off.",
+          "zh": "羽毛式收尾（feathering off）。"
+        },
+        {
+          "id": "c",
+          "en": "pétrissage.",
+          "zh": "揉捏法（pétrissage）。"
+        },
+        {
+          "id": "d",
+          "en": "friction.",
+          "zh": "摩擦法（friction）。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "To finish, pull your fingers lightly from the back of the hands down and off the fingertips, two to three times. This final movement is called feathering off.",
+        "zh": "最后，用手指从顾客手背轻轻滑下、滑出指尖，做两到三次。这个收尾动作叫 feathering off（羽毛式收尾）。"
+      },
+      "lockPoint": {
+        "en": "Feathering is the goodbye signal: experienced clients feel it and know the massage is ending.",
+        "zh": "feathering 是告别信号：老顾客一感觉到，就知道按摩快结束了。"
+      },
+      "teachingRelation": "sequence",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-5 Hand and Arm Massage",
+          "pdfPage": 211,
+          "printedPage": "187"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Procedure 7-2 Foot and Leg Massage",
+          "pdfPage": 243,
+          "printedPage": "219"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 211,
+          "quote": "This final movement, called feathering off, is the end of the massage."
+        },
+        {
+          "pdfPage": 243,
+          "quote": "End the massage with a feathering technique to provide a signal for experienced clients that the massage is ending."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-6b-17",
+      "question": {
+        "en": "Why should the foot be held firmly during a foot massage?",
+        "zh": "做足部按摩时，为什么要稳稳地握住脚？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "To slow blood flow to the toes",
+          "zh": "减缓脚趾的血流"
+        },
+        {
+          "id": "b",
+          "en": "To stretch the ankle tendons",
+          "zh": "拉伸脚踝的肌腱"
+        },
+        {
+          "id": "c",
+          "en": "To avoid a ticklish feeling",
+          "zh": "避免让顾客觉得痒"
+        },
+        {
+          "id": "d",
+          "en": "To test the client's reflexes",
+          "zh": "测试顾客的反射"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Grasp the foot firmly at the mid-tarsal area, thumb on the bottom. A light, loose hold can tickle. In a hand massage, by contrast, the arm is held loosely.",
+        "zh": "在中跗部（mid-tarsal）稳稳握住脚，拇指在脚底。握得太轻太松会让人痒。手部按摩则相反，手臂要轻松地握着。"
+      },
+      "lockPoint": {
+        "en": "A firm grip also locks the foot in place, giving you control of its movements.",
+        "zh": "握稳还能把脚固定住，让你控制脚的动作。"
+      },
+      "teachingRelation": "cause-effect",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Holding the Foot during the Massage",
+          "pdfPage": 232,
+          "printedPage": "208"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 232,
+          "quote": "Generally, when you are performing a foot massage, the foot should be grasped between the thumb and fingers at the mid-tarsal area."
+        },
+        {
+          "pdfPage": 232,
+          "quote": "Avoid holding the foot lightly or loosely, as it can cause a ticklish sensation in many people."
+        },
+        {
+          "pdfPage": 208,
+          "quote": "Be sure to hold the client’s hand and arm loosely without too much restraint during the massage."
+        },
+        {
+          "pdfPage": 232,
+          "quote": "It locks the foot into place, giving the nail technician control of its movements."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-6b-18",
+      "question": {
+        "en": "In a pedicure massage, where is a friction movement done?",
+        "zh": "修脚按摩中，摩擦法（friction）用在哪里？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Only on the bottom of the foot",
+          "zh": "只用在脚底"
+        },
+        {
+          "id": "b",
+          "en": "On the shin",
+          "zh": "小腿前侧"
+        },
+        {
+          "id": "c",
+          "en": "On the front of the knee",
+          "zh": "膝盖前面"
+        },
+        {
+          "id": "d",
+          "en": "On the tops of the toes",
+          "zh": "脚趾上面"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "A fist twisting into the instep while the other hand presses the foot is a friction movement. Milady says the bottom of the foot is the only place friction is used in a pedicure.",
+        "zh": "一只手压住脚背，另一只手握拳在足弓（instep）上扭转，这是摩擦法。Milady 说修脚时只在脚底用摩擦法。"
+      },
+      "lockPoint": {
+        "en": "Hand massage uses friction in more places: wrist circles, thumb circles up the arm, and elbow rotation.",
+        "zh": "手部按摩用摩擦法的地方更多：手腕画圈、拇指沿手臂画圈、转手肘。"
+      },
+      "teachingRelation": "location",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Procedure 7-2 Foot and Leg Massage",
+          "pdfPage": 242,
+          "printedPage": "218"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-5 Hand and Arm Massage",
+          "pdfPage": 209,
+          "printedPage": "185"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 242,
+          "quote": "The bottom of the foot is the only place a friction movement is performed in a pedicure service."
+        },
+        {
+          "pdfPage": 242,
+          "quote": "This is a friction movement."
+        },
+        {
+          "pdfPage": 209,
+          "quote": "This is a form of friction massage movement that is a deep rubbing action."
+        }
+      ],
+      "hookType": "contrast"
+    },
+    {
+      "id": "nic-6b-19",
+      "question": {
+        "en": "During arm effleurage, how does the hand return from elbow to wrist?",
+        "zh": "手臂轻抚法（effleurage）中，手从手肘回到手腕时怎么移动？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "With deeper pressure",
+          "zh": "力度更深"
+        },
+        {
+          "id": "b",
+          "en": "With lighter pressure",
+          "zh": "力度更轻"
+        },
+        {
+          "id": "c",
+          "en": "With rapid tapping",
+          "zh": "快速拍打"
+        },
+        {
+          "id": "d",
+          "en": "Lifted completely off the arm",
+          "zh": "手完全离开手臂"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Glide up from wrist to elbow with slight pressure to relax the client, then move back to the wrist with lighter pressure. Leg effleurage works the same way.",
+        "zh": "从手腕向手肘滑动时稍微施压，帮助放松；回到手腕时力度更轻。腿部轻抚法也一样。"
+      },
+      "lockPoint": {
+        "en": "Upward strokes move toward the heart, the same direction Milady gives for hot stones.",
+        "zh": "向上的手法朝向心脏，和 Milady 说的热石按摩方向一样。"
+      },
+      "teachingRelation": "action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-5 Hand and Arm Massage",
+          "pdfPage": 210,
+          "printedPage": "186"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Procedure 7-2 Foot and Leg Massage",
+          "pdfPage": 243,
+          "printedPage": "219"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Hot Stones",
+          "pdfPage": 220,
+          "printedPage": "196"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 210,
+          "quote": "moving up with slight pressure on the skin with your fingers, thumb, and palm to induce relaxation, and then move back to the wrist area with a lighter pressure on the skin."
+        },
+        {
+          "pdfPage": 243,
+          "quote": "Move up the leg and then lightly return to the original location."
+        },
+        {
+          "pdfPage": 220,
+          "quote": "The movements are up, toward the heart, and are not aggressive."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-6b-20",
+      "question": {
+        "en": "In massage, which way is pressure usually directed?",
+        "zh": "按摩时，压力通常朝哪个方向施加？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "From the origin toward the insertion",
+          "zh": "从起点（origin）推向止点（insertion）"
+        },
+        {
+          "id": "b",
+          "en": "Side to side across the muscle",
+          "zh": "横过肌肉左右来回"
+        },
+        {
+          "id": "c",
+          "en": "Away from the belly of the muscle",
+          "zh": "离开肌腹（belly）的方向"
+        },
+        {
+          "id": "d",
+          "en": "From the insertion toward the origin",
+          "zh": "从止点（insertion）推向起点（origin）"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Milady says massage pressure usually goes from the insertion (the end where more movement occurs) toward the origin (the fixed end), moving toward the belly of the muscle.",
+        "zh": "Milady 说按摩压力通常从 insertion（止点，活动较多的一端）推向 origin（起点，固定不动的一端），并朝向肌腹（belly，肌肉中间部分）。"
+      },
+      "lockPoint": {
+        "en": "Origin means \"beginning\": press from the moving end back toward where the muscle begins.",
+        "zh": "origin 的意思是“起源、开始”：从活动的那一端，往肌肉开始的地方推。"
+      },
+      "teachingRelation": "action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "General Anatomy - Muscular System",
+          "pdfPage": 54,
+          "printedPage": "30"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 54,
+          "quote": "Pressure in massage is usually directed from the insertion to the origin and moving toward the belly of the muscle."
+        },
+        {
+          "pdfPage": 54,
+          "quote": "The origin (OR-ah-jin) is the part that does not move"
+        },
+        {
+          "pdfPage": 54,
+          "quote": "The insertion (in-SER-shun) is the point of attachment in a muscle where more movement occurs."
+        }
+      ],
+      "hookType": "word-origin"
+    }
+  ]
+}

@@ -1,0 +1,1249 @@
+{
+  "schemaVersion": "1.0.0",
+  "setId": "2C",
+  "domain": {
+    "id": "anatomy-physiology",
+    "order": 2,
+    "title": {
+      "en": "Anatomy and Physiology",
+      "zh": "解剖学与生理学"
+    },
+    "examWeightPercent": 15
+  },
+  "title": {
+    "en": "Skin Structure and Disorders",
+    "zh": "皮肤结构与病症"
+  },
+  "status": "reviewed",
+  "authoredAt": "2026-10-22",
+  "sourceBook": "Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020)",
+  "questions": [
+    {
+      "id": "nic-2c-01",
+      "question": {
+        "en": "Which layer of the skin has no blood vessels?",
+        "zh": "皮肤的哪一层没有血管？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Dermis",
+          "zh": "真皮（dermis）"
+        },
+        {
+          "id": "b",
+          "en": "Subcutaneous tissue",
+          "zh": "皮下组织（subcutaneous tissue）"
+        },
+        {
+          "id": "c",
+          "en": "Reticular layer",
+          "zh": "网状层（reticular layer）"
+        },
+        {
+          "id": "d",
+          "en": "Epidermis",
+          "zh": "表皮（epidermis）"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "The epidermis is the outermost and thinnest skin layer. It has no blood vessels and depends on the dermis below for nutrition.",
+        "zh": "epidermis（表皮）是皮肤最外层、最薄的一层。它没有血管，靠下面的真皮供给营养。"
+      },
+      "lockPoint": {
+        "en": "A shallow scrape that doesn't bleed stayed in the epidermis. Bleeding means the injury reached the dermis.",
+        "zh": "浅浅擦破却不流血，说明只伤到表皮；一流血，就说明伤到真皮了。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - The Epidermis",
+          "pdfPage": 85,
+          "printedPage": "61"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 85,
+          "quote": "The epidermis (ep-uh-DUR-mis) is the outermost and thinnest layer of the skin. It does not contain blood vessels and is reliant on the dermis for its nutrition"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-2c-02",
+      "question": {
+        "en": "Which skin layer is called the true skin?",
+        "zh": "皮肤的哪一层被称为 true skin（真正的皮肤）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Epidermis",
+          "zh": "表皮（epidermis）"
+        },
+        {
+          "id": "b",
+          "en": "Dermis",
+          "zh": "真皮（dermis）"
+        },
+        {
+          "id": "c",
+          "en": "Stratum corneum",
+          "zh": "角质层（stratum corneum）"
+        },
+        {
+          "id": "d",
+          "en": "Subcutaneous tissue",
+          "zh": "皮下组织（subcutaneous tissue）"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "The dermis, or true skin, is the inner layer under the epidermis. It is about 25 times thicker and holds blood vessels, nerves, glands, and hair follicles.",
+        "zh": "dermis（真皮）是表皮下面的内层，约比表皮厚 25 倍，里面有血管、神经、腺体和毛囊。"
+      },
+      "lockPoint": {
+        "en": "It is also called the cutis, Latin for skin. Cuticle, \"little skin,\" comes from the same word.",
+        "zh": "真皮又叫 cutis，拉丁语“皮肤”。cuticle（甲小皮，“小皮”）也来自这个词。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - The Dermis",
+          "pdfPage": 87,
+          "printedPage": "63"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 87,
+          "quote": "The dermis (DER-mis), or true skin, is the underlying or inner layer of the skin."
+        },
+        {
+          "pdfPage": 87,
+          "quote": "It is also called the derma (DUR-mah), corium (KOH-ree-um), or cutis"
+        },
+        {
+          "pdfPage": 87,
+          "quote": "This highly sensitive layer is about 25 times thicker than the epidermis."
+        }
+      ],
+      "hookType": "word-link"
+    },
+    {
+      "id": "nic-2c-03",
+      "question": {
+        "en": "The fatty layer found below the dermis is the",
+        "zh": "真皮下面的脂肪层叫什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "subcutaneous tissue.",
+          "zh": "皮下组织（subcutaneous tissue）。"
+        },
+        {
+          "id": "b",
+          "en": "epidermis.",
+          "zh": "表皮（epidermis）。"
+        },
+        {
+          "id": "c",
+          "en": "papillary layer.",
+          "zh": "乳头层（papillary layer）。"
+        },
+        {
+          "id": "d",
+          "en": "stratum lucidum.",
+          "zh": "透明层（stratum lucidum）。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Subcutaneous tissue, also called adipose tissue, is the fatty layer under the dermis. It gives the body smooth contour, stores energy, and cushions the skin.",
+        "zh": "subcutaneous tissue（皮下组织）也叫 adipose tissue（脂肪组织），是真皮下面的脂肪层，让身体轮廓平滑、储存能量，并为皮肤提供缓冲。"
+      },
+      "lockPoint": {
+        "en": "Its other name, adipose, comes from Latin for fat. Think of padding laid under a carpet.",
+        "zh": "它又叫 adipose，源自拉丁语“脂肪”。就像铺在地毯下面的那层软垫。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - The Subcutaneous Layer",
+          "pdfPage": 88,
+          "printedPage": "64"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 88,
+          "quote": "The subcutaneous tissue (sub-kyoo-TAY-nee-us TISH-ew) is a fatty layer found below the dermis."
+        },
+        {
+          "pdfPage": 88,
+          "quote": "serves as a protective cushion for the skin and underlying structures"
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-2c-04",
+      "question": {
+        "en": "Which layer of the epidermis do beauty practitioners care for?",
+        "zh": "美容从业者护理的是表皮的哪一层？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Stratum germinativum",
+          "zh": "生发层（stratum germinativum）"
+        },
+        {
+          "id": "b",
+          "en": "Stratum spinosum",
+          "zh": "棘层（stratum spinosum）"
+        },
+        {
+          "id": "c",
+          "en": "Stratum corneum",
+          "zh": "角质层（stratum corneum）"
+        },
+        {
+          "id": "d",
+          "en": "Stratum lucidum",
+          "zh": "透明层（stratum lucidum）"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "The stratum corneum, or horny layer, is the outermost, visible layer of the epidermis, and the one beauty practitioners care for. Its scalelike cells are constantly shed.",
+        "zh": "stratum corneum（角质层），也叫 horny layer，是表皮最外面、肉眼可见的一层，也是美容从业者护理的那一层。它的鳞状细胞不断脱落。"
+      },
+      "lockPoint": {
+        "en": "Corneum comes from Latin cornu, horn, as in unicorn. The Chinese name 角质层 uses 角 (horn) too.",
+        "zh": "corneum 来自拉丁语 cornu（角），unicorn（独角兽）里也有它。中文“角质层”的“角”就是牛角、羊角的“角”。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - The Epidermis",
+          "pdfPage": 85,
+          "printedPage": "61"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Stratum Corneum",
+          "pdfPage": 86,
+          "printedPage": "62"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 85,
+          "quote": "The outermost top layer of our epidermis is the stratum corneum."
+        },
+        {
+          "pdfPage": 85,
+          "quote": "This layer is visible to the eye and is the layer that is cared for by the beauty practitioner."
+        },
+        {
+          "pdfPage": 85,
+          "quote": "also called the horny layer"
+        },
+        {
+          "pdfPage": 86,
+          "quote": "Its scalelike cells are continually being shed and replaced by others"
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-2c-05",
+      "question": {
+        "en": "The clear epidermal layer found mostly on the palms and soles is the",
+        "zh": "主要分布在手掌和脚底的透明表皮层是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "stratum granulosum.",
+          "zh": "颗粒层（stratum granulosum）。"
+        },
+        {
+          "id": "b",
+          "en": "stratum lucidum.",
+          "zh": "透明层（stratum lucidum）。"
+        },
+        {
+          "id": "c",
+          "en": "stratum corneum.",
+          "zh": "角质层（stratum corneum）。"
+        },
+        {
+          "id": "d",
+          "en": "stratum germinativum.",
+          "zh": "生发层（stratum germinativum）。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "The stratum lucidum is a clear layer just under the surface, made of small oval cells that light can pass through. It is most abundant on the palms and soles.",
+        "zh": "stratum lucidum（透明层）是紧贴表面下方的透明层，由光线可以穿过的小椭圆形细胞组成，在手掌和脚底最丰富。"
+      },
+      "lockPoint": {
+        "en": "Lucidum, lucid, and translucent all come from Latin lucere, to shine: light passes through this layer.",
+        "zh": "lucidum、lucid（清楚）、translucent（半透明）都来自拉丁语 lucere（发光）；中文“透明层”也是说光能透过。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Stratum Lucidum",
+          "pdfPage": 86,
+          "printedPage": "62"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 86,
+          "quote": "The stratum lucidum (STRAT-um LOO-sih-dum) is the clear, transparent layer just under the skin’s surface"
+        },
+        {
+          "pdfPage": 86,
+          "quote": "The stratum lucidum layer is most abundant in the palms of our hands and the soles of our feet."
+        },
+        {
+          "pdfPage": 86,
+          "quote": "consists of small, oval-shaped cells through which light can pass"
+        }
+      ],
+      "hookType": "word-link"
+    },
+    {
+      "id": "nic-2c-06",
+      "question": {
+        "en": "Which epidermal layer produces new skin cells?",
+        "zh": "表皮的哪一层产生新的皮肤细胞？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Stratum corneum",
+          "zh": "角质层（stratum corneum）"
+        },
+        {
+          "id": "b",
+          "en": "Stratum lucidum",
+          "zh": "透明层（stratum lucidum）"
+        },
+        {
+          "id": "c",
+          "en": "Stratum granulosum",
+          "zh": "颗粒层（stratum granulosum）"
+        },
+        {
+          "id": "d",
+          "en": "Stratum germinativum",
+          "zh": "生发层（stratum germinativum）"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "The stratum germinativum, or basal layer, is the deepest living layer of the epidermis. It makes new cells by mitosis to replace those shed from the surface.",
+        "zh": "stratum germinativum（生发层），也叫 basal layer（基底层），是表皮最深的活细胞层，通过有丝分裂产生新细胞，补充表面脱落的细胞。"
+      },
+      "lockPoint": {
+        "en": "Germinativum shares a root with germinate: seeds sprout new plants; this layer sprouts new cells.",
+        "zh": "germinativum 和 germinate（发芽）同根：种子发出新芽，这一层“长”出新细胞。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Stratum Germinativum",
+          "pdfPage": 86,
+          "printedPage": "62"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 86,
+          "quote": "is also known as the basal layer (BAY-zal LAY-er) and is the deepest living layer of the epidermis. It produces new epidermal skin cells"
+        }
+      ],
+      "hookType": "word-link"
+    },
+    {
+      "id": "nic-2c-07",
+      "question": {
+        "en": "What is the medical term for athlete's foot?",
+        "zh": "athlete's foot 的医学名称是什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Tinea pedis",
+          "zh": "足癣（tinea pedis）"
+        },
+        {
+          "id": "b",
+          "en": "Tinea manus",
+          "zh": "手癣（tinea manus）"
+        },
+        {
+          "id": "c",
+          "en": "Verruca",
+          "zh": "疣（verruca）"
+        },
+        {
+          "id": "d",
+          "en": "Eczema",
+          "zh": "湿疹（eczema）"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Tinea pedis is a fungal infection of the feet, often between the toes or along the sole. It thrives in dark, moist places. Do not perform services.",
+        "zh": "tinea pedis（足癣）是脚部的真菌感染，常出现在脚趾之间或脚底。它在阴暗潮湿的地方容易滋生。不能为顾客做服务。"
+      },
+      "lockPoint": {
+        "en": "Pedis = of the foot (pedicure); manus = hand (manicure). Tinea manus is the hand's fungal infection.",
+        "zh": "pedis = 足（pedicure 足部护理）；manus = 手（manicure 手部护理）。tinea manus（手癣）是手部的真菌感染。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Infectious Skin Disorders",
+          "pdfPage": 110,
+          "printedPage": "86"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 110,
+          "quote": "Tinea pedis (TIN-e-ah PEED-us). Athlete’s foot or ringworm of the feet. The cause is fungal; it thrives in dark, moist places."
+        },
+        {
+          "pdfPage": 110,
+          "quote": "This can appear in groups between the toes and along the bottom of the foot. NO services should be performed."
+        },
+        {
+          "pdfPage": 110,
+          "quote": "Tinea manus (TIN-e-ah MAN-us). Ringworm of the hand. The cause is a fungal infection."
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-2c-08",
+      "question": {
+        "en": "Sudoriferous glands are also called",
+        "zh": "sudoriferous glands 又叫什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "oil glands.",
+          "zh": "油脂腺（oil glands）。"
+        },
+        {
+          "id": "b",
+          "en": "lymph nodes.",
+          "zh": "淋巴结（lymph nodes）。"
+        },
+        {
+          "id": "c",
+          "en": "sweat glands.",
+          "zh": "汗腺（sweat glands）。"
+        },
+        {
+          "id": "d",
+          "en": "endocrine glands.",
+          "zh": "内分泌腺（endocrine glands）。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Sudoriferous glands are sweat glands. Each has a coiled base and a tube-like duct that opens at the skin surface as a sweat pore.",
+        "zh": "sudoriferous glands（汗腺）就是 sweat glands。每个汗腺有一个盘绕的底部和一根管状导管，开口在皮肤表面形成汗孔。"
+      },
+      "lockPoint": {
+        "en": "Latin sudor = sweat, ferre = to carry. Sudoriferous = sweat-carrying.",
+        "zh": "拉丁语 sudor = 汗，ferre = 运送。sudoriferous 就是“运送汗水的”。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Glands of the Skin",
+          "pdfPage": 90,
+          "printedPage": "66"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 90,
+          "quote": "the sudoriferous glands (soo-duh-RIF-uh-rus GLANZ) or sweat glands (SWET GLANZ)"
+        },
+        {
+          "pdfPage": 90,
+          "quote": "consist of a coiled base, or secretory coil (SEE-cre-toh-ree KOIL), and a tubelike duct that opens at the surface of the skin to form the sweat pore"
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-2c-09",
+      "question": {
+        "en": "Which areas have no sebaceous (oil) glands?",
+        "zh": "哪些部位没有皮脂腺（sebaceous glands，油脂腺）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Palms and soles",
+          "zh": "手掌和脚底"
+        },
+        {
+          "id": "b",
+          "en": "Face and scalp",
+          "zh": "面部和头皮"
+        },
+        {
+          "id": "c",
+          "en": "Arms and legs",
+          "zh": "手臂和腿"
+        },
+        {
+          "id": "d",
+          "en": "Chest and back",
+          "zh": "胸部和背部"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Sebaceous glands are found all over the body except the palms of the hands and soles of the feet. They are most abundant on the face and scalp.",
+        "zh": "除了手掌和脚底，全身都有 sebaceous glands（皮脂腺），其中面部和头皮最多。"
+      },
+      "lockPoint": {
+        "en": "Most oil glands empty into hair follicles. Palms and soles grow no hair, and have no oil glands.",
+        "zh": "大多数皮脂腺开口在毛囊里。手掌和脚底不长毛，也没有皮脂腺。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Sebaceous (Oil) Glands",
+          "pdfPage": 91,
+          "printedPage": "67"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 91,
+          "quote": "Except for the palms of the hands and soles of the feet, these glands are found in all parts of the body"
+        },
+        {
+          "pdfPage": 91,
+          "quote": "The sebaceous, or oil, glands of the skin are connected to the hair follicles."
+        },
+        {
+          "pdfPage": 91,
+          "quote": "They are larger and more abundant on the face and scalp"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-2c-10",
+      "question": {
+        "en": "Sebum flowing from the oil glands is which skin function?",
+        "zh": "皮脂从油脂腺流出，属于皮肤的哪项功能？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Excretion",
+          "zh": "排泄（excretion）"
+        },
+        {
+          "id": "b",
+          "en": "Secretion",
+          "zh": "分泌（secretion）"
+        },
+        {
+          "id": "c",
+          "en": "Absorption",
+          "zh": "吸收（absorption）"
+        },
+        {
+          "id": "d",
+          "en": "Sensation",
+          "zh": "感觉（sensation）"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Secretion is the skin releasing sebum from the sebaceous glands. Sebum lubricates the skin and keeps it soft. Sweat leaving the skin is excretion.",
+        "zh": "secretion（分泌）是皮脂腺释放皮脂，皮脂润滑皮肤、让它保持柔软。汗液排出皮肤则属于 excretion（排泄）。"
+      },
+      "lockPoint": {
+        "en": "Ex = out: excretion pushes waste out with water and salts. Secretion makes something useful.",
+        "zh": "ex = 向外：excretion 是把废物连同水和盐排出去；secretion 是制造有用的东西。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Six Primary Functions",
+          "pdfPage": 93,
+          "printedPage": "69"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 93,
+          "quote": "Sebum is an oil secreted by the sebaceous glands. This oil lubricates the skin, keeping it soft and pliable."
+        },
+        {
+          "pdfPage": 93,
+          "quote": "Perspiration from the sweat glands is excreted through the skin."
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-2c-11",
+      "question": {
+        "en": "A flat spot of color on the skin, such as a freckle, is a",
+        "zh": "皮肤上平的色斑，例如雀斑，叫什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "papule.",
+          "zh": "丘疹（papule）。"
+        },
+        {
+          "id": "b",
+          "en": "vesicle.",
+          "zh": "水疱（vesicle）。"
+        },
+        {
+          "id": "c",
+          "en": "wheal.",
+          "zh": "风团（wheal）。"
+        },
+        {
+          "id": "d",
+          "en": "macule.",
+          "zh": "斑疹（macule）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "A macule is a flat spot or discoloration on the skin, such as a freckle or age spot. It is neither raised nor sunken.",
+        "zh": "macule（斑疹）是皮肤上平的斑点或变色，例如雀斑或老年斑，既不凸起也不凹陷。"
+      },
+      "lockPoint": {
+        "en": "Latin macula = spot. Immaculate means \"without a spot.\"",
+        "zh": "拉丁语 macula = 斑点。immaculate（一尘不染）就是“没有斑点”。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Primary Lesions",
+          "pdfPage": 102,
+          "printedPage": "78"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Chapter 3 Glossary",
+          "pdfPage": 117,
+          "printedPage": "93"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 102,
+          "quote": "Flat spot or discoloration on the skin."
+        },
+        {
+          "pdfPage": 117,
+          "quote": "A spot or discoloration on the skin, such as a freckle. Macules are neither raised or sunken."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-2c-12",
+      "question": {
+        "en": "Which skin condition is not contagious?",
+        "zh": "哪种皮肤病不会传染？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Warts",
+          "zh": "疣（warts）"
+        },
+        {
+          "id": "b",
+          "en": "Herpes simplex",
+          "zh": "单纯疱疹（herpes simplex）"
+        },
+        {
+          "id": "c",
+          "en": "Eczema",
+          "zh": "湿疹（eczema）"
+        },
+        {
+          "id": "d",
+          "en": "Athlete's foot",
+          "zh": "足癣（athlete's foot）"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Eczema is an inflammatory, itchy skin disease that is not contagious. Warts, herpes simplex, and athlete's foot are infectious.",
+        "zh": "eczema（湿疹）是一种发炎、发痒的皮肤病，不会传染。疣、单纯疱疹和足癣都具有传染性。"
+      },
+      "lockPoint": {
+        "en": "Eczema often runs in families and flares from triggers like dryness or soap, not germs. Nothing to catch.",
+        "zh": "湿疹常有家族遗传倾向，会因皮肤干燥、肥皂等刺激而发作，不是病菌引起的，所以没什么可传染的。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Symptoms of Skin Disorders",
+          "pdfPage": 101,
+          "printedPage": "77"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Skin Inflammations",
+          "pdfPage": 106,
+          "printedPage": "82"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 101,
+          "quote": "Some are highly infectious, such as warts, athlete’s foot, and shingles; others are a part of a person’s genetic predisposition, like eczema or psoriasis."
+        },
+        {
+          "pdfPage": 106,
+          "quote": "Eczema is not contagious and can be treated by a physician"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-2c-13",
+      "question": {
+        "en": "A crack in the skin that reaches the dermis, like chapped hands, is a",
+        "zh": "深达真皮的皮肤裂口，例如手部皲裂，叫什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "fissure.",
+          "zh": "皲裂（fissure）。"
+        },
+        {
+          "id": "b",
+          "en": "scale.",
+          "zh": "鳞屑（scale）。"
+        },
+        {
+          "id": "c",
+          "en": "crust.",
+          "zh": "痂（crust）。"
+        },
+        {
+          "id": "d",
+          "en": "excoriation.",
+          "zh": "抓伤（excoriation）。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "A fissure is a crack in the skin that penetrates the dermis, as in severely cracked or chapped hands, lips, or feet.",
+        "zh": "fissure（皲裂）是深入到真皮的皮肤裂口，例如严重开裂或皲裂的手、嘴唇或脚。"
+      },
+      "lockPoint": {
+        "en": "Fissure comes from Latin for split, like a crack in rock. Broken skin means no salon service; refer out.",
+        "zh": "fissure 源自拉丁语“裂开”，像岩石上的裂缝。皮肤破了就不能做沙龙服务，应建议就医。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Secondary Lesions",
+          "pdfPage": 105,
+          "printedPage": "81"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Disorders",
+          "pdfPage": 128,
+          "printedPage": "104"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 105,
+          "quote": "Crack in the skin that penetrates the dermis."
+        },
+        {
+          "pdfPage": 128,
+          "quote": "A client whose nail or skin is infected, inflamed, broken, or swollen should not receive salon services."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-2c-14",
+      "question": {
+        "en": "Which is a secondary skin lesion?",
+        "zh": "下列哪一项是继发性皮损（secondary skin lesion）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Vesicle",
+          "zh": "水疱（vesicle）"
+        },
+        {
+          "id": "b",
+          "en": "Crust",
+          "zh": "痂（crust）"
+        },
+        {
+          "id": "c",
+          "en": "Macule",
+          "zh": "斑疹（macule）"
+        },
+        {
+          "id": "d",
+          "en": "Papule",
+          "zh": "丘疹（papule）"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "A crust, such as a scab, is a secondary lesion: material piled on the skin as a wound heals. Vesicles, macules, and papules are primary lesions.",
+        "zh": "crust（痂，比如伤口结的 scab）是继发性皮损：伤口愈合时堆积在皮肤表面的物质。水疱、斑疹和丘疹都是原发性皮损（primary lesions）。"
+      },
+      "lockPoint": {
+        "en": "Primary comes first, secondary later. A scab forms only after skin has broken open or oozed.",
+        "zh": "原发在先，继发在后。必须先有皮肤破溃或渗出，之后才会结痂。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Secondary Lesions",
+          "pdfPage": 104,
+          "printedPage": "80"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Chapter 3 Glossary",
+          "pdfPage": 118,
+          "printedPage": "94"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 104,
+          "quote": "Secondary skin lesions (SEK-un-deh-ree SKIN LEE-zhuns) are characterized by piles of material on the skin surface, such as a crust or scab"
+        },
+        {
+          "pdfPage": 118,
+          "quote": "skin damage, developed in the later stages of disease"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-2c-15",
+      "question": {
+        "en": "Foul-smelling sweat, often noticed on the feet, is",
+        "zh": "气味难闻的汗液，常见于脚部，叫什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "anhidrosis.",
+          "zh": "无汗症（anhidrosis）。"
+        },
+        {
+          "id": "b",
+          "en": "hyperhidrosis.",
+          "zh": "多汗症（hyperhidrosis）。"
+        },
+        {
+          "id": "c",
+          "en": "miliaria rubra.",
+          "zh": "红痱（miliaria rubra）。"
+        },
+        {
+          "id": "d",
+          "en": "bromhidrosis.",
+          "zh": "臭汗症（bromhidrosis）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Bromhidrosis is foul-smelling perspiration, usually noticeable in the armpits or on the feet.",
+        "zh": "bromhidrosis（臭汗症）是气味难闻的汗液，通常在腋下或脚上比较明显。"
+      },
+      "lockPoint": {
+        "en": "Greek bromos = stench; the element bromine was named for its smell. Hidrosis = sweating.",
+        "zh": "希腊语 bromos = 恶臭，化学元素 bromine（溴）就是因气味得名。hidrosis = 出汗。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Disorders of the Sudoriferous Glands",
+          "pdfPage": 106,
+          "printedPage": "82"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 106,
+          "quote": "Bromhidrosis (broh-mih-DROH-sis). A foul-smelling perspiration, usually noticeable in the armpits or on the feet."
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-2c-16",
+      "question": {
+        "en": "What is the largest organ of the human body?",
+        "zh": "人体最大的器官是什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Liver",
+          "zh": "肝脏"
+        },
+        {
+          "id": "b",
+          "en": "Brain",
+          "zh": "大脑"
+        },
+        {
+          "id": "c",
+          "en": "Skin",
+          "zh": "皮肤"
+        },
+        {
+          "id": "d",
+          "en": "Lungs",
+          "zh": "肺"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "The skin is the largest organ of the body. It protects the muscles, bones, nerves, and blood vessels inside, and is our only barrier against the environment.",
+        "zh": "皮肤是人体最大的器官。它保护体内的肌肉、骨骼、神经和血管，是我们抵御外界环境的唯一屏障。"
+      },
+      "lockPoint": {
+        "en": "Stretched out, an adult's skin would cover over 3,000 square inches and weigh about 6 to 9 pounds.",
+        "zh": "把成人的皮肤摊开，面积超过 3,000 平方英寸，重约 6 到 9 磅。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Why Study Skin",
+          "pdfPage": 83,
+          "printedPage": "59"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Layers of the Skin",
+          "pdfPage": 84,
+          "printedPage": "60"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 83,
+          "quote": "The skin is the largest organ of our bodies."
+        },
+        {
+          "pdfPage": 84,
+          "quote": "If the skin of an average adult were stretched out, it would cover over 3,000 square inches and weigh about 6 to 9 pounds."
+        },
+        {
+          "pdfPage": 84,
+          "quote": "It is our only barrier against the environment."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-2c-17",
+      "question": {
+        "en": "Dark, flat spots wrongly called \"liver spots\" are",
+        "zh": "被误称为“肝斑”（liver spots）的平坦深色斑点是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "chloasma.",
+          "zh": "黄褐斑（chloasma）。"
+        },
+        {
+          "id": "b",
+          "en": "vitiligo.",
+          "zh": "白癜风（vitiligo）。"
+        },
+        {
+          "id": "c",
+          "en": "leukoderma.",
+          "zh": "白斑病（leukoderma）。"
+        },
+        {
+          "id": "d",
+          "en": "a nevus.",
+          "zh": "胎记（nevus）。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Chloasma is increased pigmentation: dark spots that are not raised. They are generally pools of melanin caused by years of sun exposure.",
+        "zh": "chloasma（黄褐斑）是色素增加形成的不凸起的深色斑点，通常是长期日晒造成的黑色素沉积。"
+      },
+      "lockPoint": {
+        "en": "Name trap: chlo- means green, as in chlorophyll, yet these spots are brown.",
+        "zh": "名字陷阱：chlo- 意为“绿色”（chlorophyll 叶绿素），可这些斑却是褐色的。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Pigmentation Disorders",
+          "pdfPage": 107,
+          "printedPage": "83"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 107,
+          "quote": "A condition characterized by increased pigmentation on the skin or dark spots that are not elevated."
+        },
+        {
+          "pdfPage": 107,
+          "quote": "Chloasma are incorrectly called liver spots, even though they have nothing to do with the liver. They are generally pools of melanin caused by cumulative sun exposure."
+        }
+      ],
+      "hookType": "name-trap"
+    },
+    {
+      "id": "nic-2c-18",
+      "question": {
+        "en": "The most common and least severe type of skin cancer is",
+        "zh": "最常见、也最不严重的皮肤癌是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "malignant melanoma.",
+          "zh": "恶性黑色素瘤（malignant melanoma）。"
+        },
+        {
+          "id": "b",
+          "en": "basal cell carcinoma.",
+          "zh": "基底细胞癌（basal cell carcinoma）。"
+        },
+        {
+          "id": "c",
+          "en": "squamous cell carcinoma.",
+          "zh": "鳞状细胞癌（squamous cell carcinoma）。"
+        },
+        {
+          "id": "d",
+          "en": "a normal mole.",
+          "zh": "普通的痣（mole）。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Basal cell carcinoma is the most common and least severe skin cancer, often light, pearly nodules. Squamous cell is more serious; malignant melanoma is the most serious.",
+        "zh": "basal cell carcinoma（基底细胞癌）是最常见、最不严重的皮肤癌，常呈浅色、珍珠样结节。鳞状细胞癌更严重，恶性黑色素瘤最严重。"
+      },
+      "lockPoint": {
+        "en": "Basal cell carcinoma grows slowly and almost never spreads to other organs, so it ranks least severe.",
+        "zh": "基底细胞癌长得慢，几乎不会转移到其他器官，所以最不严重。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Skin Cancer",
+          "pdfPage": 108,
+          "printedPage": "84"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 108,
+          "quote": "Most common and least severe type of skin cancer, which often appears as light, pearly nodules"
+        },
+        {
+          "pdfPage": 108,
+          "quote": "Each is named for the type of cells that it affects."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-2c-19",
+      "question": {
+        "en": "In the ABCDE mole check, what does A stand for?",
+        "zh": "在 ABCDE 痣自查法中，A 代表什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Area",
+          "zh": "面积（Area）"
+        },
+        {
+          "id": "b",
+          "en": "Age",
+          "zh": "年龄（Age）"
+        },
+        {
+          "id": "c",
+          "en": "Asymmetry",
+          "zh": "不对称（Asymmetry）"
+        },
+        {
+          "id": "d",
+          "en": "Allergy",
+          "zh": "过敏（Allergy）"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "A is for Asymmetry: one half of the mole does not match the other. Refer any client with a changing mole to a physician.",
+        "zh": "A 代表 Asymmetry（不对称）：痣的一半和另一半不一样。发现痣有变化，应建议顾客去看医生。"
+      },
+      "lockPoint": {
+        "en": "Fold the mole in half in your mind. Halves don't match? That's A. Then border, color, diameter, evolution.",
+        "zh": "在脑中把痣对折：两半对不上就是 A。接着是 B 边缘、C 颜色、D 直径、E 变化。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Skin Cancer",
+          "pdfPage": 109,
+          "printedPage": "85"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Skin Cancer",
+          "pdfPage": 110,
+          "printedPage": "86"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 109,
+          "quote": "A. Asymmetry. One half of the mole does not match the other half."
+        },
+        {
+          "pdfPage": 110,
+          "quote": "If any of the above changes to a mole are noticed, refer the client to a physician for examination."
+        }
+      ],
+      "hookType": "real-acronym"
+    },
+    {
+      "id": "nic-2c-20",
+      "question": {
+        "en": "Verruca is the technical term for a",
+        "zh": "verruca 是什么的专业名称？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "freckle.",
+          "zh": "雀斑（freckle）。"
+        },
+        {
+          "id": "b",
+          "en": "birthmark.",
+          "zh": "胎记（birthmark）。"
+        },
+        {
+          "id": "c",
+          "en": "mole.",
+          "zh": "痣（mole）。"
+        },
+        {
+          "id": "d",
+          "en": "wart.",
+          "zh": "疣（wart）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Verruca is a wart, caused by a virus. It is infectious and can spread from one spot to another, especially along a scratch in the skin.",
+        "zh": "verruca（疣）是由病毒引起的。它有传染性，会从一处扩散到另一处，尤其容易沿着皮肤上的抓痕蔓延。"
+      },
+      "lockPoint": {
+        "en": "Latin verruca meant both \"wart\" and \"a height\": a wart is a bump rising from the skin.",
+        "zh": "拉丁语 verruca 既指“疣”，也指“高处、高地”：疣就是皮肤上鼓起来的小包。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Infectious Skin Disorders",
+          "pdfPage": 110,
+          "printedPage": "86"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 110,
+          "quote": "Verruca (vuh-ROO-kuh). The technical term for wart"
+        },
+        {
+          "pdfPage": 110,
+          "quote": "It is caused by a virus and is infectious. Verruca can spread from one location to another, particularly along a scratch in the skin."
+        }
+      ],
+      "hookType": "word-origin"
+    }
+  ],
+  "review": {
+    "reviewedAt": "2026-10-23",
+    "checks": [
+      "quotes found on cited pages (verify-nic-domain-evidence.py)",
+      "blind answer check: 20/20 matched key (changed stems and choices re-checked blind: all matched)",
+      "content and Chinese review: fixes applied, edited items reviewed again",
+      "memory hooks fact-checked (word origins, Chinese characters, textbook facts): fixes applied, rewritten hooks re-checked"
+    ]
+  }
+}

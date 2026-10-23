@@ -1,0 +1,1326 @@
+{
+  "schemaVersion": "1.0.0",
+  "setId": "5A",
+  "domain": {
+    "id": "tools",
+    "order": 5,
+    "title": {
+      "en": "Nail Service Tools",
+      "zh": "美甲服务工具"
+    },
+    "examWeightPercent": 13
+  },
+  "title": {
+    "en": "Equipment",
+    "zh": "设备"
+  },
+  "status": "reviewed",
+  "authoredAt": "2026-10-22",
+  "sourceBook": "Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020)",
+  "questions": [
+    {
+      "id": "nic-5a-01",
+      "question": {
+        "en": "What kind of surface must a manicure table have?",
+        "zh": "美甲桌（manicure table）的桌面必须是什么样的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Soft and padded for comfort",
+          "zh": "柔软、有衬垫，更舒适"
+        },
+        {
+          "id": "b",
+          "en": "Hard and impenetrable, like glass",
+          "zh": "坚硬、不渗透的，例如玻璃"
+        },
+        {
+          "id": "c",
+          "en": "Unfinished wood that absorbs spills",
+          "zh": "能吸收洒出液体的原木"
+        },
+        {
+          "id": "d",
+          "en": "Fabric-covered to hide stains",
+          "zh": "包一层布，遮住污渍"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "The table is cleaned and disinfected after every client, so its surface must be hard and impenetrable, such as Formica or glass, and kept clear of clutter.",
+        "zh": "每位顾客之后都要清洁并消毒桌面，所以桌面必须坚硬、不渗透，例如 Formica（福米加防火板）或玻璃，并保持整洁。"
+      },
+      "lockPoint": {
+        "en": "Spill water on glass: it wipes right off. On raw wood it soaks in, and germs go with it.",
+        "zh": "水洒在玻璃上一擦就掉；洒在原木上会渗进去，病菌也跟着渗进去。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Manicure Table",
+          "pdfPage": 161,
+          "printedPage": "137"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 161,
+          "quote": "The surface of the table must be cleaned and disinfected after every client"
+        },
+        {
+          "pdfPage": 161,
+          "quote": "it must be a hard and impenetrable surface, such as Formica or glass"
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-5a-02",
+      "question": {
+        "en": "Why are fluorescent bulbs popular for manicure table lamps?",
+        "zh": "为什么美甲桌台灯常用荧光灯（fluorescent bulb）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "They make polish dry faster.",
+          "zh": "让指甲油干得更快。"
+        },
+        {
+          "id": "b",
+          "en": "They disinfect the work surface.",
+          "zh": "能给桌面消毒。"
+        },
+        {
+          "id": "c",
+          "en": "They make skin look more golden.",
+          "zh": "让皮肤看起来更偏金黄。"
+        },
+        {
+          "id": "d",
+          "en": "They give off cooler light.",
+          "zh": "发出的光比较凉。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Fluorescent bulbs emit cooler light and do not heat objects under the lamp. Heat from a high-watt incandescent bulb can make some enhancement products cure too fast, causing cracking and lifting.",
+        "zh": "荧光灯光线较凉，不会烤热灯下的东西。高瓦数白炽灯（incandescent bulb）的热量会让某些加固产品固化太快，导致开裂和翘起（lifting）。"
+      },
+      "lockPoint": {
+        "en": "Touch a lit incandescent bulb and it burns; a fluorescent one is only warm. Less heat on curing product.",
+        "zh": "点亮的白炽灯泡一摸就烫手；荧光灯只是微温，照到正在固化的产品上的热量少得多。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Adjustable Lamp",
+          "pdfPage": 161,
+          "printedPage": "137"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Adjustable Lamp",
+          "pdfPage": 162,
+          "printedPage": "138"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 161,
+          "quote": "Fluorescent bulbs are very popular because they emit cooler light"
+        },
+        {
+          "pdfPage": 161,
+          "quote": "Higher temperatures caused by an incandescent bulb can increase the curing speed of some nail enhancement products"
+        },
+        {
+          "pdfPage": 162,
+          "quote": "Light bulbs, especially incandescent ones, can become very hot while in use"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-5a-03",
+      "question": {
+        "en": "Which chair at the manicure table should have wheels?",
+        "zh": "美甲桌旁哪把椅子应该有轮子？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "The client's chair",
+          "zh": "顾客的椅子"
+        },
+        {
+          "id": "b",
+          "en": "The technician's chair",
+          "zh": "美甲师的椅子"
+        },
+        {
+          "id": "c",
+          "en": "Both chairs",
+          "zh": "两把都要"
+        },
+        {
+          "id": "d",
+          "en": "Neither chair",
+          "zh": "两把都不要"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "The technician's chair has wheels to move around and hydraulics to adjust height. The client's chair should not have wheels; it is unstable and can cause falls for elderly or weak clients.",
+        "zh": "美甲师的椅子有轮子方便移动，有液压（hydraulics）可调高度。顾客的椅子不应有轮子：不稳，年长或体弱的顾客可能摔倒。"
+      },
+      "lockPoint": {
+        "en": "Picture an older client pushing up from a rolling office chair: it slides back. That's the fall.",
+        "zh": "想象一位年长顾客扶着带轮子的办公椅站起来：椅子往后一滑，人就摔了。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Chairs",
+          "pdfPage": 161,
+          "printedPage": "137"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 161,
+          "quote": "The most appropriate chair has wheels to allow the technician maneuverability"
+        },
+        {
+          "pdfPage": 161,
+          "quote": "The client chair should not have wheels: Such chairs are unstable and can cause falling accidents for elderly or weak clients."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-5a-04",
+      "question": {
+        "en": "After each client, a finger bowl must be",
+        "zh": "每位顾客用完后，泡手碗（finger bowl）必须怎样处理？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "cleaned and disinfected.",
+          "zh": "清洁并消毒。"
+        },
+        {
+          "id": "b",
+          "en": "rinsed and refilled only.",
+          "zh": "只冲一冲再加水。"
+        },
+        {
+          "id": "c",
+          "en": "thrown away.",
+          "zh": "扔掉。"
+        },
+        {
+          "id": "d",
+          "en": "stored with the water in it.",
+          "zh": "连水一起收起来。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "A finger bowl holds warm water to soften the skin and cuticle. Plastic, metal, glass, or ceramic all work, but it must be durable and easy to clean and disinfect after each client.",
+        "zh": "泡手碗盛温水，用来软化皮肤和死皮（cuticle）。塑料、金属、玻璃或陶瓷都可以，但必须耐用，并且每位顾客用后容易清洁和消毒。"
+      },
+      "lockPoint": {
+        "en": "Warm, wet, and touched by skin: the perfect place for germs. Disinfect before the next hands go in.",
+        "zh": "温暖、潮湿、又碰过皮肤：正是病菌最爱的地方。下一双手放进去之前必须消毒。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Finger Bowl",
+          "pdfPage": 162,
+          "printedPage": "138"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Bacteria",
+          "pdfPage": 601,
+          "printedPage": "106"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 162,
+          "quote": "Finger bowls should be durable and easy to thoroughly clean and disinfect after use on each client"
+        },
+        {
+          "pdfPage": 162,
+          "quote": "It can be made from materials such as plastic, metal, glass, or even an attractive ceramic."
+        },
+        {
+          "pdfPage": 601,
+          "quote": "bacteria multiply best in warm, dark, damp, or dirty"
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-5a-05",
+      "question": {
+        "en": "A disinfection container must be large enough to",
+        "zh": "消毒缸（disinfection container）必须大到能怎样？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "hold the tips of implements only.",
+          "zh": "只浸泡工具的尖端。"
+        },
+        {
+          "id": "b",
+          "en": "hold one implement at a time.",
+          "zh": "一次只放一件工具。"
+        },
+        {
+          "id": "c",
+          "en": "fully cover implements, handles included.",
+          "zh": "把工具完全浸没，包括手柄。"
+        },
+        {
+          "id": "d",
+          "en": "store a week of used implements.",
+          "zh": "存放一周用过的工具。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "It must hold enough disinfectant to completely immerse several service sets. Containers that cannot submerge the entire implement, including handles, are not acceptable. Keep it closed when not in use.",
+        "zh": "它要装足够的消毒液，能完全浸没好几套工具（service sets）。不能把整件工具（包括手柄）浸没的容器不能用。不用时要盖好。"
+      },
+      "lockPoint": {
+        "en": "You hold a tool by its handle. If the handle sticks out of the liquid, its germs survive.",
+        "zh": "你拿工具时手握的是手柄。手柄露在液面外，上面的病菌就活下来了。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Disinfection Container",
+          "pdfPage": 162,
+          "printedPage": "138"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 162,
+          "quote": "must be large enough to hold sufficient liquid disinfectant solution to completely immerse several service sets"
+        },
+        {
+          "pdfPage": 162,
+          "quote": "Containers that do not allow the entire implement (including handles) to be submerged are not acceptable"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-5a-06",
+      "question": {
+        "en": "UV and LED lamps are designed to do what to gel polish?",
+        "zh": "UV 灯和 LED 灯（光疗灯）是用来对甲油胶（gel polish）做什么的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Dry it by blowing warm air",
+          "zh": "吹暖风把它吹干"
+        },
+        {
+          "id": "b",
+          "en": "Cure (harden) it with light",
+          "zh": "用光让它固化（cure）"
+        },
+        {
+          "id": "c",
+          "en": "Disinfect it before use",
+          "zh": "使用前给它消毒"
+        },
+        {
+          "id": "d",
+          "en": "Thin it for easier brushing",
+          "zh": "把它变稀，好刷"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Many clients call them dryers, but UV and LED light units cure, not dry. Their light starts a reaction in the gel. Regular polish dries when its solvents evaporate.",
+        "zh": "很多顾客把它们叫“烘干机”，但 UV 和 LED 灯是固化（cure），不是吹干（dry）。灯光让甲油胶发生反应。普通指甲油是溶剂挥发后才变干。"
+      },
+      "lockPoint": {
+        "en": "固化 = 固 (solid) + 化 (change): the light changes liquid gel into a solid.",
+        "zh": "固化：固 = 固体，化 = 变化。灯光把液态的凝胶变成固体。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - UV or LED Light Units",
+          "pdfPage": 163,
+          "printedPage": "139"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Chemistry of Gels",
+          "pdfPage": 378,
+          "printedPage": "354"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 163,
+          "quote": "although many clients think of them as dryers. They are designed to cure, not dry, polishes"
+        },
+        {
+          "pdfPage": 163,
+          "quote": "Electric dryers have heaters and fans that blow air onto the nail plates to speed the evaporation of solvents"
+        },
+        {
+          "pdfPage": 378,
+          "quote": "or transform from a liquid to a solid"
+        }
+      ],
+      "hookType": "chinese-character"
+    },
+    {
+      "id": "nic-5a-07",
+      "question": {
+        "en": "Which device can spread disease and should never be used in a salon?",
+        "zh": "哪种设备可能传播疾病，绝不能在沙龙里使用？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Autoclave",
+          "zh": "高压蒸汽灭菌器（autoclave）"
+        },
+        {
+          "id": "b",
+          "en": "Disinfection container",
+          "zh": "消毒缸"
+        },
+        {
+          "id": "c",
+          "en": "Covered trash container",
+          "zh": "带盖垃圾桶"
+        },
+        {
+          "id": "d",
+          "en": "Bead sterilizer",
+          "zh": "玻璃珠消毒器（bead sterilizer）"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Electric, bead, and baby sterilizers can spread infectious diseases and must never be used in a salon. UV light units do not disinfect either. Most states require liquid disinfecting solutions.",
+        "zh": "电热消毒器、玻璃珠消毒器和婴儿用品消毒器可能传播传染病，绝不能在沙龙使用。UV 灯箱也不能消毒。多数州要求使用液体消毒剂。"
+      },
+      "lockPoint": {
+        "en": "Sterilizer is in its name, yet it can spread disease. Trust a tested autoclave or liquid disinfectant.",
+        "zh": "名字里有“消毒器”，却可能传播疾病。要靠定期检测的高压灭菌器或液体消毒剂。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Say No to Sterilizers",
+          "pdfPage": 164,
+          "printedPage": "140"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 164,
+          "quote": "Electric sterilizers, bead sterilizers, and baby sterilizers should not be used to disinfect or sterilize implements."
+        },
+        {
+          "pdfPage": 164,
+          "quote": "These devices can spread potentially infectious diseases and should never be used in a salon"
+        },
+        {
+          "pdfPage": 164,
+          "quote": "A spore test should be conducted every 30 days"
+        }
+      ],
+      "hookType": "name-trap"
+    },
+    {
+      "id": "nic-5a-08",
+      "question": {
+        "en": "What does the automatic thermostat on a paraffin tub do?",
+        "zh": "蜡疗机（paraffin tub）上的自动恒温器（thermostat）有什么作用？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Keeps the wax at the ideal temperature",
+          "zh": "让蜡保持在合适的温度"
+        },
+        {
+          "id": "b",
+          "en": "Sterilizes used wax for reuse",
+          "zh": "给用过的蜡灭菌以便再用"
+        },
+        {
+          "id": "c",
+          "en": "Cools the client's skin after use",
+          "zh": "用完后给顾客皮肤降温"
+        },
+        {
+          "id": "d",
+          "en": "Measures the client's body temperature",
+          "zh": "测量顾客的体温"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "The thermostat keeps paraffin at the ideal temperature for hands and feet. Never dip the client directly into the tub; scoop wax into a bag. Used paraffin is thrown away.",
+        "zh": "恒温器让石蜡保持在适合手脚的温度。不要把顾客的手脚直接浸进蜡锅；要把蜡舀进袋子里用。用过的蜡要丢弃。"
+      },
+      "lockPoint": {
+        "en": "Thermo = heat, stat = standing still. A thermostat holds the heat at one level, like 恒 in 恒温.",
+        "zh": "thermo = 热，stat = 停住不动。恒温器让温度停在一个水平；恒温的“恒”就是一直不变。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Paraffin Treatment",
+          "pdfPage": 164,
+          "printedPage": "140"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Paraffin Treatment",
+          "pdfPage": 165,
+          "printedPage": "141"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 164,
+          "quote": "A paraffin tub has an automatic thermostat that maintains the paraffin at the ideal temperature for application to the hands and feet."
+        },
+        {
+          "pdfPage": 164,
+          "quote": "You should never dip a client’s hand or foot directly into the paraffin tub."
+        },
+        {
+          "pdfPage": 165,
+          "quote": "Any paraffin used on your client needs to be discarded after use."
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-5a-09",
+      "question": {
+        "en": "On an electric file, torque is",
+        "zh": "打磨机的扭力（torque）是指什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "the top speed of the bit.",
+          "zh": "磨头的最高转速。"
+        },
+        {
+          "id": "b",
+          "en": "the size of the bit's shank.",
+          "zh": "磨头柄（shank）的粗细。"
+        },
+        {
+          "id": "c",
+          "en": "its power to keep turning under pressure.",
+          "zh": "受压时继续转动的力量。"
+        },
+        {
+          "id": "d",
+          "en": "the coarseness of the bit.",
+          "zh": "磨头的粗糙程度。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Torque is the machine's power, its ability to keep turning when you press during filing. High-torque machines do more at lower speeds. If the handpiece slows or stops under pressure, the speed is too low.",
+        "zh": "扭力（torque）是机器的力量，也就是打磨时受压仍能继续转动的能力。高扭力机器在较低转速下就能做更多。手柄一受压就变慢或停转，说明转速太低。"
+      },
+      "lockPoint": {
+        "en": "Torque comes from Latin torquere, to twist: the force that keeps the bit turning. 扭 = twist, too.",
+        "zh": "torque 来自拉丁语 torquere（扭转）：让磨头一直转下去的力。中文“扭力”的“扭”也是扭转。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Electric Filing - Power and Torque",
+          "pdfPage": 255,
+          "printedPage": "231"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 255,
+          "quote": "Torque (TORK) is understood as the power of the machine or its ability to keep turning when you are applying pressure during filing."
+        },
+        {
+          "pdfPage": 255,
+          "quote": "More powerful machines have larger and stronger motors (high torque), so they accomplish more at a lower speed."
+        },
+        {
+          "pdfPage": 255,
+          "quote": "If your handpiece slows down or stops rotating when you apply pressure, you are working at too low a speed."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-5a-10",
+      "question": {
+        "en": "Which pedicure footbath is not portable?",
+        "zh": "哪种修脚泡脚盆（footbath）不能移动？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "A basic basin soak bath",
+          "zh": "普通泡脚盆"
+        },
+        {
+          "id": "b",
+          "en": "A whirlpool bath built into a pedicure chair",
+          "zh": "与修脚椅连为一体的按摩浴盆"
+        },
+        {
+          "id": "c",
+          "en": "A foot basin filled through sink hoses",
+          "zh": "用水槽软管注水的泡脚盆"
+        },
+        {
+          "id": "d",
+          "en": "A footbath with a disposable liner",
+          "zh": "带一次性内衬的泡脚盆"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "The fully plumbed whirlpool bath with an attached pedicure chair is not portable; some connect to hot and cold water and a drain. Basins and hose-filled whirlpool baths can be moved.",
+        "zh": "与修脚椅相连、接好水管的按摩浴盆（whirlpool bath）不能移动；有的直接接冷热水和下水道。普通盆和用软管注水的按摩盆都可以移动。"
+      },
+      "lockPoint": {
+        "en": "Plumbed comes from Latin plumbum, lead: old water pipes were lead. Pipes in the wall can't travel.",
+        "zh": "plumbed 来自拉丁语 plumbum（铅），古代水管用铅做。接进墙里的水管搬不走。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Types of Pedicure Footbaths",
+          "pdfPage": 218,
+          "printedPage": "194"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 218,
+          "quote": "The ultimate pedicure footbath is the fully plumbed whirlpool bath with an attached pedicure chair"
+        },
+        {
+          "pdfPage": 218,
+          "quote": "These units are not portable."
+        },
+        {
+          "pdfPage": 218,
+          "quote": "The bath is filled from the sink through attachable hoses."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-5a-11",
+      "question": {
+        "en": "Which causes heat to build up on the nail during electric filing?",
+        "zh": "电动打磨时，什么会让指甲上积热？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Lifting the bit off the nail often",
+          "zh": "经常把磨头抬离指甲"
+        },
+        {
+          "id": "b",
+          "en": "Keeping the bit parallel to the nail",
+          "zh": "让磨头与指甲保持平行"
+        },
+        {
+          "id": "c",
+          "en": "Using a dust-extracting device",
+          "zh": "使用吸尘装置"
+        },
+        {
+          "id": "d",
+          "en": "Leaving the bit in one spot too long",
+          "zh": "磨头在同一处停留太久"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Heat comes from too much pressure (often because speed is too low), too high a speed with natural nail buffing bits, or leaving the bit in one place too long. Lift the bit often.",
+        "zh": "积热来自：用力太大（常因转速太低）、用天然甲抛光磨头时转速太高，或磨头在同一处停留太久。要经常抬起磨头。"
+      },
+      "lockPoint": {
+        "en": "Hold a hot iron still on a shirt and it scorches. Keep the bit moving and lifting.",
+        "zh": "熨斗在衬衫上停着不动就会烫焦。磨头也要不停移动、经常抬起。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Electric Filing - Heat",
+          "pdfPage": 271,
+          "printedPage": "247"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 271,
+          "quote": "by leaving the bit in the same place for too long"
+        },
+        {
+          "pdfPage": 271,
+          "quote": "applying too much pressure during filing (due to speed being too low)"
+        },
+        {
+          "pdfPage": 271,
+          "quote": "by having the speed too high when using natural nail buffing bits"
+        },
+        {
+          "pdfPage": 271,
+          "quote": "Lift the bit frequently during filing."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-5a-12",
+      "question": {
+        "en": "How should you hold an electric file handpiece?",
+        "zh": "应该怎样握打磨机手柄（handpiece）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Like a pencil, with a firm, steady grip",
+          "zh": "像握铅笔一样，稳稳握住"
+        },
+        {
+          "id": "b",
+          "en": "Very tightly, so it cannot slip",
+          "zh": "握得非常紧，不让它滑"
+        },
+        {
+          "id": "c",
+          "en": "Loosely, with just the fingertips",
+          "zh": "只用指尖松松地捏着"
+        },
+        {
+          "id": "d",
+          "en": "Pointed straight down at the nail",
+          "zh": "垂直朝下对着指甲"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Hold the handpiece like a pencil, with a firm, steady grip that is not so tight your hands cramp. Rest your forearms on the table and brace with a pinky as the fulcrum.",
+        "zh": "像握铅笔一样握手柄，握得稳但不要太紧，否则手会抽筋。前臂放在桌上，用小指当支点（fulcrum）稳住双手。"
+      },
+      "lockPoint": {
+        "en": "Fulcrum is Latin for a prop: your pinky props one hand against the other, like a seesaw's pivot.",
+        "zh": "fulcrum 在拉丁语里是“支撑物”：小指把两只手撑在一起，就像跷跷板中间的支点。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Electric Filing - Hand Balancing/Fulcrum Finger",
+          "pdfPage": 262,
+          "printedPage": "238"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Electric Filing - Safety Tips",
+          "pdfPage": 273,
+          "printedPage": "249"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 262,
+          "quote": "Hold your handpiece like a pencil, for comfort and control."
+        },
+        {
+          "pdfPage": 262,
+          "quote": "Use a firm steady grip. Do not use too tight a grip, as your hands may begin to cramp."
+        },
+        {
+          "pdfPage": 262,
+          "quote": "Place your forearms on the table to make sure your hands are stable."
+        },
+        {
+          "pdfPage": 262,
+          "quote": "Balance your hands by using the pinky finger as the fulcrum"
+        },
+        {
+          "pdfPage": 273,
+          "quote": "Keep the handpiece parallel to the nail."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-5a-13",
+      "question": {
+        "en": "In a micromotor electric file, where is the motor?",
+        "zh": "微电机打磨机（micromotor electric file）的电机在哪里？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "In the control box",
+          "zh": "在控制箱（主机）里"
+        },
+        {
+          "id": "b",
+          "en": "In the handpiece",
+          "zh": "在手柄（handpiece）里"
+        },
+        {
+          "id": "c",
+          "en": "In the foot pedal",
+          "zh": "在脚踏里"
+        },
+        {
+          "id": "d",
+          "en": "In the bit's shank",
+          "zh": "在磨头柄（shank）里"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Salon e-files are called micromotor machines because the motor is in the handpiece. The box it plugs into is a transformer that brings power from the wall.",
+        "zh": "沙龙用的打磨机叫 micromotor（微电机）机器，因为电机就在手柄（handpiece）里。手柄连接的主机盒是变压器（transformer），把墙上插座的电送过来。"
+      },
+      "lockPoint": {
+        "en": "Micro = very small. The motor is small enough to sit inside the pen-like piece you hold.",
+        "zh": "micro = 微小。电机小到能装进你手握的那支“笔”里。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Electric Filing - Micromotor Machines",
+          "pdfPage": 254,
+          "printedPage": "230"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 254,
+          "quote": "known as micromotor machines, because the motor is located in the handpiece"
+        },
+        {
+          "pdfPage": 254,
+          "quote": "The box that the handpiece plugs into is a transformer"
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-5a-14",
+      "question": {
+        "en": "On an electric file, RPM measures",
+        "zh": "电动打磨机上的 RPM 测量的是什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "full turns of the bit per minute.",
+          "zh": "磨头每分钟转的整圈数。"
+        },
+        {
+          "id": "b",
+          "en": "the weight of the handpiece.",
+          "zh": "手柄的重量。"
+        },
+        {
+          "id": "c",
+          "en": "the heat on the nail surface.",
+          "zh": "指甲表面的温度。"
+        },
+        {
+          "id": "d",
+          "en": "the grit size of the bit.",
+          "zh": "磨头的粗细（grit）。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "RPM means revolutions per minute: how many full circles the bit spins in one minute. Working in the middle of the machine's range makes the motor last longer.",
+        "zh": "RPM = revolutions per minute（每分钟转数），即磨头一分钟转几整圈。在机器转速范围的中间档工作，电机更耐用。"
+      },
+      "lockPoint": {
+        "en": "Revolution and revolve share Latin revolvere, 'to roll back': one revolution is one full turn of the bit.",
+        "zh": "revolution 和 revolve（旋转）同源，都来自拉丁语 revolvere（re- 回 + volvere 滚动）：一个 revolution 就是磨头转一整圈。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Electric Filing - RPM Speed",
+          "pdfPage": 255,
+          "printedPage": "231"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 255,
+          "quote": "This is the number of times in a minute that the bit spins in a complete circle."
+        },
+        {
+          "pdfPage": 255,
+          "quote": "Working in the middle range of its capacity prolongs the working life of the motor."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-5a-15",
+      "question": {
+        "en": "A concentric bit is one that",
+        "zh": "concentric bit（同心磨头）是指什么样的磨头？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "has a rounded safety tip.",
+          "zh": "有圆头安全设计。"
+        },
+        {
+          "id": "b",
+          "en": "is used once, then thrown away.",
+          "zh": "用一次就扔。"
+        },
+        {
+          "id": "c",
+          "en": "is balanced and does not wobble.",
+          "zh": "平衡，不晃动。"
+        },
+        {
+          "id": "d",
+          "en": "has grooves called flutes.",
+          "zh": "表面有叫 flutes（刃槽）的槽纹。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Concentric bits are balanced, with the shank centered on the head, so they do not wobble or vibrate. Wobbling bits can damage the handpiece and the client's nail.",
+        "zh": "同心磨头（concentric bit）是平衡的，柄（shank）正对磨头中心，所以不晃也不震。晃动的磨头会损坏手柄和顾客的指甲。"
+      },
+      "lockPoint": {
+        "en": "Con = together, centric = center. Head and shank share one center, so it spins true.",
+        "zh": "con = 共同，centric = 中心。头和柄共用一个圆心，转起来就稳。同心 = 同一个圆心。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Electric Filing - The Anatomy of a Bit",
+          "pdfPage": 258,
+          "printedPage": "234"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Electric Filing - Glossary",
+          "pdfPage": 275,
+          "printedPage": "251"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 258,
+          "quote": "Concentric bits (con-SEN-trik BITZ) are balanced bits that do not wobble or vibrate."
+        },
+        {
+          "pdfPage": 258,
+          "quote": "Bits that wobble or vibrate when spinning can damage the inside of your handpiece and damage the client’s nail."
+        },
+        {
+          "pdfPage": 275,
+          "quote": "the shank is centered on the head of the bit"
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-5a-16",
+      "question": {
+        "en": "Which electric file bit should never be used on the natural nail?",
+        "zh": "哪种打磨头绝不能用在真甲（natural nail）上？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Silicone bit",
+          "zh": "硅胶磨头"
+        },
+        {
+          "id": "b",
+          "en": "Chamois bit",
+          "zh": "麂皮抛光磨头"
+        },
+        {
+          "id": "c",
+          "en": "Carbide bit",
+          "zh": "钨钢磨头（carbide bit）"
+        },
+        {
+          "id": "d",
+          "en": "Goat hair bit",
+          "zh": "山羊毛抛光磨头"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Never use a carbide bit on the natural nail. Its flutes shave enhancement product. Silicone bits and natural bits like chamois and goat hair lightly buff or shine natural nails.",
+        "zh": "绝不能在真甲上用钨钢磨头（carbide bit），它的刃槽（flutes）是用来削掉加固产品的。硅胶磨头和麂皮、山羊毛等天然磨头只是轻轻抛光真甲。"
+      },
+      "lockPoint": {
+        "en": "Carbide flutes shave like a tiny wood plane: made for hard product, too harsh for a thin natural nail.",
+        "zh": "钨钢刃槽像一把小刨子，专削硬的产品；对薄薄的真甲太狠了。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Electric Filing - Types of Bits",
+          "pdfPage": 259,
+          "printedPage": "235"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 259,
+          "quote": "Never use a carbide bit on the natural nail!"
+        },
+        {
+          "pdfPage": 259,
+          "quote": "which shave the surface of the product as they file"
+        },
+        {
+          "pdfPage": 259,
+          "quote": "to remove excess nonliving cuticle or to shine natural and artificial nails"
+        },
+        {
+          "pdfPage": 259,
+          "quote": "to buff natural nails and enhancement products to a high-gloss"
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-5a-17",
+      "question": {
+        "en": "Which electric file bit is single-use only?",
+        "zh": "哪种打磨头只能用一次？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Diamond bit",
+          "zh": "金刚石磨头"
+        },
+        {
+          "id": "b",
+          "en": "Carbide bit",
+          "zh": "钨钢磨头"
+        },
+        {
+          "id": "c",
+          "en": "Swiss carbide bit",
+          "zh": "瑞士钨钢磨头"
+        },
+        {
+          "id": "d",
+          "en": "Sanding band",
+          "zh": "砂圈（sanding band）"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Sanding and arbor bands are paper bits that slip onto a mandrel. Like paper hand files, they cannot be disinfected. Metal bits are cleaned and disinfected like other multiuse implements.",
+        "zh": "砂圈（sanding band / arbor band）是套在砂圈芯（mandrel）上的纸质磨头，像纸质指甲锉一样无法消毒。金属磨头则像其他可重复使用工具一样清洁消毒。"
+      },
+      "lockPoint": {
+        "en": "Soak paper in liquid and it falls apart. Paper bands, paper files: one client, then trash.",
+        "zh": "纸一泡就烂。纸砂圈、纸锉条：一位顾客用完就扔。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Electric Filing - Sanding and Arbor Bands",
+          "pdfPage": 260,
+          "printedPage": "236"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Electric Filing - Disinfecting Metal Bits",
+          "pdfPage": 261,
+          "printedPage": "237"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 260,
+          "quote": "These are one-use-only paper bits that slip onto a mandrel."
+        },
+        {
+          "pdfPage": 260,
+          "quote": "made of abrasive paper just like hand files and cannot be disinfected"
+        },
+        {
+          "pdfPage": 261,
+          "quote": "Disinfectable metal bits must be cleaned and disinfected in the same way"
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-5a-18",
+      "question": {
+        "en": "What does a UL mark on an electric file or UV lamp show?",
+        "zh": "打磨机或 UV 灯上的 UL 标志说明什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Its electrical safety is certified.",
+          "zh": "它的用电安全经过认证。"
+        },
+        {
+          "id": "b",
+          "en": "It is EPA-registered as a disinfectant.",
+          "zh": "它是 EPA 注册的消毒产品。"
+        },
+        {
+          "id": "c",
+          "en": "It is licensed by the state board.",
+          "zh": "它获得州委员会许可。"
+        },
+        {
+          "id": "d",
+          "en": "It was made in the United States.",
+          "zh": "它是美国制造的。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Underwriters Laboratories (UL) certifies that electrical appliances, such as UV lamps, pedicure chairs, heating mitts, and electric files, are safe when used according to the manufacturer's directions.",
+        "zh": "UL（Underwriters Laboratories，美国保险商实验室）认证电器，如 UV 灯、修脚椅、电热手套和打磨机，按厂家说明使用时是安全的。"
+      },
+      "lockPoint": {
+        "en": "UL = Underwriters Laboratories. Underwriters are insurers: they paid for fires, so they wanted devices tested.",
+        "zh": "UL = Underwriters Laboratories。underwriter 指保险商：火灾要他们赔钱，所以他们要求电器先测试。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Electricity - Underwriters Laboratories",
+          "pdfPage": 684,
+          "printedPage": "189"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 684,
+          "quote": "Underwriters Laboratories (UL) certifies the safety of electrical appliances."
+        },
+        {
+          "pdfPage": 684,
+          "quote": "UV lamps, pedicure chairs, heating mitts, electric files, and more should be UL approved"
+        }
+      ],
+      "hookType": "real-acronym"
+    },
+    {
+      "id": "nic-5a-19",
+      "question": {
+        "en": "What is the round third prong on a plug for?",
+        "zh": "插头上第三个圆形插脚是做什么用的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Making the motor run faster",
+          "zh": "让电机转得更快"
+        },
+        {
+          "id": "b",
+          "en": "Switching the appliance on",
+          "zh": "开启电器"
+        },
+        {
+          "id": "c",
+          "en": "Changing AC to DC",
+          "zh": "把交流电变成直流电"
+        },
+        {
+          "id": "d",
+          "en": "Grounding, to protect from shock",
+          "zh": "接地（grounding），防止触电"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "The round third prong is a grounding pin. It gives electricity a safe path and protects the user from shock, even if a wire comes loose. Never alter it to fit a two-prong outlet.",
+        "zh": "第三个圆插脚是接地插脚（grounding pin），给电流一条安全通路，即使电线松脱也能防止使用者触电。绝不要改动它去插两孔插座。"
+      },
+      "lockPoint": {
+        "en": "Ground means the earth. The third prong gives stray current a road to the ground, not through your body.",
+        "zh": "接地 = 接到大地。第三个插脚给漏出来的电一条通往大地的路，而不是穿过你的身体。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Electricity - Grounding",
+          "pdfPage": 683,
+          "printedPage": "188"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Electricity - Safe Use of Electrical Equipment",
+          "pdfPage": 686,
+          "printedPage": "191"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 683,
+          "quote": "The grounding pin is designed to guarantee a safe path for electricity and protect the user from electrical shock even if a wire comes loose."
+        },
+        {
+          "pdfPage": 683,
+          "quote": "Grounding (GROWND-ing) completes an electric circuit and carries the current safely away."
+        },
+        {
+          "pdfPage": 686,
+          "quote": "Do not alter a three-prong plug to fit into a two-prong outlet."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-5a-20",
+      "question": {
+        "en": "What does a fuse do in an electric circuit?",
+        "zh": "保险丝（fuse）在电路里起什么作用？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Measures the electricity used",
+          "zh": "测量用电量"
+        },
+        {
+          "id": "b",
+          "en": "Boosts current for faster motors",
+          "zh": "增大电流，让电机更快"
+        },
+        {
+          "id": "c",
+          "en": "Stops excess current by melting",
+          "zh": "电流过大时熔断，阻止过量电流"
+        },
+        {
+          "id": "d",
+          "en": "Grounds the appliance's metal case",
+          "zh": "让电器的金属外壳接地"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "A fuse prevents excessive current from passing through a circuit. A wire too small for its current overheats; the fuse melts first. Circuit breakers do the same job and can be reset.",
+        "zh": "保险丝防止过量电流通过电路。电线太细、承载不了电流就会过热，保险丝会先熔断。断路器（circuit breaker）作用相同，跳闸后可以复位。"
+      },
+      "lockPoint": {
+        "en": "Too many plugs, too much current, a hot wire: the fuse melts first so the wall doesn't catch fire.",
+        "zh": "插头太多 → 电流太大 → 电线发热：保险丝先熔断，墙里的电线才不会起火。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Electricity - Safety Devices",
+          "pdfPage": 682,
+          "printedPage": "187"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Electricity - Safety Devices",
+          "pdfPage": 683,
+          "printedPage": "188"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 682,
+          "quote": "prevents excessive current from passing through a circuit"
+        },
+        {
+          "pdfPage": 682,
+          "quote": "It is designed to blow out or melt when the wire becomes too hot from overloading the circuit with too much current"
+        },
+        {
+          "pdfPage": 682,
+          "quote": "A wire that is not large enough to carry the electrical current passing through it will overheat."
+        },
+        {
+          "pdfPage": 682,
+          "quote": "when the electrical wires in a wall overheat, they can cause a fire"
+        },
+        {
+          "pdfPage": 683,
+          "quote": "can simply be reset by switching the circuit breaker back on"
+        }
+      ],
+      "hookType": "reason-chain"
+    }
+  ],
+  "review": {
+    "reviewedAt": "2026-10-23",
+    "checks": [
+      "quotes found on cited pages (verify-nic-domain-evidence.py)",
+      "blind answer check: 20/20 matched key; 11 new or edited questions re-checked blind (all matched)",
+      "content and Chinese review (two rounds): fixes applied",
+      "memory hooks fact-checked (word origins, Chinese characters, textbook facts), two rounds: fixes applied",
+      "cross-set overlap check against existing NIC Domain Practice sets: duplicated facts replaced"
+    ]
+  }
+}

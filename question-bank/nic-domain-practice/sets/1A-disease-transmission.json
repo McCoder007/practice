@@ -1,0 +1,1169 @@
+{
+  "schemaVersion": "1.0.0",
+  "setId": "1A",
+  "domain": {
+    "id": "infection-control",
+    "order": 1,
+    "title": {
+      "en": "Infection Control and Safety Practices",
+      "zh": "感染控制与安全操作"
+    },
+    "examWeightPercent": 15
+  },
+  "title": {
+    "en": "Disease and How It Spreads",
+    "zh": "疾病与传播途径"
+  },
+  "status": "reviewed",
+  "authoredAt": "2026-10-22",
+  "sourceBook": "Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020)",
+  "questions": [
+    {
+      "id": "nic-1a-01",
+      "question": {
+        "en": "Germs passed by shaking hands are an example of",
+        "zh": "通过握手传播病菌属于哪种传播方式？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "indirect transmission.",
+          "zh": "间接传播。"
+        },
+        {
+          "id": "b",
+          "en": "direct transmission.",
+          "zh": "直接传播。"
+        },
+        {
+          "id": "c",
+          "en": "airborne transmission.",
+          "zh": "空气传播。"
+        },
+        {
+          "id": "d",
+          "en": "respiratory droplet transmission.",
+          "zh": "呼吸道飞沫传播。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Direct transmission means germs pass from person to person, for example by touching, shaking hands, or kissing.",
+        "zh": "direct transmission（直接传播）是指病菌人传人，例如触摸、握手或亲吻。"
+      },
+      "lockPoint": {
+        "en": "Direct = straight from one person to the next. No tool in between.",
+        "zh": "直 = 一条直线，不拐弯：病菌从人直接到人，中间没有工具。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Direct Transmission",
+          "pdfPage": 594,
+          "printedPage": "99"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Direct Transmission",
+          "pdfPage": 595,
+          "printedPage": "100"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 594,
+          "quote": "it involves the transmission of pathogens through touching, kissing"
+        },
+        {
+          "pdfPage": 595,
+          "quote": "Shaking hands without washing can directly transmit infections."
+        }
+      ],
+      "hookType": "chinese-character"
+    },
+    {
+      "id": "nic-1a-02",
+      "question": {
+        "en": "Germs passed on a dirty nipper are an example of",
+        "zh": "通过不干净的死皮剪（nipper）传播病菌，属于哪种传播方式？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "direct transmission.",
+          "zh": "直接传播。"
+        },
+        {
+          "id": "b",
+          "en": "airborne transmission.",
+          "zh": "空气传播。"
+        },
+        {
+          "id": "c",
+          "en": "indirect transmission.",
+          "zh": "间接传播。"
+        },
+        {
+          "id": "d",
+          "en": "respiratory droplet transmission.",
+          "zh": "呼吸道飞沫传播。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Indirect transmission happens through a contaminated object, like a nipper, doorknob, or work surface. The next person who touches it can get the germs.",
+        "zh": "indirect transmission（间接传播）是通过被污染的物品传播，例如死皮剪（nipper）、门把手或工作台面。下一个接触它的人就可能沾上病菌。"
+      },
+      "lockPoint": {
+        "en": "Indirect = a tool or surface sits between the two people.",
+        "zh": "间接：间 = 中间。病菌通过中间的工具或台面传给你。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Indirect Transmission",
+          "pdfPage": 595,
+          "printedPage": "100"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 595,
+          "quote": "Indirect transmission (in-dih-REKT trans-MISH-uhn) occurs through contact with an intermediate contaminated object, such as a razor, extractor, nipper"
+        }
+      ],
+      "hookType": "chinese-character"
+    },
+    {
+      "id": "nic-1a-03",
+      "question": {
+        "en": "Which type of transmission spreads small, dry particles that hang in the air?",
+        "zh": "哪种传播方式会散播小而干、悬浮在空气中的颗粒？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Airborne",
+          "zh": "空气传播"
+        },
+        {
+          "id": "b",
+          "en": "Respiratory droplet",
+          "zh": "呼吸道飞沫传播"
+        },
+        {
+          "id": "c",
+          "en": "Direct",
+          "zh": "直接传播"
+        },
+        {
+          "id": "d",
+          "en": "Indirect",
+          "zh": "间接传播"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Airborne particles are small and dry, so they hang in the air and travel farther. Respiratory droplets are larger and fall quickly.",
+        "zh": "airborne（空气传播）的颗粒小而干，会悬浮在空气中并传得更远。respiratory droplet（呼吸道飞沫）颗粒较大，很快落下。"
+      },
+      "lockPoint": {
+        "en": "Air-borne = carried by the air, like dust. Droplets drop fast, like rain.",
+        "zh": "airborne（空气传播）像灰尘一样被空气带着飘。droplet（飞沫）像雨滴一样很快落下。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Airborne Transmission and Respiratory Droplet",
+          "pdfPage": 596,
+          "printedPage": "101"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 596,
+          "quote": "In airborne transmission, the particles are much smaller and dryer, so they hang in the air longer"
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-1a-04",
+      "question": {
+        "en": "What is the body's first line of defense against infection?",
+        "zh": "身体抵御感染的第一道防线是什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "White blood cells",
+          "zh": "白细胞"
+        },
+        {
+          "id": "b",
+          "en": "Antitoxins",
+          "zh": "抗毒素"
+        },
+        {
+          "id": "c",
+          "en": "Body secretions",
+          "zh": "身体分泌物"
+        },
+        {
+          "id": "d",
+          "en": "Healthy, unbroken skin",
+          "zh": "健康、完整的皮肤"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Germs cannot get through healthy, unbroken skin. They enter through cuts, scratches, or rashes. White blood cells destroy bacteria. Antitoxins work against toxins.",
+        "zh": "病菌无法穿过健康、完整的皮肤，它们会从伤口、抓痕或皮疹进入。white blood cells（白细胞）消灭细菌。antitoxins（抗毒素）对抗毒素。"
+      },
+      "lockPoint": {
+        "en": "Skin is the wall. White blood cells are the guards inside.",
+        "zh": "皮肤是城墙，白细胞是城里的守卫。病菌要先过城墙。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Did You Know? (routes of entry and body defenses)",
+          "pdfPage": 608,
+          "printedPage": "113"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 608,
+          "quote": "healthy, uncompromised skin—the body’s first line of defense"
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-1a-05",
+      "question": {
+        "en": "A disease that can spread from one person to another is called",
+        "zh": "能从一个人传给另一个人的疾病称为什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "a contagious disease.",
+          "zh": "传染性疾病。"
+        },
+        {
+          "id": "b",
+          "en": "an occupational disease.",
+          "zh": "职业病。"
+        },
+        {
+          "id": "c",
+          "en": "a local infection.",
+          "zh": "局部感染。"
+        },
+        {
+          "id": "d",
+          "en": "a systemic infection.",
+          "zh": "全身性感染。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "A contagious disease spreads from person to person. It is also called a communicable disease. Examples are the common cold, ringworm, and pinkeye.",
+        "zh": "contagious disease（传染性疾病）会人传人，也叫 communicable disease（可传染疾病）。例如普通感冒、ringworm（癣）和 pinkeye（红眼病）。"
+      },
+      "lockPoint": {
+        "en": "Contagious shares an old root with contact (touch). It passes person to person; also called communicable.",
+        "zh": "传染：染 = 染色。疾病像染料一样，从一个人染到另一个人。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Identify Different Types of Pathogens",
+          "pdfPage": 599,
+          "printedPage": "104"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 599,
+          "quote": "When a disease is capable of being spread from one person to another, it is said to be a contagious disease (kon-TAY-jus diz-EEZ), also known as a communicable"
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-1a-06",
+      "question": {
+        "en": "An illness caused by repeated overexposure to products at work is",
+        "zh": "因工作中反复过度接触产品而导致的疾病是什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "a contagious disease.",
+          "zh": "传染性疾病。"
+        },
+        {
+          "id": "b",
+          "en": "an occupational disease.",
+          "zh": "职业病。"
+        },
+        {
+          "id": "c",
+          "en": "a parasitic disease.",
+          "zh": "寄生虫病。"
+        },
+        {
+          "id": "d",
+          "en": "a viral disease.",
+          "zh": "病毒性疾病。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "An occupational disease comes from work conditions, such as long, repeated overexposure to certain products or ingredients.",
+        "zh": "occupational disease（职业病）由工作条件引起，例如长期、反复过度接触某些产品或成分。"
+      },
+      "lockPoint": {
+        "en": "Occupation = your job. Same products, every workday, for years → occupational disease.",
+        "zh": "职业病：同样的产品，每个工作日都接触，日积月累就病了。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Table 5-1 Additional Terms Related to Disease",
+          "pdfPage": 600,
+          "printedPage": "105"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 600,
+          "quote": "Illnesses resulting from conditions associated with employment, such as prolonged and repeated overexposure to certain products or ingredients."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-1a-07",
+      "question": {
+        "en": "Harmless bacteria that can do useful work are called",
+        "zh": "无害且能起有益作用的细菌称为什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "pathogenic.",
+          "zh": "致病性细菌。"
+        },
+        {
+          "id": "b",
+          "en": "staphylococci.",
+          "zh": "葡萄球菌。"
+        },
+        {
+          "id": "c",
+          "en": "mycobacteria.",
+          "zh": "分枝杆菌。"
+        },
+        {
+          "id": "d",
+          "en": "nonpathogenic.",
+          "zh": "非致病性细菌。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Most bacteria are nonpathogenic. They do not cause disease. Some help make yogurt and cheese or help the body digest food.",
+        "zh": "大多数细菌是 nonpathogenic（非致病性）的，不会致病。有些能帮助制作酸奶和奶酪，或帮助身体消化食物。"
+      },
+      "lockPoint": {
+        "en": "Non = no, patho = disease, genic = makes. Nonpathogenic = makes no disease.",
+        "zh": "非致病性：非 = non（不），致 = genic（造成），病 = patho（疾病）。不造成疾病。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Types of Bacteria",
+          "pdfPage": 601,
+          "printedPage": "106"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 601,
+          "quote": "Most bacteria are nonpathogenic (nahn-path-uh-JEN-ik); in other words, they are harmless organisms that may perform useful functions."
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-1a-08",
+      "question": {
+        "en": "Where do bacteria multiply best?",
+        "zh": "细菌在什么地方繁殖得最好？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Cool, bright, dry places",
+          "zh": "凉爽、明亮、干燥的地方"
+        },
+        {
+          "id": "b",
+          "en": "Warm, bright, dry places",
+          "zh": "温暖、明亮、干燥的地方"
+        },
+        {
+          "id": "c",
+          "en": "Warm, dark, damp, or dirty places",
+          "zh": "温暖、阴暗、潮湿或肮脏的地方"
+        },
+        {
+          "id": "d",
+          "en": "Cold, dark, clean places",
+          "zh": "寒冷、阴暗、干净的地方"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Bacteria grow fastest where it is warm, dark, damp, or dirty. Keep tools clean and dry, and keep the station clean.",
+        "zh": "细菌在温暖、阴暗、潮湿或肮脏的地方长得最快。工具要保持干净干燥，工作台也要保持清洁。"
+      },
+      "lockPoint": {
+        "en": "Picture a wet towel left in a dark drawer. That is where bacteria grow.",
+        "zh": "想象一条湿毛巾放在黑暗的抽屉里，细菌就在那里长。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Activity: Attacking the Source",
+          "pdfPage": 601,
+          "printedPage": "106"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 601,
+          "quote": "bacteria multiply best in warm, dark, damp, or dirty places"
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-1a-09",
+      "question": {
+        "en": "Which is a sign of a bacterial infection?",
+        "zh": "以下哪一项是细菌感染的迹象？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Dry skin",
+          "zh": "皮肤干燥"
+        },
+        {
+          "id": "b",
+          "en": "Pus",
+          "zh": "脓"
+        },
+        {
+          "id": "c",
+          "en": "A callus",
+          "zh": "老茧"
+        },
+        {
+          "id": "d",
+          "en": "A freckle",
+          "zh": "雀斑"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Pus is a fluid made of white blood cells, bacteria, and dead cells. When you see pus, there is a bacterial infection.",
+        "zh": "pus（脓）是由白细胞、细菌和死细胞组成的液体。看到脓，就说明有细菌感染。"
+      },
+      "lockPoint": {
+        "en": "Pus is the mess left after white blood cells fight bacteria. See pus, think bacteria.",
+        "zh": "脓是白细胞和细菌打完仗留下的残局。看到脓，就想到细菌。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Bacterial Infections",
+          "pdfPage": 601,
+          "printedPage": "106"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 601,
+          "quote": "The presence of pus is a sign of a bacterial infection."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-1a-10",
+      "question": {
+        "en": "Redness, heat, pain, and swelling are signs of",
+        "zh": "发红、发热、疼痛和肿胀是什么的迹象？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "inflammation.",
+          "zh": "炎症。"
+        },
+        {
+          "id": "b",
+          "en": "contamination.",
+          "zh": "污染。"
+        },
+        {
+          "id": "c",
+          "en": "decontamination.",
+          "zh": "去污染。"
+        },
+        {
+          "id": "d",
+          "en": "immunity.",
+          "zh": "免疫。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Inflammation is how body tissue reacts to injury, irritation, or infection. It shows as redness, heat, pain, and swelling.",
+        "zh": "inflammation（炎症）是身体组织对受伤、刺激或感染的反应，表现为发红、发热、疼痛和肿胀。"
+      },
+      "lockPoint": {
+        "en": "Inflammation comes from an old word for \"set on fire.\" Think flame: red and hot.",
+        "zh": "炎 = 两个火。炎症就像身体里着了火：红、热、痛、肿。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Bacterial Infections",
+          "pdfPage": 601,
+          "printedPage": "106"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 601,
+          "quote": "Inflammation is characterized by redness, heat, pain, and/or swelling."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-1a-11",
+      "question": {
+        "en": "The body's ability to resist and destroy pathogens is called",
+        "zh": "身体抵抗并消灭病原体的能力称为什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "infection.",
+          "zh": "感染。"
+        },
+        {
+          "id": "b",
+          "en": "inflammation.",
+          "zh": "炎症。"
+        },
+        {
+          "id": "c",
+          "en": "contamination.",
+          "zh": "污染。"
+        },
+        {
+          "id": "d",
+          "en": "immunity.",
+          "zh": "免疫。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Immunity is the body's ability to fight off germs. Natural immunity is partly inherited. Acquired immunity comes after an illness or a vaccine, like a flu shot.",
+        "zh": "immunity（免疫）是身体抵抗病菌的能力。natural immunity（自然免疫）部分来自遗传。acquired immunity（获得性免疫）来自生过病并康复，或打过疫苗，例如流感疫苗。"
+      },
+      "lockPoint": {
+        "en": "Immunity comes from Latin for \"exempt.\" 免疫 means the same: exempt from epidemics.",
+        "zh": "免疫 = 免（免除）+ 疫（瘟疫）：免于疫病。疫苗的“疫”就是这个字。"
+      },
+      "hookType": "word-origin",
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "The Healthy Professional - Describe How Immunity Keeps the Body Safe",
+          "pdfPage": 574,
+          "printedPage": "79"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "The Healthy Professional - Describe How Immunity Keeps the Body Safe",
+          "pdfPage": 575,
+          "printedPage": "80"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 574,
+          "quote": "Immunity (im-YOO-net-ee) refers to the ability of the body to"
+        },
+        {
+          "pdfPage": 575,
+          "quote": "resist and destroy pathogens and respond to infection."
+        },
+        {
+          "pdfPage": 575,
+          "quote": "Acquired immunity (uh-KWY-erd im-YOO-net-ee) is developed after overcoming a disease, through inoculation (such as flu vaccinations)"
+        }
+      ]
+    },
+    {
+      "id": "nic-1a-12",
+      "question": {
+        "en": "MRSA is caused by",
+        "zh": "MRSA 是由什么引起的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "a virus.",
+          "zh": "病毒。"
+        },
+        {
+          "id": "b",
+          "en": "a fungus.",
+          "zh": "真菌。"
+        },
+        {
+          "id": "c",
+          "en": "staph bacteria.",
+          "zh": "葡萄球菌（细菌）。"
+        },
+        {
+          "id": "d",
+          "en": "a parasite.",
+          "zh": "寄生虫。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "MRSA is a staph bacteria infection that many antibiotics cannot kill. It often starts as pimples, rashes, or boils on the skin.",
+        "zh": "MRSA 是一种 staph（葡萄球菌）细菌感染，很多抗生素都杀不死它。它常以皮肤上的痘痘、皮疹或疖子开始。"
+      },
+      "lockPoint": {
+        "en": "Read the letters: R = Resistant (antibiotics fail), S = Staph.",
+        "zh": "看字母：R = Resistant（耐药，抗生素没用），S = Staph（葡萄球菌）。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - MRSA",
+          "pdfPage": 602,
+          "printedPage": "107"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 602,
+          "quote": "Some types of infectious staph bacteria are highly resistant to conventional treatments such as antibiotics. An example is the staph infection called methicillin-resistant staphylococcus aureus"
+        }
+      ],
+      "hookType": "real-acronym"
+    },
+    {
+      "id": "nic-1a-13",
+      "question": {
+        "en": "Mycobacterium infections have been linked especially to",
+        "zh": "分枝杆菌感染尤其与什么有关？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "pedicure bowls.",
+          "zh": "足浴盆。"
+        },
+        {
+          "id": "b",
+          "en": "nail polish.",
+          "zh": "指甲油。"
+        },
+        {
+          "id": "c",
+          "en": "UV lamps.",
+          "zh": "UV 灯。"
+        },
+        {
+          "id": "d",
+          "en": "hand lotion.",
+          "zh": "护手霜。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Mycobacterium lives in soil and water, so it can be in the water supply. Clean and disinfect every pedicure bowl to protect clients.",
+        "zh": "mycobacterium（分枝杆菌）存在于土壤和水中，所以自来水里也可能有。每个足浴盆都要清洁并消毒，保护顾客。"
+      },
+      "lockPoint": {
+        "en": "Soil and water → tap water → pedicure bowl. Germ in the water, risk in the bowl.",
+        "zh": "土壤和水 → 自来水 → 足浴盆。水里有菌，盆里就有风险。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Mycobacterium",
+          "pdfPage": 603,
+          "printedPage": "108"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 603,
+          "quote": "it has been linked to disfiguring infections associated particularly with pedicure bowls"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-1a-14",
+      "question": {
+        "en": "Contagious diseases are most often spread through",
+        "zh": "传染性疾病最常通过什么传播？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "hair.",
+          "zh": "头发。"
+        },
+        {
+          "id": "b",
+          "en": "eyeglasses.",
+          "zh": "眼镜。"
+        },
+        {
+          "id": "c",
+          "en": "shoes.",
+          "zh": "鞋子。"
+        },
+        {
+          "id": "d",
+          "en": "dirty hands.",
+          "zh": "脏手。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Contagious diseases spread most often by dirty hands. Germs hide under the fingernails and in the webs between the fingers. Many states require hand washing before every client.",
+        "zh": "传染性疾病最常通过脏手传播。病菌藏在指甲下面和手指之间的指蹼里。很多州规定每位顾客服务前都要洗手。"
+      },
+      "lockPoint": {
+        "en": "What touches every client? Your hands. Scrub under the nails and between the fingers.",
+        "zh": "什么会碰到每一位顾客？你的手。要刷洗指甲下面和手指之间。"
+      },
+      "hookType": "real-life",
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Identify Different Types of Pathogens",
+          "pdfPage": 599,
+          "printedPage": "104"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 599,
+          "quote": "These infections are most often spread through dirty hands, especially under the fingernails and in the webs between the fingers."
+        },
+        {
+          "pdfPage": 599,
+          "quote": "In many states, you are required to wash your hands prior to every client"
+        }
+      ]
+    },
+    {
+      "id": "nic-1a-15",
+      "question": {
+        "en": "Which can reproduce only by taking over a host cell?",
+        "zh": "哪一种只能通过接管宿主细胞来繁殖？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Bacteria",
+          "zh": "细菌"
+        },
+        {
+          "id": "b",
+          "en": "Viruses",
+          "zh": "病毒"
+        },
+        {
+          "id": "c",
+          "en": "Fungi",
+          "zh": "真菌"
+        },
+        {
+          "id": "d",
+          "en": "Mildew",
+          "zh": "霉（mildew）"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "A virus must get inside a living cell to make copies of itself. Bacteria can live and reproduce on their own.",
+        "zh": "virus（病毒）必须进入活细胞才能复制自己。bacteria（细菌）可以自己生存和繁殖。"
+      },
+      "lockPoint": {
+        "en": "A virus has no copy machine of its own. It takes over your cell's. Bacteria have their own.",
+        "zh": "病毒自己没有复印机，要占用你细胞的复印机。细菌有自己的。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Viruses",
+          "pdfPage": 604,
+          "printedPage": "109"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 604,
+          "quote": "a virus can live and reproduce only by taking over other cells and becoming part of them, while bacteria can live and reproduce on their own"
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-1a-16",
+      "question": {
+        "en": "Which can usually be treated with antibiotics?",
+        "zh": "哪一种通常可以用抗生素治疗？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Viral infections",
+          "zh": "病毒感染"
+        },
+        {
+          "id": "b",
+          "en": "Head lice",
+          "zh": "头虱"
+        },
+        {
+          "id": "c",
+          "en": "Bacterial infections",
+          "zh": "细菌感染"
+        },
+        {
+          "id": "d",
+          "en": "Influenza",
+          "zh": "流感"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Antibiotics work on bacteria. They do not work on viruses, such as the flu.",
+        "zh": "antibiotics（抗生素）对细菌有效，对 virus（病毒）无效，例如流感。"
+      },
+      "lockPoint": {
+        "en": "Cold or flu (influenza)? Antibiotics will not help. Those are viruses.",
+        "zh": "感冒或流感（influenza）？抗生素没用，因为它们是病毒。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Viruses",
+          "pdfPage": 604,
+          "printedPage": "109"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 604,
+          "quote": "bacterial infections can usually be treated with specific antibiotics, viral infections cannot"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-1a-17",
+      "question": {
+        "en": "Hepatitis and HIV are examples of",
+        "zh": "肝炎和 HIV 属于哪一类？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "bloodborne pathogens.",
+          "zh": "血源性病原体。"
+        },
+        {
+          "id": "b",
+          "en": "fungi.",
+          "zh": "真菌。"
+        },
+        {
+          "id": "c",
+          "en": "parasites.",
+          "zh": "寄生虫。"
+        },
+        {
+          "id": "d",
+          "en": "nonpathogenic bacteria.",
+          "zh": "非致病性细菌。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Bloodborne pathogens are germs carried in blood or body fluids, such as hepatitis and HIV. They can spread when skin is broken, so avoid cutting the client's skin.",
+        "zh": "bloodborne pathogens（血源性病原体）是存在于血液或体液中的病菌，例如 hepatitis（肝炎）和 HIV。皮肤破损时就可能传播，所以要避免割伤顾客皮肤。"
+      },
+      "lockPoint": {
+        "en": "Blood-borne = carried by blood. HIV and hepatitis travel in blood; broken skin opens the door.",
+        "zh": "血源性 = 病菌由血液带着走。HIV 和肝炎都在血里，皮肤一破，门就开了。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Hepatitis and HIV/AIDS",
+          "pdfPage": 605,
+          "printedPage": "110"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Hepatitis and HIV/AIDS",
+          "pdfPage": 606,
+          "printedPage": "111"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 605,
+          "quote": "Disease-causing microorganisms that are carried in the body by blood or body fluids, such as hepatitis and HIV, are called bloodborne pathogens"
+        },
+        {
+          "pdfPage": 606,
+          "quote": "spread of bloodborne pathogens is possible whenever the skin is broken"
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-1a-18",
+      "question": {
+        "en": "Sticky colonies of microbes on surfaces are called",
+        "zh": "附着在表面、有黏性的微生物群落称为什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "toxins.",
+          "zh": "毒素。"
+        },
+        {
+          "id": "b",
+          "en": "biofilms.",
+          "zh": "生物膜。"
+        },
+        {
+          "id": "c",
+          "en": "viruses.",
+          "zh": "病毒。"
+        },
+        {
+          "id": "d",
+          "en": "antitoxins.",
+          "zh": "抗毒素。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "A biofilm is a group of germs stuck together under a sticky coating. Disinfectants have trouble getting through it. Foot spas, especially piped ones, can hold biofilm.",
+        "zh": "biofilm（生物膜）是一群被黏性保护层包住、粘在一起的微生物，消毒剂很难穿透。足浴盆，尤其是带管道的，可能藏有生物膜。"
+      },
+      "lockPoint": {
+        "en": "Bio = living, film = thin layer. Think of the slime in a drain.",
+        "zh": "生物膜 = 生物 + 膜（薄薄一层）。想想下水道里那层滑滑的东西。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Biofilms",
+          "pdfPage": 608,
+          "printedPage": "113"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Biofilms",
+          "pdfPage": 609,
+          "printedPage": "114"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 608,
+          "quote": "Biofilms (BY-o-films) are colonies of microorganisms that adhere to environmental surfaces"
+        },
+        {
+          "pdfPage": 609,
+          "quote": "hard-to-penetrate, protective coating that cements them together"
+        },
+        {
+          "pdfPage": 609,
+          "quote": "foot spas can harbor biofilm and require extra attention, especially piped models"
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-1a-19",
+      "question": {
+        "en": "Ringworm is caused by",
+        "zh": "癣是由什么引起的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "a worm.",
+          "zh": "蠕虫。"
+        },
+        {
+          "id": "b",
+          "en": "a virus.",
+          "zh": "病毒。"
+        },
+        {
+          "id": "c",
+          "en": "bacteria.",
+          "zh": "细菌。"
+        },
+        {
+          "id": "d",
+          "en": "a fungus.",
+          "zh": "真菌。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Despite its name, ringworm is not a worm. It is a contagious fungal skin infection that makes round, ring-shaped patches.",
+        "zh": "ringworm（癣）虽然名字里有 worm（虫），但它不是虫，而是一种会传染的真菌性皮肤感染，会形成圆形的环状斑块。"
+      },
+      "lockPoint": {
+        "en": "The name lies: no worm. A fungus grows in a ring.",
+        "zh": "名字骗人：没有虫。“癣”是疒字旁（病），不是虫字旁。是真菌长成一个圈。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Fungi",
+          "pdfPage": 607,
+          "printedPage": "112"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 607,
+          "quote": "Ringworm (RING-wurm), a fungal infection of the skin that appears in circular lesions"
+        }
+      ],
+      "hookType": "name-trap"
+    },
+    {
+      "id": "nic-1a-20",
+      "question": {
+        "en": "Scabies is caused by",
+        "zh": "疥疮是由什么引起的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "a fungus.",
+          "zh": "真菌。"
+        },
+        {
+          "id": "b",
+          "en": "a virus.",
+          "zh": "病毒。"
+        },
+        {
+          "id": "c",
+          "en": "the itch mite.",
+          "zh": "疥螨。"
+        },
+        {
+          "id": "d",
+          "en": "bacteria.",
+          "zh": "细菌。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Scabies is a contagious skin disease caused by the itch mite, a parasite that burrows under the skin. Do not serve the client; refer them to a doctor.",
+        "zh": "scabies（疥疮）是由 itch mite（疥螨）引起的传染性皮肤病。疥螨是一种会钻到皮肤下面的寄生虫。不要为这位顾客服务，应建议对方去看医生。"
+      },
+      "lockPoint": {
+        "en": "Scabies comes from an old word for \"scratch\": a tiny mite digs under the skin and makes you itch.",
+        "zh": "疥螨的“螨”是虫字旁：一种钻进皮肤、让人发痒的小虫。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Parasites",
+          "pdfPage": 608,
+          "printedPage": "113"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 608,
+          "quote": "Scabies (SKAY-beez) is a contagious skin disease caused by the itch mite, which burrows under the skin."
+        },
+        {
+          "pdfPage": 608,
+          "quote": "Services should never be performed on a customer with visible signs of a parasitic infestation."
+        }
+      ],
+      "hookType": "word-origin"
+    }
+  ],
+  "review": {
+    "reviewedAt": "2026-10-22",
+    "checks": [
+      "quotes found on cited pages (verify-nic-domain-evidence.py)",
+      "blind answer check: 20/20 matched key (changed choices re-checked)",
+      "content and Chinese review: fixes applied",
+      "memory hooks fact-checked (word origins, Chinese characters, textbook facts): fixes applied",
+      "2026-10-23: q11 replaced with immunity (repeated across 3 existing banks); blind-checked and hook fact-checked",
+      "2026-10-23: q14 (24-hour shaving rule) replaced: Milady Nails ch7 says 48 hours, Foundations says 24, so no question depends on it; new q14 blind-checked"
+    ]
+  }
+}

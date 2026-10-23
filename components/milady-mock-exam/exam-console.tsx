@@ -14,6 +14,8 @@ import { MockExamTutorialOverlay } from "@/components/milady-mock-exam/tutorial-
 import {
   DEFAULT_MOCK_EXAM_BANK,
   MOCK_EXAM_BANKS,
+  WEIGHTED_MOCK_EXAM_BANKS,
+  WEIGHTED_MOCK_EXAM_SIZE,
   loadMockExamQuestions,
   type MockExamBankId,
   type MockExamQuestion,
@@ -26,6 +28,8 @@ import {
   type MockExamAnswers,
 } from "@/lib/milady-mock-exam"
 import { MOCK_EXAM_TEXT } from "@/lib/milady-mock-exam-i18n"
+import { drawWeightedTest } from "@/lib/nic-weighted-test"
+import { EXAM_TOPIC_WEIGHTS } from "@/data/nail-exam-practice/catalog"
 import { MockExamChineseToggle } from "@/components/milady-mock-exam/chinese-toggle"
 
 type Phase = "loading" | "start" | "in-progress" | "ended"
@@ -73,6 +77,9 @@ export function MockExamConsole() {
   }, [bankId])
 
   const poolReady = poolBankId === bankId
+  const examSize = WEIGHTED_MOCK_EXAM_BANKS.includes(bankId)
+    ? Math.min(WEIGHTED_MOCK_EXAM_SIZE, pool.length)
+    : pool.length
 
   useEffect(() => {
     if (phase !== "in-progress" || showTutorial) return
@@ -98,7 +105,14 @@ export function MockExamConsole() {
   const unansweredCount = questions.length - answeredCount
 
   function startExam() {
-    const session = buildMockExamSession(pool)
+    const source = WEIGHTED_MOCK_EXAM_BANKS.includes(bankId)
+      ? drawWeightedTest(
+          pool.filter((question): question is MockExamQuestion & { domainId: string } => Boolean(question.domainId)),
+          EXAM_TOPIC_WEIGHTS,
+          WEIGHTED_MOCK_EXAM_SIZE,
+        )
+      : pool
+    const session = buildMockExamSession(source)
     setQuestions(session)
     setAnswers(createEmptyAnswers(session))
     setCurrentIndex(0)
@@ -177,10 +191,10 @@ export function MockExamConsole() {
           <span className="-mt-3 text-base text-neutral-500">{MOCK_EXAM_TEXT.examTitle.zh}</span>
         ) : null}
         <p className="max-w-md text-sm text-neutral-600">
-          {poolReady ? MOCK_EXAM_TEXT.examIntro.en(pool.length) : MOCK_EXAM_TEXT.loadingExam.en}
+          {poolReady ? MOCK_EXAM_TEXT.examIntro.en(examSize) : MOCK_EXAM_TEXT.loadingExam.en}
           {showChinese ? (
             <span className="mt-1 block text-neutral-500">
-              {poolReady ? MOCK_EXAM_TEXT.examIntro.zh(pool.length) : MOCK_EXAM_TEXT.loadingExam.zh}
+              {poolReady ? MOCK_EXAM_TEXT.examIntro.zh(examSize) : MOCK_EXAM_TEXT.loadingExam.zh}
             </span>
           ) : null}
         </p>

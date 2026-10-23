@@ -1,0 +1,1378 @@
+{
+  "schemaVersion": "1.0.0",
+  "setId": "1B",
+  "domain": {
+    "id": "infection-control",
+    "order": 1,
+    "title": {
+      "en": "Infection Control and Safety Practices",
+      "zh": "感染控制与安全操作"
+    },
+    "examWeightPercent": 15
+  },
+  "title": {
+    "en": "Levels and Process of Infection Control",
+    "zh": "感染控制的等级与流程"
+  },
+  "status": "reviewed",
+  "authoredAt": "2026-10-22",
+  "sourceBook": "Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020)",
+  "questions": [
+    {
+      "id": "nic-1b-01",
+      "question": {
+        "en": "Which process destroys all microbial life, including spores?",
+        "zh": "哪种处理能消灭所有微生物，包括芽孢（spores）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Cleaning",
+          "zh": "清洁"
+        },
+        {
+          "id": "b",
+          "en": "Sanitizing",
+          "zh": "卫生处理"
+        },
+        {
+          "id": "c",
+          "en": "Disinfecting",
+          "zh": "消毒"
+        },
+        {
+          "id": "d",
+          "en": "Sterilizing",
+          "zh": "灭菌"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Sterilizing destroys all microbial life, including bacterial spores, usually with an autoclave. Disinfecting kills most harmful germs, but not spores.",
+        "zh": "sterilizing（灭菌）能消灭所有微生物，包括细菌芽孢，通常用高压灭菌器（autoclave）。disinfecting（消毒）能杀死大多数有害病菌，但杀不死芽孢。"
+      },
+      "lockPoint": {
+        "en": "Sterile comes from Latin for “barren”: nothing is left alive to grow, not even spores.",
+        "zh": "灭 = 一 压在 火 上：盖住火，火就灭了。灭菌就是把所有微生物都“灭”掉，连芽孢也不剩。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Infection Control Vocabulary",
+          "pdfPage": 591,
+          "printedPage": "96"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 591,
+          "quote": "Sterilizing is the process that destroys all microbial life, including spores, generally with the use of an autoclave."
+        },
+        {
+          "pdfPage": 591,
+          "quote": "specific products to destroy harmful organisms including bacteria, viruses and fungi (except bacterial spores)"
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-1b-02",
+      "question": {
+        "en": "Which agency licenses beauty professionals and inspects salons?",
+        "zh": "哪类机构负责发放美容从业执照并检查店铺？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "EPA",
+          "zh": "EPA（美国环境保护署）"
+        },
+        {
+          "id": "b",
+          "en": "State board",
+          "zh": "state board（州委员会）"
+        },
+        {
+          "id": "c",
+          "en": "OSHA",
+          "zh": "OSHA（职业安全与健康管理局）"
+        },
+        {
+          "id": "d",
+          "en": "FDA",
+          "zh": "FDA（食品药品监督管理局）"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "State regulatory agencies, such as state boards, handle licensing and enforce the rules through inspections. Federal agencies like the EPA and OSHA set national rules for products and workplaces.",
+        "zh": "州监管机构（例如 state board 州委员会）负责发执照，并通过检查来执行规定。EPA、OSHA 等联邦机构则为产品和工作场所制定全国性规定。"
+      },
+      "lockPoint": {
+        "en": "State boards can issue warnings, fines, or probation, or suspend or revoke your license.",
+        "zh": "州委员会可以警告、罚款、留牌察看，甚至暂停或吊销你的执照。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Describe Federal and State Regulatory Agencies",
+          "pdfPage": 591,
+          "printedPage": "96"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - State Regulatory Agencies",
+          "pdfPage": 593,
+          "printedPage": "98"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 591,
+          "quote": "State agencies regulate licensing, enforcement, and your conduct when you are on the job."
+        },
+        {
+          "pdfPage": 591,
+          "quote": "Federal agencies set guidelines for the manufacture, sale, and use of equipment and chemical ingredients."
+        },
+        {
+          "pdfPage": 593,
+          "quote": "State regulatory agencies include licensing agencies, state boards, commissions, and health departments."
+        },
+        {
+          "pdfPage": 593,
+          "quote": "Enforcement of the rules through inspections and investigations of consumer complaints is also part of an agency’s responsibility."
+        },
+        {
+          "pdfPage": 593,
+          "quote": "Penalties vary and include warnings, fines, probation, and suspension or revocation of licenses."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-1b-03",
+      "question": {
+        "en": "Disinfection is NOT effective against",
+        "zh": "消毒（disinfection）对下列哪一种无效？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "most bacteria.",
+          "zh": "大多数细菌。"
+        },
+        {
+          "id": "b",
+          "en": "viruses.",
+          "zh": "病毒。"
+        },
+        {
+          "id": "c",
+          "en": "bacterial spores.",
+          "zh": "细菌芽孢。"
+        },
+        {
+          "id": "d",
+          "en": "fungi.",
+          "zh": "真菌。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Disinfectants destroy most bacteria, fungi, and viruses on surfaces, but not bacterial spores. Only sterilization destroys spores.",
+        "zh": "disinfectants（消毒剂）能消灭表面上大多数细菌、真菌和病毒，但杀不死 bacterial spores（细菌芽孢）。只有 sterilization（灭菌）能消灭芽孢。"
+      },
+      "lockPoint": {
+        "en": "A spore wears armor: a protective coat lets it wait out harsh conditions, then shed it.",
+        "zh": "芽孢像穿了盔甲：靠一层保护壳熬过恶劣环境，等条件变好再脱掉。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Step 2: Disinfecting",
+          "pdfPage": 613,
+          "printedPage": "118"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Preventing Transmission: Infection Control",
+          "pdfPage": 597,
+          "printedPage": "102"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 613,
+          "quote": "This process, however, is not effective against bacterial spores."
+        },
+        {
+          "pdfPage": 614,
+          "quote": "disinfectants are products that destroy most bacteria (not including spores), fungi, and viruses on surfaces"
+        },
+        {
+          "pdfPage": 597,
+          "quote": "capable of producing a protective coating that allows them to withstand very harsh environments and to shed the coating when conditions become more favorable"
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-1b-04",
+      "question": {
+        "en": "What must be done to an implement before it can be disinfected?",
+        "zh": "工具在消毒之前必须先做什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "It must be cleaned.",
+          "zh": "必须先清洁。"
+        },
+        {
+          "id": "b",
+          "en": "It must be sterilized.",
+          "zh": "必须先灭菌。"
+        },
+        {
+          "id": "c",
+          "en": "It must be wiped with alcohol.",
+          "zh": "必须先用酒精擦。"
+        },
+        {
+          "id": "d",
+          "en": "It must sit under UV light.",
+          "zh": "必须先放在紫外线灯下。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Cleaning removes dirt, oils, and residue that block the disinfectant. A surface must be properly cleaned before it can be properly disinfected.",
+        "zh": "cleaning（清洁）能去掉会妨碍消毒剂起作用的污垢、油脂和残留物。表面必须先正确清洁，才能正确消毒。"
+      },
+      "lockPoint": {
+        "en": "Milady’s picture: disinfecting without cleaning is like using mouthwash without brushing your teeth.",
+        "zh": "不清洁就消毒，就像不刷牙只用漱口水，起不到应有的作用。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Step 1: Cleaning",
+          "pdfPage": 611,
+          "printedPage": "116"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Proper Use of Disinfectants",
+          "pdfPage": 614,
+          "printedPage": "119"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 611,
+          "quote": "A surface must be properly cleaned before it can be properly disinfected."
+        },
+        {
+          "pdfPage": 611,
+          "quote": "Using a disinfectant without cleaning first is like using mouthwash without brushing your teeth"
+        },
+        {
+          "pdfPage": 614,
+          "quote": "This is because residue will interfere with the disinfectant and prevent proper disinfection."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-1b-05",
+      "question": {
+        "en": "A disinfectant’s contact time is how long it must",
+        "zh": "消毒剂的接触时间（contact time）是指它必须："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "sit in the bottle after mixing.",
+          "zh": "调好后在瓶子里放置。"
+        },
+        {
+          "id": "b",
+          "en": "dry before the tool is used.",
+          "zh": "在使用工具前晾干。"
+        },
+        {
+          "id": "c",
+          "en": "stay visibly moist on the surface.",
+          "zh": "在表面上保持肉眼可见的湿润。"
+        },
+        {
+          "id": "d",
+          "en": "heat up before use.",
+          "zh": "使用前加热。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Contact time is the time listed on the label that a disinfectant must stay visibly moist to kill the pathogens on the label. Times vary by product.",
+        "zh": "contact time（接触时间）是标签上写的、消毒剂必须保持肉眼可见湿润的时间，这样才能杀死标签上列出的病原体。不同产品时间不同。"
+      },
+      "lockPoint": {
+        "en": "Times differ: most concentrates need 10 minutes, most wipes only 2. Read each label.",
+        "zh": "时间各不相同：多数浓缩液要 10 分钟，多数湿巾只要 2 分钟。每个标签都要看。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Choosing a Disinfectant",
+          "pdfPage": 614,
+          "printedPage": "119"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 614,
+          "quote": "contact time (the time as listed on the product label required for the disinfectant to be visibly moist to be effective against pathogens)"
+        },
+        {
+          "pdfPage": 614,
+          "quote": "most concentrates have a 10-minute contact time, whereas most wipes have a 2-minute contact time."
+        }
+      ],
+      "hookType": "contrast"
+    },
+    {
+      "id": "nic-1b-06",
+      "question": {
+        "en": "What is the correct way to dilute a disinfectant concentrate?",
+        "zh": "稀释消毒剂浓缩液的正确方法是什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Add the water to the concentrate.",
+          "zh": "把水倒入浓缩液中。"
+        },
+        {
+          "id": "b",
+          "en": "Add the concentrate to the water.",
+          "zh": "把浓缩液倒入水中。"
+        },
+        {
+          "id": "c",
+          "en": "Add extra concentrate for strength.",
+          "zh": "多加浓缩液让它更强。"
+        },
+        {
+          "id": "d",
+          "en": "Add bleach to boost it.",
+          "zh": "加漂白水增强效果。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Always add the disinfectant concentrate to the water. Adding water to the disinfectant can cause foaming, which leads to the wrong mixing ratio.",
+        "zh": "一定要把消毒剂浓缩液倒进水里。把水倒进消毒剂里会起泡，导致配比不准。"
+      },
+      "lockPoint": {
+        "en": "Water first, then concentrate: the same order chemists use when they add acid to water.",
+        "zh": "先放水，再加浓缩液：和化学课上“把酸加进水里”是同一个顺序。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Disinfectant Tips and Safety",
+          "pdfPage": 618,
+          "printedPage": "123"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Disinfectants",
+          "pdfPage": 614,
+          "printedPage": "119"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 618,
+          "quote": "Add disinfectant to water when diluting (rather than adding water to a disinfectant) to prevent foaming, which can result in an incorrect mixing ratio."
+        },
+        {
+          "pdfPage": 614,
+          "quote": "to be weaker or more concentrated than the manufacturer’s instructions—can significantly reduce their effectiveness"
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-1b-07",
+      "question": {
+        "en": "Which federal agency registers disinfectants sold in the U.S.?",
+        "zh": "哪个联邦机构负责为在美国销售的消毒剂注册？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "OSHA",
+          "zh": "OSHA（职业安全与健康管理局）"
+        },
+        {
+          "id": "b",
+          "en": "FDA",
+          "zh": "FDA（食品药品监督管理局）"
+        },
+        {
+          "id": "c",
+          "en": "EPA",
+          "zh": "EPA（美国环境保护署）"
+        },
+        {
+          "id": "d",
+          "en": "CDC",
+          "zh": "CDC（疾病控制与预防中心）"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "The Environmental Protection Agency (EPA) registers all disinfectants. Look for “EPA Reg. No.” on the label. Not using a disinfectant as its label says breaks federal law.",
+        "zh": "EPA（美国环境保护署）为所有消毒剂注册。标签上要找“EPA Reg. No.”（EPA 注册号）。不按标签使用消毒剂违反联邦法律。"
+      },
+      "lockPoint": {
+        "en": "Disinfectants are legally pesticides, so the environment agency that handles pesticides registers them.",
+        "zh": "消毒剂在法律上属于 pesticide（杀灭有害生物的药剂），所以由管这类药剂的环境保护署注册。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Environmental Protection Agency",
+          "pdfPage": 592,
+          "printedPage": "97"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Disinfectants",
+          "pdfPage": 614,
+          "printedPage": "119"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 592,
+          "quote": "The Environmental Protection Agency (EPA) registers all types of disinfectants sold and used in the United States."
+        },
+        {
+          "pdfPage": 592,
+          "quote": "It is against federal law to use any disinfecting product in a way contrary to the use indicated on its label."
+        },
+        {
+          "pdfPage": 614,
+          "quote": "Disinfectants are pesticides and can be harmful if absorbed through the skin."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-1b-08",
+      "question": {
+        "en": "A salon disinfectant should be bactericidal, virucidal, and",
+        "zh": "美容店用的消毒剂应能杀细菌（bactericidal）、杀病毒（virucidal），还要能："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "sporicidal.",
+          "zh": "杀芽孢（sporicidal）。"
+        },
+        {
+          "id": "b",
+          "en": "antiseptic.",
+          "zh": "用作皮肤抗菌剂。"
+        },
+        {
+          "id": "c",
+          "en": "nontoxic.",
+          "zh": "无毒。"
+        },
+        {
+          "id": "d",
+          "en": "fungicidal.",
+          "zh": "杀真菌（fungicidal）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "At a minimum, salon disinfectants must be bactericidal, virucidal, and fungicidal. The label should also show the EPA registration number and the pathogens it kills.",
+        "zh": "美容店用的消毒剂至少要能 bactericidal（杀细菌）、virucidal（杀病毒）和 fungicidal（杀真菌）。标签上还应有 EPA 注册号和它能杀的病原体名单。"
+      },
+      "lockPoint": {
+        "en": "-cidal = killing, as in pesticide. Bacteria, viruses, fungi: three germ groups, three -cidal words.",
+        "zh": "-cidal = 杀，和 pesticide（杀灭有害生物的药剂）同一个词根。细菌、病毒、真菌：三类病菌，对应三个 -cidal 词。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Preventing Transmission: Infection Control",
+          "pdfPage": 597,
+          "printedPage": "102"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 597,
+          "quote": "At a minimum, disinfectants used in salons, spas, and barbershops must be"
+        },
+        {
+          "pdfPage": 597,
+          "quote": "bactericidal (bak-TEER-uh-SYD-uhl), capable of destroying bacteria"
+        },
+        {
+          "pdfPage": 597,
+          "quote": "fungicidal (fun-ji-SYD-uhl), capable of destroying molds and fungi."
+        },
+        {
+          "pdfPage": 597,
+          "quote": "The words bactericidal, virucidal, and fungicidal"
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-1b-09",
+      "question": {
+        "en": "Which disinfectants have most states removed from their requirements?",
+        "zh": "大多数州已从法规要求中去掉了哪类消毒剂？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Quats",
+          "zh": "季铵盐消毒剂"
+        },
+        {
+          "id": "b",
+          "en": "Phenolics",
+          "zh": "酚类消毒剂"
+        },
+        {
+          "id": "c",
+          "en": "Bleach",
+          "zh": "漂白水"
+        },
+        {
+          "id": "d",
+          "en": "Alcohol",
+          "zh": "酒精"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Phenolic disinfectants kill TB germs, but they can damage skin, eyes, plastic, and rubber. Most states have dropped them from their rules because the risks outweigh the benefits.",
+        "zh": "phenolic disinfectants（酚类消毒剂）能杀结核菌，但会伤皮肤、眼睛、塑料和橡胶。大多数州已把它从法规要求中去掉，因为风险大于好处。"
+      },
+      "lockPoint": {
+        "en": "Phenol is also called carbolic acid: in the 1860s, surgeon Joseph Lister used it to disinfect wounds.",
+        "zh": "苯酚（phenol）俗称石炭酸：1860 年代，外科医生李斯特（Joseph Lister）用它给伤口消毒。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Phenolic Disinfectants",
+          "pdfPage": 616,
+          "printedPage": "121"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 616,
+          "quote": "Most states have removed phenolic disinfectants from their requirements, due to the risks outweighing the benefits."
+        },
+        {
+          "pdfPage": 616,
+          "quote": "Phenolic disinfectants (fi-NOH-lik dis-in-FEK-tents) are powerful tuberculocidal disinfectants"
+        },
+        {
+          "pdfPage": 616,
+          "quote": "have a very high pH, and can damage the skin and eyes."
+        },
+        {
+          "pdfPage": 616,
+          "quote": "Phenol can damage plastic and rubber and cause certain metals to rust."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-1b-10",
+      "question": {
+        "en": "A tuberculocidal disinfectant is proven to kill",
+        "zh": "具有杀结核菌作用（tuberculocidal）的消毒剂，经证实能杀死："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "the bacterium that causes tuberculosis.",
+          "zh": "引起结核病的细菌。"
+        },
+        {
+          "id": "b",
+          "en": "head lice.",
+          "zh": "头虱。"
+        },
+        {
+          "id": "c",
+          "en": "the itch mite.",
+          "zh": "疥螨。"
+        },
+        {
+          "id": "d",
+          "en": "all bacterial spores.",
+          "zh": "所有细菌芽孢。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Tuberculocidal disinfectants kill the bacterium that causes tuberculosis, plus the germs hospital disinfectants kill. Some states still require them, so check your state rules.",
+        "zh": "tuberculocidal disinfectants（杀结核菌消毒剂）能杀死引起 tuberculosis（结核病）的细菌，以及医院级消毒剂能杀的病菌。有些州仍然要求使用，要查本州规定。"
+      },
+      "lockPoint": {
+        "en": "Tuberculo = TB. TB spreads only by breathing it in, not by hands or surfaces.",
+        "zh": "tuberculo = 结核。结核菌只靠吸入传播，不靠手或物体表面。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Tuberculocidal Disinfectants",
+          "pdfPage": 615,
+          "printedPage": "120"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Preventing Transmission: Infection Control",
+          "pdfPage": 597,
+          "printedPage": "102"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 615,
+          "quote": "are proven to kill the bacterium that causes tuberculosis"
+        },
+        {
+          "pdfPage": 615,
+          "quote": "It is passed through inhalation only and is not transmitted by the hands or picked up on surfaces."
+        },
+        {
+          "pdfPage": 597,
+          "quote": "in some states, disinfectants may still need to be effective against tuberculosis"
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-1b-11",
+      "question": {
+        "en": "A fresh bleach disinfecting solution should be mixed every",
+        "zh": "用于消毒的漂白水溶液应该多久重新调配一次？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "24 hours",
+          "zh": "24 小时"
+        },
+        {
+          "id": "b",
+          "en": "3 days",
+          "zh": "3 天"
+        },
+        {
+          "id": "c",
+          "en": "7 days",
+          "zh": "7 天"
+        },
+        {
+          "id": "d",
+          "en": "30 days",
+          "zh": "30 天"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Mix a fresh bleach solution every 24 hours, or sooner if it gets contaminated. Date the container so it is thrown out daily, never saved for the next day.",
+        "zh": "漂白水消毒液每 24 小时重新调配一次，被污染了就提早换。在容器上写日期，每天倒掉，不留到第二天。"
+      },
+      "lockPoint": {
+        "en": "Diluted bleach breaks down as it sits, faster in heat and light. One day, then pour it out.",
+        "zh": "稀释后的漂白水放着就会慢慢分解，遇热遇光更快。用一天，就倒掉。"
+      },
+      "teachingRelation": "number",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Bleach",
+          "pdfPage": 617,
+          "printedPage": "122"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 617,
+          "quote": "A fresh bleach solution should be mixed every 24 hours or when the solution has been contaminated."
+        },
+        {
+          "pdfPage": 617,
+          "quote": "Store the bleach solution away from heat and light."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-1b-12",
+      "question": {
+        "en": "In the salon, isopropyl alcohol should be used only as",
+        "zh": "在美甲店里，异丙醇（isopropyl alcohol）只应用作："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "an implement disinfectant.",
+          "zh": "工具消毒剂。"
+        },
+        {
+          "id": "b",
+          "en": "a sterilizer for metal tools.",
+          "zh": "金属工具灭菌剂。"
+        },
+        {
+          "id": "c",
+          "en": "a pedicure basin disinfectant.",
+          "zh": "足浴盆消毒剂。"
+        },
+        {
+          "id": "d",
+          "en": "a cleaner or antiseptic.",
+          "zh": "清洁剂或皮肤抗菌剂。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Alcohol cleans skin but is very drying. Milady says it is not a disinfectant for surfaces or implements; use it only as a cleaner or antiseptic.",
+        "zh": "酒精能清洁皮肤，但很容易让皮肤变干。Milady 说它不是用于表面或工具的消毒剂，只能当清洁剂或 antiseptic（皮肤抗菌剂）用。"
+      },
+      "lockPoint": {
+        "en": "A strong smell is not proof. No word “disinfectant” on the label means it is only a cleaner.",
+        "zh": "味道冲不代表能消毒。标签上没有“disinfectant（消毒剂）”字样，就只是清洁剂。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Common Antiseptics Used in the Salon, Spa, and Barbershop",
+          "pdfPage": 613,
+          "printedPage": "118"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 613,
+          "quote": "Alcohol is not a disinfectant for surfaces or implements and should be used only as a cleaner or antiseptic."
+        },
+        {
+          "pdfPage": 613,
+          "quote": "Products and equipment that do not have the word disinfectant on the label are merely cleaners."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-1b-13",
+      "question": {
+        "en": "Antiseptics are made for use on",
+        "zh": "皮肤抗菌剂（antiseptics）是用在哪里的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "implements.",
+          "zh": "工具上。"
+        },
+        {
+          "id": "b",
+          "en": "work surfaces.",
+          "zh": "工作台面上。"
+        },
+        {
+          "id": "c",
+          "en": "skin.",
+          "zh": "皮肤上。"
+        },
+        {
+          "id": "d",
+          "en": "pedicure basins.",
+          "zh": "足浴盆上。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Antiseptics are germicides made for skin and are regulated by the FDA. They slow germ growth on skin but do not work for disinfecting implements or surfaces.",
+        "zh": "antiseptics（皮肤抗菌剂）是专为皮肤配制的杀菌剂，由 FDA 监管。它能减缓皮肤上病菌的生长，但不能用来给工具或台面消毒。"
+      },
+      "lockPoint": {
+        "en": "Anti = against, septic = rotting. On skin: FDA antiseptic. On tools: EPA disinfectant.",
+        "zh": "anti = 对抗，septic = 腐烂。上皮肤的归 FDA 管（antiseptic），上工具的归 EPA 管（disinfectant）。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Waterless Hand Sanitizers",
+          "pdfPage": 612,
+          "printedPage": "117"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 612,
+          "quote": "Antiseptics (ant-ih-SEP-tiks) are chemical germicides formulated for use on skin and are registered and regulated by the Food and Drug Administration."
+        },
+        {
+          "pdfPage": 612,
+          "quote": "Never use an antiseptic to disinfect instruments or other surfaces. It is ineffective for that purpose."
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-1b-14",
+      "question": {
+        "en": "Disinfectants should be used only on surfaces that are",
+        "zh": "消毒剂只能用在什么样的表面上？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "covered in visible debris.",
+          "zh": "有明显污垢残渣的表面。"
+        },
+        {
+          "id": "b",
+          "en": "clean, hard, and nonporous.",
+          "zh": "干净、坚硬、不吸水的表面。"
+        },
+        {
+          "id": "c",
+          "en": "soft and absorbent.",
+          "zh": "柔软、会吸水的表面。"
+        },
+        {
+          "id": "d",
+          "en": "human skin and nails.",
+          "zh": "人的皮肤和指甲。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Use disinfectants only on clean, hard, nonporous surfaces. Nonporous items have no pores and cannot absorb liquids. Disinfectants are not for skin, hair, or nails.",
+        "zh": "消毒剂只能用在干净、坚硬、nonporous（无孔、不吸水）的表面上。无孔物品没有小孔，不会吸收液体。消毒剂不能用在皮肤、头发或指甲上。"
+      },
+      "lockPoint": {
+        "en": "Porous is like a sponge: germs hide deep in the holes, where disinfectant can’t reach them all.",
+        "zh": "多孔材料就像海绵：病菌藏进深深的小孔里，消毒液没法每个地方都碰到。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Disinfectant Tips and Safety",
+          "pdfPage": 618,
+          "printedPage": "123"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Types of Disinfectants",
+          "pdfPage": 615,
+          "printedPage": "120"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Disinfectants",
+          "pdfPage": 614,
+          "printedPage": "119"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 618,
+          "quote": "Use disinfectants only on clean, hard, nonporous surfaces."
+        },
+        {
+          "pdfPage": 615,
+          "quote": "Nonporous items are made of a material that has no pores or openings and that cannot absorb liquids"
+        },
+        {
+          "pdfPage": 614,
+          "quote": "Disinfectants are not for use on human skin, hair, or nails."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-1b-15",
+      "question": {
+        "en": "Toe separators cannot be disinfected, so after a pedicure they must be",
+        "zh": "分趾器（toe separators）不能消毒，所以足疗后必须："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "soaked in disinfectant overnight.",
+          "zh": "在消毒液里泡一夜。"
+        },
+        {
+          "id": "b",
+          "en": "rinsed and saved for the next client.",
+          "zh": "冲洗后留给下一位客人。"
+        },
+        {
+          "id": "c",
+          "en": "sprayed with alcohol and reused.",
+          "zh": "喷酒精后再用。"
+        },
+        {
+          "id": "d",
+          "en": "thrown away or given to the client.",
+          "zh": "丢掉或送给客人。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Single-use items cannot be properly cleaned and disinfected, so they are used on one client only. Use a new set of toe separators for each client.",
+        "zh": "single-use（一次性）用品无法正确清洁和消毒，所以只能给一位客人用。每位客人都要用一副新的分趾器。"
+      },
+      "lockPoint": {
+        "en": "Same group as wooden pushers and pedicure slippers: one client, then gone.",
+        "zh": "和木推棒、一次性足疗拖鞋同一类：只给一位客人用。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Toe Separators",
+          "pdfPage": 224,
+          "printedPage": "200"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Chapter Glossary",
+          "pdfPage": 213,
+          "printedPage": "189"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Single-Use Implements",
+          "pdfPage": 167,
+          "printedPage": "143"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 224,
+          "quote": "Since toe separators cannot be cleaned and disinfected, they are considered a single-use implement. A new set must be used on each client and then thrown away or given to the client."
+        },
+        {
+          "pdfPage": 213,
+          "quote": "an item that cannot be used more than once, either because it cannot be properly cleaned and all visible residue removed or because cleaning and disinfecting damages or contaminates it."
+        },
+        {
+          "pdfPage": 167,
+          "quote": "discarded, preferably in the client’s view to ensure that they are indeed not being used again."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-1b-16",
+      "question": {
+        "en": "How should you apply nail oil without contaminating the bottle?",
+        "zh": "怎样涂指缘油（nail oil）才不会污染整瓶产品？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Pour a little into a dappen dish",
+          "zh": "倒一点到小碟里用"
+        },
+        {
+          "id": "b",
+          "en": "Re-dip the same cotton tip",
+          "zh": "用同一根棉签反复蘸"
+        },
+        {
+          "id": "c",
+          "en": "Return leftovers to the bottle",
+          "zh": "把剩下的倒回瓶子里"
+        },
+        {
+          "id": "d",
+          "en": "Dip the client’s fingertip in",
+          "zh": "让客人指尖直接蘸"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Oils can support bacteria. Pour a small amount into a clean dappen dish and apply it with a disposable brush. Afterward, throw away the brush and the leftover product.",
+        "zh": "油类产品会滋生细菌。倒少量到干净的 dappen dish（小碟）里，用一次性刷子涂。用完后，把刷子和剩下的产品一起丢掉。"
+      },
+      "lockPoint": {
+        "en": "Used product back in the bottle → germs in the bottle → every later client gets them.",
+        "zh": "用过的产品倒回瓶子 → 病菌进了瓶子 → 后面每个客人都会沾到。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Disposable Product Application Brushes",
+          "pdfPage": 169,
+          "printedPage": "145"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 169,
+          "quote": "pour a small amount of the product into a clean dappen dish"
+        },
+        {
+          "pdfPage": 169,
+          "quote": "throw both the brush and the product away after the application is finished."
+        },
+        {
+          "pdfPage": 169,
+          "quote": "since these products can become exposed to bacteria and do support bacterial growth."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-1b-17",
+      "question": {
+        "en": "Standard Precautions require you to treat all blood and body fluids as",
+        "zh": "标准预防措施（Standard Precautions）要求你把所有血液和体液都当作："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "safe unless the client looks sick.",
+          "zh": "安全的，除非客人看起来生病。"
+        },
+        {
+          "id": "b",
+          "en": "a risk only in medical offices.",
+          "zh": "只在医疗机构才有风险。"
+        },
+        {
+          "id": "c",
+          "en": "potentially infectious.",
+          "zh": "可能有传染性。"
+        },
+        {
+          "id": "d",
+          "en": "harmless once they dry.",
+          "zh": "干了就无害。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Standard Precautions are CDC guidelines. Many people carry infections with no symptoms, so you must assume any human blood or body fluid may be infectious.",
+        "zh": "Standard Precautions（标准预防措施）是 CDC 发布的指南。很多人带有传染病却没有症状（asymptomatic），所以要假定任何人的血液或体液都可能有传染性。"
+      },
+      "lockPoint": {
+        "en": "Your own blood counts too: if you cut yourself, you follow a similar exposure procedure.",
+        "zh": "你自己的血也算：割伤自己时，也要按类似的暴露事件（exposure incident）步骤处理。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Follow Standard Precautions to Protect Yourself and Your Clients",
+          "pdfPage": 621,
+          "printedPage": "126"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Procedure 5-4: Handling an Exposure Incident: Employee Injury",
+          "pdfPage": 639,
+          "printedPage": "144"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - An Exposure Incident: Contact with Blood or Body Fluid",
+          "pdfPage": 623,
+          "printedPage": "128"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 621,
+          "quote": "are guidelines published by the CDC that require the employer and employee to assume that any human blood and body fluids are potentially infectious."
+        },
+        {
+          "pdfPage": 621,
+          "quote": "meaning that they show no symptoms or signs of infection."
+        },
+        {
+          "pdfPage": 639,
+          "quote": "Should you accidentally cut yourself during a service, calmly take the following steps"
+        },
+        {
+          "pdfPage": 623,
+          "quote": "Many of the steps are similar to a client injury"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-1b-18",
+      "question": {
+        "en": "If you cut a client during a service, what should you do first?",
+        "zh": "服务中不小心割伤了客人，第一步应该做什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Finish the nail first.",
+          "zh": "先把这只指甲做完。"
+        },
+        {
+          "id": "b",
+          "en": "Stop the service.",
+          "zh": "立即停止服务。"
+        },
+        {
+          "id": "c",
+          "en": "Apply polish to seal it.",
+          "zh": "涂指甲油把伤口封住。"
+        },
+        {
+          "id": "d",
+          "en": "Disinfect your implements.",
+          "zh": "先给工具消毒。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Milady’s client-injury steps start by stopping the service immediately. Next, put on gloves and calmly apologize. Then wash and dry the area, and offer antiseptic and a bandage.",
+        "zh": "Milady 处理客人受伤的步骤，第一步就是立刻停止服务。接着戴上手套，冷静地道歉。然后清洗、擦干伤处，并提供 antiseptic（皮肤抗菌剂）和创可贴。"
+      },
+      "lockPoint": {
+        "en": "Same first step if you cut yourself: stop. Care for the wound before the nails.",
+        "zh": "如果是你自己割伤，第一步也一样：停下来。先处理伤口，再管指甲。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Procedure 5-3: Handling an Exposure Incident: Client Injury",
+          "pdfPage": 636,
+          "printedPage": "141"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Procedure 5-3: Handling an Exposure Incident: Client Injury",
+          "pdfPage": 637,
+          "printedPage": "142"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Procedure 5-4: Handling an Exposure Incident: Employee Injury",
+          "pdfPage": 639,
+          "printedPage": "144"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 636,
+          "quote": "Stop the service immediately. 2 Put on gloves"
+        },
+        {
+          "pdfPage": 636,
+          "quote": "Face your client and calmly apologize for the incident."
+        },
+        {
+          "pdfPage": 637,
+          "quote": "Offer your client antiseptic and an adhesive bandage."
+        },
+        {
+          "pdfPage": 639,
+          "quote": "Stop the service immediately. 2 Inform your client of what has happened."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-1b-19",
+      "question": {
+        "en": "After a client injury, where do contaminated sharp disposables go?",
+        "zh": "客人受伤后，被污染的一次性尖锐物品（sharp disposables）要放到哪里？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "The regular trash",
+          "zh": "普通垃圾桶"
+        },
+        {
+          "id": "b",
+          "en": "The disinfection container",
+          "zh": "消毒容器"
+        },
+        {
+          "id": "c",
+          "en": "A paper towel",
+          "zh": "一张纸巾里"
+        },
+        {
+          "id": "d",
+          "en": "A sharps box",
+          "zh": "锐器盒"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Put sharp disposables in a sharps box, a puncture-proof biohazard container. Other contaminated single-use items go in a plastic bag, then the trash, as state law allows.",
+        "zh": "一次性尖锐物品要放进 sharps box（锐器盒），这是防刺穿的生物危害容器。其他被污染的一次性用品先装进塑料袋，再按州法规丢进垃圾。"
+      },
+      "lockPoint": {
+        "en": "A sharp edge pokes through a trash bag and can stick whoever empties it.",
+        "zh": "尖的东西会戳破垃圾袋，扎到倒垃圾的人。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Procedure 5-3: Handling an Exposure Incident: Client Injury",
+          "pdfPage": 637,
+          "printedPage": "142"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Follow Standard Precautions to Protect Yourself and Your Clients",
+          "pdfPage": 621,
+          "printedPage": "126"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 637,
+          "quote": "Deposit sharp disposables in a sharps box."
+        },
+        {
+          "pdfPage": 637,
+          "quote": "Discard all single-use contaminated objects, such as wipes or cotton balls, in a plastic bag and then place in a trash bag."
+        },
+        {
+          "pdfPage": 621,
+          "quote": "Sharps containers are puncture-proof plastic biohazard containers"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-1b-20",
+      "question": {
+        "en": "After disinfection, implements are rinsed, dried, and stored",
+        "zh": "工具消毒后，冲洗、擦干，然后存放在："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "in a clean, covered container.",
+          "zh": "干净、有盖的容器里。"
+        },
+        {
+          "id": "b",
+          "en": "in your apron pocket.",
+          "zh": "你的围裙口袋里。"
+        },
+        {
+          "id": "c",
+          "en": "in the disinfectant overnight.",
+          "zh": "消毒液里过夜。"
+        },
+        {
+          "id": "d",
+          "en": "on an open towel all day.",
+          "zh": "敞开的毛巾上放一整天。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Remove implements with tongs or gloves, rinse, and dry them completely. Store them in a clean, covered container, often labeled “disinfected” or “ready to use,” until needed.",
+        "zh": "用镊子或戴手套取出工具，冲洗并彻底擦干。存放在干净、有盖的容器里（通常标明 disinfected 已消毒 或 ready to use 可使用），用时再拿。"
+      },
+      "lockPoint": {
+        "en": "Never in your mouth or pocket: a clean tool picks up germs again the moment it touches them.",
+        "zh": "工具绝不能放嘴里或口袋里：一碰到，就又沾上病菌了。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Procedure 5-2: Cleaning and Disinfecting Nonporous, Reusable Items",
+          "pdfPage": 635,
+          "printedPage": "140"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Procedure 5-2: Cleaning and Disinfecting Nonporous, Reusable Items",
+          "pdfPage": 634,
+          "printedPage": "139"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Tools and Appliances",
+          "pdfPage": 624,
+          "printedPage": "129"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 635,
+          "quote": "require that dry, disinfected items be stored in a clean, covered container labeled"
+        },
+        {
+          "pdfPage": 634,
+          "quote": "Do not store implements with any moisture on them, particularly in the hinges."
+        },
+        {
+          "pdfPage": 634,
+          "quote": "remove items from the disinfectant solution with tongs or gloved hands, rinse in warm running water, and dry thoroughly"
+        },
+        {
+          "pdfPage": 624,
+          "quote": "Never place any tool or implement in your mouth or pocket."
+        }
+      ],
+      "hookType": "real-life"
+    }
+  ],
+  "review": {
+    "reviewedAt": "2026-10-23",
+    "checks": [
+      "quotes found on cited pages (verify-nic-domain-evidence.py)",
+      "blind answer check: 20/20 matched key; 6 questions with changed stems or choices re-checked blind (all matched)",
+      "content and Chinese review: fixes applied (removed Chinese bracket giveaways, sourced hook claims, plainer Why lines)",
+      "memory hooks fact-checked (word origins, Chinese characters, textbook facts): fixes applied",
+      "2026-10-23: 3 items replaced to avoid duplicating 5A-12/6D-20, 5B-14, 5C-06; 3 swapped for coordinator coverage (state board, -cidal label words, storage after disinfection); q09 rewritten to avoid Milady's chemically doubtful 'form of formaldehyde' and 'known carcinogens' lines"
+    ]
+  }
+}

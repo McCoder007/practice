@@ -1,0 +1,1360 @@
+{
+  "schemaVersion": "1.0.0",
+  "setId": "6C",
+  "domain": {
+    "id": "manicure-pedicure",
+    "order": 6,
+    "title": {
+      "en": "Manicure and Pedicure Services",
+      "zh": "手部与足部护理服务"
+    },
+    "examWeightPercent": 18
+  },
+  "title": {
+    "en": "Pedicure Care",
+    "zh": "足部护理（修脚）"
+  },
+  "status": "reviewed",
+  "authoredAt": "2026-10-22",
+  "sourceBook": "Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020)",
+  "review": {
+    "reviewedAt": "2026-10-23",
+    "checks": [
+      "quotes found on cited pages (verify-nic-domain-evidence.py)",
+      "blind answer check: 20/20 matched key (changed stems and choices re-checked blind)",
+      "content and Chinese review: fixes applied, re-reviewed after changes",
+      "memory hooks fact-checked (word origins, textbook facts): fixes applied",
+      "overlap check against all sibling sets (coordinator duplicate check): 6C-06 replaced and re-checked"
+    ]
+  },
+  "questions": [
+    {
+      "id": "nic-6c-01",
+      "question": {
+        "en": "Why is toenail polish removed first in a pedicure?",
+        "zh": "修脚（pedicure）时为什么要先卸掉脚趾甲油？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "To check the toenails for fungus",
+          "zh": "检查脚趾甲有没有真菌"
+        },
+        {
+          "id": "b",
+          "en": "To soften the calluses",
+          "zh": "软化老茧"
+        },
+        {
+          "id": "c",
+          "en": "To make the soak work faster",
+          "zh": "让浸泡更快见效"
+        },
+        {
+          "id": "d",
+          "en": "To protect the toenails from water",
+          "zh": "保护脚趾甲不碰水"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Removing polish first lets you check the toenails for fungus. Then you know whether you can move forward with the service without disappointing the client.",
+        "zh": "先卸甲油可以检查脚趾甲有没有真菌（fungus）。这样就知道能不能继续服务，不会做到一半才让顾客失望。"
+      },
+      "lockPoint": {
+        "en": "Polish off → fungus spotted → stop before the soak. A fungal nail needs a doctor, not a pedicure.",
+        "zh": "卸掉甲油 → 发现真菌 → 泡脚前就停下。真菌感染的指甲要看医生，不是做修脚。"
+      },
+      "teachingRelation": "sequence",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Procedure 7-1 Performing a Basic Pedicure",
+          "pdfPage": 237,
+          "printedPage": "213"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Disorders and Diseases - Table 4-2",
+          "pdfPage": 133,
+          "printedPage": "109"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 237,
+          "quote": "Removing the polish from the toes first allows you to check the client’s toenails for fungus"
+        },
+        {
+          "pdfPage": 133,
+          "quote": "Often invades the free edge and spreads toward the matrix. Medical referral required."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-6c-02",
+      "question": {
+        "en": "How long do the client's feet soak before the pedicure begins?",
+        "zh": "开始修脚前，顾客的脚要泡多久？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "About 1 minute",
+          "zh": "约 1 分钟"
+        },
+        {
+          "id": "b",
+          "en": "20 to 30 minutes",
+          "zh": "20 到 30 分钟"
+        },
+        {
+          "id": "c",
+          "en": "5 to 10 minutes",
+          "zh": "5 到 10 分钟"
+        },
+        {
+          "id": "d",
+          "en": "Over an hour",
+          "zh": "超过 1 小时"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Let the client's feet soak for 5 to 10 minutes to soften and clean them before you begin the pedicure.",
+        "zh": "让顾客的脚浸泡 5 到 10 分钟，软化并清洁双脚，然后再开始修脚。"
+      },
+      "lockPoint": {
+        "en": "Clock check: in a one-hour pedicure, the consultation and soak should be finished by minute 12.",
+        "zh": "看时间：一小时的修脚，咨询加浸泡应该在第 12 分钟前完成。"
+      },
+      "teachingRelation": "number",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Procedure 7-1 Performing a Basic Pedicure",
+          "pdfPage": 237,
+          "printedPage": "213"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Staying on Schedule",
+          "pdfPage": 229,
+          "printedPage": "205"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 237,
+          "quote": "Let the client’s feet soak for 5 to 10 minutes to soften and clean the feet before you begin the pedicure."
+        },
+        {
+          "pdfPage": 229,
+          "quote": "you should be done with the consultation and soaking phases within 12 minutes or less after starting."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-6c-03",
+      "question": {
+        "en": "Before the client's feet go into the bath, what must you check?",
+        "zh": "顾客的脚放进足浴盆之前，你必须检查什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "The length of the toenails",
+          "zh": "脚趾甲的长度"
+        },
+        {
+          "id": "b",
+          "en": "The water temperature",
+          "zh": "水温"
+        },
+        {
+          "id": "c",
+          "en": "The polish color choice",
+          "zh": "选好的甲油颜色"
+        },
+        {
+          "id": "d",
+          "en": "The toe separators",
+          "zh": "分趾器"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Check the temperature of the pedicure bath for safety. Then put on gloves and place the client's feet in the water.",
+        "zh": "为了安全，先检查足浴盆的水温，然后戴上手套，再把顾客的脚放进水里。"
+      },
+      "lockPoint": {
+        "en": "Diabetes can damage foot nerves → the client can't feel water that's too hot → can't warn you.",
+        "zh": "糖尿病可能损伤脚部神经 → 顾客感觉不到水太烫 → 没法提醒你，结果被烫伤。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Procedure 7-1 Performing a Basic Pedicure",
+          "pdfPage": 237,
+          "printedPage": "213"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "General Anatomy - The Endocrine System",
+          "pdfPage": 67,
+          "printedPage": "43"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 237,
+          "quote": "Check the temperature of the pedicure bath for safety."
+        },
+        {
+          "pdfPage": 67,
+          "quote": "If you were to do a pedicure treatment and the water was too hot, the client with diabetes may be unable to sense the burn and thus could not alert you."
+        },
+        {
+          "pdfPage": 67,
+          "quote": "A person with diabetes may have neuropathy and sensation loss in the extremities"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-6c-04",
+      "question": {
+        "en": "Unless the client asks otherwise, toenails are trimmed",
+        "zh": "除非顾客另有要求，脚趾甲应该怎么剪？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "as short as possible.",
+          "zh": "尽量剪短。"
+        },
+        {
+          "id": "b",
+          "en": "to a rounded point.",
+          "zh": "剪成圆尖形。"
+        },
+        {
+          "id": "c",
+          "en": "well past the end of the toe.",
+          "zh": "留得远超过脚趾尖。"
+        },
+        {
+          "id": "d",
+          "en": "straight across, even with the toe tip.",
+          "zh": "平剪，与脚趾尖齐平。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Trim toenails straight across and even with the end of the toes, unless the client requests otherwise. Leave no rough edges or hooks that could invite infection.",
+        "zh": "除非顾客另有要求，脚趾甲要平剪，与脚趾末端齐平。不要留下粗糙边缘或倒钩，以免引起感染。"
+      },
+      "lockPoint": {
+        "en": "Milady warns that the big toenail is usually the hardest to trim. Slow down there.",
+        "zh": "Milady 提醒：大脚趾甲通常最难剪，剪到那里要放慢。"
+      },
+      "teachingRelation": "action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Procedure 7-1 Performing a Basic Pedicure",
+          "pdfPage": 238,
+          "printedPage": "214"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 238,
+          "quote": "Carefully trim the toenails of the first foot straight across and even with the end of the toes (unless the client requests otherwise)."
+        },
+        {
+          "pdfPage": 238,
+          "quote": "The big toenail is usually the most challenging to trim."
+        },
+        {
+          "pdfPage": 238,
+          "quote": "Do not leave any rough edges or hooks that might create an opportunity for infections."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-6c-05",
+      "question": {
+        "en": "Why should toenails not be trimmed too short?",
+        "zh": "为什么脚趾甲不能剪得太短？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "The polish will not stick",
+          "zh": "甲油会粘不住"
+        },
+        {
+          "id": "b",
+          "en": "The nail will grow faster",
+          "zh": "指甲会长得更快"
+        },
+        {
+          "id": "c",
+          "en": "Calluses will form on the toe",
+          "zh": "脚趾上会长老茧"
+        },
+        {
+          "id": "d",
+          "en": "It can break the hyponychium seal",
+          "zh": "可能破坏甲下皮的密封"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Trimming too short can break the seal of the hyponychium. That seal protects the area beneath the toenail from infection.",
+        "zh": "剪得太短可能破坏 hyponychium（甲下皮）的密封。这道密封保护趾甲下面的部位不受感染。"
+      },
+      "lockPoint": {
+        "en": "Hypo = under, onych = nail. The hyponychium is the skin seal under the free edge.",
+        "zh": "hypo = 下面，onych = 指甲。hyponychium 就是游离缘下面那道皮肤密封。"
+      },
+      "teachingRelation": "safety-reason",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Caution (trimming too short)",
+          "pdfPage": 221,
+          "printedPage": "197"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 221,
+          "quote": "Always take care not to trim the nails too short. Do not break the seal of the hyponychium, an important protection of the subungual (beneath the toenail) toenail unit from infection."
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-6c-06",
+      "question": {
+        "en": "When educating a client about a callus, what does Milady suggest discussing?",
+        "zh": "向顾客讲解老茧（callus）时，Milady 建议讨论什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Removing its cause, such as certain shoes",
+          "zh": "去除成因，例如不再穿某双鞋"
+        },
+        {
+          "id": "b",
+          "en": "Shaving it off at home with a razor",
+          "zh": "在家用剃刀把它削掉"
+        },
+        {
+          "id": "c",
+          "en": "Soaking the feet in bleach water",
+          "zh": "用漂白水泡脚"
+        },
+        {
+          "id": "d",
+          "en": "Stopping all foot lotion",
+          "zh": "完全停用足部乳液"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Educate the client about how calluses form. Discuss removing the cause, such as no longer wearing a certain pair of shoes, and suggest home-care softening products between visits.",
+        "zh": "向顾客讲解老茧是怎么形成的。讨论去除成因，例如不再穿某双鞋，并推荐在两次护理之间在家使用的软化产品。"
+      },
+      "lockPoint": {
+        "en": "A tight shoe rubs one spot daily → the skin there thickens → callus. Stop the rubbing at its source.",
+        "zh": "紧鞋每天磨同一个地方 → 那里的皮肤变厚 → 长成老茧。要从源头停止摩擦。"
+      },
+      "teachingRelation": "action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Callus Softener",
+          "pdfPage": 226,
+          "printedPage": "202"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 226,
+          "quote": "Educate your client about callus formation and the protective function calluses provide."
+        },
+        {
+          "pdfPage": 226,
+          "quote": "Discuss with the client the possibility of removing the cause of the callus, such as no longer wearing a certain pair of shoes."
+        },
+        {
+          "pdfPage": 226,
+          "quote": "Also discuss products for home use to help soften and condition callused areas between salon appointments."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-6c-07",
+      "question": {
+        "en": "A client has an ingrown toenail. What should the nail technician do?",
+        "zh": "顾客有嵌甲（ingrown toenail），美甲师应该怎么做？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Use the nail rasp under the edge",
+          "zh": "用甲锉刀（nail rasp）伸到边缘下面锉"
+        },
+        {
+          "id": "b",
+          "en": "Refer the client to a podiatrist",
+          "zh": "建议顾客去看足科医生"
+        },
+        {
+          "id": "c",
+          "en": "Cut out the ingrown corner",
+          "zh": "把嵌进去的角剪掉"
+        },
+        {
+          "id": "d",
+          "en": "Lift the edge with a curette",
+          "zh": "用刮匙（curette）把边缘挑起来"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Never use the rasp on a nail that is already ingrown. Caring for ingrown nails is medical treatment for a physician or podiatrist; nail technicians can prevent them but not treat them.",
+        "zh": "已经嵌进去的指甲绝不能用甲锉刀处理。处理嵌甲属于医疗，必须由医生或足科医生（podiatrist）来做；美甲师可以预防嵌甲，但不能治疗。"
+      },
+      "lockPoint": {
+        "en": "Podiatrist: pod = foot, iatr = healer. A foot doctor treats it; you prevent it.",
+        "zh": "podiatrist：pod = 脚，iatr = 医治者，也就是足科医生。医生治疗，你负责预防。"
+      },
+      "teachingRelation": "condition-action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Nail Rasp",
+          "pdfPage": 222,
+          "printedPage": "198"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Caution (ingrown nails)",
+          "pdfPage": 223,
+          "printedPage": "199"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 222,
+          "quote": "Never use it on nails that are already ingrown; rather, refer clients with ingrown nails to a podiatrist."
+        },
+        {
+          "pdfPage": 223,
+          "quote": "Caring for ingrown or infected nails is a medical treatment and must be performed by a physician or podiatrist."
+        },
+        {
+          "pdfPage": 223,
+          "quote": "Nail technicians can prevent ingrown nails but cannot treat them."
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-6c-08",
+      "question": {
+        "en": "In a basic pedicure, the nail rasp is used, if needed, on",
+        "zh": "基础修脚中，甲锉刀（nail rasp）在需要时用在哪里？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "every toenail.",
+          "zh": "每一个脚趾甲。"
+        },
+        {
+          "id": "b",
+          "en": "the little toe only.",
+          "zh": "只用在小脚趾。"
+        },
+        {
+          "id": "c",
+          "en": "the big toe only.",
+          "zh": "只用在大脚趾。"
+        },
+        {
+          "id": "d",
+          "en": "the top of the nail.",
+          "zh": "指甲表面。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Use the nail rasp only on the big toe, if needed. Draw it gently along the side of the free edge to smooth sharp points; never use it on top of the nail.",
+        "zh": "甲锉刀只在需要时用在大脚趾上。沿着游离缘的侧边轻轻拉，把尖角磨平；绝不能用在指甲表面。"
+      },
+      "lockPoint": {
+        "en": "The rasp files in one direction only; the angled kind is easier to control under the free edge.",
+        "zh": "甲锉刀只能朝一个方向锉；带角度的款式在游离缘下面更好控制。"
+      },
+      "teachingRelation": "location",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Procedure 7-1 Performing a Basic Pedicure",
+          "pdfPage": 238,
+          "printedPage": "214"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Nail Rasp",
+          "pdfPage": 222,
+          "printedPage": "198"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Nail Rasp",
+          "pdfPage": 223,
+          "printedPage": "199"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 238,
+          "quote": "Carefully use the nail rasp, only on the big toe, if needed."
+        },
+        {
+          "pdfPage": 222,
+          "quote": "to reduce the sides of the free edge that might grow into the tissues and potentially cause an ingrown nail."
+        },
+        {
+          "pdfPage": 223,
+          "quote": "Never use it on the top of the nail or past the hyponychium area of the side of the free edge"
+        },
+        {
+          "pdfPage": 222,
+          "quote": "The angled rasp is recommended because it is easier to control under the free edge of the nail."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-6c-09",
+      "question": {
+        "en": "Where is callus softener applied during a pedicure?",
+        "zh": "修脚时，老茧软化剂（callus softener）涂在哪里？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Over the entire foot and leg",
+          "zh": "整只脚和腿"
+        },
+        {
+          "id": "b",
+          "en": "On the toenail plates",
+          "zh": "脚趾甲板上"
+        },
+        {
+          "id": "c",
+          "en": "On the callused areas only",
+          "zh": "只涂在有老茧的部位"
+        },
+        {
+          "id": "d",
+          "en": "Between the toes",
+          "zh": "脚趾之间"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Apply callus softener to the callused areas only, for the time the manufacturer directs. Some are alkaline, so wear gloves; improper use can injure the client.",
+        "zh": "callus softener（老茧软化剂）只涂在有老茧的部位，停留时间按厂家说明。有些是碱性的，要戴手套；使用不当会伤到顾客。"
+      },
+      "lockPoint": {
+        "en": "Strong enough to soften thick callus → strong enough to harm thin, healthy skin.",
+        "zh": "强到能软化厚老茧 → 也强到能伤害薄薄的健康皮肤。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Procedure 7-1 Performing a Basic Pedicure",
+          "pdfPage": 238,
+          "printedPage": "214"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Callus Softener",
+          "pdfPage": 226,
+          "printedPage": "202"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 238,
+          "quote": "apply cuticle remover and callus softener to the callused areas only."
+        },
+        {
+          "pdfPage": 226,
+          "quote": "Some callus softeners are alkaline and potentially hazardous."
+        },
+        {
+          "pdfPage": 226,
+          "quote": "Improper use of callus softener products can be highly damaging and result in permanent injury to the client."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-6c-10",
+      "question": {
+        "en": "Why should calluses be softened and smoothed, not removed?",
+        "zh": "为什么老茧（callus）只能软化、磨平，而不是去除？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "They contain the nail matrix",
+          "zh": "老茧里有甲母"
+        },
+        {
+          "id": "b",
+          "en": "They grow back in one day",
+          "zh": "老茧一天就会长回来"
+        },
+        {
+          "id": "c",
+          "en": "Removing them takes too long",
+          "zh": "去除老茧太花时间"
+        },
+        {
+          "id": "d",
+          "en": "They protect the skin underneath",
+          "zh": "老茧保护下面的皮肤"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Calluses protect the underlying skin in stress areas, as on people who stand all day. Soften and smooth them; do not thin them too much or remove them.",
+        "zh": "老茧在受力部位保护下面的皮肤，比如整天站着工作的人。只能软化、磨平，不能磨得太薄或完全去掉。"
+      },
+      "lockPoint": {
+        "en": "Like a guitarist's fingertips: the hard skin is armor the body built from use.",
+        "zh": "就像吉他手的指尖：那层硬皮是身体因为反复使用而长出的盔甲。"
+      },
+      "teachingRelation": "safety-reason",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Callus Softener",
+          "pdfPage": 226,
+          "printedPage": "202"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 226,
+          "quote": "Remember that calluses are there for a reason: They protect the underlying skin from irritation."
+        },
+        {
+          "pdfPage": 226,
+          "quote": "Calluses should be softened and smoothed, not excessively thinned or removed."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-6c-11",
+      "question": {
+        "en": "Using a razor-type callus shaver can make calluses",
+        "zh": "使用剃刀式去茧刀（callus shaver），可能让老茧怎样？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "grow back heavier.",
+          "zh": "长得更厚。"
+        },
+        {
+          "id": "b",
+          "en": "disappear for good.",
+          "zh": "永远消失。"
+        },
+        {
+          "id": "c",
+          "en": "turn soft and moist.",
+          "zh": "变得柔软湿润。"
+        },
+        {
+          "id": "d",
+          "en": "grow back thinner.",
+          "zh": "长得更薄。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Never use a razor-type callus shaver. It is against the law in most states, can cause infection, and makes calluses grow back heavier as the skin protects itself.",
+        "zh": "绝不能用剃刀式去茧刀。在大多数州这是违法的，会引起感染，而且皮肤为了保护自己，老茧会长得更厚。"
+      },
+      "lockPoint": {
+        "en": "Safe route: soften with a callus product, then use a foot file to remove only a safe amount.",
+        "zh": "安全做法：先用去茧产品软化，再用脚锉只磨掉安全的量。"
+      },
+      "teachingRelation": "cause-effect",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Series Pedicures",
+          "pdfPage": 230,
+          "printedPage": "206"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 230,
+          "quote": "The use of a razor-type callus shaver also stimulates heavier growth of calluses later, as the skin attempts to grow back quickly to protect the damaged skin."
+        },
+        {
+          "pdfPage": 230,
+          "quote": "Not only is this dangerous and a potential cause of infection, but it is against the law in most states."
+        },
+        {
+          "pdfPage": 230,
+          "quote": "use the foot file or paddle to remove a safe amount of callus."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-6c-12",
+      "question": {
+        "en": "A pedicure client has tremors. How should you prepare?",
+        "zh": "修脚顾客手脚会不自主颤抖（tremors），你应该怎么准备？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Ask the client to hold their legs still",
+          "zh": "请顾客自己把腿保持不动"
+        },
+        {
+          "id": "b",
+          "en": "Support the entire leg, behind knees and ankles",
+          "zh": "支撑整条腿，包括膝盖后面和脚踝"
+        },
+        {
+          "id": "c",
+          "en": "Skip the foot soak",
+          "zh": "省略泡脚"
+        },
+        {
+          "id": "d",
+          "en": "Work on one foot only",
+          "zh": "只做一只脚"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Tremors or involuntary movement may signal a neurological issue. Support the entire leg, including behind the knees and ankles, so the client never has to hold up their own legs.",
+        "zh": "颤抖或不自主动作可能代表神经方面的问题。要支撑整条腿，包括膝盖后面和脚踝，让顾客完全不用自己撑着腿。"
+      },
+      "lockPoint": {
+        "en": "Same rule for hands: Milady supports the whole forearm, elbow to palm, on a rolled towel.",
+        "zh": "手也是同样的规则：Milady 用卷起的毛巾把整个前臂，从手肘到手掌都托住。"
+      },
+      "teachingRelation": "condition-action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Clients with Special Health Considerations",
+          "pdfPage": 234,
+          "printedPage": "210"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Clients Who Experience Involuntary Movement",
+          "pdfPage": 193,
+          "printedPage": "169"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 234,
+          "quote": "ensure that the entire leg is supported, including behind the knees and ankles."
+        },
+        {
+          "pdfPage": 234,
+          "quote": "The client should not need to support their own legs at all during the service."
+        },
+        {
+          "pdfPage": 193,
+          "quote": "Roll up a hand towel and support the entire fore-arm from the elbow to the palm"
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-6c-13",
+      "question": {
+        "en": "When exfoliating with a scrub, where should extra pressure be used?",
+        "zh": "用磨砂膏去角质时，哪里要多用点力？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "On the tops of the toes",
+          "zh": "脚趾上面"
+        },
+        {
+          "id": "b",
+          "en": "On the heels and callus-prone areas",
+          "zh": "脚跟和容易长茧的部位"
+        },
+        {
+          "id": "c",
+          "en": "On the front of the shin",
+          "zh": "小腿前侧"
+        },
+        {
+          "id": "d",
+          "en": "Between the toes",
+          "zh": "脚趾之间"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Exfoliate the foot with a scrub to remove dry or scaly skin. Use extra pressure on the heels and other areas where calluses and dry skin tend to build up.",
+        "zh": "用磨砂膏（scrub）给脚去角质，去除干燥或脱屑的皮肤。在脚跟和其他容易长茧、干燥的部位多用点力。"
+      },
+      "lockPoint": {
+        "en": "Heels carry your weight, and soles have no oil glands, so hard, dry skin builds there.",
+        "zh": "脚跟要承重，脚底又没有皮脂腺（oil glands），所以硬皮和干皮容易积在那里。"
+      },
+      "teachingRelation": "location",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Procedure 7-1 Performing a Basic Pedicure",
+          "pdfPage": 239,
+          "printedPage": "215"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "The Skin - Sebaceous (Oil) Glands",
+          "pdfPage": 91,
+          "printedPage": "67"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 239,
+          "quote": "Exfoliate the foot with a scrub to remove the dry or scaly skin."
+        },
+        {
+          "pdfPage": 239,
+          "quote": "Use extra pressure on the heels and other areas where more calluses and dry skin tend to develop."
+        },
+        {
+          "pdfPage": 91,
+          "quote": "Except for the palms of the hands and soles of the feet, these glands are found in all parts of the body"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-6c-14",
+      "question": {
+        "en": "For a client with a chronic illness such as diabetes, which implement should be avoided?",
+        "zh": "顾客有糖尿病等慢性病时，应该避免使用哪种工具？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "A curette",
+          "zh": "刮匙（curette）"
+        },
+        {
+          "id": "b",
+          "en": "A fine-grit file",
+          "zh": "细砂锉"
+        },
+        {
+          "id": "c",
+          "en": "A metal pusher",
+          "zh": "金属推棒（metal pusher）"
+        },
+        {
+          "id": "d",
+          "en": "Toe separators",
+          "zh": "分趾器"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Do not use metal pushers or sharp implements on clients with chronic illnesses. Instead, use a curette gently to remove nonliving tissue and a fine-grit abrasive on the nails.",
+        "zh": "慢性病顾客不能用金属推棒或尖锐工具。可以改用刮匙轻轻去除死组织，并用细砂锉处理指甲。"
+      },
+      "lockPoint": {
+        "en": "Slow-healing skin + one unseen nick → infection, and in the worst cases amputation.",
+        "zh": "伤口愈合慢 + 一个看不见的小伤口 → 感染，最严重会导致截肢。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Caution (immuno-suppressed clients)",
+          "pdfPage": 223,
+          "printedPage": "199"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Clients with Special Health Considerations",
+          "pdfPage": 235,
+          "printedPage": "211"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - High-Risk Clients",
+          "pdfPage": 627,
+          "printedPage": "132"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 223,
+          "quote": "Do not use metal pushers or sharp implements on clients who have any chronic illnesses."
+        },
+        {
+          "pdfPage": 223,
+          "quote": "Even a tiny break in the skin that cannot be seen can cause infection or even amputation or death."
+        },
+        {
+          "pdfPage": 235,
+          "quote": "It is better to use a curette to gently remove nonliving tissue from the nail plate."
+        },
+        {
+          "pdfPage": 627,
+          "quote": "Diabetic customers have immune systems that do not work effectively and have impaired healing."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-6c-15",
+      "question": {
+        "en": "There is buildup between the client's toes. What should you do first?",
+        "zh": "顾客脚趾之间有积垢，你应该先做什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Soak longer with a urea softener",
+          "zh": "用含尿素的软化产品多泡一会儿"
+        },
+        {
+          "id": "b",
+          "en": "Scrape it with a curette",
+          "zh": "用刮匙刮掉"
+        },
+        {
+          "id": "c",
+          "en": "Skip cleaning between the toes",
+          "zh": "跳过脚趾间的清洁"
+        },
+        {
+          "id": "d",
+          "en": "Rub it off with a foot file",
+          "zh": "用脚锉磨掉"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "A complete pedicure cleans between the toes. If there is buildup, soak longer with a softening product containing urea, then clean gently with a disposable towelette or washcloth.",
+        "zh": "完整的修脚要清洁脚趾之间。如果有积垢，先用含尿素（urea）的软化产品多泡一会儿，再用一次性湿巾或毛巾轻轻擦干净。"
+      },
+      "lockPoint": {
+        "en": "Urea is named for urine, where it was first found. In foot care it softens hard buildup.",
+        "zh": "urea（尿素）因最早在尿液中发现而得名。在足部护理中，它能软化硬结的积垢。"
+      },
+      "teachingRelation": "condition-action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Remember to Floss",
+          "pdfPage": 234,
+          "printedPage": "210"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 234,
+          "quote": "Look between the toes at the beginning of the service to see if there is any buildup between them."
+        },
+        {
+          "pdfPage": 234,
+          "quote": "be sure to soak the nails longer with a softening product containing urea before trying to clean between them."
+        },
+        {
+          "pdfPage": 234,
+          "quote": "Use a disposable towelette or washcloth to gently clean between the toes after soaking."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-6c-16",
+      "question": {
+        "en": "Before clipping toenails for a client with health considerations, what should you check?",
+        "zh": "给有健康问题的顾客剪脚趾甲前，应该检查什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "The color of the old polish",
+          "zh": "旧甲油的颜色"
+        },
+        {
+          "id": "b",
+          "en": "How fast the toenails grow",
+          "zh": "脚趾甲长得多快"
+        },
+        {
+          "id": "c",
+          "en": "The size of the lunula",
+          "zh": "甲半月的大小"
+        },
+        {
+          "id": "d",
+          "en": "Underneath the nail for attached skin",
+          "zh": "指甲下面有没有粘连的皮肤"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Always look underneath the nails before clipping. Skin can be attached to the center of the nail, and simply cutting straight across can cut it.",
+        "zh": "剪之前一定要看指甲下面。可能有皮肤粘在指甲中间，直接平剪就会剪到皮肤。"
+      },
+      "lockPoint": {
+        "en": "Picture a sticker stuck to the back of a page: cut the page, and you cut the sticker too.",
+        "zh": "想象一张纸背面贴着贴纸：剪纸的时候，贴纸也会一起被剪到。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Clients with Special Health Considerations",
+          "pdfPage": 235,
+          "printedPage": "211"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 235,
+          "quote": "Always look underneath the nails before clipping, as there can be skin that is attached to the center of the nail."
+        },
+        {
+          "pdfPage": 235,
+          "quote": "Simply cutting nails straight across can cut the skin underneath."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-6c-17",
+      "question": {
+        "en": "A pedicure client shaved their legs this morning. What does Milady suggest?",
+        "zh": "修脚顾客今天早上刚刮过腿毛。Milady 建议怎么做？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Go ahead with a full spa pedicure",
+          "zh": "照常做完整的水疗修脚"
+        },
+        {
+          "id": "b",
+          "en": "Use a stronger foot soak",
+          "zh": "用更强的泡脚产品"
+        },
+        {
+          "id": "c",
+          "en": "Do the leg scrub with extra care",
+          "zh": "小心地做腿部磨砂"
+        },
+        {
+          "id": "d",
+          "en": "Offer a waterless pedicure on the feet only",
+          "zh": "只做脚部的无水修脚"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Shaving shortly before a pedicure leaves tiny unseen openings (microtrauma) that can let germs in. Offer a basic waterless pedicure on the feet only and reschedule any soak, scrub, or leg work.",
+        "zh": "修脚前刚刮过毛，会留下看不见的细小伤口（microtrauma，微创伤），病菌可能进入。只做脚部的基础无水修脚，泡脚、磨砂或腿部护理另约时间。"
+      },
+      "lockPoint": {
+        "en": "Micro = small, trauma = wound. Waxing, plucking, and insect bites can leave the same tiny openings.",
+        "zh": "micro = 微小，trauma = 伤口。蜜蜡脱毛、拔毛和蚊虫叮咬也会留下同样的细小开口。"
+      },
+      "teachingRelation": "condition-action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Scheduling",
+          "pdfPage": 229,
+          "printedPage": "205"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Caution (microtrauma)",
+          "pdfPage": 228,
+          "printedPage": "204"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Hot Stones (invisible lesions)",
+          "pdfPage": 221,
+          "printedPage": "197"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 229,
+          "quote": "If the answer is yes, offer a basic waterless pedicure that services only the feet."
+        },
+        {
+          "pdfPage": 229,
+          "quote": "Reschedule the pedicure that involves a soak, scrub, or any further manipulation of the legs using pedicuring products."
+        },
+        {
+          "pdfPage": 228,
+          "quote": "Microtrauma is the act of causing tiny unseen openings in the skin that may allow pathogenic microbes to enter."
+        },
+        {
+          "pdfPage": 221,
+          "quote": "Even minor, invisible lesions created by shaving, plucking, waxing, insect bites, and pimples can cause a risk"
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-6c-18",
+      "question": {
+        "en": "Which massage is included in a basic pedicure?",
+        "zh": "基础修脚包括哪种按摩？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Foot massage only",
+          "zh": "只有足部按摩"
+        },
+        {
+          "id": "b",
+          "en": "Leg massage only",
+          "zh": "只有腿部按摩"
+        },
+        {
+          "id": "c",
+          "en": "Foot, leg, and back massage",
+          "zh": "足部、腿部和背部按摩"
+        },
+        {
+          "id": "d",
+          "en": "No massage at all",
+          "zh": "完全没有按摩"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "The basic pedicure includes a foot massage only, partly for time and partly so the higher-priced spa pedicure, which adds the leg massage, feels special.",
+        "zh": "基础修脚只有足部按摩，一是时间有限，二是让价格更高的水疗修脚（spa pedicure）加上腿部按摩后更显特别。"
+      },
+      "lockPoint": {
+        "en": "The leg massage is the upgrade. A spa pedicure runs one to one and a half hours and includes it.",
+        "zh": "腿部按摩是升级项目。水疗修脚通常 1 到 1.5 小时，包含腿部按摩。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Designing the Services",
+          "pdfPage": 229,
+          "printedPage": "205"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Business Tips",
+          "pdfPage": 230,
+          "printedPage": "206"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Procedure 7-2 Foot and Leg Massage",
+          "pdfPage": 241,
+          "printedPage": "217"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 229,
+          "quote": "The basic pedicure in most salons is 30 to 45 minutes and does not include a leg massage, only a foot massage"
+        },
+        {
+          "pdfPage": 229,
+          "quote": "a spa pedicure is usually one hour to one hour and a half and includes the leg massage"
+        },
+        {
+          "pdfPage": 230,
+          "quote": "The basic pedicure includes a foot massage only (no leg massage) for two reasons."
+        },
+        {
+          "pdfPage": 241,
+          "quote": "A massage for a basic pedicure will include only the foot, while a spa pedicure will also include the leg massage"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-6c-19",
+      "question": {
+        "en": "A client wants help with scaly feet. What must happen first?",
+        "zh": "顾客想改善脚部脱屑（scaly feet），首先必须做什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Start weekly exfoliation right away",
+          "zh": "马上开始每周去角质"
+        },
+        {
+          "id": "b",
+          "en": "Apply callus softener to the whole foot",
+          "zh": "整只脚涂老茧软化剂"
+        },
+        {
+          "id": "c",
+          "en": "A podiatrist checks for fungus",
+          "zh": "由足科医生检查有没有真菌"
+        },
+        {
+          "id": "d",
+          "en": "Shave off the scaly skin",
+          "zh": "把脱屑的皮肤削掉"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Fungus can look like a scaly condition on the feet. The client must see a podiatrist first; if fungal tests are negative, weekly exfoliation treatments can begin.",
+        "zh": "真菌感染看起来可能就像脚部脱屑。顾客必须先看足科医生；真菌检测阴性后，才能开始每周的去角质护理。"
+      },
+      "lockPoint": {
+        "en": "Athlete's foot is a fungus, yet it can look like plain dry, peeling skin.",
+        "zh": "足癣（athlete's foot，俗称“脚气”）是真菌感染，看起来却可能只像普通的干燥脱皮。"
+      },
+      "teachingRelation": "condition-action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Series Pedicures",
+          "pdfPage": 230,
+          "printedPage": "206"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin Disorders - Tinea Pedis",
+          "pdfPage": 110,
+          "printedPage": "86"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 230,
+          "quote": "First, however, the client must visit a podiatrist to determine whether the feet are fungal; fungus can present as a scaly condition on the feet."
+        },
+        {
+          "pdfPage": 230,
+          "quote": "If fungal tests are negative and the client is healthy, they can return for three to six weekly foot exfoliation treatments"
+        },
+        {
+          "pdfPage": 110,
+          "quote": "Athlete’s foot or ringworm of the feet. The cause is fungal"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-6c-20",
+      "question": {
+        "en": "A client cannot move into the pedicure chair. What does Milady suggest?",
+        "zh": "顾客没办法坐到修脚椅上。Milady 建议怎么做？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Refer the client to a medical office",
+          "zh": "转介到医疗机构"
+        },
+        {
+          "id": "b",
+          "en": "Use a portable basin or a dry pedicure",
+          "zh": "用便携式泡脚盆，或做干式修脚"
+        },
+        {
+          "id": "c",
+          "en": "Do a manicure instead",
+          "zh": "改做修手"
+        },
+        {
+          "id": "d",
+          "en": "Skip the pedicure entirely",
+          "zh": "完全不做修脚"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Use a portable water basin or perform a dry pedicure. In a dry pedicure you still shorten and shape the nails, clean the cuticles, and gently apply lotion.",
+        "zh": "可以用便携式泡脚盆，或做干式修脚（dry pedicure）。干式修脚同样要修短、修形、清理死皮，并轻轻涂乳液。"
+      },
+      "lockPoint": {
+        "en": "Bring the pedicure to the client, not the client to the chair. Still check between the toes.",
+        "zh": "把修脚服务带到顾客身边，不必硬把顾客挪到椅子上。脚趾之间照样要检查。"
+      },
+      "teachingRelation": "condition-action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Clients with Special Health Considerations",
+          "pdfPage": 233,
+          "printedPage": "209"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 233,
+          "quote": "If your client cannot physically be moved into a pedicure chair, have a portable water basin with warm/cool water available."
+        },
+        {
+          "pdfPage": 233,
+          "quote": "Or, consider performing a dry pedicure."
+        },
+        {
+          "pdfPage": 233,
+          "quote": "remember to check in-between the toes for any sign of infection or lesions."
+        }
+      ],
+      "hookType": "real-life"
+    }
+  ]
+}

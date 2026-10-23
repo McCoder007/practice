@@ -1,0 +1,1305 @@
+{
+  "schemaVersion": "1.0.0",
+  "setId": "3A",
+  "domain": {
+    "id": "chemistry",
+    "order": 3,
+    "title": {
+      "en": "Chemistry of Nail Products",
+      "zh": "美甲产品化学"
+    },
+    "examWeightPercent": 10
+  },
+  "title": {
+    "en": "Chemistry Basics: Changes and Reactions",
+    "zh": "化学基础：变化与反应"
+  },
+  "status": "reviewed",
+  "authoredAt": "2026-10-23",
+  "sourceBook": "Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020)",
+  "questions": [
+    {
+      "id": "nic-3a-01",
+      "question": {
+        "en": "The basic unit of matter, with a nucleus and electrons, is",
+        "zh": "由原子核和电子构成的物质基本单位是——"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "a molecule.",
+          "zh": "分子（molecule）。"
+        },
+        {
+          "id": "b",
+          "en": "an atom.",
+          "zh": "原子（atom）。"
+        },
+        {
+          "id": "c",
+          "en": "a compound.",
+          "zh": "化合物（compound）。"
+        },
+        {
+          "id": "d",
+          "en": "an element.",
+          "zh": "元素（element）。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Atoms are the basic unit of matter. The nucleus holds protons and neutrons, with electrons moving around it. Atoms combine to make molecules.",
+        "zh": "atom（原子）是物质的基本单位：原子核含有质子和中子，电子绕着它运动。原子结合起来就成了分子（molecule）。"
+      },
+      "lockPoint": {
+        "en": "Atom comes from Greek atomos, \"uncuttable\": ordinary chemistry can't split it.",
+        "zh": "atom 来自希腊语 atomos“不可切分”：用普通化学方法分不开它。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Atoms",
+          "pdfPage": 650,
+          "printedPage": "155"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 650,
+          "quote": "Atoms (AT-umz) are the basic unit of matter, with a nucleus at the center surrounded by negatively charged electrons"
+        },
+        {
+          "pdfPage": 650,
+          "quote": "Atoms cannot be divided into simpler substances by ordinary chemical means."
+        },
+        {
+          "pdfPage": 650,
+          "quote": "Just as words are made by combining letters, molecules are made by combining atoms."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-3a-02",
+      "question": {
+        "en": "Oxygen, gold, and aluminum are examples of",
+        "zh": "氧、金和铝都属于什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "elements.",
+          "zh": "元素（elements）。"
+        },
+        {
+          "id": "b",
+          "en": "compounds.",
+          "zh": "化合物（compounds）。"
+        },
+        {
+          "id": "c",
+          "en": "physical mixtures.",
+          "zh": "物理混合物（physical mixtures）。"
+        },
+        {
+          "id": "d",
+          "en": "polymers.",
+          "zh": "聚合物（polymers）。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "An element is the simplest form of chemical matter and contains only one type of atom. Each has a letter symbol, like O for oxygen.",
+        "zh": "element（元素）是最简单的化学物质形式，只含一种原子。每种元素都有字母符号，例如氧是 O。"
+      },
+      "lockPoint": {
+        "en": "In Chinese, 元素 uses 元, \"first\" (as in 元旦): the first, most basic building blocks.",
+        "zh": "元素的“元”= 最初、第一（如“元旦”）：最基本、不能再分成更简单物质的成分。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Elements",
+          "pdfPage": 649,
+          "printedPage": "154"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Elements",
+          "pdfPage": 650,
+          "printedPage": "155"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Figure 6-7 Pure Substances and Mixtures",
+          "pdfPage": 654,
+          "printedPage": "159"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 649,
+          "quote": "An element (EL-uh-ment) is the simplest form of chemical matter and contains only one type of atom."
+        },
+        {
+          "pdfPage": 650,
+          "quote": "Each element is identified by a letter symbol, such as O for oxygen, C for carbon, or H for hydrogen."
+        },
+        {
+          "pdfPage": 654,
+          "quote": "Elements Oxygen, aluminum, gold, sodium"
+        }
+      ],
+      "hookType": "chinese-character"
+    },
+    {
+      "id": "nic-3a-03",
+      "question": {
+        "en": "Table salt (NaCl) is an example of",
+        "zh": "食盐（NaCl）属于哪一种？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "an elemental molecule.",
+          "zh": "单质分子（elemental molecule）。"
+        },
+        {
+          "id": "b",
+          "en": "a single element.",
+          "zh": "单一元素（element）。"
+        },
+        {
+          "id": "c",
+          "en": "a physical mixture.",
+          "zh": "物理混合物（physical mixture）。"
+        },
+        {
+          "id": "d",
+          "en": "a compound.",
+          "zh": "化合物（compound）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "A compound joins atoms of different elements in fixed proportions. Salt has one sodium (Na) atom for each chlorine (Cl) atom.",
+        "zh": "compound（化合物）由不同元素的原子按固定比例结合而成。食盐中每个钠（Na）原子对应一个氯（Cl）原子。"
+      },
+      "lockPoint": {
+        "en": "Com- means together: a compound puts different elements together. Ozone, O3, has only one element.",
+        "zh": "化合物：不同元素“化”在一起、“合”成一体。臭氧 O₃ 只有一种元素 O，是单质分子。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Molecules",
+          "pdfPage": 651,
+          "printedPage": "156"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Molecules",
+          "pdfPage": 652,
+          "printedPage": "157"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Figure 6-7 Pure Substances and Mixtures",
+          "pdfPage": 654,
+          "printedPage": "159"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 651,
+          "quote": "Sodium chloride (NaCl), common table salt, is an example of a compound"
+        },
+        {
+          "pdfPage": 651,
+          "quote": "also known as compounds, are chemical combinations of two or more atoms of different elements in definite (fixed) proportions"
+        },
+        {
+          "pdfPage": 654,
+          "quote": "Compounds Pure (distilled) water, ammonia, salt, aspirin"
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-3a-04",
+      "question": {
+        "en": "Which is a chemical change?",
+        "zh": "以下哪一项是化学变化（chemical change）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Ice melting into water",
+          "zh": "冰融化成水"
+        },
+        {
+          "id": "b",
+          "en": "Polish solvent evaporating from the nail",
+          "zh": "甲油里的溶剂从指甲上蒸发"
+        },
+        {
+          "id": "c",
+          "en": "Monomer hardening into a nail enhancement",
+          "zh": "单体（monomer）变硬，形成加固甲（nail enhancement）"
+        },
+        {
+          "id": "d",
+          "en": "Salt dissolving in water",
+          "zh": "盐溶解在水里"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "A chemical change creates a new substance. Monomers join into a new polymer. Melting, evaporating, and dissolving only change form, so they are physical changes.",
+        "zh": "chemical change（化学变化）会产生新物质：单体连接成新的聚合物（polymer）。融化、蒸发和溶解只改变形态，属于物理变化（physical change）。"
+      },
+      "lockPoint": {
+        "en": "Ice melts and refreezes as ice. Acetone softens cured acrylic, but never turns it back into liquid monomer.",
+        "zh": "冰化了能再冻回冰；丙酮只能把固化的甲泡软，泡不回液体单体。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Physical and Chemical Properties of Matter",
+          "pdfPage": 652,
+          "printedPage": "157"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Monomers and Polymers",
+          "pdfPage": 146,
+          "printedPage": "122"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 652,
+          "quote": "A physical change (FIZ-ih-kuhl CHAYNJ) is a change in the form or physical properties of a substance, without a chemical reaction or the creation of a new substance."
+        },
+        {
+          "pdfPage": 652,
+          "quote": "This change is caused by chemical reactions that create new chemical substances"
+        },
+        {
+          "pdfPage": 146,
+          "quote": "Creating a nail enhancement is a good example of a chemical reaction."
+        }
+      ],
+      "hookType": "contrast"
+    },
+    {
+      "id": "nic-3a-05",
+      "question": {
+        "en": "When acetone dissolves old nail polish, the polish is the",
+        "zh": "丙酮（acetone）溶解旧甲油时，甲油是什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "solute.",
+          "zh": "溶质（solute）。"
+        },
+        {
+          "id": "b",
+          "en": "solvent.",
+          "zh": "溶剂（solvent）。"
+        },
+        {
+          "id": "c",
+          "en": "emulsifier.",
+          "zh": "乳化剂（emulsifier）。"
+        },
+        {
+          "id": "d",
+          "en": "catalyst.",
+          "zh": "催化剂（catalyst）。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "The solute is the substance that gets dissolved. The solvent, here acetone, does the dissolving. Together they make a solution.",
+        "zh": "solute（溶质）是被溶解的物质。solvent（溶剂）负责溶解，这里是丙酮。两者合在一起就成了溶液（solution）。"
+      },
+      "lockPoint": {
+        "en": "From Latin: solvent means \"dissolving\" (it acts). Solute means \"dissolved\" (it is acted on).",
+        "zh": "拉丁语里 solvent =“正在溶解”（主动），solute =“被溶解的”（被动）。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Caution: Acetone",
+          "pdfPage": 151,
+          "printedPage": "127"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Solutions",
+          "pdfPage": 654,
+          "printedPage": "159"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 151,
+          "quote": "When used as a polish remover, acetone dissolves old polish (the solute)."
+        },
+        {
+          "pdfPage": 654,
+          "quote": "The solute (SAHL-yoot) is the substance that is dissolved in a solution."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-3a-06",
+      "question": {
+        "en": "Nail polish with glitter that separates over time is",
+        "zh": "含亮片、会随时间分离的指甲油属于——"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "a solution.",
+          "zh": "溶液（solution）。"
+        },
+        {
+          "id": "b",
+          "en": "an emulsion.",
+          "zh": "乳液（emulsion）。"
+        },
+        {
+          "id": "c",
+          "en": "a suspension.",
+          "zh": "悬浮液（suspension）。"
+        },
+        {
+          "id": "d",
+          "en": "a pure substance.",
+          "zh": "纯净物（pure substance）。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "A suspension holds undissolved particles in a liquid. It is unstable and separates over time. A solution does not separate, and an emulsion needs an emulsifier.",
+        "zh": "suspension（悬浮液）是液体中含有未溶解的颗粒，不稳定，会随时间分离。溶液静置不分离；乳液（emulsion）需要乳化剂。"
+      },
+      "lockPoint": {
+        "en": "That's why you gently roll the bottle upside down between your palms before polishing.",
+        "zh": "所以涂之前要把甲油瓶倒过来，放在两掌之间轻轻滚动，把沉下去的颗粒重新混匀。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Suspensions",
+          "pdfPage": 655,
+          "printedPage": "160"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Did You Know? (rolling polish)",
+          "pdfPage": 175,
+          "printedPage": "151"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 655,
+          "quote": "An example of a suspension is the glitter in nail polish, which can separate from the polish."
+        },
+        {
+          "pdfPage": 655,
+          "quote": "Suspensions (sus-PEN-shunz) are unstable physical mixtures of undissolved particles in a liquid."
+        },
+        {
+          "pdfPage": 175,
+          "quote": "gently roll the polish bottles upside down between your palms to thoroughly mix"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-3a-07",
+      "question": {
+        "en": "What lets oil and water form an emulsion?",
+        "zh": "什么能让油和水形成乳液（emulsion）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "A solvent",
+          "zh": "溶剂（solvent）"
+        },
+        {
+          "id": "b",
+          "en": "An emulsifier",
+          "zh": "乳化剂（emulsifier）"
+        },
+        {
+          "id": "c",
+          "en": "A catalyst",
+          "zh": "催化剂（catalyst）"
+        },
+        {
+          "id": "d",
+          "en": "A plasticizer",
+          "zh": "增塑剂（plasticizer）"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Oil and water are immiscible, so they separate. An emulsifier brings them together into a fairly stable mixture, like skin cream.",
+        "zh": "油和水互不相溶（immiscible），会分层。emulsifier（乳化剂）把它们结合成较稳定的混合物，例如护肤霜。"
+      },
+      "lockPoint": {
+        "en": "Mayonnaise: egg yolk is the emulsifier that holds the oil droplets in the water.",
+        "zh": "蛋黄酱：蛋黄就是乳化剂，把油滴“抓”在水里，不让它们分层。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Emulsions",
+          "pdfPage": 655,
+          "printedPage": "160"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Did You Know? (mayonnaise)",
+          "pdfPage": 658,
+          "printedPage": "163"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 655,
+          "quote": "An emulsifier (ee-MUL-suh-fy-ur) is an ingredient that brings two normally incompatible materials together and binds them into a uniform and fairly stable mixture."
+        },
+        {
+          "pdfPage": 658,
+          "quote": "the egg yolk in mayonnaise emulsifies the oil droplets and distributes them uniformly in the water"
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-3a-08",
+      "question": {
+        "en": "pH 9 is how many times more alkaline than pH 7?",
+        "zh": "pH 9 的碱性是 pH 7 的多少倍？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "2 times",
+          "zh": "2 倍"
+        },
+        {
+          "id": "b",
+          "en": "10 times",
+          "zh": "10 倍"
+        },
+        {
+          "id": "c",
+          "en": "20 times",
+          "zh": "20 倍"
+        },
+        {
+          "id": "d",
+          "en": "100 times",
+          "zh": "100 倍"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "The pH scale is logarithmic. Each whole number is a tenfold change. Going from 7 to 9 is two steps: 10 × 10 = 100 times.",
+        "zh": "pH 标度是对数标度，每差一个整数就是 10 倍。从 7 到 9 差两级：10 × 10 = 100 倍。"
+      },
+      "lockPoint": {
+        "en": "Like adding zeros to money: $10, $100, $1,000. Each pH step adds a zero.",
+        "zh": "就像钱后面加零：10、100、1000。pH 每差 1，就多一个零。"
+      },
+      "teachingRelation": "number",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - The pH Scale",
+          "pdfPage": 661,
+          "printedPage": "166"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 661,
+          "quote": "So a pH of 9 is 100 times more alkaline than a pH of 7."
+        },
+        {
+          "pdfPage": 661,
+          "quote": "a change of one whole number represents a tenfold change in pH"
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-3a-09",
+      "question": {
+        "en": "Which product has no pH?",
+        "zh": "以下哪种产品没有 pH 值？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Nail polish",
+          "zh": "指甲油"
+        },
+        {
+          "id": "b",
+          "en": "Hand lotion",
+          "zh": "护手乳"
+        },
+        {
+          "id": "c",
+          "en": "Liquid soap",
+          "zh": "液体皂"
+        },
+        {
+          "id": "d",
+          "en": "Cuticle remover",
+          "zh": "死皮软化剂（cuticle remover）"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Only products that contain water can have a pH. Nail polish, oils, and waxes contain no water, so they have no pH.",
+        "zh": "只有含水的产品才有 pH。指甲油、油类和蜡都不含水，所以没有 pH。"
+      },
+      "lockPoint": {
+        "en": "No water → no hydrogen or hydroxide ions → nothing for pH to measure.",
+        "zh": "没有水 → 没有氢离子和氢氧根离子 → pH 无从测量。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Activity: Product pH",
+          "pdfPage": 663,
+          "printedPage": "168"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Water and pH",
+          "pdfPage": 660,
+          "printedPage": "165"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 663,
+          "quote": "Oils, waxes, and nail polish have no pH because they contain no water."
+        },
+        {
+          "pdfPage": 660,
+          "quote": "Therefore, only products that contain water can have a pH."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-3a-10",
+      "question": {
+        "en": "Water and alcohol mix to form a stable solution. They are",
+        "zh": "水和酒精能混合成稳定的溶液，它们是——"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "immiscible.",
+          "zh": "不互溶的（immiscible）。"
+        },
+        {
+          "id": "b",
+          "en": "insoluble.",
+          "zh": "不溶的（insoluble）。"
+        },
+        {
+          "id": "c",
+          "en": "emulsified.",
+          "zh": "乳化的（emulsified）。"
+        },
+        {
+          "id": "d",
+          "en": "miscible.",
+          "zh": "可互溶的（miscible）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Miscible liquids are mutually soluble, so they mix and stay mixed as a solution. Immiscible liquids, like oil and water, separate when left still.",
+        "zh": "miscible（可互溶）的液体能互相溶解，混合后保持为溶液。immiscible（不互溶）的液体，例如油和水，静置后会分层。"
+      },
+      "lockPoint": {
+        "en": "Miscible comes from Latin miscere, \"to mix.\" Im- means not: immiscible won't mix.",
+        "zh": "miscible 来自拉丁语 miscere“混合”；im- = 不：immiscible 就是混不到一起。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Solutions",
+          "pdfPage": 655,
+          "printedPage": "160"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 655,
+          "quote": "Miscible (MIS-uh-bul) liquids are mutually soluble, meaning that they can be mixed together to form solutions. Water and alcohol are examples of miscible liquids"
+        },
+        {
+          "pdfPage": 655,
+          "quote": "Immiscible (im-IS-uh-bul) liquids are not capable of being mixed together to form stable solutions. Water and oil are two examples."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-3a-11",
+      "question": {
+        "en": "When oxygen chemically combines with a substance, the substance is",
+        "zh": "当氧与某种物质发生化学结合时，这种物质被——"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "reduced.",
+          "zh": "还原（reduced）。"
+        },
+        {
+          "id": "b",
+          "en": "neutralized.",
+          "zh": "中和（neutralized）。"
+        },
+        {
+          "id": "c",
+          "en": "oxidized.",
+          "zh": "氧化（oxidized）。"
+        },
+        {
+          "id": "d",
+          "en": "emulsified.",
+          "zh": "乳化（emulsified）。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Adding oxygen to a substance is oxidation. Removing oxygen is reduction. In a redox reaction, both happen at the same time.",
+        "zh": "给物质加上氧叫 oxidation（氧化），去掉氧叫 reduction（还原）。在氧化还原反应（redox）中，两者同时发生。"
+      },
+      "lockPoint": {
+        "en": "Rust is iron that has combined with oxygen: the iron is oxidized.",
+        "zh": "铁生锈，就是铁和氧结合了：铁被氧化。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Redox Reactions",
+          "pdfPage": 664,
+          "printedPage": "169"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 664,
+          "quote": "When oxygen is chemically combined with a substance, the substance is oxidized."
+        },
+        {
+          "pdfPage": 664,
+          "quote": "When oxygen is chemically removed from a substance, the substance is reduced."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-3a-12",
+      "question": {
+        "en": "A reaction that releases heat, like a hardening nail enhancement, is",
+        "zh": "会放出热量的反应（例如正在变硬的加固甲）是——"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "endothermic.",
+          "zh": "吸热的（endothermic）。"
+        },
+        {
+          "id": "b",
+          "en": "exothermic.",
+          "zh": "放热的（exothermic）。"
+        },
+        {
+          "id": "c",
+          "en": "evaporative.",
+          "zh": "蒸发性的（evaporative）。"
+        },
+        {
+          "id": "d",
+          "en": "emulsifying.",
+          "zh": "乳化性的（emulsifying）。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "An exothermic reaction gives off heat. A nail product that hardens (polymerizes) is an example. An endothermic reaction must absorb heat to happen.",
+        "zh": "exothermic reaction（放热反应）会放出热量，例如美甲产品变硬（聚合）。endothermic reaction（吸热反应）则必须吸收热量才能进行。"
+      },
+      "lockPoint": {
+        "en": "Exo = out, therm = heat (as in thermometer). Endo = in.",
+        "zh": "exo = 向外，therm = 热（thermometer 温度计）：热往外放。endo = 向内，热往里吸。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Exothermic Reactions",
+          "pdfPage": 664,
+          "printedPage": "169"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Endothermic Reactions",
+          "pdfPage": 665,
+          "printedPage": "170"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 664,
+          "quote": "When certain chemical reactions release energy in the form of heat, it is called an exothermic reaction"
+        },
+        {
+          "pdfPage": 665,
+          "quote": "example of an exothermic reaction is a nail product that hardens"
+        },
+        {
+          "pdfPage": 665,
+          "quote": "is a chemical reaction that requires the absorption of energy or heat from an external source"
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-3a-13",
+      "question": {
+        "en": "Regular nail polish, base coat, and top coat harden by",
+        "zh": "普通指甲油、底油和亮油靠什么变硬？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "evaporation.",
+          "zh": "蒸发（evaporation）。"
+        },
+        {
+          "id": "b",
+          "en": "polymerization.",
+          "zh": "聚合（polymerization）。"
+        },
+        {
+          "id": "c",
+          "en": "oxidation.",
+          "zh": "氧化（oxidation）。"
+        },
+        {
+          "id": "d",
+          "en": "neutralization.",
+          "zh": "中和（neutralization）。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "These coatings work by evaporation, a physical reaction. Their solvents evaporate and leave a polymer film. No monomers react, so nothing polymerizes.",
+        "zh": "这些涂层靠蒸发变硬，属于物理反应。溶剂蒸发后留下一层聚合物膜。里面没有单体参与反应，所以不发生聚合。"
+      },
+      "lockPoint": {
+        "en": "Polish polymers aren't cross-linked → weaker film → chips easily and dissolves fast in remover.",
+        "zh": "甲油里的聚合物没有交联（cross-link）→ 膜比较弱 → 容易掉，也很快被洗甲水溶掉。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Coatings",
+          "pdfPage": 146,
+          "printedPage": "122"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Evaporation Coatings",
+          "pdfPage": 149,
+          "printedPage": "125"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 146,
+          "quote": "Coatings created by evaporation include nail polish, base coat, and top coat."
+        },
+        {
+          "pdfPage": 149,
+          "quote": "They do not polymerize or cure. No chemical reactions occur, and they contain no monomers"
+        },
+        {
+          "pdfPage": 149,
+          "quote": "This is why polishes are prone to chipping and are so easily dissolved by removers."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-3a-14",
+      "question": {
+        "en": "The single molecules that join to make a polymer are",
+        "zh": "连接起来组成聚合物（polymer）的单个分子叫什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "catalysts.",
+          "zh": "催化剂（catalysts）。"
+        },
+        {
+          "id": "b",
+          "en": "initiators.",
+          "zh": "引发剂（initiators）。"
+        },
+        {
+          "id": "c",
+          "en": "monomers.",
+          "zh": "单体（monomers）。"
+        },
+        {
+          "id": "d",
+          "en": "solvents.",
+          "zh": "溶剂（solvents）。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Monomers are the individual molecules that join into very long chains called polymers. For example, amino acids join to make keratin.",
+        "zh": "monomers（单体）是一个个单独的分子，连接成很长的链，就是 polymers（聚合物）。例如，氨基酸连接成角蛋白（keratin）。"
+      },
+      "lockPoint": {
+        "en": "Mono = one, poly = many, -mer = part. Oligo = few: an oligomer is a short chain.",
+        "zh": "mono = 一，poly = 多，-mer = 部分；oligo = 少：oligomer（寡聚物）是只有几节的短链。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Monomers and Polymers",
+          "pdfPage": 146,
+          "printedPage": "122"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 146,
+          "quote": "The individual molecules that join to make the polymer are called monomers (MON-uh-murz)."
+        },
+        {
+          "pdfPage": 146,
+          "quote": "These gigantic chains of molecules are called polymers (POL-uh-murz)."
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-3a-15",
+      "question": {
+        "en": "A short chain of monomers that is not yet a polymer is",
+        "zh": "由单体组成、还不算聚合物的短链是——"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "a cross-linker.",
+          "zh": "交联剂（cross-linker）。"
+        },
+        {
+          "id": "b",
+          "en": "a catalyst.",
+          "zh": "催化剂（catalyst）。"
+        },
+        {
+          "id": "c",
+          "en": "a photoinitiator.",
+          "zh": "光引发剂（photoinitiator）。"
+        },
+        {
+          "id": "d",
+          "en": "an oligomer.",
+          "zh": "寡聚物/低聚物（oligomer）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "An oligomer is a short chain of monomers that stopped growing early. Oligomers join quickly into polymers and give UV gels their sticky consistency.",
+        "zh": "oligomer（寡聚物/低聚物）是提前停止增长的单体短链。它能很快连成聚合物，也让 UV 凝胶（UV gel）有黏稠的质地。"
+      },
+      "lockPoint": {
+        "en": "Oligo = few, as in oligarchy, rule by a few. A few parts make a short chain.",
+        "zh": "oligo = 少（oligarchy = 寡头统治）。中文“寡聚物”的“寡”也是“少”：少数几块连成的短链。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Understanding Polymerization",
+          "pdfPage": 147,
+          "printedPage": "123"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 147,
+          "quote": "An oligomer (oh-LIG-oh-mer) is a short chain of monomers that has had the growth of its chain halted before it became a polymer."
+        },
+        {
+          "pdfPage": 147,
+          "quote": "Oligomers are important ingredients in UV gels and are what give the gels their sticky consistency."
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-3a-16",
+      "question": {
+        "en": "Which ingredient starts polymerization by energizing monomers?",
+        "zh": "哪种成分通过给单体注入能量来启动聚合反应？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "A catalyst",
+          "zh": "催化剂（catalyst）"
+        },
+        {
+          "id": "b",
+          "en": "An initiator",
+          "zh": "引发剂（initiator）"
+        },
+        {
+          "id": "c",
+          "en": "A plasticizer",
+          "zh": "增塑剂（plasticizer）"
+        },
+        {
+          "id": "d",
+          "en": "A UV stabilizer",
+          "zh": "紫外线稳定剂（UV stabilizer）"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Initiators carry extra energy. They pass it to a monomer, which joins the next monomer to pass it on, so the chain grows. Catalysts only speed this up.",
+        "zh": "initiator（引发剂）带有额外能量。它把能量传给单体，单体再连接下一个单体把能量传下去，链就越来越长。催化剂只负责加快速度。"
+      },
+      "lockPoint": {
+        "en": "Initiate = to start. Initial, the first letter of your name, comes from the same root.",
+        "zh": "initiate = 开始（initial“首字母”同一个词根）。引发剂像点燃引线，引起整个反应。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Understanding Polymerization",
+          "pdfPage": 146,
+          "printedPage": "122"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Understanding Polymerization",
+          "pdfPage": 147,
+          "printedPage": "123"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 146,
+          "quote": "They are like the runners, waiting for something to trigger polymerization. This is done by a special ingredient called an initiator."
+        },
+        {
+          "pdfPage": 147,
+          "quote": "initiator excites it with a boost of energy. But the monomer molecules do not like the extra energy and try to get rid of it."
+        }
+      ],
+      "hookType": "word-link"
+    },
+    {
+      "id": "nic-3a-17",
+      "question": {
+        "en": "A substance that speeds up a chemical reaction is a",
+        "zh": "能加快化学反应速度的物质叫什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "solvent.",
+          "zh": "溶剂（solvent）。"
+        },
+        {
+          "id": "b",
+          "en": "plasticizer.",
+          "zh": "增塑剂（plasticizer）。"
+        },
+        {
+          "id": "c",
+          "en": "primer.",
+          "zh": "结合剂（primer）。"
+        },
+        {
+          "id": "d",
+          "en": "catalyst.",
+          "zh": "催化剂（catalyst）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "A catalyst speeds up a chemical reaction, for example by helping initiators work better. Catalysts are in every type of nail enhancement product, which is why they harden quickly.",
+        "zh": "catalyst（催化剂）能加快化学反应，例如让引发剂更有效。所有加固甲产品都含催化剂，所以它们硬化得快。"
+      },
+      "lockPoint": {
+        "en": "A car's catalytic converter uses catalysts to speed up reactions that clean the exhaust.",
+        "zh": "催化剂的“催”= 催促，催着反应快点完成。汽车尾气的“催化转换器”（catalytic converter）也是这个原理。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Understanding Polymerization",
+          "pdfPage": 147,
+          "printedPage": "123"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 147,
+          "quote": "A catalyst (CAT-ah-list) is a substance that speeds up a chemical reaction by making initiators work more efficiently"
+        },
+        {
+          "pdfPage": 147,
+          "quote": "Catalysts are found in every type of nail enhancement product and are the reason why nail enhancements harden so quickly."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-3a-18",
+      "question": {
+        "en": "A monomer that joins different polymer chains together is",
+        "zh": "能把不同聚合物链连接在一起的单体是——"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "a cross-linker.",
+          "zh": "交联剂（cross-linker）。"
+        },
+        {
+          "id": "b",
+          "en": "an oligomer.",
+          "zh": "寡聚物（oligomer）。"
+        },
+        {
+          "id": "c",
+          "en": "a photoinitiator.",
+          "zh": "光引发剂（photoinitiator）。"
+        },
+        {
+          "id": "d",
+          "en": "a plasticizer.",
+          "zh": "增塑剂（plasticizer）。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Cross-linkers join polymer chains like rungs on a ladder. The net-like structure is strong and flexible, and more resistant to stains, water, and acetone.",
+        "zh": "cross-linker（交联剂）像梯子的横档一样把聚合物链连起来。这种网状结构坚固又有弹性，更能抵抗污渍、水和丙酮。"
+      },
+      "lockPoint": {
+        "en": "Cross-links → acetone can't easily unravel the chains → enhancements soak off slower than wraps or tip adhesive.",
+        "zh": "有交联 → 丙酮不容易拆开链 → 所以加固甲比包甲（wraps）或贴片胶（tip adhesive）更难泡掉。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Simple versus Cross-Linking Polymer Chains",
+          "pdfPage": 148,
+          "printedPage": "124"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 148,
+          "quote": "A cross-linker (CROSS LINK-ur) is a monomer that joins different polymer chains together."
+        },
+        {
+          "pdfPage": 148,
+          "quote": "Cross-links are also more resistant to solvents, including water and acetone."
+        },
+        {
+          "pdfPage": 148,
+          "quote": "This explains why cross-linked nail enhancements take longer to remove in acetone than products that are not cross-linked"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-3a-19",
+      "question": {
+        "en": "The pH scale, from 0 to 14, measures",
+        "zh": "pH 标度（0 到 14）用来测量——"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "water content.",
+          "zh": "含水量（water content）。"
+        },
+        {
+          "id": "b",
+          "en": "oil content.",
+          "zh": "含油量（oil content）。"
+        },
+        {
+          "id": "c",
+          "en": "acidity and alkalinity.",
+          "zh": "酸性和碱性的程度（acidity and alkalinity）。"
+        },
+        {
+          "id": "d",
+          "en": "hardness.",
+          "zh": "硬度（hardness）。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "The pH scale measures how acidic or alkaline a substance is. A pH of 7 is neutral, below 7 is acidic, and above 7 is alkaline.",
+        "zh": "pH 标度测量物质的酸碱程度。pH 7 是中性，低于 7 是酸性，高于 7 是碱性（alkaline）。"
+      },
+      "lockPoint": {
+        "en": "Milady: pH = potential hydrogen, the amount of hydrogen ions. More hydrogen ions = more acidic.",
+        "zh": "Milady：pH = potential hydrogen，即氢离子（hydrogen ion）的数量。氢离子越多，越偏酸性。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - The pH Scale",
+          "pdfPage": 661,
+          "printedPage": "166"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Describe Potential Hydrogen",
+          "pdfPage": 660,
+          "printedPage": "165"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 661,
+          "quote": "The pH scale (P-H SKAYL) is used to measure the acidity and alkalinity of substances. It has a range of 0 to 14."
+        },
+        {
+          "pdfPage": 660,
+          "quote": "The term pH represents the quantity of hydrogen ions."
+        },
+        {
+          "pdfPage": 660,
+          "quote": "The more hydrogen ions there are in a substance, the more acidic it will be."
+        }
+      ],
+      "hookType": "real-acronym"
+    },
+    {
+      "id": "nic-3a-20",
+      "question": {
+        "en": "What do oils, waxes, and soil on the nail plate do?",
+        "zh": "甲板上的油脂、蜡和污垢会造成什么影响？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Improve adhesion",
+          "zh": "增强附着"
+        },
+        {
+          "id": "b",
+          "en": "Block adhesion",
+          "zh": "阻碍附着（adhesion）"
+        },
+        {
+          "id": "c",
+          "en": "Speed up curing",
+          "zh": "加快固化"
+        },
+        {
+          "id": "d",
+          "en": "Raise the pH",
+          "zh": "提高 pH 值"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Adhesion happens when molecules on two surfaces attract each other. Oils, waxes, and soil contaminate the surface and block this, so a clean, dry nail gives better adhesion.",
+        "zh": "adhesion（附着）是两个表面的分子互相吸引而粘在一起。油脂、蜡和污垢会污染表面、阻碍附着，所以干净、干燥的甲面附着更好。"
+      },
+      "lockPoint": {
+        "en": "Tape won't stick to a greasy pan. Scrub and dry the nail first.",
+        "zh": "胶带粘不住油乎乎的锅。先刷洗、擦干甲面。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Adhesion",
+          "pdfPage": 141,
+          "printedPage": "117"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 141,
+          "quote": "Adhesion results when the molecules on one surface are attracted to the molecules on another surface."
+        },
+        {
+          "pdfPage": 141,
+          "quote": "Oils, waxes, and soil will contaminate a surface and block adhesion."
+        }
+      ],
+      "hookType": "real-life"
+    }
+  ],
+  "review": {
+    "reviewedAt": "2026-10-23",
+    "checks": [
+      "quotes found on cited pages (verify-nic-domain-evidence.py)",
+      "blind answer check: 20/20 matched key; changed and new questions re-checked blind",
+      "content and Chinese review: fixes applied",
+      "memory hooks fact-checked (word origins, Chinese characters, textbook facts): fixes applied"
+    ]
+  }
+}
