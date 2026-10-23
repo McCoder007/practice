@@ -11,6 +11,7 @@ export function ExamTopicBank({ bankId }: { bankId: NailExamBankId }) {
     <NailExamBankExperience
       bankId={bankId}
       showChinese={showChinese}
+      shuffleQuestionOrder
       chineseToggleInline={<ExamQuizChineseToggle placement="inline" />}
       chineseToggleFixed={<ExamQuizChineseToggle />}
     />
