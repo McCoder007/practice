@@ -53,9 +53,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   const googleTtsApiKey = process.env.NEXT_PUBLIC_GOOGLE_TTS_API_KEY || '';
   
   // Explicitly use the repo name prefix for the TTS script
-  const scriptPath = process.env.NODE_ENV === 'production' 
-    ? '/practice/google-tts.js' 
-    : '/google-tts.js';
+  // The build version in the URL makes browsers fetch the new voice script after
+  // each deploy instead of reusing a saved copy (GitHub Pages caches for 10 min).
+  const scriptVersion = encodeURIComponent(process.env.NEXT_PUBLIC_BUILD_VERSION || 'dev-local');
+  const scriptPath = `${process.env.NODE_ENV === 'production' ? '/practice' : ''}/google-tts.js?v=${scriptVersion}`;
   
   return (
     <html lang="en" suppressHydrationWarning>
