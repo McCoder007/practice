@@ -151,9 +151,9 @@ export function LookAlikeDrill() {
                 >
                   <span>
                     <span className="block text-xl font-semibold text-slate-900 dark:text-white">{item.word}</span>
+                    {showChinese && <span className="block text-base text-slate-500 dark:text-slate-400">{item.translation}</span>}
                     {answered && (
                       <span className="mt-0.5 block text-base text-slate-600 dark:text-slate-300">
-                        {showChinese && <>{item.translation} · </>}
                         {item.meaning.en}
                         {showChinese && <span className="block text-sm text-slate-500 dark:text-slate-400">{item.meaning.zh}</span>}
                       </span>
