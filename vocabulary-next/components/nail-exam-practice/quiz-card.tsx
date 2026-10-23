@@ -228,9 +228,10 @@ export function NailExamQuizCard({
                   : `Not quite${showChinese ? " 不太对" : ""}`}
             </p>
           </div>
-          {!isCorrect && correctChoice && (
-            <div className="rounded-xl bg-black/20 px-3.5 py-2.5">
-              <p className="text-sm font-semibold tracking-wide text-white/65 uppercase">
+          {correctChoice && (
+            <div className={cn("rounded-xl px-3.5 py-2.5", isCorrect ? "bg-emerald-500/20" : "bg-black/20")}>
+              <p className="flex items-center gap-1.5 text-sm font-semibold tracking-wide text-white/65 uppercase">
+                {isCorrect && <CheckCircle2 className="h-3.5 w-3.5 shrink-0 text-emerald-300" aria-hidden />}
                 Correct answer{showChinese && " / 正确答案"}
               </p>
               <div className="mt-0.5 flex flex-wrap items-baseline gap-x-1.5">
