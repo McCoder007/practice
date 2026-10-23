@@ -92,7 +92,7 @@ export function LookAlikeDrill() {
 
     const pick = (choice: number) => {
       if (answered) return
-      speak(prompt.group.items[choice].word)
+      // No sound on tap: a wrong pick read aloud would teach the wrong word. Speakers are separate.
       setPhase({
         ...phase,
         picked: choice,
