@@ -84,7 +84,7 @@
         {
           "id": "c",
           "en": "wipe with cotton ball soaked in 99% isopropyl alcohol.",
-          "zh": "用浸有99%异丙醇的棉球擦拭。"
+          "zh": "用浸有99%异丙醇的棉球擦拭"
         },
         {
           "id": "d",
@@ -726,7 +726,7 @@
         {
           "id": "c",
           "en": "wipe with cotton ball soaked in 99% isopropyl alcohol.",
-          "zh": "用浸有99%异丙醇的棉球擦拭。"
+          "zh": "用浸有99%异丙醇的棉球擦拭"
         },
         {
           "id": "d",
@@ -2095,7 +2095,7 @@
         {
           "id": "b",
           "en": "wipe with cotton ball soaked in 99% isopropyl alcohol.",
-          "zh": "用浸有99%异丙醇的棉球擦拭。"
+          "zh": "用浸有99%异丙醇的棉球擦拭"
         },
         {
           "id": "c",
@@ -5244,22 +5244,22 @@
         {
           "id": "a",
           "en": "Use social media to communicate with peers and clients.",
-          "zh": "使用社交媒体与同行和客户沟通。"
+          "zh": "使用社交媒体与同行和客户沟通"
         },
         {
           "id": "b",
           "en": "Emphasize a strong work ethic as well as good hygiene.",
-          "zh": "强调良好的职业道德和卫生习惯。"
+          "zh": "强调良好的职业道德和卫生习惯"
         },
         {
           "id": "c",
           "en": "Manage your personal pages or walls.",
-          "zh": "管理你的个人页面或动态墙。"
+          "zh": "管理你的个人页面或动态墙"
         },
         {
           "id": "d",
           "en": "Post helpful content.",
-          "zh": "发布有帮助的内容。"
+          "zh": "发布有帮助的内容"
         }
       ],
       "sourceAnswer": {
@@ -5397,22 +5397,22 @@
         {
           "id": "a",
           "en": "Eczema appears swollen, red, and hot to the touch, whereas dermatitis appears only as lesions.",
-          "zh": "湿疹表现为肿胀、发红且摸起来发热，而皮炎只表现为皮损。"
+          "zh": "湿疹表现为肿胀、发红且摸起来发热，而皮炎只表现为皮损"
         },
         {
           "id": "b",
           "en": "There are multiple types of dermatitis, but only one type of eczema.",
-          "zh": "皮炎有多种类型，但湿疹只有一种。"
+          "zh": "皮炎有多种类型，但湿疹只有一种"
         },
         {
           "id": "c",
           "en": "Eczema is painful and itchy, whereas dermatitis can often appear as a rash-like irritation.",
-          "zh": "湿疹疼痛且发痒，而皮炎常表现为皮疹样刺激。"
+          "zh": "湿疹疼痛且发痒，而皮炎常表现为皮疹样刺激"
         },
         {
           "id": "d",
           "en": "Eczema is not contagious, whereas dermatitis is.",
-          "zh": "湿疹不传染，而皮炎会传染。"
+          "zh": "湿疹不传染，而皮炎会传染"
         }
       ],
       "sourceAnswer": {
@@ -5550,22 +5550,22 @@
         {
           "id": "a",
           "en": "As you press down, the machine speed decreases; as you reduce pressure, the speed increases.",
-          "zh": "向下按压时机器速度降低；减小压力时速度提高。"
+          "zh": "向下按压时机器速度降低；减小压力时速度提高"
         },
         {
           "id": "b",
           "en": "As you press down, the machine unlocks; as you reduce pressure, the machine locks.",
-          "zh": "向下按压时机器解锁；减小压力时机器锁定。"
+          "zh": "向下按压时机器解锁；减小压力时机器锁定"
         },
         {
           "id": "c",
           "en": "As you press down, the machine locks; as you reduce pressure, the machine unlocks.",
-          "zh": "向下按压时机器锁定；减小压力时机器解锁。"
+          "zh": "向下按压时机器锁定；减小压力时机器解锁"
         },
         {
           "id": "d",
           "en": "As you press down, the machine speed increases; as you reduce pressure, the speed decreases.",
-          "zh": "向下按压时机器速度提高；减小压力时速度降低。"
+          "zh": "向下按压时机器速度提高；减小压力时速度降低"
         }
       ],
       "sourceAnswer": {

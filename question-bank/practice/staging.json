@@ -400,7 +400,7 @@
         {
           "id": "c",
           "en": "wipe with cotton ball soaked in 99% isopropyl alcohol.",
-          "zh": "用浸有99%异丙醇的棉球擦拭。"
+          "zh": "用浸有99%异丙醇的棉球擦拭"
         },
         {
           "id": "d",
@@ -2690,7 +2690,7 @@
         {
           "id": "c",
           "en": "wipe with cotton ball soaked in 99% isopropyl alcohol.",
-          "zh": "用浸有99%异丙醇的棉球擦拭。"
+          "zh": "用浸有99%异丙醇的棉球擦拭"
         },
         {
           "id": "d",
@@ -6216,7 +6216,7 @@
         {
           "id": "a",
           "en": "wipe with cotton ball soaked in 99% isopropyl alcohol.",
-          "zh": "用浸有99%异丙醇的棉球擦拭。"
+          "zh": "用浸有99%异丙醇的棉球擦拭"
         },
         {
           "id": "b",
@@ -6269,7 +6269,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-technical-01",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "0621f725a40a2eeffbd1a0b56a4be6a7b77978489717c54750239c2c55e0b0f7"
+      "reviewCandidateHash": "6172bed84c8ec1a77349d9dae993d17734059b012d3fb57e99fbb6ca0be0cd91"
     },
     {
       "id": "practice-nail-test-q090",
@@ -6926,7 +6926,7 @@
         {
           "id": "b",
           "en": "wipe with cotton ball soaked in 99% isopropyl alcohol.",
-          "zh": "用浸有99%异丙醇的棉球擦拭。"
+          "zh": "用浸有99%异丙醇的棉球擦拭"
         },
         {
           "id": "c",
@@ -7508,7 +7508,7 @@
         {
           "id": "b",
           "en": "When MSDS is current and readily accessible.",
-          "zh": "当安全数据表（MSDS）是最新的并且随时可取得时。"
+          "zh": "当安全数据表（MSDS）是最新的并且随时可取得时"
         },
         {
           "id": "c",
@@ -7556,7 +7556,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-infection-01",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "b71bedd05ceca99a781a7b0cceeedc264b956fb65769144031344badbf0c11b9"
+      "reviewCandidateHash": "193809dee2a7447453b3150f2e5eb33f5cc8c7ae805fda00d41afff60609d418"
     },
     {
       "id": "practice-nail-test-q108",
@@ -13052,7 +13052,7 @@
         {
           "id": "c",
           "en": "Calcaneus is the largest bone in the foot. Femur is the largest bone in the leg.",
-          "zh": "跟骨是足部最大的骨头。股骨是腿部最大的骨头。"
+          "zh": "跟骨是足部最大的骨头。股骨是腿部最大的骨头"
         },
         {
           "id": "d",
@@ -13095,7 +13095,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-anatomy-01",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "e4b3d9c26f29a344b8f4801c88b8683808fea0876070c93aad7710fa83893fa7"
+      "reviewCandidateHash": "2d13cd89f8a613ec2cd983054e0927d13356a38b9b3e3f37b4a5271ea3ebb432"
     },
     {
       "id": "practice-nail-test-q186",
@@ -20878,22 +20878,22 @@
         {
           "id": "a",
           "en": "It establishes the purpose and values of an institution.",
-          "zh": "确立一个机构的宗旨和价值观。"
+          "zh": "确立一个机构的宗旨和价值观"
         },
         {
           "id": "b",
           "en": "It shows the institution's compulsion to do things perfectly.",
-          "zh": "表明该机构凡事追求完美的强迫倾向。"
+          "zh": "表明该机构凡事追求完美的强迫倾向"
         },
         {
           "id": "c",
           "en": "It puts things off until tomorrow or a later date.",
-          "zh": "把事情拖到明天或更晚。"
+          "zh": "把事情拖到明天或更晚"
         },
         {
           "id": "d",
           "en": "It shows the institution's conscious effort to respect others.",
-          "zh": "表明该机构有意识地努力尊重他人。"
+          "zh": "表明该机构有意识地努力尊重他人"
         }
       ],
       "correctChoice": "a",
@@ -20930,7 +20930,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-professional-01",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "d484c9cece7851125660bebe5c57a4c87287fb2dd759e496ada153449082111e"
+      "reviewCandidateHash": "19bc61d167f7db5f81279f4309fb4b2e0445e3ee003c4c8472015192f77ff4e3"
     },
     {
       "id": "practice-comprehensive-002",
@@ -21242,22 +21242,22 @@
         {
           "id": "a",
           "en": "Use social media to communicate with peers and clients.",
-          "zh": "使用社交媒体与同行和客户沟通。"
+          "zh": "使用社交媒体与同行和客户沟通"
         },
         {
           "id": "b",
           "en": "Emphasize a strong work ethic as well as good hygiene.",
-          "zh": "强调良好的职业道德和卫生习惯。"
+          "zh": "强调良好的职业道德和卫生习惯"
         },
         {
           "id": "c",
           "en": "Manage your personal pages or walls.",
-          "zh": "管理你的个人页面或动态墙。"
+          "zh": "管理你的个人页面或动态墙"
         },
         {
           "id": "d",
           "en": "Post helpful content.",
-          "zh": "发布有帮助的内容。"
+          "zh": "发布有帮助的内容"
         }
       ],
       "correctChoice": "b",
@@ -21671,22 +21671,22 @@
         {
           "id": "a",
           "en": "Wear a protective mask.",
-          "zh": "佩戴防护口罩。"
+          "zh": "佩戴防护口罩"
         },
         {
           "id": "b",
           "en": "Stay home until you are well.",
-          "zh": "留在家中直到康复。"
+          "zh": "留在家中直到康复"
         },
         {
           "id": "c",
           "en": "Avoid shaking hands with clients.",
-          "zh": "避免与客户握手。"
+          "zh": "避免与客户握手"
         },
         {
           "id": "d",
           "en": "Sneeze into your elbow.",
-          "zh": "对着肘部打喷嚏。"
+          "zh": "对着肘部打喷嚏"
         }
       ],
       "correctChoice": "b",
@@ -21723,7 +21723,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-professional-01",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "f197b4f68b6e3f3b7d35e2a5ea6870343a9fde0b19ca6618c45f56bcad134604"
+      "reviewCandidateHash": "c5d14282efa203342849b451a7db3df9b0f90112d23548b2c60c8d91f4dddda2"
     },
     {
       "id": "practice-comprehensive-013",
@@ -22035,22 +22035,22 @@
         {
           "id": "a",
           "en": "Neither direct nor indirect transmission require contact with another person.",
-          "zh": "直接传播和间接传播都不需要与他人接触。"
+          "zh": "直接传播和间接传播都不需要与他人接触"
         },
         {
           "id": "b",
           "en": "Direct transmission requires contact with another person whereas indirect transmission does not.",
-          "zh": "直接传播需要与他人接触，而间接传播不需要。"
+          "zh": "直接传播需要与他人接触，而间接传播不需要"
         },
         {
           "id": "c",
           "en": "Direct transmission does not require contact with another person whereas indirect transmission does.",
-          "zh": "直接传播不需要与他人接触，而间接传播需要。"
+          "zh": "直接传播不需要与他人接触，而间接传播需要"
         },
         {
           "id": "d",
           "en": "Both direct and indirect transmission require contact with another person.",
-          "zh": "直接传播和间接传播都需要与他人接触。"
+          "zh": "直接传播和间接传播都需要与他人接触"
         }
       ],
       "correctChoice": "b",
@@ -22087,7 +22087,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-infection-02",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "baca5c42cec5465931ad85d312e67733a6227fe6366b1d07e01c6f2042add847"
+      "reviewCandidateHash": "122c536c4477a34171e946de4da7fd2cc8f541cf4e098182df7fa5496a224a3a"
     },
     {
       "id": "practice-comprehensive-018",
@@ -22107,22 +22107,22 @@
         {
           "id": "a",
           "en": "Respiratory droplets do not stay in the air as long.",
-          "zh": "呼吸道飞沫不会在空气中停留很长时间。"
+          "zh": "呼吸道飞沫不会在空气中停留很长时间"
         },
         {
           "id": "b",
           "en": "Airborne transmission involves wetter particles which are therefore less likely to be transmitted.",
-          "zh": "空气传播涉及较湿的颗粒，因此传播可能性较小。"
+          "zh": "空气传播涉及较湿的颗粒，因此传播可能性较小"
         },
         {
           "id": "c",
           "en": "Only airborne transmission is guaranteed to make individuals ill.",
-          "zh": "只有空气传播才会使人患病。"
+          "zh": "只有空气传播才会使人患病"
         },
         {
           "id": "d",
           "en": "Respiratory droplets are smaller particles and therefore more likely to be transmitted.",
-          "zh": "呼吸道飞沫是较小的颗粒，因此更容易传播。"
+          "zh": "呼吸道飞沫是较小的颗粒，因此更容易传播"
         }
       ],
       "correctChoice": "a",
@@ -22160,7 +22160,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-infection-02",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "e611698c1013eacf7efdebb346ea4eeb7e79e4b1813b9c5a623462a97d30b0ec"
+      "reviewCandidateHash": "2a61a39587e113851fa2c7ee3d06697ab9545f48dd0db80543eaf6f1971e15fb"
     },
     {
       "id": "practice-comprehensive-019",
@@ -22843,22 +22843,22 @@
         {
           "id": "a",
           "en": "Attempt to clean around electrical outlets while equipment is plugged in.",
-          "zh": "设备仍插在电源插座上时清洁其周围。"
+          "zh": "设备仍插在电源插座上时清洁其周围"
         },
         {
           "id": "b",
           "en": "Twist electrical cords to protect against a short circuit.",
-          "zh": "扭曲电线以防短路。"
+          "zh": "扭曲电线以防短路"
         },
         {
           "id": "c",
           "en": "Disconnect appliances when they are not in use.",
-          "zh": "不使用电器时拔下电源。"
+          "zh": "不使用电器时拔下电源"
         },
         {
           "id": "d",
           "en": "Attempt to repair electrical appliances when they malfunction.",
-          "zh": "电器发生故障时自行尝试修理。"
+          "zh": "电器发生故障时自行尝试修理"
         }
       ],
       "correctChoice": "c",
@@ -22896,7 +22896,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-infection-01",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "d3a86bfaedd48dd70b398eaa8263bc81e73de29abcb121d0b29eb0033a94d707"
+      "reviewCandidateHash": "f285c4df996fa80f95612b3db6a204585b1d8fd1f9a4b47f189defa542720a44"
     },
     {
       "id": "practice-comprehensive-029",
@@ -23799,22 +23799,22 @@
         {
           "id": "a",
           "en": "By the later part of the twentieth century, nail technicians were taking color inspiration from movie stars, whereas in the earlier part of the century, they were not using color at all in nail care.",
-          "zh": "到 20 世纪后期，美甲师开始从电影明星身上汲取色彩灵感，而世纪前期的指甲护理完全不使用色彩。"
+          "zh": "到 20 世纪后期，美甲师开始从电影明星身上汲取色彩灵感，而世纪前期的指甲护理完全不使用色彩"
         },
         {
           "id": "b",
           "en": "Weekly manicures were not something that people did in the earlier part of the twentieth century; however, in the later half of the twentieth century, their popularity skyrocketed.",
-          "zh": "20 世纪前期，人们不做每周手部护理；但到了 20 世纪后半期，这项服务的受欢迎程度急剧上升。"
+          "zh": "20 世纪前期，人们不做每周手部护理；但到了 20 世纪后半期，这项服务的受欢迎程度急剧上升"
         },
         {
           "id": "c",
           "en": "In the first part of the twentieth century, nail enhancements used things like acrylic, whereas the later part of the century ushered in much more natural nail care.",
-          "zh": "20 世纪前期的人工甲增强使用丙烯酸类材料，而世纪后期则开启了自然得多的指甲护理。"
+          "zh": "20 世纪前期的人工甲增强使用丙烯酸类材料，而世纪后期则开启了自然得多的指甲护理"
         },
         {
           "id": "d",
           "en": "Nail enhancements such as acrylic tips, intricate nail art, and UV gel became popular in the later part of the twentieth century, whereas technologies and techniques in the earlier part of the twentieth century were more limited.",
-          "zh": "丙烯酸甲片、精细指甲彩绘和 UV 凝胶等人工甲增强在 20 世纪后期流行起来，而世纪前期的技术与手法较为有限。"
+          "zh": "丙烯酸甲片、精细指甲彩绘和 UV 凝胶等人工甲增强在 20 世纪后期流行起来，而世纪前期的技术与手法较为有限"
         }
       ],
       "correctChoice": "d",
@@ -23851,7 +23851,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-professional-01",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "44f92ac56759be090a87abae5399b3e4c670b3a2910c62d089f5b459abcdebb3"
+      "reviewCandidateHash": "a6c6f7fab9047e5a9c6ee24894c8cf03fcf6b8c2040e0e89366fc2480a9e7381"
     },
     {
       "id": "practice-comprehensive-042",
@@ -24458,22 +24458,22 @@
         {
           "id": "a",
           "en": "Eczema appears swollen, red, and hot to the touch, whereas dermatitis appears only as lesions.",
-          "zh": "湿疹表现为肿胀、发红且摸起来发热，而皮炎只表现为皮损。"
+          "zh": "湿疹表现为肿胀、发红且摸起来发热，而皮炎只表现为皮损"
         },
         {
           "id": "b",
           "en": "There are multiple types of dermatitis, but only one type of eczema.",
-          "zh": "皮炎有多种类型，但湿疹只有一种。"
+          "zh": "皮炎有多种类型，但湿疹只有一种"
         },
         {
           "id": "c",
           "en": "Eczema is painful and itchy, whereas dermatitis can often appear as a rash-like irritation.",
-          "zh": "湿疹疼痛且发痒，而皮炎常表现为皮疹样刺激。"
+          "zh": "湿疹疼痛且发痒，而皮炎常表现为皮疹样刺激"
         },
         {
           "id": "d",
           "en": "Eczema is not contagious, whereas dermatitis is.",
-          "zh": "湿疹不传染，而皮炎会传染。"
+          "zh": "湿疹不传染，而皮炎会传染"
         }
       ],
       "correctChoice": "c",
@@ -26255,22 +26255,22 @@
         {
           "id": "a",
           "en": "As you press down, the machine speed decreases; as you reduce pressure, the speed increases.",
-          "zh": "向下按压时机器速度降低；减小压力时速度提高。"
+          "zh": "向下按压时机器速度降低；减小压力时速度提高"
         },
         {
           "id": "b",
           "en": "As you press down, the machine unlocks; as you reduce pressure, the machine locks.",
-          "zh": "向下按压时机器解锁；减小压力时机器锁定。"
+          "zh": "向下按压时机器解锁；减小压力时机器锁定"
         },
         {
           "id": "c",
           "en": "As you press down, the machine locks; as you reduce pressure, the machine unlocks.",
-          "zh": "向下按压时机器锁定；减小压力时机器解锁。"
+          "zh": "向下按压时机器锁定；减小压力时机器解锁"
         },
         {
           "id": "d",
           "en": "As you press down, the machine speed increases; as you reduce pressure, the speed decreases.",
-          "zh": "向下按压时机器速度提高；减小压力时速度降低。"
+          "zh": "向下按压时机器速度提高；减小压力时速度降低"
         }
       ],
       "correctChoice": "d",
@@ -26688,22 +26688,22 @@
         {
           "id": "a",
           "en": "It is not necessary for a dry manicure to be performed before a nail tip application; it is a special luxury service that can be added on.",
-          "zh": "粘贴甲片前不必进行干式修甲；这只是一项可加选的特别奢华服务。"
+          "zh": "粘贴甲片前不必进行干式修甲；这只是一项可加选的特别奢华服务"
         },
         {
           "id": "b",
           "en": "If any leftover nail polish is left on the nail, it will show through on the new extension.",
-          "zh": "如果甲面留有任何指甲油，都会透过新的延长甲显现出来。"
+          "zh": "如果甲面留有任何指甲油，都会透过新的延长甲显现出来"
         },
         {
           "id": "c",
           "en": "The client should be relaxed and enjoy the nail service, and a dry manicure helps to do that.",
-          "zh": "顾客应该放松并享受美甲服务，而干式修甲有助于达到这一目的。"
+          "zh": "顾客应该放松并享受美甲服务，而干式修甲有助于达到这一目的"
         },
         {
           "id": "d",
           "en": "Whatever is left on the nail will eventually lift, which will cause the tip to lift as well.",
-          "zh": "甲面上留下的任何物质最终都会翘起，从而也会使甲片翘起。"
+          "zh": "甲面上留下的任何物质最终都会翘起，从而也会使甲片翘起"
         }
       ],
       "correctChoice": "d",
@@ -26740,7 +26740,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-a",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "bfe2df646fa225b3f57f56d6db234c737aeebfc768fa52564ea20242417cc0c3"
+      "reviewCandidateHash": "7093540780f678943cd11832cc7567a9d3e5bf8b2dfcc14a9f054e3dea9482f6"
     },
     {
       "id": "practice-comprehensive-082",
@@ -26904,22 +26904,22 @@
         {
           "id": "a",
           "en": "The middle finger should be the longest nail.",
-          "zh": "中指甲应最长。"
+          "zh": "中指甲应最长"
         },
         {
           "id": "b",
           "en": "The nails on all five fingers should be the same length.",
-          "zh": "五个手指的指甲应长度相同。"
+          "zh": "五个手指的指甲应长度相同"
         },
         {
           "id": "c",
           "en": "The middle, index, and ring fingers should all be the same length.",
-          "zh": "中指、食指和无名指的指甲应长度相同。"
+          "zh": "中指、食指和无名指的指甲应长度相同"
         },
         {
           "id": "d",
           "en": "The index and middle finger nails should be the same length, and the pinky and ring finger nails should be the same length.",
-          "zh": "食指甲与中指甲应长度相同，小指甲与无名指甲应长度相同。"
+          "zh": "食指甲与中指甲应长度相同，小指甲与无名指甲应长度相同"
         }
       ],
       "correctChoice": "c",
@@ -26956,7 +26956,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-enhancements-02",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "f62ba3674406a530ed49992573aac11a843d1f00240b8898af20411432e1b2ea"
+      "reviewCandidateHash": "2f1cb148b5cf006068c9c3b1f874f2d03fe538a98c452c424a78819bb55a8563"
     },
     {
       "id": "practice-comprehensive-085",
@@ -27049,22 +27049,22 @@
         {
           "id": "a",
           "en": "Thick or thin viscosity resins are quick to cure.",
-          "zh": "无论黏度高低，树脂都能快速固化。"
+          "zh": "无论黏度高低，树脂都能快速固化"
         },
         {
           "id": "b",
           "en": "Cure time for all resins-thick or thin-tends to be about 48 hours.",
-          "zh": "所有树脂无论黏度高低，固化时间通常都约为48小时。"
+          "zh": "所有树脂无论黏度高低，固化时间通常都约为48小时"
         },
         {
           "id": "c",
           "en": "The thinner the viscosity, the faster cure time; the thicker the viscosity, the longer the cure time.",
-          "zh": "黏度越低，固化越快；黏度越高，固化越慢。"
+          "zh": "黏度越低，固化越快；黏度越高，固化越慢"
         },
         {
           "id": "d",
           "en": "The thicker the viscosity, the faster the cure time; the thinner the viscosity, the slower the cure time.",
-          "zh": "黏度越高，固化越快；黏度越低，固化越慢。"
+          "zh": "黏度越高，固化越快；黏度越低，固化越慢"
         }
       ],
       "correctChoice": "c",
@@ -27101,7 +27101,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-enhancements-02",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "5bc1c093e6aaeae863500aa4dfe4ba34bce682ab4947870b80aa9fb2bbf28d79"
+      "reviewCandidateHash": "e04ab6ded0579abe1dc92efd70e0a3434a1fe17b619fd84023601bdca6b34275"
     },
     {
       "id": "practice-comprehensive-087",
@@ -27193,22 +27193,22 @@
         {
           "id": "a",
           "en": "They can be used with liquid monomer",
-          "zh": "可与单体液一起使用。"
+          "zh": "可与单体液一起使用"
         },
         {
           "id": "b",
           "en": "They dry completely translucent and undetectable",
-          "zh": "干燥后完全透明，无法察觉。"
+          "zh": "干燥后完全透明，无法察觉"
         },
         {
           "id": "c",
           "en": "They can provide the client with an acrylic overlay and nail color all in one",
-          "zh": "可一次为顾客同时提供丙烯酸覆盖层和甲色。"
+          "zh": "可一次为顾客同时提供丙烯酸覆盖层和甲色"
         },
         {
           "id": "d",
           "en": "They do not require the use of a nail dehydrator.",
-          "zh": "不需要使用甲面脱水剂。"
+          "zh": "不需要使用甲面脱水剂"
         }
       ],
       "correctChoice": "c",
@@ -27246,7 +27246,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-enhancements-02",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "71aef952939ab5cf4809d591a99ec116e06282533055d1fb5aef9c816f81c382"
+      "reviewCandidateHash": "cf7e4ec73e8b41d83a8dcd36136a386d19e16309053e89f64fae43af768f4fa2"
     },
     {
       "id": "practice-comprehensive-089",
@@ -27844,22 +27844,22 @@
         {
           "id": "a",
           "en": "medium and fine buffing.",
-          "zh": "用中目和细目抛光锉打磨。"
+          "zh": "用中目和细目抛光锉打磨"
         },
         {
           "id": "b",
           "en": "exposure to UV or LED light curing",
-          "zh": "接受UV或LED光照固化。"
+          "zh": "接受UV或LED光照固化"
         },
         {
           "id": "c",
           "en": "another layer of dehydrator.",
-          "zh": "再涂一层脱水剂。"
+          "zh": "再涂一层脱水剂"
         },
         {
           "id": "d",
           "en": "repeat preparation.",
-          "zh": "重复预处理。"
+          "zh": "重复预处理"
         }
       ],
       "correctChoice": "b",
@@ -27896,7 +27896,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-enhancements-02",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "a1a4d7beb36637967cbfb6d0f83d3ab888b103a5f6f50ef297874b1c36481ddc"
+      "reviewCandidateHash": "30f6477b7ac65613abb1923988a8d2877f4555ebfe4a19d7017acd7d4ae53235"
     },
     {
       "id": "practice-comprehensive-098",
@@ -27916,22 +27916,22 @@
         {
           "id": "a",
           "en": "It has increased revenues by expanding the service menus offered at salons.",
-          "zh": "通过扩大沙龙提供的服务项目，增加了收入。"
+          "zh": "通过扩大沙龙提供的服务项目，增加了收入"
         },
         {
           "id": "b",
           "en": "It has increased the amount of parasites that are transmitted from one client to another.",
-          "zh": "增加了从一位顾客传播给另一位顾客的寄生虫数量。"
+          "zh": "增加了从一位顾客传播给另一位顾客的寄生虫数量"
         },
         {
           "id": "c",
           "en": "It has allowed nail technicians to challenge state boards to expand their licenses.",
-          "zh": "使美甲师能够向州考试委员会提出扩大执照范围的要求。"
+          "zh": "使美甲师能够向州考试委员会提出扩大执照范围的要求"
         },
         {
           "id": "d",
           "en": "It has decreased the number of clients a nail technician can see in one day.",
-          "zh": "减少了美甲师一天内可接待的顾客数量。"
+          "zh": "减少了美甲师一天内可接待的顾客数量"
         }
       ],
       "correctChoice": "a",
@@ -27968,7 +27968,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-enhancements-02",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "a586e335f61a665441488791926286b141e7434642d55e92d8e3b31919deb992"
+      "reviewCandidateHash": "2df701bb5c9d419c9a0317ab2cbaf1f92be33ac3f883880441a036d1ee6c8a46"
     },
     {
       "id": "practice-comprehensive-099",
@@ -28348,22 +28348,22 @@
         {
           "id": "a",
           "en": "Your personality is the sum of your attitudes and behavioral traits only.",
-          "zh": "你的个性仅仅是态度和行为特征的总和。"
+          "zh": "你的个性仅仅是态度和行为特征的总和"
         },
         {
           "id": "b",
           "en": "Your personality is the sum of your characteristics, attitudes and behavioral traits.",
-          "zh": "你的个性是个人特质、态度和行为特征的总和。"
+          "zh": "你的个性是个人特质、态度和行为特征的总和"
         },
         {
           "id": "c",
           "en": "Your personality is the sum of your characteristics and behavioral traits only.",
-          "zh": "你的个性仅仅是个人特质和行为特征的总和。"
+          "zh": "你的个性仅仅是个人特质和行为特征的总和"
         },
         {
           "id": "d",
           "en": "Your personality is the sum of your characteristics and attitudes only.",
-          "zh": "你的个性仅仅是个人特质和态度的总和。"
+          "zh": "你的个性仅仅是个人特质和态度的总和"
         }
       ],
       "correctChoice": "b",
@@ -28400,7 +28400,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-professional-01",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "9efbc95004744ade2f550f878c6ad837e893ee52b0b8679152ccf627bbe72f2f"
+      "reviewCandidateHash": "e1b05991f4cadda29f7bde1ae1dfaf68be23e92447e5586c8888edc5f859dcae"
     },
     {
       "id": "practice-comprehensive-106",
@@ -28420,22 +28420,22 @@
         {
           "id": "a",
           "en": "Be attentive",
-          "zh": "保持专注。"
+          "zh": "保持专注"
         },
         {
           "id": "b",
           "en": "React instead of responding.",
-          "zh": "作出情绪反应，而不是经过思考后回应。"
+          "zh": "作出情绪反应，而不是经过思考后回应"
         },
         {
           "id": "c",
           "en": "Talk less, listen more.",
-          "zh": "少说多听。"
+          "zh": "少说多听"
         },
         {
           "id": "d",
           "en": "Believe in yourself.",
-          "zh": "相信自己。"
+          "zh": "相信自己"
         }
       ],
       "correctChoice": "b",
@@ -28472,7 +28472,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-professional-01",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "167c874d02acd68a0dbd770c357d413b797646602bdfb762c41b98eaf0064d77"
+      "reviewCandidateHash": "3d96870c80e8f692fa473cb68d016fb975ef5be253b77a005e43fcd904a86bd1"
     },
     {
       "id": "practice-comprehensive-107",
@@ -28492,22 +28492,22 @@
         {
           "id": "a",
           "en": "It is intended for the client’s use.",
-          "zh": "供客户使用。"
+          "zh": "供客户使用"
         },
         {
           "id": "b",
           "en": "It is the client’s permanent progress record of services received",
-          "zh": "它是客户接受服务的永久进度记录。"
+          "zh": "它是客户接受服务的永久进度记录"
         },
         {
           "id": "c",
           "en": "It is updated with each client visit",
-          "zh": "每次客户来访时都会更新。"
+          "zh": "每次客户来访时都会更新"
         },
         {
           "id": "d",
           "en": "It is completed by the beauty and wellness professional performing the service.",
-          "zh": "由提供服务的美容与健康专业人员填写。"
+          "zh": "由提供服务的美容与健康专业人员填写"
         }
       ],
       "correctChoice": "a",
@@ -28544,7 +28544,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-professional-01",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "6e9eec1ab5dffa41314cf0bd5949de64e014c41a721c944b31bcd0781bb7ec8d"
+      "reviewCandidateHash": "842e75ed087f692f36ec65a70f08abddf5efe376bb6fefadf7b9dbb3f86823d4"
     },
     {
       "id": "practice-comprehensive-108",
@@ -29130,23 +29130,23 @@
         {
           "id": "a",
           "en": "They are also referred to as statutes",
-          "zh": "规章也称为成文法。"
+          "zh": "规章也称为成文法"
         },
         {
           "id": "b",
           "en": "They are less specific than laws.",
-          "zh": "规章不如法律具体。",
+          "zh": "规章不如法律具体",
           "sourceEn": "They are less pacific than laws."
         },
         {
           "id": "c",
           "en": "They are just the same as laws",
-          "zh": "规章与法律相同。"
+          "zh": "规章与法律相同"
         },
         {
           "id": "d",
           "en": "They are more specific than laws.",
-          "zh": "规章比法律更具体。"
+          "zh": "规章比法律更具体"
         }
       ],
       "correctChoice": "d",
@@ -29191,7 +29191,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-technical-01",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "57b1705cd53484f968b0e09a39c0823ac59df1fbb8b8582a3ac114296e97505f"
+      "reviewCandidateHash": "47290381297a0a3a7ec04b6f64149f64bca56196d18ae64f0967412e7de83d7a"
     },
     {
       "id": "practice-comprehensive-118",
@@ -29427,22 +29427,22 @@
         {
           "id": "a",
           "en": "You have contracted an occupational disease.",
-          "zh": "患上了职业病。"
+          "zh": "患上了职业病"
         },
         {
           "id": "b",
           "en": "You have contracted a pathogenic disease.",
-          "zh": "感染了致病性疾病。"
+          "zh": "感染了致病性疾病"
         },
         {
           "id": "c",
           "en": "You have contracted a diagnosed disease.",
-          "zh": "感染了已诊断疾病。"
+          "zh": "感染了已诊断疾病"
         },
         {
           "id": "d",
           "en": "You have contracted a parasitic disease.",
-          "zh": "感染了寄生虫病。"
+          "zh": "感染了寄生虫病"
         }
       ],
       "correctChoice": "a",
@@ -29479,7 +29479,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-technical-01",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "a31d324dc49733ed39e724acb32c10deb683bb0f75351f5ff9f249aa87585660"
+      "reviewCandidateHash": "3eb61115f112b7ebb11dc6d22e22b94ad01f8702b242c34a3f5340bf7afbc982"
     },
     {
       "id": "practice-comprehensive-122",
@@ -29641,22 +29641,22 @@
         {
           "id": "a",
           "en": "Sterilization destroys all microbial life except for spores",
-          "zh": "灭菌会消灭除芽孢以外的所有微生物生命。"
+          "zh": "灭菌会消灭除芽孢以外的所有微生物生命"
         },
         {
           "id": "b",
           "en": "Sterilization is usually mandated in the beauty and wellness industry",
-          "zh": "美容与健康行业通常获准采用消毒。"
+          "zh": "美容与健康行业通常获准采用消毒"
         },
         {
           "id": "c",
           "en": "Sterilization destroys all microbial life including spores",
-          "zh": "消毒会消灭包括芽孢在内的所有微生物生命。"
+          "zh": "消毒会消灭包括芽孢在内的所有微生物生命"
         },
         {
           "id": "d",
           "en": "Sterilization is the first step in defense against the spread of disease.",
-          "zh": "卫生处理是防止疾病传播的第一步。"
+          "zh": "卫生处理是防止疾病传播的第一步"
         }
       ],
       "correctChoice": "c",
@@ -29693,7 +29693,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-infection-02",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "0eac20a78dd59f4187f33000a703c0dcafd3cedacbd7e2007bccd6c5030445ec"
+      "reviewCandidateHash": "23f0c73d9b5d7c702ea186bd3b3b1d9a79202e171614f0d7a5ce494a1cc56547"
     },
     {
       "id": "practice-comprehensive-125",
@@ -30001,22 +30001,22 @@
         {
           "id": "a",
           "en": "The safest way to dispose of them is down the drain",
-          "zh": "最安全的处置方法是倒入下水道。"
+          "zh": "最安全的处置方法是倒入下水道"
         },
         {
           "id": "b",
           "en": "They can be safely used on and applied to the skin",
-          "zh": "可安全用于皮肤。"
+          "zh": "可安全用于皮肤"
         },
         {
           "id": "c",
           "en": "They have a very low pH",
-          "zh": "它们的pH很低。"
+          "zh": "它们的pH很低"
         },
         {
           "id": "d",
           "en": "They are known carcinogens.",
-          "zh": "它们是已知的致癌物。"
+          "zh": "它们是已知的致癌物"
         }
       ],
       "correctChoice": "d",
@@ -30053,7 +30053,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-infection-02",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "771383cc7da52ad4429a553a28388a51de13c2fcba125ac3ba0d95861a4d5622"
+      "reviewCandidateHash": "73448ca00082bc90a3995cd145e0318f7c5de4e3ad4564e41c3f3984c5c6f41b"
     },
     {
       "id": "practice-comprehensive-132",
@@ -30073,22 +30073,22 @@
         {
           "id": "a",
           "en": "Avoid skin and eye contact",
-          "zh": "避免接触皮肤和眼睛。"
+          "zh": "避免接触皮肤和眼睛"
         },
         {
           "id": "b",
           "en": "Use tongs to remove implements from disinfectants",
-          "zh": "使用夹钳从消毒剂中取出器具。"
+          "zh": "使用夹钳从消毒剂中取出器具"
         },
         {
           "id": "c",
           "en": "Wear gloves and safety glasses",
-          "zh": "佩戴手套和护目镜。"
+          "zh": "佩戴手套和护目镜"
         },
         {
           "id": "d",
           "en": "Use disinfectants directly on dirty, soft, porous surfaces",
-          "zh": "把消毒剂直接用于肮脏、柔软、多孔的表面。"
+          "zh": "把消毒剂直接用于肮脏、柔软、多孔的表面"
         }
       ],
       "correctChoice": "d",
@@ -30125,7 +30125,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-infection-02",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "fed3725cd4d76a6b33974e8d9a1557e2c56fec12d4fc60990c262cdc7c17e03a"
+      "reviewCandidateHash": "f69aec73b24d802d5f46451c16cc6f5f74fc41c5f98b3f76001f69bc10f4b7de"
     },
     {
       "id": "practice-comprehensive-133",
@@ -31149,22 +31149,22 @@
         {
           "id": "a",
           "en": "They are immiscible",
-          "zh": "它们互不相溶。"
+          "zh": "它们互不相溶"
         },
         {
           "id": "b",
           "en": "They are usually a solid color",
-          "zh": "它们通常呈纯色。"
+          "zh": "它们通常呈纯色"
         },
         {
           "id": "c",
           "en": "They are surfactants",
-          "zh": "它们是表面活性剂。"
+          "zh": "它们是表面活性剂"
         },
         {
           "id": "d",
           "en": "They are stable mixtures",
-          "zh": "它们是稳定混合物。"
+          "zh": "它们是稳定混合物"
         }
       ],
       "correctChoice": "d",
@@ -31201,7 +31201,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-chemistry-01",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "97b57328f10fa2cefa8e529cb4187c73e16beec1fd99ec5491fd506f38c81646"
+      "reviewCandidateHash": "cbd3b1e3f82fca2986c1c58500dfd7cb7975f6b359d434ab1cb5e96e47664f12"
     },
     {
       "id": "practice-comprehensive-149",
@@ -31937,22 +31937,22 @@
         {
           "id": "a",
           "en": "It will allow you to bypass the state board exam and move straight into your career.",
-          "zh": "让你绕过州委员会考试并直接开始职业生涯。"
+          "zh": "让你绕过州委员会考试并直接开始职业生涯"
         },
         {
           "id": "b",
           "en": "It will help you to promote yourself and build a loyal client base.",
-          "zh": "帮助你推销自己并建立忠诚的客户群。"
+          "zh": "帮助你推销自己并建立忠诚的客户群"
         },
         {
           "id": "c",
           "en": "It will guarantee you a job with high wages and good working conditions",
-          "zh": "保证你获得一份高薪且工作条件优越的工作。"
+          "zh": "保证你获得一份高薪且工作条件优越的工作"
         },
         {
           "id": "d",
           "en": "It will automatically translate to a large number of loyal clients.",
-          "zh": "自动为你带来大量忠诚客户。"
+          "zh": "自动为你带来大量忠诚客户"
         }
       ],
       "correctChoice": "b",
@@ -31989,7 +31989,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-professional-01",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "f4103ecf805b6cc968b3fe58d931299733ba24f6aeda1dada978a6af254d958f"
+      "reviewCandidateHash": "acf5920742cf6d9fd4cef61999c0f1d5ea959ae3aa4b14ac07f16c5894cddc4d"
     },
     {
       "id": "practice-comprehensive-163",
@@ -32009,22 +32009,22 @@
         {
           "id": "a",
           "en": "You are ticket upgrading",
-          "zh": "提高客单价。"
+          "zh": "提高客单价"
         },
         {
           "id": "b",
           "en": "You are retailing",
-          "zh": "进行零售销售。"
+          "zh": "进行零售销售"
         },
         {
           "id": "c",
           "en": "You are marketing",
-          "zh": "进行营销。"
+          "zh": "进行营销"
         },
         {
           "id": "d",
           "en": "You are rebooking.",
-          "zh": "再次预约。"
+          "zh": "再次预约"
         }
       ],
       "correctChoice": "b",
@@ -32061,7 +32061,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-professional-01",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "5f243b605fe418b8a82412be9bacd3e2f414aa1201623954f131b0a6c3e9f8f6"
+      "reviewCandidateHash": "f1bdf1aabe87359c32a6adddc8f65fdef18379dde695482f349a885d0737d2ce"
     },
     {
       "id": "practice-comprehensive-164",
@@ -33873,22 +33873,22 @@
         {
           "id": "a",
           "en": "Psoriasis is caused by skin cells that turn over faster than normal.",
-          "zh": "银屑病由皮肤细胞更新速度快于正常速度引起。"
+          "zh": "银屑病由皮肤细胞更新速度快于正常速度引起"
         },
         {
           "id": "b",
           "en": "Cellulitis is highly contagious and can spread from one person to another very easily.",
-          "zh": "蜂窝织炎传染性很强，很容易在人与人之间传播。"
+          "zh": "蜂窝织炎传染性很强，很容易在人与人之间传播"
         },
         {
           "id": "c",
           "en": "Eczema is an inflammatory disease than can cause painful itching and is either acute or chronic",
-          "zh": "湿疹是一种炎症性疾病，可引起疼痛性瘙痒，并有急性或慢性之分。"
+          "zh": "湿疹是一种炎症性疾病，可引起疼痛性瘙痒，并有急性或慢性之分"
         },
         {
           "id": "d",
           "en": "Psoriasis can affect the nail plates, as well as the skin.",
-          "zh": "银屑病可影响甲板，也可影响皮肤。"
+          "zh": "银屑病可影响甲板，也可影响皮肤"
         }
       ],
       "correctChoice": "b",
@@ -33925,7 +33925,7 @@
       ],
       "teachingAuthor": "codex-authoring-run-2026-08-13-skin-01",
       "authoredAt": "2026-08-13",
-      "reviewCandidateHash": "433d640e8ba4d3fa1d92e633313fccb3263d95876e30fb01d651cdc27c1fe0ad"
+      "reviewCandidateHash": "d7e13863c7b1871c6c90da262dd9faccd38696066088f7736a066cc3f384fa86"
     }
   ]
 }
