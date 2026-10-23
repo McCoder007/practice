@@ -37,15 +37,6 @@ const ACCENT = {
   fuchsia: "border-fuchsia-200 from-fuchsia-50 to-white dark:border-fuchsia-900/50 dark:from-fuchsia-950/30 dark:to-slate-800",
 } as const
 
-const WORD_REEL = {
-  href: "/nail-exam-word-reel",
-  title: { en: "Nail Exam Word Reel", zh: "美甲考试词汇卷轴" },
-  description: {
-    en: "48 vocabulary cards with test words and related forms",
-    zh: "48 张考试词汇及相关词形卡片",
-  },
-} as const
-
 const SECTIONS = {
   start: { en: "Start here", zh: "从这里开始" },
   banks: { en: "Practice banks", zh: "练习题库" },
@@ -121,10 +112,10 @@ export function NailExamPracticeHub() {
 
           <SectionHeading title={SECTIONS.start} showChinese={showChinese} />
           <HubCard
-            href={WORD_REEL.href}
-            title={WORD_REEL.title}
-            description={WORD_REEL.description}
-            accent="pink"
+            href={EXAM_TOPICS_HREF}
+            title={EXAM_TOPICS_TITLE}
+            description={EXAM_TOPICS_DESCRIPTION}
+            accent="fuchsia"
             showChinese={showChinese}
           />
           <HubCard
@@ -132,13 +123,6 @@ export function NailExamPracticeHub() {
             title={QUESTION_WORDS_TITLE}
             description={QUESTION_WORDS_DESCRIPTION}
             accent="amber"
-            showChinese={showChinese}
-          />
-          <HubCard
-            href={EXAM_TOPICS_HREF}
-            title={EXAM_TOPICS_TITLE}
-            description={EXAM_TOPICS_DESCRIPTION}
-            accent="fuchsia"
             showChinese={showChinese}
           />
 

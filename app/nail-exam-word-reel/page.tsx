@@ -1,21 +1,8 @@
-"use client"
+import { LegacyExamPracticeRedirect } from "@/components/nail-exam-practice/legacy-redirect"
+import { QUESTION_WORDS_HREF } from "@/data/nail-exam-practice/question-words"
 
-import { SectionWordReel } from "@/components/word-reel/section-word-reel"
-import { NAIL_EXAM_PRACTICE_HREF, NAIL_EXAM_PRACTICE_TITLE } from "@/data/nail-exam-practice/catalog"
-import nailExamWordData from "@/data/nailExamWordReel"
-import { sectionsFromDays } from "@/data/word-reel/types"
-
-const TITLE = { en: "Nail Exam Word Reel", zh: "美甲考试词汇卷轴" }
-const SECTIONS = sectionsFromDays(nailExamWordData, "nail-exam-word", TITLE)
-
+// The old Nail Exam Word Reel's words now live in "How Exam Questions Ask"
+// (Words in many questions) and the topic word reels.
 export default function NailExamWordReelPage() {
-  return (
-    <SectionWordReel
-      title={TITLE}
-      sections={SECTIONS}
-      storageKey="nail-exam-word-reel"
-      backHref={NAIL_EXAM_PRACTICE_HREF}
-      backTitle={NAIL_EXAM_PRACTICE_TITLE}
-    />
-  )
+  return <LegacyExamPracticeRedirect href={`${QUESTION_WORDS_HREF}?section=common-words`} />
 }
