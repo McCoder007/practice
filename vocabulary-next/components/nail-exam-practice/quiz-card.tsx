@@ -229,26 +229,32 @@ export function NailExamQuizCard({
             </p>
           </div>
           {correctChoice && (
-            <div className={cn("rounded-xl px-3.5 py-2.5", isCorrect ? "bg-emerald-500/20" : "bg-black/20")}>
-              <p className="flex items-center gap-1.5 text-sm font-semibold tracking-wide text-white/65 uppercase">
+            <button
+              type="button"
+              onPointerDown={stopPointerGesture}
+              onClick={(event) => {
+                event.stopPropagation()
+                onSpeak(correctChoice.en)
+              }}
+              aria-label="Speak correct answer"
+              className={cn(
+                "flex w-full cursor-pointer flex-col items-start rounded-xl px-3.5 py-2.5 text-left outline-none transition-colors focus-visible:ring-4 focus-visible:ring-white/80",
+                isCorrect ? "bg-emerald-500/20 hover:bg-emerald-500/30" : "bg-black/20 hover:bg-black/30",
+              )}
+            >
+              <span className="flex items-center gap-1.5 text-sm font-semibold tracking-wide text-white/65 uppercase">
                 {isCorrect && <CheckCircle2 className="h-3.5 w-3.5 shrink-0 text-emerald-300" aria-hidden />}
                 Correct answer{showChinese && " / 正确答案"}
-              </p>
-              <div className="mt-0.5 flex flex-wrap items-baseline gap-x-1.5">
-                <Speakable
-                  text={correctChoice.en}
-                  enabled={isCurrent}
-                  onSpeak={onSpeak}
-                  label="Speak correct answer"
-                  className="-ml-2 text-base font-semibold text-white"
-                />
+              </span>
+              <span className="mt-0.5 flex flex-wrap items-baseline gap-x-1.5">
+                <span className="text-base font-semibold text-white">{correctChoice.en}</span>
                 {showChinese && (
                   <span className="text-base font-semibold text-caption-secondary" lang="zh-Hans">
                     · {correctChoice.zh}
                   </span>
                 )}
-              </div>
-            </div>
+              </span>
+            </button>
           )}
           {question.sourceWarning && (
             <div className="rounded-xl border border-amber-300/60 bg-amber-950/35 p-3">
