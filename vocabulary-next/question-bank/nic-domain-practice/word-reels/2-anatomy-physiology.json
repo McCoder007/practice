@@ -1,0 +1,1025 @@
+{
+  "topicId": "anatomy-physiology",
+  "status": "reviewed",
+  "words": [
+    {
+      "setId": "2A",
+      "word": "onyx",
+      "sayIt": "AHN-iks",
+      "translation": "甲",
+      "partOfSpeech": "Noun",
+      "example": "Onyx is the technical name for the natural nail.",
+      "exampleTranslation": "onyx（甲）是天然指甲的专业名称。",
+      "evidence": [
+        {
+          "pdfPage": 122,
+          "quote": "The natural nail itself is technically referred to as the onyx"
+        }
+      ]
+    },
+    {
+      "setId": "2A",
+      "word": "keratin",
+      "sayIt": "KER-uh-tin",
+      "translation": "角蛋白",
+      "partOfSpeech": "Noun",
+      "example": "The nail plate is made mainly of keratin, a protein.",
+      "exampleTranslation": "甲板主要由角蛋白构成，角蛋白是一种蛋白质。",
+      "evidence": [
+        {
+          "pdfPage": 122,
+          "quote": "is composed mainly of keratin, the fiber-shaped protein found in skin and hair"
+        }
+      ]
+    },
+    {
+      "setId": "2A",
+      "word": "matrix",
+      "sayIt": "MAY-triks",
+      "translation": "甲母质",
+      "partOfSpeech": "Noun",
+      "example": "The matrix is where new nail plate cells are made.",
+      "exampleTranslation": "甲母质是生成新甲板细胞的地方。",
+      "evidence": [
+        {
+          "pdfPage": 124,
+          "quote": "The matrix (MAY-triks) is the area where the nail plate cells are formed"
+        }
+      ]
+    },
+    {
+      "setId": "2A",
+      "word": "lunula",
+      "sayIt": "LOO-nyuh-luh",
+      "translation": "甲半月",
+      "partOfSpeech": "Noun",
+      "example": "The lunula is the whitish half-moon at the nail base.",
+      "exampleTranslation": "甲半月是指甲根部发白的半月形。",
+      "evidence": [
+        {
+          "pdfPage": 124,
+          "quote": "It is the whitish, half-moon shape underneath the base of the nail plate."
+        }
+      ]
+    },
+    {
+      "setId": "2A",
+      "word": "cuticle",
+      "sayIt": "KYOO-tih-kul",
+      "translation": "甲小皮",
+      "partOfSpeech": "Noun",
+      "example": "The cuticle is dead, colorless tissue stuck to the nail plate.",
+      "exampleTranslation": "甲小皮是粘在甲板上、无色的死组织。",
+      "evidence": [
+        {
+          "pdfPage": 124,
+          "quote": "The cuticle (KYOO-tih-kul) is the nonliving, colorless tissue attached to the nail plate"
+        },
+        {
+          "pdfPage": 125,
+          "quote": "The cuticle is dead skin on the nail plate"
+        }
+      ]
+    },
+    {
+      "setId": "2A",
+      "word": "eponychium",
+      "sayIt": "ep-oh-NIK-ee-um",
+      "translation": "甲上皮",
+      "partOfSpeech": "Noun",
+      "example": "The eponychium is living skin that makes the cuticle.",
+      "exampleTranslation": "甲上皮是生成甲小皮的活皮肤。",
+      "evidence": [
+        {
+          "pdfPage": 125,
+          "quote": "the eponychium is the underside of the proximal nail fold and is the living tissue that makes the cuticle"
+        }
+      ]
+    },
+    {
+      "setId": "2A",
+      "word": "hyponychium",
+      "sayIt": "hy-poh-NIK-ee-um",
+      "translation": "甲下皮",
+      "partOfSpeech": "Noun",
+      "example": "The hyponychium is skin between the fingertip and the free edge.",
+      "exampleTranslation": "甲下皮是指尖和游离缘之间的皮肤。",
+      "evidence": [
+        {
+          "pdfPage": 126,
+          "quote": "The hyponychium (hy-poh-NIK-ee-um) is the slightly thickened layer of skin that lies between the fingertip and the free edge of the nail plate."
+        }
+      ]
+    },
+    {
+      "setId": "2A",
+      "word": "free edge",
+      "translation": "游离缘",
+      "partOfSpeech": "Noun",
+      "example": "The free edge is the part of the nail over the fingertip.",
+      "exampleTranslation": "游离缘是指甲伸到指尖上方的那一部分。",
+      "evidence": [
+        {
+          "pdfPage": 123,
+          "quote": "The free edge (FREE EDJ) is the part of the nail plate that extends over the tip of the finger or toe."
+        }
+      ]
+    },
+    {
+      "setId": "2A",
+      "word": "nail bed",
+      "translation": "甲床",
+      "partOfSpeech": "Noun",
+      "example": "The nail bed is the living skin under the nail plate.",
+      "exampleTranslation": "甲床是甲板下面的活皮肤。",
+      "evidence": [
+        {
+          "pdfPage": 124,
+          "quote": "The nail bed (NAYL BED) is the portion of living skin that supports the nail plate"
+        },
+        {
+          "pdfPage": 124,
+          "quote": "the area under the nail plate can have a pinkish appearance"
+        }
+      ]
+    },
+    {
+      "setId": "2A",
+      "word": "bed epithelium",
+      "sayIt": "bed ep-ih-THEE-lee-um",
+      "translation": "甲床上皮",
+      "partOfSpeech": "Noun",
+      "example": "The bed epithelium attaches the nail plate to the nail bed.",
+      "exampleTranslation": "甲床上皮把甲板连接在甲床上。",
+      "evidence": [
+        {
+          "pdfPage": 124,
+          "quote": "is attached to the nail plate by a thin layer of tissue called the bed epithelium"
+        }
+      ]
+    },
+    {
+      "setId": "2A",
+      "word": "lateral nail fold",
+      "sayIt": "LAT-er-ul nail fold",
+      "translation": "侧甲襞",
+      "partOfSpeech": "Noun",
+      "example": "The lateral nail fold, or sidewall, is skin along the nail's side.",
+      "exampleTranslation": "侧甲襞也叫 sidewall（侧壁），是指甲侧面的皮肤褶。",
+      "evidence": [
+        {
+          "pdfPage": 123,
+          "quote": "also known as the sidewall, (SYD-wall) is the fold of skin overlapping the side of the nail"
+        }
+      ]
+    },
+    {
+      "setId": "2A",
+      "word": "proximal nail fold",
+      "sayIt": "PROK-sih-mul nail fold",
+      "translation": "近端甲襞",
+      "partOfSpeech": "Noun",
+      "example": "The proximal nail fold is living skin, so never cut it.",
+      "exampleTranslation": "近端甲襞是活皮肤，所以绝不能剪。",
+      "evidence": [
+        {
+          "pdfPage": 126,
+          "quote": "Even if this skin appears dry and hardened, it is part of the living PNF."
+        },
+        {
+          "pdfPage": 126,
+          "quote": "are prohibited from cutting or trimming any living tissue, which includes the PNF"
+        }
+      ]
+    },
+    {
+      "setId": "2B",
+      "word": "Beau's lines",
+      "sayIt": "BOHZ lines",
+      "translation": "博氏线",
+      "partOfSpeech": "Noun",
+      "example": "Beau's lines are dents that run across the width of the nail.",
+      "exampleTranslation": "博氏线是横贯指甲宽度的凹陷。",
+      "evidence": [
+        {
+          "pdfPage": 129,
+          "quote": "Depressions running across the width of the nail plate due to a slowing production of matrix cells"
+        }
+      ]
+    },
+    {
+      "setId": "2B",
+      "word": "onychia",
+      "sayIt": "uh-NIK-ee-uh",
+      "translation": "甲母质炎",
+      "partOfSpeech": "Noun",
+      "example": "Onychia means the matrix is inflamed and the nail can fall off.",
+      "exampleTranslation": "onychia（甲母质炎）是指甲母质发炎，指甲可能脱落。",
+      "evidence": [
+        {
+          "pdfPage": 133,
+          "quote": "is an inflammation of the matrix and shedding of the nail caused by inflection or injury"
+        }
+      ]
+    },
+    {
+      "setId": "2B",
+      "word": "leukonychia",
+      "sayIt": "loo-koh-NIK-ee-uh",
+      "translation": "白甲",
+      "partOfSpeech": "Noun",
+      "example": "Leukonychia is white nail spots, usually from small matrix injuries.",
+      "exampleTranslation": "白甲是指甲上的白斑，通常由甲母质的轻微损伤引起。",
+      "evidence": [
+        {
+          "pdfPage": 130,
+          "quote": "Whitish spots of discoloration of the nails; usually caused by minor injury to the nail matrix."
+        }
+      ]
+    },
+    {
+      "setId": "2B",
+      "word": "melanonychia",
+      "sayIt": "mel-uh-nuh-NIK-ee-uh",
+      "translation": "黑甲",
+      "partOfSpeech": "Noun",
+      "example": "Melanonychia can be a dark band from nail base to free edge.",
+      "exampleTranslation": "黑甲可能表现为从指甲根部到游离缘的一条深色带。",
+      "evidence": [
+        {
+          "pdfPage": 130,
+          "quote": "Significant darkening of the fingernails or toenails caused by increased pigment cells (melanocytes)."
+        },
+        {
+          "pdfPage": 130,
+          "quote": "Visible as either a black band extending from the base to the free edge"
+        }
+      ]
+    },
+    {
+      "setId": "2B",
+      "word": "nail pterygium",
+      "sayIt": "nail tuh-RIJ-ee-um",
+      "translation": "甲胬肉",
+      "partOfSpeech": "Noun",
+      "example": "Never push back nail pterygium; it is abnormally stretched skin.",
+      "exampleTranslation": "绝不能推甲胬肉，它是异常拉伸的皮肤。",
+      "evidence": [
+        {
+          "pdfPage": 130,
+          "quote": "Abnormal stretching of the eponychium or hyponychium around the nail plate"
+        },
+        {
+          "pdfPage": 130,
+          "quote": "never attempt to treat or push back nail pterygium with any instrument"
+        }
+      ]
+    },
+    {
+      "setId": "2B",
+      "word": "onychorrhexis",
+      "sayIt": "ahn-ih-koh-REK-sis",
+      "translation": "脆甲",
+      "partOfSpeech": "Noun",
+      "example": "Onychorrhexis means split or brittle nails with a rough surface.",
+      "exampleTranslation": "脆甲是指甲裂开或易碎，表面粗糙。",
+      "evidence": [
+        {
+          "pdfPage": 131,
+          "quote": "Abnormal split or brittle nails appearing as surface roughness on the nail plate."
+        }
+      ]
+    },
+    {
+      "setId": "2B",
+      "word": "splinter hemorrhages",
+      "sayIt": "SPLIN-ter HEM-er-ij-iz",
+      "translation": "裂片形出血",
+      "partOfSpeech": "Noun",
+      "example": "Splinter hemorrhages come from damaged capillaries, not real splinters.",
+      "exampleTranslation": "裂片形出血来自受损的毛细血管，不是真的木刺。",
+      "evidence": [
+        {
+          "pdfPage": 131,
+          "quote": "Damage to the capillaries under the nail; gives the appearance of a lengthwise small splinter underneath the nail plate."
+        }
+      ]
+    },
+    {
+      "setId": "2B",
+      "word": "onycholysis",
+      "sayIt": "ahn-ih-KAHL-ih-sis",
+      "translation": "甲剥离",
+      "partOfSpeech": "Noun",
+      "example": "Onycholysis is when the nail plate separates from the nail bed.",
+      "exampleTranslation": "甲剥离是指甲板与甲床分开。",
+      "evidence": [
+        {
+          "pdfPage": 133,
+          "quote": "Separation of the nail plate and bed, often due to injury or allergic reactions."
+        }
+      ]
+    },
+    {
+      "setId": "2B",
+      "word": "onychocryptosis",
+      "sayIt": "ahn-ih-koh-krip-TOH-sis",
+      "translation": "嵌甲",
+      "partOfSpeech": "Noun",
+      "example": "Onychocryptosis means ingrown nails that grow into the skin at the sides.",
+      "exampleTranslation": "嵌甲是指甲从侧边长进皮肉里。",
+      "evidence": [
+        {
+          "pdfPage": 133,
+          "quote": "Ingrown nails on either hands or feet, wherein the nail grows into the sides of the tissue around the nail."
+        }
+      ]
+    },
+    {
+      "setId": "2B",
+      "word": "onychomycosis",
+      "sayIt": "ahn-ih-koh-my-KOH-sis",
+      "translation": "甲真菌病",
+      "partOfSpeech": "Noun",
+      "example": "Onychomycosis is a fungal infection of the nail plate.",
+      "exampleTranslation": "甲真菌病是甲板的真菌感染。",
+      "evidence": [
+        {
+          "pdfPage": 133,
+          "quote": "Fungal infection of the nail plate."
+        }
+      ]
+    },
+    {
+      "setId": "2B",
+      "word": "paronychia",
+      "sayIt": "par-uh-NIK-ee-uh",
+      "translation": "甲沟炎",
+      "partOfSpeech": "Noun",
+      "example": "Paronychia is a bacterial inflammation around the nail, with pus.",
+      "exampleTranslation": "甲沟炎是指甲周围的细菌性发炎，会有脓。",
+      "evidence": [
+        {
+          "pdfPage": 133,
+          "quote": "Bacterial inflammation of the tissues around the nail plate, causing pus, swelling, and redness."
+        }
+      ]
+    },
+    {
+      "setId": "2B",
+      "word": "nail psoriasis",
+      "sayIt": "nail suh-RY-uh-sis",
+      "translation": "甲银屑病",
+      "partOfSpeech": "Noun",
+      "example": "Nail psoriasis can cause tiny pits and a rough nail surface.",
+      "exampleTranslation": "甲银屑病会让指甲表面出现小凹点、变粗糙。",
+      "evidence": [
+        {
+          "pdfPage": 130,
+          "quote": "Nail surface pitting, roughness, onycholysis, and bed discolorations"
+        },
+        {
+          "pdfPage": 107,
+          "quote": "Psoriasis can also affect the nail plates, causing them to develop surface pits"
+        }
+      ]
+    },
+    {
+      "setId": "2C",
+      "word": "epidermis",
+      "sayIt": "ep-ih-DUR-mis",
+      "translation": "表皮",
+      "partOfSpeech": "Noun",
+      "example": "The epidermis is the outer, thinnest skin layer, with no blood vessels.",
+      "exampleTranslation": "表皮是皮肤最外面、最薄的一层，没有血管。",
+      "evidence": [
+        {
+          "pdfPage": 85,
+          "quote": "The epidermis (ep-uh-DUR-mis) is the outermost and thinnest layer of the skin. It does not contain blood vessels"
+        }
+      ]
+    },
+    {
+      "setId": "2C",
+      "word": "dermis",
+      "translation": "真皮",
+      "partOfSpeech": "Noun",
+      "example": "The dermis, or true skin, has blood vessels and nerves.",
+      "exampleTranslation": "真皮也叫“真正的皮肤”，里面有血管和神经。",
+      "evidence": [
+        {
+          "pdfPage": 87,
+          "quote": "The dermis (DER-mis), or true skin, is the underlying or inner layer of the skin."
+        },
+        {
+          "pdfPage": 87,
+          "quote": "there are numerous blood vessels, lymph vessels, nerves, sweat glands, oil glands"
+        }
+      ]
+    },
+    {
+      "setId": "2C",
+      "word": "subcutaneous tissue",
+      "sayIt": "sub-kyoo-TAY-nee-us TISH-oo",
+      "translation": "皮下组织",
+      "partOfSpeech": "Noun",
+      "example": "Subcutaneous tissue is a fatty layer below the dermis.",
+      "exampleTranslation": "皮下组织是真皮下面的一层脂肪。",
+      "evidence": [
+        {
+          "pdfPage": 88,
+          "quote": "The subcutaneous tissue (sub-kyoo-TAY-nee-us TISH-ew) is a fatty layer found below the dermis."
+        }
+      ]
+    },
+    {
+      "setId": "2C",
+      "word": "stratum corneum",
+      "sayIt": "STRAT-um KOR-nee-um",
+      "translation": "角质层",
+      "partOfSpeech": "Noun",
+      "example": "The stratum corneum is the top skin layer that we care for.",
+      "exampleTranslation": "角质层是我们护理的皮肤最上面一层。",
+      "evidence": [
+        {
+          "pdfPage": 85,
+          "quote": "The outermost top layer of our epidermis is the stratum corneum."
+        },
+        {
+          "pdfPage": 85,
+          "quote": "is the layer that is cared for by the beauty practitioner"
+        }
+      ]
+    },
+    {
+      "setId": "2C",
+      "word": "stratum germinativum",
+      "sayIt": "STRAT-um jer-mih-nuh-TY-vum",
+      "translation": "生发层",
+      "partOfSpeech": "Noun",
+      "example": "The stratum germinativum, or basal layer, makes new skin cells.",
+      "exampleTranslation": "生发层也叫基底层，会产生新的皮肤细胞。",
+      "evidence": [
+        {
+          "pdfPage": 86,
+          "quote": "is also known as the basal layer (BAY-zal LAY-er) and is the deepest living layer of the epidermis. It produces new epidermal skin cells"
+        }
+      ]
+    },
+    {
+      "setId": "2C",
+      "word": "tinea pedis",
+      "sayIt": "TIN-ee-uh PEE-dis",
+      "translation": "足癣",
+      "partOfSpeech": "Noun",
+      "example": "Tinea pedis is athlete's foot, a fungal infection.",
+      "exampleTranslation": "足癣就是脚气（athlete's foot），是一种真菌感染。",
+      "evidence": [
+        {
+          "pdfPage": 110,
+          "quote": "Athlete’s foot or ringworm of the feet. The cause is fungal; it thrives in dark, moist places."
+        }
+      ]
+    },
+    {
+      "setId": "2C",
+      "word": "sudoriferous glands",
+      "sayIt": "soo-duh-RIF-er-us glandz",
+      "translation": "汗腺",
+      "partOfSpeech": "Noun",
+      "example": "Sudoriferous glands, or sweat glands, send sweat out through pores.",
+      "exampleTranslation": "汗腺（sweat glands）把汗液从毛孔排出。",
+      "evidence": [
+        {
+          "pdfPage": 90,
+          "quote": "the sudoriferous glands (soo-duh-RIF-uh-rus GLANZ) or sweat glands (SWET GLANZ)"
+        },
+        {
+          "pdfPage": 90,
+          "quote": "a tubelike duct that opens at the surface of the skin to form the sweat pore"
+        }
+      ]
+    },
+    {
+      "setId": "2C",
+      "word": "sebaceous glands",
+      "sayIt": "sih-BAY-shus glandz",
+      "translation": "皮脂腺",
+      "partOfSpeech": "Noun",
+      "example": "Sebaceous glands make sebum, the oil that keeps skin soft.",
+      "exampleTranslation": "皮脂腺分泌皮脂，这种油让皮肤保持柔软。",
+      "evidence": [
+        {
+          "pdfPage": 91,
+          "quote": "These glands secrete sebum, a fatty or oily secretion that lubricates the skin"
+        },
+        {
+          "pdfPage": 93,
+          "quote": "This oil lubricates the skin, keeping it soft and pliable."
+        }
+      ]
+    },
+    {
+      "setId": "2C",
+      "word": "macule",
+      "sayIt": "MAK-yool",
+      "translation": "斑疹",
+      "partOfSpeech": "Noun",
+      "example": "A macule is a flat spot of color, like a freckle.",
+      "exampleTranslation": "斑疹是平的色斑，比如雀斑。",
+      "evidence": [
+        {
+          "pdfPage": 117,
+          "quote": "A spot or discoloration on the skin, such as a freckle. Macules are neither raised or sunken."
+        }
+      ]
+    },
+    {
+      "setId": "2C",
+      "word": "bromhidrosis",
+      "sayIt": "broh-mih-DROH-sis",
+      "translation": "臭汗症",
+      "partOfSpeech": "Noun",
+      "example": "Bromhidrosis is bad-smelling sweat, often in armpits or on feet.",
+      "exampleTranslation": "臭汗症是气味难闻的汗，常见于腋下或脚部。",
+      "evidence": [
+        {
+          "pdfPage": 106,
+          "quote": "A foul-smelling perspiration, usually noticeable in the armpits or on the feet."
+        }
+      ]
+    },
+    {
+      "setId": "2C",
+      "word": "chloasma",
+      "sayIt": "kloh-AZ-muh",
+      "translation": "黄褐斑",
+      "partOfSpeech": "Noun",
+      "example": "Chloasma are dark, flat spots, wrongly called liver spots.",
+      "exampleTranslation": "黄褐斑是平的深色斑点，常被误称为“肝斑”。",
+      "evidence": [
+        {
+          "pdfPage": 107,
+          "quote": "increased pigmentation on the skin or dark spots that are not elevated"
+        },
+        {
+          "pdfPage": 107,
+          "quote": "Chloasma are incorrectly called liver spots, even though they have nothing to do with the liver."
+        }
+      ]
+    },
+    {
+      "setId": "2C",
+      "word": "verruca",
+      "sayIt": "vuh-ROO-kuh",
+      "translation": "疣",
+      "partOfSpeech": "Noun",
+      "example": "Verruca is a wart; a virus causes it, so it can spread.",
+      "exampleTranslation": "verruca（疣）就是瘊子，由病毒引起，所以可能传染。",
+      "evidence": [
+        {
+          "pdfPage": 110,
+          "quote": "The technical term for wart; the hypertrophy (hi-per-TRO-fee) of the papillae and epidermis. It is caused by a virus and is infectious."
+        }
+      ]
+    },
+    {
+      "setId": "2D",
+      "word": "humerus",
+      "sayIt": "HYOO-mer-us",
+      "translation": "肱骨",
+      "partOfSpeech": "Noun",
+      "example": "The humerus is the big bone from your shoulder to your elbow.",
+      "exampleTranslation": "肱骨是从肩膀到肘部的那根大骨头。",
+      "evidence": [
+        {
+          "pdfPage": 50,
+          "quote": "The uppermost and largest bone of the arm, extending from the elbow to the shoulder."
+        }
+      ]
+    },
+    {
+      "setId": "2D",
+      "word": "ulna",
+      "sayIt": "UL-nuh",
+      "translation": "尺骨",
+      "partOfSpeech": "Noun",
+      "example": "The ulna is the forearm bone on the little-finger side.",
+      "exampleTranslation": "尺骨是前臂位于小指一侧的骨头。",
+      "evidence": [
+        {
+          "pdfPage": 50,
+          "quote": "It is larger at the elbow than at the wrist and is located on the little finger side of the hand."
+        }
+      ]
+    },
+    {
+      "setId": "2D",
+      "word": "radius",
+      "sayIt": "RAY-dee-us",
+      "translation": "桡骨",
+      "partOfSpeech": "Noun",
+      "example": "The radius is the forearm bone on the thumb side.",
+      "exampleTranslation": "桡骨是前臂位于拇指一侧的骨头。",
+      "evidence": [
+        {
+          "pdfPage": 51,
+          "quote": "The shorter of the two bones of the forearm. It is largest at the wrist and located on the thumb side of the hand."
+        }
+      ]
+    },
+    {
+      "setId": "2D",
+      "word": "carpus",
+      "sayIt": "KAR-pus",
+      "translation": "腕骨",
+      "partOfSpeech": "Noun",
+      "example": "The carpus, or wrist, has eight small bones.",
+      "exampleTranslation": "腕骨（即手腕）由八块小骨头组成。",
+      "evidence": [
+        {
+          "pdfPage": 51,
+          "quote": "The wrist: a flexible joint composed of a group of eight small, irregular bones held together by ligaments."
+        }
+      ]
+    },
+    {
+      "setId": "2D",
+      "word": "metacarpus",
+      "sayIt": "met-uh-KAR-pus",
+      "translation": "掌骨",
+      "partOfSpeech": "Noun",
+      "example": "The metacarpus is the five bones in the palm of the hand.",
+      "exampleTranslation": "掌骨是手掌里的五块骨头。",
+      "evidence": [
+        {
+          "pdfPage": 51,
+          "quote": "Bones of the palm of the hand; parts of the hand containing five bones between the carpus and phalanges."
+        }
+      ]
+    },
+    {
+      "setId": "2D",
+      "word": "phalanges",
+      "sayIt": "fuh-LAN-jeez",
+      "translation": "指骨/趾骨",
+      "partOfSpeech": "Noun",
+      "example": "Phalanges are the bones of the fingers and toes.",
+      "exampleTranslation": "指骨/趾骨是手指和脚趾的骨头。",
+      "evidence": [
+        {
+          "pdfPage": 51,
+          "quote": "Phalanges (fuh-LAN-jeez). Bones of the fingers or toes, or digits."
+        }
+      ]
+    },
+    {
+      "setId": "2D",
+      "word": "extensors",
+      "sayIt": "ik-STEN-serz",
+      "translation": "伸肌",
+      "partOfSpeech": "Noun",
+      "example": "Extensors are muscles that straighten the wrist, hand, and fingers.",
+      "exampleTranslation": "伸肌是把手腕、手和手指伸直的肌肉。",
+      "evidence": [
+        {
+          "pdfPage": 55,
+          "quote": "Muscles that straighten the wrist, hand, and fingers to form a straight line."
+        }
+      ]
+    },
+    {
+      "setId": "2D",
+      "word": "tibia",
+      "sayIt": "TIB-ee-uh",
+      "translation": "胫骨",
+      "partOfSpeech": "Noun",
+      "example": "The tibia is the larger of the two bones below the knee.",
+      "exampleTranslation": "胫骨是膝盖下面两根骨头中较大的那根。",
+      "evidence": [
+        {
+          "pdfPage": 51,
+          "quote": "is the larger of the two bones that form the leg below the knee"
+        }
+      ]
+    },
+    {
+      "setId": "2D",
+      "word": "femur",
+      "sayIt": "FEE-mer",
+      "translation": "股骨",
+      "partOfSpeech": "Noun",
+      "example": "The femur is the heavy, long bone above the knee.",
+      "exampleTranslation": "股骨是膝盖上面那根又重又长的骨头。",
+      "evidence": [
+        {
+          "pdfPage": 51,
+          "quote": "The femur (FEE-mur) is a heavy, long bone that forms the leg above the knee."
+        }
+      ]
+    },
+    {
+      "setId": "2D",
+      "word": "abductors",
+      "sayIt": "ab-DUK-terz",
+      "translation": "外展肌",
+      "partOfSpeech": "Noun",
+      "example": "Abductors are muscles that separate the fingers.",
+      "exampleTranslation": "外展肌是把手指分开的肌肉。",
+      "evidence": [
+        {
+          "pdfPage": 55,
+          "quote": "Abductors (ab-DUK-turz). Muscles that separate the fingers."
+        }
+      ]
+    },
+    {
+      "setId": "2D",
+      "word": "pronators",
+      "sayIt": "PROH-nay-terz",
+      "translation": "旋前肌",
+      "partOfSpeech": "Noun",
+      "example": "Pronators turn the hand so the palm faces down.",
+      "exampleTranslation": "旋前肌让手转动，使掌心朝下。",
+      "evidence": [
+        {
+          "pdfPage": 55,
+          "quote": "Muscles that turn the hand inward so that the palm faces downward."
+        }
+      ]
+    },
+    {
+      "setId": "2D",
+      "word": "gastrocnemius",
+      "sayIt": "gas-truk-NEE-mee-us",
+      "translation": "腓肠肌",
+      "partOfSpeech": "Noun",
+      "example": "The gastrocnemius attaches at the heel and pulls the foot down.",
+      "exampleTranslation": "腓肠肌附着在脚跟上，把脚往下拉。",
+      "evidence": [
+        {
+          "pdfPage": 56,
+          "quote": "is attached to the lower rear surface of the heel and pulls the foot down"
+        }
+      ]
+    }
+  ],
+  "lookAlikes": [
+    {
+      "id": "cuticle-eponychium-hyponychium",
+      "setId": "2A",
+      "items": [
+        {
+          "word": "cuticle",
+          "translation": "甲小皮",
+          "meaning": {
+            "en": "dead, colorless tissue on the nail plate",
+            "zh": "粘在甲板上、无色的死组织"
+          }
+        },
+        {
+          "word": "eponychium",
+          "translation": "甲上皮",
+          "meaning": {
+            "en": "living skin at the nail base",
+            "zh": "指甲根部的活皮肤"
+          }
+        },
+        {
+          "word": "hyponychium",
+          "translation": "甲下皮",
+          "meaning": {
+            "en": "skin between fingertip and free edge",
+            "zh": "指尖和游离缘之间的皮肤"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Hypo- = under: hyponychium is under the free edge. Ep- = over: eponychium, living skin over the base. Cuticle: dead.",
+        "zh": "hypo- = 下面：甲下皮在游离缘下面。ep- = 上面：甲上皮是盖在指甲根部的活皮肤。甲小皮是死皮。看中文：甲上皮的“上”在根部，甲下皮的“下”在指尖下面。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 124,
+          "quote": "The cuticle (KYOO-tih-kul) is the nonliving, colorless tissue attached to the nail plate"
+        },
+        {
+          "pdfPage": 136,
+          "quote": "Living skin at the base of the nail plate and covering the matrix area."
+        },
+        {
+          "pdfPage": 126,
+          "quote": "is the slightly thickened layer of skin that lies between the fingertip and the free edge of the nail plate"
+        }
+      ]
+    },
+    {
+      "id": "onycholysis-onychomycosis-onychocryptosis",
+      "setId": "2B",
+      "items": [
+        {
+          "word": "onycholysis",
+          "translation": "甲剥离",
+          "meaning": {
+            "en": "nail plate separates from the nail bed",
+            "zh": "甲板与甲床分离"
+          }
+        },
+        {
+          "word": "onychomycosis",
+          "translation": "甲真菌病",
+          "meaning": {
+            "en": "fungal infection of the nail plate",
+            "zh": "甲板的真菌感染"
+          }
+        },
+        {
+          "word": "onychocryptosis",
+          "translation": "嵌甲",
+          "meaning": {
+            "en": "ingrown nail",
+            "zh": "指甲长进肉里"
+          }
+        }
+      ],
+      "tip": {
+        "en": "All start with onycho- (nail). Then: lysis = loosening, myco = fungus, crypto = hidden (the edge hides in skin).",
+        "zh": "开头 onycho- 都是“指甲”。再看后面：lysis = 松开，myco = 真菌，crypto = 藏起来（指甲边藏进肉里）。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 133,
+          "quote": "Separation of the nail plate and bed, often due to injury or allergic reactions."
+        },
+        {
+          "pdfPage": 133,
+          "quote": "Fungal infection of the nail plate."
+        },
+        {
+          "pdfPage": 133,
+          "quote": "Ingrown nails on either hands or feet, wherein the nail grows into the sides of the tissue around the nail."
+        }
+      ]
+    },
+    {
+      "id": "epidermis-dermis-subcutaneous",
+      "setId": "2C",
+      "items": [
+        {
+          "word": "epidermis",
+          "translation": "表皮",
+          "meaning": {
+            "en": "outer, thinnest layer with no blood vessels",
+            "zh": "最外面、最薄、没有血管的一层"
+          }
+        },
+        {
+          "word": "dermis",
+          "translation": "真皮",
+          "meaning": {
+            "en": "the true skin, with blood vessels",
+            "zh": "“真正的皮肤”，有血管"
+          }
+        },
+        {
+          "word": "subcutaneous tissue",
+          "translation": "皮下组织",
+          "meaning": {
+            "en": "fatty layer below the true skin",
+            "zh": "真皮下面的脂肪层"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Epi- = on top. Sub- = under, like subway. The dermis, the true skin, is in the middle.",
+        "zh": "epi- = 上面，sub- = 下面（像 subway 地铁在地下），真皮（dermis）在中间。看中文：表皮在表面，皮下组织在皮的下面。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 85,
+          "quote": "The epidermis (ep-uh-DUR-mis) is the outermost and thinnest layer of the skin. It does not contain blood vessels"
+        },
+        {
+          "pdfPage": 87,
+          "quote": "The dermis (DER-mis), or true skin, is the underlying or inner layer of the skin."
+        },
+        {
+          "pdfPage": 87,
+          "quote": "there are numerous blood vessels, lymph vessels, nerves, sweat glands, oil glands"
+        },
+        {
+          "pdfPage": 88,
+          "quote": "The subcutaneous tissue (sub-kyoo-TAY-nee-us TISH-ew) is a fatty layer found below the dermis."
+        }
+      ]
+    },
+    {
+      "id": "sudoriferous-sebaceous",
+      "setId": "2C",
+      "items": [
+        {
+          "word": "sudoriferous glands",
+          "translation": "汗腺",
+          "meaning": {
+            "en": "glands that give off sweat",
+            "zh": "排出汗液的腺体"
+          }
+        },
+        {
+          "word": "sebaceous glands",
+          "translation": "皮脂腺",
+          "meaning": {
+            "en": "glands that make oil for the skin",
+            "zh": "为皮肤分泌油脂的腺体"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Sebaceous glands make sebum (oil): both start with s-e-b. The other one, sudoriferous, makes sweat.",
+        "zh": "sebaceous 和 sebum（皮脂）都以 s-e-b 开头：皮脂腺出油。另一个 sudoriferous 是汗腺，出汗。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 90,
+          "quote": "The sudoriferous, or sweat, glands, which excrete sweat from the skin"
+        },
+        {
+          "pdfPage": 91,
+          "quote": "These glands secrete sebum, a fatty or oily secretion that lubricates the skin"
+        }
+      ]
+    },
+    {
+      "id": "ulna-radius",
+      "setId": "2D",
+      "items": [
+        {
+          "word": "ulna",
+          "translation": "尺骨",
+          "meaning": {
+            "en": "forearm bone on the little-finger side",
+            "zh": "前臂小指一侧的骨头"
+          }
+        },
+        {
+          "word": "radius",
+          "translation": "桡骨",
+          "meaning": {
+            "en": "forearm bone on the thumb side",
+            "zh": "前臂拇指一侧的骨头"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Feel the hard point of your elbow: that's the ulna, on the little-finger side. Radius: thumb side.",
+        "zh": "摸一摸肘部尖尖的那块硬骨：那是尺骨（ulna），在小指一侧。桡骨（radius）在拇指一侧。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 50,
+          "quote": "It is larger at the elbow than at the wrist and is located on the little finger side of the hand."
+        },
+        {
+          "pdfPage": 51,
+          "quote": "It is largest at the wrist and located on the thumb side of the hand."
+        }
+      ]
+    },
+    {
+      "id": "abductors-adductors",
+      "setId": "2D",
+      "items": [
+        {
+          "word": "abductors",
+          "translation": "外展肌",
+          "meaning": {
+            "en": "muscles that separate the fingers",
+            "zh": "把手指分开的肌肉"
+          }
+        },
+        {
+          "word": "adductors",
+          "translation": "内收肌",
+          "meaning": {
+            "en": "muscles that draw the fingers together",
+            "zh": "把手指并拢的肌肉"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Add = put together: adductors pull your fingers together. Abductors take them away from each other.",
+        "zh": "add（加）= 放到一起：adductors（内收肌）把手指并拢；abductors（外展肌）把手指分开。看中文：收 = 并拢，展 = 张开。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 55,
+          "quote": "Abductors (ab-DUK-turz). Muscles that separate the fingers."
+        },
+        {
+          "pdfPage": 55,
+          "quote": "Muscles at the base of each finger that draw the fingers together."
+        }
+      ]
+    }
+  ]
+}

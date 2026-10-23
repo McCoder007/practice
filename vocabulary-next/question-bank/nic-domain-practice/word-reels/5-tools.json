@@ -1,0 +1,898 @@
+{
+  "topicId": "tools",
+  "status": "reviewed",
+  "words": [
+    {
+      "setId": "5A",
+      "word": "fluorescent bulb",
+      "sayIt": "flor-ESS-ent bulb",
+      "translation": "荧光灯",
+      "partOfSpeech": "Noun",
+      "example": "A fluorescent bulb gives cooler light than an incandescent bulb.",
+      "exampleTranslation": "荧光灯发出的光比白炽灯凉。",
+      "evidence": [
+        {
+          "pdfPage": 161,
+          "quote": "Fluorescent bulbs are very popular because they emit cooler light"
+        },
+        {
+          "pdfPage": 161,
+          "quote": "Fluorescent lights also do not heat up objects underneath the lamp, as do high-watt incandescent bulbs."
+        }
+      ]
+    },
+    {
+      "setId": "5A",
+      "word": "bead sterilizer",
+      "sayIt": "beed STER-uh-ly-zer",
+      "translation": "玻璃珠消毒器",
+      "partOfSpeech": "Noun",
+      "example": "Never use a bead sterilizer in a salon: it can spread disease.",
+      "exampleTranslation": "沙龙里绝不能用玻璃珠消毒器：它可能传播疾病。",
+      "evidence": [
+        {
+          "pdfPage": 164,
+          "quote": "Electric sterilizers, bead sterilizers, and baby sterilizers should not be used to disinfect or sterilize implements."
+        },
+        {
+          "pdfPage": 164,
+          "quote": "These devices can spread potentially infectious diseases and should never be used in a salon"
+        }
+      ]
+    },
+    {
+      "setId": "5A",
+      "word": "paraffin tub",
+      "sayIt": "PAIR-uh-fin tub",
+      "translation": "蜡疗机",
+      "partOfSpeech": "Noun",
+      "example": "A paraffin tub's thermostat keeps the wax at the right temperature.",
+      "exampleTranslation": "蜡疗机的恒温器让蜡保持在合适的温度。",
+      "evidence": [
+        {
+          "pdfPage": 164,
+          "quote": "A paraffin tub has an automatic thermostat that maintains the paraffin at the ideal temperature for application to the hands and feet."
+        }
+      ]
+    },
+    {
+      "setId": "5A",
+      "word": "torque",
+      "translation": "扭力",
+      "partOfSpeech": "Noun",
+      "example": "Torque is the file's power to keep turning under pressure.",
+      "exampleTranslation": "扭力是打磨机在受压时还能继续转动的力量。",
+      "evidence": [
+        {
+          "pdfPage": 255,
+          "quote": "is understood as the power of the machine or its ability to keep turning when you are applying pressure during filing"
+        }
+      ]
+    },
+    {
+      "setId": "5A",
+      "word": "micromotor",
+      "sayIt": "MY-kroh-moh-ter",
+      "translation": "微电机",
+      "partOfSpeech": "Noun",
+      "example": "A micromotor file has its motor inside the handpiece.",
+      "exampleTranslation": "微电机打磨机的电机装在手柄里。",
+      "evidence": [
+        {
+          "pdfPage": 254,
+          "quote": "are known as micromotor machines, because the motor is located in the handpiece"
+        }
+      ]
+    },
+    {
+      "setId": "5A",
+      "word": "RPM",
+      "translation": "每分钟转数",
+      "partOfSpeech": "Noun",
+      "example": "RPM counts how many full turns the bit makes each minute.",
+      "exampleTranslation": "RPM 是磨头每分钟转的整圈数。",
+      "evidence": [
+        {
+          "pdfPage": 255,
+          "quote": "The speed of an electric file is measured in revolutions per minute (RPM)"
+        },
+        {
+          "pdfPage": 255,
+          "quote": "This is the number of times in a minute that the bit spins in a complete circle."
+        }
+      ]
+    },
+    {
+      "setId": "5A",
+      "word": "concentric bit",
+      "sayIt": "kun-SEN-trik bit",
+      "translation": "同心磨头",
+      "partOfSpeech": "Noun",
+      "example": "A concentric bit is balanced, so it spins without wobbling.",
+      "exampleTranslation": "同心磨头很平衡，转动时不会晃动。",
+      "evidence": [
+        {
+          "pdfPage": 258,
+          "quote": "are balanced bits that do not wobble or vibrate"
+        }
+      ]
+    },
+    {
+      "setId": "5A",
+      "word": "carbide bit",
+      "sayIt": "KAR-byd bit",
+      "translation": "钨钢磨头",
+      "partOfSpeech": "Noun",
+      "example": "Carbide bits shave product; never use them on natural nails.",
+      "exampleTranslation": "钨钢磨头会刮削产品，绝不能用在真甲上。",
+      "evidence": [
+        {
+          "pdfPage": 259,
+          "quote": "which shave the surface of the product as they file"
+        },
+        {
+          "pdfPage": 259,
+          "quote": "Never use a carbide bit on the natural nail!"
+        }
+      ]
+    },
+    {
+      "setId": "5A",
+      "word": "sanding band",
+      "translation": "砂圈",
+      "partOfSpeech": "Noun",
+      "example": "A sanding band is paper, so throw it away after one use.",
+      "exampleTranslation": "砂圈是纸做的，用一次就要扔掉。",
+      "evidence": [
+        {
+          "pdfPage": 260,
+          "quote": "These are one-use-only paper bits that slip onto a mandrel."
+        },
+        {
+          "pdfPage": 260,
+          "quote": "made of abrasive paper just like hand files and cannot be disinfected"
+        }
+      ]
+    },
+    {
+      "setId": "5A",
+      "word": "UL",
+      "translation": "UL 安全认证",
+      "partOfSpeech": "Noun",
+      "example": "The UL mark shows an electric tool's safety is certified.",
+      "exampleTranslation": "UL 标志说明这件电器的安全经过认证。",
+      "evidence": [
+        {
+          "pdfPage": 684,
+          "quote": "Underwriters Laboratories (UL) certifies the safety of electrical appliances."
+        },
+        {
+          "pdfPage": 684,
+          "quote": "Always look for the UL symbol on electric appliances"
+        }
+      ]
+    },
+    {
+      "setId": "5A",
+      "word": "grounding",
+      "translation": "接地",
+      "partOfSpeech": "Noun",
+      "example": "Grounding carries current safely away and protects you from shock.",
+      "exampleTranslation": "接地能把电流安全地导走，保护你不触电。",
+      "evidence": [
+        {
+          "pdfPage": 683,
+          "quote": "completes an electric circuit and carries the current safely away"
+        },
+        {
+          "pdfPage": 683,
+          "quote": "The grounding pin is designed to guarantee a safe path for electricity and protect the user from electrical shock"
+        }
+      ]
+    },
+    {
+      "setId": "5A",
+      "word": "fuse",
+      "translation": "保险丝",
+      "partOfSpeech": "Noun",
+      "example": "A fuse melts when too much current runs through the circuit.",
+      "exampleTranslation": "电路里电流过大时，保险丝会熔断。",
+      "evidence": [
+        {
+          "pdfPage": 682,
+          "quote": "prevents excessive current from passing through a circuit"
+        },
+        {
+          "pdfPage": 682,
+          "quote": "It is designed to blow out or melt when the wire becomes too hot from overloading the circuit with too much current"
+        }
+      ]
+    },
+    {
+      "setId": "5B",
+      "word": "stainless steel",
+      "translation": "不锈钢",
+      "partOfSpeech": "Noun",
+      "example": "Multiuse implements are usually stainless steel, so they can be disinfected.",
+      "exampleTranslation": "可重复使用的工具通常用不锈钢做，所以能消毒。",
+      "evidence": [
+        {
+          "pdfPage": 166,
+          "quote": "are generally stainless steel, as they must be properly cleaned and disinfected prior to use on another client"
+        },
+        {
+          "pdfPage": 167,
+          "quote": "They must be stainless steel in order to be disinfected after use."
+        }
+      ]
+    },
+    {
+      "setId": "5B",
+      "word": "metal pusher",
+      "translation": "钢推",
+      "partOfSpeech": "Noun",
+      "example": "A metal pusher gently scrapes cuticle tissue off the nail plate.",
+      "exampleTranslation": "钢推用来轻轻刮掉甲面上的死皮组织。",
+      "evidence": [
+        {
+          "pdfPage": 166,
+          "quote": "It is designed to gently scrape cuticle tissue from the natural nail plate."
+        }
+      ]
+    },
+    {
+      "setId": "5B",
+      "word": "nail nippers",
+      "translation": "死皮剪",
+      "partOfSpeech": "Noun",
+      "example": "Nail nippers trim dead skin; never use them on live skin.",
+      "exampleTranslation": "死皮剪用来修剪死皮，绝不能用来剪活皮。",
+      "evidence": [
+        {
+          "pdfPage": 166,
+          "quote": "used to carefully trim away dead skin around the nails. It is never used to cut, rip, or tear live tissue"
+        }
+      ]
+    },
+    {
+      "setId": "5B",
+      "word": "box joint",
+      "translation": "剪轴",
+      "partOfSpeech": "Noun",
+      "example": "Put your index finger on the nippers' box joint for control.",
+      "exampleTranslation": "把食指放在死皮剪的剪轴上，更好控制。",
+      "evidence": [
+        {
+          "pdfPage": 167,
+          "quote": "Your index finger is placed on the box joint to help control the blade and guide it properly"
+        }
+      ]
+    },
+    {
+      "setId": "5B",
+      "word": "grit",
+      "translation": "目数",
+      "partOfSpeech": "Noun",
+      "example": "A lower grit number means bigger grains and a rougher file.",
+      "exampleTranslation": "目数越低，颗粒越大，锉条越粗。",
+      "evidence": [
+        {
+          "pdfPage": 170,
+          "quote": "the lower the grit, the larger the abrasive particles on the file"
+        },
+        {
+          "pdfPage": 171,
+          "quote": "and the more aggressive its action"
+        }
+      ]
+    },
+    {
+      "setId": "5B",
+      "word": "curette",
+      "sayIt": "kyoo-RET",
+      "translation": "刮匙",
+      "partOfSpeech": "Noun",
+      "example": "A curette has a small scoop for cleaning out the nail folds.",
+      "exampleTranslation": "刮匙有一个小勺头，用来清理甲沟。",
+      "evidence": [
+        {
+          "pdfPage": 222,
+          "quote": "is an implement with a small scoop-shaped end that, if used carefully, allows for more efficient removal of debris from the nail folds"
+        }
+      ]
+    },
+    {
+      "setId": "5B",
+      "word": "wooden pusher",
+      "translation": "木棒",
+      "partOfSpeech": "Noun",
+      "example": "A wooden pusher is single-use: throw it away after one client.",
+      "exampleTranslation": "木棒是一次性的：给一位顾客用完就扔掉。",
+      "evidence": [
+        {
+          "pdfPage": 168,
+          "quote": "It is a single-use implement and not intended for reuse or disinfection."
+        },
+        {
+          "pdfPage": 167,
+          "quote": "All single-use implements are used once on a client. They are then discarded"
+        }
+      ]
+    },
+    {
+      "setId": "5B",
+      "word": "nail rasp",
+      "translation": "甲沟锉",
+      "partOfSpeech": "Noun",
+      "example": "A nail rasp files the sides of the free edge.",
+      "exampleTranslation": "甲沟锉用来锉指甲前缘的两侧。",
+      "evidence": [
+        {
+          "pdfPage": 222,
+          "quote": "to reduce the sides of the free edge that might grow into the tissues"
+        },
+        {
+          "pdfPage": 223,
+          "quote": "Never use it on the top of the nail"
+        }
+      ]
+    },
+    {
+      "setId": "5B",
+      "word": "foot file",
+      "translation": "脚锉",
+      "partOfSpeech": "Noun",
+      "example": "A foot file, or pedicure paddle, smooths thick calluses.",
+      "exampleTranslation": "脚锉（也叫修脚板）用来磨平厚茧。",
+      "evidence": [
+        {
+          "pdfPage": 223,
+          "quote": "or pedicure paddle, is designed to reduce and smooth thicker foot calluses"
+        }
+      ]
+    },
+    {
+      "setId": "5B",
+      "word": "synthetic",
+      "sayIt": "sin-THET-ik",
+      "translation": "合成的",
+      "partOfSpeech": "Adjective",
+      "example": "Synthetic hair brushes can be disinfected; natural hair brushes cannot.",
+      "exampleTranslation": "合成毛刷可以消毒，天然毛刷不能。",
+      "evidence": [
+        {
+          "pdfPage": 168,
+          "quote": "Synthetic hair brushes can be cleaned and disinfected by immersion."
+        },
+        {
+          "pdfPage": 168,
+          "quote": "natural hair nail brushes cannot be cleaned or disinfected and should be discarded after use"
+        }
+      ]
+    },
+    {
+      "setId": "5B",
+      "word": "abrasive",
+      "sayIt": "uh-BRAY-siv",
+      "translation": "锉条",
+      "partOfSpeech": "Noun",
+      "example": "Use a medium-grit abrasive to shape the natural nail.",
+      "exampleTranslation": "用中目数的锉条修整真甲的形状。",
+      "evidence": [
+        {
+          "pdfPage": 201,
+          "quote": "Use a medium-grit abrasive to shape the natural nail."
+        }
+      ]
+    },
+    {
+      "setId": "5B",
+      "word": "three-way buffer",
+      "translation": "三面抛光条",
+      "partOfSpeech": "Noun",
+      "example": "Use a three-way buffer from the lowest grit to the shine side.",
+      "exampleTranslation": "三面抛光条要从目数最低的一面用起，最后用抛光面。",
+      "evidence": [
+        {
+          "pdfPage": 171,
+          "quote": "Begin with the lowest-grit abrasive surface in the smoothing task"
+        },
+        {
+          "pdfPage": 171,
+          "quote": "and then finally on to the shining surface (usually no grit)"
+        }
+      ]
+    },
+    {
+      "setId": "5C",
+      "word": "terry cloth towel",
+      "translation": "毛巾",
+      "partOfSpeech": "Noun",
+      "example": "A white terry cloth towel can be bleached between uses.",
+      "exampleTranslation": "白色毛巾每次用完洗的时候都可以漂白。",
+      "evidence": [
+        {
+          "pdfPage": 172,
+          "quote": "The best terry cloth towel for use in a personal service is white, as it can be bleached during washing between uses."
+        }
+      ]
+    },
+    {
+      "setId": "5C",
+      "word": "plastic-backed pad",
+      "translation": "背面带塑料膜的棉片",
+      "partOfSpeech": "Noun",
+      "example": "Plastic-backed pads keep drying solvents off your fingertips.",
+      "exampleTranslation": "背面带塑料膜的棉片能挡住让皮肤变干的溶剂，保护你的指尖。",
+      "evidence": [
+        {
+          "pdfPage": 172,
+          "quote": "Plastic backing protects nail professionals’ fingertips from overexposure to drying solvents and other chemicals"
+        }
+      ]
+    },
+    {
+      "setId": "5C",
+      "word": "exfoliating scrub",
+      "sayIt": "eks-FOH-lee-ay-ting scrub",
+      "translation": "去角质磨砂膏",
+      "partOfSpeech": "Noun",
+      "example": "An exfoliating scrub is a gritty lotion that removes dry skin.",
+      "exampleTranslation": "去角质磨砂膏是一种含颗粒的乳液，能去除干皮。",
+      "evidence": [
+        {
+          "pdfPage": 225,
+          "quote": "A gritty lotion is massaged on the foot and leg to remove dry, flaky skin and reduce calluses."
+        },
+        {
+          "pdfPage": 225,
+          "quote": "is usually a water-based lotion that contains an abrasive as the exfoliating agent"
+        }
+      ]
+    },
+    {
+      "setId": "5C",
+      "word": "toe separators",
+      "sayIt": "toh SEP-uh-ray-terz",
+      "translation": "分趾器",
+      "partOfSpeech": "Noun",
+      "example": "Toe separators keep the toes apart while you polish toenails.",
+      "exampleTranslation": "给脚指甲涂甲油时，分趾器能把脚趾分开。",
+      "evidence": [
+        {
+          "pdfPage": 224,
+          "quote": "are used to keep the toes apart while the technician is polishing"
+        }
+      ]
+    },
+    {
+      "setId": "5C",
+      "word": "protein hardener",
+      "translation": "蛋白硬甲油",
+      "partOfSpeech": "Noun",
+      "example": "A protein hardener only coats the surface; it doesn't soak in.",
+      "exampleTranslation": "蛋白硬甲油只在甲面形成一层涂层，不会渗进指甲。",
+      "evidence": [
+        {
+          "pdfPage": 176,
+          "quote": "This provides a clear, hard coating on the surface of the nail but does not change or affect the natural nail plate itself."
+        },
+        {
+          "pdfPage": 176,
+          "quote": "Protein (collagen) has very large molecules that cannot be absorbed into the nail plate."
+        }
+      ]
+    },
+    {
+      "setId": "5C",
+      "word": "nail cream",
+      "translation": "护甲霜",
+      "partOfSpeech": "Noun",
+      "example": "Nail cream is a barrier: it seals moisture into the skin.",
+      "exampleTranslation": "护甲霜是一层屏障：把水分锁在皮肤里。",
+      "evidence": [
+        {
+          "pdfPage": 174,
+          "quote": "are barrier products: They contain ingredients designed to seal the surface of the skin around the nails and hold in the subdermal moisture in the skin"
+        }
+      ]
+    },
+    {
+      "setId": "5C",
+      "word": "foot soak",
+      "translation": "泡脚粉/泡脚液",
+      "partOfSpeech": "Noun",
+      "example": "A foot soak is added to pedicure water to soften the skin.",
+      "exampleTranslation": "泡脚粉/泡脚液加进修脚水里，用来软化皮肤。",
+      "evidence": [
+        {
+          "pdfPage": 225,
+          "quote": "is a product that is added to the water in the pedicure bath to soften the skin on the feet"
+        }
+      ]
+    },
+    {
+      "setId": "5C",
+      "word": "lacquer",
+      "sayIt": "LAK-er",
+      "translation": "指甲油",
+      "partOfSpeech": "Noun",
+      "example": "Lacquer, enamel, and varnish are other names for nail polish.",
+      "exampleTranslation": "lacquer、enamel 和 varnish 都是指甲油的别称。",
+      "evidence": [
+        {
+          "pdfPage": 175,
+          "quote": "Colored coatings applied to the natural nail plate are variously known as polish, enamel, lacquer, or varnish."
+        },
+        {
+          "pdfPage": 175,
+          "quote": "All of these terms are actually marketing terms used to describe the same types of products"
+        }
+      ]
+    },
+    {
+      "setId": "5C",
+      "word": "topcoat",
+      "translation": "亮油/封层",
+      "partOfSpeech": "Noun",
+      "example": "Topcoat goes over colored polish to stop chipping and add shine.",
+      "exampleTranslation": "亮油涂在彩色甲油上面，防止剥落，增加光泽。",
+      "evidence": [
+        {
+          "pdfPage": 177,
+          "quote": "Topcoats are applied over colored polish to prevent chipping and to add a shine or a matte finish to the nail."
+        }
+      ]
+    },
+    {
+      "setId": "5C",
+      "word": "pumice",
+      "sayIt": "PUM-iss",
+      "translation": "浮石粉",
+      "partOfSpeech": "Noun",
+      "example": "Pumice can be the gritty part of a pedicure scrub.",
+      "exampleTranslation": "浮石粉可以是修脚磨砂膏里的颗粒成分。",
+      "evidence": [
+        {
+          "pdfPage": 225,
+          "quote": "Sea sand, ground apricot kernels, pumice, quartz crystals, and jojoba beads are exfoliating agents that may be found in pedicure scrubs."
+        }
+      ]
+    },
+    {
+      "setId": "5C",
+      "word": "corn meal",
+      "translation": "玉米粉",
+      "partOfSpeech": "Noun",
+      "example": "Corn meal can expand and clog the pedicure drain.",
+      "exampleTranslation": "玉米粉会膨胀，堵塞修脚盆的下水口。",
+      "evidence": [
+        {
+          "pdfPage": 225,
+          "quote": "avoid using products with ingredients that will expand and clog the pedicure drain, such as corn meal"
+        }
+      ]
+    },
+    {
+      "setId": "5C",
+      "word": "callus softener",
+      "sayIt": "KAL-us SAW-fuh-ner",
+      "translation": "去茧软化剂",
+      "partOfSpeech": "Noun",
+      "example": "Callus softeners soften thick calluses; wear safety glasses with alkaline ones.",
+      "exampleTranslation": "去茧软化剂能软化厚茧；用碱性的去茧软化剂时要戴护目镜。",
+      "evidence": [
+        {
+          "pdfPage": 226,
+          "quote": "product designed to soften and smooth thickened calluses"
+        },
+        {
+          "pdfPage": 226,
+          "quote": "Some callus softeners are alkaline and potentially hazardous."
+        },
+        {
+          "pdfPage": 226,
+          "quote": "safety glasses should be worn whenever those types of products are used or poured"
+        }
+      ]
+    }
+  ],
+  "lookAlikes": [
+    {
+      "id": "equipment-implements-supplies",
+      "setId": "5A",
+      "items": [
+        {
+          "word": "equipment",
+          "translation": "设备",
+          "meaning": {
+            "en": "Tools like the table, lamp, and finger bowl",
+            "zh": "像美甲桌、台灯、泡手碗这样的用具"
+          }
+        },
+        {
+          "word": "implements",
+          "translation": "工具",
+          "meaning": {
+            "en": "Hand tools like nippers, pushers, and tweezers",
+            "zh": "像死皮剪、推棒、镊子这样的手持工具"
+          }
+        },
+        {
+          "word": "supplies",
+          "translation": "耗材",
+          "meaning": {
+            "en": "Used once, then replaced, like cotton and gauze",
+            "zh": "用一次就换新的，比如棉花和纱布"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Implements fit in your hand. Equipment stays at your station. Supplies get used up and replaced.",
+        "zh": "工具（implements）拿在手里。设备（equipment）放在工位上不动。耗材（supplies）：“耗”就是用掉，用完换新的。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 161,
+          "quote": "Equipment includes all tools used to perform nail services that are not implements."
+        },
+        {
+          "pdfPage": 161,
+          "quote": "Describe the Equipment Needed to Perform Nail Services"
+        },
+        {
+          "pdfPage": 162,
+          "quote": "A finger bowl is used for soaking the client’s fingers in warm water"
+        },
+        {
+          "pdfPage": 166,
+          "quote": "Implements are tools used to perform your services."
+        },
+        {
+          "pdfPage": 167,
+          "quote": "Tweezers are multiuse implements that can be used for lifting small bits of debris"
+        },
+        {
+          "pdfPage": 169,
+          "quote": "Materials and supplies used during a manicure are designed to be single use and must be replaced for each client."
+        },
+        {
+          "pdfPage": 172,
+          "quote": "Gauze squares, cotton rounds, or cotton balls are also popular for removing nail polish"
+        }
+      ]
+    },
+    {
+      "id": "fluorescent-incandescent",
+      "setId": "5A",
+      "items": [
+        {
+          "word": "fluorescent bulb",
+          "translation": "荧光灯",
+          "meaning": {
+            "en": "Cooler light; doesn't heat things below",
+            "zh": "光比较凉，不会把下面的东西烤热"
+          }
+        },
+        {
+          "word": "incandescent bulb",
+          "translation": "白炽灯",
+          "meaning": {
+            "en": "Gets very hot; can speed up curing",
+            "zh": "会变得很烫，可能让产品固化太快"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Incandescent has \"cand\", like candle: hot like a flame. Fluorescent light stays cooler.",
+        "zh": "incandescent 里有 cand，想想 candle（蜡烛）：像火一样烫。中文“白炽灯”的“炽”有火字旁：很烫。荧光灯的光比较凉。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 161,
+          "quote": "Fluorescent bulbs are very popular because they emit cooler light"
+        },
+        {
+          "pdfPage": 161,
+          "quote": "Fluorescent lights also do not heat up objects underneath the lamp, as do high-watt incandescent bulbs."
+        },
+        {
+          "pdfPage": 161,
+          "quote": "Higher temperatures caused by an incandescent bulb can increase the curing speed of some nail enhancement products."
+        },
+        {
+          "pdfPage": 162,
+          "quote": "Light bulbs, especially incandescent ones, can become very hot while in use"
+        }
+      ]
+    },
+    {
+      "id": "fuse-circuit-breaker",
+      "setId": "5A",
+      "items": [
+        {
+          "word": "fuse",
+          "translation": "保险丝",
+          "meaning": {
+            "en": "Melts when too much current flows",
+            "zh": "电流太大时会熔断"
+          }
+        },
+        {
+          "word": "circuit breaker",
+          "translation": "断路器",
+          "meaning": {
+            "en": "Shuts off the circuit; you reset it",
+            "zh": "自动切断电路，可以复位再用"
+          }
+        }
+      ],
+      "tip": {
+        "en": "A fuse melts, so you put in a new one. A circuit breaker is a switch you turn back on.",
+        "zh": "保险丝会熔断，要换一根新的。断路器是一个开关，检查好后把它重新打开就行。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 682,
+          "quote": "It is designed to blow out or melt when the wire becomes too hot from overloading the circuit with too much current"
+        },
+        {
+          "pdfPage": 682,
+          "quote": "insert a new fuse, then reconnect the appliance"
+        },
+        {
+          "pdfPage": 682,
+          "quote": "is a switch that automatically interrupts or shuts off an electric circuit at the first indication of an overload"
+        },
+        {
+          "pdfPage": 683,
+          "quote": "can simply be reset by switching the circuit breaker back on"
+        }
+      ]
+    },
+    {
+      "id": "nipper-pusher-curette",
+      "setId": "5B",
+      "items": [
+        {
+          "word": "nail nipper",
+          "translation": "死皮剪",
+          "meaning": {
+            "en": "Trims dead skin with two sharp blades",
+            "zh": "用两片锋利的刀刃修剪死皮"
+          }
+        },
+        {
+          "word": "metal pusher",
+          "translation": "钢推",
+          "meaning": {
+            "en": "Gently scrapes cuticle off the nail plate",
+            "zh": "把死皮从甲面上轻轻刮掉"
+          }
+        },
+        {
+          "word": "curette",
+          "translation": "刮匙",
+          "meaning": {
+            "en": "Small scoop that cleans out the nail folds",
+            "zh": "小勺形工具，用来清理甲沟"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Nippers snip like tiny scissors. A pusher pushes on the nail plate. A curette scoops out the folds.",
+        "zh": "死皮剪像小剪刀一样剪。钢推在甲面上推、刮。刮匙 = 刮 + 匙（小勺子）：把甲沟里的脏东西舀出来。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 166,
+          "quote": "is a stainless-steel implement used to carefully trim away dead skin around the nails"
+        },
+        {
+          "pdfPage": 167,
+          "quote": "with the blades facing the nail plate"
+        },
+        {
+          "pdfPage": 167,
+          "quote": "Always maintain a sharp edge on your nippers"
+        },
+        {
+          "pdfPage": 166,
+          "quote": "It is designed to gently scrape cuticle tissue from the natural nail plate."
+        },
+        {
+          "pdfPage": 222,
+          "quote": "is an implement with a small scoop-shaped end that, if used carefully, allows for more efficient removal of debris from the nail folds"
+        }
+      ]
+    },
+    {
+      "id": "coarse-medium-fine-grit",
+      "setId": "5B",
+      "items": [
+        {
+          "word": "coarse grit",
+          "translation": "粗目数",
+          "meaning": {
+            "en": "Removes product fast; leaves deep scratches",
+            "zh": "磨得快，留下很深的刮痕"
+          }
+        },
+        {
+          "word": "medium grit",
+          "translation": "中目数",
+          "meaning": {
+            "en": "Shortens and shapes natural nails",
+            "zh": "修短、修形真甲"
+          }
+        },
+        {
+          "word": "fine grit",
+          "translation": "细目数",
+          "meaning": {
+            "en": "Buffs, polishes, and removes tiny scratches",
+            "zh": "抛光、上光、去掉细小刮痕"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Coarse: big, rough grains, low number. Fine: tiny grains like flour, high number. Medium shapes natural nails.",
+        "zh": "粗目数（coarse）：颗粒大又粗，数字低。细目数（fine）：颗粒细得像面粉，数字高。中目数（medium）用来修真甲形状。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 170,
+          "quote": "the lower the grit, the larger the abrasive particles on the file"
+        },
+        {
+          "pdfPage": 171,
+          "quote": "files and buffers (100 or less grit) quickly reduce any surface and produce deeper and more visible scratches than do those of a higher grit"
+        },
+        {
+          "pdfPage": 171,
+          "quote": "are used to smooth and refine surfaces; used to shorten and shape natural nails"
+        },
+        {
+          "pdfPage": 171,
+          "quote": "feature grits of 240 and higher. They are designed for buffing, polishing, and removing very fine scratches."
+        }
+      ]
+    },
+    {
+      "id": "nail-cream-nail-oil",
+      "setId": "5C",
+      "items": [
+        {
+          "word": "nail cream",
+          "translation": "护甲霜",
+          "meaning": {
+            "en": "Barrier that seals moisture into the skin",
+            "zh": "一层屏障，把水分锁在皮肤里"
+          }
+        },
+        {
+          "word": "nail oil",
+          "translation": "营养油",
+          "meaning": {
+            "en": "Soaks into the nail plate for flexibility",
+            "zh": "渗进甲板，让指甲更柔韧"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Cream sits on top like a lid and keeps water in. Oil soaks into the nail.",
+        "zh": "护甲霜（cream）像锅盖一样盖在上面，把水分锁住。营养油（oil）会渗进指甲里。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 174,
+          "quote": "are barrier products: They contain ingredients designed to seal the surface of the skin around the nails and hold in the subdermal moisture in the skin"
+        },
+        {
+          "pdfPage": 174,
+          "quote": "are designed to be absorbed into the nail plate to increase flexibility"
+        }
+      ]
+    }
+  ]
+}

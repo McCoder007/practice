@@ -16,6 +16,11 @@ import {
   NAIL_EXAM_PRACTICE_TITLE,
   bankSummaryLine,
 } from "@/data/nail-exam-practice/catalog"
+import {
+  QUESTION_WORDS_DESCRIPTION,
+  QUESTION_WORDS_HREF,
+  QUESTION_WORDS_TITLE,
+} from "@/data/nail-exam-practice/question-words"
 import type { LocalizedText } from "@/data/exam-quiz/types"
 import { useExamQuizPreferences } from "@/contexts/ExamQuizPreferencesContext"
 import { ExamQuizChineseToggle } from "@/components/ExamQuizChineseToggle"
@@ -120,6 +125,13 @@ export function NailExamPracticeHub() {
             title={WORD_REEL.title}
             description={WORD_REEL.description}
             accent="pink"
+            showChinese={showChinese}
+          />
+          <HubCard
+            href={QUESTION_WORDS_HREF}
+            title={QUESTION_WORDS_TITLE}
+            description={QUESTION_WORDS_DESCRIPTION}
+            accent="amber"
             showChinese={showChinese}
           />
           <HubCard

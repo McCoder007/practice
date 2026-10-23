@@ -1,0 +1,318 @@
+{
+  "topicId": "post-service",
+  "status": "reviewed",
+  "words": [
+    {
+      "setId": "8A",
+      "word": "post-service procedure",
+      "sayIt": "pohst-SUR-vis pruh-SEE-jer",
+      "translation": "服务后流程",
+      "partOfSpeech": "Noun",
+      "example": "The post-service procedure covers caring for the client after the service.",
+      "exampleTranslation": "服务后流程讲的是服务做完以后怎样照顾客人。",
+      "evidence": [
+        {
+          "pdfPage": 179,
+          "quote": "The post-service procedure is an organized, step-by-step plan for caring for your client after the procedure has been completed."
+        }
+      ]
+    },
+    {
+      "setId": "8A",
+      "word": "home care",
+      "translation": "居家护理",
+      "partOfSpeech": "Noun",
+      "example": "Home care products help clients keep the service looking good.",
+      "exampleTranslation": "居家护理产品帮助客人让服务效果保持得好。",
+      "evidence": [
+        {
+          "pdfPage": 226,
+          "quote": "They are also formulated as home-care products to sell to clients to maintain the service or improve the skin."
+        },
+        {
+          "pdfPage": 199,
+          "quote": "Advise the client of proper home maintenance."
+        }
+      ]
+    },
+    {
+      "setId": "8A",
+      "word": "retail",
+      "translation": "零售",
+      "partOfSpeech": "Adjective",
+      "example": "Suggest retail products the client can buy and take home.",
+      "exampleTranslation": "推荐客人可以买回家的零售产品。",
+      "evidence": [
+        {
+          "pdfPage": 199,
+          "quote": "There may be a number of retail products that you could recommend for the client to take home."
+        }
+      ]
+    },
+    {
+      "setId": "8A",
+      "word": "escort",
+      "sayIt": "es-KORT",
+      "translation": "带领",
+      "partOfSpeech": "Verb",
+      "example": "Escort the client to the front desk to book and pay.",
+      "exampleTranslation": "带客人到前台预约下次服务并付款。",
+      "evidence": [
+        {
+          "pdfPage": 200,
+          "quote": "Escort the client to the front desk to schedule their next appointment and to pay for the service."
+        }
+      ]
+    },
+    {
+      "setId": "8A",
+      "word": "client service form",
+      "translation": "客人服务记录表",
+      "partOfSpeech": "Noun",
+      "example": "Write the products you used on the client service form.",
+      "exampleTranslation": "把你用过的产品写在客人服务记录表上。",
+      "evidence": [
+        {
+          "pdfPage": 200,
+          "quote": "Record service information, products used, observations, and retail recommendations on the client service form"
+        }
+      ]
+    },
+    {
+      "setId": "8A",
+      "word": "slippery",
+      "translation": "打滑",
+      "partOfSpeech": "Adjective",
+      "example": "Disposable pedicure slippers can be slippery, so walk with care.",
+      "exampleTranslation": "一次性足疗拖鞋可能会打滑，走路要小心。",
+      "evidence": [
+        {
+          "pdfPage": 224,
+          "quote": "Warn the clients that these can be slippery, so they should use care when walking or driving while wearing them."
+        }
+      ]
+    },
+    {
+      "setId": "8A",
+      "word": "circulate",
+      "sayIt": "SUR-kyuh-layt",
+      "translation": "循环",
+      "partOfSpeech": "Verb",
+      "example": "Circulate the disinfectant through the basin for 10 minutes.",
+      "exampleTranslation": "让消毒液在足浴盆里循环 10 分钟。",
+      "evidence": [
+        {
+          "pdfPage": 246,
+          "quote": "Circulate the disinfectant through the basin for 10 minutes."
+        }
+      ]
+    },
+    {
+      "setId": "8A",
+      "word": "impeller",
+      "sayIt": "im-PEL-er",
+      "translation": "叶轮",
+      "partOfSpeech": "Noun",
+      "example": "After every client, remove the impeller covers and scrub behind them.",
+      "exampleTranslation": "每位客人之后，都要拆下叶轮盖，刷洗后面的地方。",
+      "evidence": [
+        {
+          "pdfPage": 244,
+          "quote": "A. After every client: 1 Put on gloves and safety glasses."
+        },
+        {
+          "pdfPage": 245,
+          "quote": "Remove the covers from the impellers and any other removable components"
+        },
+        {
+          "pdfPage": 245,
+          "quote": "Thoroughly scrub all removable components, the impellers, and the areas behind each with liquid soap"
+        }
+      ]
+    },
+    {
+      "setId": "8A",
+      "word": "chelating detergent",
+      "sayIt": "KEE-lay-ting dih-TUR-junt",
+      "translation": "螯合清洁剂",
+      "partOfSpeech": "Noun",
+      "example": "Chelating detergent breaks down stubborn films in foot spas.",
+      "exampleTranslation": "螯合清洁剂能分解足浴盆里的顽固膜层。",
+      "evidence": [
+        {
+          "pdfPage": 247,
+          "quote": "Chelating detergents break down stubborn films and help remove pedicure product residues."
+        }
+      ]
+    },
+    {
+      "setId": "8A",
+      "word": "disinfection log",
+      "sayIt": "dis-in-FEK-shun log",
+      "translation": "消毒记录本",
+      "partOfSpeech": "Noun",
+      "example": "A disinfection log records the time and date of each disinfection.",
+      "exampleTranslation": "消毒记录本记下每次消毒的时间和日期。",
+      "evidence": [
+        {
+          "pdfPage": 236,
+          "quote": "many states require that salons record the time and date of each disinfecting procedure that is performed in a salon pedicure log or disinfection log"
+        }
+      ]
+    },
+    {
+      "setId": "8A",
+      "word": "close a sale",
+      "translation": "促成销售",
+      "partOfSpeech": "Phrase",
+      "example": "To close a sale, place the product in the client's hand.",
+      "exampleTranslation": "要促成销售，就把产品放到客人手里。",
+      "evidence": [
+        {
+          "pdfPage": 153,
+          "quote": "place the item in the client’s hand and ask if you can add it to her or his ticket. This last step is crucial to close the sale."
+        }
+      ]
+    },
+    {
+      "setId": "8A",
+      "word": "self-closing lid",
+      "translation": "自动合盖",
+      "partOfSpeech": "Noun",
+      "example": "A self-closing lid on the trash can helps keep smells down.",
+      "exampleTranslation": "垃圾桶装上自动合盖，可以减少异味。",
+      "evidence": [
+        {
+          "pdfPage": 163,
+          "quote": "A trash container with a self-closing lid is one way to prevent excessive odors and vapors in the salon."
+        }
+      ]
+    }
+  ],
+  "lookAlikes": [
+    {
+      "id": "chelating-detergent-disinfectant",
+      "setId": "8A",
+      "items": [
+        {
+          "word": "chelating detergent",
+          "translation": "螯合清洁剂",
+          "meaning": {
+            "en": "breaks down stubborn films; made for hard water",
+            "zh": "分解顽固膜层；专为硬水设计"
+          }
+        },
+        {
+          "word": "disinfectant",
+          "translation": "消毒液",
+          "meaning": {
+            "en": "kills most germs on surfaces, not skin",
+            "zh": "杀死物体表面的大多数病菌，不能用在皮肤上"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Disinfectant has infect inside: it kills germs. Chelating detergent is a soap: it breaks down film.",
+        "zh": "disinfectant 里有 infect（感染）：它杀菌。chelating detergent 是一种清洁皂：它分解膜层。中文也一样：“消毒”杀菌，“清洁”去污。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 247,
+          "quote": "Chelating detergents break down stubborn films and help remove pedicure product residues."
+        },
+        {
+          "pdfPage": 620,
+          "quote": "Chelating soaps (CHE-layt-ing SOHPS), also known as chelating deter-gents, work to break down stubborn films"
+        },
+        {
+          "pdfPage": 620,
+          "quote": "are specially formulated to work in areas with hard tap water."
+        },
+        {
+          "pdfPage": 614,
+          "quote": "disinfectants are products that destroy most bacteria (not including spores), fungi, and viruses on surfaces."
+        },
+        {
+          "pdfPage": 614,
+          "quote": "Disinfectants are not for use on human skin, hair, or nails."
+        }
+      ]
+    },
+    {
+      "id": "disinfection-log-client-service-form",
+      "setId": "8A",
+      "items": [
+        {
+          "word": "disinfection log",
+          "translation": "消毒记录本",
+          "meaning": {
+            "en": "records when each pedicure tub was disinfected",
+            "zh": "记下足浴盆消毒的时间和日期"
+          }
+        },
+        {
+          "word": "client service form",
+          "translation": "客人服务记录表",
+          "meaning": {
+            "en": "notes products used and products you suggest",
+            "zh": "记下用过的产品和推荐的零售产品"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Client service form has client in it: it is about the client. The log is about the tubs.",
+        "zh": "client service form 里有 client（客人）：记的是客人的事。消毒记录本记的是足浴盆的事。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 236,
+          "quote": "many states require that salons record the time and date of each disinfecting procedure that is performed in a salon pedicure log or disinfection log"
+        },
+        {
+          "pdfPage": 200,
+          "quote": "Record service information, products used, observations, and retail recommendations on the client service form"
+        }
+      ]
+    },
+    {
+      "id": "slippers-slippery",
+      "setId": "8A",
+      "items": [
+        {
+          "word": "pedicure slippers",
+          "translation": "一次性足疗拖鞋",
+          "meaning": {
+            "en": "paper or foam shoes for fresh toe polish",
+            "zh": "保护刚涂好脚趾甲油的纸拖鞋或泡沫拖鞋"
+          }
+        },
+        {
+          "word": "slippery",
+          "translation": "打滑",
+          "meaning": {
+            "en": "easy to slide on; walk with care",
+            "zh": "容易滑；走路要小心"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Slippers are shoes you wear. Slippery, with a y at the end, means you can slip.",
+        "zh": "slippers 是穿在脚上的拖鞋。slippery 结尾多一个 y，意思是“滑、容易打滑”。中文也一样：“拖鞋”是穿的东西，“打滑”是会滑倒。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 224,
+          "quote": "Single-use paper or foam slippers are provided for clients who did not wear open-toe shoes or sandals into the salon"
+        },
+        {
+          "pdfPage": 224,
+          "quote": "want to avoid smudging their newly applied toenail polish"
+        },
+        {
+          "pdfPage": 224,
+          "quote": "Warn the clients that these can be slippery, so they should use care when walking or driving while wearing them."
+        }
+      ]
+    }
+  ]
+}

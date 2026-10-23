@@ -375,6 +375,13 @@ export const EXAM_TOPICS_DESCRIPTION: LocalizedText = {
   zh: `${EXAM_TOPIC_INDEX.domains.length} 大考试主题 · ${EXAM_TOPICS_QUESTION_COUNT} 道题 · 附记忆技巧`,
 }
 
+export const LOOK_ALIKE_HREF = `${EXAM_TOPICS_HREF}/look-alike-words`
+export const LOOK_ALIKE_TITLE: LocalizedText = { en: "Look-alike Words", zh: "易混词练习" }
+export const LOOK_ALIKE_DESCRIPTION: LocalizedText = {
+  en: "Words that look the same. Pick the right one, then learn a trick to remember it.",
+  zh: "长得很像的词。选出正确的那个，再学一个记住它的小技巧。",
+}
+
 export type ExamTopicSet = { setId: string; title: LocalizedText; offset: number; count: number }
 
 export type ExamTopic = {
@@ -385,6 +392,8 @@ export type ExamTopic = {
   questionCount: number
   sets: readonly ExamTopicSet[]
   href: string
+  /** The topic's word reel (swipe cards of its key exam words). */
+  wordsHref: string
   bankId: NailExamBankId
 }
 
@@ -398,6 +407,7 @@ export const EXAM_TOPICS: readonly ExamTopic[] = EXAM_TOPIC_INDEX.domains.map((d
   questionCount: domain.questionCount,
   sets: domain.sets,
   href: `${EXAM_TOPICS_HREF}/${domain.id}`,
+  wordsHref: `${EXAM_TOPICS_HREF}/${domain.id}/words`,
   bankId: `exam-topic-${domain.id}` as NailExamBankId,
 }))
 

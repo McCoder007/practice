@@ -11,5 +11,5 @@ export default async function ExamTopicPage({ params }: { params: Promise<{ topi
   const { topic } = await params
   const match = EXAM_TOPICS.find((entry) => entry.id === topic)
   if (!match) notFound()
-  return <ExamTopicBank bankId={match.bankId} />
+  return <ExamTopicBank bankId={match.bankId} wordReel={{ topicId: match.id, href: match.wordsHref }} />
 }

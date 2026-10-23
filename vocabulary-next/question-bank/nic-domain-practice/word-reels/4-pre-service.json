@@ -1,0 +1,355 @@
+{
+  "topicId": "pre-service",
+  "status": "reviewed",
+  "words": [
+    {
+      "setId": "4A",
+      "word": "pre-service procedure",
+      "sayIt": "pree-SUR-vis pruh-SEE-jer",
+      "translation": "服务前程序",
+      "partOfSpeech": "Noun",
+      "example": "The pre-service procedure covers cleaning tools, setting up, and greeting clients.",
+      "exampleTranslation": "服务前程序包括清洁工具、布置工作台和迎接顾客。",
+      "evidence": [
+        {
+          "pdfPage": 179,
+          "quote": "The pre-service procedure is an organized, step-by-step plan for cleaning and disinfecting your tools, implements, and materials; setting up the basic manicuring table; and meeting, greeting, and escorting your client to your service area."
+        }
+      ]
+    },
+    {
+      "setId": "4A",
+      "word": "client intake form",
+      "sayIt": "KLY-unt IN-tayk form",
+      "translation": "顾客登记表",
+      "partOfSpeech": "Noun",
+      "example": "New clients fill out a client intake form before their first service.",
+      "exampleTranslation": "新顾客在第一次服务前要填写顾客登记表。",
+      "evidence": [
+        {
+          "pdfPage": 545,
+          "quote": "Every new client should fill out a client intake form"
+        },
+        {
+          "pdfPage": 548,
+          "quote": "let the client know that you and the shop will require some information before you can begin the service"
+        }
+      ]
+    },
+    {
+      "setId": "4A",
+      "word": "service record card",
+      "translation": "服务记录卡",
+      "partOfSpeech": "Noun",
+      "example": "The nail tech writes services and products on the service record card.",
+      "exampleTranslation": "美甲师把做过的服务和用过的产品写在服务记录卡上。",
+      "evidence": [
+        {
+          "pdfPage": 547,
+          "quote": "the client’s permanent progress record of services received, results, formulations, and products used during the service or purchased"
+        },
+        {
+          "pdfPage": 547,
+          "quote": "is completed by the beauty professional performing the service"
+        }
+      ]
+    },
+    {
+      "setId": "4A",
+      "word": "client consultation",
+      "sayIt": "KLY-unt kon-sul-TAY-shun",
+      "translation": "顾客咨询",
+      "partOfSpeech": "Noun",
+      "example": "Do a client consultation before every service, even for regular clients.",
+      "exampleTranslation": "每次服务前都要做顾客咨询，老顾客也一样。",
+      "evidence": [
+        {
+          "pdfPage": 549,
+          "quote": "should always be done before starting the actual service. A consultation should be performed as part of every single service and shop visit."
+        }
+      ]
+    },
+    {
+      "setId": "4A",
+      "word": "reflective listening",
+      "sayIt": "rih-FLEK-tiv LIS-un-ing",
+      "translation": "反映式倾听",
+      "partOfSpeech": "Noun",
+      "example": "In reflective listening, you repeat the client's ideas in your own words.",
+      "exampleTranslation": "反映式倾听就是用自己的话复述顾客的想法。",
+      "evidence": [
+        {
+          "pdfPage": 553,
+          "quote": "Listening to the client and then repeating, in your own words, what you think the client is telling you is known as reflective listening"
+        }
+      ]
+    },
+    {
+      "setId": "4A",
+      "word": "diagnose",
+      "sayIt": "dy-ug-NOHS",
+      "translation": "诊断",
+      "partOfSpeech": "Verb",
+      "example": "Nail techs must never diagnose, or name, a client's disease.",
+      "exampleTranslation": "美甲师绝对不能诊断，也就是不能说出顾客得了什么病。",
+      "evidence": [
+        {
+          "pdfPage": 128,
+          "quote": "you cannot tell a client that they have a specific disease or disorder. This is diagnosing, and you cannot do it."
+        },
+        {
+          "pdfPage": 181,
+          "quote": "You must be careful not to diagnose a disease or disorder in any way."
+        }
+      ]
+    },
+    {
+      "setId": "4A",
+      "word": "contraindication",
+      "sayIt": "kon-truh-in-dih-KAY-shun",
+      "translation": "禁忌症",
+      "partOfSpeech": "Noun",
+      "example": "A contraindication is a condition that means you must avoid a service.",
+      "exampleTranslation": "禁忌症是指让你必须避免某项服务的身体状况。",
+      "evidence": [
+        {
+          "pdfPage": 690,
+          "quote": "referring to a condition that requires avoiding certain treatments, procedures, or products to prevent undesirable side effects"
+        }
+      ]
+    },
+    {
+      "setId": "4A",
+      "word": "physician's release",
+      "sayIt": "fih-ZISH-unz rih-LEES",
+      "translation": "医生许可",
+      "partOfSpeech": "Noun",
+      "example": "If unsure, ask the client for a physician's release: a doctor's OK.",
+      "exampleTranslation": "如果不确定，就请顾客先拿到医生许可，也就是医生的同意。",
+      "evidence": [
+        {
+          "pdfPage": 101,
+          "quote": "If you are in doubt about something you see, you should require your client to obtain a physician’s release before performing any salon services."
+        },
+        {
+          "pdfPage": 128,
+          "quote": "without written permission from a licensed physician in your state"
+        }
+      ]
+    },
+    {
+      "setId": "4A",
+      "word": "hypertension",
+      "sayIt": "hy-per-TEN-shun",
+      "translation": "高血压",
+      "partOfSpeech": "Noun",
+      "example": "Hypertension means high blood pressure.",
+      "exampleTranslation": "hypertension 就是高血压。",
+      "evidence": [
+        {
+          "pdfPage": 185,
+          "quote": "Many clients who have high blood pressure (hypertension), diabetes, or circulatory conditions"
+        }
+      ]
+    },
+    {
+      "setId": "4A",
+      "word": "abnormalities",
+      "sayIt": "ab-nor-MAL-ih-teez",
+      "translation": "异常",
+      "partOfSpeech": "Noun",
+      "example": "After removing polish, look for abnormalities: anything not normal.",
+      "exampleTranslation": "卸掉甲油后，检查有没有异常，也就是任何不正常的地方。",
+      "evidence": [
+        {
+          "pdfPage": 201,
+          "quote": "Look closely at the nails to check for abnormalities that could have been hidden by the polish."
+        }
+      ]
+    },
+    {
+      "setId": "4A",
+      "word": "lather",
+      "translation": "泡沫",
+      "partOfSpeech": "Noun",
+      "example": "Rub soapy hands together until a lather, or foam, forms.",
+      "exampleTranslation": "双手抹上肥皂互相搓，直到起泡沫。",
+      "evidence": [
+        {
+          "pdfPage": 630,
+          "quote": "Rub your hands together, all over and vigorously, until a lather forms."
+        }
+      ]
+    }
+  ],
+  "lookAlikes": [
+    {
+      "id": "intake-form-record-card",
+      "setId": "4A",
+      "items": [
+        {
+          "word": "client intake form",
+          "translation": "顾客登记表",
+          "meaning": {
+            "en": "the client fills it out before service",
+            "zh": "顾客在服务前填写"
+          }
+        },
+        {
+          "word": "service record card",
+          "translation": "服务记录卡",
+          "meaning": {
+            "en": "the nail tech records services and products",
+            "zh": "美甲师记录做过的服务和用过的产品"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Intake form: the client fills it in first. Record card: you record what you did.",
+        "zh": "intake form（登记表）：顾客先填。record card（服务记录卡）：你记下自己做了什么。看中文：“登记”是顾客来时登记，“记录”是你记下服务。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 545,
+          "quote": "Every new client should fill out a client intake form"
+        },
+        {
+          "pdfPage": 548,
+          "quote": "let the client know that you and the shop will require some information before you can begin the service"
+        },
+        {
+          "pdfPage": 547,
+          "quote": "The service record card is not intended for the client’s use and is completed by the beauty professional performing the service."
+        },
+        {
+          "pdfPage": 547,
+          "quote": "the client’s permanent progress record of services received, results, formulations, and products used"
+        }
+      ]
+    },
+    {
+      "id": "pre-service-service-post-service",
+      "setId": "4A",
+      "items": [
+        {
+          "word": "pre-service procedure",
+          "translation": "服务前程序",
+          "meaning": {
+            "en": "clean tools, set up, greet the client",
+            "zh": "清洁工具、布置工作台、迎接顾客"
+          }
+        },
+        {
+          "word": "service procedure",
+          "translation": "服务程序",
+          "meaning": {
+            "en": "do the service the client asked for",
+            "zh": "做顾客要求的服务"
+          }
+        },
+        {
+          "word": "post-service procedure",
+          "translation": "服务后程序",
+          "meaning": {
+            "en": "booking, payment, and getting ready for next client",
+            "zh": "预约、付款，并为下一位顾客做准备"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Pre = before, post = after. Like dinner out: set the table, eat, then pay.",
+        "zh": "pre = 之前，post = 之后。像去餐厅吃饭：先摆好桌子迎客（服务前），再吃饭（服务），最后结账（服务后）。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 179,
+          "quote": "The pre-service procedure is an organized, step-by-step plan for cleaning and disinfecting your tools, implements, and materials; setting up the basic manicuring table; and meeting, greeting, and escorting your client to your service area."
+        },
+        {
+          "pdfPage": 179,
+          "quote": "The service procedure is an organized, step-by-step plan for accomplishing the actual service the client has requested"
+        },
+        {
+          "pdfPage": 179,
+          "quote": "It outlines how to help your client through the scheduling and payment processes of the salon and provides information on how to prepare for the next client."
+        }
+      ]
+    },
+    {
+      "id": "consultation-contraindication",
+      "setId": "4A",
+      "items": [
+        {
+          "word": "client consultation",
+          "translation": "顾客咨询",
+          "meaning": {
+            "en": "a talk to find out the client's needs",
+            "zh": "了解顾客需求的谈话"
+          }
+        },
+        {
+          "word": "contraindication",
+          "translation": "禁忌症",
+          "meaning": {
+            "en": "a condition that means avoid a treatment",
+            "zh": "需要避免某些服务的身体状况"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Both start with \"con.\" Contra- = against: a contraindication means \"avoid this.\" A consultation is a talk.",
+        "zh": "两个词都以 con 开头。contra- = 反对：contraindication（禁忌症）= “别做这个”。consultation（咨询）= 跟顾客谈话。看中文：“禁”= 禁止。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 549,
+          "quote": "The client consultation (KLY-ent kon-sul-TAY-shun) is the discussion with a client that determines the client’s needs"
+        },
+        {
+          "pdfPage": 690,
+          "quote": "referring to a condition that requires avoiding certain treatments, procedures, or products to prevent undesirable side effects"
+        }
+      ]
+    },
+    {
+      "id": "diagnose-refer",
+      "setId": "4A",
+      "items": [
+        {
+          "word": "diagnose",
+          "translation": "诊断",
+          "meaning": {
+            "en": "tell a client which disease they have",
+            "zh": "告诉顾客得了什么病"
+          }
+        },
+        {
+          "word": "refer",
+          "translation": "建议就医",
+          "meaning": {
+            "en": "send the client to a doctor",
+            "zh": "建议顾客去看医生"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Diagnose = name the disease: that is a doctor's job. Refer = send the client to the doctor: your job.",
+        "zh": "diagnose（诊断）= 说出是什么病，这是医生的事。refer（建议就医）= 建议顾客去看医生，这是你的事。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 128,
+          "quote": "you cannot tell a client that they have a specific disease or disorder. This is diagnosing, and you cannot do it."
+        },
+        {
+          "pdfPage": 128,
+          "quote": "You are not licensed to diagnose, treat, or prescribe—that constitutes medical practice"
+        },
+        {
+          "pdfPage": 128,
+          "quote": "You can tell them that you have observed what may be an unhealthy condition and refer them to a physician."
+        }
+      ]
+    }
+  ]
+}

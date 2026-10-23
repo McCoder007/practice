@@ -25,7 +25,7 @@ New practice questions written from Milady Standard Nail Technology 8th Edition 
 2. Each set is answered **blind** by a separate reviewer from the textbook alone. Any mismatch with the key is fixed or the question is dropped.
 3. If a choice is changed after the blind check, that question is blind-checked again.
 4. Wrong choices must be clearly wrong by the book. Avoid choices that are synonyms of each other or of the answer.
-5. Where Milady differs from other sources, follow Milady and do not offer the other value as a choice (e.g. 24 hours, not 48, before a pedicure).
+5. Where Milady differs from other sources, follow Milady and do not offer the other value as a choice. Where Milady disagrees with itself, write no question on that fact (e.g. no shaving before a pedicure: the Nails book says 48 hours, Foundations says 24).
 
 ## Writing rules
 
