@@ -162,6 +162,12 @@ body {
   animation: qa-answer-reveal 180ms ease-out;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .qa-answer-reveal {
+    animation: none;
+  }
+}
+
 @keyframes perfect-score-confetti-fall {
   0% {
     opacity: 0;
