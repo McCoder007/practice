@@ -10,8 +10,8 @@ C. matrix. / 甲母质（matrix）。
 D. hyponychium. / 甲下皮（hyponychium）。  
 *Why:* Onyx is the technical term for the natural nail, the hard plate that protects the tips of the fingers and toes.  
 *为什么:* onyx（甲）是 natural nail（天然指甲）的专业名称，指保护手指和脚趾末端的坚硬甲板。  
-*Lock this (word-origin):* Onyx is Greek for nail or claw. It is the onycho- in onychomycosis and other nail terms.  
-*记重点:* onyx 在希腊语里是“指甲、爪”的意思。onychomycosis（甲真菌病）等指甲术语里的 onycho- 就来自它。  
+*Lock this (word-parts):* Onyx gives the onycho- part in onychomycosis, onycholysis, and onychia. See onych, think nail.  
+*记重点:* onyx（甲）就是 onycho- 这个部分：onychomycosis（甲真菌病）、onycholysis（甲剥离）、onychia（甲炎）里都有它。看到 onych，就想到指甲。  
 *Source:* Milady Standard Nail Technology p.98 (PDF 122)
 
 **2. The natural nail is made mainly of**  
@@ -20,10 +20,10 @@ A. collagen. / 胶原蛋白（collagen）。
 B. melanin. / 黑色素（melanin）。  
 C. keratin. / 角蛋白（keratin）。 ✅  
 D. elastin. / 弹性蛋白（elastin）。  
-*Why:* The nail is made mainly of keratin, the fiber-shaped protein also found in skin and hair. Nail keratin is more durable than hair or skin keratin.  
-*为什么:* 指甲主要由 keratin（角蛋白）构成，这种纤维状蛋白质也存在于皮肤和头发中。指甲里的角蛋白比头发和皮肤里的更耐用。  
-*Lock this (word-origin):* Keratin comes from Greek keras, horn. Horn sheaths and horse hooves are keratin too.  
-*记重点:* 角蛋白的“角”就是动物的角：牛角外壳、马蹄都是角蛋白。英文 keratin 也来自希腊语 keras（角）。  
+*Why:* The nail is made mainly of keratin, the fiber-shaped protein also found in skin and hair. Nail keratin is tougher than hair or skin keratin.  
+*为什么:* 指甲主要由 keratin（角蛋白）构成，这种纤维状蛋白质也存在于皮肤和头发中。指甲里的角蛋白比头发和皮肤里的更坚韧。  
+*Lock this (chinese-character):* In Chinese it is 角蛋白: 角 = horn. Animal horns are covered in keratin too, just like your nails.  
+*记重点:* keratin（角蛋白）的“角”就是动物的角：牛角、羊角的外壳也是角蛋白，和你的指甲一样。  
 *Source:* Milady Standard Nail Technology p.98 (PDF 122)
 
 **3. Where are nail plate cells formed?**  
@@ -32,10 +32,10 @@ A. Matrix / 甲母质（matrix） ✅
 B. Nail bed / 甲床（nail bed）  
 C. Hyponychium / 甲下皮（hyponychium）  
 D. Free edge / 游离缘（free edge）  
-*Why:* The matrix is the area where nail plate cells are formed. As long as it stays healthy and nourished, it keeps making new nail plate cells.  
+*Why:* The matrix is the area where nail plate cells are formed. As long as it stays healthy and well fed, it keeps making new nail plate cells.  
 *为什么:* matrix（甲母质）是生成甲板细胞的部位。只要它保持健康、营养充足，就会不断制造新的甲板细胞。  
-*Lock this (word-origin):* Matrix comes from Latin mater, "mother": the nail plate is born there.  
-*记重点:* 甲母质的“母”= 母亲：甲板在这里“出生”。英文 matrix 也源自拉丁语 mater（母亲）。  
+*Lock this (chinese-character):* Chinese 甲母质: 母 = mother. The matrix is the nail's mother. Hurt it, and the new nail can grow wrong.  
+*记重点:* 甲母质的“母”= 母亲：matrix（甲母质）是指甲的“妈妈”。它一受伤，新长出的指甲就可能出问题（比如白点、裂纹）。  
 *Source:* Milady Standard Nail Technology p.100 (PDF 124)
 
 **4. The whitish half-moon at the base of the nail plate is the**  
@@ -46,8 +46,8 @@ C. free edge. / 游离缘（free edge）。
 D. lunula. / 甲半月（lunula）。 ✅  
 *Why:* The lunula is the whitish half-moon at the base of the nail plate. It is the visible part of the matrix; light reflecting off the matrix makes it look white.  
 *为什么:* lunula（甲半月）是甲板根部发白的半月形。它是 matrix（甲母质）露出来的部分，光线从甲母质表面反射，所以看起来发白。  
-*Lock this (word-parts):* Luna = moon, -ula = little: a "little moon." Everyone has one, but some stay hidden under the skin fold.  
-*记重点:* luna = 月亮，-ula = 小：lunula 就是“小月亮”。人人都有，但有些藏在近端甲襞下面看不见。  
+*Lock this (body-cue):* Look at your ten nails. Not every lunula shows; some hide under the skin. But every nail has one.  
+*记重点:* 看看你的十个指甲：不是每个 lunula（甲半月）都露出来，有的藏在近端甲襞下面，但每个指甲都有。  
 *Source:* Milady Standard Nail Technology p.100 (PDF 124)
 
 **5. Dead, colorless tissue attached to the nail plate is the**  
@@ -58,8 +58,8 @@ C. cuticle. / 甲小皮（cuticle）。 ✅
 D. lateral nail fold. / 侧甲襞（lateral nail fold）。  
 *Why:* The cuticle is nonliving, colorless tissue stuck to the nail plate. It forms a seal that keeps germs from getting under the skin.  
 *为什么:* cuticle（甲小皮）是粘在甲板上的无色死组织。它形成一道密封，防止病菌钻到皮肤下面。  
-*Lock this (word-origin):* Cuticle is Latin for "little skin." It rides out on top of the plate as the nail grows.  
-*记重点:* cuticle 源自拉丁语，意思是“小皮”。指甲长出来时，它就贴在甲板上面一起被带出来。  
+*Lock this (contrast):* Cuticle is dead and sticks to the plate. Eponychium is living skin. Push the cuticle off; never cut the eponychium.  
+*记重点:* cuticle（甲小皮）是死的，粘在甲板上；eponychium（甲上皮）是活皮肤。甲小皮可以推掉，甲上皮绝不能剪。  
 *Source:* Milady Standard Nail Technology p.100 (PDF 124)
 
 **6. Which living tissue makes the cuticle?**  
@@ -70,7 +70,7 @@ C. Hyponychium / 甲下皮（hyponychium）
 D. Nail bed / 甲床（nail bed）  
 *Why:* The eponychium is the living skin on the underside of the proximal nail fold. It makes the cuticle. The cuticle is dead; the eponychium is alive.  
 *为什么:* eponychium（甲上皮）是近端甲襞（proximal nail fold）底面的活皮肤，甲小皮就是它生成的。甲小皮是死的，甲上皮是活的。  
-*Lock this (word-parts):* Ep(i) = upon, onych = nail: the eponychium sits upon the base of the nail.  
+*Lock this (word-parts):* Ep(i) = on top, onych = nail: the eponychium sits on top of the nail base.  
 *记重点:* ep(i) = 在……上面，onych = 指甲：甲上皮就盖在指甲根部的上面。  
 *Source:* Milady Standard Nail Technology p.101 (PDF 125)
 
@@ -82,8 +82,8 @@ C. nail bed. / 甲床（nail bed）。
 D. hyponychium. / 甲下皮（hyponychium）。 ✅  
 *Why:* The hyponychium forms a barrier that keeps germs out of the nail bed. If it is damaged, the plate can separate from the bed and infection can start.  
 *为什么:* hyponychium（甲下皮）形成一道屏障，阻止病菌侵入甲床。如果它受损，甲板可能与甲床分离，甲下就可能感染。  
-*Lock this (word-parts):* Hypo = under, as in hypodermic (under the skin) needle. Hyponychium = the skin under the nail tip.  
-*记重点:* hypo = 在下面（hypodermic 皮下注射针也是这个词根）。hyponychium 就是指甲尖下面的皮肤。  
+*Lock this (word-parts):* Hypo = under, onych = nail. Hyponychium = the skin under the nail tip.  
+*记重点:* hypo = 在下面，onych = 指甲。hyponychium（甲下皮）就是指甲尖下面的皮肤。  
 *Source:* Milady Standard Nail Technology p.102 (PDF 126)
 
 **8. Nail polish is applied to the**  
@@ -104,7 +104,7 @@ A. It is rich in blood vessels. / 它血管丰富。 ✅
 B. It contains extra melanin. / 它含有较多黑色素。  
 C. Light reflects off the matrix. / 光从甲母质反射。  
 D. The cuticle covers it. / 甲小皮盖在上面。  
-*Why:* The nail bed is richly supplied with blood vessels, so it looks pink under the plate, from the lunula to just before the free edge.  
+*Why:* The nail bed has many blood vessels, so it looks pink under the plate, from the lunula to just before the free edge.  
 *为什么:* nail bed（甲床）血管丰富，所以从甲半月到游离缘之前，透过甲板看起来是粉色的。  
 *Lock this (real-life):* Press on a nail: the pink fades as blood is pushed away, then returns when you let go.  
 *记重点:* 按一下指甲：血被挤走，粉色变白；一松手血流回来，又变粉。  
@@ -130,8 +130,8 @@ C. Cuticle / 甲小皮（cuticle）
 D. Specialized ligaments / 特化韧带（specialized ligaments） ✅  
 *Why:* Specialized ligaments attach the nail bed and matrix bed to the bone. They sit at the base of the matrix and around the edges of the nail bed.  
 *为什么:* specialized ligaments（特化韧带）把甲床和甲母质（matrix bed）连接到下面的骨头上，位于甲母质根部和甲床边缘周围。  
-*Lock this (word-origin):* Ligament comes from Latin ligare, "to bind." Like ropes, they tie the nail unit to the fingertip bone.  
-*记重点:* ligament 源自拉丁语 ligare（捆绑）。韧带像绳子一样，把指甲单元绑在指尖骨上。  
+*Lock this (picture):* Picture strong ropes tying a tent to the ground. Ligaments tie the nail bed and matrix down to the bone.  
+*记重点:* 想象把帐篷拴在地上的结实绳子。specialized ligaments（特化韧带）就这样把甲床和甲母质拴在骨头上。  
 *Source:* Milady Standard Nail Technology p.102 (PDF 126)
 
 **12. The fold of skin overlapping the side of the nail is the**  
@@ -142,8 +142,8 @@ C. hyponychium. / 甲下皮（hyponychium）。
 D. eponychium. / 甲上皮（eponychium）。  
 *Why:* The lateral nail fold, also called the sidewall, is the fold of skin overlapping the side of the nail. The nail folds form the nail groove on each side.  
 *为什么:* lateral nail fold（侧甲襞）也叫 sidewall（侧壁），是覆盖指甲侧面的皮肤褶。甲襞在指甲两侧形成 nail groove（甲沟）。  
-*Lock this (word-origin):* Lateral comes from Latin latus, "side." Proximal = near the base; lateral = along the sides.  
-*记重点:* lateral 源自拉丁语 latus（侧面）。proximal = 靠近根部；lateral = 在两侧。  
+*Lock this (contrast):* Proximal nail fold: one fold, at the base. Lateral nail folds: two, one on each side of the nail.  
+*记重点:* proximal nail fold（近端甲襞）：只有一个，在指甲根部。lateral nail fold（侧甲襞）：有两个，指甲左右各一。“侧”就是旁边。  
 *Source:* Milady Standard Nail Technology p.99 (PDF 123)
 
 **13. Compared with adults, children's nails grow**  
@@ -154,7 +154,7 @@ C. faster in winter than summer. / 冬天比夏天长得快。
 D. more rapidly. / 更快。 ✅  
 *Why:* Children's nails grow more rapidly, while elderly people's nails grow more slowly. Nails also grow faster in summer than in winter.  
 *为什么:* 儿童的指甲长得更快，老年人的指甲长得更慢。此外，指甲夏天比冬天长得快。  
-*Lock this (reason-chain):* With age, parts of the matrix slow down for good; that is also why older nails show lengthwise grooves.  
+*Lock this (reason-chain):* With age, parts of the matrix slow down forever; that is also why older nails show long grooves.  
 *记重点:* 年纪越大，甲母质有些部位会永久减慢生长；这也是老年人指甲出现纵向凹槽的原因。  
 *Source:* Milady Standard Nail Technology p.103 (PDF 127), Milady Standard Nail Technology p.104 (PDF 128)
 
@@ -200,7 +200,7 @@ A. the winter months. / 冬季。
 B. old age. / 老年。  
 C. prenatal vitamin use. / 服用孕期维生素时。  
 D. the last trimester of pregnancy. / 怀孕的最后三个月（last trimester）。 ✅  
-*Why:* Hormone changes in the last trimester of pregnancy make nails grow much faster. Growth returns to normal after delivery. Prenatal vitamins are not the cause.  
+*Why:* Hormone changes in the last trimester of pregnancy make nails grow much faster. Growth returns to normal after the baby is born. Prenatal vitamins are not the cause.  
 *为什么:* 怀孕最后三个月（last trimester）的荷尔蒙变化会让指甲长得快很多，分娩后恢复正常。孕期维生素并不是原因。  
 *Lock this (reason-chain):* Prenatal vitamins are taken all pregnancy, yet the speed-up comes only in the last three months: hormones, not vitamins.  
 *记重点:* 孕期维生素通常整个孕期都在吃，指甲却只在最后三个月猛长：原因是荷尔蒙，不是维生素。  
@@ -236,7 +236,7 @@ A. 2 to 5 percent. / 2% 至 5%。
 B. 15 to 25 percent. / 15% 至 25%。 ✅  
 C. 50 to 60 percent. / 50% 至 60%。  
 D. 75 to 85 percent. / 75% 至 85%。  
-*Why:* A healthy nail may look dry and hard, but it holds 15 to 25 percent water. The lower the water content, the more rigid the nail becomes.  
+*Why:* A healthy nail may look dry and hard, but it holds 15 to 25 percent water. The lower the water content, the stiffer the nail becomes.  
 *为什么:* 健康的指甲看起来干硬，但含水量在 15% 至 25% 之间。含水量越低，指甲越僵硬。  
 *Lock this (real-life):* Oil or polish on the plate slows water loss, so the nail stays flexible.  
 *记重点:* 在甲板上涂护甲油或指甲油，可以减少水分流失，让指甲保持柔韧。  

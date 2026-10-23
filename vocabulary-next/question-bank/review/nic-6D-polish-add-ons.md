@@ -104,7 +104,7 @@ A. Put on jewelry and get car keys ready / 戴好首饰，准备好车钥匙 ✅
 B. Wash their hands again / 再洗一次手  
 C. Take off all their rings / 把戒指全部摘下  
 D. Soak the nails once more / 再泡一次指甲  
-*Why:* Ask the client to put on jewelry and outerwear and get car keys ready before polishing. If possible, have them pay now too. This prevents smudging the fresh polish.  
+*Why:* Ask the client to put on jewelry and coats and get car keys ready before polishing. If possible, have them pay now too. This prevents smudging the fresh polish.  
 *为什么:* 上甲油前，请顾客戴好首饰、穿好外套，准备好车钥匙。可以的话，先付款。这样能避免弄花刚涂好的甲油。  
 *Lock this (picture):* Picture wet polish meeting a zipper, a purse clasp, or a ring. Do all of that before the color.  
 *记重点:* 想象刚涂好的甲油碰到拉链、包扣或戒指。这些事都要在上色之前做完。  
@@ -190,8 +190,8 @@ C. Electric mitts / 电热手套
 D. Some form of exfoliation / 某种形式的去角质 ✅  
 *Why:* Most spa manicures include a relaxing massage, and all contain some form of exfoliation to smooth the skin and help professional products penetrate.  
 *为什么:* 大多数水疗修手包含放松按摩，而所有水疗修手都有某种形式的去角质（exfoliation），让皮肤光滑，并帮助专业产品渗透。  
-*Lock this (word-parts):* Exfoliate: Latin ex = off, folium = leaf. Dead skin comes off like falling leaves.  
-*记重点:* exfoliate：拉丁语 ex = 脱落，folium = 叶子。死皮像落叶一样脱落。  
+*Lock this (real-life):* Exfoliation = taking off dead skin, like a sugar scrub or a rough washcloth in the shower.  
+*记重点:* exfoliation（去角质）= 去掉死皮，就像洗澡时用磨砂膏或粗毛巾搓身体。  
 *Source:* Milady Standard Nail Technology p.163 (PDF 187)
 
 **17. Why should overly abrasive scrubs be avoided?**  
@@ -202,8 +202,8 @@ C. They soften calluses too much / 会把老茧软化过头
 D. They stain the toenails / 会把脚趾甲染色  
 *Why:* Very abrasive scrubs can leave tiny, invisible scratches in the skin. These openings are portals of entry for disease-causing microorganisms.  
 *为什么:* 颗粒太粗的磨砂膏会在皮肤上留下看不见的细小划痕。这些开口是致病微生物的入口（portals of entry）。  
-*Lock this (word-origin):* Portal comes from Latin porta, "gate." Each tiny scratch is a gate left open for germs.  
-*记重点:* portal 来自拉丁语 porta，意思是“门”。每一道细小划痕，都是给病菌留的一扇门。  
+*Lock this (picture):* A portal of entry is an open door. Each tiny scratch is a door left open for germs.  
+*记重点:* portal of entry（入口）就是一扇开着的门。每一道细小划痕，都是给病菌留的一扇门。  
 *Source:* Milady Standard Nail Technology p.201 (PDF 225)
 
 **18. How long is a foot mask usually left on the skin?**  
@@ -212,7 +212,7 @@ A. About 30 seconds / 约 30 秒
 B. 30 to 45 minutes / 30 到 45 分钟  
 C. 5 to 10 minutes / 5 到 10 分钟 ✅  
 D. Overnight / 一整夜  
-*Why:* A mask is a concentrated treatment product, often with clays and moisturizers. It stays on the skin for 5 to 10 minutes so the beneficial ingredients can penetrate.  
+*Why:* A mask is a concentrated treatment product, often with clays and moisturizers. It stays on the skin for 5 to 10 minutes so the helpful ingredients can penetrate.  
 *为什么:* mask（足膜，也写作 masque）是浓缩护理产品，常含矿物泥和保湿成分。它在皮肤上停留 5 到 10 分钟，让有益成分渗透。  
 *Lock this (real-life):* Foot masks often feel cool: Milady names menthol, mint, and cucumber as popular ingredients.  
 *记重点:* 足膜常常凉凉的：Milady 提到薄荷醇、薄荷和黄瓜都是常见成分。  
@@ -224,7 +224,7 @@ A. Hot enough to redden the skin / 热到让皮肤发红
 B. Cold, to reduce swelling / 冰凉，用来消肿  
 C. As hot as the client can stand / 热到顾客能忍受的极限  
 D. Comfortably warm / 温暖舒适 ✅  
-*Why:* Milady calls the name a misnomer: the stones are not hot, only comfortably warm. Test them on your arm, then check with the client during the first movement.  
+*Why:* Milady says the name is wrong: the stones are not hot, only comfortably warm. Test them on your arm, then check with the client during the first movement.  
 *为什么:* Milady 说这个名字名不副实：石头并不烫，只是温暖舒适。先在自己手臂上试温，第一个动作时再问顾客感觉。  
 *Lock this (real-life):* In 2009, poorly disinfected hot stones spread MRSA to many spa clients. Disinfect every time.  
 *记重点:* 2009 年，没有彻底消毒的热石把 MRSA（耐甲氧西林金黄色葡萄球菌）传给了很多水疗顾客。每次都要消毒。  
@@ -236,8 +236,8 @@ A. Traps moisture in the skin / 把水分锁在皮肤里 ✅
 B. Disinfects the skin / 给皮肤消毒  
 C. Removes calluses completely / 彻底去除老茧  
 D. Cures gel polish / 固化凝胶甲油  
-*Why:* Paraffin traps moisture in the skin, and the warm wax increases blood circulation to the skin. It is a luxurious add-on that is safe for most clients.  
+*Why:* Paraffin traps moisture in the skin, and the warm wax increases blood circulation to the skin. It is a fancy add-on that is safe for most clients.  
 *为什么:* 蜡疗能把水分锁在皮肤里，温热的蜡还能促进皮肤的血液循环。这是一项奢华的附加服务，大多数顾客都可以做。  
-*Lock this (real-life):* Cold day outside? Many clients remember paraffin's warm feeling, so offer it as a stand-alone service.  
+*Lock this (real-life):* Cold day outside? Many clients remember paraffin's warm feeling, so offer it as a service by itself.  
 *记重点:* 外面天冷？很多顾客会记得蜡疗的温暖感觉，所以可以把它作为单独项目推出。  
 *Source:* Milady Standard Nail Technology p.165 (PDF 189), Milady Standard Nail Technology p.167 (PDF 191)

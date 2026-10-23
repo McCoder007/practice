@@ -52,8 +52,8 @@
         "zh": "humerus（肱骨）是手臂最上面、最大的骨头，从肘部一直延伸到肩部。"
       },
       "lockPoint": {
-        "en": "Humerus is Latin for shoulder or upper arm. In Chinese, 肱 in 肱骨 also means upper arm.",
-        "zh": "humerus 是拉丁语的“肩、上臂”。中文“肱骨”的“肱”也是上臂的意思。"
+        "en": "Hold your upper arm between shoulder and elbow. The one big bone inside is the humerus.",
+        "zh": "握住你肩膀和手肘之间的上臂：里面那一根大骨头就是 humerus（肱骨）。“肱”就是上臂。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -70,7 +70,7 @@
           "quote": "Humerus (HYOO-muh-rus). The uppermost and largest bone of the arm, extending from the elbow to the shoulder."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-2d-02",
@@ -106,8 +106,8 @@
         "zh": "ulna（尺骨）是前臂较长的骨头，肘部一端比腕部一端粗，位于手的小指一侧。"
       },
       "lockPoint": {
-        "en": "Ulna is Latin for elbow or arm. Feel the point of your elbow: that knob is the ulna.",
-        "zh": "ulna 是拉丁语的“肘、手臂”。摸摸你手肘尖：那个骨突就是尺骨。"
+        "en": "Feel your elbow point: that knob is the ulna. It runs down to the wrist, on the little-finger side.",
+        "zh": "摸摸你的手肘尖：那个骨突就是 ulna（尺骨）。它一直延伸到手腕，在小指那一侧。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -124,7 +124,7 @@
           "quote": "Ulna (UL-nuh). The longer bone of the forearm. It is larger at the elbow than at the wrist and is located on the little finger side of the hand."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-2d-03",
@@ -230,7 +230,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "The carpus is the wrist: a flexible joint of eight small, irregular bones held together by ligaments.",
+        "en": "The carpus is the wrist: a flexible joint of eight small, odd-shaped bones held together by ligaments.",
         "zh": "carpus（腕骨）就是手腕：由八块不规则的小骨头组成、靠韧带连接的灵活关节。"
       },
       "lockPoint": {
@@ -298,8 +298,8 @@
         "zh": "metacarpus（掌骨）是手掌的骨头：位于腕骨和手指骨之间的五块骨头。"
       },
       "lockPoint": {
-        "en": "Meta = after or beyond (Greek). Meta-carpus = the bones just beyond the wrist.",
-        "zh": "meta = 在……之后、超出（希腊语）。meta-carpus 就是“腕骨之后”的骨头。"
+        "en": "Feel your palm: five long bones run from wrist to knuckles. These palm bones are the metacarpus.",
+        "zh": "摸摸手掌：从手腕到指关节有五根长骨头，就是 metacarpus（掌骨）。“掌”= 手掌。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -316,7 +316,7 @@
           "quote": "Metacarpus (met-uh-KAR-pus). Bones of the palm of the hand; parts of the hand containing five bones between the carpus and phalanges."
         }
       ],
-      "hookType": "word-parts"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-2d-06",
@@ -352,8 +352,8 @@
         "zh": "phalanges（指骨/趾骨）是手指或脚趾的骨头，也叫 digits。每只脚有 14 块。"
       },
       "lockPoint": {
-        "en": "A phalanx was a line of Greek soldiers standing in rows. Finger bones line up the same way.",
-        "zh": "phalanx 是古希腊排成一列列的士兵方阵。手指骨也是这样一节一节排成行。"
+        "en": "Bend a finger and count: three bones. Your thumb has two. All of them are phalanges.",
+        "zh": "弯一弯手指数一数：每根手指三节骨头，拇指两节。它们都是 phalanges（指骨）。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -380,7 +380,7 @@
           "quote": "14 bones called phalanges, which compose the toes"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-2d-07",
@@ -412,7 +412,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Extensors straighten the wrist, hand, and fingers to form a straight line. Flexors are involved in bending the wrist.",
+        "en": "Extensors straighten the wrist, hand, and fingers to form a straight line. Flexors help bend the wrist.",
         "zh": "extensors（伸肌）把手腕、手和手指伸直成一条线。flexors（屈肌）参与弯曲手腕。"
       },
       "lockPoint": {
@@ -600,8 +600,8 @@
         "zh": "踝关节由三块骨头组成：来自小腿的胫骨和腓骨，以及足部的 talus（距骨，即踝骨）。"
       },
       "lockPoint": {
-        "en": "Talus is Latin for ankle bone. It sits right under the tibia and carries the body's weight.",
-        "zh": "talus 是拉丁语的“踝骨”。它就在胫骨正下方，承接全身的重量。"
+        "en": "Talus is the highest foot bone, right under the tibia. The calcaneus, the heel bone, sits below and behind it.",
+        "zh": "talus（距骨）在胫骨正下方，是脚上最高的骨头。calcaneus（跟骨）是脚跟骨，在它的下后方。"
       },
       "teachingRelation": "list",
       "authorityRefs": [
@@ -622,7 +622,7 @@
           "quote": "The talus (TA-lus), or ankle bone, of the foot."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "contrast"
     },
     {
       "id": "nic-2d-11",
@@ -658,8 +658,8 @@
         "zh": "femur（股骨）是构成膝盖以上腿部的又重又长的骨头。胫骨和腓骨构成膝盖以下的小腿。"
       },
       "lockPoint": {
-        "en": "Femur is Latin for thigh. Nail technicians may serve the leg only below the knee.",
-        "zh": "femur 是拉丁语的“大腿”。美甲师只能为膝盖以下的腿部提供服务。"
+        "en": "Put your hand on your thigh. The bone inside is the femur, the longest bone in your body.",
+        "zh": "把手放在大腿上：里面那根骨头就是 femur（股骨），全身最长的骨头。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -690,7 +690,7 @@
           "quote": "feet, and legs (below the knee)"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-2d-12",
@@ -726,7 +726,7 @@
         "zh": "关节连接骨头。可动关节包括肘、膝、髋；不动关节，例如颅骨或骨盆，几乎不能活动。"
       },
       "lockPoint": {
-        "en": "The bones around the brain meet at zigzag seams that interlock like puzzle pieces.",
+        "en": "The bones around the brain meet at zigzag seams that fit together like puzzle pieces.",
         "zh": "包住大脑的颅骨靠锯齿状的骨缝像拼图一样咬合在一起。"
       },
       "teachingRelation": "category",
@@ -964,8 +964,8 @@
         "zh": "deltoid（三角肌）是覆盖肩关节的大块三角形肌肉，让手臂向外、向身体侧面抬起。"
       },
       "lockPoint": {
-        "en": "Named for delta (Δ), the Greek letter shaped like a triangle. A river delta has the same shape.",
-        "zh": "名字来自希腊字母 delta（Δ），形状就是三角形。河流三角洲（delta）也是这个形状。"
+        "en": "Lift your arm out to the side. Feel the top of your shoulder get hard: that's the deltoid.",
+        "zh": "把手臂向侧面抬起，摸摸肩膀顶部变硬了：那就是 deltoid（三角肌）。“三角”就是它的形状。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -982,7 +982,7 @@
           "quote": "Deltoid (DEL-toyd). Large, triangular muscle covering the shoulder joint that allows the arm to extend outward and to the side of the body."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-2d-17",
@@ -1072,8 +1072,8 @@
         "zh": "sural nerve（腓肠神经）支配足部和小腿外侧及后面的皮肤。saphenous nerve（隐神经）支配内侧。"
       },
       "lockPoint": {
-        "en": "Sura is Latin for calf. The Chinese 腓肠 also means calf: the nerve runs down the back of it.",
-        "zh": "sura 是拉丁语“小腿肚”。中文“腓肠”也是小腿肚的意思：这条神经沿小腿肚后面往下走。"
+        "en": "Touch the back of your lower leg, your calf. The sural nerve runs down there to the outer foot.",
+        "zh": "摸摸小腿后面的小腿肚：sural nerve（腓肠神经）就沿着这里往下，走到脚的外侧。“腓肠”就是小腿肚。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -1094,7 +1094,7 @@
           "quote": "The saphenous nerve (sa-FEEN-us NURV) supplies impulses to the skin of the inner side of the leg and foot."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-2d-19",
@@ -1188,8 +1188,8 @@
         "zh": "gastrocnemius（腓肠肌）附着在脚跟后下方，把脚往下拉。胫骨前肌（tibialis anterior）在小腿前面，把脚往上勾。"
       },
       "lockPoint": {
-        "en": "Greek gaster = belly, kneme = leg: the \"belly of the leg,\" the bulge of your calf.",
-        "zh": "希腊语 gaster = 肚子，kneme = 小腿：“小腿的肚子”，就是小腿肚鼓起的那块。"
+        "en": "Stand up on your toes. The big muscle that gets hard at the back of your calf is the gastrocnemius.",
+        "zh": "踮起脚尖站着：小腿后面鼓起变硬的那块大肌肉就是 gastrocnemius（腓肠肌）。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -1210,7 +1210,7 @@
           "quote": "The tibialis anterior (tib-ee-AHL-is an-TEER-ee-or) covers the front of the shin. It bends the foot upward and inward."
         }
       ],
-      "hookType": "word-parts"
+      "hookType": "body-cue"
     }
   ],
   "review": {

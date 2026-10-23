@@ -61,8 +61,8 @@
         "zh": "photoinitiator（光引发剂）是一种在 UV 或可见光照射下发生反应的分子。它加在胶里，所以胶在固化灯里会变硬。"
       },
       "lockPoint": {
-        "en": "Photo- is Greek for light, as in photograph. An initiator is the starter.",
-        "zh": "photo- 是希腊语的“光”，如 photograph（照片）。initiator 就是“启动者”。"
+        "en": "Photo- = light: photos are made with light. Initiator = starter. Lamp light starts the hardening.",
+        "zh": "photoinitiator（光引发剂）：光 = photo-，引发 = initiator（启动者）。灯光一照，就启动变硬。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -311,12 +311,12 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Hybrid gels have the durability and gloss of gel but can be removed like polish with polish remover, though it takes longer. Gel polishes originally had to be filed off.",
+        "en": "Hybrid gels last and shine like gel but can be removed like polish with polish remover, though it takes longer. Gel polishes originally had to be filed off.",
         "zh": "hybrid gel（混合胶）有光疗胶的持久和光泽，却能像普通甲油一样用洗甲水卸掉，只是时间更长。早期的甲油胶只能靠打磨去除。"
       },
       "lockPoint": {
-        "en": "Hybrid comes from Latin hybrida, a cross of two kinds: here, gel and regular polish.",
-        "zh": "hybrid 来自拉丁语 hybrida，意思是两种东西的“混种”：这里就是光疗胶和普通甲油的结合。"
+        "en": "A hybrid car uses gas and electric. A hybrid gel: lasts like gel, comes off like polish, just slower.",
+        "zh": "hybrid（油电混合）汽车既用油也用电。hybrid gel（混合胶）：像光疗胶一样持久，又能像甲油一样卸掉，只是慢一些。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -337,7 +337,7 @@
           "quote": "Gel polishes originally had to be removed through abrasion."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "real-life"
     },
     {
       "id": "nic-7c-06",
@@ -373,8 +373,8 @@
         "zh": "inhibition layer（浮胶层）是未固化的胶和/或残留溶剂，在表面留下黏黏的一层。用无尘纸蘸酒精或甲面清洁剂就能擦掉。"
       },
       "lockPoint": {
-        "en": "Inhibit comes from Latin inhibere, 'hold back': oxygen in the air holds back the cure, so the top stays tacky.",
-        "zh": "inhibit 来自拉丁语 inhibere（阻止）：空气中的氧气阻止表面固化，所以表层黏黏的，中文叫“浮胶”。"
+        "en": "Inhibit means hold back. Air on top holds back the cure → the inhibition layer stays sticky.",
+        "zh": "inhibit = 阻止。表面接触空气，空气阻止表层固化 → inhibition layer（浮胶层）一直黏黏的。浮胶 = 浮在表面没固化的胶。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -401,7 +401,7 @@
           "quote": "A nail cleanser is also used to remove the inhibition layer prior to filing the cured gel"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "reason-chain"
     },
     {
       "id": "nic-7c-07",
@@ -861,7 +861,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Hard gels can only be filed off, so they are a poor choice for a short-term extension. Clients love hard gel for clarity, low odor, and strength, and its adhesion suits lifters.",
+        "en": "Hard gels can only be filed off, so they are a poor choice for a short-term extension. Clients love hard gel for its clear look, low odor, and strength, and its adhesion suits lifters.",
         "zh": "硬胶只能锉掉，所以不适合短期延长。客人喜欢硬胶晶莹透明、低气味、强度高，它的附着力也很适合容易起翘的客人。"
       },
       "lockPoint": {

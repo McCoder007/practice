@@ -578,7 +578,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Apply callus softener to the callused areas only, for the time the manufacturer directs. Some are alkaline, so wear gloves; improper use can injure the client.",
+        "en": "Apply callus softener to the callused areas only, for the time the manufacturer directs. Some are alkaline, so wear gloves; wrong use can hurt the client.",
         "zh": "callus softener（老茧软化剂）只涂在有老茧的部位，停留时间按厂家说明。有些是碱性的，要戴手套；使用不当会伤到顾客。"
       },
       "lockPoint": {
@@ -646,7 +646,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Calluses protect the underlying skin in stress areas, as on people who stand all day. Soften and smooth them; do not thin them too much or remove them.",
+        "en": "Calluses protect the skin under them in stress areas, as on people who stand all day. Soften and smooth them; do not thin them too much or remove them.",
         "zh": "老茧在受力部位保护下面的皮肤，比如整天站着工作的人。只能软化、磨平，不能磨得太薄或完全去掉。"
       },
       "lockPoint": {
@@ -766,7 +766,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Tremors or involuntary movement may signal a neurological issue. Support the entire leg, including behind the knees and ankles, so the client never has to hold up their own legs.",
+        "en": "Tremors or shaking a client can't stop may mean a nerve problem. Support the entire leg, including behind the knees and ankles, so the client never has to hold up their own legs.",
         "zh": "颤抖或不自主动作可能代表神经方面的问题。要支撑整条腿，包括膝盖后面和脚踝，让顾客完全不用自己撑着腿。"
       },
       "lockPoint": {
@@ -906,8 +906,8 @@
         "zh": "慢性病顾客不能用金属推棒或尖锐工具。可以改用刮匙轻轻去除死组织，并用细砂锉处理指甲。"
       },
       "lockPoint": {
-        "en": "Slow-healing skin + one unseen nick → infection, and in the worst cases amputation.",
-        "zh": "伤口愈合慢 + 一个看不见的小伤口 → 感染，最严重会导致截肢。"
+        "en": "Slow-healing skin + one tiny unseen cut → infection, and in the worst cases losing a toe or foot.",
+        "zh": "伤口愈合慢 + 一个看不见的小伤口 → 感染，最严重会失去脚趾甚至整只脚。"
       },
       "teachingRelation": "safety-rule",
       "authorityRefs": [
@@ -984,8 +984,8 @@
         "zh": "完整的修脚要清洁脚趾之间。如果有积垢，先用含尿素（urea）的软化产品多泡一会儿，再用一次性湿巾或毛巾轻轻擦干净。"
       },
       "lockPoint": {
-        "en": "Urea is named for urine, where it was first found. In foot care it softens hard buildup.",
-        "zh": "urea（尿素）因最早在尿液中发现而得名。在足部护理中，它能软化硬结的积垢。"
+        "en": "Urea is in many creams for dry, cracked heels. It holds water in hard skin, so it softens.",
+        "zh": "很多治脚跟干裂的乳霜里都有 urea（尿素）。它把水分留在硬皮里，硬皮就变软了。"
       },
       "teachingRelation": "condition-action",
       "authorityRefs": [
@@ -1010,7 +1010,7 @@
           "quote": "Use a disposable towelette or washcloth to gently clean between the toes after soaking."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "real-life"
     },
     {
       "id": "nic-6c-16",

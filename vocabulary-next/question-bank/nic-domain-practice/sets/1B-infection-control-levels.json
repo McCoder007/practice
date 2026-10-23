@@ -52,8 +52,8 @@
         "zh": "sterilizing（灭菌）能消灭所有微生物，包括细菌芽孢，通常用高压灭菌器（autoclave）。disinfecting（消毒）能杀死大多数有害病菌，但杀不死芽孢。"
       },
       "lockPoint": {
-        "en": "Sterile comes from Latin for “barren”: nothing is left alive to grow, not even spores.",
-        "zh": "灭 = 一 压在 火 上：盖住火，火就灭了。灭菌就是把所有微生物都“灭”掉，连芽孢也不剩。"
+        "en": "Sterilizing is the top level: an autoclave, like a hot steam pressure cooker, kills everything, even spores.",
+        "zh": "sterilizing（灭菌）：灭 = 一 压在 火 上，盖住火，火就灭了。autoclave（高压蒸汽灭菌器）像一个高压锅，用高温蒸汽把所有微生物都灭掉，连芽孢也不剩。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -74,7 +74,7 @@
           "quote": "specific products to destroy harmful organisms including bacteria, viruses and fungi (except bacterial spores)"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "real-life"
     },
     {
       "id": "nic-1b-02",
@@ -106,7 +106,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "State regulatory agencies, such as state boards, handle licensing and enforce the rules through inspections. Federal agencies like the EPA and OSHA set national rules for products and workplaces.",
+        "en": "State regulatory agencies, such as state boards, handle licensing and use inspections to check that salons follow the rules. Federal agencies like the EPA and OSHA set national rules for products and workplaces.",
         "zh": "州监管机构（例如 state board 州委员会）负责发执照，并通过检查来执行规定。EPA、OSHA 等联邦机构则为产品和工作场所制定全国性规定。"
       },
       "lockPoint": {
@@ -186,7 +186,7 @@
         "zh": "disinfectants（消毒剂）能消灭表面上大多数细菌、真菌和病毒，但杀不死 bacterial spores（细菌芽孢）。只有 sterilization（灭菌）能消灭芽孢。"
       },
       "lockPoint": {
-        "en": "A spore wears armor: a protective coat lets it wait out harsh conditions, then shed it.",
+        "en": "A spore wears armor: a protective coat lets it live through bad conditions, then take it off.",
         "zh": "芽孢像穿了盔甲：靠一层保护壳熬过恶劣环境，等条件变好再脱掉。"
       },
       "teachingRelation": "contrast",
@@ -574,12 +574,12 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Phenolic disinfectants kill TB germs, but they can damage skin, eyes, plastic, and rubber. Most states have dropped them from their rules because the risks outweigh the benefits.",
+        "en": "Phenolic disinfectants kill TB germs, but they can damage skin, eyes, plastic, and rubber. Most states have dropped them from their rules because the risks are bigger than the benefits.",
         "zh": "phenolic disinfectants（酚类消毒剂）能杀结核菌，但会伤皮肤、眼睛、塑料和橡胶。大多数州已把它从法规要求中去掉，因为风险大于好处。"
       },
       "lockPoint": {
-        "en": "Phenol is also called carbolic acid: in the 1860s, surgeon Joseph Lister used it to disinfect wounds.",
-        "zh": "苯酚（phenol）俗称石炭酸：1860 年代，外科医生李斯特（Joseph Lister）用它给伤口消毒。"
+        "en": "Phenolics: strong enough to kill TB germs, but too rough on skin, eyes and plastic. Most states said no.",
+        "zh": "phenolics（酚类消毒剂）：连结核菌都能杀，但太伤皮肤、眼睛和塑料，所以大多数州不再要求用它。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -608,7 +608,7 @@
           "quote": "Phenol can damage plastic and rubber and cause certain metals to rust."
         }
       ],
-      "hookType": "real-life"
+      "hookType": "reason-chain"
     },
     {
       "id": "nic-1b-10",
@@ -1092,7 +1092,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Standard Precautions are CDC guidelines. Many people carry infections with no symptoms, so you must assume any human blood or body fluid may be infectious.",
+        "en": "Standard Precautions are CDC guidelines. Many people carry infections with no symptoms, so you must treat any human blood or body fluid as possibly infectious.",
         "zh": "Standard Precautions（标准预防措施）是 CDC 发布的指南。很多人带有传染病却没有症状（asymptomatic），所以要假定任何人的血液或体液都可能有传染性。"
       },
       "lockPoint": {

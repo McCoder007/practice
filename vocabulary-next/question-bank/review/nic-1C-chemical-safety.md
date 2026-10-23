@@ -56,7 +56,7 @@ A. Locked up, in original containers / 锁好，放在原装容器里 ✅
 B. Combined if they are similar / 相似的就合在一起  
 C. Out on the dispensing counter / 摆在配料台上  
 D. In unlabeled spray bottles / 装在没贴标签的喷瓶里  
-*Why:* Store chemicals in their original containers in a designated, locked place. Never combine similar chemicals or leave them sitting out, even in the dispensary.  
+*Why:* Store chemicals in their original containers in a locked place set aside for them. Never combine similar chemicals or leave them sitting out, even in the mixing area.  
 *为什么:* 化学品要放在原装容器里，存放在指定的、上锁的地方。即使相似的化学品也不能混放；化学品不能摆在外面，配料区也不例外。  
 *Lock this (real-life):* Milady’s rule of thumb: if an adult can get to the chemicals, so can a child.  
 *记重点:* Milady 的经验法则：大人拿得到的化学品，小孩也拿得到。  
@@ -82,7 +82,7 @@ C. an odorless foam. / 无味的泡沫。
 D. chlorine gas. / 氯气。 ✅  
 *Why:* Never mix bleach with other cleaning products unless the label says to. Even vinegar and bleach make chlorine gas, so store bleach away from other chemicals.  
 *为什么:* 除非标签说可以，否则漂白水绝不能和其他清洁产品混合。连醋加漂白水都会产生氯气，所以漂白水要和其他化学品分开存放。  
-*Lock this (reason-chain):* Bleach + an acid like vinegar → chlorine gas → Milady warns the vapors can be fatal.  
+*Lock this (reason-chain):* Bleach + an acid like vinegar → chlorine gas → Milady warns the vapors can kill.  
 *记重点:* 漂白水 + 醋这类酸 → 氯气 → Milady 警告这种气体可能致命。  
 *Source:* Milady Standard Foundations p.172 (PDF 667), Milady Standard Foundations p.123 (PDF 618)
 
@@ -92,7 +92,7 @@ A. 32°F / 华氏 32 度
 B. 100°F / 华氏 100 度 ✅  
 C. 200°F / 华氏 200 度  
 D. 300°F / 华氏 300 度  
-*Why:* Flammable liquids ignite more easily than combustible ones. A flammable liquid’s flash point is below 100°F; a combustible liquid’s is between 100°F and 200°F.  
+*Why:* Flammable liquids catch fire more easily than combustible ones. A flammable liquid’s flash point is below 100°F; a combustible liquid’s is between 100°F and 200°F.  
 *为什么:* flammable（易燃）液体比 combustible（可燃）液体更容易着火。易燃液体闪点低于 100°F；可燃液体闪点在 100°F 到 200°F 之间。  
 *Lock this (name-trap):* Name trap: inflammable means flammable too. The “in” here does not mean “not.”  
 *记重点:* 名字陷阱：inflammable 也是“易燃”。这里的 in 不是“不”的意思。  
@@ -142,7 +142,7 @@ C. irritant contact dermatitis. / 刺激性接触性皮炎。 ✅
 D. tinea manus. / 手癣。  
 *Why:* Contact dermatitis is skin inflammation from touching a substance. If the substance irritates the skin, it is irritant contact dermatitis. If the skin becomes allergic, it is allergic contact dermatitis.  
 *为什么:* contact dermatitis（接触性皮炎）是皮肤接触某种物质后发炎。物质刺激皮肤，就是 irritant contact dermatitis（刺激性接触性皮炎）；皮肤对它过敏，就是 allergic contact dermatitis（过敏性接触性皮炎）。  
-*Lock this (word-parts):* Derma = skin, -itis = inflammation. Contact dermatitis is the most common avoidable skin disease for nail techs.  
+*Lock this (word-parts):* Derma = skin, -itis = inflammation. Contact dermatitis: the most common skin disease nail techs can prevent.  
 *记重点:* derma = 皮肤，-itis = 发炎。contact dermatitis（接触性皮炎）是美甲师最常见的、可以避免的皮肤病。  
 *Source:* Milady Standard Nail Technology p.87 (PDF 111), Milady Standard Nail Technology p.90 (PDF 114)
 
@@ -152,7 +152,7 @@ A. sensitization. / 致敏。 ✅
 B. neutralization. / 中和。  
 C. polymerization. / 聚合。  
 D. sterilization. / 灭菌。  
-*Why:* Sensitization is a greatly increased or exaggerated allergic sensitivity to products. With each skin exposure during a service, the risk of sensitization rises.  
+*Why:* Sensitization is a greatly increased allergic sensitivity to products. With each skin exposure during a service, the risk of sensitization rises.  
 *为什么:* sensitization（致敏）是对产品的过敏反应大大增强。服务中皮肤每接触一次，致敏风险就更高一些。  
 *Lock this (reason-chain):* Once allergic, the same technique only makes it worse. Stop using the product and find the cause.  
 *记重点:* 一旦过敏，继续用同样的方法只会越来越糟。先停用这个产品，找出原因。  
@@ -176,7 +176,7 @@ A. bend at the waist and lift fast. / 弯腰快速抬起。
 B. twist your body as you lift. / 边抬边扭身体。  
 C. hold it far from your body. / 让箱子离身体远一点。  
 D. bend at the knees, not the back. / 弯膝盖，不要弯腰。 ✅  
-*Why:* Keep your feet shoulder-width apart, bend at the knees, keep the load close, and lift with your legs. Do not twist or make fast, jerky moves.  
+*Why:* Keep your feet shoulder-width apart, bend at the knees, keep the load close, and lift with your legs. Do not twist or make fast, sudden moves.  
 *为什么:* 双脚与肩同宽，弯曲膝盖，让重物贴近身体，用腿部发力抬起。不要扭身，也不要猛地发力。  
 *Lock this (reason-chain):* The farther a load is from your body, the harder your back works. Never reach past 18 inches.  
 *记重点:* 东西离身体越远，腰背越吃力。伸手不要超过 18 英寸（约 45 厘米）。  
@@ -188,7 +188,7 @@ A. Rinse and leave hands damp / 冲一下，让手保持湿润
 B. Use hand sanitizer all day / 整天用免洗洗手液  
 C. Wash, dry thoroughly, then apply lotion / 洗手，彻底擦干，再涂护手霜 ✅  
 D. Soak hands in very hot water / 把手泡在很烫的水里  
-*Why:* Gloves limit chemical contact, but wash and thoroughly dry your hands after you take them off. Then use lotion or cream to restore moisture. Avoid harsh soaps and constant hand sanitizer.  
+*Why:* Gloves limit chemical contact, but wash and thoroughly dry your hands after you take them off. Then use lotion or cream to put moisture back. Avoid harsh soaps and using hand sanitizer all the time.  
 *为什么:* 手套能减少接触化学品，但摘下后要洗手并彻底擦干，再涂乳液或护手霜补充水分。避免用刺激性强的肥皂，也不要频繁使用免洗洗手液。  
 *Lock this (reason-chain):* Damp skin and chemicals, day after day → cracked skin barrier → irritation and allergies.  
 *记重点:* 皮肤天天又湿又碰化学品 → 皮肤屏障受损 → 刺激和过敏。  
@@ -200,7 +200,7 @@ A. Petroleum-based / 石油基手套
 B. Nitrile / 丁腈手套 ✅  
 C. Cotton / 棉手套  
 D. Leather / 皮手套  
-*Why:* Avoid latex, because latex allergies are increasingly common. Petroleum-based gloves break down when they touch petroleum products. Nitrile gloves avoid both problems.  
+*Why:* Avoid latex, because latex allergies are more and more common. Petroleum-based gloves break down when they touch petroleum products. Nitrile gloves avoid both problems.  
 *为什么:* 要避免乳胶手套，因为对乳胶过敏的人越来越多。石油基手套碰到含石油的产品会分解。nitrile（丁腈）手套这两个问题都没有。  
 *Lock this (real-life):* OSHA recommends nitrile for pedicures and chemical work. A new pair for every client, never reused.  
 *记重点:* 做足疗和接触化学品时，OSHA 建议戴丁腈手套。每个客人换新手套，绝不重复用。  
@@ -226,8 +226,8 @@ C. Twist your body toward the client. / 把身体转向客人。
 D. Hold your elbows far from your body. / 手肘远离身体。  
 *Why:* Ergonomics means setting up work so your body moves comfortably and safely. Have the client extend their hand across the table, and keep your back, neck, and wrists straight.  
 *为什么:* ergonomics（人体工学）就是让身体在工作中动得舒适、安全。请客人把手伸过桌子给你，保持背部、颈部和手腕挺直。  
-*Lock this (word-origin):* Ergonomics comes from Greek ergon, “work,” and nomos, “law”: the rules for working without injury.  
-*记重点:* ergonomics 来自希腊语：ergon = 工作，nomos = 法则。就是不受伤地工作的法则。  
+*Lock this (reason-chain):* Reach across → bend forward → back and neck hurt over time. Ergonomics: let the hand come to you.  
+*记重点:* ergonomics（人体工学）：伸手够 → 身体前弯 → 时间久了腰背、脖子都痛。让客人把手伸过来，你的背保持挺直。  
 *Source:* Milady Standard Foundations p.88 (PDF 583), Milady Standard Foundations p.85 (PDF 580)
 
 **20. Where should a salon’s fire extinguishers be kept?**  
@@ -236,7 +236,7 @@ A. Locked in the owner’s office / 锁在店主办公室里
 B. In the storeroom behind supplies / 仓库里用品后面  
 C. Where they are readily accessible / 随手就能拿到的地方 ✅  
 D. Out of sight in the basement / 地下室看不到的地方  
-*Why:* Place fire extinguishers where they are easy to reach, teach every employee to use them, and have them checked periodically, as the law requires.  
+*Why:* Place fire extinguishers where they are easy to reach, teach every employee to use them, and have them checked regularly, as the law requires.  
 *为什么:* 灭火器要放在容易拿到的地方，每个员工都要学会使用，还要按法律规定定期检查。  
 *Lock this (real-life):* Not every extinguisher suits every fire: SDS Section 5, Fire-Fighting Measures, lists the right ones.  
 *记重点:* 不是每种灭火器都适合每种火：SDS 第 5 部分 Fire-Fighting Measures（消防措施）会列出该用哪种。  

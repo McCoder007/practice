@@ -34,7 +34,7 @@ C. Around the same handle as the thumb / 和拇指握同一边手柄
 D. Curled under the lower handle / 勾在下边手柄下面  
 *Why:* Hold your thumb around one handle and three fingers around the other, with the blades facing the nail plate. The index finger rests on the box joint to control and guide the blade.  
 *为什么:* 拇指握住一边手柄，另外三根手指握住另一边，刀刃朝向甲面。食指放在剪轴（box joint）上，控制并引导刀刃。  
-*Lock this (picture):* A box joint is a hinge where one half passes through a slot in the other. Steady that pivot.  
+*Lock this (picture):* A box joint is the hinge where one blade passes through the other. Your index finger keeps it steady.  
 *记重点:* box joint（剪轴）：一边刀身从另一边的槽里穿过，形成转轴。食指压稳这个支点。  
 *Source:* Milady Standard Nail Technology p.143 (PDF 167)
 
@@ -58,7 +58,7 @@ C. rinse them in hot water only. / 只用热水冲洗。
 D. open the hinges. / 把剪子张开，露出剪轴（hinge）。 ✅  
 *Why:* Nippers must be cleaned and disinfected before every client. Open the hinges so cleaner and disinfectant reach every surface, and fully immerse the whole implement, handles included.  
 *为什么:* 每位顾客前都要清洁消毒死皮剪。把剪子张开，让清洁剂和消毒液接触到剪轴里外每个表面，并把整件工具（包括手柄）完全浸没。  
-*Lock this (picture):* A closed hinge is a hidden pocket. Debris trapped inside shields germs from the disinfectant.  
+*Lock this (picture):* A closed hinge is a hidden pocket. Debris trapped inside protects germs from the disinfectant.  
 *记重点:* 合着的剪轴是个暗袋。藏在里面的碎屑会挡住消毒液，保护病菌。  
 *Source:* Milady Standard Nail Technology p.143 (PDF 167), Milady Standard Foundations p.119 (PDF 614)
 
@@ -92,7 +92,7 @@ A. Coarse grit / 粗目数（coarse）
 B. Fine grit / 细目数（fine）  
 C. Medium grit / 中目数（medium） ✅  
 D. A no-grit shine surface / 无砂粒的抛光面  
-*Why:* Medium-grit abrasives smooth and refine surfaces and are used to shorten and shape natural nails. Finish with a fine grit to smooth the edge. Coarse grits are generally not used on natural nails.  
+*Why:* Medium-grit abrasives smooth surfaces and are used to shorten and shape natural nails. Finish with a fine grit to smooth the edge. Coarse grits are generally not used on natural nails.  
 *为什么:* 中目数锉条用来打磨、修整表面，也用来修短、修形真甲。最后用细目数把边缘磨顺。粗目数一般不用在真甲上。  
 *Lock this (real-life):* Toenails too: a medium-grit file works best, then finish with fine grit to seal the edges.  
 *记重点:* 脚指甲也一样：用中目数锉条最好，最后用细目数把边缘封顺。  
@@ -106,8 +106,8 @@ C. Shortening thick toenails / 剪短厚脚指甲
 D. Applying cuticle oil to the nail / 给指甲涂营养油  
 *Why:* A curette has a small scoop-shaped end for removing debris from the nail folds, eponychium, and hyponychium areas. It is ideal around the edges of the big toenail.  
 *为什么:* 刮匙一头是小勺形，用来清除甲沟（nail folds）、甲上皮（eponychium）和甲下皮（hyponychium）周围的污垢，特别适合大脚趾甲边缘。  
-*Lock this (chinese-character):* 刮匙: 刮 = scrape, 匙 = spoon. English curette is from French curer, 'to clean'.  
-*记重点:* 刮匙：刮 = 刮除，匙 = 勺子，就是一把刮污垢的小勺。英文 curette 来自法语 curer，意思是“清理”。  
+*Lock this (chinese-character):* Curette = 刮匙: 刮 = scrape, 匙 = spoon. A tiny spoon that scrapes dirt out of nail folds.  
+*记重点:* curette（刮匙）：刮 = 刮除，匙 = 勺子，就是一把刮污垢的小勺，专门清甲沟里的脏东西。  
 *Source:* Milady Standard Nail Technology p.198 (PDF 222)
 
 **10. What is a wooden pusher used for?**  
@@ -164,7 +164,7 @@ A. is used once a day, then disinfected. / 每天用一次，然后消毒。
 B. can be reused after a rinse. / 冲洗后可以再用。  
 C. is made only of stainless steel. / 只用不锈钢做的。  
 D. can't be disinfected, so it's thrown away. / 无法消毒，用一次就扔。 ✅  
-*Why:* Single-use implements cannot be properly cleaned and disinfected, or are damaged by it, so they are discarded after one use, preferably where the client can see. Multiuse implements can be disinfected and reused.  
+*Why:* Single-use implements cannot be properly cleaned and disinfected, or are damaged by it, so they are thrown away after one use, best where the client can see. Multiuse implements can be disinfected and reused.  
 *为什么:* 一次性工具无法彻底清洁消毒，或消毒会把它弄坏，所以用一次就丢，最好当着顾客的面丢。可重复使用的工具（multiuse）则可以消毒后再用。  
 *Lock this (real-life):* Milady's examples: wooden pushers and paper-based files can't be disinfected, so both are single-use.  
 *记重点:* Milady 举的例子：木棒和纸质锉条都无法消毒，所以都是一次性工具。  
@@ -212,7 +212,7 @@ A. To raise its grit number / 提高它的目数
 B. To make it disinfectable / 让它可以消毒  
 C. To remove sharp edges that can cut / 去掉可能割伤人的锋利边缘 ✅  
 D. To soften its foam core / 让泡棉芯变软  
-*Why:* Files are stamped from large sheets, leaving very sharp edges. Rub a clean, unused file across the edges, and check buffer corners too. This file prepping protects clients from cuts.  
+*Why:* Files are cut from large sheets, leaving very sharp edges. Rub a clean, unused file across the edges, and check buffer corners too. This file prepping protects clients from cuts.  
 *为什么:* 锉条是从大片材料上冲压下来的，边缘非常锋利。用另一根干净、没用过的锉条把边缘磨一磨，抛光块的角也要处理。这叫 file prepping（锉条预处理），防止割伤顾客。  
 *Lock this (real-life):* Like a paper cut from a fresh sheet of paper: brand-new edges are the sharpest.  
 *记重点:* 就像新纸会划破手：越新的边越锋利。  

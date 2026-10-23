@@ -48,7 +48,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "The epidermis is the outermost and thinnest skin layer. It has no blood vessels and depends on the dermis below for nutrition.",
+        "en": "The epidermis is the outermost and thinnest skin layer. It has no blood vessels and gets its food from the dermis below.",
         "zh": "epidermis（表皮）是皮肤最外层、最薄的一层。它没有血管，靠下面的真皮供给营养。"
       },
       "lockPoint": {
@@ -106,8 +106,8 @@
         "zh": "dermis（真皮）是表皮下面的内层，约比表皮厚 25 倍，里面有血管、神经、腺体和毛囊。"
       },
       "lockPoint": {
-        "en": "It is also called the cutis, Latin for skin. Cuticle, \"little skin,\" comes from the same word.",
-        "zh": "真皮又叫 cutis，拉丁语“皮肤”。cuticle（甲小皮，“小皮”）也来自这个词。"
+        "en": "Chinese 真皮 means true skin, and also real leather. Leather is made from animal dermis.",
+        "zh": "dermis（真皮）的“真皮”也是“真皮皮鞋”的真皮：皮革就是用动物的真皮层做的。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -132,7 +132,7 @@
           "quote": "This highly sensitive layer is about 25 times thicker than the epidermis."
         }
       ],
-      "hookType": "word-link"
+      "hookType": "chinese-character"
     },
     {
       "id": "nic-2c-03",
@@ -164,12 +164,12 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Subcutaneous tissue, also called adipose tissue, is the fatty layer under the dermis. It gives the body smooth contour, stores energy, and cushions the skin.",
+        "en": "Subcutaneous tissue, also called adipose tissue, is the fatty layer under the dermis. It gives the body a smooth shape, stores energy, and cushions the skin.",
         "zh": "subcutaneous tissue（皮下组织）也叫 adipose tissue（脂肪组织），是真皮下面的脂肪层，让身体轮廓平滑、储存能量，并为皮肤提供缓冲。"
       },
       "lockPoint": {
-        "en": "Its other name, adipose, comes from Latin for fat. Think of padding laid under a carpet.",
-        "zh": "它又叫 adipose，源自拉丁语“脂肪”。就像铺在地毯下面的那层软垫。"
+        "en": "Sub = under, like a subway under the street. This fat lies under the dermis, like padding under a carpet.",
+        "zh": "sub = 在下面，像 subway（地铁）在街道下面。subcutaneous tissue（皮下组织）在真皮下面，就像地毯下面的软垫。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -190,7 +190,7 @@
           "quote": "serves as a protective cushion for the skin and underlying structures"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "word-parts"
     },
     {
       "id": "nic-2c-04",
@@ -222,12 +222,12 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "The stratum corneum, or horny layer, is the outermost, visible layer of the epidermis, and the one beauty practitioners care for. Its scalelike cells are constantly shed.",
+        "en": "The stratum corneum, or horny layer, is the outermost, visible layer of the epidermis, and the one beauty practitioners care for. Its scalelike cells are always being shed.",
         "zh": "stratum corneum（角质层），也叫 horny layer，是表皮最外面、肉眼可见的一层，也是美容从业者护理的那一层。它的鳞状细胞不断脱落。"
       },
       "lockPoint": {
-        "en": "Corneum comes from Latin cornu, horn, as in unicorn. The Chinese name 角质层 uses 角 (horn) too.",
-        "zh": "corneum 来自拉丁语 cornu（角），unicorn（独角兽）里也有它。中文“角质层”的“角”就是牛角、羊角的“角”。"
+        "en": "Chinese 角质层: 角 = horn, tough dead cells. Scrubbing off 角质 (去角质) works on this layer.",
+        "zh": "角质层的“角”= 牛角的角，是坚韧的死细胞。平时说的“去角质”，就是在护理这一层 stratum corneum（角质层）。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -262,7 +262,7 @@
           "quote": "Its scalelike cells are continually being shed and replaced by others"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "chinese-character"
     },
     {
       "id": "nic-2c-05",
@@ -294,12 +294,12 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "The stratum lucidum is a clear layer just under the surface, made of small oval cells that light can pass through. It is most abundant on the palms and soles.",
-        "zh": "stratum lucidum（透明层）是紧贴表面下方的透明层，由光线可以穿过的小椭圆形细胞组成，在手掌和脚底最丰富。"
+        "en": "The stratum lucidum is a clear layer just under the surface, made of small oval cells that light can pass through. It is found mostly on the palms and soles.",
+        "zh": "stratum lucidum（透明层）是紧贴表面下方的透明层，由光线可以穿过的小椭圆形细胞组成，主要在手掌和脚底。"
       },
       "lockPoint": {
-        "en": "Lucidum, lucid, and translucent all come from Latin lucere, to shine: light passes through this layer.",
-        "zh": "lucidum、lucid（清楚）、translucent（半透明）都来自拉丁语 lucere（发光）；中文“透明层”也是说光能透过。"
+        "en": "Chinese 透明层: 透明 = see-through, like glass. Only thick skin, like your palms and heels, has this layer.",
+        "zh": "透明层的“透明”= 像玻璃一样能透光。只有厚皮肤才有 stratum lucidum（透明层），比如手掌和脚跟。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -324,7 +324,7 @@
           "quote": "consists of small, oval-shaped cells through which light can pass"
         }
       ],
-      "hookType": "word-link"
+      "hookType": "chinese-character"
     },
     {
       "id": "nic-2c-06",
@@ -360,8 +360,8 @@
         "zh": "stratum germinativum（生发层），也叫 basal layer（基底层），是表皮最深的活细胞层，通过有丝分裂产生新细胞，补充表面脱落的细胞。"
       },
       "lockPoint": {
-        "en": "Germinativum shares a root with germinate: seeds sprout new plants; this layer sprouts new cells.",
-        "zh": "germinativum 和 germinate（发芽）同根：种子发出新芽，这一层“长”出新细胞。"
+        "en": "Like seeds in the ground: new cells start in this bottom layer, then rise to the top.",
+        "zh": "像埋在土里的种子：新细胞在这最底层生出来，再慢慢升到表面。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -378,7 +378,7 @@
           "quote": "is also known as the basal layer (BAY-zal LAY-er) and is the deepest living layer of the epidermis. It produces new epidermal skin cells"
         }
       ],
-      "hookType": "word-link"
+      "hookType": "picture"
     },
     {
       "id": "nic-2c-07",
@@ -410,7 +410,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Tinea pedis is a fungal infection of the feet, often between the toes or along the sole. It thrives in dark, moist places. Do not perform services.",
+        "en": "Tinea pedis is a fungal infection of the feet, often between the toes or along the sole. It grows well in dark, wet places. Do not perform services.",
         "zh": "tinea pedis（足癣）是脚部的真菌感染，常出现在脚趾之间或脚底。它在阴暗潮湿的地方容易滋生。不能为顾客做服务。"
       },
       "lockPoint": {
@@ -476,8 +476,8 @@
         "zh": "sudoriferous glands（汗腺）就是 sweat glands。每个汗腺有一个盘绕的底部和一根管状导管，开口在皮肤表面形成汗孔。"
       },
       "lockPoint": {
-        "en": "Latin sudor = sweat, ferre = to carry. Sudoriferous = sweat-carrying.",
-        "zh": "拉丁语 sudor = 汗，ferre = 运送。sudoriferous 就是“运送汗水的”。"
+        "en": "Sudoriferous = sweat; sebaceous = oil. Palms and soles have many sweat glands but no oil glands.",
+        "zh": "sudoriferous = 汗，sebaceous = 油。手掌和脚底汗腺很多，却没有皮脂腺：所以手心会出汗，但不出油。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -498,7 +498,7 @@
           "quote": "consist of a coiled base, or secretory coil (SEE-cre-toh-ree KOIL), and a tubelike duct that opens at the surface of the skin to form the sweat pore"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "contrast"
     },
     {
       "id": "nic-2c-09",
@@ -530,7 +530,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Sebaceous glands are found all over the body except the palms of the hands and soles of the feet. They are most abundant on the face and scalp.",
+        "en": "Sebaceous glands are found all over the body except the palms of the hands and soles of the feet. Most of them are on the face and scalp.",
         "zh": "除了手掌和脚底，全身都有 sebaceous glands（皮脂腺），其中面部和头皮最多。"
       },
       "lockPoint": {
@@ -592,7 +592,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Secretion is the skin releasing sebum from the sebaceous glands. Sebum lubricates the skin and keeps it soft. Sweat leaving the skin is excretion.",
+        "en": "Secretion is the skin releasing sebum from the sebaceous glands. Sebum oils the skin and keeps it soft. Sweat leaving the skin is excretion.",
         "zh": "secretion（分泌）是皮脂腺释放皮脂，皮脂润滑皮肤、让它保持柔软。汗液排出皮肤则属于 excretion（排泄）。"
       },
       "lockPoint": {
@@ -650,12 +650,12 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "A macule is a flat spot or discoloration on the skin, such as a freckle or age spot. It is neither raised nor sunken.",
+        "en": "A macule is a flat spot or discoloration on the skin, such as a freckle or age spot. It is not raised, and not lower than the skin.",
         "zh": "macule（斑疹）是皮肤上平的斑点或变色，例如雀斑或老年斑，既不凸起也不凹陷。"
       },
       "lockPoint": {
-        "en": "Latin macula = spot. Immaculate means \"without a spot.\"",
-        "zh": "拉丁语 macula = 斑点。immaculate（一尘不染）就是“没有斑点”。"
+        "en": "Touch a freckle: you can't feel it, it's flat. That's a macule. A papule is a bump you can feel.",
+        "zh": "摸摸雀斑：平的，摸不出来，这就是 macule（斑疹）。papule（丘疹）是能摸到的小鼓包。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -682,7 +682,7 @@
           "quote": "A spot or discoloration on the skin, such as a freckle. Macules are neither raised or sunken."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-2c-12",
@@ -718,7 +718,7 @@
         "zh": "eczema（湿疹）是一种发炎、发痒的皮肤病，不会传染。疣、单纯疱疹和足癣都具有传染性。"
       },
       "lockPoint": {
-        "en": "Eczema often runs in families and flares from triggers like dryness or soap, not germs. Nothing to catch.",
+        "en": "Eczema often runs in families and gets worse with things like dry skin or soap, not germs. Nothing to catch.",
         "zh": "湿疹常有家族遗传倾向，会因皮肤干燥、肥皂等刺激而发作，不是病菌引起的，所以没什么可传染的。"
       },
       "teachingRelation": "contrast",
@@ -778,12 +778,12 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "A fissure is a crack in the skin that penetrates the dermis, as in severely cracked or chapped hands, lips, or feet.",
+        "en": "A fissure is a crack in the skin that goes down into the dermis, as in badly cracked or chapped hands, lips, or feet.",
         "zh": "fissure（皲裂）是深入到真皮的皮肤裂口，例如严重开裂或皲裂的手、嘴唇或脚。"
       },
       "lockPoint": {
-        "en": "Fissure comes from Latin for split, like a crack in rock. Broken skin means no salon service; refer out.",
-        "zh": "fissure 源自拉丁语“裂开”，像岩石上的裂缝。皮肤破了就不能做沙龙服务，应建议就医。"
+        "en": "Picture dry ground cracked by the sun. A crack in the heel deep enough to bleed is a fissure.",
+        "zh": "想象被太阳晒裂的干地。脚跟上的裂口深到会流血（伤到真皮），就是 fissure（皲裂）。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -810,7 +810,7 @@
           "quote": "A client whose nail or skin is infected, inflamed, broken, or swollen should not receive salon services."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "picture"
     },
     {
       "id": "nic-2c-14",
@@ -842,11 +842,11 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "A crust, such as a scab, is a secondary lesion: material piled on the skin as a wound heals. Vesicles, macules, and papules are primary lesions.",
-        "zh": "crust（痂，比如伤口结的 scab）是继发性皮损：伤口愈合时堆积在皮肤表面的物质。水疱、斑疹和丘疹都是原发性皮损（primary lesions）。"
+        "en": "A crust, such as a scab, is a secondary lesion: dried matter that builds up on the skin as a wound heals. Vesicles, macules, and papules are primary lesions.",
+        "zh": "crust（痂，比如伤口结的 scab）是继发性皮损：伤口愈合时在皮肤表面堆积、变干的物质。水疱、斑疹和丘疹都是原发性皮损（primary lesions）。"
       },
       "lockPoint": {
-        "en": "Primary comes first, secondary later. A scab forms only after skin has broken open or oozed.",
+        "en": "Primary comes first, secondary later. A scab forms only after skin has broken open or leaked fluid.",
         "zh": "原发在先，继发在后。必须先有皮肤破溃或渗出，之后才会结痂。"
       },
       "teachingRelation": "category",
@@ -906,12 +906,12 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Bromhidrosis is foul-smelling perspiration, usually noticeable in the armpits or on the feet.",
+        "en": "Bromhidrosis is bad-smelling sweat, usually noticed in the armpits or on the feet.",
         "zh": "bromhidrosis（臭汗症）是气味难闻的汗液，通常在腋下或脚上比较明显。"
       },
       "lockPoint": {
-        "en": "Greek bromos = stench; the element bromine was named for its smell. Hidrosis = sweating.",
-        "zh": "希腊语 bromos = 恶臭，化学元素 bromine（溴）就是因气味得名。hidrosis = 出汗。"
+        "en": "All -hidrosis words are about sweat. Anhidrosis = too little, hyperhidrosis = too much, bromhidrosis = bad smell.",
+        "zh": "带 -hidrosis 的词都和汗有关：anhidrosis（无汗症）= 汗太少，hyperhidrosis（多汗症）= 汗太多，bromhidrosis（臭汗症）= 汗有臭味。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -1028,12 +1028,12 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Chloasma is increased pigmentation: dark spots that are not raised. They are generally pools of melanin caused by years of sun exposure.",
-        "zh": "chloasma（黄褐斑）是色素增加形成的不凸起的深色斑点，通常是长期日晒造成的黑色素沉积。"
+        "en": "Chloasma is extra color in the skin: dark, flat spots. They are usually pools of melanin from years of sun.",
+        "zh": "chloasma（黄褐斑）是皮肤颜色加深形成的平坦深色斑点，通常是多年日晒造成的黑色素沉积。"
       },
       "lockPoint": {
-        "en": "Name trap: chlo- means green, as in chlorophyll, yet these spots are brown.",
-        "zh": "名字陷阱：chlo- 意为“绿色”（chlorophyll 叶绿素），可这些斑却是褐色的。"
+        "en": "Chinese 黄褐斑: 黄褐 = yellow-brown. Chloasma is flat brown spots, not white like vitiligo.",
+        "zh": "黄褐斑的“黄褐”= 黄褐色：chloasma（黄褐斑）是平的褐色斑，不是白癜风那样的白斑。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -1054,7 +1054,7 @@
           "quote": "Chloasma are incorrectly called liver spots, even though they have nothing to do with the liver. They are generally pools of melanin caused by cumulative sun exposure."
         }
       ],
-      "hookType": "name-trap"
+      "hookType": "chinese-character"
     },
     {
       "id": "nic-2c-18",
@@ -1086,7 +1086,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Basal cell carcinoma is the most common and least severe skin cancer, often light, pearly nodules. Squamous cell is more serious; malignant melanoma is the most serious.",
+        "en": "Basal cell carcinoma is the most common and least severe skin cancer, often light, shiny nodules. Squamous cell is more serious; malignant melanoma is the most serious.",
         "zh": "basal cell carcinoma（基底细胞癌）是最常见、最不严重的皮肤癌，常呈浅色、珍珠样结节。鳞状细胞癌更严重，恶性黑色素瘤最严重。"
       },
       "lockPoint": {
@@ -1212,8 +1212,8 @@
         "zh": "verruca（疣）是由病毒引起的。它有传染性，会从一处扩散到另一处，尤其容易沿着皮肤上的抓痕蔓延。"
       },
       "lockPoint": {
-        "en": "Latin verruca meant both \"wart\" and \"a height\": a wart is a bump rising from the skin.",
-        "zh": "拉丁语 verruca 既指“疣”，也指“高处、高地”：疣就是皮肤上鼓起来的小包。"
+        "en": "Picture a tiny cauliflower on the skin: many warts look like that. Don't scratch it, or it can spread.",
+        "zh": "想象皮肤上长了一朵小小的花椰菜：很多疣（verruca）就长这样。别去抓它，会传开。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -1234,7 +1234,7 @@
           "quote": "It is caused by a virus and is infectious. Verruca can spread from one location to another, particularly along a scratch in the skin."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "picture"
     }
   ],
   "review": {

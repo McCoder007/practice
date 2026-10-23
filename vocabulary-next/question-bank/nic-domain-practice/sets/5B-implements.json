@@ -176,7 +176,7 @@
         "zh": "拇指握住一边手柄，另外三根手指握住另一边，刀刃朝向甲面。食指放在剪轴（box joint）上，控制并引导刀刃。"
       },
       "lockPoint": {
-        "en": "A box joint is a hinge where one half passes through a slot in the other. Steady that pivot.",
+        "en": "A box joint is the hinge where one blade passes through the other. Your index finger keeps it steady.",
         "zh": "box joint（剪轴）：一边刀身从另一边的槽里穿过，形成转轴。食指压稳这个支点。"
       },
       "teachingRelation": "definition",
@@ -302,7 +302,7 @@
         "zh": "每位顾客前都要清洁消毒死皮剪。把剪子张开，让清洁剂和消毒液接触到剪轴里外每个表面，并把整件工具（包括手柄）完全浸没。"
       },
       "lockPoint": {
-        "en": "A closed hinge is a hidden pocket. Debris trapped inside shields germs from the disinfectant.",
+        "en": "A closed hinge is a hidden pocket. Debris trapped inside protects germs from the disinfectant.",
         "zh": "合着的剪轴是个暗袋。藏在里面的碎屑会挡住消毒液，保护病菌。"
       },
       "teachingRelation": "association",
@@ -510,7 +510,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Medium-grit abrasives smooth and refine surfaces and are used to shorten and shape natural nails. Finish with a fine grit to smooth the edge. Coarse grits are generally not used on natural nails.",
+        "en": "Medium-grit abrasives smooth surfaces and are used to shorten and shape natural nails. Finish with a fine grit to smooth the edge. Coarse grits are generally not used on natural nails.",
         "zh": "中目数锉条用来打磨、修整表面，也用来修短、修形真甲。最后用细目数把边缘磨顺。粗目数一般不用在真甲上。"
       },
       "lockPoint": {
@@ -592,8 +592,8 @@
         "zh": "刮匙一头是小勺形，用来清除甲沟（nail folds）、甲上皮（eponychium）和甲下皮（hyponychium）周围的污垢，特别适合大脚趾甲边缘。"
       },
       "lockPoint": {
-        "en": "刮匙: 刮 = scrape, 匙 = spoon. English curette is from French curer, 'to clean'.",
-        "zh": "刮匙：刮 = 刮除，匙 = 勺子，就是一把刮污垢的小勺。英文 curette 来自法语 curer，意思是“清理”。"
+        "en": "Curette = 刮匙: 刮 = scrape, 匙 = spoon. A tiny spoon that scrapes dirt out of nail folds.",
+        "zh": "curette（刮匙）：刮 = 刮除，匙 = 勺子，就是一把刮污垢的小勺，专门清甲沟里的脏东西。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -932,7 +932,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Single-use implements cannot be properly cleaned and disinfected, or are damaged by it, so they are discarded after one use, preferably where the client can see. Multiuse implements can be disinfected and reused.",
+        "en": "Single-use implements cannot be properly cleaned and disinfected, or are damaged by it, so they are thrown away after one use, best where the client can see. Multiuse implements can be disinfected and reused.",
         "zh": "一次性工具无法彻底清洁消毒，或消毒会把它弄坏，所以用一次就丢，最好当着顾客的面丢。可重复使用的工具（multiuse）则可以消毒后再用。"
       },
       "lockPoint": {
@@ -1196,7 +1196,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Files are stamped from large sheets, leaving very sharp edges. Rub a clean, unused file across the edges, and check buffer corners too. This file prepping protects clients from cuts.",
+        "en": "Files are cut from large sheets, leaving very sharp edges. Rub a clean, unused file across the edges, and check buffer corners too. This file prepping protects clients from cuts.",
         "zh": "锉条是从大片材料上冲压下来的，边缘非常锋利。用另一根干净、没用过的锉条把边缘磨一磨，抛光块的角也要处理。这叫 file prepping（锉条预处理），防止割伤顾客。"
       },
       "lockPoint": {

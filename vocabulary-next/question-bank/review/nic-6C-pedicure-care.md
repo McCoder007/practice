@@ -104,7 +104,7 @@ A. Over the entire foot and leg / 整只脚和腿
 B. On the toenail plates / 脚趾甲板上  
 C. On the callused areas only / 只涂在有老茧的部位 ✅  
 D. Between the toes / 脚趾之间  
-*Why:* Apply callus softener to the callused areas only, for the time the manufacturer directs. Some are alkaline, so wear gloves; improper use can injure the client.  
+*Why:* Apply callus softener to the callused areas only, for the time the manufacturer directs. Some are alkaline, so wear gloves; wrong use can hurt the client.  
 *为什么:* callus softener（老茧软化剂）只涂在有老茧的部位，停留时间按厂家说明。有些是碱性的，要戴手套；使用不当会伤到顾客。  
 *Lock this (reason-chain):* Strong enough to soften thick callus → strong enough to harm thin, healthy skin.  
 *记重点:* 强到能软化厚老茧 → 也强到能伤害薄薄的健康皮肤。  
@@ -116,7 +116,7 @@ A. They contain the nail matrix / 老茧里有甲母
 B. They grow back in one day / 老茧一天就会长回来  
 C. Removing them takes too long / 去除老茧太花时间  
 D. They protect the skin underneath / 老茧保护下面的皮肤 ✅  
-*Why:* Calluses protect the underlying skin in stress areas, as on people who stand all day. Soften and smooth them; do not thin them too much or remove them.  
+*Why:* Calluses protect the skin under them in stress areas, as on people who stand all day. Soften and smooth them; do not thin them too much or remove them.  
 *为什么:* 老茧在受力部位保护下面的皮肤，比如整天站着工作的人。只能软化、磨平，不能磨得太薄或完全去掉。  
 *Lock this (comparison):* Like a guitarist's fingertips: the hard skin is armor the body built from use.  
 *记重点:* 就像吉他手的指尖：那层硬皮是身体因为反复使用而长出的盔甲。  
@@ -140,7 +140,7 @@ A. Ask the client to hold their legs still / 请顾客自己把腿保持不动
 B. Support the entire leg, behind knees and ankles / 支撑整条腿，包括膝盖后面和脚踝 ✅  
 C. Skip the foot soak / 省略泡脚  
 D. Work on one foot only / 只做一只脚  
-*Why:* Tremors or involuntary movement may signal a neurological issue. Support the entire leg, including behind the knees and ankles, so the client never has to hold up their own legs.  
+*Why:* Tremors or shaking a client can't stop may mean a nerve problem. Support the entire leg, including behind the knees and ankles, so the client never has to hold up their own legs.  
 *为什么:* 颤抖或不自主动作可能代表神经方面的问题。要支撑整条腿，包括膝盖后面和脚踝，让顾客完全不用自己撑着腿。  
 *Lock this (comparison):* Same rule for hands: Milady supports the whole forearm, elbow to palm, on a rolled towel.  
 *记重点:* 手也是同样的规则：Milady 用卷起的毛巾把整个前臂，从手肘到手掌都托住。  
@@ -166,8 +166,8 @@ C. A metal pusher / 金属推棒（metal pusher） ✅
 D. Toe separators / 分趾器  
 *Why:* Do not use metal pushers or sharp implements on clients with chronic illnesses. Instead, use a curette gently to remove nonliving tissue and a fine-grit abrasive on the nails.  
 *为什么:* 慢性病顾客不能用金属推棒或尖锐工具。可以改用刮匙轻轻去除死组织，并用细砂锉处理指甲。  
-*Lock this (reason-chain):* Slow-healing skin + one unseen nick → infection, and in the worst cases amputation.  
-*记重点:* 伤口愈合慢 + 一个看不见的小伤口 → 感染，最严重会导致截肢。  
+*Lock this (reason-chain):* Slow-healing skin + one tiny unseen cut → infection, and in the worst cases losing a toe or foot.  
+*记重点:* 伤口愈合慢 + 一个看不见的小伤口 → 感染，最严重会失去脚趾甚至整只脚。  
 *Source:* Milady Standard Nail Technology p.199 (PDF 223), Milady Standard Nail Technology p.211 (PDF 235), Milady Standard Foundations p.132 (PDF 627)
 
 **15. There is buildup between the client's toes. What should you do first?**  
@@ -178,8 +178,8 @@ C. Skip cleaning between the toes / 跳过脚趾间的清洁
 D. Rub it off with a foot file / 用脚锉磨掉  
 *Why:* A complete pedicure cleans between the toes. If there is buildup, soak longer with a softening product containing urea, then clean gently with a disposable towelette or washcloth.  
 *为什么:* 完整的修脚要清洁脚趾之间。如果有积垢，先用含尿素（urea）的软化产品多泡一会儿，再用一次性湿巾或毛巾轻轻擦干净。  
-*Lock this (word-origin):* Urea is named for urine, where it was first found. In foot care it softens hard buildup.  
-*记重点:* urea（尿素）因最早在尿液中发现而得名。在足部护理中，它能软化硬结的积垢。  
+*Lock this (real-life):* Urea is in many creams for dry, cracked heels. It holds water in hard skin, so it softens.  
+*记重点:* 很多治脚跟干裂的乳霜里都有 urea（尿素）。它把水分留在硬皮里，硬皮就变软了。  
 *Source:* Milady Standard Nail Technology p.210 (PDF 234)
 
 **16. Before clipping toenails for a client with health considerations, what should you check?**  

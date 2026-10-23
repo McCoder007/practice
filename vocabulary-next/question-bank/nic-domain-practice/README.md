@@ -33,6 +33,8 @@ New practice questions written from Milady Standard Nail Technology 8th Edition 
 - **Choices:** 8 words max, parallel in form, no "all/none of the above". Correct letters spread evenly across A–D.
 - **Why / 为什么 (`explanation`):** the reason, in plain ESL English, 35 words max. Full Chinese translation with the English exam term kept beside it, e.g. ringworm（癣）.
 - **Lock this / 记重点 (`lockPoint`):** a memory hook, 20 words max. It must add something the answer and the Why line do not. Never just restate the answer.
+- **Level-2 English.** Learners are about ESL level 2. The English Why and Lock this lines use only everyday words a beginner knows, plus the exam term itself. Short sentences. No extra hard words to explain an easy idea (e.g. not "exempt", "translucent", "barren").
+- **No foreign-language word origins.** Never explain a term with Latin, Greek, French, Italian, or "an old word for…", in English or Chinese (no 拉丁语/希腊语/法语). It adds more foreign words to learn. Exam-term word parts that repeat across many exam words (onycho- = nail, -itis = swelling, -osis = condition) are fine without naming a language.
 
 ### Memory hook types (`hookType`)
 
@@ -40,10 +42,10 @@ Use the one that fits best. Every hook must be true.
 
 | hookType | What it does | Example |
 |---|---|---|
-| `word-parts` | Real English word parts | Non = no, patho = disease, genic = makes. |
-| `word-origin` | Real origin of the word | Scabies comes from an old word for "scratch". |
-| `word-link` | A known word that sounds the same and shares the meaning | Communicable sounds like communicate. |
+| `word-parts` | Exam-term parts that repeat, or easy English parts | onycho- = nail, -lysis = loosen. Im- = not. |
+| `word-link` | An everyday English word that looks or sounds the same and shares the meaning | Miscible looks like "mix". |
 | `chinese-character` | What the Chinese characters show | 炎 = two 火: inflammation is fire in the tissue. |
+| `body-cue` | Something the learner can feel or do on their own body | Feel the point of your elbow: that's the ulna. |
 | `picture` | An everyday image | A wet towel in a dark drawer: bacteria grow there. |
 | `comparison` | A simple comparison | Skin is the wall; white blood cells are the guards. |
 | `reason-chain` | Cause → effect steps | Razor → tiny cuts → water germs get in. |
@@ -52,4 +54,4 @@ Use the one that fits best. Every hook must be true.
 | `real-acronym` | Letters of a real abbreviation | MRSA: R = Resistant, S = Staph. |
 | `contrast` | Only when nothing above fits: how to tell it from the trap | Droplets fall fast; airborne particles float. |
 
-**Banned:** rhymes, puns, made-up acronyms, and false word origins (e.g. "in-direct" does not mean "in between").
+**Banned:** rhymes, puns, made-up acronyms, false word origins (e.g. "in-direct" does not mean "in between"), and foreign-language word origins (see Level-2 English above). The `word-origin` hook type is retired.

@@ -20,7 +20,7 @@ A. About 2 seconds / 约 2 秒
 B. About 1 minute / 约 1 分钟  
 C. About 5 minutes / 约 5 分钟  
 D. About 10 seconds / 约 10 秒 ✅  
-*Why:* Hold the saturated cotton on each nail for about 10 seconds. The remover softens the old polish so it wipes off easily.  
+*Why:* Hold the soaked cotton on each nail for about 10 seconds. The remover softens the old polish so it wipes off easily.  
 *为什么:* 把浸透卸甲水（polish remover）的棉片按在每个指甲上约 10 秒。卸甲水先软化旧甲油，之后就容易擦掉。  
 *Lock this (real-life):* Count silently to 10: that's Milady's timer. Acetone and non-acetone removers can both dry the skin.  
 *记重点:* 心里默数到 10，这就是 Milady 的计时方法。含丙酮和不含丙酮的卸甲水都可能让皮肤干燥。  
@@ -68,7 +68,7 @@ A. With a back-and-forth sawing motion / 来回拉锯式锉
 B. From each side toward the center / 从两侧往中间锉 ✅  
 C. From the center out to each side / 从中间往两侧锉  
 D. In small circles on the free edge / 在游离缘上小圈打转  
-*Why:* File from one side to the center, then from the other side to the center. Sawing back and forth can disrupt the nail plate layers and cause splitting and peeling.  
+*Why:* File from one side to the center, then from the other side to the center. Sawing back and forth can pull apart the nail plate layers and cause splitting and peeling.  
 *为什么:* 从一侧锉到中间，再从另一侧锉到中间。来回拉锯会破坏甲板的层次，造成开裂和脱层。  
 *Lock this (comparison):* The nail plate is built in layers, like plywood. Sawing pulls those layers apart.  
 *记重点:* 甲板像胶合板一样一层层叠起来。拉锯式锉法会把层与层扯开。  
@@ -106,8 +106,8 @@ C. On the palm of the hand / 手掌
 D. Under the free edge only / 只涂在游离缘下面  
 *Why:* Cuticle remover goes on the nail plate, not living skin. It is caustic (high pH) and can cause dryness or irritation on live skin.  
 *为什么:* cuticle remover（去死皮液）只涂在甲板上的死皮，不要涂在活皮肤上。它是强碱性的（caustic，高 pH），会让活皮肤干燥或受刺激。  
-*Lock this (word-origin):* Caustic comes from a Greek word meaning "burning." It dissolves dead tissue, so keep it off live skin.  
-*记重点:* caustic 源自希腊语，意思是“灼烧”。它能溶解死组织，所以别让它碰到活皮肤。  
+*Lock this (comparison):* Caustic, like drain cleaner: high pH. It dissolves dead tissue, so it can hurt live skin too.  
+*记重点:* caustic（强碱性）就像管道疏通剂一样，pH 很高。它能溶解死皮，所以也会伤到活皮肤。  
 *Source:* Milady Standard Nail Technology p.178 (PDF 202), Milady Standard Nail Technology p.151 (PDF 175)
 
 **10. After cuticle work on both hands, why does the client wash at the sink?**  
@@ -128,7 +128,7 @@ A. onychophagy. / 咬甲癖（onychophagy）。
 B. nail psoriasis. / 指甲银屑病（nail psoriasis）。  
 C. onycholysis. / 甲剥离（onycholysis）。 ✅  
 D. ridged nails. / 纵纹甲（ridged nails）。  
-*Why:* Clean under the free edge gently. Aggressive cleaning can break the hyponychium seal and cause onycholysis, the nail plate separating from the nail bed.  
+*Why:* Clean under the free edge gently. Rough cleaning can break the hyponychium seal and cause onycholysis, the nail plate separating from the nail bed.  
 *为什么:* 清洁游离缘下方要轻柔。太用力会破坏 hyponychium（甲下皮）的密封，造成 onycholysis（甲剥离），也就是甲板与甲床分离。  
 *Lock this (word-parts):* Onycho = nail, lysis = loosening. Onycholysis is the nail loosening from its bed.  
 *记重点:* onycho = 指甲，lysis = 松开。onycholysis 就是指甲从甲床上松开。  
@@ -152,7 +152,7 @@ A. 10 to 15 minutes / 10 到 15 分钟
 B. 30 to 45 minutes / 30 到 45 分钟 ✅  
 C. 60 to 90 minutes / 60 到 90 分钟  
 D. About 2 hours / 大约 2 小时  
-*Why:* Aim to finish a basic manicure, including polishing, in 30 to 45 minutes at most, preferably 30, before you leave school.  
+*Why:* Aim to finish a basic manicure, including polishing, in 30 to 45 minutes at most (30 is best) before you leave school.  
 *为什么:* 毕业前，要练到基础修手（含上甲油）最多 30 到 45 分钟完成，最好 30 分钟。  
 *Lock this (real-life):* Milady's reason: a tech who works this fast is more attractive to employers as a new hire.  
 *记重点:* Milady 的理由：能做到这个速度的新人，更受雇主青睐。  
@@ -190,8 +190,8 @@ C. Oval / 椭圆形（oval） ✅
 D. Squoval / 方圆形（squoval）  
 *Why:* Milady calls the oval nail a conservative shape thought to be attractive on most hands.  
 *为什么:* Milady 称 oval（椭圆形）是保守的形状，被认为适合大多数人的手。  
-*Lock this (word-origin):* Oval comes from Latin ovum, "egg." An egg-shaped tip suits almost any hand.  
-*记重点:* oval 来自拉丁语 ovum（蛋）。蛋形的指尖几乎适合任何手。  
+*Lock this (picture):* Oval = the shape of an egg: the tip is fully round. A soft, safe look.  
+*记重点:* oval（椭圆形）= 鸡蛋的形状：指尖完全是圆的。看起来柔和，不容易出错。  
 *Source:* Milady Standard Nail Technology p.158 (PDF 182)
 
 **17. Why are pointed (stiletto) nails usually done as enhancements?**  
@@ -202,8 +202,8 @@ C. Enhancements cost less to maintain / 人工甲维护成本更低
 D. Pointed natural nails stain more easily / 尖形天然指甲更容易染色  
 *Why:* The pointed nail is tapered and longer than usual. It is weaker, breaks more easily, and is harder to maintain, so natural nails rarely succeed in this shape.  
 *为什么:* pointed nail（尖形，又称 stiletto）又尖又长，比较弱、容易断，也难维护，所以天然指甲很少能成功做成这种形状。  
-*Lock this (word-origin):* Stiletto is Italian for a small, thin dagger. A thin tip has little support behind it.  
-*记重点:* stiletto 在意大利语里指细长的小匕首。尖端越细，后面的支撑就越少。  
+*Lock this (picture):* A pointed (stiletto) tip is like a sharp pencil point: very thin, so it snaps easily.  
+*记重点:* pointed（尖形，又称 stiletto）指尖就像削尖的铅笔头：非常细，所以一碰就容易断。  
 *Source:* Milady Standard Nail Technology p.158 (PDF 182)
 
 **18. Which nail shape do most male clients choose?**  
@@ -224,7 +224,7 @@ A. Skip the nail shaping / 省略修甲形
 B. Skip the hand massage / 省略手部按摩  
 C. Leave the cuticles untouched / 完全不处理死皮  
 D. Buff the nails to a high shine / 把指甲抛到高光 ✅  
-*Why:* A man's manicure uses the same steps as the basic manicure. Depending on preference, you may omit colored polish and buff the nails with a high-shine buffer.  
+*Why:* A man's manicure uses the same steps as the basic manicure. Depending on preference, you may skip colored polish and buff the nails with a high-shine buffer.  
 *为什么:* 男士修手（man's manicure）的步骤与基础修手相同。视顾客喜好，可以不上彩色甲油，改用高光抛光块（high-shine buffer）抛亮。  
 *Lock this (real-life):* No polish to apply? Milady says the spare time can go to a longer massage.  
 *记重点:* 不用上甲油、省下了时间？Milady 说可以用来做更长的按摩。  
@@ -238,6 +238,6 @@ C. The nails have not expanded with water / 指甲没有吸水膨胀 ✅
 D. Heated mitts cure the polish / 电热手套能固化甲油  
 *Why:* A waterless manicure softens the skin with lotion and heated mitts instead of soaking. Polish is not applied to nails that absorbed water and expanded, so it lasts longer.  
 *为什么:* waterless manicure（无水修手）不泡水，而是用乳液和电热手套软化皮肤。甲油不会涂在吸水膨胀的指甲上，所以更持久。  
-*Lock this (real-life):* No water needed, so waterless manicures also work where water is unavailable, like mobile spas.  
+*Lock this (real-life):* No water needed, so waterless manicures also work where there is no water, like mobile spas.  
 *记重点:* 不需要水，所以无水修手也适合没有水的地方，例如流动美甲服务（mobile spa）。  
 *Source:* Milady Standard Nail Technology p.165 (PDF 189)

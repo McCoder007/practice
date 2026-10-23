@@ -52,8 +52,8 @@
         "zh": "atom（原子）是物质的基本单位：原子核含有质子和中子，电子绕着它运动。原子结合起来就成了分子（molecule）。"
       },
       "lockPoint": {
-        "en": "Atom comes from Greek atomos, \"uncuttable\": ordinary chemistry can't split it.",
-        "zh": "atom 来自希腊语 atomos“不可切分”：用普通化学方法分不开它。"
+        "en": "An atom is one LEGO brick; a molecule is bricks snapped together. Normal chemistry can't break the brick.",
+        "zh": "atom（原子）像一块乐高积木，molecule（分子）是几块拼在一起的积木。“原”= 最基本：普通化学方法拆不开原子。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -78,7 +78,7 @@
           "quote": "Just as words are made by combining letters, molecules are made by combining atoms."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "comparison"
     },
     {
       "id": "nic-3a-02",
@@ -330,8 +330,8 @@
         "zh": "solute（溶质）是被溶解的物质。solvent（溶剂）负责溶解，这里是丙酮。两者合在一起就成了溶液（solution）。"
       },
       "lockPoint": {
-        "en": "From Latin: solvent means \"dissolving\" (it acts). Solute means \"dissolved\" (it is acted on).",
-        "zh": "拉丁语里 solvent =“正在溶解”（主动），solute =“被溶解的”（被动）。"
+        "en": "Sugar in water: sugar is the solute, water is the solvent. Old polish is the sugar; acetone is the water.",
+        "zh": "糖放进热水里：糖是 solute（溶质，被溶解的），水是 solvent（溶剂，负责溶解的）。旧甲油就是糖，丙酮就是水。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -358,7 +358,7 @@
           "quote": "The solute (SAHL-yoot) is the substance that is dissolved in a solution."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "real-life"
     },
     {
       "id": "nic-3a-06",
@@ -522,7 +522,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "The pH scale is logarithmic. Each whole number is a tenfold change. Going from 7 to 9 is two steps: 10 × 10 = 100 times.",
+        "en": "The pH scale is logarithmic. Each whole number is a 10-times change. Going from 7 to 9 is two steps: 10 × 10 = 100 times.",
         "zh": "pH 标度是对数标度，每差一个整数就是 10 倍。从 7 到 9 差两级：10 × 10 = 100 倍。"
       },
       "lockPoint": {
@@ -644,12 +644,12 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Miscible liquids are mutually soluble, so they mix and stay mixed as a solution. Immiscible liquids, like oil and water, separate when left still.",
+        "en": "Miscible liquids are soluble in each other, so they mix and stay mixed as a solution. Immiscible liquids, like oil and water, separate when left still.",
         "zh": "miscible（可互溶）的液体能互相溶解，混合后保持为溶液。immiscible（不互溶）的液体，例如油和水，静置后会分层。"
       },
       "lockPoint": {
-        "en": "Miscible comes from Latin miscere, \"to mix.\" Im- means not: immiscible won't mix.",
-        "zh": "miscible 来自拉丁语 miscere“混合”；im- = 不：immiscible 就是混不到一起。"
+        "en": "Miscible looks like \"mix\": these liquids mix. Im- means not: immiscible liquids won't mix.",
+        "zh": "miscible（可互溶的）长得像 mix（混合）：能混在一起。im- = 不：immiscible 就是混不到一起，像油和水。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -670,7 +670,7 @@
           "quote": "Immiscible (im-IS-uh-bul) liquids are not capable of being mixed together to form stable solutions. Water and oil are two examples."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "word-link"
     },
     {
       "id": "nic-3a-11",
@@ -958,8 +958,8 @@
         "zh": "oligomer（寡聚物/低聚物）是提前停止增长的单体短链。它能很快连成聚合物，也让 UV 凝胶（UV gel）有黏稠的质地。"
       },
       "lockPoint": {
-        "en": "Oligo = few, as in oligarchy, rule by a few. A few parts make a short chain.",
-        "zh": "oligo = 少（oligarchy = 寡头统治）。中文“寡聚物”的“寡”也是“少”：少数几块连成的短链。"
+        "en": "Oligo = few, mono = one, poly = many. An oligomer sits in the middle: a few parts.",
+        "zh": "oligo = 少。中文“寡聚物”的“寡”也是“少”：少数几块连成的短链，比单体多，比聚合物少。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -1080,7 +1080,7 @@
         "zh": "catalyst（催化剂）能加快化学反应，例如让引发剂更有效。所有加固甲产品都含催化剂，所以它们硬化得快。"
       },
       "lockPoint": {
-        "en": "A car's catalytic converter uses catalysts to speed up reactions that clean the exhaust.",
+        "en": "A car's catalytic converter uses catalysts to speed up reactions that clean the dirty gas from the engine.",
         "zh": "催化剂的“催”= 催促，催着反应快点完成。汽车尾气的“催化转换器”（catalytic converter）也是这个原理。"
       },
       "teachingRelation": "definition",
@@ -1134,11 +1134,11 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Cross-linkers join polymer chains like rungs on a ladder. The net-like structure is strong and flexible, and more resistant to stains, water, and acetone.",
+        "en": "Cross-linkers join polymer chains like steps on a ladder. The net-like structure is strong and flexible, and more resistant to stains, water, and acetone.",
         "zh": "cross-linker（交联剂）像梯子的横档一样把聚合物链连起来。这种网状结构坚固又有弹性，更能抵抗污渍、水和丙酮。"
       },
       "lockPoint": {
-        "en": "Cross-links → acetone can't easily unravel the chains → enhancements soak off slower than wraps or tip adhesive.",
+        "en": "Cross-links → acetone can't easily pull the chains apart → enhancements soak off slower than wraps or tip adhesive.",
         "zh": "有交联 → 丙酮不容易拆开链 → 所以加固甲比包甲（wraps）或贴片胶（tip adhesive）更难泡掉。"
       },
       "teachingRelation": "definition",

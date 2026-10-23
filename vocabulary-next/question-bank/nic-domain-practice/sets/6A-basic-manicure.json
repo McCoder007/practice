@@ -116,7 +116,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Hold the saturated cotton on each nail for about 10 seconds. The remover softens the old polish so it wipes off easily.",
+        "en": "Hold the soaked cotton on each nail for about 10 seconds. The remover softens the old polish so it wipes off easily.",
         "zh": "把浸透卸甲水（polish remover）的棉片按在每个指甲上约 10 秒。卸甲水先软化旧甲油，之后就容易擦掉。"
       },
       "lockPoint": {
@@ -364,7 +364,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "File from one side to the center, then from the other side to the center. Sawing back and forth can disrupt the nail plate layers and cause splitting and peeling.",
+        "en": "File from one side to the center, then from the other side to the center. Sawing back and forth can pull apart the nail plate layers and cause splitting and peeling.",
         "zh": "从一侧锉到中间，再从另一侧锉到中间。来回拉锯会破坏甲板的层次，造成开裂和脱层。"
       },
       "lockPoint": {
@@ -546,8 +546,8 @@
         "zh": "cuticle remover（去死皮液）只涂在甲板上的死皮，不要涂在活皮肤上。它是强碱性的（caustic，高 pH），会让活皮肤干燥或受刺激。"
       },
       "lockPoint": {
-        "en": "Caustic comes from a Greek word meaning \"burning.\" It dissolves dead tissue, so keep it off live skin.",
-        "zh": "caustic 源自希腊语，意思是“灼烧”。它能溶解死组织，所以别让它碰到活皮肤。"
+        "en": "Caustic, like drain cleaner: high pH. It dissolves dead tissue, so it can hurt live skin too.",
+        "zh": "caustic（强碱性）就像管道疏通剂一样，pH 很高。它能溶解死皮，所以也会伤到活皮肤。"
       },
       "teachingRelation": "safety-rule",
       "authorityRefs": [
@@ -574,7 +574,7 @@
           "quote": "Typically, these products have a high pH (caustic) and are irritating to the skin."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "comparison"
     },
     {
       "id": "nic-6a-10",
@@ -674,7 +674,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Clean under the free edge gently. Aggressive cleaning can break the hyponychium seal and cause onycholysis, the nail plate separating from the nail bed.",
+        "en": "Clean under the free edge gently. Rough cleaning can break the hyponychium seal and cause onycholysis, the nail plate separating from the nail bed.",
         "zh": "清洁游离缘下方要轻柔。太用力会破坏 hyponychium（甲下皮）的密封，造成 onycholysis（甲剥离），也就是甲板与甲床分离。"
       },
       "lockPoint": {
@@ -800,7 +800,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Aim to finish a basic manicure, including polishing, in 30 to 45 minutes at most, preferably 30, before you leave school.",
+        "en": "Aim to finish a basic manicure, including polishing, in 30 to 45 minutes at most (30 is best) before you leave school.",
         "zh": "毕业前，要练到基础修手（含上甲油）最多 30 到 45 分钟完成，最好 30 分钟。"
       },
       "lockPoint": {
@@ -978,8 +978,8 @@
         "zh": "Milady 称 oval（椭圆形）是保守的形状，被认为适合大多数人的手。"
       },
       "lockPoint": {
-        "en": "Oval comes from Latin ovum, \"egg.\" An egg-shaped tip suits almost any hand.",
-        "zh": "oval 来自拉丁语 ovum（蛋）。蛋形的指尖几乎适合任何手。"
+        "en": "Oval = the shape of an egg: the tip is fully round. A soft, safe look.",
+        "zh": "oval（椭圆形）= 鸡蛋的形状：指尖完全是圆的。看起来柔和，不容易出错。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -996,7 +996,7 @@
           "quote": "The oval nail (OH-vul NAYL) is a conservative shape thought to be attractive on most hands."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "picture"
     },
     {
       "id": "nic-6a-17",
@@ -1032,8 +1032,8 @@
         "zh": "pointed nail（尖形，又称 stiletto）又尖又长，比较弱、容易断，也难维护，所以天然指甲很少能成功做成这种形状。"
       },
       "lockPoint": {
-        "en": "Stiletto is Italian for a small, thin dagger. A thin tip has little support behind it.",
-        "zh": "stiletto 在意大利语里指细长的小匕首。尖端越细，后面的支撑就越少。"
+        "en": "A pointed (stiletto) tip is like a sharp pencil point: very thin, so it snaps easily.",
+        "zh": "pointed（尖形，又称 stiletto）指尖就像削尖的铅笔头：非常细，所以一碰就容易断。"
       },
       "teachingRelation": "cause-effect",
       "authorityRefs": [
@@ -1054,7 +1054,7 @@
           "quote": "Rarely are natural nails successful with this nail shape, so they are usually enhancements."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "picture"
     },
     {
       "id": "nic-6a-18",
@@ -1148,7 +1148,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "A man's manicure uses the same steps as the basic manicure. Depending on preference, you may omit colored polish and buff the nails with a high-shine buffer.",
+        "en": "A man's manicure uses the same steps as the basic manicure. Depending on preference, you may skip colored polish and buff the nails with a high-shine buffer.",
         "zh": "男士修手（man's manicure）的步骤与基础修手相同。视顾客喜好，可以不上彩色甲油，改用高光抛光块（high-shine buffer）抛亮。"
       },
       "lockPoint": {
@@ -1220,7 +1220,7 @@
         "zh": "waterless manicure（无水修手）不泡水，而是用乳液和电热手套软化皮肤。甲油不会涂在吸水膨胀的指甲上，所以更持久。"
       },
       "lockPoint": {
-        "en": "No water needed, so waterless manicures also work where water is unavailable, like mobile spas.",
+        "en": "No water needed, so waterless manicures also work where there is no water, like mobile spas.",
         "zh": "不需要水，所以无水修手也适合没有水的地方，例如流动美甲服务（mobile spa）。"
       },
       "teachingRelation": "cause-effect",

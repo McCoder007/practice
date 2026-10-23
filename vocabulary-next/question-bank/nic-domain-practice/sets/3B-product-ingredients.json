@@ -52,8 +52,8 @@
         "zh": "VOC 含碳（organic，有机），并且非常容易蒸发（volatile，挥发性）。乙酸乙酯（ethyl acetate）和异丙醇（isopropyl alcohol）就是指甲油、底油、亮油和洗甲水里的 VOC 溶剂。"
       },
       "lockPoint": {
-        "en": "Volatile comes from Latin volare, \"to fly\": the liquid flies off into the air.",
-        "zh": "volatile 来自拉丁语 volare“飞”：液体“飞”进空气里。中文“挥发”也是散到空气中。"
+        "en": "Open a bottle of remover and you smell it right away. Volatile: it jumps into the air fast.",
+        "zh": "volatile（易挥发的）：一打开洗甲水瓶，马上就闻到味道——液体很快“挥发”到空气里了。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -74,7 +74,7 @@
           "quote": "Volatile organic solvents such as ethyl acetate and isopropyl alcohol are used in nail polish, base and top coats, and polish removers."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "real-life"
     },
     {
       "id": "nic-3b-02",
@@ -178,8 +178,8 @@
         "zh": "plasticizers（增塑剂）让指甲油和加固甲产品保持柔韧。紫外线稳定剂保护颜色，色素提供颜色，溶剂蒸发后留下涂膜。"
       },
       "lockPoint": {
-        "en": "Plastic first meant \"able to be molded\" (Greek plastikos): bendable, not stiff.",
-        "zh": "plastic 原义是“可塑的”（希腊语 plastikos）。增塑剂让涂膜能弯、不发脆。"
+        "en": "Plasticizer has \"plastic\" in it: like a soft plastic bag, the film bends instead of cracking.",
+        "zh": "plasticizer（增塑剂）里有 plastic（塑料）：像软塑料袋一样，甲油膜能弯，不容易裂。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -206,7 +206,7 @@
           "quote": "Ingredients used to keep nail enhancement products flexible."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "word-link"
     },
     {
       "id": "nic-3b-04",
@@ -238,7 +238,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "UV stabilizers control color stability and stop sunlight from fading or discoloring the color. Nail enhancement products use them for the same job.",
+        "en": "UV stabilizers control color stability and stop sunlight from fading or changing the color. Nail enhancement products use them for the same job.",
         "zh": "UV stabilizers（紫外线稳定剂）保持颜色稳定，防止阳光让颜色褪色或变色。加固甲产品里也用它做同样的事。"
       },
       "lockPoint": {
@@ -426,11 +426,11 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Milady says MMA is not a carcinogen and is not absorbed into the blood. The problems are poor adhesion, rigid nails, hard removal, and, most important, the FDA's position.",
+        "en": "Milady says MMA is not a carcinogen and is not absorbed into the blood. The problems are poor adhesion, stiff nails, hard removal, and, most important, the FDA's position.",
         "zh": "Milady 指出 MMA 不致癌，也不会被吸收进血液。问题在于附着差、太硬、难卸除，而最重要的原因是 FDA 和州美容委员会不允许使用。"
       },
       "lockPoint": {
-        "en": "Surgeons use MMA as bone repair cement: toxicity isn't why nails can't use it.",
+        "en": "Doctors use MMA as bone repair cement: toxicity isn't why nails can't use it.",
         "zh": "MMA 被用作手术骨水泥：它被禁用于指甲，不是因为毒性。"
       },
       "teachingRelation": "trap",
@@ -494,11 +494,11 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "MMA nails are rigid and difficult to break. The natural nail was thinned to make MMA stick, so it often breaks instead, causing serious nail damage.",
+        "en": "MMA nails are stiff and hard to break. The natural nail was thinned to make MMA stick, so it often breaks instead, causing serious nail damage.",
         "zh": "MMA 指甲又硬又难断。为了让 MMA 粘住，真甲已被磨薄，所以断的往往是真甲，造成严重损伤。"
       },
       "lockPoint": {
-        "en": "MMA won't dissolve in remover, so it's often pried off: even more nail damage.",
+        "en": "MMA won't dissolve in remover, so it's often forced off: even more nail damage.",
         "zh": "MMA 在卸甲液里不溶解，常常只能硬撬下来：对指甲伤害更大。"
       },
       "teachingRelation": "association",
@@ -622,7 +622,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "The idea that primers eat or etch the nail is a myth. One very thin coat is enough for most clients. Needing two or more means nail prep or application has a problem.",
+        "en": "The idea that primers eat or etch the nail is not true. One very thin coat is enough for most clients. Needing two or more means nail prep or application has a problem.",
         "zh": "结合剂会蚀刻或“吃掉”指甲是一种误解。大多数顾客涂一层极薄的就够了。如果需要两层或更多，说明甲面准备或操作有问题。"
       },
       "lockPoint": {
@@ -688,12 +688,12 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Prolonged, repeated skin contact causes these allergies over time. Product vapors do not cause skin allergies. If the product never touches skin, an allergy is extremely unlikely.",
+        "en": "Long, repeated skin contact causes these allergies over time. Product vapors do not cause skin allergies. If the product never touches skin, an allergy is very unlikely.",
         "zh": "长期、反复接触皮肤，久而久之会引起过敏。产品蒸气不会引起皮肤过敏。只要产品从不碰到皮肤，过敏的可能性极低。"
       },
       "lockPoint": {
-        "en": "Allergy: Greek allos, \"other,\" + ergon, \"work\": the body learns a changed reaction.",
-        "zh": "allergy 来自希腊语 allos（另一种）+ ergon（作用）：反复接触后，身体学会了一种“改变了的反应”。"
+        "en": "Skin touch after skin touch → the body slowly becomes allergic → one day, red, itchy skin.",
+        "zh": "allergy（过敏）：皮肤一次又一次碰到产品 → 身体慢慢变得过敏 → 有一天突然红、痒。所以每次都别让产品碰到皮肤。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -714,7 +714,7 @@
           "quote": "If you never bring the product into contact with the skin, it is extremely unlikely that the client will become allergic to the product."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "reason-chain"
     },
     {
       "id": "nic-3b-12",
@@ -746,7 +746,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "The overexposure principle says overexposure (prolonged, repeated, or long-term exposure) determines toxicity. Salt water is very toxic to drink, yet you can safely swim in the ocean.",
+        "en": "The overexposure principle says overexposure (long or repeated exposure) decides toxicity. Salt water is very toxic to drink, yet you can safely swim in the ocean.",
         "zh": "过度接触原则（overexposure principle）认为，决定毒性的是过度接触，即长期、反复或长时间的接触。海水喝下去毒性很大，但在海里游泳却很安全。"
       },
       "lockPoint": {
@@ -1022,12 +1022,12 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Glycerin is a sweet, colorless, oily substance used as a solvent and moisturizer in skin and body creams. Cuticle removers add it to counteract their skin-drying effects.",
+        "en": "Glycerin is a sweet, colorless, oily substance used as a solvent and moisturizer in skin and body creams. Cuticle removers add it so they dry the skin less.",
         "zh": "glycerin（甘油）是一种带甜味、无色、油状的物质，在护肤霜和身体霜中用作溶剂和保湿剂。死皮软化剂（cuticle remover）里也会加甘油，用来抵消死皮软化剂本身让皮肤变干的作用。"
       },
       "lockPoint": {
-        "en": "Glycerin comes from Greek glykeros, \"sweet.\" Chinese 甘油 says it too: 甘 means sweet.",
-        "zh": "glycerin 来自希腊语 glykeros“甜”；中文“甘油”的“甘”也是甜（甘甜）。"
+        "en": "Glycerin = 甘油: 甘 = sweet, 油 = oily. The Chinese name gives you two answer clues.",
+        "zh": "glycerin（甘油）：甘 = 甜，油 = 油油的（像油，但不是油）。名字里就有两个线索：甜甜的、油油的保湿成分。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -1054,7 +1054,7 @@
           "quote": "plus glycerin or other moisturizing ingredients to counteract their skin-drying effects"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "chinese-character"
     },
     {
       "id": "nic-3b-17",
@@ -1090,8 +1090,8 @@
         "zh": "死皮软化剂 pH 高（caustic，腐蚀性），刺激皮肤。它们用来溶解甲板上的死组织，所以不要碰到甲上皮（eponychium）的活皮肤。"
       },
       "lockPoint": {
-        "en": "Sodium hydroxide is lye, the same strong alkali found in drain cleaners.",
-        "zh": "氢氧化钠就是烧碱（lye），通下水道的疏通剂里也有它。"
+        "en": "Sodium hydroxide is the same strong alkali found in drain cleaners.",
+        "zh": "氢氧化钠（烧碱）就是通下水道的疏通剂里那种强碱。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -1164,7 +1164,7 @@
         "zh": "methylene glycol（甲二醇）在真甲的角蛋白（keratin）链之间搭“桥”，也就是交联，让甲板更硬，更不易弯折和断裂。"
       },
       "lockPoint": {
-        "en": "Never use it on already brittle nails → too rigid → they may split and shatter.",
+        "en": "Never use it on already brittle nails → too stiff → they may split and break.",
         "zh": "已经很脆的指甲绝不能用 → 会过硬 → 可能裂开甚至碎掉。"
       },
       "teachingRelation": "definition",

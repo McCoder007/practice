@@ -10,8 +10,8 @@ C. a compound. / 化合物（compound）。
 D. an element. / 元素（element）。  
 *Why:* Atoms are the basic unit of matter. The nucleus holds protons and neutrons, with electrons moving around it. Atoms combine to make molecules.  
 *为什么:* atom（原子）是物质的基本单位：原子核含有质子和中子，电子绕着它运动。原子结合起来就成了分子（molecule）。  
-*Lock this (word-origin):* Atom comes from Greek atomos, "uncuttable": ordinary chemistry can't split it.  
-*记重点:* atom 来自希腊语 atomos“不可切分”：用普通化学方法分不开它。  
+*Lock this (comparison):* An atom is one LEGO brick; a molecule is bricks snapped together. Normal chemistry can't break the brick.  
+*记重点:* atom（原子）像一块乐高积木，molecule（分子）是几块拼在一起的积木。“原”= 最基本：普通化学方法拆不开原子。  
 *Source:* Milady Standard Foundations p.155 (PDF 650)
 
 **2. Oxygen, gold, and aluminum are examples of**  
@@ -58,8 +58,8 @@ C. emulsifier. / 乳化剂（emulsifier）。
 D. catalyst. / 催化剂（catalyst）。  
 *Why:* The solute is the substance that gets dissolved. The solvent, here acetone, does the dissolving. Together they make a solution.  
 *为什么:* solute（溶质）是被溶解的物质。solvent（溶剂）负责溶解，这里是丙酮。两者合在一起就成了溶液（solution）。  
-*Lock this (word-origin):* From Latin: solvent means "dissolving" (it acts). Solute means "dissolved" (it is acted on).  
-*记重点:* 拉丁语里 solvent =“正在溶解”（主动），solute =“被溶解的”（被动）。  
+*Lock this (real-life):* Sugar in water: sugar is the solute, water is the solvent. Old polish is the sugar; acetone is the water.  
+*记重点:* 糖放进热水里：糖是 solute（溶质，被溶解的），水是 solvent（溶剂，负责溶解的）。旧甲油就是糖，丙酮就是水。  
 *Source:* Milady Standard Nail Technology p.127 (PDF 151), Milady Standard Foundations p.159 (PDF 654)
 
 **6. Nail polish with glitter that separates over time is**  
@@ -92,7 +92,7 @@ A. 2 times / 2 倍
 B. 10 times / 10 倍  
 C. 20 times / 20 倍  
 D. 100 times / 100 倍 ✅  
-*Why:* The pH scale is logarithmic. Each whole number is a tenfold change. Going from 7 to 9 is two steps: 10 × 10 = 100 times.  
+*Why:* The pH scale is logarithmic. Each whole number is a 10-times change. Going from 7 to 9 is two steps: 10 × 10 = 100 times.  
 *为什么:* pH 标度是对数标度，每差一个整数就是 10 倍。从 7 到 9 差两级：10 × 10 = 100 倍。  
 *Lock this (comparison):* Like adding zeros to money: $10, $100, $1,000. Each pH step adds a zero.  
 *记重点:* 就像钱后面加零：10、100、1000。pH 每差 1，就多一个零。  
@@ -116,10 +116,10 @@ A. immiscible. / 不互溶的（immiscible）。
 B. insoluble. / 不溶的（insoluble）。  
 C. emulsified. / 乳化的（emulsified）。  
 D. miscible. / 可互溶的（miscible）。 ✅  
-*Why:* Miscible liquids are mutually soluble, so they mix and stay mixed as a solution. Immiscible liquids, like oil and water, separate when left still.  
+*Why:* Miscible liquids are soluble in each other, so they mix and stay mixed as a solution. Immiscible liquids, like oil and water, separate when left still.  
 *为什么:* miscible（可互溶）的液体能互相溶解，混合后保持为溶液。immiscible（不互溶）的液体，例如油和水，静置后会分层。  
-*Lock this (word-origin):* Miscible comes from Latin miscere, "to mix." Im- means not: immiscible won't mix.  
-*记重点:* miscible 来自拉丁语 miscere“混合”；im- = 不：immiscible 就是混不到一起。  
+*Lock this (word-link):* Miscible looks like "mix": these liquids mix. Im- means not: immiscible liquids won't mix.  
+*记重点:* miscible（可互溶的）长得像 mix（混合）：能混在一起。im- = 不：immiscible 就是混不到一起，像油和水。  
 *Source:* Milady Standard Foundations p.160 (PDF 655)
 
 **11. When oxygen chemically combines with a substance, the substance is**  
@@ -178,8 +178,8 @@ C. a photoinitiator. / 光引发剂（photoinitiator）。
 D. an oligomer. / 寡聚物/低聚物（oligomer）。 ✅  
 *Why:* An oligomer is a short chain of monomers that stopped growing early. Oligomers join quickly into polymers and give UV gels their sticky consistency.  
 *为什么:* oligomer（寡聚物/低聚物）是提前停止增长的单体短链。它能很快连成聚合物，也让 UV 凝胶（UV gel）有黏稠的质地。  
-*Lock this (word-parts):* Oligo = few, as in oligarchy, rule by a few. A few parts make a short chain.  
-*记重点:* oligo = 少（oligarchy = 寡头统治）。中文“寡聚物”的“寡”也是“少”：少数几块连成的短链。  
+*Lock this (word-parts):* Oligo = few, mono = one, poly = many. An oligomer sits in the middle: a few parts.  
+*记重点:* oligo = 少。中文“寡聚物”的“寡”也是“少”：少数几块连成的短链，比单体多，比聚合物少。  
 *Source:* Milady Standard Nail Technology p.123 (PDF 147)
 
 **16. Which ingredient starts polymerization by energizing monomers?**  
@@ -202,7 +202,7 @@ C. primer. / 结合剂（primer）。
 D. catalyst. / 催化剂（catalyst）。 ✅  
 *Why:* A catalyst speeds up a chemical reaction, for example by helping initiators work better. Catalysts are in every type of nail enhancement product, which is why they harden quickly.  
 *为什么:* catalyst（催化剂）能加快化学反应，例如让引发剂更有效。所有加固甲产品都含催化剂，所以它们硬化得快。  
-*Lock this (real-life):* A car's catalytic converter uses catalysts to speed up reactions that clean the exhaust.  
+*Lock this (real-life):* A car's catalytic converter uses catalysts to speed up reactions that clean the dirty gas from the engine.  
 *记重点:* 催化剂的“催”= 催促，催着反应快点完成。汽车尾气的“催化转换器”（catalytic converter）也是这个原理。  
 *Source:* Milady Standard Nail Technology p.123 (PDF 147)
 
@@ -212,9 +212,9 @@ A. a cross-linker. / 交联剂（cross-linker）。 ✅
 B. an oligomer. / 寡聚物（oligomer）。  
 C. a photoinitiator. / 光引发剂（photoinitiator）。  
 D. a plasticizer. / 增塑剂（plasticizer）。  
-*Why:* Cross-linkers join polymer chains like rungs on a ladder. The net-like structure is strong and flexible, and more resistant to stains, water, and acetone.  
+*Why:* Cross-linkers join polymer chains like steps on a ladder. The net-like structure is strong and flexible, and more resistant to stains, water, and acetone.  
 *为什么:* cross-linker（交联剂）像梯子的横档一样把聚合物链连起来。这种网状结构坚固又有弹性，更能抵抗污渍、水和丙酮。  
-*Lock this (reason-chain):* Cross-links → acetone can't easily unravel the chains → enhancements soak off slower than wraps or tip adhesive.  
+*Lock this (reason-chain):* Cross-links → acetone can't easily pull the chains apart → enhancements soak off slower than wraps or tip adhesive.  
 *记重点:* 有交联 → 丙酮不容易拆开链 → 所以加固甲比包甲（wraps）或贴片胶（tip adhesive）更难泡掉。  
 *Source:* Milady Standard Nail Technology p.124 (PDF 148)
 

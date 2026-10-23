@@ -296,7 +296,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Store chemicals in their original containers in a designated, locked place. Never combine similar chemicals or leave them sitting out, even in the dispensary.",
+        "en": "Store chemicals in their original containers in a locked place set aside for them. Never combine similar chemicals or leave them sitting out, even in the mixing area.",
         "zh": "化学品要放在原装容器里，存放在指定的、上锁的地方。即使相似的化学品也不能混放；化学品不能摆在外面，配料区也不例外。"
       },
       "lockPoint": {
@@ -426,7 +426,7 @@
         "zh": "除非标签说可以，否则漂白水绝不能和其他清洁产品混合。连醋加漂白水都会产生氯气，所以漂白水要和其他化学品分开存放。"
       },
       "lockPoint": {
-        "en": "Bleach + an acid like vinegar → chlorine gas → Milady warns the vapors can be fatal.",
+        "en": "Bleach + an acid like vinegar → chlorine gas → Milady warns the vapors can kill.",
         "zh": "漂白水 + 醋这类酸 → 氯气 → Milady 警告这种气体可能致命。"
       },
       "teachingRelation": "association",
@@ -490,7 +490,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Flammable liquids ignite more easily than combustible ones. A flammable liquid’s flash point is below 100°F; a combustible liquid’s is between 100°F and 200°F.",
+        "en": "Flammable liquids catch fire more easily than combustible ones. A flammable liquid’s flash point is below 100°F; a combustible liquid’s is between 100°F and 200°F.",
         "zh": "flammable（易燃）液体比 combustible（可燃）液体更容易着火。易燃液体闪点低于 100°F；可燃液体闪点在 100°F 到 200°F 之间。"
       },
       "lockPoint": {
@@ -736,7 +736,7 @@
         "zh": "contact dermatitis（接触性皮炎）是皮肤接触某种物质后发炎。物质刺激皮肤，就是 irritant contact dermatitis（刺激性接触性皮炎）；皮肤对它过敏，就是 allergic contact dermatitis（过敏性接触性皮炎）。"
       },
       "lockPoint": {
-        "en": "Derma = skin, -itis = inflammation. Contact dermatitis is the most common avoidable skin disease for nail techs.",
+        "en": "Derma = skin, -itis = inflammation. Contact dermatitis: the most common skin disease nail techs can prevent.",
         "zh": "derma = 皮肤，-itis = 发炎。contact dermatitis（接触性皮炎）是美甲师最常见的、可以避免的皮肤病。"
       },
       "teachingRelation": "contrast",
@@ -804,7 +804,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Sensitization is a greatly increased or exaggerated allergic sensitivity to products. With each skin exposure during a service, the risk of sensitization rises.",
+        "en": "Sensitization is a greatly increased allergic sensitivity to products. With each skin exposure during a service, the risk of sensitization rises.",
         "zh": "sensitization（致敏）是对产品的过敏反应大大增强。服务中皮肤每接触一次，致敏风险就更高一些。"
       },
       "lockPoint": {
@@ -946,7 +946,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Keep your feet shoulder-width apart, bend at the knees, keep the load close, and lift with your legs. Do not twist or make fast, jerky moves.",
+        "en": "Keep your feet shoulder-width apart, bend at the knees, keep the load close, and lift with your legs. Do not twist or make fast, sudden moves.",
         "zh": "双脚与肩同宽，弯曲膝盖，让重物贴近身体，用腿部发力抬起。不要扭身，也不要猛地发力。"
       },
       "lockPoint": {
@@ -1012,7 +1012,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Gloves limit chemical contact, but wash and thoroughly dry your hands after you take them off. Then use lotion or cream to restore moisture. Avoid harsh soaps and constant hand sanitizer.",
+        "en": "Gloves limit chemical contact, but wash and thoroughly dry your hands after you take them off. Then use lotion or cream to put moisture back. Avoid harsh soaps and using hand sanitizer all the time.",
         "zh": "手套能减少接触化学品，但摘下后要洗手并彻底擦干，再涂乳液或护手霜补充水分。避免用刺激性强的肥皂，也不要频繁使用免洗洗手液。"
       },
       "lockPoint": {
@@ -1084,7 +1084,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Avoid latex, because latex allergies are increasingly common. Petroleum-based gloves break down when they touch petroleum products. Nitrile gloves avoid both problems.",
+        "en": "Avoid latex, because latex allergies are more and more common. Petroleum-based gloves break down when they touch petroleum products. Nitrile gloves avoid both problems.",
         "zh": "要避免乳胶手套，因为对乳胶过敏的人越来越多。石油基手套碰到含石油的产品会分解。nitrile（丁腈）手套这两个问题都没有。"
       },
       "lockPoint": {
@@ -1224,8 +1224,8 @@
         "zh": "ergonomics（人体工学）就是让身体在工作中动得舒适、安全。请客人把手伸过桌子给你，保持背部、颈部和手腕挺直。"
       },
       "lockPoint": {
-        "en": "Ergonomics comes from Greek ergon, “work,” and nomos, “law”: the rules for working without injury.",
-        "zh": "ergonomics 来自希腊语：ergon = 工作，nomos = 法则。就是不受伤地工作的法则。"
+        "en": "Reach across → bend forward → back and neck hurt over time. Ergonomics: let the hand come to you.",
+        "zh": "ergonomics（人体工学）：伸手够 → 身体前弯 → 时间久了腰背、脖子都痛。让客人把手伸过来，你的背保持挺直。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -1256,7 +1256,7 @@
           "quote": "is the science of designing the workplace as well as its equipment and tools to make specific body movements more comfortable, efficient, and safe."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "reason-chain"
     },
     {
       "id": "nic-1c-20",
@@ -1288,7 +1288,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Place fire extinguishers where they are easy to reach, teach every employee to use them, and have them checked periodically, as the law requires.",
+        "en": "Place fire extinguishers where they are easy to reach, teach every employee to use them, and have them checked regularly, as the law requires.",
         "zh": "灭火器要放在容易拿到的地方，每个员工都要学会使用，还要按法律规定定期检查。"
       },
       "lockPoint": {
