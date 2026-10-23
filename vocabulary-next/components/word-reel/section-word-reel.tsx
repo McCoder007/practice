@@ -511,7 +511,7 @@ export function SectionWordReel({
               <ChevronLeft className="size-6" aria-hidden />
             </Link>
             <h1 className="min-w-0 text-center text-base leading-tight font-semibold text-white" title={title.en}>
-              <span className="line-clamp-1">{title.en}</span>
+              <span className="line-clamp-2">{title.en}</span>
               <span className="line-clamp-1 text-sm font-medium text-white/70">{japanese ? title.ja || title.zh : title.zh}</span>
             </h1>
             <button
