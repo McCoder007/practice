@@ -46,8 +46,8 @@ C. Penetrating nail oil / 渗透型指甲营养油（nail oil） ✅
 D. Nail bleach / 指甲漂白剂  
 *Why:* Nail creams, lotions, and oils soften dry skin and make natural nails more flexible. Milady says they are especially effective on brittle or dry nails.  
 *为什么:* 指甲护理霜、乳液和营养油能软化干燥的皮肤，让天然指甲更有柔韧性。Milady 说它们对脆弱（brittle）或干燥的指甲特别有效。  
-*Lock this (contrast):* Brittle = too stiff. Oil adds bend; a methylene glycol hardener adds stiffness and can make brittle nails shatter.  
-*记重点:* brittle = 太硬太脆。营养油增加柔韧；含甲二醇（methylene glycol）的硬甲剂只会更硬，可能让脆甲碎裂。  
+*Lock this (contrast):* Brittle = hard and breaks easily. Oil helps the nail bend. Some hardeners make it harder, so it breaks more.  
+*记重点:* brittle = 又硬又脆、容易断。营养油让指甲能弯；有些硬甲剂（如含 methylene glycol 的）会让它更硬，更容易裂。  
 *Source:* Milady Standard Nail Technology p.150 (PDF 174), Milady Standard Nail Technology p.153 (PDF 177)
 
 **5. Why are nails filed before they are soaked?**  
@@ -70,8 +70,8 @@ C. From the center out to each side / 从中间往两侧锉
 D. In small circles on the free edge / 在游离缘上小圈打转  
 *Why:* File from one side to the center, then from the other side to the center. Sawing back and forth can disrupt the nail plate layers and cause splitting and peeling.  
 *为什么:* 从一侧锉到中间，再从另一侧锉到中间。来回拉锯会破坏甲板的层次，造成开裂和脱层。  
-*Lock this (comparison):* The nail plate is built in layers, like plywood. Sawing pulls those layers apart.  
-*记重点:* 甲板像胶合板一样一层层叠起来。拉锯式锉法会把层与层扯开。  
+*Lock this (comparison):* The nail plate is made of layers, like a stack of paper. Sawing pulls the layers apart.  
+*记重点:* 甲板像一叠纸一样一层层叠起来。来回拉锯式地锉，会把层与层扯开。  
 *Source:* Milady Standard Nail Technology p.177 (PDF 201)
 
 **7. Nail bleach in a manicure works best on**  
@@ -106,8 +106,8 @@ C. On the palm of the hand / 手掌
 D. Under the free edge only / 只涂在游离缘下面  
 *Why:* Cuticle remover goes on the nail plate, not living skin. It is caustic (high pH) and can cause dryness or irritation on live skin.  
 *为什么:* cuticle remover（去死皮液）只涂在甲板上的死皮，不要涂在活皮肤上。它是强碱性的（caustic，高 pH），会让活皮肤干燥或受刺激。  
-*Lock this (word-origin):* Caustic comes from a Greek word meaning "burning." It dissolves dead tissue, so keep it off live skin.  
-*记重点:* caustic 源自希腊语，意思是“灼烧”。它能溶解死组织，所以别让它碰到活皮肤。  
+*Lock this (chinese-character):* Its Chinese name means "remove dead skin" liquid. Live skin is not its job.  
+*记重点:* 名字已经告诉你：去“死”皮液，只对付甲板上的死皮。活皮肤不是它的目标。  
 *Source:* Milady Standard Nail Technology p.178 (PDF 202), Milady Standard Nail Technology p.151 (PDF 175)
 
 **10. After cuticle work on both hands, why does the client wash at the sink?**  
@@ -154,8 +154,8 @@ C. 60 to 90 minutes / 60 到 90 分钟
 D. About 2 hours / 大约 2 小时  
 *Why:* Aim to finish a basic manicure, including polishing, in 30 to 45 minutes at most, preferably 30, before you leave school.  
 *为什么:* 毕业前，要练到基础修手（含上甲油）最多 30 到 45 分钟完成，最好 30 分钟。  
-*Lock this (real-life):* Milady's reason: a tech who works this fast is more attractive to employers as a new hire.  
-*记重点:* Milady 的理由：能做到这个速度的新人，更受雇主青睐。  
+*Lock this (real-life):* Milady's reason: salons like to hire new techs who can work this fast.  
+*记重点:* Milady 的理由：沙龙更愿意雇用能做得这么快的新人。  
 *Source:* Milady Standard Nail Technology p.155 (PDF 179)
 
 **14. A client with altered vision needs help choosing a color. What should you do?**  
@@ -166,8 +166,8 @@ C. Suggest clear polish only / 只建议透明甲油
 D. List every shade you carry / 把店里所有色号念一遍  
 *Why:* Be clear and describe each color with examples. Milady suggests asking how the client wants to be seen instead of listing ten shades of red.  
 *为什么:* 说清楚，并举例描述每种颜色。Milady 建议问顾客想给人什么样的感觉，而不是列出十种红色让顾客挑。  
-*Lock this (real-life):* Milady: "A bright red that stands out in a crowd, or a subtle red?" Describe the effect, not shade names.  
-*记重点:* Milady 的例子：“要在人群中很显眼的亮红色，还是低调的红色？”描述效果，而不是报色号名字。  
+*Lock this (real-life):* Milady's idea: ask "A bright red everyone notices, or a quiet red?" Talk about the look, not color names.  
+*记重点:* Milady 的例子：问“要人人都注意到的亮红色，还是低调的红色？”讲效果，不报色号名字。  
 *Source:* Milady Standard Nail Technology p.169 (PDF 193)
 
 **15. Which nail shape has a square free edge with rounded corners?**  
@@ -190,8 +190,8 @@ C. Oval / 椭圆形（oval） ✅
 D. Squoval / 方圆形（squoval）  
 *Why:* Milady calls the oval nail a conservative shape thought to be attractive on most hands.  
 *为什么:* Milady 称 oval（椭圆形）是保守的形状，被认为适合大多数人的手。  
-*Lock this (word-origin):* Oval comes from Latin ovum, "egg." An egg-shaped tip suits almost any hand.  
-*记重点:* oval 来自拉丁语 ovum（蛋）。蛋形的指尖几乎适合任何手。  
+*Lock this (picture):* Oval = egg shape: like squoval, but even rounder corners. Not too sharp, not too square: safe for most hands.  
+*记重点:* oval = 鸡蛋形：像方圆形（squoval），但角更圆。不尖也不方，是适合大多数手的稳妥形状。  
 *Source:* Milady Standard Nail Technology p.158 (PDF 182)
 
 **17. Why are pointed (stiletto) nails usually done as enhancements?**  
@@ -202,8 +202,8 @@ C. Enhancements cost less to maintain / 人工甲维护成本更低
 D. Pointed natural nails stain more easily / 尖形天然指甲更容易染色  
 *Why:* The pointed nail is tapered and longer than usual. It is weaker, breaks more easily, and is harder to maintain, so natural nails rarely succeed in this shape.  
 *为什么:* pointed nail（尖形，又称 stiletto）又尖又长，比较弱、容易断，也难维护，所以天然指甲很少能成功做成这种形状。  
-*Lock this (word-origin):* Stiletto is Italian for a small, thin dagger. A thin tip has little support behind it.  
-*记重点:* stiletto 在意大利语里指细长的小匕首。尖端越细，后面的支撑就越少。  
+*Lock this (picture):* Think of a sharp pencil tip: long and thin, it snaps easily. A thin nail tip has little support.  
+*记重点:* 想想削尖的铅笔芯：又细又长，一碰就断。尖形（stiletto）指尖越细，后面的支撑就越少。  
 *Source:* Milady Standard Nail Technology p.158 (PDF 182)
 
 **18. Which nail shape do most male clients choose?**  
@@ -238,6 +238,6 @@ C. The nails have not expanded with water / 指甲没有吸水膨胀 ✅
 D. Heated mitts cure the polish / 电热手套能固化甲油  
 *Why:* A waterless manicure softens the skin with lotion and heated mitts instead of soaking. Polish is not applied to nails that absorbed water and expanded, so it lasts longer.  
 *为什么:* waterless manicure（无水修手）不泡水，而是用乳液和电热手套软化皮肤。甲油不会涂在吸水膨胀的指甲上，所以更持久。  
-*Lock this (real-life):* No water needed, so waterless manicures also work where water is unavailable, like mobile spas.  
-*记重点:* 不需要水，所以无水修手也适合没有水的地方，例如流动美甲服务（mobile spa）。  
+*Lock this (picture):* A wet sponge is bigger than a dry one. Nails also soak up water and swell.  
+*记重点:* 湿海绵比干海绵大。指甲泡了水也一样，会吸水膨胀。  
 *Source:* Milady Standard Nail Technology p.165 (PDF 189)

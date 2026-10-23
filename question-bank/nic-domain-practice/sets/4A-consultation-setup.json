@@ -228,8 +228,8 @@
         "zh": "登记表是法律文件，必须保密。纸质表格要锁在防火柜里，电子表格要用防火墙和密码保护。"
       },
       "lockPoint": {
-        "en": "Leaking a client's form can bring legal trouble, just like leaking a patient's medical chart.",
-        "zh": "泄露顾客登记表可能惹上官司，就像泄露病人的病历一样。"
+        "en": "Lock it up, like a doctor's files about patients. Sharing a client's form can bring legal trouble.",
+        "zh": "像医生锁好病人的病历一样锁好。泄露顾客登记表可能惹上官司。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -412,8 +412,8 @@
         "zh": "reflective listening（反映式倾听）是先听，再用自己的话复述你理解的顾客意思。不要打断，并请顾客确认你理解得对。"
       },
       "lockPoint": {
-        "en": "Reflect comes from Latin reflectere, \"bend back\": you send the client's words back, like a mirror.",
-        "zh": "reflect 来自拉丁语 reflectere“折回”：像镜子一样，把顾客的话“照”回去，请顾客确认。"
+        "en": "Reflect, like a mirror: the client's words come back to them. \"So you want short, round nails?\"",
+        "zh": "reflect = 反射，像镜子一样把顾客的话照回去：“您是想要短的圆形指甲，对吗？”再请顾客确认。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -434,7 +434,7 @@
           "quote": "Then ask for confirmation to make certain you understand what the client wants or needs."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "picture"
     },
     {
       "id": "nic-4a-08",
@@ -470,8 +470,8 @@
         "zh": "美甲师的执照只允许做美容服务，不能诊断、治疗或开处方。你可以告诉顾客你看到了可能不健康的情况，并建议顾客就医。"
       },
       "lockPoint": {
-        "en": "Diagnose: Greek dia, \"apart,\" + gnosis, \"knowing\": telling one disease apart from another.",
-        "zh": "diagnose 来自希腊语 dia（分开）+ gnosis（认识）：分辨是哪一种病，这是医生的工作。"
+        "en": "Naming the disease is a doctor's job. You can say, \"Please show this to a doctor.\"",
+        "zh": "diagnose（诊断）= 说出是什么病，这是医生的工作。你可以说：“请给医生看看。”这叫 refer（转介）。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -502,7 +502,7 @@
           "quote": "You can tell them that you have observed what may be an unhealthy condition and refer them to a physician."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "real-life"
     },
     {
       "id": "nic-4a-09",
@@ -782,8 +782,8 @@
         "zh": "对这类顾客来说，一个小破口就可能需要就医。不要用锋利工具，也不要剪死皮。改用刮匙轻轻去除死组织，并用细砂锉。"
       },
       "lockPoint": {
-        "en": "Thin skin and poor clotting often come with aging, blood thinners, or chemo: check the intake form first.",
-        "zh": "皮肤薄、凝血差常见于老人、服抗凝血药或做化疗的顾客：先看登记表再选工具。"
+        "en": "Thin skin is like wet paper: one small snip tears it, and the cut may not stop bleeding.",
+        "zh": "薄皮肤像湿纸：轻轻一剪就破，而且凝血差，出血可能止不住。所以别剪死皮。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -804,7 +804,7 @@
           "quote": "Do not nip the cuticles. It is better to use a curette to gently remove nonliving tissue from the nail plate."
         }
       ],
-      "hookType": "real-life"
+      "hookType": "picture"
     },
     {
       "id": "nic-4a-14",

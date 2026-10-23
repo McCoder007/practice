@@ -62,7 +62,7 @@
         "zh": "在咨询时讨论顾客的健康状况。Milady 说要保守：拿不准时，就不要做按摩，并鼓励顾客先咨询医生。"
       },
       "lockPoint": {
-        "en": "Stable, treated high blood pressure or diabetes is often fine. Severe, uncontrolled hypertension rules out hand and arm massage.",
+        "en": "Steady, treated high blood pressure or diabetes: often OK. Very high, out-of-control blood pressure: no massage.",
         "zh": "病情稳定、正在治疗的高血压或糖尿病通常可以按摩；严重且未控制的高血压则不能做手部和手臂按摩。"
       },
       "teachingRelation": "safety-rule",
@@ -134,8 +134,8 @@
         "zh": "effleurage（轻抚法）是双手以不同力度或接触程度在身体某部位滑动的一连串手法，能让顾客放松。"
       },
       "lockPoint": {
-        "en": "From French effleurer, \"to touch lightly\": the hands skim over the skin.",
-        "zh": "源自法语 effleurer，意思是“轻轻触碰”：双手轻轻掠过皮肤。"
+        "en": "Effleurage = gliding strokes, like smoothing a bed sheet with your hand. Slide, don't tap or squeeze.",
+        "zh": "effleurage（轻抚法）= 滑动的手法，就像用手抚平床单。是滑，不是拍，也不是捏。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -156,7 +156,7 @@
           "quote": "This is a relaxing movement for your client."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "picture"
     },
     {
       "id": "nic-6b-03",
@@ -192,8 +192,8 @@
         "zh": "pétrissage（揉捏法），也叫 kneading，是提起、挤压并按压组织。它让肌肉在骨头上移动，促进血液流动。"
       },
       "lockPoint": {
-        "en": "From French pétrir, \"to knead,\" as a baker kneads bread dough.",
-        "zh": "源自法语 pétrir，意思是“揉面”，就像面包师揉面团。"
+        "en": "Pétrissage = kneading. Picture your hands lifting and squeezing bread dough.",
+        "zh": "pétrissage（揉捏法）就是揉：想象双手揉面团，抓起、挤压、再按下。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -220,7 +220,7 @@
           "quote": "Kneading (pétrissage) is a squeezing motion that moves flesh and muscles over the bones beneath in opposite directions, stimulating and increasing blood flow."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "picture"
     },
     {
       "id": "nic-6b-04",
@@ -256,8 +256,8 @@
         "zh": "tapotement（叩击法）是双手快速拍打或敲击皮肤。"
       },
       "lockPoint": {
-        "en": "From French tapoter, \"to tap\" or pat lightly. Picture fingertips drumming on a table.",
-        "zh": "源自法语 tapoter，意思是“轻拍、轻敲”。想象手指在桌上轻敲打拍子。"
+        "en": "Tapotement starts with \"tap.\" Picture fingertips drumming quickly on a table.",
+        "zh": "tapotement（叩击法）开头就是英文 tap（轻敲）。想象手指在桌上快速轻敲。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -274,7 +274,7 @@
           "quote": "Tapotement (tah-POTE-ment) is a rapid tapping or striking motion of the hands against the skin."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "word-link"
     },
     {
       "id": "nic-6b-05",
@@ -364,8 +364,8 @@
         "zh": "friction（摩擦法）是让一层组织压在另一层上移动。双手环住手臂，轻轻朝相反方向扭转，就像拧毛巾。"
       },
       "lockPoint": {
-        "en": "Friction comes from Latin fricare, \"to rub\": one layer of tissue rubs against another.",
-        "zh": "friction 来自拉丁语 fricare，意思是“摩擦”：一层组织在另一层上摩擦。"
+        "en": "Rub your palms together fast and feel the heat. That is friction: one layer rubbing over another.",
+        "zh": "双手快速对搓，会感觉发热，这就是摩擦（friction）：一层在另一层上搓动。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -396,7 +396,7 @@
           "quote": "gently twist in opposite directions, as you would wring out a washcloth, from the wrist to the elbow"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-6b-07",
@@ -494,7 +494,7 @@
         "zh": "全身按摩可以是放松或治疗，但修手修脚中的按摩纯粹是为了放松。美甲师没有做深层运动按摩的执照。"
       },
       "lockPoint": {
-        "en": "Client surveys rank massage as the most enjoyed part of any nail service. Relaxation brings them back.",
+        "en": "Salons asked clients: massage is the part of a nail service they enjoy most. Relaxing brings them back.",
         "zh": "顾客调查显示，按摩是所有美甲服务中最受欢迎的部分。放松的感觉让顾客回头。"
       },
       "teachingRelation": "function",
@@ -746,8 +746,8 @@
         "zh": "关节炎顾客要避免剧烈或用力的按摩。不要按压或活动疼痛的关节，改用轻柔的力度涂抹乳液。"
       },
       "lockPoint": {
-        "en": "Arthr = joint, itis = inflammation. Inflamed joints need a gentle glide, not force.",
-        "zh": "arthr = 关节，itis = 发炎。发炎的关节只能轻轻滑过，不能用力。"
+        "en": "Arthr = joint, itis = swelling. Swollen, sore joints need gentle strokes, not force.",
+        "zh": "arthr = 关节，itis = 发炎肿胀。肿痛的关节只能轻柔地按，不能用力。"
       },
       "teachingRelation": "safety-rule",
       "authorityRefs": [
@@ -814,8 +814,8 @@
         "zh": "按摩时不要说话，只问一次手法要重一点还是轻一点。说话会破坏放松的效果。"
       },
       "lockPoint": {
-        "en": "Save product advice for polishing time, Milady's suggestion for clients who want to drift off.",
-        "zh": "推荐产品留到上甲油的时候再说，这是 Milady 对想放松打盹的顾客的建议。"
+        "en": "Some clients just want to rest quietly. Milady: talk about products later, while you polish.",
+        "zh": "有些顾客只想安静休息。Milady 建议：产品推荐留到上甲油时再说。"
       },
       "teachingRelation": "action",
       "authorityRefs": [
@@ -1138,8 +1138,8 @@
         "zh": "一只手压住脚背，另一只手握拳在足弓（instep）上扭转，这是摩擦法。Milady 说修脚时只在脚底用摩擦法。"
       },
       "lockPoint": {
-        "en": "Hand massage uses friction in more places: wrist circles, thumb circles up the arm, and elbow rotation.",
-        "zh": "手部按摩用摩擦法的地方更多：手腕画圈、拇指沿手臂画圈、转手肘。"
+        "en": "Hand massage uses friction in more places: wrist circles, thumb circles up the arm, and circles over the elbow.",
+        "zh": "手部按摩用摩擦法的地方更多：手腕画圈、拇指沿手臂画圈、手掌在手肘上画圈。"
       },
       "teachingRelation": "location",
       "authorityRefs": [
@@ -1280,8 +1280,8 @@
         "zh": "Milady 说按摩压力通常从 insertion（止点，活动较多的一端）推向 origin（起点，固定不动的一端），并朝向肌腹（belly，肌肉中间部分）。"
       },
       "lockPoint": {
-        "en": "Origin means \"beginning\": press from the moving end back toward where the muscle begins.",
-        "zh": "origin 的意思是“起源、开始”：从活动的那一端，往肌肉开始的地方推。"
+        "en": "Bend your elbow: your bicep moves at the forearm end (insertion), not the shoulder (origin). Press toward the still end.",
+        "zh": "弯一下手肘：二头肌（bicep）靠前臂的一端在动（insertion，止点），靠肩膀的一端不动（origin，起点）。按摩时往不动的那端推。"
       },
       "teachingRelation": "action",
       "authorityRefs": [
@@ -1306,7 +1306,7 @@
           "quote": "The insertion (in-SER-shun) is the point of attachment in a muscle where more movement occurs."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "body-cue"
     }
   ]
 }

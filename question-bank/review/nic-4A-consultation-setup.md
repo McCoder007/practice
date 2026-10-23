@@ -46,8 +46,8 @@ C. In a lockable, fireproof cabinet / 放在可上锁的防火柜里 ✅
 D. With the client to take home / 交给顾客带回家  
 *Why:* Intake forms are legal documents and must be kept confidential. Lock paper forms in fireproof cabinets, and protect electronic forms with firewalls and passwords.  
 *为什么:* 登记表是法律文件，必须保密。纸质表格要锁在防火柜里，电子表格要用防火墙和密码保护。  
-*Lock this (comparison):* Leaking a client's form can bring legal trouble, just like leaking a patient's medical chart.  
-*记重点:* 泄露顾客登记表可能惹上官司，就像泄露病人的病历一样。  
+*Lock this (comparison):* Lock it up, like a doctor's files about patients. Sharing a client's form can bring legal trouble.  
+*记重点:* 像医生锁好病人的病历一样锁好。泄露顾客登记表可能惹上官司。  
 *Source:* Milady Standard Foundations p.52 (PDF 547)
 
 **5. How often should you do a client consultation?**  
@@ -82,8 +82,8 @@ C. upselling. / 追加推荐（upselling）。
 D. client analysis. / 顾客分析（client analysis）。  
 *Why:* Reflective listening means listening, then repeating in your own words what you think the client said. Don't interrupt, and ask the client to confirm you understood.  
 *为什么:* reflective listening（反映式倾听）是先听，再用自己的话复述你理解的顾客意思。不要打断，并请顾客确认你理解得对。  
-*Lock this (word-origin):* Reflect comes from Latin reflectere, "bend back": you send the client's words back, like a mirror.  
-*记重点:* reflect 来自拉丁语 reflectere“折回”：像镜子一样，把顾客的话“照”回去，请顾客确认。  
+*Lock this (picture):* Reflect, like a mirror: the client's words come back to them. "So you want short, round nails?"  
+*记重点:* reflect = 反射，像镜子一样把顾客的话照回去：“您是想要短的圆形指甲，对吗？”再请顾客确认。  
 *Source:* Milady Standard Foundations p.58 (PDF 553)
 
 **8. When checking a client's nails and skin, a nail technician must never**  
@@ -94,8 +94,8 @@ C. diagnose a disease or disorder. / 诊断（diagnose）疾病或病症。 ✅
 D. refer the client to a physician. / 建议顾客去看医生。  
 *Why:* Nail techs are licensed for cosmetic services, not to diagnose, treat, or prescribe. You may tell a client you see what may be an unhealthy condition and refer them to a physician.  
 *为什么:* 美甲师的执照只允许做美容服务，不能诊断、治疗或开处方。你可以告诉顾客你看到了可能不健康的情况，并建议顾客就医。  
-*Lock this (word-origin):* Diagnose: Greek dia, "apart," + gnosis, "knowing": telling one disease apart from another.  
-*记重点:* diagnose 来自希腊语 dia（分开）+ gnosis（认识）：分辨是哪一种病，这是医生的工作。  
+*Lock this (real-life):* Naming the disease is a doctor's job. You can say, "Please show this to a doctor."  
+*记重点:* diagnose（诊断）= 说出是什么病，这是医生的工作。你可以说：“请给医生看看。”这叫 refer（转介）。  
 *Source:* Milady Standard Nail Technology p.157 (PDF 181), Milady Standard Nail Technology p.104 (PDF 128)
 
 **9. A condition that requires avoiding certain treatments or products is a**  
@@ -154,8 +154,8 @@ C. removing dead tissue with a curette. / 用刮匙（curette）去除死组织�
 D. using gentle massage pressure. / 按摩时用轻柔的力度。  
 *Why:* For these clients a small nick can quickly need medical care. Do not use sharp tools or nip cuticles. Use a curette to gently remove nonliving tissue and a fine-grit abrasive.  
 *为什么:* 对这类顾客来说，一个小破口就可能需要就医。不要用锋利工具，也不要剪死皮。改用刮匙轻轻去除死组织，并用细砂锉。  
-*Lock this (real-life):* Thin skin and poor clotting often come with aging, blood thinners, or chemo: check the intake form first.  
-*记重点:* 皮肤薄、凝血差常见于老人、服抗凝血药或做化疗的顾客：先看登记表再选工具。  
+*Lock this (picture):* Thin skin is like wet paper: one small snip tears it, and the cut may not stop bleeding.  
+*记重点:* 薄皮肤像湿纸：轻轻一剪就破，而且凝血差，出血可能止不住。所以别剪死皮。  
 *Source:* Milady Standard Nail Technology p.170 (PDF 194)
 
 **14. Why look closely at the nails right after removing old polish?**  

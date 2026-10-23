@@ -52,7 +52,7 @@
         "zh": "可重复使用的工具在下一位顾客前必须清洁消毒，不锈钢经得起。较便宜的镀镍（nickel-plated）工具在消毒和灭菌时会腐蚀。"
       },
       "lockPoint": {
-        "en": "Stain + less (= without): steel without rust spots. The Chinese says it plainly: 不锈 = no rust.",
+        "en": "Stain + less (= without): steel that will not get rust spots. The Chinese name just says \"no rust.\"",
         "zh": "stain（污斑）+ less（没有）= 不生锈斑；中文“不锈钢”说得更直接：不锈 = 不生锈。"
       },
       "teachingRelation": "definition",
@@ -176,8 +176,8 @@
         "zh": "拇指握住一边手柄，另外三根手指握住另一边，刀刃朝向甲面。食指放在剪轴（box joint）上，控制并引导刀刃。"
       },
       "lockPoint": {
-        "en": "A box joint is a hinge where one half passes through a slot in the other. Steady that pivot.",
-        "zh": "box joint（剪轴）：一边刀身从另一边的槽里穿过，形成转轴。食指压稳这个支点。"
+        "en": "The box joint is like the middle of scissors, where the two halves cross. Your index finger steadies it.",
+        "zh": "box joint（剪轴）就像剪刀中间两片交叉、转动的那个点。食指压稳这个点。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -302,8 +302,8 @@
         "zh": "每位顾客前都要清洁消毒死皮剪。把剪子张开，让清洁剂和消毒液接触到剪轴里外每个表面，并把整件工具（包括手柄）完全浸没。"
       },
       "lockPoint": {
-        "en": "A closed hinge is a hidden pocket. Debris trapped inside shields germs from the disinfectant.",
-        "zh": "合着的剪轴是个暗袋。藏在里面的碎屑会挡住消毒液，保护病菌。"
+        "en": "A closed hinge is a hidden pocket. Dirt inside keeps the disinfectant away from the germs.",
+        "zh": "合着的剪轴是个暗袋。藏在里面的碎屑会挡住消毒液，让病菌躲过去。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -592,8 +592,8 @@
         "zh": "刮匙一头是小勺形，用来清除甲沟（nail folds）、甲上皮（eponychium）和甲下皮（hyponychium）周围的污垢，特别适合大脚趾甲边缘。"
       },
       "lockPoint": {
-        "en": "刮匙: 刮 = scrape, 匙 = spoon. English curette is from French curer, 'to clean'.",
-        "zh": "刮匙：刮 = 刮除，匙 = 勺子，就是一把刮污垢的小勺。英文 curette 来自法语 curer，意思是“清理”。"
+        "en": "The Chinese name means \"scraping spoon\": a tiny spoon that scrapes dirt out of the nail folds.",
+        "zh": "刮匙：刮 = 刮除，匙 = 勺子，就是一把刮污垢的小勺，用来清理甲沟（nail folds）。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -650,7 +650,7 @@
         "zh": "木棒用来推掉甲面上的死皮组织、清理前缘下方，头上裹棉花还能涂产品。像握铅笔一样，以 20–30 度角拿着。"
       },
       "lockPoint": {
-        "en": "Milady also calls it an orangewood stick: the 橙木棒 common in Chinese nail salons.",
+        "en": "Milady also calls it an orangewood stick: the small wooden stick you see in nail salons.",
         "zh": "Milady 也叫它 orangewood stick，就是中国美甲店常见的橙木棒。"
       },
       "teachingRelation": "definition",

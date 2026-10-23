@@ -34,8 +34,8 @@ C. sign the disinfection log. / 在消毒记录本上签字。
 D. book the next visit and pay. / 预约下次服务并付款。 ✅  
 *Why:* After thanking the client, walk them to the front desk to schedule their next appointment and pay for the service. Set the date, time, and services.  
 *为什么:* 谢谢客人之后，陪客人到前台（front desk）预约下次服务并付款，定好日期、时间和服务项目。  
-*Lock this (real-life):* Book before the door: once clients leave, the next visit is easy to put off.  
-*记重点:* 出门前就约好：客人一走，下次就容易一拖再拖。  
+*Lock this (real-life):* Book before they leave: once clients walk out, the next visit is easy to forget.  
+*记重点:* 走之前就约好：客人一出门，下次就容易忘了。  
 *Source:* Milady Standard Nail Technology p.176 (PDF 200), Milady Standard Nail Technology p.175 (PDF 199)
 
 **4. After the client leaves, how do you prepare for the next client?**  
@@ -118,8 +118,8 @@ C. The water supply hoses / 进水软管
 D. Only the outside cabinet / 只有外面的柜体  
 *Why:* Remove the impeller covers and other removable parts. Scrub them, and the areas behind them, with liquid soap, a clean disinfected brush, and warm water to remove all residue.  
 *为什么:* 拆下 impeller covers（叶轮盖）和其他可拆部件，用液体皂（liquid soap）、干净消毒过的刷子和温水，刷洗部件和它们后面的地方，去掉所有残留物。  
-*Lock this (reason-chain):* Residue hides behind impeller covers, and foot spas can harbor sticky biofilm there.  
-*记重点:* 残留物藏在叶轮盖后面，足浴盆里会长出黏黏的生物膜（biofilm）。  
+*Lock this (reason-chain):* Dirt hides behind the impeller covers, and a sticky germ layer (biofilm) can grow there.  
+*记重点:* 脏东西藏在叶轮盖后面，那里还会长出一层黏黏的细菌膜（biofilm）。  
 *Source:* Milady Standard Nail Technology p.221 (PDF 245), Milady Standard Foundations p.114 (PDF 609)
 
 **11. What is circulated through foot spas at the end of every day?**  
@@ -130,8 +130,8 @@ C. Chelating detergent / 螯合清洁剂 ✅
 D. Callus softener / 软茧剂  
 *Why:* At the end of every day, circulate chelating detergent for 5 to 10 minutes to break down stubborn films and pedicure product residue. Then drain, rinse, refill, and disinfect.  
 *为什么:* 每天营业结束时，用 chelating detergent（螯合清洁剂）循环 5 到 10 分钟，分解顽固膜层和足疗产品残留。然后排水、冲洗、注水，再消毒。  
-*Lock this (word-origin):* Chelate comes from Greek for a crab’s claw: it grabs the minerals in hard water.  
-*记重点:* 螯 = 螃蟹的大钳子：螯合剂像蟹钳一样，夹住硬水里的矿物质。  
+*Lock this (chinese-character):* Its Chinese name uses the word for a crab's claw: it grabs hard-water minerals and breaks up stuck-on film.  
+*记重点:* 螯 = 螃蟹的大钳子：螯合剂像蟹钳一样，夹住硬水里的矿物质，还能分解顽固的膜层。  
 *Source:* Milady Standard Nail Technology p.223 (PDF 247), Milady Standard Nail Technology p.224 (PDF 248), Milady Standard Foundations p.125 (PDF 620)
 
 **12. Once a week, what is left in a whirlpool foot spa overnight?**  
@@ -142,8 +142,8 @@ C. Foot soak solution / 泡脚液
 D. Disinfecting solution / 消毒液 ✅  
 *Why:* Once a week, after the end-of-day cleaning, do not drain the disinfectant. Turn the unit off and leave it in overnight. In the morning, drain, rinse, refill, and flush.  
 *为什么:* 每周一次，在每日收工清洁之后，不要排掉消毒液（disinfecting solution）。关掉机器，让消毒液留在里面过夜。第二天早上排水、冲洗、注水并冲洗管路。  
-*Lock this (contrast):* Three rhythms: every client, 10 minutes; every day, chelating detergent first; every week, overnight.  
-*记重点:* 三个节奏：每位客人后循环 10 分钟；每天收工先用螯合清洁剂；每周一次消毒液过夜。  
+*Lock this (contrast):* Three times to remember: every client, 10 minutes; every day, chelating detergent first; every week, overnight.  
+*记重点:* 三个时间点：每位客人后循环 10 分钟；每天收工先用螯合清洁剂；每周一次消毒液过夜。  
 *Source:* Milady Standard Nail Technology p.225 (PDF 249)
 
 **13. In a basic foot tub, what do you do before adding disinfectant?**  

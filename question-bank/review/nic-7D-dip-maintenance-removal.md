@@ -22,7 +22,7 @@ C. very fine, usually heavily pigmented. / 非常细，通常颜色很浓。 ✅
 D. cured under a UV lamp. / 要用 UV 灯固化。  
 *Why:* Dip powder is a very fine polymer powder, usually heavily pigmented with color. Milady says it is very different from the powder used for liquid and powder nails.  
 *为什么:* dip powder（浸粉）是很细的聚合物粉，通常颜色很浓。Milady 说它和水晶甲（liquid and powder）用的粉很不一样。  
-*Lock this (picture):* Think eyeshadow: so fine it clings in a thin, even coat, and packed with color.  
+*Lock this (picture):* Think eyeshadow: so fine it sticks in a thin, even coat, and full of color.  
 *记重点:* 想象眼影粉：细到能薄薄均匀地附着，而且颜色很浓。  
 *Source:* Milady Standard Nail Technology p.284 (PDF 308)
 
@@ -178,8 +178,8 @@ C. It hardens enhancements instead. / 它反而会让美甲变硬。
 D. It must be mixed with water first. / 必须先兑水才能用。  
 *Why:* Industrial acetone has not been tested or approved for human skin. Professional removers are usually enriched with aloe and other softeners that help prevent dry skin.  
 *为什么:* 工业丙酮没有经过用于人体皮肤的测试或批准。专业卸甲产品通常添加了芦荟等柔肤成分，能防止皮肤干燥。  
-*Lock this (comparison):* Like using kitchen degreaser as hand soap: it may clean, but it was never made for skin.  
-*记重点:* 就像拿厨房去油剂当洗手液：也许洗得掉，但它本来就不是给皮肤用的。  
+*Lock this (comparison):* Like washing your hands with strong kitchen cleaner: it may clean, but it was not made for skin.  
+*记重点:* 就像用强力厨房清洁剂洗手：也许洗得掉，但它本来就不是给皮肤用的。  
 *Source:* Milady Standard Nail Technology p.331 (PDF 355)
 
 **16. After removal, natural nails seem thin and bendy. This is because they**  

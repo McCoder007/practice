@@ -125,7 +125,7 @@
         "zh": "dip powder（浸粉）是很细的聚合物粉，通常颜色很浓。Milady 说它和水晶甲（liquid and powder）用的粉很不一样。"
       },
       "lockPoint": {
-        "en": "Think eyeshadow: so fine it clings in a thin, even coat, and packed with color.",
+        "en": "Think eyeshadow: so fine it sticks in a thin, even coat, and full of color.",
         "zh": "想象眼影粉：细到能薄薄均匀地附着，而且颜色很浓。"
       },
       "teachingRelation": "contrast",
@@ -939,8 +939,8 @@
         "zh": "工业丙酮没有经过用于人体皮肤的测试或批准。专业卸甲产品通常添加了芦荟等柔肤成分，能防止皮肤干燥。"
       },
       "lockPoint": {
-        "en": "Like using kitchen degreaser as hand soap: it may clean, but it was never made for skin.",
-        "zh": "就像拿厨房去油剂当洗手液：也许洗得掉，但它本来就不是给皮肤用的。"
+        "en": "Like washing your hands with strong kitchen cleaner: it may clean, but it was not made for skin.",
+        "zh": "就像用强力厨房清洁剂洗手：也许洗得掉，但它本来就不是给皮肤用的。"
       },
       "teachingRelation": "association",
       "authorityRefs": [

@@ -278,8 +278,8 @@
         "zh": "contagious disease（传染性疾病）会人传人，也叫 communicable disease（可传染疾病）。例如普通感冒、ringworm（癣）和 pinkeye（红眼病）。"
       },
       "lockPoint": {
-        "en": "Contagious shares an old root with contact (touch). It passes person to person; also called communicable.",
-        "zh": "传染：染 = 染色。疾病像染料一样，从一个人染到另一个人。"
+        "en": "Contagious sounds like \"contact.\" It passes from person to person, like a cold. Also called communicable.",
+        "zh": "contagious（传染性的）听起来像 contact（接触）。传染的“染”= 染色：病像染料一样，从一个人染到另一个人。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -296,7 +296,7 @@
           "quote": "When a disease is capable of being spread from one person to another, it is said to be a contagious disease (kon-TAY-jus diz-EEZ), also known as a communicable"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "word-link"
     },
     {
       "id": "nic-1a-06",
@@ -548,8 +548,8 @@
         "zh": "inflammation（炎症）是身体组织对受伤、刺激或感染的反应，表现为发红、发热、疼痛和肿胀。"
       },
       "lockPoint": {
-        "en": "Inflammation comes from an old word for \"set on fire.\" Think flame: red and hot.",
-        "zh": "炎 = 两个火。炎症就像身体里着了火：红、热、痛、肿。"
+        "en": "Inflammation looks like \"flame.\" A flame is red and hot, like sore, swollen skin.",
+        "zh": "inflammation 里藏着 flame（火焰）。炎 = 两个火：炎症就像身体里着了火，红、热、痛、肿。"
       },
       "teachingRelation": "list",
       "authorityRefs": [
@@ -566,7 +566,7 @@
           "quote": "Inflammation is characterized by redness, heat, pain, and/or swelling."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "word-link"
     },
     {
       "id": "nic-1a-11",
@@ -602,10 +602,10 @@
         "zh": "immunity（免疫）是身体抵抗病菌的能力。natural immunity（自然免疫）部分来自遗传。acquired immunity（获得性免疫）来自生过病并康复，或打过疫苗，例如流感疫苗。"
       },
       "lockPoint": {
-        "en": "Immunity comes from Latin for \"exempt.\" 免疫 means the same: exempt from epidemics.",
-        "zh": "免疫 = 免（免除）+ 疫（瘟疫）：免于疫病。疫苗的“疫”就是这个字。"
+        "en": "The Chinese name means \"avoid sickness.\" Your body fights germs, so you do not get sick.",
+        "zh": "immunity = 免疫：免（免除）+ 疫（瘟疫），免于疫病。身体自己打败病菌，你就不生病。疫苗的“疫”就是这个字。"
       },
-      "hookType": "word-origin",
+      "hookType": "chinese-character",
       "teachingRelation": "definition",
       "authorityRefs": [
         {
@@ -1130,8 +1130,8 @@
         "zh": "scabies（疥疮）是由 itch mite（疥螨）引起的传染性皮肤病。疥螨是一种会钻到皮肤下面的寄生虫。不要为这位顾客服务，应建议对方去看医生。"
       },
       "lockPoint": {
-        "en": "Scabies comes from an old word for \"scratch\": a tiny mite digs under the skin and makes you itch.",
-        "zh": "疥螨的“螨”是虫字旁：一种钻进皮肤、让人发痒的小虫。"
+        "en": "Picture a tiny bug digging a tunnel under the skin. That bug is the itch mite: scabies.",
+        "zh": "想象一只小虫在皮肤下面挖隧道：这就是疥螨（itch mite）。“螨”是虫字旁，是小虫，不是真菌、病毒或细菌。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -1152,7 +1152,7 @@
           "quote": "Services should never be performed on a customer with visible signs of a parasitic infestation."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "picture"
     }
   ],
   "review": {

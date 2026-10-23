@@ -18,9 +18,12 @@ const otherBanks = [
 const LIMITS = { stemWords: 18, choiceWords: 8, explanationWords: 35, lockPointWords: 20 }
 const CHOICE_IDS = ["a", "b", "c", "d"]
 const HOOK_TYPES = new Set([
-  "word-parts", "word-origin", "word-link", "chinese-character", "picture", "comparison",
+  "word-parts", "word-link", "chinese-character", "body-cue", "picture", "comparison",
   "reason-chain", "real-life", "name-trap", "real-acronym", "contrast",
 ])
+// Learners are ESL level 2: hooks must not teach Latin/Greek/French word origins.
+// ("French manicure/tips" is a nail term, not a word origin.)
+const FOREIGN_ORIGIN = /\b(latin|greek|italian|old word|from an old)\b|\bfrench\b(?!\s+(manicure|tips?|nails?|polish|smile|line|white))|拉丁|希腊|法语|法文|意大利/i
 const STOP = new Set("a an the is are be of to in on and or for by it its as at not no from that this with like so than".split(" "))
 const errors = []
 const warnings = []
@@ -102,6 +105,13 @@ for (const file of setFiles) {
     checkText(`${at} lockPoint`, q.lockPoint, LIMITS.lockPointWords)
 
     if (!HOOK_TYPES.has(q.hookType)) errors.push(`${at}: hookType must be one of ${[...HOOK_TYPES].join(", ")}`)
+    // English lines are read aloud by an English voice, so they must not contain Chinese characters.
+    for (const [field, text] of [["question.en", q.question?.en], ["explanation.en", q.explanation?.en], ["lockPoint.en", q.lockPoint?.en], ...(q.choices || []).map((c) => [`choice ${c.id}.en`, c.en])]) {
+      if (/[\u4e00-\u9fff]/.test(text || "")) errors.push(`${at}: ${field} contains Chinese characters (English text-to-speech)`)
+    }
+    for (const [field, text] of [["lockPoint.en", q.lockPoint?.en], ["lockPoint.zh", q.lockPoint?.zh], ["explanation.en", q.explanation?.en], ["explanation.zh", q.explanation?.zh]]) {
+      if (FOREIGN_ORIGIN.test(text || "")) errors.push(`${at}: ${field} uses a foreign-language word origin (ESL level 2 rule)`)
+    }
     // A memory hook should add words beyond the question, answer, and Why line.
     const seen = new Set(norm(`${q.question?.en} ${(q.choices || []).map((c) => c.en).join(" ")} ${q.explanation?.en}`).split(" "))
     const hookWords = norm(q.lockPoint?.en || "").split(" ").filter((w) => w && !STOP.has(w))

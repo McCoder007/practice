@@ -10,8 +10,8 @@ C. One and a half times as much / 液体是粉的 1.5 倍 ✅
 D. Twice as much liquid / 液体是粉的 2 倍  
 *Why:* Equal liquid and powder makes a dry bead; twice as much liquid makes a wet bead. A medium bead is halfway between and is usually the ideal mix ratio.  
 *为什么:* 液体和粉等量是 dry bead（干球）；液体是粉的两倍是 wet bead（湿球）。medium bead（中球）介于两者之间，通常是最理想的 mix ratio（液粉比）。  
-*Lock this (word-origin):* Medium comes from Latin medius, 'middle': halfway between dry (1 to 1) and wet (2 to 1).  
-*记重点:* medium 来自拉丁语 medius，意思是“中间”：正好在干球（1:1）和湿球（2:1）的中间。  
+*Lock this (comparison):* Medium, like a medium T-shirt: between small and large. Dry = 1:1, wet = 2:1, medium = halfway, 1.5:1.  
+*记重点:* medium 就像衣服的 M 码：介于 S 和 L 之间。干球 1:1，湿球 2:1，中球在正中间：1.5:1。  
 *Source:* Milady Standard Nail Technology p.324 (PDF 348)
 
 **2. Too little powder in the bead can cause**  
@@ -34,7 +34,7 @@ C. Lumpy and full of air bubbles / 疙疙瘩瘩，满是气泡
 D. Round and shiny; settles but doesn't run / 圆润有光泽，会稍微摊开但不流动 ✅  
 *Why:* A perfect bead is round and shiny, and it settles on the form without running. Dry powder around it means too little liquid; dripping means too wet.  
 *为什么:* 理想的水晶球圆润有光泽，放在纸托上会稍微摊开但不会流动。周围有干粉说明液体太少；会滴落说明太湿。  
-*Lock this (picture):* Picture a dab of thick hair gel on a plate: round, glossy, slumps a little, then holds.  
+*Lock this (picture):* Picture a spoon of thick hair gel on a plate: round and shiny, it spreads a little, then stops.  
 *记重点:* 想象盘子上的一小坨发胶：圆润有光泽，稍微摊开，然后就定住不动。  
 *Source:* Milady Standard Nail Technology p.324 (PDF 348), Milady Standard Nail Technology p.328 (PDF 352)
 
@@ -46,8 +46,8 @@ C. others in the salon can't smell it. / 店里的其他人闻不到它。 ✅
 D. a perfume covers its odor. / 加了香料盖住气味。  
 *Why:* Odorless products still have a slight odor. If others in the salon can't detect it, it is called odorless; if they notice a slight odor, it is called low odor.  
 *为什么:* odorless（无味）产品其实仍有轻微气味。店里其他人闻不出来，就叫无味；能闻到一点，就叫 low odor（低味）。  
-*Lock this (name-trap):* Name trap: odorless liquids swap the usual ethyl monomer for low-smell monomers. The scent is faint, not gone.  
-*记重点:* 名字陷阱：odorless 产品把常用的乙基单体换成气味很淡的单体。味道变淡了，但没有消失。  
+*Lock this (name-trap):* Name trap: "odorless" liquids use a different monomer with little smell. The smell is weak, not gone.  
+*记重点:* 名字陷阱：odorless 产品换用了气味很小的单体。味道变淡了，但没有消失。  
 *Source:* Milady Standard Nail Technology p.323 (PDF 347)
 
 **5. When shaping an odorless bead on the nail, you should never**  
@@ -70,8 +70,8 @@ C. a dehydrator that dries the nail. / 让指甲干燥的脱水剂。
 D. two-sided sticky tape. / 双面胶。 ✅  
 *Why:* One end of the acid-free primer molecule bonds to nail protein; the other end bonds to the monomer as it cures. That is why Milady compares it to two-sided tape.  
 *为什么:* acid-free primer（无酸结合剂）分子的一端和指甲蛋白结合，另一端在单体固化时和单体结合，所以 Milady 把它比作双面胶。  
-*Lock this (word-origin):* Primer comes from prime, likely from Latin primus 'first': it's the first coat under the product.  
-*记重点:* primer 来自 prime，很可能源自拉丁语 primus（第一）：它是产品下面的第一层。  
+*Lock this (real-life):* Hang a poster with two-sided tape: wall on one side, poster on the other. Nail = wall, product = poster.  
+*记重点:* 用双面胶贴海报：一面粘墙，一面粘海报。真甲就是墙，产品就是海报。  
 *Source:* Milady Standard Nail Technology p.325 (PDF 349)
 
 **7. When preparing nails for liquid and powder, which order is correct?**  
@@ -118,8 +118,8 @@ C. Barrier cream on the cuticle only / 只在甲小皮处涂隔离霜
 D. A hairnet and an apron / 发网和围裙  
 *Why:* Acid-based primer is corrosive and can cause serious, sometimes irreversible, damage to skin and eyes. Always wear protective gloves and safety eyewear.  
 *为什么:* acid-based primer（酸性结合剂）有腐蚀性，可能对皮肤和眼睛造成严重、有时无法逆转的伤害。务必戴防护手套和护目镜。  
-*Lock this (word-origin):* Corrosive comes from Latin corrodere, 'to gnaw away': acid primer can burn and scar skin and eyes.  
-*记重点:* corrosive（腐蚀性）来自拉丁语 corrodere，意思是“啃掉”：酸性结合剂会灼伤皮肤和眼睛，留下疤痕。  
+*Lock this (picture):* Corrosive means it eats away, like rust on metal. It hurts skin and eyes, so protect hands and eyes.  
+*记重点:* corrosive（腐蚀性）= 会把东西慢慢“吃掉”，就像铁锈吃掉铁。它伤皮肤也伤眼睛，所以手和眼睛都要保护。  
 *Source:* Milady Standard Nail Technology p.325 (PDF 349)
 
 **11. Before applying enhancements, how much should the natural nail be filed?**  
@@ -142,8 +142,8 @@ C. They come off in water. / 它们遇水就会脱落。
 D. They are glued on with resin. / 它们是用树脂粘上去的。  
 *Why:* MMA does not dissolve well in product removers, so it is usually pried from the nail plate, causing more damage. MMA is not to be used on nails.  
 *为什么:* MMA 在卸甲液里不容易溶解，所以通常被从甲面上硬撬下来，造成更多损伤。指甲上不能使用 MMA。  
-*Lock this (real-life):* MMA is the liquid in surgeons' bone cement for fixing artificial joints: built to stay put, not soak off.  
-*记重点:* MMA 是外科骨水泥的液体成分，用来固定人工关节：它就是要牢牢不动，而不是被泡掉。  
+*Lock this (real-life):* Doctors use MMA as a cement to repair bones. It is made to stay in place, not soak off.  
+*记重点:* 医生用 MMA 做骨水泥来修补骨头：它就是要牢牢不动，而不是被泡掉。  
 *Source:* Milady Standard Nail Technology p.321 (PDF 345), Milady Standard Nail Technology p.124 (PDF 148)
 
 **13. How should a small amount of leftover monomer liquid be thrown away?**  
@@ -226,7 +226,7 @@ C. They click when tapped with a brush handle. / 用笔杆轻敲时发出“咔�
 D. They turn chalky white. / 变成白垩色。  
 *Why:* Nails are hard when they make a clicking sound when lightly tapped with a brush handle. Then you can shape them with an abrasive or electric file.  
 *为什么:* 用笔杆轻敲指甲时发出清脆的“咔嗒”声，就说明已经变硬，这时可以用锉条或电动磨甲机修形。  
-*Lock this (comparison):* Knock on a hard table and it clicks; knock on soft clay and it just thuds.  
+*Lock this (comparison):* Knock on a hard table and it clicks; knock on soft clay and it makes almost no sound.  
 *记重点:* 敲硬桌子会“咔咔”响，敲软泥只会发出闷闷的声音。  
 *Source:* Milady Standard Nail Technology p.345 (PDF 369)
 

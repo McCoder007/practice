@@ -650,8 +650,8 @@
         "zh": "老茧在受力部位保护下面的皮肤，比如整天站着工作的人。只能软化、磨平，不能磨得太薄或完全去掉。"
       },
       "lockPoint": {
-        "en": "Like a guitarist's fingertips: the hard skin is armor the body built from use.",
-        "zh": "就像吉他手的指尖：那层硬皮是身体因为反复使用而长出的盔甲。"
+        "en": "Like a guitar player's fingertips: hard skin grows where you use it most, to protect you.",
+        "zh": "就像弹吉他的人的指尖：哪里用得最多，哪里就长出硬皮来保护自己。"
       },
       "teachingRelation": "safety-reason",
       "authorityRefs": [
@@ -906,8 +906,8 @@
         "zh": "慢性病顾客不能用金属推棒或尖锐工具。可以改用刮匙轻轻去除死组织，并用细砂锉处理指甲。"
       },
       "lockPoint": {
-        "en": "Slow-healing skin + one unseen nick → infection, and in the worst cases amputation.",
-        "zh": "伤口愈合慢 + 一个看不见的小伤口 → 感染，最严重会导致截肢。"
+        "en": "Slow-healing skin + one tiny, hidden cut → infection. It can even mean losing a toe or foot.",
+        "zh": "伤口愈合慢 + 一个看不见的小伤口 → 感染，甚至可能截肢，失去脚趾或脚。"
       },
       "teachingRelation": "safety-rule",
       "authorityRefs": [
@@ -984,8 +984,8 @@
         "zh": "完整的修脚要清洁脚趾之间。如果有积垢，先用含尿素（urea）的软化产品多泡一会儿，再用一次性湿巾或毛巾轻轻擦干净。"
       },
       "lockPoint": {
-        "en": "Urea is named for urine, where it was first found. In foot care it softens hard buildup.",
-        "zh": "urea（尿素）因最早在尿液中发现而得名。在足部护理中，它能软化硬结的积垢。"
+        "en": "Like dried food on a plate: soak it first, and it wipes off. Scraping can cut the skin.",
+        "zh": "就像盘子上干掉的饭渍：先泡软，一擦就掉。硬刮可能会刮伤皮肤。"
       },
       "teachingRelation": "condition-action",
       "authorityRefs": [
@@ -1010,7 +1010,7 @@
           "quote": "Use a disposable towelette or washcloth to gently clean between the toes after soaking."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "real-life"
     },
     {
       "id": "nic-6c-16",

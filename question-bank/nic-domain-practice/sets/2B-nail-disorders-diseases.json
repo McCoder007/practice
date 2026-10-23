@@ -116,8 +116,8 @@
         "zh": "说出是什么病就是诊断。美甲师没有诊断、治疗或开药的执照。只能说指甲看起来不健康，并建议顾客去看医生。"
       },
       "lockPoint": {
-        "en": "Client offers to sign a waiver? Still no. Not even a doctor can expand your license's scope.",
-        "zh": "顾客说愿意签免责书？照样不行。连医生也无权扩大你执照的执业范围。"
+        "en": "Client offers to sign a waiver? Still no. Not even a doctor can change what your license allows.",
+        "zh": "顾客说愿意签免责书？照样不行。连医生也不能改变你的执照允许你做的事。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -306,7 +306,7 @@
         "zh": "onychia（甲母质炎）是甲母质发炎并伴有指甲脱落，由感染或外伤引起，可能需要转介医生。"
       },
       "lockPoint": {
-        "en": "The matrix builds the nail plate. Inflame the builder, and the nail it made can be shed.",
+        "en": "The matrix builds the nail plate. When the builder is inflamed, the nail it made can fall off.",
         "zh": "甲母质负责“建造”甲板。“建造者”一发炎，它造出的指甲就可能脱落。"
       },
       "teachingRelation": "definition",
@@ -424,8 +424,8 @@
         "zh": "leukonychia（白甲）的白斑通常来自甲母质的轻微损伤。它们不代表疾病，会随着指甲长出而消失。"
       },
       "lockPoint": {
-        "en": "Leuko = white, as in leukocyte (white blood cell); onych = nail. A bumped matrix leaves a white mark.",
-        "zh": "leuko = 白（leukocyte 白细胞也用这个词根），onych = 指甲。甲母质被碰一下，就留下白点。"
+        "en": "Leuko- = white, as in leukocyte, a white blood cell. A bump to the matrix leaves a white spot.",
+        "zh": "leuko- = 白（leukocyte 白细胞也用它），onych = 指甲。甲母质被碰一下，就留下白点。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -482,8 +482,8 @@
         "zh": "melanonychia（黑甲）是黑素细胞（melanocytes）增多导致的指甲明显变黑，可表现为从根部到游离缘的黑色条带，或整片甲板变黑。"
       },
       "lockPoint": {
-        "en": "Melan = black, as in melanin. Fairly common in African Americans and Asians; in Caucasians it may signal disease.",
-        "zh": "melan = 黑（melanin 黑色素也是这个词根）。在非裔和亚裔中较常见；在白人身上可能是疾病信号。"
+        "en": "Melan- = dark, as in melanin. Common in Black and Asian people; in white people it may mean disease.",
+        "zh": "melan- = 黑（melanin 黑色素也用它）。在非裔和亚裔中较常见；在白人身上可能是疾病信号。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -544,8 +544,8 @@
         "zh": "nail pterygium（甲胬肉）通常由严重外伤或皮肤过敏引起。乳霜或护理油可能有帮助，但绝不能用任何工具往后推或处理。"
       },
       "lockPoint": {
-        "en": "Pterygium comes from the Greek for \"little wing\": the stretched skin clings to the nail like a small wing.",
-        "zh": "pterygium 来自希腊语的“小翅膀”：被拉伸的皮肤像一片小翅膀一样贴在指甲上。"
+        "en": "Picture skin stretched over the nail like plastic wrap. A hangnail is torn skin; paronychia has pus.",
+        "zh": "想象皮肤像保鲜膜一样被拉长、贴在指甲上。倒刺（hangnail）是皮撕裂；甲沟炎（paronychia）会有脓。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -566,7 +566,7 @@
           "quote": "never attempt to treat or push back nail pterygium with any instrument"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "picture"
     },
     {
       "id": "nic-2b-10",
@@ -602,8 +602,8 @@
         "zh": "onychophagy（咬甲癖）就是咬指甲。经常修甲、好好护理双手，常能帮顾客改掉这个习惯。"
       },
       "lockPoint": {
-        "en": "Onycho = nail, phagy = eating, as in esophagus, the food tube. Nail-eating means nail biting.",
-        "zh": "onycho = 指甲，phagy = 吃（esophagus 食道也用这个词根）。“吃指甲”就是咬指甲。"
+        "en": "Onycho- = nail, -phagy = eating. \"Nail eating\" means nail biting.",
+        "zh": "onycho- = 指甲，-phagy = 吃。“吃指甲”就是咬指甲。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -656,8 +656,8 @@
         "zh": "onychorrhexis（脆甲）指指甲裂开或易碎。原因包括遗传、甲母质损伤、过度接触死皮软化剂、刺激性清洁剂或粗暴的锉甲方式。"
       },
       "lockPoint": {
-        "en": "Rhexis is Greek for bursting or breaking. Onycho-rrhexis = the nail breaks apart.",
-        "zh": "rhexis 在希腊语里是“破裂”。onycho-rrhexis 就是“指甲破裂”。"
+        "en": "Onycho- = nail. -Lysis = loosening; -rrhexis = breaking. Onychorrhexis: the nail splits and breaks.",
+        "zh": "onycho- = 指甲；-lysis = 松开，-rrhexis = 破裂。onychorrhexis 就是指甲裂开、变脆。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -826,8 +826,8 @@
         "zh": "splinter hemorrhages（裂片形出血）由甲床受到外伤引起。受损的毛细血管渗出少量血，在甲板下看起来像一根纵向的小木刺。"
       },
       "lockPoint": {
-        "en": "No wood: hem = blood, -rrhage = burst, same root as onychorrhexis. A burst capillary leaves a thin line.",
-        "zh": "没有木刺：hem = 血，-rrhage = 破裂，和 onychorrhexis 的 rrhexis 同一个希腊词根。毛细血管破了，留下一条细血线。"
+        "en": "Name trap: no wood. Hem- = blood: a tiny blood vessel breaks and leaves a thin line.",
+        "zh": "名字陷阱：没有木刺。hem- = 血：甲板下的毛细血管破了，留下一条像木刺的细血线。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -884,8 +884,8 @@
         "zh": "Milady 把 onycholysis（甲剥离）列为指甲疾病，常由外伤或过敏反应引起。必须转介医生，不能为这片指甲做服务。"
       },
       "lockPoint": {
-        "en": "Lysis = loosening. Even friction heat from aggressive filing can loosen the plate this way.",
-        "zh": "lysis = 松开。连用力锉甲产生的摩擦热，都可能让甲板这样松脱。"
+        "en": "Lysis = loosening. Even heat from filing too hard can loosen the plate from the bed.",
+        "zh": "lysis = 松开。连用力锉甲产生的摩擦热，都可能让甲板从甲床上松脱。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -952,8 +952,8 @@
         "zh": "onychocryptosis（嵌甲）是指甲长进两侧的组织里。应拒绝服务，并建议顾客去看医生。"
       },
       "lockPoint": {
-        "en": "Crypto = hidden (Greek), as in a crypt. The nail edge hides inside the skin.",
-        "zh": "crypto = 隐藏（希腊语），crypt 地下墓室也来自它。指甲边缘“藏”进了皮肉里。"
+        "en": "Crypto- = hidden: the nail's side edge hides in the skin. Not -phagy (eating), myco- (fungus) or -rrhexis (breaking).",
+        "zh": "crypto- = 藏起来：指甲侧边“藏”进旁边的肉里，就是嵌甲。别和 -phagy（吃，咬甲）、myco-（真菌）、-rrhexis（破裂，脆甲）搞混。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -1016,8 +1016,8 @@
         "zh": "onychomycosis（甲真菌病）是甲板的真菌感染，可表现为白色斑块、发黄的条纹或游离缘碎裂。必须转介医生。"
       },
       "lockPoint": {
-        "en": "Myco = fungus, as in mycology. It often starts at the free edge, then spreads toward the matrix.",
-        "zh": "myco = 真菌（mycology 真菌学）。它常从游离缘开始，往甲母质方向蔓延。"
+        "en": "Myco- = fungus. It often starts at the free edge, then spreads toward the matrix.",
+        "zh": "myco- = 真菌。它常从游离缘开始，往甲母质方向蔓延。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -1136,8 +1136,8 @@
         "zh": "Pseudomonas aeruginosa（铜绿假单胞菌）是一种生长迅速、会传染的细菌。斑点会从黄变绿、变棕再变黑。必须转介医生。"
       },
       "lockPoint": {
-        "en": "Aeruginosa comes from the Latin for copper rust, the green coating on old copper roofs.",
-        "zh": "aeruginosa 来自拉丁语的“铜锈”，就是旧铜屋顶上那层绿色。中文“铜绿”也是同一个意思。"
+        "en": "On a hospital disinfectant label, Pseudomonas is listed with MRSA: both are bacteria the product kills.",
+        "zh": "医院级消毒剂（hospital disinfectant）的标签上，Pseudomonas 和 MRSA 列在一起：两种都是它能杀死的细菌。"
       },
       "teachingRelation": "category",
       "authorityRefs": [
@@ -1158,7 +1158,7 @@
           "quote": "changing from yellow to green to brown to black. Medical referral required."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "real-life"
     },
     {
       "id": "nic-2b-20",
@@ -1194,8 +1194,8 @@
         "zh": "nail psoriasis（甲银屑病）不具传染性，会造成甲面凹点、粗糙、甲剥离和甲床变色。甲板看起来像被粗砂锉锉过。"
       },
       "lockPoint": {
-        "en": "Picture the dents on a sewing thimble. Psoriasis also makes red, silvery-scaled patches on the skin.",
-        "zh": "想象缝纫用的顶针上的小凹坑。银屑病在皮肤上还会出现覆盖银白鳞屑的红斑。"
+        "en": "Picture tiny dents, like on a golf ball. On skin, psoriasis makes red patches with silver-white scales.",
+        "zh": "想象高尔夫球表面那种小凹坑。银屑病在皮肤上会出现覆盖银白色鳞屑的红斑。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
