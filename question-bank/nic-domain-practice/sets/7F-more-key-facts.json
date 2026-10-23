@@ -309,22 +309,22 @@
         {
           "id": "a",
           "en": "sticks less and cures slower.",
-          "zh": "粘得较差，固化较慢。"
+          "zh": "粘得较差，固化较慢"
         },
         {
           "id": "b",
           "en": "is used to build the apex.",
-          "zh": "用来做甲峰。"
+          "zh": "用来做甲峰"
         },
         {
           "id": "c",
           "en": "sticks better and cures faster.",
-          "zh": "粘得更好，固化更快。"
+          "zh": "粘得更好，固化更快"
         },
         {
           "id": "d",
           "en": "always needs an accelerator to cure.",
-          "zh": "一定要用加速剂才能固化。"
+          "zh": "一定要用加速剂才能固化"
         }
       ],
       "correctChoice": "c",
@@ -375,22 +375,22 @@
         {
           "id": "a",
           "en": "1/16 inch.",
-          "zh": "1/16 英寸。"
+          "zh": "1/16 英寸"
         },
         {
           "id": "b",
           "en": "1/2 inch.",
-          "zh": "1/2 英寸。"
+          "zh": "1/2 英寸"
         },
         {
           "id": "c",
           "en": "1 inch.",
-          "zh": "1 英寸。"
+          "zh": "1 英寸"
         },
         {
           "id": "d",
           "en": "no gap at all.",
-          "zh": "完全不留空隙。"
+          "zh": "完全不留空隙"
         }
       ],
       "correctChoice": "a",

@@ -52,10 +52,10 @@ D. It dries too fast there / 那里干得太快
 
 **5. Running the brush along the free edge to reduce chipping is called**  
 用刷子沿游离缘刷一下以减少剥落，这叫什么？  
-A. fanning. / 扇形压刷（fanning）。  
-B. beveling. / 倒斜边（beveling）。  
-C. capping. / 包边（capping）。 ✅  
-D. feathering. / 羽化（feathering）。  
+A. fanning. / 扇形压刷（fanning）  
+B. beveling. / 倒斜边（beveling）  
+C. capping. / 包边（capping） ✅  
+D. feathering. / 羽化（feathering）  
 *Why:* After the first coat, move the brush lightly back and forth on the very end of the free edge. This tip sealing, or capping, reduces chipping. Coat the free edge with topcoat too.  
 *为什么:* 第一层涂完后，用刷子在游离缘最末端轻轻来回刷。这叫 tip sealing（封边）或 capping（包边），能减少剥落。亮油也要包到游离缘。  
 *Lock this (word-link):* Capping = putting a cap on the tip, like the cap on a pen. The sealed tip chips less.  
@@ -112,10 +112,10 @@ D. Soak the nails once more / 再泡一次指甲
 
 **10. In a French manicure, the curved line where the pink and white meet is the**  
 法式美甲（French manicure）中，粉色和白色交界的弧线叫什么？  
-A. free edge. / 游离缘（free edge）。  
-B. lunula. / 甲半月（lunula）。  
-C. smile line. / 微笑线（smile line）。 ✅  
-D. stress area. / 受力区（stress area）。  
+A. free edge. / 游离缘（free edge）  
+B. lunula. / 甲半月（lunula）  
+C. smile line. / 微笑线（smile line） ✅  
+D. stress area. / 受力区（stress area）  
 *Why:* In a traditional French manicure, the nail bed is one color, such as pink, and the free edge is another, such as white. The curve where they meet is the smile line.  
 *为什么:* 传统法式美甲中，甲床部分是一种颜色（例如粉色），游离缘是另一种颜色（例如白色）。两色交界的弧线叫 smile line（微笑线）。  
 *Lock this (picture):* The white tip curves up at both sides, like a smile.  
@@ -124,10 +124,10 @@ D. stress area. / 受力区（stress area）。
 
 **11. A swirled look made by mixing wet polish colors with a stylus is**  
 用点花笔（stylus）把未干的几种甲油颜色搅出漩涡效果，这叫什么？  
-A. color blocking. / 色块拼接（color blocking）。  
-B. ombre. / 渐变（ombre）。  
-C. a French manicure. / 法式美甲。  
-D. marbleizing. / 大理石纹（marbleizing）。 ✅  
+A. color blocking. / 色块拼接（color blocking）  
+B. ombre. / 渐变（ombre）  
+C. a French manicure. / 法式美甲  
+D. marbleizing. / 大理石纹（marbleizing） ✅  
 *Why:* Marbleizing combines two or more colors while they are wet and swirls them on the nail with a stylus, a tool with a rounded ball tip on each end.  
 *为什么:* marbleizing（大理石纹）是把两种或以上未干的颜色，用 stylus（点花笔，两端都是圆球头的工具）在指甲上搅出漩涡。  
 *Lock this (picture):* Like the swirls in a marble countertop: colors pulled into each other.  
@@ -136,10 +136,10 @@ D. marbleizing. / 大理石纹（marbleizing）。 ✅
 
 **12. Paraffin wax treatment should be avoided on a client with**  
 哪种顾客应避免做蜡疗（paraffin wax treatment）？  
-A. dry, rough skin. / 皮肤干燥粗糙。  
-B. impaired circulation. / 血液循环不良。 ✅  
-C. arthritis pain. / 关节炎疼痛。  
-D. callused hands. / 手上有老茧。  
+A. dry, rough skin. / 皮肤干燥粗糙  
+B. impaired circulation. / 血液循环不良 ✅  
+C. arthritis pain. / 关节炎疼痛  
+D. callused hands. / 手上有老茧  
 *Why:* Avoid paraffin on clients with impaired circulation or skin irritations such as cuts, burns, rashes, warts, or eczema. Dry skin, calluses, and arthritis pain are reasons clients enjoy it.  
 *为什么:* 血液循环不良，或有割伤、烧伤、皮疹、疣、湿疹等皮肤问题的顾客，要避免蜡疗。皮肤干燥、老茧和关节炎疼痛反而是顾客喜欢蜡疗的原因。  
 *Lock this (contrast):* Impaired = not working well. Most clients can have paraffin. Not with poor blood flow or broken skin.  
@@ -172,10 +172,10 @@ D. Ask the client to touch the tub / 请顾客摸一下蜡疗机
 
 **15. When paraffin goes over a mask or lotion during a manicure, it is applied**  
 修手中把蜡敷在面膜或乳液上时，在什么时候做？  
-A. while the base coat is still wet. / 底油还没干的时候。  
-B. after the massage, before polishing. / 按摩之后、上甲油之前。 ✅  
-C. after the topcoat dries. / 亮油干了之后。  
-D. before the nails are filed. / 锉指甲之前。  
+A. while the base coat is still wet. / 底油还没干的时候  
+B. after the massage, before polishing. / 按摩之后、上甲油之前 ✅  
+C. after the topcoat dries. / 亮油干了之后  
+D. before the nails are filed. / 锉指甲之前  
 *Why:* The paraffin goes over the lotion or mask to hold moisture in the skin. Lotion goes on during the massage, so paraffin comes after it, and the nails are cleaned before polish.  
 *为什么:* 蜡敷在乳液或面膜上，是为了把水分锁在皮肤里。乳液是在按摩时涂上的，所以蜡疗要在按摩之后；之后把指甲清洁干净，再上甲油。  
 *Lock this (contrast):* Paraffin before the manicure lets you polish right away, but then it can't go over lotion or a mask.  

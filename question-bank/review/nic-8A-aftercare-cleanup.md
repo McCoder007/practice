@@ -28,10 +28,10 @@ D. On the appointment card / 预约卡上
 
 **3. In the post-service procedure, the client is escorted to the front desk to**  
 服务后流程中，带客人到前台是为了：  
-A. wash their hands. / 洗手。  
-B. fill out a consultation form. / 填写咨询表。  
-C. sign the disinfection log. / 在消毒记录本上签字。  
-D. book the next visit and pay. / 预约下次服务并付款。 ✅  
+A. wash their hands. / 洗手  
+B. fill out a consultation form. / 填写咨询表  
+C. sign the disinfection log. / 在消毒记录本上签字  
+D. book the next visit and pay. / 预约下次服务并付款 ✅  
 *Why:* After thanking the client, walk them to the front desk to schedule their next appointment and pay for the service. Set the date, time, and services.  
 *为什么:* 谢谢客人之后，陪客人到前台（front desk）预约下次服务并付款，定好日期、时间和服务项目。  
 *Lock this (real-life):* Book before they leave: once clients walk out, the next visit is easy to forget.  
@@ -64,10 +64,10 @@ D. Once a year / 每年一次
 
 **6. For heavy calluses, Milady suggests a series of**  
 对于很厚的老茧，Milady 建议安排：  
-A. weekly visits for four to six weeks. / 连续四到六周、每周一次的护理。 ✅  
-B. daily visits for one week. / 连续一周每天来。  
-C. one long session to remove it all. / 一次长时间护理全部去掉。  
-D. monthly razor callus shaving. / 每月用刀片削一次老茧。  
+A. weekly visits for four to six weeks. / 连续四到六周、每周一次的护理 ✅  
+B. daily visits for one week. / 连续一周每天来  
+C. one long session to remove it all. / 一次长时间护理全部去掉  
+D. monthly razor callus shaving. / 每月用刀片削一次老茧  
 *Why:* Fast callus removal is unsafe. Weekly callus reduction visits for four to six weeks lower the calluses; monthly pedicures then keep them at that level.  
 *为什么:* 一下子去掉老茧（callus）不安全。连续四到六周、每周一次的去茧护理把老茧慢慢降低，之后每月做足疗维持。  
 *Lock this (comparison):* Like losing weight safely: a little each week, then monthly upkeep to keep it off.  
@@ -88,10 +88,10 @@ D. Use a callus shaver to save time / 用削茧刀节省时间
 
 **8. What should you warn clients about disposable pedicure slippers?**  
 关于一次性足疗拖鞋，应该提醒客人什么？  
-A. They must be returned. / 必须归还。  
-B. They will smudge polish. / 会蹭花指甲油。  
-C. They must be worn with socks. / 必须配袜子穿。  
-D. They can be slippery. / 可能会打滑。 ✅  
+A. They must be returned. / 必须归还  
+B. They will smudge polish. / 会蹭花指甲油  
+C. They must be worn with socks. / 必须配袜子穿  
+D. They can be slippery. / 可能会打滑 ✅  
 *Why:* Single-use paper or foam slippers protect fresh polish, but they can be slippery. Warn clients to take care when walking or driving, and offer a helping hand.  
 *为什么:* 一次性纸拖鞋或泡沫拖鞋（pedicure slippers）能保护刚涂的指甲油，但可能打滑。提醒客人走路或开车时小心，并主动扶客人一把。  
 *Lock this (reason-chain):* Thin foam + a wet floor or a gas pedal → a slip, a fall, or a car accident.  
@@ -160,10 +160,10 @@ D. Spray it with alcohol / 喷酒精
 
 **14. A pedicure disinfection log records**  
 足疗消毒记录本（disinfection log）要记录：  
-A. the time and date of each disinfection. / 每次消毒的时间和日期。 ✅  
-B. the client’s polish color. / 客人用的指甲油颜色。  
-C. the client’s payment method. / 客人的付款方式。  
-D. the foot soak scent used. / 用的泡脚液香味。  
+A. the time and date of each disinfection. / 每次消毒的时间和日期 ✅  
+B. the client’s polish color. / 客人用的指甲油颜色  
+C. the client’s payment method. / 客人的付款方式  
+D. the foot soak scent used. / 用的泡脚液香味  
 *Why:* Many states require salons to record the time and date of each pedicure disinfection in a log for accountability. Check your state’s rules.  
 *为什么:* 很多州要求店家在足疗消毒记录本（disinfection log）里，写下每次消毒的时间和日期，以备查核。要查本州规定。  
 *Lock this (real-life):* No record, no proof: an inspector can’t see yesterday’s disinfection, only your log.  
@@ -184,10 +184,10 @@ D. Never; wait for the client to ask / 不主动，等客人开口
 
 **16. Enhancements that are not maintained on schedule are more likely to**  
 不按时补甲（maintenance）的延长甲更容易：  
-A. grow out faster. / 长得更快。  
-B. become thicker. / 变得更厚。  
-C. harden the natural nail. / 让真甲变硬。  
-D. lift, crack, or break. / 翘起、裂开或断掉。 ✅  
+A. grow out faster. / 长得更快  
+B. become thicker. / 变得更厚  
+C. harden the natural nail. / 让真甲变硬  
+D. lift, crack, or break. / 翘起、裂开或断掉 ✅  
 *Why:* Liquid and powder enhancements need a fill every two to three weeks. Without it, they tend to lift, crack, or break, which can damage the natural nail and raise infection risk.  
 *为什么:* 液体和粉末（liquid and powder）延长甲每两到三周需要补一次（fill）。不补的话容易翘起、裂开或断掉，会伤到真甲，也增加感染风险。  
 *Lock this (real-life):* Clients who wait too long for a fill come back with many more breaks to repair.  
@@ -196,10 +196,10 @@ D. lift, crack, or break. / 翘起、裂开或断掉。 ✅
 
 **17. Why do nails feel thin and bendy right after enhancement removal?**  
 为什么刚卸完延长甲，指甲感觉又薄又软？  
-A. The enhancement weakened them. / 延长甲把它们弄弱了。  
-B. They absorbed moisture while soaking. / 浸泡时吸了水分。 ✅  
-C. The primer ate into them. / 结合剂把它们腐蚀了。  
-D. Acetone dissolved the nail plate. / 丙酮溶解了甲板。  
+A. The enhancement weakened them. / 延长甲把它们弄弱了  
+B. They absorbed moisture while soaking. / 浸泡时吸了水分 ✅  
+C. The primer ate into them. / 结合剂把它们腐蚀了  
+D. Acetone dissolved the nail plate. / 丙酮溶解了甲板  
 *Why:* After a 30-minute soak, the nail plate holds extra moisture, so it bends more. It is not weakened, and it firms up as the moisture leaves over the next 24 hours.  
 *为什么:* 泡了 30 分钟后，甲板（nail plate）里多了水分，所以更容易弯。它并没有变弱，接下来 24 小时水分散掉后就会变硬。  
 *Lock this (real-life):* Like hair after a wash: soft while wet, back to normal once dry. Tell clients so they don't worry.  
@@ -232,10 +232,10 @@ D. Only when it is full / 只在装满时
 
 **20. After a paraffin treatment, the used wax should be**  
 做完蜡疗后，用过的蜡应该：  
-A. returned to the paraffin tub. / 倒回蜡疗机里。  
-B. saved for that client’s next visit. / 留给这位客人下次用。  
-C. strained and reused. / 过滤后再用。  
-D. thrown away. / 丢掉。 ✅  
+A. returned to the paraffin tub. / 倒回蜡疗机里  
+B. saved for that client’s next visit. / 留给这位客人下次用  
+C. strained and reused. / 过滤后再用  
+D. thrown away. / 丢掉 ✅  
 *Why:* Once paraffin touches a client, it is contaminated and must never be reused. Scoop clean wax from the tub into a bag, then discard it after the service.  
 *为什么:* 蜡（paraffin）一旦用在客人身上就被污染了，绝不能再用。从蜡疗机里舀出干净的蜡装进袋子，服务后丢掉。  
 *Lock this (reason-chain):* Used wax back in the tub → one client’s germs end up in everyone’s wax.  

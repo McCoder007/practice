@@ -110,22 +110,22 @@
         {
           "id": "a",
           "en": "effleurage.",
-          "zh": "轻抚法（effleurage）。"
+          "zh": "轻抚法（effleurage）"
         },
         {
           "id": "b",
           "en": "tapotement.",
-          "zh": "叩击法（tapotement）。"
+          "zh": "叩击法（tapotement）"
         },
         {
           "id": "c",
           "en": "pétrissage.",
-          "zh": "揉捏法（pétrissage）。"
+          "zh": "揉捏法（pétrissage）"
         },
         {
           "id": "d",
           "en": "friction.",
-          "zh": "摩擦法（friction）。"
+          "zh": "摩擦法（friction）"
         }
       ],
       "correctChoice": "a",
@@ -168,22 +168,22 @@
         {
           "id": "a",
           "en": "effleurage.",
-          "zh": "轻抚法（effleurage）。"
+          "zh": "轻抚法（effleurage）"
         },
         {
           "id": "b",
           "en": "vibration.",
-          "zh": "振动法（vibration）。"
+          "zh": "振动法（vibration）"
         },
         {
           "id": "c",
           "en": "tapotement.",
-          "zh": "叩击法（tapotement）。"
+          "zh": "叩击法（tapotement）"
         },
         {
           "id": "d",
           "en": "pétrissage.",
-          "zh": "揉捏法（pétrissage）。"
+          "zh": "揉捏法（pétrissage）"
         }
       ],
       "correctChoice": "d",
@@ -232,22 +232,22 @@
         {
           "id": "a",
           "en": "friction.",
-          "zh": "摩擦法（friction）。"
+          "zh": "摩擦法（friction）"
         },
         {
           "id": "b",
           "en": "tapotement.",
-          "zh": "叩击法（tapotement）。"
+          "zh": "叩击法（tapotement）"
         },
         {
           "id": "c",
           "en": "effleurage.",
-          "zh": "轻抚法（effleurage）。"
+          "zh": "轻抚法（effleurage）"
         },
         {
           "id": "d",
           "en": "vibration.",
-          "zh": "振动法（vibration）。"
+          "zh": "振动法（vibration）"
         }
       ],
       "correctChoice": "b",
@@ -340,22 +340,22 @@
         {
           "id": "a",
           "en": "tapotement.",
-          "zh": "叩击法（tapotement）。"
+          "zh": "叩击法（tapotement）"
         },
         {
           "id": "b",
           "en": "vibration.",
-          "zh": "振动法（vibration）。"
+          "zh": "振动法（vibration）"
         },
         {
           "id": "c",
           "en": "friction.",
-          "zh": "摩擦法（friction）。"
+          "zh": "摩擦法（friction）"
         },
         {
           "id": "d",
           "en": "effleurage.",
-          "zh": "轻抚法（effleurage）。"
+          "zh": "轻抚法（effleurage）"
         }
       ],
       "correctChoice": "c",
@@ -470,22 +470,22 @@
         {
           "id": "a",
           "en": "deep, sports-style muscle work.",
-          "zh": "深层的运动式肌肉按摩。"
+          "zh": "深层的运动式肌肉按摩"
         },
         {
           "id": "b",
           "en": "moving stiff joints.",
-          "zh": "活动僵硬的关节。"
+          "zh": "活动僵硬的关节"
         },
         {
           "id": "c",
           "en": "removing dead skin.",
-          "zh": "去除死皮。"
+          "zh": "去除死皮"
         },
         {
           "id": "d",
           "en": "relaxation.",
-          "zh": "放松。"
+          "zh": "放松"
         }
       ],
       "correctChoice": "d",
@@ -790,22 +790,22 @@
         {
           "id": "a",
           "en": "ask once about pressure.",
-          "zh": "问一次力度是否合适。"
+          "zh": "问一次力度是否合适"
         },
         {
           "id": "b",
           "en": "explain each movement.",
-          "zh": "解释每一个手法。"
+          "zh": "解释每一个手法"
         },
         {
           "id": "c",
           "en": "suggest retail products.",
-          "zh": "推荐零售产品。"
+          "zh": "推荐零售产品"
         },
         {
           "id": "d",
           "en": "keep the client awake.",
-          "zh": "让顾客保持清醒。"
+          "zh": "让顾客保持清醒"
         }
       ],
       "correctChoice": "a",
@@ -926,22 +926,22 @@
         {
           "id": "a",
           "en": "tapotement.",
-          "zh": "叩击法（tapotement）。"
+          "zh": "叩击法（tapotement）"
         },
         {
           "id": "b",
           "en": "pétrissage.",
-          "zh": "揉捏法（pétrissage）。"
+          "zh": "揉捏法（pétrissage）"
         },
         {
           "id": "c",
           "en": "vibration.",
-          "zh": "振动法（vibration）。"
+          "zh": "振动法（vibration）"
         },
         {
           "id": "d",
           "en": "skin drag.",
-          "zh": "皮肤拖拽（skin drag）。"
+          "zh": "皮肤拖拽（skin drag）"
         }
       ],
       "correctChoice": "d",
@@ -984,22 +984,22 @@
         {
           "id": "a",
           "en": "tapotement.",
-          "zh": "叩击法（tapotement）。"
+          "zh": "叩击法（tapotement）"
         },
         {
           "id": "b",
           "en": "feathering off.",
-          "zh": "羽毛式收尾（feathering off）。"
+          "zh": "羽毛式收尾（feathering off）"
         },
         {
           "id": "c",
           "en": "pétrissage.",
-          "zh": "揉捏法（pétrissage）。"
+          "zh": "揉捏法（pétrissage）"
         },
         {
           "id": "d",
           "en": "friction.",
-          "zh": "摩擦法（friction）。"
+          "zh": "摩擦法（friction）"
         }
       ],
       "correctChoice": "b",

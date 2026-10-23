@@ -4,10 +4,10 @@ Nail Service Tools · 20 questions · status: reviewed
 
 **1. Why are multiuse implements usually made of stainless steel?**  
 为什么可重复使用的工具（multiuse implements）通常用不锈钢做？  
-A. They can be disinfected without corroding. / 消毒时不会腐蚀生锈。 ✅  
-B. They only need rinsing between clients. / 顾客之间只需冲洗一下。  
-C. They cost less than nickel-plated tools. / 比镀镍工具便宜。  
-D. They can be thrown away after use. / 用完可以扔掉。  
+A. They can be disinfected without corroding. / 消毒时不会腐蚀生锈 ✅  
+B. They only need rinsing between clients. / 顾客之间只需冲洗一下  
+C. They cost less than nickel-plated tools. / 比镀镍工具便宜  
+D. They can be thrown away after use. / 用完可以扔掉  
 *Why:* Multiuse implements must be cleaned and disinfected before the next client, and stainless steel holds up. Less expensive nickel-plated implements corrode during disinfection and sterilization.  
 *为什么:* 可重复使用的工具在下一位顾客前必须清洁消毒，不锈钢经得起。较便宜的镀镍（nickel-plated）工具在消毒和灭菌时会腐蚀。  
 *Lock this (word-parts):* Stain + less (= without): steel that will not get rust spots. The Chinese name just says "no rust."  
@@ -16,10 +16,10 @@ D. They can be thrown away after use. / 用完可以扔掉。
 
 **2. A metal pusher is designed to**  
 钢推（metal pusher）是用来做什么的？  
-A. cut away live skin at the nail fold. / 剪掉甲沟（nail fold）上的活皮。  
-B. gently scrape cuticle tissue off the nail plate. / 轻轻刮掉甲面上的死皮（cuticle）组织。 ✅  
-C. shorten the free edge quickly. / 快速剪短指甲前缘（free edge）。  
-D. lift implements out of disinfectant. / 把工具从消毒液里夹出来。  
+A. cut away live skin at the nail fold. / 剪掉甲沟（nail fold）上的活皮  
+B. gently scrape cuticle tissue off the nail plate. / 轻轻刮掉甲面上的死皮（cuticle）组织 ✅  
+C. shorten the free edge quickly. / 快速剪短指甲前缘（free edge）  
+D. lift implements out of disinfectant. / 把工具从消毒液里夹出来  
 *Why:* A stainless-steel metal pusher is designed to gently scrape cuticle tissue from the nail plate. Used roughly, it can groove the plate, damage the matrix, or make tiny skin openings that let microbes in.  
 *为什么:* 不锈钢钢推用来轻轻刮掉甲面上的死皮组织。用力过猛会在甲面刮出沟槽、伤到甲母（matrix），或在皮肤上造成细小伤口，让微生物进入。  
 *Lock this (picture):* Hold it like a pencil, tipped low at 20 to 30 degrees: scrape, never dig.  
@@ -52,10 +52,10 @@ D. So they can trim the eponychium / 这样能修剪甲上皮（eponychium）
 
 **5. When cleaning and disinfecting nippers, take special care to**  
 清洁和消毒死皮剪时，要特别注意什么？  
-A. keep them tightly closed. / 把它紧紧合上。  
-B. soak only the blades. / 只泡刀刃部分。  
-C. rinse them in hot water only. / 只用热水冲洗。  
-D. open the hinges. / 把剪子张开，露出剪轴（hinge）。 ✅  
+A. keep them tightly closed. / 把它紧紧合上  
+B. soak only the blades. / 只泡刀刃部分  
+C. rinse them in hot water only. / 只用热水冲洗  
+D. open the hinges. / 把剪子张开，露出剪轴（hinge） ✅  
 *Why:* Nippers must be cleaned and disinfected before every client. Open the hinges so cleaner and disinfectant reach every surface, and fully immerse the whole implement, handles included.  
 *为什么:* 每位顾客前都要清洁消毒死皮剪。把剪子张开，让清洁剂和消毒液接触到剪轴里外每个表面，并把整件工具（包括手柄）完全浸没。  
 *Lock this (picture):* A closed hinge is a hidden pocket. Dirt inside keeps the disinfectant away from the germs.  
@@ -76,10 +76,10 @@ D. Metal pusher / 钢推
 
 **7. How are toenail clippers different from fingernail clippers?**  
 脚指甲钳（toenail clippers）和手指甲钳有什么不同？  
-A. They are single-use plastic. / 是一次性塑料的。  
-B. They are larger, with a wider jaw opening. / 更大，钳口张开更宽。 ✅  
-C. They are used to trim dead skin. / 是用来修死皮的。  
-D. They need no disinfecting. / 不需要消毒。  
+A. They are single-use plastic. / 是一次性塑料的  
+B. They are larger, with a wider jaw opening. / 更大，钳口张开更宽 ✅  
+C. They are used to trim dead skin. / 是用来修死皮的  
+D. They need no disinfecting. / 不需要消毒  
 *Why:* Toenail clippers are larger and have a wider space between the jaws, so they can cut thicker nails. Use professional stainless-steel clippers, and clean and disinfect them after each use.  
 *为什么:* 脚指甲钳更大，钳口之间空间更宽，能剪更厚的指甲。要用专业不锈钢指甲钳，每次用后清洁消毒。  
 *Lock this (body-cue):* Feel the tip of your big toenail, then your thumbnail: the toenail is thicker, so its clippers open wider.  
@@ -124,10 +124,10 @@ D. Smoothing calluses on the feet / 磨平脚上的茧
 
 **11. The narrow metal nail rasp is used to**  
 窄窄的金属甲沟锉（nail rasp）是用来做什么的？  
-A. treat a toenail that is ingrown. / 治疗嵌甲（ingrown nail）。  
-B. file the top surface of the nail. / 锉指甲的上表面。  
-C. push back the cuticle. / 推死皮。  
-D. file the sides of the free edge. / 锉前缘的两侧。 ✅  
+A. treat a toenail that is ingrown. / 治疗嵌甲（ingrown nail）  
+B. file the top surface of the nail. / 锉指甲的上表面  
+C. push back the cuticle. / 推死皮  
+D. file the sides of the free edge. / 锉前缘的两侧 ✅  
 *Why:* A nail rasp is a metal file that files in one direction. It smooths the sides of the free edge to help prevent ingrown nails. Never use it on ingrown nails or the nail top.  
 *为什么:* 甲沟锉是只朝一个方向锉的金属锉，用来磨平前缘两侧，预防嵌甲。不能用在已经嵌甲的指甲上，也不能锉甲面。  
 *Lock this (reason-chain):* Sharp side edge → grows into the skin → ingrown nail. Rasp it smooth first; already ingrown? Podiatrist.  
@@ -136,10 +136,10 @@ D. file the sides of the free edge. / 锉前缘的两侧。 ✅
 
 **12. A foot file or pedicure paddle is used to**  
 脚锉（foot file / pedicure paddle）是用来做什么的？  
-A. clean debris from the nail folds. / 清理甲沟里的污垢。  
-B. shape the toenail free edge. / 修整脚指甲前缘的形状。  
-C. push cuticle tissue off the nail. / 把死皮从甲面推掉。  
-D. reduce and smooth thick calluses. / 磨薄、磨平厚茧。 ✅  
+A. clean debris from the nail folds. / 清理甲沟里的污垢  
+B. shape the toenail free edge. / 修整脚指甲前缘的形状  
+C. push cuticle tissue off the nail. / 把死皮从甲面推掉  
+D. reduce and smooth thick calluses. / 磨薄、磨平厚茧 ✅  
 *Why:* A large foot file, or pedicure paddle, reduces and smooths thicker calluses. Clean and disinfect it between uses, or throw it away after one use if it cannot be disinfected.  
 *为什么:* 大的脚锉（foot file），也叫磨脚板（pedicure paddle），用来磨薄、磨平较厚的茧。每次用后要清洁消毒；无法消毒的用一次就扔。  
 *Lock this (real-life):* Calluses protect feet that stand all day. Smooth them down, but don't strip them off.  
@@ -160,10 +160,10 @@ D. Shaping the free edge / 修整前缘形状
 
 **14. A single-use implement is one that**  
 一次性工具（single-use implement）是指什么样的工具？  
-A. is used once a day, then disinfected. / 每天用一次，然后消毒。  
-B. can be reused after a rinse. / 冲洗后可以再用。  
-C. is made only of stainless steel. / 只用不锈钢做的。  
-D. can't be disinfected, so it's thrown away. / 无法消毒，用一次就扔。 ✅  
+A. is used once a day, then disinfected. / 每天用一次，然后消毒  
+B. can be reused after a rinse. / 冲洗后可以再用  
+C. is made only of stainless steel. / 只用不锈钢做的  
+D. can't be disinfected, so it's thrown away. / 无法消毒，用一次就扔 ✅  
 *Why:* Single-use implements cannot be properly cleaned and disinfected, or are damaged by it, so they are discarded after one use, preferably where the client can see. Multiuse implements can be disinfected and reused.  
 *为什么:* 一次性工具无法彻底清洁消毒，或消毒会把它弄坏，所以用一次就丢，最好当着顾客的面丢。可重复使用的工具（multiuse）则可以消毒后再用。  
 *Lock this (real-life):* Milady's examples: wooden pushers and paper-based files can't be disinfected, so both are single-use.  
@@ -184,10 +184,10 @@ D. A paper abrasive file / 纸质指甲锉
 
 **16. The lower the grit number on an abrasive file, the**  
 指甲锉的 grit（目数）越低，就越怎样？  
-A. finer and gentler it is. / 越细、越温和。  
-B. larger its particles and more aggressive. / 颗粒越大、研磨越猛。 ✅  
-C. safer it is on natural nails. / 对真甲越安全。  
-D. fewer scratches it leaves. / 留下的刮痕越少。  
+A. finer and gentler it is. / 越细、越温和  
+B. larger its particles and more aggressive. / 颗粒越大、研磨越猛 ✅  
+C. safer it is on natural nails. / 对真甲越安全  
+D. fewer scratches it leaves. / 留下的刮痕越少  
 *Why:* Lower grit means larger abrasive particles and a more aggressive file. Coarse grits quickly reduce a surface and leave deeper scratches, so they are generally not used on natural nails.  
 *为什么:* 目数（grit）越低，砂粒越大，锉得越猛。粗目数锉条磨得快、刮痕深，所以一般不用在真甲上。  
 *Lock this (picture):* Low number = few, big grains, like gravel. High number = many tiny grains, like flour.  
@@ -196,10 +196,10 @@ D. fewer scratches it leaves. / 留下的刮痕越少。
 
 **17. Fine-grit abrasives (240 grit and higher) are designed for**  
 细目数锉条（240 目及以上）是用来做什么的？  
-A. quickly reducing thick enhancement product. / 快速磨薄厚的人造甲产品（enhancement）。  
-B. reducing thick heel calluses. / 磨掉脚跟的厚茧。  
-C. buffing, polishing, and removing fine scratches. / 抛光、上光、去除细小刮痕。 ✅  
-D. shortening the free edge fast. / 快速磨短前缘。  
+A. quickly reducing thick enhancement product. / 快速磨薄厚的人造甲产品（enhancement）  
+B. reducing thick heel calluses. / 磨掉脚跟的厚茧  
+C. buffing, polishing, and removing fine scratches. / 抛光、上光、去除细小刮痕 ✅  
+D. shortening the free edge fast. / 快速磨短前缘  
 *Why:* Fine-grit abrasives, 240 and higher, are designed for buffing, polishing, and removing very fine scratches. Higher grits smooth a surface by polishing it.  
 *为什么:* 细目数（fine-grit，240 目及以上）锉条用于抛光、上光和去除极细的刮痕。目数越高，越是靠抛磨让表面变光滑。  
 *Lock this (real-life):* Like sandpaper at the hardware store: rough paper first, the finest paper last for the glossy finish.  

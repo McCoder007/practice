@@ -91,22 +91,22 @@
         {
           "id": "a",
           "en": "cure faster and have longer-lasting bulbs.",
-          "zh": "固化更快，灯珠更耐用。"
+          "zh": "固化更快，灯珠更耐用"
         },
         {
           "id": "b",
           "en": "light all nails evenly from every side.",
-          "zh": "从各个方向均匀照亮所有指甲。"
+          "zh": "从各个方向均匀照亮所有指甲"
         },
         {
           "id": "c",
           "en": "need one to two minutes per layer.",
-          "zh": "每层需要 1 到 2 分钟。"
+          "zh": "每层需要 1 到 2 分钟"
         },
         {
           "id": "d",
           "en": "cure gel with heat instead of light.",
-          "zh": "靠热而不是光来固化。"
+          "zh": "靠热而不是光来固化"
         }
       ],
       "correctChoice": "a",
@@ -229,22 +229,22 @@
         {
           "id": "a",
           "en": "traditional gels.",
-          "zh": "传统胶（traditional gel）。"
+          "zh": "传统胶（traditional gel）"
         },
         {
           "id": "b",
           "en": "soak-off gels.",
-          "zh": "可卸胶（soak-off gel）。"
+          "zh": "可卸胶（soak-off gel）"
         },
         {
           "id": "c",
           "en": "building gels.",
-          "zh": "建构胶（building gel）。"
+          "zh": "建构胶（building gel）"
         },
         {
           "id": "d",
           "en": "polymer gels.",
-          "zh": "聚合物胶（polymer gel）。"
+          "zh": "聚合物胶（polymer gel）"
         }
       ],
       "correctChoice": "b",
@@ -291,22 +291,22 @@
         {
           "id": "a",
           "en": "can only be removed by filing.",
-          "zh": "只能锉掉。"
+          "zh": "只能锉掉"
         },
         {
           "id": "b",
           "en": "are hard gels for long extensions.",
-          "zh": "是用来做长延长的硬胶。"
+          "zh": "是用来做长延长的硬胶"
         },
         {
           "id": "c",
           "en": "come off faster than regular polish.",
-          "zh": "比普通甲油卸得更快。"
+          "zh": "比普通甲油卸得更快"
         },
         {
           "id": "d",
           "en": "come off with polish remover, but slowly.",
-          "zh": "可以用洗甲水卸，但比较慢。"
+          "zh": "可以用洗甲水卸，但比较慢"
         }
       ],
       "correctChoice": "d",
@@ -413,22 +413,22 @@
         {
           "id": "a",
           "en": "Hard gel will not cure over color.",
-          "zh": "硬胶在色胶上无法固化。"
+          "zh": "硬胶在色胶上无法固化"
         },
         {
           "id": "b",
           "en": "Soak-off topcoats cure without a lamp.",
-          "zh": "可卸封层不用照灯。"
+          "zh": "可卸封层不用照灯"
         },
         {
           "id": "c",
           "en": "Hard gel tops can crack as nails flex.",
-          "zh": "硬胶封层会在指甲弯曲时裂开。"
+          "zh": "硬胶封层会在指甲弯曲时裂开"
         },
         {
           "id": "d",
           "en": "Soak-off topcoats leave no shine.",
-          "zh": "可卸封层没有光泽。"
+          "zh": "可卸封层没有光泽"
         }
       ],
       "correctChoice": "c",
@@ -551,22 +551,22 @@
         {
           "id": "a",
           "en": "is thicker and can leave bumps.",
-          "zh": "更稠，可能留下凹凸。"
+          "zh": "更稠，可能留下凹凸"
         },
         {
           "id": "b",
           "en": "adds more thickness per coat.",
-          "zh": "每层加的厚度更多。"
+          "zh": "每层加的厚度更多"
         },
         {
           "id": "c",
           "en": "can never be used for building.",
-          "zh": "绝不能用来建构。"
+          "zh": "绝不能用来建构"
         },
         {
           "id": "d",
           "en": "is more fluid and leaves the nail smooth.",
-          "zh": "更流动，能让甲面平滑。"
+          "zh": "更流动，能让甲面平滑"
         }
       ],
       "correctChoice": "d",
@@ -609,22 +609,22 @@
         {
           "id": "a",
           "en": "polymer powder and hard gel.",
-          "zh": "聚合物粉和硬胶。"
+          "zh": "聚合物粉和硬胶"
         },
         {
           "id": "b",
           "en": "monomer liquid and nail resin.",
-          "zh": "单体液和甲用树脂。"
+          "zh": "单体液和甲用树脂"
         },
         {
           "id": "c",
           "en": "soft gel and acetone.",
-          "zh": "软胶和丙酮。"
+          "zh": "软胶和丙酮"
         },
         {
           "id": "d",
           "en": "dip powder and activator.",
-          "zh": "浸粉和激活剂。"
+          "zh": "浸粉和激活剂"
         }
       ],
       "correctChoice": "a",
@@ -671,22 +671,22 @@
         {
           "id": "a",
           "en": "Light makes the gel runny.",
-          "zh": "光会让胶变稀。"
+          "zh": "光会让胶变稀"
         },
         {
           "id": "b",
           "en": "Light fades the gel's color.",
-          "zh": "光会让胶褪色。"
+          "zh": "光会让胶褪色"
         },
         {
           "id": "c",
           "en": "Light can cure it in the container.",
-          "zh": "光会让胶在瓶里固化。"
+          "zh": "光会让胶在瓶里固化"
         },
         {
           "id": "d",
           "en": "Light gives gel a strong odor.",
-          "zh": "光会让胶产生强烈气味。"
+          "zh": "光会让胶产生强烈气味"
         }
       ],
       "correctChoice": "c",
@@ -729,22 +729,22 @@
         {
           "id": "a",
           "en": "Gel air-dries within seconds.",
-          "zh": "胶几秒钟就会自然风干。"
+          "zh": "胶几秒钟就会自然风干"
         },
         {
           "id": "b",
           "en": "Finger heat makes the gel runnier.",
-          "zh": "手指的温度会让胶变稀。"
+          "zh": "手指的温度会让胶变稀"
         },
         {
           "id": "c",
           "en": "The lamp must stay warm.",
-          "zh": "灯必须一直保持温热。"
+          "zh": "灯必须一直保持温热"
         },
         {
           "id": "d",
           "en": "Uncured gel turns yellow.",
-          "zh": "未固化的胶会变黄。"
+          "zh": "未固化的胶会变黄"
         }
       ],
       "correctChoice": "b",
@@ -783,22 +783,22 @@
         {
           "id": "a",
           "en": "changes color every few days.",
-          "zh": "每隔几天就换颜色。"
+          "zh": "每隔几天就换颜色"
         },
         {
           "id": "b",
           "en": "wants to remove it easily at home.",
-          "zh": "想在家自己轻松卸掉。"
+          "zh": "想在家自己轻松卸掉"
         },
         {
           "id": "c",
           "en": "wants a one-day extension.",
-          "zh": "只想戴一天的延长。"
+          "zh": "只想戴一天的延长"
         },
         {
           "id": "d",
           "en": "wears the same color for two weeks.",
-          "zh": "同一个颜色会戴两周。"
+          "zh": "同一个颜色会戴两周"
         }
       ],
       "correctChoice": "d",
@@ -999,22 +999,22 @@
         {
           "id": "a",
           "en": "is saved by a short acetone soak.",
-          "zh": "用丙酮泡一会儿就能救回来。"
+          "zh": "用丙酮泡一会儿就能救回来"
         },
         {
           "id": "b",
           "en": "softens if cured a second time.",
-          "zh": "再照一次灯就会变软。"
+          "zh": "再照一次灯就会变软"
         },
         {
           "id": "c",
           "en": "is ruined and cannot be repaired.",
-          "zh": "报废了，无法修复。"
+          "zh": "报废了，无法修复"
         },
         {
           "id": "d",
           "en": "can be cleaned with cuticle oil.",
-          "zh": "用指缘油就能洗干净。"
+          "zh": "用指缘油就能洗干净"
         }
       ],
       "correctChoice": "c",
@@ -1125,22 +1125,22 @@
         {
           "id": "a",
           "en": "It has no photoinitiator.",
-          "zh": "它不含光引发剂。"
+          "zh": "它不含光引发剂"
         },
         {
           "id": "b",
           "en": "Its cross-linking is only medium.",
-          "zh": "它的交联程度只是中等。"
+          "zh": "它的交联程度只是中等"
         },
         {
           "id": "c",
           "en": "It is never cured in a lamp.",
-          "zh": "它从来不需要照灯固化。"
+          "zh": "它从来不需要照灯固化"
         },
         {
           "id": "d",
           "en": "It already contains acetone.",
-          "zh": "它本身已经含有丙酮。"
+          "zh": "它本身已经含有丙酮"
         }
       ],
       "correctChoice": "b",
@@ -1197,22 +1197,22 @@
         {
           "id": "a",
           "en": "with a sticky layer to wipe off.",
-          "zh": "有一层要擦掉的黏层。"
+          "zh": "有一层要擦掉的黏层"
         },
         {
           "id": "b",
           "en": "dull, so it must be buffed.",
-          "zh": "哑光，必须抛光。"
+          "zh": "哑光，必须抛光"
         },
         {
           "id": "c",
           "en": "soft, so it soaks off fast.",
-          "zh": "很软，能很快泡掉。"
+          "zh": "很软，能很快泡掉"
         },
         {
           "id": "d",
           "en": "shiny, with no inhibition layer.",
-          "zh": "有光泽，没有浮胶层。"
+          "zh": "有光泽，没有浮胶层"
         }
       ],
       "correctChoice": "d",

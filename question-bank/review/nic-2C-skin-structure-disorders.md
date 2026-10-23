@@ -28,10 +28,10 @@ D. Subcutaneous tissue / 皮下组织（subcutaneous tissue）
 
 **3. The fatty layer found below the dermis is the**  
 真皮下面的脂肪层叫什么？  
-A. subcutaneous tissue. / 皮下组织（subcutaneous tissue）。 ✅  
-B. epidermis. / 表皮（epidermis）。  
-C. papillary layer. / 乳头层（papillary layer）。  
-D. stratum lucidum. / 透明层（stratum lucidum）。  
+A. subcutaneous tissue. / 皮下组织（subcutaneous tissue） ✅  
+B. epidermis. / 表皮（epidermis）  
+C. papillary layer. / 乳头层（papillary layer）  
+D. stratum lucidum. / 透明层（stratum lucidum）  
 *Why:* Subcutaneous tissue, also called adipose tissue, is the fatty layer under the dermis. It gives the body smooth contour, stores energy, and cushions the skin.  
 *为什么:* subcutaneous tissue（皮下组织）也叫 adipose tissue（脂肪组织），是真皮下面的脂肪层，让身体轮廓平滑、储存能量，并为皮肤提供缓冲。  
 *Lock this (body-cue):* Sub- = under. Pinch the soft fat under your skin: that is subcutaneous tissue, below the dermis.  
@@ -52,10 +52,10 @@ D. Stratum lucidum / 透明层（stratum lucidum）
 
 **5. The clear epidermal layer found mostly on the palms and soles is the**  
 主要分布在手掌和脚底的透明表皮层是  
-A. stratum granulosum. / 颗粒层（stratum granulosum）。  
-B. stratum lucidum. / 透明层（stratum lucidum）。 ✅  
-C. stratum corneum. / 角质层（stratum corneum）。  
-D. stratum germinativum. / 生发层（stratum germinativum）。  
+A. stratum granulosum. / 颗粒层（stratum granulosum）  
+B. stratum lucidum. / 透明层（stratum lucidum） ✅  
+C. stratum corneum. / 角质层（stratum corneum）  
+D. stratum germinativum. / 生发层（stratum germinativum）  
 *Why:* The stratum lucidum is a clear layer just under the surface, made of small oval cells that light can pass through. It is most abundant on the palms and soles.  
 *为什么:* stratum lucidum（透明层）是紧贴表面下方的透明层，由光线可以穿过的小椭圆形细胞组成，在手掌和脚底最丰富。  
 *Lock this (body-cue):* Look at your fingerprints: they need the clear lucidum layer to form. Palms and soles have the most.  
@@ -88,10 +88,10 @@ D. Eczema / 湿疹（eczema）
 
 **8. Sudoriferous glands are also called**  
 sudoriferous glands 又叫什么？  
-A. oil glands. / 油脂腺（oil glands）。  
-B. lymph nodes. / 淋巴结（lymph nodes）。  
-C. sweat glands. / 汗腺（sweat glands）。 ✅  
-D. endocrine glands. / 内分泌腺（endocrine glands）。  
+A. oil glands. / 油脂腺（oil glands）  
+B. lymph nodes. / 淋巴结（lymph nodes）  
+C. sweat glands. / 汗腺（sweat glands） ✅  
+D. endocrine glands. / 内分泌腺（endocrine glands）  
 *Why:* Sudoriferous glands are sweat glands. Each has a coiled base and a tube-like duct that opens at the skin surface as a sweat pore.  
 *为什么:* sudoriferous glands（汗腺）就是 sweat glands。每个汗腺有一个盘绕的底部和一根管状导管，开口在皮肤表面形成汗孔。  
 *Lock this (contrast):* Sudoriferous = sweat glands. Sebaceous = oil glands; they make sebum. Two S words: don't mix them up.  
@@ -124,10 +124,10 @@ D. Sensation / 感觉（sensation）
 
 **11. A flat spot of color on the skin, such as a freckle, is a**  
 皮肤上平的色斑，例如雀斑，叫什么？  
-A. papule. / 丘疹（papule）。  
-B. vesicle. / 水疱（vesicle）。  
-C. wheal. / 风团（wheal）。  
-D. macule. / 斑疹（macule）。 ✅  
+A. papule. / 丘疹（papule）  
+B. vesicle. / 水疱（vesicle）  
+C. wheal. / 风团（wheal）  
+D. macule. / 斑疹（macule） ✅  
 *Why:* A macule is a flat spot or discoloration on the skin, such as a freckle or age spot. It is neither raised nor sunken.  
 *为什么:* macule（斑疹）是皮肤上平的斑点或变色，例如雀斑或老年斑，既不凸起也不凹陷。  
 *Lock this (body-cue):* Touch a freckle: you can see it but not feel it. That flat spot is a macule.  
@@ -148,10 +148,10 @@ D. Athlete's foot / 足癣（athlete's foot）
 
 **13. A crack in the skin that reaches the dermis, like chapped hands, is a**  
 深达真皮的皮肤裂口，例如手部皲裂，叫什么？  
-A. fissure. / 皲裂（fissure）。 ✅  
-B. scale. / 鳞屑（scale）。  
-C. crust. / 痂（crust）。  
-D. excoriation. / 抓伤（excoriation）。  
+A. fissure. / 皲裂（fissure） ✅  
+B. scale. / 鳞屑（scale）  
+C. crust. / 痂（crust）  
+D. excoriation. / 抓伤（excoriation）  
 *Why:* A fissure is a crack in the skin that penetrates the dermis, as in severely cracked or chapped hands, lips, or feet.  
 *为什么:* fissure（皲裂）是深入到真皮的皮肤裂口，例如严重开裂或皲裂的手、嘴唇或脚。  
 *Lock this (picture):* Picture chapped lips that crack in winter. Fissure = crack. Crust = scab. Scale = dry flakes.  
@@ -172,10 +172,10 @@ D. Papule / 丘疹（papule）
 
 **15. Foul-smelling sweat, often noticed on the feet, is**  
 气味难闻的汗液，常见于脚部，叫什么？  
-A. anhidrosis. / 无汗症（anhidrosis）。  
-B. hyperhidrosis. / 多汗症（hyperhidrosis）。  
-C. miliaria rubra. / 红痱（miliaria rubra）。  
-D. bromhidrosis. / 臭汗症（bromhidrosis）。 ✅  
+A. anhidrosis. / 无汗症（anhidrosis）  
+B. hyperhidrosis. / 多汗症（hyperhidrosis）  
+C. miliaria rubra. / 红痱（miliaria rubra）  
+D. bromhidrosis. / 臭汗症（bromhidrosis） ✅  
 *Why:* Bromhidrosis is sweat that smells bad, often on the feet. It is the only one about smell. Anhidrosis is too little sweat. Hyperhidrosis is too much. Miliaria rubra is an itchy red heat rash.  
 *为什么:* bromhidrosis（臭汗症）是有臭味的汗，常出现在脚上。只有它跟气味有关。anhidrosis（无汗症）是汗太少。hyperhidrosis（多汗症）是汗太多。miliaria rubra（红痱）是又红又痒的热疹（痱子）。  
 *Lock this (word-parts):* -Hidrosis = sweating. An- = no sweat, hyper- = too much sweat, brom- = bad-smelling sweat.  
@@ -196,10 +196,10 @@ D. Lungs / 肺
 
 **17. Dark, flat spots wrongly called "liver spots" are**  
 被误称为“肝斑”（liver spots）的平坦深色斑点是  
-A. chloasma. / 黄褐斑（chloasma）。 ✅  
-B. vitiligo. / 白癜风（vitiligo）。  
-C. leukoderma. / 白斑病（leukoderma）。  
-D. a nevus. / 胎记（nevus）。  
+A. chloasma. / 黄褐斑（chloasma） ✅  
+B. vitiligo. / 白癜风（vitiligo）  
+C. leukoderma. / 白斑病（leukoderma）  
+D. a nevus. / 胎记（nevus）  
 *Why:* Chloasma is increased pigmentation: dark spots that are not raised. They are generally pools of melanin caused by years of sun exposure.  
 *为什么:* chloasma（黄褐斑）是色素增加形成的不凸起的深色斑点，通常是长期日晒造成的黑色素沉积。  
 *Lock this (contrast):* Chloasma = too much color: dark spots. Vitiligo and leukoderma = lost color: white patches.  
@@ -208,10 +208,10 @@ D. a nevus. / 胎记（nevus）。
 
 **18. The most common and least severe type of skin cancer is**  
 最常见、也最不严重的皮肤癌是  
-A. malignant melanoma. / 恶性黑色素瘤（malignant melanoma）。  
-B. basal cell carcinoma. / 基底细胞癌（basal cell carcinoma）。 ✅  
-C. squamous cell carcinoma. / 鳞状细胞癌（squamous cell carcinoma）。  
-D. a normal mole. / 普通的痣（mole）。  
+A. malignant melanoma. / 恶性黑色素瘤（malignant melanoma）  
+B. basal cell carcinoma. / 基底细胞癌（basal cell carcinoma） ✅  
+C. squamous cell carcinoma. / 鳞状细胞癌（squamous cell carcinoma）  
+D. a normal mole. / 普通的痣（mole）  
 *Why:* Basal cell carcinoma is the most common and least severe skin cancer, often light, pearly nodules. Squamous cell is more serious; malignant melanoma is the most serious.  
 *为什么:* basal cell carcinoma（基底细胞癌）是最常见、最不严重的皮肤癌，常呈浅色、珍珠样结节。鳞状细胞癌更严重，恶性黑色素瘤最严重。  
 *Lock this (picture):* Picture a ladder of danger: basal cell on the bottom step, squamous cell in the middle, melanoma at the top.  
@@ -232,10 +232,10 @@ D. Allergy / 过敏（Allergy）
 
 **20. Verruca is the technical term for a**  
 verruca 是什么的专业名称？  
-A. freckle. / 雀斑（freckle）。  
-B. birthmark. / 胎记（birthmark）。  
-C. mole. / 痣（mole）。  
-D. wart. / 疣（wart）。 ✅  
+A. freckle. / 雀斑（freckle）  
+B. birthmark. / 胎记（birthmark）  
+C. mole. / 痣（mole）  
+D. wart. / 疣（wart） ✅  
 *Why:* Verruca is a wart, caused by a virus. It is infectious and can spread from one spot to another, especially along a scratch in the skin.  
 *为什么:* verruca（疣）是由病毒引起的。它有传染性，会从一处扩散到另一处，尤其容易沿着皮肤上的抓痕蔓延。  
 *Lock this (contrast):* Verruca = wart, from a virus, so it can spread. Freckles, moles and birthmarks are only color spots.  

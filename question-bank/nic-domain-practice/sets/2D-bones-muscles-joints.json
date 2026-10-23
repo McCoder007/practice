@@ -28,22 +28,22 @@
         {
           "id": "a",
           "en": "humerus.",
-          "zh": "肱骨（humerus）。"
+          "zh": "肱骨（humerus）"
         },
         {
           "id": "b",
           "en": "radius.",
-          "zh": "桡骨（radius）。"
+          "zh": "桡骨（radius）"
         },
         {
           "id": "c",
           "en": "ulna.",
-          "zh": "尺骨（ulna）。"
+          "zh": "尺骨（ulna）"
         },
         {
           "id": "d",
           "en": "carpus.",
-          "zh": "腕骨（carpus）。"
+          "zh": "腕骨（carpus）"
         }
       ],
       "correctChoice": "a",
@@ -136,22 +136,22 @@
         {
           "id": "a",
           "en": "ulna.",
-          "zh": "尺骨（ulna）。"
+          "zh": "尺骨（ulna）"
         },
         {
           "id": "b",
           "en": "radius.",
-          "zh": "桡骨（radius）。"
+          "zh": "桡骨（radius）"
         },
         {
           "id": "c",
           "en": "humerus.",
-          "zh": "肱骨（humerus）。"
+          "zh": "肱骨（humerus）"
         },
         {
           "id": "d",
           "en": "metacarpus.",
-          "zh": "掌骨（metacarpus）。"
+          "zh": "掌骨（metacarpus）"
         }
       ],
       "correctChoice": "b",
@@ -274,22 +274,22 @@
         {
           "id": "a",
           "en": "carpus.",
-          "zh": "腕骨（carpus）。"
+          "zh": "腕骨（carpus）"
         },
         {
           "id": "b",
           "en": "phalanges.",
-          "zh": "指骨（phalanges）。"
+          "zh": "指骨（phalanges）"
         },
         {
           "id": "c",
           "en": "tarsals.",
-          "zh": "跗骨（tarsals）。"
+          "zh": "跗骨（tarsals）"
         },
         {
           "id": "d",
           "en": "metacarpus.",
-          "zh": "掌骨（metacarpus）。"
+          "zh": "掌骨（metacarpus）"
         }
       ],
       "correctChoice": "d",
@@ -328,22 +328,22 @@
         {
           "id": "a",
           "en": "metacarpals.",
-          "zh": "掌骨（metacarpals）。"
+          "zh": "掌骨（metacarpals）"
         },
         {
           "id": "b",
           "en": "phalanges.",
-          "zh": "指骨/趾骨（phalanges）。"
+          "zh": "指骨/趾骨（phalanges）"
         },
         {
           "id": "c",
           "en": "tarsals.",
-          "zh": "跗骨（tarsals）。"
+          "zh": "跗骨（tarsals）"
         },
         {
           "id": "d",
           "en": "carpals.",
-          "zh": "腕骨（carpals）。"
+          "zh": "腕骨（carpals）"
         }
       ],
       "correctChoice": "b",
@@ -392,22 +392,22 @@
         {
           "id": "a",
           "en": "extensors.",
-          "zh": "伸肌（extensors）。"
+          "zh": "伸肌（extensors）"
         },
         {
           "id": "b",
           "en": "flexors.",
-          "zh": "屈肌（flexors）。"
+          "zh": "屈肌（flexors）"
         },
         {
           "id": "c",
           "en": "adductors.",
-          "zh": "内收肌（adductors）。"
+          "zh": "内收肌（adductors）"
         },
         {
           "id": "d",
           "en": "pronators.",
-          "zh": "旋前肌（pronators）。"
+          "zh": "旋前肌（pronators）"
         }
       ],
       "correctChoice": "a",
@@ -450,22 +450,22 @@
         {
           "id": "a",
           "en": "fibula.",
-          "zh": "腓骨（fibula）。"
+          "zh": "腓骨（fibula）"
         },
         {
           "id": "b",
           "en": "femur.",
-          "zh": "股骨（femur）。"
+          "zh": "股骨（femur）"
         },
         {
           "id": "c",
           "en": "tibia.",
-          "zh": "胫骨（tibia）。"
+          "zh": "胫骨（tibia）"
         },
         {
           "id": "d",
           "en": "patella.",
-          "zh": "髌骨（patella）。"
+          "zh": "髌骨（patella）"
         }
       ],
       "correctChoice": "c",
@@ -634,22 +634,22 @@
         {
           "id": "a",
           "en": "tibia.",
-          "zh": "胫骨（tibia）。"
+          "zh": "胫骨（tibia）"
         },
         {
           "id": "b",
           "en": "fibula.",
-          "zh": "腓骨（fibula）。"
+          "zh": "腓骨（fibula）"
         },
         {
           "id": "c",
           "en": "femur.",
-          "zh": "股骨（femur）。"
+          "zh": "股骨（femur）"
         },
         {
           "id": "d",
           "en": "patella.",
-          "zh": "髌骨（patella）。"
+          "zh": "髌骨（patella）"
         }
       ],
       "correctChoice": "c",
@@ -766,22 +766,22 @@
         {
           "id": "a",
           "en": "origin.",
-          "zh": "起点（origin）。"
+          "zh": "起点（origin）"
         },
         {
           "id": "b",
           "en": "insertion.",
-          "zh": "止点（insertion）。"
+          "zh": "止点（insertion）"
         },
         {
           "id": "c",
           "en": "belly.",
-          "zh": "肌腹（belly）。"
+          "zh": "肌腹（belly）"
         },
         {
           "id": "d",
           "en": "ligament.",
-          "zh": "韧带（ligament）。"
+          "zh": "韧带（ligament）"
         }
       ],
       "correctChoice": "a",
@@ -824,22 +824,22 @@
         {
           "id": "a",
           "en": "adductors.",
-          "zh": "内收肌（adductors）。"
+          "zh": "内收肌（adductors）"
         },
         {
           "id": "b",
           "en": "extensors.",
-          "zh": "伸肌（extensors）。"
+          "zh": "伸肌（extensors）"
         },
         {
           "id": "c",
           "en": "abductors.",
-          "zh": "外展肌（abductors）。"
+          "zh": "外展肌（abductors）"
         },
         {
           "id": "d",
           "en": "pronators.",
-          "zh": "旋前肌（pronators）。"
+          "zh": "旋前肌（pronators）"
         }
       ],
       "correctChoice": "c",
@@ -940,22 +940,22 @@
         {
           "id": "a",
           "en": "bicep.",
-          "zh": "肱二头肌（bicep）。"
+          "zh": "肱二头肌（bicep）"
         },
         {
           "id": "b",
           "en": "tricep.",
-          "zh": "肱三头肌（tricep）。"
+          "zh": "肱三头肌（tricep）"
         },
         {
           "id": "c",
           "en": "pectoralis major.",
-          "zh": "胸大肌（pectoralis major）。"
+          "zh": "胸大肌（pectoralis major）"
         },
         {
           "id": "d",
           "en": "deltoid.",
-          "zh": "三角肌（deltoid）。"
+          "zh": "三角肌（deltoid）"
         }
       ],
       "correctChoice": "d",

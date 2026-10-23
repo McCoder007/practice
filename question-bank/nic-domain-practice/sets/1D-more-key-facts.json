@@ -107,22 +107,22 @@
         {
           "id": "a",
           "en": "a local infection.",
-          "zh": "局部感染（local infection）。"
+          "zh": "局部感染（local infection）"
         },
         {
           "id": "b",
           "en": "a systemic infection.",
-          "zh": "全身性感染（systemic infection）。"
+          "zh": "全身性感染（systemic infection）"
         },
         {
           "id": "c",
           "en": "a viral infection.",
-          "zh": "病毒感染（viral infection）。"
+          "zh": "病毒感染（viral infection）"
         },
         {
           "id": "d",
           "en": "an occupational disease.",
-          "zh": "职业病（occupational disease）。"
+          "zh": "职业病（occupational disease）"
         }
       ],
       "correctChoice": "a",
@@ -179,22 +179,22 @@
         {
           "id": "a",
           "en": "heat-and-pressure process in an autoclave.",
-          "zh": "在高压灭菌器（autoclave）里用高温高压的过程。"
+          "zh": "在高压灭菌器（autoclave）里用高温高压的过程"
         },
         {
           "id": "b",
           "en": "chemical process that destroys most germs.",
-          "zh": "能消灭大多数病菌的化学过程。"
+          "zh": "能消灭大多数病菌的化学过程"
         },
         {
           "id": "c",
           "en": "chemical process that destroys all spores.",
-          "zh": "能消灭所有芽孢的化学过程。"
+          "zh": "能消灭所有芽孢的化学过程"
         },
         {
           "id": "d",
           "en": "mechanical process that removes dirt.",
-          "zh": "去除脏污的机械过程（mechanical process）。"
+          "zh": "去除脏污的机械过程（mechanical process）"
         }
       ],
       "correctChoice": "d",
@@ -327,22 +327,22 @@
         {
           "id": "a",
           "en": "sterilize them.",
-          "zh": "让它们达到灭菌。"
+          "zh": "让它们达到灭菌"
         },
         {
           "id": "b",
           "en": "make the solution stronger.",
-          "zh": "让消毒液变得更强。"
+          "zh": "让消毒液变得更强"
         },
         {
           "id": "c",
           "en": "dull or damage them.",
-          "zh": "让它们变钝或损坏。"
+          "zh": "让它们变钝或损坏"
         },
         {
           "id": "d",
           "en": "make them rust-proof.",
-          "zh": "让它们不会生锈。"
+          "zh": "让它们不会生锈"
         }
       ],
       "correctChoice": "c",
@@ -603,22 +603,22 @@
         {
           "id": "a",
           "en": "an exposure incident.",
-          "zh": "暴露事件（exposure incident）。"
+          "zh": "暴露事件（exposure incident）"
         },
         {
           "id": "b",
           "en": "an occupational disease.",
-          "zh": "职业病（occupational disease）。"
+          "zh": "职业病（occupational disease）"
         },
         {
           "id": "c",
           "en": "a contraindication.",
-          "zh": "禁忌症（contraindication）。"
+          "zh": "禁忌症（contraindication）"
         },
         {
           "id": "d",
           "en": "a systemic infection.",
-          "zh": "全身性感染（systemic infection）。"
+          "zh": "全身性感染（systemic infection）"
         }
       ],
       "correctChoice": "a",
@@ -667,22 +667,22 @@
         {
           "id": "a",
           "en": "wipe it with alcohol.",
-          "zh": "用酒精擦一擦。"
+          "zh": "用酒精擦一擦"
         },
         {
           "id": "b",
           "en": "rinse it under hot water.",
-          "zh": "用热水冲一冲。"
+          "zh": "用热水冲一冲"
         },
         {
           "id": "c",
           "en": "clean it, then disinfect it.",
-          "zh": "先清洁，再消毒。"
+          "zh": "先清洁，再消毒"
         },
         {
           "id": "d",
           "en": "throw it away.",
-          "zh": "把它扔掉。"
+          "zh": "把它扔掉"
         }
       ],
       "correctChoice": "c",
@@ -823,22 +823,22 @@
         {
           "id": "a",
           "en": "gripping implements very tightly.",
-          "zh": "把工具握得很紧。"
+          "zh": "把工具握得很紧"
         },
         {
           "id": "b",
           "en": "proper ergonomics.",
-          "zh": "正确的人体工学（ergonomics）。"
+          "zh": "正确的人体工学（ergonomics）"
         },
         {
           "id": "c",
           "en": "bending forward toward the client.",
-          "zh": "身体前倾靠近客人。"
+          "zh": "身体前倾靠近客人"
         },
         {
           "id": "d",
           "en": "holding your arms away from your body.",
-          "zh": "手臂远离身体。"
+          "zh": "手臂远离身体"
         }
       ],
       "correctChoice": "b",

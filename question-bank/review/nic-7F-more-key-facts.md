@@ -52,10 +52,10 @@ D. Slide it off with a wooden pusher / 用木棒（wooden pusher）把它推下�
 
 **5. Compared with a thick nail resin, a thin resin**  
 和较稠的甲用树脂相比，较稀的树脂  
-A. sticks less and cures slower. / 粘得较差，固化较慢。  
-B. is used to build the apex. / 用来做甲峰。  
-C. sticks better and cures faster. / 粘得更好，固化更快。 ✅  
-D. always needs an accelerator to cure. / 一定要用加速剂才能固化。  
+A. sticks less and cures slower. / 粘得较差，固化较慢  
+B. is used to build the apex. / 用来做甲峰  
+C. sticks better and cures faster. / 粘得更好，固化更快 ✅  
+D. always needs an accelerator to cure. / 一定要用加速剂才能固化  
 *Why:* Viscosity means how thick the resin is. The thinner it is, the better it sticks and the faster it cures. Thin resin is a base. Thick resin is for building or a topcoat.  
 *为什么:* viscosity（黏度）就是树脂的稠度。越稀，附着越好、固化越快。稀的树脂做底层。稠的树脂用来做结构或当封层。  
 *Lock this (comparison):* Water vs. honey: water runs into tiny gaps fast. Thin resin acts like water: sticks better, cures faster.  
@@ -64,10 +64,10 @@ D. always needs an accelerator to cure. / 一定要用加速剂才能固化。
 
 **6. Between enhancement product and the living skin, leave a free margin of about**  
 美甲产品和活皮肤之间，要留出大约多宽的空隙？  
-A. 1/16 inch. / 1/16 英寸。 ✅  
-B. 1/2 inch. / 1/2 英寸。  
-C. 1 inch. / 1 英寸。  
-D. no gap at all. / 完全不留空隙。  
+A. 1/16 inch. / 1/16 英寸 ✅  
+B. 1/2 inch. / 1/2 英寸  
+C. 1 inch. / 1 英寸  
+D. no gap at all. / 完全不留空隙  
 *Why:* Milady says to always leave a tiny free margin, about 1/16 inch, from the living skin. Each time product touches skin, the risk of skin sensitization goes up.  
 *为什么:* Milady 要求产品和活皮肤之间永远留一条很小的空隙（free margin），约 1/16 英寸。产品每碰一次皮肤，致敏（sensitization）的风险就增加一次。  
 *Lock this (picture):* 1/16 inch is about the thickness of a penny: tiny, but enough to keep product off the skin.  

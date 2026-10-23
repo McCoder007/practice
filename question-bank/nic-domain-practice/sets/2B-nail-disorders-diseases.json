@@ -28,22 +28,22 @@
         {
           "id": "a",
           "en": "Soak it, then work gently.",
-          "zh": "先浸泡，再轻柔操作。"
+          "zh": "先浸泡，再轻柔操作"
         },
         {
           "id": "b",
           "en": "Do the service very carefully.",
-          "zh": "非常小心地照常服务。"
+          "zh": "非常小心地照常服务"
         },
         {
           "id": "c",
           "en": "Refuse service and refer to a physician.",
-          "zh": "拒绝服务，并建议去看医生。"
+          "zh": "拒绝服务，并建议去看医生"
         },
         {
           "id": "d",
           "en": "Apply antiseptic and continue.",
-          "zh": "涂抗菌剂后继续服务。"
+          "zh": "涂抗菌剂后继续服务"
         }
       ],
       "correctChoice": "c",
@@ -92,22 +92,22 @@
         {
           "id": "a",
           "en": "No, that is diagnosing.",
-          "zh": "不可以，那属于诊断。"
+          "zh": "不可以，那属于诊断"
         },
         {
           "id": "b",
           "en": "Yes, if you are sure.",
-          "zh": "可以，只要你有把握。"
+          "zh": "可以，只要你有把握"
         },
         {
           "id": "c",
           "en": "Yes, if the client signs a waiver.",
-          "zh": "可以，只要顾客签免责书。"
+          "zh": "可以，只要顾客签免责书"
         },
         {
           "id": "d",
           "en": "No, but you may suggest a treatment.",
-          "zh": "不可以，但可以推荐治疗方法。"
+          "zh": "不可以，但可以推荐治疗方法"
         }
       ],
       "correctChoice": "a",
@@ -160,22 +160,22 @@
         {
           "id": "a",
           "en": "ridged nails.",
-          "zh": "甲纵嵴（ridged nails）。"
+          "zh": "甲纵嵴（ridged nails）"
         },
         {
           "id": "b",
           "en": "splinter hemorrhages.",
-          "zh": "裂片形出血（splinter hemorrhages）。"
+          "zh": "裂片形出血（splinter hemorrhages）"
         },
         {
           "id": "c",
           "en": "leukonychia.",
-          "zh": "白甲（leukonychia）。"
+          "zh": "白甲（leukonychia）"
         },
         {
           "id": "d",
           "en": "Beau's lines.",
-          "zh": "博氏线（Beau's lines）。"
+          "zh": "博氏线（Beau's lines）"
         }
       ],
       "correctChoice": "d",
@@ -282,22 +282,22 @@
         {
           "id": "a",
           "en": "onychia.",
-          "zh": "甲母质炎（onychia）。"
+          "zh": "甲母质炎（onychia）"
         },
         {
           "id": "b",
           "en": "paronychia.",
-          "zh": "甲沟炎（paronychia）。"
+          "zh": "甲沟炎（paronychia）"
         },
         {
           "id": "c",
           "en": "onychomycosis.",
-          "zh": "甲真菌病（onychomycosis）。"
+          "zh": "甲真菌病（onychomycosis）"
         },
         {
           "id": "d",
           "en": "onychophagy.",
-          "zh": "咬甲癖（onychophagy）。"
+          "zh": "咬甲癖（onychophagy）"
         }
       ],
       "correctChoice": "a",
@@ -400,22 +400,22 @@
         {
           "id": "a",
           "en": "a fungal infection.",
-          "zh": "真菌感染。"
+          "zh": "真菌感染"
         },
         {
           "id": "b",
           "en": "a bacterial infection.",
-          "zh": "细菌感染。"
+          "zh": "细菌感染"
         },
         {
           "id": "c",
           "en": "minor injury to the matrix.",
-          "zh": "甲母质受到轻微损伤。"
+          "zh": "甲母质受到轻微损伤"
         },
         {
           "id": "d",
           "en": "an allergic reaction.",
-          "zh": "过敏反应。"
+          "zh": "过敏反应"
         }
       ],
       "correctChoice": "c",
@@ -458,22 +458,22 @@
         {
           "id": "a",
           "en": "leukonychia.",
-          "zh": "白甲（leukonychia）。"
+          "zh": "白甲（leukonychia）"
         },
         {
           "id": "b",
           "en": "melanonychia.",
-          "zh": "黑甲（melanonychia）。"
+          "zh": "黑甲（melanonychia）"
         },
         {
           "id": "c",
           "en": "Beau's lines.",
-          "zh": "博氏线（Beau's lines）。"
+          "zh": "博氏线（Beau's lines）"
         },
         {
           "id": "d",
           "en": "a bruised nail bed.",
-          "zh": "甲床瘀伤（bruised nail bed）。"
+          "zh": "甲床瘀伤（bruised nail bed）"
         }
       ],
       "correctChoice": "b",
@@ -520,22 +520,22 @@
         {
           "id": "a",
           "en": "a hangnail.",
-          "zh": "倒刺（hangnail）。"
+          "zh": "倒刺（hangnail）"
         },
         {
           "id": "b",
           "en": "paronychia.",
-          "zh": "甲沟炎（paronychia）。"
+          "zh": "甲沟炎（paronychia）"
         },
         {
           "id": "c",
           "en": "onychorrhexis.",
-          "zh": "脆甲（onychorrhexis）。"
+          "zh": "脆甲（onychorrhexis）"
         },
         {
           "id": "d",
           "en": "nail pterygium.",
-          "zh": "甲胬肉（nail pterygium）。"
+          "zh": "甲胬肉（nail pterygium）"
         }
       ],
       "correctChoice": "d",
@@ -578,22 +578,22 @@
         {
           "id": "a",
           "en": "bitten nails.",
-          "zh": "咬指甲（咬甲癖）。"
+          "zh": "咬指甲（咬甲癖）"
         },
         {
           "id": "b",
           "en": "split nails.",
-          "zh": "裂甲。"
+          "zh": "裂甲"
         },
         {
           "id": "c",
           "en": "ingrown nails.",
-          "zh": "嵌甲。"
+          "zh": "嵌甲"
         },
         {
           "id": "d",
           "en": "fungal nails.",
-          "zh": "真菌感染的指甲。"
+          "zh": "真菌感染的指甲"
         }
       ],
       "correctChoice": "a",
@@ -632,22 +632,22 @@
         {
           "id": "a",
           "en": "onychophagy.",
-          "zh": "咬甲癖（onychophagy）。"
+          "zh": "咬甲癖（onychophagy）"
         },
         {
           "id": "b",
           "en": "onycholysis.",
-          "zh": "甲剥离（onycholysis）。"
+          "zh": "甲剥离（onycholysis）"
         },
         {
           "id": "c",
           "en": "onychorrhexis.",
-          "zh": "脆甲（onychorrhexis）。"
+          "zh": "脆甲（onychorrhexis）"
         },
         {
           "id": "d",
           "en": "onychocryptosis.",
-          "zh": "嵌甲（onychocryptosis）。"
+          "zh": "嵌甲（onychocryptosis）"
         }
       ],
       "correctChoice": "c",
@@ -690,22 +690,22 @@
         {
           "id": "a",
           "en": "an eggshell nail.",
-          "zh": "蛋壳甲（eggshell nail）。"
+          "zh": "蛋壳甲（eggshell nail）"
         },
         {
           "id": "b",
           "en": "a pincer nail.",
-          "zh": "钳甲（pincer nail）。"
+          "zh": "钳甲（pincer nail）"
         },
         {
           "id": "c",
           "en": "a ridged nail.",
-          "zh": "甲纵嵴（ridged nail）。"
+          "zh": "甲纵嵴（ridged nail）"
         },
         {
           "id": "d",
           "en": "leukonychia.",
-          "zh": "白甲（leukonychia）。"
+          "zh": "白甲（leukonychia）"
         }
       ],
       "correctChoice": "b",
@@ -748,22 +748,22 @@
         {
           "id": "a",
           "en": "Filing thins and weakens the whole plate.",
-          "zh": "锉平会让整片甲板变薄变弱。"
+          "zh": "锉平会让整片甲板变薄变弱"
         },
         {
           "id": "b",
           "en": "They are a sign of infection.",
-          "zh": "它们是感染的迹象。"
+          "zh": "它们是感染的迹象"
         },
         {
           "id": "c",
           "en": "Filing makes them grow back faster.",
-          "zh": "锉了会长得更快。"
+          "zh": "锉了会长得更快"
         },
         {
           "id": "d",
           "en": "They are part of the nail bed.",
-          "zh": "它们是甲床的一部分。"
+          "zh": "它们是甲床的一部分"
         }
       ],
       "correctChoice": "a",
@@ -802,22 +802,22 @@
         {
           "id": "a",
           "en": "a wood splinter under the nail.",
-          "zh": "指甲下扎进木刺。"
+          "zh": "指甲下扎进木刺"
         },
         {
           "id": "b",
           "en": "a fungal infection.",
-          "zh": "真菌感染。"
+          "zh": "真菌感染"
         },
         {
           "id": "c",
           "en": "a bacterial infection.",
-          "zh": "细菌感染。"
+          "zh": "细菌感染"
         },
         {
           "id": "d",
           "en": "trauma that damages nail bed capillaries.",
-          "zh": "外伤损伤甲床毛细血管。"
+          "zh": "外伤损伤甲床毛细血管"
         }
       ],
       "correctChoice": "d",
@@ -860,22 +860,22 @@
         {
           "id": "a",
           "en": "cover it with an enhancement.",
-          "zh": "用延长甲把它盖住。"
+          "zh": "用延长甲把它盖住"
         },
         {
           "id": "b",
           "en": "file it smooth and polish it.",
-          "zh": "把它锉平再涂指甲油。"
+          "zh": "把它锉平再涂指甲油"
         },
         {
           "id": "c",
           "en": "refer the client to a physician.",
-          "zh": "建议顾客去看医生。"
+          "zh": "建议顾客去看医生"
         },
         {
           "id": "d",
           "en": "treat it with cuticle oil.",
-          "zh": "用护甲油处理。"
+          "zh": "用护甲油处理"
         }
       ],
       "correctChoice": "c",
@@ -938,22 +938,22 @@
         {
           "id": "a",
           "en": "bitten nails.",
-          "zh": "咬指甲。"
+          "zh": "咬指甲"
         },
         {
           "id": "b",
           "en": "ingrown nails.",
-          "zh": "嵌甲（指甲长进肉里）。"
+          "zh": "嵌甲（指甲长进肉里）"
         },
         {
           "id": "c",
           "en": "fungal nails.",
-          "zh": "真菌感染的指甲。"
+          "zh": "真菌感染的指甲"
         },
         {
           "id": "d",
           "en": "brittle nails.",
-          "zh": "易碎的指甲。"
+          "zh": "易碎的指甲"
         }
       ],
       "correctChoice": "b",
@@ -1002,22 +1002,22 @@
         {
           "id": "a",
           "en": "a bacterial infection around the nail.",
-          "zh": "指甲周围的细菌感染。"
+          "zh": "指甲周围的细菌感染"
         },
         {
           "id": "b",
           "en": "an inflammation of the matrix.",
-          "zh": "甲母质发炎。"
+          "zh": "甲母质发炎"
         },
         {
           "id": "c",
           "en": "a separation of plate and bed.",
-          "zh": "甲板与甲床分离。"
+          "zh": "甲板与甲床分离"
         },
         {
           "id": "d",
           "en": "a fungal infection of the nail plate.",
-          "zh": "甲板的真菌感染。"
+          "zh": "甲板的真菌感染"
         }
       ],
       "correctChoice": "d",
@@ -1060,22 +1060,22 @@
         {
           "id": "a",
           "en": "paronychia.",
-          "zh": "甲沟炎（paronychia）。"
+          "zh": "甲沟炎（paronychia）"
         },
         {
           "id": "b",
           "en": "onychia.",
-          "zh": "甲母质炎（onychia）。"
+          "zh": "甲母质炎（onychia）"
         },
         {
           "id": "c",
           "en": "onychomycosis.",
-          "zh": "甲真菌病（onychomycosis）。"
+          "zh": "甲真菌病（onychomycosis）"
         },
         {
           "id": "d",
           "en": "leukonychia.",
-          "zh": "白甲（leukonychia）。"
+          "zh": "白甲（leukonychia）"
         }
       ],
       "correctChoice": "a",
@@ -1122,22 +1122,22 @@
         {
           "id": "a",
           "en": "fungus.",
-          "zh": "真菌。"
+          "zh": "真菌"
         },
         {
           "id": "b",
           "en": "bacterium.",
-          "zh": "细菌。"
+          "zh": "细菌"
         },
         {
           "id": "c",
           "en": "virus.",
-          "zh": "病毒。"
+          "zh": "病毒"
         },
         {
           "id": "d",
           "en": "parasite.",
-          "zh": "寄生虫。"
+          "zh": "寄生虫"
         }
       ],
       "correctChoice": "b",
@@ -1180,22 +1180,22 @@
         {
           "id": "a",
           "en": "leukonychia.",
-          "zh": "白甲（leukonychia）。"
+          "zh": "白甲（leukonychia）"
         },
         {
           "id": "b",
           "en": "an eggshell nail.",
-          "zh": "蛋壳甲（eggshell nail）。"
+          "zh": "蛋壳甲（eggshell nail）"
         },
         {
           "id": "c",
           "en": "nail psoriasis.",
-          "zh": "甲银屑病（nail psoriasis）。"
+          "zh": "甲银屑病（nail psoriasis）"
         },
         {
           "id": "d",
           "en": "onychophagy.",
-          "zh": "咬甲癖（onychophagy）。"
+          "zh": "咬甲癖（onychophagy）"
         }
       ],
       "correctChoice": "c",

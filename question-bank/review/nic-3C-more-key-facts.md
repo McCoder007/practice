@@ -4,10 +4,10 @@ Chemistry of Nail Products · 6 questions · status: reviewed
 
 **1. The chemical reaction that joins monomers into polymers is called**  
 把单体（monomers）连接成聚合物（polymers）的化学反应叫什么？  
-A. evaporation. / 蒸发（evaporation）。  
-B. polymerization. / 聚合（polymerization）。 ✅  
-C. condensation. / 冷凝（condensation）。  
-D. neutralization. / 中和（neutralization）。  
+A. evaporation. / 蒸发（evaporation）  
+B. polymerization. / 聚合（polymerization） ✅  
+C. condensation. / 冷凝（condensation）  
+D. neutralization. / 中和（neutralization）  
 *Why:* Polymerization is the reaction where small monomers join into long chains called polymers. It is how acrylic and gel get hard, so Milady also calls it curing or hardening.  
 *为什么:* polymerization（聚合）就是小小的单体（monomers）连成长链、变成聚合物（polymers）的反应。丙烯酸甲（acrylic）和凝胶（gel）就是这样变硬的，所以 Milady 也把它叫作固化（curing）或变硬（hardening）。  
 *Lock this (real-life):* Polymer + -ization = making polymers. Every time acrylic or gel hardens on a nail, that is polymerization.  
@@ -16,10 +16,10 @@ D. neutralization. / 中和（neutralization）。
 
 **2. Water is called the universal solvent because it**  
 水被称为万能溶剂（universal solvent），是因为它——  
-A. mixes well with oils and waxes. / 能和油、蜡很好地混合。  
-B. never turns into a vapor. / 永远不会变成蒸气。  
-C. speeds up every chemical reaction. / 能加快所有化学反应。  
-D. dissolves more substances than any other solvent. / 能溶解的物质比任何其他溶剂都多。 ✅  
+A. mixes well with oils and waxes. / 能和油、蜡很好地混合  
+B. never turns into a vapor. / 永远不会变成蒸气  
+C. speeds up every chemical reaction. / 能加快所有化学反应  
+D. dissolves more substances than any other solvent. / 能溶解的物质比任何其他溶剂都多 ✅  
 *Why:* Water dissolves more substances than any other solvent, so it is called the universal solvent. For example, salt dissolves in water: water is the solvent, salt is the solute.  
 *为什么:* 水能溶解的物质比任何其他溶剂都多，所以被称为万能溶剂（universal solvent）。比如盐能溶在水里：水是溶剂（solvent），盐是溶质（solute）。  
 *Lock this (name-trap):* Universal does not mean everything. Water dissolves salt, but not oil.  
@@ -40,10 +40,10 @@ D. Plasticizers / 增塑剂（plasticizers）
 
 **4. In nail chemistry, fumes are a blend of**  
 在美甲化学中，fumes（烟雾）是由什么混合而成的？  
-A. filing dust and polymer powder. / 锉甲粉尘和聚合物粉末。  
-B. water and acetone vapors. / 水和丙酮的蒸气。  
-C. soot-like particles and vapors. / 类似烟灰的颗粒和蒸气。 ✅  
-D. monomer liquid and oxygen. / 单体液和氧气。  
+A. filing dust and polymer powder. / 锉甲粉尘和聚合物粉末  
+B. water and acetone vapors. / 水和丙酮的蒸气  
+C. soot-like particles and vapors. / 类似烟灰的颗粒和蒸气 ✅  
+D. monomer liquid and oxygen. / 单体液和氧气  
 *Why:* Fumes are soot-like particles mixed with vapors. They usually come from burning things, like candles, incense, and cigarettes. Liquids that evaporate make vapors, not fumes.  
 *为什么:* fumes（烟雾）是类似烟灰的颗粒混合着蒸气，通常来自燃烧，比如蜡烛、熏香和香烟。液体蒸发只产生蒸气（vapors），不是烟雾。  
 *Lock this (picture):* Soot is the black dust a candle flame leaves. Fumes = soot + vapor. No soot? Then it's just vapor.  
@@ -52,10 +52,10 @@ D. monomer liquid and oxygen. / 单体液和氧气。
 
 **5. The main ingredients in most topcoats are**  
 大多数亮油（topcoat）的主要成分是  
-A. monomers and oligomers. / 单体和寡聚物（oligomers）。  
-B. sodium hydroxide and glycerin. / 氢氧化钠和甘油。  
-C. protein, such as collagen. / 蛋白质，例如胶原蛋白。  
-D. methacrylic or cellulose-type film formers. / 甲基丙烯酸类或纤维素类成膜剂（film formers）。 ✅  
+A. monomers and oligomers. / 单体和寡聚物（oligomers）  
+B. sodium hydroxide and glycerin. / 氢氧化钠和甘油  
+C. protein, such as collagen. / 蛋白质，例如胶原蛋白  
+D. methacrylic or cellulose-type film formers. / 甲基丙烯酸类或纤维素类成膜剂（film formers） ✅  
 *Why:* Topcoats use film formers, usually methacrylic or cellulose types. After the solvent evaporates, they leave a hard, shiny, or matte film. Topcoats contain no monomers or oligomers.  
 *为什么:* 亮油（topcoat）用的是成膜剂（film formers），通常是甲基丙烯酸类或纤维素类。溶剂蒸发后，留下坚硬、亮面或哑光的膜。亮油不含单体或寡聚物。  
 *Lock this (real-life):* Film former: the name tells the job. Like hairspray, it leaves a hard film when the liquid dries.  

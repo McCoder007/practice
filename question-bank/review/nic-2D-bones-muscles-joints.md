@@ -4,10 +4,10 @@ Anatomy and Physiology · 20 questions · status: reviewed
 
 **1. The uppermost and largest bone of the arm is the**  
 手臂最上面、最大的骨头是  
-A. humerus. / 肱骨（humerus）。 ✅  
-B. radius. / 桡骨（radius）。  
-C. ulna. / 尺骨（ulna）。  
-D. carpus. / 腕骨（carpus）。  
+A. humerus. / 肱骨（humerus） ✅  
+B. radius. / 桡骨（radius）  
+C. ulna. / 尺骨（ulna）  
+D. carpus. / 腕骨（carpus）  
 *Why:* The humerus is the uppermost and largest bone of the arm. It runs from the elbow to the shoulder.  
 *为什么:* humerus（肱骨）是手臂最上面、最大的骨头，从肘部一直延伸到肩部。  
 *Lock this (body-cue):* Squeeze your upper arm: one big bone from shoulder to elbow. The forearm has two: radius and ulna.  
@@ -28,10 +28,10 @@ D. Ulna / 尺骨（ulna） ✅
 
 **3. The forearm bone on the thumb side is the**  
 前臂位于拇指一侧的骨头是  
-A. ulna. / 尺骨（ulna）。  
-B. radius. / 桡骨（radius）。 ✅  
-C. humerus. / 肱骨（humerus）。  
-D. metacarpus. / 掌骨（metacarpus）。  
+A. ulna. / 尺骨（ulna）  
+B. radius. / 桡骨（radius） ✅  
+C. humerus. / 肱骨（humerus）  
+D. metacarpus. / 掌骨（metacarpus）  
 *Why:* The radius is the shorter of the two forearm bones. It is largest at the wrist and lies on the thumb side of the hand.  
 *为什么:* radius（桡骨）是前臂两根骨头中较短的一根，腕部一端最粗，位于手的拇指一侧。  
 *Lock this (real-life):* The radial nerve and radial artery also run on the thumb side. Take a wrist pulse there.  
@@ -52,10 +52,10 @@ D. Fourteen / 十四块
 
 **5. The bones of the palm of the hand are the**  
 手掌的骨头是  
-A. carpus. / 腕骨（carpus）。  
-B. phalanges. / 指骨（phalanges）。  
-C. tarsals. / 跗骨（tarsals）。  
-D. metacarpus. / 掌骨（metacarpus）。 ✅  
+A. carpus. / 腕骨（carpus）  
+B. phalanges. / 指骨（phalanges）  
+C. tarsals. / 跗骨（tarsals）  
+D. metacarpus. / 掌骨（metacarpus） ✅  
 *Why:* The metacarpus forms the palm: five bones between the wrist bones and the finger bones.  
 *为什么:* metacarpus（掌骨）是手掌的骨头：位于腕骨和手指骨之间的五块骨头。  
 *Lock this (word-parts):* Carpus = wrist. Meta-carpus = the bones after the wrist. Feel five long bones on the back of your hand.  
@@ -64,10 +64,10 @@ D. metacarpus. / 掌骨（metacarpus）。 ✅
 
 **6. The bones of the fingers and toes are called**  
 手指和脚趾的骨头叫什么？  
-A. metacarpals. / 掌骨（metacarpals）。  
-B. phalanges. / 指骨/趾骨（phalanges）。 ✅  
-C. tarsals. / 跗骨（tarsals）。  
-D. carpals. / 腕骨（carpals）。  
+A. metacarpals. / 掌骨（metacarpals）  
+B. phalanges. / 指骨/趾骨（phalanges） ✅  
+C. tarsals. / 跗骨（tarsals）  
+D. carpals. / 腕骨（carpals）  
 *Why:* Phalanges are the bones of the fingers or toes, also called digits. Each foot has 14 of them.  
 *为什么:* phalanges（指骨/趾骨）是手指或脚趾的骨头，也叫 digits。每只脚有 14 块。  
 *Lock this (body-cue):* Bend one finger: you see three parts. Each part is one phalanx. The thumb has only two.  
@@ -76,10 +76,10 @@ D. carpals. / 腕骨（carpals）。
 
 **7. Muscles that straighten the wrist, hand, and fingers are the**  
 把手腕、手和手指伸直的肌肉是  
-A. extensors. / 伸肌（extensors）。 ✅  
-B. flexors. / 屈肌（flexors）。  
-C. adductors. / 内收肌（adductors）。  
-D. pronators. / 旋前肌（pronators）。  
+A. extensors. / 伸肌（extensors） ✅  
+B. flexors. / 屈肌（flexors）  
+C. adductors. / 内收肌（adductors）  
+D. pronators. / 旋前肌（pronators）  
 *Why:* Extensors straighten the wrist, hand, and fingers to form a straight line. Flexors are involved in bending the wrist.  
 *为什么:* extensors（伸肌）把手腕、手和手指伸直成一条线。flexors（屈肌）参与弯曲手腕。  
 *Lock this (word-link):* Extend your arm and it goes straight; flex your arm and it bends. Same idea at the wrist.  
@@ -88,10 +88,10 @@ D. pronators. / 旋前肌（pronators）。
 
 **8. The larger of the two bones below the knee is the**  
 膝盖下方两根骨头中较大的一根是  
-A. fibula. / 腓骨（fibula）。  
-B. femur. / 股骨（femur）。  
-C. tibia. / 胫骨（tibia）。 ✅  
-D. patella. / 髌骨（patella）。  
+A. fibula. / 腓骨（fibula）  
+B. femur. / 股骨（femur）  
+C. tibia. / 胫骨（tibia） ✅  
+D. patella. / 髌骨（patella）  
 *Why:* The tibia is the larger bone of the lower leg. You can see it as the bump on the big-toe side of the ankle.  
 *为什么:* tibia（胫骨）是小腿较大的骨头，在脚踝大脚趾一侧凸起的那个骨包就是它。  
 *Lock this (real-life):* The tibia is your shinbone: the hard front edge you bump on furniture.  
@@ -124,10 +124,10 @@ D. Calcaneus / 跟骨（calcaneus）
 
 **11. The heavy, long bone that forms the leg above the knee is the**  
 构成膝盖以上腿部的又重又长的骨头是  
-A. tibia. / 胫骨（tibia）。  
-B. fibula. / 腓骨（fibula）。  
-C. femur. / 股骨（femur）。 ✅  
-D. patella. / 髌骨（patella）。  
+A. tibia. / 胫骨（tibia）  
+B. fibula. / 腓骨（fibula）  
+C. femur. / 股骨（femur） ✅  
+D. patella. / 髌骨（patella）  
 *Why:* The femur is a heavy, long bone that forms the leg above the knee. The tibia and fibula form the leg below the knee.  
 *为什么:* femur（股骨）是构成膝盖以上腿部的又重又长的骨头。胫骨和腓骨构成膝盖以下的小腿。  
 *Lock this (body-cue):* Put a hand on your thigh: the femur is inside. Your shin is the tibia; your kneecap is the patella.  
@@ -148,10 +148,10 @@ D. Skull / 颅骨（skull） ✅
 
 **13. The part of a muscle that does not move is the**  
 肌肉中不动的部分叫什么？  
-A. origin. / 起点（origin）。 ✅  
-B. insertion. / 止点（insertion）。  
-C. belly. / 肌腹（belly）。  
-D. ligament. / 韧带（ligament）。  
+A. origin. / 起点（origin） ✅  
+B. insertion. / 止点（insertion）  
+C. belly. / 肌腹（belly）  
+D. ligament. / 韧带（ligament）  
 *Why:* The origin is the fixed part of a muscle attached to the skeleton. The insertion is where more movement occurs, and the belly is the middle.  
 *为什么:* origin（起点）是肌肉固定、附着在骨骼上的部分。insertion（止点）是活动较多的地方，belly（肌腹）是中间部分。  
 *Lock this (word-link):* Origin = where it starts, like an anchor. In massage, pressure usually moves from insertion toward origin.  
@@ -160,10 +160,10 @@ D. ligament. / 韧带（ligament）。
 
 **14. Muscles that separate the fingers are the**  
 把手指分开的肌肉是  
-A. adductors. / 内收肌（adductors）。  
-B. extensors. / 伸肌（extensors）。  
-C. abductors. / 外展肌（abductors）。 ✅  
-D. pronators. / 旋前肌（pronators）。  
+A. adductors. / 内收肌（adductors）  
+B. extensors. / 伸肌（extensors）  
+C. abductors. / 外展肌（abductors） ✅  
+D. pronators. / 旋前肌（pronators）  
 *Why:* Abductors separate the fingers. Adductors, at the base of each finger, draw the fingers together.  
 *为什么:* abductors（外展肌）把手指分开。adductors（内收肌）位于每根手指根部，把手指并拢。  
 *Lock this (word-parts):* Ab = away (as in absent); ad = toward (as in add). Abductors move fingers away from each other.  
@@ -184,10 +184,10 @@ D. Extensors / 伸肌（extensors）
 
 **16. The large triangular muscle covering the shoulder joint is the**  
 覆盖肩关节的大块三角形肌肉是  
-A. bicep. / 肱二头肌（bicep）。  
-B. tricep. / 肱三头肌（tricep）。  
-C. pectoralis major. / 胸大肌（pectoralis major）。  
-D. deltoid. / 三角肌（deltoid）。 ✅  
+A. bicep. / 肱二头肌（bicep）  
+B. tricep. / 肱三头肌（tricep）  
+C. pectoralis major. / 胸大肌（pectoralis major）  
+D. deltoid. / 三角肌（deltoid） ✅  
 *Why:* The deltoid is a large, triangular muscle over the shoulder joint. It lets the arm extend outward and to the side of the body.  
 *为什么:* deltoid（三角肌）是覆盖肩关节的大块三角形肌肉，让手臂向外、向身体侧面抬起。  
 *Lock this (body-cue):* Lift your arm out to the side. Feel the triangle-shaped muscle that gets hard on your shoulder: deltoid.  

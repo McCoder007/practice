@@ -150,22 +150,22 @@
         {
           "id": "a",
           "en": "wash their hands.",
-          "zh": "洗手。"
+          "zh": "洗手"
         },
         {
           "id": "b",
           "en": "fill out a consultation form.",
-          "zh": "填写咨询表。"
+          "zh": "填写咨询表"
         },
         {
           "id": "c",
           "en": "sign the disinfection log.",
-          "zh": "在消毒记录本上签字。"
+          "zh": "在消毒记录本上签字"
         },
         {
           "id": "d",
           "en": "book the next visit and pay.",
-          "zh": "预约下次服务并付款。"
+          "zh": "预约下次服务并付款"
         }
       ],
       "correctChoice": "d",
@@ -340,22 +340,22 @@
         {
           "id": "a",
           "en": "weekly visits for four to six weeks.",
-          "zh": "连续四到六周、每周一次的护理。"
+          "zh": "连续四到六周、每周一次的护理"
         },
         {
           "id": "b",
           "en": "daily visits for one week.",
-          "zh": "连续一周每天来。"
+          "zh": "连续一周每天来"
         },
         {
           "id": "c",
           "en": "one long session to remove it all.",
-          "zh": "一次长时间护理全部去掉。"
+          "zh": "一次长时间护理全部去掉"
         },
         {
           "id": "d",
           "en": "monthly razor callus shaving.",
-          "zh": "每月用刀片削一次老茧。"
+          "zh": "每月用刀片削一次老茧"
         }
       ],
       "correctChoice": "a",
@@ -466,22 +466,22 @@
         {
           "id": "a",
           "en": "They must be returned.",
-          "zh": "必须归还。"
+          "zh": "必须归还"
         },
         {
           "id": "b",
           "en": "They will smudge polish.",
-          "zh": "会蹭花指甲油。"
+          "zh": "会蹭花指甲油"
         },
         {
           "id": "c",
           "en": "They must be worn with socks.",
-          "zh": "必须配袜子穿。"
+          "zh": "必须配袜子穿"
         },
         {
           "id": "d",
           "en": "They can be slippery.",
-          "zh": "可能会打滑。"
+          "zh": "可能会打滑"
         }
       ],
       "correctChoice": "d",
@@ -872,22 +872,22 @@
         {
           "id": "a",
           "en": "the time and date of each disinfection.",
-          "zh": "每次消毒的时间和日期。"
+          "zh": "每次消毒的时间和日期"
         },
         {
           "id": "b",
           "en": "the client’s polish color.",
-          "zh": "客人用的指甲油颜色。"
+          "zh": "客人用的指甲油颜色"
         },
         {
           "id": "c",
           "en": "the client’s payment method.",
-          "zh": "客人的付款方式。"
+          "zh": "客人的付款方式"
         },
         {
           "id": "d",
           "en": "the foot soak scent used.",
-          "zh": "用的泡脚液香味。"
+          "zh": "用的泡脚液香味"
         }
       ],
       "correctChoice": "a",
@@ -998,22 +998,22 @@
         {
           "id": "a",
           "en": "grow out faster.",
-          "zh": "长得更快。"
+          "zh": "长得更快"
         },
         {
           "id": "b",
           "en": "become thicker.",
-          "zh": "变得更厚。"
+          "zh": "变得更厚"
         },
         {
           "id": "c",
           "en": "harden the natural nail.",
-          "zh": "让真甲变硬。"
+          "zh": "让真甲变硬"
         },
         {
           "id": "d",
           "en": "lift, crack, or break.",
-          "zh": "翘起、裂开或断掉。"
+          "zh": "翘起、裂开或断掉"
         }
       ],
       "correctChoice": "d",
@@ -1066,22 +1066,22 @@
         {
           "id": "a",
           "en": "The enhancement weakened them.",
-          "zh": "延长甲把它们弄弱了。"
+          "zh": "延长甲把它们弄弱了"
         },
         {
           "id": "b",
           "en": "They absorbed moisture while soaking.",
-          "zh": "浸泡时吸了水分。"
+          "zh": "浸泡时吸了水分"
         },
         {
           "id": "c",
           "en": "The primer ate into them.",
-          "zh": "结合剂把它们腐蚀了。"
+          "zh": "结合剂把它们腐蚀了"
         },
         {
           "id": "d",
           "en": "Acetone dissolved the nail plate.",
-          "zh": "丙酮溶解了甲板。"
+          "zh": "丙酮溶解了甲板"
         }
       ],
       "correctChoice": "b",
@@ -1264,22 +1264,22 @@
         {
           "id": "a",
           "en": "returned to the paraffin tub.",
-          "zh": "倒回蜡疗机里。"
+          "zh": "倒回蜡疗机里"
         },
         {
           "id": "b",
           "en": "saved for that client’s next visit.",
-          "zh": "留给这位客人下次用。"
+          "zh": "留给这位客人下次用"
         },
         {
           "id": "c",
           "en": "strained and reused.",
-          "zh": "过滤后再用。"
+          "zh": "过滤后再用"
         },
         {
           "id": "d",
           "en": "thrown away.",
-          "zh": "丢掉。"
+          "zh": "丢掉"
         }
       ],
       "correctChoice": "d",

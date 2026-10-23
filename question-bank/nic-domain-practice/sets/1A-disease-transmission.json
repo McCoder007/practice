@@ -28,22 +28,22 @@
         {
           "id": "a",
           "en": "indirect transmission.",
-          "zh": "间接传播。"
+          "zh": "间接传播"
         },
         {
           "id": "b",
           "en": "direct transmission.",
-          "zh": "直接传播。"
+          "zh": "直接传播"
         },
         {
           "id": "c",
           "en": "airborne transmission.",
-          "zh": "空气传播。"
+          "zh": "空气传播"
         },
         {
           "id": "d",
           "en": "respiratory droplet transmission.",
-          "zh": "呼吸道飞沫传播。"
+          "zh": "呼吸道飞沫传播"
         }
       ],
       "correctChoice": "b",
@@ -92,22 +92,22 @@
         {
           "id": "a",
           "en": "direct transmission.",
-          "zh": "直接传播。"
+          "zh": "直接传播"
         },
         {
           "id": "b",
           "en": "airborne transmission.",
-          "zh": "空气传播。"
+          "zh": "空气传播"
         },
         {
           "id": "c",
           "en": "indirect transmission.",
-          "zh": "间接传播。"
+          "zh": "间接传播"
         },
         {
           "id": "d",
           "en": "respiratory droplet transmission.",
-          "zh": "呼吸道飞沫传播。"
+          "zh": "呼吸道飞沫传播"
         }
       ],
       "correctChoice": "c",
@@ -254,22 +254,22 @@
         {
           "id": "a",
           "en": "a contagious disease.",
-          "zh": "传染性疾病。"
+          "zh": "传染性疾病"
         },
         {
           "id": "b",
           "en": "an occupational disease.",
-          "zh": "职业病。"
+          "zh": "职业病"
         },
         {
           "id": "c",
           "en": "a local infection.",
-          "zh": "局部感染。"
+          "zh": "局部感染"
         },
         {
           "id": "d",
           "en": "a systemic infection.",
-          "zh": "全身性感染。"
+          "zh": "全身性感染"
         }
       ],
       "correctChoice": "a",
@@ -308,22 +308,22 @@
         {
           "id": "a",
           "en": "a contagious disease.",
-          "zh": "传染性疾病。"
+          "zh": "传染性疾病"
         },
         {
           "id": "b",
           "en": "an occupational disease.",
-          "zh": "职业病。"
+          "zh": "职业病"
         },
         {
           "id": "c",
           "en": "a parasitic disease.",
-          "zh": "寄生虫病。"
+          "zh": "寄生虫病"
         },
         {
           "id": "d",
           "en": "a viral disease.",
-          "zh": "病毒性疾病。"
+          "zh": "病毒性疾病"
         }
       ],
       "correctChoice": "b",
@@ -362,22 +362,22 @@
         {
           "id": "a",
           "en": "pathogenic.",
-          "zh": "致病性细菌。"
+          "zh": "致病性细菌"
         },
         {
           "id": "b",
           "en": "staphylococci.",
-          "zh": "葡萄球菌。"
+          "zh": "葡萄球菌"
         },
         {
           "id": "c",
           "en": "mycobacteria.",
-          "zh": "分枝杆菌。"
+          "zh": "分枝杆菌"
         },
         {
           "id": "d",
           "en": "nonpathogenic.",
-          "zh": "非致病性细菌。"
+          "zh": "非致病性细菌"
         }
       ],
       "correctChoice": "d",
@@ -524,22 +524,22 @@
         {
           "id": "a",
           "en": "inflammation.",
-          "zh": "炎症。"
+          "zh": "炎症"
         },
         {
           "id": "b",
           "en": "contamination.",
-          "zh": "污染。"
+          "zh": "污染"
         },
         {
           "id": "c",
           "en": "decontamination.",
-          "zh": "去污染。"
+          "zh": "去污染"
         },
         {
           "id": "d",
           "en": "immunity.",
-          "zh": "免疫。"
+          "zh": "免疫"
         }
       ],
       "correctChoice": "a",
@@ -578,22 +578,22 @@
         {
           "id": "a",
           "en": "infection.",
-          "zh": "感染。"
+          "zh": "感染"
         },
         {
           "id": "b",
           "en": "inflammation.",
-          "zh": "炎症。"
+          "zh": "炎症"
         },
         {
           "id": "c",
           "en": "contamination.",
-          "zh": "污染。"
+          "zh": "污染"
         },
         {
           "id": "d",
           "en": "immunity.",
-          "zh": "免疫。"
+          "zh": "免疫"
         }
       ],
       "correctChoice": "d",
@@ -676,22 +676,22 @@
         {
           "id": "a",
           "en": "a virus.",
-          "zh": "病毒。"
+          "zh": "病毒"
         },
         {
           "id": "b",
           "en": "a fungus.",
-          "zh": "真菌。"
+          "zh": "真菌"
         },
         {
           "id": "c",
           "en": "staph bacteria.",
-          "zh": "葡萄球菌（细菌）。"
+          "zh": "葡萄球菌（细菌）"
         },
         {
           "id": "d",
           "en": "a parasite.",
-          "zh": "寄生虫。"
+          "zh": "寄生虫"
         }
       ],
       "correctChoice": "c",
@@ -730,22 +730,22 @@
         {
           "id": "a",
           "en": "pedicure bowls.",
-          "zh": "足浴盆。"
+          "zh": "足浴盆"
         },
         {
           "id": "b",
           "en": "nail polish.",
-          "zh": "指甲油。"
+          "zh": "指甲油"
         },
         {
           "id": "c",
           "en": "UV lamps.",
-          "zh": "UV 灯。"
+          "zh": "UV 灯"
         },
         {
           "id": "d",
           "en": "hand lotion.",
-          "zh": "护手霜。"
+          "zh": "护手霜"
         }
       ],
       "correctChoice": "a",
@@ -784,22 +784,22 @@
         {
           "id": "a",
           "en": "hair.",
-          "zh": "头发。"
+          "zh": "头发"
         },
         {
           "id": "b",
           "en": "eyeglasses.",
-          "zh": "眼镜。"
+          "zh": "眼镜"
         },
         {
           "id": "c",
           "en": "shoes.",
-          "zh": "鞋子。"
+          "zh": "鞋子"
         },
         {
           "id": "d",
           "en": "dirty hands.",
-          "zh": "脏手。"
+          "zh": "脏手"
         }
       ],
       "correctChoice": "d",
@@ -950,22 +950,22 @@
         {
           "id": "a",
           "en": "bloodborne pathogens.",
-          "zh": "血源性病原体。"
+          "zh": "血源性病原体"
         },
         {
           "id": "b",
           "en": "fungi.",
-          "zh": "真菌。"
+          "zh": "真菌"
         },
         {
           "id": "c",
           "en": "parasites.",
-          "zh": "寄生虫。"
+          "zh": "寄生虫"
         },
         {
           "id": "d",
           "en": "nonpathogenic bacteria.",
-          "zh": "非致病性细菌。"
+          "zh": "非致病性细菌"
         }
       ],
       "correctChoice": "a",
@@ -1014,22 +1014,22 @@
         {
           "id": "a",
           "en": "toxins.",
-          "zh": "毒素。"
+          "zh": "毒素"
         },
         {
           "id": "b",
           "en": "biofilms.",
-          "zh": "生物膜。"
+          "zh": "生物膜"
         },
         {
           "id": "c",
           "en": "viruses.",
-          "zh": "病毒。"
+          "zh": "病毒"
         },
         {
           "id": "d",
           "en": "antitoxins.",
-          "zh": "抗毒素。"
+          "zh": "抗毒素"
         }
       ],
       "correctChoice": "b",
@@ -1082,22 +1082,22 @@
         {
           "id": "a",
           "en": "a worm.",
-          "zh": "蠕虫。"
+          "zh": "蠕虫"
         },
         {
           "id": "b",
           "en": "a virus.",
-          "zh": "病毒。"
+          "zh": "病毒"
         },
         {
           "id": "c",
           "en": "bacteria.",
-          "zh": "细菌。"
+          "zh": "细菌"
         },
         {
           "id": "d",
           "en": "a fungus.",
-          "zh": "真菌。"
+          "zh": "真菌"
         }
       ],
       "correctChoice": "d",
@@ -1136,22 +1136,22 @@
         {
           "id": "a",
           "en": "a fungus.",
-          "zh": "真菌。"
+          "zh": "真菌"
         },
         {
           "id": "b",
           "en": "a virus.",
-          "zh": "病毒。"
+          "zh": "病毒"
         },
         {
           "id": "c",
           "en": "the itch mite.",
-          "zh": "疥螨。"
+          "zh": "疥螨"
         },
         {
           "id": "d",
           "en": "bacteria.",
-          "zh": "细菌。"
+          "zh": "细菌"
         }
       ],
       "correctChoice": "c",

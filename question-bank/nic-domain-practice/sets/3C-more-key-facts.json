@@ -39,22 +39,22 @@
         {
           "id": "a",
           "en": "evaporation.",
-          "zh": "蒸发（evaporation）。"
+          "zh": "蒸发（evaporation）"
         },
         {
           "id": "b",
           "en": "polymerization.",
-          "zh": "聚合（polymerization）。"
+          "zh": "聚合（polymerization）"
         },
         {
           "id": "c",
           "en": "condensation.",
-          "zh": "冷凝（condensation）。"
+          "zh": "冷凝（condensation）"
         },
         {
           "id": "d",
           "en": "neutralization.",
-          "zh": "中和（neutralization）。"
+          "zh": "中和（neutralization）"
         }
       ],
       "correctChoice": "b",
@@ -111,22 +111,22 @@
         {
           "id": "a",
           "en": "mixes well with oils and waxes.",
-          "zh": "能和油、蜡很好地混合。"
+          "zh": "能和油、蜡很好地混合"
         },
         {
           "id": "b",
           "en": "never turns into a vapor.",
-          "zh": "永远不会变成蒸气。"
+          "zh": "永远不会变成蒸气"
         },
         {
           "id": "c",
           "en": "speeds up every chemical reaction.",
-          "zh": "能加快所有化学反应。"
+          "zh": "能加快所有化学反应"
         },
         {
           "id": "d",
           "en": "dissolves more substances than any other solvent.",
-          "zh": "能溶解的物质比任何其他溶剂都多。"
+          "zh": "能溶解的物质比任何其他溶剂都多"
         }
       ],
       "correctChoice": "d",
@@ -259,22 +259,22 @@
         {
           "id": "a",
           "en": "filing dust and polymer powder.",
-          "zh": "锉甲粉尘和聚合物粉末。"
+          "zh": "锉甲粉尘和聚合物粉末"
         },
         {
           "id": "b",
           "en": "water and acetone vapors.",
-          "zh": "水和丙酮的蒸气。"
+          "zh": "水和丙酮的蒸气"
         },
         {
           "id": "c",
           "en": "soot-like particles and vapors.",
-          "zh": "类似烟灰的颗粒和蒸气。"
+          "zh": "类似烟灰的颗粒和蒸气"
         },
         {
           "id": "d",
           "en": "monomer liquid and oxygen.",
-          "zh": "单体液和氧气。"
+          "zh": "单体液和氧气"
         }
       ],
       "correctChoice": "c",
@@ -331,22 +331,22 @@
         {
           "id": "a",
           "en": "monomers and oligomers.",
-          "zh": "单体和寡聚物（oligomers）。"
+          "zh": "单体和寡聚物（oligomers）"
         },
         {
           "id": "b",
           "en": "sodium hydroxide and glycerin.",
-          "zh": "氢氧化钠和甘油。"
+          "zh": "氢氧化钠和甘油"
         },
         {
           "id": "c",
           "en": "protein, such as collagen.",
-          "zh": "蛋白质，例如胶原蛋白。"
+          "zh": "蛋白质，例如胶原蛋白"
         },
         {
           "id": "d",
           "en": "methacrylic or cellulose-type film formers.",
-          "zh": "甲基丙烯酸类或纤维素类成膜剂（film formers）。"
+          "zh": "甲基丙烯酸类或纤维素类成膜剂（film formers）"
         }
       ],
       "correctChoice": "d",

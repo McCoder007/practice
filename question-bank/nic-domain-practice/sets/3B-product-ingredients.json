@@ -86,22 +86,22 @@
         {
           "id": "a",
           "en": "contains carbon.",
-          "zh": "含有碳的物质。"
+          "zh": "含有碳的物质"
         },
         {
           "id": "b",
           "en": "comes only from plants.",
-          "zh": "只来自植物的物质。"
+          "zh": "只来自植物的物质"
         },
         {
           "id": "c",
           "en": "is always safe.",
-          "zh": "一定安全的物质。"
+          "zh": "一定安全的物质"
         },
         {
           "id": "d",
           "en": "contains no water.",
-          "zh": "不含水的物质。"
+          "zh": "不含水的物质"
         }
       ],
       "correctChoice": "a",
@@ -334,22 +334,22 @@
         {
           "id": "a",
           "en": "cyanoacrylates.",
-          "zh": "氰基丙烯酸酯（cyanoacrylates）。"
+          "zh": "氰基丙烯酸酯（cyanoacrylates）"
         },
         {
           "id": "b",
           "en": "methacrylates.",
-          "zh": "甲基丙烯酸酯（methacrylates）。"
+          "zh": "甲基丙烯酸酯（methacrylates）"
         },
         {
           "id": "c",
           "en": "acrylates.",
-          "zh": "丙烯酸酯（acrylates）。"
+          "zh": "丙烯酸酯（acrylates）"
         },
         {
           "id": "d",
           "en": "silicones.",
-          "zh": "硅酮（silicones）。"
+          "zh": "硅酮（silicones）"
         }
       ],
       "correctChoice": "a",
@@ -1096,22 +1096,22 @@
         {
           "id": "a",
           "en": "low in pH and acidic.",
-          "zh": "pH 低，呈酸性。"
+          "zh": "pH 低，呈酸性"
         },
         {
           "id": "b",
           "en": "high in pH and caustic.",
-          "zh": "pH 高，具有腐蚀性（caustic）。"
+          "zh": "pH 高，具有腐蚀性（caustic）"
         },
         {
           "id": "c",
           "en": "neutral, with a pH of 7.",
-          "zh": "中性，pH 为 7。"
+          "zh": "中性，pH 为 7"
         },
         {
           "id": "d",
           "en": "water-free, with no pH.",
-          "zh": "不含水，没有 pH。"
+          "zh": "不含水，没有 pH"
         }
       ],
       "correctChoice": "b",

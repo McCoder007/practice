@@ -16,10 +16,10 @@ D. Fungi / 真菌（fungi）
 
 **2. A pimple with pus in one small spot is an example of**  
 只在一个小地方、带脓的痘痘，属于哪一类？  
-A. a local infection. / 局部感染（local infection）。 ✅  
-B. a systemic infection. / 全身性感染（systemic infection）。  
-C. a viral infection. / 病毒感染（viral infection）。  
-D. an occupational disease. / 职业病（occupational disease）。  
+A. a local infection. / 局部感染（local infection） ✅  
+B. a systemic infection. / 全身性感染（systemic infection）  
+C. a viral infection. / 病毒感染（viral infection）  
+D. an occupational disease. / 职业病（occupational disease）  
 *Why:* A local infection stays in one part of the body and shows as a sore with pus. A systemic infection spreads through the whole body.  
 *为什么:* local infection（局部感染）只在身体的一个部位，表现为带脓的病灶。systemic infection（全身性感染）则扩散到全身。  
 *Lock this (word-link):* Local means near here, as in "your local store." A local infection stays in one spot.  
@@ -28,10 +28,10 @@ D. an occupational disease. / 职业病（occupational disease）。
 
 **3. Cleaning with soap and water is a**  
 用肥皂和水清洁（cleaning）属于：  
-A. heat-and-pressure process in an autoclave. / 在高压灭菌器（autoclave）里用高温高压的过程。  
-B. chemical process that destroys most germs. / 能消灭大多数病菌的化学过程。  
-C. chemical process that destroys all spores. / 能消灭所有芽孢的化学过程。  
-D. mechanical process that removes dirt. / 去除脏污的机械过程（mechanical process）。 ✅  
+A. heat-and-pressure process in an autoclave. / 在高压灭菌器（autoclave）里用高温高压的过程  
+B. chemical process that destroys most germs. / 能消灭大多数病菌的化学过程  
+C. chemical process that destroys all spores. / 能消灭所有芽孢的化学过程  
+D. mechanical process that removes dirt. / 去除脏污的机械过程（mechanical process） ✅  
 *Why:* Cleaning is mechanical: scrubbing with soap and water washes dirt and many germs away. Destroying germs comes later. Disinfecting uses chemicals to destroy most. Sterilizing, usually in an autoclave, destroys all.  
 *为什么:* cleaning（清洁）是 mechanical process（机械过程）：用肥皂和水刷洗，把脏污和许多病菌洗掉。消灭病菌是后面的步骤。disinfecting（消毒）用化学品消灭大多数病菌。sterilizing（灭菌）通常用高压灭菌器（autoclave），消灭全部病菌。  
 *Lock this (picture):* Like washing a muddy plate: your hands and the sponge do the work. That is mechanical.  
@@ -52,10 +52,10 @@ D. Mixed with another disinfectant for strength / 和另一种消毒剂混在一
 
 **5. Leaving implements in a quat solution too long can**  
 把工具在季铵盐消毒液（quat solution）里泡太久，可能会：  
-A. sterilize them. / 让它们达到灭菌。  
-B. make the solution stronger. / 让消毒液变得更强。  
-C. dull or damage them. / 让它们变钝或损坏。 ✅  
-D. make them rust-proof. / 让它们不会生锈。  
+A. sterilize them. / 让它们达到灭菌  
+B. make the solution stronger. / 让消毒液变得更强  
+C. dull or damage them. / 让它们变钝或损坏 ✅  
+D. make them rust-proof. / 让它们不会生锈  
 *Why:* Quats usually disinfect implements in 10 minutes. Leaving tools in much longer can dull or damage them. Take them out on time, rinse if needed, and dry them.  
 *为什么:* quats（季铵盐消毒剂）通常 10 分钟就能给工具消毒。泡得太久会让工具变钝或损坏。到时间就取出，需要时冲洗，再擦干。  
 *Lock this (picture):* A pickle left in vinegar too long goes soft. Tools left in quats too long go dull.  
@@ -100,10 +100,10 @@ D. Yes, and it sterilizes them too / 能，而且还能灭菌
 
 **9. Contact with blood or body fluid while you work is called**  
 工作时接触到血液或体液，叫作：  
-A. an exposure incident. / 暴露事件（exposure incident）。 ✅  
-B. an occupational disease. / 职业病（occupational disease）。  
-C. a contraindication. / 禁忌症（contraindication）。  
-D. a systemic infection. / 全身性感染（systemic infection）。  
+A. an exposure incident. / 暴露事件（exposure incident） ✅  
+B. an occupational disease. / 职业病（occupational disease）  
+C. a contraindication. / 禁忌症（contraindication）  
+D. a systemic infection. / 全身性感染（systemic infection）  
 *Why:* An exposure incident is contact with broken skin, blood, body fluid, or other possibly infectious material during your work. Then follow the exposure incident steps.  
 *为什么:* exposure incident（暴露事件）是指工作中接触到破损的皮肤、血液、体液或其他可能有传染性的物质。发生后要按暴露事件的步骤处理。  
 *Lock this (word-link):* Exposure looks like "exposed," as in skin exposed to the sun. Here, you are exposed to blood or body fluid.  
@@ -112,10 +112,10 @@ D. a systemic infection. / 全身性感染（systemic infection）。
 
 **10. A metal pusher touched a client's blood. Before using it again, you must**  
 金属推棒碰到了客人的血。再次使用前，你必须：  
-A. wipe it with alcohol. / 用酒精擦一擦。  
-B. rinse it under hot water. / 用热水冲一冲。  
-C. clean it, then disinfect it. / 先清洁，再消毒。 ✅  
-D. throw it away. / 把它扔掉。  
+A. wipe it with alcohol. / 用酒精擦一擦  
+B. rinse it under hot water. / 用热水冲一冲  
+C. clean it, then disinfect it. / 先清洁，再消毒 ✅  
+D. throw it away. / 把它扔掉  
 *Why:* Multiuse implements can be cleaned, disinfected, and used again, even after touching blood. Salon disinfectants are made to work on blood and body fluids.  
 *为什么:* multiuse（可重复使用的）工具即使碰到血液，也可以清洁、消毒后再用。沙龙用的消毒剂就是用来对付血液和体液的。  
 *Lock this (reason-chain):* Blood on a metal pusher? Scrub it, then disinfect. It is multiuse, so blood does not make it trash.  
@@ -136,10 +136,10 @@ D. The product's manufacturer / 产品的厂家 ✅
 
 **12. The best prevention for many bone and joint pains at work is**  
 预防工作中很多骨骼和关节疼痛的最好方法是：  
-A. gripping implements very tightly. / 把工具握得很紧。  
-B. proper ergonomics. / 正确的人体工学（ergonomics）。 ✅  
-C. bending forward toward the client. / 身体前倾靠近客人。  
-D. holding your arms away from your body. / 手臂远离身体。  
+A. gripping implements very tightly. / 把工具握得很紧  
+B. proper ergonomics. / 正确的人体工学（ergonomics） ✅  
+C. bending forward toward the client. / 身体前倾靠近客人  
+D. holding your arms away from your body. / 手臂远离身体  
 *Why:* Ergonomics sets up your work, tools, and body movements to be comfortable and safe. Tight gripping, bending forward, and arms held far out are bad habits.  
 *为什么:* ergonomics（人体工学）让你的工作、工具和身体动作舒适又安全。握得太紧、身体前倾、手臂伸得太远，都是坏习惯。  
 *Lock this (body-cue):* Hold your arms straight out for one minute: they start to hurt. Ergonomics keeps arms close and wrists straight.  

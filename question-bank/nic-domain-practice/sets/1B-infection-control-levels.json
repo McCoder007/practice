@@ -162,22 +162,22 @@
         {
           "id": "a",
           "en": "most bacteria.",
-          "zh": "大多数细菌。"
+          "zh": "大多数细菌"
         },
         {
           "id": "b",
           "en": "viruses.",
-          "zh": "病毒。"
+          "zh": "病毒"
         },
         {
           "id": "c",
           "en": "bacterial spores.",
-          "zh": "细菌芽孢。"
+          "zh": "细菌芽孢"
         },
         {
           "id": "d",
           "en": "fungi.",
-          "zh": "真菌。"
+          "zh": "真菌"
         }
       ],
       "correctChoice": "c",
@@ -230,22 +230,22 @@
         {
           "id": "a",
           "en": "It must be cleaned.",
-          "zh": "必须先清洁。"
+          "zh": "必须先清洁"
         },
         {
           "id": "b",
           "en": "It must be sterilized.",
-          "zh": "必须先灭菌。"
+          "zh": "必须先灭菌"
         },
         {
           "id": "c",
           "en": "It must be wiped with alcohol.",
-          "zh": "必须先用酒精擦。"
+          "zh": "必须先用酒精擦"
         },
         {
           "id": "d",
           "en": "It must sit under UV light.",
-          "zh": "必须先放在紫外线灯下。"
+          "zh": "必须先放在紫外线灯下"
         }
       ],
       "correctChoice": "a",
@@ -298,22 +298,22 @@
         {
           "id": "a",
           "en": "sit in the bottle after mixing.",
-          "zh": "调好后在瓶子里放置。"
+          "zh": "调好后在瓶子里放置"
         },
         {
           "id": "b",
           "en": "dry before the tool is used.",
-          "zh": "在使用工具前晾干。"
+          "zh": "在使用工具前晾干"
         },
         {
           "id": "c",
           "en": "stay visibly moist on the surface.",
-          "zh": "在表面上保持肉眼可见的湿润。"
+          "zh": "在表面上保持肉眼可见的湿润"
         },
         {
           "id": "d",
           "en": "heat up before use.",
-          "zh": "使用前加热。"
+          "zh": "使用前加热"
         }
       ],
       "correctChoice": "c",
@@ -356,22 +356,22 @@
         {
           "id": "a",
           "en": "Add the water to the concentrate.",
-          "zh": "把水倒入浓缩液中。"
+          "zh": "把水倒入浓缩液中"
         },
         {
           "id": "b",
           "en": "Add the concentrate to the water.",
-          "zh": "把浓缩液倒入水中。"
+          "zh": "把浓缩液倒入水中"
         },
         {
           "id": "c",
           "en": "Add extra concentrate for strength.",
-          "zh": "多加浓缩液让它更强。"
+          "zh": "多加浓缩液让它更强"
         },
         {
           "id": "d",
           "en": "Add bleach to boost it.",
-          "zh": "加漂白水增强效果。"
+          "zh": "加漂白水增强效果"
         }
       ],
       "correctChoice": "b",
@@ -488,22 +488,22 @@
         {
           "id": "a",
           "en": "sporicidal.",
-          "zh": "杀芽孢（sporicidal）。"
+          "zh": "杀芽孢（sporicidal）"
         },
         {
           "id": "b",
           "en": "antiseptic.",
-          "zh": "用作皮肤抗菌剂。"
+          "zh": "用作皮肤抗菌剂"
         },
         {
           "id": "c",
           "en": "nontoxic.",
-          "zh": "无毒。"
+          "zh": "无毒"
         },
         {
           "id": "d",
           "en": "fungicidal.",
-          "zh": "杀真菌（fungicidal）。"
+          "zh": "杀真菌（fungicidal）"
         }
       ],
       "correctChoice": "d",
@@ -644,22 +644,22 @@
         {
           "id": "a",
           "en": "the bacterium that causes tuberculosis.",
-          "zh": "引起结核病的细菌。"
+          "zh": "引起结核病的细菌"
         },
         {
           "id": "b",
           "en": "head lice.",
-          "zh": "头虱。"
+          "zh": "头虱"
         },
         {
           "id": "c",
           "en": "the itch mite.",
-          "zh": "疥螨。"
+          "zh": "疥螨"
         },
         {
           "id": "d",
           "en": "all bacterial spores.",
-          "zh": "所有细菌芽孢。"
+          "zh": "所有细菌芽孢"
         }
       ],
       "correctChoice": "a",
@@ -780,22 +780,22 @@
         {
           "id": "a",
           "en": "an implement disinfectant.",
-          "zh": "工具消毒剂。"
+          "zh": "工具消毒剂"
         },
         {
           "id": "b",
           "en": "a sterilizer for metal tools.",
-          "zh": "金属工具灭菌剂。"
+          "zh": "金属工具灭菌剂"
         },
         {
           "id": "c",
           "en": "a pedicure basin disinfectant.",
-          "zh": "足浴盆消毒剂。"
+          "zh": "足浴盆消毒剂"
         },
         {
           "id": "d",
           "en": "a cleaner or antiseptic.",
-          "zh": "清洁剂或皮肤抗菌剂。"
+          "zh": "清洁剂或皮肤抗菌剂"
         }
       ],
       "correctChoice": "d",
@@ -838,22 +838,22 @@
         {
           "id": "a",
           "en": "implements.",
-          "zh": "工具上。"
+          "zh": "工具上"
         },
         {
           "id": "b",
           "en": "work surfaces.",
-          "zh": "工作台面上。"
+          "zh": "工作台面上"
         },
         {
           "id": "c",
           "en": "skin.",
-          "zh": "皮肤上。"
+          "zh": "皮肤上"
         },
         {
           "id": "d",
           "en": "pedicure basins.",
-          "zh": "足浴盆上。"
+          "zh": "足浴盆上"
         }
       ],
       "correctChoice": "c",
@@ -896,22 +896,22 @@
         {
           "id": "a",
           "en": "covered in visible debris.",
-          "zh": "有明显污垢残渣的表面。"
+          "zh": "有明显污垢残渣的表面"
         },
         {
           "id": "b",
           "en": "clean, hard, and nonporous.",
-          "zh": "干净、坚硬、不吸水的表面。"
+          "zh": "干净、坚硬、不吸水的表面"
         },
         {
           "id": "c",
           "en": "soft and absorbent.",
-          "zh": "柔软、会吸水的表面。"
+          "zh": "柔软、会吸水的表面"
         },
         {
           "id": "d",
           "en": "human skin and nails.",
-          "zh": "人的皮肤和指甲。"
+          "zh": "人的皮肤和指甲"
         }
       ],
       "correctChoice": "b",
@@ -970,22 +970,22 @@
         {
           "id": "a",
           "en": "soaked in disinfectant overnight.",
-          "zh": "在消毒液里泡一夜。"
+          "zh": "在消毒液里泡一夜"
         },
         {
           "id": "b",
           "en": "rinsed and saved for the next client.",
-          "zh": "冲洗后留给下一位客人。"
+          "zh": "冲洗后留给下一位客人"
         },
         {
           "id": "c",
           "en": "sprayed with alcohol and reused.",
-          "zh": "喷酒精后再用。"
+          "zh": "喷酒精后再用"
         },
         {
           "id": "d",
           "en": "thrown away or given to the client.",
-          "zh": "丢掉或送给客人。"
+          "zh": "丢掉或送给客人"
         }
       ],
       "correctChoice": "d",
@@ -1106,22 +1106,22 @@
         {
           "id": "a",
           "en": "safe unless the client looks sick.",
-          "zh": "安全的，除非客人看起来生病。"
+          "zh": "安全的，除非客人看起来生病"
         },
         {
           "id": "b",
           "en": "a risk only in medical offices.",
-          "zh": "只在医疗机构才有风险。"
+          "zh": "只在医疗机构才有风险"
         },
         {
           "id": "c",
           "en": "potentially infectious.",
-          "zh": "可能有传染性。"
+          "zh": "可能有传染性"
         },
         {
           "id": "d",
           "en": "harmless once they dry.",
-          "zh": "干了就无害。"
+          "zh": "干了就无害"
         }
       ],
       "correctChoice": "c",
@@ -1188,22 +1188,22 @@
         {
           "id": "a",
           "en": "Finish the nail first.",
-          "zh": "先把这只指甲做完。"
+          "zh": "先把这只指甲做完"
         },
         {
           "id": "b",
           "en": "Stop the service.",
-          "zh": "立即停止服务。"
+          "zh": "立即停止服务"
         },
         {
           "id": "c",
           "en": "Apply polish to seal it.",
-          "zh": "涂指甲油把伤口封住。"
+          "zh": "涂指甲油把伤口封住"
         },
         {
           "id": "d",
           "en": "Disinfect your implements.",
-          "zh": "先给工具消毒。"
+          "zh": "先给工具消毒"
         }
       ],
       "correctChoice": "b",
@@ -1334,22 +1334,22 @@
         {
           "id": "a",
           "en": "in a clean, covered container.",
-          "zh": "干净、有盖的容器里。"
+          "zh": "干净、有盖的容器里"
         },
         {
           "id": "b",
           "en": "in your apron pocket.",
-          "zh": "你的围裙口袋里。"
+          "zh": "你的围裙口袋里"
         },
         {
           "id": "c",
           "en": "in the disinfectant overnight.",
-          "zh": "消毒液里过夜。"
+          "zh": "消毒液里过夜"
         },
         {
           "id": "d",
           "en": "on an open towel all day.",
-          "zh": "敞开的毛巾上放一整天。"
+          "zh": "敞开的毛巾上放一整天"
         }
       ],
       "correctChoice": "a",

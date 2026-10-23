@@ -28,22 +28,22 @@
         {
           "id": "a",
           "en": "service procedure.",
-          "zh": "服务程序（service procedure）。"
+          "zh": "服务程序（service procedure）"
         },
         {
           "id": "b",
           "en": "post-service procedure.",
-          "zh": "服务后程序（post-service procedure）。"
+          "zh": "服务后程序（post-service procedure）"
         },
         {
           "id": "c",
           "en": "client consultation.",
-          "zh": "顾客咨询（client consultation）。"
+          "zh": "顾客咨询（client consultation）"
         },
         {
           "id": "d",
           "en": "pre-service procedure.",
-          "zh": "服务前程序（pre-service procedure）。"
+          "zh": "服务前程序（pre-service procedure）"
         }
       ],
       "correctChoice": "d",
@@ -82,22 +82,22 @@
         {
           "id": "a",
           "en": "service record card.",
-          "zh": "服务记录卡（service record card）。"
+          "zh": "服务记录卡（service record card）"
         },
         {
           "id": "b",
           "en": "health history form.",
-          "zh": "健康史表（health history form）。"
+          "zh": "健康史表（health history form）"
         },
         {
           "id": "c",
           "en": "release form.",
-          "zh": "免责声明表（release form）。"
+          "zh": "免责声明表（release form）"
         },
         {
           "id": "d",
           "en": "product purchase record.",
-          "zh": "产品购买记录（product purchase record）。"
+          "zh": "产品购买记录（product purchase record）"
         }
       ],
       "correctChoice": "b",
@@ -388,22 +388,22 @@
         {
           "id": "a",
           "en": "reflective listening.",
-          "zh": "反映式倾听（reflective listening）。"
+          "zh": "反映式倾听（reflective listening）"
         },
         {
           "id": "b",
           "en": "a needs assessment.",
-          "zh": "需求评估（needs assessment）。"
+          "zh": "需求评估（needs assessment）"
         },
         {
           "id": "c",
           "en": "upselling.",
-          "zh": "追加推荐（upselling）。"
+          "zh": "追加推荐（upselling）"
         },
         {
           "id": "d",
           "en": "client analysis.",
-          "zh": "顾客分析（client analysis）。"
+          "zh": "顾客分析（client analysis）"
         }
       ],
       "correctChoice": "a",
@@ -446,22 +446,22 @@
         {
           "id": "a",
           "en": "record what they see.",
-          "zh": "记录看到的情况。"
+          "zh": "记录看到的情况"
         },
         {
           "id": "b",
           "en": "ask about health conditions.",
-          "zh": "询问健康状况。"
+          "zh": "询问健康状况"
         },
         {
           "id": "c",
           "en": "diagnose a disease or disorder.",
-          "zh": "诊断（diagnose）疾病或病症。"
+          "zh": "诊断（diagnose）疾病或病症"
         },
         {
           "id": "d",
           "en": "refer the client to a physician.",
-          "zh": "建议顾客去看医生。"
+          "zh": "建议顾客去看医生"
         }
       ],
       "correctChoice": "c",
@@ -514,22 +514,22 @@
         {
           "id": "a",
           "en": "consultation.",
-          "zh": "咨询（consultation）。"
+          "zh": "咨询（consultation）"
         },
         {
           "id": "b",
           "en": "scope of practice.",
-          "zh": "执业范围（scope of practice）。"
+          "zh": "执业范围（scope of practice）"
         },
         {
           "id": "c",
           "en": "service record.",
-          "zh": "服务记录（service record）。"
+          "zh": "服务记录（service record）"
         },
         {
           "id": "d",
           "en": "contraindication.",
-          "zh": "禁忌症（contraindication）。"
+          "zh": "禁忌症（contraindication）"
         }
       ],
       "correctChoice": "d",
@@ -636,22 +636,22 @@
         {
           "id": "a",
           "en": "a signed school release form.",
-          "zh": "签好的学校免责声明表。"
+          "zh": "签好的学校免责声明表"
         },
         {
           "id": "b",
           "en": "a physician's release.",
-          "zh": "医生许可（physician's release）。"
+          "zh": "医生许可（physician's release）"
         },
         {
           "id": "c",
           "en": "the salon manager's approval.",
-          "zh": "沙龙经理的同意。"
+          "zh": "沙龙经理的同意"
         },
         {
           "id": "d",
           "en": "a second consultation.",
-          "zh": "再做一次咨询。"
+          "zh": "再做一次咨询"
         }
       ],
       "correctChoice": "b",
@@ -700,22 +700,22 @@
         {
           "id": "a",
           "en": "diabetes that is well controlled.",
-          "zh": "控制良好的糖尿病。"
+          "zh": "控制良好的糖尿病"
         },
         {
           "id": "b",
           "en": "high blood pressure controlled by medication.",
-          "zh": "用药控制良好的高血压。"
+          "zh": "用药控制良好的高血压"
         },
         {
           "id": "c",
           "en": "severe, uncontrolled hypertension.",
-          "zh": "严重且未控制的高血压（hypertension）。"
+          "zh": "严重且未控制的高血压（hypertension）"
         },
         {
           "id": "d",
           "en": "dry skin on the hands.",
-          "zh": "手部皮肤干燥。"
+          "zh": "手部皮肤干燥"
         }
       ],
       "correctChoice": "c",
@@ -758,22 +758,22 @@
         {
           "id": "a",
           "en": "nipping the cuticles.",
-          "zh": "用死皮剪剪死皮（nip the cuticles）。"
+          "zh": "用死皮剪剪死皮（nip the cuticles）"
         },
         {
           "id": "b",
           "en": "using a fine-grit abrasive.",
-          "zh": "使用细砂锉（fine-grit abrasive）。"
+          "zh": "使用细砂锉（fine-grit abrasive）"
         },
         {
           "id": "c",
           "en": "removing dead tissue with a curette.",
-          "zh": "用刮匙（curette）去除死组织。"
+          "zh": "用刮匙（curette）去除死组织"
         },
         {
           "id": "d",
           "en": "using gentle massage pressure.",
-          "zh": "按摩时用轻柔的力度。"
+          "zh": "按摩时用轻柔的力度"
         }
       ],
       "correctChoice": "a",
@@ -934,22 +934,22 @@
         {
           "id": "a",
           "en": "5 seconds.",
-          "zh": "5 秒。"
+          "zh": "5 秒"
         },
         {
           "id": "b",
           "en": "10 seconds.",
-          "zh": "10 秒。"
+          "zh": "10 秒"
         },
         {
           "id": "c",
           "en": "20 seconds.",
-          "zh": "20 秒。"
+          "zh": "20 秒"
         },
         {
           "id": "d",
           "en": "2 minutes.",
-          "zh": "2 分钟。"
+          "zh": "2 分钟"
         }
       ],
       "correctChoice": "c",
@@ -1130,22 +1130,22 @@
         {
           "id": "a",
           "en": "hand sanitizer gel.",
-          "zh": "免洗洗手凝胶。"
+          "zh": "免洗洗手凝胶"
         },
         {
           "id": "b",
           "en": "isopropyl alcohol.",
-          "zh": "异丙醇（isopropyl alcohol）。"
+          "zh": "异丙醇（isopropyl alcohol）"
         },
         {
           "id": "c",
           "en": "an EPA-approved disinfectant.",
-          "zh": "经 EPA 批准的消毒剂（EPA-approved disinfectant）。"
+          "zh": "经 EPA 批准的消毒剂（EPA-approved disinfectant）"
         },
         {
           "id": "d",
           "en": "plain warm water.",
-          "zh": "清水（温水）。"
+          "zh": "清水（温水）"
         }
       ],
       "correctChoice": "c",
