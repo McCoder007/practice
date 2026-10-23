@@ -1,0 +1,1067 @@
+{
+  "schemaVersion": "1.0.0",
+  "setId": "2E",
+  "domain": {
+    "id": "anatomy-physiology",
+    "order": 2,
+    "title": {
+      "en": "Anatomy and Physiology",
+      "zh": "解剖学与生理学"
+    },
+    "examWeightPercent": 15
+  },
+  "title": {
+    "en": "More Key Facts",
+    "zh": "更多重点"
+  },
+  "status": "reviewed",
+  "authoredAt": "2026-10-23",
+  "sourceBook": "Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020)",
+  "review": {
+    "reviewedAt": "2026-10-23",
+    "checks": [
+      "quotes found on cited pages (verify-nic-domain-evidence.py)",
+      "blind answer check: 16/16 (one overlapping question later dropped) matched key; reworded stems and choices re-checked blind",
+      "content, level-2 English and Chinese review: fixes applied",
+      "memory hooks fact-checked against cited pages: fixes applied",
+      "overlap check against all 460 earlier questions and the other catch-up sets: overlapping items dropped",
+      "written to fill gaps found in docs/exam-outline-coverage.md"
+    ]
+  },
+  "questions": [
+    {
+      "id": "nic-2e-01",
+      "question": {
+        "en": "The living skin that supports the nail plate as it grows is the",
+        "zh": "在甲板生长时托住甲板的活皮肤是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "nail bed.",
+          "zh": "甲床（nail bed）。"
+        },
+        {
+          "id": "b",
+          "en": "cuticle.",
+          "zh": "甲小皮（cuticle）。"
+        },
+        {
+          "id": "c",
+          "en": "lunula.",
+          "zh": "甲半月（lunula）。"
+        },
+        {
+          "id": "d",
+          "en": "proximal nail fold.",
+          "zh": "近端甲襞（proximal nail fold）。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "The nail bed is living skin under the nail plate. It supports the plate as it grows toward the free edge. It has many nerves and blood vessels.",
+        "zh": "nail bed（甲床）是甲板下面的活皮肤。甲板朝游离缘（free edge）生长时，甲床一直托着它。甲床里有很多神经和血管。"
+      },
+      "lockPoint": {
+        "en": "Picture a bed: the nail plate lies on it and slides along it as it grows.",
+        "zh": "想象一张床：甲板躺在甲床上，一边长一边沿着它慢慢滑出去。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Structure - Nail Bed",
+          "pdfPage": 124,
+          "printedPage": "100"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Chapter 4 Glossary",
+          "pdfPage": 136,
+          "printedPage": "112"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 124,
+          "quote": "The nail bed (NAYL BED) is the portion of living skin that supports the nail plate as it grows toward the free edge."
+        },
+        {
+          "pdfPage": 124,
+          "quote": "The nail bed contains many nerves"
+        },
+        {
+          "pdfPage": 123,
+          "quote": "As it grows, the nail plate slowly slides across the nail bed."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-2e-02",
+      "question": {
+        "en": "Which part of the nail plate extends over the tip of the finger or toe?",
+        "zh": "甲板的哪一部分伸出手指或脚趾的尖端？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Lunula",
+          "zh": "甲半月（lunula）"
+        },
+        {
+          "id": "b",
+          "en": "Free edge",
+          "zh": "游离缘（free edge）"
+        },
+        {
+          "id": "c",
+          "en": "Hyponychium",
+          "zh": "甲下皮（hyponychium）"
+        },
+        {
+          "id": "d",
+          "en": "Matrix",
+          "zh": "甲母质（matrix）"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "The free edge is the part of the nail plate that goes past the tip of the finger or toe. The rest of the plate sits on top of the nail bed.",
+        "zh": "free edge（游离缘）是甲板伸出手指或脚趾尖端的那一部分。甲板其余部分都压在甲床（nail bed）上面。"
+      },
+      "lockPoint": {
+        "en": "Free = not held down. The free edge is the part you trim with nail clippers.",
+        "zh": "free = 自由、不被压住。用指甲剪剪掉的，就是游离缘（free edge）。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Structure - Nail Plate",
+          "pdfPage": 123,
+          "printedPage": "99"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Chapter 4 Glossary",
+          "pdfPage": 136,
+          "printedPage": "112"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 123,
+          "quote": "The free edge (FREE EDJ) is the part of the nail plate that extends over the tip of the finger or toe."
+        },
+        {
+          "pdfPage": 123,
+          "quote": "the hardened keratin plate that sits on top of the nail bed"
+        },
+        {
+          "pdfPage": 124,
+          "quote": "in the area that extends from the lunula to the area just before the free edge of the nail"
+        }
+      ],
+      "hookType": "word-link"
+    },
+    {
+      "id": "nic-2e-03",
+      "question": {
+        "en": "What important job does the cuticle do?",
+        "zh": "甲小皮有什么重要作用？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Makes new nail plate cells",
+          "zh": "制造新的甲板细胞"
+        },
+        {
+          "id": "b",
+          "en": "Attaches the plate to the nail bed",
+          "zh": "把甲板连在甲床上"
+        },
+        {
+          "id": "c",
+          "en": "Forms a seal that keeps germs out",
+          "zh": "形成封口，挡住病菌"
+        },
+        {
+          "id": "d",
+          "en": "Gives the nail bed its pink color",
+          "zh": "让甲床呈粉红色"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "The cuticle forms a seal between the proximal nail fold and the nail plate. It stops germs from getting under the skin to infect the matrix or bone.",
+        "zh": "cuticle（甲小皮）在近端甲襞（proximal nail fold）和甲板之间形成封口，防止病菌钻到皮肤下面，感染甲母质或骨头。"
+      },
+      "lockPoint": {
+        "en": "Like the rubber seal on a fridge door. Break it, and germs can get in to the matrix.",
+        "zh": "就像冰箱门上的密封条。封口一破，病菌就能进到甲母质。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Structure - Cuticle",
+          "pdfPage": 124,
+          "printedPage": "100"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 124,
+          "quote": "The cuticle forms an important seal between the PNF and nail plate"
+        },
+        {
+          "pdfPage": 124,
+          "quote": "preventing infectious organisms from getting underneath the skin to infect the matrix or bone."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-2e-04",
+      "question": {
+        "en": "Perspiration from the sweat glands leaving through the skin is called",
+        "zh": "汗腺分泌的汗液经皮肤排出，这叫做"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "secretion.",
+          "zh": "分泌（secretion）。"
+        },
+        {
+          "id": "b",
+          "en": "absorption.",
+          "zh": "吸收（absorption）。"
+        },
+        {
+          "id": "c",
+          "en": "sensation.",
+          "zh": "感觉（sensation）。"
+        },
+        {
+          "id": "d",
+          "en": "excretion.",
+          "zh": "排泄（excretion）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Excretion is a skin function: sweat from the sweat glands goes out through the skin. The water also takes out salts and minerals.",
+        "zh": "excretion（排泄）是皮肤的一种功能：汗腺的汗液从皮肤排出去，同时带走盐分和矿物质。"
+      },
+      "lockPoint": {
+        "en": "On a hot day, your palms get wet. Palms have many sweat glands: that is excretion.",
+        "zh": "天热时，手心会出汗。手掌上的汗腺特别多：这就是排泄（excretion）。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Six Primary Functions",
+          "pdfPage": 93,
+          "printedPage": "69"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Glands of the Skin",
+          "pdfPage": 91,
+          "printedPage": "67"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 93,
+          "quote": "Perspiration from the sweat glands is excreted through the skin."
+        },
+        {
+          "pdfPage": 93,
+          "quote": "Water lost through perspiration also removes salts, minerals"
+        },
+        {
+          "pdfPage": 93,
+          "quote": "Sebum is an oil secreted by the sebaceous glands."
+        },
+        {
+          "pdfPage": 91,
+          "quote": "more numerous on the palms, soles of the feet, forehead"
+        }
+      ],
+      "hookType": "body-cue"
+    },
+    {
+      "id": "nic-2e-05",
+      "question": {
+        "en": "The color of the skin depends mainly on",
+        "zh": "皮肤的颜色主要取决于"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "keratin.",
+          "zh": "角蛋白（keratin）。"
+        },
+        {
+          "id": "b",
+          "en": "melanin.",
+          "zh": "黑色素（melanin）。"
+        },
+        {
+          "id": "c",
+          "en": "sebum.",
+          "zh": "皮脂（sebum）。"
+        },
+        {
+          "id": "d",
+          "en": "collagen.",
+          "zh": "胶原蛋白（collagen）。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Skin color depends mainly on melanin, tiny grains of pigment (color). Melanocytes make it. Melanin also helps protect cells from too much UV.",
+        "zh": "皮肤颜色主要取决于 melanin（黑色素），也就是细小的色素颗粒。它由黑素细胞（melanocytes）制造。黑色素还能帮助保护细胞，不受过多紫外线（UV）伤害。"
+      },
+      "lockPoint": {
+        "en": "Melanin alone is not enough: daily sunscreen with SPF 15 to 30 helps it protect the skin.",
+        "zh": "只靠黑色素不够：每天涂 SPF 15 到 30 的防晒霜，能帮它保护皮肤。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - The Dermis",
+          "pdfPage": 87,
+          "printedPage": "63"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 87,
+          "quote": "depends primarily on melanin, the tiny grains of pigment (coloring matter)"
+        },
+        {
+          "pdfPage": 87,
+          "quote": "Melanin helps protect sensitive cells against excessive UV exposure"
+        },
+        {
+          "pdfPage": 87,
+          "quote": "Daily use of a sunscreen with a sun protection factor (SPF) of 15 up to 30 can help the melanin in the skin protect the skin"
+        },
+        {
+          "pdfPage": 87,
+          "quote": "Melanocytes in the epidermis produce melanin."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-2e-06",
+      "question": {
+        "en": "The muscles that bend the wrist are the",
+        "zh": "负责弯曲手腕的肌肉是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "pronators.",
+          "zh": "旋前肌（pronators）。"
+        },
+        {
+          "id": "b",
+          "en": "supinators.",
+          "zh": "旋后肌（supinators）。"
+        },
+        {
+          "id": "c",
+          "en": "flexors.",
+          "zh": "屈肌（flexors）。"
+        },
+        {
+          "id": "d",
+          "en": "abductors.",
+          "zh": "外展肌（abductors）。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Flexors bend the wrist. Extensors do the opposite: they straighten the wrist, hand, and fingers.",
+        "zh": "flexors（屈肌）负责弯曲手腕。伸肌（extensors）正好相反：把手腕、手和手指伸直。"
+      },
+      "lockPoint": {
+        "en": "Pronators turn the palm down, supinators turn it up, abductors spread the fingers. None of them bend the wrist.",
+        "zh": "旋前肌让手掌朝下，旋后肌让手掌朝上，外展肌把手指分开。它们都不负责弯手腕。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Anatomy - Muscles of the Shoulder and Arm",
+          "pdfPage": 55,
+          "printedPage": "31"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Chapter 2 Glossary",
+          "pdfPage": 75,
+          "printedPage": "51"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 55,
+          "quote": "Extensor muscles of the wrist are involved in bending the wrist."
+        },
+        {
+          "pdfPage": 75,
+          "quote": "An extensor muscle of the wrist involved in flexing the wrist."
+        },
+        {
+          "pdfPage": 55,
+          "quote": "Muscle of the forearm that rotates the radius (forearm) outward and the palm upward."
+        },
+        {
+          "pdfPage": 55,
+          "quote": "Muscles that turn the hand inward so that the palm faces downward."
+        },
+        {
+          "pdfPage": 55,
+          "quote": "Abductors (ab-DUK-turz). Muscles that separate the fingers."
+        }
+      ],
+      "hookType": "contrast"
+    },
+    {
+      "id": "nic-2e-07",
+      "question": {
+        "en": "The five long, slender bones of the foot are the",
+        "zh": "脚上五块细长的骨头是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "metatarsals.",
+          "zh": "跖骨（metatarsals）。"
+        },
+        {
+          "id": "b",
+          "en": "tarsals.",
+          "zh": "跗骨（tarsals）。"
+        },
+        {
+          "id": "c",
+          "en": "phalanges.",
+          "zh": "趾骨（phalanges）。"
+        },
+        {
+          "id": "d",
+          "en": "metacarpals.",
+          "zh": "掌骨（metacarpals）。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "The five metatarsals are long and slender, like the metacarpals of the hand. The foot has 26 bones: 7 tarsals, 5 metatarsals, and 14 phalanges.",
+        "zh": "五块 metatarsals（跖骨）细而长，就像手上的掌骨（metacarpals）。脚一共有 26 块骨头：7 块跗骨、5 块跖骨和 14 块趾骨。"
+      },
+      "lockPoint": {
+        "en": "Hand and foot match: carpus and metacarpus in wrist and palm; tarsals and metatarsals in the foot.",
+        "zh": "手脚对着记：手腕和手掌是腕骨（carpus）和掌骨（metacarpus）；脚上是跗骨（tarsals）和跖骨（metatarsals）。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Anatomy - Bones of the Leg, Ankle, and Foot",
+          "pdfPage": 52,
+          "printedPage": "28"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Anatomy - Bones of the Arms and Hands",
+          "pdfPage": 51,
+          "printedPage": "27"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 52,
+          "quote": "five metatarsal (meh-tah-TAHR-sul) bones, which are long and slender, like the metacarpal bones of the hand"
+        },
+        {
+          "pdfPage": 52,
+          "quote": "The foot is made up of 26 bones."
+        },
+        {
+          "pdfPage": 52,
+          "quote": "subdivided into three general categories: seven tarsal"
+        },
+        {
+          "pdfPage": 52,
+          "quote": "14 bones called phalanges, which compose the toes"
+        },
+        {
+          "pdfPage": 51,
+          "quote": "Carpus (KAR-pus). The wrist: a flexible joint"
+        },
+        {
+          "pdfPage": 51,
+          "quote": "Metacarpus (met-uh-KAR-pus). Bones of the palm of the hand"
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-2e-08",
+      "question": {
+        "en": "The bone that forms the cap of the knee joint is the",
+        "zh": "构成膝关节盖子的骨头是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "tibia.",
+          "zh": "胫骨（tibia）。"
+        },
+        {
+          "id": "b",
+          "en": "fibula.",
+          "zh": "腓骨（fibula）。"
+        },
+        {
+          "id": "c",
+          "en": "femur.",
+          "zh": "股骨（femur）。"
+        },
+        {
+          "id": "d",
+          "en": "patella.",
+          "zh": "髌骨（patella）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "The patella, also called the accessory bone, forms the cap of the knee joint. People call it the kneecap.",
+        "zh": "patella（髌骨）也叫 accessory bone（副骨），构成膝关节的盖子，也就是俗称的 kneecap（膝盖骨）。"
+      },
+      "lockPoint": {
+        "en": "Sit down and tap the hard bone on the front of your knee: that is the patella.",
+        "zh": "坐下，敲一敲膝盖正前方那块硬骨头：那就是髌骨。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Anatomy - Bones of the Leg, Ankle, and Foot",
+          "pdfPage": 52,
+          "printedPage": "28"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Chapter 2 Glossary",
+          "pdfPage": 78,
+          "printedPage": "54"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 52,
+          "quote": "The patella (pah-TEL-lah), also called the accessory bone, forms the cap of the knee joint"
+        },
+        {
+          "pdfPage": 78,
+          "quote": "Also known as the accessory bone; forms the kneecap joint."
+        }
+      ],
+      "hookType": "body-cue"
+    },
+    {
+      "id": "nic-2e-09",
+      "question": {
+        "en": "A thin, white nail plate that bends more than normal is",
+        "zh": "又薄又白、比正常更容易弯的甲板是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "a pincer nail.",
+          "zh": "钳甲（pincer nail）。"
+        },
+        {
+          "id": "b",
+          "en": "an eggshell nail.",
+          "zh": "蛋壳甲（eggshell nail）。"
+        },
+        {
+          "id": "c",
+          "en": "a ridged nail.",
+          "zh": "甲纵嵴（ridged nail）。"
+        },
+        {
+          "id": "d",
+          "en": "a bruised nail bed.",
+          "zh": "甲床瘀伤（bruised nail bed）。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "An eggshell nail is thin, white, and bends more than normal. Causes include poor diet, heredity, internal disease, medication, or overfiling with an abrasive.",
+        "zh": "eggshell nail（蛋壳甲）又薄又白，比正常指甲更容易弯。原因包括饮食不当、遗传、内科疾病、药物，或用锉条锉得太多。"
+      },
+      "lockPoint": {
+        "en": "Thin and white like an eggshell. Heavy filing can cause it, so file gently.",
+        "zh": "又薄又白，像蛋壳一样。锉得太狠也会造成蛋壳甲，所以要轻轻锉。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Disorders - Table 4-1",
+          "pdfPage": 129,
+          "printedPage": "105"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Chapter 4 Glossary",
+          "pdfPage": 136,
+          "printedPage": "112"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 129,
+          "quote": "Noticeably thin, white nail plate is more flexible than normal"
+        },
+        {
+          "pdfPage": 129,
+          "quote": "caused by improper diet, heredity, internal disease, medication, or by overfiling with an abrasive."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-2e-10",
+      "question": {
+        "en": "Whitish patches that can be scraped off the nail surface may be",
+        "zh": "指甲表面可以刮掉的白色斑块，可能是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "leukonychia.",
+          "zh": "白甲（leukonychia）。"
+        },
+        {
+          "id": "b",
+          "en": "onychomycosis.",
+          "zh": "甲真菌病（onychomycosis）。"
+        },
+        {
+          "id": "c",
+          "en": "onycholysis.",
+          "zh": "甲剥离（onycholysis）。"
+        },
+        {
+          "id": "d",
+          "en": "paronychia.",
+          "zh": "甲沟炎（paronychia）。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Onychomycosis is nail fungus. It may show as whitish patches that scrape off the surface, pale yellow streaks in the plate, or a crumbling free edge.",
+        "zh": "onychomycosis（甲真菌病）就是指甲真菌感染。表现可以是表面能刮掉的白色斑块、甲板里淡黄色的条纹，或游离缘碎裂。"
+      },
+      "lockPoint": {
+        "en": "Leukonychia white spots are harmless and grow out. Fungus patches need a medical referral.",
+        "zh": "白甲（leukonychia）的白点无害，会随指甲长出去。真菌斑块则需要转诊看医生。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Diseases - Table 4-2",
+          "pdfPage": 133,
+          "printedPage": "109"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Disorders - Table 4-1",
+          "pdfPage": 130,
+          "printedPage": "106"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 133,
+          "quote": "Consists of whitish patches that can be scraped off the surface of the nail"
+        },
+        {
+          "pdfPage": 133,
+          "quote": "long whitish or pale yellowish streaks within the nail plate"
+        },
+        {
+          "pdfPage": 133,
+          "quote": "causes the free edge of the nail to crumble"
+        },
+        {
+          "pdfPage": 133,
+          "quote": "spreads toward the matrix. Medical referral required."
+        },
+        {
+          "pdfPage": 130,
+          "quote": "do not indicate disease and will disappear as the nail grows."
+        }
+      ],
+      "hookType": "contrast"
+    },
+    {
+      "id": "nic-2e-11",
+      "question": {
+        "en": "A small blister or sac containing clear fluid is a",
+        "zh": "装着清澈液体的小水泡或小囊是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "pustule.",
+          "zh": "脓疱（pustule）。"
+        },
+        {
+          "id": "b",
+          "en": "papule.",
+          "zh": "丘疹（papule）。"
+        },
+        {
+          "id": "c",
+          "en": "vesicle.",
+          "zh": "水疱（vesicle）。"
+        },
+        {
+          "id": "d",
+          "en": "macule.",
+          "zh": "斑疹（macule）。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "A vesicle is a small blister or sac of clear fluid, within or just under the epidermis. Poison ivy and poison oak can cause vesicles.",
+        "zh": "vesicle（水疱）是装着清澈液体的小水泡或小囊，位于表皮里面或表皮正下方。毒葛（poison ivy）和毒栎（poison oak）都可能引起水疱。"
+      },
+      "lockPoint": {
+        "en": "Clear fluid: vesicle. Pus in a white or yellow center: pustule. You can see \"pus\" inside pustule.",
+        "zh": "清澈液体是水疱（vesicle）；中间白色或黄色、里面有脓（pus）的是脓疱（pustule）。pustule 这个词里就藏着 pus。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Primary Lesions",
+          "pdfPage": 103,
+          "printedPage": "79"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Chapter 3 Glossary",
+          "pdfPage": 119,
+          "printedPage": "95"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 103,
+          "quote": "Small blister or sac containing clear fluid, lying within or just beneath the epidermis."
+        },
+        {
+          "pdfPage": 103,
+          "quote": "over-the-counter products. Poison ivy, poison oak"
+        },
+        {
+          "pdfPage": 103,
+          "quote": "papule with a white or yellow center containing pus"
+        }
+      ],
+      "hookType": "word-link"
+    },
+    {
+      "id": "nic-2e-12",
+      "question": {
+        "en": "An open lesion on the skin with loss of skin depth is",
+        "zh": "皮肤上开放性的、伴有皮肤深度缺损的皮损是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "an ulcer.",
+          "zh": "溃疡（ulcer）。"
+        },
+        {
+          "id": "b",
+          "en": "a crust.",
+          "zh": "痂（crust）。"
+        },
+        {
+          "id": "c",
+          "en": "a macule.",
+          "zh": "斑疹（macule）。"
+        },
+        {
+          "id": "d",
+          "en": "a nodule.",
+          "zh": "结节（nodule）。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "An ulcer is an open lesion on the skin or mucous membrane. Skin depth is lost, and fluid or pus may weep out. It is a secondary lesion.",
+        "zh": "ulcer（溃疡）是皮肤或黏膜上的开放性皮损，皮肤深度缺损，可能渗出液体或脓。它属于继发性皮损（secondary lesion）。"
+      },
+      "lockPoint": {
+        "en": "Ulcers need a medical referral, most of all for clients with diabetes.",
+        "zh": "溃疡需要转诊看医生，糖尿病顾客尤其如此。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Secondary Lesions",
+          "pdfPage": 106,
+          "printedPage": "82"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Chapter 3 Glossary",
+          "pdfPage": 119,
+          "printedPage": "95"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 106,
+          "quote": "Open lesion on the skin or mucous membrane of the body; accompanied by loss of skin depth and possibly weeping of fluids or pus."
+        },
+        {
+          "pdfPage": 106,
+          "quote": "Requires medical referral, particularly in clients with underlying medical conditions such as diabetes."
+        },
+        {
+          "pdfPage": 106,
+          "quote": "Secondary lesion Pronunciation Image Graphic Description Examples"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-2e-13",
+      "question": {
+        "en": "Hereditary milky-white spots on the skin are called",
+        "zh": "皮肤上遗传性的乳白色斑点叫做"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "chloasma.",
+          "zh": "黄褐斑（chloasma）。"
+        },
+        {
+          "id": "b",
+          "en": "a tan.",
+          "zh": "晒黑（tan）。"
+        },
+        {
+          "id": "c",
+          "en": "a port-wine stain.",
+          "zh": "葡萄酒色斑（port-wine stain）。"
+        },
+        {
+          "id": "d",
+          "en": "vitiligo.",
+          "zh": "白癜风（vitiligo）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Vitiligo is milky-white spots on the skin, a kind of leukoderma. It is hereditary: it is passed down in families.",
+        "zh": "vitiligo（白癜风）是皮肤上的乳白色斑点，属于白斑病（leukoderma）的一种。它是遗传性的（hereditary），会在家族里代代相传。"
+      },
+      "lockPoint": {
+        "en": "Its Chinese name starts with the character for white. Protect these spots from too much UV light.",
+        "zh": "白癜风的第一个字是“白”。这些白斑要小心保护，避免过多紫外线照射。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Pigmentation Disorders",
+          "pdfPage": 108,
+          "printedPage": "84"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Chapter 3 Glossary",
+          "pdfPage": 119,
+          "printedPage": "95"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 108,
+          "quote": "Milky-white spots (leukoderma) of the skin. Vitiligo is hereditary."
+        },
+        {
+          "pdfPage": 119,
+          "quote": "Vitiligo is hereditary and may be related to thyroid conditions."
+        },
+        {
+          "pdfPage": 108,
+          "quote": "must be carefully protected from overexposure to any source of UV energy"
+        }
+      ],
+      "hookType": "chinese-character"
+    },
+    {
+      "id": "nic-2e-14",
+      "question": {
+        "en": "Which skin cancer is the most dangerous because it can spread quickly?",
+        "zh": "哪一种皮肤癌最危险，因为它会很快扩散？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Basal cell carcinoma",
+          "zh": "基底细胞癌（basal cell carcinoma）"
+        },
+        {
+          "id": "b",
+          "en": "Squamous cell carcinoma",
+          "zh": "鳞状细胞癌（squamous cell carcinoma）"
+        },
+        {
+          "id": "c",
+          "en": "Malignant melanoma",
+          "zh": "恶性黑色素瘤（malignant melanoma）"
+        },
+        {
+          "id": "d",
+          "en": "A normal mole",
+          "zh": "普通的痣（mole）"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Malignant melanoma is the least common but most dangerous skin cancer. It can spread quickly. It often shows as black or dark patches that are uneven or raised.",
+        "zh": "malignant melanoma（恶性黑色素瘤）最少见，却是最危险的皮肤癌，会很快扩散。常见表现是黑色或深色斑块，表面不平或凸起。"
+      },
+      "lockPoint": {
+        "en": "It often appears on skin that rarely sees the sun. Milady calls it the city-person's cancer.",
+        "zh": "它常出现在很少晒太阳的部位。Milady 把它叫做“城市人的癌症”。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Skin Cancer",
+          "pdfPage": 108,
+          "printedPage": "84"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Skin Cancer",
+          "pdfPage": 109,
+          "printedPage": "85"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 108,
+          "quote": "Most serious form of skin cancer as it can spread quickly (metastasize)"
+        },
+        {
+          "pdfPage": 109,
+          "quote": "Malignant melanoma is the least common but most dangerous type of skin cancer."
+        },
+        {
+          "pdfPage": 108,
+          "quote": "black or dark patches on the skin are usually uneven in texture, jagged, or raised"
+        },
+        {
+          "pdfPage": 109,
+          "quote": "most commonly found on areas of the body that are not regularly exposed"
+        },
+        {
+          "pdfPage": 109,
+          "quote": "This disease is referred to as the city-person's cancer."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-2e-15",
+      "question": {
+        "en": "A mole with ragged or notched edges shows which ABCDE warning sign?",
+        "zh": "痣的边缘参差不齐或有缺口，这属于 ABCDE 中的哪一个警示信号？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Border irregularity",
+          "zh": "边缘不规则（Border irregularity）"
+        },
+        {
+          "id": "b",
+          "en": "Asymmetry",
+          "zh": "不对称（Asymmetry）"
+        },
+        {
+          "id": "c",
+          "en": "Color",
+          "zh": "颜色（Color）"
+        },
+        {
+          "id": "d",
+          "en": "Diameter",
+          "zh": "直径（Diameter）"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "B is for Border irregularity: the edges of the mole are ragged or notched. A healthy mole has even edges. Refer any changing mole to a physician.",
+        "zh": "B 代表 Border irregularity（边缘不规则）：痣的边缘参差不齐或有缺口。正常的痣边缘整齐。发现痣有变化，应建议顾客去看医生。"
+      },
+      "lockPoint": {
+        "en": "Border = the edge line, like the border between two countries on a map.",
+        "zh": "Border 就是边界线，像地图上两个国家之间的边界一样。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Skin Cancer",
+          "pdfPage": 109,
+          "printedPage": "85"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 109,
+          "quote": "B. Border irregularity. The edges of the mole are ragged or notched."
+        },
+        {
+          "pdfPage": 109,
+          "quote": "Benign mole—symmetrical Benign mole—one shade Benign mole—even edges"
+        },
+        {
+          "pdfPage": 109,
+          "quote": "refer the client to a physician"
+        }
+      ],
+      "hookType": "picture"
+    }
+  ]
+}

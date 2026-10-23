@@ -1,0 +1,743 @@
+{
+  "schemaVersion": "1.0.0",
+  "setId": "6E",
+  "domain": {
+    "id": "manicure-pedicure",
+    "order": 6,
+    "title": {
+      "en": "Manicure and Pedicure Services",
+      "zh": "手部与足部护理服务"
+    },
+    "examWeightPercent": 18
+  },
+  "title": {
+    "en": "More Key Facts",
+    "zh": "更多重点"
+  },
+  "status": "reviewed",
+  "authoredAt": "2026-10-23",
+  "sourceBook": "Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020)",
+  "review": {
+    "reviewedAt": "2026-10-23",
+    "checks": [
+      "quotes found on cited pages (verify-nic-domain-evidence.py)",
+      "blind answer check: 11/11 matched key; reworded stems and choices re-checked blind",
+      "content, level-2 English and Chinese review: fixes applied",
+      "memory hooks fact-checked against cited pages: fixes applied",
+      "overlap check against all 460 earlier questions and the other catch-up sets: overlapping items dropped",
+      "written to fill gaps found in docs/exam-outline-coverage.md"
+    ]
+  },
+  "questions": [
+    {
+      "id": "nic-6e-01",
+      "question": {
+        "en": "In a basic manicure, why are the fingertips soaked in the finger bowl?",
+        "zh": "基础修手中，为什么要把指尖泡在泡手碗（finger bowl）里？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "To remove the old polish",
+          "zh": "卸除旧甲油"
+        },
+        {
+          "id": "b",
+          "en": "To soften the eponychium and cuticle",
+          "zh": "软化甲上皮（eponychium）和甲小皮（cuticle）"
+        },
+        {
+          "id": "c",
+          "en": "To disinfect the nail plate",
+          "zh": "给甲板消毒"
+        },
+        {
+          "id": "d",
+          "en": "To harden the free edge",
+          "zh": "让游离缘（free edge）变硬"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "After filing, the fingertips soak in the finger bowl. This softens the eponychium (living skin around the nail) and the cuticle (dead tissue stuck to the nail plate).",
+        "zh": "锉完指甲后，把指尖泡在泡手碗（finger bowl）里。这样能软化甲上皮（eponychium，指甲周围的活皮肤）和甲小皮（cuticle，粘在甲板上的死组织）。"
+      },
+      "lockPoint": {
+        "en": "Like washing dishes: one pan soaks while you scrub the next. One hand soaks while you file the other.",
+        "zh": "就像洗碗：一个锅泡着，你先刷下一个。一只手泡着，你就锉另一只手。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-3 Performing a Basic Manicure",
+          "pdfPage": 202,
+          "printedPage": "178"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 202,
+          "quote": "place the fingertips of the left hand in the finger bowl to soak and soften the eponychium"
+        },
+        {
+          "pdfPage": 202,
+          "quote": "(the dead tissue adhered to the nail plate) while filing the nails on the right hand"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-6e-02",
+      "question": {
+        "en": "When brushing the nails over the finger bowl, which way do you stroke?",
+        "zh": "在泡手碗（finger bowl）上方刷指甲时，应该朝哪个方向刷？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "From the free edge up to the knuckle",
+          "zh": "从游离缘往上刷到指节"
+        },
+        {
+          "id": "b",
+          "en": "Side to side across the nail",
+          "zh": "在指甲上左右横刷"
+        },
+        {
+          "id": "c",
+          "en": "In small circles on the nail",
+          "zh": "在指甲上小圈打转"
+        },
+        {
+          "id": "d",
+          "en": "From the knuckle down to the free edge",
+          "zh": "从指节往下刷到游离缘（free edge）"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Use a wet nail brush to remove debris from the fingertips. Use downward strokes, starting at the first knuckle and brushing toward the free edge.",
+        "zh": "用湿的指甲刷（nail brush）刷掉指尖上的碎屑（debris）。向下刷，从第一个指节开始，朝游离缘（free edge）方向刷。"
+      },
+      "lockPoint": {
+        "en": "Same direction as wiping off old polish: toward the free edge.",
+        "zh": "和擦掉旧甲油的方向一样：朝游离缘（free edge）。"
+      },
+      "teachingRelation": "action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-3 Performing a Basic Manicure",
+          "pdfPage": 202,
+          "printedPage": "178"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 202,
+          "quote": "brush the fingers with your wet nail brush to remove any debris from the fingertips"
+        },
+        {
+          "pdfPage": 202,
+          "quote": "Use downward strokes, starting at the first knuckle and brushing toward the free edge."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-6e-03",
+      "question": {
+        "en": "In a basic manicure, what are nippers used to remove?",
+        "zh": "基础修手中，死皮剪（nippers）是用来剪掉什么的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Loose, hanging tags of dead skin",
+          "zh": "松松挂着的死皮"
+        },
+        {
+          "id": "b",
+          "en": "The living skin around the nail",
+          "zh": "指甲周围的活皮肤"
+        },
+        {
+          "id": "c",
+          "en": "Rough spots on the free edge",
+          "zh": "游离缘上粗糙的地方"
+        },
+        {
+          "id": "d",
+          "en": "Dried polish on the nail plate",
+          "zh": "甲板上干掉的甲油"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Use sharp nippers only on loosely hanging tags of dead skin. Never rip or tear cuticle tags or living skin, because this may lead to infection.",
+        "zh": "锋利的死皮剪只用来剪松松挂着的死皮。绝不能撕扯死皮或活皮肤，因为这可能导致感染。"
+      },
+      "lockPoint": {
+        "en": "Client with thin skin or a health concern? Milady says don't nip; gently use a curette instead.",
+        "zh": "顾客皮肤薄或有健康问题？Milady 说不要剪死皮，改用刮匙（curette）轻轻去除。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-3 Performing a Basic Manicure",
+          "pdfPage": 203,
+          "printedPage": "179"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Tools and Implements",
+          "pdfPage": 194,
+          "printedPage": "170"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 203,
+          "quote": "Use sharp nippers to remove any loosely hanging tags of dead skin."
+        },
+        {
+          "pdfPage": 203,
+          "quote": "Never rip or tear the cuticle tags or the living skin because this may lead to infection."
+        },
+        {
+          "pdfPage": 194,
+          "quote": "Do not nip the cuticles. It is better to use a curette to gently remove nonliving tissue from the nail plate."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-6e-04",
+      "question": {
+        "en": "Why has the three-way buffer replaced the chamois for shining nails?",
+        "zh": "为什么三面抛光条（three-way buffer）取代了麂皮（chamois）来给指甲抛光？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "A chamois cannot shine natural nails",
+          "zh": "麂皮不能给真甲抛光"
+        },
+        {
+          "id": "b",
+          "en": "A chamois is only for enhancements",
+          "zh": "麂皮只能用在加固甲上"
+        },
+        {
+          "id": "c",
+          "en": "A chamois gets contaminated with reuse",
+          "zh": "麂皮重复使用会被污染"
+        },
+        {
+          "id": "d",
+          "en": "A chamois leaves deep scratches",
+          "zh": "麂皮会留下很深的刮痕"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Milady says the two- or three-way buffer replaces the chamois, which becomes contaminated with multiple uses. The buffer still gives a beautiful, glossy shine.",
+        "zh": "Milady 说两面或三面抛光条取代了麂皮（chamois），因为麂皮多次使用后会被污染（contaminated）。抛光条一样能抛出漂亮的光泽。"
+      },
+      "lockPoint": {
+        "en": "Unlike a chamois, most three-way buffers are single-use: throw each one away after one client.",
+        "zh": "和麂皮不同，大多数三面抛光条是一次性的：用完一位顾客就丢掉。"
+      },
+      "teachingRelation": "cause-effect",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Two-Way or Three-Way Buffer",
+          "pdfPage": 171,
+          "printedPage": "147"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Two-Way or Three-Way Buffer",
+          "pdfPage": 172,
+          "printedPage": "148"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 171,
+          "quote": "The two- or three-way buffer abrasive technology replaces the chamois that becomes contaminated with multiple uses"
+        },
+        {
+          "pdfPage": 171,
+          "quote": "The result is a glossy shine on the nails."
+        },
+        {
+          "pdfPage": 172,
+          "quote": "Most two- or three-way buffers are single-use only and must be thrown away after each use."
+        }
+      ],
+      "hookType": "contrast"
+    },
+    {
+      "id": "nic-6e-05",
+      "question": {
+        "en": "Before beginning a massage on any client, what should you always do?",
+        "zh": "给任何顾客按摩之前，一定要先做什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Apply the base coat",
+          "zh": "涂底油（base coat）"
+        },
+        {
+          "id": "b",
+          "en": "Ask the client's permission",
+          "zh": "征求顾客的同意"
+        },
+        {
+          "id": "c",
+          "en": "Soak the hands in hot water",
+          "zh": "把手泡在热水里"
+        },
+        {
+          "id": "d",
+          "en": "File the nails once more",
+          "zh": "再锉一次指甲"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Milady says to always ask permission before any massage. Also ask if the client has any concerns about receiving a massage.",
+        "zh": "Milady 说任何按摩之前都要先征求顾客同意，还要问顾客对按摩有没有顾虑。"
+      },
+      "lockPoint": {
+        "en": "Client with health concerns? Use gentler pressure, and do not bend or flex hands, fingers, or wrists.",
+        "zh": "顾客有健康问题？力度要更轻，也不要弯曲或扳动手、手指或手腕。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Massage (clients with health considerations)",
+          "pdfPage": 194,
+          "printedPage": "170"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Massage (clients with health considerations)",
+          "pdfPage": 235,
+          "printedPage": "211"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 194,
+          "quote": "Before beginning a massage on any client, always ask permission"
+        },
+        {
+          "pdfPage": 235,
+          "quote": "Also make sure to ask if there are any concerns about receiving a massage."
+        },
+        {
+          "pdfPage": 194,
+          "quote": "Do not bend or flex hands, fingers, or wrists."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-6e-06",
+      "question": {
+        "en": "In the hand massage, how is the joint movement of the fingers done?",
+        "zh": "手部按摩中，手指的关节活动（joint movement）怎么做？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Gently rotate each finger in circles",
+          "zh": "轻轻转动每根手指画圈"
+        },
+        {
+          "id": "b",
+          "en": "Pull each finger hard to stretch it",
+          "zh": "用力拉每根手指来拉伸"
+        },
+        {
+          "id": "c",
+          "en": "Tap each finger quickly and firmly",
+          "zh": "快速用力地拍打每根手指"
+        },
+        {
+          "id": "d",
+          "en": "Squeeze each fingertip for one minute",
+          "zh": "每个指尖捏一分钟"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Support the arm at the wrist. Hold each finger at the base of the nail and gently rotate it in circles, three to five times, from little finger to thumb.",
+        "zh": "托住手腕处的手臂。捏住每根手指的指甲根部，轻轻转动画圈，每根三到五次，从小指做到大拇指。"
+      },
+      "lockPoint": {
+        "en": "The foot massage begins with circles too: hold above the ankle and rotate the whole foot.",
+        "zh": "足部按摩一开始也是转圈：握住脚踝上方，把整只脚转圈。"
+      },
+      "teachingRelation": "action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-5 Hand and Arm Massage",
+          "pdfPage": 208,
+          "printedPage": "184"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Procedure 7-2 Foot and Leg Massage",
+          "pdfPage": 241,
+          "printedPage": "217"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 208,
+          "quote": "start with the little finger, holding it at the base of the nail. Gently rotate fingers to form circles."
+        },
+        {
+          "pdfPage": 208,
+          "quote": "Work toward the thumb, about three to five times on each finger."
+        },
+        {
+          "pdfPage": 241,
+          "quote": "Grasp the leg gently just above the ankle and use your other hand to hold the foot just beneath the toes. Rotate the entire foot in a circular motion."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-6e-07",
+      "question": {
+        "en": "How is massage lotion removed from the nail plate before polishing?",
+        "zh": "涂甲油之前，怎样把甲板上的按摩乳液去掉？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Rub it in with a buffer",
+          "zh": "用抛光条把它磨进去"
+        },
+        {
+          "id": "b",
+          "en": "Wipe it off with nail oil",
+          "zh": "用指甲营养油（nail oil）擦掉"
+        },
+        {
+          "id": "c",
+          "en": "Leave it under the base coat",
+          "zh": "留着，涂在底油下面"
+        },
+        {
+          "id": "d",
+          "en": "Cotton with alcohol, acetone, or remover",
+          "zh": "用沾了酒精、丙酮或卸甲水的棉花"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Use a small piece of cotton soaked with alcohol, acetone, or polish remover. Clean under the free edge too, or the polish will not adhere well.",
+        "zh": "用一小块沾了酒精、丙酮（acetone）或卸甲水的棉花擦。游离缘（free edge）下面也要擦干净，否则甲油附着不好。"
+      },
+      "lockPoint": {
+        "en": "Wipe as firmly as you would to take off a stubborn red polish.",
+        "zh": "擦的时候要像卸掉很难擦的红色甲油那样用力彻底。"
+      },
+      "teachingRelation": "action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-3 Performing a Basic Manicure",
+          "pdfPage": 205,
+          "printedPage": "181"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 205,
+          "quote": "Use a small piece of cotton saturated with alcohol, acetone, or polish remover as though you were removing a stubborn red nail polish."
+        },
+        {
+          "pdfPage": 205,
+          "quote": "Do not forget to clean under the free edge of the nail plate to remove any remaining massage lotion."
+        },
+        {
+          "pdfPage": 205,
+          "quote": "or the polish will not adhere well"
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-6e-08",
+      "question": {
+        "en": "How should the second coat of color polish be applied?",
+        "zh": "第二层彩色甲油应该怎么涂？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "In one thick, heavy coat",
+          "zh": "涂一层又厚又重的"
+        },
+        {
+          "id": "b",
+          "en": "With the brush fanned again",
+          "zh": "再把刷子压开成扇形"
+        },
+        {
+          "id": "c",
+          "en": "In a thin, even coat",
+          "zh": "涂一层薄而均匀的"
+        },
+        {
+          "id": "d",
+          "en": "Only along the free edge",
+          "zh": "只涂在游离缘上"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "For the second coat, do not fan the brush or cap the tip again. Start at the base of the polish curve, move toward the free edge, and apply a thin, even coat.",
+        "zh": "涂第二层时，不要再把刷子压成扇形，也不要再封边。从甲油弧线的底部开始，朝游离缘（free edge）刷，涂一层薄而均匀的甲油。"
+      },
+      "lockPoint": {
+        "en": "Thin layers built one on another → better adhesion → the polish lasts longer.",
+        "zh": "一层层薄涂叠加 → 附着更好 → 甲油更持久。"
+      },
+      "teachingRelation": "action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-4 Polishing the Nails",
+          "pdfPage": 207,
+          "printedPage": "183"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - The Polish Application",
+          "pdfPage": 183,
+          "printedPage": "159"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 207,
+          "quote": "With the second coat, do not fan the brush or reapply to the tip."
+        },
+        {
+          "pdfPage": 207,
+          "quote": "Apply a thin, even coating on the nail that has depth of color and perfect appearance."
+        },
+        {
+          "pdfPage": 183,
+          "quote": "By building layer upon layer, you will improve its adhesion and staying power."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-6e-09",
+      "question": {
+        "en": "After lotion or a mask is applied, how do electric mitts help?",
+        "zh": "涂上乳液或面膜（mask）之后，电热手套（electric mitts）有什么作用？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Warmth helps the products soak in",
+          "zh": "温热帮助产品渗入皮肤"
+        },
+        {
+          "id": "b",
+          "en": "They make the polish dry faster",
+          "zh": "让甲油干得更快"
+        },
+        {
+          "id": "c",
+          "en": "They disinfect the client's skin",
+          "zh": "给顾客的皮肤消毒"
+        },
+        {
+          "id": "d",
+          "en": "They form a hard wax barrier",
+          "zh": "形成一层硬的蜡膜"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "The hands or feet go into a plastic cover, then into the heated mitts. The warmth helps the conditioning ingredients soak into the skin and adds comfort and relaxation.",
+        "zh": "先把手或脚套进塑料套，再放进电热手套。温热帮助护理成分渗入皮肤，也让顾客更舒服、更放松。"
+      },
+      "lockPoint": {
+        "en": "Electric mitts can be an add-on: they make a higher-cost service.",
+        "zh": "电热手套可以作为加购项目，让服务价格更高。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Electric Hand/Foot Mitts",
+          "pdfPage": 164,
+          "printedPage": "140"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Electric Foot Mitts",
+          "pdfPage": 219,
+          "printedPage": "195"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 164,
+          "quote": "which are then placed in a plastic cover and inserted into the foot mitts"
+        },
+        {
+          "pdfPage": 164,
+          "quote": "The warmth helps the conditioning ingredients to penetrate, adds to the comfort of the service"
+        },
+        {
+          "pdfPage": 164,
+          "quote": "Heated mitts make for a higher-cost service or can be an add-on to a service."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-6e-10",
+      "question": {
+        "en": "Why are terry cloth mitts placed over paraffin?",
+        "zh": "为什么要在蜡（paraffin）外面套上毛巾布手套（terry cloth mitts）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "They melt the paraffin again",
+          "zh": "能把蜡重新融化"
+        },
+        {
+          "id": "b",
+          "en": "They hold in heat and let it harden",
+          "zh": "能留住热量，又能让蜡变硬"
+        },
+        {
+          "id": "c",
+          "en": "They are thrown away after use",
+          "zh": "用完就丢掉"
+        },
+        {
+          "id": "d",
+          "en": "They peel the paraffin off later",
+          "zh": "之后能把蜡剥下来"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Terry cloth mitts hold in the heat from the paraffin and let it harden, so it can work as a barrier. Electric mitts do not let paraffin harden.",
+        "zh": "毛巾布手套能留住蜡的热量，又能让蜡变硬，起到屏障作用。电热手套不会让蜡变硬。"
+      },
+      "lockPoint": {
+        "en": "Terry cloth mitts are washable and reusable, like the salon's terry cloth towels.",
+        "zh": "毛巾布手套可以洗、可以重复用，就像沙龙里的毛巾一样。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Terry Cloth Mitts",
+          "pdfPage": 219,
+          "printedPage": "195"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 219,
+          "quote": "to hold in the heat generated by the paraffin"
+        },
+        {
+          "pdfPage": 219,
+          "quote": "These mitts allow the paraffin to harden to perform its barrier function, while electric mitts do not."
+        },
+        {
+          "pdfPage": 219,
+          "quote": "These washable and reusable mitts, available for both hands and feet"
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-6e-11",
+      "question": {
+        "en": "Which hot stones are the safest to use?",
+        "zh": "哪种热石用起来最安全？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Natural stones, because they are porous",
+          "zh": "天然石，因为它们多孔"
+        },
+        {
+          "id": "b",
+          "en": "Any stone that feels smooth",
+          "zh": "任何摸起来光滑的石头"
+        },
+        {
+          "id": "c",
+          "en": "Synthetic stones that can be disinfected",
+          "zh": "可以消毒的合成石"
+        },
+        {
+          "id": "d",
+          "en": "Stones rinsed in warm water only",
+          "zh": "只用温水冲洗的石头"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Natural stones are porous, so they cannot be disinfected. Synthetic stones can be disinfected and are the safest. Scrub-clean and disinfect the stones between clients.",
+        "zh": "天然石是多孔的（porous），所以不能消毒。合成石（synthetic stones）可以消毒，是最安全的选择。每位顾客之间都要刷洗并消毒石头。"
+      },
+      "lockPoint": {
+        "en": "Before using stones on a client, test their warmth on your own arm.",
+        "zh": "给顾客用之前，先在自己的手臂上试一下石头的温度。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Hot Stones",
+          "pdfPage": 220,
+          "printedPage": "196"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 220,
+          "quote": "Natural stones are porous and therefore cannot be disinfected."
+        },
+        {
+          "pdfPage": 220,
+          "quote": "Synthetic stones can be disinfected and are the safest option for use."
+        },
+        {
+          "pdfPage": 220,
+          "quote": "The stones are scrub-cleaned and disinfected between clients"
+        }
+      ],
+      "hookType": "body-cue"
+    }
+  ]
+}

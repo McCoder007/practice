@@ -1,0 +1,559 @@
+{
+  "schemaVersion": "1.0.0",
+  "setId": "5D",
+  "domain": {
+    "id": "tools",
+    "order": 5,
+    "title": {
+      "en": "Nail Service Tools",
+      "zh": "美甲服务工具"
+    },
+    "examWeightPercent": 13
+  },
+  "title": {
+    "en": "More Key Facts",
+    "zh": "更多重点"
+  },
+  "status": "reviewed",
+  "authoredAt": "2026-10-23",
+  "sourceBook": "Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020)",
+  "review": {
+    "reviewedAt": "2026-10-23",
+    "checks": [
+      "quotes found on cited pages (verify-nic-domain-evidence.py)",
+      "blind answer check: 8/8 (one overlapping question later dropped) matched key; reworded stems and choices re-checked blind",
+      "content, level-2 English and Chinese review: fixes applied",
+      "memory hooks fact-checked against cited pages: fixes applied",
+      "overlap check against all 460 earlier questions and the other catch-up sets: overlapping items dropped",
+      "written to fill gaps found in docs/exam-outline-coverage.md"
+    ]
+  },
+  "questions": [
+    {
+      "id": "nic-5d-01",
+      "question": {
+        "en": "Which of these is equipment, not an implement?",
+        "zh": "下面哪一项属于设备（equipment），而不是工具（implement）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Nail nippers",
+          "zh": "死皮剪"
+        },
+        {
+          "id": "b",
+          "en": "Metal pusher",
+          "zh": "钢推"
+        },
+        {
+          "id": "c",
+          "en": "Tweezers",
+          "zh": "镊子"
+        },
+        {
+          "id": "d",
+          "en": "Manicure table",
+          "zh": "美甲桌"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Equipment is every tool that is not an implement, such as the manicure table. Implements are the tools you use in the service, like nippers, metal pushers, and tweezers.",
+        "zh": "设备（equipment）是所有不属于工具（implement）的用具，例如美甲桌。工具是服务中拿来操作的东西，例如死皮剪、钢推和镊子。"
+      },
+      "lockPoint": {
+        "en": "Milady names four tool types: equipment, implements, materials, and professional nail products.",
+        "zh": "Milady 把美甲用具分成四类：设备（equipment）、工具（implements）、耗材（materials）和专业美甲产品（professional nail products）。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Tools Needed for Nail Services",
+          "pdfPage": 160,
+          "printedPage": "136"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Manicure Table",
+          "pdfPage": 161,
+          "printedPage": "137"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Multiuse and Single-Use Implements",
+          "pdfPage": 166,
+          "printedPage": "142"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Tweezers",
+          "pdfPage": 167,
+          "printedPage": "143"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 160,
+          "quote": "The four types of nail technology tools that you will incorporate into your services include"
+        },
+        {
+          "pdfPage": 161,
+          "quote": "Equipment includes all tools used to perform nail services that are not implements."
+        },
+        {
+          "pdfPage": 161,
+          "quote": "A standard manicuring table usually includes a drawer"
+        },
+        {
+          "pdfPage": 166,
+          "quote": "Here are examples of multiuse implements."
+        },
+        {
+          "pdfPage": 166,
+          "quote": "is a stainless-steel implement used to carefully trim away dead skin around the nails"
+        },
+        {
+          "pdfPage": 167,
+          "quote": "Tweezers are multiuse implements that can be used for lifting small bits of debris"
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-5d-02",
+      "question": {
+        "en": "Rings of fire on the nail are caused by",
+        "zh": "指甲上出现“火圈”（rings of fire）是因为"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "lifting the bit off the nail often.",
+          "zh": "经常把磨头抬离指甲。"
+        },
+        {
+          "id": "b",
+          "en": "keeping the bit parallel to the nail.",
+          "zh": "让磨头与指甲保持平行。"
+        },
+        {
+          "id": "c",
+          "en": "holding the bit at the wrong angle.",
+          "zh": "磨头拿的角度不对。"
+        },
+        {
+          "id": "d",
+          "en": "using a finer grit bit.",
+          "zh": "使用更细目数的磨头。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Rings of fire are red marks cut into the nail. A bit held at the wrong angle, often at the cuticle area, lets its front edge dig into the nail.",
+        "zh": "火圈（rings of fire）是割进指甲里的红色痕迹。磨头角度不对（常发生在甲小皮附近）时，磨头前缘会挖进指甲。"
+      },
+      "lockPoint": {
+        "en": "Tilted bit → front edge digs in → red ring on the nail, and the client feels burning.",
+        "zh": "磨头倾斜 → 前缘挖进去 → 指甲上留下红圈，顾客还会有灼痛感。"
+      },
+      "teachingRelation": "cause-effect",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Electric Filing - Important Things to Remember",
+          "pdfPage": 264,
+          "printedPage": "240"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Electric Filing - Rings of Fire",
+          "pdfPage": 272,
+          "printedPage": "248"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Electric Filing - Glossary",
+          "pdfPage": 275,
+          "printedPage": "251"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 264,
+          "quote": "are caused by holding flat-tipped bits at the wrong angle—especially at the cuticle areas—which allows the edge of the bit to dig into the surface of the nail"
+        },
+        {
+          "pdfPage": 272,
+          "quote": "This causes the front cutting edge of the bit to cut into and damage the natural nail, leaving a red mark and burning the client"
+        },
+        {
+          "pdfPage": 275,
+          "quote": "Red marks cut into the nail by filing product with the front edge of the bit at an incorrect angle"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-5d-03",
+      "question": {
+        "en": "Instead of pressing down hard on the bit, you should",
+        "zh": "与其用力往下压磨头，你应该"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "increase the machine's speed.",
+          "zh": "调高机器的转速。"
+        },
+        {
+          "id": "b",
+          "en": "lower the machine's speed.",
+          "zh": "调低机器的转速。"
+        },
+        {
+          "id": "c",
+          "en": "press on the bit's front edge.",
+          "zh": "压在磨头的前缘上。"
+        },
+        {
+          "id": "d",
+          "en": "tilt the bit onto its edge.",
+          "zh": "把磨头侧过来用边缘磨。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Higher speeds let you use less pressure. If you feel the need to press down on the bit, increase the speed instead, and reduce your overall pressure.",
+        "zh": "转速越高，需要的压力越小。如果你觉得需要往下压磨头，就改为调高转速，并减少整体用力。"
+      },
+      "lockPoint": {
+        "en": "Let the speed do the work, not your hand. And keep the bit parallel to the nail.",
+        "zh": "让转速去干活，而不是靠手用力。还要让磨头与指甲保持平行。"
+      },
+      "teachingRelation": "condition-action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Electric Filing - Rings of Fire",
+          "pdfPage": 273,
+          "printedPage": "249"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Electric Filing - Important Things to Remember",
+          "pdfPage": 264,
+          "printedPage": "240"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 273,
+          "quote": "If you feel the need to press down on the bit, increase the speed of your machine instead."
+        },
+        {
+          "pdfPage": 273,
+          "quote": "Reduce the overall amount of pressure applied during filing."
+        },
+        {
+          "pdfPage": 273,
+          "quote": "Keep the bit parallel to the nail."
+        },
+        {
+          "pdfPage": 264,
+          "quote": "Higher speeds allow you to use less pressure."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-5d-04",
+      "question": {
+        "en": "Coarse-grit abrasive files and buffers have a grit of",
+        "zh": "粗目数（coarse-grit）的锉条和抛光条，目数是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "100 or less.",
+          "zh": "100 或更低。"
+        },
+        {
+          "id": "b",
+          "en": "150 to 180.",
+          "zh": "150 到 180。"
+        },
+        {
+          "id": "c",
+          "en": "240 and higher.",
+          "zh": "240 或更高。"
+        },
+        {
+          "id": "d",
+          "en": "no grit at all.",
+          "zh": "完全没有目数。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Coarse-grit files and buffers are 100 grit or less. They file down fast and leave deep scratches, so they are generally not used on natural nails.",
+        "zh": "粗目数锉条和抛光条是 100 目或更低。它们磨得快、留下很深的刮痕，所以一般不用在真甲上。"
+      },
+      "lockPoint": {
+        "en": "Three steps: 100 or less is coarse, 150 to 180 is medium, 240 and up is fine.",
+        "zh": "记三档：100 及以下是粗，150 到 180 是中，240 及以上是细。"
+      },
+      "teachingRelation": "number",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Abrasive Nail Files and Buffers",
+          "pdfPage": 171,
+          "printedPage": "147"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 171,
+          "quote": "files and buffers (100 or less grit) quickly reduce any surface and produce deeper and more visible scratches"
+        },
+        {
+          "pdfPage": 171,
+          "quote": "lower-grit files must be used with caution"
+        },
+        {
+          "pdfPage": 171,
+          "quote": "Medium-grit abrasives (MEE-dee-um GRIT uh-BRAY-sivs) (150-180)"
+        },
+        {
+          "pdfPage": 171,
+          "quote": "feature grits of 240 and higher"
+        },
+        {
+          "pdfPage": 171,
+          "quote": "finally on to the shining surface (usually no grit)"
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-5d-05",
+      "question": {
+        "en": "To protect your breathing from dust during electric filing, wear",
+        "zh": "电动打磨时，为了保护呼吸、不吸入粉尘，要戴"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "a surgical-type mask.",
+          "zh": "外科式口罩。"
+        },
+        {
+          "id": "b",
+          "en": "nitrile gloves.",
+          "zh": "丁腈手套。"
+        },
+        {
+          "id": "c",
+          "en": "an N95-rated dust mask.",
+          "zh": "N95 级防尘口罩。"
+        },
+        {
+          "id": "d",
+          "en": "safety glasses.",
+          "zh": "护目镜。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Always wear an N95-rated dust mask when filing. Thin surgical-type masks do not stop dust and should not be worn in salons.",
+        "zh": "打磨时一定要戴 N95 级防尘口罩（dust mask）。薄的外科式口罩挡不住粉尘，不应在沙龙里使用。"
+      },
+      "lockPoint": {
+        "en": "Wear eye protection too, so dust stays out of your eyes. A mask never replaces good ventilation.",
+        "zh": "也要戴护目镜，别让粉尘进眼睛。口罩永远不能代替良好的通风。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Electric Filing - Reducing Dust",
+          "pdfPage": 271,
+          "printedPage": "247"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Masks",
+          "pdfPage": 154,
+          "printedPage": "130"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Electric Filing - Safety Tips",
+          "pdfPage": 273,
+          "printedPage": "249"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 271,
+          "quote": "you should always wear an appropriate N95 rated dust mask when filing"
+        },
+        {
+          "pdfPage": 154,
+          "quote": "flimsy surgical-type masks, which are ineffective for dusts and should not be worn in salons"
+        },
+        {
+          "pdfPage": 273,
+          "quote": "Wear eye protection when filing to avoid dust particles from getting into your eyes"
+        },
+        {
+          "pdfPage": 154,
+          "quote": "should never be used in place of proper ventilation"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-5d-06",
+      "question": {
+        "en": "To remove polish from enhancements such as wraps, Milady prefers",
+        "zh": "要卸掉包甲（wraps）等美甲加固上的指甲油，Milady 首选"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "acetone remover.",
+          "zh": "含丙酮洗甲水。"
+        },
+        {
+          "id": "b",
+          "en": "non-acetone remover.",
+          "zh": "无丙酮洗甲水。"
+        },
+        {
+          "id": "c",
+          "en": "cuticle remover.",
+          "zh": "死皮软化剂。"
+        },
+        {
+          "id": "d",
+          "en": "nail dehydrator.",
+          "zh": "脱水剂。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Non-acetone removers do not dissolve enhancement products as quickly as acetone, so they are preferred for polish on wraps. Acetone can break down the wrap resin.",
+        "zh": "无丙酮洗甲水（non-acetone remover）溶解美甲加固产品没有丙酮那么快，所以卸包甲上的甲油时首选它。丙酮会分解包甲树脂。"
+      },
+      "lockPoint": {
+        "en": "Acetone is the stronger solvent. That is why acetone is used to soak enhancements off.",
+        "zh": "丙酮是更强的溶剂，所以卸除美甲加固时是用丙酮来泡。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Polish Remover",
+          "pdfPage": 174,
+          "printedPage": "150"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Wraps - Procedure 10-2: Fabric Wrap Maintenance",
+          "pdfPage": 315,
+          "printedPage": "291"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Monomer Liquid and Polymer Powder Nail Enhancement Removal",
+          "pdfPage": 355,
+          "printedPage": "331"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 174,
+          "quote": "Acetone-based polish remover works more quickly and is a better solvent than non-acetone based removers"
+        },
+        {
+          "pdfPage": 174,
+          "quote": "Non-acetone removers will not dissolve enhancement products as quickly as acetone, so they are preferred when removing nail polish from nail enhancements such as wraps"
+        },
+        {
+          "pdfPage": 315,
+          "quote": "Acetone will break down the wrap resin."
+        },
+        {
+          "pdfPage": 355,
+          "quote": "fill a bowl with acetone or product remover and soak the nails for 20 to 30 minutes"
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-5d-07",
+      "question": {
+        "en": "In a pedicure scrub, pumice works as",
+        "zh": "在修脚磨砂膏里，浮石粉（pumice）的作用是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "a moisturizer.",
+          "zh": "保湿剂。"
+        },
+        {
+          "id": "b",
+          "en": "a disinfectant.",
+          "zh": "消毒剂。"
+        },
+        {
+          "id": "c",
+          "en": "an emulsifier.",
+          "zh": "乳化剂。"
+        },
+        {
+          "id": "d",
+          "en": "an abrasive.",
+          "zh": "研磨剂（abrasive）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "A scrub is a lotion with an abrasive that removes dry, flaky skin. Pumice, sea sand, and jojoba beads are exfoliating agents found in pedicure scrubs.",
+        "zh": "磨砂膏是含研磨剂（abrasive）的乳液，能去掉干燥脱屑的皮肤。浮石粉、海沙和荷荷巴微珠都是修脚磨砂膏里的去角质成分（exfoliating agents）。"
+      },
+      "lockPoint": {
+        "en": "Think of fine sandpaper for feet: tiny rough grains rub dry, dead skin away.",
+        "zh": "想象给脚用的细砂纸：细小粗糙的颗粒把干燥的死皮磨掉。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Exfoliating Scrub",
+          "pdfPage": 225,
+          "printedPage": "201"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 225,
+          "quote": "is usually a water-based lotion that contains an abrasive as the exfoliating agent"
+        },
+        {
+          "pdfPage": 225,
+          "quote": "Sea sand, ground apricot kernels, pumice, quartz crystals, and jojoba beads are exfoliating agents that may be found in pedicure scrubs"
+        },
+        {
+          "pdfPage": 225,
+          "quote": "dry, flaky skin and reduce calluses"
+        }
+      ],
+      "hookType": "picture"
+    }
+  ]
+}

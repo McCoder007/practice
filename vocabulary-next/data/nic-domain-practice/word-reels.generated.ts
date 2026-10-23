@@ -359,6 +359,75 @@ export const EXAM_TOPIC_WORD_REELS: Record<string, TopicWordReelData> = {
         "partOfSpeech": "Noun",
         "example": "Use hand sanitizer only when you cannot wash your hands.",
         "exampleTranslation": "只有在无法洗手时，才用免洗洗手液。"
+      },
+      {
+        "id": "infection-control-staphylococci",
+        "setId": "1D",
+        "word": "staphylococci",
+        "sayIt": "staf-uh-loh-KOK-sye",
+        "translation": "葡萄球菌",
+        "partOfSpeech": "Noun",
+        "example": "Staphylococci grow in clusters and can cause boils.",
+        "exampleTranslation": "葡萄球菌成簇生长，会引起疖子。"
+      },
+      {
+        "id": "infection-control-local-infection",
+        "setId": "1D",
+        "word": "local infection",
+        "sayIt": "LOH-kul in-FEK-shun",
+        "translation": "局部感染",
+        "partOfSpeech": "Noun",
+        "example": "A pimple is a local infection.",
+        "exampleTranslation": "痘痘是一种局部感染。"
+      },
+      {
+        "id": "infection-control-systemic-infection",
+        "setId": "1D",
+        "word": "systemic infection",
+        "sayIt": "sis-TEM-ik in-FEK-shun",
+        "translation": "全身性感染",
+        "partOfSpeech": "Noun",
+        "example": "A systemic infection spreads through the whole body.",
+        "exampleTranslation": "全身性感染会扩散到全身。"
+      },
+      {
+        "id": "infection-control-quats",
+        "setId": "1D",
+        "word": "quats",
+        "translation": "季铵盐消毒剂",
+        "partOfSpeech": "Noun",
+        "example": "Quats usually disinfect implements in 10 minutes.",
+        "exampleTranslation": "季铵盐消毒剂通常 10 分钟就能给工具消毒。"
+      },
+      {
+        "id": "infection-control-spatula",
+        "setId": "1D",
+        "word": "spatula",
+        "sayIt": "SPACH-uh-luh",
+        "translation": "刮勺",
+        "partOfSpeech": "Noun",
+        "example": "Use a clean spatula to take cream from a jar.",
+        "exampleTranslation": "用干净的刮勺从罐子里取乳霜。"
+      },
+      {
+        "id": "infection-control-exposure-incident",
+        "setId": "1D",
+        "word": "exposure incident",
+        "sayIt": "ik-SPOH-zher IN-sih-dent",
+        "translation": "暴露事件",
+        "partOfSpeech": "Noun",
+        "example": "Touching a client's blood at work is an exposure incident.",
+        "exampleTranslation": "工作时碰到客人的血，就是暴露事件。"
+      },
+      {
+        "id": "infection-control-carpal-tunnel-syndrome",
+        "setId": "1D",
+        "word": "carpal tunnel syndrome",
+        "sayIt": "KAR-pul TUN-ul SIN-drohm",
+        "translation": "腕管综合征",
+        "partOfSpeech": "Noun",
+        "example": "Carpal tunnel syndrome is a wrist injury.",
+        "exampleTranslation": "腕管综合征是一种手腕损伤。"
       }
     ],
     "lookAlikes": [
@@ -1014,6 +1083,86 @@ export const EXAM_TOPIC_WORD_REELS: Record<string, TopicWordReelData> = {
         "partOfSpeech": "Noun",
         "example": "The gastrocnemius attaches at the heel and pulls the foot down.",
         "exampleTranslation": "腓肠肌附着在脚跟上，把脚往下拉。"
+      },
+      {
+        "id": "anatomy-physiology-melanin",
+        "setId": "2E",
+        "word": "melanin",
+        "sayIt": "MEL-uh-nin",
+        "translation": "黑色素",
+        "partOfSpeech": "Noun",
+        "example": "Melanin gives the skin its color.",
+        "exampleTranslation": "黑色素决定皮肤的颜色。"
+      },
+      {
+        "id": "anatomy-physiology-flexors",
+        "setId": "2E",
+        "word": "flexors",
+        "sayIt": "FLEK-sorz",
+        "translation": "屈肌",
+        "partOfSpeech": "Noun",
+        "example": "Flexors are muscles that help bend the wrist.",
+        "exampleTranslation": "屈肌是帮助弯曲手腕的肌肉。"
+      },
+      {
+        "id": "anatomy-physiology-metatarsals",
+        "setId": "2E",
+        "word": "metatarsals",
+        "sayIt": "met-uh-TAR-sulz",
+        "translation": "跖骨",
+        "partOfSpeech": "Noun",
+        "example": "The five metatarsals are long, slender bones of the foot.",
+        "exampleTranslation": "五块跖骨是脚上细长的骨头。"
+      },
+      {
+        "id": "anatomy-physiology-patella",
+        "setId": "2E",
+        "word": "patella",
+        "sayIt": "puh-TEL-uh",
+        "translation": "髌骨",
+        "partOfSpeech": "Noun",
+        "example": "The patella forms the cap of the knee.",
+        "exampleTranslation": "髌骨构成膝盖的盖子。"
+      },
+      {
+        "id": "anatomy-physiology-vesicle",
+        "setId": "2E",
+        "word": "vesicle",
+        "sayIt": "VES-ih-kul",
+        "translation": "水疱",
+        "partOfSpeech": "Noun",
+        "example": "A vesicle is a small blister with clear fluid.",
+        "exampleTranslation": "水疱是装着清澈液体的小水泡。"
+      },
+      {
+        "id": "anatomy-physiology-ulcer",
+        "setId": "2E",
+        "word": "ulcer",
+        "sayIt": "UL-ser",
+        "translation": "溃疡",
+        "partOfSpeech": "Noun",
+        "example": "An ulcer is an open lesion on the skin.",
+        "exampleTranslation": "溃疡是皮肤上的开放性皮损。"
+      },
+      {
+        "id": "anatomy-physiology-vitiligo",
+        "setId": "2E",
+        "word": "vitiligo",
+        "sayIt": "vit-ih-LY-go",
+        "translation": "白癜风",
+        "partOfSpeech": "Noun",
+        "example": "Vitiligo causes milky-white spots on the skin.",
+        "exampleTranslation": "白癜风会让皮肤出现乳白色斑点。"
+      },
+      {
+        "id": "anatomy-physiology-malignant-melanoma",
+        "setId": "2E",
+        "word": "malignant melanoma",
+        "sayIt": "muh-LIG-nunt mel-uh-NOH-muh",
+        "translation": "恶性黑色素瘤",
+        "partOfSpeech": "Noun",
+        "example": "Malignant melanoma is the most serious form of skin cancer.",
+        "exampleTranslation": "恶性黑色素瘤是最严重的皮肤癌。"
       }
     ],
     "lookAlikes": [
@@ -1433,6 +1582,62 @@ export const EXAM_TOPIC_WORD_REELS: Record<string, TopicWordReelData> = {
         "partOfSpeech": "Noun",
         "example": "Methylene glycol hardeners make thin, weak nails stiffer.",
         "exampleTranslation": "甲二醇硬甲油能让又薄又软的指甲变硬。"
+      },
+      {
+        "id": "chemistry-polymerization",
+        "setId": "3C",
+        "word": "polymerization",
+        "sayIt": "pol-ih-mer-ih-ZAY-shun",
+        "translation": "聚合",
+        "partOfSpeech": "Noun",
+        "example": "Polymerization joins monomers into long chains called polymers.",
+        "exampleTranslation": "聚合把单体连接成长链，也就是聚合物。"
+      },
+      {
+        "id": "chemistry-universal-solvent",
+        "setId": "3C",
+        "word": "universal solvent",
+        "translation": "万能溶剂",
+        "partOfSpeech": "Noun",
+        "example": "Water is the universal solvent: it dissolves the most substances.",
+        "exampleTranslation": "水是万能溶剂：它能溶解的物质最多。"
+      },
+      {
+        "id": "chemistry-surfactant",
+        "setId": "3C",
+        "word": "surfactant",
+        "sayIt": "sur-FAK-tunt",
+        "translation": "表面活性剂",
+        "partOfSpeech": "Noun",
+        "example": "Soap is a surfactant: it lets oil and water mix.",
+        "exampleTranslation": "肥皂是一种表面活性剂：它能让油和水混合。"
+      },
+      {
+        "id": "chemistry-fumes",
+        "setId": "3C",
+        "word": "fumes",
+        "translation": "烟雾",
+        "partOfSpeech": "Noun",
+        "example": "Fumes come from burning things, like candles and cigarettes.",
+        "exampleTranslation": "烟雾来自燃烧的东西，比如蜡烛和香烟。"
+      },
+      {
+        "id": "chemistry-vapors",
+        "setId": "3C",
+        "word": "vapors",
+        "translation": "蒸气",
+        "partOfSpeech": "Noun",
+        "example": "Monomer liquid forms vapors when it evaporates into the air.",
+        "exampleTranslation": "单体液蒸发到空气中时会形成蒸气。"
+      },
+      {
+        "id": "chemistry-film-former",
+        "setId": "3C",
+        "word": "film former",
+        "translation": "成膜剂",
+        "partOfSpeech": "Noun",
+        "example": "A film former in topcoat leaves a hard, shiny film.",
+        "exampleTranslation": "亮油里的成膜剂会留下一层坚硬、光亮的膜。"
       }
     ],
     "lookAlikes": [
@@ -2183,6 +2388,44 @@ export const EXAM_TOPIC_WORD_REELS: Record<string, TopicWordReelData> = {
         "partOfSpeech": "Noun",
         "example": "Callus softeners soften thick calluses; wear safety glasses with alkaline ones.",
         "exampleTranslation": "去茧软化剂能软化厚茧；用碱性的去茧软化剂时要戴护目镜。"
+      },
+      {
+        "id": "tools-rings-of-fire",
+        "setId": "5D",
+        "word": "rings of fire",
+        "translation": "火圈",
+        "partOfSpeech": "Noun",
+        "example": "Rings of fire are red marks a bit's edge cuts into nails.",
+        "exampleTranslation": "火圈是磨头边缘在指甲上割出的红色痕迹。"
+      },
+      {
+        "id": "tools-parallel",
+        "setId": "5D",
+        "word": "parallel",
+        "sayIt": "PAIR-uh-lel",
+        "translation": "平行",
+        "partOfSpeech": "Adjective",
+        "example": "Keep the bit parallel to the nail to avoid rings of fire.",
+        "exampleTranslation": "让磨头与指甲保持平行，就能避免火圈。"
+      },
+      {
+        "id": "tools-dust-mask",
+        "setId": "5D",
+        "word": "dust mask",
+        "translation": "防尘口罩",
+        "partOfSpeech": "Noun",
+        "example": "Always wear an N95 dust mask when you file nails.",
+        "exampleTranslation": "锉磨指甲时一定要戴 N95 防尘口罩。"
+      },
+      {
+        "id": "tools-non-acetone",
+        "setId": "5D",
+        "word": "non-acetone",
+        "sayIt": "non-AS-uh-tone",
+        "translation": "无丙酮",
+        "partOfSpeech": "Adjective",
+        "example": "Use non-acetone remover to take polish off wraps.",
+        "exampleTranslation": "卸包甲上的指甲油时，用无丙酮洗甲水。"
       }
     ],
     "lookAlikes": [
@@ -2796,6 +3039,82 @@ export const EXAM_TOPIC_WORD_REELS: Record<string, TopicWordReelData> = {
         "partOfSpeech": "Noun",
         "example": "In a hot stone pedicure, the stones are warm, not hot.",
         "exampleTranslation": "热石修脚中，石头是温暖的，并不烫。"
+      },
+      {
+        "id": "manicure-pedicure-finger-bowl",
+        "setId": "6E",
+        "word": "finger bowl",
+        "translation": "泡手碗",
+        "partOfSpeech": "Noun",
+        "example": "The fingertips soak in the finger bowl to soften the cuticle.",
+        "exampleTranslation": "指尖泡在泡手碗里，软化甲小皮。"
+      },
+      {
+        "id": "manicure-pedicure-nail-brush",
+        "setId": "6E",
+        "word": "nail brush",
+        "translation": "指甲刷",
+        "partOfSpeech": "Noun",
+        "example": "Brush the nails with a wet nail brush toward the free edge.",
+        "exampleTranslation": "用湿的指甲刷朝游离缘方向刷指甲。"
+      },
+      {
+        "id": "manicure-pedicure-debris",
+        "setId": "6E",
+        "word": "debris",
+        "sayIt": "duh-BREE",
+        "translation": "碎屑",
+        "partOfSpeech": "Noun",
+        "example": "A nail brush removes debris from the fingertips.",
+        "exampleTranslation": "指甲刷能刷掉指尖上的碎屑。"
+      },
+      {
+        "id": "manicure-pedicure-chamois",
+        "setId": "6E",
+        "word": "chamois",
+        "sayIt": "SHAM-ee",
+        "translation": "麂皮",
+        "partOfSpeech": "Noun",
+        "example": "Buffers replace the chamois, which gets dirty with many uses.",
+        "exampleTranslation": "抛光条取代了麂皮，因为麂皮用多了会变脏。"
+      },
+      {
+        "id": "manicure-pedicure-contaminated",
+        "setId": "6E",
+        "word": "contaminated",
+        "sayIt": "kun-TAM-ih-nay-tid",
+        "translation": "受污染的",
+        "partOfSpeech": "Adjective",
+        "example": "If you cut a client's skin, the tool is contaminated.",
+        "exampleTranslation": "如果你割伤了顾客的皮肤，这个工具就被污染了。"
+      },
+      {
+        "id": "manicure-pedicure-joint-movement",
+        "setId": "6E",
+        "word": "joint movement",
+        "translation": "关节活动",
+        "partOfSpeech": "Noun",
+        "example": "In joint movement, you gently rotate each finger in circles.",
+        "exampleTranslation": "做关节活动时，轻轻转动每根手指画圈。"
+      },
+      {
+        "id": "manicure-pedicure-terry-cloth-mitts",
+        "setId": "6E",
+        "word": "terry cloth mitts",
+        "translation": "毛巾布手套",
+        "partOfSpeech": "Noun",
+        "example": "Terry cloth mitts hold in the heat from paraffin.",
+        "exampleTranslation": "毛巾布手套能留住蜡疗的热量。"
+      },
+      {
+        "id": "manicure-pedicure-porous",
+        "setId": "6E",
+        "word": "porous",
+        "sayIt": "POR-us",
+        "translation": "多孔的",
+        "partOfSpeech": "Adjective",
+        "example": "Natural stones are porous, so they cannot be disinfected.",
+        "exampleTranslation": "天然石是多孔的，所以不能消毒。"
       }
     ],
     "lookAlikes": [
@@ -3518,6 +3837,72 @@ export const EXAM_TOPIC_WORD_REELS: Record<string, TopicWordReelData> = {
         "partOfSpeech": "Noun",
         "example": "The C-curve gives the nail strength, like the curve of an egg.",
         "exampleTranslation": "C 弧让指甲更坚固，就像鸡蛋的弧形一样。"
+      },
+      {
+        "id": "enhancements-full-well-tip",
+        "setId": "7F",
+        "word": "full-well tip",
+        "translation": "全凹槽甲片",
+        "partOfSpeech": "Noun",
+        "example": "A full-well tip covers more than half the nail plate.",
+        "exampleTranslation": "全凹槽甲片通常盖住超过一半的甲面。"
+      },
+      {
+        "id": "enhancements-free-margin",
+        "setId": "7F",
+        "word": "free margin",
+        "translation": "空隙",
+        "partOfSpeech": "Noun",
+        "example": "Leave a tiny free margin between product and skin.",
+        "exampleTranslation": "产品和皮肤之间要留一条很小的空隙。"
+      },
+      {
+        "id": "enhancements-wet-bead",
+        "setId": "7F",
+        "word": "wet bead",
+        "translation": "湿球",
+        "partOfSpeech": "Noun",
+        "example": "A wet bead has twice as much liquid as powder.",
+        "exampleTranslation": "湿球里的液体是粉的两倍。"
+      },
+      {
+        "id": "enhancements-ema",
+        "setId": "7F",
+        "word": "EMA",
+        "sayIt": "ee-em-AY",
+        "translation": "甲基丙烯酸乙酯",
+        "partOfSpeech": "Noun",
+        "example": "EMA is an industry standard monomer for liquid and powder.",
+        "exampleTranslation": "EMA 是水晶甲单体液的行业标准之一。"
+      },
+      {
+        "id": "enhancements-activator",
+        "setId": "7F",
+        "word": "activator",
+        "sayIt": "AK-tih-vay-ter",
+        "translation": "激活剂",
+        "partOfSpeech": "Noun",
+        "example": "Activator helps the layers of dip powder dry.",
+        "exampleTranslation": "激活剂帮助浸粉的各层变干。"
+      },
+      {
+        "id": "enhancements-top-resin",
+        "setId": "7F",
+        "word": "top resin",
+        "translation": "封层树脂",
+        "partOfSpeech": "Noun",
+        "example": "Top resin is the shiny last coat on a dip nail.",
+        "exampleTranslation": "封层树脂是浸粉甲最后那层亮亮的涂层。"
+      },
+      {
+        "id": "enhancements-residue",
+        "setId": "7F",
+        "word": "residue",
+        "sayIt": "REZ-ih-doo",
+        "translation": "残留物",
+        "partOfSpeech": "Noun",
+        "example": "Buff gently with a fine-grit buffer to remove residue.",
+        "exampleTranslation": "用细目抛光条轻轻抛，去掉残留物。"
       }
     ],
     "lookAlikes": [

@@ -128,11 +128,11 @@ A. 24 hours / 24 小时 ✅
 B. 3 days / 3 天  
 C. 7 days / 7 天  
 D. 30 days / 30 天  
-*Why:* Mix a fresh bleach solution every 24 hours, or sooner if it gets contaminated. Date the container so it is thrown out daily, never saved for the next day.  
-*为什么:* 漂白水消毒液每 24 小时重新调配一次，被污染了就提早换。在容器上写日期，每天倒掉，不留到第二天。  
+*Why:* Household bleach (sodium hypochlorite) solution must be mixed fresh every 24 hours, or sooner if it gets contaminated. Date the container and throw it out daily.  
+*为什么:* 家用漂白水（household bleach，成分是 sodium hypochlorite 次氯酸钠）消毒液每 24 小时重新调配一次，被污染了就提早换。在容器上写日期，每天倒掉。  
 *Lock this (reason-chain):* Diluted bleach breaks down as it sits, faster in heat and light. One day, then pour it out.  
 *记重点:* 稀释后的漂白水放着就会慢慢分解，遇热遇光更快。用一天，就倒掉。  
-*Source:* Milady Standard Foundations p.122 (PDF 617)
+*Source:* Milady Standard Foundations p.122 (PDF 617), Milady Standard Foundations p.121 (PDF 616)
 
 **12. In the salon, isopropyl alcohol should be used only as**  
 在美甲店里，异丙醇（isopropyl alcohol）只应用作：  

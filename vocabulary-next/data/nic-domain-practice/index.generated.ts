@@ -3,7 +3,7 @@
 export const EXAM_TOPIC_INDEX = {
   "schemaVersion": "1.0.0",
   "sourceTitle": "NIC Domain Practice (written from Milady Standard Nail Technology 8th ed. + Foundations)",
-  "totalQuestions": 460,
+  "totalQuestions": 525,
   "domains": [
     {
       "id": "infection-control",
@@ -40,9 +40,18 @@ export const EXAM_TOPIC_INDEX = {
           },
           "offset": 40,
           "count": 20
+        },
+        {
+          "setId": "1D",
+          "title": {
+            "en": "More Key Facts",
+            "zh": "更多重点"
+          },
+          "offset": 60,
+          "count": 13
         }
       ],
-      "questionCount": 60
+      "questionCount": 73
     },
     {
       "id": "anatomy-physiology",
@@ -88,9 +97,18 @@ export const EXAM_TOPIC_INDEX = {
           },
           "offset": 60,
           "count": 20
+        },
+        {
+          "setId": "2E",
+          "title": {
+            "en": "More Key Facts",
+            "zh": "更多重点"
+          },
+          "offset": 80,
+          "count": 15
         }
       ],
-      "questionCount": 80
+      "questionCount": 95
     },
     {
       "id": "chemistry",
@@ -118,9 +136,18 @@ export const EXAM_TOPIC_INDEX = {
           },
           "offset": 20,
           "count": 20
+        },
+        {
+          "setId": "3C",
+          "title": {
+            "en": "More Key Facts",
+            "zh": "更多重点"
+          },
+          "offset": 40,
+          "count": 6
         }
       ],
-      "questionCount": 40
+      "questionCount": 46
     },
     {
       "id": "pre-service",
@@ -178,9 +205,18 @@ export const EXAM_TOPIC_INDEX = {
           },
           "offset": 40,
           "count": 20
+        },
+        {
+          "setId": "5D",
+          "title": {
+            "en": "More Key Facts",
+            "zh": "更多重点"
+          },
+          "offset": 60,
+          "count": 7
         }
       ],
-      "questionCount": 60
+      "questionCount": 67
     },
     {
       "id": "manicure-pedicure",
@@ -226,9 +262,18 @@ export const EXAM_TOPIC_INDEX = {
           },
           "offset": 60,
           "count": 20
+        },
+        {
+          "setId": "6E",
+          "title": {
+            "en": "More Key Facts",
+            "zh": "更多重点"
+          },
+          "offset": 80,
+          "count": 11
         }
       ],
-      "questionCount": 80
+      "questionCount": 91
     },
     {
       "id": "enhancements",
@@ -283,9 +328,18 @@ export const EXAM_TOPIC_INDEX = {
           },
           "offset": 80,
           "count": 20
+        },
+        {
+          "setId": "7F",
+          "title": {
+            "en": "More Key Facts",
+            "zh": "更多重点"
+          },
+          "offset": 100,
+          "count": 13
         }
       ],
-      "questionCount": 100
+      "questionCount": 113
     },
     {
       "id": "post-service",

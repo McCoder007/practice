@@ -856,6 +856,107 @@
           "quote": "More importantly, the C-curve provides strength, like the curve in a bridge or an egg."
         }
       ]
+    },
+    {
+      "setId": "7F",
+      "word": "full-well tip",
+      "translation": "全凹槽甲片",
+      "partOfSpeech": "Noun",
+      "example": "A full-well tip covers more than half the nail plate.",
+      "exampleTranslation": "全凹槽甲片通常盖住超过一半的甲面。",
+      "evidence": [
+        {
+          "pdfPage": 280,
+          "quote": "covers the entire apex area and usually covers more than half of the nail plate."
+        }
+      ]
+    },
+    {
+      "setId": "7F",
+      "word": "free margin",
+      "translation": "空隙",
+      "partOfSpeech": "Noun",
+      "example": "Leave a tiny free margin between product and skin.",
+      "exampleTranslation": "产品和皮肤之间要留一条很小的空隙。",
+      "evidence": [
+        {
+          "pdfPage": 112,
+          "quote": "always leave a tiny, free margin (approximately 1/16”) between the nail enhancement application and the living skin"
+        }
+      ]
+    },
+    {
+      "setId": "7F",
+      "word": "wet bead",
+      "translation": "湿球",
+      "partOfSpeech": "Noun",
+      "example": "A wet bead has twice as much liquid as powder.",
+      "exampleTranslation": "湿球里的液体是粉的两倍。",
+      "evidence": [
+        {
+          "pdfPage": 348,
+          "quote": "If twice as much liquid as powder is used to create the bead, it is called a wet bead."
+        }
+      ]
+    },
+    {
+      "setId": "7F",
+      "word": "EMA",
+      "sayIt": "ee-em-AY",
+      "translation": "甲基丙烯酸乙酯",
+      "partOfSpeech": "Noun",
+      "example": "EMA is an industry standard monomer for liquid and powder.",
+      "exampleTranslation": "EMA 是水晶甲单体液的行业标准之一。",
+      "evidence": [
+        {
+          "pdfPage": 345,
+          "quote": "The industry standard is the ethyl methacrylate monomer (EMA) and odorless monomer liquid."
+        }
+      ]
+    },
+    {
+      "setId": "7F",
+      "word": "activator",
+      "sayIt": "AK-tih-vay-ter",
+      "translation": "激活剂",
+      "partOfSpeech": "Noun",
+      "example": "Activator helps the layers of dip powder dry.",
+      "exampleTranslation": "激活剂帮助浸粉的各层变干。",
+      "evidence": [
+        {
+          "pdfPage": 309,
+          "quote": "you will need to apply an activator to help the layers dry."
+        }
+      ]
+    },
+    {
+      "setId": "7F",
+      "word": "top resin",
+      "translation": "封层树脂",
+      "partOfSpeech": "Noun",
+      "example": "Top resin is the shiny last coat on a dip nail.",
+      "exampleTranslation": "封层树脂是浸粉甲最后那层亮亮的涂层。",
+      "evidence": [
+        {
+          "pdfPage": 309,
+          "quote": "You are now ready to polish the nails with the top resin, which is usually formulated to be very shiny."
+        }
+      ]
+    },
+    {
+      "setId": "7F",
+      "word": "residue",
+      "sayIt": "REZ-ih-doo",
+      "translation": "残留物",
+      "partOfSpeech": "Noun",
+      "example": "Buff gently with a fine-grit buffer to remove residue.",
+      "exampleTranslation": "用细目抛光条轻轻抛，去掉残留物。",
+      "evidence": [
+        {
+          "pdfPage": 339,
+          "quote": "Gently buff the natural nail with a fine-grit buffer to remove any residue."
+        }
+      ]
     }
   ],
   "lookAlikes": [

@@ -604,6 +604,110 @@
           "quote": "they are an excellent option when hand washing is not possible"
         }
       ]
+    },
+    {
+      "setId": "1D",
+      "word": "staphylococci",
+      "sayIt": "staf-uh-loh-KOK-sye",
+      "translation": "葡萄球菌",
+      "partOfSpeech": "Noun",
+      "example": "Staphylococci grow in clusters and can cause boils.",
+      "exampleTranslation": "葡萄球菌成簇生长，会引起疖子。",
+      "evidence": [
+        {
+          "pdfPage": 645,
+          "quote": "pus-forming bacteria that grow in clusters like a bunch of grapes; cause abscesses, pustules, and boils"
+        }
+      ]
+    },
+    {
+      "setId": "1D",
+      "word": "local infection",
+      "sayIt": "LOH-kul in-FEK-shun",
+      "translation": "局部感染",
+      "partOfSpeech": "Noun",
+      "example": "A pimple is a local infection.",
+      "exampleTranslation": "痘痘是一种局部感染。",
+      "evidence": [
+        {
+          "pdfPage": 601,
+          "quote": "A local infection (LOKE-uhl in-FEK-shun), such as a pimple or abscess"
+        }
+      ]
+    },
+    {
+      "setId": "1D",
+      "word": "systemic infection",
+      "sayIt": "sis-TEM-ik in-FEK-shun",
+      "translation": "全身性感染",
+      "partOfSpeech": "Noun",
+      "example": "A systemic infection spreads through the whole body.",
+      "exampleTranslation": "全身性感染会扩散到全身。",
+      "evidence": [
+        {
+          "pdfPage": 601,
+          "quote": "is an infection where the pathogen has spread throughout the body rather than staying in one area or organ."
+        }
+      ]
+    },
+    {
+      "setId": "1D",
+      "word": "quats",
+      "translation": "季铵盐消毒剂",
+      "partOfSpeech": "Noun",
+      "example": "Quats usually disinfect implements in 10 minutes.",
+      "exampleTranslation": "季铵盐消毒剂通常 10 分钟就能给工具消毒。",
+      "evidence": [
+        {
+          "pdfPage": 615,
+          "quote": "Quat solutions usually disinfect implements in 10 minutes."
+        }
+      ]
+    },
+    {
+      "setId": "1D",
+      "word": "spatula",
+      "sayIt": "SPACH-uh-luh",
+      "translation": "刮勺",
+      "partOfSpeech": "Noun",
+      "example": "Use a clean spatula to take cream from a jar.",
+      "exampleTranslation": "用干净的刮勺从罐子里取乳霜。",
+      "evidence": [
+        {
+          "pdfPage": 620,
+          "quote": "For products in a tub-type container, always use a clean spatula (disposable or disinfectable) to remove the product"
+        }
+      ]
+    },
+    {
+      "setId": "1D",
+      "word": "exposure incident",
+      "sayIt": "ik-SPOH-zher IN-sih-dent",
+      "translation": "暴露事件",
+      "partOfSpeech": "Noun",
+      "example": "Touching a client's blood at work is an exposure incident.",
+      "exampleTranslation": "工作时碰到客人的血，就是暴露事件。",
+      "evidence": [
+        {
+          "pdfPage": 623,
+          "quote": "is contact with non-intact (broken) skin, blood, body fluid, or other potentially infectious materials that is the result of the performance of a worker’s duties."
+        }
+      ]
+    },
+    {
+      "setId": "1D",
+      "word": "carpal tunnel syndrome",
+      "sayIt": "KAR-pul TUN-ul SIN-drohm",
+      "translation": "腕管综合征",
+      "partOfSpeech": "Noun",
+      "example": "Carpal tunnel syndrome is a wrist injury.",
+      "exampleTranslation": "腕管综合征是一种手腕损伤。",
+      "evidence": [
+        {
+          "pdfPage": 581,
+          "quote": "musculoskeletal disorders, including carpal tunnel syndrome (a wrist injury) and back injuries."
+        }
+      ]
     }
   ],
   "lookAlikes": [

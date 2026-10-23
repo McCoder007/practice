@@ -762,6 +762,126 @@
           "quote": "is attached to the lower rear surface of the heel and pulls the foot down"
         }
       ]
+    },
+    {
+      "setId": "2E",
+      "word": "melanin",
+      "sayIt": "MEL-uh-nin",
+      "translation": "黑色素",
+      "partOfSpeech": "Noun",
+      "example": "Melanin gives the skin its color.",
+      "exampleTranslation": "黑色素决定皮肤的颜色。",
+      "evidence": [
+        {
+          "pdfPage": 87,
+          "quote": "The color of the skin—whether fair, medium, or dark—depends primarily on melanin"
+        }
+      ]
+    },
+    {
+      "setId": "2E",
+      "word": "flexors",
+      "sayIt": "FLEK-sorz",
+      "translation": "屈肌",
+      "partOfSpeech": "Noun",
+      "example": "Flexors are muscles that help bend the wrist.",
+      "exampleTranslation": "屈肌是帮助弯曲手腕的肌肉。",
+      "evidence": [
+        {
+          "pdfPage": 55,
+          "quote": "Extensor muscles of the wrist are involved in bending the wrist."
+        }
+      ]
+    },
+    {
+      "setId": "2E",
+      "word": "metatarsals",
+      "sayIt": "met-uh-TAR-sulz",
+      "translation": "跖骨",
+      "partOfSpeech": "Noun",
+      "example": "The five metatarsals are long, slender bones of the foot.",
+      "exampleTranslation": "五块跖骨是脚上细长的骨头。",
+      "evidence": [
+        {
+          "pdfPage": 52,
+          "quote": "five metatarsal (meh-tah-TAHR-sul) bones, which are long and slender"
+        }
+      ]
+    },
+    {
+      "setId": "2E",
+      "word": "patella",
+      "sayIt": "puh-TEL-uh",
+      "translation": "髌骨",
+      "partOfSpeech": "Noun",
+      "example": "The patella forms the cap of the knee.",
+      "exampleTranslation": "髌骨构成膝盖的盖子。",
+      "evidence": [
+        {
+          "pdfPage": 52,
+          "quote": "The patella (pah-TEL-lah), also called the accessory bone, forms the cap of the knee joint"
+        }
+      ]
+    },
+    {
+      "setId": "2E",
+      "word": "vesicle",
+      "sayIt": "VES-ih-kul",
+      "translation": "水疱",
+      "partOfSpeech": "Noun",
+      "example": "A vesicle is a small blister with clear fluid.",
+      "exampleTranslation": "水疱是装着清澈液体的小水泡。",
+      "evidence": [
+        {
+          "pdfPage": 103,
+          "quote": "Small blister or sac containing clear fluid, lying within or just beneath the epidermis."
+        }
+      ]
+    },
+    {
+      "setId": "2E",
+      "word": "ulcer",
+      "sayIt": "UL-ser",
+      "translation": "溃疡",
+      "partOfSpeech": "Noun",
+      "example": "An ulcer is an open lesion on the skin.",
+      "exampleTranslation": "溃疡是皮肤上的开放性皮损。",
+      "evidence": [
+        {
+          "pdfPage": 119,
+          "quote": "An open lesion on the skin or mucous membrane of the body"
+        }
+      ]
+    },
+    {
+      "setId": "2E",
+      "word": "vitiligo",
+      "sayIt": "vit-ih-LY-go",
+      "translation": "白癜风",
+      "partOfSpeech": "Noun",
+      "example": "Vitiligo causes milky-white spots on the skin.",
+      "exampleTranslation": "白癜风会让皮肤出现乳白色斑点。",
+      "evidence": [
+        {
+          "pdfPage": 108,
+          "quote": "Milky-white spots (leukoderma) of the skin. Vitiligo is hereditary."
+        }
+      ]
+    },
+    {
+      "setId": "2E",
+      "word": "malignant melanoma",
+      "sayIt": "muh-LIG-nunt mel-uh-NOH-muh",
+      "translation": "恶性黑色素瘤",
+      "partOfSpeech": "Noun",
+      "example": "Malignant melanoma is the most serious form of skin cancer.",
+      "exampleTranslation": "恶性黑色素瘤是最严重的皮肤癌。",
+      "evidence": [
+        {
+          "pdfPage": 117,
+          "quote": "The most serious form of skin cancer"
+        }
+      ]
     }
   ],
   "lookAlikes": [

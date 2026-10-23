@@ -15,7 +15,7 @@ const otherBanks = [
   "milady-review/questions.json",
 ]
 
-const LIMITS = { stemWords: 18, choiceWords: 8, explanationWords: 35, lockPointWords: 20 }
+const LIMITS = { stemWords: 18, choiceWords: 8, explanationWords: 35, lockPointWords: 20, setMin: 5, setMax: 20 }
 const CHOICE_IDS = ["a", "b", "c", "d"]
 const HOOK_TYPES = new Set([
   "word-parts", "word-link", "chinese-character", "body-cue", "picture", "comparison",
@@ -89,7 +89,10 @@ for (const file of setFiles) {
   checkText(`${where} title`, set.title)
   checkText(`${where} domain.title`, set.domain?.title)
   const questions = set.questions || []
-  if (questions.length !== 20) errors.push(`${where}: has ${questions.length} questions (expected 20)`)
+  // Main sets have 20 questions. Short "More Key Facts" catch-up sets may have 5-19.
+  if (questions.length < LIMITS.setMin || questions.length > LIMITS.setMax) {
+    errors.push(`${where}: has ${questions.length} questions (expected ${LIMITS.setMin}-${LIMITS.setMax})`)
+  }
   total += questions.length
 
   const letterCounts = { a: 0, b: 0, c: 0, d: 0 }

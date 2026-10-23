@@ -6,8 +6,8 @@
   },
   "sourceTitle": "NIC Domain Practice (written from Milady Standard Nail Technology 8th ed. + Foundations)",
   "statistics": {
-    "total": 460,
-    "sets": 23
+    "total": 525,
+    "sets": 29
   },
   "questions": [
     {
@@ -1302,8 +1302,8 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Mix a fresh bleach solution every 24 hours, or sooner if it gets contaminated. Date the container so it is thrown out daily, never saved for the next day.",
-        "zh": "漂白水消毒液每 24 小时重新调配一次，被污染了就提早换。在容器上写日期，每天倒掉，不留到第二天。"
+        "en": "Household bleach (sodium hypochlorite) solution must be mixed fresh every 24 hours, or sooner if it gets contaminated. Date the container and throw it out daily.",
+        "zh": "家用漂白水（household bleach，成分是 sodium hypochlorite 次氯酸钠）消毒液每 24 小时重新调配一次，被污染了就提早换。在容器上写日期，每天倒掉。"
       },
       "lockPoint": {
         "en": "Diluted bleach breaks down as it sits, faster in heat and light. One day, then pour it out.",
@@ -2526,6 +2526,552 @@
       "lockPoint": {
         "en": "Not every extinguisher suits every fire: SDS Section 5, Fire-Fighting Measures, lists the right ones.",
         "zh": "不是每种灭火器都适合每种火：SDS 第 5 部分 Fire-Fighting Measures（消防措施）会列出该用哪种。"
+      },
+      "hookType": "real-life",
+      "status": "approved"
+    },
+    {
+      "id": "nic-1d-01",
+      "setId": "1D",
+      "domainId": "infection-control",
+      "question": {
+        "en": "Which pus-forming germs grow in clusters like a bunch of grapes?",
+        "zh": "哪种会产生脓的病菌像一串葡萄那样成簇生长？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Mycobacteria",
+          "zh": "分枝杆菌（mycobacteria）"
+        },
+        {
+          "id": "b",
+          "en": "Nonpathogenic bacteria",
+          "zh": "非致病菌（nonpathogenic bacteria）"
+        },
+        {
+          "id": "c",
+          "en": "Staphylococci",
+          "zh": "葡萄球菌（staphylococci）"
+        },
+        {
+          "id": "d",
+          "en": "Fungi",
+          "zh": "真菌（fungi）"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Staphylococci are pus-forming bacteria. They grow in clusters, like grapes. They cause abscesses, pustules, and boils.",
+        "zh": "staphylococci（葡萄球菌）是会产生脓的细菌，像一串葡萄那样成簇生长，会引起脓肿（abscesses）、脓疱（pustules）和疖子（boils）。"
+      },
+      "lockPoint": {
+        "en": "Picture a bunch of grapes. Staph is everywhere: on doorknobs, counters, and even our own skin.",
+        "zh": "想象一串葡萄。葡萄球菌到处都有：门把手、台面上，连我们自己的皮肤上也有。"
+      },
+      "hookType": "picture",
+      "status": "approved"
+    },
+    {
+      "id": "nic-1d-02",
+      "setId": "1D",
+      "domainId": "infection-control",
+      "question": {
+        "en": "A pimple with pus in one small spot is an example of",
+        "zh": "只在一个小地方、带脓的痘痘，属于哪一类？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "a local infection.",
+          "zh": "局部感染（local infection）。"
+        },
+        {
+          "id": "b",
+          "en": "a systemic infection.",
+          "zh": "全身性感染（systemic infection）。"
+        },
+        {
+          "id": "c",
+          "en": "a viral infection.",
+          "zh": "病毒感染（viral infection）。"
+        },
+        {
+          "id": "d",
+          "en": "an occupational disease.",
+          "zh": "职业病（occupational disease）。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "A local infection stays in one part of the body and shows as a sore with pus. A systemic infection spreads through the whole body.",
+        "zh": "local infection（局部感染）只在身体的一个部位，表现为带脓的病灶。systemic infection（全身性感染）则扩散到全身。"
+      },
+      "lockPoint": {
+        "en": "Untreated MRSA can start as a pimple or boil, then become systemic: one spot spreads to the whole body.",
+        "zh": "MRSA 如果不治疗，可能先是痘痘或疖子，然后变成全身性感染：从一个点扩散到全身。"
+      },
+      "hookType": "reason-chain",
+      "status": "approved"
+    },
+    {
+      "id": "nic-1d-03",
+      "setId": "1D",
+      "domainId": "infection-control",
+      "question": {
+        "en": "Cleaning with soap and water is a",
+        "zh": "用肥皂和水清洁（cleaning）属于："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "heat-and-pressure process in an autoclave.",
+          "zh": "在高压灭菌器（autoclave）里用高温高压的过程。"
+        },
+        {
+          "id": "b",
+          "en": "chemical process that destroys most germs.",
+          "zh": "能消灭大多数病菌的化学过程。"
+        },
+        {
+          "id": "c",
+          "en": "chemical process that destroys all spores.",
+          "zh": "能消灭所有芽孢的化学过程。"
+        },
+        {
+          "id": "d",
+          "en": "mechanical process that removes dirt.",
+          "zh": "去除脏污的机械过程（mechanical process）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Cleaning uses soap or detergent, water, and scrubbing to remove dirt, debris, and many germs. Disinfecting is a chemical process. Sterilizing usually needs an autoclave.",
+        "zh": "cleaning（清洁）用肥皂或清洁剂、水和刷洗，去除脏污、残渣和许多病菌，是 mechanical process（机械过程）。disinfecting（消毒）是化学过程；sterilizing（灭菌）通常要用高压灭菌器。"
+      },
+      "lockPoint": {
+        "en": "Clean removes many germs, disinfect destroys most, sterilize destroys all. So cleaning is the lowest level.",
+        "zh": "清洁去除许多病菌，消毒消灭大多数，灭菌消灭全部。所以清洁是最低的一级。"
+      },
+      "hookType": "comparison",
+      "status": "approved"
+    },
+    {
+      "id": "nic-1d-04",
+      "setId": "1D",
+      "domainId": "infection-control",
+      "question": {
+        "en": "How should a disinfectant be mixed and used?",
+        "zh": "消毒剂应该怎样调配和使用？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "A little stronger than the label says",
+          "zh": "比标签说的浓一点"
+        },
+        {
+          "id": "b",
+          "en": "Exactly as the manufacturer's instructions say",
+          "zh": "完全按照厂家的说明"
+        },
+        {
+          "id": "c",
+          "en": "A little weaker than the label says",
+          "zh": "比标签说的淡一点"
+        },
+        {
+          "id": "d",
+          "en": "Mixed with another disinfectant for strength",
+          "zh": "和另一种消毒剂混在一起加强效果"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Mixing a disinfectant weaker or stronger than the manufacturer's instructions can make it work much less well. Never mix chemicals unless the instructions say so.",
+        "zh": "消毒剂调得比厂家说明（manufacturer's instructions）更淡或更浓，都会让效果大大降低。除非说明书允许，绝不要把化学品混在一起。"
+      },
+      "lockPoint": {
+        "en": "Like a cake recipe: too much or too little ruins it. Stronger mixes can also damage implements.",
+        "zh": "就像做蛋糕的配方：放多放少都会做坏。调得太浓还会损坏工具。"
+      },
+      "hookType": "comparison",
+      "status": "approved"
+    },
+    {
+      "id": "nic-1d-05",
+      "setId": "1D",
+      "domainId": "infection-control",
+      "question": {
+        "en": "Leaving implements in a quat solution too long can",
+        "zh": "把工具在季铵盐消毒液（quat solution）里泡太久，可能会："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "sterilize them.",
+          "zh": "让它们达到灭菌。"
+        },
+        {
+          "id": "b",
+          "en": "make the solution stronger.",
+          "zh": "让消毒液变得更强。"
+        },
+        {
+          "id": "c",
+          "en": "dull or damage them.",
+          "zh": "让它们变钝或损坏。"
+        },
+        {
+          "id": "d",
+          "en": "make them rust-proof.",
+          "zh": "让它们不会生锈。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Quats usually disinfect implements in 10 minutes. Leaving tools in much longer can dull or damage them. Take them out on time, rinse if required, and dry them.",
+        "zh": "quats（季铵盐消毒剂）通常 10 分钟就能给工具消毒。泡得太久会让工具变钝或损坏。到时间就取出，需要时冲洗，再擦干。"
+      },
+      "lockPoint": {
+        "en": "A pickle left in vinegar too long goes soft. Tools left in quats too long go dull.",
+        "zh": "腌黄瓜在醋里泡太久会变软；工具在季铵盐消毒液里泡太久会变钝。"
+      },
+      "hookType": "picture",
+      "status": "approved"
+    },
+    {
+      "id": "nic-1d-06",
+      "setId": "1D",
+      "domainId": "infection-control",
+      "question": {
+        "en": "How should you take cream out of a tub-type jar?",
+        "zh": "从罐装（tub-type）的容器里取乳霜，应该怎么做？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "With a clean spatula",
+          "zh": "用干净的刮勺（spatula）"
+        },
+        {
+          "id": "b",
+          "en": "With your clean fingertip",
+          "zh": "用你洗干净的指尖"
+        },
+        {
+          "id": "c",
+          "en": "With the client's fingers",
+          "zh": "用客人的手指"
+        },
+        {
+          "id": "d",
+          "en": "With the same spatula for all jars",
+          "zh": "所有罐子都用同一把刮勺"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Fingers can put germs into the product. Use a pump when you can. For a jar, use a clean spatula, never your fingers. Use a different spatula for each product.",
+        "zh": "手指会把病菌带进产品里。能用按压瓶就用按压瓶。罐装产品要用干净的 spatula（刮勺），绝不用手指。不同的产品要用不同的刮勺。"
+      },
+      "lockPoint": {
+        "en": "A wooden spatula that touches skin is thrown away. A metal one must be cleaned and disinfected first.",
+        "zh": "木刮勺碰到皮肤就要丢掉；金属刮勺必须先清洁、消毒才能再用。"
+      },
+      "hookType": "contrast",
+      "status": "approved"
+    },
+    {
+      "id": "nic-1d-07",
+      "setId": "1D",
+      "domainId": "infection-control",
+      "question": {
+        "en": "You drop a nipper on the floor during a service. What should you do?",
+        "zh": "服务中你把指甲钳（nipper）掉到地上了，该怎么办？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Wipe it on a towel and keep going",
+          "zh": "在毛巾上擦一擦继续用"
+        },
+        {
+          "id": "b",
+          "en": "Rinse it in water and keep going",
+          "zh": "用水冲一冲继续用"
+        },
+        {
+          "id": "c",
+          "en": "Spray it with alcohol and keep going",
+          "zh": "喷点酒精继续用"
+        },
+        {
+          "id": "d",
+          "en": "Replace it with a disinfected one",
+          "zh": "换一把已消毒的"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "A dropped tool must be replaced with a disinfected tool. Or stop the service and properly disinfect the dropped tool before you go on.",
+        "zh": "掉在地上的工具必须换成已消毒的工具；或者先停下服务，把掉落的工具正确消毒后再继续。"
+      },
+      "lockPoint": {
+        "en": "Keep an extra set of ready tools at your station, so a drop does not stop the service.",
+        "zh": "工作台上多备一套已消毒、随时能用的工具，掉了一把也不用停下服务。"
+      },
+      "hookType": "real-life",
+      "status": "approved"
+    },
+    {
+      "id": "nic-1d-08",
+      "setId": "1D",
+      "domainId": "infection-control",
+      "question": {
+        "en": "Can a UV light unit disinfect your implements?",
+        "zh": "UV 紫外线灯箱能给你的工具消毒吗？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Yes, in about 10 minutes",
+          "zh": "能，大约 10 分钟"
+        },
+        {
+          "id": "b",
+          "en": "No, it does not disinfect them",
+          "zh": "不能，它不能消毒"
+        },
+        {
+          "id": "c",
+          "en": "Yes, if the tools are wet",
+          "zh": "能，只要工具是湿的"
+        },
+        {
+          "id": "d",
+          "en": "Yes, and it sterilizes them too",
+          "zh": "能，而且还能灭菌"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "UV light units will not disinfect or sterilize implements. Most state rules require liquid disinfecting solutions.",
+        "zh": "UV light units（紫外线灯箱）不能给工具消毒，也不能灭菌。大多数州的规定要求使用液体消毒剂。"
+      },
+      "lockPoint": {
+        "en": "UV works only sometimes: dirt, heat, and the kind of germ change it. So it is not right for salons.",
+        "zh": "紫外线的效果不稳定：脏污、温度和病菌种类都会影响它，所以不适合在沙龙里用。"
+      },
+      "hookType": "reason-chain",
+      "status": "approved"
+    },
+    {
+      "id": "nic-1d-09",
+      "setId": "1D",
+      "domainId": "infection-control",
+      "question": {
+        "en": "Contact with blood or body fluid while you work is called",
+        "zh": "工作时接触到血液或体液，叫作："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "an exposure incident.",
+          "zh": "暴露事件（exposure incident）。"
+        },
+        {
+          "id": "b",
+          "en": "an occupational disease.",
+          "zh": "职业病（occupational disease）。"
+        },
+        {
+          "id": "c",
+          "en": "a contraindication.",
+          "zh": "禁忌症（contraindication）。"
+        },
+        {
+          "id": "d",
+          "en": "a systemic infection.",
+          "zh": "全身性感染（systemic infection）。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "An exposure incident is contact with broken skin, blood, body fluid, or other possibly infectious material during your work. Then follow the exposure incident steps.",
+        "zh": "exposure incident（暴露事件）是指工作中接触到破损的皮肤、血液、体液或其他可能有传染性的物质。发生后要按暴露事件的步骤处理。"
+      },
+      "lockPoint": {
+        "en": "Afterward, wash your hands and scrub under your nails with a clean nail brush.",
+        "zh": "处理完以后，要洗手，并用干净的指甲刷刷洗指甲下面。"
+      },
+      "hookType": "real-life",
+      "status": "approved"
+    },
+    {
+      "id": "nic-1d-10",
+      "setId": "1D",
+      "domainId": "infection-control",
+      "question": {
+        "en": "A metal pusher touched a client's blood. Before using it again, you must",
+        "zh": "金属推棒碰到了客人的血。再次使用前，你必须："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "wipe it with alcohol.",
+          "zh": "用酒精擦一擦。"
+        },
+        {
+          "id": "b",
+          "en": "rinse it under hot water.",
+          "zh": "用热水冲一冲。"
+        },
+        {
+          "id": "c",
+          "en": "clean it, then disinfect it.",
+          "zh": "先清洁，再消毒。"
+        },
+        {
+          "id": "d",
+          "en": "throw it away.",
+          "zh": "把它扔掉。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Multiuse implements can be cleaned, disinfected, and used again, even after touching blood. Salon disinfectants are made to work on blood and body fluids.",
+        "zh": "multiuse（可重复使用的）工具即使碰到血液，也可以清洁、消毒后再用。沙龙用的消毒剂就是用来对付血液和体液的。"
+      },
+      "lockPoint": {
+        "en": "After a client injury, also clean and disinfect the work surfaces, not just the tools.",
+        "zh": "客人受伤后，不只是工具，工作台面也要清洁和消毒。"
+      },
+      "hookType": "real-life",
+      "status": "approved"
+    },
+    {
+      "id": "nic-1d-11",
+      "setId": "1D",
+      "domainId": "infection-control",
+      "question": {
+        "en": "Who provides the Safety Data Sheet (SDS) for a product?",
+        "zh": "产品的安全数据表（SDS）由谁提供？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "The state board",
+          "zh": "州执照管理局（state board）"
+        },
+        {
+          "id": "b",
+          "en": "OSHA",
+          "zh": "OSHA（职业安全与健康管理局）"
+        },
+        {
+          "id": "c",
+          "en": "The EPA",
+          "zh": "EPA（美国环境保护署）"
+        },
+        {
+          "id": "d",
+          "en": "The product's manufacturer",
+          "zh": "产品的厂家"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "The manufacturer of the chemical provides the SDS for free. OSHA requires an SDS for every chemical used in the salon.",
+        "zh": "SDS（安全数据表）由化学品的厂家（manufacturer）免费提供。OSHA 要求沙龙里用到的每一种化学品都要有 SDS。"
+      },
+      "lockPoint": {
+        "en": "The maker knows what is inside, so the maker writes the SDS. You just ask for it.",
+        "zh": "厂家最清楚产品里有什么，所以 SDS 由厂家来写。你只需要向厂家要。"
+      },
+      "hookType": "reason-chain",
+      "status": "approved"
+    },
+    {
+      "id": "nic-1d-12",
+      "setId": "1D",
+      "domainId": "infection-control",
+      "question": {
+        "en": "The best prevention for many bone and joint pains at work is",
+        "zh": "预防工作中很多骨骼和关节疼痛的最好方法是："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "gripping implements very tightly.",
+          "zh": "把工具握得很紧。"
+        },
+        {
+          "id": "b",
+          "en": "proper ergonomics.",
+          "zh": "正确的人体工学（ergonomics）。"
+        },
+        {
+          "id": "c",
+          "en": "bending forward toward the client.",
+          "zh": "身体前倾靠近客人。"
+        },
+        {
+          "id": "d",
+          "en": "holding your arms away from your body.",
+          "zh": "手臂远离身体。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Ergonomics sets up your work, tools, and body movements to be comfortable and safe. Tight gripping, bending forward, and arms held far out are bad habits.",
+        "zh": "ergonomics（人体工学）让你的工作、工具和身体动作舒适又安全。握得太紧、身体前倾、手臂伸得太远，都是坏习惯。"
+      },
+      "lockPoint": {
+        "en": "Bend your wrist up and down 20 times: it tires fast. Repeated moves add up to injuries like carpal tunnel.",
+        "zh": "把手腕上下弯 20 次：很快就累了。重复的动作日积月累，会造成腕管综合征（carpal tunnel syndrome）这类损伤。"
+      },
+      "hookType": "body-cue",
+      "status": "approved"
+    },
+    {
+      "id": "nic-1d-13",
+      "setId": "1D",
+      "domainId": "infection-control",
+      "question": {
+        "en": "How often should you use a fresh, clean towel?",
+        "zh": "多久要换一条新的干净毛巾？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "For each client",
+          "zh": "每位客人都换"
+        },
+        {
+          "id": "b",
+          "en": "Once each workday",
+          "zh": "每个工作日一次"
+        },
+        {
+          "id": "c",
+          "en": "Once each week",
+          "zh": "每周一次"
+        },
+        {
+          "id": "d",
+          "en": "Only when it looks dirty",
+          "zh": "只在看起来脏的时候"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Use clean towels and linens for each client. Wash them by the label and dry them fully, because damp towels can grow mildew and bacteria.",
+        "zh": "每位客人都要用干净的毛巾和布巾（linens）。按标签说明清洗并彻底烘干，因为潮湿的毛巾会长霉菌和细菌。"
+      },
+      "lockPoint": {
+        "en": "Keep used towels in a covered container, away from the clean ones.",
+        "zh": "用过的毛巾放进有盖的容器里，和干净的毛巾分开放。"
       },
       "hookType": "real-life",
       "status": "approved"
@@ -5891,6 +6437,636 @@
       "status": "approved"
     },
     {
+      "id": "nic-2e-01",
+      "setId": "2E",
+      "domainId": "anatomy-physiology",
+      "question": {
+        "en": "The living skin that supports the nail plate as it grows is the",
+        "zh": "在甲板生长时托住甲板的活皮肤是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "nail bed.",
+          "zh": "甲床（nail bed）。"
+        },
+        {
+          "id": "b",
+          "en": "cuticle.",
+          "zh": "甲小皮（cuticle）。"
+        },
+        {
+          "id": "c",
+          "en": "lunula.",
+          "zh": "甲半月（lunula）。"
+        },
+        {
+          "id": "d",
+          "en": "proximal nail fold.",
+          "zh": "近端甲襞（proximal nail fold）。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "The nail bed is living skin under the nail plate. It supports the plate as it grows toward the free edge. It has many nerves and blood vessels.",
+        "zh": "nail bed（甲床）是甲板下面的活皮肤。甲板朝游离缘（free edge）生长时，甲床一直托着它。甲床里有很多神经和血管。"
+      },
+      "lockPoint": {
+        "en": "Picture a bed: the nail plate lies on it and slides along it as it grows.",
+        "zh": "想象一张床：甲板躺在甲床上，一边长一边沿着它慢慢滑出去。"
+      },
+      "hookType": "picture",
+      "status": "approved"
+    },
+    {
+      "id": "nic-2e-02",
+      "setId": "2E",
+      "domainId": "anatomy-physiology",
+      "question": {
+        "en": "Which part of the nail plate extends over the tip of the finger or toe?",
+        "zh": "甲板的哪一部分伸出手指或脚趾的尖端？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Lunula",
+          "zh": "甲半月（lunula）"
+        },
+        {
+          "id": "b",
+          "en": "Free edge",
+          "zh": "游离缘（free edge）"
+        },
+        {
+          "id": "c",
+          "en": "Hyponychium",
+          "zh": "甲下皮（hyponychium）"
+        },
+        {
+          "id": "d",
+          "en": "Matrix",
+          "zh": "甲母质（matrix）"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "The free edge is the part of the nail plate that goes past the tip of the finger or toe. The rest of the plate sits on top of the nail bed.",
+        "zh": "free edge（游离缘）是甲板伸出手指或脚趾尖端的那一部分。甲板其余部分都压在甲床（nail bed）上面。"
+      },
+      "lockPoint": {
+        "en": "Free = not held down. The free edge is the part you trim with nail clippers.",
+        "zh": "free = 自由、不被压住。用指甲剪剪掉的，就是游离缘（free edge）。"
+      },
+      "hookType": "word-link",
+      "status": "approved"
+    },
+    {
+      "id": "nic-2e-03",
+      "setId": "2E",
+      "domainId": "anatomy-physiology",
+      "question": {
+        "en": "What important job does the cuticle do?",
+        "zh": "甲小皮有什么重要作用？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Makes new nail plate cells",
+          "zh": "制造新的甲板细胞"
+        },
+        {
+          "id": "b",
+          "en": "Attaches the plate to the nail bed",
+          "zh": "把甲板连在甲床上"
+        },
+        {
+          "id": "c",
+          "en": "Forms a seal that keeps germs out",
+          "zh": "形成封口，挡住病菌"
+        },
+        {
+          "id": "d",
+          "en": "Gives the nail bed its pink color",
+          "zh": "让甲床呈粉红色"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "The cuticle forms a seal between the proximal nail fold and the nail plate. It stops germs from getting under the skin to infect the matrix or bone.",
+        "zh": "cuticle（甲小皮）在近端甲襞（proximal nail fold）和甲板之间形成封口，防止病菌钻到皮肤下面，感染甲母质或骨头。"
+      },
+      "lockPoint": {
+        "en": "Like the rubber seal on a fridge door. Break it, and germs can get in to the matrix.",
+        "zh": "就像冰箱门上的密封条。封口一破，病菌就能进到甲母质。"
+      },
+      "hookType": "picture",
+      "status": "approved"
+    },
+    {
+      "id": "nic-2e-04",
+      "setId": "2E",
+      "domainId": "anatomy-physiology",
+      "question": {
+        "en": "Perspiration from the sweat glands leaving through the skin is called",
+        "zh": "汗腺分泌的汗液经皮肤排出，这叫做"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "secretion.",
+          "zh": "分泌（secretion）。"
+        },
+        {
+          "id": "b",
+          "en": "absorption.",
+          "zh": "吸收（absorption）。"
+        },
+        {
+          "id": "c",
+          "en": "sensation.",
+          "zh": "感觉（sensation）。"
+        },
+        {
+          "id": "d",
+          "en": "excretion.",
+          "zh": "排泄（excretion）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Excretion is a skin function: sweat from the sweat glands goes out through the skin. The water also takes out salts and minerals.",
+        "zh": "excretion（排泄）是皮肤的一种功能：汗腺的汗液从皮肤排出去，同时带走盐分和矿物质。"
+      },
+      "lockPoint": {
+        "en": "On a hot day, your palms get wet. Palms have many sweat glands: that is excretion.",
+        "zh": "天热时，手心会出汗。手掌上的汗腺特别多：这就是排泄（excretion）。"
+      },
+      "hookType": "body-cue",
+      "status": "approved"
+    },
+    {
+      "id": "nic-2e-05",
+      "setId": "2E",
+      "domainId": "anatomy-physiology",
+      "question": {
+        "en": "The color of the skin depends mainly on",
+        "zh": "皮肤的颜色主要取决于"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "keratin.",
+          "zh": "角蛋白（keratin）。"
+        },
+        {
+          "id": "b",
+          "en": "melanin.",
+          "zh": "黑色素（melanin）。"
+        },
+        {
+          "id": "c",
+          "en": "sebum.",
+          "zh": "皮脂（sebum）。"
+        },
+        {
+          "id": "d",
+          "en": "collagen.",
+          "zh": "胶原蛋白（collagen）。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Skin color depends mainly on melanin, tiny grains of pigment (color). Melanocytes make it. Melanin also helps protect cells from too much UV.",
+        "zh": "皮肤颜色主要取决于 melanin（黑色素），也就是细小的色素颗粒。它由黑素细胞（melanocytes）制造。黑色素还能帮助保护细胞，不受过多紫外线（UV）伤害。"
+      },
+      "lockPoint": {
+        "en": "Melanin alone is not enough: daily sunscreen with SPF 15 to 30 helps it protect the skin.",
+        "zh": "只靠黑色素不够：每天涂 SPF 15 到 30 的防晒霜，能帮它保护皮肤。"
+      },
+      "hookType": "real-life",
+      "status": "approved"
+    },
+    {
+      "id": "nic-2e-06",
+      "setId": "2E",
+      "domainId": "anatomy-physiology",
+      "question": {
+        "en": "The muscles that bend the wrist are the",
+        "zh": "负责弯曲手腕的肌肉是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "pronators.",
+          "zh": "旋前肌（pronators）。"
+        },
+        {
+          "id": "b",
+          "en": "supinators.",
+          "zh": "旋后肌（supinators）。"
+        },
+        {
+          "id": "c",
+          "en": "flexors.",
+          "zh": "屈肌（flexors）。"
+        },
+        {
+          "id": "d",
+          "en": "abductors.",
+          "zh": "外展肌（abductors）。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Flexors bend the wrist. Extensors do the opposite: they straighten the wrist, hand, and fingers.",
+        "zh": "flexors（屈肌）负责弯曲手腕。伸肌（extensors）正好相反：把手腕、手和手指伸直。"
+      },
+      "lockPoint": {
+        "en": "Pronators turn the palm down, supinators turn it up, abductors spread the fingers. None of them bend the wrist.",
+        "zh": "旋前肌让手掌朝下，旋后肌让手掌朝上，外展肌把手指分开。它们都不负责弯手腕。"
+      },
+      "hookType": "contrast",
+      "status": "approved"
+    },
+    {
+      "id": "nic-2e-07",
+      "setId": "2E",
+      "domainId": "anatomy-physiology",
+      "question": {
+        "en": "The five long, slender bones of the foot are the",
+        "zh": "脚上五块细长的骨头是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "metatarsals.",
+          "zh": "跖骨（metatarsals）。"
+        },
+        {
+          "id": "b",
+          "en": "tarsals.",
+          "zh": "跗骨（tarsals）。"
+        },
+        {
+          "id": "c",
+          "en": "phalanges.",
+          "zh": "趾骨（phalanges）。"
+        },
+        {
+          "id": "d",
+          "en": "metacarpals.",
+          "zh": "掌骨（metacarpals）。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "The five metatarsals are long and slender, like the metacarpals of the hand. The foot has 26 bones: 7 tarsals, 5 metatarsals, and 14 phalanges.",
+        "zh": "五块 metatarsals（跖骨）细而长，就像手上的掌骨（metacarpals）。脚一共有 26 块骨头：7 块跗骨、5 块跖骨和 14 块趾骨。"
+      },
+      "lockPoint": {
+        "en": "Hand and foot match: carpus and metacarpus in wrist and palm; tarsals and metatarsals in the foot.",
+        "zh": "手脚对着记：手腕和手掌是腕骨（carpus）和掌骨（metacarpus）；脚上是跗骨（tarsals）和跖骨（metatarsals）。"
+      },
+      "hookType": "comparison",
+      "status": "approved"
+    },
+    {
+      "id": "nic-2e-08",
+      "setId": "2E",
+      "domainId": "anatomy-physiology",
+      "question": {
+        "en": "The bone that forms the cap of the knee joint is the",
+        "zh": "构成膝关节盖子的骨头是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "tibia.",
+          "zh": "胫骨（tibia）。"
+        },
+        {
+          "id": "b",
+          "en": "fibula.",
+          "zh": "腓骨（fibula）。"
+        },
+        {
+          "id": "c",
+          "en": "femur.",
+          "zh": "股骨（femur）。"
+        },
+        {
+          "id": "d",
+          "en": "patella.",
+          "zh": "髌骨（patella）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "The patella, also called the accessory bone, forms the cap of the knee joint. People call it the kneecap.",
+        "zh": "patella（髌骨）也叫 accessory bone（副骨），构成膝关节的盖子，也就是俗称的 kneecap（膝盖骨）。"
+      },
+      "lockPoint": {
+        "en": "Sit down and tap the hard bone on the front of your knee: that is the patella.",
+        "zh": "坐下，敲一敲膝盖正前方那块硬骨头：那就是髌骨。"
+      },
+      "hookType": "body-cue",
+      "status": "approved"
+    },
+    {
+      "id": "nic-2e-09",
+      "setId": "2E",
+      "domainId": "anatomy-physiology",
+      "question": {
+        "en": "A thin, white nail plate that bends more than normal is",
+        "zh": "又薄又白、比正常更容易弯的甲板是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "a pincer nail.",
+          "zh": "钳甲（pincer nail）。"
+        },
+        {
+          "id": "b",
+          "en": "an eggshell nail.",
+          "zh": "蛋壳甲（eggshell nail）。"
+        },
+        {
+          "id": "c",
+          "en": "a ridged nail.",
+          "zh": "甲纵嵴（ridged nail）。"
+        },
+        {
+          "id": "d",
+          "en": "a bruised nail bed.",
+          "zh": "甲床瘀伤（bruised nail bed）。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "An eggshell nail is thin, white, and bends more than normal. Causes include poor diet, heredity, internal disease, medication, or overfiling with an abrasive.",
+        "zh": "eggshell nail（蛋壳甲）又薄又白，比正常指甲更容易弯。原因包括饮食不当、遗传、内科疾病、药物，或用锉条锉得太多。"
+      },
+      "lockPoint": {
+        "en": "Thin and white like an eggshell. Heavy filing can cause it, so file gently.",
+        "zh": "又薄又白，像蛋壳一样。锉得太狠也会造成蛋壳甲，所以要轻轻锉。"
+      },
+      "hookType": "picture",
+      "status": "approved"
+    },
+    {
+      "id": "nic-2e-10",
+      "setId": "2E",
+      "domainId": "anatomy-physiology",
+      "question": {
+        "en": "Whitish patches that can be scraped off the nail surface may be",
+        "zh": "指甲表面可以刮掉的白色斑块，可能是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "leukonychia.",
+          "zh": "白甲（leukonychia）。"
+        },
+        {
+          "id": "b",
+          "en": "onychomycosis.",
+          "zh": "甲真菌病（onychomycosis）。"
+        },
+        {
+          "id": "c",
+          "en": "onycholysis.",
+          "zh": "甲剥离（onycholysis）。"
+        },
+        {
+          "id": "d",
+          "en": "paronychia.",
+          "zh": "甲沟炎（paronychia）。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Onychomycosis is nail fungus. It may show as whitish patches that scrape off the surface, pale yellow streaks in the plate, or a crumbling free edge.",
+        "zh": "onychomycosis（甲真菌病）就是指甲真菌感染。表现可以是表面能刮掉的白色斑块、甲板里淡黄色的条纹，或游离缘碎裂。"
+      },
+      "lockPoint": {
+        "en": "Leukonychia white spots are harmless and grow out. Fungus patches need a medical referral.",
+        "zh": "白甲（leukonychia）的白点无害，会随指甲长出去。真菌斑块则需要转诊看医生。"
+      },
+      "hookType": "contrast",
+      "status": "approved"
+    },
+    {
+      "id": "nic-2e-11",
+      "setId": "2E",
+      "domainId": "anatomy-physiology",
+      "question": {
+        "en": "A small blister or sac containing clear fluid is a",
+        "zh": "装着清澈液体的小水泡或小囊是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "pustule.",
+          "zh": "脓疱（pustule）。"
+        },
+        {
+          "id": "b",
+          "en": "papule.",
+          "zh": "丘疹（papule）。"
+        },
+        {
+          "id": "c",
+          "en": "vesicle.",
+          "zh": "水疱（vesicle）。"
+        },
+        {
+          "id": "d",
+          "en": "macule.",
+          "zh": "斑疹（macule）。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "A vesicle is a small blister or sac of clear fluid, within or just under the epidermis. Poison ivy and poison oak can cause vesicles.",
+        "zh": "vesicle（水疱）是装着清澈液体的小水泡或小囊，位于表皮里面或表皮正下方。毒葛（poison ivy）和毒栎（poison oak）都可能引起水疱。"
+      },
+      "lockPoint": {
+        "en": "Clear fluid: vesicle. Pus in a white or yellow center: pustule. You can see \"pus\" inside pustule.",
+        "zh": "清澈液体是水疱（vesicle）；中间白色或黄色、里面有脓（pus）的是脓疱（pustule）。pustule 这个词里就藏着 pus。"
+      },
+      "hookType": "word-link",
+      "status": "approved"
+    },
+    {
+      "id": "nic-2e-12",
+      "setId": "2E",
+      "domainId": "anatomy-physiology",
+      "question": {
+        "en": "An open lesion on the skin with loss of skin depth is",
+        "zh": "皮肤上开放性的、伴有皮肤深度缺损的皮损是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "an ulcer.",
+          "zh": "溃疡（ulcer）。"
+        },
+        {
+          "id": "b",
+          "en": "a crust.",
+          "zh": "痂（crust）。"
+        },
+        {
+          "id": "c",
+          "en": "a macule.",
+          "zh": "斑疹（macule）。"
+        },
+        {
+          "id": "d",
+          "en": "a nodule.",
+          "zh": "结节（nodule）。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "An ulcer is an open lesion on the skin or mucous membrane. Skin depth is lost, and fluid or pus may weep out. It is a secondary lesion.",
+        "zh": "ulcer（溃疡）是皮肤或黏膜上的开放性皮损，皮肤深度缺损，可能渗出液体或脓。它属于继发性皮损（secondary lesion）。"
+      },
+      "lockPoint": {
+        "en": "Ulcers need a medical referral, most of all for clients with diabetes.",
+        "zh": "溃疡需要转诊看医生，糖尿病顾客尤其如此。"
+      },
+      "hookType": "real-life",
+      "status": "approved"
+    },
+    {
+      "id": "nic-2e-13",
+      "setId": "2E",
+      "domainId": "anatomy-physiology",
+      "question": {
+        "en": "Hereditary milky-white spots on the skin are called",
+        "zh": "皮肤上遗传性的乳白色斑点叫做"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "chloasma.",
+          "zh": "黄褐斑（chloasma）。"
+        },
+        {
+          "id": "b",
+          "en": "a tan.",
+          "zh": "晒黑（tan）。"
+        },
+        {
+          "id": "c",
+          "en": "a port-wine stain.",
+          "zh": "葡萄酒色斑（port-wine stain）。"
+        },
+        {
+          "id": "d",
+          "en": "vitiligo.",
+          "zh": "白癜风（vitiligo）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Vitiligo is milky-white spots on the skin, a kind of leukoderma. It is hereditary: it is passed down in families.",
+        "zh": "vitiligo（白癜风）是皮肤上的乳白色斑点，属于白斑病（leukoderma）的一种。它是遗传性的（hereditary），会在家族里代代相传。"
+      },
+      "lockPoint": {
+        "en": "Its Chinese name starts with the character for white. Protect these spots from too much UV light.",
+        "zh": "白癜风的第一个字是“白”。这些白斑要小心保护，避免过多紫外线照射。"
+      },
+      "hookType": "chinese-character",
+      "status": "approved"
+    },
+    {
+      "id": "nic-2e-14",
+      "setId": "2E",
+      "domainId": "anatomy-physiology",
+      "question": {
+        "en": "Which skin cancer is the most dangerous because it can spread quickly?",
+        "zh": "哪一种皮肤癌最危险，因为它会很快扩散？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Basal cell carcinoma",
+          "zh": "基底细胞癌（basal cell carcinoma）"
+        },
+        {
+          "id": "b",
+          "en": "Squamous cell carcinoma",
+          "zh": "鳞状细胞癌（squamous cell carcinoma）"
+        },
+        {
+          "id": "c",
+          "en": "Malignant melanoma",
+          "zh": "恶性黑色素瘤（malignant melanoma）"
+        },
+        {
+          "id": "d",
+          "en": "A normal mole",
+          "zh": "普通的痣（mole）"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Malignant melanoma is the least common but most dangerous skin cancer. It can spread quickly. It often shows as black or dark patches that are uneven or raised.",
+        "zh": "malignant melanoma（恶性黑色素瘤）最少见，却是最危险的皮肤癌，会很快扩散。常见表现是黑色或深色斑块，表面不平或凸起。"
+      },
+      "lockPoint": {
+        "en": "It often appears on skin that rarely sees the sun. Milady calls it the city-person's cancer.",
+        "zh": "它常出现在很少晒太阳的部位。Milady 把它叫做“城市人的癌症”。"
+      },
+      "hookType": "real-life",
+      "status": "approved"
+    },
+    {
+      "id": "nic-2e-15",
+      "setId": "2E",
+      "domainId": "anatomy-physiology",
+      "question": {
+        "en": "A mole with ragged or notched edges shows which ABCDE warning sign?",
+        "zh": "痣的边缘参差不齐或有缺口，这属于 ABCDE 中的哪一个警示信号？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Border irregularity",
+          "zh": "边缘不规则（Border irregularity）"
+        },
+        {
+          "id": "b",
+          "en": "Asymmetry",
+          "zh": "不对称（Asymmetry）"
+        },
+        {
+          "id": "c",
+          "en": "Color",
+          "zh": "颜色（Color）"
+        },
+        {
+          "id": "d",
+          "en": "Diameter",
+          "zh": "直径（Diameter）"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "B is for Border irregularity: the edges of the mole are ragged or notched. A healthy mole has even edges. Refer any changing mole to a physician.",
+        "zh": "B 代表 Border irregularity（边缘不规则）：痣的边缘参差不齐或有缺口。正常的痣边缘整齐。发现痣有变化，应建议顾客去看医生。"
+      },
+      "lockPoint": {
+        "en": "Border = the edge line, like the border between two countries on a map.",
+        "zh": "Border 就是边界线，像地图上两个国家之间的边界一样。"
+      },
+      "hookType": "picture",
+      "status": "approved"
+    },
+    {
       "id": "nic-3a-01",
       "setId": "3A",
       "domainId": "chemistry",
@@ -7566,6 +8742,258 @@
       "lockPoint": {
         "en": "Skin allergy builds from many small touches, so even a thin film of dust counts.",
         "zh": "皮肤过敏是一次次小接触累积出来的，瓶子上薄薄一层粉尘也算。"
+      },
+      "hookType": "reason-chain",
+      "status": "approved"
+    },
+    {
+      "id": "nic-3c-01",
+      "setId": "3C",
+      "domainId": "chemistry",
+      "question": {
+        "en": "The chemical reaction that joins monomers into polymers is called",
+        "zh": "把单体（monomers）连接成聚合物（polymers）的化学反应叫什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "evaporation.",
+          "zh": "蒸发（evaporation）。"
+        },
+        {
+          "id": "b",
+          "en": "polymerization.",
+          "zh": "聚合（polymerization）。"
+        },
+        {
+          "id": "c",
+          "en": "condensation.",
+          "zh": "冷凝（condensation）。"
+        },
+        {
+          "id": "d",
+          "en": "neutralization.",
+          "zh": "中和（neutralization）。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Polymerization is the chemical reaction that makes polymers. Monomers join into very long chains. Milady says cure, curing, and hardening mean the same thing.",
+        "zh": "polymerization（聚合）就是生成聚合物的化学反应：单体连成很长的链。Milady 说 cure、curing、hardening（固化、变硬）都是同一个意思。"
+      },
+      "lockPoint": {
+        "en": "Monomers are like runners waiting at the start line. The initiator gives the signal, and they don't stop.",
+        "zh": "单体像站在起跑线上等待的赛跑选手：引发剂（initiator）一发信号，它们就一直跑到终点，不会停。"
+      },
+      "hookType": "picture",
+      "status": "approved"
+    },
+    {
+      "id": "nic-3c-02",
+      "setId": "3C",
+      "domainId": "chemistry",
+      "question": {
+        "en": "Water is called the universal solvent because it",
+        "zh": "水被称为万能溶剂（universal solvent），是因为它——"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "mixes well with oils and waxes.",
+          "zh": "能和油、蜡很好地混合。"
+        },
+        {
+          "id": "b",
+          "en": "never turns into a vapor.",
+          "zh": "永远不会变成蒸气。"
+        },
+        {
+          "id": "c",
+          "en": "speeds up every chemical reaction.",
+          "zh": "能加快所有化学反应。"
+        },
+        {
+          "id": "d",
+          "en": "dissolves more substances than any other solvent.",
+          "zh": "能溶解的物质比任何其他溶剂都多。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Water can dissolve more substances than any other solvent. In salt water, water is the solvent and salt is the solute.",
+        "zh": "水能溶解的物质比任何其他溶剂（solvent）都多。在盐水里，水是溶剂，盐是溶质（solute）。"
+      },
+      "lockPoint": {
+        "en": "Universal does not mean everything. Water dissolves salt, but not oil.",
+        "zh": "“万能”不等于什么都能溶：水能溶解盐，却溶解不了油。"
+      },
+      "hookType": "name-trap",
+      "status": "approved"
+    },
+    {
+      "id": "nic-3c-03",
+      "setId": "3C",
+      "domainId": "chemistry",
+      "question": {
+        "en": "Soaps were the first of which type of ingredient?",
+        "zh": "肥皂是最早的哪一类成分？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Surfactants",
+          "zh": "表面活性剂（surfactants）"
+        },
+        {
+          "id": "b",
+          "en": "Solvents",
+          "zh": "溶剂（solvents）"
+        },
+        {
+          "id": "c",
+          "en": "Catalysts",
+          "zh": "催化剂（catalysts）"
+        },
+        {
+          "id": "d",
+          "en": "Plasticizers",
+          "zh": "增塑剂（plasticizers）"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Surfactants are substances that let oil and water mix. They are one type of emulsifier. Soaps were the first surfactants.",
+        "zh": "surfactants（表面活性剂）是能让油和水混合的物质，是乳化剂（emulsifier）的一种。肥皂就是最早的表面活性剂。"
+      },
+      "lockPoint": {
+        "en": "A surfactant is like a rope with two ends: the head holds water, the tail holds oil.",
+        "zh": "表面活性剂像一根两头的绳子：头部亲水（抓住水），尾部亲油（抓住油），把油和水连在一起。"
+      },
+      "hookType": "picture",
+      "status": "approved"
+    },
+    {
+      "id": "nic-3c-04",
+      "setId": "3C",
+      "domainId": "chemistry",
+      "question": {
+        "en": "In nail chemistry, fumes are a blend of",
+        "zh": "在美甲化学中，fumes（烟雾）是由什么混合而成的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "filing dust and polymer powder.",
+          "zh": "锉甲粉尘和聚合物粉末。"
+        },
+        {
+          "id": "b",
+          "en": "water and acetone vapors.",
+          "zh": "水和丙酮的蒸气。"
+        },
+        {
+          "id": "c",
+          "en": "soot-like particles and vapors.",
+          "zh": "类似烟灰的颗粒和蒸气。"
+        },
+        {
+          "id": "d",
+          "en": "monomer liquid and oxygen.",
+          "zh": "单体液和氧气。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Fumes are soot-like particles mixed with vapors. They usually come from burning things, like candles, incense, and cigarettes. Liquids that evaporate make vapors, not fumes.",
+        "zh": "fumes（烟雾）是类似烟灰的颗粒混合着蒸气，通常来自燃烧，比如蜡烛、熏香和香烟。液体蒸发只产生蒸气（vapors），不是烟雾。"
+      },
+      "lockPoint": {
+        "en": "Soot is the black dust a candle flame leaves. Fumes = soot + vapor. No soot? Then it's just vapor.",
+        "zh": "soot（烟灰）就是蜡烛火焰留下的黑灰。烟雾 = 烟灰 + 蒸气；没有烟灰，就只是蒸气。"
+      },
+      "hookType": "picture",
+      "status": "approved"
+    },
+    {
+      "id": "nic-3c-05",
+      "setId": "3C",
+      "domainId": "chemistry",
+      "question": {
+        "en": "The main ingredients in most topcoats are",
+        "zh": "大多数亮油（topcoat）的主要成分是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "monomers and oligomers.",
+          "zh": "单体和寡聚物（oligomers）。"
+        },
+        {
+          "id": "b",
+          "en": "sodium hydroxide and glycerin.",
+          "zh": "氢氧化钠和甘油。"
+        },
+        {
+          "id": "c",
+          "en": "protein, such as collagen.",
+          "zh": "蛋白质，例如胶原蛋白。"
+        },
+        {
+          "id": "d",
+          "en": "methacrylic or cellulose-type film formers.",
+          "zh": "甲基丙烯酸类或纤维素类成膜剂（film formers）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Topcoats use film formers, usually methacrylic or cellulose types. After the solvent evaporates, they leave a hard, shiny, or matte film. Topcoats contain no monomers or oligomers.",
+        "zh": "亮油（topcoat）用的是成膜剂（film formers），通常是甲基丙烯酸类或纤维素类。溶剂蒸发后，留下坚硬、亮面或哑光的膜。亮油不含单体或寡聚物。"
+      },
+      "lockPoint": {
+        "en": "Film former: the name tells the job. Like hairspray, it leaves a hard film when the liquid dries.",
+        "zh": "film former（成膜剂）：名字就说明了作用——形成膜。就像发胶，液体干了就留下一层硬膜。"
+      },
+      "hookType": "real-life",
+      "status": "approved"
+    },
+    {
+      "id": "nic-3c-06",
+      "setId": "3C",
+      "domainId": "chemistry",
+      "question": {
+        "en": "Which ingredient is key to how fast polish dries?",
+        "zh": "哪种成分是决定指甲油干得多快的关键？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Pigment",
+          "zh": "色素（pigment）"
+        },
+        {
+          "id": "b",
+          "en": "Solvent",
+          "zh": "溶剂（solvent）"
+        },
+        {
+          "id": "c",
+          "en": "Plasticizer",
+          "zh": "增塑剂（plasticizer）"
+        },
+        {
+          "id": "d",
+          "en": "UV stabilizer",
+          "zh": "紫外线稳定剂（UV stabilizer）"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Solvent is the key ingredient for how fast polish dries and how thick it is. Pigments give color, and plasticizers keep it flexible.",
+        "zh": "solvent（溶剂）是决定指甲油干燥速度和稠度的关键成分。色素提供颜色，增塑剂让它保持柔韧。"
+      },
+      "lockPoint": {
+        "en": "More solvent → faster drying: that's how fast-dry topcoat works. Polish dryer drops pull solvent out, too.",
+        "zh": "溶剂越多 → 干得越快：快干亮油就是这样做的。指甲油干燥剂（polish dryer）则是把溶剂“拉”出来。"
       },
       "hookType": "reason-chain",
       "status": "approved"
@@ -10931,6 +12359,300 @@
       "status": "approved"
     },
     {
+      "id": "nic-5d-01",
+      "setId": "5D",
+      "domainId": "tools",
+      "question": {
+        "en": "Which of these is equipment, not an implement?",
+        "zh": "下面哪一项属于设备（equipment），而不是工具（implement）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Nail nippers",
+          "zh": "死皮剪"
+        },
+        {
+          "id": "b",
+          "en": "Metal pusher",
+          "zh": "钢推"
+        },
+        {
+          "id": "c",
+          "en": "Tweezers",
+          "zh": "镊子"
+        },
+        {
+          "id": "d",
+          "en": "Manicure table",
+          "zh": "美甲桌"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Equipment is every tool that is not an implement, such as the manicure table. Implements are the tools you use in the service, like nippers, metal pushers, and tweezers.",
+        "zh": "设备（equipment）是所有不属于工具（implement）的用具，例如美甲桌。工具是服务中拿来操作的东西，例如死皮剪、钢推和镊子。"
+      },
+      "lockPoint": {
+        "en": "Milady names four tool types: equipment, implements, materials, and professional nail products.",
+        "zh": "Milady 把美甲用具分成四类：设备（equipment）、工具（implements）、耗材（materials）和专业美甲产品（professional nail products）。"
+      },
+      "hookType": "comparison",
+      "status": "approved"
+    },
+    {
+      "id": "nic-5d-02",
+      "setId": "5D",
+      "domainId": "tools",
+      "question": {
+        "en": "Rings of fire on the nail are caused by",
+        "zh": "指甲上出现“火圈”（rings of fire）是因为"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "lifting the bit off the nail often.",
+          "zh": "经常把磨头抬离指甲。"
+        },
+        {
+          "id": "b",
+          "en": "keeping the bit parallel to the nail.",
+          "zh": "让磨头与指甲保持平行。"
+        },
+        {
+          "id": "c",
+          "en": "holding the bit at the wrong angle.",
+          "zh": "磨头拿的角度不对。"
+        },
+        {
+          "id": "d",
+          "en": "using a finer grit bit.",
+          "zh": "使用更细目数的磨头。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Rings of fire are red marks cut into the nail. A bit held at the wrong angle, often at the cuticle area, lets its front edge dig into the nail.",
+        "zh": "火圈（rings of fire）是割进指甲里的红色痕迹。磨头角度不对（常发生在甲小皮附近）时，磨头前缘会挖进指甲。"
+      },
+      "lockPoint": {
+        "en": "Tilted bit → front edge digs in → red ring on the nail, and the client feels burning.",
+        "zh": "磨头倾斜 → 前缘挖进去 → 指甲上留下红圈，顾客还会有灼痛感。"
+      },
+      "hookType": "reason-chain",
+      "status": "approved"
+    },
+    {
+      "id": "nic-5d-03",
+      "setId": "5D",
+      "domainId": "tools",
+      "question": {
+        "en": "Instead of pressing down hard on the bit, you should",
+        "zh": "与其用力往下压磨头，你应该"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "increase the machine's speed.",
+          "zh": "调高机器的转速。"
+        },
+        {
+          "id": "b",
+          "en": "lower the machine's speed.",
+          "zh": "调低机器的转速。"
+        },
+        {
+          "id": "c",
+          "en": "press on the bit's front edge.",
+          "zh": "压在磨头的前缘上。"
+        },
+        {
+          "id": "d",
+          "en": "tilt the bit onto its edge.",
+          "zh": "把磨头侧过来用边缘磨。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Higher speeds let you use less pressure. If you feel the need to press down on the bit, increase the speed instead, and reduce your overall pressure.",
+        "zh": "转速越高，需要的压力越小。如果你觉得需要往下压磨头，就改为调高转速，并减少整体用力。"
+      },
+      "lockPoint": {
+        "en": "Let the speed do the work, not your hand. And keep the bit parallel to the nail.",
+        "zh": "让转速去干活，而不是靠手用力。还要让磨头与指甲保持平行。"
+      },
+      "hookType": "reason-chain",
+      "status": "approved"
+    },
+    {
+      "id": "nic-5d-04",
+      "setId": "5D",
+      "domainId": "tools",
+      "question": {
+        "en": "Coarse-grit abrasive files and buffers have a grit of",
+        "zh": "粗目数（coarse-grit）的锉条和抛光条，目数是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "100 or less.",
+          "zh": "100 或更低。"
+        },
+        {
+          "id": "b",
+          "en": "150 to 180.",
+          "zh": "150 到 180。"
+        },
+        {
+          "id": "c",
+          "en": "240 and higher.",
+          "zh": "240 或更高。"
+        },
+        {
+          "id": "d",
+          "en": "no grit at all.",
+          "zh": "完全没有目数。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Coarse-grit files and buffers are 100 grit or less. They file down fast and leave deep scratches, so they are generally not used on natural nails.",
+        "zh": "粗目数锉条和抛光条是 100 目或更低。它们磨得快、留下很深的刮痕，所以一般不用在真甲上。"
+      },
+      "lockPoint": {
+        "en": "Three steps: 100 or less is coarse, 150 to 180 is medium, 240 and up is fine.",
+        "zh": "记三档：100 及以下是粗，150 到 180 是中，240 及以上是细。"
+      },
+      "hookType": "comparison",
+      "status": "approved"
+    },
+    {
+      "id": "nic-5d-05",
+      "setId": "5D",
+      "domainId": "tools",
+      "question": {
+        "en": "To protect your breathing from dust during electric filing, wear",
+        "zh": "电动打磨时，为了保护呼吸、不吸入粉尘，要戴"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "a surgical-type mask.",
+          "zh": "外科式口罩。"
+        },
+        {
+          "id": "b",
+          "en": "nitrile gloves.",
+          "zh": "丁腈手套。"
+        },
+        {
+          "id": "c",
+          "en": "an N95-rated dust mask.",
+          "zh": "N95 级防尘口罩。"
+        },
+        {
+          "id": "d",
+          "en": "safety glasses.",
+          "zh": "护目镜。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Always wear an N95-rated dust mask when filing. Thin surgical-type masks do not stop dust and should not be worn in salons.",
+        "zh": "打磨时一定要戴 N95 级防尘口罩（dust mask）。薄的外科式口罩挡不住粉尘，不应在沙龙里使用。"
+      },
+      "lockPoint": {
+        "en": "Wear eye protection too, so dust stays out of your eyes. A mask never replaces good ventilation.",
+        "zh": "也要戴护目镜，别让粉尘进眼睛。口罩永远不能代替良好的通风。"
+      },
+      "hookType": "reason-chain",
+      "status": "approved"
+    },
+    {
+      "id": "nic-5d-06",
+      "setId": "5D",
+      "domainId": "tools",
+      "question": {
+        "en": "To remove polish from enhancements such as wraps, Milady prefers",
+        "zh": "要卸掉包甲（wraps）等美甲加固上的指甲油，Milady 首选"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "acetone remover.",
+          "zh": "含丙酮洗甲水。"
+        },
+        {
+          "id": "b",
+          "en": "non-acetone remover.",
+          "zh": "无丙酮洗甲水。"
+        },
+        {
+          "id": "c",
+          "en": "cuticle remover.",
+          "zh": "死皮软化剂。"
+        },
+        {
+          "id": "d",
+          "en": "nail dehydrator.",
+          "zh": "脱水剂。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Non-acetone removers do not dissolve enhancement products as quickly as acetone, so they are preferred for polish on wraps. Acetone can break down the wrap resin.",
+        "zh": "无丙酮洗甲水（non-acetone remover）溶解美甲加固产品没有丙酮那么快，所以卸包甲上的甲油时首选它。丙酮会分解包甲树脂。"
+      },
+      "lockPoint": {
+        "en": "Acetone is the stronger solvent. That is why acetone is used to soak enhancements off.",
+        "zh": "丙酮是更强的溶剂，所以卸除美甲加固时是用丙酮来泡。"
+      },
+      "hookType": "comparison",
+      "status": "approved"
+    },
+    {
+      "id": "nic-5d-07",
+      "setId": "5D",
+      "domainId": "tools",
+      "question": {
+        "en": "In a pedicure scrub, pumice works as",
+        "zh": "在修脚磨砂膏里，浮石粉（pumice）的作用是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "a moisturizer.",
+          "zh": "保湿剂。"
+        },
+        {
+          "id": "b",
+          "en": "a disinfectant.",
+          "zh": "消毒剂。"
+        },
+        {
+          "id": "c",
+          "en": "an emulsifier.",
+          "zh": "乳化剂。"
+        },
+        {
+          "id": "d",
+          "en": "an abrasive.",
+          "zh": "研磨剂（abrasive）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "A scrub is a lotion with an abrasive that removes dry, flaky skin. Pumice, sea sand, and jojoba beads are exfoliating agents found in pedicure scrubs.",
+        "zh": "磨砂膏是含研磨剂（abrasive）的乳液，能去掉干燥脱屑的皮肤。浮石粉、海沙和荷荷巴微珠都是修脚磨砂膏里的去角质成分（exfoliating agents）。"
+      },
+      "lockPoint": {
+        "en": "Think of fine sandpaper for feet: tiny rough grains rub dry, dead skin away.",
+        "zh": "想象给脚用的细砂纸：细小粗糙的颗粒把干燥的死皮磨掉。"
+      },
+      "hookType": "picture",
+      "status": "approved"
+    },
+    {
       "id": "nic-6a-01",
       "setId": "6A",
       "domainId": "manicure-pedicure",
@@ -14288,6 +16010,468 @@
         "zh": "温热的蜡把手包起来，就像保鲜膜包住食物：水分跑不出去，皮肤就保持柔软。"
       },
       "hookType": "picture",
+      "status": "approved"
+    },
+    {
+      "id": "nic-6e-01",
+      "setId": "6E",
+      "domainId": "manicure-pedicure",
+      "question": {
+        "en": "In a basic manicure, why are the fingertips soaked in the finger bowl?",
+        "zh": "基础修手中，为什么要把指尖泡在泡手碗（finger bowl）里？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "To remove the old polish",
+          "zh": "卸除旧甲油"
+        },
+        {
+          "id": "b",
+          "en": "To soften the eponychium and cuticle",
+          "zh": "软化甲上皮（eponychium）和甲小皮（cuticle）"
+        },
+        {
+          "id": "c",
+          "en": "To disinfect the nail plate",
+          "zh": "给甲板消毒"
+        },
+        {
+          "id": "d",
+          "en": "To harden the free edge",
+          "zh": "让游离缘（free edge）变硬"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "After filing, the fingertips soak in the finger bowl. This softens the eponychium (living skin around the nail) and the cuticle (dead tissue stuck to the nail plate).",
+        "zh": "锉完指甲后，把指尖泡在泡手碗（finger bowl）里。这样能软化甲上皮（eponychium，指甲周围的活皮肤）和甲小皮（cuticle，粘在甲板上的死组织）。"
+      },
+      "lockPoint": {
+        "en": "Like washing dishes: one pan soaks while you scrub the next. One hand soaks while you file the other.",
+        "zh": "就像洗碗：一个锅泡着，你先刷下一个。一只手泡着，你就锉另一只手。"
+      },
+      "hookType": "real-life",
+      "status": "approved"
+    },
+    {
+      "id": "nic-6e-02",
+      "setId": "6E",
+      "domainId": "manicure-pedicure",
+      "question": {
+        "en": "When brushing the nails over the finger bowl, which way do you stroke?",
+        "zh": "在泡手碗（finger bowl）上方刷指甲时，应该朝哪个方向刷？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "From the free edge up to the knuckle",
+          "zh": "从游离缘往上刷到指节"
+        },
+        {
+          "id": "b",
+          "en": "Side to side across the nail",
+          "zh": "在指甲上左右横刷"
+        },
+        {
+          "id": "c",
+          "en": "In small circles on the nail",
+          "zh": "在指甲上小圈打转"
+        },
+        {
+          "id": "d",
+          "en": "From the knuckle down to the free edge",
+          "zh": "从指节往下刷到游离缘（free edge）"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Use a wet nail brush to remove debris from the fingertips. Use downward strokes, starting at the first knuckle and brushing toward the free edge.",
+        "zh": "用湿的指甲刷（nail brush）刷掉指尖上的碎屑（debris）。向下刷，从第一个指节开始，朝游离缘（free edge）方向刷。"
+      },
+      "lockPoint": {
+        "en": "Same direction as wiping off old polish: toward the free edge.",
+        "zh": "和擦掉旧甲油的方向一样：朝游离缘（free edge）。"
+      },
+      "hookType": "comparison",
+      "status": "approved"
+    },
+    {
+      "id": "nic-6e-03",
+      "setId": "6E",
+      "domainId": "manicure-pedicure",
+      "question": {
+        "en": "In a basic manicure, what are nippers used to remove?",
+        "zh": "基础修手中，死皮剪（nippers）是用来剪掉什么的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Loose, hanging tags of dead skin",
+          "zh": "松松挂着的死皮"
+        },
+        {
+          "id": "b",
+          "en": "The living skin around the nail",
+          "zh": "指甲周围的活皮肤"
+        },
+        {
+          "id": "c",
+          "en": "Rough spots on the free edge",
+          "zh": "游离缘上粗糙的地方"
+        },
+        {
+          "id": "d",
+          "en": "Dried polish on the nail plate",
+          "zh": "甲板上干掉的甲油"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Use sharp nippers only on loosely hanging tags of dead skin. Never rip or tear cuticle tags or living skin, because this may lead to infection.",
+        "zh": "锋利的死皮剪只用来剪松松挂着的死皮。绝不能撕扯死皮或活皮肤，因为这可能导致感染。"
+      },
+      "lockPoint": {
+        "en": "Client with thin skin or a health concern? Milady says don't nip; gently use a curette instead.",
+        "zh": "顾客皮肤薄或有健康问题？Milady 说不要剪死皮，改用刮匙（curette）轻轻去除。"
+      },
+      "hookType": "real-life",
+      "status": "approved"
+    },
+    {
+      "id": "nic-6e-04",
+      "setId": "6E",
+      "domainId": "manicure-pedicure",
+      "question": {
+        "en": "Why has the three-way buffer replaced the chamois for shining nails?",
+        "zh": "为什么三面抛光条（three-way buffer）取代了麂皮（chamois）来给指甲抛光？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "A chamois cannot shine natural nails",
+          "zh": "麂皮不能给真甲抛光"
+        },
+        {
+          "id": "b",
+          "en": "A chamois is only for enhancements",
+          "zh": "麂皮只能用在加固甲上"
+        },
+        {
+          "id": "c",
+          "en": "A chamois gets contaminated with reuse",
+          "zh": "麂皮重复使用会被污染"
+        },
+        {
+          "id": "d",
+          "en": "A chamois leaves deep scratches",
+          "zh": "麂皮会留下很深的刮痕"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Milady says the two- or three-way buffer replaces the chamois, which becomes contaminated with multiple uses. The buffer still gives a beautiful, glossy shine.",
+        "zh": "Milady 说两面或三面抛光条取代了麂皮（chamois），因为麂皮多次使用后会被污染（contaminated）。抛光条一样能抛出漂亮的光泽。"
+      },
+      "lockPoint": {
+        "en": "Unlike a chamois, most three-way buffers are single-use: throw each one away after one client.",
+        "zh": "和麂皮不同，大多数三面抛光条是一次性的：用完一位顾客就丢掉。"
+      },
+      "hookType": "contrast",
+      "status": "approved"
+    },
+    {
+      "id": "nic-6e-05",
+      "setId": "6E",
+      "domainId": "manicure-pedicure",
+      "question": {
+        "en": "Before beginning a massage on any client, what should you always do?",
+        "zh": "给任何顾客按摩之前，一定要先做什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Apply the base coat",
+          "zh": "涂底油（base coat）"
+        },
+        {
+          "id": "b",
+          "en": "Ask the client's permission",
+          "zh": "征求顾客的同意"
+        },
+        {
+          "id": "c",
+          "en": "Soak the hands in hot water",
+          "zh": "把手泡在热水里"
+        },
+        {
+          "id": "d",
+          "en": "File the nails once more",
+          "zh": "再锉一次指甲"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Milady says to always ask permission before any massage. Also ask if the client has any concerns about receiving a massage.",
+        "zh": "Milady 说任何按摩之前都要先征求顾客同意，还要问顾客对按摩有没有顾虑。"
+      },
+      "lockPoint": {
+        "en": "Client with health concerns? Use gentler pressure, and do not bend or flex hands, fingers, or wrists.",
+        "zh": "顾客有健康问题？力度要更轻，也不要弯曲或扳动手、手指或手腕。"
+      },
+      "hookType": "real-life",
+      "status": "approved"
+    },
+    {
+      "id": "nic-6e-06",
+      "setId": "6E",
+      "domainId": "manicure-pedicure",
+      "question": {
+        "en": "In the hand massage, how is the joint movement of the fingers done?",
+        "zh": "手部按摩中，手指的关节活动（joint movement）怎么做？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Gently rotate each finger in circles",
+          "zh": "轻轻转动每根手指画圈"
+        },
+        {
+          "id": "b",
+          "en": "Pull each finger hard to stretch it",
+          "zh": "用力拉每根手指来拉伸"
+        },
+        {
+          "id": "c",
+          "en": "Tap each finger quickly and firmly",
+          "zh": "快速用力地拍打每根手指"
+        },
+        {
+          "id": "d",
+          "en": "Squeeze each fingertip for one minute",
+          "zh": "每个指尖捏一分钟"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Support the arm at the wrist. Hold each finger at the base of the nail and gently rotate it in circles, three to five times, from little finger to thumb.",
+        "zh": "托住手腕处的手臂。捏住每根手指的指甲根部，轻轻转动画圈，每根三到五次，从小指做到大拇指。"
+      },
+      "lockPoint": {
+        "en": "The foot massage begins with circles too: hold above the ankle and rotate the whole foot.",
+        "zh": "足部按摩一开始也是转圈：握住脚踝上方，把整只脚转圈。"
+      },
+      "hookType": "comparison",
+      "status": "approved"
+    },
+    {
+      "id": "nic-6e-07",
+      "setId": "6E",
+      "domainId": "manicure-pedicure",
+      "question": {
+        "en": "How is massage lotion removed from the nail plate before polishing?",
+        "zh": "涂甲油之前，怎样把甲板上的按摩乳液去掉？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Rub it in with a buffer",
+          "zh": "用抛光条把它磨进去"
+        },
+        {
+          "id": "b",
+          "en": "Wipe it off with nail oil",
+          "zh": "用指甲营养油（nail oil）擦掉"
+        },
+        {
+          "id": "c",
+          "en": "Leave it under the base coat",
+          "zh": "留着，涂在底油下面"
+        },
+        {
+          "id": "d",
+          "en": "Cotton with alcohol, acetone, or remover",
+          "zh": "用沾了酒精、丙酮或卸甲水的棉花"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Use a small piece of cotton soaked with alcohol, acetone, or polish remover. Clean under the free edge too, or the polish will not adhere well.",
+        "zh": "用一小块沾了酒精、丙酮（acetone）或卸甲水的棉花擦。游离缘（free edge）下面也要擦干净，否则甲油附着不好。"
+      },
+      "lockPoint": {
+        "en": "Wipe as firmly as you would to take off a stubborn red polish.",
+        "zh": "擦的时候要像卸掉很难擦的红色甲油那样用力彻底。"
+      },
+      "hookType": "picture",
+      "status": "approved"
+    },
+    {
+      "id": "nic-6e-08",
+      "setId": "6E",
+      "domainId": "manicure-pedicure",
+      "question": {
+        "en": "How should the second coat of color polish be applied?",
+        "zh": "第二层彩色甲油应该怎么涂？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "In one thick, heavy coat",
+          "zh": "涂一层又厚又重的"
+        },
+        {
+          "id": "b",
+          "en": "With the brush fanned again",
+          "zh": "再把刷子压开成扇形"
+        },
+        {
+          "id": "c",
+          "en": "In a thin, even coat",
+          "zh": "涂一层薄而均匀的"
+        },
+        {
+          "id": "d",
+          "en": "Only along the free edge",
+          "zh": "只涂在游离缘上"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "For the second coat, do not fan the brush or cap the tip again. Start at the base of the polish curve, move toward the free edge, and apply a thin, even coat.",
+        "zh": "涂第二层时，不要再把刷子压成扇形，也不要再封边。从甲油弧线的底部开始，朝游离缘（free edge）刷，涂一层薄而均匀的甲油。"
+      },
+      "lockPoint": {
+        "en": "Thin layers built one on another → better adhesion → the polish lasts longer.",
+        "zh": "一层层薄涂叠加 → 附着更好 → 甲油更持久。"
+      },
+      "hookType": "reason-chain",
+      "status": "approved"
+    },
+    {
+      "id": "nic-6e-09",
+      "setId": "6E",
+      "domainId": "manicure-pedicure",
+      "question": {
+        "en": "After lotion or a mask is applied, how do electric mitts help?",
+        "zh": "涂上乳液或面膜（mask）之后，电热手套（electric mitts）有什么作用？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Warmth helps the products soak in",
+          "zh": "温热帮助产品渗入皮肤"
+        },
+        {
+          "id": "b",
+          "en": "They make the polish dry faster",
+          "zh": "让甲油干得更快"
+        },
+        {
+          "id": "c",
+          "en": "They disinfect the client's skin",
+          "zh": "给顾客的皮肤消毒"
+        },
+        {
+          "id": "d",
+          "en": "They form a hard wax barrier",
+          "zh": "形成一层硬的蜡膜"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "The hands or feet go into a plastic cover, then into the heated mitts. The warmth helps the conditioning ingredients soak into the skin and adds comfort and relaxation.",
+        "zh": "先把手或脚套进塑料套，再放进电热手套。温热帮助护理成分渗入皮肤，也让顾客更舒服、更放松。"
+      },
+      "lockPoint": {
+        "en": "Electric mitts can be an add-on: they make a higher-cost service.",
+        "zh": "电热手套可以作为加购项目，让服务价格更高。"
+      },
+      "hookType": "real-life",
+      "status": "approved"
+    },
+    {
+      "id": "nic-6e-10",
+      "setId": "6E",
+      "domainId": "manicure-pedicure",
+      "question": {
+        "en": "Why are terry cloth mitts placed over paraffin?",
+        "zh": "为什么要在蜡（paraffin）外面套上毛巾布手套（terry cloth mitts）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "They melt the paraffin again",
+          "zh": "能把蜡重新融化"
+        },
+        {
+          "id": "b",
+          "en": "They hold in heat and let it harden",
+          "zh": "能留住热量，又能让蜡变硬"
+        },
+        {
+          "id": "c",
+          "en": "They are thrown away after use",
+          "zh": "用完就丢掉"
+        },
+        {
+          "id": "d",
+          "en": "They peel the paraffin off later",
+          "zh": "之后能把蜡剥下来"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Terry cloth mitts hold in the heat from the paraffin and let it harden, so it can work as a barrier. Electric mitts do not let paraffin harden.",
+        "zh": "毛巾布手套能留住蜡的热量，又能让蜡变硬，起到屏障作用。电热手套不会让蜡变硬。"
+      },
+      "lockPoint": {
+        "en": "Terry cloth mitts are washable and reusable, like the salon's terry cloth towels.",
+        "zh": "毛巾布手套可以洗、可以重复用，就像沙龙里的毛巾一样。"
+      },
+      "hookType": "comparison",
+      "status": "approved"
+    },
+    {
+      "id": "nic-6e-11",
+      "setId": "6E",
+      "domainId": "manicure-pedicure",
+      "question": {
+        "en": "Which hot stones are the safest to use?",
+        "zh": "哪种热石用起来最安全？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Natural stones, because they are porous",
+          "zh": "天然石，因为它们多孔"
+        },
+        {
+          "id": "b",
+          "en": "Any stone that feels smooth",
+          "zh": "任何摸起来光滑的石头"
+        },
+        {
+          "id": "c",
+          "en": "Synthetic stones that can be disinfected",
+          "zh": "可以消毒的合成石"
+        },
+        {
+          "id": "d",
+          "en": "Stones rinsed in warm water only",
+          "zh": "只用温水冲洗的石头"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Natural stones are porous, so they cannot be disinfected. Synthetic stones can be disinfected and are the safest. Scrub-clean and disinfect the stones between clients.",
+        "zh": "天然石是多孔的（porous），所以不能消毒。合成石（synthetic stones）可以消毒，是最安全的选择。每位顾客之间都要刷洗并消毒石头。"
+      },
+      "lockPoint": {
+        "en": "Before using stones on a client, test their warmth on your own arm.",
+        "zh": "给顾客用之前，先在自己的手臂上试一下石头的温度。"
+      },
+      "hookType": "body-cue",
       "status": "approved"
     },
     {
@@ -18488,6 +20672,552 @@
         "zh": "就像一把会弯的薄尺子：再叠一层，它就变硬了。"
       },
       "hookType": "picture",
+      "status": "approved"
+    },
+    {
+      "id": "nic-7f-01",
+      "setId": "7F",
+      "domainId": "enhancements",
+      "question": {
+        "en": "Which tip covers the whole apex area and over half the nail plate?",
+        "zh": "哪种甲片能盖住整个甲峰区域，通常超过半个甲面？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Partial-well tip",
+          "zh": "半凹槽甲片（partial-well tip）"
+        },
+        {
+          "id": "b",
+          "en": "Full-well tip",
+          "zh": "全凹槽甲片（full-well tip）"
+        },
+        {
+          "id": "c",
+          "en": "Well-less tip",
+          "zh": "无凹槽甲片（well-less tip）"
+        },
+        {
+          "id": "d",
+          "en": "French tip",
+          "zh": "法式甲片（French tip）"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "A full-well tip covers the entire apex area, usually more than half the nail plate. A partial-well tip has a shorter well, so more natural nail shows.",
+        "zh": "full-well tip（全凹槽甲片）盖住整个甲峰区域，通常超过半个甲面。partial-well tip（半凹槽甲片）的凹槽较短，露出更多真甲。"
+      },
+      "lockPoint": {
+        "en": "Full = all, partial = part, -less = none: the name tells you how much well the tip has.",
+        "zh": "full = 全部，partial = 一部分，-less = 没有：名字就告诉你甲片有多少凹槽。"
+      },
+      "hookType": "word-parts",
+      "status": "approved"
+    },
+    {
+      "id": "nic-7f-02",
+      "setId": "7F",
+      "domainId": "enhancements",
+      "question": {
+        "en": "When first placing a nail tip, at what angle do you hold it?",
+        "zh": "开始贴甲片时，甲片要拿成多少度角？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "10 degrees",
+          "zh": "10 度"
+        },
+        {
+          "id": "b",
+          "en": "90 degrees",
+          "zh": "90 度"
+        },
+        {
+          "id": "c",
+          "en": "45 degrees",
+          "zh": "45 度"
+        },
+        {
+          "id": "d",
+          "en": "75 degrees",
+          "zh": "75 度"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Hold the tip at a 45-degree angle and connect the position stop to the free edge. Then press down slowly, watching the resin move through the well.",
+        "zh": "把甲片拿成 45 度角，让定位点（position stop）对准真甲的游离缘（free edge）。然后慢慢往下压，看着胶在凹槽里推开。"
+      },
+      "lockPoint": {
+        "en": "Like closing a laptop: the free edge is the hinge. Lower it slowly so no air bubbles stay.",
+        "zh": "就像合上笔记本电脑：游离缘是转轴。慢慢放下，就不会留下气泡。"
+      },
+      "hookType": "picture",
+      "status": "approved"
+    },
+    {
+      "id": "nic-7f-03",
+      "setId": "7F",
+      "domainId": "enhancements",
+      "question": {
+        "en": "A nail tip went on crooked. What should you do?",
+        "zh": "甲片贴歪了，应该怎么做？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Soak it off, then apply a new tip",
+          "zh": "泡掉它，再贴一片新的"
+        },
+        {
+          "id": "b",
+          "en": "Pry it off with a pusher",
+          "zh": "用推棒把它撬下来"
+        },
+        {
+          "id": "c",
+          "en": "Leave it; the overlay will hide it",
+          "zh": "不管它，加固层会盖住"
+        },
+        {
+          "id": "d",
+          "en": "File it straight with a coarse file",
+          "zh": "用粗锉条把它锉正"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Milady: soak the nail in acetone for 5 to 10 minutes, slide the soft tip off, and reapply. Prying it off can damage the nail plate.",
+        "zh": "Milady 的做法：把指甲泡在丙酮（acetone）里 5 到 10 分钟，把变软的甲片推下来，再重新贴。硬撬会损伤甲面。"
+      },
+      "lockPoint": {
+        "en": "Still stuck? Soak a few more minutes. Acetone does the work, not force.",
+        "zh": "还粘着？再多泡几分钟。靠丙酮，不靠力气。"
+      },
+      "hookType": "real-life",
+      "status": "approved"
+    },
+    {
+      "id": "nic-7f-04",
+      "setId": "7F",
+      "domainId": "enhancements",
+      "question": {
+        "en": "After soaking a wrap or dip nail, how do you remove the softened product?",
+        "zh": "包甲或浸粉甲泡软后，怎样去掉变软的产品？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Clip it off with nippers",
+          "zh": "用死皮剪剪掉"
+        },
+        {
+          "id": "b",
+          "en": "Pry it up with a pusher",
+          "zh": "用推棒撬起来"
+        },
+        {
+          "id": "c",
+          "en": "Peel it off with tweezers",
+          "zh": "用镊子撕掉"
+        },
+        {
+          "id": "d",
+          "en": "Slide it off with a wooden pusher",
+          "zh": "用木棒（wooden pusher）把它推下来"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Wraps and dips are both resin systems, removed the same way. Soak in acetone or product remover, then gently slide the soft product off. Prying can damage the nail.",
+        "zh": "包甲和浸粉都属于树脂系统（nail resin systems），卸法一样：泡在丙酮或卸甲液里，再把变软的产品轻轻推下来。硬撬会伤到指甲。"
+      },
+      "lockPoint": {
+        "en": "Resin systems come off easily, so Milady suggests them for proms and weddings.",
+        "zh": "树脂系统容易卸，所以 Milady 推荐用在毕业舞会、婚礼这类场合。"
+      },
+      "hookType": "real-life",
+      "status": "approved"
+    },
+    {
+      "id": "nic-7f-05",
+      "setId": "7F",
+      "domainId": "enhancements",
+      "question": {
+        "en": "Compared with a thick nail resin, a thin resin",
+        "zh": "和较稠的甲用树脂相比，较稀的树脂"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "sticks less and cures slower.",
+          "zh": "粘得较差，固化较慢。"
+        },
+        {
+          "id": "b",
+          "en": "is used to build the apex.",
+          "zh": "用来做甲峰。"
+        },
+        {
+          "id": "c",
+          "en": "sticks better and cures faster.",
+          "zh": "粘得更好，固化更快。"
+        },
+        {
+          "id": "d",
+          "en": "always needs an accelerator to cure.",
+          "zh": "一定要用加速剂才能固化。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Viscosity means how thick the resin is. The thinner it is, the better it sticks and the faster it cures. Thin resin is a base; thick resin builds or is a topcoat.",
+        "zh": "viscosity（黏度）就是树脂的稠度。越稀，附着越好、固化越快。稀的树脂做底层；稠的树脂用来做结构或当封层。"
+      },
+      "lockPoint": {
+        "en": "Think water vs. honey. Some resins are so honey-thick that they need an accelerator to cure.",
+        "zh": "想想水和蜂蜜：有些树脂稠得像蜂蜜，要用加速剂（resin accelerator）才能固化。"
+      },
+      "hookType": "comparison",
+      "status": "approved"
+    },
+    {
+      "id": "nic-7f-06",
+      "setId": "7F",
+      "domainId": "enhancements",
+      "question": {
+        "en": "Between enhancement product and the living skin, leave a free margin of about",
+        "zh": "美甲产品和活皮肤之间，要留出大约多宽的空隙？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "1/16 inch.",
+          "zh": "1/16 英寸。"
+        },
+        {
+          "id": "b",
+          "en": "1/2 inch.",
+          "zh": "1/2 英寸。"
+        },
+        {
+          "id": "c",
+          "en": "1 inch.",
+          "zh": "1 英寸。"
+        },
+        {
+          "id": "d",
+          "en": "no gap at all.",
+          "zh": "完全不留空隙。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Milady says to always leave a tiny free margin, about 1/16 inch, from the living skin. Each time product touches skin, the risk of skin sensitization goes up.",
+        "zh": "Milady 要求产品和活皮肤之间永远留一条很小的空隙（free margin），约 1/16 英寸。产品每碰一次皮肤，致敏（sensitization）的风险就增加一次。"
+      },
+      "lockPoint": {
+        "en": "1/16 inch is about the thickness of a penny: tiny, but enough to keep product off the skin.",
+        "zh": "1/16 英寸大约是一枚一美分硬币的厚度：很小，但足够让产品不碰到皮肤。"
+      },
+      "hookType": "picture",
+      "status": "approved"
+    },
+    {
+      "id": "nic-7f-07",
+      "setId": "7F",
+      "domainId": "enhancements",
+      "question": {
+        "en": "Which mix ratio makes a wet bead?",
+        "zh": "哪种液粉比（mix ratio）做出的是湿球（wet bead）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "1 part liquid to 1 part powder",
+          "zh": "1 份液体配 1 份粉"
+        },
+        {
+          "id": "b",
+          "en": "1.5 parts liquid to 1 part powder",
+          "zh": "1.5 份液体配 1 份粉"
+        },
+        {
+          "id": "c",
+          "en": "1 part liquid to 2 parts powder",
+          "zh": "1 份液体配 2 份粉"
+        },
+        {
+          "id": "d",
+          "en": "2 parts liquid to 1 part powder",
+          "zh": "2 份液体配 1 份粉"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Equal parts make a dry bead. Twice as much liquid as powder makes a wet bead. The medium bead, halfway between, is usually the ideal mix.",
+        "zh": "液粉等量是干球（dry bead）；液体是粉的两倍是湿球（wet bead）。介于两者之间的中球（medium bead）通常最理想。"
+      },
+      "lockPoint": {
+        "en": "In Milady's overlay steps, a small wet bead goes last, tapped up toward the cuticle.",
+        "zh": "在 Milady 的加固步骤里，最后放的是一颗小湿球，往甲小皮方向轻拍。"
+      },
+      "hookType": "real-life",
+      "status": "approved"
+    },
+    {
+      "id": "nic-7f-08",
+      "setId": "7F",
+      "domainId": "enhancements",
+      "question": {
+        "en": "Which monomer liquid is an industry standard for liquid and powder nails?",
+        "zh": "做水晶甲（liquid and powder）时，哪种单体液是行业标准？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Methyl methacrylate (MMA)",
+          "zh": "甲基丙烯酸甲酯（MMA）"
+        },
+        {
+          "id": "b",
+          "en": "Ethyl methacrylate (EMA)",
+          "zh": "甲基丙烯酸乙酯（EMA）"
+        },
+        {
+          "id": "c",
+          "en": "Cyanoacrylate",
+          "zh": "氰基丙烯酸酯（cyanoacrylate）"
+        },
+        {
+          "id": "d",
+          "en": "Methacrylic acid",
+          "zh": "甲基丙烯酸（methacrylic acid）"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Milady names EMA and odorless monomer liquid as the industry standard. MMA is not recommended for nails and is illegal in most states.",
+        "zh": "Milady 说行业标准是 EMA（甲基丙烯酸乙酯）和无味单体液。MMA 不建议用在指甲上，而且在大多数州是违法的。"
+      },
+      "lockPoint": {
+        "en": "EMA and MMA differ by one letter. Polymer powder is also made mostly from EMA.",
+        "zh": "EMA 和 MMA 只差一个字母。聚合物粉也主要是用 EMA 做的。"
+      },
+      "hookType": "contrast",
+      "status": "approved"
+    },
+    {
+      "id": "nic-7f-09",
+      "setId": "7F",
+      "domainId": "enhancements",
+      "question": {
+        "en": "When floating a bead of gel over the nail, which way do you move it?",
+        "zh": "把一颗凝胶在指甲上推开铺平（float）时，往哪个方向推？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "From the cuticle toward the free edge",
+          "zh": "从甲小皮推向游离缘"
+        },
+        {
+          "id": "b",
+          "en": "From the free edge toward the cuticle",
+          "zh": "从游离缘推向甲小皮"
+        },
+        {
+          "id": "c",
+          "en": "From one sidewall to the other",
+          "zh": "从一侧推到另一侧"
+        },
+        {
+          "id": "d",
+          "en": "In small circles from the center",
+          "zh": "从中间打小圈"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Milady: start at the cuticle and float the gel toward the free edge to cover the whole nail. Do not let it touch the skin, or it will lift.",
+        "zh": "Milady 的做法：从甲小皮开始，把胶朝游离缘推开，盖满整个指甲。不要碰到皮肤，否则会起翘。"
+      },
+      "lockPoint": {
+        "en": "Tiny low spot? Pull up a thin string of gel, like honey off a spoon, and lay it across.",
+        "zh": "有小凹点？像从勺子上拉起蜂蜜丝那样，从胶罐里拉起一条细胶丝，横放在凹点上。"
+      },
+      "hookType": "picture",
+      "status": "approved"
+    },
+    {
+      "id": "nic-7f-10",
+      "setId": "7F",
+      "domainId": "enhancements",
+      "question": {
+        "en": "In a dip service, when do you first apply activator?",
+        "zh": "做浸粉时，什么时候第一次上激活剂（activator）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Before the first coat of base resin",
+          "zh": "第一层底层树脂之前"
+        },
+        {
+          "id": "b",
+          "en": "After every single dip into powder",
+          "zh": "每蘸一次粉之后"
+        },
+        {
+          "id": "c",
+          "en": "Only at the end, over top resin",
+          "zh": "只在最后，涂在封层树脂上"
+        },
+        {
+          "id": "d",
+          "en": "After two to three coats of color",
+          "zh": "上了两到三层颜色之后"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Once the nail has two to three applications of color, apply activator to help the layers dry. Activator is another name for resin accelerator.",
+        "zh": "指甲上了两到三层颜色后，上激活剂（activator）帮助各层变干。activator 就是树脂加速剂（resin accelerator）的另一个名字。"
+      },
+      "lockPoint": {
+        "en": "Spraying activator? Hold the bottle 12 inches away, about one school ruler.",
+        "zh": "用喷的激活剂？瓶子离指甲 12 英寸，大约一把学生尺的长度。"
+      },
+      "hookType": "picture",
+      "status": "approved"
+    },
+    {
+      "id": "nic-7f-11",
+      "setId": "7F",
+      "domainId": "enhancements",
+      "question": {
+        "en": "Why apply base resin over the activator before filing a dip nail?",
+        "zh": "浸粉甲锉形之前，为什么要在激活剂上再涂一层底层树脂？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "To add more color to the nail",
+          "zh": "给指甲加更多颜色"
+        },
+        {
+          "id": "b",
+          "en": "To protect the powder during filing",
+          "zh": "锉磨时保护粉层"
+        },
+        {
+          "id": "c",
+          "en": "To make the activator smell less",
+          "zh": "减少激活剂的气味"
+        },
+        {
+          "id": "d",
+          "en": "To remove extra powder dust",
+          "zh": "去掉多余的粉尘"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "After activator, one more layer of base resin protects the powder during filing and buffing. Because of the activator, this base dries very quickly.",
+        "zh": "上完激活剂后，再涂一层底层树脂，在锉磨和抛光时保护粉层。因为有激活剂，这层底层会干得很快。"
+      },
+      "lockPoint": {
+        "en": "Like a phone screen protector: the file scratches the clear layer, not the color.",
+        "zh": "就像手机贴膜：锉条磨到的是透明的那层，而不是颜色。"
+      },
+      "hookType": "picture",
+      "status": "approved"
+    },
+    {
+      "id": "nic-7f-12",
+      "setId": "7F",
+      "domainId": "enhancements",
+      "question": {
+        "en": "After shaping and buffing a dip nail, what comes next?",
+        "zh": "浸粉甲锉形、抛光之后，接下来做什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Top resin, then activator",
+          "zh": "先封层树脂，再激活剂"
+        },
+        {
+          "id": "b",
+          "en": "Base resin, then dip again",
+          "zh": "先底层树脂，再蘸一次粉"
+        },
+        {
+          "id": "c",
+          "en": "Activator, wipe, then top resin",
+          "zh": "激活剂、擦干净，再上封层树脂"
+        },
+        {
+          "id": "d",
+          "en": "Top resin, then cure in a lamp",
+          "zh": "封层树脂，再照灯固化"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Apply activator, then clean off the extra with a lint-free wipe. Then brush on top resin, usually two coats: one makes it smooth, one adds shine.",
+        "zh": "先上激活剂，用无尘巾擦掉多余的部分，再刷封层树脂（top resin）。通常刷两层：一层让表面光滑，一层增加亮度。"
+      },
+      "lockPoint": {
+        "en": "After the second top coat, let the nails stand about eight minutes to dry.",
+        "zh": "第二层封层树脂刷完后，让指甲静置大约八分钟晾干。"
+      },
+      "hookType": "real-life",
+      "status": "approved"
+    },
+    {
+      "id": "nic-7f-13",
+      "setId": "7F",
+      "domainId": "enhancements",
+      "question": {
+        "en": "After removing tips or resin nails, how do you take off leftover residue?",
+        "zh": "卸掉甲片或树脂甲后，怎样去掉剩下的残留物？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Gently buff with a fine-grit buffer",
+          "zh": "用细目抛光条轻轻抛"
+        },
+        {
+          "id": "b",
+          "en": "Scrape it with a metal pusher",
+          "zh": "用钢推刮掉"
+        },
+        {
+          "id": "c",
+          "en": "File it with a coarse-grit abrasive",
+          "zh": "用粗目锉条锉"
+        },
+        {
+          "id": "d",
+          "en": "Soak it in cuticle oil",
+          "zh": "泡在指缘油里"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Milady: gently buff the natural nail with a fine-grit buffer to remove any residue. Then brush away the dust with a clean, dry nail brush.",
+        "zh": "Milady 的做法：用细目抛光条（fine-grit buffer）轻轻抛磨真甲，去掉残留物，再用干净、干燥的甲刷扫掉粉尘。"
+      },
+      "lockPoint": {
+        "en": "Buff gently → dust off → client washes hands → cuticle oil, then hand lotion.",
+        "zh": "轻轻抛磨 → 扫掉粉尘 → 顾客洗手 → 先涂指缘油，再涂护手霜。"
+      },
+      "hookType": "real-life",
       "status": "approved"
     },
     {
