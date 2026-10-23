@@ -8,7 +8,20 @@
 const fs = require("node:fs")
 const path = require("node:path")
 
+const ts = require("typescript")
+
 const root = path.resolve(__dirname, "../..")
+
+// The deploy runs Node 20, which can't load .ts files. Compile them with the
+// project's TypeScript so this check runs on any Node version.
+require.extensions[".ts"] = (module, filename) => {
+  const { outputText } = ts.transpileModule(fs.readFileSync(filename, "utf8"), {
+    fileName: filename,
+    compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2020, esModuleInterop: true },
+  })
+  module._compile(outputText, filename)
+}
+
 const { normalizeToken, sentenceTokens } = require(path.join(root, "lib/sentence-words.ts"))
 
 const LIMITS = { meaningWords: 10 }
@@ -45,7 +58,7 @@ hard.forEach((entry, i) => {
 })
 
 // --- Every sentence word is sorted ---
-async function reelSentences() {
+function reelSentences() {
   const list = []
   const reelsDir = path.join(root, "question-bank/nic-domain-practice/word-reels")
   for (const file of fs.readdirSync(reelsDir).filter((f) => f.endsWith(".json")).sort()) {
@@ -53,19 +66,19 @@ async function reelSentences() {
       list.push({ at: `${file} ${word.setId} "${word.word}"`, example: word.example })
     }
   }
-  const { QUESTION_WORD_SECTIONS } = await import(path.join(root, "data/nail-exam-practice/question-words.ts"))
+  const { QUESTION_WORD_SECTIONS } = require(path.join(root, "data/nail-exam-practice/question-words.ts"))
   for (const section of QUESTION_WORD_SECTIONS) {
     for (const card of section.cards) list.push({ at: `question-words "${card.word}"`, example: card.example })
   }
-  const nailTechnician = (await import(path.join(root, "data/nailTechnicianReel.ts"))).default
+  const nailTechnician = require(path.join(root, "data/nailTechnicianReel.ts")).default
   for (const day of nailTechnician) {
     for (const word of day.words) list.push({ at: `nail-technician "${word.word}"`, example: word.example })
   }
   return list
 }
 
-async function main() {
-  const sentences = await reelSentences()
+function main() {
+  const sentences = reelSentences()
   const unsorted = new Map()
   for (const { at, example } of sentences) {
     for (const token of sentenceTokens(example)) {
@@ -86,7 +99,4 @@ async function main() {
   console.log(`Reel hard words OK: ${hard.length} hard words, ${easy.size} easy words, ${sentences.length} sentences`)
 }
 
-main().catch((error) => {
-  console.error(error)
-  process.exit(1)
-})
+main()

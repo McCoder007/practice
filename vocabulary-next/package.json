@@ -29,7 +29,7 @@
     "test": "node --experimental-strip-types --test lib/*.test.mjs question-bank/scripts/*.test.mjs",
     "typecheck": "tsc --noEmit",
     "validate:nic-word-reels": "node question-bank/scripts/validate-nic-word-reels.js",
-    "validate:reel-hard-words": "node --no-warnings question-bank/scripts/validate-reel-hard-words.js"
+    "validate:reel-hard-words": "node question-bank/scripts/validate-reel-hard-words.js"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.8",
