@@ -13,6 +13,7 @@ import { OMITTED_PRACTICE_IDS } from "@/data/exam-quiz/catalog"
 import { loadPracticeQuestions, loadQuestionsToReview } from "@/data/exam-quiz/loadChapter"
 import type { ExamQuestion, LocalizedText } from "@/data/exam-quiz/types"
 import {
+  EXAM_TOPIC_WEIGHTS,
   NAIL_EXAM_PRACTICE_HREF,
   NAIL_EXAM_PRACTICE_TITLE,
   STUDY_FORMATS,
@@ -24,11 +25,13 @@ import {
   sliceBankGroup,
   type NailExamBank,
   type NailExamBankId,
+  type NailExamRandomOption,
   type StudyFormatId,
 } from "@/data/nail-exam-practice/catalog"
 import { loadPracticeQuestions as loadOfficialQuestions } from "@/data/official-exam-quiz/loadChapter"
 import { loadMiladyReviewQuestions } from "@/data/milady-review/loadChapter"
 import { loadKellyNailSchoolQuestions } from "@/data/kelly-nail-school/loadQuestions"
+import { loadExamTopicQuestions, type ExamTopicQuestion } from "@/data/nic-domain-practice/loadQuestions"
 import { assertPlayablePool, drawPracticeSession, shuffleQuestionChoices } from "@/lib/exam-quiz-reel"
 import {
   clearNailExamBankHistory,
@@ -39,6 +42,7 @@ import {
   type NailExamGroupHistory,
 } from "@/lib/nail-exam-practice-history"
 import { createId } from "@/lib/nail-exam-usage"
+import { drawWeightedTest } from "@/lib/nic-weighted-test"
 import { sliceStudyCardsRange, type QaCard } from "@/lib/nail-technician-qa-reel"
 import { cn } from "@/lib/utils"
 
@@ -65,12 +69,23 @@ async function loadBankPool(bank: NailExamBank): Promise<ExamQuestion[]> {
   if (bank.pool === "kelly") {
     return loadKellyNailSchoolQuestions()
   }
+  if (bank.pool === "exam-topics") {
+    return loadExamTopicQuestions()
+  }
   const [questions, held] = await Promise.all([loadPracticeQuestions(), loadQuestionsToReview()])
   assertPlayablePool(questions, [
     ...held.questions.map((question) => question.id),
     ...OMITTED_PRACTICE_IDS,
   ])
   return questions
+}
+
+function drawRandomOption(pool: ExamQuestion[], bank: NailExamBank, option: NailExamRandomOption): ExamQuestion[] {
+  const bankPool = sliceBankGroup(pool, bank, 0, bank.approvedCount)
+  if (option.weighted) {
+    return drawWeightedTest(bankPool as ExamTopicQuestion[], EXAM_TOPIC_WEIGHTS, option.count)
+  }
+  return drawPracticeSession(bankPool, option.count)
 }
 
 type ActiveSession =
@@ -106,7 +121,10 @@ export function NailExamBankExperience({
   const summary = bankSummaryLine(bank)
   const backHref = bank.backHref ?? NAIL_EXAM_PRACTICE_HREF
   const backTitle = bank.backTitle ?? NAIL_EXAM_PRACTICE_TITLE
-  const [format, setFormat] = useState<StudyFormatId>("multiple-choice")
+  const hasGroups = groups.length > 0
+  const [selectedFormat, setFormat] = useState<StudyFormatId>("multiple-choice")
+  // Banks without groups (the practice test) only offer Multiple Choice.
+  const format: StudyFormatId = hasGroups ? selectedFormat : "multiple-choice"
   const [loading, setLoading] = useState(false)
   const [session, setSession] = useState<ActiveSession | null>(null)
   const [groupHistory, setGroupHistory] = useState<NailExamGroupHistory>({})
@@ -195,8 +213,8 @@ export function NailExamBankExperience({
   )
 
   const startGroup = useCallback(
-    (offset: number, start: number, end: number) => {
-      const title = sessionGroupLabel(bank, start, end)
+    (offset: number, start: number, end: number, label?: LocalizedText) => {
+      const title = sessionGroupLabel(bank, start, end, label)
       if (format === "study-cards") {
         void beginStudyCards(title, offset)
         return
@@ -295,6 +313,7 @@ export function NailExamBankExperience({
             </p>
           </div>
 
+          {hasGroups && (
           <div>
             <p className="mb-2 text-lg font-semibold text-slate-700 dark:text-slate-200">
               Study format{showChinese && " | 学习方式"}
@@ -333,14 +352,16 @@ export function NailExamBankExperience({
               })}
             </div>
           </div>
+          )}
 
+          {hasGroups && (
           <div>
             <p className="mb-2 text-lg font-semibold text-slate-700 dark:text-slate-200">
               Question groups{showChinese && " | 题目分组"}
             </p>
             <div className="grid grid-cols-2 gap-2">
               {groups.map((range) => {
-                const label = groupLabel(range.start, range.end)
+                const label = range.label ?? groupLabel(range.start, range.end)
                 const historyEntry = groupHistory[nailExamGroupHistoryId(bank.id, range.start, range.end)]
                 const perfect = format === "multiple-choice" && (historyEntry?.perfect ?? 0) > 0
                 return (
@@ -348,9 +369,10 @@ export function NailExamBankExperience({
                     key={range.offset}
                     type="button"
                     disabled={loading}
-                    onClick={() => startGroup(range.offset, range.start, range.end)}
+                    onClick={() => startGroup(range.offset, range.start, range.end, range.label)}
                     className={cn(
-                      "relative min-h-[7.75rem] rounded-2xl border px-3 py-2 text-left text-lg font-semibold shadow-sm transition-shadow hover:shadow-md disabled:opacity-60",
+                      "relative min-h-[7.75rem] rounded-2xl border px-3 py-2 text-left font-semibold shadow-sm transition-shadow hover:shadow-md disabled:opacity-60",
+                      range.label ? "pr-8 text-base leading-snug" : "text-lg",
                       ACCENT[bank.accent],
                     )}
                   >
@@ -360,6 +382,11 @@ export function NailExamBankExperience({
                       </span>
                     )}
                     {label.en}
+                    {range.label && showChinese && (
+                      <span className="block text-sm font-medium opacity-80" lang="zh-Hans">
+                        {label.zh}
+                      </span>
+                    )}
                     <span className="mt-1 block min-h-12 text-xs leading-4 font-medium opacity-80">
                       {format === "multiple-choice" && (
                         historyEntry ? (
@@ -394,11 +421,13 @@ export function NailExamBankExperience({
               })}
             </div>
           </div>
+          )}
 
           {format === "multiple-choice" && bank.randomOptions.length > 0 && (
             <div>
               <p className="mb-2 text-lg font-semibold text-slate-700 dark:text-slate-200">
-                Random practice{showChinese && " | 随机练习"}
+                {hasGroups ? "Random practice" : "Choose a test"}
+                {showChinese && (hasGroups ? " | 随机练习" : " | 选择测试")}
               </p>
               <div className="flex flex-col gap-2">
                 {bank.randomOptions.map((option) => (
@@ -409,8 +438,7 @@ export function NailExamBankExperience({
                     onClick={() =>
                       void beginMultipleChoice(
                         option.title,
-                        (pool) =>
-                          drawPracticeSession(sliceBankGroup(pool, bank, 0, bank.approvedCount), option.count),
+                        (pool) => drawRandomOption(pool, bank, option),
                         true,
                       )
                     }
@@ -421,8 +449,17 @@ export function NailExamBankExperience({
                       {showChinese && <> | {option.title.zh}</>}
                     </span>
                     <span className="text-base text-slate-600 dark:text-slate-300">
-                      {option.count} random questions
-                      {showChinese && ` | ${option.count} 道随机题目`}
+                      {option.description ? (
+                        <>
+                          {option.description.en}
+                          {showChinese && ` | ${option.description.zh}`}
+                        </>
+                      ) : (
+                        <>
+                          {option.count} random questions
+                          {showChinese && ` | ${option.count} 道随机题目`}
+                        </>
+                      )}
                     </span>
                   </button>
                 ))}

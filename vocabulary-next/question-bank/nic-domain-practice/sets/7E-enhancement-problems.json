@@ -1,0 +1,1313 @@
+{
+  "schemaVersion": "1.0.0",
+  "setId": "7E",
+  "domain": {
+    "id": "enhancements",
+    "order": 7,
+    "title": {
+      "en": "Nail Enhancements: Application, Maintenance, and Removal",
+      "zh": "美甲延长与加固：施做、维护与卸除"
+    },
+    "examWeightPercent": 20
+  },
+  "title": {
+    "en": "Enhancement Problems and Fixes",
+    "zh": "美甲延长常见问题与解决"
+  },
+  "status": "reviewed",
+  "authoredAt": "2026-10-22",
+  "sourceBook": "Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020)",
+  "review": {
+    "reviewedAt": "2026-10-23",
+    "checks": [
+      "quotes found on cited pages (verify-nic-domain-evidence.py)",
+      "blind answer check: 20/20 matched key (changed and new questions re-checked)",
+      "content and Chinese review: fixes applied",
+      "memory hooks fact-checked (word origins, Chinese characters, textbook facts): fixes applied"
+    ]
+  },
+  "questions": [
+    {
+      "id": "nic-7e-01",
+      "question": {
+        "en": "What is a leading cause of most enhancement lifting?",
+        "zh": "大多数美甲起翘的主要原因是什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Using a medium bead",
+          "zh": "用了中球（medium bead）"
+        },
+        {
+          "id": "b",
+          "en": "Removing only the surface shine",
+          "zh": "只锉掉表面光泽"
+        },
+        {
+          "id": "c",
+          "en": "Applying cuticle oil after service",
+          "zh": "服务后涂指缘油"
+        },
+        {
+          "id": "d",
+          "en": "Improper nail preparation",
+          "zh": "真甲前处理不到位"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Milady says improper nail preparation is a leading cause of most lifting. Oil, moisture, dead tissue, and debris left on the plate block adhesion.",
+        "zh": "Milady 指出，真甲前处理不到位是大多数起翘的主要原因。留在甲面上的油分、水分、死皮和杂质都会妨碍附着。"
+      },
+      "lockPoint": {
+        "en": "Tape won't stick to a greasy, damp surface. Many primers work like double-sided tape and fail the same way.",
+        "zh": "胶带贴不住油腻潮湿的表面；很多结合剂就像双面胶，失效的道理一样。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Adhesion of Nail Enhancements",
+          "pdfPage": 143,
+          "printedPage": "119"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Adhesion",
+          "pdfPage": 141,
+          "printedPage": "117"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Adhesion of Nail Enhancements",
+          "pdfPage": 144,
+          "printedPage": "120"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Nail Primer",
+          "pdfPage": 142,
+          "printedPage": "118"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 143,
+          "quote": "Improper nail preparation is a leading cause of most types of nail enhancement product lifting."
+        },
+        {
+          "pdfPage": 141,
+          "quote": "Oils, waxes, and soil will contaminate a surface and block adhesion."
+        },
+        {
+          "pdfPage": 142,
+          "quote": "Some types of nail primers act like double-sided sticky tape"
+        },
+        {
+          "pdfPage": 144,
+          "quote": "removing all dead tissue from the side walls and cuticle area as well as bacteria, fungi, oil, and moisture from the nail plate"
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-7e-02",
+      "question": {
+        "en": "Scrubbing the nail plate with a nail brush before service helps prevent",
+        "zh": "服务前用指甲刷刷洗甲面，有助于预防什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "heat spikes in the lamp.",
+          "zh": "照灯时烫手。"
+        },
+        {
+          "id": "b",
+          "en": "a yellow topcoat.",
+          "zh": "封层发黄。"
+        },
+        {
+          "id": "c",
+          "en": "lifting and nail infections.",
+          "zh": "起翘和指甲感染。"
+        },
+        {
+          "id": "d",
+          "en": "air bubbles in the bead.",
+          "zh": "水晶球里有气泡。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Scrubbing removes surface oils and contaminants that block adhesion, plus bacteria and fungi that cause infections. Skipping it can lead to lifting, mainly near the eponychium.",
+        "zh": "刷洗能去除妨碍附着的表面油脂和污物，还能去掉导致感染的细菌和真菌。省掉这一步可能导致起翘，主要在甲上皮附近。"
+      },
+      "lockPoint": {
+        "en": "Skip the scrub → oil and germs stay → product lifts at the base → germs get underneath.",
+        "zh": "不刷洗 → 油和病菌留在甲面 → 甲根处起翘 → 病菌钻到下面。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Adhesion of Nail Enhancements",
+          "pdfPage": 143,
+          "printedPage": "119"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 143,
+          "quote": "Washing the hands and scrubbing the nail plate with a nail brush removes surface oils and contaminants that interfere with proper adhesion. Scrubbing also gets rid of the bacteria and fungi that cause fingernail infections"
+        },
+        {
+          "pdfPage": 143,
+          "quote": "Skipping this important step is a major contributor to fingernail infections and can lead to product lifting, mainly at the base of the nail plate near the eponychium."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-7e-03",
+      "question": {
+        "en": "Lifting at the cuticle and sidewalls is usually caused by",
+        "zh": "甲根（cuticle）和两侧甲沟（sidewalls）处起翘，通常是什么原因？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "using a medium bead.",
+          "zh": "用了中等湿度的水晶球。"
+        },
+        {
+          "id": "b",
+          "en": "product touching the skin.",
+          "zh": "产品碰到了皮肤。"
+        },
+        {
+          "id": "c",
+          "en": "a 35 percent C-curve.",
+          "zh": "35% 的 C 弧（C-curve）。"
+        },
+        {
+          "id": "d",
+          "en": "storing powder in the dark.",
+          "zh": "把粉存放在暗处。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Lifting near the cuticle and sidewalls usually comes from poor nail prep, liquid and powder touching the skin, or product left too thick in those areas.",
+        "zh": "甲小皮和两侧附近起翘，通常是因为真甲前处理不到位、水晶产品碰到皮肤，或这些部位的产品留得太厚。"
+      },
+      "lockPoint": {
+        "en": "Product on skin → skin flexes and sheds → the edge pulls up. So leave a 1/16-inch margin.",
+        "zh": "产品碰到皮肤 → 皮肤会动、会脱皮 → 边缘被带起。所以要留约 1/16 英寸的空隙。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Maintenance",
+          "pdfPage": 354,
+          "printedPage": "330"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - One-Color Monomer Liquid and Polymer Powder Overlay",
+          "pdfPage": 359,
+          "printedPage": "335"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin Structure, Disorders, and Diseases - Prolonged or Repeated Contact Risks",
+          "pdfPage": 112,
+          "printedPage": "88"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Using Gels",
+          "pdfPage": 384,
+          "printedPage": "360"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 354,
+          "quote": "it is usually explained by poor preparation of the natural nail, letting the liquid and powder touch the skin, or leaving the product too thick around the cuticle and sidewalls."
+        },
+        {
+          "pdfPage": 359,
+          "quote": "leaving a tiny margin between the product and the skin."
+        },
+        {
+          "pdfPage": 112,
+          "quote": "always leave a tiny, free margin (approximately 1/16”) between the nail enhancement application and the living skin"
+        },
+        {
+          "pdfPage": 384,
+          "quote": "Be sure not to contact the skin, as this will cause lifting."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-7e-04",
+      "question": {
+        "en": "Why avoid coarse, low-grit files on freshly applied product?",
+        "zh": "为什么刚做好的产品不能用粗的低目数锉条？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Low grits make product cure faster.",
+          "zh": "低目数会让产品固化更快。"
+        },
+        {
+          "id": "b",
+          "en": "Low grits are too smooth to shape.",
+          "zh": "低目数太细，修不出形状。"
+        },
+        {
+          "id": "c",
+          "en": "The vibration can cause lifting.",
+          "zh": "震动会导致起翘（lifting）。"
+        },
+        {
+          "id": "d",
+          "en": "Filing fresh product turns it yellow.",
+          "zh": "刚做好的产品一锉就变黄。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Fresh product is still soft. A coarse grit of 100 or lower can damage it and create heavy vibration that causes lifting. Lower grit numbers are rougher.",
+        "zh": "刚做好的产品还比较软。100 目或更低的粗锉条会损伤它，并产生强烈震动，导致起翘。目数越低越粗。"
+      },
+      "lockPoint": {
+        "en": "Low grit is for heavy removal, like 60-grit sandpaper stripping paint: too harsh for soft, fresh product.",
+        "zh": "低目数是用来大量磨除的，就像 60 目砂纸能把油漆磨掉：对刚做好、还软的产品太狠了。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Abrasives",
+          "pdfPage": 350,
+          "printedPage": "326"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 350,
+          "quote": "Avoid using coarser, lower-grit abrasives or aggressive techniques on freshly applied enhancement products. This can damage the soft, freshly created nail enhancement and also create a heavy vibration that causes lifting."
+        },
+        {
+          "pdfPage": 350,
+          "quote": "the lower the number, the rougher the abrasive will be"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-7e-05",
+      "question": {
+        "en": "How should lifted product be removed before new product goes on?",
+        "zh": "上新产品之前，应该怎样去除起翘的部分？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "File it thin with a 180 grit",
+          "zh": "用 180 目锉条平着锉薄"
+        },
+        {
+          "id": "b",
+          "en": "Clip it off with nippers",
+          "zh": "用死皮剪剪掉"
+        },
+        {
+          "id": "c",
+          "en": "Pry it up with a pusher",
+          "zh": "用钢推撬起来"
+        },
+        {
+          "id": "d",
+          "en": "Seal it down with resin",
+          "zh": "用树脂把它粘回去"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Hold a 180-grit file flat on the lifted area and file until the piece flakes away. Nipping can damage the nail plate and keep the lifting going.",
+        "zh": "把 180 目锉条平放在起翘处，锉到那一块自己剥落为止。用死皮剪剪会损伤甲面，还会让起翘继续下去。"
+      },
+      "lockPoint": {
+        "en": "Milady's rule of thumb: lifting you can see now, unless filed away, will show through the new product.",
+        "zh": "Milady 的经验法则：现在看得到的起翘，不锉掉，做完后透过新产品还是看得到。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Maintenance",
+          "pdfPage": 354,
+          "printedPage": "330"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 354,
+          "quote": "To remove the lifting, hold a 180-grit file flat against the lifted area and file until it is so thin that the lifted piece flakes away. Do not use nippers to clip away the lifted product."
+        },
+        {
+          "pdfPage": 354,
+          "quote": "A good rule of thumb is that if you can see it now, you can see it later."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-7e-06",
+      "question": {
+        "en": "If a liquid and powder enhancement has excessive lifting, you should",
+        "zh": "如果水晶甲起翘得很严重，应该怎么做？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "nip off the lifted parts.",
+          "zh": "用死皮剪剪掉起翘部分。"
+        },
+        {
+          "id": "b",
+          "en": "prime the lifted area twice.",
+          "zh": "在起翘处涂两遍结合剂。"
+        },
+        {
+          "id": "c",
+          "en": "fill right over the lifted area.",
+          "zh": "直接在起翘处补甲。"
+        },
+        {
+          "id": "d",
+          "en": "soak it off and start fresh.",
+          "zh": "泡掉，重新做一套。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "If lifting is excessive, soak off the enhancement and start fresh with a new application. Never nip off lifted product; it damages the nail plate.",
+        "zh": "起翘严重时，要把美甲泡掉，重新做一套。绝不能用死皮剪剪掉起翘的产品，这会损伤甲面。"
+      },
+      "lockPoint": {
+        "en": "Nippers pull up layers of the natural nail along with the product and break the seal of the rest.",
+        "zh": "死皮剪会连同产品一起扯起真甲的层，还会破坏其余部分的密封。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Maintenance",
+          "pdfPage": 354,
+          "printedPage": "330"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Resin Systems - Dip Systems",
+          "pdfPage": 310,
+          "printedPage": "286"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 354,
+          "quote": "If lifting is excessive, soak off the enhancement and start fresh with a new nail application."
+        },
+        {
+          "pdfPage": 310,
+          "quote": "Never nip off lifted product! This may damage the nail plate by pulling up layers of the natural nail and can break the seal of the remaining enhancement."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-7e-07",
+      "question": {
+        "en": "Which step helps reduce a heat spike when curing gel?",
+        "zh": "照灯时，哪个做法能减轻烫手感（heat spike）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Cure one thick layer at once.",
+          "zh": "一次固化一层厚胶。"
+        },
+        {
+          "id": "b",
+          "en": "Cure several large beads at once.",
+          "zh": "一次固化好几颗大胶珠。"
+        },
+        {
+          "id": "c",
+          "en": "Slide the hand into the lamp slowly.",
+          "zh": "慢慢把手伸进灯里。"
+        },
+        {
+          "id": "d",
+          "en": "Warm the gel before applying it.",
+          "zh": "上胶前先把胶加热。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Curing releases heat. To control it, cure a thin first layer, use several small beads, and slide the hand into the lamp slowly so the reaction starts gently.",
+        "zh": "固化时会放热。要控制热感，先固化一层薄胶，用多颗小胶珠，并慢慢把手伸进灯里，让反应缓慢开始。"
+      },
+      "lockPoint": {
+        "en": "A thin first layer is a partial heat shield: it protects the nail from thicker beads cured on top.",
+        "zh": "第一层薄胶起到一点隔热作用：保护真甲，不被后面更厚的胶珠烫到。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Chemistry of Gels",
+          "pdfPage": 378,
+          "printedPage": "354"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Using Gels",
+          "pdfPage": 384,
+          "printedPage": "360"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 378,
+          "quote": "Slowly insert the hand into the lamp. Exposing the gel to the light slowly will slow the reaction and generate less heat."
+        },
+        {
+          "pdfPage": 378,
+          "quote": "Apply and cure multiple small (rather than large) beads of gel."
+        },
+        {
+          "pdfPage": 378,
+          "quote": "Start with a thin application over the natural nail and cure. This will provide a bit of protection from the heat of the thicker second and/or third bead."
+        },
+        {
+          "pdfPage": 378,
+          "quote": "The more bonds that are formed when the gel cures, the more heat that is generated."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-7e-08",
+      "question": {
+        "en": "Over-filing the natural nail plate can lead to",
+        "zh": "过度锉磨真甲甲板会导致什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "better product adhesion.",
+          "zh": "产品附着更好。"
+        },
+        {
+          "id": "b",
+          "en": "faster natural nail growth.",
+          "zh": "真甲长得更快。"
+        },
+        {
+          "id": "c",
+          "en": "a yellow topcoat.",
+          "zh": "封层发黄。"
+        },
+        {
+          "id": "d",
+          "en": "lifting and breaking.",
+          "zh": "起翘和断裂。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Over-filing thins and weakens the nail plate. Milady calls it a leading cause of service breakdown, lifting, breaking, and free-edge chipping, and it can promote allergic reactions.",
+        "zh": "过度锉磨会让甲板变薄变弱。Milady 说这是美甲提前损坏、起翘、断裂和前缘崩边的主要原因之一，还可能诱发过敏反应。"
+      },
+      "lockPoint": {
+        "en": "A house on a thin foundation cracks. A thinner nail plate is a weaker base for any enhancement.",
+        "zh": "地基薄，房子就会裂。甲板越薄，任何美甲的基础就越弱。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Adhesion of Nail Enhancements",
+          "pdfPage": 144,
+          "printedPage": "120"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Adhesion of Nail Enhancements",
+          "pdfPage": 143,
+          "printedPage": "119"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 144,
+          "quote": "It is one of the leading causes of nail enhancement service breakdown and can lead to lifting; breaking; free-edge chipping; and free-edge product separation, or curling. It also can promote allergic reactions"
+        },
+        {
+          "pdfPage": 143,
+          "quote": "Thinner nail plates create a weaker foundation for nail enhancements."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-7e-09",
+      "question": {
+        "en": "If you need two or more coats of primer to stop lifting, you should",
+        "zh": "如果要涂两层以上结合剂才能防止起翘，应该怎么做？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "add a third coat of primer.",
+          "zh": "再加第三层结合剂。"
+        },
+        {
+          "id": "b",
+          "en": "check your prep and application.",
+          "zh": "检查前处理和操作步骤。"
+        },
+        {
+          "id": "c",
+          "en": "switch to a wetter bead.",
+          "zh": "改用更湿的水晶球。"
+        },
+        {
+          "id": "d",
+          "en": "skip the dehydrator step.",
+          "zh": "省掉脱水剂这一步。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "One very thin coat of primer is enough for most clients. Needing two or more means something is wrong, so check your nail prep and application. Too much primer can even reach the nail bed.",
+        "zh": "大多数客人一薄层结合剂就够了。需要两层以上，说明有问题，要检查前处理和操作步骤。结合剂太多甚至会渗到甲床。"
+      },
+      "lockPoint": {
+        "en": "Milady calls primer a possible crutch: it can hide poor prep instead of fixing it.",
+        "zh": "Milady 说结合剂可能变成“拐杖”：它会掩盖前处理的问题，而不是解决问题。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Nail Primer",
+          "pdfPage": 142,
+          "printedPage": "118"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 142,
+          "quote": "Use primer sparingly! One very thin coat is enough for most clients. If you find that you rely on two or more coats to prevent lifting, something is wrong! Check your nail preparation and application procedure for problems."
+        },
+        {
+          "pdfPage": 142,
+          "quote": "Primer can become a crutch, covering up improper application or inadequate nail plate preparation."
+        },
+        {
+          "pdfPage": 142,
+          "quote": "If too much primer is used, the nail plate may become overly saturated and tiny amounts may reach the nail bed"
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-7e-10",
+      "question": {
+        "en": "Applying liquid and powder over wet primer can cause",
+        "zh": "在未干的结合剂上做水晶，会造成什么问题？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "discoloration and service breakdown.",
+          "zh": "变色和美甲提前损坏。"
+        },
+        {
+          "id": "b",
+          "en": "a faster, harder cure.",
+          "zh": "固化更快、更硬。"
+        },
+        {
+          "id": "c",
+          "en": "trapped air bubbles.",
+          "zh": "里面夹着气泡。"
+        },
+        {
+          "id": "d",
+          "en": "a heat spike during the cure.",
+          "zh": "固化时烫手。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Let all primers dry thoroughly first: acid-based dries chalky white, acid-free dries shiny and sticky. Product put over wet primer can discolor and break down early.",
+        "zh": "所有结合剂都要先完全干透：酸性结合剂干后发白（像粉笔一样），无酸结合剂干后有光泽、发黏。在未干的结合剂上做产品，会变色并提前损坏。"
+      },
+      "lockPoint": {
+        "en": "Like painting over a coat that's still wet: the soft layer underneath spoils the new finish.",
+        "zh": "就像在还没干的漆上再刷一层：下面那层软的，会把新的一层也毁掉。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Nail Primer",
+          "pdfPage": 349,
+          "printedPage": "325"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 349,
+          "quote": "Allow all nail primers to dry thoroughly. Acid-based nail primer will dry to a chalky white. Acid-free primer will dry to a shiny, sticky surface. Never apply nail enhancement product over wet nail primer. This can cause product discoloration and service breakdown."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-7e-11",
+      "question": {
+        "en": "Many air bubbles in liquid and powder usually mean the bead was",
+        "zh": "水晶甲里有很多气泡，通常说明水晶球怎样？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "too wet.",
+          "zh": "太湿。"
+        },
+        {
+          "id": "b",
+          "en": "too dry.",
+          "zh": "太干。"
+        },
+        {
+          "id": "c",
+          "en": "too warm.",
+          "zh": "太热。"
+        },
+        {
+          "id": "d",
+          "en": "too small.",
+          "zh": "太小。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "A dry bead uses equal parts liquid and powder. It is hard to press into place and usually contains many air bubbles. A medium bead is the ideal mix ratio.",
+        "zh": "dry bead（干球）液体和粉等量，很难按压到位，里面通常有很多气泡。medium bead（中球）才是最理想的液粉比。"
+      },
+      "lockPoint": {
+        "en": "Not enough liquid to wet every grain, so air stays trapped between the dry ones.",
+        "zh": "液体不够，没法把每一粒粉都润湿，空气就困在干粉之间。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Monomer Liquid",
+          "pdfPage": 348,
+          "printedPage": "324"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 348,
+          "quote": "If equal amounts of liquid and powder are used to create the bead, it is called a dry bead. Dry beads can be difficult to press into place and will usually contain many air bubbles."
+        },
+        {
+          "pdfPage": 348,
+          "quote": "In general, medium beads are the ideal mix ratio"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-7e-12",
+      "question": {
+        "en": "Why press out air bubbles when applying a nail tip?",
+        "zh": "贴甲片时为什么要把气泡挤出来？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "They make the adhesive dry too fast.",
+          "zh": "气泡会让甲片胶干得太快。"
+        },
+        {
+          "id": "b",
+          "en": "They change the tip's color.",
+          "zh": "气泡会让甲片变色。"
+        },
+        {
+          "id": "c",
+          "en": "They stop the tip from being cut.",
+          "zh": "气泡会让甲片剪不动。"
+        },
+        {
+          "id": "d",
+          "en": "They trap dirt and weaken the enhancement.",
+          "zh": "气泡会藏污纳垢，还会让美甲变弱。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Air bubbles in the contact area become pockets where dirt and debris can collect later, and they reduce the strength of the enhancement. Rock the tip on slowly to press air out.",
+        "zh": "接触区里的气泡会形成小空腔，以后容易藏污纳垢，还会降低美甲的强度。把甲片慢慢压下去，把空气挤出来。"
+      },
+      "lockPoint": {
+        "en": "Like a bubble under a screen protector: that patch isn't stuck down, so it's the weak spot.",
+        "zh": "就像手机贴膜下的气泡：那一块根本没贴住，就是最薄弱的地方。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Nail Tips",
+          "pdfPage": 281,
+          "printedPage": "257"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 281,
+          "quote": "Air bubbles will create potential pockets for dirt/debris in the future as well as affect the overall strength of the enhancement."
+        },
+        {
+          "pdfPage": 281,
+          "quote": "Use gentle pressure while rocking the tip onto the nail, pressing out any visible air bubbles until the tip is fully attached."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-7e-13",
+      "question": {
+        "en": "Which of these can cause gel to cure improperly?",
+        "zh": "下列哪项会导致光疗胶固化不良？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Curing a thin first layer",
+          "zh": "先固化一层薄胶"
+        },
+        {
+          "id": "b",
+          "en": "Applying the gel too thick",
+          "zh": "胶涂得太厚"
+        },
+        {
+          "id": "c",
+          "en": "Wiping off the inhibition layer",
+          "zh": "擦掉浮胶层"
+        },
+        {
+          "id": "d",
+          "en": "Using the system's matching lamp",
+          "zh": "使用配套的固化灯"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Milady lists four causes of improper curing: gel applied too thick or very wet, too short a cure time, dirty lamps, and a lamp not designed for that gel system.",
+        "zh": "Milady 列出了光疗胶固化不良的四个原因：胶涂得太厚或太湿、照灯时间太短、灯不干净，以及用了不是为这套胶设计的灯。"
+      },
+      "lockPoint": {
+        "en": "Milady's test: cure gel on a form and peel it off. Uncured gel underneath means it went on too thick.",
+        "zh": "Milady 的小测试：在纸托上照灯后撕下来，底面还有没固化的胶，就说明涂得太厚了。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin Structure, Disorders, and Diseases - Improper Product Consistency",
+          "pdfPage": 112,
+          "printedPage": "88"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Practice Gel Thickness",
+          "pdfPage": 382,
+          "printedPage": "358"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 112,
+          "quote": "Applying product too thick or very wet"
+        },
+        {
+          "pdfPage": 112,
+          "quote": "Too short of a cure time under the UV/LED lamp"
+        },
+        {
+          "pdfPage": 112,
+          "quote": "Dirty lamps in the UV/LED lamp unit"
+        },
+        {
+          "pdfPage": 112,
+          "quote": "Using a UV/LED light unit not specifically designed for the chosen UV/LED gel system"
+        },
+        {
+          "pdfPage": 382,
+          "quote": "If there is a layer of uncured gel, then the gel was applied too thickly."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-7e-14",
+      "question": {
+        "en": "Under-cured gel enhancements raise the risk of",
+        "zh": "光疗胶固化不完全，会增加什么风险？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "allergic or irritant skin reactions.",
+          "zh": "皮肤过敏或刺激反应。"
+        },
+        {
+          "id": "b",
+          "en": "a harder, stronger enhancement.",
+          "zh": "美甲变得更硬更牢。"
+        },
+        {
+          "id": "c",
+          "en": "a heat spike in the lamp.",
+          "zh": "照灯时烫手。"
+        },
+        {
+          "id": "d",
+          "en": "air bubbles under the gel.",
+          "zh": "胶下面有气泡。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Under-curing can cause allergic or irritant skin and nail reactions. Several thin coats and longer exposures give the most complete cure. Even dust from under-cured nails can sensitize the tech.",
+        "zh": "固化不完全会引起皮肤和指甲的过敏或刺激反应。多上几层薄胶、照足时间，固化才最完全。连固化不全的指甲磨出的粉尘都可能让美甲师过敏。"
+      },
+      "lockPoint": {
+        "en": "Cured gel is finished plastic; uncured gel is still the raw, reactive chemical.",
+        "zh": "固化好的胶是成品塑料；没固化的胶还是有活性的原料。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin Structure, Disorders, and Diseases - Under Curing UV or LED Gel Enhancements",
+          "pdfPage": 113,
+          "printedPage": "89"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 113,
+          "quote": "A third problem that can cause allergic or irritant skin and nail reactions is under-curing the gel enhancements. Several thin coatings and longer exposures lead to the best and most complete cure."
+        },
+        {
+          "pdfPage": 113,
+          "quote": "If the nail technician's arm, wrist, hands, or fingers are overexposed to dusts from under-cured artificial nails, the potential for developing allergic reactions becomes more likely."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-7e-15",
+      "question": {
+        "en": "Why must the sticky layer on cured gel never touch the skin?",
+        "zh": "为什么光疗胶的浮胶层（inhibition layer）绝不能碰到皮肤？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "It permanently stains the skin.",
+          "zh": "它会让皮肤永久染色。"
+        },
+        {
+          "id": "b",
+          "en": "It contains acetone that dries skin.",
+          "zh": "它含丙酮，会让皮肤干燥。"
+        },
+        {
+          "id": "c",
+          "en": "It is partly cured and can cause allergies.",
+          "zh": "它是部分固化的胶，可能致敏。"
+        },
+        {
+          "id": "d",
+          "en": "It is too hot to touch.",
+          "zh": "它太烫，不能碰。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "The soft, gooey layer on top of gel is partially cured gel. Milady says it must never touch soft tissue and should be removed with an alcohol wipe.",
+        "zh": "光疗胶表面那层软黏的东西是部分固化的胶。Milady 说它绝不能碰到皮肤，要用酒精棉擦掉。"
+      },
+      "lockPoint": {
+        "en": "Testing the tacky layer with a bare fingertip, service after service, is the repeated contact that builds an allergy.",
+        "zh": "每次都用手指去摸浮胶层试黏，一次次累积下来，正是会导致过敏的那种反复接触。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin Structure, Disorders, and Diseases - Under Curing UV or LED Gel Enhancements",
+          "pdfPage": 113,
+          "printedPage": "89"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 113,
+          "quote": "The soft, gooey layer on top of gel enhancements must never come in contact with the skin's soft tissue. It is considered a partially cured UV gel and should be removed with an alcohol wipe."
+        },
+        {
+          "pdfPage": 113,
+          "quote": "Only prolonged and repeated contact with uncured or partially cured UV gel or monomer liquids causes these allergies."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-7e-16",
+      "question": {
+        "en": "Why can a bead that is always too wet lead to allergies?",
+        "zh": "为什么水晶球总是太湿会导致过敏？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Wet beads give off more vapor.",
+          "zh": "湿球释放更多蒸气。"
+        },
+        {
+          "id": "b",
+          "en": "Extra monomer gets trapped in the nail.",
+          "zh": "多余的单体液被困在甲里。"
+        },
+        {
+          "id": "c",
+          "en": "Wet beads contain extra BPO.",
+          "zh": "湿球含有更多 BPO。"
+        },
+        {
+          "id": "d",
+          "en": "Wet beads cure too hard.",
+          "zh": "湿球固化得太硬。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "With too much liquid, the bead hardens with some monomer trapped inside. It can work down to the nail bed and cause an allergic reaction, especially on thin, damaged nails.",
+        "zh": "液体太多时，水晶球固化后会把部分单体液困在里面。它可能慢慢渗到甲床，引起过敏，尤其是甲板受损、过薄的客人。"
+      },
+      "lockPoint": {
+        "en": "The initiator BPO comes in the powder. Too little powder → too little starter → leftover liquid monomer.",
+        "zh": "引发剂 BPO 在粉里。粉太少 → 引发剂不够 → 剩下没反应的单体液。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin Structure, Disorders, and Diseases - Improper Product Consistency",
+          "pdfPage": 112,
+          "printedPage": "88"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Chemistry of Liquid and Powder",
+          "pdfPage": 346,
+          "printedPage": "322"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 112,
+          "quote": "The second most common reason for an allergy is improper product consistency. If too much monomer liquid is used, the result is an overly wet bead."
+        },
+        {
+          "pdfPage": 112,
+          "quote": "When you apply product that is consistently too wet, it will harden on the nail with some monomer liquid trapped inside. This extra monomer liquid may eventually work its way down to the nail bed and can cause an allergic reaction"
+        },
+        {
+          "pdfPage": 112,
+          "quote": "a special ingredient found in polymer powders—is needed to start the chemical reaction that causes the monomer liquid to harden"
+        },
+        {
+          "pdfPage": 346,
+          "quote": "The initiator that is added to the polymer powder is called benzoyl peroxide (BPO)"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-7e-17",
+      "question": {
+        "en": "Why should you never custom-blend your own gel products?",
+        "zh": "为什么不能自己调配、混用光疗胶？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "The blend can't be colored.",
+          "zh": "调出来的胶没法调色。"
+        },
+        {
+          "id": "b",
+          "en": "It only cures in a UV lamp.",
+          "zh": "只能用 UV 灯固化。"
+        },
+        {
+          "id": "c",
+          "en": "It can cause allergic reactions.",
+          "zh": "可能引起过敏反应。"
+        },
+        {
+          "id": "d",
+          "en": "It turns into a soak-off gel.",
+          "zh": "会变成可卸胶。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Milady says mixing product lines or custom-blending your own mixture can create chemical imbalances that lead to allergic reactions. Use products exactly as instructed.",
+        "zh": "Milady 指出，混用不同产品线或自己调配可能造成化学失衡（chemical imbalance），导致过敏。产品要严格按说明使用。"
+      },
+      "lockPoint": {
+        "en": "Like mixing two medicines on your own: each was tested alone, but nobody tested your blend.",
+        "zh": "就像自己混着吃两种药：每种都单独测试过，却没人测试过你的混合配方。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin Structure, Disorders, and Diseases - Under Curing UV or LED Gel Enhancements",
+          "pdfPage": 113,
+          "printedPage": "89"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 113,
+          "quote": "Mixing product lines or custom blending your own special mixture can also create chemical imbalances, which lead to allergic reactions."
+        },
+        {
+          "pdfPage": 113,
+          "quote": "Brushes that are too large do not save time—they cause skin exposure and may lead to allergic reactions."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-7e-18",
+      "question": {
+        "en": "Under a client's enhancement you see a yellow-green spot. What should you do?",
+        "zh": "在客人的美甲下面看到一个黄绿色的斑点，应该怎么做？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Fill over it as usual",
+          "zh": "照常补甲盖住它"
+        },
+        {
+          "id": "b",
+          "en": "File the spot away",
+          "zh": "把斑点锉掉"
+        },
+        {
+          "id": "c",
+          "en": "Bleach it, then re-polish",
+          "zh": "漂白后再涂甲油"
+        },
+        {
+          "id": "d",
+          "en": "Refer the client to a doctor",
+          "zh": "建议客人就医"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "A yellow-green spot that darkens is a sign of Pseudomonas, a contagious bacterial infection. Don't cover or treat it: Milady says medical referral is required.",
+        "zh": "会变深的黄绿色斑点是铜绿假单胞菌（Pseudomonas aeruginosa）细菌感染的迹象，具传染性。不要盖住或自行处理：Milady 说必须建议就医。"
+      },
+      "lockPoint": {
+        "en": "Unfixed lifting → gap under the product → higher infection risk. Remove lifts at every fill.",
+        "zh": "起翘不处理 → 产品下面有缝 → 感染风险升高。每次补甲都要把起翘去掉。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "The Nail - Nail Diseases",
+          "pdfPage": 134,
+          "printedPage": "110"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Maintenance",
+          "pdfPage": 354,
+          "printedPage": "330"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 134,
+          "quote": "Rapidly growing and contagious bacteria that can cause an infection. Seen in the early stages as a yellow–green spot that becomes darker in its advanced stage, changing from yellow to green to brown to black. Medical referral required."
+        },
+        {
+          "pdfPage": 354,
+          "quote": "If nail enhancements are not regularly maintained, they have a greater tendency to lift, crack, or break, which can damage the natural nail and increase the risk of developing an infection"
+        },
+        {
+          "pdfPage": 354,
+          "quote": "the lifting must be removed before applying new product"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-7e-19",
+      "question": {
+        "en": "Whitish spots on the nail after gel removal are often caused by",
+        "zh": "卸完光疗胶后，指甲上出现白斑，通常是什么原因？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "scraping off leftover product.",
+          "zh": "刮掉残留的产品。"
+        },
+        {
+          "id": "b",
+          "en": "using a soak-off topcoat.",
+          "zh": "用了可卸封层。"
+        },
+        {
+          "id": "c",
+          "en": "curing in an LED lamp.",
+          "zh": "在 LED 灯里固化。"
+        },
+        {
+          "id": "d",
+          "en": "applying cuticle oil afterward.",
+          "zh": "之后涂了指缘油。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Scraping or prying leftover coating with a metal or wooden pusher makes tiny pits and gouges. Many in one spot roughen the surface and look like whitish spots. Soak longer instead.",
+        "zh": "用钢推或木棒刮、撬残留的胶，会在甲面留下细小的凹坑和刮痕。同一处刮痕多了，表面变粗糙，看起来就像白斑。应该多泡一会儿。"
+      },
+      "lockPoint": {
+        "en": "Scratch clear plastic and it turns cloudy white; a scraped nail surface does the same.",
+        "zh": "透明塑料刮花了会发白发雾，被刮过的甲面也是一样。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Adhesion of Nail Enhancements",
+          "pdfPage": 144,
+          "printedPage": "120"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Adhesion of Nail Enhancements",
+          "pdfPage": 145,
+          "printedPage": "121"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 144,
+          "quote": "The use of metal or wooden pushers to scrape or pry away residual products can lead to pitting and gouging of the nail surface. When several of these microscopic pits or gouges occur in a small area, the surface is roughened and can appear as whitish spots on the nail."
+        },
+        {
+          "pdfPage": 145,
+          "quote": "more time should be allowed for the remover to properly soften the coating so that it can be gently removed without damage"
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-7e-20",
+      "question": {
+        "en": "A hard gel extension still bends after curing. What should you do?",
+        "zh": "硬胶延长照灯后还会弯，应该怎么做？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Add another layer of gel and cure",
+          "zh": "再加一层胶并照灯"
+        },
+        {
+          "id": "b",
+          "en": "File it thinner to stiffen it",
+          "zh": "锉薄一点让它变硬"
+        },
+        {
+          "id": "c",
+          "en": "Cover it with gel polish only",
+          "zh": "只在上面涂一层甲油胶"
+        },
+        {
+          "id": "d",
+          "en": "Rub cuticle oil into it",
+          "zh": "往里面揉指缘油"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "If the extension still bends after curing, apply another layer of building or self-leveling gel over the whole enhancement and cure. Repeat until it no longer bends.",
+        "zh": "如果延长照灯后还会弯，就在整个美甲上再加一层建构胶或自流平胶并照灯。重复，直到不再弯为止。"
+      },
+      "lockPoint": {
+        "en": "Like a thin ruler that bends: stack another layer on it and it stiffens.",
+        "zh": "就像一把会弯的薄尺子：再叠一层，它就变硬了。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - One-Color Hard-Gel Sculpture Extensions",
+          "pdfPage": 396,
+          "printedPage": "372"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 396,
+          "quote": "If the extension still bends after curing, apply another layer of building or a self-leveling gel over the entire enhancement and cure. Repeat as needed until the extension doesn't bend."
+        }
+      ],
+      "hookType": "picture"
+    }
+  ]
+}

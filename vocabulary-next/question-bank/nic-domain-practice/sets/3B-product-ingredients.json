@@ -1,0 +1,1335 @@
+{
+  "schemaVersion": "1.0.0",
+  "setId": "3B",
+  "domain": {
+    "id": "chemistry",
+    "order": 3,
+    "title": {
+      "en": "Chemistry of Nail Products",
+      "zh": "美甲产品化学"
+    },
+    "examWeightPercent": 10
+  },
+  "title": {
+    "en": "Product Ingredients and Harmful Ingredients",
+    "zh": "产品成分与有害成分"
+  },
+  "status": "reviewed",
+  "authoredAt": "2026-10-23",
+  "sourceBook": "Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020)",
+  "questions": [
+    {
+      "id": "nic-3b-01",
+      "question": {
+        "en": "In \"volatile organic compound,\" what does volatile mean?",
+        "zh": "在 volatile organic compound（挥发性有机化合物，VOC）中，volatile 是什么意思？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Contains carbon",
+          "zh": "含有碳"
+        },
+        {
+          "id": "b",
+          "en": "Explodes on contact",
+          "zh": "一碰就爆炸"
+        },
+        {
+          "id": "c",
+          "en": "Evaporates very easily",
+          "zh": "非常容易蒸发"
+        },
+        {
+          "id": "d",
+          "en": "Is highly toxic",
+          "zh": "毒性很强"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "VOCs contain carbon (organic) and evaporate very easily (volatile). Ethyl acetate and isopropyl alcohol are VOC solvents in polish, base coats, top coats, and removers.",
+        "zh": "VOC 含碳（organic，有机），并且非常容易蒸发（volatile，挥发性）。乙酸乙酯（ethyl acetate）和异丙醇（isopropyl alcohol）就是指甲油、底油、亮油和洗甲水里的 VOC 溶剂。"
+      },
+      "lockPoint": {
+        "en": "Volatile comes from Latin volare, \"to fly\": the liquid flies off into the air.",
+        "zh": "volatile 来自拉丁语 volare“飞”：液体“飞”进空气里。中文“挥发”也是散到空气中。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Common Chemical Product Ingredients",
+          "pdfPage": 659,
+          "printedPage": "164"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 659,
+          "quote": "contain carbon (organic) and evaporate very easily (volatile)"
+        },
+        {
+          "pdfPage": 659,
+          "quote": "Volatile organic solvents such as ethyl acetate and isopropyl alcohol are used in nail polish, base and top coats, and polish removers."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-3b-02",
+      "question": {
+        "en": "In chemistry, an organic substance is one that",
+        "zh": "在化学中，organic（有机）物质是指——"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "contains carbon.",
+          "zh": "含有碳的物质。"
+        },
+        {
+          "id": "b",
+          "en": "comes only from plants.",
+          "zh": "只来自植物的物质。"
+        },
+        {
+          "id": "c",
+          "en": "is always safe.",
+          "zh": "一定安全的物质。"
+        },
+        {
+          "id": "d",
+          "en": "contains no water.",
+          "zh": "不含水的物质。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Organic simply means a substance contains carbon. It does not mean natural, healthy, or safe. All nail enhancements are made from organic substances.",
+        "zh": "organic（有机）只表示物质含有碳，不代表天然、健康或安全。所有加固甲（nail enhancements）都是由有机物制成的。"
+      },
+      "lockPoint": {
+        "en": "\"Organic\" on a food label describes farming methods, not chemistry.",
+        "zh": "超市食品上的“有机”讲的是种植和养殖方式，和化学里的“有机”不是一回事。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Did You Know? (organic)",
+          "pdfPage": 650,
+          "printedPage": "155"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Better for the Nail Claims",
+          "pdfPage": 150,
+          "printedPage": "126"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 650,
+          "quote": "the word organic simply means that a substance contains the element carbon"
+        },
+        {
+          "pdfPage": 650,
+          "quote": "not all organic sub-stances are natural, healthy, or safe"
+        },
+        {
+          "pdfPage": 150,
+          "quote": "All nail enhancements are made from organic sub-stances."
+        }
+      ],
+      "hookType": "name-trap"
+    },
+    {
+      "id": "nic-3b-03",
+      "question": {
+        "en": "Which ingredient keeps nail products flexible?",
+        "zh": "哪种成分能让美甲产品保持柔韧？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "UV stabilizers",
+          "zh": "紫外线稳定剂（UV stabilizers）"
+        },
+        {
+          "id": "b",
+          "en": "Plasticizers",
+          "zh": "增塑剂（plasticizers）"
+        },
+        {
+          "id": "c",
+          "en": "Pigments",
+          "zh": "色素（pigments）"
+        },
+        {
+          "id": "d",
+          "en": "Solvents",
+          "zh": "溶剂（solvents）"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Plasticizers keep polishes and nail enhancement products flexible. UV stabilizers protect color, pigments give color, and solvents evaporate to leave the film behind.",
+        "zh": "plasticizers（增塑剂）让指甲油和加固甲产品保持柔韧。紫外线稳定剂保护颜色，色素提供颜色，溶剂蒸发后留下涂膜。"
+      },
+      "lockPoint": {
+        "en": "Plastic first meant \"able to be molded\" (Greek plastikos): bendable, not stiff.",
+        "zh": "plastic 原义是“可塑的”（希腊语 plastikos）。增塑剂让涂膜能弯、不发脆。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Evaporation Coatings",
+          "pdfPage": 149,
+          "printedPage": "125"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Chapter Glossary",
+          "pdfPage": 155,
+          "printedPage": "131"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 149,
+          "quote": "plasticizers (plas-tih-SY-zerz), which are used to keep the products flexible"
+        },
+        {
+          "pdfPage": 155,
+          "quote": "Ingredients used to keep nail enhancement products flexible."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-3b-04",
+      "question": {
+        "en": "What do UV stabilizers in nail polish do?",
+        "zh": "指甲油中的紫外线稳定剂（UV stabilizers）有什么作用？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Keep the film flexible",
+          "zh": "让涂膜保持柔韧"
+        },
+        {
+          "id": "b",
+          "en": "Make polish dry faster",
+          "zh": "让指甲油干得更快"
+        },
+        {
+          "id": "c",
+          "en": "Help polish stick to nails",
+          "zh": "帮助指甲油附着在指甲上"
+        },
+        {
+          "id": "d",
+          "en": "Prevent fading from sunlight",
+          "zh": "防止阳光导致褪色"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "UV stabilizers control color stability and stop sunlight from fading or discoloring the color. Nail enhancement products use them for the same job.",
+        "zh": "UV stabilizers（紫外线稳定剂）保持颜色稳定，防止阳光让颜色褪色或变色。加固甲产品里也用它做同样的事。"
+      },
+      "lockPoint": {
+        "en": "UV = ultraviolet, \"beyond violet\": sun rays we can't see that still fade color.",
+        "zh": "UV = ultraviolet（紫外线），“紫光之外”：肉眼看不见，却会让颜色褪掉。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Evaporation Coatings",
+          "pdfPage": 149,
+          "printedPage": "125"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 149,
+          "quote": "which control color stability and prevent sunlight from causing fading or discoloration"
+        },
+        {
+          "pdfPage": 149,
+          "quote": "These types of ingredients are also found in nail enhancement products, where they serve the same function."
+        }
+      ],
+      "hookType": "real-acronym"
+    },
+    {
+      "id": "nic-3b-05",
+      "question": {
+        "en": "All nail enhancements and nail adhesives belong to which chemical family?",
+        "zh": "所有加固甲和美甲胶水都属于哪个化学家族？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Silicones",
+          "zh": "硅酮类（silicones）"
+        },
+        {
+          "id": "b",
+          "en": "Acrylics",
+          "zh": "丙烯酸类（acrylics）"
+        },
+        {
+          "id": "c",
+          "en": "Proteins",
+          "zh": "蛋白质类（proteins）"
+        },
+        {
+          "id": "d",
+          "en": "Alcohols",
+          "zh": "醇类（alcohols）"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Liquid and powder, UV gels, wraps, and glues are all acrylics. Many nail techs use the word only for liquid and powder, but the name covers all of them.",
+        "zh": "液粉系统（liquid and powder，俗称水晶甲）、UV 凝胶、包甲（wraps）和胶水都属于 acrylics（丙烯酸类）。很多美甲师只把液粉叫 acrylic，其实这个名字涵盖全部。"
+      },
+      "lockPoint": {
+        "en": "Hear \"acryl\" in all three names: methacrylates, acrylates, cyanoacrylates.",
+        "zh": "三种名字里都有 acryl：methacrylates、acrylates、cyanoacrylates，都是丙烯酸类。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Simple versus Cross-Linking Polymer Chains",
+          "pdfPage": 148,
+          "printedPage": "124"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 148,
+          "quote": "All nail enhancements and adhesives are based on a family of chemical ingredients called the acrylics (ah-KRIL-iks)."
+        },
+        {
+          "pdfPage": 148,
+          "quote": "even though most nail professionals use this term only in reference to monomer liquid and polymer powder systems"
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-3b-06",
+      "question": {
+        "en": "Nail adhesives (glues) and wraps are based on",
+        "zh": "美甲胶水（adhesives）和包甲（wraps）以什么为基础？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "cyanoacrylates.",
+          "zh": "氰基丙烯酸酯（cyanoacrylates）。"
+        },
+        {
+          "id": "b",
+          "en": "methacrylates.",
+          "zh": "甲基丙烯酸酯（methacrylates）。"
+        },
+        {
+          "id": "c",
+          "en": "acrylates.",
+          "zh": "丙烯酸酯（acrylates）。"
+        },
+        {
+          "id": "d",
+          "en": "silicones.",
+          "zh": "硅酮（silicones）。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "All nail glues and wraps use cyanoacrylates. Methacrylates make liquid and powder systems and at least one UV gel. Other UV gels use acrylates.",
+        "zh": "所有美甲胶水和包甲都用 cyanoacrylates（氰基丙烯酸酯）。methacrylates 用于液粉系统和至少一种 UV 凝胶；其他 UV 凝胶用 acrylates。"
+      },
+      "lockPoint": {
+        "en": "Hardware-store super glue is a cyanoacrylate too: it sets in seconds.",
+        "zh": "五金店的“502 胶”也是氰基丙烯酸酯：几秒钟就粘牢。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Simple versus Cross-Linking Polymer Chains",
+          "pdfPage": 148,
+          "printedPage": "124"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Chapter Glossary",
+          "pdfPage": 155,
+          "printedPage": "131"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 148,
+          "quote": "All nail adhesives (glues) and wraps are based on cyanoacrylates"
+        },
+        {
+          "pdfPage": 148,
+          "quote": "Methacrylates (meth-AH-kril-aytz) are used to make all monomer liquid and polymer powder systems and at least one type of UV gel."
+        },
+        {
+          "pdfPage": 148,
+          "quote": "All other UV gels are based on another type of acrylic called acrylates"
+        },
+        {
+          "pdfPage": 155,
+          "quote": "polymerizes in seconds; used to make wraps and nail adhesives"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-3b-07",
+      "question": {
+        "en": "What is the most important reason not to use MMA monomer?",
+        "zh": "不应使用 MMA（甲基丙烯酸甲酯，methyl methacrylate）单体最重要的原因是什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "It causes cancer",
+          "zh": "它会致癌"
+        },
+        {
+          "id": "b",
+          "en": "It is absorbed into the blood",
+          "zh": "它会被吸收进血液"
+        },
+        {
+          "id": "c",
+          "en": "FDA and state boards say don't use it",
+          "zh": "FDA 和州美容委员会（state boards）都说不要用"
+        },
+        {
+          "id": "d",
+          "en": "It dissolves too easily in remover",
+          "zh": "它在卸甲液里溶解得太快"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Milady says MMA is not a carcinogen and is not absorbed into the blood. The problems are poor adhesion, rigid nails, hard removal, and, most important, the FDA's position.",
+        "zh": "Milady 指出 MMA 不致癌，也不会被吸收进血液。问题在于附着差、太硬、难卸除，而最重要的原因是 FDA 和州美容委员会不允许使用。"
+      },
+      "lockPoint": {
+        "en": "Surgeons use MMA as bone repair cement: toxicity isn't why nails can't use it.",
+        "zh": "MMA 被用作手术骨水泥：它被禁用于指甲，不是因为毒性。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Methyl Methacrylate Monomer (MMA)",
+          "pdfPage": 148,
+          "printedPage": "124"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Methyl Methacrylate Monomer (MMA)",
+          "pdfPage": 149,
+          "printedPage": "125"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 148,
+          "quote": "MMA is not a carcinogen, is not absorbed into the blood to affect health"
+        },
+        {
+          "pdfPage": 148,
+          "quote": "MMA is the preferred bone repair cement for implantation into the body."
+        },
+        {
+          "pdfPage": 149,
+          "quote": "The FDA and most state boards of cosmetology say not to use it! This is the most important reason."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-3b-08",
+      "question": {
+        "en": "When an MMA nail is jammed or caught, what often breaks?",
+        "zh": "MMA 指甲被撞到或勾到时，通常什么会断？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "The MMA enhancement",
+          "zh": "MMA 加固甲"
+        },
+        {
+          "id": "b",
+          "en": "The nail adhesive layer",
+          "zh": "胶水层"
+        },
+        {
+          "id": "c",
+          "en": "The cuticle",
+          "zh": "甲小皮（cuticle）"
+        },
+        {
+          "id": "d",
+          "en": "The natural nail plate",
+          "zh": "真甲甲板"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "MMA nails are rigid and difficult to break. The natural nail was thinned to make MMA stick, so it often breaks instead, causing serious nail damage.",
+        "zh": "MMA 指甲又硬又难断。为了让 MMA 粘住，真甲已被磨薄，所以断的往往是真甲，造成严重损伤。"
+      },
+      "lockPoint": {
+        "en": "MMA won't dissolve in remover, so it's often pried off: even more nail damage.",
+        "zh": "MMA 在卸甲液里不溶解，常常只能硬撬下来：对指甲伤害更大。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Methyl Methacrylate Monomer (MMA)",
+          "pdfPage": 149,
+          "printedPage": "125"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 149,
+          "quote": "MMA creates nails that are rigid and difficult to break."
+        },
+        {
+          "pdfPage": 149,
+          "quote": "When jammed or caught, the overly filed or thinned natural nail plate will often break instead of the MMA enhancement."
+        },
+        {
+          "pdfPage": 149,
+          "quote": "MMA is extremely difficult to remove and does not dissolve in product removers. It is often pried off"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-3b-09",
+      "question": {
+        "en": "Which ingredient makes acid-based primers corrosive?",
+        "zh": "哪种成分让酸性结合剂（acid-based primer）具有腐蚀性？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Methacrylic acid",
+          "zh": "甲基丙烯酸（methacrylic acid）"
+        },
+        {
+          "id": "b",
+          "en": "Methylene glycol",
+          "zh": "甲二醇（methylene glycol）"
+        },
+        {
+          "id": "c",
+          "en": "Ethyl acetate",
+          "zh": "乙酸乙酯（ethyl acetate）"
+        },
+        {
+          "id": "d",
+          "en": "Cyanoacrylate",
+          "zh": "氰基丙烯酸酯（cyanoacrylate）"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Acid-based primers contain methacrylic acid and can burn and scar skin and eyes. Acid-free primers contain no acids and have a neutral pH, but still avoid skin contact.",
+        "zh": "酸性结合剂含甲基丙烯酸（methacrylic acid），会灼伤皮肤和眼睛并留疤。无酸结合剂（acid-free）不含酸、pH 中性，但同样要避免接触皮肤。"
+      },
+      "lockPoint": {
+        "en": "Corrosive → child-resistant cap, plus gloves and safety glasses while using it.",
+        "zh": "有腐蚀性 → 瓶盖要防儿童开启，使用时戴手套和护目镜。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Nail Primer",
+          "pdfPage": 142,
+          "printedPage": "118"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 142,
+          "quote": "do not contain methacrylic acid, the acid-base primer ingredient"
+        },
+        {
+          "pdfPage": 142,
+          "quote": "Acid-based primers are corrosive and can cause painful burns and scars to soft tissue and eyes."
+        },
+        {
+          "pdfPage": 142,
+          "quote": "while acid-free primers contain no acids and have a neutral pH"
+        },
+        {
+          "pdfPage": 142,
+          "quote": "corrosive primers must be kept in containers with child-resistant caps, and gloves and safety glasses are recommended"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-3b-10",
+      "question": {
+        "en": "Which is true about nail primers and the nail plate?",
+        "zh": "关于结合剂（primer）和甲板，哪项说法正确？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "They etch tiny grooves into the nail",
+          "zh": "结合剂会在甲面蚀出细小沟纹"
+        },
+        {
+          "id": "b",
+          "en": "They are needed for every client",
+          "zh": "每位顾客都必须用结合剂"
+        },
+        {
+          "id": "c",
+          "en": "They do not etch or eat the nail",
+          "zh": "结合剂不会蚀刻（etch）或“吃掉”甲板"
+        },
+        {
+          "id": "d",
+          "en": "They work best in several coats",
+          "zh": "结合剂涂好几层效果最好"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "The idea that primers eat or etch the nail is a myth. One very thin coat is enough for most clients. Needing two or more means nail prep or application has a problem.",
+        "zh": "结合剂会蚀刻或“吃掉”指甲是一种误解。大多数顾客涂一层极薄的就够了。如果需要两层或更多，说明甲面准备或操作有问题。"
+      },
+      "lockPoint": {
+        "en": "Nail clippings can soak in primer for many years without dissolving.",
+        "zh": "剪下来的指甲泡在结合剂里很多年都不会溶解。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Nail Primer",
+          "pdfPage": 142,
+          "printedPage": "118"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 142,
+          "quote": "A common misconception is that nail primers eat or etch the nail. This is completely false!"
+        },
+        {
+          "pdfPage": 142,
+          "quote": "Nail clippings can soak for many years in any primer without dissolving."
+        },
+        {
+          "pdfPage": 142,
+          "quote": "Other types of primers are sometimes required with nail enhancements."
+        },
+        {
+          "pdfPage": 142,
+          "quote": "One very thin coat is enough for most clients."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-3b-11",
+      "question": {
+        "en": "What causes skin allergies to nail enhancement products?",
+        "zh": "对加固甲产品的皮肤过敏是由什么引起的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Breathing product vapors",
+          "zh": "吸入产品蒸气"
+        },
+        {
+          "id": "b",
+          "en": "Repeated skin contact",
+          "zh": "反复接触皮肤"
+        },
+        {
+          "id": "c",
+          "en": "Product touching only the nail plate",
+          "zh": "产品只碰到甲板"
+        },
+        {
+          "id": "d",
+          "en": "Removing product with acetone",
+          "zh": "用丙酮卸除产品"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Prolonged, repeated skin contact causes these allergies over time. Product vapors do not cause skin allergies. If the product never touches skin, an allergy is extremely unlikely.",
+        "zh": "长期、反复接触皮肤，久而久之会引起过敏。产品蒸气不会引起皮肤过敏。只要产品从不碰到皮肤，过敏的可能性极低。"
+      },
+      "lockPoint": {
+        "en": "Allergy: Greek allos, \"other,\" + ergon, \"work\": the body learns a changed reaction.",
+        "zh": "allergy 来自希腊语 allos（另一种）+ ergon（作用）：反复接触后，身体学会了一种“改变了的反应”。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Nail Primer",
+          "pdfPage": 142,
+          "printedPage": "118"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 142,
+          "quote": "Product vapors do not cause skin allergies. These types of allergies are caused by repeated product skin contact."
+        },
+        {
+          "pdfPage": 142,
+          "quote": "If you never bring the product into contact with the skin, it is extremely unlikely that the client will become allergic to the product."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-3b-12",
+      "question": {
+        "en": "What decides whether a substance has a toxic effect?",
+        "zh": "什么决定一种物质是否产生毒害作用？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "How natural it is",
+          "zh": "它是否天然"
+        },
+        {
+          "id": "b",
+          "en": "How strong it smells",
+          "zh": "气味有多重"
+        },
+        {
+          "id": "c",
+          "en": "How many chemicals it contains",
+          "zh": "含有多少种化学物质"
+        },
+        {
+          "id": "d",
+          "en": "How much and how long you're exposed",
+          "zh": "接触多少、接触多久"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "The overexposure principle says overexposure (prolonged, repeated, or long-term exposure) determines toxicity. Salt water is very toxic to drink, yet you can safely swim in the ocean.",
+        "zh": "过度接触原则（overexposure principle）认为，决定毒性的是过度接触，即长期、反复或长时间的接触。海水喝下去毒性很大，但在海里游泳却很安全。"
+      },
+      "lockPoint": {
+        "en": "Even plain water is a chemical, and too much of it can be toxic.",
+        "zh": "连水都是化学物质，喝得太多也会中毒：关键在剂量。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Describe How to Minimize Exposure",
+          "pdfPage": 151,
+          "printedPage": "127"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - The Overexposure Principle",
+          "pdfPage": 660,
+          "printedPage": "165"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Did You Know? (water)",
+          "pdfPage": 140,
+          "printedPage": "116"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 151,
+          "quote": "This important principle says that overexposure (OH-ver ex-PO-zher) determines toxicity."
+        },
+        {
+          "pdfPage": 151,
+          "quote": "Overexposure is prolonged, repeated, or long-term exposure that can cause sensitivity."
+        },
+        {
+          "pdfPage": 660,
+          "quote": "It holds that it is the dose of a substance that determines whether it will have a negative, poisonous effect on the body."
+        },
+        {
+          "pdfPage": 140,
+          "quote": "Water is a chemical, and too much can be toxic."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-3b-13",
+      "question": {
+        "en": "How long should cuticle remover stay on the nail?",
+        "zh": "死皮软化剂（cuticle remover）应在指甲上停留多久？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "The manufacturer's recommended time",
+          "zh": "按厂家建议的时间"
+        },
+        {
+          "id": "b",
+          "en": "Until the living skin softens",
+          "zh": "直到活皮肤变软"
+        },
+        {
+          "id": "c",
+          "en": "As long as the client likes",
+          "zh": "顾客想要多久就多久"
+        },
+        {
+          "id": "d",
+          "en": "Overnight, under a glove",
+          "zh": "戴着手套过夜"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Milady gives no fixed time. Let cuticle remover set on the nail plate for the manufacturer's recommended time, keep it off living skin, and wash off every trace.",
+        "zh": "Milady 没有规定固定时间：按厂家建议的时间让死皮软化剂停留在甲板上，避免碰到活皮肤，最后彻底洗净。"
+      },
+      "lockPoint": {
+        "en": "Too long on living skin → dryness, irritation, and hangnails.",
+        "zh": "在活皮肤上停留太久 → 干燥、刺激，还会长倒刺（hangnails）。"
+      },
+      "teachingRelation": "number",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-3 Performing a Basic Manicure",
+          "pdfPage": 203,
+          "printedPage": "179"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Cuticle Removers",
+          "pdfPage": 175,
+          "printedPage": "151"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 203,
+          "quote": "After allowing the cuticle remover to set on the nail for the manufacturer’s recommended length of time"
+        },
+        {
+          "pdfPage": 203,
+          "quote": "It is important that all traces of cuticle remover are washed from the skin"
+        },
+        {
+          "pdfPage": 175,
+          "quote": "Excessive exposure of the eponychium to cuticle removers can cause live skin and eponychium dryness, as well as hangnails."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-3b-14",
+      "question": {
+        "en": "What do nail monomer liquids give off into the air?",
+        "zh": "美甲单体液（monomer liquid）会向空气中释放什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Fumes",
+          "zh": "烟雾（fumes）"
+        },
+        {
+          "id": "b",
+          "en": "Gases",
+          "zh": "气体（gases）"
+        },
+        {
+          "id": "c",
+          "en": "Dust",
+          "zh": "粉尘（dust）"
+        },
+        {
+          "id": "d",
+          "en": "Vapors",
+          "zh": "蒸气（vapors）"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Vapors form when liquids evaporate. Monomers, UV gels, wraps, and adhesives all form vapors. Fumes come from burning things, like candles, so \"monomer fumes\" is incorrect.",
+        "zh": "液体蒸发就形成 vapors（蒸气）。单体、UV 凝胶、包甲和胶水都会产生蒸气。fumes（烟雾）来自燃烧，比如蜡烛，所以说“单体烟雾”是错误的。"
+      },
+      "lockPoint": {
+        "en": "Even odorless monomer forms vapors: no smell doesn't mean no vapor.",
+        "zh": "就连无味单体（odorless monomer）也会产生蒸气：闻不到不等于没有。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Gases, Vapors, and Fumes",
+          "pdfPage": 140,
+          "printedPage": "116"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 140,
+          "quote": "Nail monomers emit vapors, not fumes."
+        },
+        {
+          "pdfPage": 140,
+          "quote": "Monomer liquids (even odorless monomer), UV gels, wrap resins, and adhesives all form vapors"
+        },
+        {
+          "pdfPage": 140,
+          "quote": "Fumes (FYOOMZ) are a blend of soot-like particles mixed with vapors. They usually result from burning substances"
+        }
+      ],
+      "hookType": "name-trap"
+    },
+    {
+      "id": "nic-3b-15",
+      "question": {
+        "en": "What is the main hazard of acetone?",
+        "zh": "丙酮（acetone）的主要危险是什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "It is highly corrosive",
+          "zh": "腐蚀性很强"
+        },
+        {
+          "id": "b",
+          "en": "It is strongly acidic",
+          "zh": "酸性很强"
+        },
+        {
+          "id": "c",
+          "en": "It is highly flammable",
+          "zh": "高度易燃"
+        },
+        {
+          "id": "d",
+          "en": "It is strongly alkaline",
+          "zh": "碱性很强"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Acetone works quickly and is one of the safest solvents used in nail salons. But it is highly flammable, so keep it away from heat, open flames, and sparks.",
+        "zh": "丙酮起效快，是美甲沙龙最安全的溶剂之一。但它高度易燃，必须远离高温、明火和火花。"
+      },
+      "lockPoint": {
+        "en": "Used acetone goes in a fire-department-approved metal container as hazardous waste, never down the sink.",
+        "zh": "用过的丙酮要装进消防部门认可的金属容器，当危险废物处理，绝不能倒进水槽。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Caution: Acetone",
+          "pdfPage": 151,
+          "printedPage": "127"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Polish Remover",
+          "pdfPage": 174,
+          "printedPage": "150"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 151,
+          "quote": "It is one of the safest solvents used in nail salons."
+        },
+        {
+          "pdfPage": 151,
+          "quote": "However, it is highly flammable and must be used with appropriate caution."
+        },
+        {
+          "pdfPage": 174,
+          "quote": "used liquid acetone must be saved in a fire department-approved metal container and disposed of as hazardous waste"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-3b-16",
+      "question": {
+        "en": "Which sweet, colorless, oily ingredient is used as a moisturizer in creams?",
+        "zh": "哪种带甜味、无色、油状的成分在护肤霜中用作保湿剂？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Glycerin",
+          "zh": "甘油（glycerin）"
+        },
+        {
+          "id": "b",
+          "en": "Ammonia",
+          "zh": "氨（ammonia）"
+        },
+        {
+          "id": "c",
+          "en": "Acetone",
+          "zh": "丙酮（acetone）"
+        },
+        {
+          "id": "d",
+          "en": "Isopropyl alcohol",
+          "zh": "异丙醇（isopropyl alcohol）"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Glycerin is a sweet, colorless, oily substance used as a solvent and moisturizer in skin and body creams. Cuticle removers add it to counteract their skin-drying effects.",
+        "zh": "glycerin（甘油）是一种带甜味、无色、油状的物质，在护肤霜和身体霜中用作溶剂和保湿剂。死皮软化剂（cuticle remover）里也会加甘油，用来抵消死皮软化剂本身让皮肤变干的作用。"
+      },
+      "lockPoint": {
+        "en": "Glycerin comes from Greek glykeros, \"sweet.\" Chinese 甘油 says it too: 甘 means sweet.",
+        "zh": "glycerin 来自希腊语 glykeros“甜”；中文“甘油”的“甘”也是甜（甘甜）。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Common Chemical Product Ingredients",
+          "pdfPage": 659,
+          "printedPage": "164"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Cuticle Removers",
+          "pdfPage": 175,
+          "printedPage": "151"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 659,
+          "quote": "Glycerin (GLIS-ur-in) is a sweet, colorless, oily substance. It is used as a solvent and as a moisturizer in skin and body creams."
+        },
+        {
+          "pdfPage": 175,
+          "quote": "plus glycerin or other moisturizing ingredients to counteract their skin-drying effects"
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-3b-17",
+      "question": {
+        "en": "Cuticle removers contain sodium or potassium hydroxide, so they are",
+        "zh": "死皮软化剂（cuticle remover）含氢氧化钠或氢氧化钾，因此它们——"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "low in pH and acidic.",
+          "zh": "pH 低，呈酸性。"
+        },
+        {
+          "id": "b",
+          "en": "high in pH and caustic.",
+          "zh": "pH 高，具有腐蚀性（caustic）。"
+        },
+        {
+          "id": "c",
+          "en": "neutral, with a pH of 7.",
+          "zh": "中性，pH 为 7。"
+        },
+        {
+          "id": "d",
+          "en": "water-free, with no pH.",
+          "zh": "不含水，没有 pH。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Cuticle removers have a high pH (caustic) and irritate skin. They dissolve dead tissue on the nail plate, so keep them off the living skin of the eponychium.",
+        "zh": "死皮软化剂 pH 高（caustic，腐蚀性），刺激皮肤。它们用来溶解甲板上的死组织，所以不要碰到甲上皮（eponychium）的活皮肤。"
+      },
+      "lockPoint": {
+        "en": "Sodium hydroxide is lye, the same strong alkali found in drain cleaners.",
+        "zh": "氢氧化钠就是烧碱（lye），通下水道的疏通剂里也有它。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Cuticle Removers",
+          "pdfPage": 174,
+          "printedPage": "150"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Cuticle Removers",
+          "pdfPage": 175,
+          "printedPage": "151"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Acids and Alkalis",
+          "pdfPage": 662,
+          "printedPage": "167"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 175,
+          "quote": "Typically, these products have a high pH (caustic) and are irritating to the skin."
+        },
+        {
+          "pdfPage": 175,
+          "quote": "These products typically contain 2 to 5 percent sodium or potassium hydroxide"
+        },
+        {
+          "pdfPage": 662,
+          "quote": "commonly known as lye, is a very strong alkali used in chemical hair relaxers, callous softeners, and drain cleaners"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-3b-18",
+      "question": {
+        "en": "How does a methylene glycol nail hardener make nails stiffer?",
+        "zh": "含甲二醇（methylene glycol）的指甲硬化剂怎样让指甲变硬？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "It coats the nail with protein",
+          "zh": "给指甲包上一层蛋白质"
+        },
+        {
+          "id": "b",
+          "en": "It soaks water into the nail",
+          "zh": "让水分渗进指甲"
+        },
+        {
+          "id": "c",
+          "en": "It cross-links the keratin strands",
+          "zh": "在角蛋白链之间形成交联（cross-links）"
+        },
+        {
+          "id": "d",
+          "en": "It dissolves the top nail layer",
+          "zh": "溶掉甲板表层"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Methylene glycol creates bridges, or cross-links, between the keratin strands of the natural nail. This makes the plate stiffer and more resistant to bending and breaking.",
+        "zh": "methylene glycol（甲二醇）在真甲的角蛋白（keratin）链之间搭“桥”，也就是交联，让甲板更硬，更不易弯折和断裂。"
+      },
+      "lockPoint": {
+        "en": "Never use it on already brittle nails → too rigid → they may split and shatter.",
+        "zh": "已经很脆的指甲绝不能用 → 会过硬 → 可能裂开甚至碎掉。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Nail Hardener",
+          "pdfPage": 176,
+          "printedPage": "152"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Nail Hardener",
+          "pdfPage": 177,
+          "printedPage": "153"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 176,
+          "quote": "methylene glycol, an ingredient that creates bridges or cross-links between the keratin strands"
+        },
+        {
+          "pdfPage": 177,
+          "quote": "making the plate stiffer and more resistant to bending and breaking"
+        },
+        {
+          "pdfPage": 177,
+          "quote": "should never be applied to nails that are already very hard, rigid, and/or brittle"
+        },
+        {
+          "pdfPage": 177,
+          "quote": "Methylene glycol hardeners can make brittle nails become so rigid that they may split and shatter."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-3b-19",
+      "question": {
+        "en": "Why should disinfectants never be used as hand cleaners?",
+        "zh": "为什么绝不能把消毒剂当洗手液用？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "They are too weak to kill germs",
+          "zh": "杀菌力太弱"
+        },
+        {
+          "id": "b",
+          "en": "They leave hands too oily",
+          "zh": "会让手太油"
+        },
+        {
+          "id": "c",
+          "en": "They have no pH",
+          "zh": "没有 pH 值"
+        },
+        {
+          "id": "d",
+          "en": "They can be harmful if absorbed through skin",
+          "zh": "经皮肤吸收会造成伤害"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Disinfectants are pesticides made for surfaces, not skin. As hand cleaners they can irritate skin, cause allergic reactions, and be harmful if absorbed through the skin.",
+        "zh": "消毒剂（disinfectants）属于 pesticides（杀生物剂类产品），是给物体表面用的，不是给皮肤用的。拿来洗手会刺激皮肤、引起过敏，经皮肤吸收还会造成伤害。"
+      },
+      "lockPoint": {
+        "en": "When mixing disinfectant, wear gloves and safety glasses to keep it off skin and eyes.",
+        "zh": "调配消毒剂时要戴手套和护目镜，避免碰到皮肤和眼睛。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Disinfectants",
+          "pdfPage": 614,
+          "printedPage": "119"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 614,
+          "quote": "Never use disinfectants as hand cleaners since this can cause skin irritation and allergic reactions."
+        },
+        {
+          "pdfPage": 614,
+          "quote": "Disinfectants are pesticides and can be harmful if absorbed through the skin."
+        },
+        {
+          "pdfPage": 614,
+          "quote": "Safety glasses and gloves should be worn while mixing to avoid accidental contact with eyes and skin."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-3b-20",
+      "question": {
+        "en": "Why keep tabletops and product containers free of dust and residue?",
+        "zh": "为什么要让桌面和产品容器上没有粉尘和残留？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Dust makes primer corrosive",
+          "zh": "粉尘会让结合剂变得有腐蚀性"
+        },
+        {
+          "id": "b",
+          "en": "Handling them repeatedly causes overexposure",
+          "zh": "反复接触会造成过度接触（overexposure）"
+        },
+        {
+          "id": "c",
+          "en": "Dust makes polish thicken",
+          "zh": "粉尘会让指甲油变稠"
+        },
+        {
+          "id": "d",
+          "en": "Dust turns into fumes",
+          "zh": "粉尘会变成烟雾"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Repeatedly handling dusty supplies, containers, and tabletops causes overexposure. Nail enhancement products are not designed for skin contact, and avoiding contact prevents allergic reactions.",
+        "zh": "反复接触沾有粉尘的用品、容器和桌面，会造成过度接触。加固甲产品不是设计来接触皮肤的，避免接触才能防止过敏。"
+      },
+      "lockPoint": {
+        "en": "Skin allergy builds from many small touches, so even a thin film of dust counts.",
+        "zh": "皮肤过敏是一次次小接触累积出来的，瓶子上薄薄一层粉尘也算。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Protect Yourself",
+          "pdfPage": 150,
+          "printedPage": "126"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 150,
+          "quote": "Take extreme care to keep supplies, containers, and tabletops clean and free from product dusts and residues."
+        },
+        {
+          "pdfPage": 150,
+          "quote": "Repeatedly handling these items will cause overexposure if the items are not kept clean."
+        }
+      ],
+      "hookType": "reason-chain"
+    }
+  ],
+  "review": {
+    "reviewedAt": "2026-10-23",
+    "checks": [
+      "quotes found on cited pages (verify-nic-domain-evidence.py)",
+      "blind answer check: 20/20 matched key; changed and new questions re-checked blind",
+      "content and Chinese review: fixes applied",
+      "memory hooks fact-checked (word origins, Chinese characters, textbook facts): fixes applied"
+    ]
+  }
+}
