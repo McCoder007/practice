@@ -6,7 +6,16 @@ import { Button } from "@/components/ui/button"
 import type { ExamAnswerRecord, ExamQuestion } from "@/data/exam-quiz/types"
 import { choicePositionLabel, visibleChoicesAfterReveal } from "@/lib/exam-quiz-reel"
 import { cn } from "@/lib/utils"
-import { AlertTriangle, ArrowRight, Bookmark, CheckCircle2, Lightbulb, SkipForward, XCircle } from "lucide-react"
+import {
+  AlertTriangle,
+  ArrowRight,
+  Bookmark,
+  Check,
+  CheckCircle2,
+  Lightbulb,
+  SkipForward,
+  X,
+} from "lucide-react"
 
 function responsiveTextStyle(length: number): CSSProperties {
   const scale = length > 140 ? 0.95 : length > 90 ? 1.1 : length > 55 ? 1.25 : 1.4
@@ -101,6 +110,12 @@ export function NailExamQuizCard({
   const isCorrect = Boolean(answer && !answer.skipped && answer.correct)
   const isSkipped = Boolean(answer?.skipped)
   const correctChoice = question.choices.find((choice) => choice.id === question.correctChoiceId)
+  const pickedWrongChoice =
+    answer && !answer.skipped && !answer.correct
+      ? question.choices.find((choice) => choice.id === answer.selectedChoiceId)
+      : undefined
+  // On the current card the drawer shows the answers, so the choice list is hidden to give it room.
+  const showDrawer = isCurrent && isRevealed
   const shownChoices = isRevealed
     ? visibleChoicesAfterReveal(question.choices, question.correctChoiceId, answer?.selectedChoiceId ?? null)
     : question.choices
@@ -114,7 +129,12 @@ export function NailExamQuizCard({
     >
       <div className="pointer-events-none absolute inset-0 bg-black/30" />
 
-      <section className="relative z-10 flex min-h-0 flex-none basis-[26%] flex-col items-center justify-center gap-1.5 px-5 py-2 sm:px-10">
+      <section
+        className={cn(
+          "relative z-10 flex min-h-0 flex-none flex-col items-center justify-center gap-1.5 px-5 sm:px-10",
+          showDrawer ? "py-5" : "basis-[26%] py-2",
+        )}
+      >
         <Speakable
           text={question.question.en}
           enabled={isCurrent}
@@ -133,7 +153,12 @@ export function NailExamQuizCard({
         )}
       </section>
 
-      <section className="relative z-10 min-h-0 flex-1 overflow-y-auto border-t border-white/25 px-3 py-2 sm:px-6">
+      <section
+        className={cn(
+          "relative z-10 min-h-0 flex-1 overflow-y-auto border-t border-white/25 px-3 py-2 sm:px-6",
+          showDrawer && "hidden",
+        )}
+      >
         <div className="flex flex-col gap-2.5">
           {shownChoices.map((choice) => {
             const isSelected = answer?.selectedChoiceId === choice.id
@@ -194,61 +219,77 @@ export function NailExamQuizCard({
         </section>
       )}
 
-      {isCurrent && isRevealed && (
+      {showDrawer && (
         <section
           className={cn(
-            "qa-answer-reveal relative z-10 flex max-h-[68%] min-h-0 flex-none flex-col border-t-[3px] backdrop-blur-sm",
-            isSkipped
-              ? "border-amber-400/70 bg-amber-500/20"
-              : isCorrect
-                ? "border-emerald-400/70 bg-emerald-500/20"
-                : "border-rose-400/70 bg-rose-500/20",
+            "qa-answer-reveal relative z-10 flex min-h-0 flex-1 flex-col overflow-hidden rounded-t-3xl backdrop-blur-sm",
+            isSkipped ? "bg-amber-500/20" : isCorrect ? "bg-emerald-500/20" : "bg-rose-500/20",
           )}
         >
+          {/* Solid banner so right/wrong reads at a glance, whatever the card's background color. */}
+          <div
+            role="status"
+            className={cn(
+              "flex flex-none items-center gap-3 px-4 py-3 shadow-md sm:px-6",
+              isSkipped ? "bg-amber-500" : isCorrect ? "bg-emerald-600" : "bg-rose-600",
+            )}
+          >
+            <span className="flex size-10 shrink-0 items-center justify-center rounded-full bg-white">
+              {isSkipped ? (
+                <SkipForward className="h-6 w-6 text-amber-600" strokeWidth={2.75} />
+              ) : isCorrect ? (
+                <Check className="h-7 w-7 text-emerald-600" strokeWidth={3.5} />
+              ) : (
+                <X className="h-7 w-7 text-rose-600" strokeWidth={3.5} />
+              )}
+            </span>
+            <p className="text-2xl font-extrabold tracking-tight text-white drop-shadow-sm">
+              {isSkipped
+                ? `Skipped${showChinese ? " | 已跳过" : ""}`
+                : isCorrect
+                  ? `Correct!${showChinese ? " | 答对了" : ""}`
+                  : `Wrong${showChinese ? " | 答错了" : ""}`}
+            </p>
+          </div>
           <div className="flex min-h-0 flex-1 flex-col gap-3 overflow-y-auto px-3.5 pt-3.5 pb-3 sm:px-6">
-            <div className="flex items-center gap-2.5">
-              <span
+            {pickedWrongChoice && (
+              <p className="flex flex-wrap items-baseline gap-x-2 rounded-xl border border-rose-300/40 bg-rose-950/25 px-3.5 py-2 text-sm">
+                <span className="font-semibold tracking-wide text-rose-200 uppercase">
+                  You picked{showChinese && " / 你选了"}
+                </span>
+                <span className="font-semibold text-white/75 line-through decoration-rose-300/80">
+                  {pickedWrongChoice.en}
+                </span>
+                {showChinese && (
+                  <span className="text-caption-secondary/80 line-through decoration-rose-300/60" lang="zh-Hans">
+                    {pickedWrongChoice.zh}
+                  </span>
+                )}
+              </p>
+            )}
+            {correctChoice && (
+              <div
                 className={cn(
-                  "flex size-8 shrink-0 items-center justify-center rounded-full",
-                  isSkipped ? "bg-amber-500/35" : isCorrect ? "bg-emerald-500/35" : "bg-rose-500/35",
+                  "rounded-xl border px-3.5 py-2.5",
+                  isCorrect ? "border-emerald-300/50 bg-emerald-500/20" : "border-emerald-300/40 bg-emerald-950/25",
                 )}
               >
-                {isSkipped ? (
-                  <SkipForward className="h-5 w-5 text-amber-200" />
-                ) : isCorrect ? (
-                  <CheckCircle2 className="h-5 w-5 text-emerald-300" />
-                ) : (
-                  <XCircle className="h-5 w-5 text-rose-300" />
-                )}
-              </span>
-              <p className="text-lg font-bold">
-                {isSkipped
-                  ? `Skipped${showChinese ? " | 已跳过" : ""}`
-                  : isCorrect
-                    ? `Correct!${showChinese ? " 正确！" : ""}`
-                    : `Not quite${showChinese ? " 不太对" : ""}`}
-              </p>
-            </div>
-            {correctChoice && (
-              <div className={cn("rounded-xl px-3.5 py-2.5", isCorrect ? "bg-emerald-500/20" : "bg-black/20")}>
-                <p className="flex items-center gap-1.5 text-sm font-semibold tracking-wide text-white/65 uppercase">
-                  {isCorrect && <CheckCircle2 className="h-3.5 w-3.5 shrink-0 text-emerald-300" aria-hidden />}
+                <p className="flex items-center gap-1.5 text-sm font-semibold tracking-wide text-emerald-200 uppercase">
+                  <CheckCircle2 className="h-3.5 w-3.5 shrink-0" aria-hidden />
                   Correct answer{showChinese && " / 正确答案"}
                 </p>
-                <div className="mt-0.5 flex flex-wrap items-baseline gap-x-1.5">
-                  <Speakable
-                    text={correctChoice.en}
-                    enabled={isCurrent}
-                    onSpeak={onSpeak}
-                    label="Speak correct answer"
-                    className="-ml-2 text-base font-semibold text-white"
-                  />
-                  {showChinese && (
-                    <span className="text-base font-semibold text-caption-secondary" lang="zh-Hans">
-                      · {correctChoice.zh}
-                    </span>
-                  )}
-                </div>
+                <Speakable
+                  text={correctChoice.en}
+                  enabled={isCurrent}
+                  onSpeak={onSpeak}
+                  label="Speak correct answer"
+                  className="-ml-2 mt-0.5 text-left text-base font-semibold text-white"
+                />
+                {showChinese && (
+                  <p className="text-sm font-medium text-caption-secondary" lang="zh-Hans">
+                    {correctChoice.zh}
+                  </p>
+                )}
               </div>
             )}
             {question.sourceWarning && (
@@ -262,7 +303,7 @@ export function NailExamQuizCard({
                   enabled={isCurrent}
                   onSpeak={onSpeak}
                   label="Speak source warning"
-                  className="mt-1 text-left text-base text-white"
+                  className="-ml-2 mt-1 text-left text-base text-white"
                 />
                 {showChinese && (
                   <p className="mt-1 text-sm text-caption-secondary" lang="zh-Hans">
@@ -281,7 +322,7 @@ export function NailExamQuizCard({
                 enabled={isCurrent}
                 onSpeak={onSpeak}
                 label="Speak Why"
-                className="mt-0.5 text-left text-base text-white"
+                className="-ml-2 mt-0.5 text-left text-base text-white"
               />
               {showChinese && (
                 <p className="mt-1 text-sm text-caption-secondary" lang="zh-Hans">
@@ -299,7 +340,7 @@ export function NailExamQuizCard({
                 enabled={isCurrent}
                 onSpeak={onSpeak}
                 label="Speak Lock this"
-                className="mt-0.5 text-left text-base font-medium text-white"
+                className="-ml-2 mt-0.5 text-left text-base font-medium text-white"
               />
               {showChinese && (
                 <p className="mt-1 text-sm text-caption-secondary" lang="zh-Hans">
@@ -308,7 +349,7 @@ export function NailExamQuizCard({
               )}
             </div>
           </div>
-          <div className="flex-none px-3.5 pt-2.5 pb-3.5 sm:px-6">
+          <div className="flex-none border-t border-white/15 px-3.5 pt-2.5 pb-3.5 sm:px-6">
             <Button
               type="button"
               onPointerDown={stopPointerGesture}
@@ -316,8 +357,7 @@ export function NailExamQuizCard({
                 event.stopPropagation()
                 onNext()
               }}
-              className="gap-2 bg-white text-slate-900 shadow-sm hover:bg-white/90"
-              size="sm"
+              className="h-11 w-full gap-2 sm:w-auto sm:px-10 rounded-xl bg-white text-base font-semibold text-slate-900 shadow-sm hover:bg-white/90"
             >
               {isLast
                 ? `See results${showChinese ? " | 查看结果" : ""}`
