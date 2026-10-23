@@ -128,19 +128,6 @@ export function NailExamQuizCard({
       style={{ background, transform: `translateY(${position})` }}
     >
       <div className="pointer-events-none absolute inset-0 bg-black/30" />
-      {showDrawer && (
-        <div
-          aria-hidden
-          className={cn(
-            "qa-result-glow pointer-events-none absolute inset-0 z-20",
-            isSkipped
-              ? "shadow-[inset_0_0_0_4px_rgb(245_158_11),inset_0_0_36px_rgb(245_158_11/0.55)]"
-              : isCorrect
-                ? "shadow-[inset_0_0_0_4px_rgb(16_185_129),inset_0_0_36px_rgb(16_185_129/0.6)]"
-                : "shadow-[inset_0_0_0_4px_rgb(225_29_72),inset_0_0_36px_rgb(225_29_72/0.6)]",
-          )}
-        />
-      )}
 
       <section
         className={cn(
