@@ -32,7 +32,7 @@ import { loadPracticeQuestions as loadOfficialQuestions } from "@/data/official-
 import { loadMiladyReviewQuestions } from "@/data/milady-review/loadChapter"
 import { loadKellyNailSchoolQuestions } from "@/data/kelly-nail-school/loadQuestions"
 import { loadExamTopicQuestions, type ExamTopicQuestion } from "@/data/nic-domain-practice/loadQuestions"
-import { assertPlayablePool, drawPracticeSession, shuffleQuestionChoices } from "@/lib/exam-quiz-reel"
+import { assertPlayablePool, drawPracticeSession, fisherYatesShuffle, shuffleQuestionChoices } from "@/lib/exam-quiz-reel"
 import {
   clearNailExamBankHistory,
   nailExamGroupHistoryId,
@@ -110,11 +110,14 @@ export function NailExamBankExperience({
   showChinese,
   chineseToggleInline,
   chineseToggleFixed,
+  shuffleQuestionOrder = false,
 }: {
   bankId: NailExamBankId
   showChinese: boolean
   chineseToggleInline: ReactNode
   chineseToggleFixed: ReactNode
+  /** Reshuffle the question order every time a quiz starts or restarts. */
+  shuffleQuestionOrder?: boolean
 }) {
   const bank = getNailExamBank(bankId)
   const groups = bankGroupCards(bank)
@@ -147,11 +150,15 @@ export function NailExamBankExperience({
       setLoading(true)
       try {
         const pool = await loadBankPool(bank)
-        const selected = shuffleQuestionChoices(select(pool))
+        const prepare = (source: ExamQuestion[]) => {
+          const picked = select(source)
+          return shuffleQuestionChoices(shuffleQuestionOrder ? fisherYatesShuffle(picked) : picked)
+        }
+        const selected = prepare(pool)
         if (selected.length === 0) return
         async function start() {
           const nextPool = await loadBankPool(bank)
-          openSession(shuffleQuestionChoices(select(nextPool)))
+          openSession(prepare(nextPool))
         }
         const openSession = (questions: ExamQuestion[]) => {
           const attemptId = createId()
@@ -180,7 +187,7 @@ export function NailExamBankExperience({
         setLoading(false)
       }
     },
-    [bank],
+    [bank, shuffleQuestionOrder],
   )
 
   const beginStudyCards = useCallback(
