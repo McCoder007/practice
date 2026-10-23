@@ -59,12 +59,12 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "After filing, the fingertips soak in the finger bowl. This softens the eponychium (living skin around the nail) and the cuticle (dead tissue stuck to the nail plate).",
-        "zh": "锉完指甲后，把指尖泡在泡手碗（finger bowl）里。这样能软化甲上皮（eponychium，指甲周围的活皮肤）和甲小皮（cuticle，粘在甲板上的死组织）。"
+        "en": "Polish comes off first, in step 1. The soak then softens the eponychium (living skin around the nail) and cuticle (dead tissue on the plate), so they can be gently pushed back.",
+        "zh": "第 1 步就已经卸掉甲油了。泡手是为了软化甲上皮（eponychium，指甲周围的活皮肤）和甲小皮（cuticle，粘在甲板上的死组织），之后才能把它们轻轻往后推。"
       },
       "lockPoint": {
-        "en": "Like washing dishes: one pan soaks while you scrub the next. One hand soaks while you file the other.",
-        "zh": "就像洗碗：一个锅泡着，你先刷下一个。一只手泡着，你就锉另一只手。"
+        "en": "Dip hard, dry bread in water and it turns soft. The finger bowl does the same to the cuticle.",
+        "zh": "把又干又硬的面包泡进水里，它就变软了。泡手碗对甲小皮（cuticle）也是一样。"
       },
       "teachingRelation": "function",
       "authorityRefs": [
@@ -73,6 +73,18 @@
           "section": "Manicuring - Procedure 6-3 Performing a Basic Manicure",
           "pdfPage": 202,
           "printedPage": "178"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-3 Performing a Basic Manicure",
+          "pdfPage": 201,
+          "printedPage": "177"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-3 Performing a Basic Manicure",
+          "pdfPage": 203,
+          "printedPage": "179"
         }
       ],
       "evidence": [
@@ -83,9 +95,21 @@
         {
           "pdfPage": 202,
           "quote": "(the dead tissue adhered to the nail plate) while filing the nails on the right hand"
+        },
+        {
+          "pdfPage": 201,
+          "quote": "Remove polish and inspect the client"
+        },
+        {
+          "pdfPage": 202,
+          "quote": "As you dry, gently push back the"
+        },
+        {
+          "pdfPage": 203,
+          "quote": "gently push and lift cuticle tissue"
         }
       ],
-      "hookType": "real-life"
+      "hookType": "picture"
     },
     {
       "id": "nic-6e-02",
@@ -179,8 +203,8 @@
         "zh": "锋利的死皮剪只用来剪松松挂着的死皮。绝不能撕扯死皮或活皮肤，因为这可能导致感染。"
       },
       "lockPoint": {
-        "en": "Client with thin skin or a health concern? Milady says don't nip; gently use a curette instead.",
-        "zh": "顾客皮肤薄或有健康问题？Milady 说不要剪死皮，改用刮匙（curette）轻轻去除。"
+        "en": "Nip like cutting a loose thread off a shirt: snip only what hangs loose, never pull.",
+        "zh": "剪死皮就像剪掉衣服上松掉的线头：只剪松松挂着的部分，绝不硬扯。"
       },
       "teachingRelation": "safety-rule",
       "authorityRefs": [
@@ -211,7 +235,7 @@
           "quote": "Do not nip the cuticles. It is better to use a curette to gently remove nonliving tissue from the nail plate."
         }
       ],
-      "hookType": "real-life"
+      "hookType": "picture"
     },
     {
       "id": "nic-6e-04",
@@ -311,12 +335,12 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Milady says to always ask permission before any massage. Also ask if the client has any concerns about receiving a massage.",
-        "zh": "Milady 说任何按摩之前都要先征求顾客同意，还要问顾客对按摩有没有顾虑。"
+        "en": "A massage means touching the client's body, so always ask permission first. Also ask if the client has any concerns about receiving a massage.",
+        "zh": "按摩要接触顾客的身体，所以一定要先征求同意，还要问顾客对按摩有没有顾虑。"
       },
       "lockPoint": {
-        "en": "Client with health concerns? Use gentler pressure, and do not bend or flex hands, fingers, or wrists.",
-        "zh": "顾客有健康问题？力度要更轻，也不要弯曲或扳动手、手指或手腕。"
+        "en": "Like a hug, a massage is touch: ask before you give one.",
+        "zh": "按摩和拥抱一样都是身体接触：给之前先问一声。"
       },
       "teachingRelation": "safety-rule",
       "authorityRefs": [
@@ -383,8 +407,8 @@
         "zh": "托住手腕处的手臂。捏住每根手指的指甲根部，轻轻转动画圈，每根三到五次，从小指做到大拇指。"
       },
       "lockPoint": {
-        "en": "The foot massage begins with circles too: hold above the ankle and rotate the whole foot.",
-        "zh": "足部按摩一开始也是转圈：握住脚踝上方，把整只脚转圈。"
+        "en": "Hold your own little finger at the nail base and gently turn it in small circles: that is joint movement.",
+        "zh": "捏住自己小指的指甲根部，轻轻转小圈：这就是关节活动（joint movement）。"
       },
       "teachingRelation": "action",
       "authorityRefs": [
@@ -415,7 +439,7 @@
           "quote": "Grasp the leg gently just above the ankle and use your other hand to hold the foot just beneath the toes. Rotate the entire foot in a circular motion."
         }
       ],
-      "hookType": "comparison"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-6e-07",
@@ -581,8 +605,8 @@
         "zh": "先把手或脚套进塑料套，再放进电热手套。温热帮助护理成分渗入皮肤，也让顾客更舒服、更放松。"
       },
       "lockPoint": {
-        "en": "Electric mitts can be an add-on: they make a higher-cost service.",
-        "zh": "电热手套可以作为加购项目，让服务价格更高。"
+        "en": "Think of a heating pad shaped like a glove: it only adds warmth, and warmth helps lotion soak in.",
+        "zh": "把它想成手套形状的电热垫：它只负责加温，而温热能帮助乳液渗进皮肤。"
       },
       "teachingRelation": "function",
       "authorityRefs": [
@@ -613,7 +637,7 @@
           "quote": "Heated mitts make for a higher-cost service or can be an add-on to a service."
         }
       ],
-      "hookType": "real-life"
+      "hookType": "picture"
     },
     {
       "id": "nic-6e-10",
@@ -649,8 +673,8 @@
         "zh": "毛巾布手套能留住蜡的热量，又能让蜡变硬，起到屏障作用。电热手套不会让蜡变硬。"
       },
       "lockPoint": {
-        "en": "Terry cloth mitts are washable and reusable, like the salon's terry cloth towels.",
-        "zh": "毛巾布手套可以洗、可以重复用，就像沙龙里的毛巾一样。"
+        "en": "A terry mitt is a winter coat for the paraffin: heat stays in, but the paraffin still sets hard.",
+        "zh": "毛巾布手套就像给蜡（paraffin）穿上冬天的外套：热量留在里面，蜡照样会变硬。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -675,7 +699,7 @@
           "quote": "These washable and reusable mitts, available for both hands and feet"
         }
       ],
-      "hookType": "comparison"
+      "hookType": "picture"
     },
     {
       "id": "nic-6e-11",
@@ -711,8 +735,8 @@
         "zh": "天然石是多孔的（porous），所以不能消毒。合成石（synthetic stones）可以消毒，是最安全的选择。每位顾客之间都要刷洗并消毒石头。"
       },
       "lockPoint": {
-        "en": "Before using stones on a client, test their warmth on your own arm.",
-        "zh": "给顾客用之前，先在自己的手臂上试一下石头的温度。"
+        "en": "Name trap: natural sounds safer, but here synthetic wins. Only synthetic stones can be disinfected.",
+        "zh": "名字陷阱：“天然”听起来更安全，但这里是合成石（synthetic stones）胜出。只有合成石可以消毒。"
       },
       "teachingRelation": "safety-rule",
       "authorityRefs": [
@@ -737,7 +761,7 @@
           "quote": "The stones are scrub-cleaned and disinfected between clients"
         }
       ],
-      "hookType": "body-cue"
+      "hookType": "name-trap"
     }
   ]
 }

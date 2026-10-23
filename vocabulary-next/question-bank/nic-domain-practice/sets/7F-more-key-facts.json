@@ -121,8 +121,8 @@
         "zh": "把甲片拿成 45 度角，让定位点（position stop）对准真甲的游离缘（free edge）。然后慢慢往下压，看着胶在凹槽里推开。"
       },
       "lockPoint": {
-        "en": "Like closing a laptop: the free edge is the hinge. Lower it slowly so no air bubbles stay.",
-        "zh": "就像合上笔记本电脑：游离缘是转轴。慢慢放下，就不会留下气泡。"
+        "en": "Lay your hand flat, then point it straight up. Halfway between is 45 degrees: start the tip there.",
+        "zh": "把手平放，再竖直朝上。两者正中间就是 45 度：甲片就从这个角度开始贴。"
       },
       "teachingRelation": "number",
       "authorityRefs": [
@@ -143,7 +143,7 @@
           "quote": "Slowly press down toward the nail plate, watching the resin move through the well. Avoid getting air bubbles in the contact area."
         }
       ],
-      "hookType": "picture"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-7f-03",
@@ -179,8 +179,8 @@
         "zh": "Milady 的做法：把指甲泡在丙酮（acetone）里 5 到 10 分钟，把变软的甲片推下来，再重新贴。硬撬会损伤甲面。"
       },
       "lockPoint": {
-        "en": "Still stuck? Soak a few more minutes. Acetone does the work, not force.",
-        "zh": "还粘着？再多泡几分钟。靠丙酮，不靠力气。"
+        "en": "Like a shirt buttoned wrong: you don't pull harder; you undo it and start again.",
+        "zh": "就像衬衫扣错了扣子：不是更用力地拉，而是解开重新扣。"
       },
       "teachingRelation": "condition-action",
       "authorityRefs": [
@@ -261,8 +261,8 @@
         "zh": "包甲和浸粉都属于树脂系统（nail resin systems），卸法一样：泡在丙酮或卸甲液里，再把变软的产品轻轻推下来。硬撬会伤到指甲。"
       },
       "lockPoint": {
-        "en": "Resin systems come off easily, so Milady suggests them for proms and weddings.",
-        "zh": "树脂系统容易卸，所以 Milady 推荐用在毕业舞会、婚礼这类场合。"
+        "en": "Softened product, gentle tool: a wooden pusher just slides it off. No cutting, no prying, no peeling.",
+        "zh": "产品已经泡软，用温和的工具就行：木棒（wooden pusher）轻轻一推就下来。不剪、不撬、不撕。"
       },
       "teachingRelation": "action",
       "authorityRefs": [
@@ -297,7 +297,7 @@
           "quote": "This makes them an excellent option for special events, such as proms and weddings"
         }
       ],
-      "hookType": "real-life"
+      "hookType": "contrast"
     },
     {
       "id": "nic-7f-05",
@@ -333,8 +333,8 @@
         "zh": "viscosity（黏度）就是树脂的稠度。越稀，附着越好、固化越快。稀的树脂做底层；稠的树脂用来做结构或当封层。"
       },
       "lockPoint": {
-        "en": "Think water vs. honey. Some resins are so honey-thick that they need an accelerator to cure.",
-        "zh": "想想水和蜂蜜：有些树脂稠得像蜂蜜，要用加速剂（resin accelerator）才能固化。"
+        "en": "Water vs. honey: water runs into tiny gaps fast. Thin resin acts like water: sticks better, cures faster.",
+        "zh": "水和蜂蜜比：水很快就流进细小的缝隙。稀的树脂就像水：粘得更好，固化更快。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -467,8 +467,8 @@
         "zh": "液粉等量是干球（dry bead）；液体是粉的两倍是湿球（wet bead）。介于两者之间的中球（medium bead）通常最理想。"
       },
       "lockPoint": {
-        "en": "In Milady's overlay steps, a small wet bead goes last, tapped up toward the cuticle.",
-        "zh": "在 Milady 的加固步骤里，最后放的是一颗小湿球，往甲小皮方向轻拍。"
+        "en": "Mix dirt with twice as much water and you get wet, runny mud. Twice the liquid makes a wet bead.",
+        "zh": "土里加两倍的水，就成了又湿又稀的泥。液体加到两倍，就是湿球（wet bead）。"
       },
       "teachingRelation": "number",
       "authorityRefs": [
@@ -499,7 +499,7 @@
           "quote": "Pick up a small wet bead of polymer powder with your brush and place it just above the center of the nail plate. Tap the product up toward the cuticle"
         }
       ],
-      "hookType": "real-life"
+      "hookType": "picture"
     },
     {
       "id": "nic-7f-08",
@@ -603,8 +603,8 @@
         "zh": "Milady 的做法：从甲小皮开始，把胶朝游离缘推开，盖满整个指甲。不要碰到皮肤，否则会起翘。"
       },
       "lockPoint": {
-        "en": "Tiny low spot? Pull up a thin string of gel, like honey off a spoon, and lay it across.",
-        "zh": "有小凹点？像从勺子上拉起蜂蜜丝那样，从胶罐里拉起一条细胶丝，横放在凹点上。"
+        "en": "Like a playground slide: start at the top (the cuticle) and go down to the end (the free edge).",
+        "zh": "就像玩滑梯：从顶上（甲小皮）开始，一路滑到底（游离缘）。"
       },
       "teachingRelation": "action",
       "authorityRefs": [
@@ -671,8 +671,8 @@
         "zh": "指甲上了两到三层颜色后，上激活剂（activator）帮助各层变干。activator 就是树脂加速剂（resin accelerator）的另一个名字。"
       },
       "lockPoint": {
-        "en": "Spraying activator? Hold the bottle 12 inches away, about one school ruler.",
-        "zh": "用喷的激活剂？瓶子离指甲 12 英寸，大约一把学生尺的长度。"
+        "en": "Not after every dip: build two to three coats of color first, then activator dries the layers together.",
+        "zh": "不是每蘸一次粉就上：先叠两到三层颜色，再用激活剂（activator）让这些层一起变干。"
       },
       "teachingRelation": "sequence",
       "authorityRefs": [
@@ -709,7 +709,7 @@
           "quote": "If spraying, always hold the bottle 12 inches away from the nail."
         }
       ],
-      "hookType": "picture"
+      "hookType": "contrast"
     },
     {
       "id": "nic-7f-11",
@@ -745,8 +745,8 @@
         "zh": "上完激活剂后，再涂一层底层树脂，在锉磨和抛光时保护粉层。因为有激活剂，这层底层会干得很快。"
       },
       "lockPoint": {
-        "en": "Like a phone screen protector: the file scratches the clear layer, not the color.",
-        "zh": "就像手机贴膜：锉条磨到的是透明的那层，而不是颜色。"
+        "en": "Like a car's clear coat: scratches hit the clear layer, and the color under it stays safe.",
+        "zh": "就像汽车的透明漆层：刮痕落在透明层上，下面的颜色不受伤。"
       },
       "teachingRelation": "function",
       "authorityRefs": [
@@ -809,8 +809,8 @@
         "zh": "先上激活剂，用无尘巾擦掉多余的部分，再刷封层树脂（top resin）。通常刷两层：一层让表面光滑，一层增加亮度。"
       },
       "lockPoint": {
-        "en": "After the second top coat, let the nails stand about eight minutes to dry.",
-        "zh": "第二层封层树脂刷完后，让指甲静置大约八分钟晾干。"
+        "en": "Top resin is the shine coat, so it goes last: activator, wipe, then shine. No lamp needed.",
+        "zh": "封层树脂（top resin）负责亮光，所以最后才上：激活剂、擦净，再上亮光。不需要照灯。"
       },
       "teachingRelation": "sequence",
       "authorityRefs": [
@@ -849,9 +849,13 @@
         {
           "pdfPage": 322,
           "quote": "Repeat for a second coat. Let stand for about eight minutes until dry."
+        },
+        {
+          "pdfPage": 309,
+          "quote": "without needing an LED or UV lamp"
         }
       ],
-      "hookType": "real-life"
+      "hookType": "reason-chain"
     },
     {
       "id": "nic-7f-13",
@@ -887,8 +891,8 @@
         "zh": "Milady 的做法：用细目抛光条（fine-grit buffer）轻轻抛磨真甲，去掉残留物，再用干净、干燥的甲刷扫掉粉尘。"
       },
       "lockPoint": {
-        "en": "Buff gently → dust off → client washes hands → cuticle oil, then hand lotion.",
-        "zh": "轻轻抛磨 → 扫掉粉尘 → 顾客洗手 → 先涂指缘油，再涂护手霜。"
+        "en": "Only a little residue is left, so fine grit is enough. Coarse grit is generally not used on natural nails.",
+        "zh": "只剩一点残留物，用细目（fine grit）就够了。粗目（coarse grit）一般不用在真甲上。"
       },
       "teachingRelation": "action",
       "authorityRefs": [
@@ -909,6 +913,12 @@
           "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Liquid and Powder Nail Enhancement Removal",
           "pdfPage": 356,
           "printedPage": "332"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Abrasive Nail Files and Buffers",
+          "pdfPage": 171,
+          "printedPage": "147"
         }
       ],
       "evidence": [
@@ -927,9 +937,13 @@
         {
           "pdfPage": 356,
           "quote": "there is more moisture in the natural nail plates after soaking them for 30 minutes, which makes them more flexible."
+        },
+        {
+          "pdfPage": 171,
+          "quote": "generally not used on natural nails"
         }
       ],
-      "hookType": "real-life"
+      "hookType": "reason-chain"
     }
   ]
 }

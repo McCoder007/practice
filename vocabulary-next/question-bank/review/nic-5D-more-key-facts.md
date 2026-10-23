@@ -10,8 +10,8 @@ C. Tweezers / 镊子
 D. Manicure table / 美甲桌 ✅  
 *Why:* Equipment is every tool that is not an implement, such as the manicure table. Implements are the tools you use in the service, like nippers, metal pushers, and tweezers.  
 *为什么:* 设备（equipment）是所有不属于工具（implement）的用具，例如美甲桌。工具是服务中拿来操作的东西，例如死皮剪、钢推和镊子。  
-*Lock this (comparison):* Milady names four tool types: equipment, implements, materials, and professional nail products.  
-*记重点:* Milady 把美甲用具分成四类：设备（equipment）、工具（implements）、耗材（materials）和专业美甲产品（professional nail products）。  
+*Lock this (comparison):* Think furniture: the table and its lamp are equipment. Nippers, pushers, and tweezers are implements.  
+*记重点:* 想想家具：美甲桌和桌上的台灯都是设备（equipment）。死皮剪、钢推和镊子是工具（implements）。  
 *Source:* Milady Standard Nail Technology p.136 (PDF 160), Milady Standard Nail Technology p.137 (PDF 161), Milady Standard Nail Technology p.142 (PDF 166), Milady Standard Nail Technology p.143 (PDF 167)
 
 **2. Rings of fire on the nail are caused by**  
@@ -44,11 +44,11 @@ A. 100 or less. / 100 或更低。 ✅
 B. 150 to 180. / 150 到 180。  
 C. 240 and higher. / 240 或更高。  
 D. no grit at all. / 完全没有目数。  
-*Why:* Coarse-grit files and buffers are 100 grit or less. They file down fast and leave deep scratches, so they are generally not used on natural nails.  
-*为什么:* 粗目数锉条和抛光条是 100 目或更低。它们磨得快、留下很深的刮痕，所以一般不用在真甲上。  
+*Why:* The lower the grit number, the bigger the grains on the file. So coarse files are 100 grit or less. They file fast, leave deep scratches, and are generally not used on natural nails.  
+*为什么:* 目数（grit）越低，锉条上的颗粒越大。所以粗目数（coarse-grit）锉条是 100 目或更低。它们磨得快，会留下很深的刮痕，一般不用在真甲上。  
 *Lock this (comparison):* Three steps: 100 or less is coarse, 150 to 180 is medium, 240 and up is fine.  
 *记重点:* 记三档：100 及以下是粗，150 到 180 是中，240 及以上是细。  
-*Source:* Milady Standard Nail Technology p.147 (PDF 171)
+*Source:* Milady Standard Nail Technology p.147 (PDF 171), Milady Standard Nail Technology p.146 (PDF 170)
 
 **5. To protect your breathing from dust during electric filing, wear**  
 电动打磨时，为了保护呼吸、不吸入粉尘，要戴  
@@ -58,8 +58,8 @@ C. an N95-rated dust mask. / N95 级防尘口罩。 ✅
 D. safety glasses. / 护目镜。  
 *Why:* Always wear an N95-rated dust mask when filing. Thin surgical-type masks do not stop dust and should not be worn in salons.  
 *为什么:* 打磨时一定要戴 N95 级防尘口罩（dust mask）。薄的外科式口罩挡不住粉尘，不应在沙龙里使用。  
-*Lock this (reason-chain):* Wear eye protection too, so dust stays out of your eyes. A mask never replaces good ventilation.  
-*记重点:* 也要戴护目镜，别让粉尘进眼睛。口罩永远不能代替良好的通风。  
+*Lock this (comparison):* Dust job, dust mask: N95 masks are made for dust. Thin surgical masks let dust through.  
+*记重点:* 打磨出粉尘，就戴防尘口罩：N95 口罩是专门挡粉尘的。薄的外科式口罩挡不住粉尘。  
 *Source:* Milady Standard Nail Technology p.247 (PDF 271), Milady Standard Nail Technology p.130 (PDF 154), Milady Standard Nail Technology p.249 (PDF 273)
 
 **6. To remove polish from enhancements such as wraps, Milady prefers**  
@@ -70,8 +70,8 @@ C. cuticle remover. / 死皮软化剂。
 D. nail dehydrator. / 脱水剂。  
 *Why:* Non-acetone removers do not dissolve enhancement products as quickly as acetone, so they are preferred for polish on wraps. Acetone can break down the wrap resin.  
 *为什么:* 无丙酮洗甲水（non-acetone remover）溶解美甲加固产品没有丙酮那么快，所以卸包甲上的甲油时首选它。丙酮会分解包甲树脂。  
-*Lock this (comparison):* Acetone is the stronger solvent. That is why acetone is used to soak enhancements off.  
-*记重点:* 丙酮是更强的溶剂，所以卸除美甲加固时是用丙酮来泡。  
+*Lock this (reason-chain):* Acetone is what soaks enhancements off. Want the wrap to stay on? Use non-acetone remover.  
+*记重点:* 丙酮是用来泡掉美甲加固的。想让包甲留着？就用无丙酮洗甲水（non-acetone remover）。  
 *Source:* Milady Standard Nail Technology p.150 (PDF 174), Milady Standard Nail Technology p.291 (PDF 315), Milady Standard Nail Technology p.331 (PDF 355)
 
 **7. In a pedicure scrub, pumice works as**  
@@ -80,8 +80,8 @@ A. a moisturizer. / 保湿剂。
 B. a disinfectant. / 消毒剂。  
 C. an emulsifier. / 乳化剂。  
 D. an abrasive. / 研磨剂（abrasive）。 ✅  
-*Why:* A scrub is a lotion with an abrasive that removes dry, flaky skin. Pumice, sea sand, and jojoba beads are exfoliating agents found in pedicure scrubs.  
-*为什么:* 磨砂膏是含研磨剂（abrasive）的乳液，能去掉干燥脱屑的皮肤。浮石粉、海沙和荷荷巴微珠都是修脚磨砂膏里的去角质成分（exfoliating agents）。  
-*Lock this (picture):* Think of fine sandpaper for feet: tiny rough grains rub dry, dead skin away.  
-*记重点:* 想象给脚用的细砂纸：细小粗糙的颗粒把干燥的死皮磨掉。  
+*Why:* A pedicure scrub is a lotion with an abrasive that rubs off dry, flaky skin. Pumice and sea sand are that abrasive.  
+*为什么:* 修脚磨砂膏是含研磨剂（abrasive）的乳液，能把干燥脱屑的皮肤磨掉。浮石粉（pumice）和海沙就是这种研磨剂。  
+*Lock this (real-life):* Pumice is the rough stone people rub on dry heels. Crushed into a scrub, it still rubs dead skin off.  
+*记重点:* 浮石（pumice）就是大家用来搓脚后跟的粗糙石头。磨碎放进磨砂膏里，照样能把死皮磨掉。  
 *Source:* Milady Standard Nail Technology p.201 (PDF 225)

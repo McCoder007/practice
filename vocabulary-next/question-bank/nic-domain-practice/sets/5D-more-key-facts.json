@@ -63,8 +63,8 @@
         "zh": "设备（equipment）是所有不属于工具（implement）的用具，例如美甲桌。工具是服务中拿来操作的东西，例如死皮剪、钢推和镊子。"
       },
       "lockPoint": {
-        "en": "Milady names four tool types: equipment, implements, materials, and professional nail products.",
-        "zh": "Milady 把美甲用具分成四类：设备（equipment）、工具（implements）、耗材（materials）和专业美甲产品（professional nail products）。"
+        "en": "Think furniture: the table and its lamp are equipment. Nippers, pushers, and tweezers are implements.",
+        "zh": "想想家具：美甲桌和桌上的台灯都是设备（equipment）。死皮剪、钢推和镊子是工具（implements）。"
       },
       "teachingRelation": "category",
       "authorityRefs": [
@@ -117,6 +117,10 @@
         {
           "pdfPage": 167,
           "quote": "Tweezers are multiuse implements that can be used for lifting small bits of debris"
+        },
+        {
+          "pdfPage": 161,
+          "quote": "An adjustable lamp is attached to the table and should use"
         }
       ],
       "hookType": "comparison"
@@ -297,8 +301,8 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Coarse-grit files and buffers are 100 grit or less. They file down fast and leave deep scratches, so they are generally not used on natural nails.",
-        "zh": "粗目数锉条和抛光条是 100 目或更低。它们磨得快、留下很深的刮痕，所以一般不用在真甲上。"
+        "en": "The lower the grit number, the bigger the grains on the file. So coarse files are 100 grit or less. They file fast, leave deep scratches, and are generally not used on natural nails.",
+        "zh": "目数（grit）越低，锉条上的颗粒越大。所以粗目数（coarse-grit）锉条是 100 目或更低。它们磨得快，会留下很深的刮痕，一般不用在真甲上。"
       },
       "lockPoint": {
         "en": "Three steps: 100 or less is coarse, 150 to 180 is medium, 240 and up is fine.",
@@ -311,6 +315,12 @@
           "section": "Manicuring - Abrasive Nail Files and Buffers",
           "pdfPage": 171,
           "printedPage": "147"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Abrasive Nail Files and Buffers",
+          "pdfPage": 170,
+          "printedPage": "146"
         }
       ],
       "evidence": [
@@ -333,6 +343,10 @@
         {
           "pdfPage": 171,
           "quote": "finally on to the shining surface (usually no grit)"
+        },
+        {
+          "pdfPage": 170,
+          "quote": "the lower the grit, the larger the abrasive particles on the file"
         }
       ],
       "hookType": "comparison"
@@ -371,8 +385,8 @@
         "zh": "打磨时一定要戴 N95 级防尘口罩（dust mask）。薄的外科式口罩挡不住粉尘，不应在沙龙里使用。"
       },
       "lockPoint": {
-        "en": "Wear eye protection too, so dust stays out of your eyes. A mask never replaces good ventilation.",
-        "zh": "也要戴护目镜，别让粉尘进眼睛。口罩永远不能代替良好的通风。"
+        "en": "Dust job, dust mask: N95 masks are made for dust. Thin surgical masks let dust through.",
+        "zh": "打磨出粉尘，就戴防尘口罩：N95 口罩是专门挡粉尘的。薄的外科式口罩挡不住粉尘。"
       },
       "teachingRelation": "safety-rule",
       "authorityRefs": [
@@ -411,9 +425,13 @@
         {
           "pdfPage": 154,
           "quote": "should never be used in place of proper ventilation"
+        },
+        {
+          "pdfPage": 154,
+          "quote": "designed specifically for dusts, mists, or molds"
         }
       ],
-      "hookType": "reason-chain"
+      "hookType": "comparison"
     },
     {
       "id": "nic-5d-06",
@@ -449,8 +467,8 @@
         "zh": "无丙酮洗甲水（non-acetone remover）溶解美甲加固产品没有丙酮那么快，所以卸包甲上的甲油时首选它。丙酮会分解包甲树脂。"
       },
       "lockPoint": {
-        "en": "Acetone is the stronger solvent. That is why acetone is used to soak enhancements off.",
-        "zh": "丙酮是更强的溶剂，所以卸除美甲加固时是用丙酮来泡。"
+        "en": "Acetone is what soaks enhancements off. Want the wrap to stay on? Use non-acetone remover.",
+        "zh": "丙酮是用来泡掉美甲加固的。想让包甲留着？就用无丙酮洗甲水（non-acetone remover）。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -491,7 +509,7 @@
           "quote": "fill a bowl with acetone or product remover and soak the nails for 20 to 30 minutes"
         }
       ],
-      "hookType": "comparison"
+      "hookType": "reason-chain"
     },
     {
       "id": "nic-5d-07",
@@ -523,12 +541,12 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "A scrub is a lotion with an abrasive that removes dry, flaky skin. Pumice, sea sand, and jojoba beads are exfoliating agents found in pedicure scrubs.",
-        "zh": "磨砂膏是含研磨剂（abrasive）的乳液，能去掉干燥脱屑的皮肤。浮石粉、海沙和荷荷巴微珠都是修脚磨砂膏里的去角质成分（exfoliating agents）。"
+        "en": "A pedicure scrub is a lotion with an abrasive that rubs off dry, flaky skin. Pumice and sea sand are that abrasive.",
+        "zh": "修脚磨砂膏是含研磨剂（abrasive）的乳液，能把干燥脱屑的皮肤磨掉。浮石粉（pumice）和海沙就是这种研磨剂。"
       },
       "lockPoint": {
-        "en": "Think of fine sandpaper for feet: tiny rough grains rub dry, dead skin away.",
-        "zh": "想象给脚用的细砂纸：细小粗糙的颗粒把干燥的死皮磨掉。"
+        "en": "Pumice is the rough stone people rub on dry heels. Crushed into a scrub, it still rubs dead skin off.",
+        "zh": "浮石（pumice）就是大家用来搓脚后跟的粗糙石头。磨碎放进磨砂膏里，照样能把死皮磨掉。"
       },
       "teachingRelation": "function",
       "authorityRefs": [
@@ -553,7 +571,7 @@
           "quote": "dry, flaky skin and reduce calluses"
         }
       ],
-      "hookType": "picture"
+      "hookType": "real-life"
     }
   ]
 }

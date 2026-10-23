@@ -2566,10 +2566,10 @@
         "zh": "staphylococci（葡萄球菌）是会产生脓的细菌，像一串葡萄那样成簇生长，会引起脓肿（abscesses）、脓疱（pustules）和疖子（boils）。"
       },
       "lockPoint": {
-        "en": "Picture a bunch of grapes. Staph is everywhere: on doorknobs, counters, and even our own skin.",
-        "zh": "想象一串葡萄。葡萄球菌到处都有：门把手、台面上，连我们自己的皮肤上也有。"
+        "en": "The Chinese name says it: grape + ball + germ. Staph germs sit together like a bunch of grapes.",
+        "zh": "中文名“葡萄球菌”已经告诉你：葡萄 + 球 + 菌。葡萄球菌（staphylococci）像一串葡萄那样挤在一起生长。"
       },
-      "hookType": "picture",
+      "hookType": "chinese-character",
       "status": "approved"
     },
     {
@@ -2608,10 +2608,10 @@
         "zh": "local infection（局部感染）只在身体的一个部位，表现为带脓的病灶。systemic infection（全身性感染）则扩散到全身。"
       },
       "lockPoint": {
-        "en": "Untreated MRSA can start as a pimple or boil, then become systemic: one spot spreads to the whole body.",
-        "zh": "MRSA 如果不治疗，可能先是痘痘或疖子，然后变成全身性感染：从一个点扩散到全身。"
+        "en": "Local means near here, as in \"your local store.\" A local infection stays in one spot.",
+        "zh": "local 的意思是“本地、附近”，比如 local store（家附近的小店）。局部感染（local infection）只待在一个地方，不会扩散到全身。"
       },
-      "hookType": "reason-chain",
+      "hookType": "word-link",
       "status": "approved"
     },
     {
@@ -2646,14 +2646,14 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Cleaning uses soap or detergent, water, and scrubbing to remove dirt, debris, and many germs. Disinfecting is a chemical process. Sterilizing usually needs an autoclave.",
-        "zh": "cleaning（清洁）用肥皂或清洁剂、水和刷洗，去除脏污、残渣和许多病菌，是 mechanical process（机械过程）。disinfecting（消毒）是化学过程；sterilizing（灭菌）通常要用高压灭菌器。"
+        "en": "Cleaning is mechanical: the work of scrubbing with soap and water washes dirt and many germs away. Destroying germs comes later: disinfecting uses chemicals to destroy most; sterilizing, usually in an autoclave, destroys all.",
+        "zh": "cleaning（清洁）是 mechanical process（机械过程）：靠用肥皂和水刷洗的动手功夫，把脏污和许多病菌洗掉。消灭病菌是后面的步骤：disinfecting（消毒）用化学品消灭大多数病菌；sterilizing（灭菌）通常用高压灭菌器（autoclave），消灭全部病菌。"
       },
       "lockPoint": {
-        "en": "Clean removes many germs, disinfect destroys most, sterilize destroys all. So cleaning is the lowest level.",
-        "zh": "清洁去除许多病菌，消毒消灭大多数，灭菌消灭全部。所以清洁是最低的一级。"
+        "en": "Like washing a muddy plate: your hands and the sponge do the work. That is mechanical.",
+        "zh": "就像洗一个沾满泥的盘子：真正干活的是你的手和海绵。这就是机械（mechanical）清洁。"
       },
-      "hookType": "comparison",
+      "hookType": "picture",
       "status": "approved"
     },
     {
@@ -2776,10 +2776,10 @@
         "zh": "手指会把病菌带进产品里。能用按压瓶就用按压瓶。罐装产品要用干净的 spatula（刮勺），绝不用手指。不同的产品要用不同的刮勺。"
       },
       "lockPoint": {
-        "en": "A wooden spatula that touches skin is thrown away. A metal one must be cleaned and disinfected first.",
-        "zh": "木刮勺碰到皮肤就要丢掉；金属刮勺必须先清洁、消毒才能再用。"
+        "en": "Like a shared jam jar: everyone takes jam with a clean spoon, never fingers. Your spatula is that spoon.",
+        "zh": "就像大家一起吃的一罐果酱：每个人都用干净的勺子舀，没人用手指挖。刮勺（spatula）就是那把勺子。"
       },
-      "hookType": "contrast",
+      "hookType": "comparison",
       "status": "approved"
     },
     {
@@ -2902,10 +2902,10 @@
         "zh": "exposure incident（暴露事件）是指工作中接触到破损的皮肤、血液、体液或其他可能有传染性的物质。发生后要按暴露事件的步骤处理。"
       },
       "lockPoint": {
-        "en": "Afterward, wash your hands and scrub under your nails with a clean nail brush.",
-        "zh": "处理完以后，要洗手，并用干净的指甲刷刷洗指甲下面。"
+        "en": "Exposure looks like \"exposed,\" as in skin exposed to the sun. Here, you are exposed to blood or body fluid.",
+        "zh": "exposure 和 exposed（暴露、直接接触）是同一个词：比如皮肤暴露在阳光下（skin exposed to the sun）。这里是你暴露在血液或体液中，所以叫暴露事件（exposure incident）。"
       },
-      "hookType": "real-life",
+      "hookType": "word-link",
       "status": "approved"
     },
     {
@@ -2944,10 +2944,10 @@
         "zh": "multiuse（可重复使用的）工具即使碰到血液，也可以清洁、消毒后再用。沙龙用的消毒剂就是用来对付血液和体液的。"
       },
       "lockPoint": {
-        "en": "After a client injury, also clean and disinfect the work surfaces, not just the tools.",
-        "zh": "客人受伤后，不只是工具，工作台面也要清洁和消毒。"
+        "en": "Blood on a metal pusher? Scrub it, then disinfect. It is multiuse, so blood does not make it trash.",
+        "zh": "金属推棒沾了血？先刷洗，再消毒。它是可重复使用的（multiuse）工具，沾了血也不用扔掉。"
       },
-      "hookType": "real-life",
+      "hookType": "reason-chain",
       "status": "approved"
     },
     {
@@ -3028,8 +3028,8 @@
         "zh": "ergonomics（人体工学）让你的工作、工具和身体动作舒适又安全。握得太紧、身体前倾、手臂伸得太远，都是坏习惯。"
       },
       "lockPoint": {
-        "en": "Bend your wrist up and down 20 times: it tires fast. Repeated moves add up to injuries like carpal tunnel.",
-        "zh": "把手腕上下弯 20 次：很快就累了。重复的动作日积月累，会造成腕管综合征（carpal tunnel syndrome）这类损伤。"
+        "en": "Hold your arms straight out for one minute: they start to hurt. Ergonomics keeps arms close and wrists straight.",
+        "zh": "把双臂向前伸直举一分钟：很快就会酸痛。人体工学（ergonomics）就是让手臂贴近身体、手腕保持伸直。"
       },
       "hookType": "body-cue",
       "status": "approved"
@@ -3070,8 +3070,8 @@
         "zh": "每位客人都要用干净的毛巾和布巾（linens）。按标签说明清洗并彻底烘干，因为潮湿的毛巾会长霉菌和细菌。"
       },
       "lockPoint": {
-        "en": "Keep used towels in a covered container, away from the clean ones.",
-        "zh": "用过的毛巾放进有盖的容器里，和干净的毛巾分开放。"
+        "en": "Like a hotel: every new guest gets fresh towels. In the salon, every new client does too.",
+        "zh": "就像酒店：每位新住客都会拿到干净的毛巾。在沙龙里，每位新客人也一样。"
       },
       "hookType": "real-life",
       "status": "approved"
@@ -6594,8 +6594,8 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Excretion is a skin function: sweat from the sweat glands goes out through the skin. The water also takes out salts and minerals.",
-        "zh": "excretion（排泄）是皮肤的一种功能：汗腺的汗液从皮肤排出去，同时带走盐分和矿物质。"
+        "en": "Excretion is a skin function: sweat from the sweat glands goes out through the skin, taking salts and minerals with it. Secretion is different: it is the oil (sebum) from the oil glands.",
+        "zh": "excretion（排泄）是皮肤的一种功能：汗腺的汗液从皮肤排出去，同时带走盐分和矿物质。secretion（分泌）不一样：它指的是皮脂腺分泌的油脂，也就是皮脂（sebum）。"
       },
       "lockPoint": {
         "en": "On a hot day, your palms get wet. Palms have many sweat glands: that is excretion.",
@@ -6640,8 +6640,8 @@
         "zh": "皮肤颜色主要取决于 melanin（黑色素），也就是细小的色素颗粒。它由黑素细胞（melanocytes）制造。黑色素还能帮助保护细胞，不受过多紫外线（UV）伤害。"
       },
       "lockPoint": {
-        "en": "Melanin alone is not enough: daily sunscreen with SPF 15 to 30 helps it protect the skin.",
-        "zh": "只靠黑色素不够：每天涂 SPF 15 到 30 的防晒霜，能帮它保护皮肤。"
+        "en": "After a summer in the sun, skin turns darker: a tan. That color change is melanin at work.",
+        "zh": "夏天晒多了太阳，皮肤会变深，这就是晒黑（tan）。这种颜色变化，就是黑色素（melanin）在起作用。"
       },
       "hookType": "real-life",
       "status": "approved"
@@ -6934,10 +6934,10 @@
         "zh": "ulcer（溃疡）是皮肤或黏膜上的开放性皮损，皮肤深度缺损，可能渗出液体或脓。它属于继发性皮损（secondary lesion）。"
       },
       "lockPoint": {
-        "en": "Ulcers need a medical referral, most of all for clients with diabetes.",
-        "zh": "溃疡需要转诊看医生，糖尿病顾客尤其如此。"
+        "en": "The Chinese name means \"broken-open sore\": the skin breaks open and some of it is gone.",
+        "zh": "溃疡：溃 = 溃烂、破开，疡 = 疮。皮肤破开、少了一块，所以叫溃疡（ulcer）。"
       },
-      "hookType": "real-life",
+      "hookType": "chinese-character",
       "status": "approved"
     },
     {
@@ -7018,10 +7018,10 @@
         "zh": "malignant melanoma（恶性黑色素瘤）最少见，却是最危险的皮肤癌，会很快扩散。常见表现是黑色或深色斑块，表面不平或凸起。"
       },
       "lockPoint": {
-        "en": "It often appears on skin that rarely sees the sun. Milady calls it the city-person's cancer.",
-        "zh": "它常出现在很少晒太阳的部位。Milady 把它叫做“城市人的癌症”。"
+        "en": "Spreads fast, so it can kill. Found early, most people live: send dark, changing spots to a doctor.",
+        "zh": "扩散快，可能致命。发现得早，大多数人能活下来：看到颜色深、在变化的斑点，就建议顾客去看医生。"
       },
-      "hookType": "real-life",
+      "hookType": "reason-chain",
       "status": "approved"
     },
     {
@@ -8778,14 +8778,14 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Polymerization is the chemical reaction that makes polymers. Monomers join into very long chains. Milady says cure, curing, and hardening mean the same thing.",
-        "zh": "polymerization（聚合）就是生成聚合物的化学反应：单体连成很长的链。Milady 说 cure、curing、hardening（固化、变硬）都是同一个意思。"
+        "en": "Polymerization is the reaction where small monomers join into long chains called polymers. It is how acrylic and gel get hard, so Milady also calls it curing or hardening.",
+        "zh": "polymerization（聚合）就是小小的单体（monomers）连成长链、变成聚合物（polymers）的反应。丙烯酸甲（acrylic）和凝胶（gel）就是这样变硬的，所以 Milady 也把它叫作固化（curing）或变硬（hardening）。"
       },
       "lockPoint": {
-        "en": "Monomers are like runners waiting at the start line. The initiator gives the signal, and they don't stop.",
-        "zh": "单体像站在起跑线上等待的赛跑选手：引发剂（initiator）一发信号，它们就一直跑到终点，不会停。"
+        "en": "Polymer + -ization = making polymers. Every time acrylic or gel hardens on a nail, that is polymerization.",
+        "zh": "polymer（聚合物）+ -ization（变成……的过程）= 制造聚合物。每次丙烯酸甲或凝胶在指甲上变硬，就是在发生聚合（polymerization）。"
       },
-      "hookType": "picture",
+      "hookType": "real-life",
       "status": "approved"
     },
     {
@@ -8820,8 +8820,8 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Water can dissolve more substances than any other solvent. In salt water, water is the solvent and salt is the solute.",
-        "zh": "水能溶解的物质比任何其他溶剂（solvent）都多。在盐水里，水是溶剂，盐是溶质（solute）。"
+        "en": "Water dissolves more substances than any other solvent, so it is called the universal solvent. For example, salt dissolves in water: water is the solvent, salt is the solute.",
+        "zh": "水能溶解的物质比任何其他溶剂都多，所以被称为万能溶剂（universal solvent）。比如盐能溶在水里：水是溶剂（solvent），盐是溶质（solute）。"
       },
       "lockPoint": {
         "en": "Universal does not mean everything. Water dissolves salt, but not oil.",
@@ -8862,8 +8862,8 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Surfactants are substances that let oil and water mix. They are one type of emulsifier. Soaps were the first surfactants.",
-        "zh": "surfactants（表面活性剂）是能让油和水混合的物质，是乳化剂（emulsifier）的一种。肥皂就是最早的表面活性剂。"
+        "en": "A surfactant lets oil and water mix. Soap does exactly this: with water, it washes oily dirt off your hands. Soaps were the first surfactants.",
+        "zh": "surfactant（表面活性剂）能让油和水混合。肥皂正是这样：加上水，就能把手上的油污洗掉。肥皂是最早的表面活性剂。"
       },
       "lockPoint": {
         "en": "A surfactant is like a rope with two ends: the head holds water, the tail holds oil.",
@@ -8988,8 +8988,8 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Solvent is the key ingredient for how fast polish dries and how thick it is. Pigments give color, and plasticizers keep it flexible.",
-        "zh": "solvent（溶剂）是决定指甲油干燥速度和稠度的关键成分。色素提供颜色，增塑剂让它保持柔韧。"
+        "en": "Polish dries as its solvent evaporates into the air. So the solvent decides how fast polish dries and how thick it is. Pigments give color; plasticizers keep it flexible.",
+        "zh": "指甲油会变干，是因为里面的溶剂（solvent）蒸发到空气中。所以溶剂决定了指甲油干得多快、有多稠。色素（pigments）提供颜色，增塑剂（plasticizers）让它保持柔韧。"
       },
       "lockPoint": {
         "en": "More solvent → faster drying: that's how fast-dry topcoat works. Polish dryer drops pull solvent out, too.",
@@ -12394,8 +12394,8 @@
         "zh": "设备（equipment）是所有不属于工具（implement）的用具，例如美甲桌。工具是服务中拿来操作的东西，例如死皮剪、钢推和镊子。"
       },
       "lockPoint": {
-        "en": "Milady names four tool types: equipment, implements, materials, and professional nail products.",
-        "zh": "Milady 把美甲用具分成四类：设备（equipment）、工具（implements）、耗材（materials）和专业美甲产品（professional nail products）。"
+        "en": "Think furniture: the table and its lamp are equipment. Nippers, pushers, and tweezers are implements.",
+        "zh": "想想家具：美甲桌和桌上的台灯都是设备（equipment）。死皮剪、钢推和镊子是工具（implements）。"
       },
       "hookType": "comparison",
       "status": "approved"
@@ -12516,8 +12516,8 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Coarse-grit files and buffers are 100 grit or less. They file down fast and leave deep scratches, so they are generally not used on natural nails.",
-        "zh": "粗目数锉条和抛光条是 100 目或更低。它们磨得快、留下很深的刮痕，所以一般不用在真甲上。"
+        "en": "The lower the grit number, the bigger the grains on the file. So coarse files are 100 grit or less. They file fast, leave deep scratches, and are generally not used on natural nails.",
+        "zh": "目数（grit）越低，锉条上的颗粒越大。所以粗目数（coarse-grit）锉条是 100 目或更低。它们磨得快，会留下很深的刮痕，一般不用在真甲上。"
       },
       "lockPoint": {
         "en": "Three steps: 100 or less is coarse, 150 to 180 is medium, 240 and up is fine.",
@@ -12562,10 +12562,10 @@
         "zh": "打磨时一定要戴 N95 级防尘口罩（dust mask）。薄的外科式口罩挡不住粉尘，不应在沙龙里使用。"
       },
       "lockPoint": {
-        "en": "Wear eye protection too, so dust stays out of your eyes. A mask never replaces good ventilation.",
-        "zh": "也要戴护目镜，别让粉尘进眼睛。口罩永远不能代替良好的通风。"
+        "en": "Dust job, dust mask: N95 masks are made for dust. Thin surgical masks let dust through.",
+        "zh": "打磨出粉尘，就戴防尘口罩：N95 口罩是专门挡粉尘的。薄的外科式口罩挡不住粉尘。"
       },
-      "hookType": "reason-chain",
+      "hookType": "comparison",
       "status": "approved"
     },
     {
@@ -12604,10 +12604,10 @@
         "zh": "无丙酮洗甲水（non-acetone remover）溶解美甲加固产品没有丙酮那么快，所以卸包甲上的甲油时首选它。丙酮会分解包甲树脂。"
       },
       "lockPoint": {
-        "en": "Acetone is the stronger solvent. That is why acetone is used to soak enhancements off.",
-        "zh": "丙酮是更强的溶剂，所以卸除美甲加固时是用丙酮来泡。"
+        "en": "Acetone is what soaks enhancements off. Want the wrap to stay on? Use non-acetone remover.",
+        "zh": "丙酮是用来泡掉美甲加固的。想让包甲留着？就用无丙酮洗甲水（non-acetone remover）。"
       },
-      "hookType": "comparison",
+      "hookType": "reason-chain",
       "status": "approved"
     },
     {
@@ -12642,14 +12642,14 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "A scrub is a lotion with an abrasive that removes dry, flaky skin. Pumice, sea sand, and jojoba beads are exfoliating agents found in pedicure scrubs.",
-        "zh": "磨砂膏是含研磨剂（abrasive）的乳液，能去掉干燥脱屑的皮肤。浮石粉、海沙和荷荷巴微珠都是修脚磨砂膏里的去角质成分（exfoliating agents）。"
+        "en": "A pedicure scrub is a lotion with an abrasive that rubs off dry, flaky skin. Pumice and sea sand are that abrasive.",
+        "zh": "修脚磨砂膏是含研磨剂（abrasive）的乳液，能把干燥脱屑的皮肤磨掉。浮石粉（pumice）和海沙就是这种研磨剂。"
       },
       "lockPoint": {
-        "en": "Think of fine sandpaper for feet: tiny rough grains rub dry, dead skin away.",
-        "zh": "想象给脚用的细砂纸：细小粗糙的颗粒把干燥的死皮磨掉。"
+        "en": "Pumice is the rough stone people rub on dry heels. Crushed into a scrub, it still rubs dead skin off.",
+        "zh": "浮石（pumice）就是大家用来搓脚后跟的粗糙石头。磨碎放进磨砂膏里，照样能把死皮磨掉。"
       },
-      "hookType": "picture",
+      "hookType": "real-life",
       "status": "approved"
     },
     {
@@ -16044,14 +16044,14 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "After filing, the fingertips soak in the finger bowl. This softens the eponychium (living skin around the nail) and the cuticle (dead tissue stuck to the nail plate).",
-        "zh": "锉完指甲后，把指尖泡在泡手碗（finger bowl）里。这样能软化甲上皮（eponychium，指甲周围的活皮肤）和甲小皮（cuticle，粘在甲板上的死组织）。"
+        "en": "Polish comes off first, in step 1. The soak then softens the eponychium (living skin around the nail) and cuticle (dead tissue on the plate), so they can be gently pushed back.",
+        "zh": "第 1 步就已经卸掉甲油了。泡手是为了软化甲上皮（eponychium，指甲周围的活皮肤）和甲小皮（cuticle，粘在甲板上的死组织），之后才能把它们轻轻往后推。"
       },
       "lockPoint": {
-        "en": "Like washing dishes: one pan soaks while you scrub the next. One hand soaks while you file the other.",
-        "zh": "就像洗碗：一个锅泡着，你先刷下一个。一只手泡着，你就锉另一只手。"
+        "en": "Dip hard, dry bread in water and it turns soft. The finger bowl does the same to the cuticle.",
+        "zh": "把又干又硬的面包泡进水里，它就变软了。泡手碗对甲小皮（cuticle）也是一样。"
       },
-      "hookType": "real-life",
+      "hookType": "picture",
       "status": "approved"
     },
     {
@@ -16132,10 +16132,10 @@
         "zh": "锋利的死皮剪只用来剪松松挂着的死皮。绝不能撕扯死皮或活皮肤，因为这可能导致感染。"
       },
       "lockPoint": {
-        "en": "Client with thin skin or a health concern? Milady says don't nip; gently use a curette instead.",
-        "zh": "顾客皮肤薄或有健康问题？Milady 说不要剪死皮，改用刮匙（curette）轻轻去除。"
+        "en": "Nip like cutting a loose thread off a shirt: snip only what hangs loose, never pull.",
+        "zh": "剪死皮就像剪掉衣服上松掉的线头：只剪松松挂着的部分，绝不硬扯。"
       },
-      "hookType": "real-life",
+      "hookType": "picture",
       "status": "approved"
     },
     {
@@ -16212,12 +16212,12 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Milady says to always ask permission before any massage. Also ask if the client has any concerns about receiving a massage.",
-        "zh": "Milady 说任何按摩之前都要先征求顾客同意，还要问顾客对按摩有没有顾虑。"
+        "en": "A massage means touching the client's body, so always ask permission first. Also ask if the client has any concerns about receiving a massage.",
+        "zh": "按摩要接触顾客的身体，所以一定要先征求同意，还要问顾客对按摩有没有顾虑。"
       },
       "lockPoint": {
-        "en": "Client with health concerns? Use gentler pressure, and do not bend or flex hands, fingers, or wrists.",
-        "zh": "顾客有健康问题？力度要更轻，也不要弯曲或扳动手、手指或手腕。"
+        "en": "Like a hug, a massage is touch: ask before you give one.",
+        "zh": "按摩和拥抱一样都是身体接触：给之前先问一声。"
       },
       "hookType": "real-life",
       "status": "approved"
@@ -16258,10 +16258,10 @@
         "zh": "托住手腕处的手臂。捏住每根手指的指甲根部，轻轻转动画圈，每根三到五次，从小指做到大拇指。"
       },
       "lockPoint": {
-        "en": "The foot massage begins with circles too: hold above the ankle and rotate the whole foot.",
-        "zh": "足部按摩一开始也是转圈：握住脚踝上方，把整只脚转圈。"
+        "en": "Hold your own little finger at the nail base and gently turn it in small circles: that is joint movement.",
+        "zh": "捏住自己小指的指甲根部，轻轻转小圈：这就是关节活动（joint movement）。"
       },
-      "hookType": "comparison",
+      "hookType": "body-cue",
       "status": "approved"
     },
     {
@@ -16384,10 +16384,10 @@
         "zh": "先把手或脚套进塑料套，再放进电热手套。温热帮助护理成分渗入皮肤，也让顾客更舒服、更放松。"
       },
       "lockPoint": {
-        "en": "Electric mitts can be an add-on: they make a higher-cost service.",
-        "zh": "电热手套可以作为加购项目，让服务价格更高。"
+        "en": "Think of a heating pad shaped like a glove: it only adds warmth, and warmth helps lotion soak in.",
+        "zh": "把它想成手套形状的电热垫：它只负责加温，而温热能帮助乳液渗进皮肤。"
       },
-      "hookType": "real-life",
+      "hookType": "picture",
       "status": "approved"
     },
     {
@@ -16426,10 +16426,10 @@
         "zh": "毛巾布手套能留住蜡的热量，又能让蜡变硬，起到屏障作用。电热手套不会让蜡变硬。"
       },
       "lockPoint": {
-        "en": "Terry cloth mitts are washable and reusable, like the salon's terry cloth towels.",
-        "zh": "毛巾布手套可以洗、可以重复用，就像沙龙里的毛巾一样。"
+        "en": "A terry mitt is a winter coat for the paraffin: heat stays in, but the paraffin still sets hard.",
+        "zh": "毛巾布手套就像给蜡（paraffin）穿上冬天的外套：热量留在里面，蜡照样会变硬。"
       },
-      "hookType": "comparison",
+      "hookType": "picture",
       "status": "approved"
     },
     {
@@ -16468,10 +16468,10 @@
         "zh": "天然石是多孔的（porous），所以不能消毒。合成石（synthetic stones）可以消毒，是最安全的选择。每位顾客之间都要刷洗并消毒石头。"
       },
       "lockPoint": {
-        "en": "Before using stones on a client, test their warmth on your own arm.",
-        "zh": "给顾客用之前，先在自己的手臂上试一下石头的温度。"
+        "en": "Name trap: natural sounds safer, but here synthetic wins. Only synthetic stones can be disinfected.",
+        "zh": "名字陷阱：“天然”听起来更安全，但这里是合成石（synthetic stones）胜出。只有合成石可以消毒。"
       },
-      "hookType": "body-cue",
+      "hookType": "name-trap",
       "status": "approved"
     },
     {
@@ -20752,10 +20752,10 @@
         "zh": "把甲片拿成 45 度角，让定位点（position stop）对准真甲的游离缘（free edge）。然后慢慢往下压，看着胶在凹槽里推开。"
       },
       "lockPoint": {
-        "en": "Like closing a laptop: the free edge is the hinge. Lower it slowly so no air bubbles stay.",
-        "zh": "就像合上笔记本电脑：游离缘是转轴。慢慢放下，就不会留下气泡。"
+        "en": "Lay your hand flat, then point it straight up. Halfway between is 45 degrees: start the tip there.",
+        "zh": "把手平放，再竖直朝上。两者正中间就是 45 度：甲片就从这个角度开始贴。"
       },
-      "hookType": "picture",
+      "hookType": "body-cue",
       "status": "approved"
     },
     {
@@ -20794,8 +20794,8 @@
         "zh": "Milady 的做法：把指甲泡在丙酮（acetone）里 5 到 10 分钟，把变软的甲片推下来，再重新贴。硬撬会损伤甲面。"
       },
       "lockPoint": {
-        "en": "Still stuck? Soak a few more minutes. Acetone does the work, not force.",
-        "zh": "还粘着？再多泡几分钟。靠丙酮，不靠力气。"
+        "en": "Like a shirt buttoned wrong: you don't pull harder; you undo it and start again.",
+        "zh": "就像衬衫扣错了扣子：不是更用力地拉，而是解开重新扣。"
       },
       "hookType": "real-life",
       "status": "approved"
@@ -20836,10 +20836,10 @@
         "zh": "包甲和浸粉都属于树脂系统（nail resin systems），卸法一样：泡在丙酮或卸甲液里，再把变软的产品轻轻推下来。硬撬会伤到指甲。"
       },
       "lockPoint": {
-        "en": "Resin systems come off easily, so Milady suggests them for proms and weddings.",
-        "zh": "树脂系统容易卸，所以 Milady 推荐用在毕业舞会、婚礼这类场合。"
+        "en": "Softened product, gentle tool: a wooden pusher just slides it off. No cutting, no prying, no peeling.",
+        "zh": "产品已经泡软，用温和的工具就行：木棒（wooden pusher）轻轻一推就下来。不剪、不撬、不撕。"
       },
-      "hookType": "real-life",
+      "hookType": "contrast",
       "status": "approved"
     },
     {
@@ -20878,8 +20878,8 @@
         "zh": "viscosity（黏度）就是树脂的稠度。越稀，附着越好、固化越快。稀的树脂做底层；稠的树脂用来做结构或当封层。"
       },
       "lockPoint": {
-        "en": "Think water vs. honey. Some resins are so honey-thick that they need an accelerator to cure.",
-        "zh": "想想水和蜂蜜：有些树脂稠得像蜂蜜，要用加速剂（resin accelerator）才能固化。"
+        "en": "Water vs. honey: water runs into tiny gaps fast. Thin resin acts like water: sticks better, cures faster.",
+        "zh": "水和蜂蜜比：水很快就流进细小的缝隙。稀的树脂就像水：粘得更好，固化更快。"
       },
       "hookType": "comparison",
       "status": "approved"
@@ -20962,10 +20962,10 @@
         "zh": "液粉等量是干球（dry bead）；液体是粉的两倍是湿球（wet bead）。介于两者之间的中球（medium bead）通常最理想。"
       },
       "lockPoint": {
-        "en": "In Milady's overlay steps, a small wet bead goes last, tapped up toward the cuticle.",
-        "zh": "在 Milady 的加固步骤里，最后放的是一颗小湿球，往甲小皮方向轻拍。"
+        "en": "Mix dirt with twice as much water and you get wet, runny mud. Twice the liquid makes a wet bead.",
+        "zh": "土里加两倍的水，就成了又湿又稀的泥。液体加到两倍，就是湿球（wet bead）。"
       },
-      "hookType": "real-life",
+      "hookType": "picture",
       "status": "approved"
     },
     {
@@ -21046,8 +21046,8 @@
         "zh": "Milady 的做法：从甲小皮开始，把胶朝游离缘推开，盖满整个指甲。不要碰到皮肤，否则会起翘。"
       },
       "lockPoint": {
-        "en": "Tiny low spot? Pull up a thin string of gel, like honey off a spoon, and lay it across.",
-        "zh": "有小凹点？像从勺子上拉起蜂蜜丝那样，从胶罐里拉起一条细胶丝，横放在凹点上。"
+        "en": "Like a playground slide: start at the top (the cuticle) and go down to the end (the free edge).",
+        "zh": "就像玩滑梯：从顶上（甲小皮）开始，一路滑到底（游离缘）。"
       },
       "hookType": "picture",
       "status": "approved"
@@ -21088,10 +21088,10 @@
         "zh": "指甲上了两到三层颜色后，上激活剂（activator）帮助各层变干。activator 就是树脂加速剂（resin accelerator）的另一个名字。"
       },
       "lockPoint": {
-        "en": "Spraying activator? Hold the bottle 12 inches away, about one school ruler.",
-        "zh": "用喷的激活剂？瓶子离指甲 12 英寸，大约一把学生尺的长度。"
+        "en": "Not after every dip: build two to three coats of color first, then activator dries the layers together.",
+        "zh": "不是每蘸一次粉就上：先叠两到三层颜色，再用激活剂（activator）让这些层一起变干。"
       },
-      "hookType": "picture",
+      "hookType": "contrast",
       "status": "approved"
     },
     {
@@ -21130,8 +21130,8 @@
         "zh": "上完激活剂后，再涂一层底层树脂，在锉磨和抛光时保护粉层。因为有激活剂，这层底层会干得很快。"
       },
       "lockPoint": {
-        "en": "Like a phone screen protector: the file scratches the clear layer, not the color.",
-        "zh": "就像手机贴膜：锉条磨到的是透明的那层，而不是颜色。"
+        "en": "Like a car's clear coat: scratches hit the clear layer, and the color under it stays safe.",
+        "zh": "就像汽车的透明漆层：刮痕落在透明层上，下面的颜色不受伤。"
       },
       "hookType": "picture",
       "status": "approved"
@@ -21172,10 +21172,10 @@
         "zh": "先上激活剂，用无尘巾擦掉多余的部分，再刷封层树脂（top resin）。通常刷两层：一层让表面光滑，一层增加亮度。"
       },
       "lockPoint": {
-        "en": "After the second top coat, let the nails stand about eight minutes to dry.",
-        "zh": "第二层封层树脂刷完后，让指甲静置大约八分钟晾干。"
+        "en": "Top resin is the shine coat, so it goes last: activator, wipe, then shine. No lamp needed.",
+        "zh": "封层树脂（top resin）负责亮光，所以最后才上：激活剂、擦净，再上亮光。不需要照灯。"
       },
-      "hookType": "real-life",
+      "hookType": "reason-chain",
       "status": "approved"
     },
     {
@@ -21214,10 +21214,10 @@
         "zh": "Milady 的做法：用细目抛光条（fine-grit buffer）轻轻抛磨真甲，去掉残留物，再用干净、干燥的甲刷扫掉粉尘。"
       },
       "lockPoint": {
-        "en": "Buff gently → dust off → client washes hands → cuticle oil, then hand lotion.",
-        "zh": "轻轻抛磨 → 扫掉粉尘 → 顾客洗手 → 先涂指缘油，再涂护手霜。"
+        "en": "Only a little residue is left, so fine grit is enough. Coarse grit is generally not used on natural nails.",
+        "zh": "只剩一点残留物，用细目（fine grit）就够了。粗目（coarse grit）一般不用在真甲上。"
       },
-      "hookType": "real-life",
+      "hookType": "reason-chain",
       "status": "approved"
     },
     {
