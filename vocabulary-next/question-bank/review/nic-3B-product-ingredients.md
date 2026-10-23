@@ -10,8 +10,8 @@ C. Evaporates very easily / 非常容易蒸发 ✅
 D. Is highly toxic / 毒性很强  
 *Why:* VOCs contain carbon (organic) and evaporate very easily (volatile). Ethyl acetate and isopropyl alcohol are VOC solvents in polish, base coats, top coats, and removers.  
 *为什么:* VOC 含碳（organic，有机），并且非常容易蒸发（volatile，挥发性）。乙酸乙酯（ethyl acetate）和异丙醇（isopropyl alcohol）就是指甲油、底油、亮油和洗甲水里的 VOC 溶剂。  
-*Lock this (word-origin):* Volatile comes from Latin volare, "to fly": the liquid flies off into the air.  
-*记重点:* volatile 来自拉丁语 volare“飞”：液体“飞”进空气里。中文“挥发”也是散到空气中。  
+*Lock this (real-life):* Rubbing alcohol on your skin is gone in seconds. It went into the air. That's volatile, not explosive.  
+*记重点:* 酒精（rubbing alcohol）擦在皮肤上，几秒就不见了，跑到空气里去了，这就是 volatile（易挥发），不是“会爆炸”。  
 *Source:* Milady Standard Foundations p.164 (PDF 659)
 
 **2. In chemistry, an organic substance is one that**  
@@ -34,8 +34,8 @@ C. Pigments / 色素（pigments）
 D. Solvents / 溶剂（solvents）  
 *Why:* Plasticizers keep polishes and nail enhancement products flexible. UV stabilizers protect color, pigments give color, and solvents evaporate to leave the film behind.  
 *为什么:* plasticizers（增塑剂）让指甲油和加固甲产品保持柔韧。紫外线稳定剂保护颜色，色素提供颜色，溶剂蒸发后留下涂膜。  
-*Lock this (word-origin):* Plastic first meant "able to be molded" (Greek plastikos): bendable, not stiff.  
-*记重点:* plastic 原义是“可塑的”（希腊语 plastikos）。增塑剂让涂膜能弯、不发脆。  
+*Lock this (word-link):* Plasticizer starts with "plastic." A soft plastic bag bends and doesn't crack. Plasticizers keep polish bendable.  
+*记重点:* plasticizer（增塑剂）开头就是 plastic（塑料）：软塑料袋能弯、不会裂。增塑剂让涂膜能弯、不发脆。  
 *Source:* Milady Standard Nail Technology p.125 (PDF 149), Milady Standard Nail Technology p.131 (PDF 155)
 
 **4. What do UV stabilizers in nail polish do?**  
@@ -46,8 +46,8 @@ C. Help polish stick to nails / 帮助指甲油附着在指甲上
 D. Prevent fading from sunlight / 防止阳光导致褪色 ✅  
 *Why:* UV stabilizers control color stability and stop sunlight from fading or discoloring the color. Nail enhancement products use them for the same job.  
 *为什么:* UV stabilizers（紫外线稳定剂）保持颜色稳定，防止阳光让颜色褪色或变色。加固甲产品里也用它做同样的事。  
-*Lock this (real-acronym):* UV = ultraviolet, "beyond violet": sun rays we can't see that still fade color.  
-*记重点:* UV = ultraviolet（紫外线），“紫光之外”：肉眼看不见，却会让颜色褪掉。  
+*Lock this (real-acronym):* UV = ultraviolet: sun rays you can't see. Like a shirt left in the sun, the color fades.  
+*记重点:* UV = ultraviolet（紫外线），“紫光之外”：肉眼看不见，却会让颜色褪掉，就像衣服晒久了会褪色。  
 *Source:* Milady Standard Nail Technology p.125 (PDF 149)
 
 **5. All nail enhancements and nail adhesives belong to which chemical family?**  
@@ -82,8 +82,8 @@ C. FDA and state boards say don't use it / FDA 和州美容委员会（state boa
 D. It dissolves too easily in remover / 它在卸甲液里溶解得太快  
 *Why:* Milady says MMA is not a carcinogen and is not absorbed into the blood. The problems are poor adhesion, rigid nails, hard removal, and, most important, the FDA's position.  
 *为什么:* Milady 指出 MMA 不致癌，也不会被吸收进血液。问题在于附着差、太硬、难卸除，而最重要的原因是 FDA 和州美容委员会不允许使用。  
-*Lock this (real-life):* Surgeons use MMA as bone repair cement: toxicity isn't why nails can't use it.  
-*记重点:* MMA 被用作手术骨水泥：它被禁用于指甲，不是因为毒性。  
+*Lock this (real-life):* Doctors put MMA inside the body as bone cement. So poison is not the reason. The FDA's rule is.  
+*记重点:* 医生把 MMA 放进人体当骨水泥用。所以禁用于指甲不是因为有毒，最重要的原因是 FDA 的规定。  
 *Source:* Milady Standard Nail Technology p.124 (PDF 148), Milady Standard Nail Technology p.125 (PDF 149)
 
 **8. When an MMA nail is jammed or caught, what often breaks?**  
@@ -130,8 +130,8 @@ C. Product touching only the nail plate / 产品只碰到甲板
 D. Removing product with acetone / 用丙酮卸除产品  
 *Why:* Prolonged, repeated skin contact causes these allergies over time. Product vapors do not cause skin allergies. If the product never touches skin, an allergy is extremely unlikely.  
 *为什么:* 长期、反复接触皮肤，久而久之会引起过敏。产品蒸气不会引起皮肤过敏。只要产品从不碰到皮肤，过敏的可能性极低。  
-*Lock this (word-origin):* Allergy: Greek allos, "other," + ergon, "work": the body learns a changed reaction.  
-*记重点:* allergy 来自希腊语 allos（另一种）+ ergon（作用）：反复接触后，身体学会了一种“改变了的反应”。  
+*Lock this (picture):* Each skin touch adds a drop to a cup. When the cup is full, allergy starts. Vapors add none.  
+*记重点:* 想象一个杯子一滴一滴装满：产品每碰一次皮肤就加一滴，杯子满了，过敏就开始了。只闻到气味（vapors）不加滴。  
 *Source:* Milady Standard Nail Technology p.118 (PDF 142)
 
 **12. What decides whether a substance has a toxic effect?**  
@@ -178,8 +178,8 @@ C. It is highly flammable / 高度易燃 ✅
 D. It is strongly alkaline / 碱性很强  
 *Why:* Acetone works quickly and is one of the safest solvents used in nail salons. But it is highly flammable, so keep it away from heat, open flames, and sparks.  
 *为什么:* 丙酮起效快，是美甲沙龙最安全的溶剂之一。但它高度易燃，必须远离高温、明火和火花。  
-*Lock this (real-life):* Used acetone goes in a fire-department-approved metal container as hazardous waste, never down the sink.  
-*记重点:* 用过的丙酮要装进消防部门认可的金属容器，当危险废物处理，绝不能倒进水槽。  
+*Lock this (reason-chain):* Used acetone goes in a metal can the fire department approves. Why fire? It burns very easily.  
+*记重点:* 用过的丙酮要装进消防部门认可的金属容器。为什么是消防部门？因为丙酮非常容易着火（flammable）。  
 *Source:* Milady Standard Nail Technology p.127 (PDF 151), Milady Standard Nail Technology p.150 (PDF 174)
 
 **16. Which sweet, colorless, oily ingredient is used as a moisturizer in creams?**  
@@ -190,8 +190,8 @@ C. Acetone / 丙酮（acetone）
 D. Isopropyl alcohol / 异丙醇（isopropyl alcohol）  
 *Why:* Glycerin is a sweet, colorless, oily substance used as a solvent and moisturizer in skin and body creams. Cuticle removers add it to counteract their skin-drying effects.  
 *为什么:* glycerin（甘油）是一种带甜味、无色、油状的物质，在护肤霜和身体霜中用作溶剂和保湿剂。死皮软化剂（cuticle remover）里也会加甘油，用来抵消死皮软化剂本身让皮肤变干的作用。  
-*Lock this (word-origin):* Glycerin comes from Greek glykeros, "sweet." Chinese 甘油 says it too: 甘 means sweet.  
-*记重点:* glycerin 来自希腊语 glykeros“甜”；中文“甘油”的“甘”也是甜（甘甜）。  
+*Lock this (chinese-character):* The Chinese name means "sweet oil." Sweet and oily? Pick glycerin.  
+*记重点:* glycerin = 甘油：甘 = 甜（甘甜），油 = 油。“又甜又油”就是甘油，它还能保湿。  
 *Source:* Milady Standard Foundations p.164 (PDF 659), Milady Standard Nail Technology p.151 (PDF 175)
 
 **17. Cuticle removers contain sodium or potassium hydroxide, so they are**  
@@ -202,8 +202,8 @@ C. neutral, with a pH of 7. / 中性，pH 为 7。
 D. water-free, with no pH. / 不含水，没有 pH。  
 *Why:* Cuticle removers have a high pH (caustic) and irritate skin. They dissolve dead tissue on the nail plate, so keep them off the living skin of the eponychium.  
 *为什么:* 死皮软化剂 pH 高（caustic，腐蚀性），刺激皮肤。它们用来溶解甲板上的死组织，所以不要碰到甲上皮（eponychium）的活皮肤。  
-*Lock this (real-life):* Sodium hydroxide is lye, the same strong alkali found in drain cleaners.  
-*记重点:* 氢氧化钠就是烧碱（lye），通下水道的疏通剂里也有它。  
+*Lock this (real-life):* Sodium hydroxide is a very strong alkali, also used in drain cleaners. Strong alkali means very high pH.  
+*记重点:* 氢氧化钠（烧碱）是很强的碱（alkali），通下水道的疏通剂里也有它。强碱 = pH 很高。  
 *Source:* Milady Standard Nail Technology p.150 (PDF 174), Milady Standard Nail Technology p.151 (PDF 175), Milady Standard Foundations p.167 (PDF 662)
 
 **18. How does a methylene glycol nail hardener make nails stiffer?**  

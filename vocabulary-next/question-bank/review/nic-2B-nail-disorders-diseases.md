@@ -22,8 +22,8 @@ C. Yes, if the client signs a waiver. / 可以，只要顾客签免责书。
 D. No, but you may suggest a treatment. / 不可以，但可以推荐治疗方法。  
 *Why:* Naming a disease is diagnosing. Nail technicians are not licensed to diagnose, treat, or prescribe. Say the nail looks unhealthy and refer the client to a physician.  
 *为什么:* 说出是什么病就是诊断。美甲师没有诊断、治疗或开药的执照。只能说指甲看起来不健康，并建议顾客去看医生。  
-*Lock this (real-life):* Client offers to sign a waiver? Still no. Not even a doctor can expand your license's scope.  
-*记重点:* 顾客说愿意签免责书？照样不行。连医生也无权扩大你执照的执业范围。  
+*Lock this (real-life):* Client offers to sign a waiver? Still no. Not even a doctor can change what your license allows.  
+*记重点:* 顾客说愿意签免责书？照样不行。连医生也不能改变你的执照允许你做的事。  
 *Source:* Milady Standard Nail Technology p.104 (PDF 128), Milady Standard Nail Technology p.105 (PDF 129)
 
 **3. Depressions running across the width of the nail plate are**  
@@ -58,7 +58,7 @@ C. onychomycosis. / 甲真菌病（onychomycosis）。
 D. onychophagy. / 咬甲癖（onychophagy）。  
 *Why:* Onychia is inflammation of the nail matrix with shedding of the nail, caused by infection or injury. Medical referral may be required.  
 *为什么:* onychia（甲母质炎）是甲母质发炎并伴有指甲脱落，由感染或外伤引起，可能需要转介医生。  
-*Lock this (reason-chain):* The matrix builds the nail plate. Inflame the builder, and the nail it made can be shed.  
+*Lock this (reason-chain):* The matrix builds the nail plate. When the builder is inflamed, the nail it made can fall off.  
 *记重点:* 甲母质负责“建造”甲板。“建造者”一发炎，它造出的指甲就可能脱落。  
 *Source:* Milady Standard Nail Technology p.109 (PDF 133), Milady Standard Nail Technology p.113 (PDF 137)
 
@@ -82,8 +82,8 @@ C. minor injury to the matrix. / 甲母质受到轻微损伤。 ✅
 D. an allergic reaction. / 过敏反应。  
 *Why:* Leukonychia spots usually come from minor injury to the nail matrix. They do not indicate disease and disappear as the nail grows out.  
 *为什么:* leukonychia（白甲）的白斑通常来自甲母质的轻微损伤。它们不代表疾病，会随着指甲长出而消失。  
-*Lock this (word-parts):* Leuko = white, as in leukocyte (white blood cell); onych = nail. A bumped matrix leaves a white mark.  
-*记重点:* leuko = 白（leukocyte 白细胞也用这个词根），onych = 指甲。甲母质被碰一下，就留下白点。  
+*Lock this (word-parts):* Leuko- = white, as in leukocyte, a white blood cell. A bump to the matrix leaves a white spot.  
+*记重点:* leuko- = 白（leukocyte 白细胞也用它），onych = 指甲。甲母质被碰一下，就留下白点。  
 *Source:* Milady Standard Nail Technology p.106 (PDF 130)
 
 **8. A dark band running from the nail base to the free edge is**  
@@ -94,8 +94,8 @@ C. Beau's lines. / 博氏线（Beau's lines）。
 D. a bruised nail bed. / 甲床瘀伤（bruised nail bed）。  
 *Why:* Melanonychia is significant darkening of the nail from increased pigment cells (melanocytes). It can show as a black band from base to free edge, or darken the whole plate.  
 *为什么:* melanonychia（黑甲）是黑素细胞（melanocytes）增多导致的指甲明显变黑，可表现为从根部到游离缘的黑色条带，或整片甲板变黑。  
-*Lock this (word-parts):* Melan = black, as in melanin. Fairly common in African Americans and Asians; in Caucasians it may signal disease.  
-*记重点:* melan = 黑（melanin 黑色素也是这个词根）。在非裔和亚裔中较常见；在白人身上可能是疾病信号。  
+*Lock this (word-parts):* Melan- = dark, as in melanin. Common in Black and Asian people; in white people it may mean disease.  
+*记重点:* melan- = 黑（melanin 黑色素也用它）。在非裔和亚裔中较常见；在白人身上可能是疾病信号。  
 *Source:* Milady Standard Nail Technology p.106 (PDF 130)
 
 **9. Abnormal stretching of the eponychium or hyponychium around the nail plate is**  
@@ -106,8 +106,8 @@ C. onychorrhexis. / 脆甲（onychorrhexis）。
 D. nail pterygium. / 甲胬肉（nail pterygium）。 ✅  
 *Why:* Nail pterygium usually comes from serious injury or an allergic skin reaction. Creams or oils may help, but never push it back or treat it with any instrument.  
 *为什么:* nail pterygium（甲胬肉）通常由严重外伤或皮肤过敏引起。乳霜或护理油可能有帮助，但绝不能用任何工具往后推或处理。  
-*Lock this (word-origin):* Pterygium comes from the Greek for "little wing": the stretched skin clings to the nail like a small wing.  
-*记重点:* pterygium 来自希腊语的“小翅膀”：被拉伸的皮肤像一片小翅膀一样贴在指甲上。  
+*Lock this (picture):* Picture skin stretched over the nail like plastic wrap. A hangnail is torn skin; paronychia has pus.  
+*记重点:* 想象皮肤像保鲜膜一样被拉长、贴在指甲上。倒刺（hangnail）是皮撕裂；甲沟炎（paronychia）会有脓。  
 *Source:* Milady Standard Nail Technology p.106 (PDF 130)
 
 **10. Onychophagy is the technical term for**  
@@ -118,8 +118,8 @@ C. ingrown nails. / 嵌甲。
 D. fungal nails. / 真菌感染的指甲。  
 *Why:* Onychophagy means bitten nails. Frequent manicures and good hand care can often help clients overcome the habit.  
 *为什么:* onychophagy（咬甲癖）就是咬指甲。经常修甲、好好护理双手，常能帮顾客改掉这个习惯。  
-*Lock this (word-parts):* Onycho = nail, phagy = eating, as in esophagus, the food tube. Nail-eating means nail biting.  
-*记重点:* onycho = 指甲，phagy = 吃（esophagus 食道也用这个词根）。“吃指甲”就是咬指甲。  
+*Lock this (word-parts):* Onycho- = nail, -phagy = eating. "Nail eating" means nail biting.  
+*记重点:* onycho- = 指甲，-phagy = 吃。“吃指甲”就是咬指甲。  
 *Source:* Milady Standard Nail Technology p.107 (PDF 131)
 
 **11. Split or brittle nails with a rough surface are called**  
@@ -130,8 +130,8 @@ C. onychorrhexis. / 脆甲（onychorrhexis）。 ✅
 D. onychocryptosis. / 嵌甲（onychocryptosis）。  
 *Why:* Onychorrhexis is split or brittle nails. Causes include heredity, matrix injury, too much cuticle remover, harsh cleaning agents, or aggressive filing.  
 *为什么:* onychorrhexis（脆甲）指指甲裂开或易碎。原因包括遗传、甲母质损伤、过度接触死皮软化剂、刺激性清洁剂或粗暴的锉甲方式。  
-*Lock this (word-parts):* Rhexis is Greek for bursting or breaking. Onycho-rrhexis = the nail breaks apart.  
-*记重点:* rhexis 在希腊语里是“破裂”。onycho-rrhexis 就是“指甲破裂”。  
+*Lock this (word-parts):* Onycho- = nail. -Lysis = loosening; -rrhexis = breaking. Onychorrhexis: the nail splits and breaks.  
+*记重点:* onycho- = 指甲；-lysis = 松开，-rrhexis = 破裂。onychorrhexis 就是指甲裂开、变脆。  
 *Source:* Milady Standard Nail Technology p.107 (PDF 131)
 
 **12. Sharply increased curvature of the free edge, also called trumpet nail, is**  
@@ -166,8 +166,8 @@ C. a bacterial infection. / 细菌感染。
 D. trauma that damages nail bed capillaries. / 外伤损伤甲床毛细血管。 ✅  
 *Why:* Splinter hemorrhages come from physical trauma or injury to the nail bed. Damaged capillaries leak a little blood that looks like a small splinter running lengthwise under the plate.  
 *为什么:* splinter hemorrhages（裂片形出血）由甲床受到外伤引起。受损的毛细血管渗出少量血，在甲板下看起来像一根纵向的小木刺。  
-*Lock this (name-trap):* No wood: hem = blood, -rrhage = burst, same root as onychorrhexis. A burst capillary leaves a thin line.  
-*记重点:* 没有木刺：hem = 血，-rrhage = 破裂，和 onychorrhexis 的 rrhexis 同一个希腊词根。毛细血管破了，留下一条细血线。  
+*Lock this (name-trap):* Name trap: no wood. Hem- = blood: a tiny blood vessel breaks and leaves a thin line.  
+*记重点:* 名字陷阱：没有木刺。hem- = 血：甲板下的毛细血管破了，留下一条像木刺的细血线。  
 *Source:* Milady Standard Nail Technology p.107 (PDF 131)
 
 **15. A client has onycholysis, a separation of plate from bed. You should**  
@@ -178,8 +178,8 @@ C. refer the client to a physician. / 建议顾客去看医生。 ✅
 D. treat it with cuticle oil. / 用护甲油处理。  
 *Why:* Milady lists onycholysis as a nail disease, often from injury or allergic reactions. Medical referral is required, so do not service that nail.  
 *为什么:* Milady 把 onycholysis（甲剥离）列为指甲疾病，常由外伤或过敏反应引起。必须转介医生，不能为这片指甲做服务。  
-*Lock this (word-parts):* Lysis = loosening. Even friction heat from aggressive filing can loosen the plate this way.  
-*记重点:* lysis = 松开。连用力锉甲产生的摩擦热，都可能让甲板这样松脱。  
+*Lock this (word-parts):* Lysis = loosening. Even heat from filing too hard can loosen the plate from the bed.  
+*记重点:* lysis = 松开。连用力锉甲产生的摩擦热，都可能让甲板从甲床上松脱。  
 *Source:* Milady Standard Nail Technology p.109 (PDF 133), Milady Standard Nail Technology p.35 (PDF 59)
 
 **16. Onychocryptosis is the technical term for**  
@@ -190,8 +190,8 @@ C. fungal nails. / 真菌感染的指甲。
 D. brittle nails. / 易碎的指甲。  
 *Why:* Onychocryptosis is an ingrown nail: the nail grows into the tissue at its sides. Refuse service and refer the client to a physician.  
 *为什么:* onychocryptosis（嵌甲）是指甲长进两侧的组织里。应拒绝服务，并建议顾客去看医生。  
-*Lock this (word-parts):* Crypto = hidden (Greek), as in a crypt. The nail edge hides inside the skin.  
-*记重点:* crypto = 隐藏（希腊语），crypt 地下墓室也来自它。指甲边缘“藏”进了皮肉里。  
+*Lock this (word-parts):* Crypto- = hidden: the nail's side edge hides in the skin. Not -phagy (eating), myco- (fungus) or -rrhexis (breaking).  
+*记重点:* crypto- = 藏起来：指甲侧边“藏”进旁边的肉里，就是嵌甲。别和 -phagy（吃，咬甲）、myco-（真菌）、-rrhexis（破裂，脆甲）搞混。  
 *Source:* Milady Standard Nail Technology p.109 (PDF 133), Milady Standard Nail Technology p.104 (PDF 128)
 
 **17. Onychomycosis is**  
@@ -202,8 +202,8 @@ C. a separation of plate and bed. / 甲板与甲床分离。
 D. a fungal infection of the nail plate. / 甲板的真菌感染。 ✅  
 *Why:* Onychomycosis is a fungal infection of the nail plate. It may show as whitish patches, yellowish streaks, or a crumbling free edge. Medical referral is required.  
 *为什么:* onychomycosis（甲真菌病）是甲板的真菌感染，可表现为白色斑块、发黄的条纹或游离缘碎裂。必须转介医生。  
-*Lock this (word-parts):* Myco = fungus, as in mycology. It often starts at the free edge, then spreads toward the matrix.  
-*记重点:* myco = 真菌（mycology 真菌学）。它常从游离缘开始，往甲母质方向蔓延。  
+*Lock this (word-parts):* Myco- = fungus. It often starts at the free edge, then spreads toward the matrix.  
+*记重点:* myco- = 真菌。它常从游离缘开始，往甲母质方向蔓延。  
 *Source:* Milady Standard Nail Technology p.109 (PDF 133)
 
 **18. Bacterial inflammation of the tissue around the nail, with pus, is**  
@@ -226,8 +226,8 @@ C. virus. / 病毒。
 D. parasite. / 寄生虫。  
 *Why:* Pseudomonas aeruginosa is a fast-growing, contagious bacterium. Its spot darkens from yellow to green to brown to black. Medical referral is required.  
 *为什么:* Pseudomonas aeruginosa（铜绿假单胞菌）是一种生长迅速、会传染的细菌。斑点会从黄变绿、变棕再变黑。必须转介医生。  
-*Lock this (word-origin):* Aeruginosa comes from the Latin for copper rust, the green coating on old copper roofs.  
-*记重点:* aeruginosa 来自拉丁语的“铜锈”，就是旧铜屋顶上那层绿色。中文“铜绿”也是同一个意思。  
+*Lock this (real-life):* On a hospital disinfectant label, Pseudomonas is listed with MRSA: both are bacteria the product kills.  
+*记重点:* 医院级消毒剂（hospital disinfectant）的标签上，Pseudomonas 和 MRSA 列在一起：两种都是它能杀死的细菌。  
 *Source:* Milady Standard Nail Technology p.110 (PDF 134)
 
 **20. Pitting, roughness, and onycholysis on the nail may be signs of**  
@@ -238,6 +238,6 @@ C. nail psoriasis. / 甲银屑病（nail psoriasis）。 ✅
 D. onychophagy. / 咬甲癖（onychophagy）。  
 *Why:* Nail psoriasis is noninfectious. It causes surface pitting, roughness, onycholysis, and nail bed discoloration. The plate can look as if filed with a coarse abrasive.  
 *为什么:* nail psoriasis（甲银屑病）不具传染性，会造成甲面凹点、粗糙、甲剥离和甲床变色。甲板看起来像被粗砂锉锉过。  
-*Lock this (picture):* Picture the dents on a sewing thimble. Psoriasis also makes red, silvery-scaled patches on the skin.  
-*记重点:* 想象缝纫用的顶针上的小凹坑。银屑病在皮肤上还会出现覆盖银白鳞屑的红斑。  
+*Lock this (picture):* Picture tiny dents, like on a golf ball. On skin, psoriasis makes red patches with silver-white scales.  
+*记重点:* 想象高尔夫球表面那种小凹坑。银屑病在皮肤上会出现覆盖银白色鳞屑的红斑。  
 *Source:* Milady Standard Nail Technology p.106 (PDF 130), Milady Standard Nail Technology p.113 (PDF 137), Milady Standard Nail Technology p.83 (PDF 107)

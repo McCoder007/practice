@@ -790,8 +790,8 @@
         "zh": "polish、enamel、lacquer、varnish 都是营销用语，指成分相似的同一类产品：涂在甲面上的溶剂型有色膜。"
       },
       "lockPoint": {
-        "en": "Lacquer, enamel, and varnish first named finishes for wood and metal; nail brands borrowed those fancy names for one product.",
-        "zh": "lacquer（漆）、enamel（搪瓷/珐琅）、varnish（清漆）原本是木器和金属表面涂层的名称，甲油品牌借来给同一种产品起好听的名字。"
+        "en": "One thing, many names. Polish, enamel, lacquer, varnish: four names, one product.",
+        "zh": "就像“土豆”“马铃薯”“洋芋”：三个名字，同一种东西。polish、enamel、lacquer、varnish：四个名字，同一类产品。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -812,7 +812,7 @@
           "quote": "Polish is a generic term describing any type of solvent-based colored film applied to the nail plate"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "comparison"
     },
     {
       "id": "nic-5c-14",
@@ -848,7 +848,7 @@
         "zh": "亮油涂在有色甲油上，防止剥落，并做出亮面或哑光（matte）效果。其中的成膜剂（常为甲基丙烯酸类或纤维素类）在溶剂挥发后形成坚硬的膜。"
       },
       "lockPoint": {
-        "en": "封层: 封 = seal, as in 封口 (seal an envelope). The top layer seals the color in.",
+        "en": "The Chinese name means \"seal layer\": the top coat seals the color in.",
         "zh": "封层：封 = 封口的封。最上面一层把颜色封在里面。"
       },
       "teachingRelation": "definition",

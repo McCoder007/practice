@@ -174,8 +174,8 @@
         "zh": "谢谢客人之后，陪客人到前台（front desk）预约下次服务并付款，定好日期、时间和服务项目。"
       },
       "lockPoint": {
-        "en": "Book before the door: once clients leave, the next visit is easy to put off.",
-        "zh": "出门前就约好：客人一走，下次就容易一拖再拖。"
+        "en": "Book before they leave: once clients walk out, the next visit is easy to forget.",
+        "zh": "走之前就约好：客人一出门，下次就容易忘了。"
       },
       "teachingRelation": "list",
       "authorityRefs": [
@@ -620,8 +620,8 @@
         "zh": "拆下 impeller covers（叶轮盖）和其他可拆部件，用液体皂（liquid soap）、干净消毒过的刷子和温水，刷洗部件和它们后面的地方，去掉所有残留物。"
       },
       "lockPoint": {
-        "en": "Residue hides behind impeller covers, and foot spas can harbor sticky biofilm there.",
-        "zh": "残留物藏在叶轮盖后面，足浴盆里会长出黏黏的生物膜（biofilm）。"
+        "en": "Dirt hides behind the impeller covers, and a sticky germ layer (biofilm) can grow there.",
+        "zh": "脏东西藏在叶轮盖后面，那里还会长出一层黏黏的细菌膜（biofilm）。"
       },
       "teachingRelation": "list",
       "authorityRefs": [
@@ -688,8 +688,8 @@
         "zh": "每天营业结束时，用 chelating detergent（螯合清洁剂）循环 5 到 10 分钟，分解顽固膜层和足疗产品残留。然后排水、冲洗、注水，再消毒。"
       },
       "lockPoint": {
-        "en": "Chelate comes from Greek for a crab’s claw: it grabs the minerals in hard water.",
-        "zh": "螯 = 螃蟹的大钳子：螯合剂像蟹钳一样，夹住硬水里的矿物质。"
+        "en": "Its Chinese name uses the word for a crab's claw: it grabs hard-water minerals and breaks up stuck-on film.",
+        "zh": "螯 = 螃蟹的大钳子：螯合剂像蟹钳一样，夹住硬水里的矿物质，还能分解顽固的膜层。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -726,7 +726,7 @@
           "quote": "are specially formulated to work in areas with hard tap water."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "chinese-character"
     },
     {
       "id": "nic-8a-12",
@@ -762,8 +762,8 @@
         "zh": "每周一次，在每日收工清洁之后，不要排掉消毒液（disinfecting solution）。关掉机器，让消毒液留在里面过夜。第二天早上排水、冲洗、注水并冲洗管路。"
       },
       "lockPoint": {
-        "en": "Three rhythms: every client, 10 minutes; every day, chelating detergent first; every week, overnight.",
-        "zh": "三个节奏：每位客人后循环 10 分钟；每天收工先用螯合清洁剂；每周一次消毒液过夜。"
+        "en": "Three times to remember: every client, 10 minutes; every day, chelating detergent first; every week, overnight.",
+        "zh": "三个时间点：每位客人后循环 10 分钟；每天收工先用螯合清洁剂；每周一次消毒液过夜。"
       },
       "teachingRelation": "number",
       "authorityRefs": [

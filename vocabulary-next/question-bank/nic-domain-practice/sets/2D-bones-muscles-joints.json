@@ -52,8 +52,8 @@
         "zh": "humerus（肱骨）是手臂最上面、最大的骨头，从肘部一直延伸到肩部。"
       },
       "lockPoint": {
-        "en": "Humerus is Latin for shoulder or upper arm. In Chinese, 肱 in 肱骨 also means upper arm.",
-        "zh": "humerus 是拉丁语的“肩、上臂”。中文“肱骨”的“肱”也是上臂的意思。"
+        "en": "Squeeze your upper arm: one big bone from shoulder to elbow. The forearm has two: radius and ulna.",
+        "zh": "捏一捏上臂：从肩膀到手肘只有一根大骨头，就是 humerus（肱骨），“肱”就是上臂。前臂有两根：radius 和 ulna。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -70,7 +70,7 @@
           "quote": "Humerus (HYOO-muh-rus). The uppermost and largest bone of the arm, extending from the elbow to the shoulder."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-2d-02",
@@ -106,8 +106,8 @@
         "zh": "ulna（尺骨）是前臂较长的骨头，肘部一端比腕部一端粗，位于手的小指一侧。"
       },
       "lockPoint": {
-        "en": "Ulna is Latin for elbow or arm. Feel the point of your elbow: that knob is the ulna.",
-        "zh": "ulna 是拉丁语的“肘、手臂”。摸摸你手肘尖：那个骨突就是尺骨。"
+        "en": "Feel the point of your elbow: that knob is the ulna. It runs down to your little finger side.",
+        "zh": "摸摸手肘尖：那个骨突就是 ulna（尺骨）。它顺着前臂一直通到小指那一侧。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -124,7 +124,7 @@
           "quote": "Ulna (UL-nuh). The longer bone of the forearm. It is larger at the elbow than at the wrist and is located on the little finger side of the hand."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-2d-03",
@@ -298,8 +298,8 @@
         "zh": "metacarpus（掌骨）是手掌的骨头：位于腕骨和手指骨之间的五块骨头。"
       },
       "lockPoint": {
-        "en": "Meta = after or beyond (Greek). Meta-carpus = the bones just beyond the wrist.",
-        "zh": "meta = 在……之后、超出（希腊语）。meta-carpus 就是“腕骨之后”的骨头。"
+        "en": "Carpus = wrist. Meta-carpus = the bones after the wrist. Feel five long bones on the back of your hand.",
+        "zh": "carpus = 腕，meta- = 在……之后：metacarpus 就是腕骨之后的掌骨。摸摸手背，能摸到五根长骨。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -352,8 +352,8 @@
         "zh": "phalanges（指骨/趾骨）是手指或脚趾的骨头，也叫 digits。每只脚有 14 块。"
       },
       "lockPoint": {
-        "en": "A phalanx was a line of Greek soldiers standing in rows. Finger bones line up the same way.",
-        "zh": "phalanx 是古希腊排成一列列的士兵方阵。手指骨也是这样一节一节排成行。"
+        "en": "Bend one finger: you see three parts. Each part is one phalanx. The thumb has only two.",
+        "zh": "弯一弯手指：能看到三节，每一节就是一块指骨（phalanx，复数 phalanges）。拇指只有两节。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -380,7 +380,7 @@
           "quote": "14 bones called phalanges, which compose the toes"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-2d-07",
@@ -600,8 +600,8 @@
         "zh": "踝关节由三块骨头组成：来自小腿的胫骨和腓骨，以及足部的 talus（距骨，即踝骨）。"
       },
       "lockPoint": {
-        "en": "Talus is Latin for ankle bone. It sits right under the tibia and carries the body's weight.",
-        "zh": "talus 是拉丁语的“踝骨”。它就在胫骨正下方，承接全身的重量。"
+        "en": "Talus = ankle bone, right under the tibia. Calcaneus = heel bone. Don't mix them up.",
+        "zh": "talus（距骨）= 踝骨，就在胫骨正下方；calcaneus（跟骨）= 脚后跟的骨头。两个别搞混。"
       },
       "teachingRelation": "list",
       "authorityRefs": [
@@ -622,7 +622,7 @@
           "quote": "The talus (TA-lus), or ankle bone, of the foot."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "contrast"
     },
     {
       "id": "nic-2d-11",
@@ -658,8 +658,8 @@
         "zh": "femur（股骨）是构成膝盖以上腿部的又重又长的骨头。胫骨和腓骨构成膝盖以下的小腿。"
       },
       "lockPoint": {
-        "en": "Femur is Latin for thigh. Nail technicians may serve the leg only below the knee.",
-        "zh": "femur 是拉丁语的“大腿”。美甲师只能为膝盖以下的腿部提供服务。"
+        "en": "Put a hand on your thigh: the femur is inside. Your shin is the tibia; your kneecap is the patella.",
+        "zh": "手放在大腿上：里面那根大骨头就是 femur（股骨）。小腿前面是 tibia（胫骨），膝盖骨是 patella（髌骨）。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -690,7 +690,7 @@
           "quote": "feet, and legs (below the knee)"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-2d-12",
@@ -726,8 +726,8 @@
         "zh": "关节连接骨头。可动关节包括肘、膝、髋；不动关节，例如颅骨或骨盆，几乎不能活动。"
       },
       "lockPoint": {
-        "en": "The bones around the brain meet at zigzag seams that interlock like puzzle pieces.",
-        "zh": "包住大脑的颅骨靠锯齿状的骨缝像拼图一样咬合在一起。"
+        "en": "Bend your elbow, knee, and hip: they move. Press on your head: the skull bones don't move.",
+        "zh": "弯一弯手肘、膝盖和髋部：它们都能动。按一按头：颅骨不会动。"
       },
       "teachingRelation": "category",
       "authorityRefs": [
@@ -754,7 +754,7 @@
           "quote": "knees, and hips; and immovable, such as the pelvis or skull, which allows little or no movement."
         }
       ],
-      "hookType": "picture"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-2d-13",
@@ -906,8 +906,8 @@
         "zh": "pronators（旋前肌）让手向内转、掌心朝下。supinator（旋后肌）让桡骨向外转、掌心朝上。"
       },
       "lockPoint": {
-        "en": "Lying prone = face down; lying supine = face up. The palm follows the same rule.",
-        "zh": "英文 prone = 脸朝下趴着，supine = 脸朝上躺着。掌心朝向也按这个规则记。"
+        "en": "Hold your hand out, palm up. Turn it palm down: pronators do that. Supinators turn it back up.",
+        "zh": "手伸出来，掌心朝上；再翻成掌心朝下：这是 pronators（旋前肌）的动作。翻回朝上的是 supinators（旋后肌）。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -928,7 +928,7 @@
           "quote": "Supinator (SOO-puh-nayt-er). Muscle of the forearm that rotates the radius (forearm) outward and the palm upward."
         }
       ],
-      "hookType": "word-link"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-2d-16",
@@ -964,8 +964,8 @@
         "zh": "deltoid（三角肌）是覆盖肩关节的大块三角形肌肉，让手臂向外、向身体侧面抬起。"
       },
       "lockPoint": {
-        "en": "Named for delta (Δ), the Greek letter shaped like a triangle. A river delta has the same shape.",
-        "zh": "名字来自希腊字母 delta（Δ），形状就是三角形。河流三角洲（delta）也是这个形状。"
+        "en": "Lift your arm out to the side. Feel the triangle-shaped muscle that gets hard on your shoulder: deltoid.",
+        "zh": "把手臂向侧面抬起，摸摸肩膀：变硬的那块三角形肌肉就是三角肌（deltoid），中文名“三角”直接说出了形状。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -982,7 +982,7 @@
           "quote": "Deltoid (DEL-toyd). Large, triangular muscle covering the shoulder joint that allows the arm to extend outward and to the side of the body."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-2d-17",
@@ -1072,8 +1072,8 @@
         "zh": "sural nerve（腓肠神经）支配足部和小腿外侧及后面的皮肤。saphenous nerve（隐神经）支配内侧。"
       },
       "lockPoint": {
-        "en": "Sura is Latin for calf. The Chinese 腓肠 also means calf: the nerve runs down the back of it.",
-        "zh": "sura 是拉丁语“小腿肚”。中文“腓肠”也是小腿肚的意思：这条神经沿小腿肚后面往下走。"
+        "en": "Sural runs down the back of your calf to the outer foot. Saphenous runs down the inner side.",
+        "zh": "中文“腓肠神经”的“腓肠”就是小腿肚：它管腿和脚的外侧、后侧。saphenous（隐神经）管内侧。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -1094,7 +1094,7 @@
           "quote": "The saphenous nerve (sa-FEEN-us NURV) supplies impulses to the skin of the inner side of the leg and foot."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "chinese-character"
     },
     {
       "id": "nic-2d-19",
@@ -1130,8 +1130,8 @@
         "zh": "dorsalis pedis artery（足背动脉）为足部供血，它由沿小腿下行的胫前动脉（anterior tibial artery）延续而来。"
       },
       "lockPoint": {
-        "en": "Pedis = of the foot (pedicure); dorsalis = back, the top. Feel its pulse on top of the foot.",
-        "zh": "pedis = 足的（pedicure 足部护理），dorsalis = 背面，指脚背。在脚背上能摸到它的脉搏。"
+        "en": "Pedis = foot, as in pedicure. Dorsalis = the top of the foot, where this artery runs.",
+        "zh": "pedis = 足（pedicure 足部护理），dorsalis = 脚背。这条动脉沿着脚背走。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -1188,8 +1188,8 @@
         "zh": "gastrocnemius（腓肠肌）附着在脚跟后下方，把脚往下拉。胫骨前肌（tibialis anterior）在小腿前面，把脚往上勾。"
       },
       "lockPoint": {
-        "en": "Greek gaster = belly, kneme = leg: the \"belly of the leg,\" the bulge of your calf.",
-        "zh": "希腊语 gaster = 肚子，kneme = 小腿：“小腿的肚子”，就是小腿肚鼓起的那块。"
+        "en": "Stand on your toes and feel your calf get hard. That muscle pulls your foot down: gastrocnemius.",
+        "zh": "踮起脚尖，摸摸小腿肚：变硬鼓起的那块就是腓肠肌（gastrocnemius），它把脚往下压。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -1210,7 +1210,7 @@
           "quote": "The tibialis anterior (tib-ee-AHL-is an-TEER-ee-or) covers the front of the shin. It bends the foot upward and inward."
         }
       ],
-      "hookType": "word-parts"
+      "hookType": "body-cue"
     }
   ],
   "review": {

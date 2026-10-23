@@ -52,8 +52,8 @@
         "zh": "onyx（甲）是 natural nail（天然指甲）的专业名称，指保护手指和脚趾末端的坚硬甲板。"
       },
       "lockPoint": {
-        "en": "Onyx is Greek for nail or claw. It is the onycho- in onychomycosis and other nail terms.",
-        "zh": "onyx 在希腊语里是“指甲、爪”的意思。onychomycosis（甲真菌病）等指甲术语里的 onycho- 就来自它。"
+        "en": "Onyx = the nail itself. Onycho- at the start of a word also means nail, as in onycholysis.",
+        "zh": "onyx = 指甲本身。很多指甲病名开头的 onycho- 也是“指甲”的意思，例如 onycholysis（甲剥离）。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -70,7 +70,7 @@
           "quote": "The natural nail itself is technically referred to as the onyx"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "word-parts"
     },
     {
       "id": "nic-2a-02",
@@ -106,8 +106,8 @@
         "zh": "指甲主要由 keratin（角蛋白）构成，这种纤维状蛋白质也存在于皮肤和头发中。指甲里的角蛋白比头发和皮肤里的更耐用。"
       },
       "lockPoint": {
-        "en": "Keratin comes from Greek keras, horn. Horn sheaths and horse hooves are keratin too.",
-        "zh": "角蛋白的“角”就是动物的角：牛角外壳、马蹄都是角蛋白。英文 keratin 也来自希腊语 keras（角）。"
+        "en": "Melanin gives skin its color. Collagen and elastin are in the dermis. The hard nail plate is keratin.",
+        "zh": "角蛋白的“角”= 牛角的“角”，又硬又结实。melanin（黑色素）管颜色，collagen（胶原蛋白）和 elastin（弹性蛋白）在真皮里。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -128,7 +128,7 @@
           "quote": "The keratin in natural nails is more durable than the keratin in hair or skin."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "contrast"
     },
     {
       "id": "nic-2a-03",
@@ -164,8 +164,8 @@
         "zh": "matrix（甲母质）是生成甲板细胞的部位。只要它保持健康、营养充足，就会不断制造新的甲板细胞。"
       },
       "lockPoint": {
-        "en": "Matrix comes from Latin mater, \"mother\": the nail plate is born there.",
-        "zh": "甲母质的“母”= 母亲：甲板在这里“出生”。英文 matrix 也源自拉丁语 mater（母亲）。"
+        "en": "The matrix is like the nail's mother: new nail cells are born here. The nail bed only holds the plate.",
+        "zh": "甲母质的“母”= 母亲：新的甲板细胞在这里“出生”。甲床（nail bed）只是托住甲板。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -186,7 +186,7 @@
           "quote": "the matrix will continue to create new nail plate cells"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "chinese-character"
     },
     {
       "id": "nic-2a-04",
@@ -222,8 +222,8 @@
         "zh": "lunula（甲半月）是甲板根部发白的半月形。它是 matrix（甲母质）露出来的部分，光线从甲母质表面反射，所以看起来发白。"
       },
       "lockPoint": {
-        "en": "Luna = moon, -ula = little: a \"little moon.\" Everyone has one, but some stay hidden under the skin fold.",
-        "zh": "luna = 月亮，-ula = 小：lunula 就是“小月亮”。人人都有，但有些藏在近端甲襞下面看不见。"
+        "en": "Lunula = the little moon. Everyone has one, but some stay hidden under the proximal nail fold.",
+        "zh": "甲半月的“半月”= 半个月亮。人人都有，但有些比较短，藏在近端甲襞下面看不见。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -244,7 +244,7 @@
           "quote": "Everyone has a lunula, but not all lunulas are visible"
         }
       ],
-      "hookType": "word-parts"
+      "hookType": "chinese-character"
     },
     {
       "id": "nic-2a-05",
@@ -280,8 +280,8 @@
         "zh": "cuticle（甲小皮）是粘在甲板上的无色死组织。它形成一道密封，防止病菌钻到皮肤下面。"
       },
       "lockPoint": {
-        "en": "Cuticle is Latin for \"little skin.\" It rides out on top of the plate as the nail grows.",
-        "zh": "cuticle 源自拉丁语，意思是“小皮”。指甲长出来时，它就贴在甲板上面一起被带出来。"
+        "en": "Of these four, only the cuticle is dead. It rides out on top of the plate as the nail grows.",
+        "zh": "四个选项里只有 cuticle（甲小皮）是死的；eponychium、hyponychium 和侧甲襞都是活皮肤。指甲往外长时，甲小皮就贴在甲板上被带出来。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -302,7 +302,7 @@
           "quote": "The cuticle forms an important seal between the PNF and nail plate"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "contrast"
     },
     {
       "id": "nic-2a-06",
@@ -338,8 +338,8 @@
         "zh": "eponychium（甲上皮）是近端甲襞（proximal nail fold）底面的活皮肤，甲小皮就是它生成的。甲小皮是死的，甲上皮是活的。"
       },
       "lockPoint": {
-        "en": "Ep(i) = upon, onych = nail: the eponychium sits upon the base of the nail.",
-        "zh": "ep(i) = 在……上面，onych = 指甲：甲上皮就盖在指甲根部的上面。"
+        "en": "Epi- = on top: the eponychium sits on the nail base. The matrix makes the plate, not the cuticle.",
+        "zh": "epi- = 在上面：eponychium（甲上皮）盖在指甲根部上面。matrix（甲母质）造的是甲板，不是甲小皮。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -392,8 +392,8 @@
         "zh": "hyponychium（甲下皮）形成一道屏障，阻止病菌侵入甲床。如果它受损，甲板可能与甲床分离，甲下就可能感染。"
       },
       "lockPoint": {
-        "en": "Hypo = under, as in hypodermic (under the skin) needle. Hyponychium = the skin under the nail tip.",
-        "zh": "hypo = 在下面（hypodermic 皮下注射针也是这个词根）。hyponychium 就是指甲尖下面的皮肤。"
+        "en": "Hypo- = under, epi- = on top. Hyponychium: under the nail tip. Eponychium: at the nail base.",
+        "zh": "hypo- = 在下面，epi- = 在上面。hyponychium（甲下皮）在指甲尖下面；eponychium（甲上皮）在指甲根部。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -624,8 +624,8 @@
         "zh": "specialized ligaments（特化韧带）把甲床和甲母质（matrix bed）连接到下面的骨头上，位于甲母质根部和甲床边缘周围。"
       },
       "lockPoint": {
-        "en": "Ligament comes from Latin ligare, \"to bind.\" Like ropes, they tie the nail unit to the fingertip bone.",
-        "zh": "ligament 源自拉丁语 ligare（捆绑）。韧带像绳子一样，把指甲单元绑在指尖骨上。"
+        "en": "A ligament is a tough band, like a strong rope. Ligaments also hold your eight wrist bones together.",
+        "zh": "韧带的“韧”= 结实、拉不断，像一根结实的绳子。手腕的 8 块腕骨也是靠韧带连在一起的。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -646,7 +646,7 @@
           "quote": "They are located at the base of the matrix and around the edges of the nail bed."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "picture"
     },
     {
       "id": "nic-2a-12",
@@ -682,8 +682,8 @@
         "zh": "lateral nail fold（侧甲襞）也叫 sidewall（侧壁），是覆盖指甲侧面的皮肤褶。甲襞在指甲两侧形成 nail groove（甲沟）。"
       },
       "lockPoint": {
-        "en": "Lateral comes from Latin latus, \"side.\" Proximal = near the base; lateral = along the sides.",
-        "zh": "lateral 源自拉丁语 latus（侧面）。proximal = 靠近根部；lateral = 在两侧。"
+        "en": "Lateral = side; proximal = near the base. Its other name, sidewall, tells you where it is.",
+        "zh": "lateral = 侧面，proximal = 靠近根部。侧甲襞（lateral nail fold）的另一个名字 sidewall（侧墙）就说明了它的位置。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -704,7 +704,7 @@
           "quote": "These folds form the nail groove (NAYL GROOV) on each side of the nail."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "contrast"
     },
     {
       "id": "nic-2a-13",
@@ -740,8 +740,8 @@
         "zh": "儿童的指甲长得更快，老年人的指甲长得更慢。此外，指甲夏天比冬天长得快。"
       },
       "lockPoint": {
-        "en": "With age, parts of the matrix slow down for good; that is also why older nails show lengthwise grooves.",
-        "zh": "年纪越大，甲母质有些部位会永久减慢生长；这也是老年人指甲出现纵向凹槽的原因。"
+        "en": "With age, parts of the matrix slow down forever. Older nails then get grooves from base to tip.",
+        "zh": "年纪越大，甲母质有些部位会永久减慢生长；所以老年人的指甲会出现从根部到指尖的纵向凹槽。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -984,7 +984,7 @@
         "zh": "怀孕最后三个月（last trimester）的荷尔蒙变化会让指甲长得快很多，分娩后恢复正常。孕期维生素并不是原因。"
       },
       "lockPoint": {
-        "en": "Prenatal vitamins are taken all pregnancy, yet the speed-up comes only in the last three months: hormones, not vitamins.",
+        "en": "Women take prenatal vitamins all through pregnancy. Nails speed up only in the last three months: hormones, not vitamins.",
         "zh": "孕期维生素通常整个孕期都在吃，指甲却只在最后三个月猛长：原因是荷尔蒙，不是维生素。"
       },
       "teachingRelation": "association",

@@ -188,8 +188,8 @@
         "zh": "从中间下笔，先把刷子稍微往后推，让靠近死皮处的边缘呈圆弧，再沿中间往下拉。然后两侧各涂一笔。"
       },
       "lockPoint": {
-        "en": "Frosted or iridescent polish? Keep strokes light and parallel to the sidewalls to avoid shadow lines.",
-        "zh": "珠光（frosted）或幻彩（iridescent）甲油：笔触要轻，并与甲侧壁平行，才不会留下阴影线。"
+        "en": "Stroke 1 is the nose, down the middle. Strokes 2 and 3 are the cheeks, one per side.",
+        "zh": "第一笔像鼻子：在脸的正中间往下。第二、三笔像两边脸颊，左右各一笔。"
       },
       "teachingRelation": "sequence",
       "authorityRefs": [
@@ -224,7 +224,7 @@
           "quote": "you must make sure the strokes are light and parallel to the sidewalls of the nail to avoid shadow lines in the polish."
         }
       ],
-      "hookType": "real-life"
+      "hookType": "picture"
     },
     {
       "id": "nic-6d-04",
@@ -578,8 +578,8 @@
         "zh": "上甲油前，请顾客戴好首饰、穿好外套，准备好车钥匙。可以的话，先付款。这样能避免弄花刚涂好的甲油。"
       },
       "lockPoint": {
-        "en": "Picture wet polish meeting a zipper, a purse clasp, or a ring. Do all of that before the color.",
-        "zh": "想象刚涂好的甲油碰到拉链、包扣或戒指。这些事都要在上色之前做完。"
+        "en": "Picture wet polish meeting a zipper, a bag, or a ring. Do all of that before the color.",
+        "zh": "想象刚涂好的甲油碰到拉链、包包或戒指。这些事都要在上色之前做完。"
       },
       "teachingRelation": "sequence",
       "authorityRefs": [
@@ -756,7 +756,7 @@
         "zh": "血液循环不良，或有割伤、烧伤、皮疹、疣、湿疹等皮肤问题的顾客，要避免蜡疗。皮肤干燥、老茧和关节炎疼痛反而是顾客喜欢蜡疗的原因。"
       },
       "lockPoint": {
-        "en": "Seniors and chronically ill clients: ask for a written physician's permission before paraffin.",
+        "en": "Older clients and clients with long-term illness: ask for a doctor's note before paraffin.",
         "zh": "老年人和慢性病顾客：做蜡疗前，请他们先带医生的书面许可来。"
       },
       "teachingRelation": "safety-rule",
@@ -1024,8 +1024,8 @@
         "zh": "大多数水疗修手包含放松按摩，而所有水疗修手都有某种形式的去角质（exfoliation），让皮肤光滑，并帮助专业产品渗透。"
       },
       "lockPoint": {
-        "en": "Exfoliate: Latin ex = off, folium = leaf. Dead skin comes off like falling leaves.",
-        "zh": "exfoliate：拉丁语 ex = 脱落，folium = 叶子。死皮像落叶一样脱落。"
+        "en": "Exfoliate = scrub off dead skin, like a sugar scrub. Every spa manicure has it; paraffin and stones, only some.",
+        "zh": "exfoliate（去角质）= 把死皮磨掉，就像用砂糖磨砂膏。每种水疗修手都有这一步；蜡疗和热石只有一部分才有。"
       },
       "teachingRelation": "category",
       "authorityRefs": [
@@ -1042,7 +1042,7 @@
           "quote": "Most include a relaxing massage, and all contain some form of exfoliation for polishing and smoothing the skin as well as enhancing the penetration of professional products."
         }
       ],
-      "hookType": "word-parts"
+      "hookType": "picture"
     },
     {
       "id": "nic-6d-17",
@@ -1078,8 +1078,8 @@
         "zh": "颗粒太粗的磨砂膏会在皮肤上留下看不见的细小划痕。这些开口是致病微生物的入口（portals of entry）。"
       },
       "lockPoint": {
-        "en": "Portal comes from Latin porta, \"gate.\" Each tiny scratch is a gate left open for germs.",
-        "zh": "portal 来自拉丁语 porta，意思是“门”。每一道细小划痕，都是给病菌留的一扇门。"
+        "en": "A portal is a door. Each tiny scratch is an open door that lets germs in.",
+        "zh": "portal of entry（入口）就是一扇门。每一道细小划痕，都是给病菌开着的门。"
       },
       "teachingRelation": "safety-reason",
       "authorityRefs": [
@@ -1096,7 +1096,7 @@
           "quote": "Avoid excessively abrasive scrubs since they may leave tiny, invisible scratches on clients’ skin that can be portals of entry for pathogenic microorganisms."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "picture"
     },
     {
       "id": "nic-6d-18",
@@ -1264,8 +1264,8 @@
         "zh": "蜡疗能把水分锁在皮肤里，温热的蜡还能促进皮肤的血液循环。这是一项奢华的附加服务，大多数顾客都可以做。"
       },
       "lockPoint": {
-        "en": "Cold day outside? Many clients remember paraffin's warm feeling, so offer it as a stand-alone service.",
-        "zh": "外面天冷？很多顾客会记得蜡疗的温暖感觉，所以可以把它作为单独项目推出。"
+        "en": "Warm wax wraps the hand like plastic wrap on food: water can't get out, so skin stays soft.",
+        "zh": "温热的蜡把手包起来，就像保鲜膜包住食物：水分跑不出去，皮肤就保持柔软。"
       },
       "teachingRelation": "function",
       "authorityRefs": [
@@ -1296,7 +1296,7 @@
           "quote": "when the temperature is cold outside, many clients remember the warm feeling the paraffin provides."
         }
       ],
-      "hookType": "real-life"
+      "hookType": "picture"
     }
   ]
 }

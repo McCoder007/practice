@@ -70,7 +70,7 @@ C. Disinfect it before use / 使用前给它消毒
 D. Thin it for easier brushing / 把它变稀，好刷  
 *Why:* Many clients call them dryers, but UV and LED light units cure, not dry. Their light starts a reaction in the gel. Regular polish dries when its solvents evaporate.  
 *为什么:* 很多顾客把它们叫“烘干机”，但 UV 和 LED 灯是固化（cure），不是吹干（dry）。灯光让甲油胶发生反应。普通指甲油是溶剂挥发后才变干。  
-*Lock this (chinese-character):* 固化 = 固 (solid) + 化 (change): the light changes liquid gel into a solid.  
+*Lock this (chinese-character):* The Chinese word means "become solid": the light changes liquid gel into a solid.  
 *记重点:* 固化：固 = 固体，化 = 变化。灯光把液态的凝胶变成固体。  
 *Source:* Milady Standard Nail Technology p.139 (PDF 163), Milady Standard Nail Technology p.354 (PDF 378)
 
@@ -94,7 +94,7 @@ C. Cools the client's skin after use / 用完后给顾客皮肤降温
 D. Measures the client's body temperature / 测量顾客的体温  
 *Why:* The thermostat keeps paraffin at the ideal temperature for hands and feet. Never dip the client directly into the tub; scoop wax into a bag. Used paraffin is thrown away.  
 *为什么:* 恒温器让石蜡保持在适合手脚的温度。不要把顾客的手脚直接浸进蜡锅；要把蜡舀进袋子里用。用过的蜡要丢弃。  
-*Lock this (word-parts):* Thermo = heat, stat = standing still. A thermostat holds the heat at one level, like 恒 in 恒温.  
+*Lock this (word-parts):* Thermo = heat, stat = stay still. A thermostat keeps the heat at one level.  
 *记重点:* thermo = 热，stat = 停住不动。恒温器让温度停在一个水平；恒温的“恒”就是一直不变。  
 *Source:* Milady Standard Nail Technology p.140 (PDF 164), Milady Standard Nail Technology p.141 (PDF 165)
 
@@ -106,8 +106,8 @@ C. its power to keep turning under pressure. / 受压时继续转动的力量。
 D. the coarseness of the bit. / 磨头的粗糙程度。  
 *Why:* Torque is the machine's power, its ability to keep turning when you press during filing. High-torque machines do more at lower speeds. If the handpiece slows or stops under pressure, the speed is too low.  
 *为什么:* 扭力（torque）是机器的力量，也就是打磨时受压仍能继续转动的能力。高扭力机器在较低转速下就能做更多。手柄一受压就变慢或停转，说明转速太低。  
-*Lock this (word-origin):* Torque comes from Latin torquere, to twist: the force that keeps the bit turning. 扭 = twist, too.  
-*记重点:* torque 来自拉丁语 torquere（扭转）：让磨头一直转下去的力。中文“扭力”的“扭”也是扭转。  
+*Lock this (chinese-character):* The Chinese name means "twisting power." Torque is turning power, not top speed.  
+*记重点:* torque = 扭力：扭 = 扭转，力 = 力量。是压下去时还能继续转的力量，不是最高转速（那是 RPM）。  
 *Source:* Milady Standard Nail Technology p.231 (PDF 255)
 
 **10. Which pedicure footbath is not portable?**  
@@ -118,8 +118,8 @@ C. A foot basin filled through sink hoses / 用水槽软管注水的泡脚盆
 D. A footbath with a disposable liner / 带一次性内衬的泡脚盆  
 *Why:* The fully plumbed whirlpool bath with an attached pedicure chair is not portable; some connect to hot and cold water and a drain. Basins and hose-filled whirlpool baths can be moved.  
 *为什么:* 与修脚椅相连、接好水管的按摩浴盆（whirlpool bath）不能移动；有的直接接冷热水和下水道。普通盆和用软管注水的按摩盆都可以移动。  
-*Lock this (word-origin):* Plumbed comes from Latin plumbum, lead: old water pipes were lead. Pipes in the wall can't travel.  
-*记重点:* plumbed 来自拉丁语 plumbum（铅），古代水管用铅做。接进墙里的水管搬不走。  
+*Lock this (word-link):* Plumbed looks like "plumber": the water pipes go into the wall. Like a kitchen sink, it can't move.  
+*记重点:* plumbed 看起来像 plumber（水管工）：水管接进墙里。就像厨房水槽一样，搬不走。  
 *Source:* Milady Standard Nail Technology p.194 (PDF 218)
 
 **11. Which causes heat to build up on the nail during electric filing?**  
@@ -142,8 +142,8 @@ C. Loosely, with just the fingertips / 只用指尖松松地捏着
 D. Pointed straight down at the nail / 垂直朝下对着指甲  
 *Why:* Hold the handpiece like a pencil, with a firm, steady grip that is not so tight your hands cramp. Rest your forearms on the table and brace with a pinky as the fulcrum.  
 *为什么:* 像握铅笔一样握手柄，握得稳但不要太紧，否则手会抽筋。前臂放在桌上，用小指当支点（fulcrum）稳住双手。  
-*Lock this (word-origin):* Fulcrum is Latin for a prop: your pinky props one hand against the other, like a seesaw's pivot.  
-*记重点:* fulcrum 在拉丁语里是“支撑物”：小指把两只手撑在一起，就像跷跷板中间的支点。  
+*Lock this (body-cue):* Touch the tip of one pinky to the other pinky's tip. That fulcrum makes both hands work as one, steady.  
+*记重点:* 把一只手的小指指尖顶住另一只手的小指指尖：这就是支点（fulcrum），让两只手和打磨机连成一体，更稳。  
 *Source:* Milady Standard Nail Technology p.238 (PDF 262), Milady Standard Nail Technology p.249 (PDF 273)
 
 **13. In a micromotor electric file, where is the motor?**  
@@ -166,8 +166,8 @@ C. the heat on the nail surface. / 指甲表面的温度。
 D. the grit size of the bit. / 磨头的粗细（grit）。  
 *Why:* RPM means revolutions per minute: how many full circles the bit spins in one minute. Working in the middle of the machine's range makes the motor last longer.  
 *为什么:* RPM = revolutions per minute（每分钟转数），即磨头一分钟转几整圈。在机器转速范围的中间档工作，电机更耐用。  
-*Lock this (word-origin):* Revolution and revolve share Latin revolvere, 'to roll back': one revolution is one full turn of the bit.  
-*记重点:* revolution 和 revolve（旋转）同源，都来自拉丁语 revolvere（re- 回 + volvere 滚动）：一个 revolution 就是磨头转一整圈。  
+*Lock this (real-acronym):* R = Revolutions (full turns), P = Per, M = Minute. Like a car's speedometer, but for the bit.  
+*记重点:* RPM：R = Revolutions（整圈），P = Per（每），M = Minute（分钟），就是每分钟转几整圈。教材说：把 RPM 想成汽车的速度表。  
 *Source:* Milady Standard Nail Technology p.231 (PDF 255)
 
 **15. A concentric bit is one that**  
@@ -178,7 +178,7 @@ C. is balanced and does not wobble. / 平衡，不晃动。 ✅
 D. has grooves called flutes. / 表面有叫 flutes（刃槽）的槽纹。  
 *Why:* Concentric bits are balanced, with the shank centered on the head, so they do not wobble or vibrate. Wobbling bits can damage the handpiece and the client's nail.  
 *为什么:* 同心磨头（concentric bit）是平衡的，柄（shank）正对磨头中心，所以不晃也不震。晃动的磨头会损坏手柄和顾客的指甲。  
-*Lock this (word-parts):* Con = together, centric = center. Head and shank share one center, so it spins true.  
+*Lock this (word-parts):* Con = together, centric = center. Head and shank share one center, so it spins without wobbling.  
 *记重点:* con = 共同，centric = 中心。头和柄共用一个圆心，转起来就稳。同心 = 同一个圆心。  
 *Source:* Milady Standard Nail Technology p.234 (PDF 258), Milady Standard Nail Technology p.251 (PDF 275)
 
@@ -190,8 +190,8 @@ C. Carbide bit / 钨钢磨头（carbide bit） ✅
 D. Goat hair bit / 山羊毛抛光磨头  
 *Why:* Never use a carbide bit on the natural nail. Its flutes shave enhancement product. Silicone bits and natural bits like chamois and goat hair lightly buff or shine natural nails.  
 *为什么:* 绝不能在真甲上用钨钢磨头（carbide bit），它的刃槽（flutes）是用来削掉加固产品的。硅胶磨头和麂皮、山羊毛等天然磨头只是轻轻抛光真甲。  
-*Lock this (picture):* Carbide flutes shave like a tiny wood plane: made for hard product, too harsh for a thin natural nail.  
-*记重点:* 钨钢刃槽像一把小刨子，专削硬的产品；对薄薄的真甲太狠了。  
+*Lock this (picture):* Carbide flutes shave like tiny knives: good for hard product, too rough for a thin natural nail.  
+*记重点:* 钨钢刃槽像许多把小刀，专削硬的产品；对薄薄的真甲太粗暴了。  
 *Source:* Milady Standard Nail Technology p.235 (PDF 259)
 
 **17. Which electric file bit is single-use only?**  
@@ -214,8 +214,8 @@ C. It is licensed by the state board. / 它获得州委员会许可。
 D. It was made in the United States. / 它是美国制造的。  
 *Why:* Underwriters Laboratories (UL) certifies that electrical appliances, such as UV lamps, pedicure chairs, heating mitts, and electric files, are safe when used according to the manufacturer's directions.  
 *为什么:* UL（Underwriters Laboratories，美国保险商实验室）认证电器，如 UV 灯、修脚椅、电热手套和打磨机，按厂家说明使用时是安全的。  
-*Lock this (real-acronym):* UL = Underwriters Laboratories. Underwriters are insurers: they paid for fires, so they wanted devices tested.  
-*记重点:* UL = Underwriters Laboratories。underwriter 指保险商：火灾要他们赔钱，所以他们要求电器先测试。  
+*Lock this (real-acronym):* UL = Underwriters Laboratories, a lab that tests electric things. The UL mark means it passed safety tests.  
+*记重点:* UL = Underwriters Laboratories（美国保险商实验室）：一家检测电器安全的实验室。看到 UL 标志，说明用电安全通过了认证。  
 *Source:* Milady Standard Foundations p.189 (PDF 684)
 
 **19. What is the round third prong on a plug for?**  
@@ -226,7 +226,7 @@ C. Changing AC to DC / 把交流电变成直流电
 D. Grounding, to protect from shock / 接地（grounding），防止触电 ✅  
 *Why:* The round third prong is a grounding pin. It gives electricity a safe path and protects the user from shock, even if a wire comes loose. Never alter it to fit a two-prong outlet.  
 *为什么:* 第三个圆插脚是接地插脚（grounding pin），给电流一条安全通路，即使电线松脱也能防止使用者触电。绝不要改动它去插两孔插座。  
-*Lock this (picture):* Ground means the earth. The third prong gives stray current a road to the ground, not through your body.  
+*Lock this (picture):* Ground means the earth. If electricity leaks, the third prong sends it to the ground, not through you.  
 *记重点:* 接地 = 接到大地。第三个插脚给漏出来的电一条通往大地的路，而不是穿过你的身体。  
 *Source:* Milady Standard Foundations p.188 (PDF 683), Milady Standard Foundations p.191 (PDF 686)
 

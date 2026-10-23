@@ -130,8 +130,8 @@ C. Bare tips dissolve in water. / 没有加固层的甲片遇水会溶化。
 D. Bare tips cannot be filed. / 没有加固层的甲片不能锉。  
 *Why:* A tip needs an overlay over the whole nail, such as a wrap, gel, or liquid and powder, for strength. Without it, the tip can break easily.  
 *为什么:* 甲片需要在整个指甲上覆盖一层 overlay（加固层），例如包甲、光疗胶或水晶，才有足够的强度。没有它，甲片很容易断。  
-*Lock this (comparison):* The tip only gives length and shape; the overlay is the armor that takes the knocks.  
-*记重点:* 甲片只负责长度和形状；加固层才是挡住磕碰的盔甲。  
+*Lock this (comparison):* The tip only gives length and shape; the overlay is the strong coat that protects it.  
+*记重点:* 甲片只负责长度和形状；加固层才是保护它的那层坚固外衣。  
 *Source:* Milady Standard Nail Technology p.256 (PDF 280), Milady Standard Nail Technology p.269 (PDF 293)
 
 **12. To sculpt a stiletto nail, the end of the nail form should**  
@@ -142,7 +142,7 @@ C. tilt down toward the finger. / 朝手指方向向下倾斜。
 D. close to a pinhole point. / 收成尖，只留针孔大的开口。 ✅  
 *Why:* For oval, almond, stiletto, or ballerina nails, close the form to a point with only a pinhole opening. Square and round nails use a large open circle.  
 *为什么:* 做椭圆、杏仁、尖形或芭蕾形指甲时，纸托要收成尖，只留针孔大的开口。方形和圆形指甲则让末端张开成大圆。  
-*Lock this (picture):* Pinching the form shut pulls its sides inward, the way a cone narrows down to its tip.  
+*Lock this (picture):* Like an ice cream cone: pinch the form closed, and its sides come in to a tiny point.  
 *记重点:* 把纸托捏紧，两侧就往里收，就像甜筒越往下越尖。  
 *Source:* Milady Standard Nail Technology p.261 (PDF 285)
 
@@ -154,7 +154,7 @@ C. it presses into the hyponychium. / 纸托压进甲下皮（hyponychium）。
 D. its center line points to one side. / 纸托中线偏向一侧。  
 *Why:* The form should be snug under the free edge, level with the nail, and centered. It is perfectly placed when there is no gap between the free edge and the form.  
 *为什么:* 纸托要紧贴在游离缘下面，与指甲平齐并居中。游离缘和纸托之间没有缝隙，才算放得完美。  
-*Lock this (reason-chain):* Any gap lets wet product seep under the free edge and harden there.  
+*Lock this (reason-chain):* Any gap lets wet product run under the free edge and harden there.  
 *记重点:* 只要有缝，未干的产品就会渗到游离缘下面，并在那里变硬。  
 *Source:* Milady Standard Nail Technology p.259 (PDF 283), Milady Standard Nail Technology p.275 (PDF 299)
 

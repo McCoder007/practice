@@ -106,8 +106,8 @@
         "zh": "dermis（真皮）是表皮下面的内层，约比表皮厚 25 倍，里面有血管、神经、腺体和毛囊。"
       },
       "lockPoint": {
-        "en": "It is also called the cutis, Latin for skin. Cuticle, \"little skin,\" comes from the same word.",
-        "zh": "真皮又叫 cutis，拉丁语“皮肤”。cuticle（甲小皮，“小皮”）也来自这个词。"
+        "en": "Epi- = on top, sub- = under. The true skin, the dermis, sits in the middle.",
+        "zh": "epi- = 在上面，sub- = 在下面。epidermis（表皮）在上，subcutaneous（皮下组织）在下，中间的 dermis（真皮）才是“真皮”。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -132,7 +132,7 @@
           "quote": "This highly sensitive layer is about 25 times thicker than the epidermis."
         }
       ],
-      "hookType": "word-link"
+      "hookType": "word-parts"
     },
     {
       "id": "nic-2c-03",
@@ -168,8 +168,8 @@
         "zh": "subcutaneous tissue（皮下组织）也叫 adipose tissue（脂肪组织），是真皮下面的脂肪层，让身体轮廓平滑、储存能量，并为皮肤提供缓冲。"
       },
       "lockPoint": {
-        "en": "Its other name, adipose, comes from Latin for fat. Think of padding laid under a carpet.",
-        "zh": "它又叫 adipose，源自拉丁语“脂肪”。就像铺在地毯下面的那层软垫。"
+        "en": "Sub- = under. Pinch the soft fat under your skin: that is subcutaneous tissue, below the dermis.",
+        "zh": "sub- = 在下面。捏一捏皮肤下面软软的脂肪：那就是 subcutaneous tissue（皮下组织），在真皮下面。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -190,7 +190,7 @@
           "quote": "serves as a protective cushion for the skin and underlying structures"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-2c-04",
@@ -226,8 +226,8 @@
         "zh": "stratum corneum（角质层），也叫 horny layer，是表皮最外面、肉眼可见的一层，也是美容从业者护理的那一层。它的鳞状细胞不断脱落。"
       },
       "lockPoint": {
-        "en": "Corneum comes from Latin cornu, horn, as in unicorn. The Chinese name 角质层 uses 角 (horn) too.",
-        "zh": "corneum 来自拉丁语 cornu（角），unicorn（独角兽）里也有它。中文“角质层”的“角”就是牛角、羊角的“角”。"
+        "en": "Touch the back of your hand: you are touching the stratum corneum, the top layer. The others are under it.",
+        "zh": "摸摸手背：你摸到的就是 stratum corneum（角质层），也就是最外面的一层；其他几层都在它下面。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -262,7 +262,7 @@
           "quote": "Its scalelike cells are continually being shed and replaced by others"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-2c-05",
@@ -298,8 +298,8 @@
         "zh": "stratum lucidum（透明层）是紧贴表面下方的透明层，由光线可以穿过的小椭圆形细胞组成，在手掌和脚底最丰富。"
       },
       "lockPoint": {
-        "en": "Lucidum, lucid, and translucent all come from Latin lucere, to shine: light passes through this layer.",
-        "zh": "lucidum、lucid（清楚）、translucent（半透明）都来自拉丁语 lucere（发光）；中文“透明层”也是说光能透过。"
+        "en": "Look at your fingerprints: they need the clear lucidum layer to form. Palms and soles have the most.",
+        "zh": "看看你的指纹：指纹要靠 stratum lucidum（透明层）才能形成。“透明”= 光能透过。手掌和脚底的透明层最多。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -324,7 +324,7 @@
           "quote": "consists of small, oval-shaped cells through which light can pass"
         }
       ],
-      "hookType": "word-link"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-2c-06",
@@ -360,8 +360,8 @@
         "zh": "stratum germinativum（生发层），也叫 basal layer（基底层），是表皮最深的活细胞层，通过有丝分裂产生新细胞，补充表面脱落的细胞。"
       },
       "lockPoint": {
-        "en": "Germinativum shares a root with germinate: seeds sprout new plants; this layer sprouts new cells.",
-        "zh": "germinativum 和 germinate（发芽）同根：种子发出新芽，这一层“长”出新细胞。"
+        "en": "Its other name, basal layer, sounds like base: at the bottom, it makes new cells that push up.",
+        "zh": "它的另一个名字 basal layer（基底层）里的 basal 像 base（底部）：它在最底下不断产生新细胞，往上推。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -476,8 +476,8 @@
         "zh": "sudoriferous glands（汗腺）就是 sweat glands。每个汗腺有一个盘绕的底部和一根管状导管，开口在皮肤表面形成汗孔。"
       },
       "lockPoint": {
-        "en": "Latin sudor = sweat, ferre = to carry. Sudoriferous = sweat-carrying.",
-        "zh": "拉丁语 sudor = 汗，ferre = 运送。sudoriferous 就是“运送汗水的”。"
+        "en": "Sudoriferous = sweat glands. Sebaceous = oil glands; they make sebum. Two S words: don't mix them up.",
+        "zh": "sudoriferous = 汗腺（sweat glands）；sebaceous = 皮脂腺（oil glands），分泌 sebum（皮脂）。两个 S 开头的词别搞混。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -498,7 +498,7 @@
           "quote": "consist of a coiled base, or secretory coil (SEE-cre-toh-ree KOIL), and a tubelike duct that opens at the surface of the skin to form the sweat pore"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "contrast"
     },
     {
       "id": "nic-2c-09",
@@ -654,8 +654,8 @@
         "zh": "macule（斑疹）是皮肤上平的斑点或变色，例如雀斑或老年斑，既不凸起也不凹陷。"
       },
       "lockPoint": {
-        "en": "Latin macula = spot. Immaculate means \"without a spot.\"",
-        "zh": "拉丁语 macula = 斑点。immaculate（一尘不染）就是“没有斑点”。"
+        "en": "Touch a freckle: you can see it but not feel it. That flat spot is a macule.",
+        "zh": "摸一下雀斑：看得见，却摸不出来。这种平平的斑就是 macule（斑疹）；摸得到凸起的是丘疹、水疱或风团。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -682,7 +682,7 @@
           "quote": "A spot or discoloration on the skin, such as a freckle. Macules are neither raised or sunken."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-2c-12",
@@ -718,8 +718,8 @@
         "zh": "eczema（湿疹）是一种发炎、发痒的皮肤病，不会传染。疣、单纯疱疹和足癣都具有传染性。"
       },
       "lockPoint": {
-        "en": "Eczema often runs in families and flares from triggers like dryness or soap, not germs. Nothing to catch.",
-        "zh": "湿疹常有家族遗传倾向，会因皮肤干燥、肥皂等刺激而发作，不是病菌引起的，所以没什么可传染的。"
+        "en": "Warts and herpes come from viruses; athlete's foot from a fungus. Eczema is itchy, inflamed skin: nothing to catch.",
+        "zh": "疣和单纯疱疹由病毒引起，足癣（athlete's foot）由真菌引起；湿疹只是发痒、发炎的皮肤，没有什么会传染。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -746,7 +746,7 @@
           "quote": "Eczema is not contagious and can be treated by a physician"
         }
       ],
-      "hookType": "reason-chain"
+      "hookType": "contrast"
     },
     {
       "id": "nic-2c-13",
@@ -782,8 +782,8 @@
         "zh": "fissure（皲裂）是深入到真皮的皮肤裂口，例如严重开裂或皲裂的手、嘴唇或脚。"
       },
       "lockPoint": {
-        "en": "Fissure comes from Latin for split, like a crack in rock. Broken skin means no salon service; refer out.",
-        "zh": "fissure 源自拉丁语“裂开”，像岩石上的裂缝。皮肤破了就不能做沙龙服务，应建议就医。"
+        "en": "Picture chapped lips that crack in winter. Fissure = crack. Crust = scab. Scale = dry flakes.",
+        "zh": "想想冬天干裂的嘴唇。fissure（皲裂）= 裂口；crust（痂）= 结痂；scale（鳞屑）= 皮屑。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -810,7 +810,7 @@
           "quote": "A client whose nail or skin is infected, inflamed, broken, or swollen should not receive salon services."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "picture"
     },
     {
       "id": "nic-2c-14",
@@ -910,8 +910,8 @@
         "zh": "bromhidrosis（臭汗症）是气味难闻的汗液，通常在腋下或脚上比较明显。"
       },
       "lockPoint": {
-        "en": "Greek bromos = stench; the element bromine was named for its smell. Hidrosis = sweating.",
-        "zh": "希腊语 bromos = 恶臭，化学元素 bromine（溴）就是因气味得名。hidrosis = 出汗。"
+        "en": "-Hidrosis = sweating. An- = no sweat, hyper- = too much sweat, brom- = bad-smelling sweat.",
+        "zh": "-hidrosis = 出汗。an- = 不出汗，hyper- = 出汗太多，brom- = 汗有臭味。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -1032,8 +1032,8 @@
         "zh": "chloasma（黄褐斑）是色素增加形成的不凸起的深色斑点，通常是长期日晒造成的黑色素沉积。"
       },
       "lockPoint": {
-        "en": "Name trap: chlo- means green, as in chlorophyll, yet these spots are brown.",
-        "zh": "名字陷阱：chlo- 意为“绿色”（chlorophyll 叶绿素），可这些斑却是褐色的。"
+        "en": "Chloasma = too much color: dark spots. Vitiligo and leukoderma = lost color: white patches.",
+        "zh": "chloasma（黄褐斑）= 色素太多，是深色斑；vitiligo（白癜风）和 leukoderma（白斑病）= 色素缺失，是白斑。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -1054,7 +1054,7 @@
           "quote": "Chloasma are incorrectly called liver spots, even though they have nothing to do with the liver. They are generally pools of melanin caused by cumulative sun exposure."
         }
       ],
-      "hookType": "name-trap"
+      "hookType": "contrast"
     },
     {
       "id": "nic-2c-18",
@@ -1090,8 +1090,8 @@
         "zh": "basal cell carcinoma（基底细胞癌）是最常见、最不严重的皮肤癌，常呈浅色、珍珠样结节。鳞状细胞癌更严重，恶性黑色素瘤最严重。"
       },
       "lockPoint": {
-        "en": "Basal cell carcinoma grows slowly and almost never spreads to other organs, so it ranks least severe.",
-        "zh": "基底细胞癌长得慢，几乎不会转移到其他器官，所以最不严重。"
+        "en": "Squamous cell can spread in the body, and melanoma spreads fast. Basal cell is the least serious.",
+        "zh": "鳞状细胞癌会在体内扩散，恶性黑色素瘤扩散得很快；基底细胞癌是三种里最不严重的。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -1112,7 +1112,7 @@
           "quote": "Each is named for the type of cells that it affects."
         }
       ],
-      "hookType": "reason-chain"
+      "hookType": "contrast"
     },
     {
       "id": "nic-2c-19",
@@ -1212,8 +1212,8 @@
         "zh": "verruca（疣）是由病毒引起的。它有传染性，会从一处扩散到另一处，尤其容易沿着皮肤上的抓痕蔓延。"
       },
       "lockPoint": {
-        "en": "Latin verruca meant both \"wart\" and \"a height\": a wart is a bump rising from the skin.",
-        "zh": "拉丁语 verruca 既指“疣”，也指“高处、高地”：疣就是皮肤上鼓起来的小包。"
+        "en": "Verruca = wart, from a virus, so it can spread. Freckles, moles and birthmarks are only color spots.",
+        "zh": "疣的“疒”字旁表示病：verruca（疣）由病毒引起，会传染。雀斑、痣、胎记只是颜色斑，不会传染。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -1234,7 +1234,7 @@
           "quote": "It is caused by a virus and is infectious. Verruca can spread from one location to another, particularly along a scratch in the skin."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "contrast"
     }
   ],
   "review": {

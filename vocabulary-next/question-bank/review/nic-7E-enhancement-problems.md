@@ -34,8 +34,8 @@ C. a 35 percent C-curve. / 35% 的 C 弧（C-curve）。
 D. storing powder in the dark. / 把粉存放在暗处。  
 *Why:* Lifting near the cuticle and sidewalls usually comes from poor nail prep, liquid and powder touching the skin, or product left too thick in those areas.  
 *为什么:* 甲小皮和两侧附近起翘，通常是因为真甲前处理不到位、水晶产品碰到皮肤，或这些部位的产品留得太厚。  
-*Lock this (reason-chain):* Product on skin → skin flexes and sheds → the edge pulls up. So leave a 1/16-inch margin.  
-*记重点:* 产品碰到皮肤 → 皮肤会动、会脱皮 → 边缘被带起。所以要留约 1/16 英寸的空隙。  
+*Lock this (reason-chain):* Product on skin → skin moves and peels → the edge pulls up. So leave a tiny gap (1/16 inch).  
+*记重点:* 产品碰到皮肤 → 皮肤会动、会脱皮 → 边缘被带起。所以要留一点空隙（约 1/16 英寸）。  
 *Source:* Milady Standard Nail Technology p.330 (PDF 354), Milady Standard Nail Technology p.335 (PDF 359), Milady Standard Nail Technology p.88 (PDF 112), Milady Standard Nail Technology p.360 (PDF 384)
 
 **4. Why avoid coarse, low-grit files on freshly applied product?**  
@@ -46,8 +46,8 @@ C. The vibration can cause lifting. / 震动会导致起翘（lifting）。 ✅
 D. Filing fresh product turns it yellow. / 刚做好的产品一锉就变黄。  
 *Why:* Fresh product is still soft. A coarse grit of 100 or lower can damage it and create heavy vibration that causes lifting. Lower grit numbers are rougher.  
 *为什么:* 刚做好的产品还比较软。100 目或更低的粗锉条会损伤它，并产生强烈震动，导致起翘。目数越低越粗。  
-*Lock this (real-life):* Low grit is for heavy removal, like 60-grit sandpaper stripping paint: too harsh for soft, fresh product.  
-*记重点:* 低目数是用来大量磨除的，就像 60 目砂纸能把油漆磨掉：对刚做好、还软的产品太狠了。  
+*Lock this (real-life):* Low grit is for removing a lot, like rough sandpaper taking off paint. Too rough for soft, fresh product.  
+*记重点:* 低目数是用来大量磨除的，就像粗砂纸能把油漆磨掉：对刚做好、还软的产品太粗了。  
 *Source:* Milady Standard Nail Technology p.326 (PDF 350)
 
 **5. How should lifted product be removed before new product goes on?**  
@@ -82,8 +82,8 @@ C. Slide the hand into the lamp slowly. / 慢慢把手伸进灯里。 ✅
 D. Warm the gel before applying it. / 上胶前先把胶加热。  
 *Why:* Curing releases heat. To control it, cure a thin first layer, use several small beads, and slide the hand into the lamp slowly so the reaction starts gently.  
 *为什么:* 固化时会放热。要控制热感，先固化一层薄胶，用多颗小胶珠，并慢慢把手伸进灯里，让反应缓慢开始。  
-*Lock this (comparison):* A thin first layer is a partial heat shield: it protects the nail from thicker beads cured on top.  
-*记重点:* 第一层薄胶起到一点隔热作用：保护真甲，不被后面更厚的胶珠烫到。  
+*Lock this (reason-chain):* Hand in fast → all gel gets light at once → fast reaction → heat spike. So go in slowly.  
+*记重点:* 手一下子伸进灯 → 所有胶同时受光 → 反应太快 → 突然发烫（heat spike）。所以手要慢慢伸进去。  
 *Source:* Milady Standard Nail Technology p.354 (PDF 378), Milady Standard Nail Technology p.360 (PDF 384)
 
 **8. Over-filing the natural nail plate can lead to**  
@@ -106,8 +106,8 @@ C. switch to a wetter bead. / 改用更湿的水晶球。
 D. skip the dehydrator step. / 省掉脱水剂这一步。  
 *Why:* One very thin coat of primer is enough for most clients. Needing two or more means something is wrong, so check your nail prep and application. Too much primer can even reach the nail bed.  
 *为什么:* 大多数客人一薄层结合剂就够了。需要两层以上，说明有问题，要检查前处理和操作步骤。结合剂太多甚至会渗到甲床。  
-*Lock this (comparison):* Milady calls primer a possible crutch: it can hide poor prep instead of fixing it.  
-*记重点:* Milady 说结合剂可能变成“拐杖”：它会掩盖前处理的问题，而不是解决问题。  
+*Lock this (comparison):* Extra primer is like painting over a dirty wall: it hides the problem but doesn't fix it.  
+*记重点:* 多涂结合剂就像在脏墙上直接刷漆：遮住了问题，却没有解决问题。  
 *Source:* Milady Standard Nail Technology p.118 (PDF 142)
 
 **10. Applying liquid and powder over wet primer can cause**  
@@ -166,8 +166,8 @@ C. a heat spike in the lamp. / 照灯时烫手。
 D. air bubbles under the gel. / 胶下面有气泡。  
 *Why:* Under-curing can cause allergic or irritant skin and nail reactions. Several thin coats and longer exposures give the most complete cure. Even dust from under-cured nails can sensitize the tech.  
 *为什么:* 固化不完全会引起皮肤和指甲的过敏或刺激反应。多上几层薄胶、照足时间，固化才最完全。连固化不全的指甲磨出的粉尘都可能让美甲师过敏。  
-*Lock this (comparison):* Cured gel is finished plastic; uncured gel is still the raw, reactive chemical.  
-*记重点:* 固化好的胶是成品塑料；没固化的胶还是有活性的原料。  
+*Lock this (comparison):* Cured gel is finished plastic. Uncured gel is still a raw chemical that can bother the skin.  
+*记重点:* 固化好的胶是成品塑料；没固化的胶还是会刺激皮肤的化学原料。  
 *Source:* Milady Standard Nail Technology p.89 (PDF 113)
 
 **15. Why must the sticky layer on cured gel never touch the skin?**  
@@ -178,8 +178,8 @@ C. It is partly cured and can cause allergies. / 它是部分固化的胶，可�
 D. It is too hot to touch. / 它太烫，不能碰。  
 *Why:* The soft, gooey layer on top of gel is partially cured gel. Milady says it must never touch soft tissue and should be removed with an alcohol wipe.  
 *为什么:* 光疗胶表面那层软黏的东西是部分固化的胶。Milady 说它绝不能碰到皮肤，要用酒精棉擦掉。  
-*Lock this (real-life):* Testing the tacky layer with a bare fingertip, service after service, is the repeated contact that builds an allergy.  
-*记重点:* 每次都用手指去摸浮胶层试黏，一次次累积下来，正是会导致过敏的那种反复接触。  
+*Lock this (real-life):* Never test the sticky layer with a bare finger. Touching it again and again can cause an allergy.  
+*记重点:* 不要用手指去摸浮胶层试黏。一次又一次接触，就可能导致过敏。  
 *Source:* Milady Standard Nail Technology p.89 (PDF 113)
 
 **16. Why can a bead that is always too wet lead to allergies?**  

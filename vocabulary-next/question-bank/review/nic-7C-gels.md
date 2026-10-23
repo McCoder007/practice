@@ -10,8 +10,8 @@ C. Photoinitiator / 光引发剂（photoinitiator） ✅
 D. Acetone / 丙酮（acetone）  
 *Why:* A photoinitiator is a molecule that reacts when exposed to UV or visible light. It is mixed into the gel, so the gel hardens in a curing lamp.  
 *为什么:* photoinitiator（光引发剂）是一种在 UV 或可见光照射下发生反应的分子。它加在胶里，所以胶在固化灯里会变硬。  
-*Lock this (word-parts):* Photo- is Greek for light, as in photograph. An initiator is the starter.  
-*记重点:* photo- 是希腊语的“光”，如 photograph（照片）。initiator 就是“启动者”。  
+*Lock this (word-parts):* Photo- = light, as in photograph. Initiator = starter. BPO starts acrylic; a photoinitiator needs lamp light.  
+*记重点:* photo- = 光，如 photograph（照片）。initiator = 启动者。BPO 启动水晶甲；光引发剂（photoinitiator）要靠灯光才启动。  
 *Source:* Milady Standard Nail Technology p.354 (PDF 378)
 
 **2. Compared with UV fluorescent lamps, LED lamps usually**  
@@ -34,8 +34,8 @@ C. Dissolved with nail cleanser / 用甲面清洁剂溶掉
 D. Filed off with a hand or electric file / 用手锉或电动磨甲机磨掉 ✅  
 *Why:* Hard gels have a nonporous surface that acetone cannot penetrate, so they must be filed off. Soft, soak-off gels are the ones that come off with acetone.  
 *为什么:* hard gel（硬胶）表面无孔，丙酮渗不进去，所以必须磨掉。soft gel（软胶/可卸胶）才能用丙酮卸掉。  
-*Lock this (picture):* Acetone on hard gel is like water on a glazed mug: it sits on top and never soaks in.  
-*记重点:* 丙酮碰到硬胶，就像水泼在上了釉的瓷杯上：只停在表面，渗不进去。  
+*Lock this (picture):* Acetone on hard gel is like water on glass: it sits on top and never soaks in.  
+*记重点:* 丙酮碰到硬胶，就像水洒在玻璃上：只停在表面，渗不进去。  
 *Source:* Milady Standard Nail Technology p.356 (PDF 380), Milady Standard Nail Technology p.360 (PDF 384)
 
 **4. Soft gels are also known as**  
@@ -58,8 +58,8 @@ C. come off faster than regular polish. / 比普通甲油卸得更快。
 D. come off with polish remover, but slowly. / 可以用洗甲水卸，但比较慢。 ✅  
 *Why:* Hybrid gels have the durability and gloss of gel but can be removed like polish with polish remover, though it takes longer. Gel polishes originally had to be filed off.  
 *为什么:* hybrid gel（混合胶）有光疗胶的持久和光泽，却能像普通甲油一样用洗甲水卸掉，只是时间更长。早期的甲油胶只能靠打磨去除。  
-*Lock this (word-origin):* Hybrid comes from Latin hybrida, a cross of two kinds: here, gel and regular polish.  
-*记重点:* hybrid 来自拉丁语 hybrida，意思是两种东西的“混种”：这里就是光疗胶和普通甲油的结合。  
+*Lock this (real-life):* Hybrid car: gas and electric. Hybrid gel: gel and polish. It lasts like gel, comes off like polish, but slower.  
+*记重点:* 混合动力车（hybrid car）：既烧油又用电。hybrid gel（混合胶）：光疗胶 + 普通甲油。像光疗胶一样耐久，像甲油一样能用洗甲水卸，只是更慢。  
 *Source:* Milady Standard Nail Technology p.151 (PDF 175)
 
 **6. How is the sticky inhibition layer removed from cured gel?**  
@@ -70,8 +70,8 @@ C. Rinse it off with warm water / 用温水冲掉
 D. Buff it in with cuticle oil / 用指缘油抛进去  
 *Why:* The inhibition layer is uncured gel and/or leftover solvents that leave a tacky surface. Wipe it away with alcohol or nail cleanser on a lint-free wipe.  
 *为什么:* inhibition layer（浮胶层）是未固化的胶和/或残留溶剂，在表面留下黏黏的一层。用无尘纸蘸酒精或甲面清洁剂就能擦掉。  
-*Lock this (word-origin):* Inhibit comes from Latin inhibere, 'hold back': oxygen in the air holds back the cure, so the top stays tacky.  
-*记重点:* inhibit 来自拉丁语 inhibere（阻止）：空气中的氧气阻止表面固化，所以表层黏黏的，中文叫“浮胶”。  
+*Lock this (chinese-character):* The Chinese name means "floating gel": it only sits on top, so one alcohol wipe lifts it off.  
+*记重点:* 中文叫“浮胶”：浮 = 浮在上面。它只浮在表面，用酒精或甲面清洁剂一擦就掉，不用泡丙酮。  
 *Source:* Milady Standard Nail Technology p.358 (PDF 382), Milady Standard Nail Technology p.359 (PDF 383)
 
 **7. Why is a soak-off gel topcoat used over gel polish?**  
@@ -178,8 +178,8 @@ C. A self-leveling soft gel / 自流平软胶
 D. Hard gel / 硬胶（hard gel）  
 *Why:* When the extension edge will be longer than the nail bed, Milady says to choose a stronger product, such as liquid and powder, instead of hard gel.  
 *为什么:* 如果延长的前缘会比甲床还长，Milady 建议改用更坚固的产品，比如水晶（liquid and powder），而不是硬胶。  
-*Lock this (reason-chain):* Gels can be made softer and more flexible than liquid and powder. A longer lever needs a stiffer product.  
-*记重点:* 光疗胶可以做得比水晶更软、更有弹性。延长越长，像杠杆一样受力越大，越需要硬的产品。  
+*Lock this (reason-chain):* Gels can be made to bend more than liquid and powder. A long extension needs the harder product.  
+*记重点:* 光疗胶可以做得比水晶更软、更能弯。延长做得越长，越需要更硬的产品。  
 *Source:* Milady Standard Nail Technology p.361 (PDF 385), Milady Standard Nail Technology p.353 (PDF 377)
 
 **16. If gel cures inside your application brush, the brush**  
@@ -202,7 +202,7 @@ C. Builds the apex and arch / 堆出甲峰和拱形
 D. Removes the inhibition layer / 去除浮胶层  
 *Why:* A primer, base gel, or bonding gel increases adhesion to the natural nail plate. It is applied thinly and usually cured before the next gel goes on.  
 *为什么:* primer（结合剂）、base gel（底胶）或 bonding gel（结合胶）能增强在真甲上的附着。它涂得很薄，通常先固化，再上下一种胶。  
-*Lock this (chinese-character):* In 结合胶, 结 = tie a knot and 合 = join: it ties the gel to the nail plate.  
+*Lock this (chinese-character):* The Chinese name means "tie and join": it ties the gel to the nail plate.  
 *记重点:* 结合胶：结 = 打结，合 = 合在一起。它把胶和真甲牢牢系在一起。  
 *Source:* Milady Standard Nail Technology p.356 (PDF 380)
 
@@ -226,7 +226,7 @@ C. soft, so it soaks off fast. / 很软，能很快泡掉。
 D. shiny, with no inhibition layer. / 有光泽，没有浮胶层。 ✅  
 *Why:* There are two finishing gels: one cures with a sticky inhibition layer that must be cleaned, and a tack-free one that cures to a high shine without it.  
 *为什么:* finishing gel（封层胶）有两种：一种固化后有黏黏的浮胶层，需要擦掉；另一种 tack-free（免洗）的固化后直接高亮，没有浮胶层。  
-*Lock this (word-parts):* Tacky = sticky, like the glue side of tape. Tack-free = never sticky, the 免洗 (no-wipe) kind.  
+*Lock this (word-parts):* Tacky = sticky, like the glue side of tape. Tack-free = never sticky, so there is nothing to wipe.  
 *记重点:* tacky = 黏手，像胶带有胶的那一面。tack-free = 不黏手，中文就叫“免洗封层”。  
 *Source:* Milady Standard Nail Technology p.358 (PDF 382)
 
@@ -238,6 +238,6 @@ C. Foam sponge applicator / 海绵头涂抹棒
 D. Wide fan brush / 宽扇形刷  
 *Why:* Gel brushes have small, flat or oval nylon bristles that hold and spread the gel. Liquid and powder uses natural hair, which holds monomer well.  
 *为什么:* gel brush（光疗笔）是小号、扁平或椭圆的尼龙毛，用来挑胶和铺胶。水晶甲则用天然毛笔，能更好地吸住单体液。  
-*Lock this (real-life):* Nylon is the same tough synthetic used in most toothbrush bristles.  
-*记重点:* 尼龙就是大多数牙刷毛用的那种结实的合成材料。  
+*Lock this (real-life):* Nylon is the same tough material used in most toothbrushes.  
+*记重点:* 尼龙就是大多数牙刷用的那种结实材料。  
 *Source:* Milady Standard Nail Technology p.359 (PDF 383), Milady Standard Nail Technology p.327 (PDF 351)

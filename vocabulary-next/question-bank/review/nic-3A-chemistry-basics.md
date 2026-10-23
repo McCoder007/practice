@@ -10,8 +10,8 @@ C. a compound. / 化合物（compound）。
 D. an element. / 元素（element）。  
 *Why:* Atoms are the basic unit of matter. The nucleus holds protons and neutrons, with electrons moving around it. Atoms combine to make molecules.  
 *为什么:* atom（原子）是物质的基本单位：原子核含有质子和中子，电子绕着它运动。原子结合起来就成了分子（molecule）。  
-*Lock this (word-origin):* Atom comes from Greek atomos, "uncuttable": ordinary chemistry can't split it.  
-*记重点:* atom 来自希腊语 atomos“不可切分”：用普通化学方法分不开它。  
+*Lock this (comparison):* Atoms are like letters. Letters join to make words; atoms join to make molecules.  
+*记重点:* 原子（atom）像字母：字母拼成单词，原子组成分子（molecule）。原子是物质最基本的单位。  
 *Source:* Milady Standard Foundations p.155 (PDF 650)
 
 **2. Oxygen, gold, and aluminum are examples of**  
@@ -22,7 +22,7 @@ C. physical mixtures. / 物理混合物（physical mixtures）。
 D. polymers. / 聚合物（polymers）。  
 *Why:* An element is the simplest form of chemical matter and contains only one type of atom. Each has a letter symbol, like O for oxygen.  
 *为什么:* element（元素）是最简单的化学物质形式，只含一种原子。每种元素都有字母符号，例如氧是 O。  
-*Lock this (chinese-character):* In Chinese, 元素 uses 元, "first" (as in 元旦): the first, most basic building blocks.  
+*Lock this (chinese-character):* The Chinese name uses the word for "first": elements are the first, most basic building blocks.  
 *记重点:* 元素的“元”= 最初、第一（如“元旦”）：最基本、不能再分成更简单物质的成分。  
 *Source:* Milady Standard Foundations p.154 (PDF 649), Milady Standard Foundations p.155 (PDF 650), Milady Standard Foundations p.159 (PDF 654)
 
@@ -58,8 +58,8 @@ C. emulsifier. / 乳化剂（emulsifier）。
 D. catalyst. / 催化剂（catalyst）。  
 *Why:* The solute is the substance that gets dissolved. The solvent, here acetone, does the dissolving. Together they make a solution.  
 *为什么:* solute（溶质）是被溶解的物质。solvent（溶剂）负责溶解，这里是丙酮。两者合在一起就成了溶液（solution）。  
-*Lock this (word-origin):* From Latin: solvent means "dissolving" (it acts). Solute means "dissolved" (it is acted on).  
-*记重点:* 拉丁语里 solvent =“正在溶解”（主动），solute =“被溶解的”（被动）。  
+*Lock this (real-life):* Sugar in tea: the sugar disappears (solute). The water does the dissolving (solvent). Polish is the sugar.  
+*记重点:* 糖放进茶里：糖被溶解，是溶质（solute）；水负责溶解，是溶剂（solvent）。指甲油就像那块糖，丙酮就像水。  
 *Source:* Milady Standard Nail Technology p.127 (PDF 151), Milady Standard Foundations p.159 (PDF 654)
 
 **6. Nail polish with glitter that separates over time is**  
@@ -118,8 +118,8 @@ C. emulsified. / 乳化的（emulsified）。
 D. miscible. / 可互溶的（miscible）。 ✅  
 *Why:* Miscible liquids are mutually soluble, so they mix and stay mixed as a solution. Immiscible liquids, like oil and water, separate when left still.  
 *为什么:* miscible（可互溶）的液体能互相溶解，混合后保持为溶液。immiscible（不互溶）的液体，例如油和水，静置后会分层。  
-*Lock this (word-origin):* Miscible comes from Latin miscere, "to mix." Im- means not: immiscible won't mix.  
-*记重点:* miscible 来自拉丁语 miscere“混合”；im- = 不：immiscible 就是混不到一起。  
+*Lock this (word-link):* Miscible looks like "mix": these liquids mix. Im- = not: immiscible liquids, like oil and water, don't.  
+*记重点:* miscible 看起来像 mix（混合）：能混在一起。im- = 不：immiscible 就是混不到一起，比如油和水。  
 *Source:* Milady Standard Foundations p.160 (PDF 655)
 
 **11. When oxygen chemically combines with a substance, the substance is**  
@@ -178,8 +178,8 @@ C. a photoinitiator. / 光引发剂（photoinitiator）。
 D. an oligomer. / 寡聚物/低聚物（oligomer）。 ✅  
 *Why:* An oligomer is a short chain of monomers that stopped growing early. Oligomers join quickly into polymers and give UV gels their sticky consistency.  
 *为什么:* oligomer（寡聚物/低聚物）是提前停止增长的单体短链。它能很快连成聚合物，也让 UV 凝胶（UV gel）有黏稠的质地。  
-*Lock this (word-parts):* Oligo = few, as in oligarchy, rule by a few. A few parts make a short chain.  
-*记重点:* oligo = 少（oligarchy = 寡头统治）。中文“寡聚物”的“寡”也是“少”：少数几块连成的短链。  
+*Lock this (chinese-character):* The Chinese name means "a few joined": a few monomers in a short chain, not yet a polymer.  
+*记重点:* oligo = 少。中文“寡聚物”的“寡”也是“少”（寡言 = 话少）：少数几块连成的短链，还不是聚合物。  
 *Source:* Milady Standard Nail Technology p.123 (PDF 147)
 
 **16. Which ingredient starts polymerization by energizing monomers?**  
@@ -190,8 +190,8 @@ C. A plasticizer / 增塑剂（plasticizer）
 D. A UV stabilizer / 紫外线稳定剂（UV stabilizer）  
 *Why:* Initiators carry extra energy. They pass it to a monomer, which joins the next monomer to pass it on, so the chain grows. Catalysts only speed this up.  
 *为什么:* initiator（引发剂）带有额外能量。它把能量传给单体，单体再连接下一个单体把能量传下去，链就越来越长。催化剂只负责加快速度。  
-*Lock this (word-link):* Initiate = to start. Initial, the first letter of your name, comes from the same root.  
-*记重点:* initiate = 开始（initial“首字母”同一个词根）。引发剂像点燃引线，引起整个反应。  
+*Lock this (word-link):* Initiate looks like "initial," the first letter of your name. Both are about the start.  
+*记重点:* initiate = 开始，和 initial（首字母）长得像，都和“开头”有关。引发剂像点燃引线，引起整个反应。  
 *Source:* Milady Standard Nail Technology p.122 (PDF 146), Milady Standard Nail Technology p.123 (PDF 147)
 
 **17. A substance that speeds up a chemical reaction is a**  
@@ -202,8 +202,8 @@ C. primer. / 结合剂（primer）。
 D. catalyst. / 催化剂（catalyst）。 ✅  
 *Why:* A catalyst speeds up a chemical reaction, for example by helping initiators work better. Catalysts are in every type of nail enhancement product, which is why they harden quickly.  
 *为什么:* catalyst（催化剂）能加快化学反应，例如让引发剂更有效。所有加固甲产品都含催化剂，所以它们硬化得快。  
-*Lock this (real-life):* A car's catalytic converter uses catalysts to speed up reactions that clean the exhaust.  
-*记重点:* 催化剂的“催”= 催促，催着反应快点完成。汽车尾气的“催化转换器”（catalytic converter）也是这个原理。  
+*Lock this (chinese-character):* The Chinese name means "hurry": a catalyst hurries the reaction, so nail products harden fast.  
+*记重点:* 催化剂的“催”= 催促，催着反应快点完成。所以加固甲产品里都有催化剂，才会很快变硬。  
 *Source:* Milady Standard Nail Technology p.123 (PDF 147)
 
 **18. A monomer that joins different polymer chains together is**  
@@ -214,8 +214,8 @@ C. a photoinitiator. / 光引发剂（photoinitiator）。
 D. a plasticizer. / 增塑剂（plasticizer）。  
 *Why:* Cross-linkers join polymer chains like rungs on a ladder. The net-like structure is strong and flexible, and more resistant to stains, water, and acetone.  
 *为什么:* cross-linker（交联剂）像梯子的横档一样把聚合物链连起来。这种网状结构坚固又有弹性，更能抵抗污渍、水和丙酮。  
-*Lock this (reason-chain):* Cross-links → acetone can't easily unravel the chains → enhancements soak off slower than wraps or tip adhesive.  
-*记重点:* 有交联 → 丙酮不容易拆开链 → 所以加固甲比包甲（wraps）或贴片胶（tip adhesive）更难泡掉。  
+*Lock this (reason-chain):* Cross-links tie chains together like a net → acetone can't pull them apart easily → slow soak-off.  
+*记重点:* 交联把链条连成一张网 → 丙酮不容易拆开 → 所以加固甲比包甲（wraps）或贴片胶（tip adhesive）更难泡掉。  
 *Source:* Milady Standard Nail Technology p.124 (PDF 148)
 
 **19. The pH scale, from 0 to 14, measures**  
