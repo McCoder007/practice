@@ -1,0 +1,1167 @@
+{
+  "topicId": "enhancements",
+  "status": "reviewed",
+  "words": [
+    {
+      "setId": "7A",
+      "word": "nail enhancement",
+      "sayIt": "nayl en-HANS-ment",
+      "translation": "美甲加固",
+      "partOfSpeech": "Noun",
+      "example": "A nail enhancement is any product added for strength and beauty.",
+      "exampleTranslation": "美甲加固是任何为了增加强度和美观而加在真甲上的产品。",
+      "evidence": [
+        {
+          "pdfPage": 278,
+          "quote": "A nail enhancement (NAYL en-HAHNS-ment) is defined as any product added to the natural nail to increase strength and beauty."
+        }
+      ]
+    },
+    {
+      "setId": "7A",
+      "word": "nail extension",
+      "sayIt": "nayl ek-STEN-shun",
+      "translation": "美甲延长",
+      "partOfSpeech": "Noun",
+      "example": "A nail extension adds length, using a tip or a form.",
+      "exampleTranslation": "美甲延长让指甲变长，可以用甲片或纸托来做。",
+      "evidence": [
+        {
+          "pdfPage": 278,
+          "quote": "Many clients will want to extend the length of their natural nail; this is described as a nail extension"
+        },
+        {
+          "pdfPage": 278,
+          "quote": "There are two ways to create a nail extension: using a tip or a form."
+        }
+      ]
+    },
+    {
+      "setId": "7A",
+      "word": "well",
+      "translation": "凹槽",
+      "partOfSpeech": "Noun",
+      "example": "A tip's well is the low spot that touches the nail.",
+      "exampleTranslation": "甲片的凹槽就是贴在真甲上的那个浅凹处。",
+      "evidence": [
+        {
+          "pdfPage": 280,
+          "quote": "Many nail tips have a shallow depression called a well (WELL) that serves as the point of contact with the nail plate."
+        }
+      ]
+    },
+    {
+      "setId": "7A",
+      "word": "position stop",
+      "sayIt": "puh-ZISH-un stop",
+      "translation": "定位点",
+      "partOfSpeech": "Noun",
+      "example": "The free edge stops at the position stop inside the well.",
+      "exampleTranslation": "真甲的游离缘在凹槽里抵住的地方，就是定位点。",
+      "evidence": [
+        {
+          "pdfPage": 280,
+          "quote": "The position stop (poh-ZI-shun STOP) is the point where the free edge of the natural nail meets or stops inside the well."
+        }
+      ]
+    },
+    {
+      "setId": "7A",
+      "word": "nail dehydrator",
+      "sayIt": "nayl dee-HY-dray-ter",
+      "translation": "脱水剂",
+      "partOfSpeech": "Noun",
+      "example": "A nail dehydrator removes moisture and oil from the nail plate.",
+      "exampleTranslation": "脱水剂能去除甲面上的水分和油分。",
+      "evidence": [
+        {
+          "pdfPage": 143,
+          "quote": "Nail dehydrators remove traces of both moisture and oil."
+        }
+      ]
+    },
+    {
+      "setId": "7A",
+      "word": "overlay",
+      "sayIt": "OH-ver-lay",
+      "translation": "加固层",
+      "partOfSpeech": "Noun",
+      "example": "Tips need an overlay: a layer of product over the whole nail.",
+      "exampleTranslation": "甲片需要加固层：覆盖整个指甲的一层产品。",
+      "evidence": [
+        {
+          "pdfPage": 280,
+          "quote": "you will need a layer of nail enhancement product over the entire surface of the nail to provide strength, structure, and support. This is called an overlay"
+        },
+        {
+          "pdfPage": 293,
+          "quote": "Tips should not be worn without an additional nail overlay—such as wraps, gel, liquid and powder, etc.—as they are not strong enough to wear alone."
+        }
+      ]
+    },
+    {
+      "setId": "7A",
+      "word": "nail form",
+      "translation": "纸托",
+      "partOfSpeech": "Noun",
+      "example": "A nail form goes under the free edge to guide new length.",
+      "exampleTranslation": "纸托放在游离缘下面，引导做出新的长度。",
+      "evidence": [
+        {
+          "pdfPage": 283,
+          "quote": "Nail forms (NAYL FORMZ) are placed under the free edge of the natural nail and used as a guide to extend the nail enhancement product beyond the fingertip to add additional length."
+        }
+      ]
+    },
+    {
+      "setId": "7A",
+      "word": "apex",
+      "sayIt": "AY-peks",
+      "translation": "甲峰",
+      "partOfSpeech": "Noun",
+      "example": "The apex is the highest point of the nail enhancement.",
+      "exampleTranslation": "甲峰是美甲加固上最高的那一点。",
+      "evidence": [
+        {
+          "pdfPage": 286,
+          "quote": "This becomes the highest point in the nail and is known as the apex (A-peks) or arch (ARCH)."
+        }
+      ]
+    },
+    {
+      "setId": "7A",
+      "word": "stress area",
+      "sayIt": "stress AIR-ee-uh",
+      "translation": "受力区",
+      "partOfSpeech": "Noun",
+      "example": "The stress area is where the nail grows past the finger.",
+      "exampleTranslation": "受力区就是指甲长出手指的地方。",
+      "evidence": [
+        {
+          "pdfPage": 286,
+          "quote": "The stress area (STRESS AH-ree-ah), where the natural nail grows beyond the finger and becomes the free edge, needs extra product and strength to support the artificial extension."
+        }
+      ]
+    },
+    {
+      "setId": "7A",
+      "word": "fiberglass wrap",
+      "sayIt": "FY-ber-glass rap",
+      "translation": "玻璃纤维包甲",
+      "partOfSpeech": "Noun",
+      "example": "A fiberglass wrap is a thin man-made mesh with a loose weave.",
+      "exampleTranslation": "玻璃纤维包甲是一种很薄、织得较松的合成网布。",
+      "evidence": [
+        {
+          "pdfPage": 307,
+          "quote": "A fiberglass wrap (FY-bur-glass RAP) is made from a very thin synthetic mesh with a loose weave."
+        }
+      ]
+    },
+    {
+      "setId": "7A",
+      "word": "nail resin",
+      "sayIt": "nayl REZ-in",
+      "translation": "甲用树脂",
+      "partOfSpeech": "Noun",
+      "example": "Nail resin is a fast-acting glue used with tips and wraps.",
+      "exampleTranslation": "甲用树脂是一种快干胶，用来粘甲片和做包甲。",
+      "evidence": [
+        {
+          "pdfPage": 306,
+          "quote": "Nail resins (NAYL REZ-inz) are made from cyanoacrylate."
+        },
+        {
+          "pdfPage": 306,
+          "quote": "Cyanoacrylate is a colorless liquid acrylate monomer that is easily cured and used as a powerful, fast-acting adhesive."
+        },
+        {
+          "pdfPage": 280,
+          "quote": "A nail resin or nail adhesive (NAYL ad-HEE-ziv) is a thin resin applied into the well area that is used to adhere the tip to the natural nail."
+        },
+        {
+          "pdfPage": 307,
+          "quote": "In a wrap system, you apply resin to the nail, lay fabric over the nail"
+        }
+      ]
+    },
+    {
+      "setId": "7A",
+      "word": "resin accelerator",
+      "sayIt": "REZ-in ak-SEL-er-ay-ter",
+      "translation": "树脂加速剂",
+      "partOfSpeech": "Noun",
+      "example": "A resin accelerator, or activator, makes nail resin dry faster.",
+      "exampleTranslation": "树脂加速剂（也叫激活剂）能让甲用树脂干得更快。",
+      "evidence": [
+        {
+          "pdfPage": 306,
+          "quote": "A resin accelerator (REZ-in ak-SELL-er-ay-tor), or activator, assists in speeding up the dry time of the resin."
+        }
+      ]
+    },
+    {
+      "setId": "7B",
+      "word": "mix ratio",
+      "sayIt": "miks RAY-shee-oh",
+      "translation": "液粉比",
+      "partOfSpeech": "Noun",
+      "example": "The mix ratio is how much liquid and powder make a bead.",
+      "exampleTranslation": "液粉比就是做一颗水晶球用了多少液体、多少粉。",
+      "evidence": [
+        {
+          "pdfPage": 348,
+          "quote": "The amount of monomer liquid and polymer powder used to create a bead is called the mix ratio"
+        }
+      ]
+    },
+    {
+      "setId": "7B",
+      "word": "medium bead",
+      "sayIt": "MEE-dee-um beed",
+      "translation": "中球",
+      "partOfSpeech": "Noun",
+      "example": "A medium bead is usually the best mix for liquid and powder.",
+      "exampleTranslation": "中球通常是做水晶甲最理想的液粉比。",
+      "evidence": [
+        {
+          "pdfPage": 348,
+          "quote": "In general, medium beads are the ideal mix ratio for working with monomer liquids and polymer powders."
+        }
+      ]
+    },
+    {
+      "setId": "7B",
+      "word": "odorless",
+      "sayIt": "OH-der-les",
+      "translation": "无味",
+      "partOfSpeech": "Adjective",
+      "example": "Odorless monomer has a slight smell others in the salon can't notice.",
+      "exampleTranslation": "无味单体液其实有一点气味，只是店里其他人闻不出来。",
+      "evidence": [
+        {
+          "pdfPage": 347,
+          "quote": "Even though these products are called odorless, they do have a slight odor. Generally, if a monomer liquid does not produce a strong enough odor so that others in the salon or spa can detect its presence, it is considered to be an odorless product."
+        }
+      ]
+    },
+    {
+      "setId": "7B",
+      "word": "discoloration",
+      "sayIt": "dis-kul-er-AY-shun",
+      "translation": "变色",
+      "partOfSpeech": "Noun",
+      "example": "Discoloration is a change in color; too much powder can cause it.",
+      "exampleTranslation": "变色就是颜色改变了；水晶球里粉太多就可能造成变色。",
+      "evidence": [
+        {
+          "pdfPage": 348,
+          "quote": "If too much powder is picked up in the bead, the enhancement will cure incorrectly and may lead to brittleness and/or discoloration."
+        }
+      ]
+    },
+    {
+      "setId": "7B",
+      "word": "service breakdown",
+      "translation": "美甲提前损坏",
+      "partOfSpeech": "Noun",
+      "example": "Product over wet primer can cause service breakdown.",
+      "exampleTranslation": "在未干的结合剂上做产品，可能导致美甲提前损坏。",
+      "evidence": [
+        {
+          "pdfPage": 349,
+          "quote": "Never apply nail enhancement product over wet nail primer. This can cause product discoloration and service breakdown."
+        }
+      ]
+    },
+    {
+      "setId": "7B",
+      "word": "pry",
+      "translation": "撬",
+      "partOfSpeech": "Verb",
+      "example": "Never pry a nail tip off; soak it a few more minutes.",
+      "exampleTranslation": "不要硬撬甲片，再多泡几分钟。",
+      "evidence": [
+        {
+          "pdfPage": 297,
+          "quote": "Be careful not to pry the nail tip off, because you can damage the nail plate. If the nail tip is still attached, soak that nail for a few more minutes"
+        }
+      ]
+    },
+    {
+      "setId": "7B",
+      "word": "kolinsky",
+      "sayIt": "kuh-LIN-skee",
+      "translation": "貂毛",
+      "partOfSpeech": "Noun",
+      "example": "A kolinsky brush has natural hair that holds monomer well.",
+      "exampleTranslation": "貂毛笔是天然毛，能很好地吸住单体液。",
+      "evidence": [
+        {
+          "pdfPage": 351,
+          "quote": "The best nail brush to use for liquid and powder enhancements is a natural hairbrush composed of kolinsky, sable, or a blend of both."
+        },
+        {
+          "pdfPage": 345,
+          "quote": "The natural hair bristles absorb and hold the monomer liquid, like a reservoir."
+        }
+      ]
+    },
+    {
+      "setId": "7B",
+      "word": "ferrule",
+      "sayIt": "FAIR-ul",
+      "translation": "笔箍",
+      "partOfSpeech": "Noun",
+      "example": "The ferrule is the metal band that holds the brush hairs.",
+      "exampleTranslation": "笔箍就是固定笔毛的那圈金属。",
+      "evidence": [
+        {
+          "pdfPage": 420,
+          "quote": "The ferrule (FER-ool) is the metal band around the brush that holds the bristles in place."
+        },
+        {
+          "pdfPage": 352,
+          "quote": "This can press the hairs against the sharp edge of the metal ferrule and cut them off."
+        }
+      ]
+    },
+    {
+      "setId": "7B",
+      "word": "polymer powder",
+      "sayIt": "PAH-luh-mer POW-der",
+      "translation": "聚合物粉",
+      "partOfSpeech": "Noun",
+      "example": "Polymer powder is tiny beads made of long chains of monomers.",
+      "exampleTranslation": "聚合物粉是由单体连成的长链做成的小颗粒。",
+      "evidence": [
+        {
+          "pdfPage": 346,
+          "quote": "trillions of monomers are linked together to create long chains. These long chains create tiny round beads of polymer powder"
+        }
+      ]
+    },
+    {
+      "setId": "7B",
+      "word": "benzoyl peroxide",
+      "sayIt": "BEN-zoh-il puh-ROK-side",
+      "translation": "过氧化苯甲酰",
+      "partOfSpeech": "Noun",
+      "example": "Benzoyl peroxide in the powder starts the chain reaction.",
+      "exampleTranslation": "粉里的过氧化苯甲酰会启动链式反应。",
+      "evidence": [
+        {
+          "pdfPage": 346,
+          "quote": "The initiator that is added to the polymer powder is called benzoyl peroxide (BPO)"
+        },
+        {
+          "pdfPage": 346,
+          "quote": "BPO is used to start the chain reaction that leads to curing (hardening) of the nail enhancement."
+        }
+      ]
+    },
+    {
+      "setId": "7B",
+      "word": "photoinitiator",
+      "sayIt": "foh-toh-ih-NISH-ee-ay-ter",
+      "translation": "光引发剂",
+      "partOfSpeech": "Noun",
+      "example": "A photoinitiator makes gel harden under the lamp's light.",
+      "exampleTranslation": "光引发剂让光疗胶在灯光下变硬。",
+      "evidence": [
+        {
+          "pdfPage": 378,
+          "quote": "Photoinitiators are infused into oligomers so that when the gel is applied to the nail and exposed to the light in a special curing lamp, the gel will harden."
+        }
+      ]
+    },
+    {
+      "setId": "7B",
+      "word": "credit-card thin",
+      "translation": "像信用卡一样薄",
+      "partOfSpeech": "Phrase",
+      "example": "The sidewalls and edge should be credit-card thin.",
+      "exampleTranslation": "两侧和前缘应该像信用卡一样薄。",
+      "evidence": [
+        {
+          "pdfPage": 287,
+          "quote": "The sidewalls and tip's edge should be credit-card thin."
+        }
+      ]
+    },
+    {
+      "setId": "7C",
+      "word": "oligomer",
+      "sayIt": "uh-LIG-uh-mer",
+      "translation": "寡聚物",
+      "partOfSpeech": "Noun",
+      "example": "An oligomer is thick and sticky, between a liquid and solid.",
+      "exampleTranslation": "寡聚物又稠又黏，介于液体和固体之间。",
+      "evidence": [
+        {
+          "pdfPage": 378,
+          "quote": "An oligomer, also known as a pre-polymer, is a thick, gel-like, sticky acrylate that is between a liquid and a solid."
+        }
+      ]
+    },
+    {
+      "setId": "7C",
+      "word": "hard gel",
+      "translation": "硬胶",
+      "partOfSpeech": "Noun",
+      "example": "Hard gel cannot soak off in acetone, so you file it off.",
+      "exampleTranslation": "硬胶不能用丙酮泡掉，所以要锉掉。",
+      "evidence": [
+        {
+          "pdfPage": 384,
+          "quote": "Since hard gels cannot be removed with acetone or product remover, they must be filed off with an electric or hand file."
+        }
+      ]
+    },
+    {
+      "setId": "7C",
+      "word": "soft gel",
+      "translation": "软胶",
+      "partOfSpeech": "Noun",
+      "example": "Soft gel, or soak-off gel, comes off easily with acetone.",
+      "exampleTranslation": "软胶也叫可卸胶，用丙酮就能轻松卸掉。",
+      "evidence": [
+        {
+          "pdfPage": 380,
+          "quote": "Soft gels (SOFT JELLS), also known as soak-off gels, are formulated to overlay the natural nail and are easily removed with acetone."
+        }
+      ]
+    },
+    {
+      "setId": "7C",
+      "word": "hybrid gel",
+      "sayIt": "HY-brid jel",
+      "translation": "混合胶",
+      "partOfSpeech": "Noun",
+      "example": "Hybrid gel comes off with polish remover, but it takes longer.",
+      "exampleTranslation": "混合胶可以用洗甲水卸掉，只是需要更长时间。",
+      "evidence": [
+        {
+          "pdfPage": 175,
+          "quote": "Hybrid gels are gel polishes that combine the best of the polish worlds. They have the durability and gloss of gels but can be removed like polishes with polish remover—although it takes longer."
+        }
+      ]
+    },
+    {
+      "setId": "7C",
+      "word": "inhibition layer",
+      "sayIt": "in-hih-BISH-un lay-er",
+      "translation": "浮胶层",
+      "partOfSpeech": "Noun",
+      "example": "Wipe the sticky inhibition layer off with alcohol or nail cleanser.",
+      "exampleTranslation": "用酒精或甲面清洁剂把黏黏的浮胶层擦掉。",
+      "evidence": [
+        {
+          "pdfPage": 382,
+          "quote": "An inhibition layer (in-hih-BIH-shun LAY-er) consists of uncured gel and/or leftover solvents that create a tacky surface left on the nail after the gel has cured. The inhibition layer can be easily wiped away with a lint-free wipe soaked in cleaning solution or alcohol"
+        },
+        {
+          "pdfPage": 383,
+          "quote": "A nail cleanser is also used to remove the inhibition layer prior to filing the cured gel"
+        }
+      ]
+    },
+    {
+      "setId": "7C",
+      "word": "building gel",
+      "translation": "建构胶",
+      "partOfSpeech": "Noun",
+      "example": "Building gel is thick and builds the arch or extension.",
+      "exampleTranslation": "建构胶很稠，用来做甲拱或延长。",
+      "evidence": [
+        {
+          "pdfPage": 380,
+          "quote": "Building gels (BILL-ding JELLS) are thick-viscosity gels that allow the nail technician to build an arch or extension"
+        }
+      ]
+    },
+    {
+      "setId": "7C",
+      "word": "bonding gel",
+      "translation": "结合胶",
+      "partOfSpeech": "Noun",
+      "example": "Bonding gel helps the gel stick to the natural nail.",
+      "exampleTranslation": "结合胶帮助光疗胶附着在真甲上。",
+      "evidence": [
+        {
+          "pdfPage": 380,
+          "quote": "Gels need a primer, base gel, or bonding gel to increase adhesion to the natural nail plate."
+        }
+      ]
+    },
+    {
+      "setId": "7C",
+      "word": "self-leveling gel",
+      "sayIt": "self-LEV-uh-ling jel",
+      "translation": "自流平胶",
+      "partOfSpeech": "Noun",
+      "example": "Self-leveling gel flows more and leaves the nail smooth.",
+      "exampleTranslation": "自流平胶流动性更好，能让甲面平滑。",
+      "evidence": [
+        {
+          "pdfPage": 381,
+          "quote": "A self-leveling gel is more fluid and can leave the nail smooth."
+        }
+      ]
+    },
+    {
+      "setId": "7C",
+      "word": "polygel",
+      "sayIt": "PAH-lee-jel",
+      "translation": "聚合物胶",
+      "partOfSpeech": "Noun",
+      "example": "Polygel is a mix of polymer powder and hard gel.",
+      "exampleTranslation": "聚合物胶是聚合物粉和硬胶的混合物。",
+      "evidence": [
+        {
+          "pdfPage": 381,
+          "quote": "Polymer gels (PAWL-uh-mer JELZ) sometimes referred to as polygel or acrygel, are created from a mixture of polymer powder and hard gels."
+        }
+      ]
+    },
+    {
+      "setId": "7C",
+      "word": "cross-linking",
+      "translation": "交联",
+      "partOfSpeech": "Noun",
+      "example": "Cross-linking is like a net: the tighter, the harder the gel.",
+      "exampleTranslation": "交联就像一张网：网越紧，胶就越硬。",
+      "evidence": [
+        {
+          "pdfPage": 378,
+          "quote": "Think of the cross-linking as a netlike structure. The tighter the net, the harder and stronger the gel."
+        }
+      ]
+    },
+    {
+      "setId": "7C",
+      "word": "tack-free",
+      "translation": "免洗",
+      "partOfSpeech": "Adjective",
+      "example": "A tack-free finishing gel cures shiny with no sticky layer.",
+      "exampleTranslation": "免洗封层固化后直接发亮，没有黏黏的那层。",
+      "evidence": [
+        {
+          "pdfPage": 382,
+          "quote": "There are two types of finishing gels: one cures with a sticky inhibition layer that requires cleaning; the other is a tack-free gel that cures to a high shine without the inhibition layer."
+        }
+      ]
+    },
+    {
+      "setId": "7C",
+      "word": "viscosity",
+      "sayIt": "vis-KAH-sih-tee",
+      "translation": "黏度",
+      "partOfSpeech": "Noun",
+      "example": "Viscosity is how thick or thin a gel is.",
+      "exampleTranslation": "黏度就是胶有多稠或多稀。",
+      "evidence": [
+        {
+          "pdfPage": 378,
+          "quote": "Viscosity is the measurement of the thickness or thinness of a liquid and affects how that fluid flows."
+        }
+      ]
+    },
+    {
+      "setId": "7D",
+      "word": "dip system",
+      "translation": "浸粉系统",
+      "partOfSpeech": "Noun",
+      "example": "A dip system uses resin and powder to make a hard coat.",
+      "exampleTranslation": "浸粉系统用树脂和粉在指甲上形成坚硬的涂层。",
+      "evidence": [
+        {
+          "pdfPage": 308,
+          "quote": "Dip systems (DIP SIS-temz) are a resin- and polymer-powder-based system in which the resin absorbs the powder to create a hard coating over the nail."
+        }
+      ]
+    },
+    {
+      "setId": "7D",
+      "word": "dip powder",
+      "translation": "浸粉",
+      "partOfSpeech": "Noun",
+      "example": "Dip powder is very fine and usually full of color.",
+      "exampleTranslation": "浸粉非常细，通常颜色很浓。",
+      "evidence": [
+        {
+          "pdfPage": 308,
+          "quote": "Dip powder (DIP POW-der) is a very fine polymer powder that is usually heavily pigmented with color."
+        }
+      ]
+    },
+    {
+      "setId": "7D",
+      "word": "maintenance",
+      "sayIt": "MAYN-tuh-nuns",
+      "translation": "维护",
+      "partOfSpeech": "Noun",
+      "example": "Liquid and powder nails need maintenance every two to three weeks.",
+      "exampleTranslation": "水晶甲每两到三周需要维护一次。",
+      "evidence": [
+        {
+          "pdfPage": 354,
+          "quote": "This maintenance must be performed every two to three weeks, depending on how fast the client's nails grow."
+        }
+      ]
+    },
+    {
+      "setId": "7D",
+      "word": "fill",
+      "translation": "补甲",
+      "partOfSpeech": "Noun",
+      "example": "A fill adds new product to the new growth area.",
+      "exampleTranslation": "补甲就是在新长出的部分加上新产品。",
+      "evidence": [
+        {
+          "pdfPage": 307,
+          "quote": "apply the enhancement product onto the new growth of nail, commonly referred to as a fill"
+        }
+      ]
+    },
+    {
+      "setId": "7D",
+      "word": "rebalance",
+      "sayIt": "ree-BAL-uns",
+      "translation": "重新平衡",
+      "partOfSpeech": "Noun",
+      "example": "A rebalance fixes the apex so the nail stays strong.",
+      "exampleTranslation": "重新平衡就是修整甲峰，让指甲保持坚固。",
+      "evidence": [
+        {
+          "pdfPage": 307,
+          "quote": "structurally correct the location of the apex of the nail to balance and prolong its strength, shape, and durability—this is commonly referred to as a rebalance"
+        },
+        {
+          "pdfPage": 354,
+          "quote": "The nails are shortened, and the apex is reduced to rebalance the nail"
+        }
+      ]
+    },
+    {
+      "setId": "7D",
+      "word": "ledge",
+      "translation": "台阶",
+      "partOfSpeech": "Noun",
+      "example": "Smooth down the ledge at the new growth until it is flat.",
+      "exampleTranslation": "把新长出部分的那道台阶锉平。",
+      "evidence": [
+        {
+          "pdfPage": 367,
+          "quote": "carefully smooth down the ledge at the new growth area until it is flush with the nail plate."
+        }
+      ]
+    },
+    {
+      "setId": "7D",
+      "word": "lifting",
+      "translation": "起翘",
+      "partOfSpeech": "Noun",
+      "example": "Lifting is when product pulls away from the nail.",
+      "exampleTranslation": "起翘就是产品从指甲上翘起、脱开。",
+      "evidence": [
+        {
+          "pdfPage": 350,
+          "quote": "Lifting (LIFT-ing) is a term used when artificial products lift up or pull away from the nail."
+        }
+      ]
+    },
+    {
+      "setId": "7D",
+      "word": "paper-thin",
+      "translation": "像纸一样薄",
+      "partOfSpeech": "Adjective",
+      "example": "Before a crack repair, file the area around it paper-thin.",
+      "exampleTranslation": "修补裂缝前，先把裂缝周围锉到像纸一样薄。",
+      "evidence": [
+        {
+          "pdfPage": 355,
+          "quote": "It is important when repairing a liquid and powder nail that you file down the area around the crack or break until it is paper-thin."
+        }
+      ]
+    },
+    {
+      "setId": "7D",
+      "word": "grow out",
+      "translation": "随指甲长出去",
+      "partOfSpeech": "Phrase",
+      "example": "Leave a very thin layer of hard gel to grow out.",
+      "exampleTranslation": "留下一层很薄的硬胶，让它随指甲长出去。",
+      "evidence": [
+        {
+          "pdfPage": 384,
+          "quote": "Since hard gels cannot be removed with acetone or product remover, they must be filed off with an electric or hand file."
+        },
+        {
+          "pdfPage": 385,
+          "quote": "to file off most of the product and leave a very thin layer to grow off."
+        }
+      ]
+    },
+    {
+      "setId": "7D",
+      "word": "flake off",
+      "translation": "片片剥落",
+      "partOfSpeech": "Phrase",
+      "example": "Soaked gel polish is ready when it starts to flake off.",
+      "exampleTranslation": "泡过的甲油胶开始片片剥落时，就可以卸了。",
+      "evidence": [
+        {
+          "pdfPage": 412,
+          "quote": "Polish should be flaking off when it's ready to remove."
+        }
+      ]
+    },
+    {
+      "setId": "7E",
+      "word": "nail preparation",
+      "sayIt": "nayl prep-uh-RAY-shun",
+      "translation": "真甲前处理",
+      "partOfSpeech": "Noun",
+      "example": "Improper nail preparation is a leading cause of lifting.",
+      "exampleTranslation": "真甲前处理不到位，是起翘的主要原因。",
+      "evidence": [
+        {
+          "pdfPage": 143,
+          "quote": "Improper nail preparation is a leading cause of most types of nail enhancement product lifting."
+        }
+      ]
+    },
+    {
+      "setId": "7E",
+      "word": "excessive",
+      "sayIt": "ek-SES-iv",
+      "translation": "过度的",
+      "partOfSpeech": "Adjective",
+      "example": "If lifting is excessive, soak off the enhancement and start fresh.",
+      "exampleTranslation": "如果起翘太严重，就把美甲泡掉，重新做。",
+      "evidence": [
+        {
+          "pdfPage": 354,
+          "quote": "If lifting is excessive, soak off the enhancement and start fresh with a new nail application."
+        }
+      ]
+    },
+    {
+      "setId": "7E",
+      "word": "heat spike",
+      "translation": "烫手感",
+      "partOfSpeech": "Noun",
+      "example": "Curing a lot of gel at once can cause a heat spike.",
+      "exampleTranslation": "一次固化太多胶，会突然发烫（烫手感）。",
+      "evidence": [
+        {
+          "pdfPage": 384,
+          "quote": "Curing a large amount of product at one time can also cause a heat spike and can be uncomfortable for your client."
+        }
+      ]
+    },
+    {
+      "setId": "7E",
+      "word": "over-filing",
+      "translation": "过度锉磨",
+      "partOfSpeech": "Noun",
+      "example": "Over-filing makes the nail plate too thin and weak.",
+      "exampleTranslation": "过度锉磨会让甲板变得太薄、太弱。",
+      "evidence": [
+        {
+          "pdfPage": 144,
+          "quote": "Over-filing may cause potentially dangerous, excessive thinning of the nail plate."
+        },
+        {
+          "pdfPage": 143,
+          "quote": "The thinner the nail plate, the weaker it will be."
+        }
+      ]
+    },
+    {
+      "setId": "7E",
+      "word": "under-cured",
+      "sayIt": "un-der-KYOORD",
+      "translation": "固化不完全",
+      "partOfSpeech": "Adjective",
+      "example": "Under-cured gel can cause allergic skin reactions.",
+      "exampleTranslation": "固化不完全的光疗胶可能引起皮肤过敏反应。",
+      "evidence": [
+        {
+          "pdfPage": 113,
+          "quote": "A third problem that can cause allergic or irritant skin and nail reactions is under-curing the gel enhancements."
+        }
+      ]
+    },
+    {
+      "setId": "7E",
+      "word": "chemical imbalance",
+      "sayIt": "KEM-ih-kul im-BAL-uns",
+      "translation": "化学失衡",
+      "partOfSpeech": "Noun",
+      "example": "Mixing product lines can cause a chemical imbalance and allergies.",
+      "exampleTranslation": "混用不同的产品线可能造成化学失衡，导致过敏。",
+      "evidence": [
+        {
+          "pdfPage": 113,
+          "quote": "Mixing product lines or custom blending your own special mixture can also create chemical imbalances, which lead to allergic reactions."
+        }
+      ]
+    },
+    {
+      "setId": "7E",
+      "word": "custom-blend",
+      "sayIt": "KUS-tum blend",
+      "translation": "自己调配",
+      "partOfSpeech": "Verb",
+      "example": "Never custom-blend your own gel products; it can cause allergies.",
+      "exampleTranslation": "不要自己调配光疗胶产品，这可能导致过敏。",
+      "evidence": [
+        {
+          "pdfPage": 113,
+          "quote": "Mixing product lines or custom blending your own special mixture can also create chemical imbalances, which lead to allergic reactions."
+        },
+        {
+          "pdfPage": 113,
+          "quote": "Always use products exactly as instructed and never mix your own products."
+        }
+      ]
+    },
+    {
+      "setId": "7E",
+      "word": "refer",
+      "sayIt": "rih-FUR",
+      "translation": "建议就医",
+      "partOfSpeech": "Verb",
+      "example": "A yellow-green nail spot? Refer the client to a doctor.",
+      "exampleTranslation": "指甲上有黄绿色斑点？要建议客人去看医生。",
+      "evidence": [
+        {
+          "pdfPage": 134,
+          "quote": "Seen in the early stages as a yellow–green spot that becomes darker in its advanced stage, changing from yellow to green to brown to black. Medical referral required."
+        }
+      ]
+    },
+    {
+      "setId": "7E",
+      "word": "C-curve",
+      "translation": "C 弧",
+      "partOfSpeech": "Noun",
+      "example": "The C-curve gives the nail strength, like the curve of an egg.",
+      "exampleTranslation": "C 弧让指甲更坚固，就像鸡蛋的弧形一样。",
+      "evidence": [
+        {
+          "pdfPage": 287,
+          "quote": "More importantly, the C-curve provides strength, like the curve in a bridge or an egg."
+        }
+      ]
+    }
+  ],
+  "lookAlikes": [
+    {
+      "id": "cleanser-dehydrator-primer",
+      "setId": "7A",
+      "items": [
+        {
+          "word": "nail cleanser",
+          "translation": "甲面清洁剂",
+          "meaning": {
+            "en": "scrubs dust and dirt off the nail",
+            "zh": "把甲面上的粉尘和杂质刷洗掉"
+          }
+        },
+        {
+          "word": "nail dehydrator",
+          "translation": "脱水剂",
+          "meaning": {
+            "en": "stops nail oil and moisture for a while",
+            "zh": "让指甲暂时不再分泌油分和水分"
+          }
+        },
+        {
+          "word": "nail primer",
+          "translation": "结合剂",
+          "meaning": {
+            "en": "helps product stick better to the nail",
+            "zh": "帮助产品更好地粘在指甲上"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Clean, dry, stick: nail cleanser cleans, dehydrator dries, primer helps it stick.",
+        "zh": "按顺序：清洁 → 脱水 → 粘住。cleanser 清洁甲面，dehydrator 让指甲变干，primer 帮助产品粘住。看中文：清洁剂、脱水剂、结合剂，名字就说出了各自的作用。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 289,
+          "quote": "Then scrub the nails with a lint-free wipe with alcohol or a nail surface cleanser to ensure the nail is free of any dust or debris."
+        },
+        {
+          "pdfPage": 289,
+          "quote": "Apply nail dehydrator onto each nail."
+        },
+        {
+          "pdfPage": 279,
+          "quote": "You will also need to use a nail dehydrator (NAYL dee-HY-dray-ter) to temporarily stop the nail from producing moisture and natural oil."
+        },
+        {
+          "pdfPage": 141,
+          "quote": "A nail primer (NAYL PRY-mer) is a substance that improves adhesion."
+        },
+        {
+          "pdfPage": 368,
+          "quote": "Apply nail dehydrator to all nails. Apply nail primer to all nails."
+        },
+        {
+          "pdfPage": 383,
+          "quote": "Use this before applying primer to remove surface moisture and tiny amounts of oil"
+        }
+      ]
+    },
+    {
+      "id": "apex-stress-area-sidewall",
+      "setId": "7B",
+      "items": [
+        {
+          "word": "apex",
+          "translation": "甲峰",
+          "meaning": {
+            "en": "the highest point of the enhancement",
+            "zh": "美甲加固上最高的那一点"
+          }
+        },
+        {
+          "word": "stress area",
+          "translation": "受力区",
+          "meaning": {
+            "en": "where the nail grows past the finger",
+            "zh": "指甲长出手指、变成游离缘的地方"
+          }
+        },
+        {
+          "word": "sidewall",
+          "translation": "侧壁",
+          "meaning": {
+            "en": "runs down each side of the nail",
+            "zh": "从甲根沿指甲两侧一直到前端"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Apex: top of the hill, the highest point. Stress area: where the nail leaves the finger. Sidewall: the side.",
+        "zh": "apex = 山顶，最高点（甲峰的“峰”就是山峰）。stress area = 指甲离开手指、最需要支撑的地方（受力区）。sidewall = side + wall，两侧的墙。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 286,
+          "quote": "The stress area (STRESS AH-ree-ah), where the natural nail grows beyond the finger and becomes the free edge, needs extra product and strength to support the artificial extension. This becomes the highest point in the nail and is known as the apex (A-peks) or arch (ARCH)."
+        },
+        {
+          "pdfPage": 287,
+          "quote": "The sidewall runs straight from the cuticle down the side, or wall, of the nail to the end of the extension."
+        }
+      ]
+    },
+    {
+      "id": "dry-medium-wet-bead",
+      "setId": "7B",
+      "items": [
+        {
+          "word": "dry bead",
+          "translation": "干球",
+          "meaning": {
+            "en": "equal parts liquid and powder",
+            "zh": "液体和粉一样多"
+          }
+        },
+        {
+          "word": "medium bead",
+          "translation": "中球",
+          "meaning": {
+            "en": "1.5 times as much liquid as powder",
+            "zh": "液体是粉的 1.5 倍"
+          }
+        },
+        {
+          "word": "wet bead",
+          "translation": "湿球",
+          "meaning": {
+            "en": "twice as much liquid as powder",
+            "zh": "液体是粉的 2 倍"
+          }
+        }
+      ],
+      "tip": {
+        "en": "More liquid = wetter. Dry 1:1, wet 2:1, and medium sits in the middle: 1.5:1.",
+        "zh": "液体越多越湿。干球 1:1，湿球 2:1，中球在中间：1.5:1。看中文：干、中、湿，就是液体从少到多。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 348,
+          "quote": "If equal amounts of liquid and powder are used to create the bead, it is called a dry bead."
+        },
+        {
+          "pdfPage": 348,
+          "quote": "If twice as much liquid as powder is used to create the bead, it is called a wet bead. Halfway between these two is a medium bead, which contains one-and-a-half more liquid than powder."
+        }
+      ]
+    },
+    {
+      "id": "hard-soft-hybrid-gel",
+      "setId": "7C",
+      "items": [
+        {
+          "word": "hard gel",
+          "translation": "硬胶",
+          "meaning": {
+            "en": "acetone can't get in; must be filed off",
+            "zh": "丙酮渗不进去，只能锉掉"
+          }
+        },
+        {
+          "word": "soft gel",
+          "translation": "软胶",
+          "meaning": {
+            "en": "soaks off easily in acetone",
+            "zh": "用丙酮能轻松泡掉"
+          }
+        },
+        {
+          "word": "hybrid gel",
+          "translation": "混合胶",
+          "meaning": {
+            "en": "comes off with polish remover, but slowly",
+            "zh": "能用洗甲水卸掉，但比较慢"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Hard gel is hard to get off: file it. Soft gel = soak-off gel. Hybrid comes off like polish.",
+        "zh": "硬胶很难卸，只能锉掉。软胶就是可卸胶（soak-off gel），用丙酮泡掉。混合胶（hybrid）像普通甲油一样用洗甲水卸，只是更慢。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 380,
+          "quote": "They are very strong and have a nonporous surface that cannot be penetrated with acetone."
+        },
+        {
+          "pdfPage": 384,
+          "quote": "Since hard gels cannot be removed with acetone or product remover, they must be filed off with an electric or hand file."
+        },
+        {
+          "pdfPage": 380,
+          "quote": "Soft gels (SOFT JELLS), also known as soak-off gels, are formulated to overlay the natural nail and are easily removed with acetone."
+        },
+        {
+          "pdfPage": 175,
+          "quote": "Hybrid gels are gel polishes that combine the best of the polish worlds. They have the durability and gloss of gels but can be removed like polishes with polish remover—although it takes longer."
+        }
+      ]
+    },
+    {
+      "id": "bonding-building-finishing-gel",
+      "setId": "7C",
+      "items": [
+        {
+          "word": "bonding gel",
+          "translation": "结合胶",
+          "meaning": {
+            "en": "helps gel stick to the natural nail",
+            "zh": "帮助光疗胶附着在真甲上"
+          }
+        },
+        {
+          "word": "building gel",
+          "translation": "建构胶",
+          "meaning": {
+            "en": "thick gel for making the arch or extension",
+            "zh": "很稠的胶，用来做甲拱或延长"
+          }
+        },
+        {
+          "word": "finishing gel",
+          "translation": "封层胶",
+          "meaning": {
+            "en": "the last gel; most give a high shine",
+            "zh": "最后一层胶，大多很亮"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Bond, build, finish: in that order. Bond = stick, build = make thick, finish = last coat.",
+        "zh": "顺序：bond → build → finish。bond = 粘住（结合胶），build = 堆高、做厚（建构胶），finish = 完成，最后一层（封层胶）。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 380,
+          "quote": "Gels need a primer, base gel, or bonding gel to increase adhesion to the natural nail plate."
+        },
+        {
+          "pdfPage": 380,
+          "quote": "Bonding or base gels vary in viscosity and are applied thinly to the nail. They usually then need to be cured. After, you will use another type of gel to complete the desired service."
+        },
+        {
+          "pdfPage": 380,
+          "quote": "Building gels (BILL-ding JELLS) are thick-viscosity gels that allow the nail technician to build an arch or extension"
+        },
+        {
+          "pdfPage": 382,
+          "quote": "A finishing gel is used to finish the gel service. Most finishing gels create a high shine"
+        }
+      ]
+    },
+    {
+      "id": "base-resin-activator-top-resin",
+      "setId": "7D",
+      "items": [
+        {
+          "word": "base resin",
+          "translation": "底层树脂",
+          "meaning": {
+            "en": "brushed on before dipping in powder",
+            "zh": "蘸粉之前先刷上的树脂"
+          }
+        },
+        {
+          "word": "activator",
+          "translation": "激活剂",
+          "meaning": {
+            "en": "helps the resin layers dry",
+            "zh": "帮助树脂层变干"
+          }
+        },
+        {
+          "word": "top resin",
+          "translation": "封层树脂",
+          "meaning": {
+            "en": "the last, shiny coat",
+            "zh": "最后一层，很亮"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Base goes on first, at the bottom. Top goes on last, on top. Activator helps the resin dry.",
+        "zh": "base = 底层，最先刷；top = 顶层，最后刷，很亮。activator（激活剂）帮助树脂变干。看中文：底层树脂在下面，封层树脂在最上面。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 308,
+          "quote": "Dip systems usually consist of nail dehydrator, a base resin, dip powder, activator, and top resin."
+        },
+        {
+          "pdfPage": 308,
+          "quote": "you polish the base resin onto the nail and then dip or pour the powder over the nail"
+        },
+        {
+          "pdfPage": 309,
+          "quote": "you will need to apply an activator to help the layers dry"
+        },
+        {
+          "pdfPage": 309,
+          "quote": "You are now ready to polish the nails with the top resin, which is usually formulated to be very shiny."
+        }
+      ]
+    }
+  ]
+}

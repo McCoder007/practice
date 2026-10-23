@@ -111,6 +111,7 @@ export function NailExamBankExperience({
   chineseToggleInline,
   chineseToggleFixed,
   shuffleQuestionOrder = false,
+  topSlot,
 }: {
   bankId: NailExamBankId
   showChinese: boolean
@@ -118,6 +119,8 @@ export function NailExamBankExperience({
   chineseToggleFixed: ReactNode
   /** Reshuffle the question order every time a quiz starts or restarts. */
   shuffleQuestionOrder?: boolean
+  /** Shown under the bank title, above the study options (e.g. a word reel card). */
+  topSlot?: ReactNode
 }) {
   const bank = getNailExamBank(bankId)
   const groups = bankGroupCards(bank)
@@ -319,6 +322,8 @@ export function NailExamBankExperience({
               {showChinese && <> | {summary.zh}</>}
             </p>
           </div>
+
+          {topSlot}
 
           {hasGroups && (
           <div>

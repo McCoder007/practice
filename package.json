@@ -23,11 +23,12 @@
     "assemble:nic-domain-practice": "node question-bank/scripts/assemble-nic-domain-practice.js",
     "copy:pdf-worker": "mkdir -p public/pdfjs && cp node_modules/pdfjs-dist/build/pdf.worker.min.mjs public/pdfjs/pdf.worker.min.mjs",
     "postinstall": "npm run copy:pdf-worker",
-    "prebuild": "npm run copy:pdf-worker && npm run validate:release && npm run validate:kelly-nail-school && npm run validate:nic-domain-practice",
+    "prebuild": "npm run copy:pdf-worker && npm run validate:release && npm run validate:kelly-nail-school && npm run validate:nic-domain-practice && npm run validate:nic-word-reels",
     "test:qa-reel": "node --experimental-strip-types --test lib/nail-technician-qa-reel.test.mjs",
     "test:exam-quiz": "npm run validate:release && npm run validate:kelly-nail-school && node --experimental-strip-types --test lib/exam-quiz-reel.test.mjs",
     "test": "node --experimental-strip-types --test lib/*.test.mjs question-bank/scripts/*.test.mjs",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "validate:nic-word-reels": "node question-bank/scripts/validate-nic-word-reels.js"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.8",

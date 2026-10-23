@@ -1,0 +1,725 @@
+{
+  "topicId": "chemistry",
+  "status": "reviewed",
+  "words": [
+    {
+      "setId": "3A",
+      "word": "element",
+      "translation": "元素",
+      "partOfSpeech": "Noun",
+      "example": "Gold is an element: it has only one type of atom.",
+      "exampleTranslation": "金是一种元素：它只含一种原子。",
+      "evidence": [
+        {
+          "pdfPage": 649,
+          "quote": "is the simplest form of chemical matter and contains only one type of atom"
+        },
+        {
+          "pdfPage": 654,
+          "quote": "Elements Oxygen, aluminum, gold, sodium"
+        }
+      ]
+    },
+    {
+      "setId": "3A",
+      "word": "compound",
+      "translation": "化合物",
+      "partOfSpeech": "Noun",
+      "example": "Table salt is a compound: two different elements joined together.",
+      "exampleTranslation": "食盐是一种化合物：由两种不同的元素结合而成。",
+      "evidence": [
+        {
+          "pdfPage": 651,
+          "quote": "Sodium chloride (NaCl), common table salt, is an example of a compound"
+        },
+        {
+          "pdfPage": 651,
+          "quote": "are chemical combinations of two or more atoms of different elements"
+        }
+      ]
+    },
+    {
+      "setId": "3A",
+      "word": "chemical change",
+      "translation": "化学变化",
+      "partOfSpeech": "Noun",
+      "example": "A chemical change makes a new substance, like a nail enhancement.",
+      "exampleTranslation": "化学变化会产生新物质，比如做加固甲。",
+      "evidence": [
+        {
+          "pdfPage": 652,
+          "quote": "This change is caused by chemical reactions that create new chemical substances"
+        },
+        {
+          "pdfPage": 146,
+          "quote": "Creating a nail enhancement is a good example of a chemical reaction."
+        }
+      ]
+    },
+    {
+      "setId": "3A",
+      "word": "solvent",
+      "translation": "溶剂",
+      "partOfSpeech": "Noun",
+      "example": "Acetone is a solvent: it dissolves old nail polish.",
+      "exampleTranslation": "丙酮是一种溶剂：它能溶解旧甲油。",
+      "evidence": [
+        {
+          "pdfPage": 151,
+          "quote": "When used as a polish remover, acetone dissolves old polish (the solute)."
+        },
+        {
+          "pdfPage": 654,
+          "quote": "The solvent (SAHL-vent) is the substance that dissolves the solute"
+        }
+      ]
+    },
+    {
+      "setId": "3A",
+      "word": "suspension",
+      "sayIt": "suh-SPEN-shun",
+      "translation": "悬浮液",
+      "partOfSpeech": "Noun",
+      "example": "Glitter polish is a suspension: the glitter can separate from the polish.",
+      "exampleTranslation": "亮片甲油是悬浮液：亮片会和甲油分离。",
+      "evidence": [
+        {
+          "pdfPage": 655,
+          "quote": "An example of a suspension is the glitter in nail polish, which can separate from the polish."
+        },
+        {
+          "pdfPage": 655,
+          "quote": "They are unstable and separate over time"
+        }
+      ]
+    },
+    {
+      "setId": "3A",
+      "word": "emulsifier",
+      "sayIt": "ih-MUL-suh-fy-er",
+      "translation": "乳化剂",
+      "partOfSpeech": "Noun",
+      "example": "An emulsifier holds oil and water together, like egg yolk in mayonnaise.",
+      "exampleTranslation": "乳化剂能让油和水保持混合，比如蛋黄酱里的蛋黄。",
+      "evidence": [
+        {
+          "pdfPage": 655,
+          "quote": "is an ingredient that brings two normally incompatible materials together and binds them into a uniform and fairly stable mixture"
+        },
+        {
+          "pdfPage": 658,
+          "quote": "the egg yolk in mayonnaise emulsifies the oil droplets and distributes them uniformly in the water"
+        }
+      ]
+    },
+    {
+      "setId": "3A",
+      "word": "miscible",
+      "sayIt": "MISS-uh-bul",
+      "translation": "可互溶的",
+      "partOfSpeech": "Adjective",
+      "example": "Water and alcohol are miscible: they mix and stay mixed.",
+      "exampleTranslation": "水和酒精是可互溶的：混合后会一直保持混合。",
+      "evidence": [
+        {
+          "pdfPage": 655,
+          "quote": "Water and alcohol are examples of miscible liquids"
+        },
+        {
+          "pdfPage": 655,
+          "quote": "When these substances are mixed together, they will stay mixed, forming a solution."
+        }
+      ]
+    },
+    {
+      "setId": "3A",
+      "word": "alkaline",
+      "sayIt": "AL-kuh-line",
+      "translation": "碱性的",
+      "partOfSpeech": "Adjective",
+      "example": "A product with a pH above 7 is alkaline.",
+      "exampleTranslation": "pH 高于 7 的产品是碱性的。",
+      "evidence": [
+        {
+          "pdfPage": 661,
+          "quote": "and a pH above 7 indicates an alkaline solution"
+        },
+        {
+          "pdfPage": 662,
+          "quote": "Alkalis have a pH above 7."
+        }
+      ]
+    },
+    {
+      "setId": "3A",
+      "word": "exothermic",
+      "sayIt": "ek-soh-THUR-mik",
+      "translation": "放热的",
+      "partOfSpeech": "Adjective",
+      "example": "Nail enhancement products give off heat as they harden: an exothermic reaction.",
+      "exampleTranslation": "加固甲产品变硬时会放出热量：这是放热反应。",
+      "evidence": [
+        {
+          "pdfPage": 664,
+          "quote": "When certain chemical reactions release energy in the form of heat, it is called an exothermic reaction"
+        },
+        {
+          "pdfPage": 665,
+          "quote": "example of an exothermic reaction is a nail product that hardens"
+        }
+      ]
+    },
+    {
+      "setId": "3A",
+      "word": "monomer",
+      "sayIt": "MAH-nuh-mer",
+      "translation": "单体",
+      "partOfSpeech": "Noun",
+      "example": "Monomers are single molecules that join to make a polymer.",
+      "exampleTranslation": "单体是能连接起来组成聚合物的单个分子。",
+      "evidence": [
+        {
+          "pdfPage": 146,
+          "quote": "The individual molecules that join to make the polymer are called monomers"
+        }
+      ]
+    },
+    {
+      "setId": "3A",
+      "word": "catalyst",
+      "sayIt": "KAT-uh-list",
+      "translation": "催化剂",
+      "partOfSpeech": "Noun",
+      "example": "A catalyst speeds up reactions, so nail enhancements harden quickly.",
+      "exampleTranslation": "催化剂能加快反应，所以加固甲很快就变硬。",
+      "evidence": [
+        {
+          "pdfPage": 147,
+          "quote": "is a substance that speeds up a chemical reaction"
+        },
+        {
+          "pdfPage": 147,
+          "quote": "Catalysts are found in every type of nail enhancement product and are the reason why nail enhancements harden so quickly."
+        }
+      ]
+    },
+    {
+      "setId": "3A",
+      "word": "cross-linker",
+      "translation": "交联剂",
+      "partOfSpeech": "Noun",
+      "example": "A cross-linker joins polymer chains into a strong net.",
+      "exampleTranslation": "交联剂把聚合物链连接成一张牢固的网。",
+      "evidence": [
+        {
+          "pdfPage": 148,
+          "quote": "is a monomer that joins different polymer chains together"
+        },
+        {
+          "pdfPage": 148,
+          "quote": "Cross-links create strong net-like polymers."
+        }
+      ]
+    },
+    {
+      "setId": "3B",
+      "word": "volatile",
+      "sayIt": "VAH-luh-tul",
+      "translation": "挥发性的",
+      "partOfSpeech": "Adjective",
+      "example": "Volatile solvents in polish evaporate very easily into the air.",
+      "exampleTranslation": "甲油里的挥发性溶剂很容易蒸发到空气中。",
+      "evidence": [
+        {
+          "pdfPage": 659,
+          "quote": "contain carbon (organic) and evaporate very easily (volatile)"
+        },
+        {
+          "pdfPage": 659,
+          "quote": "Volatile organic solvents such as ethyl acetate and isopropyl alcohol are used in nail polish"
+        }
+      ]
+    },
+    {
+      "setId": "3B",
+      "word": "organic",
+      "translation": "有机的",
+      "partOfSpeech": "Adjective",
+      "example": "In chemistry, organic means a substance contains carbon.",
+      "exampleTranslation": "在化学里，有机（organic）是指物质含有碳。",
+      "evidence": [
+        {
+          "pdfPage": 650,
+          "quote": "the word organic simply means that a substance contains the element carbon"
+        }
+      ]
+    },
+    {
+      "setId": "3B",
+      "word": "plasticizer",
+      "sayIt": "PLAS-tuh-sy-zer",
+      "translation": "增塑剂",
+      "partOfSpeech": "Noun",
+      "example": "Plasticizers keep polish flexible, so it can bend.",
+      "exampleTranslation": "增塑剂让甲油保持柔韧，可以弯曲。",
+      "evidence": [
+        {
+          "pdfPage": 149,
+          "quote": "plasticizers (plas-tih-SY-zerz), which are used to keep the products flexible"
+        }
+      ]
+    },
+    {
+      "setId": "3B",
+      "word": "UV stabilizer",
+      "sayIt": "yoo-vee STAY-buh-ly-zer",
+      "translation": "紫外线稳定剂",
+      "partOfSpeech": "Noun",
+      "example": "A UV stabilizer stops sunlight from fading the polish color.",
+      "exampleTranslation": "紫外线稳定剂能防止阳光让甲油褪色。",
+      "evidence": [
+        {
+          "pdfPage": 149,
+          "quote": "which control color stability and prevent sunlight from causing fading or discoloration"
+        }
+      ]
+    },
+    {
+      "setId": "3B",
+      "word": "acrylics",
+      "sayIt": "uh-KRIL-iks",
+      "translation": "丙烯酸类",
+      "partOfSpeech": "Noun",
+      "example": "All nail enhancements and nail glues belong to the acrylics family.",
+      "exampleTranslation": "所有加固甲和美甲胶水都属于丙烯酸类。",
+      "evidence": [
+        {
+          "pdfPage": 148,
+          "quote": "All nail enhancements and adhesives are based on a family of chemical ingredients called the acrylics"
+        }
+      ]
+    },
+    {
+      "setId": "3B",
+      "word": "cyanoacrylate",
+      "sayIt": "sy-uh-noh-AK-ruh-layt",
+      "translation": "氰基丙烯酸酯",
+      "partOfSpeech": "Noun",
+      "example": "Nail glues and wraps are based on cyanoacrylates.",
+      "exampleTranslation": "美甲胶水和包甲都以氰基丙烯酸酯为基础。",
+      "evidence": [
+        {
+          "pdfPage": 148,
+          "quote": "All nail adhesives (glues) and wraps are based on cyanoacrylates"
+        }
+      ]
+    },
+    {
+      "setId": "3B",
+      "word": "MMA",
+      "translation": "甲基丙烯酸甲酯",
+      "partOfSpeech": "Noun",
+      "example": "The FDA and most state boards say not to use MMA monomer.",
+      "exampleTranslation": "FDA 和大多数州美容委员会都说不要用 MMA 单体。",
+      "evidence": [
+        {
+          "pdfPage": 148,
+          "quote": "Methyl methacrylate monomer (MMA) (METH-ul meth-AH-kril-ayt MON-uh-mur) is a substance"
+        },
+        {
+          "pdfPage": 149,
+          "quote": "The FDA and most state boards of cosmetology say not to use it! This is the most important reason."
+        }
+      ]
+    },
+    {
+      "setId": "3B",
+      "word": "corrosive",
+      "sayIt": "kuh-ROH-siv",
+      "translation": "腐蚀性的",
+      "partOfSpeech": "Adjective",
+      "example": "Acid-based primers are corrosive: they can burn skin and eyes.",
+      "exampleTranslation": "酸性结合剂有腐蚀性：会灼伤皮肤和眼睛。",
+      "evidence": [
+        {
+          "pdfPage": 142,
+          "quote": "Acid-based primers are corrosive and can cause painful burns and scars to soft tissue and eyes."
+        }
+      ]
+    },
+    {
+      "setId": "3B",
+      "word": "primer",
+      "sayIt": "PRY-mer",
+      "translation": "结合剂",
+      "partOfSpeech": "Noun",
+      "example": "A primer helps nail products stick better to the nail.",
+      "exampleTranslation": "结合剂能让美甲产品更好地附着在指甲上。",
+      "evidence": [
+        {
+          "pdfPage": 141,
+          "quote": "is a substance that improves adhesion"
+        },
+        {
+          "pdfPage": 142,
+          "quote": "Many primers act as double-sided sticky tape to anchor monomers firmly to the surface of the natural nail plate."
+        }
+      ]
+    },
+    {
+      "setId": "3B",
+      "word": "overexposure",
+      "sayIt": "oh-ver-ik-SPOH-zher",
+      "translation": "过度接触",
+      "partOfSpeech": "Noun",
+      "example": "Touching dusty containers again and again can cause overexposure.",
+      "exampleTranslation": "一次又一次接触沾满粉尘的容器，会造成过度接触。",
+      "evidence": [
+        {
+          "pdfPage": 150,
+          "quote": "Repeatedly handling these items will cause overexposure if the items are not kept clean."
+        },
+        {
+          "pdfPage": 151,
+          "quote": "Overexposure is prolonged, repeated, or long-term exposure that can cause sensitivity."
+        }
+      ]
+    },
+    {
+      "setId": "3B",
+      "word": "glycerin",
+      "sayIt": "GLISS-er-in",
+      "translation": "甘油",
+      "partOfSpeech": "Noun",
+      "example": "Glycerin is a sweet, colorless, oily moisturizer used in creams.",
+      "exampleTranslation": "甘油是一种带甜味、无色、油状的保湿成分，用在护肤霜里。",
+      "evidence": [
+        {
+          "pdfPage": 659,
+          "quote": "is a sweet, colorless, oily substance. It is used as a solvent and as a moisturizer in skin and body creams."
+        }
+      ]
+    },
+    {
+      "setId": "3B",
+      "word": "methylene glycol",
+      "sayIt": "METH-uh-leen GLY-kawl",
+      "translation": "甲二醇",
+      "partOfSpeech": "Noun",
+      "example": "Methylene glycol hardeners make thin, weak nails stiffer.",
+      "exampleTranslation": "甲二醇硬甲油能让又薄又软的指甲变硬。",
+      "evidence": [
+        {
+          "pdfPage": 176,
+          "quote": "methylene glycol, an ingredient that creates bridges or cross-links between the keratin strands"
+        },
+        {
+          "pdfPage": 177,
+          "quote": "making the plate stiffer and more resistant to bending and breaking"
+        },
+        {
+          "pdfPage": 177,
+          "quote": "These products are useful for thin and weak nail plates"
+        }
+      ]
+    }
+  ],
+  "lookAlikes": [
+    {
+      "id": "miscible-immiscible",
+      "setId": "3A",
+      "items": [
+        {
+          "word": "miscible",
+          "translation": "可互溶的",
+          "meaning": {
+            "en": "Liquids that mix and stay mixed",
+            "zh": "能混合、并一直保持混合的液体"
+          }
+        },
+        {
+          "word": "immiscible",
+          "translation": "不互溶的",
+          "meaning": {
+            "en": "Liquids that separate, like oil and water",
+            "zh": "会分开的液体，比如油和水"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Miscible looks like \"mix\". Im- means not: immiscible liquids, like oil and water, won't stay mixed.",
+        "zh": "miscible 看起来像 mix（混合）。im- = 不：immiscible 就是不互溶，像油和水，混了也会分开。中文多一个“不”字。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 655,
+          "quote": "liquids are mutually soluble, meaning that they can be mixed together to form solutions"
+        },
+        {
+          "pdfPage": 655,
+          "quote": "When these substances are mixed together, they will stay mixed, forming a solution."
+        },
+        {
+          "pdfPage": 655,
+          "quote": "liquids are not capable of being mixed together to form stable solutions. Water and oil are two examples."
+        },
+        {
+          "pdfPage": 655,
+          "quote": "They can be mixed together but will separate when they are left sitting still."
+        }
+      ]
+    },
+    {
+      "id": "solution-suspension-emulsion",
+      "setId": "3A",
+      "items": [
+        {
+          "word": "solution",
+          "translation": "溶液",
+          "meaning": {
+            "en": "Stable mix, like salt water",
+            "zh": "稳定的混合物，比如盐水"
+          }
+        },
+        {
+          "word": "suspension",
+          "translation": "悬浮液",
+          "meaning": {
+            "en": "Visible bits that separate, like glitter in polish",
+            "zh": "看得见的颗粒会分离，比如甲油里的亮片"
+          }
+        },
+        {
+          "word": "emulsion",
+          "translation": "乳液",
+          "meaning": {
+            "en": "Oil and water held together, like lotion",
+            "zh": "油和水被拉在一起，比如护手乳"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Solution: you can't see the salt. Suspension: you can see the glitter. Emulsion: creamy lotion, oil plus water.",
+        "zh": "溶液（solution）：盐溶化了，看不见。悬浮液（suspension）：亮片“悬浮”在里面，看得见。乳液（emulsion）：像护手乳，油加水。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 654,
+          "quote": "is a stable, uniform mixture of two or more substances"
+        },
+        {
+          "pdfPage": 655,
+          "quote": "Again, salt water is an example of a solution with a solid dissolved in a liquid."
+        },
+        {
+          "pdfPage": 655,
+          "quote": "Solutions contain small particles that are invisible to the naked eye."
+        },
+        {
+          "pdfPage": 655,
+          "quote": "The particles are generally visible to the naked eye"
+        },
+        {
+          "pdfPage": 655,
+          "quote": "An example of a suspension is the glitter in nail polish, which can separate from the polish."
+        },
+        {
+          "pdfPage": 655,
+          "quote": "is an unstable physical mixture of two or more immiscible substances (substances that normally will not stay mixed) plus a special ingredient called an emulsifier"
+        },
+        {
+          "pdfPage": 658,
+          "quote": "Haircolor, shampoos, conditioners, hand lotions, and facial creams are oil-in-water emulsions."
+        }
+      ]
+    },
+    {
+      "id": "physical-chemical-change",
+      "setId": "3A",
+      "items": [
+        {
+          "word": "physical change",
+          "translation": "物理变化",
+          "meaning": {
+            "en": "Form changes; no new substance is made",
+            "zh": "形态改变，但不产生新物质"
+          }
+        },
+        {
+          "word": "chemical change",
+          "translation": "化学变化",
+          "meaning": {
+            "en": "A reaction makes a new substance",
+            "zh": "化学反应产生了新物质"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Physical: same stuff, new form, like polish drying. Chemical: a new substance, like a nail enhancement hardening.",
+        "zh": "物理变化：还是原来的东西，只是形态变了，比如甲油变干。化学变化：产生了新物质，比如加固甲变硬。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 652,
+          "quote": "is a change in the form or physical properties of a substance, without a chemical reaction or the creation of a new substance"
+        },
+        {
+          "pdfPage": 652,
+          "quote": "A physical change occurs when nail polish is applied onto nails and the solvent evaporates"
+        },
+        {
+          "pdfPage": 652,
+          "quote": "This change is caused by chemical reactions that create new chemical substances"
+        },
+        {
+          "pdfPage": 146,
+          "quote": "Creating a nail enhancement is a good example of a chemical reaction."
+        }
+      ]
+    },
+    {
+      "id": "exothermic-endothermic",
+      "setId": "3A",
+      "items": [
+        {
+          "word": "exothermic",
+          "translation": "放热的",
+          "meaning": {
+            "en": "Reaction that gives off heat",
+            "zh": "会放出热量的反应"
+          }
+        },
+        {
+          "word": "endothermic",
+          "translation": "吸热的",
+          "meaning": {
+            "en": "Reaction that needs heat from outside",
+            "zh": "需要从外面吸收热量的反应"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Exothermic starts like \"exit\": heat goes out. Endothermic: heat must go in. A hardening nail enhancement gets warm: exothermic.",
+        "zh": "exothermic 开头像 exit（出口）：热量往外走，放热。endothermic：热量要进来，吸热。加固甲变硬时会发热：放热反应。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 664,
+          "quote": "When certain chemical reactions release energy in the form of heat, it is called an exothermic reaction"
+        },
+        {
+          "pdfPage": 665,
+          "quote": "example of an exothermic reaction is a nail product that hardens"
+        },
+        {
+          "pdfPage": 665,
+          "quote": "is a chemical reaction that requires the absorption of energy or heat from an external source for the reaction to actually occur"
+        }
+      ]
+    },
+    {
+      "id": "acidic-neutral-alkaline",
+      "setId": "3A",
+      "items": [
+        {
+          "word": "acidic",
+          "translation": "酸性的",
+          "meaning": {
+            "en": "pH below 7",
+            "zh": "pH 低于 7"
+          }
+        },
+        {
+          "word": "neutral",
+          "translation": "中性的",
+          "meaning": {
+            "en": "pH of 7",
+            "zh": "pH 等于 7"
+          }
+        },
+        {
+          "word": "alkaline",
+          "translation": "碱性的",
+          "meaning": {
+            "en": "pH above 7",
+            "zh": "pH 高于 7"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Sour lemon juice is acidic: below 7. Alkaline products feel slippery, like soap: above 7. Pure water: neutral.",
+        "zh": "“酸”就是酸味：柠檬汁是酸性，pH 低于 7。碱性的东西摸起来滑滑的、像肥皂，pH 高于 7。纯水 pH 7，是中性。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 661,
+          "quote": "A pH of 7 is a neutral solution, a pH below 7 indicates an acidic solution"
+        },
+        {
+          "pdfPage": 661,
+          "quote": "and a pH above 7 indicates an alkaline solution"
+        },
+        {
+          "pdfPage": 662,
+          "quote": "They feel slippery and soapy on the skin."
+        },
+        {
+          "pdfPage": 662,
+          "quote": "Pure (distilled) water has a pH of 7"
+        }
+      ]
+    },
+    {
+      "id": "monomer-oligomer-polymer",
+      "setId": "3A",
+      "items": [
+        {
+          "word": "monomer",
+          "translation": "单体",
+          "meaning": {
+            "en": "One single molecule that can join others",
+            "zh": "能和别的分子连接的单个分子"
+          }
+        },
+        {
+          "word": "oligomer",
+          "translation": "寡聚物",
+          "meaning": {
+            "en": "A short chain of joined molecules",
+            "zh": "由分子连成的一条短链"
+          }
+        },
+        {
+          "word": "polymer",
+          "translation": "聚合物",
+          "meaning": {
+            "en": "A very long chain of molecules",
+            "zh": "由分子连成的很长的链"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Mono = one, poly = many. Oligomer is in the middle: a short chain.",
+        "zh": "mono = 一个，poly = 很多。oligomer 在中间：一条短链。看中文：单体是单个；寡聚物的“寡”是少，连得少；聚合物是大量聚在一起。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 146,
+          "quote": "The individual molecules that join to make the polymer are called monomers"
+        },
+        {
+          "pdfPage": 147,
+          "quote": "is a short chain of monomers that has had the growth of its chain halted before it became a polymer"
+        },
+        {
+          "pdfPage": 146,
+          "quote": "The molecules in the product join together in extremely long chains"
+        },
+        {
+          "pdfPage": 146,
+          "quote": "These gigantic chains of molecules are called polymers"
+        }
+      ]
+    }
+  ]
+}
