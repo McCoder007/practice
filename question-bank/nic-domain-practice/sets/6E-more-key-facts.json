@@ -141,8 +141,8 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Use a wet nail brush to remove debris from the fingertips. Use downward strokes, starting at the first knuckle and brushing toward the free edge.",
-        "zh": "用湿的指甲刷（nail brush）刷掉指尖上的碎屑（debris）。向下刷，从第一个指节开始，朝游离缘（free edge）方向刷。"
+        "en": "Use a wet nail brush to clean dirt off the fingertips. Use downward strokes, starting at the first knuckle and brushing toward the free edge.",
+        "zh": "用湿的指甲刷（nail brush）刷掉指尖上的脏东西。向下刷，从第一个指节开始，朝游离缘（free edge）方向刷。"
       },
       "lockPoint": {
         "en": "Same direction as wiping off old polish: toward the free edge.",
@@ -267,8 +267,8 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Milady says the two- or three-way buffer replaces the chamois, which becomes contaminated with multiple uses. The buffer still gives a beautiful, glossy shine.",
-        "zh": "Milady 说两面或三面抛光条取代了麂皮（chamois），因为麂皮多次使用后会被污染（contaminated）。抛光条一样能抛出漂亮的光泽。"
+        "en": "Milady says the two- or three-way buffer replaces the chamois. A chamois becomes contaminated after many uses. The buffer still gives a beautiful, glossy shine.",
+        "zh": "Milady 说两面或三面抛光条取代了麂皮（chamois）。麂皮用过很多次后会被污染（contaminated）。抛光条一样能抛出漂亮的光泽。"
       },
       "lockPoint": {
         "en": "Unlike a chamois, most three-way buffers are single-use: throw each one away after one client.",
@@ -471,12 +471,12 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Use a small piece of cotton soaked with alcohol, acetone, or polish remover. Clean under the free edge too, or the polish will not adhere well.",
-        "zh": "用一小块沾了酒精、丙酮（acetone）或卸甲水的棉花擦。游离缘（free edge）下面也要擦干净，否则甲油附着不好。"
+        "en": "Use a small piece of cotton soaked with alcohol, acetone, or polish remover. Clean under the free edge too, or the polish will not stick well.",
+        "zh": "用一小块沾了酒精、丙酮（acetone）或卸甲水的棉花擦。游离缘（free edge）下面也要擦干净，否则甲油粘不牢。"
       },
       "lockPoint": {
-        "en": "Wipe as firmly as you would to take off a stubborn red polish.",
-        "zh": "擦的时候要像卸掉很难擦的红色甲油那样用力彻底。"
+        "en": "Wipe firmly, like when you take off red polish that is hard to remove.",
+        "zh": "擦的时候要用力，就像卸掉很难擦的红色甲油那样。"
       },
       "teachingRelation": "action",
       "authorityRefs": [
@@ -537,8 +537,8 @@
         "zh": "涂第二层时，不要再把刷子压成扇形，也不要再封边。从甲油弧线的底部开始，朝游离缘（free edge）刷，涂一层薄而均匀的甲油。"
       },
       "lockPoint": {
-        "en": "Thin layers built one on another → better adhesion → the polish lasts longer.",
-        "zh": "一层层薄涂叠加 → 附着更好 → 甲油更持久。"
+        "en": "Build thin layers, one on another. They stick better, so the polish lasts longer.",
+        "zh": "一层层薄涂叠加。这样附着更好，所以甲油更持久。"
       },
       "teachingRelation": "action",
       "authorityRefs": [
@@ -731,8 +731,8 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Natural stones are porous, so they cannot be disinfected. Synthetic stones can be disinfected and are the safest. Scrub-clean and disinfect the stones between clients.",
-        "zh": "天然石是多孔的（porous），所以不能消毒。合成石（synthetic stones）可以消毒，是最安全的选择。每位顾客之间都要刷洗并消毒石头。"
+        "en": "Natural stones are porous (full of tiny holes), so they cannot be disinfected. Synthetic stones can be disinfected and are the safest. Scrub-clean and disinfect the stones between clients.",
+        "zh": "天然石是多孔的（porous，布满小孔），所以不能消毒。合成石（synthetic stones）可以消毒，是最安全的选择。每位顾客之间都要刷洗并消毒石头。"
       },
       "lockPoint": {
         "en": "Name trap: natural sounds safer, but here synthetic wins. Only synthetic stones can be disinfected.",

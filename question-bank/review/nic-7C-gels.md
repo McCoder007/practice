@@ -22,8 +22,8 @@ C. need one to two minutes per layer. / 每层需要 1 到 2 分钟。
 D. cure gel with heat instead of light. / 靠热而不是光来固化。  
 *Why:* LED cure times are usually 5 to 60 seconds per layer, versus one to two minutes in UV, and LED bulbs last longer.  
 *为什么:* LED 灯每层固化通常只要 5 到 60 秒，UV 灯要 1 到 2 分钟，而且 LED 灯珠更耐用。  
-*Lock this (real-acronym):* LED = Light-Emitting Diode. Nail LED lamps shine at about 365–405 nm, so part of their light is UV.  
-*记重点:* LED = Light-Emitting Diode（发光二极管）。美甲 LED 灯的波长约 365–405 纳米，其中一部分其实就是紫外线。  
+*Lock this (real-life):* Home LED bulbs last for years. Nail LED lamps too: longer-lasting bulbs, and gel cures faster.  
+*记重点:* 家里的 LED 灯泡能用好多年。美甲 LED 灯也一样：灯泡更耐用，凝胶也干得更快。  
 *Source:* Milady Standard Nail Technology p.355 (PDF 379)
 
 **3. How must hard gel be removed?**  
@@ -34,8 +34,8 @@ C. Dissolved with nail cleanser / 用甲面清洁剂溶掉
 D. Filed off with a hand or electric file / 用手锉或电动磨甲机磨掉 ✅  
 *Why:* Hard gels have a nonporous surface that acetone cannot penetrate, so they must be filed off. Soft, soak-off gels are the ones that come off with acetone.  
 *为什么:* hard gel（硬胶）表面无孔，丙酮渗不进去，所以必须磨掉。soft gel（软胶/可卸胶）才能用丙酮卸掉。  
-*Lock this (picture):* Acetone on hard gel is like water on glass: it sits on top and never soaks in.  
-*记重点:* 丙酮碰到硬胶，就像水洒在玻璃上：只停在表面，渗不进去。  
+*Lock this (comparison):* Soft gel = soak-off gel. Hard gel = file-off gel: acetone can't get into it.  
+*记重点:* 软胶（soft gel）= 可卸胶（soak-off gel）。硬胶（hard gel）= 只能磨掉的胶：丙酮渗不进去。  
 *Source:* Milady Standard Nail Technology p.356 (PDF 380), Milady Standard Nail Technology p.360 (PDF 384)
 
 **4. Soft gels are also known as**  
@@ -154,9 +154,9 @@ C. wants a one-day extension. / 只想戴一天的延长。
 D. wears the same color for two weeks. / 同一个颜色会戴两周。 ✅  
 *Why:* Gel polish stays chip-free for about two weeks, so it suits a client who keeps one color. A client who changes color often is better with traditional polish, which comes off easily.  
 *为什么:* 甲油胶能保持约两周不掉色，适合一直戴同一个颜色的客人。经常换颜色的客人更适合普通甲油，因为很容易卸。  
-*Lock this (real-life):* Gel polish is hard the moment it leaves the lamp, so she can grab her phone and keys right away.  
-*记重点:* 甲油胶一出灯就硬了，客人马上就能拿手机、找钥匙。  
-*Source:* Milady Standard Nail Technology p.362 (PDF 386)
+*Lock this (reason-chain):* Gel polish needs an acetone soak to remove. New color every few days? That's a soak every few days.  
+*记重点:* 甲油胶（gel polish）要用丙酮泡才能卸掉。每隔几天就换颜色？那就得每隔几天泡一次。  
+*Source:* Milady Standard Nail Technology p.362 (PDF 386), Milady Standard Nail Technology p.354 (PDF 378)
 
 **14. Which client is the poorest fit for hard gel extensions?**  
 哪位客人最不适合做硬胶延长？  
@@ -214,9 +214,9 @@ C. It is never cured in a lamp. / 它从来不需要照灯固化。
 D. It already contains acetone. / 它本身已经含有丙酮。  
 *Why:* Gel polish color has a medium level of cross-linking, so it stays flexible and comes off easily. The tighter the cross-linking, the harder and stronger the gel.  
 *为什么:* 甲油胶色胶层的 cross-linking（交联）程度中等，所以有弹性、容易卸除。交联越紧密，胶就越硬越牢。  
-*Lock this (picture):* Cross-links form a net. A loose net lets acetone slip through; a tight net keeps it out.  
-*记重点:* 交联像一张网：网眼松，丙酮能钻进去；网眼紧，丙酮就进不去。  
-*Source:* Milady Standard Nail Technology p.354 (PDF 378)
+*Lock this (picture):* Cross-links are like ladder steps joining two sides. Color layer: only a medium number, so it bends and soaks off.  
+*记重点:* 交联（cross-links）就像梯子上连接两边的横档。色胶层的横档只有中等数量，所以能弯曲，也容易卸掉。  
+*Source:* Milady Standard Nail Technology p.354 (PDF 378), Milady Standard Nail Technology p.124 (PDF 148)
 
 **19. A tack-free finishing gel cures**  
 免洗封层（tack-free finishing gel）固化后是什么样？  

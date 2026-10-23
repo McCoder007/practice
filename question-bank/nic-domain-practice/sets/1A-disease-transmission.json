@@ -220,8 +220,8 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Germs cannot get through healthy, unbroken skin. They enter through cuts, scratches, or rashes. White blood cells destroy bacteria. Antitoxins work against toxins.",
-        "zh": "病菌无法穿过健康、完整的皮肤，它们会从伤口、抓痕或皮疹进入。white blood cells（白细胞）消灭细菌。antitoxins（抗毒素）对抗毒素。"
+        "en": "Germs cannot get through healthy, unbroken skin. They get in through cuts, scratches, or rashes. So skin is first. Body secretions like sweat, white blood cells, and antitoxins are the next lines of defense.",
+        "zh": "病菌穿不过健康、完整的皮肤，只能从伤口、抓痕或皮疹进入。所以皮肤是第一道防线。body secretions（身体分泌物，例如汗液）、white blood cells（白细胞）和 antitoxins（抗毒素）是后面的几道防线。"
       },
       "lockPoint": {
         "en": "Skin is the wall. White blood cells are the guards inside.",
@@ -598,8 +598,8 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Immunity is the body's ability to fight off germs. Natural immunity is partly inherited. Acquired immunity comes after an illness or a vaccine, like a flu shot.",
-        "zh": "immunity（免疫）是身体抵抗病菌的能力。natural immunity（自然免疫）部分来自遗传。acquired immunity（获得性免疫）来自生过病并康复，或打过疫苗，例如流感疫苗。"
+        "en": "Immunity is the body's power to fight off germs, so you stay well. A vaccine, like a flu shot, builds acquired immunity. Infection is germs getting in. Inflammation is red, hot swelling.",
+        "zh": "immunity（免疫）是身体抵抗病菌、让你保持健康的能力。打疫苗（比如流感疫苗）能获得 acquired immunity（获得性免疫）。infection（感染）是病菌进入身体。inflammation（发炎）是红、热、肿。"
       },
       "lockPoint": {
         "en": "The Chinese name means \"avoid sickness.\" Your body fights germs, so you do not get sick.",
@@ -619,6 +619,24 @@
           "section": "The Healthy Professional - Describe How Immunity Keeps the Body Safe",
           "pdfPage": 575,
           "printedPage": "80"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Direct Transmission",
+          "pdfPage": 594,
+          "printedPage": "99"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Table 5-1 Additional Terms Related to Disease",
+          "pdfPage": 600,
+          "printedPage": "105"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Bacterial Infections",
+          "pdfPage": 601,
+          "printedPage": "106"
         }
       ],
       "evidence": [
@@ -633,6 +651,18 @@
         {
           "pdfPage": 575,
           "quote": "Acquired immunity (uh-KWY-erd im-YOO-net-ee) is developed after overcoming a disease, through inoculation (such as flu vaccinations)"
+        },
+        {
+          "pdfPage": 594,
+          "quote": "the invasion of body tissues by"
+        },
+        {
+          "pdfPage": 600,
+          "quote": "infectious materials on an item’s surface"
+        },
+        {
+          "pdfPage": 601,
+          "quote": "redness, heat, pain, and/or swelling"
         }
       ]
     },

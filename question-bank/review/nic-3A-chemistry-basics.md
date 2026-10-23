@@ -8,11 +8,11 @@ A. a molecule. / 分子（molecule）。
 B. an atom. / 原子（atom）。 ✅  
 C. a compound. / 化合物（compound）。  
 D. an element. / 元素（element）。  
-*Why:* Atoms are the basic unit of matter. The nucleus holds protons and neutrons, with electrons moving around it. Atoms combine to make molecules.  
-*为什么:* atom（原子）是物质的基本单位：原子核含有质子和中子，电子绕着它运动。原子结合起来就成了分子（molecule）。  
+*Why:* Atoms are the basic unit: normal chemistry cannot split them into anything simpler. Atoms join to make molecules and compounds. An element is a substance with only one type of atom.  
+*为什么:* atom（原子）是物质的基本单位：普通的化学方法无法把它分成更简单的东西。原子结合起来组成分子（molecule）和化合物（compound）。element（元素）则是只含一种原子的物质。  
 *Lock this (comparison):* Atoms are like letters. Letters join to make words; atoms join to make molecules.  
 *记重点:* 原子（atom）像字母：字母拼成单词，原子组成分子（molecule）。原子是物质最基本的单位。  
-*Source:* Milady Standard Foundations p.155 (PDF 650)
+*Source:* Milady Standard Foundations p.155 (PDF 650), Milady Standard Foundations p.154 (PDF 649), Milady Standard Foundations p.156 (PDF 651)
 
 **2. Oxygen, gold, and aluminum are examples of**  
 氧、金和铝都属于什么？  
@@ -34,8 +34,8 @@ C. a physical mixture. / 物理混合物（physical mixture）。
 D. a compound. / 化合物（compound）。 ✅  
 *Why:* A compound joins atoms of different elements in fixed proportions. Salt has one sodium (Na) atom for each chlorine (Cl) atom.  
 *为什么:* compound（化合物）由不同元素的原子按固定比例结合而成。食盐中每个钠（Na）原子对应一个氯（Cl）原子。  
-*Lock this (word-parts):* Com- means together: a compound puts different elements together. Ozone, O3, has only one element.  
-*记重点:* 化合物：不同元素“化”在一起、“合”成一体。臭氧 O₃ 只有一种元素 O，是单质分子。  
+*Lock this (word-parts):* Com- = together, as in combine: a compound joins different elements. Only one element, like oxygen gas? Elemental molecule.  
+*记重点:* com- = “一起”，就像 combine（结合）：化合物（compound）把不同的元素结合在一起。只有一种元素，比如氧气（oxygen gas）？那是单质分子（elemental molecule）。  
 *Source:* Milady Standard Foundations p.156 (PDF 651), Milady Standard Foundations p.157 (PDF 652), Milady Standard Foundations p.159 (PDF 654)
 
 **4. Which is a chemical change?**  
@@ -70,8 +70,8 @@ C. a suspension. / 悬浮液（suspension）。 ✅
 D. a pure substance. / 纯净物（pure substance）。  
 *Why:* A suspension holds undissolved particles in a liquid. It is unstable and separates over time. A solution does not separate, and an emulsion needs an emulsifier.  
 *为什么:* suspension（悬浮液）是液体中含有未溶解的颗粒，不稳定，会随时间分离。溶液静置不分离；乳液（emulsion）需要乳化剂。  
-*Lock this (real-life):* That's why you gently roll the bottle upside down between your palms before polishing.  
-*记重点:* 所以涂之前要把甲油瓶倒过来，放在两掌之间轻轻滚动，把沉下去的颗粒重新混匀。  
+*Lock this (picture):* Shake a snow globe: the bits float. Let it sit, and they sink. Glitter polish is a suspension too.  
+*记重点:* 就像摇雪花水晶球：里面的碎片就飘起来。放着不动，它们就沉下去。含亮片的指甲油也是悬浮液（suspension）。  
 *Source:* Milady Standard Foundations p.160 (PDF 655), Milady Standard Nail Technology p.151 (PDF 175)
 
 **7. What lets oil and water form an emulsion?**  
@@ -106,9 +106,9 @@ C. Liquid soap / 液体皂
 D. Cuticle remover / 死皮软化剂（cuticle remover）  
 *Why:* Only products that contain water can have a pH. Nail polish, oils, and waxes contain no water, so they have no pH.  
 *为什么:* 只有含水的产品才有 pH。指甲油、油类和蜡都不含水，所以没有 pH。  
-*Lock this (reason-chain):* No water → no hydrogen or hydroxide ions → nothing for pH to measure.  
-*记重点:* 没有水 → 没有氢离子和氢氧根离子 → pH 无从测量。  
-*Source:* Milady Standard Foundations p.168 (PDF 663), Milady Standard Foundations p.165 (PDF 660)
+*Lock this (reason-chain):* pH needs water. Lotion, liquid soap, and cuticle remover all contain water. Polish has none, so no pH.  
+*记重点:* pH 离不开水。护手乳、液体皂和死皮软化剂（cuticle remover）都含水。指甲油一点水都没有，所以没有 pH。  
+*Source:* Milady Standard Foundations p.168 (PDF 663), Milady Standard Foundations p.165 (PDF 660), Milady Standard Nail Technology p.151 (PDF 175)
 
 **10. Water and alcohol mix to form a stable solution. They are**  
 水和酒精能混合成稳定的溶液，它们是——  
@@ -154,8 +154,8 @@ C. oxidation. / 氧化（oxidation）。
 D. neutralization. / 中和（neutralization）。  
 *Why:* These coatings work by evaporation, a physical reaction. Their solvents evaporate and leave a polymer film. No monomers react, so nothing polymerizes.  
 *为什么:* 这些涂层靠蒸发变硬，属于物理反应。溶剂蒸发后留下一层聚合物膜。里面没有单体参与反应，所以不发生聚合。  
-*Lock this (reason-chain):* Polish polymers aren't cross-linked → weaker film → chips easily and dissolves fast in remover.  
-*记重点:* 甲油里的聚合物没有交联（cross-link）→ 膜比较弱 → 容易掉，也很快被洗甲水溶掉。  
+*Lock this (comparison):* Like an artist's paint drying: the liquid goes into the air and the color stays. No reaction, just evaporation.  
+*记重点:* 就像画家的颜料变干：液体跑进空气里，颜色留在原处。没有化学反应，只是蒸发（evaporation）。  
 *Source:* Milady Standard Nail Technology p.122 (PDF 146), Milady Standard Nail Technology p.125 (PDF 149)
 
 **14. The single molecules that join to make a polymer are**  
@@ -166,8 +166,8 @@ C. monomers. / 单体（monomers）。 ✅
 D. solvents. / 溶剂（solvents）。  
 *Why:* Monomers are the individual molecules that join into very long chains called polymers. For example, amino acids join to make keratin.  
 *为什么:* monomers（单体）是一个个单独的分子，连接成很长的链，就是 polymers（聚合物）。例如，氨基酸连接成角蛋白（keratin）。  
-*Lock this (word-parts):* Mono = one, poly = many, -mer = part. Oligo = few: an oligomer is a short chain.  
-*记重点:* mono = 一，poly = 多，-mer = 部分；oligo = 少：oligomer（寡聚物）是只有几节的短链。  
+*Lock this (word-parts):* Mono = one, poly = many, -mer = part. One part: monomer. Many parts joined: polymer.  
+*记重点:* mono = 一，poly = 多，-mer = 部分。一个部分：单体（monomer）。许多部分连在一起：聚合物（polymer）。  
 *Source:* Milady Standard Nail Technology p.122 (PDF 146)
 
 **15. A short chain of monomers that is not yet a polymer is**  
@@ -214,8 +214,8 @@ C. a photoinitiator. / 光引发剂（photoinitiator）。
 D. a plasticizer. / 增塑剂（plasticizer）。  
 *Why:* Cross-linkers join polymer chains like rungs on a ladder. The net-like structure is strong and flexible, and more resistant to stains, water, and acetone.  
 *为什么:* cross-linker（交联剂）像梯子的横档一样把聚合物链连起来。这种网状结构坚固又有弹性，更能抵抗污渍、水和丙酮。  
-*Lock this (reason-chain):* Cross-links tie chains together like a net → acetone can't pull them apart easily → slow soak-off.  
-*记重点:* 交联把链条连成一张网 → 丙酮不容易拆开 → 所以加固甲比包甲（wraps）或贴片胶（tip adhesive）更难泡掉。  
+*Lock this (word-parts):* Read the name: cross = go across, link = join. A cross-linker reaches across and joins two chains.  
+*记重点:* 看名字就懂：cross = 横过去，link = 连接。交联剂（cross-linker）横跨过去，把两条聚合物链连在一起。  
 *Source:* Milady Standard Nail Technology p.124 (PDF 148)
 
 **19. The pH scale, from 0 to 14, measures**  
@@ -226,8 +226,8 @@ C. acidity and alkalinity. / 酸性和碱性的程度（acidity and alkalinity�
 D. hardness. / 硬度（hardness）。  
 *Why:* The pH scale measures how acidic or alkaline a substance is. A pH of 7 is neutral, below 7 is acidic, and above 7 is alkaline.  
 *为什么:* pH 标度测量物质的酸碱程度。pH 7 是中性，低于 7 是酸性，高于 7 是碱性（alkaline）。  
-*Lock this (real-acronym):* Milady: pH = potential hydrogen, the amount of hydrogen ions. More hydrogen ions = more acidic.  
-*记重点:* Milady：pH = potential hydrogen，即氢离子（hydrogen ion）的数量。氢离子越多，越偏酸性。  
+*Lock this (picture):* pH is a seesaw: acid at one end, alkaline at the other. As one goes up, the other goes down.  
+*记重点:* pH 像跷跷板：一头是酸性（acid），另一头是碱性（alkaline）。一头升高，另一头就降低。  
 *Source:* Milady Standard Foundations p.166 (PDF 661), Milady Standard Foundations p.165 (PDF 660)
 
 **20. What do oils, waxes, and soil on the nail plate do?**  
@@ -238,6 +238,6 @@ C. Speed up curing / 加快固化
 D. Raise the pH / 提高 pH 值  
 *Why:* Adhesion happens when molecules on two surfaces attract each other. Oils, waxes, and soil contaminate the surface and block this, so a clean, dry nail gives better adhesion.  
 *为什么:* adhesion（附着）是两个表面的分子互相吸引而粘在一起。油脂、蜡和污垢会污染表面、阻碍附着，所以干净、干燥的甲面附着更好。  
-*Lock this (real-life):* Tape won't stick to a greasy pan. Scrub and dry the nail first.  
-*记重点:* 胶带粘不住油乎乎的锅。先刷洗、擦干甲面。  
+*Lock this (real-life):* Rain can't stick to a freshly waxed car. Nail product can't stick to an oily, waxy nail either.  
+*记重点:* 刚打过蜡的车，雨水粘不住。甲面有油或蜡，美甲产品同样粘不住：附着（adhesion）被挡住了。  
 *Source:* Milady Standard Nail Technology p.117 (PDF 141)

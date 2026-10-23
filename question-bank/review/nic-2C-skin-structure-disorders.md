@@ -70,8 +70,8 @@ C. Stratum granulosum / 颗粒层（stratum granulosum）
 D. Stratum germinativum / 生发层（stratum germinativum） ✅  
 *Why:* The stratum germinativum, or basal layer, is the deepest living layer of the epidermis. It makes new cells by mitosis to replace those shed from the surface.  
 *为什么:* stratum germinativum（生发层），也叫 basal layer（基底层），是表皮最深的活细胞层，通过有丝分裂产生新细胞，补充表面脱落的细胞。  
-*Lock this (word-link):* Its other name, basal layer, sounds like base: at the bottom, it makes new cells that push up.  
-*记重点:* 它的另一个名字 basal layer（基底层）里的 basal 像 base（底部）：它在最底下不断产生新细胞，往上推。  
+*Lock this (chinese-character):* The Chinese name starts with the word for "born": new skin cells are born in this deepest layer.  
+*记重点:* 中文名“生发层”的“生”就是“出生”：新的皮肤细胞就在这最深的一层“出生”。stratum germinativum 就是生发层。  
 *Source:* Milady Standard Nail Technology p.62 (PDF 86)
 
 **7. What is the medical term for athlete's foot?**  
@@ -176,8 +176,8 @@ A. anhidrosis. / 无汗症（anhidrosis）。
 B. hyperhidrosis. / 多汗症（hyperhidrosis）。  
 C. miliaria rubra. / 红痱（miliaria rubra）。  
 D. bromhidrosis. / 臭汗症（bromhidrosis）。 ✅  
-*Why:* Bromhidrosis is foul-smelling perspiration, usually noticeable in the armpits or on the feet.  
-*为什么:* bromhidrosis（臭汗症）是气味难闻的汗液，通常在腋下或脚上比较明显。  
+*Why:* Bromhidrosis is sweat that smells bad, often on the feet. It is the only one about smell. Anhidrosis is too little sweat. Hyperhidrosis is too much. Miliaria rubra is an itchy red heat rash.  
+*为什么:* bromhidrosis（臭汗症）是有臭味的汗，常出现在脚上。只有它跟气味有关。anhidrosis（无汗症）是汗太少。hyperhidrosis（多汗症）是汗太多。miliaria rubra（红痱）是又红又痒的热疹（痱子）。  
 *Lock this (word-parts):* -Hidrosis = sweating. An- = no sweat, hyper- = too much sweat, brom- = bad-smelling sweat.  
 *记重点:* -hidrosis = 出汗。an- = 不出汗，hyper- = 出汗太多，brom- = 汗有臭味。  
 *Source:* Milady Standard Nail Technology p.82 (PDF 106)
@@ -214,8 +214,8 @@ C. squamous cell carcinoma. / 鳞状细胞癌（squamous cell carcinoma）。
 D. a normal mole. / 普通的痣（mole）。  
 *Why:* Basal cell carcinoma is the most common and least severe skin cancer, often light, pearly nodules. Squamous cell is more serious; malignant melanoma is the most serious.  
 *为什么:* basal cell carcinoma（基底细胞癌）是最常见、最不严重的皮肤癌，常呈浅色、珍珠样结节。鳞状细胞癌更严重，恶性黑色素瘤最严重。  
-*Lock this (contrast):* Squamous cell can spread in the body, and melanoma spreads fast. Basal cell is the least serious.  
-*记重点:* 鳞状细胞癌会在体内扩散，恶性黑色素瘤扩散得很快；基底细胞癌是三种里最不严重的。  
+*Lock this (picture):* Picture a ladder of danger: basal cell on the bottom step, squamous cell in the middle, melanoma at the top.  
+*记重点:* 想象一把“危险程度”的梯子：basal cell carcinoma（基底细胞癌）在最下面一级，squamous cell carcinoma（鳞状细胞癌）在中间，malignant melanoma（恶性黑色素瘤）在最上面。  
 *Source:* Milady Standard Nail Technology p.84 (PDF 108)
 
 **19. In the ABCDE mole check, what does A stand for?**  

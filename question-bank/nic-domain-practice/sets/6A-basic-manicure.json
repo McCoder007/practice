@@ -120,8 +120,8 @@
         "zh": "把浸透卸甲水（polish remover）的棉片按在每个指甲上约 10 秒。卸甲水先软化旧甲油，之后就容易擦掉。"
       },
       "lockPoint": {
-        "en": "Count silently to 10: that's Milady's timer. Acetone and non-acetone removers can both dry the skin.",
-        "zh": "心里默数到 10，这就是 Milady 的计时方法。含丙酮和不含丙酮的卸甲水都可能让皮肤干燥。"
+        "en": "Hold, count slowly to 10, then wipe. Ten fingers, ten seconds each.",
+        "zh": "按住，心里慢慢数到 10，再擦。十个手指，每个十秒。"
       },
       "teachingRelation": "number",
       "authorityRefs": [
@@ -314,8 +314,8 @@
         "zh": "水会渗入甲板（nail plate），让指甲变软。软的指甲锉的时候更容易受损，所以先锉再泡。"
       },
       "lockPoint": {
-        "en": "Wet paper tears more easily than dry paper. A soaked nail plate is the same.",
-        "zh": "湿纸比干纸容易撕破。泡过水的甲板也一样。"
+        "en": "If you soak first, water softens the plate. Then the file tears it. So file dry, then soak.",
+        "zh": "如果先泡，水会让甲板（nail plate）变软。然后锉刀一锉就伤到它。所以先干锉，再浸泡。"
       },
       "teachingRelation": "cause-effect",
       "authorityRefs": [
@@ -332,7 +332,7 @@
           "quote": "always file the nails before they are soaked, as water will absorb into the nail plate and make it softer and more easily damaged during filing."
         }
       ],
-      "hookType": "comparison"
+      "hookType": "reason-chain"
     },
     {
       "id": "nic-6a-06",
@@ -422,8 +422,8 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Bleaching yellow nails is an optional step. Apply it with a cotton-tipped stick, wear gloves, and keep it off the skin. It works best on surface stains such as tobacco.",
-        "zh": "给发黄的指甲漂白是可选步骤。用包棉花的木棒涂抹，戴手套，不要碰到皮肤。它对烟渍这类表面污渍效果最好。"
+        "en": "Nail bleach is an optional step for yellow nails. Milady says it works best on surface stains, such as tobacco. Bruises and fungus are not surface stains, and ridges are not a color problem.",
+        "zh": "指甲漂白（nail bleach）是针对发黄指甲的可选步骤。Milady 说它对烟渍这类表面污渍（surface stains）效果最好。瘀青和真菌都不是表面污渍，而甲面纵纹（ridges）也不是颜色问题。"
       },
       "lockPoint": {
         "en": "Stains sitting on top can be lifted. Color from under or inside the nail, like a bruise or fungus, cannot.",
@@ -484,8 +484,8 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Dry the hand with the client's service towel. As you dry, gently push back the eponychium with the towel.",
-        "zh": "用这位顾客专用的服务毛巾擦干手，擦的同时用毛巾轻轻把 eponychium（甲上皮）往后推。"
+        "en": "The soak has just softened the eponychium. So while you dry the hand with the client's service towel, gently push the eponychium back with it. Cuticle remover and nippers come later.",
+        "zh": "刚才的浸泡已经让甲上皮（eponychium）变软了。所以用这位顾客专用的服务毛巾擦干手时，顺便用毛巾轻轻把甲上皮往后推。死皮软化剂（cuticle remover）和死皮剪（nippers）都在后面的步骤才用。"
       },
       "lockPoint": {
         "en": "One towel, two jobs: drying and a gentle first push, before any tool touches the skin.",
@@ -498,6 +498,12 @@
           "section": "Manicuring - Procedure 6-3 Performing a Basic Manicure",
           "pdfPage": 202,
           "printedPage": "178"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-3 Performing a Basic Manicure",
+          "pdfPage": 203,
+          "printedPage": "179"
         }
       ],
       "evidence": [
@@ -508,6 +514,14 @@
         {
           "pdfPage": 202,
           "quote": "As you dry, gently push back the eponychium with the towel."
+        },
+        {
+          "pdfPage": 202,
+          "quote": "place the fingertips of the left hand in the finger bowl to soak and soften the eponychium"
+        },
+        {
+          "pdfPage": 203,
+          "quote": "Use sharp nippers to remove any loosely hanging tags of dead skin."
         }
       ],
       "hookType": "real-life"
@@ -678,8 +692,8 @@
         "zh": "清洁游离缘下方要轻柔。太用力会破坏 hyponychium（甲下皮）的密封，造成 onycholysis（甲剥离），也就是甲板与甲床分离。"
       },
       "lockPoint": {
-        "en": "Onycho = nail, lysis = loosening. Onycholysis is the nail loosening from its bed.",
-        "zh": "onycho = 指甲，lysis = 松开。onycholysis 就是指甲从甲床上松开。"
+        "en": "Dig hard under the tip, and the seal there breaks. Then the plate lifts off its bed: onycholysis.",
+        "zh": "在指尖下面用力挖，那里的密封就会被破坏。然后甲板从甲床上翘起：这就是甲剥离（onycholysis）。"
       },
       "teachingRelation": "cause-effect",
       "authorityRefs": [
@@ -706,7 +720,7 @@
           "quote": "Separation of the nail plate and bed, often due to injury or allergic reactions."
         }
       ],
-      "hookType": "word-parts"
+      "hookType": "reason-chain"
     },
     {
       "id": "nic-6a-12",
@@ -742,8 +756,8 @@
         "zh": "用中粗砂锉板（medium-grit）以 45 度角贴住指甲下侧轻轻锉。这样可以去掉粗糙边缘和残留的死皮碎屑。"
       },
       "lockPoint": {
-        "en": "For weak nails, Milady says a fine-grit board or buffer may be better than medium grit.",
-        "zh": "指甲薄弱时，Milady 说用细砂（fine-grit）锉板或抛光块可能比中粗砂更好。"
+        "en": "Not a square corner (90°). Fold a square napkin corner to corner: that slanted edge is 45°.",
+        "zh": "不是直角（90 度）。把方形餐巾纸对角折成三角形：那条斜边就是 45 度。"
       },
       "teachingRelation": "number",
       "authorityRefs": [
@@ -768,7 +782,7 @@
           "quote": "A fine-grit abrasive board or buffer may be preferred for weak nails."
         }
       ],
-      "hookType": "contrast"
+      "hookType": "picture"
     },
     {
       "id": "nic-6a-13",
@@ -804,8 +818,8 @@
         "zh": "毕业前，要练到基础修手（含上甲油）最多 30 到 45 分钟完成，最好 30 分钟。"
       },
       "lockPoint": {
-        "en": "Milady's reason: salons like to hire new techs who can work this fast.",
-        "zh": "Milady 的理由：沙龙更愿意雇用能做得这么快的新人。"
+        "en": "30 to 45 minutes: about one TV show. Not a quick 10 minutes, not a whole afternoon.",
+        "zh": "30 到 45 分钟：大约是一集电视剧的长度。不是 10 分钟就做完，也不是一整个下午。"
       },
       "teachingRelation": "number",
       "authorityRefs": [
@@ -1090,8 +1104,8 @@
         "zh": "男士通常喜欢较短的指甲。round（圆形）最接近天然外观，是男顾客最常见的选择。"
       },
       "lockPoint": {
-        "en": "Some men want nails very short, with a tiny free edge shaped to match the nail base.",
-        "zh": "有些男士要求剪得极短，只留一点游离缘，形状跟着甲板根部修。"
+        "en": "Look at your own fingertip: it is round. Round nails match it, so they look natural.",
+        "zh": "看看自己的指尖：它本来就是圆的。圆形（round）指甲跟指尖形状一致，所以看起来最自然。"
       },
       "teachingRelation": "category",
       "authorityRefs": [
@@ -1116,7 +1130,7 @@
           "quote": "Some men, however, prefer their nails very short, with only a small amount of free edge that is shaped according to the base of the nail plate."
         }
       ],
-      "hookType": "real-life"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-6a-19",
@@ -1152,8 +1166,8 @@
         "zh": "男士修手（man's manicure）的步骤与基础修手相同。视顾客喜好，可以不上彩色甲油，改用高光抛光块（high-shine buffer）抛亮。"
       },
       "lockPoint": {
-        "en": "No polish to apply? Milady says the spare time can go to a longer massage.",
-        "zh": "不用上甲油、省下了时间？Milady 说可以用来做更长的按摩。"
+        "en": "No color? Make it shine: a high-shine buffer gives bare nails a clean, shiny look.",
+        "zh": "不上颜色？那就抛亮：高光抛光块（high-shine buffer）让没涂甲油的指甲看起来干净又有光泽。"
       },
       "teachingRelation": "action",
       "authorityRefs": [

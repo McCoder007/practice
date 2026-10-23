@@ -121,8 +121,8 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Dip powder is a very fine polymer powder, usually heavily pigmented with color. Milady says it is very different from the powder used for liquid and powder nails.",
-        "zh": "dip powder（浸粉）是很细的聚合物粉，通常颜色很浓。Milady 说它和水晶甲（liquid and powder）用的粉很不一样。"
+        "en": "A dip service gives strength and color in one step, so dip powder is usually full of pigment (color). It is also ground very fine.",
+        "zh": "浸粉一次就能同时做出强度和颜色，所以浸粉通常含有大量色素（pigment，颜色）。而且它磨得非常细。"
       },
       "lockPoint": {
         "en": "Think eyeshadow: so fine it sticks in a thin, even coat, and full of color.",
@@ -135,12 +135,22 @@
           "section": "Nail Resin Systems - Dip Systems",
           "pdfPage": 308,
           "printedPage": "284"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Resin Systems - Dip Systems",
+          "pdfPage": 309,
+          "printedPage": "285"
         }
       ],
       "evidence": [
         {
           "pdfPage": 308,
           "quote": "Polymer powders used in dip systems are very different from the polymer powders used in liquid and powder nail services. Dip powder (DIP POW-der) is a very fine polymer powder that is usually heavily pigmented with color."
+        },
+        {
+          "pdfPage": 309,
+          "quote": "they provide nail technicians with a color service they can offer that lasts 14 days without needing an LED or UV lamp"
         }
       ],
       "hookType": "picture"
@@ -179,8 +189,8 @@
         "zh": "浸粉能提供持久约 14 天的上色服务，而且不需要 LED 或 UV 灯。在浸粉出现之前，持久的颜色只能靠甲油胶或彩色硬胶，都要照灯。"
       },
       "lockPoint": {
-        "en": "Dip resin is cyanoacrylate, like super glue: it sets without light, and activator speeds it up.",
-        "zh": "浸粉树脂是氰基丙烯酸酯，和强力胶同类：不用光就会变硬，激活剂让它更快。"
+        "en": "Gel waits for lamp light to harden. Dip resin needs no light: a coat of activator helps it dry.",
+        "zh": "甲油胶要等灯光照射才会变硬。浸粉树脂不需要光：刷一层激活剂（activator）就能帮它变干。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -211,7 +221,7 @@
           "quote": "Nail resins (NAYL REZ-inz) are made from cyanoacrylate."
         }
       ],
-      "hookType": "reason-chain"
+      "hookType": "contrast"
     },
     {
       "id": "nic-7d-04",
@@ -247,8 +257,8 @@
         "zh": "上过粉后，细小的粉粒会粘在笔刷上。放回瓶里会让树脂变稠、拉丝而无法使用，所以要先在无尘巾上擦一下。"
       },
       "lockPoint": {
-        "en": "After touching activator, wipe the brush quickly too, or resin hardens on it and needs a 10-minute acetone soak.",
-        "zh": "笔刷碰过激活剂后也要马上擦干净，否则树脂会在笔上变硬，得泡丙酮约 10 分钟。"
+        "en": "Resin soaks up powder to form the coating. Let powder in the bottle, and it thickens there too.",
+        "zh": "树脂吸收粉，才在指甲上形成涂层。粉要是进了瓶子，树脂在瓶里也会变稠。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -257,6 +267,12 @@
           "section": "Nail Resin Systems - Dip Systems",
           "pdfPage": 309,
           "printedPage": "285"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Resin Systems - Dip Systems",
+          "pdfPage": 308,
+          "printedPage": "284"
         }
       ],
       "evidence": [
@@ -271,9 +287,13 @@
         {
           "pdfPage": 309,
           "quote": "Remember that after the resin application brush is used over activator, it must be wiped off on a lint-free towel quickly to avoid the resin curing on the brush. Once the brush is hardened and stiff, you must soak it in acetone or brush cleaner for about 10 minutes"
+        },
+        {
+          "pdfPage": 308,
+          "quote": "Dip systems (DIP SIS-temz) are a resin- and polymer-powder-based system in which the resin absorbs the powder to create a hard coating over the nail."
         }
       ],
-      "hookType": "real-life"
+      "hookType": "reason-chain"
     },
     {
       "id": "nic-7d-05",
@@ -1115,8 +1135,8 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "File the topcoat with a medium to fine grit so the acetone can penetrate. The topcoat is more cross-linked than the color layer, for protection and shine.",
-        "zh": "用中细目锉条锉一锉封层，丙酮才能渗进去。封层的交联程度比色胶层更高，用来保护和增亮。"
+        "en": "File the topcoat with a medium to fine grit so the acetone can get in. The topcoat is built tighter and harder than the color layer to protect it, so acetone gets through it slowly.",
+        "zh": "用中细目锉条锉一锉封层，丙酮才能渗进去。封层的交联（cross-linking）比色胶层更紧密、更硬，用来保护，所以丙酮很难穿过它。"
       },
       "lockPoint": {
         "en": "The topcoat is a raincoat that keeps acetone out. Filing cuts openings in the raincoat.",

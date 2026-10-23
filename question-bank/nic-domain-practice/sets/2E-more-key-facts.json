@@ -253,8 +253,8 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Excretion is a skin function: sweat from the sweat glands goes out through the skin, taking salts and minerals with it. Secretion is different: it is the oil (sebum) from the oil glands.",
-        "zh": "excretion（排泄）是皮肤的一种功能：汗腺的汗液从皮肤排出去，同时带走盐分和矿物质。secretion（分泌）不一样：它指的是皮脂腺分泌的油脂，也就是皮脂（sebum）。"
+        "en": "Excretion is a skin function. Sweat from the sweat glands goes out through the skin, with salts and minerals. Secretion is different: it is oil (sebum) from the oil glands.",
+        "zh": "excretion（排泄）是皮肤的一种功能。汗腺的汗液从皮肤排出去，同时带走盐分和矿物质。secretion（分泌）不一样：它指的是皮脂腺分泌的油脂，也就是皮脂（sebum）。"
       },
       "lockPoint": {
         "en": "On a hot day, your palms get wet. Palms have many sweat glands: that is excretion.",
@@ -405,8 +405,8 @@
         "zh": "flexors（屈肌）负责弯曲手腕。伸肌（extensors）正好相反：把手腕、手和手指伸直。"
       },
       "lockPoint": {
-        "en": "Pronators turn the palm down, supinators turn it up, abductors spread the fingers. None of them bend the wrist.",
-        "zh": "旋前肌让手掌朝下，旋后肌让手掌朝上，外展肌把手指分开。它们都不负责弯手腕。"
+        "en": "Pronators turn the palm down. Supinators turn it up. Abductors spread the fingers. None of them bend the wrist.",
+        "zh": "旋前肌让手掌朝下。旋后肌让手掌朝上。外展肌把手指分开。它们都不负责弯手腕。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -481,8 +481,8 @@
         "zh": "五块 metatarsals（跖骨）细而长，就像手上的掌骨（metacarpals）。脚一共有 26 块骨头：7 块跗骨、5 块跖骨和 14 块趾骨。"
       },
       "lockPoint": {
-        "en": "Hand and foot match: carpus and metacarpus in wrist and palm; tarsals and metatarsals in the foot.",
-        "zh": "手脚对着记：手腕和手掌是腕骨（carpus）和掌骨（metacarpus）；脚上是跗骨（tarsals）和跖骨（metatarsals）。"
+        "en": "Hand and foot match. Carpus and metacarpus are in the wrist and palm. Tarsals and metatarsals are in the foot.",
+        "zh": "手脚对着记。手腕和手掌是腕骨（carpus）和掌骨（metacarpus）。脚上是跗骨（tarsals）和跖骨（metatarsals）。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -689,8 +689,8 @@
         "zh": "onychomycosis（甲真菌病）就是指甲真菌感染。表现可以是表面能刮掉的白色斑块、甲板里淡黄色的条纹，或游离缘碎裂。"
       },
       "lockPoint": {
-        "en": "Leukonychia white spots are harmless and grow out. Fungus patches need a medical referral.",
-        "zh": "白甲（leukonychia）的白点无害，会随指甲长出去。真菌斑块则需要转诊看医生。"
+        "en": "Leukonychia white spots are harmless and grow out. Send clients with fungus patches to a doctor.",
+        "zh": "白甲（leukonychia）的白点无害，会随指甲长出去。有真菌斑块的顾客，要请她去看医生。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -829,8 +829,8 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "An ulcer is an open lesion on the skin or mucous membrane. Skin depth is lost, and fluid or pus may weep out. It is a secondary lesion.",
-        "zh": "ulcer（溃疡）是皮肤或黏膜上的开放性皮损，皮肤深度缺损，可能渗出液体或脓。它属于继发性皮损（secondary lesion）。"
+        "en": "An ulcer is an open lesion on the skin or mucous membrane. Skin depth is lost, and fluid or pus may leak out. It is a secondary lesion.",
+        "zh": "ulcer（溃疡）是皮肤或黏膜上的开放性皮损。皮肤深度缺损，可能流出液体或脓。它属于继发性皮损（secondary lesion）。"
       },
       "lockPoint": {
         "en": "The Chinese name means \"broken-open sore\": the skin breaks open and some of it is gone.",
@@ -969,8 +969,8 @@
         "zh": "malignant melanoma（恶性黑色素瘤）最少见，却是最危险的皮肤癌，会很快扩散。常见表现是黑色或深色斑块，表面不平或凸起。"
       },
       "lockPoint": {
-        "en": "Spreads fast, so it can kill. Found early, most people live: send dark, changing spots to a doctor.",
-        "zh": "扩散快，可能致命。发现得早，大多数人能活下来：看到颜色深、在变化的斑点，就建议顾客去看医生。"
+        "en": "It spreads fast, so it can kill. If found early, most people live. Send dark, changing spots to a doctor.",
+        "zh": "它扩散快，所以可能致命。如果发现得早，大多数人能活下来。看到颜色深、在变化的斑点，就建议顾客去看医生。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [

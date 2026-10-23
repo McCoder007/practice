@@ -306,8 +306,8 @@
         "zh": "onychia（甲母质炎）是甲母质发炎并伴有指甲脱落，由感染或外伤引起，可能需要转介医生。"
       },
       "lockPoint": {
-        "en": "The matrix builds the nail plate. When the builder is inflamed, the nail it made can fall off.",
-        "zh": "甲母质负责“建造”甲板。“建造者”一发炎，它造出的指甲就可能脱落。"
+        "en": "Onychia is just onych- (nail): trouble in the nail's own matrix. Paronychia adds para- (beside): the skin beside the nail.",
+        "zh": "onychia（甲母质炎）只有 onych-（指甲）这个词根：问题出在指甲自己的 matrix（甲母质）。paronychia（甲沟炎）多了 para-（旁边）：是指甲旁边的皮肤发炎。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -334,7 +334,7 @@
           "quote": "Inflammation of the matrix of the nail with shedding of the nail."
         }
       ],
-      "hookType": "reason-chain"
+      "hookType": "word-parts"
     },
     {
       "id": "nic-2b-06",
@@ -884,8 +884,8 @@
         "zh": "Milady 把 onycholysis（甲剥离）列为指甲疾病，常由外伤或过敏反应引起。必须转介医生，不能为这片指甲做服务。"
       },
       "lockPoint": {
-        "en": "Lysis = loosening. Even heat from filing too hard can loosen the plate from the bed.",
-        "zh": "lysis = 松开。连用力锉甲产生的摩擦热，都可能让甲板从甲床上松脱。"
+        "en": "The loose plate leaves a gap. Germs can grow in it. Refer to a doctor. Don't cover it.",
+        "zh": "甲板松开，下面就有空隙。病菌可能在里面滋生。要转介医生。不要把它盖住。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -900,6 +900,12 @@
           "section": "Nervous System - Did You Know",
           "pdfPage": 59,
           "printedPage": "35"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Structure - Hyponychium",
+          "pdfPage": 126,
+          "printedPage": "102"
         }
       ],
       "evidence": [
@@ -914,9 +920,13 @@
         {
           "pdfPage": 59,
           "quote": "Friction burn injuries can cause the client’s nail beds to release part of the nail plate"
+        },
+        {
+          "pdfPage": 126,
+          "quote": "making infections under the nail plate possible"
         }
       ],
-      "hookType": "word-parts"
+      "hookType": "reason-chain"
     },
     {
       "id": "nic-2b-16",

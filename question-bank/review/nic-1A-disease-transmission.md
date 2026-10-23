@@ -44,8 +44,8 @@ A. White blood cells / 白细胞
 B. Antitoxins / 抗毒素  
 C. Body secretions / 身体分泌物  
 D. Healthy, unbroken skin / 健康、完整的皮肤 ✅  
-*Why:* Germs cannot get through healthy, unbroken skin. They enter through cuts, scratches, or rashes. White blood cells destroy bacteria. Antitoxins work against toxins.  
-*为什么:* 病菌无法穿过健康、完整的皮肤，它们会从伤口、抓痕或皮疹进入。white blood cells（白细胞）消灭细菌。antitoxins（抗毒素）对抗毒素。  
+*Why:* Germs cannot get through healthy, unbroken skin. They get in through cuts, scratches, or rashes. So skin is first. Body secretions like sweat, white blood cells, and antitoxins are the next lines of defense.  
+*为什么:* 病菌穿不过健康、完整的皮肤，只能从伤口、抓痕或皮疹进入。所以皮肤是第一道防线。body secretions（身体分泌物，例如汗液）、white blood cells（白细胞）和 antitoxins（抗毒素）是后面的几道防线。  
 *Lock this (comparison):* Skin is the wall. White blood cells are the guards inside.  
 *记重点:* 皮肤是城墙，白细胞是城里的守卫。病菌要先过城墙。  
 *Source:* Milady Standard Foundations p.113 (PDF 608)
@@ -128,11 +128,11 @@ A. infection. / 感染。
 B. inflammation. / 炎症。  
 C. contamination. / 污染。  
 D. immunity. / 免疫。 ✅  
-*Why:* Immunity is the body's ability to fight off germs. Natural immunity is partly inherited. Acquired immunity comes after an illness or a vaccine, like a flu shot.  
-*为什么:* immunity（免疫）是身体抵抗病菌的能力。natural immunity（自然免疫）部分来自遗传。acquired immunity（获得性免疫）来自生过病并康复，或打过疫苗，例如流感疫苗。  
+*Why:* Immunity is the body's power to fight off germs, so you stay well. A vaccine, like a flu shot, builds acquired immunity. Infection is germs getting in. Inflammation is red, hot swelling.  
+*为什么:* immunity（免疫）是身体抵抗病菌、让你保持健康的能力。打疫苗（比如流感疫苗）能获得 acquired immunity（获得性免疫）。infection（感染）是病菌进入身体。inflammation（发炎）是红、热、肿。  
 *Lock this (chinese-character):* The Chinese name means "avoid sickness." Your body fights germs, so you do not get sick.  
 *记重点:* immunity = 免疫：免（免除）+ 疫（瘟疫），免于疫病。身体自己打败病菌，你就不生病。疫苗的“疫”就是这个字。  
-*Source:* Milady Standard Foundations p.79 (PDF 574), Milady Standard Foundations p.80 (PDF 575)
+*Source:* Milady Standard Foundations p.79 (PDF 574), Milady Standard Foundations p.80 (PDF 575), Milady Standard Foundations p.99 (PDF 594), Milady Standard Foundations p.105 (PDF 600), Milady Standard Foundations p.106 (PDF 601)
 
 **12. MRSA is caused by**  
 MRSA 是由什么引起的？  

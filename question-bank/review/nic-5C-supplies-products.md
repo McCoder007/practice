@@ -94,8 +94,8 @@ C. want a longer foot massage. / 想要更长足部按摩的顾客。
 D. are allergic to nitrile gloves. / 对丁腈手套过敏的顾客。  
 *Why:* Single-use paper or foam slippers are for clients who did not wear open-toe shoes or sandals and want to avoid smudging fresh toenail polish. They are made not to touch the nails.  
 *为什么:* 一次性纸拖或泡沫拖鞋，给没穿露趾鞋或凉鞋、又不想蹭花刚涂好的脚指甲油的顾客。拖鞋设计成不碰到指甲。  
-*Lock this (real-life):* Warn clients: paper or foam slippers can be slippery when walking or driving.  
-*记重点:* 提醒顾客：纸拖或泡沫拖鞋可能很滑，走路和开车时要小心。  
+*Lock this (real-life):* Came in sneakers? Fresh polish can't go back inside them yet. Paper slippers keep the toes open until it dries.  
+*记重点:* 穿运动鞋来的？刚涂好的指甲油还不能马上塞回鞋里。纸拖鞋让脚趾露在外面，等指甲油干。  
 *Source:* Milady Standard Nail Technology p.200 (PDF 224)
 
 **9. How does a protein hardener protect the nail?**  
@@ -106,8 +106,8 @@ C. It forms a hard coating on the surface. / 在甲面形成一层坚硬的保�
 D. It is absorbed deep into the nail. / 深深渗入指甲内部。  
 *Why:* A protein hardener is clear polish plus protein, such as collagen. Collagen molecules are too large to be absorbed, so it forms a clear, hard coating without changing the nail plate itself.  
 *为什么:* 蛋白硬甲油是透明甲油加蛋白质（如胶原蛋白 collagen）。胶原蛋白分子太大，进不了甲板，所以它只在表面形成透明坚硬的膜，不改变甲板本身。  
-*Lock this (comparison):* Nylon-fiber hardeners work the same way: a coating only, not a treatment.  
-*记重点:* 尼龙纤维硬甲油也一样：只是表面一层膜，不是治疗。  
+*Lock this (picture):* Like a big ball on a small cup: protein is too big to get in, so it stays on top.  
+*记重点:* 就像大球放在小杯子上：蛋白质（protein）太大，进不了甲板，只能留在表面。  
 *Source:* Milady Standard Nail Technology p.152 (PDF 176)
 
 **10. Why apply cuticle oil with a disposable brush or dropper?**  
@@ -154,8 +154,8 @@ C. four layers applied in order. / 按顺序涂的四层。
 D. terms used only for gel polish. / 只用于凝胶甲油的名称。  
 *Why:* Polish, enamel, lacquer, and varnish are marketing terms for the same type of product with similar ingredients: a solvent-based colored film applied to the nail plate.  
 *为什么:* polish、enamel、lacquer、varnish 都是营销用语，指成分相似的同一类产品：涂在甲面上的溶剂型有色膜。  
-*Lock this (comparison):* One thing, many names. Polish, enamel, lacquer, varnish: four names, one product.  
-*记重点:* 就像“土豆”“马铃薯”“洋芋”：三个名字，同一种东西。polish、enamel、lacquer、varnish：四个名字，同一类产品。  
+*Lock this (comparison):* Like 'cell phone' and 'mobile phone': different names, one phone. Polish, enamel, lacquer, varnish: one product.  
+*记重点:* 就像“手机”和“移动电话”：名字不同，是同一样东西。polish、enamel、lacquer、varnish 也是同一类产品。  
 *Source:* Milady Standard Nail Technology p.151 (PDF 175)
 
 **14. Topcoat is applied over colored polish to**  
@@ -190,8 +190,8 @@ C. Tablets cost more than disinfectant. / 药片比消毒剂贵。
 D. Tablets stain the basin. / 药片会把盆染色。  
 *Why:* No tablet or additive in pedicure water replaces cleaning and disinfecting after each pedicure. Any chemical strong enough to kill pathogens can also harm the skin.  
 *为什么:* 任何放进修脚水里的药片或添加剂，都不能代替每次修脚后的清洁消毒。强到能杀死病原体的化学品也会伤皮肤。  
-*Lock this (reason-chain):* Disinfectants are pesticides and must never touch skin. So real disinfecting happens after the feet leave the tub.  
-*记重点:* 在美国，消毒剂按 pesticide（杀生物剂，由 EPA 登记管理）归类，绝不能接触皮肤；所以真正的消毒要等脚离开、盆空了以后才做。  
+*Lock this (picture):* Bleach cleans a bathtub, but nobody sits in bleach. Disinfect the empty tub after the feet come out.  
+*记重点:* 漂白水能把浴缸洗干净，但没人会坐在漂白水里。等脚离开、盆空了，再给足浴盆消毒。  
 *Source:* Milady Standard Nail Technology p.201 (PDF 225), Milady Standard Foundations p.119 (PDF 614), Milady Standard Nail Technology p.237 (PDF 261)
 
 **17. Which scrub ingredient should be avoided because it can clog the pedicure drain?**  

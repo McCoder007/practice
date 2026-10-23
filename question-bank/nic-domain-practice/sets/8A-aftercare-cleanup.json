@@ -1022,8 +1022,8 @@
         "zh": "液体和粉末（liquid and powder）延长甲每两到三周需要补一次（fill）。不补的话容易翘起、裂开或断掉，会伤到真甲，也增加感染风险。"
       },
       "lockPoint": {
-        "en": "Nail grows → the apex moves toward the tip → the nail breaks more easily. A fill rebalances the apex.",
-        "zh": "真甲长出来 → 最高点（apex）往指尖方向移 → 更容易断。补甲就是重新平衡最高点。"
+        "en": "Clients who wait too long for a fill come back with many more breaks to repair.",
+        "zh": "等太久才来补甲（fill）的客人，回来时会有更多断甲要修补。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -1054,7 +1054,7 @@
           "quote": "structurally correct the location of the apex of the nail to balance and prolong its strength"
         }
       ],
-      "hookType": "reason-chain"
+      "hookType": "real-life"
     },
     {
       "id": "nic-8a-17",
@@ -1090,8 +1090,8 @@
         "zh": "泡了 30 分钟后，甲板（nail plate）里多了水分，所以更容易弯。它并没有变弱，接下来 24 小时水分散掉后就会变硬。"
       },
       "lockPoint": {
-        "en": "Like fingernails after a long bath: soft for a while, then back to normal. Tell clients so they don’t worry.",
-        "zh": "就像泡完澡的指甲：暂时变软，过一阵就恢复。告诉客人，免得他们担心。"
+        "en": "Like hair after a wash: soft while wet, back to normal once dry. Tell clients so they don't worry.",
+        "zh": "就像刚洗完的头发：湿的时候软，干了就恢复正常。告诉客人，免得他们担心。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [

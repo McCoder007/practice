@@ -360,8 +360,8 @@
         "zh": "stratum germinativum（生发层），也叫 basal layer（基底层），是表皮最深的活细胞层，通过有丝分裂产生新细胞，补充表面脱落的细胞。"
       },
       "lockPoint": {
-        "en": "Its other name, basal layer, sounds like base: at the bottom, it makes new cells that push up.",
-        "zh": "它的另一个名字 basal layer（基底层）里的 basal 像 base（底部）：它在最底下不断产生新细胞，往上推。"
+        "en": "The Chinese name starts with the word for \"born\": new skin cells are born in this deepest layer.",
+        "zh": "中文名“生发层”的“生”就是“出生”：新的皮肤细胞就在这最深的一层“出生”。stratum germinativum 就是生发层。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -378,7 +378,7 @@
           "quote": "is also known as the basal layer (BAY-zal LAY-er) and is the deepest living layer of the epidermis. It produces new epidermal skin cells"
         }
       ],
-      "hookType": "word-link"
+      "hookType": "chinese-character"
     },
     {
       "id": "nic-2c-07",
@@ -906,8 +906,8 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Bromhidrosis is foul-smelling perspiration, usually noticeable in the armpits or on the feet.",
-        "zh": "bromhidrosis（臭汗症）是气味难闻的汗液，通常在腋下或脚上比较明显。"
+        "en": "Bromhidrosis is sweat that smells bad, often on the feet. It is the only one about smell. Anhidrosis is too little sweat. Hyperhidrosis is too much. Miliaria rubra is an itchy red heat rash.",
+        "zh": "bromhidrosis（臭汗症）是有臭味的汗，常出现在脚上。只有它跟气味有关。anhidrosis（无汗症）是汗太少。hyperhidrosis（多汗症）是汗太多。miliaria rubra（红痱）是又红又痒的热疹（痱子）。"
       },
       "lockPoint": {
         "en": "-Hidrosis = sweating. An- = no sweat, hyper- = too much sweat, brom- = bad-smelling sweat.",
@@ -926,6 +926,22 @@
         {
           "pdfPage": 106,
           "quote": "Bromhidrosis (broh-mih-DROH-sis). A foul-smelling perspiration, usually noticeable in the armpits or on the feet."
+        },
+        {
+          "pdfPage": 106,
+          "quote": "A deficiency in perspiration, often a result of fever"
+        },
+        {
+          "pdfPage": 106,
+          "quote": "Excessive sweating with unknown causes."
+        },
+        {
+          "pdfPage": 106,
+          "quote": "Prickly heat; acute inflammatory disorder of the sweat glands"
+        },
+        {
+          "pdfPage": 106,
+          "quote": "accompanied by burning, itching skin"
         }
       ],
       "hookType": "word-parts"
@@ -1090,8 +1106,8 @@
         "zh": "basal cell carcinoma（基底细胞癌）是最常见、最不严重的皮肤癌，常呈浅色、珍珠样结节。鳞状细胞癌更严重，恶性黑色素瘤最严重。"
       },
       "lockPoint": {
-        "en": "Squamous cell can spread in the body, and melanoma spreads fast. Basal cell is the least serious.",
-        "zh": "鳞状细胞癌会在体内扩散，恶性黑色素瘤扩散得很快；基底细胞癌是三种里最不严重的。"
+        "en": "Picture a ladder of danger: basal cell on the bottom step, squamous cell in the middle, melanoma at the top.",
+        "zh": "想象一把“危险程度”的梯子：basal cell carcinoma（基底细胞癌）在最下面一级，squamous cell carcinoma（鳞状细胞癌）在中间，malignant melanoma（恶性黑色素瘤）在最上面。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -1112,7 +1128,7 @@
           "quote": "Each is named for the type of cells that it affects."
         }
       ],
-      "hookType": "contrast"
+      "hookType": "picture"
     },
     {
       "id": "nic-2c-19",

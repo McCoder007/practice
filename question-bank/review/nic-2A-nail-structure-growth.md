@@ -8,11 +8,11 @@ A. lunula. / 甲半月（lunula）。
 B. onyx. / 甲（onyx）。 ✅  
 C. matrix. / 甲母质（matrix）。  
 D. hyponychium. / 甲下皮（hyponychium）。  
-*Why:* Onyx is the technical term for the natural nail, the hard plate that protects the tips of the fingers and toes.  
-*为什么:* onyx（甲）是 natural nail（天然指甲）的专业名称，指保护手指和脚趾末端的坚硬甲板。  
+*Why:* Onyx means the nail plate itself, the hard plate that protects the fingertip. The other choices are other parts of the nail unit: the lunula and matrix at the base, the hyponychium under the tip.  
+*为什么:* onyx（甲）指的就是甲板本身，也就是保护指尖的那块坚硬甲板。其他选项只是指甲单元（nail unit）里的其他部分：lunula（甲半月）和 matrix（甲母质）在指甲根部，hyponychium（甲下皮）在指甲尖下面。  
 *Lock this (word-parts):* Onyx = the nail itself. Onycho- at the start of a word also means nail, as in onycholysis.  
 *记重点:* onyx = 指甲本身。很多指甲病名开头的 onycho- 也是“指甲”的意思，例如 onycholysis（甲剥离）。  
-*Source:* Milady Standard Nail Technology p.98 (PDF 122)
+*Source:* Milady Standard Nail Technology p.98 (PDF 122), Milady Standard Nail Technology p.100 (PDF 124), Milady Standard Nail Technology p.102 (PDF 126)
 
 **2. The natural nail is made mainly of**  
 天然指甲主要由什么构成？  
@@ -32,11 +32,11 @@ A. Matrix / 甲母质（matrix） ✅
 B. Nail bed / 甲床（nail bed）  
 C. Hyponychium / 甲下皮（hyponychium）  
 D. Free edge / 游离缘（free edge）  
-*Why:* The matrix is the area where nail plate cells are formed. As long as it stays healthy and nourished, it keeps making new nail plate cells.  
-*为什么:* matrix（甲母质）是生成甲板细胞的部位。只要它保持健康、营养充足，就会不断制造新的甲板细胞。  
+*Why:* The matrix sits under the skin at the nail base. Its cells keep making new cells, and those cells become the nail plate. The hyponychium and free edge are out at the tip.  
+*为什么:* matrix（甲母质）在指甲根部的皮肤下面。它的细胞不停地制造新细胞，这些新细胞就变成甲板。hyponychium（甲下皮）和游离缘（free edge）都在指甲尖那一头。  
 *Lock this (chinese-character):* The matrix is like the nail's mother: new nail cells are born here. The nail bed only holds the plate.  
 *记重点:* 甲母质的“母”= 母亲：新的甲板细胞在这里“出生”。甲床（nail bed）只是托住甲板。  
-*Source:* Milady Standard Nail Technology p.100 (PDF 124)
+*Source:* Milady Standard Nail Technology p.100 (PDF 124), Milady Standard Nail Technology p.102 (PDF 126)
 
 **4. The whitish half-moon at the base of the nail plate is the**  
 甲板根部发白的半月形叫什么？  
@@ -70,8 +70,8 @@ C. Hyponychium / 甲下皮（hyponychium）
 D. Nail bed / 甲床（nail bed）  
 *Why:* The eponychium is the living skin on the underside of the proximal nail fold. It makes the cuticle. The cuticle is dead; the eponychium is alive.  
 *为什么:* eponychium（甲上皮）是近端甲襞（proximal nail fold）底面的活皮肤，甲小皮就是它生成的。甲小皮是死的，甲上皮是活的。  
-*Lock this (word-parts):* Epi- = on top: the eponychium sits on the nail base. The matrix makes the plate, not the cuticle.  
-*记重点:* epi- = 在上面：eponychium（甲上皮）盖在指甲根部上面。matrix（甲母质）造的是甲板，不是甲小皮。  
+*Lock this (picture):* A snake leaves its old skin behind. The living eponychium leaves dead cuticle on the plate the same way.  
+*记重点:* 蛇蜕皮时，会把旧皮留在身后。活的 eponychium（甲上皮）也是这样，把死的 cuticle（甲小皮）留在甲板上。  
 *Source:* Milady Standard Nail Technology p.101 (PDF 125)
 
 **7. The thickened skin between the fingertip and the free edge is the**  
@@ -154,8 +154,8 @@ C. faster in winter than summer. / 冬天比夏天长得快。
 D. more rapidly. / 更快。 ✅  
 *Why:* Children's nails grow more rapidly, while elderly people's nails grow more slowly. Nails also grow faster in summer than in winter.  
 *为什么:* 儿童的指甲长得更快，老年人的指甲长得更慢。此外，指甲夏天比冬天长得快。  
-*Lock this (reason-chain):* With age, parts of the matrix slow down forever. Older nails then get grooves from base to tip.  
-*记重点:* 年纪越大，甲母质有些部位会永久减慢生长；所以老年人的指甲会出现从根部到指尖的纵向凹槽。  
+*Lock this (real-life):* Kids grow fast: they get taller every year, and their nails grow fast too. With age, the matrix slows down.  
+*记重点:* 小孩长得快：每年都在长高，指甲也长得快。年纪大了，matrix（甲母质）就慢下来了。  
 *Source:* Milady Standard Nail Technology p.103 (PDF 127), Milady Standard Nail Technology p.104 (PDF 128)
 
 **14. Even when it looks dry and hard, the proximal nail fold is**  
@@ -178,8 +178,8 @@ C. 1/10 to 1/8 inch per month / 每月 1/10 至 1/8 英寸 ✅
 D. 1/10 to 1/8 inch per year / 每年 1/10 至 1/8 英寸  
 *Why:* In a normal adult, the nail plate grows about 1/10 to 1/8 inch (2.5 to 3 mm) per month.  
 *为什么:* 正常成人的甲板每月大约长 1/10 至 1/8 英寸（2.5 至 3 毫米）。  
-*Lock this (picture):* Three millimeters a month is about the thickness of two stacked U.S. pennies.  
-*记重点:* 每月约 3 毫米，差不多是两枚叠在一起的美国一分硬币那么厚。  
+*Lock this (picture):* On a ruler, cut one inch into 8 equal parts. A nail grows about one part each month.  
+*记重点:* 在尺子上，把 1 英寸平均分成 8 小格。指甲每个月大约长 1 小格。  
 *Source:* Milady Standard Nail Technology p.103 (PDF 127)
 
 **16. Which fingernail grows the fastest?**  
@@ -238,6 +238,6 @@ C. 50 to 60 percent. / 50% 至 60%。
 D. 75 to 85 percent. / 75% 至 85%。  
 *Why:* A healthy nail may look dry and hard, but it holds 15 to 25 percent water. The lower the water content, the more rigid the nail becomes.  
 *为什么:* 健康的指甲看起来干硬，但含水量在 15% 至 25% 之间。含水量越低，指甲越僵硬。  
-*Lock this (real-life):* Oil or polish on the plate slows water loss, so the nail stays flexible.  
-*记重点:* 在甲板上涂护甲油或指甲油，可以减少水分流失，让指甲保持柔韧。  
+*Lock this (real-life):* Like a good tip: 15 to 25 percent of the bill. A healthy nail is about that much water.  
+*记重点:* 就像给小费（tip）：一般是账单的 15% 到 25%。健康指甲里的水分也差不多是这么多。  
 *Source:* Milady Standard Nail Technology p.100 (PDF 124)

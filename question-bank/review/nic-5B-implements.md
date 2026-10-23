@@ -82,8 +82,8 @@ C. They are used to trim dead skin. / 是用来修死皮的。
 D. They need no disinfecting. / 不需要消毒。  
 *Why:* Toenail clippers are larger and have a wider space between the jaws, so they can cut thicker nails. Use professional stainless-steel clippers, and clean and disinfect them after each use.  
 *为什么:* 脚指甲钳更大，钳口之间空间更宽，能剪更厚的指甲。要用专业不锈钢指甲钳，每次用后清洁消毒。  
-*Lock this (contrast):* Don't mix them up: clippers have wide jaws to clip; toenail nippers take small bites at 45°.  
-*记重点:* 别搞混：指甲钳钳口宽，用来剪；脚指甲剪（nippers）以 45 度一小口一小口地剪。  
+*Lock this (body-cue):* Feel the tip of your big toenail, then your thumbnail: the toenail is thicker, so its clippers open wider.  
+*记重点:* 摸一摸大脚趾甲的前端，再摸摸拇指指甲：脚指甲更厚，所以脚指甲钳（toenail clippers）的钳口张得更开。  
 *Source:* Milady Standard Nail Technology p.197 (PDF 221), Milady Standard Nail Technology p.198 (PDF 222)
 
 **8. Which grit is used to shorten and shape natural nails?**  
@@ -94,8 +94,8 @@ C. Medium grit / 中目数（medium） ✅
 D. A no-grit shine surface / 无砂粒的抛光面  
 *Why:* Medium-grit abrasives smooth and refine surfaces and are used to shorten and shape natural nails. Finish with a fine grit to smooth the edge. Coarse grits are generally not used on natural nails.  
 *为什么:* 中目数锉条用来打磨、修整表面，也用来修短、修形真甲。最后用细目数把边缘磨顺。粗目数一般不用在真甲上。  
-*Lock this (real-life):* Toenails too: a medium-grit file works best, then finish with fine grit to seal the edges.  
-*记重点:* 脚指甲也一样：用中目数锉条最好，最后用细目数把边缘封顺。  
+*Lock this (comparison):* Coarse is too rough for natural nails. Fine is for polishing. Medium is the middle: it shortens and shapes.  
+*记重点:* 粗目数（coarse）对真甲太粗。细目数（fine）用来抛光。中目数（medium）在中间：用来修短、修形。  
 *Source:* Milady Standard Nail Technology p.147 (PDF 171), Milady Standard Nail Technology p.177 (PDF 201), Milady Standard Nail Technology p.199 (PDF 223)
 
 **9. What is a curette used for?**  
@@ -118,9 +118,9 @@ C. Shortening the free edge / 剪短指甲前缘
 D. Smoothing calluses on the feet / 磨平脚上的茧  
 *Why:* The wooden pusher removes dead cuticle tissue from the nail plate, cleans under the free edge, and applies products on a cotton-wrapped tip. Hold it like a pencil at 20 to 30 degrees.  
 *为什么:* 木棒用来推掉甲面上的死皮组织、清理前缘下方，头上裹棉花还能涂产品。像握铅笔一样，以 20–30 度角拿着。  
-*Lock this (real-life):* Milady also calls it an orangewood stick: the small wooden stick you see in nail salons.  
-*记重点:* Milady 也叫它 orangewood stick，就是中国美甲店常见的橙木棒。  
-*Source:* Milady Standard Nail Technology p.144 (PDF 168), Milady Standard Nail Technology p.180 (PDF 204)
+*Lock this (contrast):* It pushes, it doesn't cut: the wooden pusher moves cuticle off the plate. Trimming dead skin is the nippers' job.  
+*记重点:* 它是推，不是剪：木棒（wooden pusher）把死皮（cuticle）从甲面推掉。剪掉死皮是死皮剪（nippers）的活。  
+*Source:* Milady Standard Nail Technology p.144 (PDF 168), Milady Standard Nail Technology p.180 (PDF 204), Milady Standard Nail Technology p.198 (PDF 222)
 
 **11. The narrow metal nail rasp is used to**  
 窄窄的金属甲沟锉（nail rasp）是用来做什么的？  
@@ -154,8 +154,8 @@ C. Scrubbing implements before disinfection / 消毒前刷洗工具 ✅
 D. Shaping the free edge / 修整前缘形状  
 *Why:* Clients scrub under the free edges with a nail brush when washing hands. It also removes surface debris and dust during services, and scrubs implements clean before disinfection.  
 *为什么:* 顾客洗手时用指甲刷刷指甲前缘下方；服务中用它清除表面碎屑和粉尘；消毒前也用它把工具刷干净。  
-*Lock this (comparison):* Mouthwash without brushing doesn't work properly. Disinfectant without scrubbing doesn't either.  
-*记重点:* 不刷牙只用漱口水效果不好；不刷洗就消毒，效果也不好。  
+*Lock this (picture):* Stiff bristles reach into the small cracks and joints of an implement. Dirt hides there from disinfectant.  
+*记重点:* 硬硬的刷毛能伸进工具（implement）的小缝和关节处。脏东西就藏在那里，消毒液碰不到。  
 *Source:* Milady Standard Nail Technology p.144 (PDF 168), Milady Standard Foundations p.116 (PDF 611), Milady Standard Foundations p.136 (PDF 631)
 
 **14. A single-use implement is one that**  
@@ -238,6 +238,6 @@ C. Buff longer in one spot / 在同一个地方多抛一会儿
 D. Lighten pressure and slow down / 减轻力度、放慢速度 ✅  
 *Why:* Too much pressure or buffing too long with low-grit abrasives creates painful heat that can lead to onycholysis. Lighten the pressure, slow the buffing, and lift the buffer between passes.  
 *为什么:* 用力过大或用低目数锉条抛太久，会产生灼痛的热，可能导致甲剥离（onycholysis）。要减轻力度、放慢速度，每次抛光之间把抛光条抬起来。  
-*Lock this (real-life):* Rub your palms together fast and they get hot. Friction makes heat, and the nail bed feels it.  
-*记重点:* 双手快速对搓会发热。摩擦生热，甲床（nail bed）都感觉得到。  
+*Lock this (body-cue):* Rub a fingertip hard and fast on your arm: it burns. Lighter and slower: no burn. Same on the nail.  
+*记重点:* 用指尖在手臂上又重又快地搓：会烫。轻一点、慢一点：就不烫了。指甲上也一样。  
 *Source:* Milady Standard Nail Technology p.148 (PDF 172)

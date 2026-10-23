@@ -46,8 +46,8 @@ C. Skin oils can make the polish lift / 皮肤油脂会让甲油翘起 ✅
 D. It dries too fast there / 那里干得太快  
 *Why:* Natural oils from the skin can make polish lift within a few days if the polish touches the skin. Leave a tiny, rounded area of unpolished nail at the back.  
 *为什么:* 如果甲油碰到皮肤，皮肤的天然油脂会让甲油在几天内翘起。在指甲后端留一小圈圆弧形的空白。  
-*Lock this (real-life):* Milady's starting point: set the brush about 1/8 inch (3 mm) from the cuticle area, then fan it back.  
-*记重点:* Milady 的起笔位置：刷子放在离死皮区约 1/8 英寸（约 3 毫米）处，轻压让刷毛呈扇形，再往后推。  
+*Lock this (reason-chain):* If polish touches skin, skin oil gets under its edge. Then the polish lifts within a few days.  
+*记重点:* 甲油一碰到皮肤，皮肤油脂就会渗到甲油边缘下面。然后几天内甲油就会翘起来。  
 *Source:* Milady Standard Nail Technology p.159 (PDF 183), Milady Standard Nail Technology p.182 (PDF 206)
 
 **5. Running the brush along the free edge to reduce chipping is called**  
@@ -58,8 +58,8 @@ C. capping. / 包边（capping）。 ✅
 D. feathering. / 羽化（feathering）。  
 *Why:* After the first coat, move the brush lightly back and forth on the very end of the free edge. This tip sealing, or capping, reduces chipping. Coat the free edge with topcoat too.  
 *为什么:* 第一层涂完后，用刷子在游离缘最末端轻轻来回刷。这叫 tip sealing（封边）或 capping（包边），能减少剥落。亮油也要包到游离缘。  
-*Lock this (real-life):* Cap the first color coat and the topcoat; the second color coat skips the tip.  
-*记重点:* 第一层彩色甲油和亮油都要包边；第二层彩色甲油不用再刷指尖。  
+*Lock this (word-link):* Capping = putting a cap on the tip, like the cap on a pen. The sealed tip chips less.  
+*记重点:* capping（包边）= 给指尖戴上"盖子"，就像笔帽套在笔尖上。封好的指尖不容易剥落。  
 *Source:* Milady Standard Nail Technology p.183 (PDF 207)
 
 **6. Why is base coat applied to the dominant hand first?**  
@@ -70,8 +70,8 @@ C. Clients prefer it that way / 顾客喜欢这样
 D. It gets a head start on drying / 惯用手可以先开始晾干 ✅  
 *Why:* Apply base coat to the dominant hand first, then place it in a cool dryer while you work on the other hand. The most-used hand gets a head start drying and smudges less.  
 *为什么:* 先给惯用手（dominant hand）涂底油，涂完放进冷风烘干机，再做另一只手。最常用的手先开始晾干，就不容易弄花。  
-*Lock this (real-life):* Keep it thin: Milady's step 1 is a thin layer of base coat over the entire nail plate.  
-*记重点:* 要薄：Milady 第 1 步就是在整个甲板上涂薄薄一层底油。  
+*Lock this (body-cue):* Your writing hand is the dominant hand. It does the most, so it gets the longest time to dry.  
+*记重点:* 你写字的那只手就是惯用手（dominant hand）。它用得最多，所以要给它最长的晾干时间。  
 *Source:* Milady Standard Nail Technology p.182 (PDF 206)
 
 **7. What is the minimum drying time for traditional polish?**  
@@ -82,9 +82,9 @@ C. 3 minutes / 3 分钟
 D. 60 minutes / 60 分钟  
 *Why:* After polishing, seat the client at a separate table under a nail dryer or away from your station. Traditional polish needs at least 10 minutes; gel polish follows the maker's directions.  
 *为什么:* 上完甲油后，请顾客到另一张桌子用烘干机，或坐在离你工作台远一点的地方。传统甲油至少要晾 10 分钟；凝胶甲油按厂家说明。  
-*Lock this (reason-chain):* Polish dries as its solvents evaporate. A dryer's moving air speeds that up.  
-*记重点:* 甲油变干靠的是溶剂挥发。烘干机吹出的气流能让挥发更快。  
-*Source:* Milady Standard Nail Technology p.183 (PDF 207), Milady Standard Nail Technology p.139 (PDF 163)
+*Lock this (reason-chain):* Base, two colors, topcoat: four wet layers. Give them time: 10 minutes at least.  
+*记重点:* 底油、两层彩色甲油、亮油：一共四层湿的甲油。给它时间：至少 10 分钟。  
+*Source:* Milady Standard Nail Technology p.183 (PDF 207), Milady Standard Nail Technology p.139 (PDF 163), Milady Standard Nail Technology p.159 (PDF 183)
 
 **8. How should a bottle of polish be mixed?**  
 一瓶甲油应该怎么摇匀？  
@@ -94,8 +94,8 @@ C. Stir it with a wooden pusher / 用木推棒搅拌
 D. Tap it on the table / 在桌上敲一敲  
 *Why:* Never shake polish. Shaking traps air that forms bubbles and makes the finish look rough. Gently roll the bottle upside down between your palms instead.  
 *为什么:* 绝不要摇甲油。摇晃会把空气困在瓶里形成气泡，让涂出来的效果粗糙。应该把瓶子倒过来，在两掌之间轻轻滚动。  
-*Lock this (real-life):* Must shake? Shake gently, open to let air out, recap, and wait at least 30 minutes.  
-*记重点:* 实在要摇，就轻轻摇，开盖放气，再盖好，至少等 30 分钟才涂。  
+*Lock this (picture):* Shake a soda and it foams. Shake polish and it fills with bubbles. Roll it instead.  
+*记重点:* 摇一摇汽水，就会冒泡沫。摇一摇甲油，里面就全是气泡。所以要滚动，不要摇。  
 *Source:* Milady Standard Nail Technology p.151 (PDF 175)
 
 **9. Before polish is applied, what should the client do?**  
@@ -142,8 +142,8 @@ C. arthritis pain. / 关节炎疼痛。
 D. callused hands. / 手上有老茧。  
 *Why:* Avoid paraffin on clients with impaired circulation or skin irritations such as cuts, burns, rashes, warts, or eczema. Dry skin, calluses, and arthritis pain are reasons clients enjoy it.  
 *为什么:* 血液循环不良，或有割伤、烧伤、皮疹、疣、湿疹等皮肤问题的顾客，要避免蜡疗。皮肤干燥、老茧和关节炎疼痛反而是顾客喜欢蜡疗的原因。  
-*Lock this (real-life):* Older clients and clients with long-term illness: ask for a doctor's note before paraffin.  
-*记重点:* 老年人和慢性病顾客：做蜡疗前，请他们先带医生的书面许可来。  
+*Lock this (contrast):* Impaired = not working well. Most clients can have paraffin. Not with poor blood flow or broken skin.  
+*记重点:* impaired（受损）= 不能正常工作。大多数顾客都可以做蜡疗。血液循环不良或皮肤有破损的人就不能做。  
 *Source:* Milady Standard Nail Technology p.165 (PDF 189), Milady Standard Nail Technology p.167 (PDF 191), Milady Standard Nail Technology p.166 (PDF 190)
 
 **13. Why is a client's hand not dipped into the paraffin tub?**  
@@ -176,8 +176,8 @@ A. while the base coat is still wet. / 底油还没干的时候。
 B. after the massage, before polishing. / 按摩之后、上甲油之前。 ✅  
 C. after the topcoat dries. / 亮油干了之后。  
 D. before the nails are filed. / 锉指甲之前。  
-*Why:* Many spa manicures add paraffin over a mask or lotion as an extra treatment, after the massage and before polishing.  
-*为什么:* 很多水疗修手在按摩之后、上甲油之前，加做一项护理：把蜡敷在面膜或乳液上。  
+*Why:* The paraffin goes over the lotion or mask to hold moisture in the skin. Lotion goes on during the massage, so paraffin comes after it, and the nails are cleaned before polish.  
+*为什么:* 蜡敷在乳液或面膜上，是为了把水分锁在皮肤里。乳液是在按摩时涂上的，所以蜡疗要在按摩之后；之后把指甲清洁干净，再上甲油。  
 *Lock this (contrast):* Paraffin before the manicure lets you polish right away, but then it can't go over lotion or a mask.  
 *记重点:* 修手前先做蜡疗，结束后可以马上上甲油，但就不能敷在乳液或面膜上。  
 *Source:* Milady Standard Nail Technology p.167 (PDF 191)
@@ -214,9 +214,9 @@ C. 5 to 10 minutes / 5 到 10 分钟 ✅
 D. Overnight / 一整夜  
 *Why:* A mask is a concentrated treatment product, often with clays and moisturizers. It stays on the skin for 5 to 10 minutes so the beneficial ingredients can penetrate.  
 *为什么:* mask（足膜，也写作 masque）是浓缩护理产品，常含矿物泥和保湿成分。它在皮肤上停留 5 到 10 分钟，让有益成分渗透。  
-*Lock this (real-life):* Foot masks often feel cool: Milady names menthol, mint, and cucumber as popular ingredients.  
-*记重点:* 足膜常常凉凉的：Milady 提到薄荷醇、薄荷和黄瓜都是常见成分。  
-*Source:* Milady Standard Nail Technology p.201 (PDF 225), Milady Standard Nail Technology p.202 (PDF 226)
+*Lock this (comparison):* Mask time = foot soak time: both stay 5 to 10 minutes.  
+*记重点:* 足膜时间 = 泡脚时间：都是 5 到 10 分钟。  
+*Source:* Milady Standard Nail Technology p.201 (PDF 225), Milady Standard Nail Technology p.202 (PDF 226), Milady Standard Nail Technology p.213 (PDF 237)
 
 **19. How warm should the stones in a hot stone pedicure feel?**  
 热石修脚（hot stone pedicure）中，石头应该有多热？  
@@ -226,8 +226,8 @@ C. As hot as the client can stand / 热到顾客能忍受的极限
 D. Comfortably warm / 温暖舒适 ✅  
 *Why:* Milady calls the name a misnomer: the stones are not hot, only comfortably warm. Test them on your arm, then check with the client during the first movement.  
 *为什么:* Milady 说这个名字名不副实：石头并不烫，只是温暖舒适。先在自己手臂上试温，第一个动作时再问顾客感觉。  
-*Lock this (real-life):* In 2009, poorly disinfected hot stones spread MRSA to many spa clients. Disinfect every time.  
-*记重点:* 2009 年，没有彻底消毒的热石把 MRSA（耐甲氧西林金黄色葡萄球菌）传给了很多水疗顾客。每次都要消毒。  
+*Lock this (name-trap):* Name trap: "hot" stones are never hot. They should feel comfortably warm, like a warm bath.  
+*记重点:* 名字陷阱："热石"其实并不烫。石头应该只是温暖舒适，像温水澡一样。  
 *Source:* Milady Standard Nail Technology p.196 (PDF 220), Milady Standard Nail Technology p.197 (PDF 221)
 
 **20. What does a paraffin wax treatment do for the skin?**  

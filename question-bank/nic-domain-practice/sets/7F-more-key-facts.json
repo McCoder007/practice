@@ -175,11 +175,11 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Milady: soak the nail in acetone for 5 to 10 minutes, slide the soft tip off, and reapply. Prying it off can damage the nail plate.",
-        "zh": "Milady 的做法：把指甲泡在丙酮（acetone）里 5 到 10 分钟，把变软的甲片推下来，再重新贴。硬撬会损伤甲面。"
+        "en": "Milady: soak the nail in acetone for 5 to 10 minutes, slide the soft tip off, and reapply. Prying it off (forcing it up) can damage the nail plate.",
+        "zh": "Milady 的做法：把指甲泡在丙酮（acetone）里 5 到 10 分钟，把变软的甲片滑下来，再重新贴。硬撬（prying，用力撬起来）会伤到甲板。"
       },
       "lockPoint": {
-        "en": "Like a shirt buttoned wrong: you don't pull harder; you undo it and start again.",
+        "en": "Like a shirt buttoned wrong: you don't pull harder. You undo it and start again.",
         "zh": "就像衬衫扣错了扣子：不是更用力地拉，而是解开重新扣。"
       },
       "teachingRelation": "condition-action",
@@ -257,12 +257,12 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Wraps and dips are both resin systems, removed the same way. Soak in acetone or product remover, then gently slide the soft product off. Prying can damage the nail.",
-        "zh": "包甲和浸粉都属于树脂系统（nail resin systems），卸法一样：泡在丙酮或卸甲液里，再把变软的产品轻轻推下来。硬撬会伤到指甲。"
+        "en": "Wraps and dips are both resin systems, removed the same way. Soak in acetone or product remover, then gently slide the soft product off. Prying (forcing it up) can damage the nail.",
+        "zh": "包甲（wrap）和浸粉（dip）都是树脂系统，卸除方法一样。泡在丙酮或卸甲液里，再轻轻把变软的产品滑下来。硬撬（prying，用力撬起来）会伤到指甲。"
       },
       "lockPoint": {
         "en": "Softened product, gentle tool: a wooden pusher just slides it off. No cutting, no prying, no peeling.",
-        "zh": "产品已经泡软，用温和的工具就行：木棒（wooden pusher）轻轻一推就下来。不剪、不撬、不撕。"
+        "zh": "产品已经变软，就用温和的工具：木推棒轻轻一推就滑下来。不剪、不撬（prying）、不剥。"
       },
       "teachingRelation": "action",
       "authorityRefs": [
@@ -329,8 +329,8 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Viscosity means how thick the resin is. The thinner it is, the better it sticks and the faster it cures. Thin resin is a base; thick resin builds or is a topcoat.",
-        "zh": "viscosity（黏度）就是树脂的稠度。越稀，附着越好、固化越快。稀的树脂做底层；稠的树脂用来做结构或当封层。"
+        "en": "Viscosity means how thick the resin is. The thinner it is, the better it sticks and the faster it cures. Thin resin is a base. Thick resin is for building or a topcoat.",
+        "zh": "viscosity（黏度）就是树脂的稠度。越稀，附着越好、固化越快。稀的树脂做底层。稠的树脂用来做结构或当封层。"
       },
       "lockPoint": {
         "en": "Water vs. honey: water runs into tiny gaps fast. Thin resin acts like water: sticks better, cures faster.",

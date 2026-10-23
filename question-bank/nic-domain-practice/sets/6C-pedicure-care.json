@@ -258,8 +258,8 @@
         "zh": "除非顾客另有要求，脚趾甲要平剪，与脚趾末端齐平。不要留下粗糙边缘或倒钩，以免引起感染。"
       },
       "lockPoint": {
-        "en": "Milady warns that the big toenail is usually the hardest to trim. Slow down there.",
-        "zh": "Milady 提醒：大脚趾甲通常最难剪，剪到那里要放慢。"
+        "en": "Straight across, even with the toe tip. Deep, curved corners leave sharp sides that can grow into the skin.",
+        "zh": "平剪，与脚趾尖齐平。往角落里剪得太深，会留下尖锐的侧边，可能长进皮肤里。"
       },
       "teachingRelation": "action",
       "authorityRefs": [
@@ -268,6 +268,12 @@
           "section": "Pedicuring - Procedure 7-1 Performing a Basic Pedicure",
           "pdfPage": 238,
           "printedPage": "214"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Nail Rasp",
+          "pdfPage": 222,
+          "printedPage": "198"
         }
       ],
       "evidence": [
@@ -282,9 +288,13 @@
         {
           "pdfPage": 238,
           "quote": "Do not leave any rough edges or hooks that might create an opportunity for infections."
+        },
+        {
+          "pdfPage": 222,
+          "quote": "reduce the sides of the free edge that might grow into the tissues and potentially cause an ingrown nail"
         }
       ],
-      "hookType": "real-life"
+      "hookType": "reason-chain"
     },
     {
       "id": "nic-6c-05",
@@ -320,8 +330,8 @@
         "zh": "剪得太短可能破坏 hyponychium（甲下皮）的密封。这道密封保护趾甲下面的部位不受感染。"
       },
       "lockPoint": {
-        "en": "Hypo = under, onych = nail. The hyponychium is the skin seal under the free edge.",
-        "zh": "hypo = 下面，onych = 指甲。hyponychium 就是游离缘下面那道皮肤密封。"
+        "en": "Cut too short, and the skin seal under the tip opens. Then germs can get under the toenail.",
+        "zh": "剪得太短，指尖下面的皮肤密封就会被打开。然后病菌就能钻到趾甲下面。"
       },
       "teachingRelation": "safety-reason",
       "authorityRefs": [
@@ -338,7 +348,7 @@
           "quote": "Always take care not to trim the nails too short. Do not break the seal of the hyponychium, an important protection of the subungual (beneath the toenail) toenail unit from infection."
         }
       ],
-      "hookType": "word-parts"
+      "hookType": "reason-chain"
     },
     {
       "id": "nic-6c-06",
@@ -504,8 +514,8 @@
         "zh": "甲锉刀只在需要时用在大脚趾上。沿着游离缘的侧边轻轻拉，把尖角磨平；绝不能用在指甲表面。"
       },
       "lockPoint": {
-        "en": "The rasp files in one direction only; the angled kind is easier to control under the free edge.",
-        "zh": "甲锉刀只能朝一个方向锉；带角度的款式在游离缘下面更好控制。"
+        "en": "The rasp is narrow: it smooths the big toe's side edges only. Never the top, never other toes.",
+        "zh": "甲锉刀（nail rasp）很窄：只用来磨平大脚趾的侧边。绝不用在指甲表面，也不用在其他脚趾上。"
       },
       "teachingRelation": "location",
       "authorityRefs": [
@@ -546,7 +556,7 @@
           "quote": "The angled rasp is recommended because it is easier to control under the free edge of the nail."
         }
       ],
-      "hookType": "real-life"
+      "hookType": "contrast"
     },
     {
       "id": "nic-6c-09",
@@ -708,8 +718,8 @@
         "zh": "绝不能用剃刀式去茧刀。在大多数州这是违法的，会引起感染，而且皮肤为了保护自己，老茧会长得更厚。"
       },
       "lockPoint": {
-        "en": "Safe route: soften with a callus product, then use a foot file to remove only a safe amount.",
-        "zh": "安全做法：先用去茧产品软化，再用脚锉只磨掉安全的量。"
+        "en": "Shaving hurts the skin. So it grows back thicker to protect itself.",
+        "zh": "用刀刮会伤到皮肤。所以它会长得更厚来保护自己。"
       },
       "teachingRelation": "cause-effect",
       "authorityRefs": [
@@ -734,7 +744,7 @@
           "quote": "use the foot file or paddle to remove a safe amount of callus."
         }
       ],
-      "hookType": "real-life"
+      "hookType": "reason-chain"
     },
     {
       "id": "nic-6c-12",
@@ -1104,8 +1114,8 @@
         "zh": "修脚前刚刮过毛，会留下看不见的细小伤口（microtrauma，微创伤），病菌可能进入。只做脚部的基础无水修脚，泡脚、磨砂或腿部护理另约时间。"
       },
       "lockPoint": {
-        "en": "Micro = small, trauma = wound. Waxing, plucking, and insect bites can leave the same tiny openings.",
-        "zh": "micro = 微小，trauma = 伤口。蜜蜡脱毛、拔毛和蚊虫叮咬也会留下同样的细小开口。"
+        "en": "Freshly shaved legs have tiny openings you can't see. No soak, no scrub, no leg work. Feet only, no water.",
+        "zh": "刚刮过腿毛的腿上有看不见的细小开口。不泡脚、不磨砂、不做腿部护理。只做脚，不用水。"
       },
       "teachingRelation": "condition-action",
       "authorityRefs": [
@@ -1146,7 +1156,7 @@
           "quote": "Even minor, invisible lesions created by shaving, plucking, waxing, insect bites, and pimples can cause a risk"
         }
       ],
-      "hookType": "word-parts"
+      "hookType": "reason-chain"
     },
     {
       "id": "nic-6c-18",

@@ -423,8 +423,8 @@
         "zh": "Milady 的步骤是先涂 dehydrator（脱水剂）去除水分和油分，再涂 primer（结合剂）增强附着。结合剂干了之后才上产品。"
       },
       "lockPoint": {
-        "en": "Clean the surface, then add the grip: dry the nail first, then lay the two-sided tape.",
-        "zh": "先把表面弄干净，再加“抓力”：先让指甲干燥，再贴上那层“双面胶”。"
+        "en": "Dehydrator takes away water and oil. The nail is dry. Now primer can grip it.",
+        "zh": "脱水剂（dehydrator）去掉水分和油分。指甲变干了。这时结合剂（primer）才抓得牢。"
       },
       "teachingRelation": "list",
       "authorityRefs": [
@@ -487,8 +487,8 @@
         "zh": "primer（结合剂）能增强附着，所以对甲面偏油、不容易附着的客人特别有用。要少量使用，大多数客人一薄层就够了。"
       },
       "lockPoint": {
-        "en": "Oil blocks adhesion the way grease stops tape from sticking to a pan.",
-        "zh": "油会妨碍附着，就像胶带贴不住油腻的锅。"
+        "en": "An oily nail is like a slippery floor. Primer works like non-slip shoes: it helps product hold on.",
+        "zh": "偏油的甲面就像湿滑的地板。结合剂（primer）就像防滑鞋：帮产品牢牢抓住指甲。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -555,8 +555,8 @@
         "zh": "primer（结合剂）只涂在真甲上，而且只涂一次。涂在塑料甲片上，可能让甲片融化、变脆，并破坏甲片胶。"
       },
       "lockPoint": {
-        "en": "In a repair, Milady primes only the exposed natural nail, never the old product.",
-        "zh": "修补时，Milady 只在露出的真甲上涂结合剂，从不涂在旧产品上。"
+        "en": "Primer is made to grab the natural nail, not plastic. On a plastic tip, it can melt the tip instead.",
+        "zh": "结合剂（primer）是用来抓住真甲的，不是塑料。涂在塑料甲片上，它反而可能让甲片融化。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -583,7 +583,7 @@
           "quote": "If any natural nail is showing, you will need to apply nail dehydrator and primer to the exposed natural nail."
         }
       ],
-      "hookType": "real-life"
+      "hookType": "reason-chain"
     },
     {
       "id": "nic-7b-10",
@@ -739,8 +739,8 @@
         "zh": "MMA 在卸甲液里不容易溶解，所以通常被从甲面上硬撬下来，造成更多损伤。指甲上不能使用 MMA。"
       },
       "lockPoint": {
-        "en": "Doctors use MMA as a cement to repair bones. It is made to stay in place, not soak off.",
-        "zh": "医生用 MMA 做骨水泥来修补骨头：它就是要牢牢不动，而不是被泡掉。"
+        "en": "Like chewing gum stuck in hair: it won't wash out, so it gets pulled, and hair comes with it.",
+        "zh": "就像口香糖粘在头发上：洗不掉，只能硬扯，结果连头发一起扯下来。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -767,7 +767,7 @@
           "quote": "MMA is the preferred bone repair cement for implantation into the body."
         }
       ],
-      "hookType": "real-life"
+      "hookType": "picture"
     },
     {
       "id": "nic-7b-13",
@@ -1007,8 +1007,8 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "BPO is the initiator added to polymer powder. Powders carry different amounts of BPO to suit a certain liquid, so use the powder made for your monomer.",
-        "zh": "BPO（过氧化苯甲酰）是加在聚合物粉里的引发剂。不同的粉含 BPO 的量不同，以配合特定的单体液，所以要用和你的单体液配套的粉。"
+        "en": "BPO is the initiator mixed into the powder. It starts the chain reaction when liquid meets powder. A photoinitiator is gel's starter and needs lamp light. Cyanoacrylate is nail glue.",
+        "zh": "BPO（过氧化苯甲酰）是加在聚合物粉里的引发剂（initiator）。单体液一碰到粉，它就启动链式反应（chain reaction）。光引发剂（photoinitiator）是凝胶的引发剂，要照灯才起作用。氰基丙烯酸酯（cyanoacrylate）是甲片胶。"
       },
       "lockPoint": {
         "en": "BPO is the same ingredient as in some acne creams; nail powders use much less of it.",
@@ -1027,6 +1027,18 @@
           "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Chemistry of Liquid and Powder",
           "pdfPage": 347,
           "printedPage": "323"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Chemistry of Gels",
+          "pdfPage": 378,
+          "printedPage": "354"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Resin Systems - Nail Resins",
+          "pdfPage": 306,
+          "printedPage": "282"
         }
       ],
       "evidence": [
@@ -1041,6 +1053,18 @@
         {
           "pdfPage": 347,
           "quote": "This is why it is very important to use the polymer powder that was designed for the monomer liquid that you are using."
+        },
+        {
+          "pdfPage": 346,
+          "quote": "Polymerization begins at the time the liquid in the brush picks up powder from the container and forms a bead."
+        },
+        {
+          "pdfPage": 378,
+          "quote": "A photoinitiator is a molecule that creates a reaction when exposed to UV or visible light."
+        },
+        {
+          "pdfPage": 306,
+          "quote": "may be referred to as nail glue or tip adhesive"
         }
       ],
       "hookType": "real-life"

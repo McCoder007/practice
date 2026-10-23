@@ -110,8 +110,8 @@
         "zh": "州监管机构（例如 state board 州委员会）负责发执照，并通过检查来执行规定。EPA、OSHA 等联邦机构则为产品和工作场所制定全国性规定。"
       },
       "lockPoint": {
-        "en": "State boards can issue warnings, fines, or probation, or suspend or revoke your license.",
-        "zh": "州委员会可以警告、罚款、留牌察看，甚至暂停或吊销你的执照。"
+        "en": "Your license comes from your state, not the U.S. government. So the state board gives it and checks your salon.",
+        "zh": "你的执照是州发的，不是联邦政府发的。所以由州委员会（state board）发执照，也由它来店里检查。"
       },
       "teachingRelation": "category",
       "authorityRefs": [
@@ -322,8 +322,8 @@
         "zh": "contact time（接触时间）是标签上写的、消毒剂必须保持肉眼可见湿润的时间，这样才能杀死标签上列出的病原体。不同产品时间不同。"
       },
       "lockPoint": {
-        "en": "Times differ: most concentrates need 10 minutes, most wipes only 2. Read each label.",
-        "zh": "时间各不相同：多数浓缩液要 10 分钟，多数湿巾只要 2 分钟。每个标签都要看。"
+        "en": "Contact means touching. Wet disinfectant keeps touching the germs. Once it dries, it stops working.",
+        "zh": "contact 就是“接触”。消毒剂保持湿润，才会一直接触病菌。一干，就不起作用了。所以接触时间（contact time）就是它必须保持湿润的时间。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -344,7 +344,7 @@
           "quote": "most concentrates have a 10-minute contact time, whereas most wipes have a 2-minute contact time."
         }
       ],
-      "hookType": "contrast"
+      "hookType": "word-link"
     },
     {
       "id": "nic-1b-06",
@@ -380,8 +380,8 @@
         "zh": "一定要把消毒剂浓缩液倒进水里。把水倒进消毒剂里会起泡，导致配比不准。"
       },
       "lockPoint": {
-        "en": "Water first, then concentrate: the same order chemists use when they add acid to water.",
-        "zh": "先放水，再加浓缩液：和化学课上“把酸加进水里”是同一个顺序。"
+        "en": "Run tap water onto bubble bath and foam rises. So pour the concentrate into the water instead.",
+        "zh": "把自来水冲到泡泡浴液上，泡沫就会冒起来。所以要把浓缩液倒进水里，而不是反过来。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -408,7 +408,7 @@
           "quote": "to be weaker or more concentrated than the manufacturer’s instructions—can significantly reduce their effectiveness"
         }
       ],
-      "hookType": "comparison"
+      "hookType": "real-life"
     },
     {
       "id": "nic-1b-07",
@@ -508,8 +508,8 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "At a minimum, salon disinfectants must be bactericidal, virucidal, and fungicidal. The label should also show the EPA registration number and the pathogens it kills.",
-        "zh": "美容店用的消毒剂至少要能 bactericidal（杀细菌）、virucidal（杀病毒）和 fungicidal（杀真菌）。标签上还应有 EPA 注册号和它能杀的病原体名单。"
+        "en": "At least, salon disinfectants must kill bacteria, viruses, and fungi: bactericidal, virucidal, fungicidal. Disinfectants do not kill spores (sporicidal). Only sterilizing does. Antiseptics are for skin, not tools.",
+        "zh": "美容店用的消毒剂至少要能杀细菌、病毒和真菌：bactericidal（杀细菌）、virucidal（杀病毒）、fungicidal（杀真菌）。消毒剂杀不死芽孢（sporicidal 杀芽孢）。只有 sterilizing（灭菌）能做到。antiseptic（皮肤抗菌剂）是用在皮肤上的，不是用在工具上的。"
       },
       "lockPoint": {
         "en": "-cidal = killing, as in pesticide. Bacteria, viruses, fungi: three germ groups, three -cidal words.",
@@ -522,6 +522,18 @@
           "section": "Infection Control - Preventing Transmission: Infection Control",
           "pdfPage": 597,
           "printedPage": "102"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Infection Control Vocabulary",
+          "pdfPage": 591,
+          "printedPage": "96"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Waterless Hand Sanitizers",
+          "pdfPage": 612,
+          "printedPage": "117"
         }
       ],
       "evidence": [
@@ -540,6 +552,18 @@
         {
           "pdfPage": 597,
           "quote": "The words bactericidal, virucidal, and fungicidal"
+        },
+        {
+          "pdfPage": 591,
+          "quote": "fungi (except bacterial spores) on implements and environmental surfaces."
+        },
+        {
+          "pdfPage": 591,
+          "quote": "Sterilizing is the process that destroys all microbial life, including spores,"
+        },
+        {
+          "pdfPage": 612,
+          "quote": "Antiseptics (ant-ih-SEP-tiks) are chemical germicides formulated for use"
         }
       ],
       "hookType": "word-parts"
@@ -1044,8 +1068,8 @@
         "zh": "油类产品会滋生细菌。倒少量到干净的 dappen dish（小碟）里，用一次性刷子涂。用完后，把刷子和剩下的产品一起丢掉。"
       },
       "lockPoint": {
-        "en": "Used product back in the bottle → germs in the bottle → every later client gets them.",
-        "zh": "用过的产品倒回瓶子 → 病菌进了瓶子 → 后面每个客人都会沾到。"
+        "en": "Like pouring milk into your own glass, not drinking from the carton: the carton stays clean for everyone.",
+        "zh": "就像把牛奶倒进自己的杯子里喝，而不是对着盒子喝：整盒牛奶对大家来说都还是干净的。小碟（dappen dish）就是那个杯子。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -1070,7 +1094,7 @@
           "quote": "since these products can become exposed to bacteria and do support bacterial growth."
         }
       ],
-      "hookType": "reason-chain"
+      "hookType": "comparison"
     },
     {
       "id": "nic-1b-17",
@@ -1106,8 +1130,8 @@
         "zh": "Standard Precautions（标准预防措施）是 CDC 发布的指南。很多人带有传染病却没有症状（asymptomatic），所以要假定任何人的血液或体液都可能有传染性。"
       },
       "lockPoint": {
-        "en": "Your own blood counts too: if you cut yourself, you follow a similar exposure procedure.",
-        "zh": "你自己的血也算：割伤自己时，也要按类似的暴露事件（exposure incident）步骤处理。"
+        "en": "Got a cold from a friend who felt fine? No signs doesn't mean no germs. Treat all blood as risky.",
+        "zh": "有没有被一个看起来好好的朋友传染过感冒？没有症状，不代表没有病菌。所有血液和体液都要当作可能有传染性（potentially infectious）。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -1146,6 +1170,10 @@
         {
           "pdfPage": 623,
           "quote": "Many of the steps are similar to a client injury"
+        },
+        {
+          "pdfPage": 621,
+          "quote": "whether or not they look sick"
         }
       ],
       "hookType": "real-life"

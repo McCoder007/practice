@@ -32,8 +32,8 @@ A. heat-and-pressure process in an autoclave. / 在高压灭菌器（autoclave�
 B. chemical process that destroys most germs. / 能消灭大多数病菌的化学过程。  
 C. chemical process that destroys all spores. / 能消灭所有芽孢的化学过程。  
 D. mechanical process that removes dirt. / 去除脏污的机械过程（mechanical process）。 ✅  
-*Why:* Cleaning is mechanical: the work of scrubbing with soap and water washes dirt and many germs away. Destroying germs comes later: disinfecting uses chemicals to destroy most; sterilizing, usually in an autoclave, destroys all.  
-*为什么:* cleaning（清洁）是 mechanical process（机械过程）：靠用肥皂和水刷洗的动手功夫，把脏污和许多病菌洗掉。消灭病菌是后面的步骤：disinfecting（消毒）用化学品消灭大多数病菌；sterilizing（灭菌）通常用高压灭菌器（autoclave），消灭全部病菌。  
+*Why:* Cleaning is mechanical: scrubbing with soap and water washes dirt and many germs away. Destroying germs comes later. Disinfecting uses chemicals to destroy most. Sterilizing, usually in an autoclave, destroys all.  
+*为什么:* cleaning（清洁）是 mechanical process（机械过程）：用肥皂和水刷洗，把脏污和许多病菌洗掉。消灭病菌是后面的步骤。disinfecting（消毒）用化学品消灭大多数病菌。sterilizing（灭菌）通常用高压灭菌器（autoclave），消灭全部病菌。  
 *Lock this (picture):* Like washing a muddy plate: your hands and the sponge do the work. That is mechanical.  
 *记重点:* 就像洗一个沾满泥的盘子：真正干活的是你的手和海绵。这就是机械（mechanical）清洁。  
 *Source:* Milady Standard Foundations p.96 (PDF 591), Milady Standard Foundations p.118 (PDF 613)
@@ -56,7 +56,7 @@ A. sterilize them. / 让它们达到灭菌。
 B. make the solution stronger. / 让消毒液变得更强。  
 C. dull or damage them. / 让它们变钝或损坏。 ✅  
 D. make them rust-proof. / 让它们不会生锈。  
-*Why:* Quats usually disinfect implements in 10 minutes. Leaving tools in much longer can dull or damage them. Take them out on time, rinse if required, and dry them.  
+*Why:* Quats usually disinfect implements in 10 minutes. Leaving tools in much longer can dull or damage them. Take them out on time, rinse if needed, and dry them.  
 *为什么:* quats（季铵盐消毒剂）通常 10 分钟就能给工具消毒。泡得太久会让工具变钝或损坏。到时间就取出，需要时冲洗，再擦干。  
 *Lock this (picture):* A pickle left in vinegar too long goes soft. Tools left in quats too long go dull.  
 *记重点:* 腌黄瓜在醋里泡太久会变软；工具在季铵盐消毒液里泡太久会变钝。  
@@ -94,8 +94,8 @@ C. Yes, if the tools are wet / 能，只要工具是湿的
 D. Yes, and it sterilizes them too / 能，而且还能灭菌  
 *Why:* UV light units will not disinfect or sterilize implements. Most state rules require liquid disinfecting solutions.  
 *为什么:* UV light units（紫外线灯箱）不能给工具消毒，也不能灭菌。大多数州的规定要求使用液体消毒剂。  
-*Lock this (reason-chain):* UV works only sometimes: dirt, heat, and the kind of germ change it. So it is not right for salons.  
-*记重点:* 紫外线的效果不稳定：脏污、温度和病菌种类都会影响它，所以不适合在沙龙里用。  
+*Lock this (reason-chain):* UV does not always work. Dirt, heat, and germ type can make it fail. So it is not for salons.  
+*记重点:* 紫外线不一定有效。脏污、温度和病菌种类都可能让它失效，所以不适合在沙龙里用。  
 *Source:* Milady Standard Nail Technology p.140 (PDF 164), Milady Standard Foundations p.124 (PDF 619)
 
 **9. Contact with blood or body fluid while you work is called**  
@@ -152,8 +152,8 @@ A. For each client / 每位客人都换 ✅
 B. Once each workday / 每个工作日一次  
 C. Once each week / 每周一次  
 D. Only when it looks dirty / 只在看起来脏的时候  
-*Why:* Use clean towels and linens for each client. Wash them by the label and dry them fully, because damp towels can grow mildew and bacteria.  
-*为什么:* 每位客人都要用干净的毛巾和布巾（linens）。按标签说明清洗并彻底烘干，因为潮湿的毛巾会长霉菌和细菌。  
+*Why:* Use clean towels and linens for each client. Wash them as the label says and dry them fully. Damp towels can grow mildew and bacteria.  
+*为什么:* 每位客人都要用干净的毛巾和布巾（linens）。按标签说明清洗并彻底烘干。潮湿的毛巾会长霉菌和细菌。  
 *Lock this (real-life):* Like a hotel: every new guest gets fresh towels. In the salon, every new client does too.  
 *记重点:* 就像酒店：每位新住客都会拿到干净的毛巾。在沙龙里，每位新客人也一样。  
 *Source:* Milady Standard Foundations p.125 (PDF 620), Milady Standard Nail Technology p.138 (PDF 162)

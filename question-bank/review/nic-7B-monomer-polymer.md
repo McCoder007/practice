@@ -82,8 +82,8 @@ C. Dehydrator, then nail cleanser / 先脱水剂，再甲面清洁剂
 D. Primer, then buff off the shine / 先结合剂，再磨掉光泽  
 *Why:* Milady's steps apply nail dehydrator first to remove moisture and oil, then nail primer to improve adhesion. Product goes on only after the primer is dry.  
 *为什么:* Milady 的步骤是先涂 dehydrator（脱水剂）去除水分和油分，再涂 primer（结合剂）增强附着。结合剂干了之后才上产品。  
-*Lock this (reason-chain):* Clean the surface, then add the grip: dry the nail first, then lay the two-sided tape.  
-*记重点:* 先把表面弄干净，再加“抓力”：先让指甲干燥，再贴上那层“双面胶”。  
+*Lock this (reason-chain):* Dehydrator takes away water and oil. The nail is dry. Now primer can grip it.  
+*记重点:* 脱水剂（dehydrator）去掉水分和油分。指甲变干了。这时结合剂（primer）才抓得牢。  
 *Source:* Milady Standard Nail Technology p.344 (PDF 368), Milady Standard Nail Technology p.325 (PDF 349)
 
 **8. Nail primer is especially useful for a client with**  
@@ -94,8 +94,8 @@ C. oily nail plates. / 甲面偏油。 ✅
 D. very sensitive skin. / 皮肤非常敏感。  
 *Why:* Primer improves adhesion, so it is especially useful when a client has oily nail plates, where adhesion is a problem. Use it sparingly; one thin coat is enough for most clients.  
 *为什么:* primer（结合剂）能增强附着，所以对甲面偏油、不容易附着的客人特别有用。要少量使用，大多数客人一薄层就够了。  
-*Lock this (picture):* Oil blocks adhesion the way grease stops tape from sticking to a pan.  
-*记重点:* 油会妨碍附着，就像胶带贴不住油腻的锅。  
+*Lock this (picture):* An oily nail is like a slippery floor. Primer works like non-slip shoes: it helps product hold on.  
+*记重点:* 偏油的甲面就像湿滑的地板。结合剂（primer）就像防滑鞋：帮产品牢牢抓住指甲。  
 *Source:* Milady Standard Nail Technology p.118 (PDF 142), Milady Standard Nail Technology p.117 (PDF 141)
 
 **9. Why should nail primer be kept off plastic nail tips?**  
@@ -106,8 +106,8 @@ C. It turns the tip yellow in sunlight. / 会让甲片在阳光下变黄。
 D. It can melt the tip and weaken adhesive. / 会让甲片融化，并削弱甲片胶。 ✅  
 *Why:* Primer goes only on the natural nail, and only once. On plastic tips it can melt the tip, make it brittle, and break down the tip adhesive.  
 *为什么:* primer（结合剂）只涂在真甲上，而且只涂一次。涂在塑料甲片上，可能让甲片融化、变脆，并破坏甲片胶。  
-*Lock this (real-life):* In a repair, Milady primes only the exposed natural nail, never the old product.  
-*记重点:* 修补时，Milady 只在露出的真甲上涂结合剂，从不涂在旧产品上。  
+*Lock this (reason-chain):* Primer is made to grab the natural nail, not plastic. On a plastic tip, it can melt the tip instead.  
+*记重点:* 结合剂（primer）是用来抓住真甲的，不是塑料。涂在塑料甲片上，它反而可能让甲片融化。  
 *Source:* Milady Standard Nail Technology p.325 (PDF 349), Milady Standard Nail Technology p.331 (PDF 355)
 
 **10. Before using acid-based primer, what should you put on?**  
@@ -142,8 +142,8 @@ C. They come off in water. / 它们遇水就会脱落。
 D. They are glued on with resin. / 它们是用树脂粘上去的。  
 *Why:* MMA does not dissolve well in product removers, so it is usually pried from the nail plate, causing more damage. MMA is not to be used on nails.  
 *为什么:* MMA 在卸甲液里不容易溶解，所以通常被从甲面上硬撬下来，造成更多损伤。指甲上不能使用 MMA。  
-*Lock this (real-life):* Doctors use MMA as a cement to repair bones. It is made to stay in place, not soak off.  
-*记重点:* 医生用 MMA 做骨水泥来修补骨头：它就是要牢牢不动，而不是被泡掉。  
+*Lock this (picture):* Like chewing gum stuck in hair: it won't wash out, so it gets pulled, and hair comes with it.  
+*记重点:* 就像口香糖粘在头发上：洗不掉，只能硬扯，结果连头发一起扯下来。  
 *Source:* Milady Standard Nail Technology p.321 (PDF 345), Milady Standard Nail Technology p.124 (PDF 148)
 
 **13. How should a small amount of leftover monomer liquid be thrown away?**  
@@ -188,11 +188,11 @@ A. Benzoyl peroxide (BPO) / 过氧化苯甲酰（BPO） ✅
 B. A photoinitiator / 光引发剂（photoinitiator）  
 C. Methacrylic acid / 甲基丙烯酸（methacrylic acid）  
 D. Cyanoacrylate / 氰基丙烯酸酯（cyanoacrylate）  
-*Why:* BPO is the initiator added to polymer powder. Powders carry different amounts of BPO to suit a certain liquid, so use the powder made for your monomer.  
-*为什么:* BPO（过氧化苯甲酰）是加在聚合物粉里的引发剂。不同的粉含 BPO 的量不同，以配合特定的单体液，所以要用和你的单体液配套的粉。  
+*Why:* BPO is the initiator mixed into the powder. It starts the chain reaction when liquid meets powder. A photoinitiator is gel's starter and needs lamp light. Cyanoacrylate is nail glue.  
+*为什么:* BPO（过氧化苯甲酰）是加在聚合物粉里的引发剂（initiator）。单体液一碰到粉，它就启动链式反应（chain reaction）。光引发剂（photoinitiator）是凝胶的引发剂，要照灯才起作用。氰基丙烯酸酯（cyanoacrylate）是甲片胶。  
 *Lock this (real-life):* BPO is the same ingredient as in some acne creams; nail powders use much less of it.  
 *记重点:* BPO 和一些祛痘膏里的成分一样，只是美甲粉里的用量少得多。  
-*Source:* Milady Standard Nail Technology p.322 (PDF 346), Milady Standard Nail Technology p.323 (PDF 347)
+*Source:* Milady Standard Nail Technology p.322 (PDF 346), Milady Standard Nail Technology p.323 (PDF 347), Milady Standard Nail Technology p.354 (PDF 378), Milady Standard Nail Technology p.282 (PDF 306)
 
 **17. Where is the apex of a nail enhancement built?**  
 美甲延长的甲峰（apex）做在哪里？  

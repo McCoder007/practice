@@ -52,8 +52,8 @@
         "zh": "每份 SDS（安全数据表）都用同样的 16 个部分、同样的顺序。2015 年，SDS 取代了旧的 MSDS（材料安全数据表）。"
       },
       "lockPoint": {
-        "en": "Same order on every SDS from every maker: first aid is always Section 4.",
-        "zh": "不管哪家厂商，SDS 的顺序都一样：急救措施永远在第 4 部分。"
+        "en": "16 sections, but only 9 warning pictures. Don't mix them up: the sections are the bigger number.",
+        "zh": "SDS 有 16 个部分（sections），但只有 9 种警示图标（pictograms）。别搞混：部分的数字比较大。"
       },
       "teachingRelation": "number",
       "authorityRefs": [
@@ -84,7 +84,7 @@
           "quote": "First-Aid Measures: Includes short- and long-term symptoms and first-aid instructions."
         }
       ],
-      "hookType": "real-life"
+      "hookType": "contrast"
     },
     {
       "id": "nic-1c-02",
@@ -494,8 +494,8 @@
         "zh": "flammable（易燃）液体比 combustible（可燃）液体更容易着火。易燃液体闪点低于 100°F；可燃液体闪点在 100°F 到 200°F 之间。"
       },
       "lockPoint": {
-        "en": "Name trap: inflammable means flammable too. The “in” here does not mean “not.”",
-        "zh": "名字陷阱：inflammable 也是“易燃”。这里的 in 不是“不”的意思。"
+        "en": "Your body is about 98.6°F, close to 100. Flammable: under 100. Combustible: 100 to 200.",
+        "zh": "人的体温大约 98.6°F，接近 100°F。flammable（易燃）液体：闪点低于 100°F；combustible（可燃）液体：100 到 200°F。"
       },
       "teachingRelation": "number",
       "authorityRefs": [
@@ -504,6 +504,12 @@
           "section": "Chemistry & Chemical Safety - SDS Vocabulary",
           "pdfPage": 671,
           "printedPage": "176"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Six Primary Functions",
+          "pdfPage": 93,
+          "printedPage": "69"
         }
       ],
       "evidence": [
@@ -514,9 +520,13 @@
         {
           "pdfPage": 671,
           "quote": "The term inflammable is an older term, meaning flammable"
+        },
+        {
+          "pdfPage": 93,
+          "quote": "maintain a constant internal temperature of about 98.6 degrees"
         }
       ],
-      "hookType": "name-trap"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-1c-09",
@@ -808,8 +818,8 @@
         "zh": "sensitization（致敏）是对产品的过敏反应大大增强。服务中皮肤每接触一次，致敏风险就更高一些。"
       },
       "lockPoint": {
-        "en": "Once allergic, the same technique only makes it worse. Stop using the product and find the cause.",
-        "zh": "一旦过敏，继续用同样的方法只会越来越糟。先停用这个产品，找出原因。"
+        "en": "Sensitization comes from \"sensitive\": the skin becomes much too sensitive to a product.",
+        "zh": "sensitization（致敏）来自 sensitive（敏感）：皮肤对某个产品变得过分敏感。“致敏”= 导致过敏。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -846,7 +856,7 @@
           "quote": "becomes allergic, things will only get worse if you continue using the same techniques."
         }
       ],
-      "hookType": "reason-chain"
+      "hookType": "word-link"
     },
     {
       "id": "nic-1c-14",
@@ -950,8 +960,8 @@
         "zh": "双脚与肩同宽，弯曲膝盖，让重物贴近身体，用腿部发力抬起。不要扭身，也不要猛地发力。"
       },
       "lockPoint": {
-        "en": "The farther a load is from your body, the harder your back works. Never reach past 18 inches.",
-        "zh": "东西离身体越远，腰背越吃力。伸手不要超过 18 英寸（约 45 厘米）。"
+        "en": "Bend your knees to pick up a box: feel your thighs work. Your legs lift. Your back stays straight.",
+        "zh": "弯膝盖去搬一个箱子：你会感觉到大腿在用力。用腿抬。背保持挺直。"
       },
       "teachingRelation": "list",
       "authorityRefs": [
@@ -978,9 +988,17 @@
         {
           "pdfPage": 584,
           "quote": "Never reach more than 18 inches away from the body."
+        },
+        {
+          "pdfPage": 584,
+          "quote": "Lift with the legs, not with the back."
+        },
+        {
+          "pdfPage": 584,
+          "quote": "Keep chin up and back straight."
         }
       ],
-      "hookType": "reason-chain"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-1c-16",
@@ -1292,8 +1310,8 @@
         "zh": "灭火器要放在容易拿到的地方，每个员工都要学会使用，还要按法律规定定期检查。"
       },
       "lockPoint": {
-        "en": "Not every extinguisher suits every fire: SDS Section 5, Fire-Fighting Measures, lists the right ones.",
-        "zh": "不是每种灭火器都适合每种火：SDS 第 5 部分 Fire-Fighting Measures（消防措施）会列出该用哪种。"
+        "en": "In a fire, every second counts. If you must unlock a door or move boxes first, it's too far.",
+        "zh": "着火时，每一秒都很重要。如果还得先开锁、先搬箱子才拿得到灭火器，它就放得太远了。灭火器要放在随手拿得到（readily accessible）的地方。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -1326,6 +1344,10 @@
         {
           "pdfPage": 669,
           "quote": "Fire-Fighting Measures: Lists suitable (and unsuitable) fire extinguishers"
+        },
+        {
+          "pdfPage": 669,
+          "quote": "which are often chaotic situations where every second counts."
         }
       ],
       "hookType": "real-life"

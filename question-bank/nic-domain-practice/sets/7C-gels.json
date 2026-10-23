@@ -115,8 +115,8 @@
         "zh": "LED 灯每层固化通常只要 5 到 60 秒，UV 灯要 1 到 2 分钟，而且 LED 灯珠更耐用。"
       },
       "lockPoint": {
-        "en": "LED = Light-Emitting Diode. Nail LED lamps shine at about 365–405 nm, so part of their light is UV.",
-        "zh": "LED = Light-Emitting Diode（发光二极管）。美甲 LED 灯的波长约 365–405 纳米，其中一部分其实就是紫外线。"
+        "en": "Home LED bulbs last for years. Nail LED lamps too: longer-lasting bulbs, and gel cures faster.",
+        "zh": "家里的 LED 灯泡能用好多年。美甲 LED 灯也一样：灯泡更耐用，凝胶也干得更快。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -153,7 +153,7 @@
           "quote": "Ultraviolet (UV) florescent bulbs radiate light inside the lamp so that all nails are equally exposed"
         }
       ],
-      "hookType": "real-acronym"
+      "hookType": "real-life"
     },
     {
       "id": "nic-7c-03",
@@ -189,8 +189,8 @@
         "zh": "hard gel（硬胶）表面无孔，丙酮渗不进去，所以必须磨掉。soft gel（软胶/可卸胶）才能用丙酮卸掉。"
       },
       "lockPoint": {
-        "en": "Acetone on hard gel is like water on glass: it sits on top and never soaks in.",
-        "zh": "丙酮碰到硬胶，就像水洒在玻璃上：只停在表面，渗不进去。"
+        "en": "Soft gel = soak-off gel. Hard gel = file-off gel: acetone can't get into it.",
+        "zh": "软胶（soft gel）= 可卸胶（soak-off gel）。硬胶（hard gel）= 只能磨掉的胶：丙酮渗不进去。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -217,7 +217,7 @@
           "quote": "Since hard gels cannot be removed with acetone or product remover, they must be filed off with an electric or hand file."
         }
       ],
-      "hookType": "picture"
+      "hookType": "comparison"
     },
     {
       "id": "nic-7c-04",
@@ -807,8 +807,8 @@
         "zh": "甲油胶能保持约两周不掉色，适合一直戴同一个颜色的客人。经常换颜色的客人更适合普通甲油，因为很容易卸。"
       },
       "lockPoint": {
-        "en": "Gel polish is hard the moment it leaves the lamp, so she can grab her phone and keys right away.",
-        "zh": "甲油胶一出灯就硬了，客人马上就能拿手机、找钥匙。"
+        "en": "Gel polish needs an acetone soak to remove. New color every few days? That's a soak every few days.",
+        "zh": "甲油胶（gel polish）要用丙酮泡才能卸掉。每隔几天就换颜色？那就得每隔几天泡一次。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -817,6 +817,12 @@
           "section": "Gel Nail Enhancements - When to Perform Gel Services",
           "pdfPage": 386,
           "printedPage": "362"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Chemistry of Gels",
+          "pdfPage": 378,
+          "printedPage": "354"
         }
       ],
       "evidence": [
@@ -827,9 +833,13 @@
         {
           "pdfPage": 386,
           "quote": "Because gel polish is hardened immediately, your client will be able to go back to her daily tasks immediately after her service is finished."
+        },
+        {
+          "pdfPage": 378,
+          "quote": "Gel polish formulas share a similar chemistry but are easily soaked off with an acetone base remover."
         }
       ],
-      "hookType": "real-life"
+      "hookType": "reason-chain"
     },
     {
       "id": "nic-7c-14",
@@ -1139,8 +1149,8 @@
         "zh": "甲油胶色胶层的 cross-linking（交联）程度中等，所以有弹性、容易卸除。交联越紧密，胶就越硬越牢。"
       },
       "lockPoint": {
-        "en": "Cross-links form a net. A loose net lets acetone slip through; a tight net keeps it out.",
-        "zh": "交联像一张网：网眼松，丙酮能钻进去；网眼紧，丙酮就进不去。"
+        "en": "Cross-links are like ladder steps joining two sides. Color layer: only a medium number, so it bends and soaks off.",
+        "zh": "交联（cross-links）就像梯子上连接两边的横档。色胶层的横档只有中等数量，所以能弯曲，也容易卸掉。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -1149,6 +1159,12 @@
           "section": "Gel Nail Enhancements - Chemistry of Gels",
           "pdfPage": 378,
           "printedPage": "354"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Simple versus Cross-Linking Polymer Chains",
+          "pdfPage": 148,
+          "printedPage": "124"
         }
       ],
       "evidence": [
@@ -1163,6 +1179,10 @@
         {
           "pdfPage": 378,
           "quote": "Think of the cross-linking as a netlike structure. The tighter the net, the harder and stronger the gel."
+        },
+        {
+          "pdfPage": 148,
+          "quote": "These cross-links are like rungs on a ladder."
         }
       ],
       "hookType": "picture"

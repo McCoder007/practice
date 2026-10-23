@@ -44,8 +44,8 @@ A. secretion. / 分泌（secretion）。
 B. absorption. / 吸收（absorption）。  
 C. sensation. / 感觉（sensation）。  
 D. excretion. / 排泄（excretion）。 ✅  
-*Why:* Excretion is a skin function: sweat from the sweat glands goes out through the skin, taking salts and minerals with it. Secretion is different: it is the oil (sebum) from the oil glands.  
-*为什么:* excretion（排泄）是皮肤的一种功能：汗腺的汗液从皮肤排出去，同时带走盐分和矿物质。secretion（分泌）不一样：它指的是皮脂腺分泌的油脂，也就是皮脂（sebum）。  
+*Why:* Excretion is a skin function. Sweat from the sweat glands goes out through the skin, with salts and minerals. Secretion is different: it is oil (sebum) from the oil glands.  
+*为什么:* excretion（排泄）是皮肤的一种功能。汗腺的汗液从皮肤排出去，同时带走盐分和矿物质。secretion（分泌）不一样：它指的是皮脂腺分泌的油脂，也就是皮脂（sebum）。  
 *Lock this (body-cue):* On a hot day, your palms get wet. Palms have many sweat glands: that is excretion.  
 *记重点:* 天热时，手心会出汗。手掌上的汗腺特别多：这就是排泄（excretion）。  
 *Source:* Milady Standard Nail Technology p.69 (PDF 93), Milady Standard Nail Technology p.67 (PDF 91)
@@ -70,8 +70,8 @@ C. flexors. / 屈肌（flexors）。 ✅
 D. abductors. / 外展肌（abductors）。  
 *Why:* Flexors bend the wrist. Extensors do the opposite: they straighten the wrist, hand, and fingers.  
 *为什么:* flexors（屈肌）负责弯曲手腕。伸肌（extensors）正好相反：把手腕、手和手指伸直。  
-*Lock this (contrast):* Pronators turn the palm down, supinators turn it up, abductors spread the fingers. None of them bend the wrist.  
-*记重点:* 旋前肌让手掌朝下，旋后肌让手掌朝上，外展肌把手指分开。它们都不负责弯手腕。  
+*Lock this (contrast):* Pronators turn the palm down. Supinators turn it up. Abductors spread the fingers. None of them bend the wrist.  
+*记重点:* 旋前肌让手掌朝下。旋后肌让手掌朝上。外展肌把手指分开。它们都不负责弯手腕。  
 *Source:* Milady Standard Nail Technology p.31 (PDF 55), Milady Standard Nail Technology p.51 (PDF 75)
 
 **7. The five long, slender bones of the foot are the**  
@@ -82,8 +82,8 @@ C. phalanges. / 趾骨（phalanges）。
 D. metacarpals. / 掌骨（metacarpals）。  
 *Why:* The five metatarsals are long and slender, like the metacarpals of the hand. The foot has 26 bones: 7 tarsals, 5 metatarsals, and 14 phalanges.  
 *为什么:* 五块 metatarsals（跖骨）细而长，就像手上的掌骨（metacarpals）。脚一共有 26 块骨头：7 块跗骨、5 块跖骨和 14 块趾骨。  
-*Lock this (comparison):* Hand and foot match: carpus and metacarpus in wrist and palm; tarsals and metatarsals in the foot.  
-*记重点:* 手脚对着记：手腕和手掌是腕骨（carpus）和掌骨（metacarpus）；脚上是跗骨（tarsals）和跖骨（metatarsals）。  
+*Lock this (comparison):* Hand and foot match. Carpus and metacarpus are in the wrist and palm. Tarsals and metatarsals are in the foot.  
+*记重点:* 手脚对着记。手腕和手掌是腕骨（carpus）和掌骨（metacarpus）。脚上是跗骨（tarsals）和跖骨（metatarsals）。  
 *Source:* Milady Standard Nail Technology p.28 (PDF 52), Milady Standard Nail Technology p.27 (PDF 51)
 
 **8. The bone that forms the cap of the knee joint is the**  
@@ -118,8 +118,8 @@ C. onycholysis. / 甲剥离（onycholysis）。
 D. paronychia. / 甲沟炎（paronychia）。  
 *Why:* Onychomycosis is nail fungus. It may show as whitish patches that scrape off the surface, pale yellow streaks in the plate, or a crumbling free edge.  
 *为什么:* onychomycosis（甲真菌病）就是指甲真菌感染。表现可以是表面能刮掉的白色斑块、甲板里淡黄色的条纹，或游离缘碎裂。  
-*Lock this (contrast):* Leukonychia white spots are harmless and grow out. Fungus patches need a medical referral.  
-*记重点:* 白甲（leukonychia）的白点无害，会随指甲长出去。真菌斑块则需要转诊看医生。  
+*Lock this (contrast):* Leukonychia white spots are harmless and grow out. Send clients with fungus patches to a doctor.  
+*记重点:* 白甲（leukonychia）的白点无害，会随指甲长出去。有真菌斑块的顾客，要请她去看医生。  
 *Source:* Milady Standard Nail Technology p.109 (PDF 133), Milady Standard Nail Technology p.106 (PDF 130)
 
 **11. A small blister or sac containing clear fluid is a**  
@@ -140,8 +140,8 @@ A. an ulcer. / 溃疡（ulcer）。 ✅
 B. a crust. / 痂（crust）。  
 C. a macule. / 斑疹（macule）。  
 D. a nodule. / 结节（nodule）。  
-*Why:* An ulcer is an open lesion on the skin or mucous membrane. Skin depth is lost, and fluid or pus may weep out. It is a secondary lesion.  
-*为什么:* ulcer（溃疡）是皮肤或黏膜上的开放性皮损，皮肤深度缺损，可能渗出液体或脓。它属于继发性皮损（secondary lesion）。  
+*Why:* An ulcer is an open lesion on the skin or mucous membrane. Skin depth is lost, and fluid or pus may leak out. It is a secondary lesion.  
+*为什么:* ulcer（溃疡）是皮肤或黏膜上的开放性皮损。皮肤深度缺损，可能流出液体或脓。它属于继发性皮损（secondary lesion）。  
 *Lock this (chinese-character):* The Chinese name means "broken-open sore": the skin breaks open and some of it is gone.  
 *记重点:* 溃疡：溃 = 溃烂、破开，疡 = 疮。皮肤破开、少了一块，所以叫溃疡（ulcer）。  
 *Source:* Milady Standard Nail Technology p.82 (PDF 106), Milady Standard Nail Technology p.95 (PDF 119)
@@ -166,8 +166,8 @@ C. Malignant melanoma / 恶性黑色素瘤（malignant melanoma） ✅
 D. A normal mole / 普通的痣（mole）  
 *Why:* Malignant melanoma is the least common but most dangerous skin cancer. It can spread quickly. It often shows as black or dark patches that are uneven or raised.  
 *为什么:* malignant melanoma（恶性黑色素瘤）最少见，却是最危险的皮肤癌，会很快扩散。常见表现是黑色或深色斑块，表面不平或凸起。  
-*Lock this (reason-chain):* Spreads fast, so it can kill. Found early, most people live: send dark, changing spots to a doctor.  
-*记重点:* 扩散快，可能致命。发现得早，大多数人能活下来：看到颜色深、在变化的斑点，就建议顾客去看医生。  
+*Lock this (reason-chain):* It spreads fast, so it can kill. If found early, most people live. Send dark, changing spots to a doctor.  
+*记重点:* 它扩散快，所以可能致命。如果发现得早，大多数人能活下来。看到颜色深、在变化的斑点，就建议顾客去看医生。  
 *Source:* Milady Standard Nail Technology p.84 (PDF 108), Milady Standard Nail Technology p.85 (PDF 109), Milady Standard Nail Technology p.86 (PDF 110)
 
 **15. A mole with ragged or notched edges shows which ABCDE warning sign?**  
