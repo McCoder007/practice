@@ -1,4 +1,5 @@
-import type { ReelSection } from "@/data/word-reel/types"
+import type { ReelCard, ReelSection } from "@/data/word-reel/types"
+import nailExamWordData from "../nailExamWordReel.ts"
 
 /**
  * Words that change what an exam question asks. ESL learners often know the
@@ -9,9 +10,41 @@ import type { ReelSection } from "@/data/word-reel/types"
 export const QUESTION_WORDS_TITLE = { en: "How Exam Questions Ask", zh: "考题怎么问" }
 
 export const QUESTION_WORDS_DESCRIPTION = {
-  en: "EXCEPT, NOT, FIRST, BEST and other words that change the question",
-  zh: "EXCEPT、NOT、FIRST、BEST 等改变题意的词",
+  en: "EXCEPT, NOT, FIRST, BEST, and other words used in many exam questions",
+  zh: "EXCEPT、NOT、FIRST、BEST 等改变题意的词，以及很多题都会用到的词",
 }
+
+/**
+ * Cards from the old Nail Exam Word Reel that the topic word reels already
+ * teach. They are left out of "Words in many questions" so nothing repeats.
+ */
+const TAUGHT_IN_TOPIC_REELS = new Set([
+  "implement / metal implement",
+  "equipment",
+  "disinfect → disinfectant → disinfection",
+  "solution",
+  "discoloration",
+  "inflame → inflammation",
+  "refer → referred to as",
+  "consult → consultation",
+  "enhance → enhancement",
+])
+
+const slug = (text: string) => text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")
+
+/** General exam English from the old Nail Exam Word Reel (used across all topics). */
+const COMMON_EXAM_WORDS: ReelCard[] = nailExamWordData
+  .flatMap((day) => day.words)
+  .filter((word) => !TAUGHT_IN_TOPIC_REELS.has(word.word))
+  .map((word) => ({
+    id: `qw-common-${slug(word.word)}`,
+    word: word.word,
+    tts: word.ttsSsml ?? word.ttsWord,
+    translation: word.translation,
+    partOfSpeech: word.partOfSpeech,
+    example: word.example,
+    exampleTranslation: word.exampleTranslation,
+  }))
 
 export const QUESTION_WORDS_HREF = "/nail-exam-practice/question-words"
 
@@ -202,5 +235,10 @@ export const QUESTION_WORD_SECTIONS: ReelSection[] = [
         note: { en: "Purpose = why we use it.", zh: "purpose = 为什么要用它。" },
       },
     ],
+  },
+  {
+    id: "common-words",
+    title: { en: "Words in many questions", zh: "很多题都会用到的词" },
+    cards: COMMON_EXAM_WORDS,
   },
 ]
