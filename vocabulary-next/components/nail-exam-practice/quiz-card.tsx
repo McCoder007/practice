@@ -197,7 +197,7 @@ export function NailExamQuizCard({
       {isCurrent && isRevealed && (
         <section
           className={cn(
-            "qa-answer-reveal relative z-10 flex min-h-0 flex-none flex-col gap-3 overflow-y-auto border-t-[3px] px-3.5 py-3.5 backdrop-blur-sm sm:px-6",
+            "qa-answer-reveal relative z-10 flex max-h-[68%] min-h-0 flex-none flex-col border-t-[3px] backdrop-blur-sm",
             isSkipped
               ? "border-amber-400/70 bg-amber-500/20"
               : isCorrect
@@ -205,122 +205,126 @@ export function NailExamQuizCard({
                 : "border-rose-400/70 bg-rose-500/20",
           )}
         >
-          <div className="flex items-center gap-2.5">
-            <span
-              className={cn(
-                "flex size-8 shrink-0 items-center justify-center rounded-full",
-                isSkipped ? "bg-amber-500/35" : isCorrect ? "bg-emerald-500/35" : "bg-rose-500/35",
-              )}
-            >
-              {isSkipped ? (
-                <SkipForward className="h-5 w-5 text-amber-200" />
-              ) : isCorrect ? (
-                <CheckCircle2 className="h-5 w-5 text-emerald-300" />
-              ) : (
-                <XCircle className="h-5 w-5 text-rose-300" />
-              )}
-            </span>
-            <p className="text-lg font-bold">
-              {isSkipped
-                ? `Skipped${showChinese ? " | 已跳过" : ""}`
-                : isCorrect
-                  ? `Correct!${showChinese ? " 正确！" : ""}`
-                  : `Not quite${showChinese ? " 不太对" : ""}`}
-            </p>
-          </div>
-          {correctChoice && (
-            <div className={cn("rounded-xl px-3.5 py-2.5", isCorrect ? "bg-emerald-500/20" : "bg-black/20")}>
-              <p className="flex items-center gap-1.5 text-sm font-semibold tracking-wide text-white/65 uppercase">
-                {isCorrect && <CheckCircle2 className="h-3.5 w-3.5 shrink-0 text-emerald-300" aria-hidden />}
-                Correct answer{showChinese && " / 正确答案"}
+          <div className="flex min-h-0 flex-1 flex-col gap-3 overflow-y-auto px-3.5 pt-3.5 pb-3 sm:px-6">
+            <div className="flex items-center gap-2.5">
+              <span
+                className={cn(
+                  "flex size-8 shrink-0 items-center justify-center rounded-full",
+                  isSkipped ? "bg-amber-500/35" : isCorrect ? "bg-emerald-500/35" : "bg-rose-500/35",
+                )}
+              >
+                {isSkipped ? (
+                  <SkipForward className="h-5 w-5 text-amber-200" />
+                ) : isCorrect ? (
+                  <CheckCircle2 className="h-5 w-5 text-emerald-300" />
+                ) : (
+                  <XCircle className="h-5 w-5 text-rose-300" />
+                )}
+              </span>
+              <p className="text-lg font-bold">
+                {isSkipped
+                  ? `Skipped${showChinese ? " | 已跳过" : ""}`
+                  : isCorrect
+                    ? `Correct!${showChinese ? " 正确！" : ""}`
+                    : `Not quite${showChinese ? " 不太对" : ""}`}
               </p>
-              <div className="mt-0.5 flex flex-wrap items-baseline gap-x-1.5">
+            </div>
+            {correctChoice && (
+              <div className={cn("rounded-xl px-3.5 py-2.5", isCorrect ? "bg-emerald-500/20" : "bg-black/20")}>
+                <p className="flex items-center gap-1.5 text-sm font-semibold tracking-wide text-white/65 uppercase">
+                  {isCorrect && <CheckCircle2 className="h-3.5 w-3.5 shrink-0 text-emerald-300" aria-hidden />}
+                  Correct answer{showChinese && " / 正确答案"}
+                </p>
+                <div className="mt-0.5 flex flex-wrap items-baseline gap-x-1.5">
+                  <Speakable
+                    text={correctChoice.en}
+                    enabled={isCurrent}
+                    onSpeak={onSpeak}
+                    label="Speak correct answer"
+                    className="-ml-2 text-base font-semibold text-white"
+                  />
+                  {showChinese && (
+                    <span className="text-base font-semibold text-caption-secondary" lang="zh-Hans">
+                      · {correctChoice.zh}
+                    </span>
+                  )}
+                </div>
+              </div>
+            )}
+            {question.sourceWarning && (
+              <div className="rounded-xl border border-amber-300/60 bg-amber-950/35 p-3">
+                <p className="flex items-center gap-1.5 text-sm font-semibold tracking-wide text-amber-200 uppercase">
+                  <AlertTriangle className="h-4 w-4 shrink-0" aria-hidden />
+                  Original source note{showChinese && " / 原始资料说明"}
+                </p>
                 <Speakable
-                  text={correctChoice.en}
+                  text={question.sourceWarning.en}
                   enabled={isCurrent}
                   onSpeak={onSpeak}
-                  label="Speak correct answer"
-                  className="-ml-2 text-base font-semibold text-white"
+                  label="Speak source warning"
+                  className="mt-1 text-left text-base text-white"
                 />
                 {showChinese && (
-                  <span className="text-base font-semibold text-caption-secondary" lang="zh-Hans">
-                    · {correctChoice.zh}
-                  </span>
+                  <p className="mt-1 text-sm text-caption-secondary" lang="zh-Hans">
+                    {question.sourceWarning.zh}
+                  </p>
                 )}
               </div>
-            </div>
-          )}
-          {question.sourceWarning && (
-            <div className="rounded-xl border border-amber-300/60 bg-amber-950/35 p-3">
-              <p className="flex items-center gap-1.5 text-sm font-semibold tracking-wide text-amber-200 uppercase">
-                <AlertTriangle className="h-4 w-4 shrink-0" aria-hidden />
-                Original source note{showChinese && " / 原始资料说明"}
+            )}
+            <div className="rounded-xl bg-black/20 px-3.5 py-2.5">
+              <p className="flex items-center gap-1.5 text-sm font-semibold tracking-wide text-white/65 uppercase">
+                <Lightbulb className="h-3.5 w-3.5 shrink-0" aria-hidden />
+                Why{showChinese && " / 为什么"}
               </p>
               <Speakable
-                text={question.sourceWarning.en}
+                text={question.explanation.en}
                 enabled={isCurrent}
                 onSpeak={onSpeak}
-                label="Speak source warning"
-                className="mt-1 text-left text-base text-white"
+                label="Speak Why"
+                className="mt-0.5 text-left text-base text-white"
               />
               {showChinese && (
                 <p className="mt-1 text-sm text-caption-secondary" lang="zh-Hans">
-                  {question.sourceWarning.zh}
+                  {question.explanation.zh}
                 </p>
               )}
             </div>
-          )}
-          <div className="rounded-xl bg-black/20 px-3.5 py-2.5">
-            <p className="flex items-center gap-1.5 text-sm font-semibold tracking-wide text-white/65 uppercase">
-              <Lightbulb className="h-3.5 w-3.5 shrink-0" aria-hidden />
-              Why{showChinese && " / 为什么"}
-            </p>
-            <Speakable
-              text={question.explanation.en}
-              enabled={isCurrent}
-              onSpeak={onSpeak}
-              label="Speak Why"
-              className="mt-0.5 text-left text-base text-white"
-            />
-            {showChinese && (
-              <p className="mt-1 text-sm text-caption-secondary" lang="zh-Hans">
-                {question.explanation.zh}
+            <div className="rounded-xl bg-black/20 px-3.5 py-2.5">
+              <p className="flex items-center gap-1.5 text-sm font-semibold tracking-wide text-white/65 uppercase">
+                <Bookmark className="h-3.5 w-3.5 shrink-0" aria-hidden />
+                Lock this{showChinese && " / 记重点"}
               </p>
-            )}
+              <Speakable
+                text={question.lockPoint.en}
+                enabled={isCurrent}
+                onSpeak={onSpeak}
+                label="Speak Lock this"
+                className="mt-0.5 text-left text-base font-medium text-white"
+              />
+              {showChinese && (
+                <p className="mt-1 text-sm text-caption-secondary" lang="zh-Hans">
+                  {question.lockPoint.zh}
+                </p>
+              )}
+            </div>
           </div>
-          <div className="rounded-xl bg-black/20 px-3.5 py-2.5">
-            <p className="flex items-center gap-1.5 text-sm font-semibold tracking-wide text-white/65 uppercase">
-              <Bookmark className="h-3.5 w-3.5 shrink-0" aria-hidden />
-              Lock this{showChinese && " / 记重点"}
-            </p>
-            <Speakable
-              text={question.lockPoint.en}
-              enabled={isCurrent}
-              onSpeak={onSpeak}
-              label="Speak Lock this"
-              className="mt-0.5 text-left text-base font-medium text-white"
-            />
-            {showChinese && (
-              <p className="mt-1 text-sm text-caption-secondary" lang="zh-Hans">
-                {question.lockPoint.zh}
-              </p>
-            )}
+          <div className="flex-none px-3.5 pt-2.5 pb-3.5 sm:px-6">
+            <Button
+              type="button"
+              onPointerDown={stopPointerGesture}
+              onClick={(event) => {
+                event.stopPropagation()
+                onNext()
+              }}
+              className="gap-2 bg-white text-slate-900 shadow-sm hover:bg-white/90"
+              size="sm"
+            >
+              {isLast
+                ? `See results${showChinese ? " | 查看结果" : ""}`
+                : `Next${showChinese ? " | 下一题" : ""}`}
+              <ArrowRight className="h-4 w-4" />
+            </Button>
           </div>
-          <Button
-            type="button"
-            onPointerDown={stopPointerGesture}
-            onClick={(event) => {
-              event.stopPropagation()
-              onNext()
-            }}
-            className="mt-1 gap-2 self-start bg-white text-slate-900 shadow-sm hover:bg-white/90"
-            size="sm"
-          >
-            {isLast
-              ? `See results${showChinese ? " | 查看结果" : ""}`
-              : `Next${showChinese ? " | 下一题" : ""}`}
-            <ArrowRight className="h-4 w-4" />
-          </Button>
         </section>
       )}
     </div>
