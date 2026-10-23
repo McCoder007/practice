@@ -2,15 +2,17 @@
 
 import Link from "next/link"
 import { Fragment, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react"
-import { ChevronDown, ChevronLeft, RotateCcw, Turtle, Volume2, VolumeX } from "lucide-react"
+import { ChevronDown, ChevronLeft, RotateCcw, Turtle, Volume2, VolumeX, X } from "lucide-react"
 
 import { NavigationMenu } from "@/components/NavigationMenu"
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet"
 import { useLanguage } from "@/contexts/LanguageContext"
 import type { LocalizedText } from "@/data/exam-quiz/types"
+import hardWordData from "@/data/word-reel/hard-words.json"
 import type { ReelCard, ReelSection, ReelTitle } from "@/data/word-reel/types"
 import { initializeAnalytics, logWordInteraction } from "@/lib/analytics"
 import { clearAudioQueue, playText, playTextQueued, playTextSlow, preloadTexts, warmAudioSession } from "@/lib/tts"
+import { buildHardWordIndex, splitSentence, type HardWord, type SentencePart } from "@/lib/sentence-words"
 import { getBackgroundByIndex } from "@/lib/word-reel-backgrounds"
 import { reelSectionStarts, reelStartIndex, shuffleReelSections } from "@/lib/word-reel-order"
 import { cn } from "@/lib/utils"
@@ -20,6 +22,18 @@ type Item =
   | { kind: "end"; index: number }
 
 const SWIPE_MS = 300
+/** A press that moves farther than this is a swipe, not a tap. */
+const TAP_SLOP_PX = 10
+
+const HARD_WORDS = buildHardWordIndex(hardWordData.words as HardWord[])
+
+/** All-caps exam words ("EXCEPT") are read as words; abbreviations ("EPA") stay spelled out. */
+function spokenWord(part: Extract<SentencePart, { kind: "word" }>): string {
+  const isAbbreviation = part.entry ? part.entry.word === part.entry.word.toUpperCase() : false
+  return /^[A-Z]{2,}$/.test(part.text) && !isAbbreviation ? part.text.toLowerCase() : part.text
+}
+
+type Lookup = { cardId: string; partIndex: number; entry: HardWord }
 
 /**
  * Full-screen swipe reel. Cards are grouped into named sections (e.g. one per
@@ -27,6 +41,8 @@ const SWIPE_MS = 300
  * The reel remembers the last card seen; `?section=<id>` in the URL starts at a section.
  * With `shuffle`, cards come in a new order inside each section on every visit
  * (and on "Start again"), and a return visit starts at the section where the learner stopped.
+ * In the example sentence, a tap on a word says that word; a hard word also opens a
+ * word card with its Chinese and meaning. The speaker on the divider reads the whole sentence.
  */
 export function SectionWordReel({
   title,
@@ -68,10 +84,13 @@ export function SectionWordReel({
   const [sheetOpen, setSheetOpen] = useState(false)
   const [windowWidth, setWindowWidth] = useState(0)
   const [analyticsReady, setAnalyticsReady] = useState(false)
+  const [lookup, setLookup] = useState<Lookup | null>(null)
 
   const indexRef = useRef(0)
   const startY = useRef(0)
   const draggingRef = useRef(false)
+  /** True when the current press moved like a swipe, so it is not a tap. */
+  const movedRef = useRef(false)
   const userNavigated = useRef(false)
   const containerRef = useRef<HTMLDivElement>(null)
   const currentRef = useRef<HTMLDivElement>(null)
@@ -102,6 +121,9 @@ export function SectionWordReel({
     // Only on first load.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
+
+  // A word card belongs to one sentence; close it when the card changes.
+  useEffect(() => setLookup(null), [index])
 
   // Remember the current card.
   useEffect(() => {
@@ -161,6 +183,12 @@ export function SectionWordReel({
       const item = items[i]
       if (item?.kind === "card") texts.push(speechFor(item.card), item.card.example)
     }
+    const current = items[index]
+    if (current?.kind === "card") {
+      for (const part of splitSentence(current.card.example, HARD_WORDS)) {
+        if (part.kind === "word" && part.entry) texts.push(spokenWord(part))
+      }
+    }
     preloadTexts(texts.filter(Boolean))
   }, [index, items])
 
@@ -187,6 +215,38 @@ export function SectionWordReel({
     },
     [analyticsReady],
   )
+
+  /** Say the tapped word only; a hard word also opens its word card. */
+  const tapWord = (card: ReelCard, part: Extract<SentencePart, { kind: "word" }>, partIndex: number) => {
+    if (movedRef.current) return
+    playAudio(spokenWord(part), "word_audio_played", part.key)
+    setLookup(part.entry ? { cardId: card.id, partIndex, entry: part.entry } : null)
+  }
+
+  const renderSentence = (card: ReelCard, isCurrent: boolean) =>
+    splitSentence(card.example, HARD_WORDS).map((part, i) => {
+      if (part.kind === "text") return <Fragment key={i}>{part.text}</Fragment>
+      const selected = lookup?.cardId === card.id && lookup.partIndex === i
+      return (
+        <button
+          key={i}
+          type="button"
+          tabIndex={isCurrent ? 0 : -1}
+          onClick={(e) => {
+            e.stopPropagation()
+            tapWord(card, part, i)
+          }}
+          className={cn(
+            "inline cursor-pointer rounded-md text-left transition-colors active:bg-white/25",
+            part.entry && "underline decoration-[#FFD700]/80 decoration-dotted decoration-2 underline-offset-[7px]",
+            selected && "bg-white/25 decoration-solid",
+          )}
+          aria-label={part.entry ? `${part.text}: ${part.entry.zh}` : part.text}
+        >
+          {part.text}
+        </button>
+      )
+    })
 
   const toggleAutoSpeak = () => {
     setAutoSpeak((on) => {
@@ -219,6 +279,7 @@ export function SectionWordReel({
       if (autoSpeak) warmAudioSession()
       startY.current = clientY
       draggingRef.current = true
+      movedRef.current = false
       for (const el of [currentRef.current, nextRef.current, prevRef.current]) {
         if (el) el.style.transition = "none"
       }
@@ -230,6 +291,7 @@ export function SectionWordReel({
     (clientY: number) => {
       if (!draggingRef.current || animating) return
       const delta = startY.current - clientY
+      if (Math.abs(delta) > TAP_SLOP_PX) movedRef.current = true
       const atStart = indexRef.current === 0
       const atEnd = indexRef.current === items.length - 1
       // Resist past the first and last card instead of wrapping around.
@@ -434,15 +496,29 @@ export function SectionWordReel({
           </p>
         </div>
 
-        <div className="mx-auto my-8 h-px w-full max-w-md bg-white/30" />
+        {/* The speaker sits on the divider and reads the sentence below it. */}
+        <div className="mx-auto my-6 flex w-full max-w-md items-center gap-3">
+          <div className="h-px flex-1 bg-white/30" />
+          <button
+            type="button"
+            tabIndex={isCurrent ? 0 : -1}
+            onClick={(e) => {
+              e.stopPropagation()
+              if (movedRef.current) return
+              playAudio(card.example, "sentence_audio_played")
+            }}
+            className="flex size-12 shrink-0 items-center justify-center rounded-full border border-white/40 bg-white/20 text-white shadow-md active:bg-white/35"
+            aria-label="Play the sentence"
+            title="Play the sentence | 播放句子"
+          >
+            <Volume2 className="size-6" aria-hidden />
+          </button>
+          <div className="h-px flex-1 bg-white/30" />
+        </div>
 
         <div className="space-y-3">
-          <p
-            onClick={() => playAudio(card.example, "sentence_audio_played")}
-            className="cursor-pointer text-[26px] leading-relaxed text-white"
-            style={{ textShadow: "0 2px 8px rgba(0,0,0,0.5)" }}
-          >
-            {card.example}
+          <p className="text-[26px] leading-relaxed text-white" style={{ textShadow: "0 2px 8px rgba(0,0,0,0.5)" }}>
+            {renderSentence(card, isCurrent)}
           </p>
           <p className="text-[22px] text-[#D0D0D0]" style={{ textShadow: "0 2px 8px rgba(0,0,0,0.5)" }}>
             {sentenceOf(card)}
@@ -542,21 +618,26 @@ export function SectionWordReel({
           </div>
         </header>
 
-        <div
-          ref={containerRef}
-          className="relative flex-1 overflow-hidden"
-          onMouseDown={(e) => handleStart(e.clientY)}
-          onMouseMove={(e) => draggingRef.current && handleMove(e.clientY)}
-          onMouseUp={(e) => draggingRef.current && handleEnd(e.clientY)}
-          onMouseLeave={snapBack}
-        >
-          {ready && (
-            <>
-              {renderCard(index, currentRef, "0")}
-              {renderCard(index - 1, prevRef, "-100%")}
-              {renderCard(index + 1, nextRef, "100%")}
-            </>
-          )}
+        <div className="relative flex-1 overflow-hidden">
+          <div
+            ref={containerRef}
+            className="absolute inset-0"
+            onMouseDown={(e) => handleStart(e.clientY)}
+            onMouseMove={(e) => draggingRef.current && handleMove(e.clientY)}
+            onMouseUp={(e) => draggingRef.current && handleEnd(e.clientY)}
+            onMouseLeave={snapBack}
+            // A tap anywhere else on the card closes the word card.
+            onClick={() => !movedRef.current && setLookup(null)}
+          >
+            {ready && (
+              <>
+                {renderCard(index, currentRef, "0")}
+                {renderCard(index - 1, prevRef, "-100%")}
+                {renderCard(index + 1, nextRef, "100%")}
+              </>
+            )}
+          </div>
+          {lookup && <WordCard key={lookup.entry.word} entry={lookup.entry} onSpeak={(text) => playAudio(text, "word_audio_played")} onClose={() => setLookup(null)} />}
         </div>
       </div>
 
@@ -591,5 +672,45 @@ export function SectionWordReel({
         </Sheet>
       )}
     </>
+  )
+}
+
+/** Chinese and meaning for a tapped hard word, docked at the bottom of the reel. */
+function WordCard({ entry, onSpeak, onClose }: { entry: HardWord; onSpeak: (text: string) => void; onClose: () => void }) {
+  return (
+    <div className="pointer-events-none absolute inset-x-0 bottom-0 z-30 flex justify-center px-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
+      <div
+        role="dialog"
+        aria-label={`${entry.word}: ${entry.zh}`}
+        className="pointer-events-auto w-full max-w-md animate-in rounded-3xl border border-white/20 bg-black/80 px-5 py-4 text-left text-white shadow-2xl backdrop-blur-md duration-200 fade-in slide-in-from-bottom-4"
+      >
+        <div className="flex items-start gap-3">
+          <div className="min-w-0 flex-1">
+            <div className="flex items-center gap-2">
+              <p className="min-w-0 text-2xl font-bold break-words">{entry.word}</p>
+              <button
+                type="button"
+                onClick={() => onSpeak(entry.word)}
+                className="flex size-10 shrink-0 items-center justify-center rounded-full bg-white/15 active:bg-white/30"
+                aria-label={`Hear ${entry.word}`}
+              >
+                <Volume2 className="size-5" aria-hidden />
+              </button>
+            </div>
+            <p className="mt-1 text-3xl font-semibold text-[#FFD700]">{entry.zh}</p>
+          </div>
+          <button
+            type="button"
+            onClick={onClose}
+            className="-mt-1 -mr-2 flex size-10 shrink-0 items-center justify-center rounded-full text-white/70 hover:bg-white/15"
+            aria-label="Close | 关闭"
+          >
+            <X className="size-5" aria-hidden />
+          </button>
+        </div>
+        <p className="mt-3 text-lg leading-snug">{entry.en}</p>
+        <p className="mt-1 text-base leading-snug text-white/75">{entry.enZh}</p>
+      </div>
+    </div>
   )
 }

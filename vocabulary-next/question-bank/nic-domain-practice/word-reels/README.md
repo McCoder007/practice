@@ -83,7 +83,19 @@ Use what fits best:
 
 The `zh` tip is a Chinese version of the English tip and may add a Chinese-character hook when the Chinese names show the difference. The English tip must not contain Chinese characters. Banned: rhymes, puns, made-up acronyms, false word parts.
 
+## Tap a word in the example sentence
+
+In every nail word reel (these topic reels, How Exam Questions Ask, and Nail Technician), a tap on a word in the example sentence says that word only. A hard word also opens a word card: the Chinese word, a short meaning in very easy English, and the same meaning in Chinese. The speaker on the divider reads the whole sentence.
+
+- `data/word-reel/hard-words.json`: one entry per hard word or term: `word` (base form shown on the card), `forms` (every form used in sentences, lowercase, possessive 's removed; a term is its words joined by one space, e.g. `free edge`), `zh`, `en` (10 words or fewer, only easy words), `enZh`.
+- `data/word-reel/easy-words.json`: words a beginner already knows. A tap only says them.
+- The rule (owner, 2026-10-23): anything above easy gets a card. Only first-words-a-beginner-learns go in the easy list.
+- Terms of several words match first, longest first ("lateral nail fold" before "nail fold"). Use the same Chinese as the card headword for the same term.
+- The meaning must fit how the word is used in the reel sentences (nail-salon meaning). If a word has two uses in the sentences, the meaning covers both.
+- When you add a card, `npm run validate:reel-hard-words` lists every sentence word that is in neither list. Sort each one before the build passes.
+
 ## Checks
 
 - `npm run validate:nic-word-reels` checks format and limits (runs anywhere).
+- `npm run validate:reel-hard-words` checks the tap-a-word lists and that every sentence word is sorted.
 - `npm run verify:nic-domain-evidence -- <pages.jsonl>` also checks every word-reel quote.
