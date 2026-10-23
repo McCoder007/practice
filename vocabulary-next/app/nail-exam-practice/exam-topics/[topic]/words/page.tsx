@@ -21,6 +21,7 @@ export default async function ExamTopicWordsPage({ params }: { params: Promise<{
       storageKey={`exam-topic-words-${topic.id}`}
       backHref={topic.href}
       backTitle={topic.title}
+      shuffle
     />
   )
 }
