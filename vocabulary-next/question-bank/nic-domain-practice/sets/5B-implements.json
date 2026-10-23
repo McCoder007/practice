@@ -1,0 +1,1358 @@
+{
+  "schemaVersion": "1.0.0",
+  "setId": "5B",
+  "domain": {
+    "id": "tools",
+    "order": 5,
+    "title": {
+      "en": "Nail Service Tools",
+      "zh": "美甲服务工具"
+    },
+    "examWeightPercent": 13
+  },
+  "title": {
+    "en": "Implements and Safe Use",
+    "zh": "工具与安全使用"
+  },
+  "status": "reviewed",
+  "authoredAt": "2026-10-22",
+  "sourceBook": "Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020)",
+  "questions": [
+    {
+      "id": "nic-5b-01",
+      "question": {
+        "en": "Why are multiuse implements usually made of stainless steel?",
+        "zh": "为什么可重复使用的工具（multiuse implements）通常用不锈钢做？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "They can be disinfected without corroding.",
+          "zh": "消毒时不会腐蚀生锈。"
+        },
+        {
+          "id": "b",
+          "en": "They only need rinsing between clients.",
+          "zh": "顾客之间只需冲洗一下。"
+        },
+        {
+          "id": "c",
+          "en": "They cost less than nickel-plated tools.",
+          "zh": "比镀镍工具便宜。"
+        },
+        {
+          "id": "d",
+          "en": "They can be thrown away after use.",
+          "zh": "用完可以扔掉。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Multiuse implements must be cleaned and disinfected before the next client, and stainless steel holds up. Less expensive nickel-plated implements corrode during disinfection and sterilization.",
+        "zh": "可重复使用的工具在下一位顾客前必须清洁消毒，不锈钢经得起。较便宜的镀镍（nickel-plated）工具在消毒和灭菌时会腐蚀。"
+      },
+      "lockPoint": {
+        "en": "Stain + less (= without): steel without rust spots. The Chinese says it plainly: 不锈 = no rust.",
+        "zh": "stain（污斑）+ less（没有）= 不生锈斑；中文“不锈钢”说得更直接：不锈 = 不生锈。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Multiuse and Single-Use Implements",
+          "pdfPage": 166,
+          "printedPage": "142"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 166,
+          "quote": "are generally stainless steel, as they must be properly cleaned and disinfected prior to use on another"
+        },
+        {
+          "pdfPage": 166,
+          "quote": "Less expensive, nickel-plated metal implements will corrode during disinfection and sterilization."
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-5b-02",
+      "question": {
+        "en": "A metal pusher is designed to",
+        "zh": "钢推（metal pusher）是用来做什么的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "cut away live skin at the nail fold.",
+          "zh": "剪掉甲沟（nail fold）上的活皮。"
+        },
+        {
+          "id": "b",
+          "en": "gently scrape cuticle tissue off the nail plate.",
+          "zh": "轻轻刮掉甲面上的死皮（cuticle）组织。"
+        },
+        {
+          "id": "c",
+          "en": "shorten the free edge quickly.",
+          "zh": "快速剪短指甲前缘（free edge）。"
+        },
+        {
+          "id": "d",
+          "en": "lift implements out of disinfectant.",
+          "zh": "把工具从消毒液里夹出来。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "A stainless-steel metal pusher is designed to gently scrape cuticle tissue from the nail plate. Used roughly, it can groove the plate, damage the matrix, or make tiny skin openings that let microbes in.",
+        "zh": "不锈钢钢推用来轻轻刮掉甲面上的死皮组织。用力过猛会在甲面刮出沟槽、伤到甲母（matrix），或在皮肤上造成细小伤口，让微生物进入。"
+      },
+      "lockPoint": {
+        "en": "Hold it like a pencil, tipped low at 20 to 30 degrees: scrape, never dig.",
+        "zh": "像握铅笔一样握住，压低到 20–30 度：是刮，不是挖。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Metal Pusher",
+          "pdfPage": 166,
+          "printedPage": "142"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 166,
+          "quote": "It is designed to gently scrape cuticle tissue from the natural nail plate."
+        },
+        {
+          "pdfPage": 166,
+          "quote": "Improper use on the nail plate can cause grooving in the nail plate."
+        },
+        {
+          "pdfPage": 166,
+          "quote": "tiny microscopic openings in the skin can allow microbes to enter"
+        },
+        {
+          "pdfPage": 166,
+          "quote": "Hold the metal pusher the way you hold a pencil, with the flat end held at a 20- to 30-degree angle from the nail plate."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-5b-03",
+      "question": {
+        "en": "When holding nippers, where does your index finger go?",
+        "zh": "握死皮剪时，食指应该放在哪里？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "On the box joint",
+          "zh": "放在剪轴（box joint）上"
+        },
+        {
+          "id": "b",
+          "en": "On the tips of the blades",
+          "zh": "放在刀刃尖上"
+        },
+        {
+          "id": "c",
+          "en": "Around the same handle as the thumb",
+          "zh": "和拇指握同一边手柄"
+        },
+        {
+          "id": "d",
+          "en": "Curled under the lower handle",
+          "zh": "勾在下边手柄下面"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Hold your thumb around one handle and three fingers around the other, with the blades facing the nail plate. The index finger rests on the box joint to control and guide the blade.",
+        "zh": "拇指握住一边手柄，另外三根手指握住另一边，刀刃朝向甲面。食指放在剪轴（box joint）上，控制并引导刀刃。"
+      },
+      "lockPoint": {
+        "en": "A box joint is a hinge where one half passes through a slot in the other. Steady that pivot.",
+        "zh": "box joint（剪轴）：一边刀身从另一边的槽里穿过，形成转轴。食指压稳这个支点。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Nail Nippers",
+          "pdfPage": 167,
+          "printedPage": "143"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 167,
+          "quote": "hold your thumb around one handle and three fingers around the other, with the blades facing the nail plate"
+        },
+        {
+          "pdfPage": 167,
+          "quote": "Your index finger is placed on the box joint to help control the blade and guide it properly"
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-5b-04",
+      "question": {
+        "en": "Why should nail nippers always be kept sharp?",
+        "zh": "为什么死皮剪要一直保持锋利？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "So they can cut live skin cleanly",
+          "zh": "这样才能干净利落地剪活皮"
+        },
+        {
+          "id": "b",
+          "en": "So they need disinfecting less often",
+          "zh": "这样就不用常消毒"
+        },
+        {
+          "id": "c",
+          "en": "To prevent ripping and tearing live tissue",
+          "zh": "防止撕扯到活组织"
+        },
+        {
+          "id": "d",
+          "en": "So they can trim the eponychium",
+          "zh": "这样能修剪甲上皮（eponychium）"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Always keep a sharp edge on your nippers to prevent accidental ripping and tearing into live tissue. Nippers only trim dead skin; live nail fold tissue keeps out microbes.",
+        "zh": "死皮剪要保持刃口锋利，防止不小心撕扯到活组织。死皮剪只修死皮；甲沟（nail fold）的活组织能挡住微生物。"
+      },
+      "lockPoint": {
+        "en": "Dull scissors chew and tear paper; sharp ones snip clean. Dull nippers tug dead skin and tear live skin.",
+        "zh": "钝剪刀剪纸会把纸扯毛；快剪刀一刀就干净。钝死皮剪会拉扯死皮，连带撕伤活皮。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Nail Nippers",
+          "pdfPage": 166,
+          "printedPage": "142"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Nail Nippers",
+          "pdfPage": 167,
+          "printedPage": "143"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 167,
+          "quote": "Always maintain a sharp edge on your nippers to prevent accidental ripping and tearing into the live tissue."
+        },
+        {
+          "pdfPage": 166,
+          "quote": "used to carefully trim away dead skin around the nails"
+        },
+        {
+          "pdfPage": 166,
+          "quote": "as the live nail fold tissue is important to ward off"
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-5b-05",
+      "question": {
+        "en": "When cleaning and disinfecting nippers, take special care to",
+        "zh": "清洁和消毒死皮剪时，要特别注意什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "keep them tightly closed.",
+          "zh": "把它紧紧合上。"
+        },
+        {
+          "id": "b",
+          "en": "soak only the blades.",
+          "zh": "只泡刀刃部分。"
+        },
+        {
+          "id": "c",
+          "en": "rinse them in hot water only.",
+          "zh": "只用热水冲洗。"
+        },
+        {
+          "id": "d",
+          "en": "open the hinges.",
+          "zh": "把剪子张开，露出剪轴（hinge）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Nippers must be cleaned and disinfected before every client. Open the hinges so cleaner and disinfectant reach every surface, and fully immerse the whole implement, handles included.",
+        "zh": "每位顾客前都要清洁消毒死皮剪。把剪子张开，让清洁剂和消毒液接触到剪轴里外每个表面，并把整件工具（包括手柄）完全浸没。"
+      },
+      "lockPoint": {
+        "en": "A closed hinge is a hidden pocket. Debris trapped inside shields germs from the disinfectant.",
+        "zh": "合着的剪轴是个暗袋。藏在里面的碎屑会挡住消毒液，保护病菌。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Nail Nippers",
+          "pdfPage": 167,
+          "printedPage": "143"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Proper Use of Disinfectants",
+          "pdfPage": 614,
+          "printedPage": "119"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 167,
+          "quote": "taking special care to open the hinges for cleaning and disinfecting"
+        },
+        {
+          "pdfPage": 614,
+          "quote": "residue will interfere with the disinfectant and prevent proper disinfection"
+        },
+        {
+          "pdfPage": 614,
+          "quote": "to cover all surfaces of the item being disinfected, including the handles"
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-5b-06",
+      "question": {
+        "en": "Which implement can lift implements out of disinfectant?",
+        "zh": "哪种工具可以把其他工具从消毒液里夹出来？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Tweezers",
+          "zh": "镊子（tweezers）"
+        },
+        {
+          "id": "b",
+          "en": "Nail clippers",
+          "zh": "指甲钳"
+        },
+        {
+          "id": "c",
+          "en": "Curette",
+          "zh": "刮匙（curette）"
+        },
+        {
+          "id": "d",
+          "en": "Metal pusher",
+          "zh": "钢推"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Tweezers lift debris from the nail plate, place nail art, and remove implements from disinfectant. They must be stainless steel and disinfected before use on any client.",
+        "zh": "镊子可以夹走甲面碎屑、放置美甲饰品，也能把工具从消毒液里夹出来。镊子必须是不锈钢的，每位顾客使用前都要消毒。"
+      },
+      "lockPoint": {
+        "en": "Disinfectant must never touch your skin. Tweezers or tongs keep your fingers out of the jar.",
+        "zh": "消毒液绝不能碰到皮肤。用镊子或夹子，手指就不用伸进消毒缸。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Tweezers",
+          "pdfPage": 167,
+          "printedPage": "143"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Electric Filing - Disinfecting Metal Bits",
+          "pdfPage": 261,
+          "printedPage": "237"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 167,
+          "quote": "removing implements from disinfectant solutions"
+        },
+        {
+          "pdfPage": 167,
+          "quote": "They must be stainless steel in order to be disinfected"
+        },
+        {
+          "pdfPage": 261,
+          "quote": "Disinfectants must never be allowed to come into contact with the skin."
+        },
+        {
+          "pdfPage": 261,
+          "quote": "always remove the implements with tongs or tweezers"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-5b-07",
+      "question": {
+        "en": "How are toenail clippers different from fingernail clippers?",
+        "zh": "脚指甲钳（toenail clippers）和手指甲钳有什么不同？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "They are single-use plastic.",
+          "zh": "是一次性塑料的。"
+        },
+        {
+          "id": "b",
+          "en": "They are larger, with a wider jaw opening.",
+          "zh": "更大，钳口张开更宽。"
+        },
+        {
+          "id": "c",
+          "en": "They are used to trim dead skin.",
+          "zh": "是用来修死皮的。"
+        },
+        {
+          "id": "d",
+          "en": "They need no disinfecting.",
+          "zh": "不需要消毒。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Toenail clippers are larger and have a wider space between the jaws, so they can cut thicker nails. Use professional stainless-steel clippers, and clean and disinfect them after each use.",
+        "zh": "脚指甲钳更大，钳口之间空间更宽，能剪更厚的指甲。要用专业不锈钢指甲钳，每次用后清洁消毒。"
+      },
+      "lockPoint": {
+        "en": "Don't mix them up: clippers have wide jaws to clip; toenail nippers take small bites at 45°.",
+        "zh": "别搞混：指甲钳钳口宽，用来剪；脚指甲剪（nippers）以 45 度一小口一小口地剪。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Toenail Clippers",
+          "pdfPage": 221,
+          "printedPage": "197"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Toenail Nippers",
+          "pdfPage": 222,
+          "printedPage": "198"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 221,
+          "quote": "are larger than fingernail clippers and specifically designed for shortening toenails"
+        },
+        {
+          "pdfPage": 221,
+          "quote": "They have a wider space between the jaws that allows them to cut thicker nails."
+        },
+        {
+          "pdfPage": 221,
+          "quote": "Always clean the clippers well and disinfect them after each use."
+        },
+        {
+          "pdfPage": 222,
+          "quote": "They are held at a 45-degree angle to the nail tip, and small nips of the nail are taken slowly across the free edge"
+        }
+      ],
+      "hookType": "contrast"
+    },
+    {
+      "id": "nic-5b-08",
+      "question": {
+        "en": "Which grit is used to shorten and shape natural nails?",
+        "zh": "修短、修形真甲用哪种目数的锉条？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Coarse grit",
+          "zh": "粗目数（coarse）"
+        },
+        {
+          "id": "b",
+          "en": "Fine grit",
+          "zh": "细目数（fine）"
+        },
+        {
+          "id": "c",
+          "en": "Medium grit",
+          "zh": "中目数（medium）"
+        },
+        {
+          "id": "d",
+          "en": "A no-grit shine surface",
+          "zh": "无砂粒的抛光面"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Medium-grit abrasives smooth and refine surfaces and are used to shorten and shape natural nails. Finish with a fine grit to smooth the edge. Coarse grits are generally not used on natural nails.",
+        "zh": "中目数锉条用来打磨、修整表面，也用来修短、修形真甲。最后用细目数把边缘磨顺。粗目数一般不用在真甲上。"
+      },
+      "lockPoint": {
+        "en": "Toenails too: a medium-grit file works best, then finish with fine grit to seal the edges.",
+        "zh": "脚指甲也一样：用中目数锉条最好，最后用细目数把边缘封顺。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Abrasive Nail Files and Buffers",
+          "pdfPage": 171,
+          "printedPage": "147"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Performing a Basic Manicure",
+          "pdfPage": 201,
+          "printedPage": "177"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Pedicure Nail File",
+          "pdfPage": 223,
+          "printedPage": "199"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 171,
+          "quote": "are used to smooth and refine surfaces; used to shorten and shape natural nails"
+        },
+        {
+          "pdfPage": 201,
+          "quote": "Use a medium-grit abrasive to shape the natural nail."
+        },
+        {
+          "pdfPage": 223,
+          "quote": "For toenails, a medium-grit nail file works best. Always finish with the fine-grit file to seal the edges."
+        },
+        {
+          "pdfPage": 171,
+          "quote": "lower-grit files must be used with caution and are generally not used on natural nails"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-5b-09",
+      "question": {
+        "en": "What is a curette used for?",
+        "zh": "刮匙（curette）是用来做什么的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Smoothing thick heel calluses",
+          "zh": "磨平脚跟的厚茧"
+        },
+        {
+          "id": "b",
+          "en": "Removing debris from the nail folds",
+          "zh": "清除甲沟（nail folds）里的污垢"
+        },
+        {
+          "id": "c",
+          "en": "Shortening thick toenails",
+          "zh": "剪短厚脚指甲"
+        },
+        {
+          "id": "d",
+          "en": "Applying cuticle oil to the nail",
+          "zh": "给指甲涂营养油"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "A curette has a small scoop-shaped end for removing debris from the nail folds, eponychium, and hyponychium areas. It is ideal around the edges of the big toenail.",
+        "zh": "刮匙一头是小勺形，用来清除甲沟（nail folds）、甲上皮（eponychium）和甲下皮（hyponychium）周围的污垢，特别适合大脚趾甲边缘。"
+      },
+      "lockPoint": {
+        "en": "刮匙: 刮 = scrape, 匙 = spoon. English curette is from French curer, 'to clean'.",
+        "zh": "刮匙：刮 = 刮除，匙 = 勺子，就是一把刮污垢的小勺。英文 curette 来自法语 curer，意思是“清理”。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Curette",
+          "pdfPage": 222,
+          "printedPage": "198"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 222,
+          "quote": "is an implement with a small scoop-shaped end that, if used carefully, allows for more efficient removal of debris from the nail folds, eponychium, and hyponychium areas"
+        },
+        {
+          "pdfPage": 222,
+          "quote": "Curettes are ideal for use around the edges of the big toenail plate"
+        }
+      ],
+      "hookType": "chinese-character"
+    },
+    {
+      "id": "nic-5b-10",
+      "question": {
+        "en": "What is a wooden pusher used for?",
+        "zh": "木棒（wooden pusher）是用来做什么的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Removing cuticle from the nail plate",
+          "zh": "推除甲面上的死皮"
+        },
+        {
+          "id": "b",
+          "en": "Trimming loose tags of dead skin",
+          "zh": "剪掉翘起的小死皮"
+        },
+        {
+          "id": "c",
+          "en": "Shortening the free edge",
+          "zh": "剪短指甲前缘"
+        },
+        {
+          "id": "d",
+          "en": "Smoothing calluses on the feet",
+          "zh": "磨平脚上的茧"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "The wooden pusher removes dead cuticle tissue from the nail plate, cleans under the free edge, and applies products on a cotton-wrapped tip. Hold it like a pencil at 20 to 30 degrees.",
+        "zh": "木棒用来推掉甲面上的死皮组织、清理前缘下方，头上裹棉花还能涂产品。像握铅笔一样，以 20–30 度角拿着。"
+      },
+      "lockPoint": {
+        "en": "Milady also calls it an orangewood stick: the 橙木棒 common in Chinese nail salons.",
+        "zh": "Milady 也叫它 orangewood stick，就是中国美甲店常见的橙木棒。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Wooden Pusher",
+          "pdfPage": 168,
+          "printedPage": "144"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Performing a Basic Manicure",
+          "pdfPage": 204,
+          "printedPage": "180"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 168,
+          "quote": "is used to remove dead cuticle tissue from the nail plate, to clean under the free edge of the nail, or to apply products"
+        },
+        {
+          "pdfPage": 168,
+          "quote": "Hold the stick as you would a pencil with the tip at a 20- to 30-degree angle from the nail plate"
+        },
+        {
+          "pdfPage": 204,
+          "quote": "with a cotton-tipped orangewood stick"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-5b-11",
+      "question": {
+        "en": "The narrow metal nail rasp is used to",
+        "zh": "窄窄的金属甲沟锉（nail rasp）是用来做什么的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "treat a toenail that is ingrown.",
+          "zh": "治疗嵌甲（ingrown nail）。"
+        },
+        {
+          "id": "b",
+          "en": "file the top surface of the nail.",
+          "zh": "锉指甲的上表面。"
+        },
+        {
+          "id": "c",
+          "en": "push back the cuticle.",
+          "zh": "推死皮。"
+        },
+        {
+          "id": "d",
+          "en": "file the sides of the free edge.",
+          "zh": "锉前缘的两侧。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "A nail rasp is a metal file that files in one direction. It smooths the sides of the free edge to help prevent ingrown nails. Never use it on ingrown nails or the nail top.",
+        "zh": "甲沟锉是只朝一个方向锉的金属锉，用来磨平前缘两侧，预防嵌甲。不能用在已经嵌甲的指甲上，也不能锉甲面。"
+      },
+      "lockPoint": {
+        "en": "Sharp side edge → grows into the skin → ingrown nail. Rasp it smooth first; already ingrown? Podiatrist.",
+        "zh": "前缘侧边尖 → 长进肉里 → 嵌甲。先用甲沟锉磨平；已经嵌甲？交给足科医生（podiatrist）。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Nail Rasp",
+          "pdfPage": 222,
+          "printedPage": "198"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Nail Rasp",
+          "pdfPage": 223,
+          "printedPage": "199"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 222,
+          "quote": "It is designed to file in one direction"
+        },
+        {
+          "pdfPage": 222,
+          "quote": "to reduce the sides of the free edge that might grow into the tissues and potentially cause an ingrown nail"
+        },
+        {
+          "pdfPage": 222,
+          "quote": "Never use it on nails that are already ingrown; rather, refer clients with ingrown nails to a podiatrist."
+        },
+        {
+          "pdfPage": 223,
+          "quote": "Never use it on the top of the nail"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-5b-12",
+      "question": {
+        "en": "A foot file or pedicure paddle is used to",
+        "zh": "脚锉（foot file / pedicure paddle）是用来做什么的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "clean debris from the nail folds.",
+          "zh": "清理甲沟里的污垢。"
+        },
+        {
+          "id": "b",
+          "en": "shape the toenail free edge.",
+          "zh": "修整脚指甲前缘的形状。"
+        },
+        {
+          "id": "c",
+          "en": "push cuticle tissue off the nail.",
+          "zh": "把死皮从甲面推掉。"
+        },
+        {
+          "id": "d",
+          "en": "reduce and smooth thick calluses.",
+          "zh": "磨薄、磨平厚茧。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "A large foot file, or pedicure paddle, reduces and smooths thicker calluses. Clean and disinfect it between uses, or throw it away after one use if it cannot be disinfected.",
+        "zh": "大的脚锉（foot file），也叫磨脚板（pedicure paddle），用来磨薄、磨平较厚的茧。每次用后要清洁消毒；无法消毒的用一次就扔。"
+      },
+      "lockPoint": {
+        "en": "Calluses protect feet that stand all day. Smooth them down, but don't strip them off.",
+        "zh": "茧是保护整天站立的脚的。可以磨平，但别磨光。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Foot File",
+          "pdfPage": 223,
+          "printedPage": "199"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Callus Softener",
+          "pdfPage": 226,
+          "printedPage": "202"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 223,
+          "quote": "or pedicure paddle, is designed to reduce and smooth thicker foot calluses"
+        },
+        {
+          "pdfPage": 223,
+          "quote": "It must be properly cleaned and disinfected between each use or disposed of after a single use if it cannot be disinfected properly."
+        },
+        {
+          "pdfPage": 226,
+          "quote": "Calluses should be softened and smoothed, not excessively thinned or removed."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-5b-13",
+      "question": {
+        "en": "Which is a job for a nail brush?",
+        "zh": "下列哪一项是指甲刷（nail brush）的用途？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Applying cuticle oil",
+          "zh": "涂营养油"
+        },
+        {
+          "id": "b",
+          "en": "Trimming dead skin",
+          "zh": "修剪死皮"
+        },
+        {
+          "id": "c",
+          "en": "Scrubbing implements before disinfection",
+          "zh": "消毒前刷洗工具"
+        },
+        {
+          "id": "d",
+          "en": "Shaping the free edge",
+          "zh": "修整前缘形状"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Clients scrub under the free edges with a nail brush when washing hands. It also removes surface debris and dust during services, and scrubs implements clean before disinfection.",
+        "zh": "顾客洗手时用指甲刷刷指甲前缘下方；服务中用它清除表面碎屑和粉尘；消毒前也用它把工具刷干净。"
+      },
+      "lockPoint": {
+        "en": "Mouthwash without brushing doesn't work properly. Disinfectant without scrubbing doesn't either.",
+        "zh": "不刷牙只用漱口水效果不好；不刷洗就消毒，效果也不好。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Nail Brushes",
+          "pdfPage": 168,
+          "printedPage": "144"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Cleaning",
+          "pdfPage": 611,
+          "printedPage": "116"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Hand Washing Procedure",
+          "pdfPage": 631,
+          "printedPage": "136"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 168,
+          "quote": "A nail brush is used to scrub the implements before disinfection"
+        },
+        {
+          "pdfPage": 168,
+          "quote": "A nail technician uses a nail brush to remove surface debris during a service."
+        },
+        {
+          "pdfPage": 631,
+          "quote": "Brush your nails horizontally back and forth under the free edges."
+        },
+        {
+          "pdfPage": 611,
+          "quote": "like using mouthwash without brushing your teeth"
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-5b-14",
+      "question": {
+        "en": "A single-use implement is one that",
+        "zh": "一次性工具（single-use implement）是指什么样的工具？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "is used once a day, then disinfected.",
+          "zh": "每天用一次，然后消毒。"
+        },
+        {
+          "id": "b",
+          "en": "can be reused after a rinse.",
+          "zh": "冲洗后可以再用。"
+        },
+        {
+          "id": "c",
+          "en": "is made only of stainless steel.",
+          "zh": "只用不锈钢做的。"
+        },
+        {
+          "id": "d",
+          "en": "can't be disinfected, so it's thrown away.",
+          "zh": "无法消毒，用一次就扔。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Single-use implements cannot be properly cleaned and disinfected, or are damaged by it, so they are discarded after one use, preferably where the client can see. Multiuse implements can be disinfected and reused.",
+        "zh": "一次性工具无法彻底清洁消毒，或消毒会把它弄坏，所以用一次就丢，最好当着顾客的面丢。可重复使用的工具（multiuse）则可以消毒后再用。"
+      },
+      "lockPoint": {
+        "en": "Milady's examples: wooden pushers and paper-based files can't be disinfected, so both are single-use.",
+        "zh": "Milady 举的例子：木棒和纸质锉条都无法消毒，所以都是一次性工具。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Glossary",
+          "pdfPage": 213,
+          "printedPage": "189"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Single-Use Implements",
+          "pdfPage": 167,
+          "printedPage": "143"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Foot File",
+          "pdfPage": 223,
+          "printedPage": "199"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 213,
+          "quote": "because it cannot be properly cleaned and all visible residue removed or because cleaning and disinfecting damages or contaminates it"
+        },
+        {
+          "pdfPage": 167,
+          "quote": "They are then discarded, preferably in the client’s view"
+        },
+        {
+          "pdfPage": 223,
+          "quote": "if an abrasive file cannot survive proper cleaning and disinfection procedures without being rendered unusable, it must be considered single use"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-5b-15",
+      "question": {
+        "en": "Which of these can be cleaned and disinfected by immersion?",
+        "zh": "下列哪一项可以清洁后浸泡消毒？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "A natural hair nail brush",
+          "zh": "天然毛刷"
+        },
+        {
+          "id": "b",
+          "en": "A synthetic hair nail brush",
+          "zh": "合成毛刷"
+        },
+        {
+          "id": "c",
+          "en": "A wooden pusher",
+          "zh": "木棒"
+        },
+        {
+          "id": "d",
+          "en": "A paper abrasive file",
+          "zh": "纸质指甲锉"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Synthetic hair brushes can be cleaned and disinfected by immersion. Natural hair brushes cannot, so they are thrown away after use. Paper abrasives cannot be disinfected either.",
+        "zh": "合成毛（synthetic hair）刷可以清洁后浸泡消毒。天然毛（natural hair）刷不行，用后丢弃。纸质锉条也无法消毒。"
+      },
+      "lockPoint": {
+        "en": "Natural hair is like your own hair: it soaks up liquid. Synthetic bristles are plastic that rinses clean.",
+        "zh": "天然毛像人的头发，会吸水；合成毛是塑料丝，冲洗得干净。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Nail Brushes",
+          "pdfPage": 168,
+          "printedPage": "144"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Abrasive Nail Files and Buffers",
+          "pdfPage": 171,
+          "printedPage": "147"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 168,
+          "quote": "natural hair nail brushes cannot be cleaned or disinfected and should be discarded after use. Synthetic hair brushes can be cleaned and disinfected by immersion."
+        },
+        {
+          "pdfPage": 171,
+          "quote": "If they are made of a paper product, they cannot be cleaned or disinfected"
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-5b-16",
+      "question": {
+        "en": "The lower the grit number on an abrasive file, the",
+        "zh": "指甲锉的 grit（目数）越低，就越怎样？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "finer and gentler it is.",
+          "zh": "越细、越温和。"
+        },
+        {
+          "id": "b",
+          "en": "larger its particles and more aggressive.",
+          "zh": "颗粒越大、研磨越猛。"
+        },
+        {
+          "id": "c",
+          "en": "safer it is on natural nails.",
+          "zh": "对真甲越安全。"
+        },
+        {
+          "id": "d",
+          "en": "fewer scratches it leaves.",
+          "zh": "留下的刮痕越少。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Lower grit means larger abrasive particles and a more aggressive file. Coarse grits quickly reduce a surface and leave deeper scratches, so they are generally not used on natural nails.",
+        "zh": "目数（grit）越低，砂粒越大，锉得越猛。粗目数锉条磨得快、刮痕深，所以一般不用在真甲上。"
+      },
+      "lockPoint": {
+        "en": "Low number = few, big grains, like gravel. High number = many tiny grains, like flour.",
+        "zh": "数字低 = 颗粒少而大，像碎石；数字高 = 颗粒多而小，像面粉。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Abrasive Nail Files and Buffers",
+          "pdfPage": 170,
+          "printedPage": "146"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Abrasive Nail Files and Buffers",
+          "pdfPage": 171,
+          "printedPage": "147"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 170,
+          "quote": "the lower the grit, the larger the abrasive particles on the file"
+        },
+        {
+          "pdfPage": 171,
+          "quote": "and the more aggressive its action"
+        },
+        {
+          "pdfPage": 171,
+          "quote": "lower-grit files must be used with caution and are generally not used on natural nails"
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-5b-17",
+      "question": {
+        "en": "Fine-grit abrasives (240 grit and higher) are designed for",
+        "zh": "细目数锉条（240 目及以上）是用来做什么的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "quickly reducing thick enhancement product.",
+          "zh": "快速磨薄厚的人造甲产品（enhancement）。"
+        },
+        {
+          "id": "b",
+          "en": "reducing thick heel calluses.",
+          "zh": "磨掉脚跟的厚茧。"
+        },
+        {
+          "id": "c",
+          "en": "buffing, polishing, and removing fine scratches.",
+          "zh": "抛光、上光、去除细小刮痕。"
+        },
+        {
+          "id": "d",
+          "en": "shortening the free edge fast.",
+          "zh": "快速磨短前缘。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Fine-grit abrasives, 240 and higher, are designed for buffing, polishing, and removing very fine scratches. Higher grits smooth a surface by polishing it.",
+        "zh": "细目数（fine-grit，240 目及以上）锉条用于抛光、上光和去除极细的刮痕。目数越高，越是靠抛磨让表面变光滑。"
+      },
+      "lockPoint": {
+        "en": "Like sandpaper at the hardware store: rough paper first, the finest paper last for the glossy finish.",
+        "zh": "就像五金店的砂纸：先用粗的，最后用最细的磨出光亮。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Abrasive Nail Files and Buffers",
+          "pdfPage": 171,
+          "printedPage": "147"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 171,
+          "quote": "feature grits of 240 and higher. They are designed for buffing, polishing, and removing very fine scratches."
+        },
+        {
+          "pdfPage": 171,
+          "quote": "Higher-grit files remove scratches and smooth surfaces through polishing."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-5b-18",
+      "question": {
+        "en": "Why must you prep the edges of a new abrasive file?",
+        "zh": "为什么新指甲锉的边缘必须先处理（prep）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "To raise its grit number",
+          "zh": "提高它的目数"
+        },
+        {
+          "id": "b",
+          "en": "To make it disinfectable",
+          "zh": "让它可以消毒"
+        },
+        {
+          "id": "c",
+          "en": "To remove sharp edges that can cut",
+          "zh": "去掉可能割伤人的锋利边缘"
+        },
+        {
+          "id": "d",
+          "en": "To soften its foam core",
+          "zh": "让泡棉芯变软"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Files are stamped from large sheets, leaving very sharp edges. Rub a clean, unused file across the edges, and check buffer corners too. This file prepping protects clients from cuts.",
+        "zh": "锉条是从大片材料上冲压下来的，边缘非常锋利。用另一根干净、没用过的锉条把边缘磨一磨，抛光块的角也要处理。这叫 file prepping（锉条预处理），防止割伤顾客。"
+      },
+      "lockPoint": {
+        "en": "Like a paper cut from a fresh sheet of paper: brand-new edges are the sharpest.",
+        "zh": "就像新纸会划破手：越新的边越锋利。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Abrasive Nail Files and Buffers",
+          "pdfPage": 171,
+          "printedPage": "147"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 171,
+          "quote": "You must prep or edge your abrasive files before using them on a client to prevent cutting the client with the sharp edges."
+        },
+        {
+          "pdfPage": 171,
+          "quote": "rub another (clean, unused) file across the edges to remove the sharp edge; this is called file prepping"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-5b-19",
+      "question": {
+        "en": "When using a three-way buffer, which surface do you use first?",
+        "zh": "使用三面抛光条（three-way buffer）时，先用哪一面？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "The lowest-grit surface",
+          "zh": "目数最低的一面"
+        },
+        {
+          "id": "b",
+          "en": "The shine surface",
+          "zh": "抛光（上光）面"
+        },
+        {
+          "id": "c",
+          "en": "The highest-grit surface",
+          "zh": "目数最高的一面"
+        },
+        {
+          "id": "d",
+          "en": "Any surface, in any order",
+          "zh": "任意一面，顺序不限"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Begin with the lowest-grit surface to smooth, move to the higher grit, then finish on the shine surface, which usually has no grit. The result is a glossy shine.",
+        "zh": "先用目数最低的一面打磨，再换更高目数的一面，最后用通常没有砂粒的抛光面。这样指甲会很亮。"
+      },
+      "lockPoint": {
+        "en": "Each finer grit erases the scratches the coarser one left. Go backward and the last scratches stay.",
+        "zh": "每换一面更细的，都会磨掉上一面留下的刮痕。顺序倒过来，最后的刮痕就留在指甲上。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Two-Way or Three-Way Buffer",
+          "pdfPage": 171,
+          "printedPage": "147"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 171,
+          "quote": "Begin with the lowest-grit abrasive surface in the smoothing task"
+        },
+        {
+          "pdfPage": 171,
+          "quote": "and then finally on to the shining surface (usually no grit)"
+        },
+        {
+          "pdfPage": 171,
+          "quote": "Higher-grit files remove scratches and smooth surfaces through polishing."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-5b-20",
+      "question": {
+        "en": "If a client feels burning while you buff, what should you do?",
+        "zh": "抛光时顾客感到发烫，你应该怎么做？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Press harder to finish faster",
+          "zh": "用力压，快点结束"
+        },
+        {
+          "id": "b",
+          "en": "Switch to a lower-grit buffer",
+          "zh": "换更低目数的抛光条"
+        },
+        {
+          "id": "c",
+          "en": "Buff longer in one spot",
+          "zh": "在同一个地方多抛一会儿"
+        },
+        {
+          "id": "d",
+          "en": "Lighten pressure and slow down",
+          "zh": "减轻力度、放慢速度"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Too much pressure or buffing too long with low-grit abrasives creates painful heat that can lead to onycholysis. Lighten the pressure, slow the buffing, and lift the buffer between passes.",
+        "zh": "用力过大或用低目数锉条抛太久，会产生灼痛的热，可能导致甲剥离（onycholysis）。要减轻力度、放慢速度，每次抛光之间把抛光条抬起来。"
+      },
+      "lockPoint": {
+        "en": "Rub your palms together fast and they get hot. Friction makes heat, and the nail bed feels it.",
+        "zh": "双手快速对搓会发热。摩擦生热，甲床（nail bed）都感觉得到。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Two-Way or Three-Way Buffer",
+          "pdfPage": 172,
+          "printedPage": "148"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 172,
+          "quote": "If your client is feeling heat or burning, lighten the pressure, lower the speed of the buffing, and raise the buffer from the surface between buff passes."
+        },
+        {
+          "pdfPage": 172,
+          "quote": "can generate excessive and painful heat into the nail bed and can lead to onycholysis"
+        }
+      ],
+      "hookType": "real-life"
+    }
+  ],
+  "review": {
+    "reviewedAt": "2026-10-23",
+    "checks": [
+      "quotes found on cited pages (verify-nic-domain-evidence.py)",
+      "blind answer check: 20/20 matched key; 8 new or edited questions re-checked blind (all matched)",
+      "content and Chinese review (two rounds): fixes applied",
+      "memory hooks fact-checked (word origins, Chinese characters, textbook facts), two rounds: fixes applied",
+      "cross-set overlap check against existing NIC Domain Practice sets: duplicated facts replaced"
+    ]
+  }
+}

@@ -1,0 +1,1289 @@
+{
+  "schemaVersion": "1.0.0",
+  "setId": "7C",
+  "domain": {
+    "id": "enhancements",
+    "order": 7,
+    "title": {
+      "en": "Nail Enhancements: Application, Maintenance, and Removal",
+      "zh": "美甲延长与加固：施做、维护与卸除"
+    },
+    "examWeightPercent": 20
+  },
+  "title": {
+    "en": "Gels: Soft, Hard, and Hybrid",
+    "zh": "光疗胶：软胶、硬胶与混合胶"
+  },
+  "status": "reviewed",
+  "authoredAt": "2026-10-22",
+  "sourceBook": "Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020)",
+  "review": {
+    "reviewedAt": "2026-10-23",
+    "checks": [
+      "quotes found on cited pages (verify-nic-domain-evidence.py)",
+      "blind answer check: 20/20 matched key (changed and new questions re-checked)",
+      "content and Chinese review: fixes applied",
+      "memory hooks fact-checked (word origins, Chinese characters, textbook facts): fixes applied"
+    ]
+  },
+  "questions": [
+    {
+      "id": "nic-7c-01",
+      "question": {
+        "en": "What ingredient makes gel harden when exposed to the lamp's light?",
+        "zh": "光疗胶里哪种成分在灯光照射下让胶变硬？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Benzoyl peroxide",
+          "zh": "过氧化苯甲酰（BPO）"
+        },
+        {
+          "id": "b",
+          "en": "Resin accelerator",
+          "zh": "树脂加速剂（resin accelerator）"
+        },
+        {
+          "id": "c",
+          "en": "Photoinitiator",
+          "zh": "光引发剂（photoinitiator）"
+        },
+        {
+          "id": "d",
+          "en": "Acetone",
+          "zh": "丙酮（acetone）"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "A photoinitiator is a molecule that reacts when exposed to UV or visible light. It is mixed into the gel, so the gel hardens in a curing lamp.",
+        "zh": "photoinitiator（光引发剂）是一种在 UV 或可见光照射下发生反应的分子。它加在胶里，所以胶在固化灯里会变硬。"
+      },
+      "lockPoint": {
+        "en": "Photo- is Greek for light, as in photograph. An initiator is the starter.",
+        "zh": "photo- 是希腊语的“光”，如 photograph（照片）。initiator 就是“启动者”。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Chemistry of Gels",
+          "pdfPage": 378,
+          "printedPage": "354"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 378,
+          "quote": "A photoinitiator is a molecule that creates a reaction when exposed to UV or visible light. Photoinitiators are infused into oligomers so that when the gel is applied to the nail and exposed to the light in a special curing lamp, the gel will harden."
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-7c-02",
+      "question": {
+        "en": "Compared with UV fluorescent lamps, LED lamps usually",
+        "zh": "和 UV 荧光灯相比，LED 灯通常怎样？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "cure faster and have longer-lasting bulbs.",
+          "zh": "固化更快，灯珠更耐用。"
+        },
+        {
+          "id": "b",
+          "en": "light all nails evenly from every side.",
+          "zh": "从各个方向均匀照亮所有指甲。"
+        },
+        {
+          "id": "c",
+          "en": "need one to two minutes per layer.",
+          "zh": "每层需要 1 到 2 分钟。"
+        },
+        {
+          "id": "d",
+          "en": "cure gel with heat instead of light.",
+          "zh": "靠热而不是光来固化。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "LED cure times are usually 5 to 60 seconds per layer, versus one to two minutes in UV, and LED bulbs last longer.",
+        "zh": "LED 灯每层固化通常只要 5 到 60 秒，UV 灯要 1 到 2 分钟，而且 LED 灯珠更耐用。"
+      },
+      "lockPoint": {
+        "en": "LED = Light-Emitting Diode. Nail LED lamps shine at about 365–405 nm, so part of their light is UV.",
+        "zh": "LED = Light-Emitting Diode（发光二极管）。美甲 LED 灯的波长约 365–405 纳米，其中一部分其实就是紫外线。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - UV and LED Light",
+          "pdfPage": 379,
+          "printedPage": "355"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 379,
+          "quote": "Cure times in an LED lamp usually range from five to 60 seconds for each layer of gel."
+        },
+        {
+          "pdfPage": 379,
+          "quote": "Cure times in a UV lamp usually range from one to two minutes for each layer of gel."
+        },
+        {
+          "pdfPage": 379,
+          "quote": "LED bulbs last longer than UV florescent bulbs"
+        },
+        {
+          "pdfPage": 379,
+          "quote": "These special LED bulbs are made in wavelengths from about 365 nm to 405 nm."
+        },
+        {
+          "pdfPage": 379,
+          "quote": "creates a direct light that must shine directly on the gel in order for it to cure"
+        },
+        {
+          "pdfPage": 379,
+          "quote": "Ultraviolet (UV) florescent bulbs radiate light inside the lamp so that all nails are equally exposed"
+        }
+      ],
+      "hookType": "real-acronym"
+    },
+    {
+      "id": "nic-7c-03",
+      "question": {
+        "en": "How must hard gel be removed?",
+        "zh": "硬胶（hard gel）必须怎样卸除？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Soaked off in acetone",
+          "zh": "用丙酮泡掉"
+        },
+        {
+          "id": "b",
+          "en": "Peeled off with a wooden pusher",
+          "zh": "用木推棒撬下来"
+        },
+        {
+          "id": "c",
+          "en": "Dissolved with nail cleanser",
+          "zh": "用甲面清洁剂溶掉"
+        },
+        {
+          "id": "d",
+          "en": "Filed off with a hand or electric file",
+          "zh": "用手锉或电动磨甲机磨掉"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Hard gels have a nonporous surface that acetone cannot penetrate, so they must be filed off. Soft, soak-off gels are the ones that come off with acetone.",
+        "zh": "hard gel（硬胶）表面无孔，丙酮渗不进去，所以必须磨掉。soft gel（软胶/可卸胶）才能用丙酮卸掉。"
+      },
+      "lockPoint": {
+        "en": "Acetone on hard gel is like water on a glazed mug: it sits on top and never soaks in.",
+        "zh": "丙酮碰到硬胶，就像水泼在上了釉的瓷杯上：只停在表面，渗不进去。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Types of Gels",
+          "pdfPage": 380,
+          "printedPage": "356"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Removing Gels",
+          "pdfPage": 384,
+          "printedPage": "360"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 380,
+          "quote": "They are very strong and have a nonporous surface that cannot be penetrated with acetone."
+        },
+        {
+          "pdfPage": 384,
+          "quote": "Since hard gels cannot be removed with acetone or product remover, they must be filed off with an electric or hand file."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-7c-04",
+      "question": {
+        "en": "Soft gels are also known as",
+        "zh": "soft gel（软胶）又叫什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "traditional gels.",
+          "zh": "传统胶（traditional gel）。"
+        },
+        {
+          "id": "b",
+          "en": "soak-off gels.",
+          "zh": "可卸胶（soak-off gel）。"
+        },
+        {
+          "id": "c",
+          "en": "building gels.",
+          "zh": "建构胶（building gel）。"
+        },
+        {
+          "id": "d",
+          "en": "polymer gels.",
+          "zh": "聚合物胶（polymer gel）。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Soft gels, also called soak-off gels, overlay the natural nail and come off easily with acetone.",
+        "zh": "soft gel（软胶）也叫 soak-off gel（可卸胶），用于覆盖真甲，用丙酮就能轻松卸掉。"
+      },
+      "lockPoint": {
+        "en": "Name trap: traditional gel isn't old-style polish; it is hard gel. Most soft gels are colored gel polish.",
+        "zh": "名字陷阱：traditional gel 不是传统甲油，而是硬胶。大多数软胶其实就是甲油胶。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Types of Gels",
+          "pdfPage": 380,
+          "printedPage": "356"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 380,
+          "quote": "Soft gels (SOFT JELLS), also known as soak-off gels, are formulated to overlay the natural nail and are easily removed with acetone."
+        },
+        {
+          "pdfPage": 380,
+          "quote": "Hard gels (HARD JELLS), or traditional gels, are created to be strong enough to use to build nail extensions."
+        },
+        {
+          "pdfPage": 380,
+          "quote": "most are made with pigment and created to replace traditional polishes"
+        }
+      ],
+      "hookType": "name-trap"
+    },
+    {
+      "id": "nic-7c-05",
+      "question": {
+        "en": "Milady describes hybrid gels as gel polishes that",
+        "zh": "Milady 说混合胶（hybrid gel）是什么样的甲油胶？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "can only be removed by filing.",
+          "zh": "只能锉掉。"
+        },
+        {
+          "id": "b",
+          "en": "are hard gels for long extensions.",
+          "zh": "是用来做长延长的硬胶。"
+        },
+        {
+          "id": "c",
+          "en": "come off faster than regular polish.",
+          "zh": "比普通甲油卸得更快。"
+        },
+        {
+          "id": "d",
+          "en": "come off with polish remover, but slowly.",
+          "zh": "可以用洗甲水卸，但比较慢。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Hybrid gels have the durability and gloss of gel but can be removed like polish with polish remover, though it takes longer. Gel polishes originally had to be filed off.",
+        "zh": "hybrid gel（混合胶）有光疗胶的持久和光泽，却能像普通甲油一样用洗甲水卸掉，只是时间更长。早期的甲油胶只能靠打磨去除。"
+      },
+      "lockPoint": {
+        "en": "Hybrid comes from Latin hybrida, a cross of two kinds: here, gel and regular polish.",
+        "zh": "hybrid 来自拉丁语 hybrida，意思是两种东西的“混种”：这里就是光疗胶和普通甲油的结合。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Hybrid Gels",
+          "pdfPage": 175,
+          "printedPage": "151"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 175,
+          "quote": "Hybrid gels are gel polishes that combine the best of the polish worlds. They have the durability and gloss of gels but can be removed like polishes with polish remover—although it takes longer."
+        },
+        {
+          "pdfPage": 175,
+          "quote": "Gel polishes originally had to be removed through abrasion."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-7c-06",
+      "question": {
+        "en": "How is the sticky inhibition layer removed from cured gel?",
+        "zh": "固化后光疗胶表面黏黏的浮胶层（inhibition layer）怎样去除？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Wipe with alcohol or nail cleanser",
+          "zh": "用酒精或甲面清洁剂擦掉"
+        },
+        {
+          "id": "b",
+          "en": "Soak in acetone for ten minutes",
+          "zh": "泡丙酮十分钟"
+        },
+        {
+          "id": "c",
+          "en": "Rinse it off with warm water",
+          "zh": "用温水冲掉"
+        },
+        {
+          "id": "d",
+          "en": "Buff it in with cuticle oil",
+          "zh": "用指缘油抛进去"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "The inhibition layer is uncured gel and/or leftover solvents that leave a tacky surface. Wipe it away with alcohol or nail cleanser on a lint-free wipe.",
+        "zh": "inhibition layer（浮胶层）是未固化的胶和/或残留溶剂，在表面留下黏黏的一层。用无尘纸蘸酒精或甲面清洁剂就能擦掉。"
+      },
+      "lockPoint": {
+        "en": "Inhibit comes from Latin inhibere, 'hold back': oxygen in the air holds back the cure, so the top stays tacky.",
+        "zh": "inhibit 来自拉丁语 inhibere（阻止）：空气中的氧气阻止表面固化，所以表层黏黏的，中文叫“浮胶”。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Finishing Gels",
+          "pdfPage": 382,
+          "printedPage": "358"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Supplies for Gel Application",
+          "pdfPage": 383,
+          "printedPage": "359"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 382,
+          "quote": "An inhibition layer (in-hih-BIH-shun LAY-er) consists of uncured gel and/or leftover solvents that create a tacky surface left on the nail after the gel has cured. The inhibition layer can be easily wiped away with a lint-free wipe soaked in cleaning solution or alcohol"
+        },
+        {
+          "pdfPage": 383,
+          "quote": "A nail cleanser is also used to remove the inhibition layer prior to filing the cured gel"
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-7c-07",
+      "question": {
+        "en": "Why is a soak-off gel topcoat used over gel polish?",
+        "zh": "为什么甲油胶上面要用可卸封层（soak-off gel topcoat）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Hard gel will not cure over color.",
+          "zh": "硬胶在色胶上无法固化。"
+        },
+        {
+          "id": "b",
+          "en": "Soak-off topcoats cure without a lamp.",
+          "zh": "可卸封层不用照灯。"
+        },
+        {
+          "id": "c",
+          "en": "Hard gel tops can crack as nails flex.",
+          "zh": "硬胶封层会在指甲弯曲时裂开。"
+        },
+        {
+          "id": "d",
+          "en": "Soak-off topcoats leave no shine.",
+          "zh": "可卸封层没有光泽。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "After gel polish, the nail is still flexible. A traditional hard finishing gel could crack on top of the color when the nail bends, so use a soak-off gel topcoat.",
+        "zh": "涂了甲油胶后，指甲仍然有弹性。传统硬胶封层可能在指甲弯曲时在色胶上裂开，所以要用可卸封层。"
+      },
+      "lockPoint": {
+        "en": "Paint a stiff coat over a rubber band, then stretch it: the stiff coat cracks.",
+        "zh": "在橡皮筋上涂一层硬漆，一拉就裂。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Finishing Gels",
+          "pdfPage": 382,
+          "printedPage": "358"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 382,
+          "quote": "When finishing soak-off polishes, you must use a soak-off gel topcoat. Because the nail is still flexible after using gel polish, a traditional finishing hard gel could crack on top of the color when the nail flexes."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-7c-08",
+      "question": {
+        "en": "Which gel is thick and used to build an arch or extension?",
+        "zh": "哪种胶很稠，用来做甲拱（arch）或延长？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Bonding gel",
+          "zh": "结合胶（bonding gel）"
+        },
+        {
+          "id": "b",
+          "en": "Building gel",
+          "zh": "建构胶/延长胶（building gel）"
+        },
+        {
+          "id": "c",
+          "en": "Finishing gel",
+          "zh": "封层胶（finishing gel）"
+        },
+        {
+          "id": "d",
+          "en": "Gel polish",
+          "zh": "甲油胶（gel polish）"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Building gels are thick-viscosity gels for building an arch or extension. Bonding gel helps adhesion, finishing gel adds shine, and gel polish replaces lacquer.",
+        "zh": "building gel（建构胶）是高黏度的胶，用来做拱形或延长。bonding gel（结合胶）帮助附着，finishing gel（封层胶）增加光泽，gel polish（甲油胶）用来代替普通甲油。"
+      },
+      "lockPoint": {
+        "en": "Like a house: bonding gel is the foundation, building gel the walls, finishing gel the paint.",
+        "zh": "像盖房子：结合胶是地基，建构胶是墙，封层胶是外墙漆。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Building Gels",
+          "pdfPage": 380,
+          "printedPage": "356"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Bonding Gels",
+          "pdfPage": 380,
+          "printedPage": "356"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Finishing Gels",
+          "pdfPage": 382,
+          "printedPage": "358"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Soak-Off Gel Polishes",
+          "pdfPage": 381,
+          "printedPage": "357"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 380,
+          "quote": "Building gels (BILL-ding JELLS) are thick-viscosity gels that allow the nail technician to build an arch or extension"
+        },
+        {
+          "pdfPage": 380,
+          "quote": "Gels need a primer, base gel, or bonding gel to increase adhesion to the natural nail plate."
+        },
+        {
+          "pdfPage": 382,
+          "quote": "Most finishing gels create a high shine"
+        },
+        {
+          "pdfPage": 381,
+          "quote": "Soak-off gel polishes are an alternative to traditional nail lacquers."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-7c-09",
+      "question": {
+        "en": "Compared with nonself-leveling gel, a self-leveling gel",
+        "zh": "和非自流平胶相比，自流平胶（self-leveling gel）怎样？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "is thicker and can leave bumps.",
+          "zh": "更稠，可能留下凹凸。"
+        },
+        {
+          "id": "b",
+          "en": "adds more thickness per coat.",
+          "zh": "每层加的厚度更多。"
+        },
+        {
+          "id": "c",
+          "en": "can never be used for building.",
+          "zh": "绝不能用来建构。"
+        },
+        {
+          "id": "d",
+          "en": "is more fluid and leaves the nail smooth.",
+          "zh": "更流动，能让甲面平滑。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "A self-leveling gel is more fluid and leaves the nail smooth. A nonself-leveling gel is very thick, can leave bumps, and adds more thickness.",
+        "zh": "self-leveling gel（自流平胶）更流动，能让甲面平滑。nonself-leveling gel（非自流平胶）很稠，可能留下凹凸，但加厚更多。"
+      },
+      "lockPoint": {
+        "en": "Like pancake batter poured in a pan: it spreads flat by itself.",
+        "zh": "像倒进平底锅的煎饼面糊：自己就摊平了。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Building Gels",
+          "pdfPage": 381,
+          "printedPage": "357"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 381,
+          "quote": "Building gels can be nonself-leveling or self-leveling. A nonself-leveling gel has a very thick viscosity and can leave the nail bumpy after being applied. A self-leveling gel is more fluid and can leave the nail smooth."
+        },
+        {
+          "pdfPage": 381,
+          "quote": "The self-leveling gels add thickness to the fingernail but typically not as much as a thicker-viscosity, nonself-leveling gel."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-7c-10",
+      "question": {
+        "en": "Polymer gel, also called polygel, is a mix of",
+        "zh": "polymer gel（聚合物胶），也叫 polygel，是什么的混合物？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "polymer powder and hard gel.",
+          "zh": "聚合物粉和硬胶。"
+        },
+        {
+          "id": "b",
+          "en": "monomer liquid and nail resin.",
+          "zh": "单体液和甲用树脂。"
+        },
+        {
+          "id": "c",
+          "en": "soft gel and acetone.",
+          "zh": "软胶和丙酮。"
+        },
+        {
+          "id": "d",
+          "en": "dip powder and activator.",
+          "zh": "浸粉和激活剂。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Polymer gels, also called polygel or acrygel, are made from polymer powder and hard gel. They are very thick and are filed off for removal.",
+        "zh": "polymer gel（聚合物胶），也叫 polygel 或 acrygel，由聚合物粉和硬胶混合而成。很稠，卸除时要锉掉。"
+      },
+      "lockPoint": {
+        "en": "Acry-gel = acrylic powder + gel in one tube: squeeze it out like toothpaste, cut it with a spatula.",
+        "zh": "acry-gel = 水晶粉（acrylic）+ 胶，装在一支管里。像挤牙膏一样挤出来，再用小铲切下。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Polymer Gels",
+          "pdfPage": 381,
+          "printedPage": "357"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 381,
+          "quote": "Polymer gels (PAWL-uh-mer JELZ) sometimes referred to as polygel or acrygel, are created from a mixture of polymer powder and hard gels."
+        },
+        {
+          "pdfPage": 381,
+          "quote": "Most of these types of gels come in a tube and the product is squeezed out like toothpaste."
+        },
+        {
+          "pdfPage": 381,
+          "quote": "it is removed like a traditional gel, by filing it away"
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-7c-11",
+      "question": {
+        "en": "Why must gel be kept away from windows and table lamps?",
+        "zh": "为什么光疗胶要远离窗户和台灯？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Light makes the gel runny.",
+          "zh": "光会让胶变稀。"
+        },
+        {
+          "id": "b",
+          "en": "Light fades the gel's color.",
+          "zh": "光会让胶褪色。"
+        },
+        {
+          "id": "c",
+          "en": "Light can cure it in the container.",
+          "zh": "光会让胶在瓶里固化。"
+        },
+        {
+          "id": "d",
+          "en": "Light gives gel a strong odor.",
+          "zh": "光会让胶产生强烈气味。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Gels are light cured. If a gel container is left open near a window or lamp, the gel can harden in the container. Store gels in a cabinet, away from heat and light.",
+        "zh": "光疗胶靠光固化。胶瓶开着放在窗边或灯旁，胶就会在瓶里变硬。要把胶放在柜子里，远离热源和光。"
+      },
+      "lockPoint": {
+        "en": "Sunlight contains UV, the same kind of light many curing lamps use.",
+        "zh": "阳光里含有紫外线（UV），很多固化灯用的也是这类光。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Storing Gels",
+          "pdfPage": 384,
+          "printedPage": "360"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 384,
+          "quote": "Do not leave your container of gel open and near a window or lamp. If the gel is exposed to these full-spectrum sources of light, it will cure in the container."
+        },
+        {
+          "pdfPage": 384,
+          "quote": "gel products must be stored in a cabinet when not in use, protected from heat and light"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-7c-12",
+      "question": {
+        "en": "Why should each finger be cured right after gel is applied?",
+        "zh": "为什么每个手指上完胶要马上照灯？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Gel air-dries within seconds.",
+          "zh": "胶几秒钟就会自然风干。"
+        },
+        {
+          "id": "b",
+          "en": "Finger heat makes the gel runnier.",
+          "zh": "手指的温度会让胶变稀。"
+        },
+        {
+          "id": "c",
+          "en": "The lamp must stay warm.",
+          "zh": "灯必须一直保持温热。"
+        },
+        {
+          "id": "d",
+          "en": "Uncured gel turns yellow.",
+          "zh": "未固化的胶会变黄。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Gel is temperature sensitive: thicker when cold and runnier when warm. Even finger heat affects it, so cure each finger right away, before gel runs onto the skin.",
+        "zh": "光疗胶对温度敏感：冷时稠，热时稀。连手指的温度都会影响它，所以每个手指上完胶要马上照灯，免得胶流到皮肤上。"
+      },
+      "lockPoint": {
+        "en": "Butter on a warm plate softens and slides. Gel on a warm finger does the same.",
+        "zh": "黄油放在热盘子上会软化、滑开，胶在温热的手指上也一样。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Using Gels",
+          "pdfPage": 384,
+          "printedPage": "360"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 384,
+          "quote": "During application, remember that gel is temperature sensitive. It's thicker when cold and runnier when warm. It will be affected by just the heat from your finger, so cure each finger immediately after applying the gel."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-7c-13",
+      "question": {
+        "en": "Gel polish is the best fit for a client who",
+        "zh": "甲油胶最适合哪种客人？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "changes color every few days.",
+          "zh": "每隔几天就换颜色。"
+        },
+        {
+          "id": "b",
+          "en": "wants to remove it easily at home.",
+          "zh": "想在家自己轻松卸掉。"
+        },
+        {
+          "id": "c",
+          "en": "wants a one-day extension.",
+          "zh": "只想戴一天的延长。"
+        },
+        {
+          "id": "d",
+          "en": "wears the same color for two weeks.",
+          "zh": "同一个颜色会戴两周。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Gel polish stays chip-free for about two weeks, so it suits a client who keeps one color. A client who changes color often is better with traditional polish, which comes off easily.",
+        "zh": "甲油胶能保持约两周不掉色，适合一直戴同一个颜色的客人。经常换颜色的客人更适合普通甲油，因为很容易卸。"
+      },
+      "lockPoint": {
+        "en": "Gel polish is hard the moment it leaves the lamp, so she can grab her phone and keys right away.",
+        "zh": "甲油胶一出灯就硬了，客人马上就能拿手机、找钥匙。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - When to Perform Gel Services",
+          "pdfPage": 386,
+          "printedPage": "362"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 386,
+          "quote": "If your client loves to change her polish color often, a traditional polish is best, as it's easily removed. If your client wears the same color for longer periods, she will appreciate a gel polish that will remain chip-free during two weeks of wear."
+        },
+        {
+          "pdfPage": 386,
+          "quote": "Because gel polish is hardened immediately, your client will be able to go back to her daily tasks immediately after her service is finished."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-7c-14",
+      "question": {
+        "en": "Which client is the poorest fit for hard gel extensions?",
+        "zh": "哪位客人最不适合做硬胶延长？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "One whose enhancements often lift",
+          "zh": "美甲经常起翘的客人"
+        },
+        {
+          "id": "b",
+          "en": "One who wants a crystal-clear look",
+          "zh": "想要晶莹透明效果的客人"
+        },
+        {
+          "id": "c",
+          "en": "One who wants nails for one weekend",
+          "zh": "只想在一个周末戴的客人"
+        },
+        {
+          "id": "d",
+          "en": "One who wants low odor",
+          "zh": "想要低气味的客人"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Hard gels can only be filed off, so they are a poor choice for a short-term extension. Clients love hard gel for clarity, low odor, and strength, and its adhesion suits lifters.",
+        "zh": "硬胶只能锉掉，所以不适合短期延长。客人喜欢硬胶晶莹透明、低气味、强度高，它的附着力也很适合容易起翘的客人。"
+      },
+      "lockPoint": {
+        "en": "A prom or wedding? Milady suggests resin systems: they soak off easily after a few days.",
+        "zh": "参加毕业舞会（prom）或婚礼？Milady 推荐树脂系统（nail resin system）：戴几天后就能轻松泡掉。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - When to Perform Gel Services",
+          "pdfPage": 385,
+          "printedPage": "361"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - When to Perform Gel Services",
+          "pdfPage": 386,
+          "printedPage": "362"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Types of Gels",
+          "pdfPage": 380,
+          "printedPage": "356"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Resin Systems - Nail Resins",
+          "pdfPage": 306,
+          "printedPage": "282"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 385,
+          "quote": "Since gels can only be filed off, they are not the best option for a short-term extension service."
+        },
+        {
+          "pdfPage": 386,
+          "quote": "Gel services have amazing adhesion and therefore are a perfect option for clients that lift easily."
+        },
+        {
+          "pdfPage": 380,
+          "quote": "Clients love hard gel extensions for their crystal clear appearance, low odor, and strength."
+        },
+        {
+          "pdfPage": 306,
+          "quote": "This makes them an excellent option for special events, such as proms and weddings"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-7c-15",
+      "question": {
+        "en": "A client wants extensions longer than the nail bed. Which product does Milady suggest?",
+        "zh": "客人想要比甲床还长的延长，Milady 建议用哪种产品？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Liquid and powder",
+          "zh": "水晶（liquid and powder）"
+        },
+        {
+          "id": "b",
+          "en": "Soak-off gel polish",
+          "zh": "甲油胶"
+        },
+        {
+          "id": "c",
+          "en": "A self-leveling soft gel",
+          "zh": "自流平软胶"
+        },
+        {
+          "id": "d",
+          "en": "Hard gel",
+          "zh": "硬胶（hard gel）"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "When the extension edge will be longer than the nail bed, Milady says to choose a stronger product, such as liquid and powder, instead of hard gel.",
+        "zh": "如果延长的前缘会比甲床还长，Milady 建议改用更坚固的产品，比如水晶（liquid and powder），而不是硬胶。"
+      },
+      "lockPoint": {
+        "en": "Gels can be made softer and more flexible than liquid and powder. A longer lever needs a stiffer product.",
+        "zh": "光疗胶可以做得比水晶更软、更有弹性。延长越长，像杠杆一样受力越大，越需要硬的产品。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - When to Perform Gel Services",
+          "pdfPage": 385,
+          "printedPage": "361"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Light-Cured Gels",
+          "pdfPage": 377,
+          "printedPage": "353"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 385,
+          "quote": "If the extension edge will be longer than the nail bed, choose a stronger product, such as liquid and powder."
+        },
+        {
+          "pdfPage": 377,
+          "quote": "Typically, gels are not as hard as liquid and powder nail enhancements because they can be formulated to be softer or more flexible than liquid and powder systems."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-7c-16",
+      "question": {
+        "en": "If gel cures inside your application brush, the brush",
+        "zh": "如果胶在笔刷里固化了，这支笔会怎样？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "is saved by a short acetone soak.",
+          "zh": "用丙酮泡一会儿就能救回来。"
+        },
+        {
+          "id": "b",
+          "en": "softens if cured a second time.",
+          "zh": "再照一次灯就会变软。"
+        },
+        {
+          "id": "c",
+          "en": "is ruined and cannot be repaired.",
+          "zh": "报废了，无法修复。"
+        },
+        {
+          "id": "d",
+          "en": "can be cleaned with cuticle oil.",
+          "zh": "用指缘油就能洗干净。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "If gel cures in your brush, it is ruined. Keep brushes covered from all light, and clean gel off with nail cleanser or alcohol on a wipe.",
+        "zh": "胶一旦在笔刷里固化，笔就报废了。笔刷要盖好、避开所有光源，用无尘纸蘸甲面清洁剂或酒精把胶擦掉。"
+      },
+      "lockPoint": {
+        "en": "Acrylic brush gone hard? Soak in acetone no more than 3 to 5 minutes. Gel brush gone hard? No rescue.",
+        "zh": "水晶笔硬了：泡丙酮不超过 3 到 5 分钟还能救。光疗笔硬了：救不回来。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Storing Gels",
+          "pdfPage": 384,
+          "printedPage": "360"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Nail Brush",
+          "pdfPage": 352,
+          "printedPage": "328"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 384,
+          "quote": "If your gel cures in your brush, it is ruined and cannot be repaired."
+        },
+        {
+          "pdfPage": 384,
+          "quote": "When the service is complete, cover your application brush from all sources of light. You can clean the gel off your brush using a wipe saturated in nail cleanser or alcohol."
+        },
+        {
+          "pdfPage": 352,
+          "quote": "If product does harden on the hairs, soak the brush in acetone for no more than three to five minutes"
+        }
+      ],
+      "hookType": "contrast"
+    },
+    {
+      "id": "nic-7c-17",
+      "question": {
+        "en": "What is the main job of a bonding gel?",
+        "zh": "结合胶（bonding gel）的主要作用是什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Helps gel stick to the natural nail",
+          "zh": "帮助光疗胶附着在真甲上"
+        },
+        {
+          "id": "b",
+          "en": "Adds a high shine at the end",
+          "zh": "最后增加高光泽"
+        },
+        {
+          "id": "c",
+          "en": "Builds the apex and arch",
+          "zh": "堆出甲峰和拱形"
+        },
+        {
+          "id": "d",
+          "en": "Removes the inhibition layer",
+          "zh": "去除浮胶层"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "A primer, base gel, or bonding gel increases adhesion to the natural nail plate. It is applied thinly and usually cured before the next gel goes on.",
+        "zh": "primer（结合剂）、base gel（底胶）或 bonding gel（结合胶）能增强在真甲上的附着。它涂得很薄，通常先固化，再上下一种胶。"
+      },
+      "lockPoint": {
+        "en": "In 结合胶, 结 = tie a knot and 合 = join: it ties the gel to the nail plate.",
+        "zh": "结合胶：结 = 打结，合 = 合在一起。它把胶和真甲牢牢系在一起。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Bonding Gels",
+          "pdfPage": 380,
+          "printedPage": "356"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 380,
+          "quote": "Gels need a primer, base gel, or bonding gel to increase adhesion to the natural nail plate."
+        },
+        {
+          "pdfPage": 380,
+          "quote": "Bonding or base gels vary in viscosity and are applied thinly to the nail. They usually then need to be cured."
+        }
+      ],
+      "hookType": "chinese-character"
+    },
+    {
+      "id": "nic-7c-18",
+      "question": {
+        "en": "Why is the color layer of gel polish easy to remove?",
+        "zh": "为什么甲油胶的色胶层容易卸除？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "It has no photoinitiator.",
+          "zh": "它不含光引发剂。"
+        },
+        {
+          "id": "b",
+          "en": "Its cross-linking is only medium.",
+          "zh": "它的交联程度只是中等。"
+        },
+        {
+          "id": "c",
+          "en": "It is never cured in a lamp.",
+          "zh": "它从来不需要照灯固化。"
+        },
+        {
+          "id": "d",
+          "en": "It already contains acetone.",
+          "zh": "它本身已经含有丙酮。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Gel polish color has a medium level of cross-linking, so it stays flexible and comes off easily. The tighter the cross-linking, the harder and stronger the gel.",
+        "zh": "甲油胶色胶层的 cross-linking（交联）程度中等，所以有弹性、容易卸除。交联越紧密，胶就越硬越牢。"
+      },
+      "lockPoint": {
+        "en": "Cross-links form a net. A loose net lets acetone slip through; a tight net keeps it out.",
+        "zh": "交联像一张网：网眼松，丙酮能钻进去；网眼紧，丙酮就进不去。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Chemistry of Gels",
+          "pdfPage": 378,
+          "printedPage": "354"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 378,
+          "quote": "Gel polish is applied in layers. The color layer has a medium level of cross-linking"
+        },
+        {
+          "pdfPage": 378,
+          "quote": "which makes it flexible and easily removed"
+        },
+        {
+          "pdfPage": 378,
+          "quote": "Think of the cross-linking as a netlike structure. The tighter the net, the harder and stronger the gel."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-7c-19",
+      "question": {
+        "en": "A tack-free finishing gel cures",
+        "zh": "免洗封层（tack-free finishing gel）固化后是什么样？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "with a sticky layer to wipe off.",
+          "zh": "有一层要擦掉的黏层。"
+        },
+        {
+          "id": "b",
+          "en": "dull, so it must be buffed.",
+          "zh": "哑光，必须抛光。"
+        },
+        {
+          "id": "c",
+          "en": "soft, so it soaks off fast.",
+          "zh": "很软，能很快泡掉。"
+        },
+        {
+          "id": "d",
+          "en": "shiny, with no inhibition layer.",
+          "zh": "有光泽，没有浮胶层。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "There are two finishing gels: one cures with a sticky inhibition layer that must be cleaned, and a tack-free one that cures to a high shine without it.",
+        "zh": "finishing gel（封层胶）有两种：一种固化后有黏黏的浮胶层，需要擦掉；另一种 tack-free（免洗）的固化后直接高亮，没有浮胶层。"
+      },
+      "lockPoint": {
+        "en": "Tacky = sticky, like the glue side of tape. Tack-free = never sticky, the 免洗 (no-wipe) kind.",
+        "zh": "tacky = 黏手，像胶带有胶的那一面。tack-free = 不黏手，中文就叫“免洗封层”。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Finishing Gels",
+          "pdfPage": 382,
+          "printedPage": "358"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 382,
+          "quote": "There are two types of finishing gels: one cures with a sticky inhibition layer that requires cleaning; the other is a tack-free gel that cures to a high shine without the inhibition layer."
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-7c-20",
+      "question": {
+        "en": "What kind of brush is used to apply gel?",
+        "zh": "上光疗胶用哪种笔刷？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Large kolinsky brush",
+          "zh": "大号貂毛笔"
+        },
+        {
+          "id": "b",
+          "en": "Small nylon brush",
+          "zh": "小号尼龙笔"
+        },
+        {
+          "id": "c",
+          "en": "Foam sponge applicator",
+          "zh": "海绵头涂抹棒"
+        },
+        {
+          "id": "d",
+          "en": "Wide fan brush",
+          "zh": "宽扇形刷"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Gel brushes have small, flat or oval nylon bristles that hold and spread the gel. Liquid and powder uses natural hair, which holds monomer well.",
+        "zh": "gel brush（光疗笔）是小号、扁平或椭圆的尼龙毛，用来挑胶和铺胶。水晶甲则用天然毛笔，能更好地吸住单体液。"
+      },
+      "lockPoint": {
+        "en": "Nylon is the same tough synthetic used in most toothbrush bristles.",
+        "zh": "尼龙就是大多数牙刷毛用的那种结实的合成材料。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Gel Nail Enhancements - Supplies for Gel Application",
+          "pdfPage": 383,
+          "printedPage": "359"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Nail Brush",
+          "pdfPage": 351,
+          "printedPage": "327"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 383,
+          "quote": "Application brush. Brushes with small, flat (or oval) nylon bristles that are used to hold and spread the gel."
+        },
+        {
+          "pdfPage": 351,
+          "quote": "The best nail brush to use for liquid and powder enhancements is a natural hairbrush composed of kolinsky, sable, or a blend of both."
+        }
+      ],
+      "hookType": "real-life"
+    }
+  ]
+}

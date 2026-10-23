@@ -1,0 +1,1302 @@
+{
+  "schemaVersion": "1.0.0",
+  "setId": "6D",
+  "domain": {
+    "id": "manicure-pedicure",
+    "order": 6,
+    "title": {
+      "en": "Manicure and Pedicure Services",
+      "zh": "手部与足部护理服务"
+    },
+    "examWeightPercent": 18
+  },
+  "title": {
+    "en": "Polish and Add-On Services",
+    "zh": "上甲油与附加服务"
+  },
+  "status": "reviewed",
+  "authoredAt": "2026-10-22",
+  "sourceBook": "Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020)",
+  "review": {
+    "reviewedAt": "2026-10-23",
+    "checks": [
+      "quotes found on cited pages (verify-nic-domain-evidence.py)",
+      "blind answer check: 20/20 matched key (changed stems and choices re-checked blind)",
+      "content and Chinese review: fixes applied, re-reviewed after changes",
+      "memory hooks fact-checked (word origins, textbook facts): fixes applied",
+      "overlap check against sibling sets 1B, 4A, 5A, 5B, 5C: overlapping items replaced"
+    ]
+  },
+  "questions": [
+    {
+      "id": "nic-6d-01",
+      "question": {
+        "en": "How many coats of color go between the base coat and topcoat?",
+        "zh": "底油和亮油之间要涂几层彩色甲油？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "One",
+          "zh": "一层"
+        },
+        {
+          "id": "b",
+          "en": "Three",
+          "zh": "三层"
+        },
+        {
+          "id": "c",
+          "en": "Four",
+          "zh": "四层"
+        },
+        {
+          "id": "d",
+          "en": "Two",
+          "zh": "两层"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Milady's most successful application is four coats: base coat, two coats of color, then one topcoat. Building layers improves adhesion and staying power.",
+        "zh": "Milady 认为最成功的上甲油方式共四层：底油（base coat）、两层彩色甲油、最后一层亮油（topcoat）。层层叠加能提高附着力和持久度。"
+      },
+      "lockPoint": {
+        "en": "Sandwich: base coat and topcoat are the bread, two color coats the filling: 1 + 2 + 1.",
+        "zh": "三明治：底油和亮油是面包，两层彩色甲油是馅：1 + 2 + 1。"
+      },
+      "teachingRelation": "sequence",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Outline the Steps in the Application of Nail Polish",
+          "pdfPage": 183,
+          "printedPage": "159"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 183,
+          "quote": "The most successful nail polish application is achieved by applying a total of four coats."
+        },
+        {
+          "pdfPage": 183,
+          "quote": "The first, the base coat, is followed by two coats of polish color and one application of topcoat to give a protective seal."
+        },
+        {
+          "pdfPage": 183,
+          "quote": "By building layer upon layer, you will improve its adhesion and staying power."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-6d-02",
+      "question": {
+        "en": "Why is a base coat applied before colored polish?",
+        "zh": "为什么上彩色甲油之前要先涂底油（base coat）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "To add a glossy finish",
+          "zh": "增加光泽"
+        },
+        {
+          "id": "b",
+          "en": "To help polish adhere and prevent staining",
+          "zh": "帮助甲油附着并防止染色"
+        },
+        {
+          "id": "c",
+          "en": "To make polish dry faster",
+          "zh": "让甲油干得更快"
+        },
+        {
+          "id": "d",
+          "en": "To soften the cuticle",
+          "zh": "软化死皮"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "A base coat helps colored polish adhere to the nail plate and keeps it from staining the nail. Red and dark colors are the most likely to stain.",
+        "zh": "底油能帮助彩色甲油附着在甲板上，并防止甲油把指甲染色。红色和深色最容易染色。"
+      },
+      "lockPoint": {
+        "en": "Like primer under wall paint: it grips the surface and blocks stains.",
+        "zh": "就像刷墙前的底漆：抓牢表面，又能挡住染色。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-3 Performing a Basic Manicure",
+          "pdfPage": 205,
+          "printedPage": "181"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Base Coat",
+          "pdfPage": 176,
+          "printedPage": "152"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 205,
+          "quote": "Apply a base coat to keep the polish from staining the nails and to help colored polish adhere to the nail plate."
+        },
+        {
+          "pdfPage": 176,
+          "quote": "some nail plates are especially susceptible to stains from red or dark colors."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-6d-03",
+      "question": {
+        "en": "In the three-stroke method, where does the first stroke go?",
+        "zh": "三笔涂法（three-stroke method）中，第一笔涂在哪里？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Down the center of the nail",
+          "zh": "指甲正中间往下"
+        },
+        {
+          "id": "b",
+          "en": "Along the left side",
+          "zh": "沿左侧"
+        },
+        {
+          "id": "c",
+          "en": "Across the free edge",
+          "zh": "横过游离缘"
+        },
+        {
+          "id": "d",
+          "en": "Along the cuticle line",
+          "zh": "沿死皮线"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Start at the center, push the brush back slightly to round the edge near the cuticle, then pull it down the middle. Then make one stroke on each side.",
+        "zh": "从中间下笔，先把刷子稍微往后推，让靠近死皮处的边缘呈圆弧，再沿中间往下拉。然后两侧各涂一笔。"
+      },
+      "lockPoint": {
+        "en": "Frosted or iridescent polish? Keep strokes light and parallel to the sidewalls to avoid shadow lines.",
+        "zh": "珠光（frosted）或幻彩（iridescent）甲油：笔触要轻，并与甲侧壁平行，才不会留下阴影线。"
+      },
+      "teachingRelation": "sequence",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Outline the Steps in the Application of Nail Polish",
+          "pdfPage": 183,
+          "printedPage": "159"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-4 Polishing the Nails",
+          "pdfPage": 206,
+          "printedPage": "182"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 183,
+          "quote": "Apply one light stroke of polish down the middle and one on each side of the nail."
+        },
+        {
+          "pdfPage": 183,
+          "quote": "This allows full polish coverage over the entire nail plate."
+        },
+        {
+          "pdfPage": 206,
+          "quote": "Pull the brush toward the free edge of the nail, down the center."
+        },
+        {
+          "pdfPage": 183,
+          "quote": "you must make sure the strokes are light and parallel to the sidewalls of the nail to avoid shadow lines in the polish."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-6d-04",
+      "question": {
+        "en": "Why should polish not touch the eponychium?",
+        "zh": "为什么甲油不能碰到甲上皮（eponychium）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "It stains the skin permanently",
+          "zh": "会让皮肤永久染色"
+        },
+        {
+          "id": "b",
+          "en": "It slows nail growth",
+          "zh": "会让指甲长得慢"
+        },
+        {
+          "id": "c",
+          "en": "Skin oils can make the polish lift",
+          "zh": "皮肤油脂会让甲油翘起"
+        },
+        {
+          "id": "d",
+          "en": "It dries too fast there",
+          "zh": "那里干得太快"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Natural oils from the skin can make polish lift within a few days if the polish touches the skin. Leave a tiny, rounded area of unpolished nail at the back.",
+        "zh": "如果甲油碰到皮肤，皮肤的天然油脂会让甲油在几天内翘起。在指甲后端留一小圈圆弧形的空白。"
+      },
+      "lockPoint": {
+        "en": "Milady's starting point: set the brush about 1/8 inch (3 mm) from the cuticle area, then fan it back.",
+        "zh": "Milady 的起笔位置：刷子放在离死皮区约 1/8 英寸（约 3 毫米）处，轻压让刷毛呈扇形，再往后推。"
+      },
+      "teachingRelation": "cause-effect",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Here's a Tip (polish application)",
+          "pdfPage": 183,
+          "printedPage": "159"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-4 Polishing the Nails",
+          "pdfPage": 206,
+          "printedPage": "182"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 183,
+          "quote": "Natural oils from your skin can cause the polish to lift within a few days after the application if the polish is against the skin."
+        },
+        {
+          "pdfPage": 206,
+          "quote": "Leave a tiny, rounded area of unpolished nail at the back of the nail."
+        },
+        {
+          "pdfPage": 206,
+          "quote": "Place the tip of the brush on the nail, 1/8” (0.31 cm) away from the cuticle area in the center of the nail."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-6d-05",
+      "question": {
+        "en": "Running the brush along the free edge to reduce chipping is called",
+        "zh": "用刷子沿游离缘刷一下以减少剥落，这叫什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "fanning.",
+          "zh": "扇形压刷（fanning）。"
+        },
+        {
+          "id": "b",
+          "en": "beveling.",
+          "zh": "倒斜边（beveling）。"
+        },
+        {
+          "id": "c",
+          "en": "capping.",
+          "zh": "包边（capping）。"
+        },
+        {
+          "id": "d",
+          "en": "feathering.",
+          "zh": "羽化（feathering）。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "After the first coat, move the brush lightly back and forth on the very end of the free edge. This tip sealing, or capping, reduces chipping. Coat the free edge with topcoat too.",
+        "zh": "第一层涂完后，用刷子在游离缘最末端轻轻来回刷。这叫 tip sealing（封边）或 capping（包边），能减少剥落。亮油也要包到游离缘。"
+      },
+      "lockPoint": {
+        "en": "Cap the first color coat and the topcoat; the second color coat skips the tip.",
+        "zh": "第一层彩色甲油和亮油都要包边；第二层彩色甲油不用再刷指尖。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-4 Polishing the Nails",
+          "pdfPage": 207,
+          "printedPage": "183"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 207,
+          "quote": "This is called tip sealing, or capping, and it reduces chipping and layering on the free edges."
+        },
+        {
+          "pdfPage": 207,
+          "quote": "Be sure to coat the free edge of the nail with the topcoat as well."
+        },
+        {
+          "pdfPage": 207,
+          "quote": "With the second coat, do not fan the brush or reapply to the tip."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-6d-06",
+      "question": {
+        "en": "Why is base coat applied to the dominant hand first?",
+        "zh": "为什么先给顾客的惯用手涂底油？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "It has larger nails",
+          "zh": "惯用手的指甲比较大"
+        },
+        {
+          "id": "b",
+          "en": "Its polish needs extra coats",
+          "zh": "惯用手要多涂几层"
+        },
+        {
+          "id": "c",
+          "en": "Clients prefer it that way",
+          "zh": "顾客喜欢这样"
+        },
+        {
+          "id": "d",
+          "en": "It gets a head start on drying",
+          "zh": "惯用手可以先开始晾干"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Apply base coat to the dominant hand first, then place it in a cool dryer while you work on the other hand. The most-used hand gets a head start drying and smudges less.",
+        "zh": "先给惯用手（dominant hand）涂底油，涂完放进冷风烘干机，再做另一只手。最常用的手先开始晾干，就不容易弄花。"
+      },
+      "lockPoint": {
+        "en": "Keep it thin: Milady's step 1 is a thin layer of base coat over the entire nail plate.",
+        "zh": "要薄：Milady 第 1 步就是在整个甲板上涂薄薄一层底油。"
+      },
+      "teachingRelation": "sequence",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-4 Polishing the Nails",
+          "pdfPage": 206,
+          "printedPage": "182"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 206,
+          "quote": "Apply a thin layer of base coat on the entire plate of the nails on the dominant hand."
+        },
+        {
+          "pdfPage": 206,
+          "quote": "This will give the most-used hand a head start in drying and reduce the likelihood of smudging."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-6d-07",
+      "question": {
+        "en": "What is the minimum drying time for traditional polish?",
+        "zh": "传统甲油最少需要晾干多久？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "1 minute",
+          "zh": "1 分钟"
+        },
+        {
+          "id": "b",
+          "en": "10 minutes",
+          "zh": "10 分钟"
+        },
+        {
+          "id": "c",
+          "en": "3 minutes",
+          "zh": "3 分钟"
+        },
+        {
+          "id": "d",
+          "en": "60 minutes",
+          "zh": "60 分钟"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "After polishing, seat the client at a separate table under a nail dryer or away from your station. Traditional polish needs at least 10 minutes; gel polish follows the maker's directions.",
+        "zh": "上完甲油后，请顾客到另一张桌子用烘干机，或坐在离你工作台远一点的地方。传统甲油至少要晾 10 分钟；凝胶甲油按厂家说明。"
+      },
+      "lockPoint": {
+        "en": "Polish dries as its solvents evaporate. A dryer's moving air speeds that up.",
+        "zh": "甲油变干靠的是溶剂挥发。烘干机吹出的气流能让挥发更快。"
+      },
+      "teachingRelation": "number",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-4 Polishing the Nails",
+          "pdfPage": 207,
+          "printedPage": "183"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Electric Nail Polish Dryer",
+          "pdfPage": 163,
+          "printedPage": "139"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 207,
+          "quote": "The drying time should be 10 minutes, at a minimum, for traditional polish."
+        },
+        {
+          "pdfPage": 163,
+          "quote": "Electric dryers have heaters and fans that blow air onto the nail plates to speed the evaporation of solvents from nail polishes"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-6d-08",
+      "question": {
+        "en": "How should a bottle of polish be mixed?",
+        "zh": "一瓶甲油应该怎么摇匀？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Roll it upside down between the palms",
+          "zh": "倒过来在两掌之间滚动"
+        },
+        {
+          "id": "b",
+          "en": "Shake it hard for a minute",
+          "zh": "用力摇一分钟"
+        },
+        {
+          "id": "c",
+          "en": "Stir it with a wooden pusher",
+          "zh": "用木推棒搅拌"
+        },
+        {
+          "id": "d",
+          "en": "Tap it on the table",
+          "zh": "在桌上敲一敲"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Never shake polish. Shaking traps air that forms bubbles and makes the finish look rough. Gently roll the bottle upside down between your palms instead.",
+        "zh": "绝不要摇甲油。摇晃会把空气困在瓶里形成气泡，让涂出来的效果粗糙。应该把瓶子倒过来，在两掌之间轻轻滚动。"
+      },
+      "lockPoint": {
+        "en": "Must shake? Shake gently, open to let air out, recap, and wait at least 30 minutes.",
+        "zh": "实在要摇，就轻轻摇，开盖放气，再盖好，至少等 30 分钟才涂。"
+      },
+      "teachingRelation": "action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Did You Know? (mixing polish)",
+          "pdfPage": 175,
+          "printedPage": "151"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 175,
+          "quote": "Never shake your polish bottles."
+        },
+        {
+          "pdfPage": 175,
+          "quote": "Shaking your polish traps air inside the bottle, which produces air bubbles"
+        },
+        {
+          "pdfPage": 175,
+          "quote": "gently roll the polish bottles upside down between your palms to thoroughly mix."
+        },
+        {
+          "pdfPage": 175,
+          "quote": "If you must shake your polish, do so gently then open it to allow some of the air to escape."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-6d-09",
+      "question": {
+        "en": "Before polish is applied, what should the client do?",
+        "zh": "上甲油之前，顾客应该先做什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Put on jewelry and get car keys ready",
+          "zh": "戴好首饰，准备好车钥匙"
+        },
+        {
+          "id": "b",
+          "en": "Wash their hands again",
+          "zh": "再洗一次手"
+        },
+        {
+          "id": "c",
+          "en": "Take off all their rings",
+          "zh": "把戒指全部摘下"
+        },
+        {
+          "id": "d",
+          "en": "Soak the nails once more",
+          "zh": "再泡一次指甲"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Ask the client to put on jewelry and outerwear and get car keys ready before polishing. If possible, have them pay now too. This prevents smudging the fresh polish.",
+        "zh": "上甲油前，请顾客戴好首饰、穿好外套，准备好车钥匙。可以的话，先付款。这样能避免弄花刚涂好的甲油。"
+      },
+      "lockPoint": {
+        "en": "Picture wet polish meeting a zipper, a purse clasp, or a ring. Do all of that before the color.",
+        "zh": "想象刚涂好的甲油碰到拉链、包扣或戒指。这些事都要在上色之前做完。"
+      },
+      "teachingRelation": "sequence",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-4 Polishing the Nails",
+          "pdfPage": 206,
+          "printedPage": "182"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 206,
+          "quote": "Before applying polish, ask your client to put on any jewelry and outerwear that they may have taken off before the service."
+        },
+        {
+          "pdfPage": 206,
+          "quote": "this will prevent smudging to the freshly applied polish."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-6d-10",
+      "question": {
+        "en": "In a French manicure, the curved line where the pink and white meet is the",
+        "zh": "法式美甲（French manicure）中，粉色和白色交界的弧线叫什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "free edge.",
+          "zh": "游离缘（free edge）。"
+        },
+        {
+          "id": "b",
+          "en": "lunula.",
+          "zh": "甲半月（lunula）。"
+        },
+        {
+          "id": "c",
+          "en": "smile line.",
+          "zh": "微笑线（smile line）。"
+        },
+        {
+          "id": "d",
+          "en": "stress area.",
+          "zh": "受力区（stress area）。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "In a traditional French manicure, the nail bed is one color, such as pink, and the free edge is another, such as white. The curve where they meet is the smile line.",
+        "zh": "传统法式美甲中，甲床部分是一种颜色（例如粉色），游离缘是另一种颜色（例如白色）。两色交界的弧线叫 smile line（微笑线）。"
+      },
+      "lockPoint": {
+        "en": "The white tip curves up at both sides, like a smile.",
+        "zh": "白色指尖两侧向上弯，就像一个微笑。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Art - The French Manicure",
+          "pdfPage": 419,
+          "printedPage": "395"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 419,
+          "quote": "The curved line where the pink and the white meet on the nail is called the smile line"
+        },
+        {
+          "pdfPage": 419,
+          "quote": "the nail bed is one color—such as pink, peach, or beige (depending upon the client’s skin tone)—and the free edge of the nail is another color, such as white."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-6d-11",
+      "question": {
+        "en": "A swirled look made by mixing wet polish colors with a stylus is",
+        "zh": "用点花笔（stylus）把未干的几种甲油颜色搅出漩涡效果，这叫什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "color blocking.",
+          "zh": "色块拼接（color blocking）。"
+        },
+        {
+          "id": "b",
+          "en": "ombre.",
+          "zh": "渐变（ombre）。"
+        },
+        {
+          "id": "c",
+          "en": "a French manicure.",
+          "zh": "法式美甲。"
+        },
+        {
+          "id": "d",
+          "en": "marbleizing.",
+          "zh": "大理石纹（marbleizing）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Marbleizing combines two or more colors while they are wet and swirls them on the nail with a stylus, a tool with a rounded ball tip on each end.",
+        "zh": "marbleizing（大理石纹）是把两种或以上未干的颜色，用 stylus（点花笔，两端都是圆球头的工具）在指甲上搅出漩涡。"
+      },
+      "lockPoint": {
+        "en": "Like the swirls in a marble countertop: colors pulled into each other.",
+        "zh": "就像大理石台面上的纹路：几种颜色互相拉扯交融。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Art - Polish Techniques",
+          "pdfPage": 419,
+          "printedPage": "395"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 419,
+          "quote": "Marbleizing (MAR-bul-eye-zing) is a swirled effect created when you combine two or more colors while they are wet and then mix them on"
+        },
+        {
+          "pdfPage": 419,
+          "quote": "the nail with a tool known as a stylus."
+        },
+        {
+          "pdfPage": 419,
+          "quote": "has a solid handle with a rounded ball tip on each end"
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-6d-12",
+      "question": {
+        "en": "Paraffin wax treatment should be avoided on a client with",
+        "zh": "哪种顾客应避免做蜡疗（paraffin wax treatment）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "dry, rough skin.",
+          "zh": "皮肤干燥粗糙。"
+        },
+        {
+          "id": "b",
+          "en": "impaired circulation.",
+          "zh": "血液循环不良。"
+        },
+        {
+          "id": "c",
+          "en": "arthritis pain.",
+          "zh": "关节炎疼痛。"
+        },
+        {
+          "id": "d",
+          "en": "callused hands.",
+          "zh": "手上有老茧。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Avoid paraffin on clients with impaired circulation or skin irritations such as cuts, burns, rashes, warts, or eczema. Dry skin, calluses, and arthritis pain are reasons clients enjoy it.",
+        "zh": "血液循环不良，或有割伤、烧伤、皮疹、疣、湿疹等皮肤问题的顾客，要避免蜡疗。皮肤干燥、老茧和关节炎疼痛反而是顾客喜欢蜡疗的原因。"
+      },
+      "lockPoint": {
+        "en": "Seniors and chronically ill clients: ask for a written physician's permission before paraffin.",
+        "zh": "老年人和慢性病顾客：做蜡疗前，请他们先带医生的书面许可来。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Paraffin Wax Treatments",
+          "pdfPage": 189,
+          "printedPage": "165"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Paraffin Before a Manicure / Stand-Alone Service",
+          "pdfPage": 191,
+          "printedPage": "167"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Paraffin Wax Treatments",
+          "pdfPage": 190,
+          "printedPage": "166"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 189,
+          "quote": "Avoid paraffin treatments on clients who have impaired circulation or skin irritations such as cuts, burns, rashes, warts, or eczema."
+        },
+        {
+          "pdfPage": 191,
+          "quote": "It is a way to soften rough or callused skin."
+        },
+        {
+          "pdfPage": 191,
+          "quote": "the heat provides pain relief for those with arthritis."
+        },
+        {
+          "pdfPage": 190,
+          "quote": "Ask these clients to bring a written physician’s permission prior to having a paraffin treatment."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-6d-13",
+      "question": {
+        "en": "Why is a client's hand not dipped into the paraffin tub?",
+        "zh": "为什么不能把顾客的手直接伸进蜡疗机（paraffin tub）里？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "The wax would cool too fast",
+          "zh": "蜡会冷得太快"
+        },
+        {
+          "id": "b",
+          "en": "Dipping uses too much wax",
+          "zh": "浸进去太费蜡"
+        },
+        {
+          "id": "c",
+          "en": "It puts clients at risk of infection",
+          "zh": "会让顾客有感染风险"
+        },
+        {
+          "id": "d",
+          "en": "The tub is not hot enough",
+          "zh": "蜡疗机温度不够"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Dipping a client's hand into the tub puts clients at risk for infection. Scoop the paraffin out, for example into a bag, and throw away wax after it is used.",
+        "zh": "把顾客的手直接伸进蜡疗机，会让顾客有感染风险。要把蜡舀出来使用（例如装进袋子里），用过的蜡要丢掉。"
+      },
+      "lockPoint": {
+        "en": "Like double-dipping a chip in a shared bowl: everyone after you shares your germs.",
+        "zh": "就像把咬过的薯片再蘸公用酱料：后面的人都会沾上你的细菌。"
+      },
+      "teachingRelation": "safety-reason",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Paraffin Wax Treatments",
+          "pdfPage": 190,
+          "printedPage": "166"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Paraffin Treatment",
+          "pdfPage": 164,
+          "printedPage": "140"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Paraffin Wax Treatments",
+          "pdfPage": 191,
+          "printedPage": "167"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 190,
+          "quote": "Because of infection control concerns, dipping a client’s hands into the paraffin tub puts your client at risk for infection."
+        },
+        {
+          "pdfPage": 164,
+          "quote": "You should never dip a client’s hand or foot directly into the paraffin tub."
+        },
+        {
+          "pdfPage": 191,
+          "quote": "Once paraffin wax is used on a client it becomes contaminated and must never be reused!"
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-6d-14",
+      "question": {
+        "en": "How is heat tolerance tested before a client's first paraffin treatment?",
+        "zh": "顾客第一次做蜡疗前，怎么测试能不能耐受温度？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Drop a small wax patch on the skin",
+          "zh": "在皮肤上滴一小片蜡"
+        },
+        {
+          "id": "b",
+          "en": "Dip one fingertip into the tub",
+          "zh": "把一个指尖伸进蜡疗机"
+        },
+        {
+          "id": "c",
+          "en": "Check the tub's thermostat only",
+          "zh": "只看蜡疗机的温控器"
+        },
+        {
+          "id": "d",
+          "en": "Ask the client to touch the tub",
+          "zh": "请顾客摸一下蜡疗机"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Test heat tolerance on every client the first time. Drop a patch of wax about 1 inch (2.5 cm) across on the skin to see if the temperature can be tolerated.",
+        "zh": "每位顾客第一次做都要测试耐热度。在皮肤上滴一片直径约 1 英寸（2.5 厘米）的蜡，看顾客能否耐受这个温度。"
+      },
+      "lockPoint": {
+        "en": "Like testing a baby's bottle on your wrist before feeding: try a little first.",
+        "zh": "就像喂奶前先滴几滴奶在手腕上试温：先试一小点。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Paraffin Wax Treatments",
+          "pdfPage": 190,
+          "printedPage": "166"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 190,
+          "quote": "A test for heat tolerance is performed on all clients the first time they have the service."
+        },
+        {
+          "pdfPage": 190,
+          "quote": "Drop a patch of wax about 1” (2.5 cm) in diameter on the client’s skin to see if the temperatures can be tolerated."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-6d-15",
+      "question": {
+        "en": "When paraffin goes over a mask or lotion during a manicure, it is applied",
+        "zh": "修手中把蜡敷在面膜或乳液上时，在什么时候做？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "while the base coat is still wet.",
+          "zh": "底油还没干的时候。"
+        },
+        {
+          "id": "b",
+          "en": "after the massage, before polishing.",
+          "zh": "按摩之后、上甲油之前。"
+        },
+        {
+          "id": "c",
+          "en": "after the topcoat dries.",
+          "zh": "亮油干了之后。"
+        },
+        {
+          "id": "d",
+          "en": "before the nails are filed.",
+          "zh": "锉指甲之前。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Many spa manicures add paraffin over a mask or lotion as an extra treatment, after the massage and before polishing.",
+        "zh": "很多水疗修手在按摩之后、上甲油之前，加做一项护理：把蜡敷在面膜或乳液上。"
+      },
+      "lockPoint": {
+        "en": "Paraffin before the manicure lets you polish right away, but then it can't go over lotion or a mask.",
+        "zh": "修手前先做蜡疗，结束后可以马上上甲油，但就不能敷在乳液或面膜上。"
+      },
+      "teachingRelation": "sequence",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Paraffin During a Manicure",
+          "pdfPage": 191,
+          "printedPage": "167"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 191,
+          "quote": "such as paraffin wax over a mask or lotion, that are performed after the massage and before polishing."
+        },
+        {
+          "pdfPage": 191,
+          "quote": "It allows the client to have their nails polished immediately at the end of the manicure service."
+        }
+      ],
+      "hookType": "contrast"
+    },
+    {
+      "id": "nic-6d-16",
+      "question": {
+        "en": "According to Milady, what do all spa manicures include?",
+        "zh": "根据 Milady，所有水疗修手都包含什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "A paraffin treatment",
+          "zh": "蜡疗"
+        },
+        {
+          "id": "b",
+          "en": "Hot stones",
+          "zh": "热石"
+        },
+        {
+          "id": "c",
+          "en": "Electric mitts",
+          "zh": "电热手套"
+        },
+        {
+          "id": "d",
+          "en": "Some form of exfoliation",
+          "zh": "某种形式的去角质"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Most spa manicures include a relaxing massage, and all contain some form of exfoliation to smooth the skin and help professional products penetrate.",
+        "zh": "大多数水疗修手包含放松按摩，而所有水疗修手都有某种形式的去角质（exfoliation），让皮肤光滑，并帮助专业产品渗透。"
+      },
+      "lockPoint": {
+        "en": "Exfoliate: Latin ex = off, folium = leaf. Dead skin comes off like falling leaves.",
+        "zh": "exfoliate：拉丁语 ex = 脱落，folium = 叶子。死皮像落叶一样脱落。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Spa Manicure vs Basic Manicure",
+          "pdfPage": 187,
+          "printedPage": "163"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 187,
+          "quote": "Most include a relaxing massage, and all contain some form of exfoliation for polishing and smoothing the skin as well as enhancing the penetration of professional products."
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-6d-17",
+      "question": {
+        "en": "Why should overly abrasive scrubs be avoided?",
+        "zh": "为什么要避免使用颗粒太粗的磨砂膏？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "They dry out the polish",
+          "zh": "会让甲油变干"
+        },
+        {
+          "id": "b",
+          "en": "They leave tiny scratches germs can enter",
+          "zh": "会留下病菌能进入的细小划痕"
+        },
+        {
+          "id": "c",
+          "en": "They soften calluses too much",
+          "zh": "会把老茧软化过头"
+        },
+        {
+          "id": "d",
+          "en": "They stain the toenails",
+          "zh": "会把脚趾甲染色"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Very abrasive scrubs can leave tiny, invisible scratches in the skin. These openings are portals of entry for disease-causing microorganisms.",
+        "zh": "颗粒太粗的磨砂膏会在皮肤上留下看不见的细小划痕。这些开口是致病微生物的入口（portals of entry）。"
+      },
+      "lockPoint": {
+        "en": "Portal comes from Latin porta, \"gate.\" Each tiny scratch is a gate left open for germs.",
+        "zh": "portal 来自拉丁语 porta，意思是“门”。每一道细小划痕，都是给病菌留的一扇门。"
+      },
+      "teachingRelation": "safety-reason",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Did You Know? (abrasive scrubs)",
+          "pdfPage": 225,
+          "printedPage": "201"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 225,
+          "quote": "Avoid excessively abrasive scrubs since they may leave tiny, invisible scratches on clients’ skin that can be portals of entry for pathogenic microorganisms."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-6d-18",
+      "question": {
+        "en": "How long is a foot mask usually left on the skin?",
+        "zh": "足膜（mask）通常在皮肤上停留多久？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "About 30 seconds",
+          "zh": "约 30 秒"
+        },
+        {
+          "id": "b",
+          "en": "30 to 45 minutes",
+          "zh": "30 到 45 分钟"
+        },
+        {
+          "id": "c",
+          "en": "5 to 10 minutes",
+          "zh": "5 到 10 分钟"
+        },
+        {
+          "id": "d",
+          "en": "Overnight",
+          "zh": "一整夜"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "A mask is a concentrated treatment product, often with clays and moisturizers. It stays on the skin for 5 to 10 minutes so the beneficial ingredients can penetrate.",
+        "zh": "mask（足膜，也写作 masque）是浓缩护理产品，常含矿物泥和保湿成分。它在皮肤上停留 5 到 10 分钟，让有益成分渗透。"
+      },
+      "lockPoint": {
+        "en": "Foot masks often feel cool: Milady names menthol, mint, and cucumber as popular ingredients.",
+        "zh": "足膜常常凉凉的：Milady 提到薄荷醇、薄荷和黄瓜都是常见成分。"
+      },
+      "teachingRelation": "number",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Mask",
+          "pdfPage": 225,
+          "printedPage": "201"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Mask",
+          "pdfPage": 226,
+          "printedPage": "202"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 225,
+          "quote": "Masks are applied to the skin and remain there for 5 to 10 minutes to allow the penetration of the beneficial"
+        },
+        {
+          "pdfPage": 226,
+          "quote": "Menthol, mint, cucumber, and other ingredients are very popular in foot care masks."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-6d-19",
+      "question": {
+        "en": "How warm should the stones in a hot stone pedicure feel?",
+        "zh": "热石修脚（hot stone pedicure）中，石头应该有多热？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Hot enough to redden the skin",
+          "zh": "热到让皮肤发红"
+        },
+        {
+          "id": "b",
+          "en": "Cold, to reduce swelling",
+          "zh": "冰凉，用来消肿"
+        },
+        {
+          "id": "c",
+          "en": "As hot as the client can stand",
+          "zh": "热到顾客能忍受的极限"
+        },
+        {
+          "id": "d",
+          "en": "Comfortably warm",
+          "zh": "温暖舒适"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Milady calls the name a misnomer: the stones are not hot, only comfortably warm. Test them on your arm, then check with the client during the first movement.",
+        "zh": "Milady 说这个名字名不副实：石头并不烫，只是温暖舒适。先在自己手臂上试温，第一个动作时再问顾客感觉。"
+      },
+      "lockPoint": {
+        "en": "In 2009, poorly disinfected hot stones spread MRSA to many spa clients. Disinfect every time.",
+        "zh": "2009 年，没有彻底消毒的热石把 MRSA（耐甲氧西林金黄色葡萄球菌）传给了很多水疗顾客。每次都要消毒。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Hot Stones",
+          "pdfPage": 220,
+          "printedPage": "196"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Hot Stones",
+          "pdfPage": 221,
+          "printedPage": "197"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 220,
+          "quote": "The name, however, is a misnomer—the stones are not hot, they are merely comfortably warm."
+        },
+        {
+          "pdfPage": 220,
+          "quote": "Test the warmth of the stones on your arm for comfort and then check with the client during your first movement for their comfort with the heat."
+        },
+        {
+          "pdfPage": 221,
+          "quote": "spread the infection to many other clients by way of hot stones that had been improperly cleaned and disinfected."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-6d-20",
+      "question": {
+        "en": "What does a paraffin wax treatment do for the skin?",
+        "zh": "蜡疗（paraffin wax treatment）对皮肤有什么作用？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Traps moisture in the skin",
+          "zh": "把水分锁在皮肤里"
+        },
+        {
+          "id": "b",
+          "en": "Disinfects the skin",
+          "zh": "给皮肤消毒"
+        },
+        {
+          "id": "c",
+          "en": "Removes calluses completely",
+          "zh": "彻底去除老茧"
+        },
+        {
+          "id": "d",
+          "en": "Cures gel polish",
+          "zh": "固化凝胶甲油"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Paraffin traps moisture in the skin, and the warm wax increases blood circulation to the skin. It is a luxurious add-on that is safe for most clients.",
+        "zh": "蜡疗能把水分锁在皮肤里，温热的蜡还能促进皮肤的血液循环。这是一项奢华的附加服务，大多数顾客都可以做。"
+      },
+      "lockPoint": {
+        "en": "Cold day outside? Many clients remember paraffin's warm feeling, so offer it as a stand-alone service.",
+        "zh": "外面天冷？很多顾客会记得蜡疗的温暖感觉，所以可以把它作为单独项目推出。"
+      },
+      "teachingRelation": "function",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Paraffin Wax Treatments",
+          "pdfPage": 189,
+          "printedPage": "165"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Paraffin Stand-Alone Service",
+          "pdfPage": 191,
+          "printedPage": "167"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 189,
+          "quote": "Paraffin (PAYR-uh-fin) wax treatments are designed to trap moisture in the skin"
+        },
+        {
+          "pdfPage": 189,
+          "quote": "The heat from the warm paraffin increases blood circulation to the skin."
+        },
+        {
+          "pdfPage": 191,
+          "quote": "when the temperature is cold outside, many clients remember the warm feeling the paraffin provides."
+        }
+      ],
+      "hookType": "real-life"
+    }
+  ]
+}

@@ -1,0 +1,1342 @@
+{
+  "schemaVersion": "1.0.0",
+  "setId": "8A",
+  "domain": {
+    "id": "post-service",
+    "order": 8,
+    "title": {
+      "en": "Post-Service",
+      "zh": "售后护理与清洁"
+    },
+    "examWeightPercent": 4
+  },
+  "title": {
+    "en": "Aftercare and Cleanup",
+    "zh": "售后护理与清洁"
+  },
+  "status": "reviewed",
+  "authoredAt": "2026-10-22",
+  "sourceBook": "Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020)",
+  "questions": [
+    {
+      "id": "nic-8a-01",
+      "question": {
+        "en": "What is the first step of the post-service procedure?",
+        "zh": "服务后流程（post-service procedure）的第一步是什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Advise the client on home care",
+          "zh": "告诉客人居家护理方法"
+        },
+        {
+          "id": "b",
+          "en": "Clean and disinfect the table",
+          "zh": "清洁消毒工作台"
+        },
+        {
+          "id": "c",
+          "en": "Collect payment",
+          "zh": "收款"
+        },
+        {
+          "id": "d",
+          "en": "Disinfect the implements",
+          "zh": "给工具消毒"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Procedure 6-2 starts by advising the client on home maintenance and suggesting retail products that keep the service looking good until the next visit.",
+        "zh": "Procedure 6-2（操作 6-2）第一步是告诉客人居家保养方法，并推荐能让服务效果维持到下次来店的零售产品。"
+      },
+      "lockPoint": {
+        "en": "Order: advise → thank → book and pay → record → clean up. People first, table last.",
+        "zh": "顺序：建议 → 道谢 → 预约和付款 → 记录 → 清理。先顾人，最后才收拾台面。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-2: Post-Service Procedure",
+          "pdfPage": 199,
+          "printedPage": "175"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-2: Post-Service Procedure",
+          "pdfPage": 200,
+          "printedPage": "176"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 199,
+          "quote": "Advise the client of proper home maintenance."
+        },
+        {
+          "pdfPage": 199,
+          "quote": "Suggest retail products that help maintain the client’s service."
+        },
+        {
+          "pdfPage": 200,
+          "quote": "Record service information, products used, observations, and retail recommendations"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-8a-02",
+      "question": {
+        "en": "Where do you record products used and retail recommendations?",
+        "zh": "用过的产品和零售推荐要记录在哪里？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "On the product’s SDS",
+          "zh": "产品的 SDS 上"
+        },
+        {
+          "id": "b",
+          "en": "In the disinfection logbook",
+          "zh": "消毒记录本上"
+        },
+        {
+          "id": "c",
+          "en": "On the client service form",
+          "zh": "客人服务记录表上"
+        },
+        {
+          "id": "d",
+          "en": "On the appointment card",
+          "zh": "预约卡上"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Record the service, products used, observations, and retail recommendations on the client service form or computer record.",
+        "zh": "把服务内容、用过的产品、观察到的情况和零售推荐，记录在 client service form（客人服务记录表）或电脑记录里。"
+      },
+      "lockPoint": {
+        "en": "Written today, read next visit: you’ll remember what worked, what to avoid, and what to sell.",
+        "zh": "今天写下，下次一看：就知道什么有效、什么要避免、该推荐什么。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-2: Post-Service Procedure",
+          "pdfPage": 200,
+          "printedPage": "176"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 200,
+          "quote": "Record service information, products used, observations, and retail recommendations on the client service form or input via a computer record."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-8a-03",
+      "question": {
+        "en": "In the post-service procedure, the client is escorted to the front desk to",
+        "zh": "服务后流程中，带客人到前台是为了："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "wash their hands.",
+          "zh": "洗手。"
+        },
+        {
+          "id": "b",
+          "en": "fill out a consultation form.",
+          "zh": "填写咨询表。"
+        },
+        {
+          "id": "c",
+          "en": "sign the disinfection log.",
+          "zh": "在消毒记录本上签字。"
+        },
+        {
+          "id": "d",
+          "en": "book the next visit and pay.",
+          "zh": "预约下次服务并付款。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "After thanking the client, walk them to the front desk to schedule their next appointment and pay for the service. Set the date, time, and services.",
+        "zh": "谢谢客人之后，陪客人到前台（front desk）预约下次服务并付款，定好日期、时间和服务项目。"
+      },
+      "lockPoint": {
+        "en": "Book before the door: once clients leave, the next visit is easy to put off.",
+        "zh": "出门前就约好：客人一走，下次就容易一拖再拖。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-2: Post-Service Procedure",
+          "pdfPage": 200,
+          "printedPage": "176"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-2: Post-Service Procedure",
+          "pdfPage": 199,
+          "printedPage": "175"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 200,
+          "quote": "Escort the client to the front desk to schedule their next appointment and to pay for the service."
+        },
+        {
+          "pdfPage": 199,
+          "quote": "Thank the client for their business and mention that you will be looking forward to their next visit."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-8a-04",
+      "question": {
+        "en": "After the client leaves, how do you prepare for the next client?",
+        "zh": "客人离开后，怎样为下一位客人做准备？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Disinfect the area, then clear tools and trash",
+          "zh": "先消毒台面，再收走工具和垃圾"
+        },
+        {
+          "id": "b",
+          "en": "Clear tools, toss trash, clean and disinfect",
+          "zh": "收走工具、丢掉垃圾、清洁并消毒"
+        },
+        {
+          "id": "c",
+          "en": "Disinfect only the implements",
+          "zh": "只给工具消毒"
+        },
+        {
+          "id": "d",
+          "en": "Wipe the table with a dry towel",
+          "zh": "用干毛巾擦桌子"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Remove your products and tools, throw away all used materials, then clean and disinfect the work area. Clean and disinfect implements following Procedure 5-2.",
+        "zh": "收走产品和工具，丢掉所有用过的耗材，然后清洁并消毒（disinfect）工作区。工具按 Procedure 5-2（操作 5-2）清洁消毒。"
+      },
+      "lockPoint": {
+        "en": "Like clearing the plates before wiping a table: clear, toss, clean, then disinfect.",
+        "zh": "就像先收盘子再擦桌子：收走、丢弃、清洁，最后消毒。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Procedure 6-2: Post-Service Procedure",
+          "pdfPage": 200,
+          "printedPage": "176"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 200,
+          "quote": "Remove your products and tools, dispose of all used materials, and then clean and disinfect your work area."
+        },
+        {
+          "pdfPage": 200,
+          "quote": "Refer to Procedure 5–2: Cleaning and Disinfecting Nonporous, Reusable Items"
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-8a-05",
+      "question": {
+        "en": "How often should clients be encouraged to get regular pedicures?",
+        "zh": "应该鼓励客人多久做一次常规足疗？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Daily",
+          "zh": "每天"
+        },
+        {
+          "id": "b",
+          "en": "Monthly",
+          "zh": "每月"
+        },
+        {
+          "id": "c",
+          "en": "Twice a year",
+          "zh": "每年两次"
+        },
+        {
+          "id": "d",
+          "en": "Once a year",
+          "zh": "每年一次"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Feet are in constant use, so Milady says to encourage regular monthly pedicures. Regular foot care improves both appearance and basic foot comfort.",
+        "zh": "脚每天都在用，所以 Milady 建议鼓励客人每月做一次足疗（pedicure）。定期护理既让脚好看，也让脚更舒服。"
+      },
+      "lockPoint": {
+        "en": "Some salons sell 12-pedicure packages: one every month for a year.",
+        "zh": "有的店卖 12 次足疗套餐：一年里每月来一次。"
+      },
+      "teachingRelation": "number",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Interaction during the Service",
+          "pdfPage": 228,
+          "printedPage": "204"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Selling Pedicures",
+          "pdfPage": 231,
+          "printedPage": "207"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 228,
+          "quote": "encourage them to schedule regular monthly pedicures."
+        },
+        {
+          "pdfPage": 228,
+          "quote": "Remind them that proper foot care, through pedicuring, improves both their personal appearance and basic foot comfort."
+        },
+        {
+          "pdfPage": 231,
+          "quote": "Some sell them in numbers as high as 12 to keep clients coming in for a pedicure every month for a year."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-8a-06",
+      "question": {
+        "en": "For heavy calluses, Milady suggests a series of",
+        "zh": "对于很厚的老茧，Milady 建议安排："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "weekly visits for four to six weeks.",
+          "zh": "连续四到六周、每周一次的护理。"
+        },
+        {
+          "id": "b",
+          "en": "daily visits for one week.",
+          "zh": "连续一周每天来。"
+        },
+        {
+          "id": "c",
+          "en": "one long session to remove it all.",
+          "zh": "一次长时间护理全部去掉。"
+        },
+        {
+          "id": "d",
+          "en": "monthly razor callus shaving.",
+          "zh": "每月用刀片削一次老茧。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Fast callus removal is unsafe. Weekly callus reduction visits for four to six weeks lower the calluses; monthly pedicures then keep them at that level.",
+        "zh": "一下子去掉老茧（callus）不安全。连续四到六周、每周一次的去茧护理把老茧慢慢降低，之后每月做足疗维持。"
+      },
+      "lockPoint": {
+        "en": "Like losing weight safely: a little each week, then monthly upkeep to keep it off.",
+        "zh": "就像健康减重：每周减一点，之后每月保养来维持。"
+      },
+      "teachingRelation": "number",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Series Pedicures",
+          "pdfPage": 230,
+          "printedPage": "206"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 230,
+          "quote": "explain that weekly callus reduction appointments for four to six weeks will lower the calluses"
+        },
+        {
+          "pdfPage": 230,
+          "quote": "allow them to then be maintained at the lower level with monthly pedicures."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-8a-07",
+      "question": {
+        "en": "A client’s feet need more than one pedicure can do. What should you do?",
+        "zh": "客人的脚需要的护理，一次足疗做不完。应该怎么做？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Work past the scheduled time",
+          "zh": "超出预约时间继续做"
+        },
+        {
+          "id": "b",
+          "en": "Remove all the calluses today",
+          "zh": "今天把老茧全部去掉"
+        },
+        {
+          "id": "c",
+          "en": "Sell home care and rebook in 1–2 weeks",
+          "zh": "推荐居家护理产品，1 到 2 周后再约"
+        },
+        {
+          "id": "d",
+          "en": "Use a callus shaver to save time",
+          "zh": "用削茧刀节省时间"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Fixing neglected feet in one visit can leave them irritated or painful. Stay on schedule, sell home-care products, and book another service in one to two weeks.",
+        "zh": "脚况很差时想一次就弄好，可能会让脚受刺激或疼痛。要按预约时间做完，推荐居家护理产品（home-care products），并在 1 到 2 周后再约一次。"
+      },
+      "lockPoint": {
+        "en": "Two gentle visits beat one rough one. Home-care products keep improving the feet in between.",
+        "zh": "两次温和的护理，胜过一次粗暴的护理。中间靠居家护理产品继续改善。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Staying on Schedule",
+          "pdfPage": 230,
+          "printedPage": "206"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Staying on Schedule",
+          "pdfPage": 229,
+          "printedPage": "205"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 230,
+          "quote": "and you work to get them in optimal condition in only one service, the client’s feet may become irritated or painful."
+        },
+        {
+          "pdfPage": 230,
+          "quote": "The better option is to sell the client home-care products to improve the condition of the feet and schedule them for another service in one to two weeks."
+        },
+        {
+          "pdfPage": 229,
+          "quote": "It is important that you do not work beyond your scheduled time."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-8a-08",
+      "question": {
+        "en": "What should you warn clients about disposable pedicure slippers?",
+        "zh": "关于一次性足疗拖鞋，应该提醒客人什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "They must be returned.",
+          "zh": "必须归还。"
+        },
+        {
+          "id": "b",
+          "en": "They will smudge polish.",
+          "zh": "会蹭花指甲油。"
+        },
+        {
+          "id": "c",
+          "en": "They must be worn with socks.",
+          "zh": "必须配袜子穿。"
+        },
+        {
+          "id": "d",
+          "en": "They can be slippery.",
+          "zh": "可能会打滑。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Single-use paper or foam slippers protect fresh polish, but they can be slippery. Warn clients to take care when walking or driving, and offer a helping hand.",
+        "zh": "一次性纸拖鞋或泡沫拖鞋（pedicure slippers）能保护刚涂的指甲油，但可能打滑。提醒客人走路或开车时小心，并主动扶客人一把。"
+      },
+      "lockPoint": {
+        "en": "Thin foam + a wet floor or a gas pedal → a slip, a fall, or a car accident.",
+        "zh": "薄泡沫底 + 湿地板或油门踏板 → 打滑、摔倒，甚至出车祸。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Pedicure Slippers",
+          "pdfPage": 224,
+          "printedPage": "200"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 224,
+          "quote": "Warn the clients that these can be slippery, so they should use care when walking or driving while wearing them."
+        },
+        {
+          "pdfPage": 224,
+          "quote": "They are specially designed not to touch the nails while being worn."
+        },
+        {
+          "pdfPage": 224,
+          "quote": "Always offer a helping hand as they are walking out of the spa."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-8a-09",
+      "question": {
+        "en": "After each client, how long should disinfectant circulate in a whirlpool foot spa?",
+        "zh": "每位客人之后，消毒液要在漩涡足浴盆里循环多久？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "1 minute",
+          "zh": "1 分钟"
+        },
+        {
+          "id": "b",
+          "en": "10 minutes",
+          "zh": "10 分钟"
+        },
+        {
+          "id": "c",
+          "en": "30 minutes",
+          "zh": "30 分钟"
+        },
+        {
+          "id": "d",
+          "en": "1 hour",
+          "zh": "1 小时"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "After scrubbing, rinsing, and refilling with clean water, add EPA-registered hospital disinfectant and circulate it for 10 minutes. Set a timer.",
+        "zh": "刷洗、冲净、重新注入清水后，在漩涡足浴盆（whirlpool foot spa）里加入 EPA 注册的医院级消毒剂，循环 10 分钟。要设定计时器。"
+      },
+      "lockPoint": {
+        "en": "Milady says to save the last 10 minutes of every pedicure appointment for the basin.",
+        "zh": "Milady 说，每次足疗预约的最后 10 分钟要留给消毒足浴盆。"
+      },
+      "teachingRelation": "number",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Procedure 7-3: Cleaning and Disinfecting Whirlpool, Air-Jet, and Pipeless Foot Spas",
+          "pdfPage": 246,
+          "printedPage": "222"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Staying on Schedule",
+          "pdfPage": 229,
+          "printedPage": "205"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 246,
+          "quote": "Circulate the disinfectant through the basin for 10 minutes. Set the timer"
+        },
+        {
+          "pdfPage": 246,
+          "quote": "Measure the correct amount (read the product label for mixing instructions) of the EPA-registered hospital disinfectant"
+        },
+        {
+          "pdfPage": 229,
+          "quote": "Remember to allot the last 10 minutes of your pedicure to disinfecting the pedicure basin or bowl"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-8a-10",
+      "question": {
+        "en": "After every whirlpool pedicure, which parts do you take off and scrub?",
+        "zh": "每次漩涡足疗后，要把哪些部件拆下来刷洗？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "The impeller covers",
+          "zh": "叶轮盖"
+        },
+        {
+          "id": "b",
+          "en": "The motor housing",
+          "zh": "电机外壳"
+        },
+        {
+          "id": "c",
+          "en": "The water supply hoses",
+          "zh": "进水软管"
+        },
+        {
+          "id": "d",
+          "en": "Only the outside cabinet",
+          "zh": "只有外面的柜体"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Remove the impeller covers and other removable parts. Scrub them, and the areas behind them, with liquid soap, a clean disinfected brush, and warm water to remove all residue.",
+        "zh": "拆下 impeller covers（叶轮盖）和其他可拆部件，用液体皂（liquid soap）、干净消毒过的刷子和温水，刷洗部件和它们后面的地方，去掉所有残留物。"
+      },
+      "lockPoint": {
+        "en": "Residue hides behind impeller covers, and foot spas can harbor sticky biofilm there.",
+        "zh": "残留物藏在叶轮盖后面，足浴盆里会长出黏黏的生物膜（biofilm）。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Procedure 7-3: Cleaning and Disinfecting Whirlpool, Air-Jet, and Pipeless Foot Spas",
+          "pdfPage": 245,
+          "printedPage": "221"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Biofilms",
+          "pdfPage": 609,
+          "printedPage": "114"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 245,
+          "quote": "Remove the covers from the impellers and any other removable components according to the manufacturer’s instructions."
+        },
+        {
+          "pdfPage": 245,
+          "quote": "Thoroughly scrub all removable components, the impellers, and the areas behind each with liquid soap, a clean disinfected brush, and clean warm water to remove all visible residue."
+        },
+        {
+          "pdfPage": 609,
+          "quote": "foot spas can harbor biofilm and require extra attention"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-8a-11",
+      "question": {
+        "en": "What is circulated through foot spas at the end of every day?",
+        "zh": "每天营业结束时，要在足浴盆里循环什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Polish remover",
+          "zh": "洗甲水"
+        },
+        {
+          "id": "b",
+          "en": "Cuticle oil",
+          "zh": "指缘油"
+        },
+        {
+          "id": "c",
+          "en": "Chelating detergent",
+          "zh": "螯合清洁剂"
+        },
+        {
+          "id": "d",
+          "en": "Callus softener",
+          "zh": "软茧剂"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "At the end of every day, circulate chelating detergent for 5 to 10 minutes to break down stubborn films and pedicure product residue. Then drain, rinse, refill, and disinfect.",
+        "zh": "每天营业结束时，用 chelating detergent（螯合清洁剂）循环 5 到 10 分钟，分解顽固膜层和足疗产品残留。然后排水、冲洗、注水，再消毒。"
+      },
+      "lockPoint": {
+        "en": "Chelate comes from Greek for a crab’s claw: it grabs the minerals in hard water.",
+        "zh": "螯 = 螃蟹的大钳子：螯合剂像蟹钳一样，夹住硬水里的矿物质。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Procedure 7-3: Cleaning and Disinfecting Whirlpool, Air-Jet, and Pipeless Foot Spas",
+          "pdfPage": 247,
+          "printedPage": "223"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Procedure 7-3: Cleaning and Disinfecting Whirlpool, Air-Jet, and Pipeless Foot Spas",
+          "pdfPage": 248,
+          "printedPage": "224"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Soaps and Detergents",
+          "pdfPage": 620,
+          "printedPage": "125"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 247,
+          "quote": "you also need to circulate chelating detergent through the foot spas at the end of every day. Chelating detergents break down stubborn films and help remove pedicure product residues."
+        },
+        {
+          "pdfPage": 248,
+          "quote": "Circulate the chelating detergent through the system for 5 to 10 minutes"
+        },
+        {
+          "pdfPage": 620,
+          "quote": "are specially formulated to work in areas with hard tap water."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-8a-12",
+      "question": {
+        "en": "Once a week, what is left in a whirlpool foot spa overnight?",
+        "zh": "每周一次，要把什么留在漩涡足浴盆里过夜？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Chelating detergent",
+          "zh": "螯合清洁剂"
+        },
+        {
+          "id": "b",
+          "en": "Plain tap water",
+          "zh": "普通自来水"
+        },
+        {
+          "id": "c",
+          "en": "Foot soak solution",
+          "zh": "泡脚液"
+        },
+        {
+          "id": "d",
+          "en": "Disinfecting solution",
+          "zh": "消毒液"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Once a week, after the end-of-day cleaning, do not drain the disinfectant. Turn the unit off and leave it in overnight. In the morning, drain, rinse, refill, and flush.",
+        "zh": "每周一次，在每日收工清洁之后，不要排掉消毒液（disinfecting solution）。关掉机器，让消毒液留在里面过夜。第二天早上排水、冲洗、注水并冲洗管路。"
+      },
+      "lockPoint": {
+        "en": "Three rhythms: every client, 10 minutes; every day, chelating detergent first; every week, overnight.",
+        "zh": "三个节奏：每位客人后循环 10 分钟；每天收工先用螯合清洁剂；每周一次消毒液过夜。"
+      },
+      "teachingRelation": "number",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Procedure 7-3: Cleaning and Disinfecting Whirlpool, Air-Jet, and Pipeless Foot Spas",
+          "pdfPage": 249,
+          "printedPage": "225"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 249,
+          "quote": "After your end-of-day cleaning procedure, do not drain the disinfectant solution. Turn the unit off and leave the disinfecting solution in the unit overnight."
+        },
+        {
+          "pdfPage": 249,
+          "quote": "Refill the basin with clean water and flush the system."
+        }
+      ],
+      "hookType": "contrast"
+    },
+    {
+      "id": "nic-8a-13",
+      "question": {
+        "en": "In a basic foot tub, what do you do before adding disinfectant?",
+        "zh": "清洁普通足浴盆时，加消毒剂之前要做什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Add foot soak to the water",
+          "zh": "往水里加泡脚液"
+        },
+        {
+          "id": "b",
+          "en": "Scrub, rinse, and refill with clean water",
+          "zh": "刷洗、冲净，再注入清水"
+        },
+        {
+          "id": "c",
+          "en": "Let it air-dry overnight",
+          "zh": "让它自然风干一夜"
+        },
+        {
+          "id": "d",
+          "en": "Spray it with alcohol",
+          "zh": "喷酒精"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Drain, scrub all surfaces with a clean disinfected brush and liquid soap, rinse and drain, refill with clean water, then add disinfectant for 10 minutes or as the label directs.",
+        "zh": "排水，用干净消毒过的刷子和液体皂（liquid soap）刷洗所有表面，冲净排水，注入清水，再加消毒剂，浸 10 分钟或按标签规定的时间。"
+      },
+      "lockPoint": {
+        "en": "Clean before you disinfect: leftover residue weakens the disinfectant, just as on implements.",
+        "zh": "先清洁后消毒：残留物会削弱消毒剂，跟消毒工具的道理一样。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Procedure 7-4: Cleaning and Disinfecting Basic Foot Basins or Tubs",
+          "pdfPage": 250,
+          "printedPage": "226"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Proper Use of Disinfectants",
+          "pdfPage": 614,
+          "printedPage": "119"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 250,
+          "quote": "Scrub all inside surfaces of the foot basin or tub and all the surfaces around it with a clean disinfected brush, liquid soap, and clean water to remove all visible residue."
+        },
+        {
+          "pdfPage": 250,
+          "quote": "Rinse the basin or tub with clean water and drain."
+        },
+        {
+          "pdfPage": 250,
+          "quote": "Refill the basin with clean water. Measure the correct amount of the EPA-registered hospital disinfectant"
+        },
+        {
+          "pdfPage": 614,
+          "quote": "This is because residue will interfere with the disinfectant and prevent proper disinfection."
+        },
+        {
+          "pdfPage": 250,
+          "quote": "Leave this disinfectant solution in the basin for 10 minutes or the time recommended by the manufacturer."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-8a-14",
+      "question": {
+        "en": "A pedicure disinfection log records",
+        "zh": "足疗消毒记录本（disinfection log）要记录："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "the time and date of each disinfection.",
+          "zh": "每次消毒的时间和日期。"
+        },
+        {
+          "id": "b",
+          "en": "the client’s polish color.",
+          "zh": "客人用的指甲油颜色。"
+        },
+        {
+          "id": "c",
+          "en": "the client’s payment method.",
+          "zh": "客人的付款方式。"
+        },
+        {
+          "id": "d",
+          "en": "the foot soak scent used.",
+          "zh": "用的泡脚液香味。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Many states require salons to record the time and date of each pedicure disinfection in a log for accountability. Check your state’s rules.",
+        "zh": "很多州要求店家在足疗消毒记录本（disinfection log）里，写下每次消毒的时间和日期，以备查核。要查本州规定。"
+      },
+      "lockPoint": {
+        "en": "No record, no proof: an inspector can’t see yesterday’s disinfection, only your log.",
+        "zh": "没有记录就没有证据：检查员看不到你昨天消过毒，只看得到记录本。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Discuss the Importance of Following Disinfection Practices after each Pedicure Service",
+          "pdfPage": 236,
+          "printedPage": "212"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Procedure 7-3: Cleaning and Disinfecting Whirlpool, Air-Jet, and Pipeless Foot Spas",
+          "pdfPage": 247,
+          "printedPage": "223"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 236,
+          "quote": "many states require that salons record the time and date of each disinfecting procedure that is performed in a salon pedicure log or disinfection log for accountability purposes"
+        },
+        {
+          "pdfPage": 247,
+          "quote": "Record the disinfection information into the salon’s logbook if required by state law or by salon policy."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-8a-15",
+      "question": {
+        "en": "When is the best time to close a retail sale?",
+        "zh": "什么时候最适合促成零售产品的销售？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "During the consultation only",
+          "zh": "只在咨询时"
+        },
+        {
+          "id": "b",
+          "en": "Before the client sits down",
+          "zh": "客人坐下之前"
+        },
+        {
+          "id": "c",
+          "en": "At the end of the service",
+          "zh": "服务结束时"
+        },
+        {
+          "id": "d",
+          "en": "Never; wait for the client to ask",
+          "zh": "不主动，等客人开口"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Mention products while you use them. At the end of the service, place the item in the client’s hand and ask to add it to their ticket. That last step closes the sale.",
+        "zh": "做服务时边用边介绍产品。服务结束时把产品放到客人手里，问能不能加到账单上。最后这一步才能真正促成零售（retail）销售。"
+      },
+      "lockPoint": {
+        "en": "Suggest it early but skip the end, and the client often forgets by checkout.",
+        "zh": "只在开头提一下、结尾不跟进，客人到结账时常常就忘了。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Business Tips",
+          "pdfPage": 153,
+          "printedPage": "129"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 153,
+          "quote": "place the item in the client’s hand and ask if you can add it to her or his ticket."
+        },
+        {
+          "pdfPage": 153,
+          "quote": "If you make a recommendation early in the appointment, but do not pursue it at the end, the client often forgets about it."
+        },
+        {
+          "pdfPage": 153,
+          "quote": "Feature the products you use while performing the service."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-8a-16",
+      "question": {
+        "en": "Enhancements that are not maintained on schedule are more likely to",
+        "zh": "不按时补甲（maintenance）的延长甲更容易："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "grow out faster.",
+          "zh": "长得更快。"
+        },
+        {
+          "id": "b",
+          "en": "become thicker.",
+          "zh": "变得更厚。"
+        },
+        {
+          "id": "c",
+          "en": "harden the natural nail.",
+          "zh": "让真甲变硬。"
+        },
+        {
+          "id": "d",
+          "en": "lift, crack, or break.",
+          "zh": "翘起、裂开或断掉。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Liquid and powder enhancements need a fill every two to three weeks. Without it, they tend to lift, crack, or break, which can damage the natural nail and raise infection risk.",
+        "zh": "液体和粉末（liquid and powder）延长甲每两到三周需要补一次（fill）。不补的话容易翘起、裂开或断掉，会伤到真甲，也增加感染风险。"
+      },
+      "lockPoint": {
+        "en": "Nail grows → the apex moves toward the tip → the nail breaks more easily. A fill rebalances the apex.",
+        "zh": "真甲长出来 → 最高点（apex）往指尖方向移 → 更容易断。补甲就是重新平衡最高点。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Maintenance, Repair, and Removal",
+          "pdfPage": 354,
+          "printedPage": "330"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Resin Systems - Maintenance",
+          "pdfPage": 307,
+          "printedPage": "283"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 354,
+          "quote": "This maintenance must be performed every two to three weeks, depending on how fast the client’s nails grow."
+        },
+        {
+          "pdfPage": 354,
+          "quote": "If nail enhancements are not regularly maintained, they have a greater tendency to lift, crack, or break, which can damage the natural nail and increase the risk of developing an infection"
+        },
+        {
+          "pdfPage": 307,
+          "quote": "structurally correct the location of the apex of the nail to balance and prolong its strength"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-8a-17",
+      "question": {
+        "en": "Why do nails feel thin and bendy right after enhancement removal?",
+        "zh": "为什么刚卸完延长甲，指甲感觉又薄又软？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "The enhancement weakened them.",
+          "zh": "延长甲把它们弄弱了。"
+        },
+        {
+          "id": "b",
+          "en": "They absorbed moisture while soaking.",
+          "zh": "浸泡时吸了水分。"
+        },
+        {
+          "id": "c",
+          "en": "The primer ate into them.",
+          "zh": "结合剂把它们腐蚀了。"
+        },
+        {
+          "id": "d",
+          "en": "Acetone dissolved the nail plate.",
+          "zh": "丙酮溶解了甲板。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "After a 30-minute soak, the nail plate holds extra moisture, so it bends more. It is not weakened, and it firms up as the moisture leaves over the next 24 hours.",
+        "zh": "泡了 30 分钟后，甲板（nail plate）里多了水分，所以更容易弯。它并没有变弱，接下来 24 小时水分散掉后就会变硬。"
+      },
+      "lockPoint": {
+        "en": "Like fingernails after a long bath: soft for a while, then back to normal. Tell clients so they don’t worry.",
+        "zh": "就像泡完澡的指甲：暂时变软，过一阵就恢复。告诉客人，免得他们担心。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Removal",
+          "pdfPage": 356,
+          "printedPage": "332"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Nail Primer",
+          "pdfPage": 142,
+          "printedPage": "118"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 356,
+          "quote": "This is generally because there is more moisture in the natural nail plates after soaking them for 30 minutes, which makes them more flexible. It is not an indication that the nail plates have been weakened by the nail enhancement."
+        },
+        {
+          "pdfPage": 356,
+          "quote": "This excess flexibility will be lost as the natural nails lose moisture over the next 24 hours"
+        },
+        {
+          "pdfPage": 142,
+          "quote": "A common misconception is that nail primers eat or etch the nail. This is completely false!"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-8a-18",
+      "question": {
+        "en": "Which home-care product keeps natural and enhanced nails flexible?",
+        "zh": "哪种居家护理产品能让真甲和延长甲保持柔韧？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Penetrating nail oil",
+          "zh": "渗透型护甲油"
+        },
+        {
+          "id": "b",
+          "en": "Acetone polish remover",
+          "zh": "丙酮洗甲水"
+        },
+        {
+          "id": "c",
+          "en": "Nail hardener",
+          "zh": "指甲硬化剂"
+        },
+        {
+          "id": "d",
+          "en": "Cuticle remover",
+          "zh": "去死皮剂"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Milady says to suggest penetrating nail oils, which soak into the natural and enhanced nail to keep it flexible. Also teach clients to keep up regular maintenance.",
+        "zh": "Milady 建议推荐 penetrating nail oils（渗透型护甲油），它能渗入真甲和延长甲，保持柔韧。也要教客人按时回店补甲。"
+      },
+      "lockPoint": {
+        "en": "Oil soaks into the nail plate; cream stays on the skin around it and seals in moisture.",
+        "zh": "护甲油渗进甲板；护甲霜留在周围皮肤上，锁住水分。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Better for the Nail Claims",
+          "pdfPage": 150,
+          "printedPage": "126"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Nail Creams, Lotions, and Oils",
+          "pdfPage": 174,
+          "printedPage": "150"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 150,
+          "quote": "suggest professional products designed to penetrate the natural and enhanced nail to keep it flexible: penetrating nail oils."
+        },
+        {
+          "pdfPage": 150,
+          "quote": "Teach your clients to routinely maintain their nail enhancements"
+        },
+        {
+          "pdfPage": 174,
+          "quote": "Nail creams (NAYL KREEMZ) are barrier products"
+        },
+        {
+          "pdfPage": 174,
+          "quote": "are designed to be absorbed into the nail plate to increase flexibility"
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-8a-19",
+      "question": {
+        "en": "At minimum, how often must your station’s trash container be emptied?",
+        "zh": "工作台的垃圾桶至少多久要清空一次？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Once a week",
+          "zh": "每周一次"
+        },
+        {
+          "id": "b",
+          "en": "Once a month",
+          "zh": "每月一次"
+        },
+        {
+          "id": "c",
+          "en": "At the end of each workday",
+          "zh": "每个工作日结束时"
+        },
+        {
+          "id": "d",
+          "en": "Only when it is full",
+          "zh": "只在装满时"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Keep a lined trash container with a self-closing lid at your station. Close it when not in use, empty it at the end of each workday, and clean and disinfect it often.",
+        "zh": "工作台旁放一个套好垃圾袋、带自动合盖（self-closing lid）的垃圾桶。不用时盖好，每个工作日结束时清空，并经常清洁消毒。"
+      },
+      "lockPoint": {
+        "en": "Self-closing lid + daily emptying → less odor and fewer vapors in the salon air.",
+        "zh": "自动合盖 + 每天清空 → 店里异味少，挥发的蒸气也少。"
+      },
+      "teachingRelation": "number",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Covered Trash Containers",
+          "pdfPage": 163,
+          "printedPage": "139"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 163,
+          "quote": "It must be emptied at the end of each workday and cleaned and disinfected often."
+        },
+        {
+          "pdfPage": 163,
+          "quote": "A trash container with a self-closing lid is one way to prevent excessive odors and vapors in the salon."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-8a-20",
+      "question": {
+        "en": "After a paraffin treatment, the used wax should be",
+        "zh": "做完蜡疗后，用过的蜡应该："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "returned to the paraffin tub.",
+          "zh": "倒回蜡疗机里。"
+        },
+        {
+          "id": "b",
+          "en": "saved for that client’s next visit.",
+          "zh": "留给这位客人下次用。"
+        },
+        {
+          "id": "c",
+          "en": "strained and reused.",
+          "zh": "过滤后再用。"
+        },
+        {
+          "id": "d",
+          "en": "thrown away.",
+          "zh": "丢掉。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Once paraffin touches a client, it is contaminated and must never be reused. Scoop clean wax from the tub into a bag, then discard it after the service.",
+        "zh": "蜡（paraffin）一旦用在客人身上就被污染了，绝不能再用。从蜡疗机里舀出干净的蜡装进袋子，服务后丢掉。"
+      },
+      "lockPoint": {
+        "en": "Used wax back in the tub → one client’s germs end up in everyone’s wax.",
+        "zh": "用过的蜡倒回机器 → 一个人的病菌，进了所有人的蜡。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Paraffin Application (State Regulatory Alert)",
+          "pdfPage": 191,
+          "printedPage": "167"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Paraffin Treatment",
+          "pdfPage": 165,
+          "printedPage": "141"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Paraffin Treatment",
+          "pdfPage": 164,
+          "printedPage": "140"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 191,
+          "quote": "Once paraffin wax is used on a client it becomes contaminated and must never be reused!"
+        },
+        {
+          "pdfPage": 165,
+          "quote": "Any paraffin used on your client needs to be discarded after use."
+        },
+        {
+          "pdfPage": 164,
+          "quote": "scoop the paraffin from the tub and place"
+        }
+      ],
+      "hookType": "reason-chain"
+    }
+  ],
+  "review": {
+    "reviewedAt": "2026-10-23",
+    "checks": [
+      "quotes found on cited pages (verify-nic-domain-evidence.py)",
+      "blind answer check: 20/20 matched key; 6 questions with changed stems or choices re-checked blind (all matched)",
+      "content and Chinese review: fixes applied (English exam terms added to Chinese, giveaway distractors replaced)",
+      "memory hooks fact-checked: fixes applied (impeller vs jet, apex wording, oil vs cream)",
+      "2026-10-23: 2 items replaced to avoid duplicating 5C-08, 5C-16"
+    ]
+  }
+}

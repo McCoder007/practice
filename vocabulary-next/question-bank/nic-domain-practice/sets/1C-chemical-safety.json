@@ -1,0 +1,1344 @@
+{
+  "schemaVersion": "1.0.0",
+  "setId": "1C",
+  "domain": {
+    "id": "infection-control",
+    "order": 1,
+    "title": {
+      "en": "Infection Control and Safety Practices",
+      "zh": "感染控制与安全操作"
+    },
+    "examWeightPercent": 15
+  },
+  "title": {
+    "en": "Chemical Safety and Injury Prevention",
+    "zh": "化学品安全与伤害预防"
+  },
+  "status": "reviewed",
+  "authoredAt": "2026-10-22",
+  "sourceBook": "Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020)",
+  "questions": [
+    {
+      "id": "nic-1c-01",
+      "question": {
+        "en": "How many categories does every Safety Data Sheet (SDS) have?",
+        "zh": "每份安全数据表（SDS）都分成几个类别（categories）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "9",
+          "zh": "9 个"
+        },
+        {
+          "id": "b",
+          "en": "12",
+          "zh": "12 个"
+        },
+        {
+          "id": "c",
+          "en": "16",
+          "zh": "16 个"
+        },
+        {
+          "id": "d",
+          "en": "18",
+          "zh": "18 个"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Every SDS uses the same 16 sections in the same order. In 2015, the SDS replaced the older Material Safety Data Sheet (MSDS).",
+        "zh": "每份 SDS（安全数据表）都用同样的 16 个部分、同样的顺序。2015 年，SDS 取代了旧的 MSDS（材料安全数据表）。"
+      },
+      "lockPoint": {
+        "en": "Same order on every SDS from every maker: first aid is always Section 4.",
+        "zh": "不管哪家厂商，SDS 的顺序都一样：急救措施永远在第 4 部分。"
+      },
+      "teachingRelation": "number",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Interpret Safety Data Sheets",
+          "pdfPage": 669,
+          "printedPage": "174"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Interpret Safety Data Sheets",
+          "pdfPage": 668,
+          "printedPage": "173"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 669,
+          "quote": "All SDS are formatted into sixteen categories, with nine accepted pictograms"
+        },
+        {
+          "pdfPage": 668,
+          "quote": "In 2015 these were replaced by the Safety Data Sheet (SDS)"
+        },
+        {
+          "pdfPage": 669,
+          "quote": "First-Aid Measures: Includes short- and long-term symptoms and first-aid instructions."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-1c-02",
+      "question": {
+        "en": "Where should a salon keep its SDSs?",
+        "zh": "店里的 SDS 应该放在哪里？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Where all employees can reach them",
+          "zh": "所有员工都能拿到的地方"
+        },
+        {
+          "id": "b",
+          "en": "In a locked office",
+          "zh": "上锁的办公室里"
+        },
+        {
+          "id": "c",
+          "en": "On a manager-only computer",
+          "zh": "只有经理能用的电脑上"
+        },
+        {
+          "id": "d",
+          "en": "At the owner’s home",
+          "zh": "店主家里"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "OSHA requires an SDS for every chemical in the salon, immediately available to all employees. A locked office or a manager-only computer is not acceptable.",
+        "zh": "OSHA 要求店里每种化学品都要有 SDS，而且所有员工都能立刻拿到。锁在办公室里，或放在只有经理能用的电脑上，都不合格。"
+      },
+      "lockPoint": {
+        "en": "Splash in the eye at 8 p.m., manager gone home → whoever is on shift needs the SDS now.",
+        "zh": "晚上 8 点有人被溅到眼睛，经理已经下班 → 当班的人必须马上找到 SDS。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Interpret Safety Data Sheets",
+          "pdfPage": 669,
+          "printedPage": "174"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 669,
+          "quote": "it is required that SDSs be immediately available to all employees, so storing them on a computer that only managers can access or keeping them in a locked office is not acceptable"
+        },
+        {
+          "pdfPage": 669,
+          "quote": "Having an SDS available for every chemical used in the salon is a requirement of OSHA."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-1c-03",
+      "question": {
+        "en": "Which SDS section explains how to clean up a spill?",
+        "zh": "SDS 的哪个部分说明如何清理泄漏（spill）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "First-Aid Measures",
+          "zh": "急救措施"
+        },
+        {
+          "id": "b",
+          "en": "Accidental Release Measures",
+          "zh": "意外泄漏处理措施"
+        },
+        {
+          "id": "c",
+          "en": "Ecological Information",
+          "zh": "生态信息"
+        },
+        {
+          "id": "d",
+          "en": "Fire-Fighting Measures",
+          "zh": "消防措施"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Section 6, Accidental Release Measures, explains spill cleanup, the protective equipment needed, and the emergency steps to follow.",
+        "zh": "第 6 部分 Accidental Release Measures（意外泄漏处理措施）说明如何清理泄漏、需要哪些防护装备，以及要采取的紧急措施。"
+      },
+      "lockPoint": {
+        "en": "Picture a tipped-over bottle of acetone: the product is “released” by “accident.”",
+        "zh": "想象一瓶丙酮被打翻了：产品“意外”地“释放”出来了。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - SDS Categories",
+          "pdfPage": 670,
+          "printedPage": "175"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 670,
+          "quote": "Accidental Release Measures: Provides instruction for proper cleanup of a spill, protective equipment needed, and emergency measures to follow."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-1c-04",
+      "question": {
+        "en": "OSHA’s Hazard Communication Standard requires that employees be",
+        "zh": "OSHA 的危害沟通标准（Hazard Communication Standard）要求员工："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "licensed by OSHA.",
+          "zh": "取得 OSHA 执照。"
+        },
+        {
+          "id": "b",
+          "en": "tested yearly for allergies.",
+          "zh": "每年做过敏测试。"
+        },
+        {
+          "id": "c",
+          "en": "certified in first aid.",
+          "zh": "取得急救证书。"
+        },
+        {
+          "id": "d",
+          "en": "told about hazardous chemicals at work.",
+          "zh": "被告知工作场所中的危险化学品。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "The Hazard Communication Standard requires that employees be told about any chemical at work that could be hazardous. Manufacturers share this information through the SDS.",
+        "zh": "Hazard Communication Standard（危害沟通标准）要求告知员工工作场所中任何可能有危险的化学品。厂家通过 SDS 提供这些信息。"
+      },
+      "lockPoint": {
+        "en": "OSHA = Occupational Safety and Health Administration. It protects workers: your “right to know.”",
+        "zh": "OSHA = Occupational Safety and Health Administration（职业安全与健康管理局），保护员工：你有“知情权”（right to know）。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Interpret Safety Data Sheets",
+          "pdfPage": 668,
+          "printedPage": "173"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Occupational Safety and Health Administration",
+          "pdfPage": 592,
+          "printedPage": "97"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 668,
+          "quote": "The OSHA Hazard Communication Standard requires that employees be notified of any chemical in their workplace that could be hazardous."
+        },
+        {
+          "pdfPage": 592,
+          "quote": "your right to know about any potentially hazardous ingredients contained in the products"
+        },
+        {
+          "pdfPage": 592,
+          "quote": "requiring that chemical manufacturers and importers assess and communicate the potential hazards associated with their products through a Safety Data Sheet (SDS)"
+        }
+      ],
+      "hookType": "real-acronym"
+    },
+    {
+      "id": "nic-1c-05",
+      "question": {
+        "en": "How should salon chemicals be stored?",
+        "zh": "店里的化学品应该如何存放？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Locked up, in original containers",
+          "zh": "锁好，放在原装容器里"
+        },
+        {
+          "id": "b",
+          "en": "Combined if they are similar",
+          "zh": "相似的就合在一起"
+        },
+        {
+          "id": "c",
+          "en": "Out on the dispensing counter",
+          "zh": "摆在配料台上"
+        },
+        {
+          "id": "d",
+          "en": "In unlabeled spray bottles",
+          "zh": "装在没贴标签的喷瓶里"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Store chemicals in their original containers in a designated, locked place. Never combine similar chemicals or leave them sitting out, even in the dispensary.",
+        "zh": "化学品要放在原装容器里，存放在指定的、上锁的地方。即使相似的化学品也不能混放；化学品不能摆在外面，配料区也不例外。"
+      },
+      "lockPoint": {
+        "en": "Milady’s rule of thumb: if an adult can get to the chemicals, so can a child.",
+        "zh": "Milady 的经验法则：大人拿得到的化学品，小孩也拿得到。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Storage",
+          "pdfPage": 667,
+          "printedPage": "172"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 667,
+          "quote": "All chemicals should be stored and disposed of in their original containers."
+        },
+        {
+          "pdfPage": 667,
+          "quote": "chemicals should be locked up at all times—if an adult can get to them, so can a child!"
+        },
+        {
+          "pdfPage": 667,
+          "quote": "never allowing chemicals to sit out, even in a dispensing area"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-1c-06",
+      "question": {
+        "en": "Why should hydrogen peroxide not be stored next to acetone?",
+        "zh": "为什么双氧水（hydrogen peroxide）不能和丙酮（acetone）放在一起？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Acetone makes peroxide odorless.",
+          "zh": "丙酮会让双氧水没有气味。"
+        },
+        {
+          "id": "b",
+          "en": "Both lose strength in the dark.",
+          "zh": "两者在暗处都会失效。"
+        },
+        {
+          "id": "c",
+          "en": "Mixed, they can start a fire.",
+          "zh": "两者混合可能起火。"
+        },
+        {
+          "id": "d",
+          "en": "They form a sticky film.",
+          "zh": "会形成一层黏膜。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Hydrogen peroxide is an oxidizer and acetone is a flammable solvent. If they mix, they can start a fire, so know how stored chemicals react before placing them together.",
+        "zh": "hydrogen peroxide（双氧水）是氧化剂，acetone（丙酮）是易燃溶剂。两者一旦混合就可能起火，所以存放前要知道相邻的化学品会怎么反应。"
+      },
+      "lockPoint": {
+        "en": "Fire needs fuel, oxygen, and heat. Acetone is the fuel; peroxide gives off extra oxygen.",
+        "zh": "起火需要燃料、氧气和热量。丙酮是燃料，双氧水会额外释放氧气。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Storage",
+          "pdfPage": 667,
+          "printedPage": "172"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Redox Reactions",
+          "pdfPage": 664,
+          "printedPage": "169"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 667,
+          "quote": "an oxidizer such as hydrogen peroxide mixed with a flammable solvent such as acetone results in fire"
+        },
+        {
+          "pdfPage": 664,
+          "quote": "An oxidizing agent (ahk-sih-DY-zing AY-jent) is a substance that releases oxygen."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-1c-07",
+      "question": {
+        "en": "Mixing bleach with vinegar creates",
+        "zh": "漂白水和醋混在一起，会产生："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "a stronger disinfectant.",
+          "zh": "更强的消毒剂。"
+        },
+        {
+          "id": "b",
+          "en": "a gentle cleaner.",
+          "zh": "温和的清洁剂。"
+        },
+        {
+          "id": "c",
+          "en": "an odorless foam.",
+          "zh": "无味的泡沫。"
+        },
+        {
+          "id": "d",
+          "en": "chlorine gas.",
+          "zh": "氯气。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Never mix bleach with other cleaning products unless the label says to. Even vinegar and bleach make chlorine gas, so store bleach away from other chemicals.",
+        "zh": "除非标签说可以，否则漂白水绝不能和其他清洁产品混合。连醋加漂白水都会产生氯气，所以漂白水要和其他化学品分开存放。"
+      },
+      "lockPoint": {
+        "en": "Bleach + an acid like vinegar → chlorine gas → Milady warns the vapors can be fatal.",
+        "zh": "漂白水 + 醋这类酸 → 氯气 → Milady 警告这种气体可能致命。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Storage (Caution)",
+          "pdfPage": 667,
+          "printedPage": "172"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Disinfectant Tips and Safety",
+          "pdfPage": 618,
+          "printedPage": "123"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 667,
+          "quote": "even just vinegar and bleach creates chlorine gas"
+        },
+        {
+          "pdfPage": 667,
+          "quote": "Bleach should never be mixed with any cleaning product unless expressly instructed on the manufacturer’s label"
+        },
+        {
+          "pdfPage": 618,
+          "quote": "bleach and vinegar creates potentially fatal toxic vapors"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-1c-08",
+      "question": {
+        "en": "A flammable liquid has a flash point below",
+        "zh": "易燃（flammable）液体的闪点低于："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "32°F",
+          "zh": "华氏 32 度"
+        },
+        {
+          "id": "b",
+          "en": "100°F",
+          "zh": "华氏 100 度"
+        },
+        {
+          "id": "c",
+          "en": "200°F",
+          "zh": "华氏 200 度"
+        },
+        {
+          "id": "d",
+          "en": "300°F",
+          "zh": "华氏 300 度"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Flammable liquids ignite more easily than combustible ones. A flammable liquid’s flash point is below 100°F; a combustible liquid’s is between 100°F and 200°F.",
+        "zh": "flammable（易燃）液体比 combustible（可燃）液体更容易着火。易燃液体闪点低于 100°F；可燃液体闪点在 100°F 到 200°F 之间。"
+      },
+      "lockPoint": {
+        "en": "Name trap: inflammable means flammable too. The “in” here does not mean “not.”",
+        "zh": "名字陷阱：inflammable 也是“易燃”。这里的 in 不是“不”的意思。"
+      },
+      "teachingRelation": "number",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - SDS Vocabulary",
+          "pdfPage": 671,
+          "printedPage": "176"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 671,
+          "quote": "combustible liquid has a flash point between 100 and 200 degrees Fahrenheit, while flammable liquid has a flash point below 100 degrees."
+        },
+        {
+          "pdfPage": 671,
+          "quote": "The term inflammable is an older term, meaning flammable"
+        }
+      ],
+      "hookType": "name-trap"
+    },
+    {
+      "id": "nic-1c-09",
+      "question": {
+        "en": "A concentrate mixed into a spray bottle must be labeled with",
+        "zh": "浓缩液兑好装进喷瓶后，瓶上必须标明："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "product name, ingredients, and hazards.",
+          "zh": "产品名称、成分和危害。"
+        },
+        {
+          "id": "b",
+          "en": "only the date it was mixed.",
+          "zh": "只写调配日期。"
+        },
+        {
+          "id": "c",
+          "en": "the client’s name.",
+          "zh": "客人的名字。"
+        },
+        {
+          "id": "d",
+          "en": "nothing if the liquid is clear.",
+          "zh": "液体是透明的就不用标。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "When a concentrate is mixed into a secondary container, such as a spray bottle, label it with the product name, ingredients, and any hazards the manufacturer lists.",
+        "zh": "浓缩液兑好装进 secondary container（二次容器，比如喷瓶）后，要标明产品名称、成分，以及厂家列出的所有危害。"
+      },
+      "lockPoint": {
+        "en": "A clear liquid could be water or disinfectant. Nobody should have to guess, or sniff.",
+        "zh": "透明液体可能是水，也可能是消毒剂。不能让人靠猜或靠闻。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Mixing",
+          "pdfPage": 668,
+          "printedPage": "173"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Disinfectant Tips and Safety",
+          "pdfPage": 618,
+          "printedPage": "123"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 668,
+          "quote": "When concentrates are mixed and used in a secondary container, such as a spray bottle, that container should be labeled to indicate the product name, ingredients, and any hazards listed by the manufacturer."
+        },
+        {
+          "pdfPage": 618,
+          "quote": "Place any disinfectant or other product in an unmarked container."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-1c-10",
+      "question": {
+        "en": "How should chemicals be transported in your car?",
+        "zh": "开车运送化学品时，应该怎么放？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "In the trunk on a hot day",
+          "zh": "大热天放在后备箱"
+        },
+        {
+          "id": "b",
+          "en": "Upright, in their original containers",
+          "zh": "直立放好，用原装容器"
+        },
+        {
+          "id": "c",
+          "en": "Opened bottles, mixed in one bag",
+          "zh": "开过封的瓶子混装在一个袋子里"
+        },
+        {
+          "id": "d",
+          "en": "Loose on a sunny back seat",
+          "zh": "散放在晒着太阳的后座"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Carry chemicals upright in their original containers, and never leave them in a hot car. Do not transport opened or partly used containers; many chemicals get more dangerous as they break down.",
+        "zh": "运送化学品要直立放好、用原装容器，绝不能留在高温的车里。开过封或用过一部分的容器不要运送，因为很多化学品分解后会更危险。"
+      },
+      "lockPoint": {
+        "en": "Heat builds pressure in a closed bottle, so it can leak or burst. Check the label’s storage temperature.",
+        "zh": "受热后瓶内压力升高，可能漏出甚至爆开。看看标签上的储存温度。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Transportation",
+          "pdfPage": 666,
+          "printedPage": "171"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 666,
+          "quote": "All chemicals should be transported upright and in their original containers"
+        },
+        {
+          "pdfPage": 666,
+          "quote": "opened or partially used containers should not be transported at all."
+        },
+        {
+          "pdfPage": 666,
+          "quote": "if a label says, “Do not store at temperatures above 78 degrees Fahrenheit” or “Avoid direct sunlight,” you know that it is not safe to transport this product in your trunk"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-1c-11",
+      "question": {
+        "en": "Which SDS section shows warning pictograms and says if a product is flammable?",
+        "zh": "SDS 的哪个部分有警示图标，并说明产品是否易燃？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Composition/Information on Ingredients",
+          "zh": "成分信息"
+        },
+        {
+          "id": "b",
+          "en": "Transport Information",
+          "zh": "运输信息"
+        },
+        {
+          "id": "c",
+          "en": "Other Information",
+          "zh": "其他信息"
+        },
+        {
+          "id": "d",
+          "en": "Hazard(s) Identification",
+          "zh": "危害识别"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Section 2, Hazard(s) Identification, lists every hazard, its classification (such as flammable), precautionary statements, and the hazard pictograms.",
+        "zh": "第 2 部分 Hazard(s) Identification（危害识别）列出所有危害、危害分类（例如易燃）、注意事项和危害图标。"
+      },
+      "lockPoint": {
+        "en": "Section 1 says what it is; Section 2 says how it can hurt you. Danger comes early.",
+        "zh": "第 1 部分说它是什么，第 2 部分说它会怎么伤人。危险信息排在最前面。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - SDS Categories",
+          "pdfPage": 669,
+          "printedPage": "174"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 669,
+          "quote": "List all hazards associated with the product and include hazard classification (flammable, etc.), precautionary statements, and hazard pictograms"
+        },
+        {
+          "pdfPage": 669,
+          "quote": "Identification: Includes the name of the product and contact information for the manufacturer or distributor."
+        }
+      ],
+      "hookType": "contrast"
+    },
+    {
+      "id": "nic-1c-12",
+      "question": {
+        "en": "A rash caused by a harsh substance, not by an allergy, is called",
+        "zh": "由会伤皮肤的物质（而不是过敏）引起的皮疹，叫作："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "allergic contact dermatitis.",
+          "zh": "过敏性接触性皮炎。"
+        },
+        {
+          "id": "b",
+          "en": "psoriasis.",
+          "zh": "银屑病。"
+        },
+        {
+          "id": "c",
+          "en": "irritant contact dermatitis.",
+          "zh": "刺激性接触性皮炎。"
+        },
+        {
+          "id": "d",
+          "en": "tinea manus.",
+          "zh": "手癣。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Contact dermatitis is skin inflammation from touching a substance. If the substance irritates the skin, it is irritant contact dermatitis. If the skin becomes allergic, it is allergic contact dermatitis.",
+        "zh": "contact dermatitis（接触性皮炎）是皮肤接触某种物质后发炎。物质刺激皮肤，就是 irritant contact dermatitis（刺激性接触性皮炎）；皮肤对它过敏，就是 allergic contact dermatitis（过敏性接触性皮炎）。"
+      },
+      "lockPoint": {
+        "en": "Derma = skin, -itis = inflammation. Contact dermatitis is the most common avoidable skin disease for nail techs.",
+        "zh": "derma = 皮肤，-itis = 发炎。contact dermatitis（接触性皮炎）是美甲师最常见的、可以避免的皮肤病。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin Structure, Disorders, and Diseases - Dermatitis",
+          "pdfPage": 111,
+          "printedPage": "87"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin Structure, Disorders, and Diseases - Chapter Glossary",
+          "pdfPage": 114,
+          "printedPage": "90"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 111,
+          "quote": "When the skin is irritated by a substance, it is called irritant contact dermatitis"
+        },
+        {
+          "pdfPage": 111,
+          "quote": "is the most common avoidable skin disease for nail technicians."
+        },
+        {
+          "pdfPage": 111,
+          "quote": "prolonged exposure to certain ingredients can cause permanent allergic contact dermatitis"
+        },
+        {
+          "pdfPage": 114,
+          "quote": "Skin that becomes allergic to an ingredient in a product; often caused by prolonged or repeated contact."
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-1c-13",
+      "question": {
+        "en": "A greatly increased allergic sensitivity to a product is called",
+        "zh": "对某种产品的过敏反应大大增强，这叫作："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "sensitization.",
+          "zh": "致敏。"
+        },
+        {
+          "id": "b",
+          "en": "neutralization.",
+          "zh": "中和。"
+        },
+        {
+          "id": "c",
+          "en": "polymerization.",
+          "zh": "聚合。"
+        },
+        {
+          "id": "d",
+          "en": "sterilization.",
+          "zh": "灭菌。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Sensitization is a greatly increased or exaggerated allergic sensitivity to products. With each skin exposure during a service, the risk of sensitization rises.",
+        "zh": "sensitization（致敏）是对产品的过敏反应大大增强。服务中皮肤每接触一次，致敏风险就更高一些。"
+      },
+      "lockPoint": {
+        "en": "Once allergic, the same technique only makes it worse. Stop using the product and find the cause.",
+        "zh": "一旦过敏，继续用同样的方法只会越来越糟。先停用这个产品，找出原因。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin Structure, Disorders, and Diseases - Chapter Glossary",
+          "pdfPage": 118,
+          "printedPage": "94"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin Structure, Disorders, and Diseases - Prolonged or Repeated Contact Risks",
+          "pdfPage": 112,
+          "printedPage": "88"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin Structure, Disorders, and Diseases - Caution",
+          "pdfPage": 113,
+          "printedPage": "89"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 118,
+          "quote": "A greatly increased or exaggerated allergic sensitivity to products."
+        },
+        {
+          "pdfPage": 112,
+          "quote": "With each exposure during a service, the risk of skin sensitization (sen-sih-tih-ZAY-shun) increases"
+        },
+        {
+          "pdfPage": 113,
+          "quote": "becomes allergic, things will only get worse if you continue using the same techniques."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-1c-14",
+      "question": {
+        "en": "Which best removes vapors and dust at a nail table?",
+        "zh": "哪一种最能在美甲台把蒸气和粉尘排走？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "A fan on the table",
+          "zh": "桌上的电风扇"
+        },
+        {
+          "id": "b",
+          "en": "Local source-capture ventilation",
+          "zh": "局部源头捕集通风"
+        },
+        {
+          "id": "c",
+          "en": "An open window",
+          "zh": "打开的窗户"
+        },
+        {
+          "id": "d",
+          "en": "A home air purifier",
+          "zh": "家用空气净化器"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Source-capture systems pull vapors and dust away at the source, before they escape into the salon. Fans and open windows only move them around the room.",
+        "zh": "source-capture（源头捕集）系统在源头就把蒸气和粉尘吸走，不让它们散到店里。电风扇和开窗只会把它们在屋里吹来吹去。"
+      },
+      "lockPoint": {
+        "en": "Like a kitchen range hood: catch the smoke right above the pan, before it fills the house.",
+        "zh": "就像厨房抽油烟机：在锅上方就把油烟吸走，不让它飘满屋子。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Preventing Inhalation Overexposure",
+          "pdfPage": 152,
+          "printedPage": "128"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Preventing Inhalation Overexposure",
+          "pdfPage": 153,
+          "printedPage": "129"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 152,
+          "quote": "These systems are designed to capture vapors and dusts at the source and remove them from the air before they have a chance to escape into the salon."
+        },
+        {
+          "pdfPage": 152,
+          "quote": "Fans and open windows are no substitute for proper ventilation or local exhaust ventilation: They simply circulate vapors and dust around the room."
+        },
+        {
+          "pdfPage": 153,
+          "quote": "Air cleaners designed for use in the home or bedroom are not sufficient for salons"
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-1c-15",
+      "question": {
+        "en": "When lifting a box of supplies, you should",
+        "zh": "搬一箱用品时，应该："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "bend at the waist and lift fast.",
+          "zh": "弯腰快速抬起。"
+        },
+        {
+          "id": "b",
+          "en": "twist your body as you lift.",
+          "zh": "边抬边扭身体。"
+        },
+        {
+          "id": "c",
+          "en": "hold it far from your body.",
+          "zh": "让箱子离身体远一点。"
+        },
+        {
+          "id": "d",
+          "en": "bend at the knees, not the back.",
+          "zh": "弯膝盖，不要弯腰。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Keep your feet shoulder-width apart, bend at the knees, keep the load close, and lift with your legs. Do not twist or make fast, jerky moves.",
+        "zh": "双脚与肩同宽，弯曲膝盖，让重物贴近身体，用腿部发力抬起。不要扭身，也不要猛地发力。"
+      },
+      "lockPoint": {
+        "en": "The farther a load is from your body, the harder your back works. Never reach past 18 inches.",
+        "zh": "东西离身体越远，腰背越吃力。伸手不要超过 18 英寸（约 45 厘米）。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "The Healthy Professional - Lifting Mechanics",
+          "pdfPage": 584,
+          "printedPage": "89"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 584,
+          "quote": "Bend at the knees, not at the back."
+        },
+        {
+          "pdfPage": 584,
+          "quote": "Keep objects close to your body."
+        },
+        {
+          "pdfPage": 584,
+          "quote": "Do not twist your body when lifting or carrying."
+        },
+        {
+          "pdfPage": 584,
+          "quote": "Never reach more than 18 inches away from the body."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-1c-16",
+      "question": {
+        "en": "After removing your gloves, how can you help prevent skin problems?",
+        "zh": "摘下手套后，怎样做能帮助预防皮肤问题？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Rinse and leave hands damp",
+          "zh": "冲一下，让手保持湿润"
+        },
+        {
+          "id": "b",
+          "en": "Use hand sanitizer all day",
+          "zh": "整天用免洗洗手液"
+        },
+        {
+          "id": "c",
+          "en": "Wash, dry thoroughly, then apply lotion",
+          "zh": "洗手，彻底擦干，再涂护手霜"
+        },
+        {
+          "id": "d",
+          "en": "Soak hands in very hot water",
+          "zh": "把手泡在很烫的水里"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Gloves limit chemical contact, but wash and thoroughly dry your hands after you take them off. Then use lotion or cream to restore moisture. Avoid harsh soaps and constant hand sanitizer.",
+        "zh": "手套能减少接触化学品，但摘下后要洗手并彻底擦干，再涂乳液或护手霜补充水分。避免用刺激性强的肥皂，也不要频繁使用免洗洗手液。"
+      },
+      "lockPoint": {
+        "en": "Damp skin and chemicals, day after day → cracked skin barrier → irritation and allergies.",
+        "zh": "皮肤天天又湿又碰化学品 → 皮肤屏障受损 → 刺激和过敏。"
+      },
+      "teachingRelation": "list",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "The Healthy Professional - Allergies (Overexposure)",
+          "pdfPage": 578,
+          "printedPage": "83"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin Structure, Disorders, and Diseases - Protect Yourself",
+          "pdfPage": 114,
+          "printedPage": "90"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 578,
+          "quote": "While the use of gloves can limit your exposure to chemicals, it is important to wash and thoroughly dry your hands after you take them off."
+        },
+        {
+          "pdfPage": 578,
+          "quote": "Once you have dried your hands, use a lotion or cream to restore moisture to the skin and enhance skin integrity."
+        },
+        {
+          "pdfPage": 578,
+          "quote": "Chemicals used in services Excessive exposure to moisture"
+        },
+        {
+          "pdfPage": 114,
+          "quote": "avoid harsh soaps and constant applications of hand sanitizers."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-1c-17",
+      "question": {
+        "en": "Which disposable gloves does Milady recommend instead of latex?",
+        "zh": "Milady 推荐用哪种一次性手套代替乳胶手套？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Petroleum-based",
+          "zh": "石油基手套"
+        },
+        {
+          "id": "b",
+          "en": "Nitrile",
+          "zh": "丁腈手套"
+        },
+        {
+          "id": "c",
+          "en": "Cotton",
+          "zh": "棉手套"
+        },
+        {
+          "id": "d",
+          "en": "Leather",
+          "zh": "皮手套"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Avoid latex, because latex allergies are increasingly common. Petroleum-based gloves break down when they touch petroleum products. Nitrile gloves avoid both problems.",
+        "zh": "要避免乳胶手套，因为对乳胶过敏的人越来越多。石油基手套碰到含石油的产品会分解。nitrile（丁腈）手套这两个问题都没有。"
+      },
+      "lockPoint": {
+        "en": "OSHA recommends nitrile for pedicures and chemical work. A new pair for every client, never reused.",
+        "zh": "做足疗和接触化学品时，OSHA 建议戴丁腈手套。每个客人换新手套，绝不重复用。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Gloves (Caution)",
+          "pdfPage": 623,
+          "printedPage": "128"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Gloves",
+          "pdfPage": 224,
+          "printedPage": "200"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 623,
+          "quote": "you should avoid latex due to increasingly common allergies to the material."
+        },
+        {
+          "pdfPage": 623,
+          "quote": "petroleum-based gloves degrade on contact and cannot maintain a safe barrier. Nitrile gloves are a strong alternative in both instances."
+        },
+        {
+          "pdfPage": 224,
+          "quote": "nail technicians wear nitrile gloves while performing pedicures or working with chemicals."
+        },
+        {
+          "pdfPage": 224,
+          "quote": "A new set of gloves must be worn for each pedicure client and then thrown away."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-1c-18",
+      "question": {
+        "en": "Where chemicals are mixed, which item must be available?",
+        "zh": "调配化学品的地方必须备有哪种用品？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "A UV lamp",
+          "zh": "紫外线灯"
+        },
+        {
+          "id": "b",
+          "en": "A paraffin heater",
+          "zh": "蜡疗机"
+        },
+        {
+          "id": "c",
+          "en": "A nail polish dryer",
+          "zh": "指甲油烘干机"
+        },
+        {
+          "id": "d",
+          "en": "An eyewash bottle",
+          "zh": "洗眼瓶"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Mix chemicals only in a well-ventilated area with protective equipment on hand, including an eyewash bottle. Wear safety glasses and gloves when mixing disinfectants.",
+        "zh": "只能在通风良好、备有防护装备（包括洗眼瓶）的地方调配化学品。调配消毒剂时要戴护目镜和手套。"
+      },
+      "lockPoint": {
+        "en": "A splash in the eye needs rinsing within seconds. There is no time to go looking for water.",
+        "zh": "化学品溅进眼睛，几秒钟内就要冲洗，没时间到处找水。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Mixing",
+          "pdfPage": 668,
+          "printedPage": "173"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Disinfectants (Caution)",
+          "pdfPage": 614,
+          "printedPage": "119"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 668,
+          "quote": "The location you use for mixing chemicals must be well ventilated and have protective equipment available, including an eyewash bottle."
+        },
+        {
+          "pdfPage": 614,
+          "quote": "Safety glasses and gloves should be worn while mixing to avoid accidental contact with eyes and skin."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-1c-19",
+      "question": {
+        "en": "During a manicure, how should you avoid reaching across the table?",
+        "zh": "做美甲时，怎样避免越过桌子去够客人的手？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Have the client extend their hand to you.",
+          "zh": "请客人把手伸到你这边。"
+        },
+        {
+          "id": "b",
+          "en": "Lean forward from the waist.",
+          "zh": "从腰部向前倾。"
+        },
+        {
+          "id": "c",
+          "en": "Twist your body toward the client.",
+          "zh": "把身体转向客人。"
+        },
+        {
+          "id": "d",
+          "en": "Hold your elbows far from your body.",
+          "zh": "手肘远离身体。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Ergonomics means setting up work so your body moves comfortably and safely. Have the client extend their hand across the table, and keep your back, neck, and wrists straight.",
+        "zh": "ergonomics（人体工学）就是让身体在工作中动得舒适、安全。请客人把手伸过桌子给你，保持背部、颈部和手腕挺直。"
+      },
+      "lockPoint": {
+        "en": "Ergonomics comes from Greek ergon, “work,” and nomos, “law”: the rules for working without injury.",
+        "zh": "ergonomics 来自希腊语：ergon = 工作，nomos = 法则。就是不受伤地工作的法则。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "The Healthy Professional - Ergonomics",
+          "pdfPage": 583,
+          "printedPage": "88"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "The Healthy Professional - Protect Yourself with Proper Body Mechanics",
+          "pdfPage": 580,
+          "printedPage": "85"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 583,
+          "quote": "do not reach across the table; have the client extend their hand across the table to you"
+        },
+        {
+          "pdfPage": 583,
+          "quote": "Bending forward and/or twisting your body to get closer to your client"
+        },
+        {
+          "pdfPage": 580,
+          "quote": "is the science of designing the workplace as well as its equipment and tools to make specific body movements more comfortable, efficient, and safe."
+        }
+      ],
+      "hookType": "word-origin"
+    },
+    {
+      "id": "nic-1c-20",
+      "question": {
+        "en": "Where should a salon’s fire extinguishers be kept?",
+        "zh": "店里的灭火器应该放在哪里？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Locked in the owner’s office",
+          "zh": "锁在店主办公室里"
+        },
+        {
+          "id": "b",
+          "en": "In the storeroom behind supplies",
+          "zh": "仓库里用品后面"
+        },
+        {
+          "id": "c",
+          "en": "Where they are readily accessible",
+          "zh": "随手就能拿到的地方"
+        },
+        {
+          "id": "d",
+          "en": "Out of sight in the basement",
+          "zh": "地下室看不到的地方"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Place fire extinguishers where they are easy to reach, teach every employee to use them, and have them checked periodically, as the law requires.",
+        "zh": "灭火器要放在容易拿到的地方，每个员工都要学会使用，还要按法律规定定期检查。"
+      },
+      "lockPoint": {
+        "en": "Not every extinguisher suits every fire: SDS Section 5, Fire-Fighting Measures, lists the right ones.",
+        "zh": "不是每种灭火器都适合每种火：SDS 第 5 部分 Fire-Fighting Measures（消防措施）会列出该用哪种。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Fire Extinguishers",
+          "pdfPage": 626,
+          "printedPage": "131"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - SDS Categories",
+          "pdfPage": 669,
+          "printedPage": "174"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 626,
+          "quote": "Fire extinguishers should be placed where they are readily accessible."
+        },
+        {
+          "pdfPage": 626,
+          "quote": "All employees should be instructed in fire extinguisher use."
+        },
+        {
+          "pdfPage": 626,
+          "quote": "It is a law that fire extinguishers be checked periodically."
+        },
+        {
+          "pdfPage": 669,
+          "quote": "Fire-Fighting Measures: Lists suitable (and unsuitable) fire extinguishers"
+        }
+      ],
+      "hookType": "real-life"
+    }
+  ],
+  "review": {
+    "reviewedAt": "2026-10-23",
+    "checks": [
+      "quotes found on cited pages (verify-nic-domain-evidence.py)",
+      "blind answer check: 20/20 matched key; 7 questions with changed stems or choices re-checked blind (all matched)",
+      "content and Chinese review: fixes applied (weaker giveaway distractors replaced, Chinese stem echo removed)",
+      "memory hooks fact-checked: fixes applied (q10 'hot enough to ignite' removed as not physically true)",
+      "2026-10-23: 4 items replaced to avoid duplicating 3B-11, 3B-12, 5C-02, 5C-10; 1 swapped for coordinator coverage (SDS Section 2 Hazard Identification)"
+    ]
+  }
+}

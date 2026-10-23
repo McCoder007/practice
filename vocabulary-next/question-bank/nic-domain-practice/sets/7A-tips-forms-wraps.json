@@ -1,0 +1,1245 @@
+{
+  "schemaVersion": "1.0.0",
+  "setId": "7A",
+  "domain": {
+    "id": "enhancements",
+    "order": 7,
+    "title": {
+      "en": "Nail Enhancements: Application, Maintenance, and Removal",
+      "zh": "美甲延长与加固：施做、维护与卸除"
+    },
+    "examWeightPercent": 20
+  },
+  "title": {
+    "en": "Nail Tips, Forms, and Wraps",
+    "zh": "甲片、纸托与包甲"
+  },
+  "status": "reviewed",
+  "authoredAt": "2026-10-22",
+  "sourceBook": "Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020)",
+  "review": {
+    "reviewedAt": "2026-10-23",
+    "checks": [
+      "quotes found on cited pages (verify-nic-domain-evidence.py)",
+      "blind answer check: 20/20 matched key (changed and new questions re-checked)",
+      "content and Chinese review: fixes applied",
+      "memory hooks fact-checked (word origins, Chinese characters, textbook facts): fixes applied"
+    ]
+  },
+  "questions": [
+    {
+      "id": "nic-7a-01",
+      "question": {
+        "en": "What is the shallow depression in a nail tip that contacts the nail plate?",
+        "zh": "甲片上与甲面接触的那个浅凹槽叫什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "The position stop",
+          "zh": "定位点（position stop）"
+        },
+        {
+          "id": "b",
+          "en": "The smile line",
+          "zh": "微笑线（smile line）"
+        },
+        {
+          "id": "c",
+          "en": "The well",
+          "zh": "凹槽（well）"
+        },
+        {
+          "id": "d",
+          "en": "The stress area",
+          "zh": "受力区（stress area）"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "The well is a shallow depression in the tip. Adhesive goes into it, and it is the part that touches the nail plate.",
+        "zh": "well（凹槽）是甲片上的浅凹陷。甲片胶涂在这里，它就是贴在甲面上的那部分。"
+      },
+      "lockPoint": {
+        "en": "A water well is a hole in the ground. A tip's well is a shallow hollow on the nail.",
+        "zh": "well 也是“水井”的意思：地上的一个坑。甲片的 well 就是贴在真甲上的那个浅坑。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Nail Tips",
+          "pdfPage": 280,
+          "printedPage": "256"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 280,
+          "quote": "Many nail tips have a shallow depression called a well (WELL) that serves as the point of contact with the nail plate."
+        }
+      ],
+      "hookType": "word-link"
+    },
+    {
+      "id": "nic-7a-02",
+      "question": {
+        "en": "The point where the natural free edge stops inside the tip's well is the",
+        "zh": "真甲游离缘在甲片凹槽里停住的那个点叫什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "apex.",
+          "zh": "甲峰（apex）。"
+        },
+        {
+          "id": "b",
+          "en": "sidewall.",
+          "zh": "侧壁（sidewall）。"
+        },
+        {
+          "id": "c",
+          "en": "stress area.",
+          "zh": "受力区（stress area）。"
+        },
+        {
+          "id": "d",
+          "en": "position stop.",
+          "zh": "定位点（position stop）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "The position stop is where the free edge meets or stops inside the well. It shows you where to place the tip.",
+        "zh": "position stop（定位点）是真甲游离缘在凹槽内碰到并停住的位置，它告诉你甲片该贴在哪里。"
+      },
+      "lockPoint": {
+        "en": "Like a parking wheel stop: slide the tip on until the free edge bumps the stop, then rock it down.",
+        "zh": "就像停车位的车轮挡块：把甲片推上去，让游离缘碰到挡块，再把甲片往下压贴。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Nail Tips",
+          "pdfPage": 280,
+          "printedPage": "256"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Nail Tips",
+          "pdfPage": 281,
+          "printedPage": "257"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 280,
+          "quote": "The position stop (poh-ZI-shun STOP) is the point where the free edge of the natural nail meets or stops inside the well."
+        },
+        {
+          "pdfPage": 281,
+          "quote": "Start placing the tip onto the nail by lining up the natural free edge of the nail against the position stop of the tip. Use gentle pressure while rocking the tip onto the nail"
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-7a-03",
+      "question": {
+        "en": "Why can a well-less tip be placed wherever it fits best?",
+        "zh": "为什么无凹槽甲片（well-less tip）可以贴在最合适的任何位置？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "It needs no adhesive.",
+          "zh": "它不需要甲片胶。"
+        },
+        {
+          "id": "b",
+          "en": "It is precut like a smile line.",
+          "zh": "它预先切成了微笑线形状。"
+        },
+        {
+          "id": "c",
+          "en": "It has no position stop.",
+          "zh": "它没有定位点（position stop）。"
+        },
+        {
+          "id": "d",
+          "en": "It is made of softer plastic.",
+          "zh": "它用更软的塑料做成。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "A well-less tip has no well at all, so it has no position stop to line up with. It can be attached wherever it best fits the natural nail.",
+        "zh": "well-less tip（无凹槽甲片）完全没有凹槽，所以也没有可以对齐的定位点，可以贴在最贴合真甲的位置。"
+      },
+      "lockPoint": {
+        "en": "Position stop = where the free edge stops inside the well. No well, so nothing to stop against.",
+        "zh": "定位点（position stop）＝真甲前缘在凹槽里抵住的位置。没有凹槽，就没有可以抵住的地方。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Nail Tips",
+          "pdfPage": 280,
+          "printedPage": "256"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 280,
+          "quote": "A well-less tip (WELL-less TIP) has no well at all and, therefore, no position stop. This nail can be attached to the natural nail wherever it best fits"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-7a-04",
+      "question": {
+        "en": "Which tips are precut like a smile line and applied without blending?",
+        "zh": "哪种甲片预先切成微笑线形状，贴上后不打磨衔接（blending）？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "French tips",
+          "zh": "法式甲片（French tips）"
+        },
+        {
+          "id": "b",
+          "en": "Full-well tips",
+          "zh": "全凹槽甲片（full-well tips）"
+        },
+        {
+          "id": "c",
+          "en": "Partial-well tips",
+          "zh": "半凹槽甲片（partial-well tips）"
+        },
+        {
+          "id": "d",
+          "en": "Full-coverage tips",
+          "zh": "全贴甲片（full-coverage tips）"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "French tips are cut like a smile line at the contact point. They are not blended, so the precut French line stays. Full- and partial-well tips are blended.",
+        "zh": "French tips（法式甲片）在接触处切成微笑线形状。贴上后不打磨衔接，以保留预切的法式线。全凹槽和半凹槽甲片则要打磨衔接。"
+      },
+      "lockPoint": {
+        "en": "French tips arrive with the French manicure's white edge already cut, so there is nothing to paint.",
+        "zh": "法式甲片自带法式美甲的白边，已经切好，不用再画。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Nail Tips",
+          "pdfPage": 280,
+          "printedPage": "256"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Full- or Partial-Well Nail Tip Application",
+          "pdfPage": 293,
+          "printedPage": "269"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 280,
+          "quote": "French tips (FRENCH TIPS) are cut like a smile line at the contact point."
+        },
+        {
+          "pdfPage": 280,
+          "quote": "These tips are meant to be applied without blending to enjoy the precut French line."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-7a-05",
+      "question": {
+        "en": "Nail tips are made from",
+        "zh": "甲片是用什么材料制成的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "mylar film.",
+          "zh": "聚酯薄膜（mylar）。"
+        },
+        {
+          "id": "b",
+          "en": "cyanoacrylate.",
+          "zh": "氰基丙烯酸酯（cyanoacrylate）。"
+        },
+        {
+          "id": "c",
+          "en": "aluminum.",
+          "zh": "铝。"
+        },
+        {
+          "id": "d",
+          "en": "ABS plastic.",
+          "zh": "ABS 塑料。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Nail tips are pre-molded from a tough plastic called ABS. Mylar is used for disposable forms, cyanoacrylate is nail resin, and aluminum is used for reusable forms.",
+        "zh": "甲片由一种坚韧的塑料 ABS 预先压模制成。mylar（聚酯薄膜）用来做一次性纸托，cyanoacrylate（氰基丙烯酸酯）是甲用树脂，铝用来做可重复使用的甲托。"
+      },
+      "lockPoint": {
+        "en": "LEGO bricks are made of ABS too: a tough plastic that keeps its shape.",
+        "zh": "乐高积木也是 ABS 做的：一种坚韧、不易变形的塑料。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Nail Tips",
+          "pdfPage": 279,
+          "printedPage": "255"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Nail Forms",
+          "pdfPage": 283,
+          "printedPage": "259"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Resin Systems - Nail Resins",
+          "pdfPage": 306,
+          "printedPage": "282"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 279,
+          "quote": "Nail tips (NAYL TIPZ) are pre-molded nails shaped from a tough plastic made from acrylonitrile butadiene styrene (ABS)"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-7a-06",
+      "question": {
+        "en": "A correctly sized nail tip covers the nail plate",
+        "zh": "尺寸合适的甲片应该怎样覆盖甲面？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "only across the center.",
+          "zh": "只盖住中间部分。"
+        },
+        {
+          "id": "b",
+          "en": "from sidewall to sidewall.",
+          "zh": "从侧壁到侧壁（sidewall to sidewall）。"
+        },
+        {
+          "id": "c",
+          "en": "past the sidewalls onto the skin.",
+          "zh": "超出侧壁，盖到皮肤上。"
+        },
+        {
+          "id": "d",
+          "en": "with a small gap at each side.",
+          "zh": "两侧各留一点空隙。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "The tip should cover the nail exactly from sidewall to sidewall and rest there without pressure. A tip too narrow leaves uneven sides and later cracks; forcing one on can make it pop off.",
+        "zh": "甲片应该从一侧侧壁到另一侧侧壁刚好盖满，不用按压就能放稳。太窄的甲片两侧会不平，之后会裂开；硬压上去还可能弹掉。"
+      },
+      "lockPoint": {
+        "en": "Between sizes? Use the larger tip and file it: width can be filed away, never added back.",
+        "zh": "介于两个尺寸之间？选大的再锉合适：宽度可以锉掉，却补不回来。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Nail Tips",
+          "pdfPage": 280,
+          "printedPage": "256"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Nail Tips",
+          "pdfPage": 281,
+          "printedPage": "257"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 280,
+          "quote": "Make sure that the tips you choose for your client cover the nail plate from sidewall to sidewall exactly."
+        },
+        {
+          "pdfPage": 280,
+          "quote": "Using a tip that isn't wide enough to fit the natural nail will create a glitch or unevenness at the sides and will eventually split or crack."
+        },
+        {
+          "pdfPage": 281,
+          "quote": "The best fit is when you are able to simply set the tip on the nail without any pressure and it easily rests there. When the natural nail is between sizes, opt for using a slightly larger tip and customize it with an 180-grit abrasive board to fit the nail precisely."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-7a-07",
+      "question": {
+        "en": "After pressing a tip onto the nail, hold it in place for",
+        "zh": "把甲片压到指甲上后，要按住多久？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "5 to 10 seconds.",
+          "zh": "5 到 10 秒。"
+        },
+        {
+          "id": "b",
+          "en": "30 to 60 seconds.",
+          "zh": "30 到 60 秒。"
+        },
+        {
+          "id": "c",
+          "en": "2 to 3 minutes.",
+          "zh": "2 到 3 分钟。"
+        },
+        {
+          "id": "d",
+          "en": "5 to 10 minutes.",
+          "zh": "5 到 10 分钟。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Hold the tip for 5 to 10 seconds with slight pressure so air does not get back into the contact area.",
+        "zh": "轻压甲片 5 到 10 秒，防止空气重新进入接触区（contact zone）。"
+      },
+      "lockPoint": {
+        "en": "Same numbers, different unit: taking a tip off means a 5 to 10 minute acetone soak.",
+        "zh": "数字一样，单位不同：卸甲片要在丙酮里泡 5 到 10 分钟。"
+      },
+      "teachingRelation": "number",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Nail Tips",
+          "pdfPage": 281,
+          "printedPage": "257"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Nail Tip Removal",
+          "pdfPage": 297,
+          "printedPage": "273"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 281,
+          "quote": "Hold in place for 5 to 10 seconds, applying slight pressure to ensure air does not re-enter the contact zone."
+        },
+        {
+          "pdfPage": 297,
+          "quote": "Soak one nail, or all nails, for 5 to 10 minutes."
+        }
+      ],
+      "hookType": "contrast"
+    },
+    {
+      "id": "nic-7a-08",
+      "question": {
+        "en": "What should you use to cut nail tips to length?",
+        "zh": "应该用什么把甲片剪到需要的长度？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Fingernail clippers",
+          "zh": "指甲刀"
+        },
+        {
+          "id": "b",
+          "en": "Tip cutters",
+          "zh": "甲片剪（tip cutter）"
+        },
+        {
+          "id": "c",
+          "en": "Cuticle nippers",
+          "zh": "死皮剪（nipper）"
+        },
+        {
+          "id": "d",
+          "en": "Fabric scissors",
+          "zh": "剪布用的小剪刀"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Tip cutters are made to cut without putting pressure on the tip. Nail clippers weaken or crease the plastic and can make it crack.",
+        "zh": "tip cutter（甲片剪）专为剪甲片设计，剪的时候不会挤压甲片。指甲刀会削弱塑料或压出折痕，导致开裂。"
+      },
+      "lockPoint": {
+        "en": "Bend a plastic card and the fold turns white. That white crease is where it cracks later.",
+        "zh": "把塑料卡片折一下，折痕会发白。发白的折痕就是以后裂开的地方。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Nail Tips",
+          "pdfPage": 281,
+          "printedPage": "257"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 281,
+          "quote": "These tip cutters (TIP KUT-ers) are specifically designed to not put pressure on the nail tip as it is being cut."
+        },
+        {
+          "pdfPage": 281,
+          "quote": "You should not use fingernail or toenail clippers to cut nail tips, because it will weaken or crease the plastic and can cause it to crack."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-7a-09",
+      "question": {
+        "en": "How should you hold the abrasive when blending the tip's contact area?",
+        "zh": "打磨甲片接触区（contact area）做衔接时，锉条应该怎么拿？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Tilted at an angle",
+          "zh": "倾斜成一个角度"
+        },
+        {
+          "id": "b",
+          "en": "Standing on its edge",
+          "zh": "立起来用侧边磨"
+        },
+        {
+          "id": "c",
+          "en": "Flat against the nail",
+          "zh": "平贴在指甲上"
+        },
+        {
+          "id": "d",
+          "en": "Pointed toward the cuticle",
+          "zh": "锉头朝向甲小皮"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Hold the abrasive flat and stop when the well is flush with the natural nail. A tilted file's edge can gouge and damage the nail plate.",
+        "zh": "锉条要平放，凹槽和真甲齐平（flush）时就停。锉条一倾斜，边缘可能会刮伤真甲甲面。"
+      },
+      "lockPoint": {
+        "en": "Sand a table with a flat block and it stays even. Use the corner and you dig a groove.",
+        "zh": "用平的砂块磨桌面，表面平整；用角去磨，就会挖出一道沟。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Nail Tips",
+          "pdfPage": 282,
+          "printedPage": "258"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 282,
+          "quote": "Be sure to always hold the abrasive flat when filing the contact area. Never hold the file at an angle, because the edge of the abrasive can gouge the nail plate and damage it."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-7a-10",
+      "question": {
+        "en": "What does a nail dehydrator do before enhancements?",
+        "zh": "上美甲产品之前，脱水剂（nail dehydrator）有什么作用？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Removes surface moisture and oil",
+          "zh": "去除甲面的水分和油分"
+        },
+        {
+          "id": "b",
+          "en": "Bonds product to the nail protein",
+          "zh": "把产品和指甲蛋白粘合"
+        },
+        {
+          "id": "c",
+          "en": "Speeds up resin dry time",
+          "zh": "加快树脂变干"
+        },
+        {
+          "id": "d",
+          "en": "Softens and loosens the cuticle",
+          "zh": "软化并松动甲小皮"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "A dehydrator removes traces of moisture and oil and keeps the nail from making more for a short time. Oils come back, so apply product soon after.",
+        "zh": "dehydrator（脱水剂）能去除指甲表面残留的水分和油分，并在短时间内阻止指甲再分泌。油分会回来，所以涂完要尽快上产品。"
+      },
+      "lockPoint": {
+        "en": "De- = remove, hydr = water (as in hydrate): a dehydrator dries the nail plate out.",
+        "zh": "de- = 去除，hydr = 水（如 hydrate 补水）：dehydrator 就是让甲面“脱水”变干。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Preparing the Nail for Extensions",
+          "pdfPage": 279,
+          "printedPage": "255"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Adhesion of Nail Enhancements",
+          "pdfPage": 143,
+          "printedPage": "119"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 279,
+          "quote": "You will also need to use a nail dehydrator (NAYL dee-HY-dray-ter) to temporarily stop the nail from producing moisture and natural oil."
+        },
+        {
+          "pdfPage": 143,
+          "quote": "Nail dehydrators remove traces of both moisture and oil."
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-7a-11",
+      "question": {
+        "en": "Why should nail tips not be worn without an overlay?",
+        "zh": "为什么甲片不能不做加固层（overlay）就直接戴？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "The overlay is what glues the tip on.",
+          "zh": "甲片是靠加固层粘上去的。"
+        },
+        {
+          "id": "b",
+          "en": "Tips alone are not strong enough.",
+          "zh": "单靠甲片不够坚固。"
+        },
+        {
+          "id": "c",
+          "en": "Bare tips dissolve in water.",
+          "zh": "没有加固层的甲片遇水会溶化。"
+        },
+        {
+          "id": "d",
+          "en": "Bare tips cannot be filed.",
+          "zh": "没有加固层的甲片不能锉。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "A tip needs an overlay over the whole nail, such as a wrap, gel, or liquid and powder, for strength. Without it, the tip can break easily.",
+        "zh": "甲片需要在整个指甲上覆盖一层 overlay（加固层），例如包甲、光疗胶或水晶，才有足够的强度。没有它，甲片很容易断。"
+      },
+      "lockPoint": {
+        "en": "The tip only gives length and shape; the overlay is the armor that takes the knocks.",
+        "zh": "甲片只负责长度和形状；加固层才是挡住磕碰的盔甲。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Nail Tips",
+          "pdfPage": 280,
+          "printedPage": "256"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Full- or Partial-Well Nail Tip Application",
+          "pdfPage": 293,
+          "printedPage": "269"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 280,
+          "quote": "Nail tips that do not have an overlay can break easily without its reinforcement."
+        },
+        {
+          "pdfPage": 293,
+          "quote": "Tips should not be worn without an additional nail overlay—such as wraps, gel, liquid and powder, etc.—as they are not strong enough to wear alone."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-7a-12",
+      "question": {
+        "en": "To sculpt a stiletto nail, the end of the nail form should",
+        "zh": "雕塑尖形（stiletto）指甲时，纸托（nail form）的末端应该怎样？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "open into a large circle.",
+          "zh": "张开成一个大圆。"
+        },
+        {
+          "id": "b",
+          "en": "be cut off straight across.",
+          "zh": "平直剪掉。"
+        },
+        {
+          "id": "c",
+          "en": "tilt down toward the finger.",
+          "zh": "朝手指方向向下倾斜。"
+        },
+        {
+          "id": "d",
+          "en": "close to a pinhole point.",
+          "zh": "收成尖，只留针孔大的开口。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "For oval, almond, stiletto, or ballerina nails, close the form to a point with only a pinhole opening. Square and round nails use a large open circle.",
+        "zh": "做椭圆、杏仁、尖形或芭蕾形指甲时，纸托要收成尖，只留针孔大的开口。方形和圆形指甲则让末端张开成大圆。"
+      },
+      "lockPoint": {
+        "en": "Pinching the form shut pulls its sides inward, the way a cone narrows down to its tip.",
+        "zh": "把纸托捏紧，两侧就往里收，就像甜筒越往下越尖。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Nail Shapes",
+          "pdfPage": 285,
+          "printedPage": "261"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 285,
+          "quote": "When sculpting oval, almond, stiletto, or ballerina nails, the form should come to a point at the end, with only a pinhole circle at the opening."
+        },
+        {
+          "pdfPage": 285,
+          "quote": "For square, soft square, or round nails, the form sides should come straight out from the natural nail grooves, and the end of the form should open into a large circle"
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-7a-13",
+      "question": {
+        "en": "A nail form is placed correctly when",
+        "zh": "纸托（nail form）怎样才算放对了位置？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "there is no gap under the free edge.",
+          "zh": "游离缘和纸托之间没有缝隙。"
+        },
+        {
+          "id": "b",
+          "en": "it tilts down away from the nail.",
+          "zh": "纸托从指甲往下倾斜。"
+        },
+        {
+          "id": "c",
+          "en": "it presses into the hyponychium.",
+          "zh": "纸托压进甲下皮（hyponychium）。"
+        },
+        {
+          "id": "d",
+          "en": "its center line points to one side.",
+          "zh": "纸托中线偏向一侧。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "The form should be snug under the free edge, level with the nail, and centered. It is perfectly placed when there is no gap between the free edge and the form.",
+        "zh": "纸托要紧贴在游离缘下面，与指甲平齐并居中。游离缘和纸托之间没有缝隙，才算放得完美。"
+      },
+      "lockPoint": {
+        "en": "Any gap lets wet product seep under the free edge and harden there.",
+        "zh": "只要有缝，未干的产品就会渗到游离缘下面，并在那里变硬。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Nail Forms",
+          "pdfPage": 283,
+          "printedPage": "259"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Disposable Nail Form Application",
+          "pdfPage": 299,
+          "printedPage": "275"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 283,
+          "quote": "The form is perfectly positioned when there is no gap between the free edge and the nail form."
+        },
+        {
+          "pdfPage": 299,
+          "quote": "snug the form under the free edge, being careful not to crowd the hyponychium"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-7a-14",
+      "question": {
+        "en": "A fiberglass wrap is made from",
+        "zh": "玻璃纤维包甲（fiberglass wrap）是用什么做的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "a thin natural material with a tight weave.",
+          "zh": "很薄、织得很密的天然材料。"
+        },
+        {
+          "id": "b",
+          "en": "a tough plastic called ABS.",
+          "zh": "一种叫 ABS 的坚韧塑料。"
+        },
+        {
+          "id": "c",
+          "en": "a thin polyester film called mylar.",
+          "zh": "一种叫 mylar 的聚酯薄膜。"
+        },
+        {
+          "id": "d",
+          "en": "a thin synthetic mesh with a loose weave.",
+          "zh": "很薄、织得较松的合成网布。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Fiberglass is a very thin synthetic mesh with a loose weave, so resin soaks in well. Silk is the natural fabric with the tight weave.",
+        "zh": "fiberglass（玻璃纤维）是很薄、编织较松的合成网布，树脂容易渗透。silk（丝绸）才是编织紧密的天然面料。"
+      },
+      "lockPoint": {
+        "en": "Fiber + glass: threads made from real glass in a factory. Silk is spun by silkworms.",
+        "zh": "fiber + glass：用真玻璃在工厂里拉成的细丝。丝绸则是蚕吐出来的。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Resin Systems - Nail Wraps",
+          "pdfPage": 307,
+          "printedPage": "283"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 307,
+          "quote": "A fiberglass wrap (FY-bur-glass RAP) is made from a very thin synthetic mesh with a loose weave."
+        },
+        {
+          "pdfPage": 307,
+          "quote": "A silk wrap (SILK RAP) is made from a thin, natural material with a tight weave"
+        }
+      ],
+      "hookType": "word-parts"
+    },
+    {
+      "id": "nic-7a-15",
+      "question": {
+        "en": "Nail resins and tip adhesives are made from",
+        "zh": "甲用树脂（nail resin）和甲片胶是用什么制成的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "cyanoacrylate.",
+          "zh": "氰基丙烯酸酯（cyanoacrylate）。"
+        },
+        {
+          "id": "b",
+          "en": "ethyl methacrylate.",
+          "zh": "甲基丙烯酸乙酯（EMA）。"
+        },
+        {
+          "id": "c",
+          "en": "benzoyl peroxide.",
+          "zh": "过氧化苯甲酰（BPO）。"
+        },
+        {
+          "id": "d",
+          "en": "butyl acetate.",
+          "zh": "乙酸丁酯（butyl acetate）。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Nail resin is cyanoacrylate, a fast-acting adhesive. Very thin versions are called nail glue or tip adhesive; thicker ones are called building resin.",
+        "zh": "nail resin（甲用树脂）就是 cyanoacrylate（氰基丙烯酸酯），一种快干强力胶。很稀的叫甲片胶（nail glue / tip adhesive），较稠的叫 building resin（建构树脂）。"
+      },
+      "lockPoint": {
+        "en": "Super glue is a cyanoacrylate too. That is why even a tiny drop in the eye is dangerous.",
+        "zh": "强力胶（super glue）也是氰基丙烯酸酯，所以哪怕一小滴溅进眼睛也很危险。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Resin Systems - Nail Resins",
+          "pdfPage": 306,
+          "printedPage": "282"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Nail Tips",
+          "pdfPage": 281,
+          "printedPage": "257"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 306,
+          "quote": "Nail resins (NAYL REZ-inz) are made from cyanoacrylate."
+        },
+        {
+          "pdfPage": 306,
+          "quote": "Very thin cyanoacrylates may be referred to as nail glue or tip adhesive."
+        },
+        {
+          "pdfPage": 281,
+          "quote": "Even the smallest amount of adhesive in the eyes can be very dangerous and may cause serious injury."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-7a-16",
+      "question": {
+        "en": "What product speeds up the drying of nail resin?",
+        "zh": "什么产品能加快甲用树脂变干？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Nail dehydrator",
+          "zh": "脱水剂（nail dehydrator）"
+        },
+        {
+          "id": "b",
+          "en": "Nail primer",
+          "zh": "结合剂（nail primer）"
+        },
+        {
+          "id": "c",
+          "en": "Nail cleanser",
+          "zh": "甲面清洁剂（nail cleanser）"
+        },
+        {
+          "id": "d",
+          "en": "Resin accelerator",
+          "zh": "树脂加速剂（resin accelerator）"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "A resin accelerator, also called an activator, speeds up resin dry time. It comes as a brush-on, pump spray, or aerosol.",
+        "zh": "resin accelerator（树脂加速剂），也叫 activator（激活剂），能加快树脂变干，有刷涂、喷泵和气雾三种形式。"
+      },
+      "lockPoint": {
+        "en": "A car's gas pedal is also called the accelerator: press it and the car goes faster.",
+        "zh": "汽车的油门英文也叫 accelerator：一踩，车就跑得更快。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Resin Systems - Nail Resins",
+          "pdfPage": 306,
+          "printedPage": "282"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 306,
+          "quote": "A resin accelerator (REZ-in ak-SELL-er-ay-tor), or activator, assists in speeding up the dry time of the resin."
+        }
+      ],
+      "hookType": "word-link"
+    },
+    {
+      "id": "nic-7a-17",
+      "question": {
+        "en": "A stress strip is placed across the line where the",
+        "zh": "加固条（stress strip）横贴在哪两者交界的线上？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "eponychium meets the nail plate.",
+          "zh": "甲上皮与甲面交界处。"
+        },
+        {
+          "id": "b",
+          "en": "free edge meets the nail bed.",
+          "zh": "游离缘与甲床交界处。"
+        },
+        {
+          "id": "c",
+          "en": "nail plate meets the lateral fold.",
+          "zh": "甲面与侧甲襞交界处。"
+        },
+        {
+          "id": "d",
+          "en": "lunula meets the eponychium.",
+          "zh": "甲半月与甲上皮交界处。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "The stress line, where the free edge meets the nail bed, is the common breaking point. A strip of fabric about 1/8 inch long there adds strength.",
+        "zh": "stress line（应力线）就是游离缘与甲床交界处，是最常断裂的位置。在这里贴一条约 1/8 英寸长的布条能增加强度。"
+      },
+      "lockPoint": {
+        "en": "Past this line, no nail bed supports the nail from below, so it bends and snaps there.",
+        "zh": "过了这条线，指甲下面就没有甲床支撑，所以容易在这里弯折、断裂。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Resin Systems - Nail Wraps",
+          "pdfPage": 307,
+          "printedPage": "283"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 307,
+          "quote": "A stress strip (STRESS STRIP) is a strip of fabric cut to about 1/8” (3.12 mm) in length and applied across the stress line (STRESS LINE), or line where the free edge of the nail meets the nail bed."
+        },
+        {
+          "pdfPage": 307,
+          "quote": "This is the common breaking point; adding the stress strip will provide extra strength in this area."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-7a-18",
+      "question": {
+        "en": "What makes a nail extension different from other nail enhancements?",
+        "zh": "美甲延长（nail extension）和其他美甲加固有什么不同？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "It adds color only.",
+          "zh": "它只增加颜色。"
+        },
+        {
+          "id": "b",
+          "en": "It needs no overlay.",
+          "zh": "它不需要加固层。"
+        },
+        {
+          "id": "c",
+          "en": "It adds length to the nail.",
+          "zh": "它让指甲变长。"
+        },
+        {
+          "id": "d",
+          "en": "It is always made on a form.",
+          "zh": "它一定要用纸托来做。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "A nail enhancement is any product added to the natural nail for strength and beauty. An extension is the kind that adds length, made with a tip or a form.",
+        "zh": "nail enhancement（美甲加固）是任何加在真甲上、增加强度和美观的产品。nail extension（美甲延长）是其中让指甲变长的那一种，用甲片或纸托来做。"
+      },
+      "lockPoint": {
+        "en": "Extend means stretch out, like an extension cord. Every extension is an enhancement, but not the reverse.",
+        "zh": "extend = 往外延伸，就像延长线（extension cord）。所有美甲延长都是美甲加固，但美甲加固不一定是延长。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Enhancement and Extension",
+          "pdfPage": 278,
+          "printedPage": "254"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 278,
+          "quote": "A nail enhancement (NAYL en-HAHNS-ment) is defined as any product added to the natural nail to increase strength and beauty. Many clients will want to extend the length of their natural nail; this is described as a nail extension (NAYL eks-TEN-shun). There are two ways to create a nail extension: using a tip or a form."
+        }
+      ],
+      "hookType": "word-link"
+    },
+    {
+      "id": "nic-7a-19",
+      "question": {
+        "en": "In Milady's wrap repair, what goes on the split first to hold it together?",
+        "zh": "按 Milady 的包甲修补步骤，裂口上先放什么来把它固定住？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Acid-based primer",
+          "zh": "酸性结合剂"
+        },
+        {
+          "id": "b",
+          "en": "A tiny amount of resin",
+          "zh": "一点点树脂"
+        },
+        {
+          "id": "c",
+          "en": "Cuticle oil",
+          "zh": "指缘油"
+        },
+        {
+          "id": "d",
+          "en": "A coat of gel polish",
+          "zh": "一层甲油胶"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Milady's wrap repair starts with a tiny amount of resin on the break or split to hold it together. Then resin goes over the nail, and fabric goes over the crack.",
+        "zh": "Milady 的包甲修补第一步，是在断口或裂口上点一点树脂把它固定住。然后在整个指甲上涂树脂，再把布贴在裂缝上。"
+      },
+      "lockPoint": {
+        "en": "Like gluing a torn page back together before you tape over it.",
+        "zh": "就像先把撕开的书页粘好，再在上面贴胶带。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Resin Systems - Nail Repair Using a Fabric Wrap",
+          "pdfPage": 311,
+          "printedPage": "287"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Resin Systems - Nail Repair Using a Fabric Wrap",
+          "pdfPage": 312,
+          "printedPage": "288"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 311,
+          "quote": "Apply a tiny amount of resin to the break or split if needed to hold it together."
+        },
+        {
+          "pdfPage": 312,
+          "quote": "Apply a layer of resin over the entire surface of the nail."
+        },
+        {
+          "pdfPage": 312,
+          "quote": "Gently lay the fabric over the crack on the nail plate and press with a small piece of plastic."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-7a-20",
+      "question": {
+        "en": "Reusable nail forms are made of",
+        "zh": "可重复使用的甲托（reusable nail form）是用什么做的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "paper or mylar.",
+          "zh": "纸或聚酯薄膜（mylar）。"
+        },
+        {
+          "id": "b",
+          "en": "silk or fiberglass.",
+          "zh": "丝绸或玻璃纤维。"
+        },
+        {
+          "id": "c",
+          "en": "plastic or aluminum.",
+          "zh": "塑料或铝。"
+        },
+        {
+          "id": "d",
+          "en": "wood or cardboard.",
+          "zh": "木头或硬纸板。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Reusable forms are pre-shaped plastic or aluminum and are cleaned and disinfected between clients. Disposable forms are paper or mylar with an adhesive back.",
+        "zh": "reusable forms（可重复使用的甲托）是预先成型的塑料或铝，每位客人之间要清洁消毒。disposable forms（一次性纸托）是背面带胶的纸或 mylar。"
+      },
+      "lockPoint": {
+        "en": "Only hard, nonporous items can be disinfected and reused. Paper is porous, so paper forms are thrown away.",
+        "zh": "只有坚硬、无孔的物品才能消毒后重复使用。纸是多孔的，所以纸托用完就扔。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Nail Forms",
+          "pdfPage": 283,
+          "printedPage": "259"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 283,
+          "quote": "Reusable nail forms (ree-USE-ah-bul NAYL FORMZ) are made of pre-shaped plastic or aluminum and can be cleaned and disinfected between clients."
+        },
+        {
+          "pdfPage": 283,
+          "quote": "Disposable nail forms (dis-POH-ZA-bul NAYL FORMZ) are often made of paper or a strong, thin polyester film called mylar"
+        }
+      ],
+      "hookType": "reason-chain"
+    }
+  ]
+}
