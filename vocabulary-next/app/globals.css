@@ -162,6 +162,26 @@ body {
   animation: qa-answer-reveal 180ms ease-out;
 }
 
+@keyframes qa-result-glow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.qa-result-glow {
+  animation: qa-result-glow 220ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .qa-answer-reveal,
+  .qa-result-glow {
+    animation: none;
+  }
+}
+
 @keyframes perfect-score-confetti-fall {
   0% {
     opacity: 0;

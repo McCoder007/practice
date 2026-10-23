@@ -6,7 +6,16 @@ import { Button } from "@/components/ui/button"
 import type { ExamAnswerRecord, ExamQuestion } from "@/data/exam-quiz/types"
 import { choicePositionLabel, visibleChoicesAfterReveal } from "@/lib/exam-quiz-reel"
 import { cn } from "@/lib/utils"
-import { AlertTriangle, ArrowRight, Bookmark, CheckCircle2, Lightbulb, SkipForward, XCircle } from "lucide-react"
+import {
+  AlertTriangle,
+  ArrowRight,
+  Bookmark,
+  Check,
+  CheckCircle2,
+  Lightbulb,
+  SkipForward,
+  X,
+} from "lucide-react"
 
 function responsiveTextStyle(length: number): CSSProperties {
   const scale = length > 140 ? 0.95 : length > 90 ? 1.1 : length > 55 ? 1.25 : 1.4
@@ -119,6 +128,19 @@ export function NailExamQuizCard({
       style={{ background, transform: `translateY(${position})` }}
     >
       <div className="pointer-events-none absolute inset-0 bg-black/30" />
+      {showDrawer && (
+        <div
+          aria-hidden
+          className={cn(
+            "qa-result-glow pointer-events-none absolute inset-0 z-20",
+            isSkipped
+              ? "shadow-[inset_0_0_0_4px_rgb(245_158_11),inset_0_0_36px_rgb(245_158_11/0.55)]"
+              : isCorrect
+                ? "shadow-[inset_0_0_0_4px_rgb(16_185_129),inset_0_0_36px_rgb(16_185_129/0.6)]"
+                : "shadow-[inset_0_0_0_4px_rgb(225_29_72),inset_0_0_36px_rgb(225_29_72/0.6)]",
+          )}
+        />
+      )}
 
       <section
         className={cn(
@@ -213,38 +235,36 @@ export function NailExamQuizCard({
       {showDrawer && (
         <section
           className={cn(
-            "qa-answer-reveal relative z-10 flex min-h-0 flex-1 flex-col rounded-t-3xl border-t-[3px] backdrop-blur-sm",
-            isSkipped
-              ? "border-amber-400/70 bg-amber-500/20"
-              : isCorrect
-                ? "border-emerald-400/70 bg-emerald-500/20"
-                : "border-rose-400/70 bg-rose-500/20",
+            "qa-answer-reveal relative z-10 flex min-h-0 flex-1 flex-col overflow-hidden rounded-t-3xl backdrop-blur-sm",
+            isSkipped ? "bg-amber-500/20" : isCorrect ? "bg-emerald-500/20" : "bg-rose-500/20",
           )}
         >
+          {/* Solid banner so right/wrong reads at a glance, whatever the card's background color. */}
+          <div
+            role="status"
+            className={cn(
+              "flex flex-none items-center gap-3 px-4 py-3 shadow-md sm:px-6",
+              isSkipped ? "bg-amber-500" : isCorrect ? "bg-emerald-600" : "bg-rose-600",
+            )}
+          >
+            <span className="flex size-10 shrink-0 items-center justify-center rounded-full bg-white">
+              {isSkipped ? (
+                <SkipForward className="h-6 w-6 text-amber-600" strokeWidth={2.75} />
+              ) : isCorrect ? (
+                <Check className="h-7 w-7 text-emerald-600" strokeWidth={3.5} />
+              ) : (
+                <X className="h-7 w-7 text-rose-600" strokeWidth={3.5} />
+              )}
+            </span>
+            <p className="text-2xl font-extrabold tracking-tight text-white drop-shadow-sm">
+              {isSkipped
+                ? `Skipped${showChinese ? " | 已跳过" : ""}`
+                : isCorrect
+                  ? `Correct!${showChinese ? " | 答对了" : ""}`
+                  : `Wrong${showChinese ? " | 答错了" : ""}`}
+            </p>
+          </div>
           <div className="flex min-h-0 flex-1 flex-col gap-3 overflow-y-auto px-3.5 pt-3.5 pb-3 sm:px-6">
-            <div className="flex items-center gap-2.5">
-              <span
-                className={cn(
-                  "flex size-8 shrink-0 items-center justify-center rounded-full",
-                  isSkipped ? "bg-amber-500/35" : isCorrect ? "bg-emerald-500/35" : "bg-rose-500/35",
-                )}
-              >
-                {isSkipped ? (
-                  <SkipForward className="h-5 w-5 text-amber-200" />
-                ) : isCorrect ? (
-                  <CheckCircle2 className="h-5 w-5 text-emerald-300" />
-                ) : (
-                  <XCircle className="h-5 w-5 text-rose-300" />
-                )}
-              </span>
-              <p className="text-lg font-bold">
-                {isSkipped
-                  ? `Skipped${showChinese ? " | 已跳过" : ""}`
-                  : isCorrect
-                    ? `Correct!${showChinese ? " 正确！" : ""}`
-                    : `Not quite${showChinese ? " 不太对" : ""}`}
-              </p>
-            </div>
             {pickedWrongChoice && (
               <p className="flex flex-wrap items-baseline gap-x-2 rounded-xl border border-rose-300/40 bg-rose-950/25 px-3.5 py-2 text-sm">
                 <span className="font-semibold tracking-wide text-rose-200 uppercase">
