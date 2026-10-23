@@ -124,7 +124,7 @@ export function LookAlikeDrill() {
             <p className="text-base font-medium text-slate-500 dark:text-slate-400">
               Which word means:{showChinese && " | 哪个词的意思是："}
             </p>
-            <SpeakButton text={`Which word means: ${target.meaning.en}`} label="Hear the question" className="-mt-2 -mr-2" />
+            <SpeakButton text={target.meaning.en} label="Hear the question" className="-mt-2 -mr-2" />
           </div>
           <p className="mt-1 text-2xl leading-snug font-bold text-slate-900 dark:text-white">{target.meaning.en}</p>
           {showChinese && <p className="mt-1 text-lg text-slate-500 dark:text-slate-400">{target.meaning.zh}</p>}
