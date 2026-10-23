@@ -61,8 +61,8 @@
         "zh": "photoinitiator（光引发剂）是一种在 UV 或可见光照射下发生反应的分子。它加在胶里，所以胶在固化灯里会变硬。"
       },
       "lockPoint": {
-        "en": "Photo- is Greek for light, as in photograph. An initiator is the starter.",
-        "zh": "photo- 是希腊语的“光”，如 photograph（照片）。initiator 就是“启动者”。"
+        "en": "Photo- = light, as in photograph. Initiator = starter. BPO starts acrylic; a photoinitiator needs lamp light.",
+        "zh": "photo- = 光，如 photograph（照片）。initiator = 启动者。BPO 启动水晶甲；光引发剂（photoinitiator）要靠灯光才启动。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -189,8 +189,8 @@
         "zh": "hard gel（硬胶）表面无孔，丙酮渗不进去，所以必须磨掉。soft gel（软胶/可卸胶）才能用丙酮卸掉。"
       },
       "lockPoint": {
-        "en": "Acetone on hard gel is like water on a glazed mug: it sits on top and never soaks in.",
-        "zh": "丙酮碰到硬胶，就像水泼在上了釉的瓷杯上：只停在表面，渗不进去。"
+        "en": "Acetone on hard gel is like water on glass: it sits on top and never soaks in.",
+        "zh": "丙酮碰到硬胶，就像水洒在玻璃上：只停在表面，渗不进去。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -315,8 +315,8 @@
         "zh": "hybrid gel（混合胶）有光疗胶的持久和光泽，却能像普通甲油一样用洗甲水卸掉，只是时间更长。早期的甲油胶只能靠打磨去除。"
       },
       "lockPoint": {
-        "en": "Hybrid comes from Latin hybrida, a cross of two kinds: here, gel and regular polish.",
-        "zh": "hybrid 来自拉丁语 hybrida，意思是两种东西的“混种”：这里就是光疗胶和普通甲油的结合。"
+        "en": "Hybrid car: gas and electric. Hybrid gel: gel and polish. It lasts like gel, comes off like polish, but slower.",
+        "zh": "混合动力车（hybrid car）：既烧油又用电。hybrid gel（混合胶）：光疗胶 + 普通甲油。像光疗胶一样耐久，像甲油一样能用洗甲水卸，只是更慢。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -337,7 +337,7 @@
           "quote": "Gel polishes originally had to be removed through abrasion."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "real-life"
     },
     {
       "id": "nic-7c-06",
@@ -373,8 +373,8 @@
         "zh": "inhibition layer（浮胶层）是未固化的胶和/或残留溶剂，在表面留下黏黏的一层。用无尘纸蘸酒精或甲面清洁剂就能擦掉。"
       },
       "lockPoint": {
-        "en": "Inhibit comes from Latin inhibere, 'hold back': oxygen in the air holds back the cure, so the top stays tacky.",
-        "zh": "inhibit 来自拉丁语 inhibere（阻止）：空气中的氧气阻止表面固化，所以表层黏黏的，中文叫“浮胶”。"
+        "en": "The Chinese name means \"floating gel\": it only sits on top, so one alcohol wipe lifts it off.",
+        "zh": "中文叫“浮胶”：浮 = 浮在上面。它只浮在表面，用酒精或甲面清洁剂一擦就掉，不用泡丙酮。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -401,7 +401,7 @@
           "quote": "A nail cleanser is also used to remove the inhibition layer prior to filing the cured gel"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "chinese-character"
     },
     {
       "id": "nic-7c-07",
@@ -949,8 +949,8 @@
         "zh": "如果延长的前缘会比甲床还长，Milady 建议改用更坚固的产品，比如水晶（liquid and powder），而不是硬胶。"
       },
       "lockPoint": {
-        "en": "Gels can be made softer and more flexible than liquid and powder. A longer lever needs a stiffer product.",
-        "zh": "光疗胶可以做得比水晶更软、更有弹性。延长越长，像杠杆一样受力越大，越需要硬的产品。"
+        "en": "Gels can be made to bend more than liquid and powder. A long extension needs the harder product.",
+        "zh": "光疗胶可以做得比水晶更软、更能弯。延长做得越长，越需要更硬的产品。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -1081,7 +1081,7 @@
         "zh": "primer（结合剂）、base gel（底胶）或 bonding gel（结合胶）能增强在真甲上的附着。它涂得很薄，通常先固化，再上下一种胶。"
       },
       "lockPoint": {
-        "en": "In 结合胶, 结 = tie a knot and 合 = join: it ties the gel to the nail plate.",
+        "en": "The Chinese name means \"tie and join\": it ties the gel to the nail plate.",
         "zh": "结合胶：结 = 打结，合 = 合在一起。它把胶和真甲牢牢系在一起。"
       },
       "teachingRelation": "definition",
@@ -1201,7 +1201,7 @@
         "zh": "finishing gel（封层胶）有两种：一种固化后有黏黏的浮胶层，需要擦掉；另一种 tack-free（免洗）的固化后直接高亮，没有浮胶层。"
       },
       "lockPoint": {
-        "en": "Tacky = sticky, like the glue side of tape. Tack-free = never sticky, the 免洗 (no-wipe) kind.",
+        "en": "Tacky = sticky, like the glue side of tape. Tack-free = never sticky, so there is nothing to wipe.",
         "zh": "tacky = 黏手，像胶带有胶的那一面。tack-free = 不黏手，中文就叫“免洗封层”。"
       },
       "teachingRelation": "contrast",
@@ -1255,8 +1255,8 @@
         "zh": "gel brush（光疗笔）是小号、扁平或椭圆的尼龙毛，用来挑胶和铺胶。水晶甲则用天然毛笔，能更好地吸住单体液。"
       },
       "lockPoint": {
-        "en": "Nylon is the same tough synthetic used in most toothbrush bristles.",
-        "zh": "尼龙就是大多数牙刷毛用的那种结实的合成材料。"
+        "en": "Nylon is the same tough material used in most toothbrushes.",
+        "zh": "尼龙就是大多数牙刷用的那种结实材料。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [

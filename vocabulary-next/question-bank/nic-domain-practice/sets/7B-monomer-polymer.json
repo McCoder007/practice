@@ -61,8 +61,8 @@
         "zh": "液体和粉等量是 dry bead（干球）；液体是粉的两倍是 wet bead（湿球）。medium bead（中球）介于两者之间，通常是最理想的 mix ratio（液粉比）。"
       },
       "lockPoint": {
-        "en": "Medium comes from Latin medius, 'middle': halfway between dry (1 to 1) and wet (2 to 1).",
-        "zh": "medium 来自拉丁语 medius，意思是“中间”：正好在干球（1:1）和湿球（2:1）的中间。"
+        "en": "Medium, like a medium T-shirt: between small and large. Dry = 1:1, wet = 2:1, medium = halfway, 1.5:1.",
+        "zh": "medium 就像衣服的 M 码：介于 S 和 L 之间。干球 1:1，湿球 2:1，中球在正中间：1.5:1。"
       },
       "teachingRelation": "number",
       "authorityRefs": [
@@ -87,7 +87,7 @@
           "quote": "In general, medium beads are the ideal mix ratio for working with monomer liquids and polymer powders."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "comparison"
     },
     {
       "id": "nic-7b-02",
@@ -185,7 +185,7 @@
         "zh": "理想的水晶球圆润有光泽，放在纸托上会稍微摊开但不会流动。周围有干粉说明液体太少；会滴落说明太湿。"
       },
       "lockPoint": {
-        "en": "Picture a dab of thick hair gel on a plate: round, glossy, slumps a little, then holds.",
+        "en": "Picture a spoon of thick hair gel on a plate: round and shiny, it spreads a little, then stops.",
         "zh": "想象盘子上的一小坨发胶：圆润有光泽，稍微摊开，然后就定住不动。"
       },
       "teachingRelation": "definition",
@@ -249,8 +249,8 @@
         "zh": "odorless（无味）产品其实仍有轻微气味。店里其他人闻不出来，就叫无味；能闻到一点，就叫 low odor（低味）。"
       },
       "lockPoint": {
-        "en": "Name trap: odorless liquids swap the usual ethyl monomer for low-smell monomers. The scent is faint, not gone.",
-        "zh": "名字陷阱：odorless 产品把常用的乙基单体换成气味很淡的单体。味道变淡了，但没有消失。"
+        "en": "Name trap: \"odorless\" liquids use a different monomer with little smell. The smell is weak, not gone.",
+        "zh": "名字陷阱：odorless 产品换用了气味很小的单体。味道变淡了，但没有消失。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -369,8 +369,8 @@
         "zh": "acid-free primer（无酸结合剂）分子的一端和指甲蛋白结合，另一端在单体固化时和单体结合，所以 Milady 把它比作双面胶。"
       },
       "lockPoint": {
-        "en": "Primer comes from prime, likely from Latin primus 'first': it's the first coat under the product.",
-        "zh": "primer 来自 prime，很可能源自拉丁语 primus（第一）：它是产品下面的第一层。"
+        "en": "Hang a poster with two-sided tape: wall on one side, poster on the other. Nail = wall, product = poster.",
+        "zh": "用双面胶贴海报：一面粘墙，一面粘海报。真甲就是墙，产品就是海报。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -387,7 +387,7 @@
           "quote": "One end of the primer molecule chemically bonds to the nail protein in the natural nail; the other end of the molecule is a methacrylate, so it bonds to the monomer liquid as it cures. Think of this as a two-sided sticky tape."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "real-life"
     },
     {
       "id": "nic-7b-07",
@@ -619,8 +619,8 @@
         "zh": "acid-based primer（酸性结合剂）有腐蚀性，可能对皮肤和眼睛造成严重、有时无法逆转的伤害。务必戴防护手套和护目镜。"
       },
       "lockPoint": {
-        "en": "Corrosive comes from Latin corrodere, 'to gnaw away': acid primer can burn and scar skin and eyes.",
-        "zh": "corrosive（腐蚀性）来自拉丁语 corrodere，意思是“啃掉”：酸性结合剂会灼伤皮肤和眼睛，留下疤痕。"
+        "en": "Corrosive means it eats away, like rust on metal. It hurts skin and eyes, so protect hands and eyes.",
+        "zh": "corrosive（腐蚀性）= 会把东西慢慢“吃掉”，就像铁锈吃掉铁。它伤皮肤也伤眼睛，所以手和眼睛都要保护。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -637,7 +637,7 @@
           "quote": "Acid-based nail primers are very effective but can cause serious—and sometimes irreversible—damage to the skin and eyes. Never use acid-based nail primer or any other corrosive material without wearing protective gloves and safety eyewear."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "picture"
     },
     {
       "id": "nic-7b-11",
@@ -739,8 +739,8 @@
         "zh": "MMA 在卸甲液里不容易溶解，所以通常被从甲面上硬撬下来，造成更多损伤。指甲上不能使用 MMA。"
       },
       "lockPoint": {
-        "en": "MMA is the liquid in surgeons' bone cement for fixing artificial joints: built to stay put, not soak off.",
-        "zh": "MMA 是外科骨水泥的液体成分，用来固定人工关节：它就是要牢牢不动，而不是被泡掉。"
+        "en": "Doctors use MMA as a cement to repair bones. It is made to stay in place, not soak off.",
+        "zh": "医生用 MMA 做骨水泥来修补骨头：它就是要牢牢不动，而不是被泡掉。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -1195,7 +1195,7 @@
         "zh": "用笔杆轻敲指甲时发出清脆的“咔嗒”声，就说明已经变硬，这时可以用锉条或电动磨甲机修形。"
       },
       "lockPoint": {
-        "en": "Knock on a hard table and it clicks; knock on soft clay and it just thuds.",
+        "en": "Knock on a hard table and it clicks; knock on soft clay and it makes almost no sound.",
         "zh": "敲硬桌子会“咔咔”响，敲软泥只会发出闷闷的声音。"
       },
       "teachingRelation": "association",

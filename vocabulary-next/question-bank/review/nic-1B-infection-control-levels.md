@@ -10,8 +10,8 @@ C. Disinfecting / 消毒
 D. Sterilizing / 灭菌 ✅  
 *Why:* Sterilizing destroys all microbial life, including bacterial spores, usually with an autoclave. Disinfecting kills most harmful germs, but not spores.  
 *为什么:* sterilizing（灭菌）能消灭所有微生物，包括细菌芽孢，通常用高压灭菌器（autoclave）。disinfecting（消毒）能杀死大多数有害病菌，但杀不死芽孢。  
-*Lock this (word-origin):* Sterile comes from Latin for “barren”: nothing is left alive to grow, not even spores.  
-*记重点:* 灭 = 一 压在 火 上：盖住火，火就灭了。灭菌就是把所有微生物都“灭”掉，连芽孢也不剩。  
+*Lock this (picture):* Picture four steps: clean, sanitize, disinfect, sterilize. Only the top step kills everything, even spores.  
+*记重点:* 想象四级台阶：清洁 → 卫生处理 → 消毒 → 灭菌（sterilizing）。只有最高一级连芽孢都杀死。灭 = 一 压在 火 上：火全灭了。  
 *Source:* Milady Standard Foundations p.96 (PDF 591)
 
 **2. Which agency licenses beauty professionals and inspects salons?**  
@@ -34,8 +34,8 @@ C. bacterial spores. / 细菌芽孢。 ✅
 D. fungi. / 真菌。  
 *Why:* Disinfectants destroy most bacteria, fungi, and viruses on surfaces, but not bacterial spores. Only sterilization destroys spores.  
 *为什么:* disinfectants（消毒剂）能消灭表面上大多数细菌、真菌和病毒，但杀不死 bacterial spores（细菌芽孢）。只有 sterilization（灭菌）能消灭芽孢。  
-*Lock this (picture):* A spore wears armor: a protective coat lets it wait out harsh conditions, then shed it.  
-*记重点:* 芽孢像穿了盔甲：靠一层保护壳熬过恶劣环境，等条件变好再脱掉。  
+*Lock this (picture):* A spore wears a hard coat that disinfectant can't get through. It waits for good times, then takes it off.  
+*记重点:* 芽孢穿着一层硬外壳，消毒剂穿不透。它熬过恶劣环境，等条件变好再把壳脱掉。  
 *Source:* Milady Standard Foundations p.118 (PDF 613), Milady Standard Foundations p.102 (PDF 597)
 
 **4. What must be done to an implement before it can be disinfected?**  
@@ -82,8 +82,8 @@ C. EPA / EPA（美国环境保护署） ✅
 D. CDC / CDC（疾病控制与预防中心）  
 *Why:* The Environmental Protection Agency (EPA) registers all disinfectants. Look for “EPA Reg. No.” on the label. Not using a disinfectant as its label says breaks federal law.  
 *为什么:* EPA（美国环境保护署）为所有消毒剂注册。标签上要找“EPA Reg. No.”（EPA 注册号）。不按标签使用消毒剂违反联邦法律。  
-*Lock this (reason-chain):* Disinfectants are legally pesticides, so the environment agency that handles pesticides registers them.  
-*记重点:* 消毒剂在法律上属于 pesticide（杀灭有害生物的药剂），所以由管这类药剂的环境保护署注册。  
+*Lock this (reason-chain):* By law, disinfectants are pesticides, like bug spray. Pesticides belong to the Environmental Protection Agency.  
+*记重点:* 消毒剂在法律上属于 pesticide（杀虫、杀菌这类药剂），像杀虫喷雾一样，所以由管这类药剂的环境保护署注册。  
 *Source:* Milady Standard Foundations p.97 (PDF 592), Milady Standard Foundations p.119 (PDF 614)
 
 **8. A salon disinfectant should be bactericidal, virucidal, and**  
@@ -106,8 +106,8 @@ C. Bleach / 漂白水
 D. Alcohol / 酒精  
 *Why:* Phenolic disinfectants kill TB germs, but they can damage skin, eyes, plastic, and rubber. Most states have dropped them from their rules because the risks outweigh the benefits.  
 *为什么:* phenolic disinfectants（酚类消毒剂）能杀结核菌，但会伤皮肤、眼睛、塑料和橡胶。大多数州已把它从法规要求中去掉，因为风险大于好处。  
-*Lock this (real-life):* Phenol is also called carbolic acid: in the 1860s, surgeon Joseph Lister used it to disinfect wounds.  
-*记重点:* 苯酚（phenol）俗称石炭酸：1860 年代，外科医生李斯特（Joseph Lister）用它给伤口消毒。  
+*Lock this (comparison):* Like a medicine that works but makes you sick: phenolics kill TB, but they hurt skin and eyes.  
+*记重点:* 就像一种有效但副作用很大的药：酚类消毒剂能杀结核菌（TB），却会伤皮肤、眼睛、塑料和橡胶，所以多数州不再要求用它。  
 *Source:* Milady Standard Foundations p.121 (PDF 616)
 
 **10. A tuberculocidal disinfectant is proven to kill**  

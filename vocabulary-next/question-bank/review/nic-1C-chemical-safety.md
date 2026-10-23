@@ -82,8 +82,8 @@ C. an odorless foam. / 无味的泡沫。
 D. chlorine gas. / 氯气。 ✅  
 *Why:* Never mix bleach with other cleaning products unless the label says to. Even vinegar and bleach make chlorine gas, so store bleach away from other chemicals.  
 *为什么:* 除非标签说可以，否则漂白水绝不能和其他清洁产品混合。连醋加漂白水都会产生氯气，所以漂白水要和其他化学品分开存放。  
-*Lock this (reason-chain):* Bleach + an acid like vinegar → chlorine gas → Milady warns the vapors can be fatal.  
-*记重点:* 漂白水 + 醋这类酸 → 氯气 → Milady 警告这种气体可能致命。  
+*Lock this (reason-chain):* Bleach + an acid like vinegar → chlorine gas → breathing that gas can kill.  
+*记重点:* 漂白水 + 醋这类酸 → 氯气 → 吸入这种气体可能致命。  
 *Source:* Milady Standard Foundations p.172 (PDF 667), Milady Standard Foundations p.123 (PDF 618)
 
 **8. A flammable liquid has a flash point below**  
@@ -142,8 +142,8 @@ C. irritant contact dermatitis. / 刺激性接触性皮炎。 ✅
 D. tinea manus. / 手癣。  
 *Why:* Contact dermatitis is skin inflammation from touching a substance. If the substance irritates the skin, it is irritant contact dermatitis. If the skin becomes allergic, it is allergic contact dermatitis.  
 *为什么:* contact dermatitis（接触性皮炎）是皮肤接触某种物质后发炎。物质刺激皮肤，就是 irritant contact dermatitis（刺激性接触性皮炎）；皮肤对它过敏，就是 allergic contact dermatitis（过敏性接触性皮炎）。  
-*Lock this (word-parts):* Derma = skin, -itis = inflammation. Contact dermatitis is the most common avoidable skin disease for nail techs.  
-*记重点:* derma = 皮肤，-itis = 发炎。contact dermatitis（接触性皮炎）是美甲师最常见的、可以避免的皮肤病。  
+*Lock this (contrast):* Irritant: harsh stuff hurts skin. Allergic: after months of touching, skin fights one ingredient, sometimes for life.  
+*记重点:* irritant（刺激性）：刺激性的东西直接伤皮肤。allergic（过敏性）：碰了好几个月以后，皮肤开始对某一种成分起反应，有时一辈子都会过敏。  
 *Source:* Milady Standard Nail Technology p.87 (PDF 111), Milady Standard Nail Technology p.90 (PDF 114)
 
 **13. A greatly increased allergic sensitivity to a product is called**  
@@ -226,8 +226,8 @@ C. Twist your body toward the client. / 把身体转向客人。
 D. Hold your elbows far from your body. / 手肘远离身体。  
 *Why:* Ergonomics means setting up work so your body moves comfortably and safely. Have the client extend their hand across the table, and keep your back, neck, and wrists straight.  
 *为什么:* ergonomics（人体工学）就是让身体在工作中动得舒适、安全。请客人把手伸过桌子给你，保持背部、颈部和手腕挺直。  
-*Lock this (word-origin):* Ergonomics comes from Greek ergon, “work,” and nomos, “law”: the rules for working without injury.  
-*记重点:* ergonomics 来自希腊语：ergon = 工作，nomos = 法则。就是不受伤地工作的法则。  
+*Lock this (body-cue):* Reach far across a table and feel your back pull. So ask for the client's hand instead.  
+*记重点:* 自己试试：伸手去够桌子对面，会感到背和肩被拉紧。所以请顾客把手伸过来，而不是你去够。这就是 ergonomics（人体工学）。  
 *Source:* Milady Standard Foundations p.88 (PDF 583), Milady Standard Foundations p.85 (PDF 580)
 
 **20. Where should a salon’s fire extinguishers be kept?**  

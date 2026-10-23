@@ -52,8 +52,8 @@
         "zh": "sterilizing（灭菌）能消灭所有微生物，包括细菌芽孢，通常用高压灭菌器（autoclave）。disinfecting（消毒）能杀死大多数有害病菌，但杀不死芽孢。"
       },
       "lockPoint": {
-        "en": "Sterile comes from Latin for “barren”: nothing is left alive to grow, not even spores.",
-        "zh": "灭 = 一 压在 火 上：盖住火，火就灭了。灭菌就是把所有微生物都“灭”掉，连芽孢也不剩。"
+        "en": "Picture four steps: clean, sanitize, disinfect, sterilize. Only the top step kills everything, even spores.",
+        "zh": "想象四级台阶：清洁 → 卫生处理 → 消毒 → 灭菌（sterilizing）。只有最高一级连芽孢都杀死。灭 = 一 压在 火 上：火全灭了。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -74,7 +74,7 @@
           "quote": "specific products to destroy harmful organisms including bacteria, viruses and fungi (except bacterial spores)"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "picture"
     },
     {
       "id": "nic-1b-02",
@@ -186,8 +186,8 @@
         "zh": "disinfectants（消毒剂）能消灭表面上大多数细菌、真菌和病毒，但杀不死 bacterial spores（细菌芽孢）。只有 sterilization（灭菌）能消灭芽孢。"
       },
       "lockPoint": {
-        "en": "A spore wears armor: a protective coat lets it wait out harsh conditions, then shed it.",
-        "zh": "芽孢像穿了盔甲：靠一层保护壳熬过恶劣环境，等条件变好再脱掉。"
+        "en": "A spore wears a hard coat that disinfectant can't get through. It waits for good times, then takes it off.",
+        "zh": "芽孢穿着一层硬外壳，消毒剂穿不透。它熬过恶劣环境，等条件变好再把壳脱掉。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -444,8 +444,8 @@
         "zh": "EPA（美国环境保护署）为所有消毒剂注册。标签上要找“EPA Reg. No.”（EPA 注册号）。不按标签使用消毒剂违反联邦法律。"
       },
       "lockPoint": {
-        "en": "Disinfectants are legally pesticides, so the environment agency that handles pesticides registers them.",
-        "zh": "消毒剂在法律上属于 pesticide（杀灭有害生物的药剂），所以由管这类药剂的环境保护署注册。"
+        "en": "By law, disinfectants are pesticides, like bug spray. Pesticides belong to the Environmental Protection Agency.",
+        "zh": "消毒剂在法律上属于 pesticide（杀虫、杀菌这类药剂），像杀虫喷雾一样，所以由管这类药剂的环境保护署注册。"
       },
       "teachingRelation": "category",
       "authorityRefs": [
@@ -578,8 +578,8 @@
         "zh": "phenolic disinfectants（酚类消毒剂）能杀结核菌，但会伤皮肤、眼睛、塑料和橡胶。大多数州已把它从法规要求中去掉，因为风险大于好处。"
       },
       "lockPoint": {
-        "en": "Phenol is also called carbolic acid: in the 1860s, surgeon Joseph Lister used it to disinfect wounds.",
-        "zh": "苯酚（phenol）俗称石炭酸：1860 年代，外科医生李斯特（Joseph Lister）用它给伤口消毒。"
+        "en": "Like a medicine that works but makes you sick: phenolics kill TB, but they hurt skin and eyes.",
+        "zh": "就像一种有效但副作用很大的药：酚类消毒剂能杀结核菌（TB），却会伤皮肤、眼睛、塑料和橡胶，所以多数州不再要求用它。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -608,7 +608,7 @@
           "quote": "Phenol can damage plastic and rubber and cause certain metals to rust."
         }
       ],
-      "hookType": "real-life"
+      "hookType": "comparison"
     },
     {
       "id": "nic-1b-10",

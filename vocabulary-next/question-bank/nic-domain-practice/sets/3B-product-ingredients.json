@@ -52,8 +52,8 @@
         "zh": "VOC 含碳（organic，有机），并且非常容易蒸发（volatile，挥发性）。乙酸乙酯（ethyl acetate）和异丙醇（isopropyl alcohol）就是指甲油、底油、亮油和洗甲水里的 VOC 溶剂。"
       },
       "lockPoint": {
-        "en": "Volatile comes from Latin volare, \"to fly\": the liquid flies off into the air.",
-        "zh": "volatile 来自拉丁语 volare“飞”：液体“飞”进空气里。中文“挥发”也是散到空气中。"
+        "en": "Rubbing alcohol on your skin is gone in seconds. It went into the air. That's volatile, not explosive.",
+        "zh": "酒精（rubbing alcohol）擦在皮肤上，几秒就不见了，跑到空气里去了，这就是 volatile（易挥发），不是“会爆炸”。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -74,7 +74,7 @@
           "quote": "Volatile organic solvents such as ethyl acetate and isopropyl alcohol are used in nail polish, base and top coats, and polish removers."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "real-life"
     },
     {
       "id": "nic-3b-02",
@@ -178,8 +178,8 @@
         "zh": "plasticizers（增塑剂）让指甲油和加固甲产品保持柔韧。紫外线稳定剂保护颜色，色素提供颜色，溶剂蒸发后留下涂膜。"
       },
       "lockPoint": {
-        "en": "Plastic first meant \"able to be molded\" (Greek plastikos): bendable, not stiff.",
-        "zh": "plastic 原义是“可塑的”（希腊语 plastikos）。增塑剂让涂膜能弯、不发脆。"
+        "en": "Plasticizer starts with \"plastic.\" A soft plastic bag bends and doesn't crack. Plasticizers keep polish bendable.",
+        "zh": "plasticizer（增塑剂）开头就是 plastic（塑料）：软塑料袋能弯、不会裂。增塑剂让涂膜能弯、不发脆。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -206,7 +206,7 @@
           "quote": "Ingredients used to keep nail enhancement products flexible."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "word-link"
     },
     {
       "id": "nic-3b-04",
@@ -242,8 +242,8 @@
         "zh": "UV stabilizers（紫外线稳定剂）保持颜色稳定，防止阳光让颜色褪色或变色。加固甲产品里也用它做同样的事。"
       },
       "lockPoint": {
-        "en": "UV = ultraviolet, \"beyond violet\": sun rays we can't see that still fade color.",
-        "zh": "UV = ultraviolet（紫外线），“紫光之外”：肉眼看不见，却会让颜色褪掉。"
+        "en": "UV = ultraviolet: sun rays you can't see. Like a shirt left in the sun, the color fades.",
+        "zh": "UV = ultraviolet（紫外线），“紫光之外”：肉眼看不见，却会让颜色褪掉，就像衣服晒久了会褪色。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -430,8 +430,8 @@
         "zh": "Milady 指出 MMA 不致癌，也不会被吸收进血液。问题在于附着差、太硬、难卸除，而最重要的原因是 FDA 和州美容委员会不允许使用。"
       },
       "lockPoint": {
-        "en": "Surgeons use MMA as bone repair cement: toxicity isn't why nails can't use it.",
-        "zh": "MMA 被用作手术骨水泥：它被禁用于指甲，不是因为毒性。"
+        "en": "Doctors put MMA inside the body as bone cement. So poison is not the reason. The FDA's rule is.",
+        "zh": "医生把 MMA 放进人体当骨水泥用。所以禁用于指甲不是因为有毒，最重要的原因是 FDA 的规定。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -692,8 +692,8 @@
         "zh": "长期、反复接触皮肤，久而久之会引起过敏。产品蒸气不会引起皮肤过敏。只要产品从不碰到皮肤，过敏的可能性极低。"
       },
       "lockPoint": {
-        "en": "Allergy: Greek allos, \"other,\" + ergon, \"work\": the body learns a changed reaction.",
-        "zh": "allergy 来自希腊语 allos（另一种）+ ergon（作用）：反复接触后，身体学会了一种“改变了的反应”。"
+        "en": "Each skin touch adds a drop to a cup. When the cup is full, allergy starts. Vapors add none.",
+        "zh": "想象一个杯子一滴一滴装满：产品每碰一次皮肤就加一滴，杯子满了，过敏就开始了。只闻到气味（vapors）不加滴。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -714,7 +714,7 @@
           "quote": "If you never bring the product into contact with the skin, it is extremely unlikely that the client will become allergic to the product."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "picture"
     },
     {
       "id": "nic-3b-12",
@@ -958,8 +958,8 @@
         "zh": "丙酮起效快，是美甲沙龙最安全的溶剂之一。但它高度易燃，必须远离高温、明火和火花。"
       },
       "lockPoint": {
-        "en": "Used acetone goes in a fire-department-approved metal container as hazardous waste, never down the sink.",
-        "zh": "用过的丙酮要装进消防部门认可的金属容器，当危险废物处理，绝不能倒进水槽。"
+        "en": "Used acetone goes in a metal can the fire department approves. Why fire? It burns very easily.",
+        "zh": "用过的丙酮要装进消防部门认可的金属容器。为什么是消防部门？因为丙酮非常容易着火（flammable）。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -990,7 +990,7 @@
           "quote": "used liquid acetone must be saved in a fire department-approved metal container and disposed of as hazardous waste"
         }
       ],
-      "hookType": "real-life"
+      "hookType": "reason-chain"
     },
     {
       "id": "nic-3b-16",
@@ -1026,8 +1026,8 @@
         "zh": "glycerin（甘油）是一种带甜味、无色、油状的物质，在护肤霜和身体霜中用作溶剂和保湿剂。死皮软化剂（cuticle remover）里也会加甘油，用来抵消死皮软化剂本身让皮肤变干的作用。"
       },
       "lockPoint": {
-        "en": "Glycerin comes from Greek glykeros, \"sweet.\" Chinese 甘油 says it too: 甘 means sweet.",
-        "zh": "glycerin 来自希腊语 glykeros“甜”；中文“甘油”的“甘”也是甜（甘甜）。"
+        "en": "The Chinese name means \"sweet oil.\" Sweet and oily? Pick glycerin.",
+        "zh": "glycerin = 甘油：甘 = 甜（甘甜），油 = 油。“又甜又油”就是甘油，它还能保湿。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -1054,7 +1054,7 @@
           "quote": "plus glycerin or other moisturizing ingredients to counteract their skin-drying effects"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "chinese-character"
     },
     {
       "id": "nic-3b-17",
@@ -1090,8 +1090,8 @@
         "zh": "死皮软化剂 pH 高（caustic，腐蚀性），刺激皮肤。它们用来溶解甲板上的死组织，所以不要碰到甲上皮（eponychium）的活皮肤。"
       },
       "lockPoint": {
-        "en": "Sodium hydroxide is lye, the same strong alkali found in drain cleaners.",
-        "zh": "氢氧化钠就是烧碱（lye），通下水道的疏通剂里也有它。"
+        "en": "Sodium hydroxide is a very strong alkali, also used in drain cleaners. Strong alkali means very high pH.",
+        "zh": "氢氧化钠（烧碱）是很强的碱（alkali），通下水道的疏通剂里也有它。强碱 = pH 很高。"
       },
       "teachingRelation": "association",
       "authorityRefs": [

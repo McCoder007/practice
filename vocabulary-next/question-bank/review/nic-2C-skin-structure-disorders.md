@@ -22,8 +22,8 @@ C. Stratum corneum / 角质层（stratum corneum）
 D. Subcutaneous tissue / 皮下组织（subcutaneous tissue）  
 *Why:* The dermis, or true skin, is the inner layer under the epidermis. It is about 25 times thicker and holds blood vessels, nerves, glands, and hair follicles.  
 *为什么:* dermis（真皮）是表皮下面的内层，约比表皮厚 25 倍，里面有血管、神经、腺体和毛囊。  
-*Lock this (word-link):* It is also called the cutis, Latin for skin. Cuticle, "little skin," comes from the same word.  
-*记重点:* 真皮又叫 cutis，拉丁语“皮肤”。cuticle（甲小皮，“小皮”）也来自这个词。  
+*Lock this (word-parts):* Epi- = on top, sub- = under. The true skin, the dermis, sits in the middle.  
+*记重点:* epi- = 在上面，sub- = 在下面。epidermis（表皮）在上，subcutaneous（皮下组织）在下，中间的 dermis（真皮）才是“真皮”。  
 *Source:* Milady Standard Nail Technology p.63 (PDF 87)
 
 **3. The fatty layer found below the dermis is the**  
@@ -34,8 +34,8 @@ C. papillary layer. / 乳头层（papillary layer）。
 D. stratum lucidum. / 透明层（stratum lucidum）。  
 *Why:* Subcutaneous tissue, also called adipose tissue, is the fatty layer under the dermis. It gives the body smooth contour, stores energy, and cushions the skin.  
 *为什么:* subcutaneous tissue（皮下组织）也叫 adipose tissue（脂肪组织），是真皮下面的脂肪层，让身体轮廓平滑、储存能量，并为皮肤提供缓冲。  
-*Lock this (word-origin):* Its other name, adipose, comes from Latin for fat. Think of padding laid under a carpet.  
-*记重点:* 它又叫 adipose，源自拉丁语“脂肪”。就像铺在地毯下面的那层软垫。  
+*Lock this (body-cue):* Sub- = under. Pinch the soft fat under your skin: that is subcutaneous tissue, below the dermis.  
+*记重点:* sub- = 在下面。捏一捏皮肤下面软软的脂肪：那就是 subcutaneous tissue（皮下组织），在真皮下面。  
 *Source:* Milady Standard Nail Technology p.64 (PDF 88)
 
 **4. Which layer of the epidermis do beauty practitioners care for?**  
@@ -46,8 +46,8 @@ C. Stratum corneum / 角质层（stratum corneum） ✅
 D. Stratum lucidum / 透明层（stratum lucidum）  
 *Why:* The stratum corneum, or horny layer, is the outermost, visible layer of the epidermis, and the one beauty practitioners care for. Its scalelike cells are constantly shed.  
 *为什么:* stratum corneum（角质层），也叫 horny layer，是表皮最外面、肉眼可见的一层，也是美容从业者护理的那一层。它的鳞状细胞不断脱落。  
-*Lock this (word-origin):* Corneum comes from Latin cornu, horn, as in unicorn. The Chinese name 角质层 uses 角 (horn) too.  
-*记重点:* corneum 来自拉丁语 cornu（角），unicorn（独角兽）里也有它。中文“角质层”的“角”就是牛角、羊角的“角”。  
+*Lock this (body-cue):* Touch the back of your hand: you are touching the stratum corneum, the top layer. The others are under it.  
+*记重点:* 摸摸手背：你摸到的就是 stratum corneum（角质层），也就是最外面的一层；其他几层都在它下面。  
 *Source:* Milady Standard Nail Technology p.61 (PDF 85), Milady Standard Nail Technology p.62 (PDF 86)
 
 **5. The clear epidermal layer found mostly on the palms and soles is the**  
@@ -58,8 +58,8 @@ C. stratum corneum. / 角质层（stratum corneum）。
 D. stratum germinativum. / 生发层（stratum germinativum）。  
 *Why:* The stratum lucidum is a clear layer just under the surface, made of small oval cells that light can pass through. It is most abundant on the palms and soles.  
 *为什么:* stratum lucidum（透明层）是紧贴表面下方的透明层，由光线可以穿过的小椭圆形细胞组成，在手掌和脚底最丰富。  
-*Lock this (word-link):* Lucidum, lucid, and translucent all come from Latin lucere, to shine: light passes through this layer.  
-*记重点:* lucidum、lucid（清楚）、translucent（半透明）都来自拉丁语 lucere（发光）；中文“透明层”也是说光能透过。  
+*Lock this (body-cue):* Look at your fingerprints: they need the clear lucidum layer to form. Palms and soles have the most.  
+*记重点:* 看看你的指纹：指纹要靠 stratum lucidum（透明层）才能形成。“透明”= 光能透过。手掌和脚底的透明层最多。  
 *Source:* Milady Standard Nail Technology p.62 (PDF 86)
 
 **6. Which epidermal layer produces new skin cells?**  
@@ -70,8 +70,8 @@ C. Stratum granulosum / 颗粒层（stratum granulosum）
 D. Stratum germinativum / 生发层（stratum germinativum） ✅  
 *Why:* The stratum germinativum, or basal layer, is the deepest living layer of the epidermis. It makes new cells by mitosis to replace those shed from the surface.  
 *为什么:* stratum germinativum（生发层），也叫 basal layer（基底层），是表皮最深的活细胞层，通过有丝分裂产生新细胞，补充表面脱落的细胞。  
-*Lock this (word-link):* Germinativum shares a root with germinate: seeds sprout new plants; this layer sprouts new cells.  
-*记重点:* germinativum 和 germinate（发芽）同根：种子发出新芽，这一层“长”出新细胞。  
+*Lock this (word-link):* Its other name, basal layer, sounds like base: at the bottom, it makes new cells that push up.  
+*记重点:* 它的另一个名字 basal layer（基底层）里的 basal 像 base（底部）：它在最底下不断产生新细胞，往上推。  
 *Source:* Milady Standard Nail Technology p.62 (PDF 86)
 
 **7. What is the medical term for athlete's foot?**  
@@ -94,8 +94,8 @@ C. sweat glands. / 汗腺（sweat glands）。 ✅
 D. endocrine glands. / 内分泌腺（endocrine glands）。  
 *Why:* Sudoriferous glands are sweat glands. Each has a coiled base and a tube-like duct that opens at the skin surface as a sweat pore.  
 *为什么:* sudoriferous glands（汗腺）就是 sweat glands。每个汗腺有一个盘绕的底部和一根管状导管，开口在皮肤表面形成汗孔。  
-*Lock this (word-origin):* Latin sudor = sweat, ferre = to carry. Sudoriferous = sweat-carrying.  
-*记重点:* 拉丁语 sudor = 汗，ferre = 运送。sudoriferous 就是“运送汗水的”。  
+*Lock this (contrast):* Sudoriferous = sweat glands. Sebaceous = oil glands; they make sebum. Two S words: don't mix them up.  
+*记重点:* sudoriferous = 汗腺（sweat glands）；sebaceous = 皮脂腺（oil glands），分泌 sebum（皮脂）。两个 S 开头的词别搞混。  
 *Source:* Milady Standard Nail Technology p.66 (PDF 90)
 
 **9. Which areas have no sebaceous (oil) glands?**  
@@ -130,8 +130,8 @@ C. wheal. / 风团（wheal）。
 D. macule. / 斑疹（macule）。 ✅  
 *Why:* A macule is a flat spot or discoloration on the skin, such as a freckle or age spot. It is neither raised nor sunken.  
 *为什么:* macule（斑疹）是皮肤上平的斑点或变色，例如雀斑或老年斑，既不凸起也不凹陷。  
-*Lock this (word-origin):* Latin macula = spot. Immaculate means "without a spot."  
-*记重点:* 拉丁语 macula = 斑点。immaculate（一尘不染）就是“没有斑点”。  
+*Lock this (body-cue):* Touch a freckle: you can see it but not feel it. That flat spot is a macule.  
+*记重点:* 摸一下雀斑：看得见，却摸不出来。这种平平的斑就是 macule（斑疹）；摸得到凸起的是丘疹、水疱或风团。  
 *Source:* Milady Standard Nail Technology p.78 (PDF 102), Milady Standard Nail Technology p.93 (PDF 117)
 
 **12. Which skin condition is not contagious?**  
@@ -142,8 +142,8 @@ C. Eczema / 湿疹（eczema） ✅
 D. Athlete's foot / 足癣（athlete's foot）  
 *Why:* Eczema is an inflammatory, itchy skin disease that is not contagious. Warts, herpes simplex, and athlete's foot are infectious.  
 *为什么:* eczema（湿疹）是一种发炎、发痒的皮肤病，不会传染。疣、单纯疱疹和足癣都具有传染性。  
-*Lock this (reason-chain):* Eczema often runs in families and flares from triggers like dryness or soap, not germs. Nothing to catch.  
-*记重点:* 湿疹常有家族遗传倾向，会因皮肤干燥、肥皂等刺激而发作，不是病菌引起的，所以没什么可传染的。  
+*Lock this (contrast):* Warts and herpes come from viruses; athlete's foot from a fungus. Eczema is itchy, inflamed skin: nothing to catch.  
+*记重点:* 疣和单纯疱疹由病毒引起，足癣（athlete's foot）由真菌引起；湿疹只是发痒、发炎的皮肤，没有什么会传染。  
 *Source:* Milady Standard Nail Technology p.77 (PDF 101), Milady Standard Nail Technology p.82 (PDF 106)
 
 **13. A crack in the skin that reaches the dermis, like chapped hands, is a**  
@@ -154,8 +154,8 @@ C. crust. / 痂（crust）。
 D. excoriation. / 抓伤（excoriation）。  
 *Why:* A fissure is a crack in the skin that penetrates the dermis, as in severely cracked or chapped hands, lips, or feet.  
 *为什么:* fissure（皲裂）是深入到真皮的皮肤裂口，例如严重开裂或皲裂的手、嘴唇或脚。  
-*Lock this (word-origin):* Fissure comes from Latin for split, like a crack in rock. Broken skin means no salon service; refer out.  
-*记重点:* fissure 源自拉丁语“裂开”，像岩石上的裂缝。皮肤破了就不能做沙龙服务，应建议就医。  
+*Lock this (picture):* Picture chapped lips that crack in winter. Fissure = crack. Crust = scab. Scale = dry flakes.  
+*记重点:* 想想冬天干裂的嘴唇。fissure（皲裂）= 裂口；crust（痂）= 结痂；scale（鳞屑）= 皮屑。  
 *Source:* Milady Standard Nail Technology p.81 (PDF 105), Milady Standard Nail Technology p.104 (PDF 128)
 
 **14. Which is a secondary skin lesion?**  
@@ -178,8 +178,8 @@ C. miliaria rubra. / 红痱（miliaria rubra）。
 D. bromhidrosis. / 臭汗症（bromhidrosis）。 ✅  
 *Why:* Bromhidrosis is foul-smelling perspiration, usually noticeable in the armpits or on the feet.  
 *为什么:* bromhidrosis（臭汗症）是气味难闻的汗液，通常在腋下或脚上比较明显。  
-*Lock this (word-parts):* Greek bromos = stench; the element bromine was named for its smell. Hidrosis = sweating.  
-*记重点:* 希腊语 bromos = 恶臭，化学元素 bromine（溴）就是因气味得名。hidrosis = 出汗。  
+*Lock this (word-parts):* -Hidrosis = sweating. An- = no sweat, hyper- = too much sweat, brom- = bad-smelling sweat.  
+*记重点:* -hidrosis = 出汗。an- = 不出汗，hyper- = 出汗太多，brom- = 汗有臭味。  
 *Source:* Milady Standard Nail Technology p.82 (PDF 106)
 
 **16. What is the largest organ of the human body?**  
@@ -202,8 +202,8 @@ C. leukoderma. / 白斑病（leukoderma）。
 D. a nevus. / 胎记（nevus）。  
 *Why:* Chloasma is increased pigmentation: dark spots that are not raised. They are generally pools of melanin caused by years of sun exposure.  
 *为什么:* chloasma（黄褐斑）是色素增加形成的不凸起的深色斑点，通常是长期日晒造成的黑色素沉积。  
-*Lock this (name-trap):* Name trap: chlo- means green, as in chlorophyll, yet these spots are brown.  
-*记重点:* 名字陷阱：chlo- 意为“绿色”（chlorophyll 叶绿素），可这些斑却是褐色的。  
+*Lock this (contrast):* Chloasma = too much color: dark spots. Vitiligo and leukoderma = lost color: white patches.  
+*记重点:* chloasma（黄褐斑）= 色素太多，是深色斑；vitiligo（白癜风）和 leukoderma（白斑病）= 色素缺失，是白斑。  
 *Source:* Milady Standard Nail Technology p.83 (PDF 107)
 
 **18. The most common and least severe type of skin cancer is**  
@@ -214,8 +214,8 @@ C. squamous cell carcinoma. / 鳞状细胞癌（squamous cell carcinoma）。
 D. a normal mole. / 普通的痣（mole）。  
 *Why:* Basal cell carcinoma is the most common and least severe skin cancer, often light, pearly nodules. Squamous cell is more serious; malignant melanoma is the most serious.  
 *为什么:* basal cell carcinoma（基底细胞癌）是最常见、最不严重的皮肤癌，常呈浅色、珍珠样结节。鳞状细胞癌更严重，恶性黑色素瘤最严重。  
-*Lock this (reason-chain):* Basal cell carcinoma grows slowly and almost never spreads to other organs, so it ranks least severe.  
-*记重点:* 基底细胞癌长得慢，几乎不会转移到其他器官，所以最不严重。  
+*Lock this (contrast):* Squamous cell can spread in the body, and melanoma spreads fast. Basal cell is the least serious.  
+*记重点:* 鳞状细胞癌会在体内扩散，恶性黑色素瘤扩散得很快；基底细胞癌是三种里最不严重的。  
 *Source:* Milady Standard Nail Technology p.84 (PDF 108)
 
 **19. In the ABCDE mole check, what does A stand for?**  
@@ -238,6 +238,6 @@ C. mole. / 痣（mole）。
 D. wart. / 疣（wart）。 ✅  
 *Why:* Verruca is a wart, caused by a virus. It is infectious and can spread from one spot to another, especially along a scratch in the skin.  
 *为什么:* verruca（疣）是由病毒引起的。它有传染性，会从一处扩散到另一处，尤其容易沿着皮肤上的抓痕蔓延。  
-*Lock this (word-origin):* Latin verruca meant both "wart" and "a height": a wart is a bump rising from the skin.  
-*记重点:* 拉丁语 verruca 既指“疣”，也指“高处、高地”：疣就是皮肤上鼓起来的小包。  
+*Lock this (contrast):* Verruca = wart, from a virus, so it can spread. Freckles, moles and birthmarks are only color spots.  
+*记重点:* 疣的“疒”字旁表示病：verruca（疣）由病毒引起，会传染。雀斑、痣、胎记只是颜色斑，不会传染。  
 *Source:* Milady Standard Nail Technology p.86 (PDF 110)

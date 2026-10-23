@@ -362,7 +362,7 @@
         "zh": "很多顾客把它们叫“烘干机”，但 UV 和 LED 灯是固化（cure），不是吹干（dry）。灯光让甲油胶发生反应。普通指甲油是溶剂挥发后才变干。"
       },
       "lockPoint": {
-        "en": "固化 = 固 (solid) + 化 (change): the light changes liquid gel into a solid.",
+        "en": "The Chinese word means \"become solid\": the light changes liquid gel into a solid.",
         "zh": "固化：固 = 固体，化 = 变化。灯光把液态的凝胶变成固体。"
       },
       "teachingRelation": "trap",
@@ -492,7 +492,7 @@
         "zh": "恒温器让石蜡保持在适合手脚的温度。不要把顾客的手脚直接浸进蜡锅；要把蜡舀进袋子里用。用过的蜡要丢弃。"
       },
       "lockPoint": {
-        "en": "Thermo = heat, stat = standing still. A thermostat holds the heat at one level, like 恒 in 恒温.",
+        "en": "Thermo = heat, stat = stay still. A thermostat keeps the heat at one level.",
         "zh": "thermo = 热，stat = 停住不动。恒温器让温度停在一个水平；恒温的“恒”就是一直不变。"
       },
       "teachingRelation": "definition",
@@ -560,8 +560,8 @@
         "zh": "扭力（torque）是机器的力量，也就是打磨时受压仍能继续转动的能力。高扭力机器在较低转速下就能做更多。手柄一受压就变慢或停转，说明转速太低。"
       },
       "lockPoint": {
-        "en": "Torque comes from Latin torquere, to twist: the force that keeps the bit turning. 扭 = twist, too.",
-        "zh": "torque 来自拉丁语 torquere（扭转）：让磨头一直转下去的力。中文“扭力”的“扭”也是扭转。"
+        "en": "The Chinese name means \"twisting power.\" Torque is turning power, not top speed.",
+        "zh": "torque = 扭力：扭 = 扭转，力 = 力量。是压下去时还能继续转的力量，不是最高转速（那是 RPM）。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -586,7 +586,7 @@
           "quote": "If your handpiece slows down or stops rotating when you apply pressure, you are working at too low a speed."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "chinese-character"
     },
     {
       "id": "nic-5a-10",
@@ -622,8 +622,8 @@
         "zh": "与修脚椅相连、接好水管的按摩浴盆（whirlpool bath）不能移动；有的直接接冷热水和下水道。普通盆和用软管注水的按摩盆都可以移动。"
       },
       "lockPoint": {
-        "en": "Plumbed comes from Latin plumbum, lead: old water pipes were lead. Pipes in the wall can't travel.",
-        "zh": "plumbed 来自拉丁语 plumbum（铅），古代水管用铅做。接进墙里的水管搬不走。"
+        "en": "Plumbed looks like \"plumber\": the water pipes go into the wall. Like a kitchen sink, it can't move.",
+        "zh": "plumbed 看起来像 plumber（水管工）：水管接进墙里。就像厨房水槽一样，搬不走。"
       },
       "teachingRelation": "category",
       "authorityRefs": [
@@ -648,7 +648,7 @@
           "quote": "The bath is filled from the sink through attachable hoses."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "word-link"
     },
     {
       "id": "nic-5a-11",
@@ -750,8 +750,8 @@
         "zh": "像握铅笔一样握手柄，握得稳但不要太紧，否则手会抽筋。前臂放在桌上，用小指当支点（fulcrum）稳住双手。"
       },
       "lockPoint": {
-        "en": "Fulcrum is Latin for a prop: your pinky props one hand against the other, like a seesaw's pivot.",
-        "zh": "fulcrum 在拉丁语里是“支撑物”：小指把两只手撑在一起，就像跷跷板中间的支点。"
+        "en": "Touch the tip of one pinky to the other pinky's tip. That fulcrum makes both hands work as one, steady.",
+        "zh": "把一只手的小指指尖顶住另一只手的小指指尖：这就是支点（fulcrum），让两只手和打磨机连成一体，更稳。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -790,7 +790,7 @@
           "quote": "Keep the handpiece parallel to the nail."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-5a-13",
@@ -884,8 +884,8 @@
         "zh": "RPM = revolutions per minute（每分钟转数），即磨头一分钟转几整圈。在机器转速范围的中间档工作，电机更耐用。"
       },
       "lockPoint": {
-        "en": "Revolution and revolve share Latin revolvere, 'to roll back': one revolution is one full turn of the bit.",
-        "zh": "revolution 和 revolve（旋转）同源，都来自拉丁语 revolvere（re- 回 + volvere 滚动）：一个 revolution 就是磨头转一整圈。"
+        "en": "R = Revolutions (full turns), P = Per, M = Minute. Like a car's speedometer, but for the bit.",
+        "zh": "RPM：R = Revolutions（整圈），P = Per（每），M = Minute（分钟），就是每分钟转几整圈。教材说：把 RPM 想成汽车的速度表。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -906,7 +906,7 @@
           "quote": "Working in the middle range of its capacity prolongs the working life of the motor."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "real-acronym"
     },
     {
       "id": "nic-5a-15",
@@ -942,7 +942,7 @@
         "zh": "同心磨头（concentric bit）是平衡的，柄（shank）正对磨头中心，所以不晃也不震。晃动的磨头会损坏手柄和顾客的指甲。"
       },
       "lockPoint": {
-        "en": "Con = together, centric = center. Head and shank share one center, so it spins true.",
+        "en": "Con = together, centric = center. Head and shank share one center, so it spins without wobbling.",
         "zh": "con = 共同，centric = 中心。头和柄共用一个圆心，转起来就稳。同心 = 同一个圆心。"
       },
       "teachingRelation": "definition",
@@ -1010,8 +1010,8 @@
         "zh": "绝不能在真甲上用钨钢磨头（carbide bit），它的刃槽（flutes）是用来削掉加固产品的。硅胶磨头和麂皮、山羊毛等天然磨头只是轻轻抛光真甲。"
       },
       "lockPoint": {
-        "en": "Carbide flutes shave like a tiny wood plane: made for hard product, too harsh for a thin natural nail.",
-        "zh": "钨钢刃槽像一把小刨子，专削硬的产品；对薄薄的真甲太狠了。"
+        "en": "Carbide flutes shave like tiny knives: good for hard product, too rough for a thin natural nail.",
+        "zh": "钨钢刃槽像许多把小刀，专削硬的产品；对薄薄的真甲太粗暴了。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -1144,8 +1144,8 @@
         "zh": "UL（Underwriters Laboratories，美国保险商实验室）认证电器，如 UV 灯、修脚椅、电热手套和打磨机，按厂家说明使用时是安全的。"
       },
       "lockPoint": {
-        "en": "UL = Underwriters Laboratories. Underwriters are insurers: they paid for fires, so they wanted devices tested.",
-        "zh": "UL = Underwriters Laboratories。underwriter 指保险商：火灾要他们赔钱，所以他们要求电器先测试。"
+        "en": "UL = Underwriters Laboratories, a lab that tests electric things. The UL mark means it passed safety tests.",
+        "zh": "UL = Underwriters Laboratories（美国保险商实验室）：一家检测电器安全的实验室。看到 UL 标志，说明用电安全通过了认证。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -1202,7 +1202,7 @@
         "zh": "第三个圆插脚是接地插脚（grounding pin），给电流一条安全通路，即使电线松脱也能防止使用者触电。绝不要改动它去插两孔插座。"
       },
       "lockPoint": {
-        "en": "Ground means the earth. The third prong gives stray current a road to the ground, not through your body.",
+        "en": "Ground means the earth. If electricity leaks, the third prong sends it to the ground, not through you.",
         "zh": "接地 = 接到大地。第三个插脚给漏出来的电一条通往大地的路，而不是穿过你的身体。"
       },
       "teachingRelation": "definition",

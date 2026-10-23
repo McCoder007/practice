@@ -10,8 +10,8 @@ C. ulna. / 尺骨（ulna）。
 D. carpus. / 腕骨（carpus）。  
 *Why:* The humerus is the uppermost and largest bone of the arm. It runs from the elbow to the shoulder.  
 *为什么:* humerus（肱骨）是手臂最上面、最大的骨头，从肘部一直延伸到肩部。  
-*Lock this (word-origin):* Humerus is Latin for shoulder or upper arm. In Chinese, 肱 in 肱骨 also means upper arm.  
-*记重点:* humerus 是拉丁语的“肩、上臂”。中文“肱骨”的“肱”也是上臂的意思。  
+*Lock this (body-cue):* Squeeze your upper arm: one big bone from shoulder to elbow. The forearm has two: radius and ulna.  
+*记重点:* 捏一捏上臂：从肩膀到手肘只有一根大骨头，就是 humerus（肱骨），“肱”就是上臂。前臂有两根：radius 和 ulna。  
 *Source:* Milady Standard Nail Technology p.26 (PDF 50)
 
 **2. Which bone is larger at the elbow than at the wrist?**  
@@ -22,8 +22,8 @@ C. Carpus / 腕骨（carpus）
 D. Ulna / 尺骨（ulna） ✅  
 *Why:* The ulna is the longer bone of the forearm. It is larger at the elbow than at the wrist and sits on the little-finger side of the hand.  
 *为什么:* ulna（尺骨）是前臂较长的骨头，肘部一端比腕部一端粗，位于手的小指一侧。  
-*Lock this (word-origin):* Ulna is Latin for elbow or arm. Feel the point of your elbow: that knob is the ulna.  
-*记重点:* ulna 是拉丁语的“肘、手臂”。摸摸你手肘尖：那个骨突就是尺骨。  
+*Lock this (body-cue):* Feel the point of your elbow: that knob is the ulna. It runs down to your little finger side.  
+*记重点:* 摸摸手肘尖：那个骨突就是 ulna（尺骨）。它顺着前臂一直通到小指那一侧。  
 *Source:* Milady Standard Nail Technology p.26 (PDF 50)
 
 **3. The forearm bone on the thumb side is the**  
@@ -58,8 +58,8 @@ C. tarsals. / 跗骨（tarsals）。
 D. metacarpus. / 掌骨（metacarpus）。 ✅  
 *Why:* The metacarpus forms the palm: five bones between the wrist bones and the finger bones.  
 *为什么:* metacarpus（掌骨）是手掌的骨头：位于腕骨和手指骨之间的五块骨头。  
-*Lock this (word-parts):* Meta = after or beyond (Greek). Meta-carpus = the bones just beyond the wrist.  
-*记重点:* meta = 在……之后、超出（希腊语）。meta-carpus 就是“腕骨之后”的骨头。  
+*Lock this (word-parts):* Carpus = wrist. Meta-carpus = the bones after the wrist. Feel five long bones on the back of your hand.  
+*记重点:* carpus = 腕，meta- = 在……之后：metacarpus 就是腕骨之后的掌骨。摸摸手背，能摸到五根长骨。  
 *Source:* Milady Standard Nail Technology p.27 (PDF 51)
 
 **6. The bones of the fingers and toes are called**  
@@ -70,8 +70,8 @@ C. tarsals. / 跗骨（tarsals）。
 D. carpals. / 腕骨（carpals）。  
 *Why:* Phalanges are the bones of the fingers or toes, also called digits. Each foot has 14 of them.  
 *为什么:* phalanges（指骨/趾骨）是手指或脚趾的骨头，也叫 digits。每只脚有 14 块。  
-*Lock this (word-origin):* A phalanx was a line of Greek soldiers standing in rows. Finger bones line up the same way.  
-*记重点:* phalanx 是古希腊排成一列列的士兵方阵。手指骨也是这样一节一节排成行。  
+*Lock this (body-cue):* Bend one finger: you see three parts. Each part is one phalanx. The thumb has only two.  
+*记重点:* 弯一弯手指：能看到三节，每一节就是一块指骨（phalanx，复数 phalanges）。拇指只有两节。  
 *Source:* Milady Standard Nail Technology p.27 (PDF 51), Milady Standard Nail Technology p.28 (PDF 52)
 
 **7. Muscles that straighten the wrist, hand, and fingers are the**  
@@ -118,8 +118,8 @@ C. Navicular / 舟骨（navicular）
 D. Calcaneus / 跟骨（calcaneus）  
 *Why:* The ankle joint is made of three bones: the tibia and fibula from the leg, and the talus, or ankle bone, of the foot.  
 *为什么:* 踝关节由三块骨头组成：来自小腿的胫骨和腓骨，以及足部的 talus（距骨，即踝骨）。  
-*Lock this (word-origin):* Talus is Latin for ankle bone. It sits right under the tibia and carries the body's weight.  
-*记重点:* talus 是拉丁语的“踝骨”。它就在胫骨正下方，承接全身的重量。  
+*Lock this (contrast):* Talus = ankle bone, right under the tibia. Calcaneus = heel bone. Don't mix them up.  
+*记重点:* talus（距骨）= 踝骨，就在胫骨正下方；calcaneus（跟骨）= 脚后跟的骨头。两个别搞混。  
 *Source:* Milady Standard Nail Technology p.28 (PDF 52)
 
 **11. The heavy, long bone that forms the leg above the knee is the**  
@@ -130,8 +130,8 @@ C. femur. / 股骨（femur）。 ✅
 D. patella. / 髌骨（patella）。  
 *Why:* The femur is a heavy, long bone that forms the leg above the knee. The tibia and fibula form the leg below the knee.  
 *为什么:* femur（股骨）是构成膝盖以上腿部的又重又长的骨头。胫骨和腓骨构成膝盖以下的小腿。  
-*Lock this (word-origin):* Femur is Latin for thigh. Nail technicians may serve the leg only below the knee.  
-*记重点:* femur 是拉丁语的“大腿”。美甲师只能为膝盖以下的腿部提供服务。  
+*Lock this (body-cue):* Put a hand on your thigh: the femur is inside. Your shin is the tibia; your kneecap is the patella.  
+*记重点:* 手放在大腿上：里面那根大骨头就是 femur（股骨）。小腿前面是 tibia（胫骨），膝盖骨是 patella（髌骨）。  
 *Source:* Milady Standard Nail Technology p.27 (PDF 51), Milady Standard Nail Technology p.60 (PDF 84)
 
 **12. Which is an example of an immovable joint?**  
@@ -142,8 +142,8 @@ C. Hip / 髋（hip）
 D. Skull / 颅骨（skull） ✅  
 *Why:* Joints connect bones. Movable joints include elbows, knees, and hips; immovable joints, like the skull or pelvis, allow little or no movement.  
 *为什么:* 关节连接骨头。可动关节包括肘、膝、髋；不动关节，例如颅骨或骨盆，几乎不能活动。  
-*Lock this (picture):* The bones around the brain meet at zigzag seams that interlock like puzzle pieces.  
-*记重点:* 包住大脑的颅骨靠锯齿状的骨缝像拼图一样咬合在一起。  
+*Lock this (body-cue):* Bend your elbow, knee, and hip: they move. Press on your head: the skull bones don't move.  
+*记重点:* 弯一弯手肘、膝盖和髋部：它们都能动。按一按头：颅骨不会动。  
 *Source:* Milady Standard Nail Technology p.25 (PDF 49), Milady Standard Nail Technology p.26 (PDF 50)
 
 **13. The part of a muscle that does not move is the**  
@@ -178,8 +178,8 @@ C. Abductors / 外展肌（abductors）
 D. Extensors / 伸肌（extensors）  
 *Why:* Pronators turn the hand inward so the palm faces down. The supinator rotates the radius outward so the palm faces up.  
 *为什么:* pronators（旋前肌）让手向内转、掌心朝下。supinator（旋后肌）让桡骨向外转、掌心朝上。  
-*Lock this (word-link):* Lying prone = face down; lying supine = face up. The palm follows the same rule.  
-*记重点:* 英文 prone = 脸朝下趴着，supine = 脸朝上躺着。掌心朝向也按这个规则记。  
+*Lock this (body-cue):* Hold your hand out, palm up. Turn it palm down: pronators do that. Supinators turn it back up.  
+*记重点:* 手伸出来，掌心朝上；再翻成掌心朝下：这是 pronators（旋前肌）的动作。翻回朝上的是 supinators（旋后肌）。  
 *Source:* Milady Standard Nail Technology p.31 (PDF 55)
 
 **16. The large triangular muscle covering the shoulder joint is the**  
@@ -190,8 +190,8 @@ C. pectoralis major. / 胸大肌（pectoralis major）。
 D. deltoid. / 三角肌（deltoid）。 ✅  
 *Why:* The deltoid is a large, triangular muscle over the shoulder joint. It lets the arm extend outward and to the side of the body.  
 *为什么:* deltoid（三角肌）是覆盖肩关节的大块三角形肌肉，让手臂向外、向身体侧面抬起。  
-*Lock this (word-origin):* Named for delta (Δ), the Greek letter shaped like a triangle. A river delta has the same shape.  
-*记重点:* 名字来自希腊字母 delta（Δ），形状就是三角形。河流三角洲（delta）也是这个形状。  
+*Lock this (body-cue):* Lift your arm out to the side. Feel the triangle-shaped muscle that gets hard on your shoulder: deltoid.  
+*记重点:* 把手臂向侧面抬起，摸摸肩膀：变硬的那块三角形肌肉就是三角肌（deltoid），中文名“三角”直接说出了形状。  
 *Source:* Milady Standard Nail Technology p.30 (PDF 54)
 
 **17. Which nerve supplies the little-finger side of the arm and palm?**  
@@ -214,8 +214,8 @@ C. Median nerve / 正中神经（median nerve）
 D. Deep peroneal nerve / 腓深神经（deep peroneal nerve）  
 *Why:* The sural nerve supplies the skin on the outer side and back of the foot and leg. The saphenous nerve supplies the inner side.  
 *为什么:* sural nerve（腓肠神经）支配足部和小腿外侧及后面的皮肤。saphenous nerve（隐神经）支配内侧。  
-*Lock this (word-origin):* Sura is Latin for calf. The Chinese 腓肠 also means calf: the nerve runs down the back of it.  
-*记重点:* sura 是拉丁语“小腿肚”。中文“腓肠”也是小腿肚的意思：这条神经沿小腿肚后面往下走。  
+*Lock this (chinese-character):* Sural runs down the back of your calf to the outer foot. Saphenous runs down the inner side.  
+*记重点:* 中文“腓肠神经”的“腓肠”就是小腿肚：它管腿和脚的外侧、后侧。saphenous（隐神经）管内侧。  
 *Source:* Milady Standard Nail Technology p.37 (PDF 61)
 
 **19. Which artery supplies the foot with blood?**  
@@ -226,8 +226,8 @@ C. Pulmonary artery / 肺动脉（pulmonary artery）
 D. Dorsalis pedis artery / 足背动脉（dorsalis pedis artery） ✅  
 *Why:* The dorsalis pedis artery supplies the foot with blood. It continues from the anterior tibial artery, which runs down the lower leg.  
 *为什么:* dorsalis pedis artery（足背动脉）为足部供血，它由沿小腿下行的胫前动脉（anterior tibial artery）延续而来。  
-*Lock this (word-parts):* Pedis = of the foot (pedicure); dorsalis = back, the top. Feel its pulse on top of the foot.  
-*记重点:* pedis = 足的（pedicure 足部护理），dorsalis = 背面，指脚背。在脚背上能摸到它的脉搏。  
+*Lock this (word-parts):* Pedis = foot, as in pedicure. Dorsalis = the top of the foot, where this artery runs.  
+*记重点:* pedis = 足（pedicure 足部护理），dorsalis = 脚背。这条动脉沿着脚背走。  
 *Source:* Milady Standard Nail Technology p.41 (PDF 65)
 
 **20. Which muscle attaches to the back of the heel and pulls the foot down?**  
@@ -238,6 +238,6 @@ C. Gastrocnemius / 腓肠肌（gastrocnemius） ✅
 D. Abductor hallucis / 踇展肌（abductor hallucis）  
 *Why:* The gastrocnemius is attached to the lower rear surface of the heel and pulls the foot down. The tibialis anterior, on the front of the shin, bends the foot upward.  
 *为什么:* gastrocnemius（腓肠肌）附着在脚跟后下方，把脚往下拉。胫骨前肌（tibialis anterior）在小腿前面，把脚往上勾。  
-*Lock this (word-parts):* Greek gaster = belly, kneme = leg: the "belly of the leg," the bulge of your calf.  
-*记重点:* 希腊语 gaster = 肚子，kneme = 小腿：“小腿的肚子”，就是小腿肚鼓起的那块。  
+*Lock this (body-cue):* Stand on your toes and feel your calf get hard. That muscle pulls your foot down: gastrocnemius.  
+*记重点:* 踮起脚尖，摸摸小腿肚：变硬鼓起的那块就是腓肠肌（gastrocnemius），它把脚往下压。  
 *Source:* Milady Standard Nail Technology p.32 (PDF 56)

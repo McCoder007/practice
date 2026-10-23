@@ -34,8 +34,8 @@ C. Across the free edge / 横过游离缘
 D. Along the cuticle line / 沿死皮线  
 *Why:* Start at the center, push the brush back slightly to round the edge near the cuticle, then pull it down the middle. Then make one stroke on each side.  
 *为什么:* 从中间下笔，先把刷子稍微往后推，让靠近死皮处的边缘呈圆弧，再沿中间往下拉。然后两侧各涂一笔。  
-*Lock this (real-life):* Frosted or iridescent polish? Keep strokes light and parallel to the sidewalls to avoid shadow lines.  
-*记重点:* 珠光（frosted）或幻彩（iridescent）甲油：笔触要轻，并与甲侧壁平行，才不会留下阴影线。  
+*Lock this (picture):* Stroke 1 is the nose, down the middle. Strokes 2 and 3 are the cheeks, one per side.  
+*记重点:* 第一笔像鼻子：在脸的正中间往下。第二、三笔像两边脸颊，左右各一笔。  
 *Source:* Milady Standard Nail Technology p.159 (PDF 183), Milady Standard Nail Technology p.182 (PDF 206)
 
 **4. Why should polish not touch the eponychium?**  
@@ -106,8 +106,8 @@ C. Take off all their rings / 把戒指全部摘下
 D. Soak the nails once more / 再泡一次指甲  
 *Why:* Ask the client to put on jewelry and outerwear and get car keys ready before polishing. If possible, have them pay now too. This prevents smudging the fresh polish.  
 *为什么:* 上甲油前，请顾客戴好首饰、穿好外套，准备好车钥匙。可以的话，先付款。这样能避免弄花刚涂好的甲油。  
-*Lock this (picture):* Picture wet polish meeting a zipper, a purse clasp, or a ring. Do all of that before the color.  
-*记重点:* 想象刚涂好的甲油碰到拉链、包扣或戒指。这些事都要在上色之前做完。  
+*Lock this (picture):* Picture wet polish meeting a zipper, a bag, or a ring. Do all of that before the color.  
+*记重点:* 想象刚涂好的甲油碰到拉链、包包或戒指。这些事都要在上色之前做完。  
 *Source:* Milady Standard Nail Technology p.182 (PDF 206)
 
 **10. In a French manicure, the curved line where the pink and white meet is the**  
@@ -142,7 +142,7 @@ C. arthritis pain. / 关节炎疼痛。
 D. callused hands. / 手上有老茧。  
 *Why:* Avoid paraffin on clients with impaired circulation or skin irritations such as cuts, burns, rashes, warts, or eczema. Dry skin, calluses, and arthritis pain are reasons clients enjoy it.  
 *为什么:* 血液循环不良，或有割伤、烧伤、皮疹、疣、湿疹等皮肤问题的顾客，要避免蜡疗。皮肤干燥、老茧和关节炎疼痛反而是顾客喜欢蜡疗的原因。  
-*Lock this (real-life):* Seniors and chronically ill clients: ask for a written physician's permission before paraffin.  
+*Lock this (real-life):* Older clients and clients with long-term illness: ask for a doctor's note before paraffin.  
 *记重点:* 老年人和慢性病顾客：做蜡疗前，请他们先带医生的书面许可来。  
 *Source:* Milady Standard Nail Technology p.165 (PDF 189), Milady Standard Nail Technology p.167 (PDF 191), Milady Standard Nail Technology p.166 (PDF 190)
 
@@ -190,8 +190,8 @@ C. Electric mitts / 电热手套
 D. Some form of exfoliation / 某种形式的去角质 ✅  
 *Why:* Most spa manicures include a relaxing massage, and all contain some form of exfoliation to smooth the skin and help professional products penetrate.  
 *为什么:* 大多数水疗修手包含放松按摩，而所有水疗修手都有某种形式的去角质（exfoliation），让皮肤光滑，并帮助专业产品渗透。  
-*Lock this (word-parts):* Exfoliate: Latin ex = off, folium = leaf. Dead skin comes off like falling leaves.  
-*记重点:* exfoliate：拉丁语 ex = 脱落，folium = 叶子。死皮像落叶一样脱落。  
+*Lock this (picture):* Exfoliate = scrub off dead skin, like a sugar scrub. Every spa manicure has it; paraffin and stones, only some.  
+*记重点:* exfoliate（去角质）= 把死皮磨掉，就像用砂糖磨砂膏。每种水疗修手都有这一步；蜡疗和热石只有一部分才有。  
 *Source:* Milady Standard Nail Technology p.163 (PDF 187)
 
 **17. Why should overly abrasive scrubs be avoided?**  
@@ -202,8 +202,8 @@ C. They soften calluses too much / 会把老茧软化过头
 D. They stain the toenails / 会把脚趾甲染色  
 *Why:* Very abrasive scrubs can leave tiny, invisible scratches in the skin. These openings are portals of entry for disease-causing microorganisms.  
 *为什么:* 颗粒太粗的磨砂膏会在皮肤上留下看不见的细小划痕。这些开口是致病微生物的入口（portals of entry）。  
-*Lock this (word-origin):* Portal comes from Latin porta, "gate." Each tiny scratch is a gate left open for germs.  
-*记重点:* portal 来自拉丁语 porta，意思是“门”。每一道细小划痕，都是给病菌留的一扇门。  
+*Lock this (picture):* A portal is a door. Each tiny scratch is an open door that lets germs in.  
+*记重点:* portal of entry（入口）就是一扇门。每一道细小划痕，都是给病菌开着的门。  
 *Source:* Milady Standard Nail Technology p.201 (PDF 225)
 
 **18. How long is a foot mask usually left on the skin?**  
@@ -238,6 +238,6 @@ C. Removes calluses completely / 彻底去除老茧
 D. Cures gel polish / 固化凝胶甲油  
 *Why:* Paraffin traps moisture in the skin, and the warm wax increases blood circulation to the skin. It is a luxurious add-on that is safe for most clients.  
 *为什么:* 蜡疗能把水分锁在皮肤里，温热的蜡还能促进皮肤的血液循环。这是一项奢华的附加服务，大多数顾客都可以做。  
-*Lock this (real-life):* Cold day outside? Many clients remember paraffin's warm feeling, so offer it as a stand-alone service.  
-*记重点:* 外面天冷？很多顾客会记得蜡疗的温暖感觉，所以可以把它作为单独项目推出。  
+*Lock this (picture):* Warm wax wraps the hand like plastic wrap on food: water can't get out, so skin stays soft.  
+*记重点:* 温热的蜡把手包起来，就像保鲜膜包住食物：水分跑不出去，皮肤就保持柔软。  
 *Source:* Milady Standard Nail Technology p.165 (PDF 189), Milady Standard Nail Technology p.167 (PDF 191)

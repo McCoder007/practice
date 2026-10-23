@@ -154,8 +154,8 @@ C. four layers applied in order. / 按顺序涂的四层。
 D. terms used only for gel polish. / 只用于凝胶甲油的名称。  
 *Why:* Polish, enamel, lacquer, and varnish are marketing terms for the same type of product with similar ingredients: a solvent-based colored film applied to the nail plate.  
 *为什么:* polish、enamel、lacquer、varnish 都是营销用语，指成分相似的同一类产品：涂在甲面上的溶剂型有色膜。  
-*Lock this (word-origin):* Lacquer, enamel, and varnish first named finishes for wood and metal; nail brands borrowed those fancy names for one product.  
-*记重点:* lacquer（漆）、enamel（搪瓷/珐琅）、varnish（清漆）原本是木器和金属表面涂层的名称，甲油品牌借来给同一种产品起好听的名字。  
+*Lock this (comparison):* One thing, many names. Polish, enamel, lacquer, varnish: four names, one product.  
+*记重点:* 就像“土豆”“马铃薯”“洋芋”：三个名字，同一种东西。polish、enamel、lacquer、varnish：四个名字，同一类产品。  
 *Source:* Milady Standard Nail Technology p.151 (PDF 175)
 
 **14. Topcoat is applied over colored polish to**  
@@ -166,7 +166,7 @@ C. dissolve old polish faster. / 更快溶解旧甲油。
 D. prevent chipping and add shine. / 防止剥落，增加光泽。 ✅  
 *Why:* Topcoat goes over colored polish to prevent chipping and add a shine or matte finish. Its film formers, often methacrylic or cellulose types, make a hard film once the solvent evaporates.  
 *为什么:* 亮油涂在有色甲油上，防止剥落，并做出亮面或哑光（matte）效果。其中的成膜剂（常为甲基丙烯酸类或纤维素类）在溶剂挥发后形成坚硬的膜。  
-*Lock this (chinese-character):* 封层: 封 = seal, as in 封口 (seal an envelope). The top layer seals the color in.  
+*Lock this (chinese-character):* The Chinese name means "seal layer": the top coat seals the color in.  
 *记重点:* 封层：封 = 封口的封。最上面一层把颜色封在里面。  
 *Source:* Milady Standard Nail Technology p.153 (PDF 177)
 

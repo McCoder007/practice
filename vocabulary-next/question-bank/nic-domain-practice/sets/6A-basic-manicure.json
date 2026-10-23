@@ -246,8 +246,8 @@
         "zh": "指甲护理霜、乳液和营养油能软化干燥的皮肤，让天然指甲更有柔韧性。Milady 说它们对脆弱（brittle）或干燥的指甲特别有效。"
       },
       "lockPoint": {
-        "en": "Brittle = too stiff. Oil adds bend; a methylene glycol hardener adds stiffness and can make brittle nails shatter.",
-        "zh": "brittle = 太硬太脆。营养油增加柔韧；含甲二醇（methylene glycol）的硬甲剂只会更硬，可能让脆甲碎裂。"
+        "en": "Brittle = hard and breaks easily. Oil helps the nail bend. Some hardeners make it harder, so it breaks more.",
+        "zh": "brittle = 又硬又脆、容易断。营养油让指甲能弯；有些硬甲剂（如含 methylene glycol 的）会让它更硬，更容易裂。"
       },
       "teachingRelation": "function",
       "authorityRefs": [
@@ -368,8 +368,8 @@
         "zh": "从一侧锉到中间，再从另一侧锉到中间。来回拉锯会破坏甲板的层次，造成开裂和脱层。"
       },
       "lockPoint": {
-        "en": "The nail plate is built in layers, like plywood. Sawing pulls those layers apart.",
-        "zh": "甲板像胶合板一样一层层叠起来。拉锯式锉法会把层与层扯开。"
+        "en": "The nail plate is made of layers, like a stack of paper. Sawing pulls the layers apart.",
+        "zh": "甲板像一叠纸一样一层层叠起来。来回拉锯式地锉，会把层与层扯开。"
       },
       "teachingRelation": "action",
       "authorityRefs": [
@@ -546,8 +546,8 @@
         "zh": "cuticle remover（去死皮液）只涂在甲板上的死皮，不要涂在活皮肤上。它是强碱性的（caustic，高 pH），会让活皮肤干燥或受刺激。"
       },
       "lockPoint": {
-        "en": "Caustic comes from a Greek word meaning \"burning.\" It dissolves dead tissue, so keep it off live skin.",
-        "zh": "caustic 源自希腊语，意思是“灼烧”。它能溶解死组织，所以别让它碰到活皮肤。"
+        "en": "Its Chinese name means \"remove dead skin\" liquid. Live skin is not its job.",
+        "zh": "名字已经告诉你：去“死”皮液，只对付甲板上的死皮。活皮肤不是它的目标。"
       },
       "teachingRelation": "safety-rule",
       "authorityRefs": [
@@ -574,7 +574,7 @@
           "quote": "Typically, these products have a high pH (caustic) and are irritating to the skin."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "chinese-character"
     },
     {
       "id": "nic-6a-10",
@@ -804,8 +804,8 @@
         "zh": "毕业前，要练到基础修手（含上甲油）最多 30 到 45 分钟完成，最好 30 分钟。"
       },
       "lockPoint": {
-        "en": "Milady's reason: a tech who works this fast is more attractive to employers as a new hire.",
-        "zh": "Milady 的理由：能做到这个速度的新人，更受雇主青睐。"
+        "en": "Milady's reason: salons like to hire new techs who can work this fast.",
+        "zh": "Milady 的理由：沙龙更愿意雇用能做得这么快的新人。"
       },
       "teachingRelation": "number",
       "authorityRefs": [
@@ -862,8 +862,8 @@
         "zh": "说清楚，并举例描述每种颜色。Milady 建议问顾客想给人什么样的感觉，而不是列出十种红色让顾客挑。"
       },
       "lockPoint": {
-        "en": "Milady: \"A bright red that stands out in a crowd, or a subtle red?\" Describe the effect, not shade names.",
-        "zh": "Milady 的例子：“要在人群中很显眼的亮红色，还是低调的红色？”描述效果，而不是报色号名字。"
+        "en": "Milady's idea: ask \"A bright red everyone notices, or a quiet red?\" Talk about the look, not color names.",
+        "zh": "Milady 的例子：问“要人人都注意到的亮红色，还是低调的红色？”讲效果，不报色号名字。"
       },
       "teachingRelation": "action",
       "authorityRefs": [
@@ -978,8 +978,8 @@
         "zh": "Milady 称 oval（椭圆形）是保守的形状，被认为适合大多数人的手。"
       },
       "lockPoint": {
-        "en": "Oval comes from Latin ovum, \"egg.\" An egg-shaped tip suits almost any hand.",
-        "zh": "oval 来自拉丁语 ovum（蛋）。蛋形的指尖几乎适合任何手。"
+        "en": "Oval = egg shape: like squoval, but even rounder corners. Not too sharp, not too square: safe for most hands.",
+        "zh": "oval = 鸡蛋形：像方圆形（squoval），但角更圆。不尖也不方，是适合大多数手的稳妥形状。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -996,7 +996,7 @@
           "quote": "The oval nail (OH-vul NAYL) is a conservative shape thought to be attractive on most hands."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "picture"
     },
     {
       "id": "nic-6a-17",
@@ -1032,8 +1032,8 @@
         "zh": "pointed nail（尖形，又称 stiletto）又尖又长，比较弱、容易断，也难维护，所以天然指甲很少能成功做成这种形状。"
       },
       "lockPoint": {
-        "en": "Stiletto is Italian for a small, thin dagger. A thin tip has little support behind it.",
-        "zh": "stiletto 在意大利语里指细长的小匕首。尖端越细，后面的支撑就越少。"
+        "en": "Think of a sharp pencil tip: long and thin, it snaps easily. A thin nail tip has little support.",
+        "zh": "想想削尖的铅笔芯：又细又长，一碰就断。尖形（stiletto）指尖越细，后面的支撑就越少。"
       },
       "teachingRelation": "cause-effect",
       "authorityRefs": [
@@ -1054,7 +1054,7 @@
           "quote": "Rarely are natural nails successful with this nail shape, so they are usually enhancements."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "picture"
     },
     {
       "id": "nic-6a-18",
@@ -1220,8 +1220,8 @@
         "zh": "waterless manicure（无水修手）不泡水，而是用乳液和电热手套软化皮肤。甲油不会涂在吸水膨胀的指甲上，所以更持久。"
       },
       "lockPoint": {
-        "en": "No water needed, so waterless manicures also work where water is unavailable, like mobile spas.",
-        "zh": "不需要水，所以无水修手也适合没有水的地方，例如流动美甲服务（mobile spa）。"
+        "en": "A wet sponge is bigger than a dry one. Nails also soak up water and swell.",
+        "zh": "湿海绵比干海绵大。指甲泡了水也一样，会吸水膨胀。"
       },
       "teachingRelation": "cause-effect",
       "authorityRefs": [
@@ -1246,7 +1246,7 @@
           "quote": "Waterless manicures also eliminate the need for water in remote places when it is inconvenient or unavailable"
         }
       ],
-      "hookType": "real-life"
+      "hookType": "picture"
     }
   ]
 }

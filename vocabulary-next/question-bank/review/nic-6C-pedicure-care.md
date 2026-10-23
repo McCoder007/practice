@@ -118,8 +118,8 @@ C. Removing them takes too long / 去除老茧太花时间
 D. They protect the skin underneath / 老茧保护下面的皮肤 ✅  
 *Why:* Calluses protect the underlying skin in stress areas, as on people who stand all day. Soften and smooth them; do not thin them too much or remove them.  
 *为什么:* 老茧在受力部位保护下面的皮肤，比如整天站着工作的人。只能软化、磨平，不能磨得太薄或完全去掉。  
-*Lock this (comparison):* Like a guitarist's fingertips: the hard skin is armor the body built from use.  
-*记重点:* 就像吉他手的指尖：那层硬皮是身体因为反复使用而长出的盔甲。  
+*Lock this (comparison):* Like a guitar player's fingertips: hard skin grows where you use it most, to protect you.  
+*记重点:* 就像弹吉他的人的指尖：哪里用得最多，哪里就长出硬皮来保护自己。  
 *Source:* Milady Standard Nail Technology p.202 (PDF 226)
 
 **11. Using a razor-type callus shaver can make calluses**  
@@ -166,8 +166,8 @@ C. A metal pusher / 金属推棒（metal pusher） ✅
 D. Toe separators / 分趾器  
 *Why:* Do not use metal pushers or sharp implements on clients with chronic illnesses. Instead, use a curette gently to remove nonliving tissue and a fine-grit abrasive on the nails.  
 *为什么:* 慢性病顾客不能用金属推棒或尖锐工具。可以改用刮匙轻轻去除死组织，并用细砂锉处理指甲。  
-*Lock this (reason-chain):* Slow-healing skin + one unseen nick → infection, and in the worst cases amputation.  
-*记重点:* 伤口愈合慢 + 一个看不见的小伤口 → 感染，最严重会导致截肢。  
+*Lock this (reason-chain):* Slow-healing skin + one tiny, hidden cut → infection. It can even mean losing a toe or foot.  
+*记重点:* 伤口愈合慢 + 一个看不见的小伤口 → 感染，甚至可能截肢，失去脚趾或脚。  
 *Source:* Milady Standard Nail Technology p.199 (PDF 223), Milady Standard Nail Technology p.211 (PDF 235), Milady Standard Foundations p.132 (PDF 627)
 
 **15. There is buildup between the client's toes. What should you do first?**  
@@ -178,8 +178,8 @@ C. Skip cleaning between the toes / 跳过脚趾间的清洁
 D. Rub it off with a foot file / 用脚锉磨掉  
 *Why:* A complete pedicure cleans between the toes. If there is buildup, soak longer with a softening product containing urea, then clean gently with a disposable towelette or washcloth.  
 *为什么:* 完整的修脚要清洁脚趾之间。如果有积垢，先用含尿素（urea）的软化产品多泡一会儿，再用一次性湿巾或毛巾轻轻擦干净。  
-*Lock this (word-origin):* Urea is named for urine, where it was first found. In foot care it softens hard buildup.  
-*记重点:* urea（尿素）因最早在尿液中发现而得名。在足部护理中，它能软化硬结的积垢。  
+*Lock this (real-life):* Like dried food on a plate: soak it first, and it wipes off. Scraping can cut the skin.  
+*记重点:* 就像盘子上干掉的饭渍：先泡软，一擦就掉。硬刮可能会刮伤皮肤。  
 *Source:* Milady Standard Nail Technology p.210 (PDF 234)
 
 **16. Before clipping toenails for a client with health considerations, what should you check?**  
