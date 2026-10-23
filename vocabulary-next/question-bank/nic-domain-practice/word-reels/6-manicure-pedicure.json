@@ -1,0 +1,1008 @@
+{
+  "topicId": "manicure-pedicure",
+  "status": "reviewed",
+  "words": [
+    {
+      "setId": "6A",
+      "word": "penetrating nail oil",
+      "sayIt": "PEN-ih-tray-ting nayl oyl",
+      "translation": "渗透型指甲营养油",
+      "partOfSpeech": "Noun",
+      "example": "Penetrating nail oil soaks into the nail to keep it flexible.",
+      "exampleTranslation": "渗透型指甲营养油会渗进指甲，让指甲保持柔韧。",
+      "evidence": [
+        {
+          "pdfPage": 174,
+          "quote": "Nail oils (NAYL OYLZ) are designed to be absorbed into the nail plate to increase flexibility"
+        },
+        {
+          "pdfPage": 150,
+          "quote": "suggest professional products designed to penetrate the natural and enhanced nail to keep it flexible: penetrating nail oils."
+        }
+      ]
+    },
+    {
+      "setId": "6A",
+      "word": "nail bleach",
+      "translation": "指甲漂白剂",
+      "partOfSpeech": "Noun",
+      "example": "Nail bleach works best on surface stains, like tobacco.",
+      "exampleTranslation": "指甲漂白剂对表面污渍效果最好，例如烟渍。",
+      "evidence": [
+        {
+          "pdfPage": 204,
+          "quote": "These products work best for surface stains (e.g., tobacco)."
+        },
+        {
+          "pdfPage": 204,
+          "quote": "you can bleach them with a nail bleach product designed specifically for this purpose."
+        }
+      ]
+    },
+    {
+      "setId": "6A",
+      "word": "bevel",
+      "translation": "倒斜边",
+      "partOfSpeech": "Verb",
+      "example": "Bevel the underside of the free edge at a 45-degree angle.",
+      "exampleTranslation": "以 45 度角给游离缘的下侧倒斜边。",
+      "evidence": [
+        {
+          "pdfPage": 204,
+          "quote": "Bevel the underside of the nail by holding a medium-grit abrasive board at a 45-degree angle to the underside of the nail"
+        }
+      ]
+    },
+    {
+      "setId": "6A",
+      "word": "squoval",
+      "sayIt": "SKWOH-vul",
+      "translation": "方圆形",
+      "partOfSpeech": "Noun",
+      "example": "A squoval nail has a square free edge with rounded corners.",
+      "exampleTranslation": "方圆形指甲的游离缘是方的，两个角是圆的。",
+      "evidence": [
+        {
+          "pdfPage": 182,
+          "quote": "has a square free edge that is rounded off at the corner edges."
+        }
+      ]
+    },
+    {
+      "setId": "6A",
+      "word": "oval",
+      "translation": "椭圆形",
+      "partOfSpeech": "Noun",
+      "example": "An oval nail is like squoval, with even rounder corners.",
+      "exampleTranslation": "椭圆形指甲像方圆形，但两个角更圆。",
+      "evidence": [
+        {
+          "pdfPage": 182,
+          "quote": "It is similar to a squoval nail, with corners that are even more rounded."
+        }
+      ]
+    },
+    {
+      "setId": "6A",
+      "word": "conservative",
+      "sayIt": "kun-SUR-vuh-tiv",
+      "translation": "保守",
+      "partOfSpeech": "Adjective",
+      "example": "Oval is a conservative shape, thought to look good on most hands.",
+      "exampleTranslation": "椭圆形是一种保守的甲形，被认为适合大多数人的手。",
+      "evidence": [
+        {
+          "pdfPage": 182,
+          "quote": "The oval nail (OH-vul NAYL) is a conservative shape thought to be attractive on most hands."
+        }
+      ]
+    },
+    {
+      "setId": "6A",
+      "word": "stiletto",
+      "sayIt": "stih-LET-oh",
+      "translation": "尖形",
+      "partOfSpeech": "Noun",
+      "example": "A stiletto nail is long and pointed, and may break more easily.",
+      "exampleTranslation": "尖形（stiletto）指甲又长又尖，比较容易断。",
+      "evidence": [
+        {
+          "pdfPage": 182,
+          "quote": "The pointed nail (POYNT-ed NAYL) or stiletto nail (stih-LET-toe NAYL) is tapered and longer than usual"
+        },
+        {
+          "pdfPage": 182,
+          "quote": "this nail shape may be weaker, may break more easily"
+        }
+      ]
+    },
+    {
+      "setId": "6A",
+      "word": "buff",
+      "translation": "抛光",
+      "partOfSpeech": "Verb",
+      "example": "Buff the nails to smooth out scratches and give them shine.",
+      "exampleTranslation": "抛光指甲，磨平划痕，让指甲有光泽。",
+      "evidence": [
+        {
+          "pdfPage": 204,
+          "quote": "Use a buffer to smooth out surface scratches and give the natural nail a brilliant shine."
+        },
+        {
+          "pdfPage": 184,
+          "quote": "buff the nails with a high-shine buffer."
+        }
+      ]
+    },
+    {
+      "setId": "6A",
+      "word": "waterless manicure",
+      "translation": "无水修手",
+      "partOfSpeech": "Noun",
+      "example": "A waterless manicure has no water soak for the nails.",
+      "exampleTranslation": "无水修手不用水浸泡指甲。",
+      "evidence": [
+        {
+          "pdfPage": 189,
+          "quote": "Waterless manicures eliminate soaking the nails in water"
+        }
+      ]
+    },
+    {
+      "setId": "6A",
+      "word": "heated mitts",
+      "translation": "电热手套",
+      "partOfSpeech": "Noun",
+      "example": "Lotion and heated mitts can soften the skin instead of water.",
+      "exampleTranslation": "可以用乳液和电热手套代替水来软化皮肤。",
+      "evidence": [
+        {
+          "pdfPage": 189,
+          "quote": "some nail technicians use lotion and heated mitts instead to soften the skin and cuticles."
+        }
+      ]
+    },
+    {
+      "setId": "6B",
+      "word": "effleurage",
+      "sayIt": "ef-loo-RAHZH",
+      "translation": "轻抚法",
+      "partOfSpeech": "Noun",
+      "example": "In effleurage, the hands glide over the skin.",
+      "exampleTranslation": "做轻抚法时，双手在皮肤上滑动。",
+      "evidence": [
+        {
+          "pdfPage": 186,
+          "quote": "is a succession of strokes in which the hands glide over an area of the body with varying degrees of pressure or contact."
+        }
+      ]
+    },
+    {
+      "setId": "6B",
+      "word": "pétrissage",
+      "translation": "揉捏法",
+      "partOfSpeech": "Noun",
+      "example": "Pétrissage means kneading: you lift, squeeze, and press.",
+      "exampleTranslation": "揉捏法就是揉：抓起、挤压、按下。",
+      "evidence": [
+        {
+          "pdfPage": 186,
+          "quote": "or kneading, is lifting, squeezing, and pressing the tissue."
+        }
+      ]
+    },
+    {
+      "setId": "6B",
+      "word": "tapotement",
+      "sayIt": "tuh-POHT-ment",
+      "translation": "叩击法",
+      "partOfSpeech": "Noun",
+      "example": "Tapotement is fast tapping with the hands on the skin.",
+      "exampleTranslation": "叩击法是用手在皮肤上快速拍打。",
+      "evidence": [
+        {
+          "pdfPage": 186,
+          "quote": "is a rapid tapping or striking motion of the hands against the skin."
+        }
+      ]
+    },
+    {
+      "setId": "6B",
+      "word": "vibration",
+      "sayIt": "vy-BRAY-shun",
+      "translation": "振动法",
+      "partOfSpeech": "Noun",
+      "example": "In vibration, the hand shakes but never leaves the skin.",
+      "exampleTranslation": "振动法中，手一直抖动，但不离开皮肤。",
+      "evidence": [
+        {
+          "pdfPage": 186,
+          "quote": "is a continuous trembling or shaking movement applied by the hand without leaving contact with the skin."
+        }
+      ]
+    },
+    {
+      "setId": "6B",
+      "word": "friction",
+      "translation": "摩擦法",
+      "partOfSpeech": "Noun",
+      "example": "Friction rubs or presses one layer of tissue over another.",
+      "exampleTranslation": "摩擦法是把一层组织在另一层上搓动或按压。",
+      "evidence": [
+        {
+          "pdfPage": 186,
+          "quote": "incorporates various strokes that manipulate or press one layer of tissue over another."
+        },
+        {
+          "pdfPage": 209,
+          "quote": "friction massage movement that is a deep rubbing action."
+        }
+      ]
+    },
+    {
+      "setId": "6B",
+      "word": "relaxation",
+      "sayIt": "ree-lak-SAY-shun",
+      "translation": "放松",
+      "partOfSpeech": "Noun",
+      "example": "The goal of massage in a manicure is relaxation.",
+      "exampleTranslation": "修手中按摩的目的是让顾客放松。",
+      "evidence": [
+        {
+          "pdfPage": 231,
+          "quote": "the focus of a massage performed during a manicure or pedicure is purely relaxation."
+        }
+      ]
+    },
+    {
+      "setId": "6B",
+      "word": "vigorous",
+      "sayIt": "VIG-er-us",
+      "translation": "剧烈",
+      "partOfSpeech": "Adjective",
+      "example": "Do not use vigorous, strong massage on clients with arthritis.",
+      "exampleTranslation": "顾客有关节炎时，不要用剧烈、用力的按摩手法。",
+      "evidence": [
+        {
+          "pdfPage": 185,
+          "quote": "Avoid performing vigorous or strong massage techniques on clients who have arthritis."
+        }
+      ]
+    },
+    {
+      "setId": "6B",
+      "word": "arthritis",
+      "sayIt": "ar-THRY-tis",
+      "translation": "关节炎",
+      "partOfSpeech": "Noun",
+      "example": "Arthritis can make joints painful. Never press right on the joints.",
+      "exampleTranslation": "关节炎会让关节疼痛。绝不要直接按压关节。",
+      "evidence": [
+        {
+          "pdfPage": 193,
+          "quote": "There are many reasons a client may have painful joints, the most well-known reason being arthritis."
+        },
+        {
+          "pdfPage": 193,
+          "quote": "handle them gently, never applying pressure directly on the joints."
+        }
+      ]
+    },
+    {
+      "setId": "6B",
+      "word": "skin drag",
+      "translation": "皮肤拖拽",
+      "partOfSpeech": "Noun",
+      "example": "Skin drag happens when there is too little lotion on the skin.",
+      "exampleTranslation": "皮肤上的乳液太少时，就会出现皮肤拖拽。",
+      "evidence": [
+        {
+          "pdfPage": 208,
+          "quote": "Apply enough to allow movement across the skin without resistance (such resistance is known as skin drag)."
+        },
+        {
+          "pdfPage": 208,
+          "quote": "Skin drag is not comfortable for the client."
+        }
+      ]
+    },
+    {
+      "setId": "6B",
+      "word": "feathering off",
+      "translation": "羽毛式收尾",
+      "partOfSpeech": "Noun",
+      "example": "Feathering off is the light stroke that ends the massage.",
+      "exampleTranslation": "羽毛式收尾是结束按摩时的轻柔手法。",
+      "evidence": [
+        {
+          "pdfPage": 211,
+          "quote": "with a light-as-a-feather touch, pull your fingers from the back of the hands down the fingers and off the tips of the fingers."
+        },
+        {
+          "pdfPage": 211,
+          "quote": "This final movement, called feathering off, is the end of the massage."
+        }
+      ]
+    },
+    {
+      "setId": "6B",
+      "word": "ticklish",
+      "translation": "怕痒",
+      "partOfSpeech": "Adjective",
+      "example": "Hold the foot firmly. A light, loose hold can feel ticklish.",
+      "exampleTranslation": "要稳稳地握住脚。握得太轻太松会让人觉得痒。",
+      "evidence": [
+        {
+          "pdfPage": 232,
+          "quote": "Avoid holding the foot lightly or loosely, as it can cause a ticklish sensation in many people."
+        }
+      ]
+    },
+    {
+      "setId": "6C",
+      "word": "callus",
+      "sayIt": "KAL-us",
+      "translation": "老茧",
+      "partOfSpeech": "Noun",
+      "example": "A callus is thick skin that protects the skin under it.",
+      "exampleTranslation": "老茧是一层厚皮，保护下面的皮肤。",
+      "evidence": [
+        {
+          "pdfPage": 84,
+          "quote": "Continued, repeated pressure on any part of the skin can cause it to thicken and develop into a callus"
+        },
+        {
+          "pdfPage": 226,
+          "quote": "Remember that calluses are there for a reason: They protect the underlying skin from irritation."
+        }
+      ]
+    },
+    {
+      "setId": "6C",
+      "word": "ingrown toenail",
+      "translation": "嵌甲",
+      "partOfSpeech": "Noun",
+      "example": "An ingrown toenail grows into the skin beside the nail.",
+      "exampleTranslation": "嵌甲就是脚趾甲长进旁边的皮肤里。",
+      "evidence": [
+        {
+          "pdfPage": 222,
+          "quote": "to reduce the sides of the free edge that might grow into the tissues and potentially cause an ingrown nail."
+        }
+      ]
+    },
+    {
+      "setId": "6C",
+      "word": "podiatrist",
+      "sayIt": "puh-DY-uh-trist",
+      "translation": "足科医生",
+      "partOfSpeech": "Noun",
+      "example": "A podiatrist is a foot doctor who can treat ingrown nails.",
+      "exampleTranslation": "足科医生是看脚的医生，可以治疗嵌甲。",
+      "evidence": [
+        {
+          "pdfPage": 223,
+          "quote": "Caring for ingrown or infected nails is a medical treatment and must be performed by a physician or podiatrist."
+        },
+        {
+          "pdfPage": 222,
+          "quote": "refer clients with ingrown nails to a podiatrist."
+        }
+      ]
+    },
+    {
+      "setId": "6C",
+      "word": "callus shaver",
+      "translation": "去茧刀",
+      "partOfSpeech": "Noun",
+      "example": "Never use a razor-type callus shaver. Calluses grow back heavier.",
+      "exampleTranslation": "绝不要用剃刀式去茧刀。老茧会长得更厚。",
+      "evidence": [
+        {
+          "pdfPage": 230,
+          "quote": "The use of a razor-type callus shaver also stimulates heavier growth of calluses later"
+        },
+        {
+          "pdfPage": 230,
+          "quote": "When a client comes in with heavy calluses, never use a razor-type callus shaver."
+        }
+      ]
+    },
+    {
+      "setId": "6C",
+      "word": "tremors",
+      "translation": "颤抖",
+      "partOfSpeech": "Noun",
+      "example": "Tremors are shaking movements that a client cannot control.",
+      "exampleTranslation": "颤抖是顾客控制不住的抖动。",
+      "evidence": [
+        {
+          "pdfPage": 234,
+          "quote": "you may notice that they have tremors or involuntary movement, which may indicate a neurological issue."
+        }
+      ]
+    },
+    {
+      "setId": "6C",
+      "word": "exfoliate",
+      "sayIt": "eks-FOH-lee-ayt",
+      "translation": "去角质",
+      "partOfSpeech": "Verb",
+      "example": "Exfoliate the foot with a scrub to remove dry, scaly skin.",
+      "exampleTranslation": "用磨砂膏给脚去角质，去掉干燥脱屑的皮肤。",
+      "evidence": [
+        {
+          "pdfPage": 239,
+          "quote": "Exfoliate the foot with a scrub to remove the dry or scaly skin."
+        }
+      ]
+    },
+    {
+      "setId": "6C",
+      "word": "chronic illness",
+      "sayIt": "KRAH-nik IL-nus",
+      "translation": "慢性病",
+      "partOfSpeech": "Noun",
+      "example": "Do not use metal pushers on clients with a chronic illness.",
+      "exampleTranslation": "顾客有慢性病时，不要用金属推棒。",
+      "evidence": [
+        {
+          "pdfPage": 223,
+          "quote": "Do not use metal pushers or sharp implements on clients who have any chronic illnesses."
+        }
+      ]
+    },
+    {
+      "setId": "6C",
+      "word": "urea",
+      "sayIt": "yoo-REE-uh",
+      "translation": "尿素",
+      "partOfSpeech": "Noun",
+      "example": "Soak with a urea softener before cleaning buildup between toes.",
+      "exampleTranslation": "清理脚趾间的积垢前，先用含尿素的软化产品浸泡。",
+      "evidence": [
+        {
+          "pdfPage": 234,
+          "quote": "be sure to soak the nails longer with a softening product containing urea before trying to clean between them."
+        }
+      ]
+    },
+    {
+      "setId": "6C",
+      "word": "microtrauma",
+      "sayIt": "my-kroh-TRAW-muh",
+      "translation": "微创伤",
+      "partOfSpeech": "Noun",
+      "example": "Microtrauma is tiny, unseen openings in the skin, like shaving scrapes.",
+      "exampleTranslation": "微创伤是皮肤上看不见的细小开口，例如刮腿毛留下的刮痕。",
+      "evidence": [
+        {
+          "pdfPage": 228,
+          "quote": "Microtrauma is the act of causing tiny unseen openings in the skin that may allow pathogenic microbes to enter."
+        },
+        {
+          "pdfPage": 228,
+          "quote": "Invisible shaving scrapes, also known as microtrauma"
+        }
+      ]
+    },
+    {
+      "setId": "6C",
+      "word": "spa pedicure",
+      "translation": "水疗修脚",
+      "partOfSpeech": "Noun",
+      "example": "A spa pedicure takes longer and includes a leg massage.",
+      "exampleTranslation": "水疗修脚时间更长，还包括腿部按摩。",
+      "evidence": [
+        {
+          "pdfPage": 229,
+          "quote": "a spa pedicure is usually one hour to one hour and a half and includes the leg massage"
+        }
+      ]
+    },
+    {
+      "setId": "6C",
+      "word": "scaly",
+      "translation": "脱屑",
+      "partOfSpeech": "Adjective",
+      "example": "Scaly feet may mean fungus, so a podiatrist must check first.",
+      "exampleTranslation": "脚部脱屑可能是真菌感染，所以必须先让足科医生检查。",
+      "evidence": [
+        {
+          "pdfPage": 230,
+          "quote": "First, however, the client must visit a podiatrist to determine whether the feet are fungal; fungus can present as a scaly condition on the feet."
+        }
+      ]
+    },
+    {
+      "setId": "6C",
+      "word": "dry pedicure",
+      "translation": "干式修脚",
+      "partOfSpeech": "Noun",
+      "example": "In a dry pedicure, you still shape the nails and apply lotion.",
+      "exampleTranslation": "做干式修脚时，你照样要修甲形、涂乳液。",
+      "evidence": [
+        {
+          "pdfPage": 233,
+          "quote": "During a dry pedicure, you will still shorten and shape the nails, clean the cuticles, and gently apply lotion."
+        }
+      ]
+    },
+    {
+      "setId": "6D",
+      "word": "base coat",
+      "translation": "底油",
+      "partOfSpeech": "Noun",
+      "example": "A base coat stops stains and helps colored polish stick.",
+      "exampleTranslation": "底油能防止染色，并帮助彩色甲油附着。",
+      "evidence": [
+        {
+          "pdfPage": 205,
+          "quote": "Apply a base coat to keep the polish from staining the nails and to help colored polish adhere to the nail plate."
+        }
+      ]
+    },
+    {
+      "setId": "6D",
+      "word": "three-stroke method",
+      "translation": "三笔涂法",
+      "partOfSpeech": "Noun",
+      "example": "The three-stroke method uses one stroke down the middle, one each side.",
+      "exampleTranslation": "三笔涂法是中间往下涂一笔，两侧各涂一笔。",
+      "evidence": [
+        {
+          "pdfPage": 183,
+          "quote": "Professional nail technicians practice the three-stroke method."
+        },
+        {
+          "pdfPage": 183,
+          "quote": "Apply one light stroke of polish down the middle and one on each side of the nail."
+        }
+      ]
+    },
+    {
+      "setId": "6D",
+      "word": "capping",
+      "translation": "包边",
+      "partOfSpeech": "Noun",
+      "example": "Capping seals the free edge with polish and reduces chipping.",
+      "exampleTranslation": "包边就是用甲油封住游离缘，减少剥落。",
+      "evidence": [
+        {
+          "pdfPage": 207,
+          "quote": "This is called tip sealing, or capping, and it reduces chipping and layering on the free edges."
+        }
+      ]
+    },
+    {
+      "setId": "6D",
+      "word": "dominant hand",
+      "sayIt": "DOM-ih-nunt hand",
+      "translation": "惯用手",
+      "partOfSpeech": "Noun",
+      "example": "Start with the dominant hand, the hand the client uses most.",
+      "exampleTranslation": "先从惯用手开始，也就是顾客最常用的那只手。",
+      "evidence": [
+        {
+          "pdfPage": 206,
+          "quote": "Apply a thin layer of base coat on the entire plate of the nails on the dominant hand."
+        },
+        {
+          "pdfPage": 206,
+          "quote": "This will give the most-used hand a head start in drying and reduce the likelihood of smudging."
+        }
+      ]
+    },
+    {
+      "setId": "6D",
+      "word": "French manicure",
+      "translation": "法式美甲",
+      "partOfSpeech": "Noun",
+      "example": "A traditional French manicure often has a pink nail and white tip.",
+      "exampleTranslation": "传统法式美甲通常是粉色指甲配白色指尖。",
+      "evidence": [
+        {
+          "pdfPage": 419,
+          "quote": "the nail bed is one color—such as pink, peach, or beige (depending upon the client’s skin tone)—and the free edge of the nail is another color, such as white."
+        }
+      ]
+    },
+    {
+      "setId": "6D",
+      "word": "smile line",
+      "translation": "微笑线",
+      "partOfSpeech": "Noun",
+      "example": "The smile line is the curve where the pink and white meet.",
+      "exampleTranslation": "微笑线是粉色和白色交界的那条弧线。",
+      "evidence": [
+        {
+          "pdfPage": 419,
+          "quote": "The curved line where the pink and the white meet on the nail is called the smile line"
+        }
+      ]
+    },
+    {
+      "setId": "6D",
+      "word": "marbleizing",
+      "sayIt": "MAR-bul-eye-zing",
+      "translation": "大理石纹",
+      "partOfSpeech": "Noun",
+      "example": "Marbleizing swirls wet colors together with a stylus.",
+      "exampleTranslation": "大理石纹是用点花笔把未干的几种颜色搅成漩涡。",
+      "evidence": [
+        {
+          "pdfPage": 419,
+          "quote": "is a swirled effect created when you combine two or more colors while they are wet and then mix them on"
+        },
+        {
+          "pdfPage": 419,
+          "quote": "the nail with a tool known as a stylus."
+        }
+      ]
+    },
+    {
+      "setId": "6D",
+      "word": "stylus",
+      "sayIt": "STY-lus",
+      "translation": "点花笔",
+      "partOfSpeech": "Noun",
+      "example": "A stylus has a round ball tip on each end.",
+      "exampleTranslation": "点花笔的两端各有一个圆球头。",
+      "evidence": [
+        {
+          "pdfPage": 419,
+          "quote": "has a solid handle with a rounded ball tip on each end that can range in size."
+        }
+      ]
+    },
+    {
+      "setId": "6D",
+      "word": "paraffin wax treatment",
+      "sayIt": "PAIR-uh-fin waks TREET-ment",
+      "translation": "蜡疗",
+      "partOfSpeech": "Noun",
+      "example": "A paraffin wax treatment traps moisture in the skin.",
+      "exampleTranslation": "蜡疗能把水分锁在皮肤里。",
+      "evidence": [
+        {
+          "pdfPage": 189,
+          "quote": "wax treatments are designed to trap moisture in the skin"
+        }
+      ]
+    },
+    {
+      "setId": "6D",
+      "word": "impaired circulation",
+      "sayIt": "im-PAIRD sur-kyuh-LAY-shun",
+      "translation": "血液循环不良",
+      "partOfSpeech": "Noun",
+      "example": "Avoid paraffin for clients with impaired circulation (poor blood flow).",
+      "exampleTranslation": "血液循环不良（血流不好）的顾客，要避免做蜡疗。",
+      "evidence": [
+        {
+          "pdfPage": 189,
+          "quote": "Avoid paraffin treatments on clients who have impaired circulation"
+        },
+        {
+          "pdfPage": 189,
+          "quote": "The heat from the warm paraffin increases blood circulation to the skin."
+        }
+      ]
+    },
+    {
+      "setId": "6D",
+      "word": "heat tolerance",
+      "sayIt": "heet TOL-er-uns",
+      "translation": "耐热度",
+      "partOfSpeech": "Noun",
+      "example": "Test heat tolerance with a small patch of wax on the skin.",
+      "exampleTranslation": "在皮肤上滴一小片蜡，测试顾客的耐热度。",
+      "evidence": [
+        {
+          "pdfPage": 190,
+          "quote": "A test for heat tolerance is performed on all clients the first time they have the service."
+        },
+        {
+          "pdfPage": 190,
+          "quote": "Drop a patch of wax about 1” (2.5 cm) in diameter on the client’s skin to see if the temperatures can be tolerated."
+        }
+      ]
+    },
+    {
+      "setId": "6D",
+      "word": "hot stone pedicure",
+      "translation": "热石修脚",
+      "partOfSpeech": "Noun",
+      "example": "In a hot stone pedicure, the stones are warm, not hot.",
+      "exampleTranslation": "热石修脚中，石头是温暖的，并不烫。",
+      "evidence": [
+        {
+          "pdfPage": 220,
+          "quote": "the stones are not hot, they are merely comfortably warm."
+        },
+        {
+          "pdfPage": 220,
+          "quote": "Hot stone pedicures are an upscale service included in the massage of the feet and legs."
+        }
+      ]
+    }
+  ],
+  "lookAlikes": [
+    {
+      "id": "nail-shapes-square-squoval-oval",
+      "setId": "6A",
+      "items": [
+        {
+          "word": "square",
+          "translation": "方形",
+          "meaning": {
+            "en": "straight across, corners not rounded",
+            "zh": "前端平直，两角不修圆"
+          }
+        },
+        {
+          "word": "squoval",
+          "translation": "方圆形",
+          "meaning": {
+            "en": "square edge, corners just rounded off",
+            "zh": "前端是方的，两角稍微修圆"
+          }
+        },
+        {
+          "word": "oval",
+          "translation": "椭圆形",
+          "meaning": {
+            "en": "very rounded corners; thought to suit most hands",
+            "zh": "两角很圆；被认为适合大多数人的手"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Squoval mixes square and oval: square front, soft corners. Oval has the roundest corners of the three.",
+        "zh": "squoval = square（方）+ oval（椭圆）：前端方、两角圆。三种里 oval（椭圆形）的角最圆，square（方形）的角是直角，完全不修圆。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 182,
+          "quote": "is completely straight across the free edge, with no rounding at the outside edges."
+        },
+        {
+          "pdfPage": 182,
+          "quote": "has a square free edge that is rounded off at the corner edges."
+        },
+        {
+          "pdfPage": 182,
+          "quote": "It is similar to a squoval nail, with corners that are even more rounded."
+        },
+        {
+          "pdfPage": 182,
+          "quote": "is a conservative shape thought to be attractive on most hands."
+        }
+      ]
+    },
+    {
+      "id": "effleurage-petrissage-tapotement",
+      "setId": "6B",
+      "items": [
+        {
+          "word": "effleurage",
+          "translation": "轻抚法",
+          "meaning": {
+            "en": "hands glide over the skin",
+            "zh": "双手在皮肤上滑动"
+          }
+        },
+        {
+          "word": "pétrissage",
+          "translation": "揉捏法",
+          "meaning": {
+            "en": "lifting, squeezing, and pressing the tissue",
+            "zh": "提起、挤压、按压组织"
+          }
+        },
+        {
+          "word": "tapotement",
+          "translation": "叩击法",
+          "meaning": {
+            "en": "fast tapping or striking with the hands",
+            "zh": "用手快速拍打或敲击"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Tapotement starts with tap. Effleurage has fl, like flow. Pétrissage starts with p, like press: lift, squeeze, press.",
+        "zh": "tapotement 开头就是 tap（轻敲）；effleurage 里有 fl，像 flow（流动、滑动）；pétrissage 开头是 p，像 press（按压）：提起、挤压、按压。中文也分得清：轻抚、揉捏、叩击。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 186,
+          "quote": "is a succession of strokes in which the hands glide over an area of the body with varying degrees of pressure or contact."
+        },
+        {
+          "pdfPage": 186,
+          "quote": "or kneading, is lifting, squeezing, and pressing the tissue."
+        },
+        {
+          "pdfPage": 186,
+          "quote": "is a rapid tapping or striking motion of the hands against the skin."
+        }
+      ]
+    },
+    {
+      "id": "vibration-friction",
+      "setId": "6B",
+      "items": [
+        {
+          "word": "vibration",
+          "translation": "振动法",
+          "meaning": {
+            "en": "shaking while the hand stays on skin",
+            "zh": "抖动，手始终不离开皮肤"
+          }
+        },
+        {
+          "word": "friction",
+          "translation": "摩擦法",
+          "meaning": {
+            "en": "one tissue layer rubbed over another",
+            "zh": "一层组织在另一层上搓动"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Vibration: like a phone buzzing in your hand. Friction: rub your palms fast and feel the heat.",
+        "zh": "vibration（振动法）：像手机在手里震动，一直不离手。friction（摩擦法）：双手快速对搓，会发热。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 186,
+          "quote": "is a continuous trembling or shaking movement applied by the hand without leaving contact with the skin."
+        },
+        {
+          "pdfPage": 186,
+          "quote": "incorporates various strokes that manipulate or press one layer of tissue over another."
+        },
+        {
+          "pdfPage": 209,
+          "quote": "friction massage movement that is a deep rubbing action."
+        }
+      ]
+    },
+    {
+      "id": "basic-spa-pedicure",
+      "setId": "6C",
+      "items": [
+        {
+          "word": "basic pedicure",
+          "translation": "基础修脚",
+          "meaning": {
+            "en": "30 to 45 minutes, foot massage only",
+            "zh": "30 到 45 分钟，只有足部按摩"
+          }
+        },
+        {
+          "word": "spa pedicure",
+          "translation": "水疗修脚",
+          "meaning": {
+            "en": "1 to 1.5 hours, adds leg massage",
+            "zh": "1 到 1.5 小时，加腿部按摩"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Think spa day: more time, more treats. A spa pedicure adds the leg massage. Basic: foot massage only.",
+        "zh": "想想“水疗日”：时间更长、享受更多。spa pedicure（水疗修脚）多了腿部按摩；basic（基础修脚）只有足部按摩。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 229,
+          "quote": "The basic pedicure in most salons is 30 to 45 minutes and does not include a leg massage, only a foot massage"
+        },
+        {
+          "pdfPage": 229,
+          "quote": "a spa pedicure is usually one hour to one hour and a half and includes the leg massage"
+        }
+      ]
+    },
+    {
+      "id": "capping-fanning-beveling",
+      "setId": "6D",
+      "items": [
+        {
+          "word": "capping",
+          "translation": "包边",
+          "meaning": {
+            "en": "brushing polish on the very tip",
+            "zh": "把甲油刷在指甲最前端"
+          }
+        },
+        {
+          "word": "fanning",
+          "translation": "扇形压刷",
+          "meaning": {
+            "en": "pressing the brush so the bristles spread",
+            "zh": "轻压刷子，让刷毛散开"
+          }
+        },
+        {
+          "word": "beveling",
+          "translation": "倒斜边",
+          "meaning": {
+            "en": "filing the underside of the free edge",
+            "zh": "锉游离缘的下侧"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Cap the tip, like a pen cap. Fan the brush, like a hand fan. Bevel uses a file, not polish.",
+        "zh": "capping：像笔帽一样“盖住”指尖。fanning：刷毛散开像扇子。beveling 用锉板，不用甲油。中文也提示：包边、扇形压刷、倒斜边。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 207,
+          "quote": "move the brush back and forth on the very end of the free edge, barely touching it, to apply color. This is called tip sealing, or capping"
+        },
+        {
+          "pdfPage": 206,
+          "quote": "Lightly press the brush onto the nail plate, producing a slight fanning of the brush"
+        },
+        {
+          "pdfPage": 204,
+          "quote": "Bevel the underside of the nail by holding a medium-grit abrasive board at a 45-degree angle to the underside of the nail"
+        }
+      ]
+    },
+    {
+      "id": "marbleizing-ombre-color-blocking",
+      "setId": "6D",
+      "items": [
+        {
+          "word": "marbleizing",
+          "translation": "大理石纹",
+          "meaning": {
+            "en": "wet colors swirled together with a stylus",
+            "zh": "用点花笔把未干的颜色搅成漩涡"
+          }
+        },
+        {
+          "word": "ombre",
+          "translation": "渐变",
+          "meaning": {
+            "en": "one color fades into another",
+            "zh": "一种颜色渐渐过渡到另一种"
+          }
+        },
+        {
+          "word": "color blocking",
+          "translation": "色块拼接",
+          "meaning": {
+            "en": "blocks or stripes of color on the nail",
+            "zh": "指甲上一块块或一条条的颜色"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Picture a marble floor: swirls. Color blocking: blocks, like toy blocks. Ombre is the one that fades.",
+        "zh": "想象大理石地板：有漩涡纹，就是 marbleizing。color blocking 就是“色块”，像积木。剩下会渐变的就是 ombre。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 419,
+          "quote": "is a swirled effect created when you combine two or more colors while they are wet and then mix them on"
+        },
+        {
+          "pdfPage": 419,
+          "quote": "are terms that describe when one color fades into the other"
+        },
+        {
+          "pdfPage": 419,
+          "quote": "is just as it sounds: The nail has blocks or sections of color."
+        },
+        {
+          "pdfPage": 419,
+          "quote": "creating stripes or blocks with another color"
+        }
+      ]
+    }
+  ]
+}

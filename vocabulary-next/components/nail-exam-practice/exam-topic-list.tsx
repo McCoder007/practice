@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 
-import { ClipboardCheck } from "lucide-react"
+import { ClipboardCheck, Shuffle } from "lucide-react"
 
 import { ExamQuizChineseToggle } from "@/components/ExamQuizChineseToggle"
 import { NavigationMenu } from "@/components/NavigationMenu"
@@ -13,10 +13,14 @@ import {
   EXAM_TOPICS_DESCRIPTION,
   EXAM_TOPICS_PRACTICE_TEST_BANK,
   EXAM_TOPICS_TITLE,
+  LOOK_ALIKE_DESCRIPTION,
+  LOOK_ALIKE_HREF,
+  LOOK_ALIKE_TITLE,
   NAIL_EXAM_PRACTICE_HREF,
   NAIL_EXAM_PRACTICE_TITLE,
   examTopicSummary,
 } from "@/data/nail-exam-practice/catalog"
+import { LOOK_ALIKE_GROUP_COUNT } from "@/data/nic-domain-practice/word-reels"
 
 export function ExamTopicList() {
   const { showChinese } = useExamQuizPreferences()
@@ -69,6 +73,28 @@ export function ExamTopicList() {
               </CardContent>
             </Card>
           </Link>
+
+          {LOOK_ALIKE_GROUP_COUNT > 0 && (
+            <Link href={LOOK_ALIKE_HREF}>
+              <Card className="gap-1.5 border-2 border-sky-300 bg-gradient-to-r from-sky-100 to-white py-4 transition-shadow hover:shadow-md dark:border-sky-800 dark:from-sky-950/50 dark:to-slate-800">
+                <CardHeader className="px-5 pb-0">
+                  <CardTitle className="flex items-center gap-2 text-lg">
+                    <Shuffle className="size-5 shrink-0 text-sky-700 dark:text-sky-300" aria-hidden />
+                    <span>
+                      {LOOK_ALIKE_TITLE.en}
+                      {showChinese && <> | {LOOK_ALIKE_TITLE.zh}</>}
+                    </span>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="px-5">
+                  <p className="text-sm text-slate-600 dark:text-slate-300">
+                    {LOOK_ALIKE_DESCRIPTION.en}
+                    {showChinese && <> | {LOOK_ALIKE_DESCRIPTION.zh}</>}
+                  </p>
+                </CardContent>
+              </Card>
+            </Link>
+          )}
 
           <h2 className="mt-2 text-sm font-semibold tracking-wide text-slate-500 uppercase dark:text-slate-400">
             Topics{showChinese && " | 主题"}

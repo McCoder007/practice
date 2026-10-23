@@ -20,6 +20,7 @@ import sys
 from pathlib import Path
 
 SETS_DIR = Path(__file__).resolve().parent.parent / "nic-domain-practice" / "sets"
+REELS_DIR = SETS_DIR.parent / "word-reels"
 
 
 def squash(text: str) -> str:
@@ -57,6 +58,22 @@ def main() -> int:
                 page = pages.get(ref["pdfPage"])
                 if page and str(ref.get("printedPage")) != page["label"]:
                     errors.append(f"{q['id']}: printedPage {ref.get('printedPage')} != book label {page['label']} (pdf {ref['pdfPage']})")
+    # Word reels and look-alike groups (only when no set filter is given).
+    if not only:
+        for reel_file in sorted(REELS_DIR.glob("*.json")):
+            data = json.loads(reel_file.read_text(encoding="utf-8"))
+            entries = [(f"{reel_file.name} word '{w['word']}'", w) for w in data.get("words", [])]
+            entries += [(f"{reel_file.name} look-alike '{g['id']}'", g) for g in data.get("lookAlikes", [])]
+            for label, entry in entries:
+                for ev in entry.get("evidence", []):
+                    page = pages.get(ev["pdfPage"])
+                    if page is None:
+                        errors.append(f"{label}: pdf page {ev['pdfPage']} not in dump")
+                        continue
+                    nxt = pages.get(ev["pdfPage"] + 1, {"text": ""})
+                    if squash(ev["quote"]) not in squash(page["text"] + nxt["text"]):
+                        errors.append(f"{label}: quote not found on pdf page {ev['pdfPage']}: {ev['quote'][:60]}...")
+                    checked += 1
     for e in errors:
         print(f"error: {e}")
     print(f"Checked {checked} quotes: {len(errors)} problem(s).")

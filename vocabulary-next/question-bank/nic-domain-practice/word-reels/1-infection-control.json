@@ -1,0 +1,859 @@
+{
+  "topicId": "infection-control",
+  "status": "reviewed",
+  "words": [
+    {
+      "setId": "1A",
+      "word": "indirect transmission",
+      "sayIt": "in-dih-REKT trans-MISH-un",
+      "translation": "间接传播",
+      "partOfSpeech": "Noun",
+      "example": "In indirect transmission, germs spread through a dirty tool or doorknob.",
+      "exampleTranslation": "间接传播时，病菌通过不干净的工具或门把手传播。",
+      "evidence": [
+        {
+          "pdfPage": 595,
+          "quote": "Indirect transmission (in-dih-REKT trans-MISH-uhn) occurs through contact with an intermediate contaminated object, such as a razor, extractor, nipper"
+        },
+        {
+          "pdfPage": 595,
+          "quote": "Doorknobs, phones, food-preparation surfaces, or your implements at work are all possible vectors of indirect transmission"
+        }
+      ]
+    },
+    {
+      "setId": "1A",
+      "word": "airborne transmission",
+      "sayIt": "AIR-born trans-MISH-un",
+      "translation": "空气传播",
+      "partOfSpeech": "Noun",
+      "example": "In airborne transmission, tiny dry particles with germs hang in the air.",
+      "exampleTranslation": "空气传播时，带着病菌的小而干的颗粒会悬浮在空气中。",
+      "evidence": [
+        {
+          "pdfPage": 596,
+          "quote": "In airborne transmission, the particles are much smaller and dryer, so they hang in the air longer"
+        }
+      ]
+    },
+    {
+      "setId": "1A",
+      "word": "contagious disease",
+      "sayIt": "kun-TAY-jus dih-ZEEZ",
+      "translation": "传染性疾病",
+      "partOfSpeech": "Noun",
+      "example": "A contagious disease, like a cold, spreads from person to person.",
+      "exampleTranslation": "传染性疾病（例如感冒）会人传人。",
+      "evidence": [
+        {
+          "pdfPage": 599,
+          "quote": "When a disease is capable of being spread from one person to another, it is said to be a contagious disease"
+        },
+        {
+          "pdfPage": 599,
+          "quote": "contagious diseases that prevent a beauty professional from servicing a client are the common cold"
+        }
+      ]
+    },
+    {
+      "setId": "1A",
+      "word": "occupational disease",
+      "sayIt": "ok-yuh-PAY-shuh-nul dih-ZEEZ",
+      "translation": "职业病",
+      "partOfSpeech": "Noun",
+      "example": "Too much contact with products at work can cause an occupational disease.",
+      "exampleTranslation": "工作中过多接触产品可能导致职业病。",
+      "evidence": [
+        {
+          "pdfPage": 600,
+          "quote": "Illnesses resulting from conditions associated with employment, such as prolonged and repeated overexposure to certain products or ingredients."
+        }
+      ]
+    },
+    {
+      "setId": "1A",
+      "word": "nonpathogenic",
+      "sayIt": "non-path-uh-JEN-ik",
+      "translation": "非致病性",
+      "partOfSpeech": "Adjective",
+      "example": "Nonpathogenic bacteria are harmless; some help make yogurt.",
+      "exampleTranslation": "非致病性细菌是无害的，有些还能帮助制作酸奶。",
+      "evidence": [
+        {
+          "pdfPage": 601,
+          "quote": "Most bacteria are nonpathogenic (nahn-path-uh-JEN-ik); in other words, they are harmless organisms that may perform useful functions."
+        },
+        {
+          "pdfPage": 601,
+          "quote": "nonpathogenic organisms are used to make yogurt, cheese, and some medicines"
+        }
+      ]
+    },
+    {
+      "setId": "1A",
+      "word": "inflammation",
+      "sayIt": "in-fluh-MAY-shun",
+      "translation": "炎症",
+      "partOfSpeech": "Noun",
+      "example": "Inflammation shows as redness, heat, pain, or swelling.",
+      "exampleTranslation": "炎症表现为发红、发热、疼痛或肿胀。",
+      "evidence": [
+        {
+          "pdfPage": 601,
+          "quote": "Inflammation is characterized by redness, heat, pain, and/or swelling."
+        }
+      ]
+    },
+    {
+      "setId": "1A",
+      "word": "immunity",
+      "sayIt": "ih-MYOO-nih-tee",
+      "translation": "免疫",
+      "partOfSpeech": "Noun",
+      "example": "Immunity is your body's power to fight off germs.",
+      "exampleTranslation": "免疫是身体抵抗病菌的能力。",
+      "evidence": [
+        {
+          "pdfPage": 574,
+          "quote": "Immunity (im-YOO-net-ee) refers to the ability of the body to"
+        },
+        {
+          "pdfPage": 575,
+          "quote": "resist and destroy pathogens and respond to infection."
+        }
+      ]
+    },
+    {
+      "setId": "1A",
+      "word": "mycobacterium",
+      "sayIt": "my-koh-bak-TEER-ee-um",
+      "translation": "分枝杆菌",
+      "partOfSpeech": "Noun",
+      "example": "Mycobacterium infections are linked to pedicure bowls, so disinfect every bowl.",
+      "exampleTranslation": "分枝杆菌感染与足浴盆有关，所以每个足浴盆都要消毒。",
+      "evidence": [
+        {
+          "pdfPage": 603,
+          "quote": "it has been linked to disfiguring infections associated particularly with pedicure bowls"
+        },
+        {
+          "pdfPage": 603,
+          "quote": "it is important to protect your clients by properly disinfecting all implements and bowls"
+        }
+      ]
+    },
+    {
+      "setId": "1A",
+      "word": "bloodborne pathogens",
+      "sayIt": "BLUD-born PATH-uh-jenz",
+      "translation": "血源性病原体",
+      "partOfSpeech": "Noun",
+      "example": "HIV and hepatitis are bloodborne pathogens carried in blood.",
+      "exampleTranslation": "HIV 和肝炎是存在于血液中的血源性病原体。",
+      "evidence": [
+        {
+          "pdfPage": 605,
+          "quote": "Disease-causing microorganisms that are carried in the body by blood or body fluids, such as hepatitis and HIV, are called bloodborne pathogens"
+        }
+      ]
+    },
+    {
+      "setId": "1A",
+      "word": "biofilm",
+      "sayIt": "BY-oh-film",
+      "translation": "生物膜",
+      "partOfSpeech": "Noun",
+      "example": "A biofilm is a sticky layer of germs, like slime in drains.",
+      "exampleTranslation": "生物膜是一层黏黏的微生物，就像下水道里的黏液。",
+      "evidence": [
+        {
+          "pdfPage": 608,
+          "quote": "Biofilms (BY-o-films) are colonies of microorganisms that adhere to environmental surfaces"
+        },
+        {
+          "pdfPage": 609,
+          "quote": "slime in drains are examples of visible environmental biofilms"
+        }
+      ]
+    },
+    {
+      "setId": "1A",
+      "word": "ringworm",
+      "translation": "癣",
+      "partOfSpeech": "Noun",
+      "example": "Ringworm is a skin infection caused by a fungus, not a worm.",
+      "exampleTranslation": "癣是一种由真菌引起的皮肤感染，不是虫。",
+      "evidence": [
+        {
+          "pdfPage": 607,
+          "quote": "Ringworm (RING-wurm), a fungal infection of the skin that appears in circular lesions"
+        }
+      ]
+    },
+    {
+      "setId": "1A",
+      "word": "scabies",
+      "sayIt": "SKAY-beez",
+      "translation": "疥疮",
+      "partOfSpeech": "Noun",
+      "example": "Scabies is caused by the itch mite, which digs under the skin.",
+      "exampleTranslation": "疥疮是由疥螨引起的，疥螨会钻到皮肤下面。",
+      "evidence": [
+        {
+          "pdfPage": 608,
+          "quote": "Scabies (SKAY-beez) is a contagious skin disease caused by the itch mite, which burrows under the skin."
+        }
+      ]
+    },
+    {
+      "setId": "1B",
+      "word": "sterilizing",
+      "sayIt": "STAIR-uh-ly-zing",
+      "translation": "灭菌",
+      "partOfSpeech": "Noun",
+      "example": "Sterilizing kills all germs, even bacterial spores.",
+      "exampleTranslation": "灭菌能杀死所有微生物，连细菌芽孢也能杀死。",
+      "evidence": [
+        {
+          "pdfPage": 591,
+          "quote": "Sterilizing is the process that destroys all microbial life, including spores, generally with the use of an autoclave."
+        }
+      ]
+    },
+    {
+      "setId": "1B",
+      "word": "bacterial spores",
+      "sayIt": "bak-TEER-ee-ul SPORZ",
+      "translation": "细菌芽孢",
+      "partOfSpeech": "Noun",
+      "example": "Disinfecting does not kill bacterial spores; sterilizing does.",
+      "exampleTranslation": "消毒杀不死细菌芽孢，灭菌才能杀死。",
+      "evidence": [
+        {
+          "pdfPage": 613,
+          "quote": "This process, however, is not effective against bacterial spores."
+        },
+        {
+          "pdfPage": 591,
+          "quote": "Sterilizing is the process that destroys all microbial life, including spores"
+        }
+      ]
+    },
+    {
+      "setId": "1B",
+      "word": "contact time",
+      "translation": "接触时间",
+      "partOfSpeech": "Noun",
+      "example": "Contact time is how long the disinfectant must stay wet.",
+      "exampleTranslation": "接触时间是指消毒剂必须在表面保持湿润的时间。",
+      "evidence": [
+        {
+          "pdfPage": 614,
+          "quote": "contact time (the time as listed on the product label required for the disinfectant to be visibly moist to be effective against pathogens)"
+        }
+      ]
+    },
+    {
+      "setId": "1B",
+      "word": "dilute",
+      "sayIt": "dy-LOOT",
+      "translation": "稀释",
+      "partOfSpeech": "Verb",
+      "example": "Dilute a concentrate by adding it to water, not water to it.",
+      "exampleTranslation": "稀释浓缩液时，要把浓缩液倒进水里，而不是把水倒进浓缩液。",
+      "evidence": [
+        {
+          "pdfPage": 618,
+          "quote": "Add disinfectant to water when diluting (rather than adding water to a disinfectant) to prevent foaming"
+        }
+      ]
+    },
+    {
+      "setId": "1B",
+      "word": "tuberculocidal",
+      "sayIt": "tuh-bur-kyuh-loh-SY-dul",
+      "translation": "杀结核菌",
+      "partOfSpeech": "Adjective",
+      "example": "A tuberculocidal disinfectant kills the germ that causes tuberculosis.",
+      "exampleTranslation": "杀结核菌消毒剂能杀死引起结核病的细菌。",
+      "evidence": [
+        {
+          "pdfPage": 615,
+          "quote": "are proven to kill the bacterium that causes tuberculosis"
+        }
+      ]
+    },
+    {
+      "setId": "1B",
+      "word": "phenolic disinfectants",
+      "sayIt": "fih-NOH-lik dis-in-FEK-tunts",
+      "translation": "酚类消毒剂",
+      "partOfSpeech": "Noun",
+      "example": "Phenolic disinfectants kill tuberculosis germs but can hurt skin and eyes.",
+      "exampleTranslation": "酚类消毒剂能杀死结核菌，但会伤害皮肤和眼睛。",
+      "evidence": [
+        {
+          "pdfPage": 616,
+          "quote": "Phenolic disinfectants (fi-NOH-lik dis-in-FEK-tents) are powerful tuberculocidal disinfectants"
+        },
+        {
+          "pdfPage": 616,
+          "quote": "have a very high pH, and can damage the skin and eyes"
+        }
+      ]
+    },
+    {
+      "setId": "1B",
+      "word": "isopropyl alcohol",
+      "sayIt": "eye-suh-PROH-pul AL-kuh-hawl",
+      "translation": "异丙醇",
+      "partOfSpeech": "Noun",
+      "example": "Isopropyl alcohol cleans skin, but it does not disinfect tools.",
+      "exampleTranslation": "异丙醇能清洁皮肤，但不能给工具消毒。",
+      "evidence": [
+        {
+          "pdfPage": 613,
+          "quote": "Isopropyl alcohol is effective in cleaning the skin"
+        },
+        {
+          "pdfPage": 613,
+          "quote": "Alcohol is not a disinfectant for surfaces or implements and should be used only as a cleaner or antiseptic."
+        }
+      ]
+    },
+    {
+      "setId": "1B",
+      "word": "antiseptic",
+      "sayIt": "an-tih-SEP-tik",
+      "translation": "皮肤抗菌剂",
+      "partOfSpeech": "Noun",
+      "example": "An antiseptic is used on skin, not on tools.",
+      "exampleTranslation": "皮肤抗菌剂用在皮肤上，不用在工具上。",
+      "evidence": [
+        {
+          "pdfPage": 612,
+          "quote": "Antiseptics (ant-ih-SEP-tiks) are chemical germicides formulated for use on skin"
+        },
+        {
+          "pdfPage": 612,
+          "quote": "Never use an antiseptic to disinfect instruments or other surfaces."
+        }
+      ]
+    },
+    {
+      "setId": "1B",
+      "word": "nonporous",
+      "sayIt": "non-POR-us",
+      "translation": "无孔",
+      "partOfSpeech": "Adjective",
+      "example": "A nonporous item has no holes and cannot soak up liquid.",
+      "exampleTranslation": "无孔的物品没有小孔，不会吸收液体。",
+      "evidence": [
+        {
+          "pdfPage": 615,
+          "quote": "Nonporous items are made of a material that has no pores or openings and that cannot absorb liquids"
+        }
+      ]
+    },
+    {
+      "setId": "1B",
+      "word": "single-use",
+      "translation": "一次性",
+      "partOfSpeech": "Adjective",
+      "example": "A single-use item is used on one client, then thrown away.",
+      "exampleTranslation": "一次性用品只给一位顾客用，用完就丢掉。",
+      "evidence": [
+        {
+          "pdfPage": 167,
+          "quote": "All single-use implements are used once on a client. They are then discarded"
+        }
+      ]
+    },
+    {
+      "setId": "1B",
+      "word": "Standard Precautions",
+      "sayIt": "STAN-derd prih-KAW-shunz",
+      "translation": "标准预防措施",
+      "partOfSpeech": "Noun",
+      "example": "Under Standard Precautions, treat all blood and body fluids as possibly infectious.",
+      "exampleTranslation": "按照标准预防措施，要把所有血液和体液都当作可能有传染性。",
+      "evidence": [
+        {
+          "pdfPage": 621,
+          "quote": "are guidelines published by the CDC that require the employer and employee to assume that any human blood and body fluids are potentially infectious"
+        }
+      ]
+    },
+    {
+      "setId": "1B",
+      "word": "sharps box",
+      "translation": "锐器盒",
+      "partOfSpeech": "Noun",
+      "example": "Sharp disposables go in a sharps box, not the regular trash.",
+      "exampleTranslation": "一次性尖锐物品要放进锐器盒，不能丢进普通垃圾桶。",
+      "evidence": [
+        {
+          "pdfPage": 637,
+          "quote": "Deposit sharp disposables in a sharps box."
+        },
+        {
+          "pdfPage": 637,
+          "quote": "all of these items (except sharps) may go into the regular trash"
+        }
+      ]
+    },
+    {
+      "setId": "1C",
+      "word": "Safety Data Sheet",
+      "translation": "安全数据表",
+      "partOfSpeech": "Noun",
+      "example": "A Safety Data Sheet tells you a product's hazards and first aid.",
+      "exampleTranslation": "安全数据表会告诉你产品有哪些危害，以及怎样急救。",
+      "evidence": [
+        {
+          "pdfPage": 669,
+          "quote": "List all hazards associated with the product"
+        },
+        {
+          "pdfPage": 669,
+          "quote": "First-Aid Measures: Includes short- and long-term symptoms and first-aid instructions."
+        }
+      ]
+    },
+    {
+      "setId": "1C",
+      "word": "Hazard Communication Standard",
+      "sayIt": "HAZ-erd kuh-myoo-nih-KAY-shun STAN-derd",
+      "translation": "危害沟通标准",
+      "partOfSpeech": "Noun",
+      "example": "The Hazard Communication Standard says workers must be told about dangerous chemicals.",
+      "exampleTranslation": "危害沟通标准规定，必须告知员工有哪些危险化学品。",
+      "evidence": [
+        {
+          "pdfPage": 668,
+          "quote": "The OSHA Hazard Communication Standard requires that employees be notified of any chemical in their workplace that could be hazardous."
+        }
+      ]
+    },
+    {
+      "setId": "1C",
+      "word": "oxidizer",
+      "sayIt": "OK-sih-dy-zer",
+      "translation": "氧化剂",
+      "partOfSpeech": "Noun",
+      "example": "An oxidizer, like hydrogen peroxide, gives off oxygen.",
+      "exampleTranslation": "氧化剂（例如双氧水）会释放氧气。",
+      "evidence": [
+        {
+          "pdfPage": 664,
+          "quote": "An oxidizing agent (ahk-sih-DY-zing AY-jent) is a substance that releases oxygen."
+        },
+        {
+          "pdfPage": 667,
+          "quote": "an oxidizer such as hydrogen peroxide mixed with a flammable solvent such as acetone results in fire"
+        }
+      ]
+    },
+    {
+      "setId": "1C",
+      "word": "flammable",
+      "sayIt": "FLAM-uh-bul",
+      "translation": "易燃",
+      "partOfSpeech": "Adjective",
+      "example": "Acetone is flammable: it catches fire easily.",
+      "exampleTranslation": "丙酮是易燃的：它很容易着火。",
+      "evidence": [
+        {
+          "pdfPage": 667,
+          "quote": "a flammable solvent such as acetone"
+        },
+        {
+          "pdfPage": 671,
+          "quote": "flammable (FLA-ma-bul) material is even easier to ignite"
+        }
+      ]
+    },
+    {
+      "setId": "1C",
+      "word": "combustible",
+      "sayIt": "kum-BUS-tuh-bul",
+      "translation": "可燃",
+      "partOfSpeech": "Adjective",
+      "example": "Combustible liquids can burn, but flammable ones catch fire more easily.",
+      "exampleTranslation": "可燃液体能燃烧，但易燃液体更容易着火。",
+      "evidence": [
+        {
+          "pdfPage": 671,
+          "quote": "Combustible (kum-BUS-tah-bul) material is capable of igniting and burning. Compared to this, flammable (FLA-ma-bul) material is even easier to ignite"
+        }
+      ]
+    },
+    {
+      "setId": "1C",
+      "word": "secondary container",
+      "sayIt": "SEK-un-dair-ee kun-TAY-ner",
+      "translation": "二次容器",
+      "partOfSpeech": "Noun",
+      "example": "A spray bottle of mixed concentrate is a secondary container.",
+      "exampleTranslation": "装着兑好的浓缩液的喷瓶就是二次容器。",
+      "evidence": [
+        {
+          "pdfPage": 668,
+          "quote": "When concentrates are mixed and used in a secondary container, such as a spray bottle, that container should be labeled"
+        }
+      ]
+    },
+    {
+      "setId": "1C",
+      "word": "irritant contact dermatitis",
+      "sayIt": "IR-ih-tunt KON-takt dur-muh-TY-tis",
+      "translation": "刺激性接触性皮炎",
+      "partOfSpeech": "Noun",
+      "example": "When a product irritates the skin, it is irritant contact dermatitis.",
+      "exampleTranslation": "产品刺激皮肤引起的皮炎，叫刺激性接触性皮炎。",
+      "evidence": [
+        {
+          "pdfPage": 111,
+          "quote": "When the skin is irritated by a substance, it is called irritant contact dermatitis"
+        }
+      ]
+    },
+    {
+      "setId": "1C",
+      "word": "sensitization",
+      "sayIt": "sen-sih-tih-ZAY-shun",
+      "translation": "致敏",
+      "partOfSpeech": "Noun",
+      "example": "Sensitization means the skin becomes much more allergic to a product.",
+      "exampleTranslation": "致敏是指皮肤对某种产品的过敏反应大大增强。",
+      "evidence": [
+        {
+          "pdfPage": 118,
+          "quote": "A greatly increased or exaggerated allergic sensitivity to products."
+        },
+        {
+          "pdfPage": 112,
+          "quote": "With each exposure during a service, the risk of skin sensitization"
+        }
+      ]
+    },
+    {
+      "setId": "1C",
+      "word": "source-capture ventilation",
+      "sayIt": "SORS KAP-cher ven-tuh-LAY-shun",
+      "translation": "源头捕集通风",
+      "partOfSpeech": "Noun",
+      "example": "Source-capture ventilation removes vapors and dust before they spread into the salon.",
+      "exampleTranslation": "源头捕集通风会在蒸气和粉尘散到店里之前把它们排走。",
+      "evidence": [
+        {
+          "pdfPage": 152,
+          "quote": "These systems are designed to capture vapors and dusts at the source and remove them from the air before they have a chance to escape into the salon."
+        }
+      ]
+    },
+    {
+      "setId": "1C",
+      "word": "nitrile gloves",
+      "sayIt": "NY-trul GLUVZ",
+      "translation": "丁腈手套",
+      "partOfSpeech": "Noun",
+      "example": "Wear nitrile gloves, not latex; latex allergies are common.",
+      "exampleTranslation": "要戴丁腈手套，不戴乳胶手套，因为对乳胶过敏的人很多。",
+      "evidence": [
+        {
+          "pdfPage": 623,
+          "quote": "you should avoid latex due to increasingly common allergies to the material"
+        },
+        {
+          "pdfPage": 623,
+          "quote": "Nitrile gloves are a strong alternative in both instances."
+        }
+      ]
+    },
+    {
+      "setId": "1C",
+      "word": "ergonomics",
+      "sayIt": "ur-guh-NOM-iks",
+      "translation": "人体工学",
+      "partOfSpeech": "Noun",
+      "example": "Ergonomics is setting up your work so your body moves safely.",
+      "exampleTranslation": "人体工学就是合理安排工作，让身体动起来更安全。",
+      "evidence": [
+        {
+          "pdfPage": 580,
+          "quote": "is the science of designing the workplace as well as its equipment and tools to make specific body movements more comfortable, efficient, and safe."
+        }
+      ]
+    },
+    {
+      "setId": "1C",
+      "word": "hand sanitizer",
+      "sayIt": "hand SAN-ih-ty-zer",
+      "translation": "免洗洗手液",
+      "partOfSpeech": "Noun",
+      "example": "Use hand sanitizer only when you cannot wash your hands.",
+      "exampleTranslation": "只有在无法洗手时，才用免洗洗手液。",
+      "evidence": [
+        {
+          "pdfPage": 180,
+          "quote": "they are to be used only when water is not available for hand washing"
+        },
+        {
+          "pdfPage": 612,
+          "quote": "they are an excellent option when hand washing is not possible"
+        }
+      ]
+    }
+  ],
+  "lookAlikes": [
+    {
+      "id": "clean-disinfect-sterilize",
+      "setId": "1B",
+      "items": [
+        {
+          "word": "cleaning",
+          "translation": "清洁",
+          "meaning": {
+            "en": "removes visible dirt with soap and water",
+            "zh": "用肥皂和水去掉看得见的污垢"
+          }
+        },
+        {
+          "word": "disinfecting",
+          "translation": "消毒",
+          "meaning": {
+            "en": "kills most germs, but not bacterial spores",
+            "zh": "杀死大多数病菌，但杀不死细菌芽孢"
+          }
+        },
+        {
+          "word": "sterilizing",
+          "translation": "灭菌",
+          "meaning": {
+            "en": "kills all germs, even bacterial spores",
+            "zh": "杀死所有微生物，连细菌芽孢也杀死"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Three steps up: clean, then disinfect, then sterilize. Each step gets rid of more germs. Only sterilizing kills spores.",
+        "zh": "三级台阶：清洁 → 消毒 → 灭菌，一级比一级去掉更多病菌。只有灭菌（sterilizing）能杀死芽孢。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 591,
+          "quote": "Cleaning is a mechanical process using soap and water or detergent and water to remove all visible dirt, debris, and many disease-causing germs."
+        },
+        {
+          "pdfPage": 591,
+          "quote": "specific products to destroy harmful organisms including bacteria, viruses and fungi (except bacterial spores)"
+        },
+        {
+          "pdfPage": 591,
+          "quote": "Sterilizing is the process that destroys all microbial life, including spores"
+        }
+      ]
+    },
+    {
+      "id": "pathogenic-nonpathogenic",
+      "setId": "1A",
+      "items": [
+        {
+          "word": "pathogenic",
+          "translation": "致病性",
+          "meaning": {
+            "en": "harmful; can cause disease",
+            "zh": "有害，会引起疾病"
+          }
+        },
+        {
+          "word": "nonpathogenic",
+          "translation": "非致病性",
+          "meaning": {
+            "en": "harmless; does not cause disease",
+            "zh": "无害，不会引起疾病"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Non = no. Nonpathogenic: no disease, like yogurt bacteria. Pathogenic: can make you sick.",
+        "zh": "non = 不。看中文：非致病性 = “非”（不）+ 致病，不会让人生病，比如做酸奶的细菌。致病性 = 会让人生病。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 601,
+          "quote": "Pathogenic (path-uh-JEN-ik) bacteria are harmful microorganisms that can cause disease or infection in humans"
+        },
+        {
+          "pdfPage": 601,
+          "quote": "they are harmless organisms that may perform useful functions. They are safe to come in contact with since they do not cause disease or harm."
+        },
+        {
+          "pdfPage": 601,
+          "quote": "nonpathogenic organisms are used to make yogurt, cheese, and some medicines"
+        }
+      ]
+    },
+    {
+      "id": "bactericidal-fungicidal-virucidal",
+      "setId": "1B",
+      "items": [
+        {
+          "word": "bactericidal",
+          "translation": "杀细菌",
+          "meaning": {
+            "en": "destroys bacteria",
+            "zh": "能消灭细菌"
+          }
+        },
+        {
+          "word": "fungicidal",
+          "translation": "杀真菌",
+          "meaning": {
+            "en": "destroys molds and fungi",
+            "zh": "能消灭霉菌和真菌"
+          }
+        },
+        {
+          "word": "virucidal",
+          "translation": "杀病毒",
+          "meaning": {
+            "en": "destroys viruses",
+            "zh": "能消灭病毒"
+          }
+        }
+      ],
+      "tip": {
+        "en": "-cidal = kills. Read the start: bacteri- is bacteria, fungi- is fungi, viru- is virus.",
+        "zh": "-cidal = 杀。看开头：bacteri- 细菌，fungi- 真菌，viru- 病毒。中文也一样：杀细菌、杀真菌、杀病毒。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 597,
+          "quote": "bactericidal (bak-TEER-uh-SYD-uhl), capable of destroying bacteria"
+        },
+        {
+          "pdfPage": 597,
+          "quote": "virucidal (viy-ruh-SYD-uhl), capable of destroying viruses"
+        },
+        {
+          "pdfPage": 597,
+          "quote": "fungicidal (fun-ji-SYD-uhl), capable of destroying molds and fungi."
+        }
+      ]
+    },
+    {
+      "id": "single-use-multiuse",
+      "setId": "1B",
+      "items": [
+        {
+          "word": "single-use",
+          "translation": "一次性",
+          "meaning": {
+            "en": "used on one client, then thrown away",
+            "zh": "只给一位顾客用，用完就丢"
+          }
+        },
+        {
+          "word": "multiuse",
+          "translation": "可重复使用",
+          "meaning": {
+            "en": "cleaned, disinfected, and used again",
+            "zh": "清洁、消毒后可以再用"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Single = one: one client, then the trash. Multi = many: clean it, disinfect it, use it again.",
+        "zh": "single = 一个：一位顾客用完就丢（一次性）。multi = 很多：清洁、消毒后可以再用（可重复使用）。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 167,
+          "quote": "All single-use implements are used once on a client. They are then discarded"
+        },
+        {
+          "pdfPage": 613,
+          "quote": "multiuse refers to items that can be cleaned, disinfected, and used on more than one person"
+        }
+      ]
+    },
+    {
+      "id": "antiseptic-disinfectant",
+      "setId": "1B",
+      "items": [
+        {
+          "word": "antiseptic",
+          "translation": "皮肤抗菌剂",
+          "meaning": {
+            "en": "germ killer made for use on skin",
+            "zh": "专门用在皮肤上的杀菌剂"
+          }
+        },
+        {
+          "word": "disinfectant",
+          "translation": "消毒剂",
+          "meaning": {
+            "en": "for tools and hard surfaces, never skin",
+            "zh": "用在工具和坚硬表面上，绝不用在皮肤上"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Antiseptic goes with the bandage, on skin. Disinfectant goes on tools and tables, never on skin.",
+        "zh": "antiseptic 和创可贴一起用，用在皮肤上。disinfectant 用在工具和台面上，绝不用在皮肤上。看中文：“皮肤抗菌剂”名字里就有“皮肤”。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 612,
+          "quote": "Antiseptics (ant-ih-SEP-tiks) are chemical germicides formulated for use on skin"
+        },
+        {
+          "pdfPage": 637,
+          "quote": "Offer your client antiseptic and an adhesive bandage."
+        },
+        {
+          "pdfPage": 614,
+          "quote": "Disinfectants are not for use on human skin, hair, or nails."
+        },
+        {
+          "pdfPage": 618,
+          "quote": "Use disinfectants only on clean, hard, nonporous surfaces."
+        }
+      ]
+    },
+    {
+      "id": "flammable-combustible",
+      "setId": "1C",
+      "items": [
+        {
+          "word": "flammable",
+          "translation": "易燃",
+          "meaning": {
+            "en": "liquid with a flash point below 100°F",
+            "zh": "闪点低于 100°F 的液体"
+          }
+        },
+        {
+          "word": "combustible",
+          "translation": "可燃",
+          "meaning": {
+            "en": "liquid with a flash point of 100–200°F",
+            "zh": "闪点在 100°F 到 200°F 之间的液体"
+          }
+        }
+      ],
+      "tip": {
+        "en": "Flammable starts like \"flame\": it catches fire more easily, below 100°F. Combustible needs more heat: 100–200°F.",
+        "zh": "flammable 开头像 flame（火焰）：更容易着火，闪点低于 100°F。combustible 要更热才着：100–200°F。看中文：“易燃”= 容易燃，“可燃”= 能燃。"
+      },
+      "evidence": [
+        {
+          "pdfPage": 671,
+          "quote": "combustible liquid has a flash point between 100 and 200 degrees Fahrenheit, while flammable liquid has a flash point below 100 degrees"
+        }
+      ]
+    }
+  ]
+}
