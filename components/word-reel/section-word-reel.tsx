@@ -410,7 +410,7 @@ export function SectionWordReel({
               type="button"
               onMouseDown={(e) => e.stopPropagation()}
               onClick={() => {
-                // Same word, slowed to 0.75x so each part is easy to hear.
+                // Same word, spoken slowly (0.6) so each part is easy to hear.
                 playTextSlow(speechFor(card))
                 if (analyticsReady) logWordInteraction(card.word, "word_audio_played")
               }}
