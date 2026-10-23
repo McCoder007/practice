@@ -474,8 +474,8 @@
         "zh": "一次性纸拖或泡沫拖鞋，给没穿露趾鞋或凉鞋、又不想蹭花刚涂好的脚指甲油的顾客。拖鞋设计成不碰到指甲。"
       },
       "lockPoint": {
-        "en": "Warn clients: paper or foam slippers can be slippery when walking or driving.",
-        "zh": "提醒顾客：纸拖或泡沫拖鞋可能很滑，走路和开车时要小心。"
+        "en": "Came in sneakers? Fresh polish can't go back inside them yet. Paper slippers keep the toes open until it dries.",
+        "zh": "穿运动鞋来的？刚涂好的指甲油还不能马上塞回鞋里。纸拖鞋让脚趾露在外面，等指甲油干。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -536,8 +536,8 @@
         "zh": "蛋白硬甲油是透明甲油加蛋白质（如胶原蛋白 collagen）。胶原蛋白分子太大，进不了甲板，所以它只在表面形成透明坚硬的膜，不改变甲板本身。"
       },
       "lockPoint": {
-        "en": "Nylon-fiber hardeners work the same way: a coating only, not a treatment.",
-        "zh": "尼龙纤维硬甲油也一样：只是表面一层膜，不是治疗。"
+        "en": "Like a big ball on a small cup: protein is too big to get in, so it stays on top.",
+        "zh": "就像大球放在小杯子上：蛋白质（protein）太大，进不了甲板，只能留在表面。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -566,7 +566,7 @@
           "quote": "Therefore, the protection they provide comes from the coating itself. They are not therapeutic."
         }
       ],
-      "hookType": "comparison"
+      "hookType": "picture"
     },
     {
       "id": "nic-5c-10",
@@ -790,8 +790,8 @@
         "zh": "polish、enamel、lacquer、varnish 都是营销用语，指成分相似的同一类产品：涂在甲面上的溶剂型有色膜。"
       },
       "lockPoint": {
-        "en": "One thing, many names. Polish, enamel, lacquer, varnish: four names, one product.",
-        "zh": "就像“土豆”“马铃薯”“洋芋”：三个名字，同一种东西。polish、enamel、lacquer、varnish：四个名字，同一类产品。"
+        "en": "Like 'cell phone' and 'mobile phone': different names, one phone. Polish, enamel, lacquer, varnish: one product.",
+        "zh": "就像“手机”和“移动电话”：名字不同，是同一样东西。polish、enamel、lacquer、varnish 也是同一类产品。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -974,8 +974,8 @@
         "zh": "任何放进修脚水里的药片或添加剂，都不能代替每次修脚后的清洁消毒。强到能杀死病原体的化学品也会伤皮肤。"
       },
       "lockPoint": {
-        "en": "Disinfectants are pesticides and must never touch skin. So real disinfecting happens after the feet leave the tub.",
-        "zh": "在美国，消毒剂按 pesticide（杀生物剂，由 EPA 登记管理）归类，绝不能接触皮肤；所以真正的消毒要等脚离开、盆空了以后才做。"
+        "en": "Bleach cleans a bathtub, but nobody sits in bleach. Disinfect the empty tub after the feet come out.",
+        "zh": "漂白水能把浴缸洗干净，但没人会坐在漂白水里。等脚离开、盆空了，再给足浴盆消毒。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -1016,7 +1016,7 @@
           "quote": "Disinfectants must never be allowed to come into contact with the skin."
         }
       ],
-      "hookType": "reason-chain"
+      "hookType": "picture"
     },
     {
       "id": "nic-5c-17",

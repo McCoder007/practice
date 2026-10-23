@@ -20,11 +20,11 @@ A. coarse and always clear. / 颗粒粗，而且总是透明的。
 B. made only for clear extensions. / 只能用来做透明延长。  
 C. very fine, usually heavily pigmented. / 非常细，通常颜色很浓。 ✅  
 D. cured under a UV lamp. / 要用 UV 灯固化。  
-*Why:* Dip powder is a very fine polymer powder, usually heavily pigmented with color. Milady says it is very different from the powder used for liquid and powder nails.  
-*为什么:* dip powder（浸粉）是很细的聚合物粉，通常颜色很浓。Milady 说它和水晶甲（liquid and powder）用的粉很不一样。  
+*Why:* A dip service gives strength and color in one step, so dip powder is usually full of pigment (color). It is also ground very fine.  
+*为什么:* 浸粉一次就能同时做出强度和颜色，所以浸粉通常含有大量色素（pigment，颜色）。而且它磨得非常细。  
 *Lock this (picture):* Think eyeshadow: so fine it sticks in a thin, even coat, and full of color.  
 *记重点:* 想象眼影粉：细到能薄薄均匀地附着，而且颜色很浓。  
-*Source:* Milady Standard Nail Technology p.284 (PDF 308)
+*Source:* Milady Standard Nail Technology p.284 (PDF 308), Milady Standard Nail Technology p.285 (PDF 309)
 
 **3. One advantage of dip color over gel polish is that dip**  
 和甲油胶相比，浸粉上色的一个优点是什么？  
@@ -34,8 +34,8 @@ C. never needs a top resin. / 完全不需要封层树脂。
 D. needs no resin at all. / 完全不需要树脂。  
 *Why:* Dip systems give a color service that lasts about 14 days without an LED or UV lamp. Before dip, long-wear color meant gel polish or colored hard gel and a lamp.  
 *为什么:* 浸粉能提供持久约 14 天的上色服务，而且不需要 LED 或 UV 灯。在浸粉出现之前，持久的颜色只能靠甲油胶或彩色硬胶，都要照灯。  
-*Lock this (reason-chain):* Dip resin is cyanoacrylate, like super glue: it sets without light, and activator speeds it up.  
-*记重点:* 浸粉树脂是氰基丙烯酸酯，和强力胶同类：不用光就会变硬，激活剂让它更快。  
+*Lock this (contrast):* Gel waits for lamp light to harden. Dip resin needs no light: a coat of activator helps it dry.  
+*记重点:* 甲油胶要等灯光照射才会变硬。浸粉树脂不需要光：刷一层激活剂（activator）就能帮它变干。  
 *Source:* Milady Standard Nail Technology p.285 (PDF 309), Milady Standard Nail Technology p.282 (PDF 306)
 
 **4. Why wipe the base resin brush before returning it to the bottle?**  
@@ -46,9 +46,9 @@ C. It adds color to the base. / 能给底层树脂添加颜色。
 D. Powder bits would thicken the resin. / 粉粒会让树脂变稠、拉丝。 ✅  
 *Why:* After powder is applied, tiny particles cling to the brush. Put back in the bottle, they make the resin thick, stringy, and unusable, so wipe it on a lint-free towel.  
 *为什么:* 上过粉后，细小的粉粒会粘在笔刷上。放回瓶里会让树脂变稠、拉丝而无法使用，所以要先在无尘巾上擦一下。  
-*Lock this (real-life):* After touching activator, wipe the brush quickly too, or resin hardens on it and needs a 10-minute acetone soak.  
-*记重点:* 笔刷碰过激活剂后也要马上擦干净，否则树脂会在笔上变硬，得泡丙酮约 10 分钟。  
-*Source:* Milady Standard Nail Technology p.285 (PDF 309)
+*Lock this (reason-chain):* Resin soaks up powder to form the coating. Let powder in the bottle, and it thickens there too.  
+*记重点:* 树脂吸收粉，才在指甲上形成涂层。粉要是进了瓶子，树脂在瓶里也会变稠。  
+*Source:* Milady Standard Nail Technology p.285 (PDF 309), Milady Standard Nail Technology p.284 (PDF 308)
 
 **5. To avoid dipping many clients' fingers into one powder jar, you can**  
 为了避免多位客人把手指伸进同一罐粉里，可以怎么做？  
@@ -212,8 +212,8 @@ A. To let acetone get into the gel. / 让丙酮渗进胶里。 ✅
 B. To thin the natural nail plate. / 把真甲甲面锉薄。  
 C. To warm the gel so it melts. / 让胶变热融化。  
 D. To remove the cuticle. / 去掉甲小皮。  
-*Why:* File the topcoat with a medium to fine grit so the acetone can penetrate. The topcoat is more cross-linked than the color layer, for protection and shine.  
-*为什么:* 用中细目锉条锉一锉封层，丙酮才能渗进去。封层的交联程度比色胶层更高，用来保护和增亮。  
+*Why:* File the topcoat with a medium to fine grit so the acetone can get in. The topcoat is built tighter and harder than the color layer to protect it, so acetone gets through it slowly.  
+*为什么:* 用中细目锉条锉一锉封层，丙酮才能渗进去。封层的交联（cross-linking）比色胶层更紧密、更硬，用来保护，所以丙酮很难穿过它。  
 *Lock this (picture):* The topcoat is a raincoat that keeps acetone out. Filing cuts openings in the raincoat.  
 *记重点:* 封层像一件雨衣，把丙酮挡在外面。锉一锉，就是在雨衣上开口子。  
 *Source:* Milady Standard Nail Technology p.387 (PDF 411), Milady Standard Nail Technology p.354 (PDF 378)

@@ -22,8 +22,8 @@ C. OSHA / OSHA（职业安全与健康管理局）
 D. FDA / FDA（食品药品监督管理局）  
 *Why:* State regulatory agencies, such as state boards, handle licensing and enforce the rules through inspections. Federal agencies like the EPA and OSHA set national rules for products and workplaces.  
 *为什么:* 州监管机构（例如 state board 州委员会）负责发执照，并通过检查来执行规定。EPA、OSHA 等联邦机构则为产品和工作场所制定全国性规定。  
-*Lock this (real-life):* State boards can issue warnings, fines, or probation, or suspend or revoke your license.  
-*记重点:* 州委员会可以警告、罚款、留牌察看，甚至暂停或吊销你的执照。  
+*Lock this (real-life):* Your license comes from your state, not the U.S. government. So the state board gives it and checks your salon.  
+*记重点:* 你的执照是州发的，不是联邦政府发的。所以由州委员会（state board）发执照，也由它来店里检查。  
 *Source:* Milady Standard Foundations p.96 (PDF 591), Milady Standard Foundations p.98 (PDF 593)
 
 **3. Disinfection is NOT effective against**  
@@ -58,8 +58,8 @@ C. stay visibly moist on the surface. / 在表面上保持肉眼可见的湿润�
 D. heat up before use. / 使用前加热。  
 *Why:* Contact time is the time listed on the label that a disinfectant must stay visibly moist to kill the pathogens on the label. Times vary by product.  
 *为什么:* contact time（接触时间）是标签上写的、消毒剂必须保持肉眼可见湿润的时间，这样才能杀死标签上列出的病原体。不同产品时间不同。  
-*Lock this (contrast):* Times differ: most concentrates need 10 minutes, most wipes only 2. Read each label.  
-*记重点:* 时间各不相同：多数浓缩液要 10 分钟，多数湿巾只要 2 分钟。每个标签都要看。  
+*Lock this (word-link):* Contact means touching. Wet disinfectant keeps touching the germs. Once it dries, it stops working.  
+*记重点:* contact 就是“接触”。消毒剂保持湿润，才会一直接触病菌。一干，就不起作用了。所以接触时间（contact time）就是它必须保持湿润的时间。  
 *Source:* Milady Standard Foundations p.119 (PDF 614)
 
 **6. What is the correct way to dilute a disinfectant concentrate?**  
@@ -70,8 +70,8 @@ C. Add extra concentrate for strength. / 多加浓缩液让它更强。
 D. Add bleach to boost it. / 加漂白水增强效果。  
 *Why:* Always add the disinfectant concentrate to the water. Adding water to the disinfectant can cause foaming, which leads to the wrong mixing ratio.  
 *为什么:* 一定要把消毒剂浓缩液倒进水里。把水倒进消毒剂里会起泡，导致配比不准。  
-*Lock this (comparison):* Water first, then concentrate: the same order chemists use when they add acid to water.  
-*记重点:* 先放水，再加浓缩液：和化学课上“把酸加进水里”是同一个顺序。  
+*Lock this (real-life):* Run tap water onto bubble bath and foam rises. So pour the concentrate into the water instead.  
+*记重点:* 把自来水冲到泡泡浴液上，泡沫就会冒起来。所以要把浓缩液倒进水里，而不是反过来。  
 *Source:* Milady Standard Foundations p.123 (PDF 618), Milady Standard Foundations p.119 (PDF 614)
 
 **7. Which federal agency registers disinfectants sold in the U.S.?**  
@@ -92,11 +92,11 @@ A. sporicidal. / 杀芽孢（sporicidal）。
 B. antiseptic. / 用作皮肤抗菌剂。  
 C. nontoxic. / 无毒。  
 D. fungicidal. / 杀真菌（fungicidal）。 ✅  
-*Why:* At a minimum, salon disinfectants must be bactericidal, virucidal, and fungicidal. The label should also show the EPA registration number and the pathogens it kills.  
-*为什么:* 美容店用的消毒剂至少要能 bactericidal（杀细菌）、virucidal（杀病毒）和 fungicidal（杀真菌）。标签上还应有 EPA 注册号和它能杀的病原体名单。  
+*Why:* At least, salon disinfectants must kill bacteria, viruses, and fungi: bactericidal, virucidal, fungicidal. Disinfectants do not kill spores (sporicidal). Only sterilizing does. Antiseptics are for skin, not tools.  
+*为什么:* 美容店用的消毒剂至少要能杀细菌、病毒和真菌：bactericidal（杀细菌）、virucidal（杀病毒）、fungicidal（杀真菌）。消毒剂杀不死芽孢（sporicidal 杀芽孢）。只有 sterilizing（灭菌）能做到。antiseptic（皮肤抗菌剂）是用在皮肤上的，不是用在工具上的。  
 *Lock this (word-parts):* -cidal = killing, as in pesticide. Bacteria, viruses, fungi: three germ groups, three -cidal words.  
 *记重点:* -cidal = 杀，和 pesticide（杀灭有害生物的药剂）同一个词根。细菌、病毒、真菌：三类病菌，对应三个 -cidal 词。  
-*Source:* Milady Standard Foundations p.102 (PDF 597)
+*Source:* Milady Standard Foundations p.102 (PDF 597), Milady Standard Foundations p.96 (PDF 591), Milady Standard Foundations p.117 (PDF 612)
 
 **9. Which disinfectants have most states removed from their requirements?**  
 大多数州已从法规要求中去掉了哪类消毒剂？  
@@ -190,8 +190,8 @@ C. Return leftovers to the bottle / 把剩下的倒回瓶子里
 D. Dip the client’s fingertip in / 让客人指尖直接蘸  
 *Why:* Oils can support bacteria. Pour a small amount into a clean dappen dish and apply it with a disposable brush. Afterward, throw away the brush and the leftover product.  
 *为什么:* 油类产品会滋生细菌。倒少量到干净的 dappen dish（小碟）里，用一次性刷子涂。用完后，把刷子和剩下的产品一起丢掉。  
-*Lock this (reason-chain):* Used product back in the bottle → germs in the bottle → every later client gets them.  
-*记重点:* 用过的产品倒回瓶子 → 病菌进了瓶子 → 后面每个客人都会沾到。  
+*Lock this (comparison):* Like pouring milk into your own glass, not drinking from the carton: the carton stays clean for everyone.  
+*记重点:* 就像把牛奶倒进自己的杯子里喝，而不是对着盒子喝：整盒牛奶对大家来说都还是干净的。小碟（dappen dish）就是那个杯子。  
 *Source:* Milady Standard Nail Technology p.145 (PDF 169)
 
 **17. Standard Precautions require you to treat all blood and body fluids as**  
@@ -202,8 +202,8 @@ C. potentially infectious. / 可能有传染性。 ✅
 D. harmless once they dry. / 干了就无害。  
 *Why:* Standard Precautions are CDC guidelines. Many people carry infections with no symptoms, so you must assume any human blood or body fluid may be infectious.  
 *为什么:* Standard Precautions（标准预防措施）是 CDC 发布的指南。很多人带有传染病却没有症状（asymptomatic），所以要假定任何人的血液或体液都可能有传染性。  
-*Lock this (real-life):* Your own blood counts too: if you cut yourself, you follow a similar exposure procedure.  
-*记重点:* 你自己的血也算：割伤自己时，也要按类似的暴露事件（exposure incident）步骤处理。  
+*Lock this (real-life):* Got a cold from a friend who felt fine? No signs doesn't mean no germs. Treat all blood as risky.  
+*记重点:* 有没有被一个看起来好好的朋友传染过感冒？没有症状，不代表没有病菌。所有血液和体液都要当作可能有传染性（potentially infectious）。  
 *Source:* Milady Standard Foundations p.126 (PDF 621), Milady Standard Foundations p.144 (PDF 639), Milady Standard Foundations p.128 (PDF 623)
 
 **18. If you cut a client during a service, what should you do first?**  

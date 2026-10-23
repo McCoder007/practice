@@ -62,8 +62,8 @@
         "zh": "在咨询时讨论顾客的健康状况。Milady 说要保守：拿不准时，就不要做按摩，并鼓励顾客先咨询医生。"
       },
       "lockPoint": {
-        "en": "Steady, treated high blood pressure or diabetes: often OK. Very high, out-of-control blood pressure: no massage.",
-        "zh": "病情稳定、正在治疗的高血压或糖尿病通常可以按摩；严重且未控制的高血压则不能做手部和手臂按摩。"
+        "en": "Not sure it's safe? Skip it. Skipping a massage hurts no one. The wrong massage can.",
+        "zh": "不确定安不安全？那就不做。少做一次按摩不会伤到人。做了不该做的按摩却可能会。"
       },
       "teachingRelation": "safety-rule",
       "authorityRefs": [
@@ -98,7 +98,7 @@
           "quote": "Hand and/or arm massage is, however, contraindicated for clients with severe, uncontrolled hypertension."
         }
       ],
-      "hookType": "contrast"
+      "hookType": "reason-chain"
     },
     {
       "id": "nic-6b-02",
@@ -252,8 +252,8 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Tapotement is a rapid tapping or striking motion of the hands against the skin.",
-        "zh": "tapotement（叩击法）是双手快速拍打或敲击皮肤。"
+        "en": "Tapotement is quick tapping or striking against the skin. The others do not strike: effleurage slides, friction twists and rubs, and vibration shakes without the hand leaving the skin.",
+        "zh": "叩击法（tapotement）是快速拍打或敲击皮肤。其他手法都不敲打：轻抚法（effleurage）是滑动，摩擦法（friction）是扭转和搓揉，振动法（vibration）是手不离开皮肤地抖动。"
       },
       "lockPoint": {
         "en": "Tapotement starts with \"tap.\" Picture fingertips drumming quickly on a table.",
@@ -364,8 +364,8 @@
         "zh": "friction（摩擦法）是让一层组织压在另一层上移动。双手环住手臂，轻轻朝相反方向扭转，就像拧毛巾。"
       },
       "lockPoint": {
-        "en": "Rub your palms together fast and feel the heat. That is friction: one layer rubbing over another.",
-        "zh": "双手快速对搓，会感觉发热，这就是摩擦（friction）：一层在另一层上搓动。"
+        "en": "The Chinese name for friction: both characters have the hand part, and both mean rub.",
+        "zh": "摩擦法（friction）的\"摩擦\"两个字都带\"手\"（手、扌），意思都是搓。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -396,7 +396,7 @@
           "quote": "gently twist in opposite directions, as you would wring out a washcloth, from the wrist to the elbow"
         }
       ],
-      "hookType": "body-cue"
+      "hookType": "chinese-character"
     },
     {
       "id": "nic-6b-07",
@@ -616,8 +616,8 @@
         "zh": "按摩后要把甲板上的乳液或油完全清掉，否则甲油附着不牢。可用酒精、丙酮（acetone）或卸甲水，游离缘下面也要清干净。"
       },
       "lockPoint": {
-        "en": "Tape won't stick to an oily surface. Polish is the same.",
-        "zh": "胶带贴不住油腻的表面，甲油也一样。"
+        "en": "Try writing with a marker on a buttered plate: it won't stay. Polish on lotion is the same.",
+        "zh": "试试用记号笔在抹了黄油的盘子上写字：写不上去。甲油涂在乳液上也一样。"
       },
       "teachingRelation": "cause-effect",
       "authorityRefs": [
@@ -648,7 +648,7 @@
           "quote": "Do not forget to clean under the free edge of the nail plate to remove any remaining massage lotion."
         }
       ],
-      "hookType": "comparison"
+      "hookType": "picture"
     },
     {
       "id": "nic-6b-11",
@@ -1072,8 +1072,8 @@
         "zh": "在中跗部（mid-tarsal）稳稳握住脚，拇指在脚底。握得太轻太松会让人痒。手部按摩则相反，手臂要轻松地握着。"
       },
       "lockPoint": {
-        "en": "A firm grip also locks the foot in place, giving you control of its movements.",
-        "zh": "握稳还能把脚固定住，让你控制脚的动作。"
+        "en": "A loose hold on the foot feels like a feather: it tickles. A firm hold, like a handshake, doesn't.",
+        "zh": "松松地握脚，感觉像羽毛扫过：会痒。像握手一样稳稳握住，就不会痒。"
       },
       "teachingRelation": "cause-effect",
       "authorityRefs": [
@@ -1102,7 +1102,7 @@
           "quote": "It locks the foot into place, giving the nail technician control of its movements."
         }
       ],
-      "hookType": "reason-chain"
+      "hookType": "comparison"
     },
     {
       "id": "nic-6b-18",
@@ -1138,8 +1138,8 @@
         "zh": "一只手压住脚背，另一只手握拳在足弓（instep）上扭转，这是摩擦法。Milady 说修脚时只在脚底用摩擦法。"
       },
       "lockPoint": {
-        "en": "Hand massage uses friction in more places: wrist circles, thumb circles up the arm, and circles over the elbow.",
-        "zh": "手部按摩用摩擦法的地方更多：手腕画圈、拇指沿手臂画圈、手掌在手肘上画圈。"
+        "en": "Pedicure friction has one place: the bottom of the foot. Picture a fist twisting into the arch of the foot.",
+        "zh": "修脚按摩的摩擦法（friction）只有一个位置：脚底。想象拳头在足弓（arch of the foot）上扭转。"
       },
       "teachingRelation": "location",
       "authorityRefs": [
@@ -1170,7 +1170,7 @@
           "quote": "This is a form of friction massage movement that is a deep rubbing action."
         }
       ],
-      "hookType": "contrast"
+      "hookType": "picture"
     },
     {
       "id": "nic-6b-19",
@@ -1206,8 +1206,8 @@
         "zh": "从手腕向手肘滑动时稍微施压，帮助放松；回到手腕时力度更轻。腿部轻抚法也一样。"
       },
       "lockPoint": {
-        "en": "Upward strokes move toward the heart, the same direction Milady gives for hot stones.",
-        "zh": "向上的手法朝向心脏，和 Milady 说的热石按摩方向一样。"
+        "en": "Up the arm: slight pressure. Back down to the wrist: even lighter, like brushing off crumbs.",
+        "zh": "沿手臂往上：稍微用力。回到手腕：更轻，像轻轻拂掉面包屑。"
       },
       "teachingRelation": "action",
       "authorityRefs": [
@@ -1244,7 +1244,7 @@
           "quote": "The movements are up, toward the heart, and are not aggressive."
         }
       ],
-      "hookType": "comparison"
+      "hookType": "picture"
     },
     {
       "id": "nic-6b-20",

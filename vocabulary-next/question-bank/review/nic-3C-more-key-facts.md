@@ -68,8 +68,8 @@ A. Pigment / 色素（pigment）
 B. Solvent / 溶剂（solvent） ✅  
 C. Plasticizer / 增塑剂（plasticizer）  
 D. UV stabilizer / 紫外线稳定剂（UV stabilizer）  
-*Why:* Polish dries as its solvent evaporates into the air. So the solvent decides how fast polish dries and how thick it is. Pigments give color; plasticizers keep it flexible.  
-*为什么:* 指甲油会变干，是因为里面的溶剂（solvent）蒸发到空气中。所以溶剂决定了指甲油干得多快、有多稠。色素（pigments）提供颜色，增塑剂（plasticizers）让它保持柔韧。  
-*Lock this (reason-chain):* More solvent → faster drying: that's how fast-dry topcoat works. Polish dryer drops pull solvent out, too.  
-*记重点:* 溶剂越多 → 干得越快：快干亮油就是这样做的。指甲油干燥剂（polish dryer）则是把溶剂“拉”出来。  
+*Why:* Polish dries as its solvent evaporates into the air. So the solvent decides how fast polish dries and how thick it is. Pigments give color. Plasticizers keep it flexible.  
+*为什么:* 指甲油会变干，是因为里面的溶剂（solvent）蒸发到空气中。所以溶剂决定了指甲油干得多快、有多稠。色素（pigments）提供颜色。增塑剂（plasticizers）让它保持柔韧。  
+*Lock this (reason-chain):* More solvent means faster drying. That is how fast-dry topcoat works. Polish dryer drops pull solvent out, too.  
+*记重点:* 溶剂越多，干得越快。快干亮油就是这样做的。指甲油干燥剂（polish dryer）也会把溶剂“拉”出来。  
 *Source:* Milady Standard Nail Technology p.153 (PDF 177), Milady Standard Nail Technology p.125 (PDF 149)

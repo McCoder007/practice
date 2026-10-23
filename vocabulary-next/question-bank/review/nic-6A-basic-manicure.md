@@ -22,8 +22,8 @@ C. About 5 minutes / 约 5 分钟
 D. About 10 seconds / 约 10 秒 ✅  
 *Why:* Hold the saturated cotton on each nail for about 10 seconds. The remover softens the old polish so it wipes off easily.  
 *为什么:* 把浸透卸甲水（polish remover）的棉片按在每个指甲上约 10 秒。卸甲水先软化旧甲油，之后就容易擦掉。  
-*Lock this (real-life):* Count silently to 10: that's Milady's timer. Acetone and non-acetone removers can both dry the skin.  
-*记重点:* 心里默数到 10，这就是 Milady 的计时方法。含丙酮和不含丙酮的卸甲水都可能让皮肤干燥。  
+*Lock this (real-life):* Hold, count slowly to 10, then wipe. Ten fingers, ten seconds each.  
+*记重点:* 按住，心里慢慢数到 10，再擦。十个手指，每个十秒。  
 *Source:* Milady Standard Nail Technology p.177 (PDF 201), Milady Standard Nail Technology p.150 (PDF 174)
 
 **3. When wiping off old polish, which way should you stroke?**  
@@ -58,8 +58,8 @@ C. Soaking removes the old polish / 浸泡可以去掉旧甲油
 D. Filing helps the water soak in / 锉过能让水更好渗入  
 *Why:* Water absorbs into the nail plate and makes it softer. A soft nail is more easily damaged during filing, so file first, then soak.  
 *为什么:* 水会渗入甲板（nail plate），让指甲变软。软的指甲锉的时候更容易受损，所以先锉再泡。  
-*Lock this (comparison):* Wet paper tears more easily than dry paper. A soaked nail plate is the same.  
-*记重点:* 湿纸比干纸容易撕破。泡过水的甲板也一样。  
+*Lock this (reason-chain):* If you soak first, water softens the plate. Then the file tears it. So file dry, then soak.  
+*记重点:* 如果先泡，水会让甲板（nail plate）变软。然后锉刀一锉就伤到它。所以先干锉，再浸泡。  
 *Source:* Milady Standard Nail Technology p.155 (PDF 179)
 
 **6. How should a natural nail be filed?**  
@@ -80,8 +80,8 @@ A. fungal discoloration. / 真菌引起的变色。
 B. bruised nail beds. / 甲床瘀青。  
 C. ridged nails. / 纵纹甲。  
 D. surface stains, such as tobacco. / 表面污渍，例如烟渍。 ✅  
-*Why:* Bleaching yellow nails is an optional step. Apply it with a cotton-tipped stick, wear gloves, and keep it off the skin. It works best on surface stains such as tobacco.  
-*为什么:* 给发黄的指甲漂白是可选步骤。用包棉花的木棒涂抹，戴手套，不要碰到皮肤。它对烟渍这类表面污渍效果最好。  
+*Why:* Nail bleach is an optional step for yellow nails. Milady says it works best on surface stains, such as tobacco. Bruises and fungus are not surface stains, and ridges are not a color problem.  
+*为什么:* 指甲漂白（nail bleach）是针对发黄指甲的可选步骤。Milady 说它对烟渍这类表面污渍（surface stains）效果最好。瘀青和真菌都不是表面污渍，而甲面纵纹（ridges）也不是颜色问题。  
 *Lock this (contrast):* Stains sitting on top can be lifted. Color from under or inside the nail, like a bruise or fungus, cannot.  
 *记重点:* 浮在表面的污渍可以去掉。来自指甲下面或内部的颜色，例如瘀青或真菌，去不掉。  
 *Source:* Milady Standard Nail Technology p.180 (PDF 204)
@@ -92,11 +92,11 @@ A. Nips cuticle tags with nippers / 用死皮剪剪掉死皮倒刺
 B. Applies base coat to each nail / 给每个指甲涂底油  
 C. Gently pushes back the eponychium / 轻推甲上皮（eponychium） ✅  
 D. Bevels the free edge with a board / 用锉板给游离缘倒斜边  
-*Why:* Dry the hand with the client's service towel. As you dry, gently push back the eponychium with the towel.  
-*为什么:* 用这位顾客专用的服务毛巾擦干手，擦的同时用毛巾轻轻把 eponychium（甲上皮）往后推。  
+*Why:* The soak has just softened the eponychium. So while you dry the hand with the client's service towel, gently push the eponychium back with it. Cuticle remover and nippers come later.  
+*为什么:* 刚才的浸泡已经让甲上皮（eponychium）变软了。所以用这位顾客专用的服务毛巾擦干手时，顺便用毛巾轻轻把甲上皮往后推。死皮软化剂（cuticle remover）和死皮剪（nippers）都在后面的步骤才用。  
 *Lock this (real-life):* One towel, two jobs: drying and a gentle first push, before any tool touches the skin.  
 *记重点:* 一条毛巾做两件事：擦干，顺便先轻推一下，之后才用工具。  
-*Source:* Milady Standard Nail Technology p.178 (PDF 202)
+*Source:* Milady Standard Nail Technology p.178 (PDF 202), Milady Standard Nail Technology p.179 (PDF 203)
 
 **9. Where should cuticle remover be applied?**  
 去死皮液（cuticle remover）应该涂在哪里？  
@@ -130,8 +130,8 @@ C. onycholysis. / 甲剥离（onycholysis）。 ✅
 D. ridged nails. / 纵纹甲（ridged nails）。  
 *Why:* Clean under the free edge gently. Aggressive cleaning can break the hyponychium seal and cause onycholysis, the nail plate separating from the nail bed.  
 *为什么:* 清洁游离缘下方要轻柔。太用力会破坏 hyponychium（甲下皮）的密封，造成 onycholysis（甲剥离），也就是甲板与甲床分离。  
-*Lock this (word-parts):* Onycho = nail, lysis = loosening. Onycholysis is the nail loosening from its bed.  
-*记重点:* onycho = 指甲，lysis = 松开。onycholysis 就是指甲从甲床上松开。  
+*Lock this (reason-chain):* Dig hard under the tip, and the seal there breaks. Then the plate lifts off its bed: onycholysis.  
+*记重点:* 在指尖下面用力挖，那里的密封就会被破坏。然后甲板从甲床上翘起：这就是甲剥离（onycholysis）。  
 *Source:* Milady Standard Nail Technology p.179 (PDF 203), Milady Standard Nail Technology p.109 (PDF 133)
 
 **12. At what angle is the underside of the free edge beveled?**  
@@ -142,8 +142,8 @@ C. 90 degrees / 90 度
 D. 45 degrees / 45 度 ✅  
 *Why:* Hold a medium-grit board at a 45-degree angle to the underside of the nail and file gently. This removes rough edges and cuticle particles.  
 *为什么:* 用中粗砂锉板（medium-grit）以 45 度角贴住指甲下侧轻轻锉。这样可以去掉粗糙边缘和残留的死皮碎屑。  
-*Lock this (contrast):* For weak nails, Milady says a fine-grit board or buffer may be better than medium grit.  
-*记重点:* 指甲薄弱时，Milady 说用细砂（fine-grit）锉板或抛光块可能比中粗砂更好。  
+*Lock this (picture):* Not a square corner (90°). Fold a square napkin corner to corner: that slanted edge is 45°.  
+*记重点:* 不是直角（90 度）。把方形餐巾纸对角折成三角形：那条斜边就是 45 度。  
 *Source:* Milady Standard Nail Technology p.180 (PDF 204)
 
 **13. What is Milady's goal time for a basic manicure, including polish?**  
@@ -154,8 +154,8 @@ C. 60 to 90 minutes / 60 到 90 分钟
 D. About 2 hours / 大约 2 小时  
 *Why:* Aim to finish a basic manicure, including polishing, in 30 to 45 minutes at most, preferably 30, before you leave school.  
 *为什么:* 毕业前，要练到基础修手（含上甲油）最多 30 到 45 分钟完成，最好 30 分钟。  
-*Lock this (real-life):* Milady's reason: salons like to hire new techs who can work this fast.  
-*记重点:* Milady 的理由：沙龙更愿意雇用能做得这么快的新人。  
+*Lock this (real-life):* 30 to 45 minutes: about one TV show. Not a quick 10 minutes, not a whole afternoon.  
+*记重点:* 30 到 45 分钟：大约是一集电视剧的长度。不是 10 分钟就做完，也不是一整个下午。  
 *Source:* Milady Standard Nail Technology p.155 (PDF 179)
 
 **14. A client with altered vision needs help choosing a color. What should you do?**  
@@ -214,8 +214,8 @@ C. Oval / 椭圆形（oval）
 D. Pointed / 尖形（pointed）  
 *Why:* Men usually prefer shorter nails. Round nails, closest to their natural appearance, are the most common choice for male clients.  
 *为什么:* 男士通常喜欢较短的指甲。round（圆形）最接近天然外观，是男顾客最常见的选择。  
-*Lock this (real-life):* Some men want nails very short, with a tiny free edge shaped to match the nail base.  
-*记重点:* 有些男士要求剪得极短，只留一点游离缘，形状跟着甲板根部修。  
+*Lock this (body-cue):* Look at your own fingertip: it is round. Round nails match it, so they look natural.  
+*记重点:* 看看自己的指尖：它本来就是圆的。圆形（round）指甲跟指尖形状一致，所以看起来最自然。  
 *Source:* Milady Standard Nail Technology p.160 (PDF 184)
 
 **19. In a man's manicure, colored polish may be left off. What can you do instead?**  
@@ -226,8 +226,8 @@ C. Leave the cuticles untouched / 完全不处理死皮
 D. Buff the nails to a high shine / 把指甲抛到高光 ✅  
 *Why:* A man's manicure uses the same steps as the basic manicure. Depending on preference, you may omit colored polish and buff the nails with a high-shine buffer.  
 *为什么:* 男士修手（man's manicure）的步骤与基础修手相同。视顾客喜好，可以不上彩色甲油，改用高光抛光块（high-shine buffer）抛亮。  
-*Lock this (real-life):* No polish to apply? Milady says the spare time can go to a longer massage.  
-*记重点:* 不用上甲油、省下了时间？Milady 说可以用来做更长的按摩。  
+*Lock this (real-life):* No color? Make it shine: a high-shine buffer gives bare nails a clean, shiny look.  
+*记重点:* 不上颜色？那就抛亮：高光抛光块（high-shine buffer）让没涂甲油的指甲看起来干净又有光泽。  
 *Source:* Milady Standard Nail Technology p.160 (PDF 184), Milady Standard Nail Technology p.161 (PDF 185)
 
 **20. Why may polish last longer after a waterless manicure?**  

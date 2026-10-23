@@ -10,8 +10,8 @@ C. Leave massage out of the service / 这次服务不做按摩 ✅
 D. Massage only the fingers / 只按摩手指  
 *Why:* Discuss medical conditions during the consultation. Milady says to be conservative: when in doubt, don't include massage. Encourage the client to ask their physician.  
 *为什么:* 在咨询时讨论顾客的健康状况。Milady 说要保守：拿不准时，就不要做按摩，并鼓励顾客先咨询医生。  
-*Lock this (contrast):* Steady, treated high blood pressure or diabetes: often OK. Very high, out-of-control blood pressure: no massage.  
-*记重点:* 病情稳定、正在治疗的高血压或糖尿病通常可以按摩；严重且未控制的高血压则不能做手部和手臂按摩。  
+*Lock this (reason-chain):* Not sure it's safe? Skip it. Skipping a massage hurts no one. The wrong massage can.  
+*记重点:* 不确定安不安全？那就不做。少做一次按摩不会伤到人。做了不该做的按摩却可能会。  
 *Source:* Milady Standard Nail Technology p.162 (PDF 186), Milady Standard Nail Technology p.161 (PDF 185)
 
 **2. Gliding strokes over the skin with varying pressure are called**  
@@ -44,8 +44,8 @@ A. friction. / 摩擦法（friction）。
 B. tapotement. / 叩击法（tapotement）。 ✅  
 C. effleurage. / 轻抚法（effleurage）。  
 D. vibration. / 振动法（vibration）。  
-*Why:* Tapotement is a rapid tapping or striking motion of the hands against the skin.  
-*为什么:* tapotement（叩击法）是双手快速拍打或敲击皮肤。  
+*Why:* Tapotement is quick tapping or striking against the skin. The others do not strike: effleurage slides, friction twists and rubs, and vibration shakes without the hand leaving the skin.  
+*为什么:* 叩击法（tapotement）是快速拍打或敲击皮肤。其他手法都不敲打：轻抚法（effleurage）是滑动，摩擦法（friction）是扭转和搓揉，振动法（vibration）是手不离开皮肤地抖动。  
 *Lock this (word-link):* Tapotement starts with "tap." Picture fingertips drumming quickly on a table.  
 *记重点:* tapotement（叩击法）开头就是英文 tap（轻敲）。想象手指在桌上快速轻敲。  
 *Source:* Milady Standard Nail Technology p.162 (PDF 186)
@@ -70,8 +70,8 @@ C. friction. / 摩擦法（friction）。 ✅
 D. effleurage. / 轻抚法（effleurage）。  
 *Why:* Friction presses one layer of tissue over another. The hands go around the arm and twist gently in opposite directions, as you would wring out a washcloth.  
 *为什么:* friction（摩擦法）是让一层组织压在另一层上移动。双手环住手臂，轻轻朝相反方向扭转，就像拧毛巾。  
-*Lock this (body-cue):* Rub your palms together fast and feel the heat. That is friction: one layer rubbing over another.  
-*记重点:* 双手快速对搓，会感觉发热，这就是摩擦（friction）：一层在另一层上搓动。  
+*Lock this (chinese-character):* The Chinese name for friction: both characters have the hand part, and both mean rub.  
+*记重点:* 摩擦法（friction）的"摩擦"两个字都带"手"（手、扌），意思都是搓。  
 *Source:* Milady Standard Nail Technology p.162 (PDF 186), Milady Standard Nail Technology p.186 (PDF 210)
 
 **7. Which massage movement should nail technicians perfect and use most?**  
@@ -118,8 +118,8 @@ C. Lotion makes polish dry too fast / 乳液会让甲油干得太快
 D. Lotion spreads infection / 乳液会传播感染  
 *Why:* Remove all traces of lotion or oil from the nail plate after the massage, or the polish will not adhere well. Use alcohol, acetone, or polish remover, and clean under the free edge.  
 *为什么:* 按摩后要把甲板上的乳液或油完全清掉，否则甲油附着不牢。可用酒精、丙酮（acetone）或卸甲水，游离缘下面也要清干净。  
-*Lock this (comparison):* Tape won't stick to an oily surface. Polish is the same.  
-*记重点:* 胶带贴不住油腻的表面，甲油也一样。  
+*Lock this (picture):* Try writing with a marker on a buttered plate: it won't stay. Polish on lotion is the same.  
+*记重点:* 试试用记号笔在抹了黄油的盘子上写字：写不上去。甲油涂在乳液上也一样。  
 *Source:* Milady Standard Nail Technology p.181 (PDF 205), Milady Standard Nail Technology p.163 (PDF 187)
 
 **11. How should you sit while giving a hand and arm massage?**  
@@ -202,8 +202,8 @@ C. To avoid a ticklish feeling / 避免让顾客觉得痒 ✅
 D. To test the client's reflexes / 测试顾客的反射  
 *Why:* Grasp the foot firmly at the mid-tarsal area, thumb on the bottom. A light, loose hold can tickle. In a hand massage, by contrast, the arm is held loosely.  
 *为什么:* 在中跗部（mid-tarsal）稳稳握住脚，拇指在脚底。握得太轻太松会让人痒。手部按摩则相反，手臂要轻松地握着。  
-*Lock this (reason-chain):* A firm grip also locks the foot in place, giving you control of its movements.  
-*记重点:* 握稳还能把脚固定住，让你控制脚的动作。  
+*Lock this (comparison):* A loose hold on the foot feels like a feather: it tickles. A firm hold, like a handshake, doesn't.  
+*记重点:* 松松地握脚，感觉像羽毛扫过：会痒。像握手一样稳稳握住，就不会痒。  
 *Source:* Milady Standard Nail Technology p.208 (PDF 232)
 
 **18. In a pedicure massage, where is a friction movement done?**  
@@ -214,8 +214,8 @@ C. On the front of the knee / 膝盖前面
 D. On the tops of the toes / 脚趾上面  
 *Why:* A fist twisting into the instep while the other hand presses the foot is a friction movement. Milady says the bottom of the foot is the only place friction is used in a pedicure.  
 *为什么:* 一只手压住脚背，另一只手握拳在足弓（instep）上扭转，这是摩擦法。Milady 说修脚时只在脚底用摩擦法。  
-*Lock this (contrast):* Hand massage uses friction in more places: wrist circles, thumb circles up the arm, and circles over the elbow.  
-*记重点:* 手部按摩用摩擦法的地方更多：手腕画圈、拇指沿手臂画圈、手掌在手肘上画圈。  
+*Lock this (picture):* Pedicure friction has one place: the bottom of the foot. Picture a fist twisting into the arch of the foot.  
+*记重点:* 修脚按摩的摩擦法（friction）只有一个位置：脚底。想象拳头在足弓（arch of the foot）上扭转。  
 *Source:* Milady Standard Nail Technology p.218 (PDF 242), Milady Standard Nail Technology p.185 (PDF 209)
 
 **19. During arm effleurage, how does the hand return from elbow to wrist?**  
@@ -226,8 +226,8 @@ C. With rapid tapping / 快速拍打
 D. Lifted completely off the arm / 手完全离开手臂  
 *Why:* Glide up from wrist to elbow with slight pressure to relax the client, then move back to the wrist with lighter pressure. Leg effleurage works the same way.  
 *为什么:* 从手腕向手肘滑动时稍微施压，帮助放松；回到手腕时力度更轻。腿部轻抚法也一样。  
-*Lock this (comparison):* Upward strokes move toward the heart, the same direction Milady gives for hot stones.  
-*记重点:* 向上的手法朝向心脏，和 Milady 说的热石按摩方向一样。  
+*Lock this (picture):* Up the arm: slight pressure. Back down to the wrist: even lighter, like brushing off crumbs.  
+*记重点:* 沿手臂往上：稍微用力。回到手腕：更轻，像轻轻拂掉面包屑。  
 *Source:* Milady Standard Nail Technology p.186 (PDF 210), Milady Standard Nail Technology p.219 (PDF 243), Milady Standard Nail Technology p.196 (PDF 220)
 
 **20. In massage, which way is pressure usually directed?**  

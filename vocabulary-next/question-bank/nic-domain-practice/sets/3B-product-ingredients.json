@@ -358,8 +358,8 @@
         "zh": "所有美甲胶水和包甲都用 cyanoacrylates（氰基丙烯酸酯）。methacrylates 用于液粉系统和至少一种 UV 凝胶；其他 UV 凝胶用 acrylates。"
       },
       "lockPoint": {
-        "en": "Hardware-store super glue is a cyanoacrylate too: it sets in seconds.",
-        "zh": "五金店的“502 胶”也是氰基丙烯酸酯：几秒钟就粘牢。"
+        "en": "A wrap is fabric stuck on with resin, a nail glue. So glue and wraps share one base: cyanoacrylate.",
+        "zh": "包甲（wrap）就是用树脂胶（resin，一种美甲胶水）把布料粘在指甲上。所以胶水和包甲的基础是同一种：氰基丙烯酸酯（cyanoacrylate）。"
       },
       "teachingRelation": "category",
       "authorityRefs": [
@@ -374,6 +374,18 @@
           "section": "Nail Product Chemistry - Chapter Glossary",
           "pdfPage": 155,
           "printedPage": "131"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Resin Systems - Nail Wraps",
+          "pdfPage": 307,
+          "printedPage": "283"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Resin Systems - Nail Resins",
+          "pdfPage": 306,
+          "printedPage": "282"
         }
       ],
       "evidence": [
@@ -392,9 +404,17 @@
         {
           "pdfPage": 155,
           "quote": "polymerizes in seconds; used to make wraps and nail adhesives"
+        },
+        {
+          "pdfPage": 307,
+          "quote": "In a wrap system, you apply resin to the nail, lay fabric over the nail"
+        },
+        {
+          "pdfPage": 306,
+          "quote": "Nail resins (NAYL REZ-inz) are made from cyanoacrylate."
         }
       ],
-      "hookType": "real-life"
+      "hookType": "reason-chain"
     },
     {
       "id": "nic-3b-07",
@@ -430,8 +450,8 @@
         "zh": "Milady 指出 MMA 不致癌，也不会被吸收进血液。问题在于附着差、太硬、难卸除，而最重要的原因是 FDA 和州美容委员会不允许使用。"
       },
       "lockPoint": {
-        "en": "Doctors put MMA inside the body as bone cement. So poison is not the reason. The FDA's rule is.",
-        "zh": "医生把 MMA 放进人体当骨水泥用。所以禁用于指甲不是因为有毒，最重要的原因是 FDA 的规定。"
+        "en": "Like a red light: you stop because the law says so. The FDA and state boards say stop using MMA.",
+        "zh": "就像红灯：你停下来，是因为法规这么规定。FDA 和州美容委员会（state boards）说的就是：停用 MMA。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -462,7 +482,7 @@
           "quote": "The FDA and most state boards of cosmetology say not to use it! This is the most important reason."
         }
       ],
-      "hookType": "real-life"
+      "hookType": "comparison"
     },
     {
       "id": "nic-3b-08",
@@ -498,8 +518,8 @@
         "zh": "MMA 指甲又硬又难断。为了让 MMA 粘住，真甲已被磨薄，所以断的往往是真甲，造成严重损伤。"
       },
       "lockPoint": {
-        "en": "MMA won't dissolve in remover, so it's often pried off: even more nail damage.",
-        "zh": "MMA 在卸甲液里不溶解，常常只能硬撬下来：对指甲伤害更大。"
+        "en": "A chain breaks at its weakest link. MMA is too hard to break, so the thinned natural nail breaks.",
+        "zh": "链条总是在最弱的一环断开。MMA 硬得很难断，所以断的是被磨薄的真甲（natural nail plate）。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -524,7 +544,7 @@
           "quote": "MMA is extremely difficult to remove and does not dissolve in product removers. It is often pried off"
         }
       ],
-      "hookType": "reason-chain"
+      "hookType": "comparison"
     },
     {
       "id": "nic-3b-09",
@@ -560,8 +580,8 @@
         "zh": "酸性结合剂含甲基丙烯酸（methacrylic acid），会灼伤皮肤和眼睛并留疤。无酸结合剂（acid-free）不含酸、pH 中性，但同样要避免接触皮肤。"
       },
       "lockPoint": {
-        "en": "Corrosive → child-resistant cap, plus gloves and safety glasses while using it.",
-        "zh": "有腐蚀性 → 瓶盖要防儿童开启，使用时戴手套和护目镜。"
+        "en": "Acid-based primer, acid in the name: methacrylic acid. Methylene glycol is a nail hardener, not a primer.",
+        "zh": "酸性结合剂（acid-based primer），就找名字里带“酸”的：甲基丙烯酸（methacrylic acid）。甲二醇（methylene glycol）是指甲硬化剂，不是结合剂。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -570,6 +590,12 @@
           "section": "Nail Product Chemistry - Nail Primer",
           "pdfPage": 142,
           "printedPage": "118"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Nail Hardener",
+          "pdfPage": 177,
+          "printedPage": "153"
         }
       ],
       "evidence": [
@@ -588,9 +614,13 @@
         {
           "pdfPage": 142,
           "quote": "corrosive primers must be kept in containers with child-resistant caps, and gloves and safety glasses are recommended"
+        },
+        {
+          "pdfPage": 177,
+          "quote": "Methylene glycol hardeners can make brittle nails become so rigid that they may split and shatter."
         }
       ],
-      "hookType": "reason-chain"
+      "hookType": "contrast"
     },
     {
       "id": "nic-3b-10",
@@ -828,8 +858,8 @@
         "zh": "Milady 没有规定固定时间：按厂家建议的时间让死皮软化剂停留在甲板上，避免碰到活皮肤，最后彻底洗净。"
       },
       "lockPoint": {
-        "en": "Too long on living skin → dryness, irritation, and hangnails.",
-        "zh": "在活皮肤上停留太久 → 干燥、刺激，还会长倒刺（hangnails）。"
+        "en": "No fixed number to memorize: the maker sets the time. Like pasta: cook it as long as the box says.",
+        "zh": "没有固定的数字要背：时间由厂家定。就像煮面条：包装上写煮多久，就煮多久。"
       },
       "teachingRelation": "number",
       "authorityRefs": [
@@ -860,7 +890,7 @@
           "quote": "Excessive exposure of the eponychium to cuticle removers can cause live skin and eponychium dryness, as well as hangnails."
         }
       ],
-      "hookType": "reason-chain"
+      "hookType": "comparison"
     },
     {
       "id": "nic-3b-14",
@@ -896,8 +926,8 @@
         "zh": "液体蒸发就形成 vapors（蒸气）。单体、UV 凝胶、包甲和胶水都会产生蒸气。fumes（烟雾）来自燃烧，比如蜡烛，所以说“单体烟雾”是错误的。"
       },
       "lockPoint": {
-        "en": "Even odorless monomer forms vapors: no smell doesn't mean no vapor.",
-        "zh": "就连无味单体（odorless monomer）也会产生蒸气：闻不到不等于没有。"
+        "en": "Is the monomer burning? No. It evaporates, like water from a wet towel, so it gives off vapor, not fumes.",
+        "zh": "单体在燃烧吗？没有。它像湿毛巾上的水一样蒸发，所以放出的是蒸气（vapors），不是烟雾（fumes）。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -922,7 +952,7 @@
           "quote": "Fumes (FYOOMZ) are a blend of soot-like particles mixed with vapors. They usually result from burning substances"
         }
       ],
-      "hookType": "name-trap"
+      "hookType": "reason-chain"
     },
     {
       "id": "nic-3b-15",
@@ -1164,8 +1194,8 @@
         "zh": "methylene glycol（甲二醇）在真甲的角蛋白（keratin）链之间搭“桥”，也就是交联，让甲板更硬，更不易弯折和断裂。"
       },
       "lockPoint": {
-        "en": "Never use it on already brittle nails → too rigid → they may split and shatter.",
-        "zh": "已经很脆的指甲绝不能用 → 会过硬 → 可能裂开甚至碎掉。"
+        "en": "Loose straws bend easily. Tape them together and the bundle is stiff. That is cross-linking the nail's keratin.",
+        "zh": "一根根散开的吸管很容易弯。用胶带把它们绑在一起，整捆就变硬了。这就是在指甲的角蛋白（keratin）之间形成交联（cross-links）。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -1200,7 +1230,7 @@
           "quote": "Methylene glycol hardeners can make brittle nails become so rigid that they may split and shatter."
         }
       ],
-      "hookType": "reason-chain"
+      "hookType": "picture"
     },
     {
       "id": "nic-3b-19",
@@ -1236,8 +1266,8 @@
         "zh": "消毒剂（disinfectants）属于 pesticides（杀生物剂类产品），是给物体表面用的，不是给皮肤用的。拿来洗手会刺激皮肤、引起过敏，经皮肤吸收还会造成伤害。"
       },
       "lockPoint": {
-        "en": "When mixing disinfectant, wear gloves and safety glasses to keep it off skin and eyes.",
-        "zh": "调配消毒剂时要戴手套和护目镜，避免碰到皮肤和眼睛。"
+        "en": "If you need gloves just to mix it, never wash your hands with it: skin can soak it in.",
+        "zh": "连调配时都要戴手套，就绝不能拿它洗手：皮肤会把它吸收进去。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -1262,7 +1292,7 @@
           "quote": "Safety glasses and gloves should be worn while mixing to avoid accidental contact with eyes and skin."
         }
       ],
-      "hookType": "real-life"
+      "hookType": "reason-chain"
     },
     {
       "id": "nic-3b-20",
@@ -1298,8 +1328,8 @@
         "zh": "反复接触沾有粉尘的用品、容器和桌面，会造成过度接触。加固甲产品不是设计来接触皮肤的，避免接触才能防止过敏。"
       },
       "lockPoint": {
-        "en": "Skin allergy builds from many small touches, so even a thin film of dust counts.",
-        "zh": "皮肤过敏是一次次小接触累积出来的，瓶子上薄薄一层粉尘也算。"
+        "en": "Like flour on a kitchen counter: every time you touch it, some gets on your hands. Product dust does too.",
+        "zh": "就像撒在厨房台面上的面粉：每碰一次，手上就沾一点。产品粉尘也一样。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -1320,7 +1350,7 @@
           "quote": "Repeatedly handling these items will cause overexposure if the items are not kept clean."
         }
       ],
-      "hookType": "reason-chain"
+      "hookType": "picture"
     }
   ],
   "review": {

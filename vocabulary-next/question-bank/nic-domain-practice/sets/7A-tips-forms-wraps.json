@@ -57,8 +57,8 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "The well is a shallow depression in the tip. Adhesive goes into it, and it is the part that touches the nail plate.",
-        "zh": "well（凹槽）是甲片上的浅凹陷。甲片胶涂在这里，它就是贴在甲面上的那部分。"
+        "en": "Adhesive goes into the well, and then the well is set onto the natural nail, so it touches the nail plate. The position stop is only where the free edge stops inside the well.",
+        "zh": "甲片胶涂进凹槽（well），再把凹槽贴到真甲上，所以凹槽就是接触甲面的部分。定位点（position stop）只是凹槽里真甲游离缘（free edge）停住的那个位置。"
       },
       "lockPoint": {
         "en": "A water well is a hole in the ground. A tip's well is a shallow hollow on the nail.",
@@ -77,6 +77,14 @@
         {
           "pdfPage": 280,
           "quote": "Many nail tips have a shallow depression called a well (WELL) that serves as the point of contact with the nail plate."
+        },
+        {
+          "pdfPage": 280,
+          "quote": "is a thin resin applied into the well area that is used to adhere the tip to the natural nail"
+        },
+        {
+          "pdfPage": 280,
+          "quote": "is the point where the free edge of the natural nail meets or stops inside the well"
         }
       ],
       "hookType": "word-link"
@@ -363,8 +371,8 @@
         "zh": "甲片应该从一侧侧壁到另一侧侧壁刚好盖满，不用按压就能放稳。太窄的甲片两侧会不平，之后会裂开；硬压上去还可能弹掉。"
       },
       "lockPoint": {
-        "en": "Between sizes? Use the larger tip and file it: width can be filed away, never added back.",
-        "zh": "介于两个尺寸之间？选大的再锉合适：宽度可以锉掉，却补不回来。"
+        "en": "Like wall-to-wall carpet: the tip covers sidewall to sidewall, with no gaps and nothing on the skin.",
+        "zh": "就像满铺地毯（wall-to-wall carpet）：甲片从一侧侧壁盖到另一侧侧壁（sidewall to sidewall），两边不留缝，也不盖到皮肤上。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -395,7 +403,7 @@
           "quote": "The best fit is when you are able to simply set the tip on the nail without any pressure and it easily rests there. When the natural nail is between sizes, opt for using a slightly larger tip and customize it with an 180-grit abrasive board to fit the nail precisely."
         }
       ],
-      "hookType": "reason-chain"
+      "hookType": "picture"
     },
     {
       "id": "nic-7a-07",
@@ -915,8 +923,8 @@
         "zh": "nail resin（甲用树脂）就是 cyanoacrylate（氰基丙烯酸酯），一种快干强力胶。很稀的叫甲片胶（nail glue / tip adhesive），较稠的叫 building resin（建构树脂）。"
       },
       "lockPoint": {
-        "en": "Super glue is a cyanoacrylate too. That is why even a tiny drop in the eye is dangerous.",
-        "zh": "强力胶（super glue）也是氰基丙烯酸酯，所以哪怕一小滴溅进眼睛也很危险。"
+        "en": "If it glues a tip or holds a wrap, it is a cyanoacrylate: the salon's glue family.",
+        "zh": "只要是用来粘甲片或固定包甲的，就是氰基丙烯酸酯（cyanoacrylate）：沙龙里的“胶水家族”。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -931,6 +939,12 @@
           "section": "Nail Tips and Forms - Nail Tips",
           "pdfPage": 281,
           "printedPage": "257"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Monomer Liquid and Polymer Powder Nail Enhancements - Chemistry of Liquid and Powder",
+          "pdfPage": 346,
+          "printedPage": "322"
         }
       ],
       "evidence": [
@@ -945,6 +959,10 @@
         {
           "pdfPage": 281,
           "quote": "Even the smallest amount of adhesive in the eyes can be very dangerous and may cause serious injury."
+        },
+        {
+          "pdfPage": 346,
+          "quote": "polymer powder is also made mostly from ethyl methacrylate monomer liquid"
         }
       ],
       "hookType": "real-life"
@@ -979,8 +997,8 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "A resin accelerator, also called an activator, speeds up resin dry time. It comes as a brush-on, pump spray, or aerosol.",
-        "zh": "resin accelerator（树脂加速剂），也叫 activator（激活剂），能加快树脂变干，有刷涂、喷泵和气雾三种形式。"
+        "en": "A resin accelerator, also called an activator, speeds up resin dry time. The other three are nail-prep products: a dehydrator and a cleanser remove moisture and oil, and a primer helps product stick.",
+        "zh": "resin accelerator（树脂加速剂），也叫 activator（激活剂），能加快树脂变干。另外三个都是做甲前处理的产品：脱水剂（nail dehydrator）和甲面清洁剂（nail cleanser）去除水分和油分，结合剂（nail primer）帮助产品附着。"
       },
       "lockPoint": {
         "en": "A car's gas pedal is also called the accelerator: press it and the car goes faster.",
@@ -993,12 +1011,42 @@
           "section": "Nail Resin Systems - Nail Resins",
           "pdfPage": 306,
           "printedPage": "282"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Adhesion of Nail Enhancements",
+          "pdfPage": 143,
+          "printedPage": "119"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Tips and Forms - Nail Tips",
+          "pdfPage": 279,
+          "printedPage": "255"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Adhesion",
+          "pdfPage": 141,
+          "printedPage": "117"
         }
       ],
       "evidence": [
         {
           "pdfPage": 306,
           "quote": "A resin accelerator (REZ-in ak-SELL-er-ay-tor), or activator, assists in speeding up the dry time of the resin."
+        },
+        {
+          "pdfPage": 143,
+          "quote": "Nail dehydrators remove traces of both moisture and oil."
+        },
+        {
+          "pdfPage": 279,
+          "quote": "Nail cleansers are used to remove surface debris, moisture, and tiny amounts of oil on the natural nail plate"
+        },
+        {
+          "pdfPage": 141,
+          "quote": "A nail primer (NAYL PRY-mer) is a substance that improves adhesion."
         }
       ],
       "hookType": "word-link"

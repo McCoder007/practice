@@ -10,8 +10,8 @@ C. Applying cuticle oil after service / 服务后涂指缘油
 D. Improper nail preparation / 真甲前处理不到位 ✅  
 *Why:* Milady says improper nail preparation is a leading cause of most lifting. Oil, moisture, dead tissue, and debris left on the plate block adhesion.  
 *为什么:* Milady 指出，真甲前处理不到位是大多数起翘的主要原因。留在甲面上的油分、水分、死皮和杂质都会妨碍附着。  
-*Lock this (comparison):* Tape won't stick to a greasy, damp surface. Many primers work like double-sided tape and fail the same way.  
-*记重点:* 胶带贴不住油腻潮湿的表面；很多结合剂就像双面胶，失效的道理一样。  
+*Lock this (reason-chain):* Most lifting starts before the product goes on: skip a prep step, and the product comes loose later.  
+*记重点:* 大多数翘起（lifting）在上产品之前就埋下了：少做一步准备，产品之后就会松开。  
 *Source:* Milady Standard Nail Technology p.119 (PDF 143), Milady Standard Nail Technology p.117 (PDF 141), Milady Standard Nail Technology p.120 (PDF 144), Milady Standard Nail Technology p.118 (PDF 142)
 
 **2. Scrubbing the nail plate with a nail brush before service helps prevent**  
@@ -190,8 +190,8 @@ C. Wet beads contain extra BPO. / 湿球含有更多 BPO。
 D. Wet beads cure too hard. / 湿球固化得太硬。  
 *Why:* With too much liquid, the bead hardens with some monomer trapped inside. It can work down to the nail bed and cause an allergic reaction, especially on thin, damaged nails.  
 *为什么:* 液体太多时，水晶球固化后会把部分单体液困在里面。它可能慢慢渗到甲床，引起过敏，尤其是甲板受损、过薄的客人。  
-*Lock this (reason-chain):* The initiator BPO comes in the powder. Too little powder → too little starter → leftover liquid monomer.  
-*记重点:* 引发剂 BPO 在粉里。粉太少 → 引发剂不够 → 剩下没反应的单体液。  
+*Lock this (reason-chain):* The powder holds the starter that hardens the liquid. Less powder means less starter, so liquid is left over.  
+*记重点:* 让液体变硬的“启动剂”——引发剂（initiator）——在粉里。粉少了，引发剂就少了，所以会剩下没变硬的单体液。  
 *Source:* Milady Standard Nail Technology p.88 (PDF 112), Milady Standard Nail Technology p.322 (PDF 346)
 
 **17. Why should you never custom-blend your own gel products?**  
@@ -214,8 +214,8 @@ C. Bleach it, then re-polish / 漂白后再涂甲油
 D. Refer the client to a doctor / 建议客人就医 ✅  
 *Why:* A yellow-green spot that darkens is a sign of Pseudomonas, a contagious bacterial infection. Don't cover or treat it: Milady says medical referral is required.  
 *为什么:* 会变深的黄绿色斑点是铜绿假单胞菌（Pseudomonas aeruginosa）细菌感染的迹象，具传染性。不要盖住或自行处理：Milady 说必须建议就医。  
-*Lock this (reason-chain):* Unfixed lifting → gap under the product → higher infection risk. Remove lifts at every fill.  
-*记重点:* 起翘不处理 → 产品下面有缝 → 感染风险升高。每次补甲都要把起翘去掉。  
+*Lock this (comparison):* A stain can be polished over. Germs can't. They keep growing under the product and can spread to others.  
+*记重点:* 污渍可以用甲油盖住，细菌不行。它们会在产品下面继续生长，还会传染给别人。  
 *Source:* Milady Standard Nail Technology p.110 (PDF 134), Milady Standard Nail Technology p.330 (PDF 354)
 
 **19. Whitish spots on the nail after gel removal are often caused by**  

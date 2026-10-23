@@ -190,8 +190,8 @@ C. harden the natural nail. / 让真甲变硬。
 D. lift, crack, or break. / 翘起、裂开或断掉。 ✅  
 *Why:* Liquid and powder enhancements need a fill every two to three weeks. Without it, they tend to lift, crack, or break, which can damage the natural nail and raise infection risk.  
 *为什么:* 液体和粉末（liquid and powder）延长甲每两到三周需要补一次（fill）。不补的话容易翘起、裂开或断掉，会伤到真甲，也增加感染风险。  
-*Lock this (reason-chain):* Nail grows → the apex moves toward the tip → the nail breaks more easily. A fill rebalances the apex.  
-*记重点:* 真甲长出来 → 最高点（apex）往指尖方向移 → 更容易断。补甲就是重新平衡最高点。  
+*Lock this (real-life):* Clients who wait too long for a fill come back with many more breaks to repair.  
+*记重点:* 等太久才来补甲（fill）的客人，回来时会有更多断甲要修补。  
 *Source:* Milady Standard Nail Technology p.330 (PDF 354), Milady Standard Nail Technology p.283 (PDF 307)
 
 **17. Why do nails feel thin and bendy right after enhancement removal?**  
@@ -202,8 +202,8 @@ C. The primer ate into them. / 结合剂把它们腐蚀了。
 D. Acetone dissolved the nail plate. / 丙酮溶解了甲板。  
 *Why:* After a 30-minute soak, the nail plate holds extra moisture, so it bends more. It is not weakened, and it firms up as the moisture leaves over the next 24 hours.  
 *为什么:* 泡了 30 分钟后，甲板（nail plate）里多了水分，所以更容易弯。它并没有变弱，接下来 24 小时水分散掉后就会变硬。  
-*Lock this (real-life):* Like fingernails after a long bath: soft for a while, then back to normal. Tell clients so they don’t worry.  
-*记重点:* 就像泡完澡的指甲：暂时变软，过一阵就恢复。告诉客人，免得他们担心。  
+*Lock this (real-life):* Like hair after a wash: soft while wet, back to normal once dry. Tell clients so they don't worry.  
+*记重点:* 就像刚洗完的头发：湿的时候软，干了就恢复正常。告诉客人，免得他们担心。  
 *Source:* Milady Standard Nail Technology p.332 (PDF 356), Milady Standard Nail Technology p.118 (PDF 142)
 
 **18. Which home-care product keeps natural and enhanced nails flexible?**  

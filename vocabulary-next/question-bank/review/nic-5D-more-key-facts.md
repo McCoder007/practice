@@ -22,8 +22,8 @@ C. holding the bit at the wrong angle. / 磨头拿的角度不对。 ✅
 D. using a finer grit bit. / 使用更细目数的磨头。  
 *Why:* Rings of fire are red marks cut into the nail. A bit held at the wrong angle, often at the cuticle area, lets its front edge dig into the nail.  
 *为什么:* 火圈（rings of fire）是割进指甲里的红色痕迹。磨头角度不对（常发生在甲小皮附近）时，磨头前缘会挖进指甲。  
-*Lock this (reason-chain):* Tilted bit → front edge digs in → red ring on the nail, and the client feels burning.  
-*记重点:* 磨头倾斜 → 前缘挖进去 → 指甲上留下红圈，顾客还会有灼痛感。  
+*Lock this (reason-chain):* The bit tilts, and its front edge digs in. That makes a red ring, and the client feels burning.  
+*记重点:* 磨头一倾斜，前缘就会挖进去。这会在指甲上留下红圈，顾客还会有灼痛感。  
 *Source:* Milady Standard Nail Technology p.240 (PDF 264), Milady Standard Nail Technology p.248 (PDF 272), Milady Standard Nail Technology p.251 (PDF 275)
 
 **3. Instead of pressing down hard on the bit, you should**  
@@ -32,8 +32,8 @@ A. increase the machine's speed. / 调高机器的转速。 ✅
 B. lower the machine's speed. / 调低机器的转速。  
 C. press on the bit's front edge. / 压在磨头的前缘上。  
 D. tilt the bit onto its edge. / 把磨头侧过来用边缘磨。  
-*Why:* Higher speeds let you use less pressure. If you feel the need to press down on the bit, increase the speed instead, and reduce your overall pressure.  
-*为什么:* 转速越高，需要的压力越小。如果你觉得需要往下压磨头，就改为调高转速，并减少整体用力。  
+*Why:* Higher speeds let you use less pressure. If you want to press down on the bit, increase the speed instead, and press more lightly.  
+*为什么:* 转速越高，需要的压力越小。如果你想往下压磨头，就改为调高转速，并且下手轻一点。  
 *Lock this (reason-chain):* Let the speed do the work, not your hand. And keep the bit parallel to the nail.  
 *记重点:* 让转速去干活，而不是靠手用力。还要让磨头与指甲保持平行。  
 *Source:* Milady Standard Nail Technology p.249 (PDF 273), Milady Standard Nail Technology p.240 (PDF 264)

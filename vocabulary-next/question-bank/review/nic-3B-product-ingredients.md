@@ -70,9 +70,9 @@ C. acrylates. / 丙烯酸酯（acrylates）。
 D. silicones. / 硅酮（silicones）。  
 *Why:* All nail glues and wraps use cyanoacrylates. Methacrylates make liquid and powder systems and at least one UV gel. Other UV gels use acrylates.  
 *为什么:* 所有美甲胶水和包甲都用 cyanoacrylates（氰基丙烯酸酯）。methacrylates 用于液粉系统和至少一种 UV 凝胶；其他 UV 凝胶用 acrylates。  
-*Lock this (real-life):* Hardware-store super glue is a cyanoacrylate too: it sets in seconds.  
-*记重点:* 五金店的“502 胶”也是氰基丙烯酸酯：几秒钟就粘牢。  
-*Source:* Milady Standard Nail Technology p.124 (PDF 148), Milady Standard Nail Technology p.131 (PDF 155)
+*Lock this (reason-chain):* A wrap is fabric stuck on with resin, a nail glue. So glue and wraps share one base: cyanoacrylate.  
+*记重点:* 包甲（wrap）就是用树脂胶（resin，一种美甲胶水）把布料粘在指甲上。所以胶水和包甲的基础是同一种：氰基丙烯酸酯（cyanoacrylate）。  
+*Source:* Milady Standard Nail Technology p.124 (PDF 148), Milady Standard Nail Technology p.131 (PDF 155), Milady Standard Nail Technology p.283 (PDF 307), Milady Standard Nail Technology p.282 (PDF 306)
 
 **7. What is the most important reason not to use MMA monomer?**  
 不应使用 MMA（甲基丙烯酸甲酯，methyl methacrylate）单体最重要的原因是什么？  
@@ -82,8 +82,8 @@ C. FDA and state boards say don't use it / FDA 和州美容委员会（state boa
 D. It dissolves too easily in remover / 它在卸甲液里溶解得太快  
 *Why:* Milady says MMA is not a carcinogen and is not absorbed into the blood. The problems are poor adhesion, rigid nails, hard removal, and, most important, the FDA's position.  
 *为什么:* Milady 指出 MMA 不致癌，也不会被吸收进血液。问题在于附着差、太硬、难卸除，而最重要的原因是 FDA 和州美容委员会不允许使用。  
-*Lock this (real-life):* Doctors put MMA inside the body as bone cement. So poison is not the reason. The FDA's rule is.  
-*记重点:* 医生把 MMA 放进人体当骨水泥用。所以禁用于指甲不是因为有毒，最重要的原因是 FDA 的规定。  
+*Lock this (comparison):* Like a red light: you stop because the law says so. The FDA and state boards say stop using MMA.  
+*记重点:* 就像红灯：你停下来，是因为法规这么规定。FDA 和州美容委员会（state boards）说的就是：停用 MMA。  
 *Source:* Milady Standard Nail Technology p.124 (PDF 148), Milady Standard Nail Technology p.125 (PDF 149)
 
 **8. When an MMA nail is jammed or caught, what often breaks?**  
@@ -94,8 +94,8 @@ C. The cuticle / 甲小皮（cuticle）
 D. The natural nail plate / 真甲甲板 ✅  
 *Why:* MMA nails are rigid and difficult to break. The natural nail was thinned to make MMA stick, so it often breaks instead, causing serious nail damage.  
 *为什么:* MMA 指甲又硬又难断。为了让 MMA 粘住，真甲已被磨薄，所以断的往往是真甲，造成严重损伤。  
-*Lock this (reason-chain):* MMA won't dissolve in remover, so it's often pried off: even more nail damage.  
-*记重点:* MMA 在卸甲液里不溶解，常常只能硬撬下来：对指甲伤害更大。  
+*Lock this (comparison):* A chain breaks at its weakest link. MMA is too hard to break, so the thinned natural nail breaks.  
+*记重点:* 链条总是在最弱的一环断开。MMA 硬得很难断，所以断的是被磨薄的真甲（natural nail plate）。  
 *Source:* Milady Standard Nail Technology p.125 (PDF 149)
 
 **9. Which ingredient makes acid-based primers corrosive?**  
@@ -106,9 +106,9 @@ C. Ethyl acetate / 乙酸乙酯（ethyl acetate）
 D. Cyanoacrylate / 氰基丙烯酸酯（cyanoacrylate）  
 *Why:* Acid-based primers contain methacrylic acid and can burn and scar skin and eyes. Acid-free primers contain no acids and have a neutral pH, but still avoid skin contact.  
 *为什么:* 酸性结合剂含甲基丙烯酸（methacrylic acid），会灼伤皮肤和眼睛并留疤。无酸结合剂（acid-free）不含酸、pH 中性，但同样要避免接触皮肤。  
-*Lock this (reason-chain):* Corrosive → child-resistant cap, plus gloves and safety glasses while using it.  
-*记重点:* 有腐蚀性 → 瓶盖要防儿童开启，使用时戴手套和护目镜。  
-*Source:* Milady Standard Nail Technology p.118 (PDF 142)
+*Lock this (contrast):* Acid-based primer, acid in the name: methacrylic acid. Methylene glycol is a nail hardener, not a primer.  
+*记重点:* 酸性结合剂（acid-based primer），就找名字里带“酸”的：甲基丙烯酸（methacrylic acid）。甲二醇（methylene glycol）是指甲硬化剂，不是结合剂。  
+*Source:* Milady Standard Nail Technology p.118 (PDF 142), Milady Standard Nail Technology p.153 (PDF 177)
 
 **10. Which is true about nail primers and the nail plate?**  
 关于结合剂（primer）和甲板，哪项说法正确？  
@@ -154,8 +154,8 @@ C. As long as the client likes / 顾客想要多久就多久
 D. Overnight, under a glove / 戴着手套过夜  
 *Why:* Milady gives no fixed time. Let cuticle remover set on the nail plate for the manufacturer's recommended time, keep it off living skin, and wash off every trace.  
 *为什么:* Milady 没有规定固定时间：按厂家建议的时间让死皮软化剂停留在甲板上，避免碰到活皮肤，最后彻底洗净。  
-*Lock this (reason-chain):* Too long on living skin → dryness, irritation, and hangnails.  
-*记重点:* 在活皮肤上停留太久 → 干燥、刺激，还会长倒刺（hangnails）。  
+*Lock this (comparison):* No fixed number to memorize: the maker sets the time. Like pasta: cook it as long as the box says.  
+*记重点:* 没有固定的数字要背：时间由厂家定。就像煮面条：包装上写煮多久，就煮多久。  
 *Source:* Milady Standard Nail Technology p.179 (PDF 203), Milady Standard Nail Technology p.151 (PDF 175)
 
 **14. What do nail monomer liquids give off into the air?**  
@@ -166,8 +166,8 @@ C. Dust / 粉尘（dust）
 D. Vapors / 蒸气（vapors） ✅  
 *Why:* Vapors form when liquids evaporate. Monomers, UV gels, wraps, and adhesives all form vapors. Fumes come from burning things, like candles, so "monomer fumes" is incorrect.  
 *为什么:* 液体蒸发就形成 vapors（蒸气）。单体、UV 凝胶、包甲和胶水都会产生蒸气。fumes（烟雾）来自燃烧，比如蜡烛，所以说“单体烟雾”是错误的。  
-*Lock this (name-trap):* Even odorless monomer forms vapors: no smell doesn't mean no vapor.  
-*记重点:* 就连无味单体（odorless monomer）也会产生蒸气：闻不到不等于没有。  
+*Lock this (reason-chain):* Is the monomer burning? No. It evaporates, like water from a wet towel, so it gives off vapor, not fumes.  
+*记重点:* 单体在燃烧吗？没有。它像湿毛巾上的水一样蒸发，所以放出的是蒸气（vapors），不是烟雾（fumes）。  
 *Source:* Milady Standard Nail Technology p.116 (PDF 140)
 
 **15. What is the main hazard of acetone?**  
@@ -214,8 +214,8 @@ C. It cross-links the keratin strands / 在角蛋白链之间形成交联（cros
 D. It dissolves the top nail layer / 溶掉甲板表层  
 *Why:* Methylene glycol creates bridges, or cross-links, between the keratin strands of the natural nail. This makes the plate stiffer and more resistant to bending and breaking.  
 *为什么:* methylene glycol（甲二醇）在真甲的角蛋白（keratin）链之间搭“桥”，也就是交联，让甲板更硬，更不易弯折和断裂。  
-*Lock this (reason-chain):* Never use it on already brittle nails → too rigid → they may split and shatter.  
-*记重点:* 已经很脆的指甲绝不能用 → 会过硬 → 可能裂开甚至碎掉。  
+*Lock this (picture):* Loose straws bend easily. Tape them together and the bundle is stiff. That is cross-linking the nail's keratin.  
+*记重点:* 一根根散开的吸管很容易弯。用胶带把它们绑在一起，整捆就变硬了。这就是在指甲的角蛋白（keratin）之间形成交联（cross-links）。  
 *Source:* Milady Standard Nail Technology p.152 (PDF 176), Milady Standard Nail Technology p.153 (PDF 177)
 
 **19. Why should disinfectants never be used as hand cleaners?**  
@@ -226,8 +226,8 @@ C. They have no pH / 没有 pH 值
 D. They can be harmful if absorbed through skin / 经皮肤吸收会造成伤害 ✅  
 *Why:* Disinfectants are pesticides made for surfaces, not skin. As hand cleaners they can irritate skin, cause allergic reactions, and be harmful if absorbed through the skin.  
 *为什么:* 消毒剂（disinfectants）属于 pesticides（杀生物剂类产品），是给物体表面用的，不是给皮肤用的。拿来洗手会刺激皮肤、引起过敏，经皮肤吸收还会造成伤害。  
-*Lock this (real-life):* When mixing disinfectant, wear gloves and safety glasses to keep it off skin and eyes.  
-*记重点:* 调配消毒剂时要戴手套和护目镜，避免碰到皮肤和眼睛。  
+*Lock this (reason-chain):* If you need gloves just to mix it, never wash your hands with it: skin can soak it in.  
+*记重点:* 连调配时都要戴手套，就绝不能拿它洗手：皮肤会把它吸收进去。  
 *Source:* Milady Standard Foundations p.119 (PDF 614)
 
 **20. Why keep tabletops and product containers free of dust and residue?**  
@@ -238,6 +238,6 @@ C. Dust makes polish thicken / 粉尘会让指甲油变稠
 D. Dust turns into fumes / 粉尘会变成烟雾  
 *Why:* Repeatedly handling dusty supplies, containers, and tabletops causes overexposure. Nail enhancement products are not designed for skin contact, and avoiding contact prevents allergic reactions.  
 *为什么:* 反复接触沾有粉尘的用品、容器和桌面，会造成过度接触。加固甲产品不是设计来接触皮肤的，避免接触才能防止过敏。  
-*Lock this (reason-chain):* Skin allergy builds from many small touches, so even a thin film of dust counts.  
-*记重点:* 皮肤过敏是一次次小接触累积出来的，瓶子上薄薄一层粉尘也算。  
+*Lock this (picture):* Like flour on a kitchen counter: every time you touch it, some gets on your hands. Product dust does too.  
+*记重点:* 就像撒在厨房台面上的面粉：每碰一次，手上就沾一点。产品粉尘也一样。  
 *Source:* Milady Standard Nail Technology p.126 (PDF 150)

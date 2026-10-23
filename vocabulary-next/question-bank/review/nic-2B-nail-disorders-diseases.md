@@ -58,8 +58,8 @@ C. onychomycosis. / 甲真菌病（onychomycosis）。
 D. onychophagy. / 咬甲癖（onychophagy）。  
 *Why:* Onychia is inflammation of the nail matrix with shedding of the nail, caused by infection or injury. Medical referral may be required.  
 *为什么:* onychia（甲母质炎）是甲母质发炎并伴有指甲脱落，由感染或外伤引起，可能需要转介医生。  
-*Lock this (reason-chain):* The matrix builds the nail plate. When the builder is inflamed, the nail it made can fall off.  
-*记重点:* 甲母质负责“建造”甲板。“建造者”一发炎，它造出的指甲就可能脱落。  
+*Lock this (word-parts):* Onychia is just onych- (nail): trouble in the nail's own matrix. Paronychia adds para- (beside): the skin beside the nail.  
+*记重点:* onychia（甲母质炎）只有 onych-（指甲）这个词根：问题出在指甲自己的 matrix（甲母质）。paronychia（甲沟炎）多了 para-（旁边）：是指甲旁边的皮肤发炎。  
 *Source:* Milady Standard Nail Technology p.109 (PDF 133), Milady Standard Nail Technology p.113 (PDF 137)
 
 **6. Which condition may be carefully trimmed in the salon?**  
@@ -178,9 +178,9 @@ C. refer the client to a physician. / 建议顾客去看医生。 ✅
 D. treat it with cuticle oil. / 用护甲油处理。  
 *Why:* Milady lists onycholysis as a nail disease, often from injury or allergic reactions. Medical referral is required, so do not service that nail.  
 *为什么:* Milady 把 onycholysis（甲剥离）列为指甲疾病，常由外伤或过敏反应引起。必须转介医生，不能为这片指甲做服务。  
-*Lock this (word-parts):* Lysis = loosening. Even heat from filing too hard can loosen the plate from the bed.  
-*记重点:* lysis = 松开。连用力锉甲产生的摩擦热，都可能让甲板从甲床上松脱。  
-*Source:* Milady Standard Nail Technology p.109 (PDF 133), Milady Standard Nail Technology p.35 (PDF 59)
+*Lock this (reason-chain):* The loose plate leaves a gap. Germs can grow in it. Refer to a doctor. Don't cover it.  
+*记重点:* 甲板松开，下面就有空隙。病菌可能在里面滋生。要转介医生。不要把它盖住。  
+*Source:* Milady Standard Nail Technology p.109 (PDF 133), Milady Standard Nail Technology p.35 (PDF 59), Milady Standard Nail Technology p.102 (PDF 126)
 
 **16. Onychocryptosis is the technical term for**  
 onychocryptosis 是什么的专业名称？  

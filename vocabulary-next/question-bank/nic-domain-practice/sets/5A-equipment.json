@@ -110,8 +110,8 @@
         "zh": "荧光灯光线较凉，不会烤热灯下的东西。高瓦数白炽灯（incandescent bulb）的热量会让某些加固产品固化太快，导致开裂和翘起（lifting）。"
       },
       "lockPoint": {
-        "en": "Touch a lit incandescent bulb and it burns; a fluorescent one is only warm. Less heat on curing product.",
-        "zh": "点亮的白炽灯泡一摸就烫手；荧光灯只是微温，照到正在固化的产品上的热量少得多。"
+        "en": "A regular bulb can burn your finger. A fluorescent one stays much cooler. It puts less heat on curing product.",
+        "zh": "普通灯泡可能烫伤手指。荧光灯（fluorescent bulb）凉得多。照到正在固化的产品上的热量也少得多。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -232,8 +232,8 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "A finger bowl holds warm water to soften the skin and cuticle. Plastic, metal, glass, or ceramic all work, but it must be durable and easy to clean and disinfect after each client.",
-        "zh": "泡手碗盛温水，用来软化皮肤和死皮（cuticle）。塑料、金属、玻璃或陶瓷都可以，但必须耐用，并且每位顾客用后容易清洁和消毒。"
+        "en": "A finger bowl is used on client after client, so it is a multiuse item, not thrown away. Multiuse items must be cleaned and disinfected, not just rinsed, before the next client.",
+        "zh": "泡手碗（finger bowl）一位接一位顾客重复使用，所以它是可重复使用的（multiuse）物品，不是用完就丢。可重复使用的物品在下一位顾客之前必须清洁并消毒，不能只冲一冲。"
       },
       "lockPoint": {
         "en": "Warm, wet, and touched by skin: the perfect place for germs. Disinfect before the next hands go in.",
@@ -252,6 +252,12 @@
           "section": "Infection Control - Bacteria",
           "pdfPage": 601,
           "printedPage": "106"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Common Antiseptics",
+          "pdfPage": 613,
+          "printedPage": "118"
         }
       ],
       "evidence": [
@@ -266,6 +272,10 @@
         {
           "pdfPage": 601,
           "quote": "bacteria multiply best in warm, dark, damp, or dirty"
+        },
+        {
+          "pdfPage": 613,
+          "quote": "multiuse refers to items that can be cleaned, disinfected, and used on more than one person"
         }
       ],
       "hookType": "picture"
@@ -488,8 +498,8 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "The thermostat keeps paraffin at the ideal temperature for hands and feet. Never dip the client directly into the tub; scoop wax into a bag. Used paraffin is thrown away.",
-        "zh": "恒温器让石蜡保持在适合手脚的温度。不要把顾客的手脚直接浸进蜡锅；要把蜡舀进袋子里用。用过的蜡要丢弃。"
+        "en": "The automatic thermostat turns the heat up or down by itself, so the wax stays at the ideal temperature for hands and feet. It does not clean wax: used paraffin is thrown away.",
+        "zh": "自动恒温器（thermostat）会自己调高或调低热度，让蜡一直保持在适合手脚的理想温度。它不会清洁蜡：用过的石蜡（paraffin）要丢掉。"
       },
       "lockPoint": {
         "en": "Thermo = heat, stat = stay still. A thermostat keeps the heat at one level.",
@@ -750,8 +760,8 @@
         "zh": "像握铅笔一样握手柄，握得稳但不要太紧，否则手会抽筋。前臂放在桌上，用小指当支点（fulcrum）稳住双手。"
       },
       "lockPoint": {
-        "en": "Touch the tip of one pinky to the other pinky's tip. That fulcrum makes both hands work as one, steady.",
-        "zh": "把一只手的小指指尖顶住另一只手的小指指尖：这就是支点（fulcrum），让两只手和打磨机连成一体，更稳。"
+        "en": "Squeeze a pen hard: your hand hurts. Too loose: your writing wobbles. Firm and steady is in between.",
+        "zh": "握笔太用力，手会痛；握太松，字会歪。握得稳稳的、不松也不紧，刚好在中间。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [

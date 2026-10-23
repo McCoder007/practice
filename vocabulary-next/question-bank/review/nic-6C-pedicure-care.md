@@ -46,9 +46,9 @@ C. well past the end of the toe. / 留得远超过脚趾尖。
 D. straight across, even with the toe tip. / 平剪，与脚趾尖齐平。 ✅  
 *Why:* Trim toenails straight across and even with the end of the toes, unless the client requests otherwise. Leave no rough edges or hooks that could invite infection.  
 *为什么:* 除非顾客另有要求，脚趾甲要平剪，与脚趾末端齐平。不要留下粗糙边缘或倒钩，以免引起感染。  
-*Lock this (real-life):* Milady warns that the big toenail is usually the hardest to trim. Slow down there.  
-*记重点:* Milady 提醒：大脚趾甲通常最难剪，剪到那里要放慢。  
-*Source:* Milady Standard Nail Technology p.214 (PDF 238)
+*Lock this (reason-chain):* Straight across, even with the toe tip. Deep, curved corners leave sharp sides that can grow into the skin.  
+*记重点:* 平剪，与脚趾尖齐平。往角落里剪得太深，会留下尖锐的侧边，可能长进皮肤里。  
+*Source:* Milady Standard Nail Technology p.214 (PDF 238), Milady Standard Nail Technology p.198 (PDF 222)
 
 **5. Why should toenails not be trimmed too short?**  
 为什么脚趾甲不能剪得太短？  
@@ -58,8 +58,8 @@ C. Calluses will form on the toe / 脚趾上会长老茧
 D. It can break the hyponychium seal / 可能破坏甲下皮的密封 ✅  
 *Why:* Trimming too short can break the seal of the hyponychium. That seal protects the area beneath the toenail from infection.  
 *为什么:* 剪得太短可能破坏 hyponychium（甲下皮）的密封。这道密封保护趾甲下面的部位不受感染。  
-*Lock this (word-parts):* Hypo = under, onych = nail. The hyponychium is the skin seal under the free edge.  
-*记重点:* hypo = 下面，onych = 指甲。hyponychium 就是游离缘下面那道皮肤密封。  
+*Lock this (reason-chain):* Cut too short, and the skin seal under the tip opens. Then germs can get under the toenail.  
+*记重点:* 剪得太短，指尖下面的皮肤密封就会被打开。然后病菌就能钻到趾甲下面。  
 *Source:* Milady Standard Nail Technology p.197 (PDF 221)
 
 **6. When educating a client about a callus, what does Milady suggest discussing?**  
@@ -94,8 +94,8 @@ C. the big toe only. / 只用在大脚趾。 ✅
 D. the top of the nail. / 指甲表面。  
 *Why:* Use the nail rasp only on the big toe, if needed. Draw it gently along the side of the free edge to smooth sharp points; never use it on top of the nail.  
 *为什么:* 甲锉刀只在需要时用在大脚趾上。沿着游离缘的侧边轻轻拉，把尖角磨平；绝不能用在指甲表面。  
-*Lock this (real-life):* The rasp files in one direction only; the angled kind is easier to control under the free edge.  
-*记重点:* 甲锉刀只能朝一个方向锉；带角度的款式在游离缘下面更好控制。  
+*Lock this (contrast):* The rasp is narrow: it smooths the big toe's side edges only. Never the top, never other toes.  
+*记重点:* 甲锉刀（nail rasp）很窄：只用来磨平大脚趾的侧边。绝不用在指甲表面，也不用在其他脚趾上。  
 *Source:* Milady Standard Nail Technology p.214 (PDF 238), Milady Standard Nail Technology p.198 (PDF 222), Milady Standard Nail Technology p.199 (PDF 223)
 
 **9. Where is callus softener applied during a pedicure?**  
@@ -130,8 +130,8 @@ C. turn soft and moist. / 变得柔软湿润。
 D. grow back thinner. / 长得更薄。  
 *Why:* Never use a razor-type callus shaver. It is against the law in most states, can cause infection, and makes calluses grow back heavier as the skin protects itself.  
 *为什么:* 绝不能用剃刀式去茧刀。在大多数州这是违法的，会引起感染，而且皮肤为了保护自己，老茧会长得更厚。  
-*Lock this (real-life):* Safe route: soften with a callus product, then use a foot file to remove only a safe amount.  
-*记重点:* 安全做法：先用去茧产品软化，再用脚锉只磨掉安全的量。  
+*Lock this (reason-chain):* Shaving hurts the skin. So it grows back thicker to protect itself.  
+*记重点:* 用刀刮会伤到皮肤。所以它会长得更厚来保护自己。  
 *Source:* Milady Standard Nail Technology p.206 (PDF 230)
 
 **12. A pedicure client has tremors. How should you prepare?**  
@@ -202,8 +202,8 @@ C. Do the leg scrub with extra care / 小心地做腿部磨砂
 D. Offer a waterless pedicure on the feet only / 只做脚部的无水修脚 ✅  
 *Why:* Shaving shortly before a pedicure leaves tiny unseen openings (microtrauma) that can let germs in. Offer a basic waterless pedicure on the feet only and reschedule any soak, scrub, or leg work.  
 *为什么:* 修脚前刚刮过毛，会留下看不见的细小伤口（microtrauma，微创伤），病菌可能进入。只做脚部的基础无水修脚，泡脚、磨砂或腿部护理另约时间。  
-*Lock this (word-parts):* Micro = small, trauma = wound. Waxing, plucking, and insect bites can leave the same tiny openings.  
-*记重点:* micro = 微小，trauma = 伤口。蜜蜡脱毛、拔毛和蚊虫叮咬也会留下同样的细小开口。  
+*Lock this (reason-chain):* Freshly shaved legs have tiny openings you can't see. No soak, no scrub, no leg work. Feet only, no water.  
+*记重点:* 刚刮过腿毛的腿上有看不见的细小开口。不泡脚、不磨砂、不做腿部护理。只做脚，不用水。  
 *Source:* Milady Standard Nail Technology p.205 (PDF 229), Milady Standard Nail Technology p.204 (PDF 228), Milady Standard Nail Technology p.197 (PDF 221)
 
 **18. Which massage is included in a basic pedicure?**  

@@ -48,8 +48,8 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Atoms are the basic unit of matter. The nucleus holds protons and neutrons, with electrons moving around it. Atoms combine to make molecules.",
-        "zh": "atom（原子）是物质的基本单位：原子核含有质子和中子，电子绕着它运动。原子结合起来就成了分子（molecule）。"
+        "en": "Atoms are the basic unit: normal chemistry cannot split them into anything simpler. Atoms join to make molecules and compounds. An element is a substance with only one type of atom.",
+        "zh": "atom（原子）是物质的基本单位：普通的化学方法无法把它分成更简单的东西。原子结合起来组成分子（molecule）和化合物（compound）。element（元素）则是只含一种原子的物质。"
       },
       "lockPoint": {
         "en": "Atoms are like letters. Letters join to make words; atoms join to make molecules.",
@@ -62,6 +62,18 @@
           "section": "Chemistry & Chemical Safety - Atoms",
           "pdfPage": 650,
           "printedPage": "155"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Elements",
+          "pdfPage": 649,
+          "printedPage": "154"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Molecules",
+          "pdfPage": 651,
+          "printedPage": "156"
         }
       ],
       "evidence": [
@@ -76,6 +88,14 @@
         {
           "pdfPage": 650,
           "quote": "Just as words are made by combining letters, molecules are made by combining atoms."
+        },
+        {
+          "pdfPage": 649,
+          "quote": "An element (EL-uh-ment) is the simplest form of chemical matter and contains only one type of atom."
+        },
+        {
+          "pdfPage": 651,
+          "quote": "Compound molecules (KAHM-pownd MAHL-uh-kyools), also known as compounds, are chemical combinations of two or more atoms of different elements in definite (fixed) proportions"
         }
       ],
       "hookType": "comparison"
@@ -188,8 +208,8 @@
         "zh": "compound（化合物）由不同元素的原子按固定比例结合而成。食盐中每个钠（Na）原子对应一个氯（Cl）原子。"
       },
       "lockPoint": {
-        "en": "Com- means together: a compound puts different elements together. Ozone, O3, has only one element.",
-        "zh": "化合物：不同元素“化”在一起、“合”成一体。臭氧 O₃ 只有一种元素 O，是单质分子。"
+        "en": "Com- = together, as in combine: a compound joins different elements. Only one element, like oxygen gas? Elemental molecule.",
+        "zh": "com- = “一起”，就像 combine（结合）：化合物（compound）把不同的元素结合在一起。只有一种元素，比如氧气（oxygen gas）？那是单质分子（elemental molecule）。"
       },
       "teachingRelation": "category",
       "authorityRefs": [
@@ -224,6 +244,10 @@
         {
           "pdfPage": 654,
           "quote": "Compounds Pure (distilled) water, ammonia, salt, aspirin"
+        },
+        {
+          "pdfPage": 651,
+          "quote": "Atmospheric oxygen is considered an elemental molecule"
         }
       ],
       "hookType": "word-parts"
@@ -394,8 +418,8 @@
         "zh": "suspension（悬浮液）是液体中含有未溶解的颗粒，不稳定，会随时间分离。溶液静置不分离；乳液（emulsion）需要乳化剂。"
       },
       "lockPoint": {
-        "en": "That's why you gently roll the bottle upside down between your palms before polishing.",
-        "zh": "所以涂之前要把甲油瓶倒过来，放在两掌之间轻轻滚动，把沉下去的颗粒重新混匀。"
+        "en": "Shake a snow globe: the bits float. Let it sit, and they sink. Glitter polish is a suspension too.",
+        "zh": "就像摇雪花水晶球：里面的碎片就飘起来。放着不动，它们就沉下去。含亮片的指甲油也是悬浮液（suspension）。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -426,7 +450,7 @@
           "quote": "gently roll the polish bottles upside down between your palms to thoroughly mix"
         }
       ],
-      "hookType": "real-life"
+      "hookType": "picture"
     },
     {
       "id": "nic-3a-07",
@@ -584,8 +608,8 @@
         "zh": "只有含水的产品才有 pH。指甲油、油类和蜡都不含水，所以没有 pH。"
       },
       "lockPoint": {
-        "en": "No water → no hydrogen or hydroxide ions → nothing for pH to measure.",
-        "zh": "没有水 → 没有氢离子和氢氧根离子 → pH 无从测量。"
+        "en": "pH needs water. Lotion, liquid soap, and cuticle remover all contain water. Polish has none, so no pH.",
+        "zh": "pH 离不开水。护手乳、液体皂和死皮软化剂（cuticle remover）都含水。指甲油一点水都没有，所以没有 pH。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -600,6 +624,12 @@
           "section": "Chemistry & Chemical Safety - Water and pH",
           "pdfPage": 660,
           "printedPage": "165"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Cuticle Removers",
+          "pdfPage": 175,
+          "printedPage": "151"
         }
       ],
       "evidence": [
@@ -610,6 +640,18 @@
         {
           "pdfPage": 660,
           "quote": "Therefore, only products that contain water can have a pH."
+        },
+        {
+          "pdfPage": 663,
+          "quote": "For a product to have a pH, it must contain water."
+        },
+        {
+          "pdfPage": 663,
+          "quote": "slightly acidic liquid soaps can be used to neutralize"
+        },
+        {
+          "pdfPage": 175,
+          "quote": "Typically, these products have a high pH (caustic) and are irritating to the skin."
         }
       ],
       "hookType": "reason-chain"
@@ -832,8 +874,8 @@
         "zh": "这些涂层靠蒸发变硬，属于物理反应。溶剂蒸发后留下一层聚合物膜。里面没有单体参与反应，所以不发生聚合。"
       },
       "lockPoint": {
-        "en": "Polish polymers aren't cross-linked → weaker film → chips easily and dissolves fast in remover.",
-        "zh": "甲油里的聚合物没有交联（cross-link）→ 膜比较弱 → 容易掉，也很快被洗甲水溶掉。"
+        "en": "Like an artist's paint drying: the liquid goes into the air and the color stays. No reaction, just evaporation.",
+        "zh": "就像画家的颜料变干：液体跑进空气里，颜色留在原处。没有化学反应，只是蒸发（evaporation）。"
       },
       "teachingRelation": "category",
       "authorityRefs": [
@@ -862,9 +904,13 @@
         {
           "pdfPage": 149,
           "quote": "This is why polishes are prone to chipping and are so easily dissolved by removers."
+        },
+        {
+          "pdfPage": 149,
+          "quote": "Artist paints and hairsprays work in the same fashion."
         }
       ],
-      "hookType": "reason-chain"
+      "hookType": "comparison"
     },
     {
       "id": "nic-3a-14",
@@ -900,8 +946,8 @@
         "zh": "monomers（单体）是一个个单独的分子，连接成很长的链，就是 polymers（聚合物）。例如，氨基酸连接成角蛋白（keratin）。"
       },
       "lockPoint": {
-        "en": "Mono = one, poly = many, -mer = part. Oligo = few: an oligomer is a short chain.",
-        "zh": "mono = 一，poly = 多，-mer = 部分；oligo = 少：oligomer（寡聚物）是只有几节的短链。"
+        "en": "Mono = one, poly = many, -mer = part. One part: monomer. Many parts joined: polymer.",
+        "zh": "mono = 一，poly = 多，-mer = 部分。一个部分：单体（monomer）。许多部分连在一起：聚合物（polymer）。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -1138,8 +1184,8 @@
         "zh": "cross-linker（交联剂）像梯子的横档一样把聚合物链连起来。这种网状结构坚固又有弹性，更能抵抗污渍、水和丙酮。"
       },
       "lockPoint": {
-        "en": "Cross-links tie chains together like a net → acetone can't pull them apart easily → slow soak-off.",
-        "zh": "交联把链条连成一张网 → 丙酮不容易拆开 → 所以加固甲比包甲（wraps）或贴片胶（tip adhesive）更难泡掉。"
+        "en": "Read the name: cross = go across, link = join. A cross-linker reaches across and joins two chains.",
+        "zh": "看名字就懂：cross = 横过去，link = 连接。交联剂（cross-linker）横跨过去，把两条聚合物链连在一起。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -1164,7 +1210,7 @@
           "quote": "This explains why cross-linked nail enhancements take longer to remove in acetone than products that are not cross-linked"
         }
       ],
-      "hookType": "reason-chain"
+      "hookType": "word-parts"
     },
     {
       "id": "nic-3a-19",
@@ -1200,8 +1246,8 @@
         "zh": "pH 标度测量物质的酸碱程度。pH 7 是中性，低于 7 是酸性，高于 7 是碱性（alkaline）。"
       },
       "lockPoint": {
-        "en": "Milady: pH = potential hydrogen, the amount of hydrogen ions. More hydrogen ions = more acidic.",
-        "zh": "Milady：pH = potential hydrogen，即氢离子（hydrogen ion）的数量。氢离子越多，越偏酸性。"
+        "en": "pH is a seesaw: acid at one end, alkaline at the other. As one goes up, the other goes down.",
+        "zh": "pH 像跷跷板：一头是酸性（acid），另一头是碱性（alkaline）。一头升高，另一头就降低。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -1230,9 +1276,13 @@
         {
           "pdfPage": 660,
           "quote": "The more hydrogen ions there are in a substance, the more acidic it will be."
+        },
+        {
+          "pdfPage": 661,
+          "quote": "As acidity increases, alkalinity decreases."
         }
       ],
-      "hookType": "real-acronym"
+      "hookType": "picture"
     },
     {
       "id": "nic-3a-20",
@@ -1268,8 +1318,8 @@
         "zh": "adhesion（附着）是两个表面的分子互相吸引而粘在一起。油脂、蜡和污垢会污染表面、阻碍附着，所以干净、干燥的甲面附着更好。"
       },
       "lockPoint": {
-        "en": "Tape won't stick to a greasy pan. Scrub and dry the nail first.",
-        "zh": "胶带粘不住油乎乎的锅。先刷洗、擦干甲面。"
+        "en": "Rain can't stick to a freshly waxed car. Nail product can't stick to an oily, waxy nail either.",
+        "zh": "刚打过蜡的车，雨水粘不住。甲面有油或蜡，美甲产品同样粘不住：附着（adhesion）被挡住了。"
       },
       "teachingRelation": "association",
       "authorityRefs": [

@@ -442,8 +442,8 @@
         "zh": "脚指甲钳更大，钳口之间空间更宽，能剪更厚的指甲。要用专业不锈钢指甲钳，每次用后清洁消毒。"
       },
       "lockPoint": {
-        "en": "Don't mix them up: clippers have wide jaws to clip; toenail nippers take small bites at 45°.",
-        "zh": "别搞混：指甲钳钳口宽，用来剪；脚指甲剪（nippers）以 45 度一小口一小口地剪。"
+        "en": "Feel the tip of your big toenail, then your thumbnail: the toenail is thicker, so its clippers open wider.",
+        "zh": "摸一摸大脚趾甲的前端，再摸摸拇指指甲：脚指甲更厚，所以脚指甲钳（toenail clippers）的钳口张得更开。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -478,7 +478,7 @@
           "quote": "They are held at a 45-degree angle to the nail tip, and small nips of the nail are taken slowly across the free edge"
         }
       ],
-      "hookType": "contrast"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-5b-08",
@@ -514,8 +514,8 @@
         "zh": "中目数锉条用来打磨、修整表面，也用来修短、修形真甲。最后用细目数把边缘磨顺。粗目数一般不用在真甲上。"
       },
       "lockPoint": {
-        "en": "Toenails too: a medium-grit file works best, then finish with fine grit to seal the edges.",
-        "zh": "脚指甲也一样：用中目数锉条最好，最后用细目数把边缘封顺。"
+        "en": "Coarse is too rough for natural nails. Fine is for polishing. Medium is the middle: it shortens and shapes.",
+        "zh": "粗目数（coarse）对真甲太粗。细目数（fine）用来抛光。中目数（medium）在中间：用来修短、修形。"
       },
       "teachingRelation": "category",
       "authorityRefs": [
@@ -556,7 +556,7 @@
           "quote": "lower-grit files must be used with caution and are generally not used on natural nails"
         }
       ],
-      "hookType": "real-life"
+      "hookType": "comparison"
     },
     {
       "id": "nic-5b-09",
@@ -650,8 +650,8 @@
         "zh": "木棒用来推掉甲面上的死皮组织、清理前缘下方，头上裹棉花还能涂产品。像握铅笔一样，以 20–30 度角拿着。"
       },
       "lockPoint": {
-        "en": "Milady also calls it an orangewood stick: the small wooden stick you see in nail salons.",
-        "zh": "Milady 也叫它 orangewood stick，就是中国美甲店常见的橙木棒。"
+        "en": "It pushes, it doesn't cut: the wooden pusher moves cuticle off the plate. Trimming dead skin is the nippers' job.",
+        "zh": "它是推，不是剪：木棒（wooden pusher）把死皮（cuticle）从甲面推掉。剪掉死皮是死皮剪（nippers）的活。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -666,6 +666,12 @@
           "section": "Manicuring - Performing a Basic Manicure",
           "pdfPage": 204,
           "printedPage": "180"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Pedicuring - Nail Rasp",
+          "pdfPage": 222,
+          "printedPage": "198"
         }
       ],
       "evidence": [
@@ -680,9 +686,13 @@
         {
           "pdfPage": 204,
           "quote": "with a cotton-tipped orangewood stick"
+        },
+        {
+          "pdfPage": 222,
+          "quote": "Fingernail nippers are generally used to remove dead skin."
         }
       ],
-      "hookType": "real-life"
+      "hookType": "contrast"
     },
     {
       "id": "nic-5b-11",
@@ -858,8 +868,8 @@
         "zh": "顾客洗手时用指甲刷刷指甲前缘下方；服务中用它清除表面碎屑和粉尘；消毒前也用它把工具刷干净。"
       },
       "lockPoint": {
-        "en": "Mouthwash without brushing doesn't work properly. Disinfectant without scrubbing doesn't either.",
-        "zh": "不刷牙只用漱口水效果不好；不刷洗就消毒，效果也不好。"
+        "en": "Stiff bristles reach into the small cracks and joints of an implement. Dirt hides there from disinfectant.",
+        "zh": "硬硬的刷毛能伸进工具（implement）的小缝和关节处。脏东西就藏在那里，消毒液碰不到。"
       },
       "teachingRelation": "list",
       "authorityRefs": [
@@ -898,9 +908,13 @@
         {
           "pdfPage": 611,
           "quote": "like using mouthwash without brushing your teeth"
+        },
+        {
+          "pdfPage": 611,
+          "quote": "using a clean and disinfected brush to scrub any grooved or hinged portions of the item"
         }
       ],
-      "hookType": "comparison"
+      "hookType": "picture"
     },
     {
       "id": "nic-5b-14",
@@ -1320,8 +1334,8 @@
         "zh": "用力过大或用低目数锉条抛太久，会产生灼痛的热，可能导致甲剥离（onycholysis）。要减轻力度、放慢速度，每次抛光之间把抛光条抬起来。"
       },
       "lockPoint": {
-        "en": "Rub your palms together fast and they get hot. Friction makes heat, and the nail bed feels it.",
-        "zh": "双手快速对搓会发热。摩擦生热，甲床（nail bed）都感觉得到。"
+        "en": "Rub a fingertip hard and fast on your arm: it burns. Lighter and slower: no burn. Same on the nail.",
+        "zh": "用指尖在手臂上又重又快地搓：会烫。轻一点、慢一点：就不烫了。指甲上也一样。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -1342,7 +1356,7 @@
           "quote": "can generate excessive and painful heat into the nail bed and can lead to onycholysis"
         }
       ],
-      "hookType": "real-life"
+      "hookType": "body-cue"
     }
   ],
   "review": {

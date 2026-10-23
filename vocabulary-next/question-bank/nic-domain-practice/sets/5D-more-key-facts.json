@@ -159,8 +159,8 @@
         "zh": "火圈（rings of fire）是割进指甲里的红色痕迹。磨头角度不对（常发生在甲小皮附近）时，磨头前缘会挖进指甲。"
       },
       "lockPoint": {
-        "en": "Tilted bit → front edge digs in → red ring on the nail, and the client feels burning.",
-        "zh": "磨头倾斜 → 前缘挖进去 → 指甲上留下红圈，顾客还会有灼痛感。"
+        "en": "The bit tilts, and its front edge digs in. That makes a red ring, and the client feels burning.",
+        "zh": "磨头一倾斜，前缘就会挖进去。这会在指甲上留下红圈，顾客还会有灼痛感。"
       },
       "teachingRelation": "cause-effect",
       "authorityRefs": [
@@ -229,8 +229,8 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Higher speeds let you use less pressure. If you feel the need to press down on the bit, increase the speed instead, and reduce your overall pressure.",
-        "zh": "转速越高，需要的压力越小。如果你觉得需要往下压磨头，就改为调高转速，并减少整体用力。"
+        "en": "Higher speeds let you use less pressure. If you want to press down on the bit, increase the speed instead, and press more lightly.",
+        "zh": "转速越高，需要的压力越小。如果你想往下压磨头，就改为调高转速，并且下手轻一点。"
       },
       "lockPoint": {
         "en": "Let the speed do the work, not your hand. And keep the bit parallel to the nail.",

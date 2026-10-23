@@ -8,8 +8,8 @@ A. The position stop / 定位点（position stop）
 B. The smile line / 微笑线（smile line）  
 C. The well / 凹槽（well） ✅  
 D. The stress area / 受力区（stress area）  
-*Why:* The well is a shallow depression in the tip. Adhesive goes into it, and it is the part that touches the nail plate.  
-*为什么:* well（凹槽）是甲片上的浅凹陷。甲片胶涂在这里，它就是贴在甲面上的那部分。  
+*Why:* Adhesive goes into the well, and then the well is set onto the natural nail, so it touches the nail plate. The position stop is only where the free edge stops inside the well.  
+*为什么:* 甲片胶涂进凹槽（well），再把凹槽贴到真甲上，所以凹槽就是接触甲面的部分。定位点（position stop）只是凹槽里真甲游离缘（free edge）停住的那个位置。  
 *Lock this (word-link):* A water well is a hole in the ground. A tip's well is a shallow hollow on the nail.  
 *记重点:* well 也是“水井”的意思：地上的一个坑。甲片的 well 就是贴在真甲上的那个浅坑。  
 *Source:* Milady Standard Nail Technology p.256 (PDF 280)
@@ -70,8 +70,8 @@ C. past the sidewalls onto the skin. / 超出侧壁，盖到皮肤上。
 D. with a small gap at each side. / 两侧各留一点空隙。  
 *Why:* The tip should cover the nail exactly from sidewall to sidewall and rest there without pressure. A tip too narrow leaves uneven sides and later cracks; forcing one on can make it pop off.  
 *为什么:* 甲片应该从一侧侧壁到另一侧侧壁刚好盖满，不用按压就能放稳。太窄的甲片两侧会不平，之后会裂开；硬压上去还可能弹掉。  
-*Lock this (reason-chain):* Between sizes? Use the larger tip and file it: width can be filed away, never added back.  
-*记重点:* 介于两个尺寸之间？选大的再锉合适：宽度可以锉掉，却补不回来。  
+*Lock this (picture):* Like wall-to-wall carpet: the tip covers sidewall to sidewall, with no gaps and nothing on the skin.  
+*记重点:* 就像满铺地毯（wall-to-wall carpet）：甲片从一侧侧壁盖到另一侧侧壁（sidewall to sidewall），两边不留缝，也不盖到皮肤上。  
 *Source:* Milady Standard Nail Technology p.256 (PDF 280), Milady Standard Nail Technology p.257 (PDF 281)
 
 **7. After pressing a tip onto the nail, hold it in place for**  
@@ -178,9 +178,9 @@ C. benzoyl peroxide. / 过氧化苯甲酰（BPO）。
 D. butyl acetate. / 乙酸丁酯（butyl acetate）。  
 *Why:* Nail resin is cyanoacrylate, a fast-acting adhesive. Very thin versions are called nail glue or tip adhesive; thicker ones are called building resin.  
 *为什么:* nail resin（甲用树脂）就是 cyanoacrylate（氰基丙烯酸酯），一种快干强力胶。很稀的叫甲片胶（nail glue / tip adhesive），较稠的叫 building resin（建构树脂）。  
-*Lock this (real-life):* Super glue is a cyanoacrylate too. That is why even a tiny drop in the eye is dangerous.  
-*记重点:* 强力胶（super glue）也是氰基丙烯酸酯，所以哪怕一小滴溅进眼睛也很危险。  
-*Source:* Milady Standard Nail Technology p.282 (PDF 306), Milady Standard Nail Technology p.257 (PDF 281)
+*Lock this (real-life):* If it glues a tip or holds a wrap, it is a cyanoacrylate: the salon's glue family.  
+*记重点:* 只要是用来粘甲片或固定包甲的，就是氰基丙烯酸酯（cyanoacrylate）：沙龙里的“胶水家族”。  
+*Source:* Milady Standard Nail Technology p.282 (PDF 306), Milady Standard Nail Technology p.257 (PDF 281), Milady Standard Nail Technology p.322 (PDF 346)
 
 **16. What product speeds up the drying of nail resin?**  
 什么产品能加快甲用树脂变干？  
@@ -188,11 +188,11 @@ A. Nail dehydrator / 脱水剂（nail dehydrator）
 B. Nail primer / 结合剂（nail primer）  
 C. Nail cleanser / 甲面清洁剂（nail cleanser）  
 D. Resin accelerator / 树脂加速剂（resin accelerator） ✅  
-*Why:* A resin accelerator, also called an activator, speeds up resin dry time. It comes as a brush-on, pump spray, or aerosol.  
-*为什么:* resin accelerator（树脂加速剂），也叫 activator（激活剂），能加快树脂变干，有刷涂、喷泵和气雾三种形式。  
+*Why:* A resin accelerator, also called an activator, speeds up resin dry time. The other three are nail-prep products: a dehydrator and a cleanser remove moisture and oil, and a primer helps product stick.  
+*为什么:* resin accelerator（树脂加速剂），也叫 activator（激活剂），能加快树脂变干。另外三个都是做甲前处理的产品：脱水剂（nail dehydrator）和甲面清洁剂（nail cleanser）去除水分和油分，结合剂（nail primer）帮助产品附着。  
 *Lock this (word-link):* A car's gas pedal is also called the accelerator: press it and the car goes faster.  
 *记重点:* 汽车的油门英文也叫 accelerator：一踩，车就跑得更快。  
-*Source:* Milady Standard Nail Technology p.282 (PDF 306)
+*Source:* Milady Standard Nail Technology p.282 (PDF 306), Milady Standard Nail Technology p.119 (PDF 143), Milady Standard Nail Technology p.255 (PDF 279), Milady Standard Nail Technology p.117 (PDF 141)
 
 **17. A stress strip is placed across the line where the**  
 加固条（stress strip）横贴在哪两者交界的线上？  

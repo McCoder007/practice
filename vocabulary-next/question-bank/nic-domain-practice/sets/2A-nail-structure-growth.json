@@ -48,8 +48,8 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Onyx is the technical term for the natural nail, the hard plate that protects the tips of the fingers and toes.",
-        "zh": "onyx（甲）是 natural nail（天然指甲）的专业名称，指保护手指和脚趾末端的坚硬甲板。"
+        "en": "Onyx means the nail plate itself, the hard plate that protects the fingertip. The other choices are other parts of the nail unit: the lunula and matrix at the base, the hyponychium under the tip.",
+        "zh": "onyx（甲）指的就是甲板本身，也就是保护指尖的那块坚硬甲板。其他选项只是指甲单元（nail unit）里的其他部分：lunula（甲半月）和 matrix（甲母质）在指甲根部，hyponychium（甲下皮）在指甲尖下面。"
       },
       "lockPoint": {
         "en": "Onyx = the nail itself. Onycho- at the start of a word also means nail, as in onycholysis.",
@@ -62,12 +62,40 @@
           "section": "Nail Structure - Define the Natural Nail Unit",
           "pdfPage": 122,
           "printedPage": "98"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Structure - Nail Bed",
+          "pdfPage": 124,
+          "printedPage": "100"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Structure - Hyponychium",
+          "pdfPage": 126,
+          "printedPage": "102"
         }
       ],
       "evidence": [
         {
           "pdfPage": 122,
           "quote": "The natural nail itself is technically referred to as the onyx"
+        },
+        {
+          "pdfPage": 122,
+          "quote": "including the nail bed, matrix, nail plate, cuticle, eponychium, hyponychium"
+        },
+        {
+          "pdfPage": 124,
+          "quote": "It is the whitish, half-moon shape underneath the base of the nail plate."
+        },
+        {
+          "pdfPage": 124,
+          "quote": "extends from under the nail fold at the base of the nail plate"
+        },
+        {
+          "pdfPage": 126,
+          "quote": "lies between the fingertip and the free edge of the nail plate"
         }
       ],
       "hookType": "word-parts"
@@ -160,8 +188,8 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "The matrix is the area where nail plate cells are formed. As long as it stays healthy and nourished, it keeps making new nail plate cells.",
-        "zh": "matrix（甲母质）是生成甲板细胞的部位。只要它保持健康、营养充足，就会不断制造新的甲板细胞。"
+        "en": "The matrix sits under the skin at the nail base. Its cells keep making new cells, and those cells become the nail plate. The hyponychium and free edge are out at the tip.",
+        "zh": "matrix（甲母质）在指甲根部的皮肤下面。它的细胞不停地制造新细胞，这些新细胞就变成甲板。hyponychium（甲下皮）和游离缘（free edge）都在指甲尖那一头。"
       },
       "lockPoint": {
         "en": "The matrix is like the nail's mother: new nail cells are born here. The nail bed only holds the plate.",
@@ -174,6 +202,12 @@
           "section": "Nail Structure - Matrix",
           "pdfPage": 124,
           "printedPage": "100"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Structure - Hyponychium",
+          "pdfPage": 126,
+          "printedPage": "102"
         }
       ],
       "evidence": [
@@ -184,6 +218,18 @@
         {
           "pdfPage": 124,
           "quote": "the matrix will continue to create new nail plate cells"
+        },
+        {
+          "pdfPage": 124,
+          "quote": "extends from under the nail fold at the base of the nail plate"
+        },
+        {
+          "pdfPage": 124,
+          "quote": "It is composed of matrix cells that produce other cells that become the nail plate."
+        },
+        {
+          "pdfPage": 126,
+          "quote": "lies between the fingertip and the free edge of the nail plate"
         }
       ],
       "hookType": "chinese-character"
@@ -338,8 +384,8 @@
         "zh": "eponychium（甲上皮）是近端甲襞（proximal nail fold）底面的活皮肤，甲小皮就是它生成的。甲小皮是死的，甲上皮是活的。"
       },
       "lockPoint": {
-        "en": "Epi- = on top: the eponychium sits on the nail base. The matrix makes the plate, not the cuticle.",
-        "zh": "epi- = 在上面：eponychium（甲上皮）盖在指甲根部上面。matrix（甲母质）造的是甲板，不是甲小皮。"
+        "en": "A snake leaves its old skin behind. The living eponychium leaves dead cuticle on the plate the same way.",
+        "zh": "蛇蜕皮时，会把旧皮留在身后。活的 eponychium（甲上皮）也是这样，把死的 cuticle（甲小皮）留在甲板上。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -354,9 +400,13 @@
         {
           "pdfPage": 125,
           "quote": "the eponychium is the underside of the proximal nail fold and is the living tissue that makes the cuticle"
+        },
+        {
+          "pdfPage": 125,
+          "quote": "completely detaches from the eponychium and becomes strongly attached to the new growth of nail plate"
         }
       ],
-      "hookType": "word-parts"
+      "hookType": "picture"
     },
     {
       "id": "nic-2a-07",
@@ -740,8 +790,8 @@
         "zh": "儿童的指甲长得更快，老年人的指甲长得更慢。此外，指甲夏天比冬天长得快。"
       },
       "lockPoint": {
-        "en": "With age, parts of the matrix slow down forever. Older nails then get grooves from base to tip.",
-        "zh": "年纪越大，甲母质有些部位会永久减慢生长；所以老年人的指甲会出现从根部到指尖的纵向凹槽。"
+        "en": "Kids grow fast: they get taller every year, and their nails grow fast too. With age, the matrix slows down.",
+        "zh": "小孩长得快：每年都在长高，指甲也长得快。年纪大了，matrix（甲母质）就慢下来了。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -772,7 +822,7 @@
           "quote": "As a normal part of the aging process, parts of the nail matrix begin to permanently slow down production"
         }
       ],
-      "hookType": "reason-chain"
+      "hookType": "real-life"
     },
     {
       "id": "nic-2a-14",
@@ -876,8 +926,8 @@
         "zh": "正常成人的甲板每月大约长 1/10 至 1/8 英寸（2.5 至 3 毫米）。"
       },
       "lockPoint": {
-        "en": "Three millimeters a month is about the thickness of two stacked U.S. pennies.",
-        "zh": "每月约 3 毫米，差不多是两枚叠在一起的美国一分硬币那么厚。"
+        "en": "On a ruler, cut one inch into 8 equal parts. A nail grows about one part each month.",
+        "zh": "在尺子上，把 1 英寸平均分成 8 小格。指甲每个月大约长 1 小格。"
       },
       "teachingRelation": "number",
       "authorityRefs": [
@@ -1168,8 +1218,8 @@
         "zh": "健康的指甲看起来干硬，但含水量在 15% 至 25% 之间。含水量越低，指甲越僵硬。"
       },
       "lockPoint": {
-        "en": "Oil or polish on the plate slows water loss, so the nail stays flexible.",
-        "zh": "在甲板上涂护甲油或指甲油，可以减少水分流失，让指甲保持柔韧。"
+        "en": "Like a good tip: 15 to 25 percent of the bill. A healthy nail is about that much water.",
+        "zh": "就像给小费（tip）：一般是账单的 15% 到 25%。健康指甲里的水分也差不多是这么多。"
       },
       "teachingRelation": "number",
       "authorityRefs": [

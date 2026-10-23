@@ -22,8 +22,8 @@ C. They make skin look more golden. / 让皮肤看起来更偏金黄。
 D. They give off cooler light. / 发出的光比较凉。 ✅  
 *Why:* Fluorescent bulbs emit cooler light and do not heat objects under the lamp. Heat from a high-watt incandescent bulb can make some enhancement products cure too fast, causing cracking and lifting.  
 *为什么:* 荧光灯光线较凉，不会烤热灯下的东西。高瓦数白炽灯（incandescent bulb）的热量会让某些加固产品固化太快，导致开裂和翘起（lifting）。  
-*Lock this (real-life):* Touch a lit incandescent bulb and it burns; a fluorescent one is only warm. Less heat on curing product.  
-*记重点:* 点亮的白炽灯泡一摸就烫手；荧光灯只是微温，照到正在固化的产品上的热量少得多。  
+*Lock this (real-life):* A regular bulb can burn your finger. A fluorescent one stays much cooler. It puts less heat on curing product.  
+*记重点:* 普通灯泡可能烫伤手指。荧光灯（fluorescent bulb）凉得多。照到正在固化的产品上的热量也少得多。  
 *Source:* Milady Standard Nail Technology p.137 (PDF 161), Milady Standard Nail Technology p.138 (PDF 162)
 
 **3. Which chair at the manicure table should have wheels?**  
@@ -44,11 +44,11 @@ A. cleaned and disinfected. / 清洁并消毒。 ✅
 B. rinsed and refilled only. / 只冲一冲再加水。  
 C. thrown away. / 扔掉。  
 D. stored with the water in it. / 连水一起收起来。  
-*Why:* A finger bowl holds warm water to soften the skin and cuticle. Plastic, metal, glass, or ceramic all work, but it must be durable and easy to clean and disinfect after each client.  
-*为什么:* 泡手碗盛温水，用来软化皮肤和死皮（cuticle）。塑料、金属、玻璃或陶瓷都可以，但必须耐用，并且每位顾客用后容易清洁和消毒。  
+*Why:* A finger bowl is used on client after client, so it is a multiuse item, not thrown away. Multiuse items must be cleaned and disinfected, not just rinsed, before the next client.  
+*为什么:* 泡手碗（finger bowl）一位接一位顾客重复使用，所以它是可重复使用的（multiuse）物品，不是用完就丢。可重复使用的物品在下一位顾客之前必须清洁并消毒，不能只冲一冲。  
 *Lock this (picture):* Warm, wet, and touched by skin: the perfect place for germs. Disinfect before the next hands go in.  
 *记重点:* 温暖、潮湿、又碰过皮肤：正是病菌最爱的地方。下一双手放进去之前必须消毒。  
-*Source:* Milady Standard Nail Technology p.138 (PDF 162), Milady Standard Foundations p.106 (PDF 601)
+*Source:* Milady Standard Nail Technology p.138 (PDF 162), Milady Standard Foundations p.106 (PDF 601), Milady Standard Foundations p.118 (PDF 613)
 
 **5. A disinfection container must be large enough to**  
 消毒缸（disinfection container）必须大到能怎样？  
@@ -92,8 +92,8 @@ A. Keeps the wax at the ideal temperature / 让蜡保持在合适的温度 ✅
 B. Sterilizes used wax for reuse / 给用过的蜡灭菌以便再用  
 C. Cools the client's skin after use / 用完后给顾客皮肤降温  
 D. Measures the client's body temperature / 测量顾客的体温  
-*Why:* The thermostat keeps paraffin at the ideal temperature for hands and feet. Never dip the client directly into the tub; scoop wax into a bag. Used paraffin is thrown away.  
-*为什么:* 恒温器让石蜡保持在适合手脚的温度。不要把顾客的手脚直接浸进蜡锅；要把蜡舀进袋子里用。用过的蜡要丢弃。  
+*Why:* The automatic thermostat turns the heat up or down by itself, so the wax stays at the ideal temperature for hands and feet. It does not clean wax: used paraffin is thrown away.  
+*为什么:* 自动恒温器（thermostat）会自己调高或调低热度，让蜡一直保持在适合手脚的理想温度。它不会清洁蜡：用过的石蜡（paraffin）要丢掉。  
 *Lock this (word-parts):* Thermo = heat, stat = stay still. A thermostat keeps the heat at one level.  
 *记重点:* thermo = 热，stat = 停住不动。恒温器让温度停在一个水平；恒温的“恒”就是一直不变。  
 *Source:* Milady Standard Nail Technology p.140 (PDF 164), Milady Standard Nail Technology p.141 (PDF 165)
@@ -142,8 +142,8 @@ C. Loosely, with just the fingertips / 只用指尖松松地捏着
 D. Pointed straight down at the nail / 垂直朝下对着指甲  
 *Why:* Hold the handpiece like a pencil, with a firm, steady grip that is not so tight your hands cramp. Rest your forearms on the table and brace with a pinky as the fulcrum.  
 *为什么:* 像握铅笔一样握手柄，握得稳但不要太紧，否则手会抽筋。前臂放在桌上，用小指当支点（fulcrum）稳住双手。  
-*Lock this (body-cue):* Touch the tip of one pinky to the other pinky's tip. That fulcrum makes both hands work as one, steady.  
-*记重点:* 把一只手的小指指尖顶住另一只手的小指指尖：这就是支点（fulcrum），让两只手和打磨机连成一体，更稳。  
+*Lock this (body-cue):* Squeeze a pen hard: your hand hurts. Too loose: your writing wobbles. Firm and steady is in between.  
+*记重点:* 握笔太用力，手会痛；握太松，字会歪。握得稳稳的、不松也不紧，刚好在中间。  
 *Source:* Milady Standard Nail Technology p.238 (PDF 262), Milady Standard Nail Technology p.249 (PDF 273)
 
 **13. In a micromotor electric file, where is the motor?**  

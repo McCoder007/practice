@@ -22,8 +22,8 @@ C. release form. / 免责声明表（release form）。
 D. product purchase record. / 产品购买记录（product purchase record）。  
 *Why:* Every new client fills out an intake form, also called a client questionnaire, consultation card, or health history form. It lists medications, medical issues, and allergies that might affect services.  
 *为什么:* 每位新顾客都要填写 intake form（登记表），也叫顾客问卷、咨询卡（consultation card）或健康史表。表上列出可能影响服务的药物、疾病和过敏情况。  
-*Lock this (word-parts):* Intake = what you take in at the start: the client's facts before any service.  
-*记重点:* intake = “收进来”：服务开始前，先把顾客的资料收集进来。  
+*Lock this (reason-chain):* It asks about medicines, allergies, and medical problems: the client's health history. That's its other name.  
+*记重点:* 这张表问的是用药、过敏和疾病情况，也就是顾客的健康史（health history）。所以它又叫健康史表（health history form）。  
 *Source:* Milady Standard Foundations p.50 (PDF 545), Milady Standard Foundations p.51 (PDF 546)
 
 **3. Who fills out the service record card?**  
@@ -142,8 +142,8 @@ C. severe, uncontrolled hypertension. / 严重且未控制的高血压（hyperte
 D. dry skin on the hands. / 手部皮肤干燥。  
 *Why:* Clients with high blood pressure, diabetes, or circulation problems can often have massage if stabilized and under a doctor's care. Severe, uncontrolled hypertension is a contraindication.  
 *为什么:* 高血压、糖尿病或循环问题的顾客，如果病情稳定并有医生治疗，通常仍可按摩。严重且未控制的高血压则是禁忌症（contraindication）。  
-*Lock this (word-parts):* Hyper = over, as in hyperactive. Tension here means pressure: hypertension = blood pressure too high.  
-*记重点:* hyper = 过度（hyperactive 过度活跃），tension 在这里指压力：hypertension 就是血压过高。  
+*Lock this (word-parts):* Un- = not, as in unsafe. Uncontrolled = not under control. That kind of high blood pressure means no massage.  
+*记重点:* un- = “不”，就像 unsafe（不安全）。uncontrolled = 没有控制住。没控制住的高血压（hypertension）就不能按摩。  
 *Source:* Milady Standard Nail Technology p.161 (PDF 185)
 
 **13. For a client with thin skin or poor clotting, you should avoid**  
@@ -154,8 +154,8 @@ C. removing dead tissue with a curette. / 用刮匙（curette）去除死组织�
 D. using gentle massage pressure. / 按摩时用轻柔的力度。  
 *Why:* For these clients a small nick can quickly need medical care. Do not use sharp tools or nip cuticles. Use a curette to gently remove nonliving tissue and a fine-grit abrasive.  
 *为什么:* 对这类顾客来说，一个小破口就可能需要就医。不要用锋利工具，也不要剪死皮。改用刮匙轻轻去除死组织，并用细砂锉。  
-*Lock this (picture):* Thin skin is like wet paper: one small snip tears it, and the cut may not stop bleeding.  
-*记重点:* 薄皮肤像湿纸：轻轻一剪就破，而且凝血差，出血可能止不住。所以别剪死皮。  
+*Lock this (picture):* Like a ripe tomato: its thin skin splits at one small cut. Keep nippers and sharp tools away.  
+*记重点:* 就像熟透的番茄：薄薄的皮轻轻一划就破。所以别用死皮剪（nippers）和其他锋利工具。  
 *Source:* Milady Standard Nail Technology p.170 (PDF 194)
 
 **14. Why look closely at the nails right after removing old polish?**  
@@ -214,8 +214,8 @@ C. After every pedicure / 每次修脚后
 D. Only when hand washing isn't possible / 只有在无法洗手时 ✅  
 *Why:* Sanitizers do not replace proper hand washing. Use them only when water is not available. They don't work on visibly dirty hands, and their alcohol dries the skin.  
 *为什么:* 免洗洗手液不能代替正确洗手，只有在没有水时才用。手上有明显污垢时它不起作用，里面的酒精还会让皮肤变干。  
-*Lock this (reason-chain):* Too much alcohol → dry, cracked skin → openings that let germs in.  
-*记重点:* 酒精用多了 → 皮肤干裂 → 裂口让病菌趁虚而入。  
+*Lock this (comparison):* Sanitizer is like a spare tire: use it only when the real one, soap and water, can't be used.  
+*记重点:* 免洗洗手液就像备用轮胎：只有在真正的“轮胎”——用肥皂和清水洗手——用不了的时候才用。  
 *Source:* Milady Standard Nail Technology p.156 (PDF 180), Milady Standard Foundations p.117 (PDF 612)
 
 **19. Before a service, clean and disinfect the manicure table with**  

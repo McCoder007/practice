@@ -106,8 +106,8 @@ C. Peroneus brevis / 腓骨短肌（peroneus brevis）
 D. Abductor hallucis / 踇展肌（abductor hallucis）  
 *Why:* The extensor digitorum longus bends the foot up and extends the toes. The soleus and peroneus brevis bend the foot down; the abductor hallucis moves the big toe.  
 *为什么:* extensor digitorum longus（趾长伸肌）把脚往上勾并伸展脚趾。比目鱼肌和腓骨短肌把脚往下压；踇展肌活动大脚趾。  
-*Lock this (word-parts):* Read the name: extensor = straightens, digitorum = of the digits (toes), longus = long.  
-*记重点:* 看名字就懂：extensor = 伸，digitorum = 趾，longus = 长。中文“趾长伸肌”正好一一对应。  
+*Lock this (body-cue):* Extensors straighten. Pull your toes up toward your leg: toes straighten, foot bends up. Extensor digitorum longus does both.  
+*记重点:* 伸肌（extensor）负责“伸直”。把脚趾往小腿方向勾起来：脚趾伸直，脚也往上勾。趾长伸肌（extensor digitorum longus）这两件事都做。  
 *Source:* Milady Standard Nail Technology p.32 (PDF 56), Milady Standard Nail Technology p.33 (PDF 57)
 
 **10. Which foot bone forms the ankle joint with the tibia and fibula?**  
@@ -226,9 +226,9 @@ C. Pulmonary artery / 肺动脉（pulmonary artery）
 D. Dorsalis pedis artery / 足背动脉（dorsalis pedis artery） ✅  
 *Why:* The dorsalis pedis artery supplies the foot with blood. It continues from the anterior tibial artery, which runs down the lower leg.  
 *为什么:* dorsalis pedis artery（足背动脉）为足部供血，它由沿小腿下行的胫前动脉（anterior tibial artery）延续而来。  
-*Lock this (word-parts):* Pedis = foot, as in pedicure. Dorsalis = the top of the foot, where this artery runs.  
-*记重点:* pedis = 足（pedicure 足部护理），dorsalis = 脚背。这条动脉沿着脚背走。  
-*Source:* Milady Standard Nail Technology p.41 (PDF 65)
+*Lock this (chinese-character):* The Chinese name means "top of the foot." Radial and ulnar arteries go to the arm and hand.  
+*记重点:* 看中文名：足背动脉的“足背”就是脚背。radial artery（桡动脉）和 ulnar artery（尺动脉）供应的是手臂和手。  
+*Source:* Milady Standard Nail Technology p.41 (PDF 65), Milady Standard Nail Technology p.40 (PDF 64)
 
 **20. Which muscle attaches to the back of the heel and pulls the foot down?**  
 哪块肌肉附着在脚跟后方、把脚往下拉？  

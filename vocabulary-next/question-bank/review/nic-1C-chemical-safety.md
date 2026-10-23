@@ -10,8 +10,8 @@ C. 16 / 16 个 ✅
 D. 18 / 18 个  
 *Why:* Every SDS uses the same 16 sections in the same order. In 2015, the SDS replaced the older Material Safety Data Sheet (MSDS).  
 *为什么:* 每份 SDS（安全数据表）都用同样的 16 个部分、同样的顺序。2015 年，SDS 取代了旧的 MSDS（材料安全数据表）。  
-*Lock this (real-life):* Same order on every SDS from every maker: first aid is always Section 4.  
-*记重点:* 不管哪家厂商，SDS 的顺序都一样：急救措施永远在第 4 部分。  
+*Lock this (contrast):* 16 sections, but only 9 warning pictures. Don't mix them up: the sections are the bigger number.  
+*记重点:* SDS 有 16 个部分（sections），但只有 9 种警示图标（pictograms）。别搞混：部分的数字比较大。  
 *Source:* Milady Standard Foundations p.174 (PDF 669), Milady Standard Foundations p.173 (PDF 668)
 
 **2. Where should a salon keep its SDSs?**  
@@ -94,9 +94,9 @@ C. 200°F / 华氏 200 度
 D. 300°F / 华氏 300 度  
 *Why:* Flammable liquids ignite more easily than combustible ones. A flammable liquid’s flash point is below 100°F; a combustible liquid’s is between 100°F and 200°F.  
 *为什么:* flammable（易燃）液体比 combustible（可燃）液体更容易着火。易燃液体闪点低于 100°F；可燃液体闪点在 100°F 到 200°F 之间。  
-*Lock this (name-trap):* Name trap: inflammable means flammable too. The “in” here does not mean “not.”  
-*记重点:* 名字陷阱：inflammable 也是“易燃”。这里的 in 不是“不”的意思。  
-*Source:* Milady Standard Foundations p.176 (PDF 671)
+*Lock this (body-cue):* Your body is about 98.6°F, close to 100. Flammable: under 100. Combustible: 100 to 200.  
+*记重点:* 人的体温大约 98.6°F，接近 100°F。flammable（易燃）液体：闪点低于 100°F；combustible（可燃）液体：100 到 200°F。  
+*Source:* Milady Standard Foundations p.176 (PDF 671), Milady Standard Nail Technology p.69 (PDF 93)
 
 **9. A concentrate mixed into a spray bottle must be labeled with**  
 浓缩液兑好装进喷瓶后，瓶上必须标明：  
@@ -154,8 +154,8 @@ C. polymerization. / 聚合。
 D. sterilization. / 灭菌。  
 *Why:* Sensitization is a greatly increased or exaggerated allergic sensitivity to products. With each skin exposure during a service, the risk of sensitization rises.  
 *为什么:* sensitization（致敏）是对产品的过敏反应大大增强。服务中皮肤每接触一次，致敏风险就更高一些。  
-*Lock this (reason-chain):* Once allergic, the same technique only makes it worse. Stop using the product and find the cause.  
-*记重点:* 一旦过敏，继续用同样的方法只会越来越糟。先停用这个产品，找出原因。  
+*Lock this (word-link):* Sensitization comes from "sensitive": the skin becomes much too sensitive to a product.  
+*记重点:* sensitization（致敏）来自 sensitive（敏感）：皮肤对某个产品变得过分敏感。“致敏”= 导致过敏。  
 *Source:* Milady Standard Nail Technology p.94 (PDF 118), Milady Standard Nail Technology p.88 (PDF 112), Milady Standard Nail Technology p.89 (PDF 113)
 
 **14. Which best removes vapors and dust at a nail table?**  
@@ -178,8 +178,8 @@ C. hold it far from your body. / 让箱子离身体远一点。
 D. bend at the knees, not the back. / 弯膝盖，不要弯腰。 ✅  
 *Why:* Keep your feet shoulder-width apart, bend at the knees, keep the load close, and lift with your legs. Do not twist or make fast, jerky moves.  
 *为什么:* 双脚与肩同宽，弯曲膝盖，让重物贴近身体，用腿部发力抬起。不要扭身，也不要猛地发力。  
-*Lock this (reason-chain):* The farther a load is from your body, the harder your back works. Never reach past 18 inches.  
-*记重点:* 东西离身体越远，腰背越吃力。伸手不要超过 18 英寸（约 45 厘米）。  
+*Lock this (body-cue):* Bend your knees to pick up a box: feel your thighs work. Your legs lift. Your back stays straight.  
+*记重点:* 弯膝盖去搬一个箱子：你会感觉到大腿在用力。用腿抬。背保持挺直。  
 *Source:* Milady Standard Foundations p.89 (PDF 584)
 
 **16. After removing your gloves, how can you help prevent skin problems?**  
@@ -238,6 +238,6 @@ C. Where they are readily accessible / 随手就能拿到的地方 ✅
 D. Out of sight in the basement / 地下室看不到的地方  
 *Why:* Place fire extinguishers where they are easy to reach, teach every employee to use them, and have them checked periodically, as the law requires.  
 *为什么:* 灭火器要放在容易拿到的地方，每个员工都要学会使用，还要按法律规定定期检查。  
-*Lock this (real-life):* Not every extinguisher suits every fire: SDS Section 5, Fire-Fighting Measures, lists the right ones.  
-*记重点:* 不是每种灭火器都适合每种火：SDS 第 5 部分 Fire-Fighting Measures（消防措施）会列出该用哪种。  
+*Lock this (real-life):* In a fire, every second counts. If you must unlock a door or move boxes first, it's too far.  
+*记重点:* 着火时，每一秒都很重要。如果还得先开锁、先搬箱子才拿得到灭火器，它就放得太远了。灭火器要放在随手拿得到（readily accessible）的地方。  
 *Source:* Milady Standard Foundations p.131 (PDF 626), Milady Standard Foundations p.174 (PDF 669)

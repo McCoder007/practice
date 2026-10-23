@@ -32,9 +32,9 @@ A. Soak it off, then apply a new tip / 泡掉它，再贴一片新的 ✅
 B. Pry it off with a pusher / 用推棒把它撬下来  
 C. Leave it; the overlay will hide it / 不管它，加固层会盖住  
 D. File it straight with a coarse file / 用粗锉条把它锉正  
-*Why:* Milady: soak the nail in acetone for 5 to 10 minutes, slide the soft tip off, and reapply. Prying it off can damage the nail plate.  
-*为什么:* Milady 的做法：把指甲泡在丙酮（acetone）里 5 到 10 分钟，把变软的甲片推下来，再重新贴。硬撬会损伤甲面。  
-*Lock this (real-life):* Like a shirt buttoned wrong: you don't pull harder; you undo it and start again.  
+*Why:* Milady: soak the nail in acetone for 5 to 10 minutes, slide the soft tip off, and reapply. Prying it off (forcing it up) can damage the nail plate.  
+*为什么:* Milady 的做法：把指甲泡在丙酮（acetone）里 5 到 10 分钟，把变软的甲片滑下来，再重新贴。硬撬（prying，用力撬起来）会伤到甲板。  
+*Lock this (real-life):* Like a shirt buttoned wrong: you don't pull harder. You undo it and start again.  
 *记重点:* 就像衬衫扣错了扣子：不是更用力地拉，而是解开重新扣。  
 *Source:* Milady Standard Nail Technology p.268 (PDF 292), Milady Standard Nail Technology p.273 (PDF 297), Milady Standard Nail Technology p.274 (PDF 298)
 
@@ -44,10 +44,10 @@ A. Clip it off with nippers / 用死皮剪剪掉
 B. Pry it up with a pusher / 用推棒撬起来  
 C. Peel it off with tweezers / 用镊子撕掉  
 D. Slide it off with a wooden pusher / 用木棒（wooden pusher）把它推下来 ✅  
-*Why:* Wraps and dips are both resin systems, removed the same way. Soak in acetone or product remover, then gently slide the soft product off. Prying can damage the nail.  
-*为什么:* 包甲和浸粉都属于树脂系统（nail resin systems），卸法一样：泡在丙酮或卸甲液里，再把变软的产品轻轻推下来。硬撬会伤到指甲。  
+*Why:* Wraps and dips are both resin systems, removed the same way. Soak in acetone or product remover, then gently slide the soft product off. Prying (forcing it up) can damage the nail.  
+*为什么:* 包甲（wrap）和浸粉（dip）都是树脂系统，卸除方法一样。泡在丙酮或卸甲液里，再轻轻把变软的产品滑下来。硬撬（prying，用力撬起来）会伤到指甲。  
 *Lock this (contrast):* Softened product, gentle tool: a wooden pusher just slides it off. No cutting, no prying, no peeling.  
-*记重点:* 产品已经泡软，用温和的工具就行：木棒（wooden pusher）轻轻一推就下来。不剪、不撬、不撕。  
+*记重点:* 产品已经变软，就用温和的工具：木推棒轻轻一推就滑下来。不剪、不撬（prying）、不剥。  
 *Source:* Milady Standard Nail Technology p.314 (PDF 338), Milady Standard Nail Technology p.282 (PDF 306)
 
 **5. Compared with a thick nail resin, a thin resin**  
@@ -56,8 +56,8 @@ A. sticks less and cures slower. / 粘得较差，固化较慢。
 B. is used to build the apex. / 用来做甲峰。  
 C. sticks better and cures faster. / 粘得更好，固化更快。 ✅  
 D. always needs an accelerator to cure. / 一定要用加速剂才能固化。  
-*Why:* Viscosity means how thick the resin is. The thinner it is, the better it sticks and the faster it cures. Thin resin is a base; thick resin builds or is a topcoat.  
-*为什么:* viscosity（黏度）就是树脂的稠度。越稀，附着越好、固化越快。稀的树脂做底层；稠的树脂用来做结构或当封层。  
+*Why:* Viscosity means how thick the resin is. The thinner it is, the better it sticks and the faster it cures. Thin resin is a base. Thick resin is for building or a topcoat.  
+*为什么:* viscosity（黏度）就是树脂的稠度。越稀，附着越好、固化越快。稀的树脂做底层。稠的树脂用来做结构或当封层。  
 *Lock this (comparison):* Water vs. honey: water runs into tiny gaps fast. Thin resin acts like water: sticks better, cures faster.  
 *记重点:* 水和蜂蜜比：水很快就流进细小的缝隙。稀的树脂就像水：粘得更好，固化更快。  
 *Source:* Milady Standard Nail Technology p.282 (PDF 306)

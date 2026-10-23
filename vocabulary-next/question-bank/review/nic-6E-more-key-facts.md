@@ -20,8 +20,8 @@ A. From the free edge up to the knuckle / 从游离缘往上刷到指节
 B. Side to side across the nail / 在指甲上左右横刷  
 C. In small circles on the nail / 在指甲上小圈打转  
 D. From the knuckle down to the free edge / 从指节往下刷到游离缘（free edge） ✅  
-*Why:* Use a wet nail brush to remove debris from the fingertips. Use downward strokes, starting at the first knuckle and brushing toward the free edge.  
-*为什么:* 用湿的指甲刷（nail brush）刷掉指尖上的碎屑（debris）。向下刷，从第一个指节开始，朝游离缘（free edge）方向刷。  
+*Why:* Use a wet nail brush to clean dirt off the fingertips. Use downward strokes, starting at the first knuckle and brushing toward the free edge.  
+*为什么:* 用湿的指甲刷（nail brush）刷掉指尖上的脏东西。向下刷，从第一个指节开始，朝游离缘（free edge）方向刷。  
 *Lock this (comparison):* Same direction as wiping off old polish: toward the free edge.  
 *记重点:* 和擦掉旧甲油的方向一样：朝游离缘（free edge）。  
 *Source:* Milady Standard Nail Technology p.178 (PDF 202)
@@ -44,8 +44,8 @@ A. A chamois cannot shine natural nails / 麂皮不能给真甲抛光
 B. A chamois is only for enhancements / 麂皮只能用在加固甲上  
 C. A chamois gets contaminated with reuse / 麂皮重复使用会被污染 ✅  
 D. A chamois leaves deep scratches / 麂皮会留下很深的刮痕  
-*Why:* Milady says the two- or three-way buffer replaces the chamois, which becomes contaminated with multiple uses. The buffer still gives a beautiful, glossy shine.  
-*为什么:* Milady 说两面或三面抛光条取代了麂皮（chamois），因为麂皮多次使用后会被污染（contaminated）。抛光条一样能抛出漂亮的光泽。  
+*Why:* Milady says the two- or three-way buffer replaces the chamois. A chamois becomes contaminated after many uses. The buffer still gives a beautiful, glossy shine.  
+*为什么:* Milady 说两面或三面抛光条取代了麂皮（chamois）。麂皮用过很多次后会被污染（contaminated）。抛光条一样能抛出漂亮的光泽。  
 *Lock this (contrast):* Unlike a chamois, most three-way buffers are single-use: throw each one away after one client.  
 *记重点:* 和麂皮不同，大多数三面抛光条是一次性的：用完一位顾客就丢掉。  
 *Source:* Milady Standard Nail Technology p.147 (PDF 171), Milady Standard Nail Technology p.148 (PDF 172)
@@ -80,10 +80,10 @@ A. Rub it in with a buffer / 用抛光条把它磨进去
 B. Wipe it off with nail oil / 用指甲营养油（nail oil）擦掉  
 C. Leave it under the base coat / 留着，涂在底油下面  
 D. Cotton with alcohol, acetone, or remover / 用沾了酒精、丙酮或卸甲水的棉花 ✅  
-*Why:* Use a small piece of cotton soaked with alcohol, acetone, or polish remover. Clean under the free edge too, or the polish will not adhere well.  
-*为什么:* 用一小块沾了酒精、丙酮（acetone）或卸甲水的棉花擦。游离缘（free edge）下面也要擦干净，否则甲油附着不好。  
-*Lock this (picture):* Wipe as firmly as you would to take off a stubborn red polish.  
-*记重点:* 擦的时候要像卸掉很难擦的红色甲油那样用力彻底。  
+*Why:* Use a small piece of cotton soaked with alcohol, acetone, or polish remover. Clean under the free edge too, or the polish will not stick well.  
+*为什么:* 用一小块沾了酒精、丙酮（acetone）或卸甲水的棉花擦。游离缘（free edge）下面也要擦干净，否则甲油粘不牢。  
+*Lock this (picture):* Wipe firmly, like when you take off red polish that is hard to remove.  
+*记重点:* 擦的时候要用力，就像卸掉很难擦的红色甲油那样。  
 *Source:* Milady Standard Nail Technology p.181 (PDF 205)
 
 **8. How should the second coat of color polish be applied?**  
@@ -94,8 +94,8 @@ C. In a thin, even coat / 涂一层薄而均匀的 ✅
 D. Only along the free edge / 只涂在游离缘上  
 *Why:* For the second coat, do not fan the brush or cap the tip again. Start at the base of the polish curve, move toward the free edge, and apply a thin, even coat.  
 *为什么:* 涂第二层时，不要再把刷子压成扇形，也不要再封边。从甲油弧线的底部开始，朝游离缘（free edge）刷，涂一层薄而均匀的甲油。  
-*Lock this (reason-chain):* Thin layers built one on another → better adhesion → the polish lasts longer.  
-*记重点:* 一层层薄涂叠加 → 附着更好 → 甲油更持久。  
+*Lock this (reason-chain):* Build thin layers, one on another. They stick better, so the polish lasts longer.  
+*记重点:* 一层层薄涂叠加。这样附着更好，所以甲油更持久。  
 *Source:* Milady Standard Nail Technology p.183 (PDF 207), Milady Standard Nail Technology p.159 (PDF 183)
 
 **9. After lotion or a mask is applied, how do electric mitts help?**  
@@ -128,8 +128,8 @@ A. Natural stones, because they are porous / 天然石，因为它们多孔
 B. Any stone that feels smooth / 任何摸起来光滑的石头  
 C. Synthetic stones that can be disinfected / 可以消毒的合成石 ✅  
 D. Stones rinsed in warm water only / 只用温水冲洗的石头  
-*Why:* Natural stones are porous, so they cannot be disinfected. Synthetic stones can be disinfected and are the safest. Scrub-clean and disinfect the stones between clients.  
-*为什么:* 天然石是多孔的（porous），所以不能消毒。合成石（synthetic stones）可以消毒，是最安全的选择。每位顾客之间都要刷洗并消毒石头。  
+*Why:* Natural stones are porous (full of tiny holes), so they cannot be disinfected. Synthetic stones can be disinfected and are the safest. Scrub-clean and disinfect the stones between clients.  
+*为什么:* 天然石是多孔的（porous，布满小孔），所以不能消毒。合成石（synthetic stones）可以消毒，是最安全的选择。每位顾客之间都要刷洗并消毒石头。  
 *Lock this (name-trap):* Name trap: natural sounds safer, but here synthetic wins. Only synthetic stones can be disinfected.  
 *记重点:* 名字陷阱：“天然”听起来更安全，但这里是合成石（synthetic stones）胜出。只有合成石可以消毒。  
 *Source:* Milady Standard Nail Technology p.196 (PDF 220)

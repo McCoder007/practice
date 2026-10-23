@@ -528,8 +528,8 @@
         "zh": "extensor digitorum longus（趾长伸肌）把脚往上勾并伸展脚趾。比目鱼肌和腓骨短肌把脚往下压；踇展肌活动大脚趾。"
       },
       "lockPoint": {
-        "en": "Read the name: extensor = straightens, digitorum = of the digits (toes), longus = long.",
-        "zh": "看名字就懂：extensor = 伸，digitorum = 趾，longus = 长。中文“趾长伸肌”正好一一对应。"
+        "en": "Extensors straighten. Pull your toes up toward your leg: toes straighten, foot bends up. Extensor digitorum longus does both.",
+        "zh": "伸肌（extensor）负责“伸直”。把脚趾往小腿方向勾起来：脚趾伸直，脚也往上勾。趾长伸肌（extensor digitorum longus）这两件事都做。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -564,7 +564,7 @@
           "quote": "The abductor hallucis (ab-DUK-tohr ha-LU-sis) moves the great toe"
         }
       ],
-      "hookType": "word-parts"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-2d-10",
@@ -1130,8 +1130,8 @@
         "zh": "dorsalis pedis artery（足背动脉）为足部供血，它由沿小腿下行的胫前动脉（anterior tibial artery）延续而来。"
       },
       "lockPoint": {
-        "en": "Pedis = foot, as in pedicure. Dorsalis = the top of the foot, where this artery runs.",
-        "zh": "pedis = 足（pedicure 足部护理），dorsalis = 脚背。这条动脉沿着脚背走。"
+        "en": "The Chinese name means \"top of the foot.\" Radial and ulnar arteries go to the arm and hand.",
+        "zh": "看中文名：足背动脉的“足背”就是脚背。radial artery（桡动脉）和 ulnar artery（尺动脉）供应的是手臂和手。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -1140,6 +1140,12 @@
           "section": "Anatomy - Blood Supply to the Lower Leg and Foot",
           "pdfPage": 65,
           "printedPage": "41"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Anatomy - Blood Supply to the Arm and Hand",
+          "pdfPage": 64,
+          "printedPage": "40"
         }
       ],
       "evidence": [
@@ -1150,9 +1156,13 @@
         {
           "pdfPage": 65,
           "quote": "This artery goes to the foot and becomes the dorsalis pedis artery."
+        },
+        {
+          "pdfPage": 64,
+          "quote": "The ulnar and radial arteries are the main blood supply of the arms and hands."
         }
       ],
-      "hookType": "word-parts"
+      "hookType": "chinese-character"
     },
     {
       "id": "nic-2d-20",
