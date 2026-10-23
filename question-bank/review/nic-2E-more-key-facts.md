@@ -44,8 +44,8 @@ A. secretion. / 分泌（secretion）。
 B. absorption. / 吸收（absorption）。  
 C. sensation. / 感觉（sensation）。  
 D. excretion. / 排泄（excretion）。 ✅  
-*Why:* Excretion is a skin function: sweat from the sweat glands goes out through the skin. The water also takes out salts and minerals.  
-*为什么:* excretion（排泄）是皮肤的一种功能：汗腺的汗液从皮肤排出去，同时带走盐分和矿物质。  
+*Why:* Excretion is a skin function: sweat from the sweat glands goes out through the skin, taking salts and minerals with it. Secretion is different: it is the oil (sebum) from the oil glands.  
+*为什么:* excretion（排泄）是皮肤的一种功能：汗腺的汗液从皮肤排出去，同时带走盐分和矿物质。secretion（分泌）不一样：它指的是皮脂腺分泌的油脂，也就是皮脂（sebum）。  
 *Lock this (body-cue):* On a hot day, your palms get wet. Palms have many sweat glands: that is excretion.  
 *记重点:* 天热时，手心会出汗。手掌上的汗腺特别多：这就是排泄（excretion）。  
 *Source:* Milady Standard Nail Technology p.69 (PDF 93), Milady Standard Nail Technology p.67 (PDF 91)
@@ -58,9 +58,9 @@ C. sebum. / 皮脂（sebum）。
 D. collagen. / 胶原蛋白（collagen）。  
 *Why:* Skin color depends mainly on melanin, tiny grains of pigment (color). Melanocytes make it. Melanin also helps protect cells from too much UV.  
 *为什么:* 皮肤颜色主要取决于 melanin（黑色素），也就是细小的色素颗粒。它由黑素细胞（melanocytes）制造。黑色素还能帮助保护细胞，不受过多紫外线（UV）伤害。  
-*Lock this (real-life):* Melanin alone is not enough: daily sunscreen with SPF 15 to 30 helps it protect the skin.  
-*记重点:* 只靠黑色素不够：每天涂 SPF 15 到 30 的防晒霜，能帮它保护皮肤。  
-*Source:* Milady Standard Nail Technology p.63 (PDF 87)
+*Lock this (real-life):* After a summer in the sun, skin turns darker: a tan. That color change is melanin at work.  
+*记重点:* 夏天晒多了太阳，皮肤会变深，这就是晒黑（tan）。这种颜色变化，就是黑色素（melanin）在起作用。  
+*Source:* Milady Standard Nail Technology p.63 (PDF 87), Milady Standard Nail Technology p.95 (PDF 119)
 
 **6. The muscles that bend the wrist are the**  
 负责弯曲手腕的肌肉是  
@@ -142,8 +142,8 @@ C. a macule. / 斑疹（macule）。
 D. a nodule. / 结节（nodule）。  
 *Why:* An ulcer is an open lesion on the skin or mucous membrane. Skin depth is lost, and fluid or pus may weep out. It is a secondary lesion.  
 *为什么:* ulcer（溃疡）是皮肤或黏膜上的开放性皮损，皮肤深度缺损，可能渗出液体或脓。它属于继发性皮损（secondary lesion）。  
-*Lock this (real-life):* Ulcers need a medical referral, most of all for clients with diabetes.  
-*记重点:* 溃疡需要转诊看医生，糖尿病顾客尤其如此。  
+*Lock this (chinese-character):* The Chinese name means "broken-open sore": the skin breaks open and some of it is gone.  
+*记重点:* 溃疡：溃 = 溃烂、破开，疡 = 疮。皮肤破开、少了一块，所以叫溃疡（ulcer）。  
 *Source:* Milady Standard Nail Technology p.82 (PDF 106), Milady Standard Nail Technology p.95 (PDF 119)
 
 **13. Hereditary milky-white spots on the skin are called**  
@@ -166,9 +166,9 @@ C. Malignant melanoma / 恶性黑色素瘤（malignant melanoma） ✅
 D. A normal mole / 普通的痣（mole）  
 *Why:* Malignant melanoma is the least common but most dangerous skin cancer. It can spread quickly. It often shows as black or dark patches that are uneven or raised.  
 *为什么:* malignant melanoma（恶性黑色素瘤）最少见，却是最危险的皮肤癌，会很快扩散。常见表现是黑色或深色斑块，表面不平或凸起。  
-*Lock this (real-life):* It often appears on skin that rarely sees the sun. Milady calls it the city-person's cancer.  
-*记重点:* 它常出现在很少晒太阳的部位。Milady 把它叫做“城市人的癌症”。  
-*Source:* Milady Standard Nail Technology p.84 (PDF 108), Milady Standard Nail Technology p.85 (PDF 109)
+*Lock this (reason-chain):* Spreads fast, so it can kill. Found early, most people live: send dark, changing spots to a doctor.  
+*记重点:* 扩散快，可能致命。发现得早，大多数人能活下来：看到颜色深、在变化的斑点，就建议顾客去看医生。  
+*Source:* Milady Standard Nail Technology p.84 (PDF 108), Milady Standard Nail Technology p.85 (PDF 109), Milady Standard Nail Technology p.86 (PDF 110)
 
 **15. A mole with ragged or notched edges shows which ABCDE warning sign?**  
 痣的边缘参差不齐或有缺口，这属于 ABCDE 中的哪一个警示信号？  

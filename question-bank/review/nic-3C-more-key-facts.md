@@ -8,10 +8,10 @@ A. evaporation. / 蒸发（evaporation）。
 B. polymerization. / 聚合（polymerization）。 ✅  
 C. condensation. / 冷凝（condensation）。  
 D. neutralization. / 中和（neutralization）。  
-*Why:* Polymerization is the chemical reaction that makes polymers. Monomers join into very long chains. Milady says cure, curing, and hardening mean the same thing.  
-*为什么:* polymerization（聚合）就是生成聚合物的化学反应：单体连成很长的链。Milady 说 cure、curing、hardening（固化、变硬）都是同一个意思。  
-*Lock this (picture):* Monomers are like runners waiting at the start line. The initiator gives the signal, and they don't stop.  
-*记重点:* 单体像站在起跑线上等待的赛跑选手：引发剂（initiator）一发信号，它们就一直跑到终点，不会停。  
+*Why:* Polymerization is the reaction where small monomers join into long chains called polymers. It is how acrylic and gel get hard, so Milady also calls it curing or hardening.  
+*为什么:* polymerization（聚合）就是小小的单体（monomers）连成长链、变成聚合物（polymers）的反应。丙烯酸甲（acrylic）和凝胶（gel）就是这样变硬的，所以 Milady 也把它叫作固化（curing）或变硬（hardening）。  
+*Lock this (real-life):* Polymer + -ization = making polymers. Every time acrylic or gel hardens on a nail, that is polymerization.  
+*记重点:* polymer（聚合物）+ -ization（变成……的过程）= 制造聚合物。每次丙烯酸甲或凝胶在指甲上变硬，就是在发生聚合（polymerization）。  
 *Source:* Milady Standard Nail Technology p.122 (PDF 146), Milady Standard Nail Technology p.131 (PDF 155)
 
 **2. Water is called the universal solvent because it**  
@@ -20,8 +20,8 @@ A. mixes well with oils and waxes. / 能和油、蜡很好地混合。
 B. never turns into a vapor. / 永远不会变成蒸气。  
 C. speeds up every chemical reaction. / 能加快所有化学反应。  
 D. dissolves more substances than any other solvent. / 能溶解的物质比任何其他溶剂都多。 ✅  
-*Why:* Water can dissolve more substances than any other solvent. In salt water, water is the solvent and salt is the solute.  
-*为什么:* 水能溶解的物质比任何其他溶剂（solvent）都多。在盐水里，水是溶剂，盐是溶质（solute）。  
+*Why:* Water dissolves more substances than any other solvent, so it is called the universal solvent. For example, salt dissolves in water: water is the solvent, salt is the solute.  
+*为什么:* 水能溶解的物质比任何其他溶剂都多，所以被称为万能溶剂（universal solvent）。比如盐能溶在水里：水是溶剂（solvent），盐是溶质（solute）。  
 *Lock this (name-trap):* Universal does not mean everything. Water dissolves salt, but not oil.  
 *记重点:* “万能”不等于什么都能溶：水能溶解盐，却溶解不了油。  
 *Source:* Milady Standard Foundations p.160 (PDF 655), Milady Standard Foundations p.162 (PDF 657)
@@ -32,8 +32,8 @@ A. Surfactants / 表面活性剂（surfactants） ✅
 B. Solvents / 溶剂（solvents）  
 C. Catalysts / 催化剂（catalysts）  
 D. Plasticizers / 增塑剂（plasticizers）  
-*Why:* Surfactants are substances that let oil and water mix. They are one type of emulsifier. Soaps were the first surfactants.  
-*为什么:* surfactants（表面活性剂）是能让油和水混合的物质，是乳化剂（emulsifier）的一种。肥皂就是最早的表面活性剂。  
+*Why:* A surfactant lets oil and water mix. Soap does exactly this: with water, it washes oily dirt off your hands. Soaps were the first surfactants.  
+*为什么:* surfactant（表面活性剂）能让油和水混合。肥皂正是这样：加上水，就能把手上的油污洗掉。肥皂是最早的表面活性剂。  
 *Lock this (picture):* A surfactant is like a rope with two ends: the head holds water, the tail holds oil.  
 *记重点:* 表面活性剂像一根两头的绳子：头部亲水（抓住水），尾部亲油（抓住油），把油和水连在一起。  
 *Source:* Milady Standard Foundations p.161 (PDF 656), Milady Standard Foundations p.162 (PDF 657)
@@ -68,8 +68,8 @@ A. Pigment / 色素（pigment）
 B. Solvent / 溶剂（solvent） ✅  
 C. Plasticizer / 增塑剂（plasticizer）  
 D. UV stabilizer / 紫外线稳定剂（UV stabilizer）  
-*Why:* Solvent is the key ingredient for how fast polish dries and how thick it is. Pigments give color, and plasticizers keep it flexible.  
-*为什么:* solvent（溶剂）是决定指甲油干燥速度和稠度的关键成分。色素提供颜色，增塑剂让它保持柔韧。  
+*Why:* Polish dries as its solvent evaporates into the air. So the solvent decides how fast polish dries and how thick it is. Pigments give color; plasticizers keep it flexible.  
+*为什么:* 指甲油会变干，是因为里面的溶剂（solvent）蒸发到空气中。所以溶剂决定了指甲油干得多快、有多稠。色素（pigments）提供颜色，增塑剂（plasticizers）让它保持柔韧。  
 *Lock this (reason-chain):* More solvent → faster drying: that's how fast-dry topcoat works. Polish dryer drops pull solvent out, too.  
 *记重点:* 溶剂越多 → 干得越快：快干亮油就是这样做的。指甲油干燥剂（polish dryer）则是把溶剂“拉”出来。  
 *Source:* Milady Standard Nail Technology p.153 (PDF 177), Milady Standard Nail Technology p.125 (PDF 149)

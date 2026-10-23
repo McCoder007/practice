@@ -253,8 +253,8 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Excretion is a skin function: sweat from the sweat glands goes out through the skin. The water also takes out salts and minerals.",
-        "zh": "excretion（排泄）是皮肤的一种功能：汗腺的汗液从皮肤排出去，同时带走盐分和矿物质。"
+        "en": "Excretion is a skin function: sweat from the sweat glands goes out through the skin, taking salts and minerals with it. Secretion is different: it is the oil (sebum) from the oil glands.",
+        "zh": "excretion（排泄）是皮肤的一种功能：汗腺的汗液从皮肤排出去，同时带走盐分和矿物质。secretion（分泌）不一样：它指的是皮脂腺分泌的油脂，也就是皮脂（sebum）。"
       },
       "lockPoint": {
         "en": "On a hot day, your palms get wet. Palms have many sweat glands: that is excretion.",
@@ -329,8 +329,8 @@
         "zh": "皮肤颜色主要取决于 melanin（黑色素），也就是细小的色素颗粒。它由黑素细胞（melanocytes）制造。黑色素还能帮助保护细胞，不受过多紫外线（UV）伤害。"
       },
       "lockPoint": {
-        "en": "Melanin alone is not enough: daily sunscreen with SPF 15 to 30 helps it protect the skin.",
-        "zh": "只靠黑色素不够：每天涂 SPF 15 到 30 的防晒霜，能帮它保护皮肤。"
+        "en": "After a summer in the sun, skin turns darker: a tan. That color change is melanin at work.",
+        "zh": "夏天晒多了太阳，皮肤会变深，这就是晒黑（tan）。这种颜色变化，就是黑色素（melanin）在起作用。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -339,6 +339,12 @@
           "section": "Skin - The Dermis",
           "pdfPage": 87,
           "printedPage": "63"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Chapter Glossary",
+          "pdfPage": 119,
+          "printedPage": "95"
         }
       ],
       "evidence": [
@@ -357,6 +363,10 @@
         {
           "pdfPage": 87,
           "quote": "Melanocytes in the epidermis produce melanin."
+        },
+        {
+          "pdfPage": 119,
+          "quote": "A change in pigmentation of skin caused by exposure to the sun or ultraviolet light."
         }
       ],
       "hookType": "real-life"
@@ -823,8 +833,8 @@
         "zh": "ulcer（溃疡）是皮肤或黏膜上的开放性皮损，皮肤深度缺损，可能渗出液体或脓。它属于继发性皮损（secondary lesion）。"
       },
       "lockPoint": {
-        "en": "Ulcers need a medical referral, most of all for clients with diabetes.",
-        "zh": "溃疡需要转诊看医生，糖尿病顾客尤其如此。"
+        "en": "The Chinese name means \"broken-open sore\": the skin breaks open and some of it is gone.",
+        "zh": "溃疡：溃 = 溃烂、破开，疡 = 疮。皮肤破开、少了一块，所以叫溃疡（ulcer）。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -855,7 +865,7 @@
           "quote": "Secondary lesion Pronunciation Image Graphic Description Examples"
         }
       ],
-      "hookType": "real-life"
+      "hookType": "chinese-character"
     },
     {
       "id": "nic-2e-13",
@@ -959,8 +969,8 @@
         "zh": "malignant melanoma（恶性黑色素瘤）最少见，却是最危险的皮肤癌，会很快扩散。常见表现是黑色或深色斑块，表面不平或凸起。"
       },
       "lockPoint": {
-        "en": "It often appears on skin that rarely sees the sun. Milady calls it the city-person's cancer.",
-        "zh": "它常出现在很少晒太阳的部位。Milady 把它叫做“城市人的癌症”。"
+        "en": "Spreads fast, so it can kill. Found early, most people live: send dark, changing spots to a doctor.",
+        "zh": "扩散快，可能致命。发现得早，大多数人能活下来：看到颜色深、在变化的斑点，就建议顾客去看医生。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -975,6 +985,12 @@
           "section": "Skin - Skin Cancer",
           "pdfPage": 109,
           "printedPage": "85"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Skin - Skin Cancer",
+          "pdfPage": 110,
+          "printedPage": "86"
         }
       ],
       "evidence": [
@@ -997,9 +1013,21 @@
         {
           "pdfPage": 109,
           "quote": "This disease is referred to as the city-person's cancer."
+        },
+        {
+          "pdfPage": 108,
+          "quote": "100 percent fatal if left untreated"
+        },
+        {
+          "pdfPage": 108,
+          "quote": "early detection and treatment can result in a 94 percent five-year survival rate"
+        },
+        {
+          "pdfPage": 110,
+          "quote": "If any of the above changes to a mole are noticed, refer the client to a physician for examination."
         }
       ],
-      "hookType": "real-life"
+      "hookType": "reason-chain"
     },
     {
       "id": "nic-2e-15",

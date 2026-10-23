@@ -22,8 +22,8 @@ C. 45 degrees / 45 度 ✅
 D. 75 degrees / 75 度  
 *Why:* Hold the tip at a 45-degree angle and connect the position stop to the free edge. Then press down slowly, watching the resin move through the well.  
 *为什么:* 把甲片拿成 45 度角，让定位点（position stop）对准真甲的游离缘（free edge）。然后慢慢往下压，看着胶在凹槽里推开。  
-*Lock this (picture):* Like closing a laptop: the free edge is the hinge. Lower it slowly so no air bubbles stay.  
-*记重点:* 就像合上笔记本电脑：游离缘是转轴。慢慢放下，就不会留下气泡。  
+*Lock this (body-cue):* Lay your hand flat, then point it straight up. Halfway between is 45 degrees: start the tip there.  
+*记重点:* 把手平放，再竖直朝上。两者正中间就是 45 度：甲片就从这个角度开始贴。  
 *Source:* Milady Standard Nail Technology p.268 (PDF 292)
 
 **3. A nail tip went on crooked. What should you do?**  
@@ -34,8 +34,8 @@ C. Leave it; the overlay will hide it / 不管它，加固层会盖住
 D. File it straight with a coarse file / 用粗锉条把它锉正  
 *Why:* Milady: soak the nail in acetone for 5 to 10 minutes, slide the soft tip off, and reapply. Prying it off can damage the nail plate.  
 *为什么:* Milady 的做法：把指甲泡在丙酮（acetone）里 5 到 10 分钟，把变软的甲片推下来，再重新贴。硬撬会损伤甲面。  
-*Lock this (real-life):* Still stuck? Soak a few more minutes. Acetone does the work, not force.  
-*记重点:* 还粘着？再多泡几分钟。靠丙酮，不靠力气。  
+*Lock this (real-life):* Like a shirt buttoned wrong: you don't pull harder; you undo it and start again.  
+*记重点:* 就像衬衫扣错了扣子：不是更用力地拉，而是解开重新扣。  
 *Source:* Milady Standard Nail Technology p.268 (PDF 292), Milady Standard Nail Technology p.273 (PDF 297), Milady Standard Nail Technology p.274 (PDF 298)
 
 **4. After soaking a wrap or dip nail, how do you remove the softened product?**  
@@ -46,8 +46,8 @@ C. Peel it off with tweezers / 用镊子撕掉
 D. Slide it off with a wooden pusher / 用木棒（wooden pusher）把它推下来 ✅  
 *Why:* Wraps and dips are both resin systems, removed the same way. Soak in acetone or product remover, then gently slide the soft product off. Prying can damage the nail.  
 *为什么:* 包甲和浸粉都属于树脂系统（nail resin systems），卸法一样：泡在丙酮或卸甲液里，再把变软的产品轻轻推下来。硬撬会伤到指甲。  
-*Lock this (real-life):* Resin systems come off easily, so Milady suggests them for proms and weddings.  
-*记重点:* 树脂系统容易卸，所以 Milady 推荐用在毕业舞会、婚礼这类场合。  
+*Lock this (contrast):* Softened product, gentle tool: a wooden pusher just slides it off. No cutting, no prying, no peeling.  
+*记重点:* 产品已经泡软，用温和的工具就行：木棒（wooden pusher）轻轻一推就下来。不剪、不撬、不撕。  
 *Source:* Milady Standard Nail Technology p.314 (PDF 338), Milady Standard Nail Technology p.282 (PDF 306)
 
 **5. Compared with a thick nail resin, a thin resin**  
@@ -58,8 +58,8 @@ C. sticks better and cures faster. / 粘得更好，固化更快。 ✅
 D. always needs an accelerator to cure. / 一定要用加速剂才能固化。  
 *Why:* Viscosity means how thick the resin is. The thinner it is, the better it sticks and the faster it cures. Thin resin is a base; thick resin builds or is a topcoat.  
 *为什么:* viscosity（黏度）就是树脂的稠度。越稀，附着越好、固化越快。稀的树脂做底层；稠的树脂用来做结构或当封层。  
-*Lock this (comparison):* Think water vs. honey. Some resins are so honey-thick that they need an accelerator to cure.  
-*记重点:* 想想水和蜂蜜：有些树脂稠得像蜂蜜，要用加速剂（resin accelerator）才能固化。  
+*Lock this (comparison):* Water vs. honey: water runs into tiny gaps fast. Thin resin acts like water: sticks better, cures faster.  
+*记重点:* 水和蜂蜜比：水很快就流进细小的缝隙。稀的树脂就像水：粘得更好，固化更快。  
 *Source:* Milady Standard Nail Technology p.282 (PDF 306)
 
 **6. Between enhancement product and the living skin, leave a free margin of about**  
@@ -82,8 +82,8 @@ C. 1 part liquid to 2 parts powder / 1 份液体配 2 份粉
 D. 2 parts liquid to 1 part powder / 2 份液体配 1 份粉 ✅  
 *Why:* Equal parts make a dry bead. Twice as much liquid as powder makes a wet bead. The medium bead, halfway between, is usually the ideal mix.  
 *为什么:* 液粉等量是干球（dry bead）；液体是粉的两倍是湿球（wet bead）。介于两者之间的中球（medium bead）通常最理想。  
-*Lock this (real-life):* In Milady's overlay steps, a small wet bead goes last, tapped up toward the cuticle.  
-*记重点:* 在 Milady 的加固步骤里，最后放的是一颗小湿球，往甲小皮方向轻拍。  
+*Lock this (picture):* Mix dirt with twice as much water and you get wet, runny mud. Twice the liquid makes a wet bead.  
+*记重点:* 土里加两倍的水，就成了又湿又稀的泥。液体加到两倍，就是湿球（wet bead）。  
 *Source:* Milady Standard Nail Technology p.324 (PDF 348), Milady Standard Nail Technology p.335 (PDF 359)
 
 **8. Which monomer liquid is an industry standard for liquid and powder nails?**  
@@ -106,8 +106,8 @@ C. From one sidewall to the other / 从一侧推到另一侧
 D. In small circles from the center / 从中间打小圈  
 *Why:* Milady: start at the cuticle and float the gel toward the free edge to cover the whole nail. Do not let it touch the skin, or it will lift.  
 *为什么:* Milady 的做法：从甲小皮开始，把胶朝游离缘推开，盖满整个指甲。不要碰到皮肤，否则会起翘。  
-*Lock this (picture):* Tiny low spot? Pull up a thin string of gel, like honey off a spoon, and lay it across.  
-*记重点:* 有小凹点？像从勺子上拉起蜂蜜丝那样，从胶罐里拉起一条细胶丝，横放在凹点上。  
+*Lock this (picture):* Like a playground slide: start at the top (the cuticle) and go down to the end (the free edge).  
+*记重点:* 就像玩滑梯：从顶上（甲小皮）开始，一路滑到底（游离缘）。  
 *Source:* Milady Standard Nail Technology p.360 (PDF 384), Milady Standard Nail Technology p.335 (PDF 359)
 
 **10. In a dip service, when do you first apply activator?**  
@@ -118,8 +118,8 @@ C. Only at the end, over top resin / 只在最后，涂在封层树脂上
 D. After two to three coats of color / 上了两到三层颜色之后 ✅  
 *Why:* Once the nail has two to three applications of color, apply activator to help the layers dry. Activator is another name for resin accelerator.  
 *为什么:* 指甲上了两到三层颜色后，上激活剂（activator）帮助各层变干。activator 就是树脂加速剂（resin accelerator）的另一个名字。  
-*Lock this (picture):* Spraying activator? Hold the bottle 12 inches away, about one school ruler.  
-*记重点:* 用喷的激活剂？瓶子离指甲 12 英寸，大约一把学生尺的长度。  
+*Lock this (contrast):* Not after every dip: build two to three coats of color first, then activator dries the layers together.  
+*记重点:* 不是每蘸一次粉就上：先叠两到三层颜色，再用激活剂（activator）让这些层一起变干。  
 *Source:* Milady Standard Nail Technology p.285 (PDF 309), Milady Standard Nail Technology p.282 (PDF 306), Milady Standard Nail Technology p.289 (PDF 313)
 
 **11. Why apply base resin over the activator before filing a dip nail?**  
@@ -130,8 +130,8 @@ C. To make the activator smell less / 减少激活剂的气味
 D. To remove extra powder dust / 去掉多余的粉尘  
 *Why:* After activator, one more layer of base resin protects the powder during filing and buffing. Because of the activator, this base dries very quickly.  
 *为什么:* 上完激活剂后，再涂一层底层树脂，在锉磨和抛光时保护粉层。因为有激活剂，这层底层会干得很快。  
-*Lock this (picture):* Like a phone screen protector: the file scratches the clear layer, not the color.  
-*记重点:* 就像手机贴膜：锉条磨到的是透明的那层，而不是颜色。  
+*Lock this (picture):* Like a car's clear coat: scratches hit the clear layer, and the color under it stays safe.  
+*记重点:* 就像汽车的透明漆层：刮痕落在透明层上，下面的颜色不受伤。  
 *Source:* Milady Standard Nail Technology p.285 (PDF 309), Milady Standard Nail Technology p.296 (PDF 320)
 
 **12. After shaping and buffing a dip nail, what comes next?**  
@@ -142,8 +142,8 @@ C. Activator, wipe, then top resin / 激活剂、擦干净，再上封层树脂 
 D. Top resin, then cure in a lamp / 封层树脂，再照灯固化  
 *Why:* Apply activator, then clean off the extra with a lint-free wipe. Then brush on top resin, usually two coats: one makes it smooth, one adds shine.  
 *为什么:* 先上激活剂，用无尘巾擦掉多余的部分，再刷封层树脂（top resin）。通常刷两层：一层让表面光滑，一层增加亮度。  
-*Lock this (real-life):* After the second top coat, let the nails stand about eight minutes to dry.  
-*记重点:* 第二层封层树脂刷完后，让指甲静置大约八分钟晾干。  
+*Lock this (reason-chain):* Top resin is the shine coat, so it goes last: activator, wipe, then shine. No lamp needed.  
+*记重点:* 封层树脂（top resin）负责亮光，所以最后才上：激活剂、擦净，再上亮光。不需要照灯。  
 *Source:* Milady Standard Nail Technology p.285 (PDF 309), Milady Standard Nail Technology p.297 (PDF 321), Milady Standard Nail Technology p.298 (PDF 322)
 
 **13. After removing tips or resin nails, how do you take off leftover residue?**  
@@ -154,6 +154,6 @@ C. File it with a coarse-grit abrasive / 用粗目锉条锉
 D. Soak it in cuticle oil / 泡在指缘油里  
 *Why:* Milady: gently buff the natural nail with a fine-grit buffer to remove any residue. Then brush away the dust with a clean, dry nail brush.  
 *为什么:* Milady 的做法：用细目抛光条（fine-grit buffer）轻轻抛磨真甲，去掉残留物，再用干净、干燥的甲刷扫掉粉尘。  
-*Lock this (real-life):* Buff gently → dust off → client washes hands → cuticle oil, then hand lotion.  
-*记重点:* 轻轻抛磨 → 扫掉粉尘 → 顾客洗手 → 先涂指缘油，再涂护手霜。  
-*Source:* Milady Standard Nail Technology p.315 (PDF 339), Milady Standard Nail Technology p.274 (PDF 298), Milady Standard Nail Technology p.332 (PDF 356)
+*Lock this (reason-chain):* Only a little residue is left, so fine grit is enough. Coarse grit is generally not used on natural nails.  
+*记重点:* 只剩一点残留物，用细目（fine grit）就够了。粗目（coarse grit）一般不用在真甲上。  
+*Source:* Milady Standard Nail Technology p.315 (PDF 339), Milady Standard Nail Technology p.274 (PDF 298), Milady Standard Nail Technology p.332 (PDF 356), Milady Standard Nail Technology p.147 (PDF 171)

@@ -10,8 +10,8 @@ C. Staphylococci / 葡萄球菌（staphylococci） ✅
 D. Fungi / 真菌（fungi）  
 *Why:* Staphylococci are pus-forming bacteria. They grow in clusters, like grapes. They cause abscesses, pustules, and boils.  
 *为什么:* staphylococci（葡萄球菌）是会产生脓的细菌，像一串葡萄那样成簇生长，会引起脓肿（abscesses）、脓疱（pustules）和疖子（boils）。  
-*Lock this (picture):* Picture a bunch of grapes. Staph is everywhere: on doorknobs, counters, and even our own skin.  
-*记重点:* 想象一串葡萄。葡萄球菌到处都有：门把手、台面上，连我们自己的皮肤上也有。  
+*Lock this (chinese-character):* The Chinese name says it: grape + ball + germ. Staph germs sit together like a bunch of grapes.  
+*记重点:* 中文名“葡萄球菌”已经告诉你：葡萄 + 球 + 菌。葡萄球菌（staphylococci）像一串葡萄那样挤在一起生长。  
 *Source:* Milady Standard Foundations p.150 (PDF 645), Milady Standard Foundations p.107 (PDF 602)
 
 **2. A pimple with pus in one small spot is an example of**  
@@ -22,8 +22,8 @@ C. a viral infection. / 病毒感染（viral infection）。
 D. an occupational disease. / 职业病（occupational disease）。  
 *Why:* A local infection stays in one part of the body and shows as a sore with pus. A systemic infection spreads through the whole body.  
 *为什么:* local infection（局部感染）只在身体的一个部位，表现为带脓的病灶。systemic infection（全身性感染）则扩散到全身。  
-*Lock this (reason-chain):* Untreated MRSA can start as a pimple or boil, then become systemic: one spot spreads to the whole body.  
-*记重点:* MRSA 如果不治疗，可能先是痘痘或疖子，然后变成全身性感染：从一个点扩散到全身。  
+*Lock this (word-link):* Local means near here, as in "your local store." A local infection stays in one spot.  
+*记重点:* local 的意思是“本地、附近”，比如 local store（家附近的小店）。局部感染（local infection）只待在一个地方，不会扩散到全身。  
 *Source:* Milady Standard Foundations p.106 (PDF 601), Milady Standard Foundations p.107 (PDF 602)
 
 **3. Cleaning with soap and water is a**  
@@ -32,10 +32,10 @@ A. heat-and-pressure process in an autoclave. / 在高压灭菌器（autoclave�
 B. chemical process that destroys most germs. / 能消灭大多数病菌的化学过程。  
 C. chemical process that destroys all spores. / 能消灭所有芽孢的化学过程。  
 D. mechanical process that removes dirt. / 去除脏污的机械过程（mechanical process）。 ✅  
-*Why:* Cleaning uses soap or detergent, water, and scrubbing to remove dirt, debris, and many germs. Disinfecting is a chemical process. Sterilizing usually needs an autoclave.  
-*为什么:* cleaning（清洁）用肥皂或清洁剂、水和刷洗，去除脏污、残渣和许多病菌，是 mechanical process（机械过程）。disinfecting（消毒）是化学过程；sterilizing（灭菌）通常要用高压灭菌器。  
-*Lock this (comparison):* Clean removes many germs, disinfect destroys most, sterilize destroys all. So cleaning is the lowest level.  
-*记重点:* 清洁去除许多病菌，消毒消灭大多数，灭菌消灭全部。所以清洁是最低的一级。  
+*Why:* Cleaning is mechanical: the work of scrubbing with soap and water washes dirt and many germs away. Destroying germs comes later: disinfecting uses chemicals to destroy most; sterilizing, usually in an autoclave, destroys all.  
+*为什么:* cleaning（清洁）是 mechanical process（机械过程）：靠用肥皂和水刷洗的动手功夫，把脏污和许多病菌洗掉。消灭病菌是后面的步骤：disinfecting（消毒）用化学品消灭大多数病菌；sterilizing（灭菌）通常用高压灭菌器（autoclave），消灭全部病菌。  
+*Lock this (picture):* Like washing a muddy plate: your hands and the sponge do the work. That is mechanical.  
+*记重点:* 就像洗一个沾满泥的盘子：真正干活的是你的手和海绵。这就是机械（mechanical）清洁。  
 *Source:* Milady Standard Foundations p.96 (PDF 591), Milady Standard Foundations p.118 (PDF 613)
 
 **4. How should a disinfectant be mixed and used?**  
@@ -70,8 +70,8 @@ C. With the client's fingers / 用客人的手指
 D. With the same spatula for all jars / 所有罐子都用同一把刮勺  
 *Why:* Fingers can put germs into the product. Use a pump when you can. For a jar, use a clean spatula, never your fingers. Use a different spatula for each product.  
 *为什么:* 手指会把病菌带进产品里。能用按压瓶就用按压瓶。罐装产品要用干净的 spatula（刮勺），绝不用手指。不同的产品要用不同的刮勺。  
-*Lock this (contrast):* A wooden spatula that touches skin is thrown away. A metal one must be cleaned and disinfected first.  
-*记重点:* 木刮勺碰到皮肤就要丢掉；金属刮勺必须先清洁、消毒才能再用。  
+*Lock this (comparison):* Like a shared jam jar: everyone takes jam with a clean spoon, never fingers. Your spatula is that spoon.  
+*记重点:* 就像大家一起吃的一罐果酱：每个人都用干净的勺子舀，没人用手指挖。刮勺（spatula）就是那把勺子。  
 *Source:* Milady Standard Foundations p.125 (PDF 620), Milady Standard Nail Technology p.148 (PDF 172)
 
 **7. You drop a nipper on the floor during a service. What should you do?**  
@@ -106,8 +106,8 @@ C. a contraindication. / 禁忌症（contraindication）。
 D. a systemic infection. / 全身性感染（systemic infection）。  
 *Why:* An exposure incident is contact with broken skin, blood, body fluid, or other possibly infectious material during your work. Then follow the exposure incident steps.  
 *为什么:* exposure incident（暴露事件）是指工作中接触到破损的皮肤、血液、体液或其他可能有传染性的物质。发生后要按暴露事件的步骤处理。  
-*Lock this (real-life):* Afterward, wash your hands and scrub under your nails with a clean nail brush.  
-*记重点:* 处理完以后，要洗手，并用干净的指甲刷刷洗指甲下面。  
+*Lock this (word-link):* Exposure looks like "exposed," as in skin exposed to the sun. Here, you are exposed to blood or body fluid.  
+*记重点:* exposure 和 exposed（暴露、直接接触）是同一个词：比如皮肤暴露在阳光下（skin exposed to the sun）。这里是你暴露在血液或体液中，所以叫暴露事件（exposure incident）。  
 *Source:* Milady Standard Foundations p.128 (PDF 623), Milady Standard Foundations p.136 (PDF 631)
 
 **10. A metal pusher touched a client's blood. Before using it again, you must**  
@@ -118,9 +118,9 @@ C. clean it, then disinfect it. / 先清洁，再消毒。 ✅
 D. throw it away. / 把它扔掉。  
 *Why:* Multiuse implements can be cleaned, disinfected, and used again, even after touching blood. Salon disinfectants are made to work on blood and body fluids.  
 *为什么:* multiuse（可重复使用的）工具即使碰到血液，也可以清洁、消毒后再用。沙龙用的消毒剂就是用来对付血液和体液的。  
-*Lock this (real-life):* After a client injury, also clean and disinfect the work surfaces, not just the tools.  
-*记重点:* 客人受伤后，不只是工具，工作台面也要清洁和消毒。  
-*Source:* Milady Standard Nail Technology p.189 (PDF 213), Milady Standard Foundations p.143 (PDF 638), Milady Standard Foundations p.142 (PDF 637), Milady Standard Foundations p.120 (PDF 615)
+*Lock this (reason-chain):* Blood on a metal pusher? Scrub it, then disinfect. It is multiuse, so blood does not make it trash.  
+*记重点:* 金属推棒沾了血？先刷洗，再消毒。它是可重复使用的（multiuse）工具，沾了血也不用扔掉。  
+*Source:* Milady Standard Nail Technology p.189 (PDF 213), Milady Standard Foundations p.143 (PDF 638), Milady Standard Foundations p.142 (PDF 637), Milady Standard Foundations p.120 (PDF 615), Milady Standard Foundations p.116 (PDF 611)
 
 **11. Who provides the Safety Data Sheet (SDS) for a product?**  
 产品的安全数据表（SDS）由谁提供？  
@@ -142,8 +142,8 @@ C. bending forward toward the client. / 身体前倾靠近客人。
 D. holding your arms away from your body. / 手臂远离身体。  
 *Why:* Ergonomics sets up your work, tools, and body movements to be comfortable and safe. Tight gripping, bending forward, and arms held far out are bad habits.  
 *为什么:* ergonomics（人体工学）让你的工作、工具和身体动作舒适又安全。握得太紧、身体前倾、手臂伸得太远，都是坏习惯。  
-*Lock this (body-cue):* Bend your wrist up and down 20 times: it tires fast. Repeated moves add up to injuries like carpal tunnel.  
-*记重点:* 把手腕上下弯 20 次：很快就累了。重复的动作日积月累，会造成腕管综合征（carpal tunnel syndrome）这类损伤。  
+*Lock this (body-cue):* Hold your arms straight out for one minute: they start to hurt. Ergonomics keeps arms close and wrists straight.  
+*记重点:* 把双臂向前伸直举一分钟：很快就会酸痛。人体工学（ergonomics）就是让手臂贴近身体、手腕保持伸直。  
 *Source:* Milady Standard Foundations p.83 (PDF 578), Milady Standard Foundations p.88 (PDF 583), Milady Standard Foundations p.86 (PDF 581)
 
 **13. How often should you use a fresh, clean towel?**  
@@ -154,6 +154,6 @@ C. Once each week / 每周一次
 D. Only when it looks dirty / 只在看起来脏的时候  
 *Why:* Use clean towels and linens for each client. Wash them by the label and dry them fully, because damp towels can grow mildew and bacteria.  
 *为什么:* 每位客人都要用干净的毛巾和布巾（linens）。按标签说明清洗并彻底烘干，因为潮湿的毛巾会长霉菌和细菌。  
-*Lock this (real-life):* Keep used towels in a covered container, away from the clean ones.  
-*记重点:* 用过的毛巾放进有盖的容器里，和干净的毛巾分开放。  
+*Lock this (real-life):* Like a hotel: every new guest gets fresh towels. In the salon, every new client does too.  
+*记重点:* 就像酒店：每位新住客都会拿到干净的毛巾。在沙龙里，每位新客人也一样。  
 *Source:* Milady Standard Foundations p.125 (PDF 620), Milady Standard Nail Technology p.138 (PDF 162)
