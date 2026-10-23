@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { Fragment, useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from "react"
-import { ChevronDown, ChevronLeft, RotateCcw, Volume2, VolumeX } from "lucide-react"
+import { ChevronDown, ChevronLeft, RotateCcw, Turtle, Volume2, VolumeX } from "lucide-react"
 
 import { NavigationMenu } from "@/components/NavigationMenu"
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from "@/components/ui/sheet"
@@ -10,7 +10,7 @@ import { useLanguage } from "@/contexts/LanguageContext"
 import type { LocalizedText } from "@/data/exam-quiz/types"
 import type { ReelCard, ReelSection, ReelTitle } from "@/data/word-reel/types"
 import { initializeAnalytics, logWordInteraction } from "@/lib/analytics"
-import { clearAudioQueue, playText, playTextQueued, preloadTexts, warmAudioSession } from "@/lib/tts"
+import { clearAudioQueue, playText, playTextQueued, playTextSlow, preloadTexts, warmAudioSession } from "@/lib/tts"
 import { getBackgroundByIndex } from "@/lib/word-reel-backgrounds"
 import { cn } from "@/lib/utils"
 
@@ -406,12 +406,21 @@ export function SectionWordReel({
             {renderWord(card)}
           </h2>
           {card.sayIt && (
-            <p
-              className="inline-block rounded-full bg-black/25 px-4 py-1.5 text-xl font-medium tracking-wide text-white"
-              aria-label={`How to say it: ${card.sayIt}`}
+            <button
+              type="button"
+              onMouseDown={(e) => e.stopPropagation()}
+              onClick={() => {
+                // Same word, slowed to 0.75x so each part is easy to hear.
+                playTextSlow(speechFor(card))
+                if (analyticsReady) logWordInteraction(card.word, "word_audio_played")
+              }}
+              className="inline-flex items-center gap-2 rounded-full bg-black/25 px-4 py-1.5 text-xl font-medium tracking-wide text-white active:bg-black/40"
+              aria-label={`Say it slowly: ${card.sayIt}`}
+              title="Play slowly | 慢速播放"
             >
+              <Turtle className="size-5 shrink-0" aria-hidden />
               {card.sayIt}
-            </p>
+            </button>
           )}
           <p
             className="font-medium text-[#FFD700]"
