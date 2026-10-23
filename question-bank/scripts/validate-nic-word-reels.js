@@ -10,7 +10,7 @@ const bankDir = path.resolve(__dirname, "../nic-domain-practice")
 const reelsDir = path.join(bankDir, "word-reels")
 const setsDir = path.join(bankDir, "sets")
 
-const LIMITS = { exampleWords: 12, meaningWords: 8, tipWords: 20, perSetMin: 8, perSetMax: 12, groupsMin: 3, groupsMax: 6 }
+const LIMITS = { exampleWords: 12, meaningWords: 8, tipWords: 20, perSetMin: 8, shortSetMin: 3, perSetMax: 12, groupsMin: 3, groupsMax: 6 }
 const PARTS_OF_SPEECH = new Set(["Noun", "Verb", "Adjective", "Phrase"])
 const FOREIGN_ORIGIN = /\b(latin|greek|italian|old word|from an old)\b|\bfrench\b(?!\s+(manicure|tips?|nails?|polish|smile|line|white))|拉丁|希腊|法语|法文|意大利/i
 const HAS_ZH = /[一-鿿]/
@@ -24,10 +24,13 @@ const onlyTopics = process.argv.flatMap((arg, i, all) => (arg === "--topic" ? [a
 
 // Set ids per topic, from the question sets.
 const setsByTopic = new Map()
+// Short catch-up sets (under 20 questions) need fewer word cards.
+const setSizes = new Map()
 for (const file of fs.readdirSync(setsDir).filter((f) => f.endsWith(".json")).sort()) {
   const set = JSON.parse(fs.readFileSync(path.join(setsDir, file), "utf8"))
   if (!setsByTopic.has(set.domain.id)) setsByTopic.set(set.domain.id, { order: set.domain.order, sets: [] })
   setsByTopic.get(set.domain.id).sets.push(set.setId)
+  setSizes.set(set.setId, (set.questions || []).length)
 }
 
 function checkEnglish(at, text, maxWords) {
@@ -100,8 +103,9 @@ for (const file of files) {
     checkEvidence(at, card.evidence)
   })
   for (const [setId, count] of perSet) {
-    if (count < LIMITS.perSetMin || count > LIMITS.perSetMax) {
-      errors.push(`${file}: set ${setId} has ${count} words (expected ${LIMITS.perSetMin}-${LIMITS.perSetMax})`)
+    const min = (setSizes.get(setId) ?? 20) < 20 ? LIMITS.shortSetMin : LIMITS.perSetMin
+    if (count < min || count > LIMITS.perSetMax) {
+      errors.push(`${file}: set ${setId} has ${count} words (expected ${min}-${LIMITS.perSetMax})`)
     }
   }
   totalWords += (data.words || []).length

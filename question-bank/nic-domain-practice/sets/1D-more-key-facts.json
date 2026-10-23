@@ -1,0 +1,965 @@
+{
+  "schemaVersion": "1.0.0",
+  "setId": "1D",
+  "domain": {
+    "id": "infection-control",
+    "order": 1,
+    "title": {
+      "en": "Infection Control and Safety Practices",
+      "zh": "感染控制与安全操作"
+    },
+    "examWeightPercent": 15
+  },
+  "title": {
+    "en": "More Key Facts",
+    "zh": "更多重点"
+  },
+  "status": "reviewed",
+  "authoredAt": "2026-10-23",
+  "sourceBook": "Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020)",
+  "review": {
+    "reviewedAt": "2026-10-23",
+    "checks": [
+      "quotes found on cited pages (verify-nic-domain-evidence.py)",
+      "blind answer check: 13/13 matched key; reworded stems and choices re-checked blind",
+      "content, level-2 English and Chinese review: fixes applied",
+      "memory hooks fact-checked against cited pages: fixes applied",
+      "overlap check against all 460 earlier questions and the other catch-up sets: overlapping items dropped",
+      "written to fill gaps found in docs/exam-outline-coverage.md"
+    ]
+  },
+  "questions": [
+    {
+      "id": "nic-1d-01",
+      "question": {
+        "en": "Which pus-forming germs grow in clusters like a bunch of grapes?",
+        "zh": "哪种会产生脓的病菌像一串葡萄那样成簇生长？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Mycobacteria",
+          "zh": "分枝杆菌（mycobacteria）"
+        },
+        {
+          "id": "b",
+          "en": "Nonpathogenic bacteria",
+          "zh": "非致病菌（nonpathogenic bacteria）"
+        },
+        {
+          "id": "c",
+          "en": "Staphylococci",
+          "zh": "葡萄球菌（staphylococci）"
+        },
+        {
+          "id": "d",
+          "en": "Fungi",
+          "zh": "真菌（fungi）"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Staphylococci are pus-forming bacteria. They grow in clusters, like grapes. They cause abscesses, pustules, and boils.",
+        "zh": "staphylococci（葡萄球菌）是会产生脓的细菌，像一串葡萄那样成簇生长，会引起脓肿（abscesses）、脓疱（pustules）和疖子（boils）。"
+      },
+      "lockPoint": {
+        "en": "Picture a bunch of grapes. Staph is everywhere: on doorknobs, counters, and even our own skin.",
+        "zh": "想象一串葡萄。葡萄球菌到处都有：门把手、台面上，连我们自己的皮肤上也有。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Chapter Glossary",
+          "pdfPage": 645,
+          "printedPage": "150"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - MRSA",
+          "pdfPage": 602,
+          "printedPage": "107"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 645,
+          "quote": "pus-forming bacteria that grow in clusters like a bunch of grapes; cause abscesses, pustules, and boils"
+        },
+        {
+          "pdfPage": 602,
+          "quote": "are routinely found in our environment, including on our bodies"
+        },
+        {
+          "pdfPage": 602,
+          "quote": "Staph bacteria can be picked up on doorknobs, countertops, and other surfaces"
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-1d-02",
+      "question": {
+        "en": "A pimple with pus in one small spot is an example of",
+        "zh": "只在一个小地方、带脓的痘痘，属于哪一类？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "a local infection.",
+          "zh": "局部感染（local infection）。"
+        },
+        {
+          "id": "b",
+          "en": "a systemic infection.",
+          "zh": "全身性感染（systemic infection）。"
+        },
+        {
+          "id": "c",
+          "en": "a viral infection.",
+          "zh": "病毒感染（viral infection）。"
+        },
+        {
+          "id": "d",
+          "en": "an occupational disease.",
+          "zh": "职业病（occupational disease）。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "A local infection stays in one part of the body and shows as a sore with pus. A systemic infection spreads through the whole body.",
+        "zh": "local infection（局部感染）只在身体的一个部位，表现为带脓的病灶。systemic infection（全身性感染）则扩散到全身。"
+      },
+      "lockPoint": {
+        "en": "Untreated MRSA can start as a pimple or boil, then become systemic: one spot spreads to the whole body.",
+        "zh": "MRSA 如果不治疗，可能先是痘痘或疖子，然后变成全身性感染：从一个点扩散到全身。"
+      },
+      "teachingRelation": "contrast",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Bacterial Infections",
+          "pdfPage": 601,
+          "printedPage": "106"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - MRSA",
+          "pdfPage": 602,
+          "printedPage": "107"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 601,
+          "quote": "A local infection (LOKE-uhl in-FEK-shun), such as a pimple or abscess"
+        },
+        {
+          "pdfPage": 601,
+          "quote": "is confined to a particular part of the body and appears as a lesion containing pus."
+        },
+        {
+          "pdfPage": 601,
+          "quote": "is an infection where the pathogen has spread throughout the body rather than staying in one area or organ."
+        },
+        {
+          "pdfPage": 602,
+          "quote": "Without proper treatment, the infection becomes systemic"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-1d-03",
+      "question": {
+        "en": "Cleaning with soap and water is a",
+        "zh": "用肥皂和水清洁（cleaning）属于："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "heat-and-pressure process in an autoclave.",
+          "zh": "在高压灭菌器（autoclave）里用高温高压的过程。"
+        },
+        {
+          "id": "b",
+          "en": "chemical process that destroys most germs.",
+          "zh": "能消灭大多数病菌的化学过程。"
+        },
+        {
+          "id": "c",
+          "en": "chemical process that destroys all spores.",
+          "zh": "能消灭所有芽孢的化学过程。"
+        },
+        {
+          "id": "d",
+          "en": "mechanical process that removes dirt.",
+          "zh": "去除脏污的机械过程（mechanical process）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Cleaning uses soap or detergent, water, and scrubbing to remove dirt, debris, and many germs. Disinfecting is a chemical process. Sterilizing usually needs an autoclave.",
+        "zh": "cleaning（清洁）用肥皂或清洁剂、水和刷洗，去除脏污、残渣和许多病菌，是 mechanical process（机械过程）。disinfecting（消毒）是化学过程；sterilizing（灭菌）通常要用高压灭菌器。"
+      },
+      "lockPoint": {
+        "en": "Clean removes many germs, disinfect destroys most, sterilize destroys all. So cleaning is the lowest level.",
+        "zh": "清洁去除许多病菌，消毒消灭大多数，灭菌消灭全部。所以清洁是最低的一级。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Infection Control Vocabulary",
+          "pdfPage": 591,
+          "printedPage": "96"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Step 2: Disinfecting",
+          "pdfPage": 613,
+          "printedPage": "118"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 591,
+          "quote": "Cleaning is a mechanical process using soap and water or detergent and water to remove all visible dirt, debris, and many disease-causing germs."
+        },
+        {
+          "pdfPage": 591,
+          "quote": "Disinfecting is a chemical process for use with nonporous items"
+        },
+        {
+          "pdfPage": 591,
+          "quote": "Sterilizing is the process that destroys all microbial life, including spores, generally with the use of an autoclave."
+        },
+        {
+          "pdfPage": 613,
+          "quote": "disinfection is the process that eliminates most, but not necessarily all, microorganisms on nonporous surfaces."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-1d-04",
+      "question": {
+        "en": "How should a disinfectant be mixed and used?",
+        "zh": "消毒剂应该怎样调配和使用？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "A little stronger than the label says",
+          "zh": "比标签说的浓一点"
+        },
+        {
+          "id": "b",
+          "en": "Exactly as the manufacturer's instructions say",
+          "zh": "完全按照厂家的说明"
+        },
+        {
+          "id": "c",
+          "en": "A little weaker than the label says",
+          "zh": "比标签说的淡一点"
+        },
+        {
+          "id": "d",
+          "en": "Mixed with another disinfectant for strength",
+          "zh": "和另一种消毒剂混在一起加强效果"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Mixing a disinfectant weaker or stronger than the manufacturer's instructions can make it work much less well. Never mix chemicals unless the instructions say so.",
+        "zh": "消毒剂调得比厂家说明（manufacturer's instructions）更淡或更浓，都会让效果大大降低。除非说明书允许，绝不要把化学品混在一起。"
+      },
+      "lockPoint": {
+        "en": "Like a cake recipe: too much or too little ruins it. Stronger mixes can also damage implements.",
+        "zh": "就像做蛋糕的配方：放多放少都会做坏。调得太浓还会损坏工具。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Choosing a Disinfectant",
+          "pdfPage": 614,
+          "printedPage": "119"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Disinfectant Safety",
+          "pdfPage": 618,
+          "printedPage": "123"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 614,
+          "quote": "Improper mixing of disinfectants—to be weaker or more concentrated than the manufacturer’s instructions—can significantly reduce their effectiveness."
+        },
+        {
+          "pdfPage": 614,
+          "quote": "You must read and follow the manufacturer’s instructions whenever you are using a disinfectant."
+        },
+        {
+          "pdfPage": 614,
+          "quote": "disinfectants become more corrosive and damaging to implements."
+        },
+        {
+          "pdfPage": 618,
+          "quote": "Follow the manufacturer’s instructions for mixing, using, and disposing of disinfectants."
+        },
+        {
+          "pdfPage": 618,
+          "quote": "Mix chemicals together unless specified in the manufacturer’s instructions."
+        }
+      ],
+      "hookType": "comparison"
+    },
+    {
+      "id": "nic-1d-05",
+      "question": {
+        "en": "Leaving implements in a quat solution too long can",
+        "zh": "把工具在季铵盐消毒液（quat solution）里泡太久，可能会："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "sterilize them.",
+          "zh": "让它们达到灭菌。"
+        },
+        {
+          "id": "b",
+          "en": "make the solution stronger.",
+          "zh": "让消毒液变得更强。"
+        },
+        {
+          "id": "c",
+          "en": "dull or damage them.",
+          "zh": "让它们变钝或损坏。"
+        },
+        {
+          "id": "d",
+          "en": "make them rust-proof.",
+          "zh": "让它们不会生锈。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Quats usually disinfect implements in 10 minutes. Leaving tools in much longer can dull or damage them. Take them out on time, rinse if required, and dry them.",
+        "zh": "quats（季铵盐消毒剂）通常 10 分钟就能给工具消毒。泡得太久会让工具变钝或损坏。到时间就取出，需要时冲洗，再擦干。"
+      },
+      "lockPoint": {
+        "en": "A pickle left in vinegar too long goes soft. Tools left in quats too long go dull.",
+        "zh": "腌黄瓜在醋里泡太久会变软；工具在季铵盐消毒液里泡太久会变钝。"
+      },
+      "teachingRelation": "cause-effect",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Quats",
+          "pdfPage": 615,
+          "printedPage": "120"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 615,
+          "quote": "Quat solutions usually disinfect implements in 10 minutes."
+        },
+        {
+          "pdfPage": 615,
+          "quote": "leaving tools in a quat solution for prolonged periods can cause dulling or damage."
+        },
+        {
+          "pdfPage": 615,
+          "quote": "They should be removed from the solution after the specified period, rinsed (if required), dried, and stored in a clean, covered container."
+        },
+        {
+          "pdfPage": 615,
+          "quote": "also known as quats (KWATZ), are disinfectants that are very effective when used properly on nonporous surfaces."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-1d-06",
+      "question": {
+        "en": "How should you take cream out of a tub-type jar?",
+        "zh": "从罐装（tub-type）的容器里取乳霜，应该怎么做？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "With a clean spatula",
+          "zh": "用干净的刮勺（spatula）"
+        },
+        {
+          "id": "b",
+          "en": "With your clean fingertip",
+          "zh": "用你洗干净的指尖"
+        },
+        {
+          "id": "c",
+          "en": "With the client's fingers",
+          "zh": "用客人的手指"
+        },
+        {
+          "id": "d",
+          "en": "With the same spatula for all jars",
+          "zh": "所有罐子都用同一把刮勺"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Fingers can put germs into the product. Use a pump when you can. For a jar, use a clean spatula, never your fingers. Use a different spatula for each product.",
+        "zh": "手指会把病菌带进产品里。能用按压瓶就用按压瓶。罐装产品要用干净的 spatula（刮勺），绝不用手指。不同的产品要用不同的刮勺。"
+      },
+      "lockPoint": {
+        "en": "A wooden spatula that touches skin is thrown away. A metal one must be cleaned and disinfected first.",
+        "zh": "木刮勺碰到皮肤就要丢掉；金属刮勺必须先清洁、消毒才能再用。"
+      },
+      "teachingRelation": "action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Multiuse Products",
+          "pdfPage": 620,
+          "printedPage": "125"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Plastic, Wooden, or Metal Spatulas",
+          "pdfPage": 172,
+          "printedPage": "148"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 620,
+          "quote": "For products in a tub-type container, always use a clean spatula (disposable or disinfectable) to remove the product—never use your fingers."
+        },
+        {
+          "pdfPage": 620,
+          "quote": "Always use a pump or shaker to dispense products when possible."
+        },
+        {
+          "pdfPage": 172,
+          "quote": "never use the same spatula to remove unlike products from different containers"
+        },
+        {
+          "pdfPage": 172,
+          "quote": "Dispose of a wooden spatula when it comes into contact with your or the client’s skin."
+        },
+        {
+          "pdfPage": 172,
+          "quote": "comes into contact with your or the client’s skin, it must be properly cleaned and disinfected before being used again"
+        }
+      ],
+      "hookType": "contrast"
+    },
+    {
+      "id": "nic-1d-07",
+      "question": {
+        "en": "You drop a nipper on the floor during a service. What should you do?",
+        "zh": "服务中你把指甲钳（nipper）掉到地上了，该怎么办？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Wipe it on a towel and keep going",
+          "zh": "在毛巾上擦一擦继续用"
+        },
+        {
+          "id": "b",
+          "en": "Rinse it in water and keep going",
+          "zh": "用水冲一冲继续用"
+        },
+        {
+          "id": "c",
+          "en": "Spray it with alcohol and keep going",
+          "zh": "喷点酒精继续用"
+        },
+        {
+          "id": "d",
+          "en": "Replace it with a disinfected one",
+          "zh": "换一把已消毒的"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "A dropped tool must be replaced with a disinfected tool. Or stop the service and properly disinfect the dropped tool before you go on.",
+        "zh": "掉在地上的工具必须换成已消毒的工具；或者先停下服务，把掉落的工具正确消毒后再继续。"
+      },
+      "lockPoint": {
+        "en": "Keep an extra set of ready tools at your station, so a drop does not stop the service.",
+        "zh": "工作台上多备一套已消毒、随时能用的工具，掉了一把也不用停下服务。"
+      },
+      "teachingRelation": "condition-action",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Safe Work Practices",
+          "pdfPage": 624,
+          "printedPage": "129"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 624,
+          "quote": "If a tool or implement is dropped on the floor during a service, it must be replaced with a disinfected tool or you must stop the service and properly disinfect the tool that was dropped prior to continuing the service."
+        },
+        {
+          "pdfPage": 624,
+          "quote": "This is a good reason to keep an extra set of tools that are ready to use handy."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-1d-08",
+      "question": {
+        "en": "Can a UV light unit disinfect your implements?",
+        "zh": "UV 紫外线灯箱能给你的工具消毒吗？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Yes, in about 10 minutes",
+          "zh": "能，大约 10 分钟"
+        },
+        {
+          "id": "b",
+          "en": "No, it does not disinfect them",
+          "zh": "不能，它不能消毒"
+        },
+        {
+          "id": "c",
+          "en": "Yes, if the tools are wet",
+          "zh": "能，只要工具是湿的"
+        },
+        {
+          "id": "d",
+          "en": "Yes, and it sterilizes them too",
+          "zh": "能，而且还能灭菌"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "UV light units will not disinfect or sterilize implements. Most state rules require liquid disinfecting solutions.",
+        "zh": "UV light units（紫外线灯箱）不能给工具消毒，也不能灭菌。大多数州的规定要求使用液体消毒剂。"
+      },
+      "lockPoint": {
+        "en": "UV works only sometimes: dirt, heat, and the kind of germ change it. So it is not right for salons.",
+        "zh": "紫外线的效果不稳定：脏污、温度和病菌种类都会影响它，所以不适合在沙龙里用。"
+      },
+      "teachingRelation": "trap",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Say No to Sterilizers",
+          "pdfPage": 164,
+          "printedPage": "140"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Sterilizers Caution",
+          "pdfPage": 619,
+          "printedPage": "124"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 164,
+          "quote": "Additionally, UV light units will not disinfect or sterilize implements."
+        },
+        {
+          "pdfPage": 164,
+          "quote": "Most state rules require that you use liquid disinfecting solutions."
+        },
+        {
+          "pdfPage": 164,
+          "quote": "its germicidal effectiveness and use is influenced by organic matter; wavelength; type of suspension; temperature; type of microorganism; and UV intensity."
+        },
+        {
+          "pdfPage": 164,
+          "quote": "it is not appropriate for use in the salon environment."
+        },
+        {
+          "pdfPage": 619,
+          "quote": "UV light units will not disinfect or sterilize implements."
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-1d-09",
+      "question": {
+        "en": "Contact with blood or body fluid while you work is called",
+        "zh": "工作时接触到血液或体液，叫作："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "an exposure incident.",
+          "zh": "暴露事件（exposure incident）。"
+        },
+        {
+          "id": "b",
+          "en": "an occupational disease.",
+          "zh": "职业病（occupational disease）。"
+        },
+        {
+          "id": "c",
+          "en": "a contraindication.",
+          "zh": "禁忌症（contraindication）。"
+        },
+        {
+          "id": "d",
+          "en": "a systemic infection.",
+          "zh": "全身性感染（systemic infection）。"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "An exposure incident is contact with broken skin, blood, body fluid, or other possibly infectious material during your work. Then follow the exposure incident steps.",
+        "zh": "exposure incident（暴露事件）是指工作中接触到破损的皮肤、血液、体液或其他可能有传染性的物质。发生后要按暴露事件的步骤处理。"
+      },
+      "lockPoint": {
+        "en": "Afterward, wash your hands and scrub under your nails with a clean nail brush.",
+        "zh": "处理完以后，要洗手，并用干净的指甲刷刷洗指甲下面。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - An Exposure Incident",
+          "pdfPage": 623,
+          "printedPage": "128"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Procedure 5-1 Proper Hand Washing",
+          "pdfPage": 631,
+          "printedPage": "136"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 623,
+          "quote": "An exposure incident (eks-PO-zhoor IN-sih-dent) is contact with non-intact (broken) skin, blood, body fluid, or other potentially infectious materials that is the result of the performance of a worker’s duties."
+        },
+        {
+          "pdfPage": 631,
+          "quote": "Scrub your nails with a nail brush if product or debris is visible under your nails or if you are washing your hands following an exposure incident"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-1d-10",
+      "question": {
+        "en": "A metal pusher touched a client's blood. Before using it again, you must",
+        "zh": "金属推棒碰到了客人的血。再次使用前，你必须："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "wipe it with alcohol.",
+          "zh": "用酒精擦一擦。"
+        },
+        {
+          "id": "b",
+          "en": "rinse it under hot water.",
+          "zh": "用热水冲一冲。"
+        },
+        {
+          "id": "c",
+          "en": "clean it, then disinfect it.",
+          "zh": "先清洁，再消毒。"
+        },
+        {
+          "id": "d",
+          "en": "throw it away.",
+          "zh": "把它扔掉。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Multiuse implements can be cleaned, disinfected, and used again, even after touching blood. Salon disinfectants are made to work on blood and body fluids.",
+        "zh": "multiuse（可重复使用的）工具即使碰到血液，也可以清洁、消毒后再用。沙龙用的消毒剂就是用来对付血液和体液的。"
+      },
+      "lockPoint": {
+        "en": "After a client injury, also clean and disinfect the work surfaces, not just the tools.",
+        "zh": "客人受伤后，不只是工具，工作台面也要清洁和消毒。"
+      },
+      "teachingRelation": "sequence",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Chapter Glossary",
+          "pdfPage": 213,
+          "printedPage": "189"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Procedure 5-3 Client Injury",
+          "pdfPage": 638,
+          "printedPage": "143"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Procedure 5-3 Client Injury",
+          "pdfPage": 637,
+          "printedPage": "142"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Types of Disinfectants",
+          "pdfPage": 615,
+          "printedPage": "120"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 213,
+          "quote": "Reusable items that can be cleaned, disinfected, and used on more than one person, even if the item is accidentally exposed to blood or body fluid."
+        },
+        {
+          "pdfPage": 638,
+          "quote": "Properly clean and disinfect implements."
+        },
+        {
+          "pdfPage": 637,
+          "quote": "Remove all implements from the workstation and then clean and disinfect workstation surfaces."
+        },
+        {
+          "pdfPage": 615,
+          "quote": "disinfectants that are effective for cleaning blood and body fluids from nonporous"
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-1d-11",
+      "question": {
+        "en": "Who provides the Safety Data Sheet (SDS) for a product?",
+        "zh": "产品的安全数据表（SDS）由谁提供？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "The state board",
+          "zh": "州执照管理局（state board）"
+        },
+        {
+          "id": "b",
+          "en": "OSHA",
+          "zh": "OSHA（职业安全与健康管理局）"
+        },
+        {
+          "id": "c",
+          "en": "The EPA",
+          "zh": "EPA（美国环境保护署）"
+        },
+        {
+          "id": "d",
+          "en": "The product's manufacturer",
+          "zh": "产品的厂家"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "The manufacturer of the chemical provides the SDS for free. OSHA requires an SDS for every chemical used in the salon.",
+        "zh": "SDS（安全数据表）由化学品的厂家（manufacturer）免费提供。OSHA 要求沙龙里用到的每一种化学品都要有 SDS。"
+      },
+      "lockPoint": {
+        "en": "The maker knows what is inside, so the maker writes the SDS. You just ask for it.",
+        "zh": "厂家最清楚产品里有什么，所以 SDS 由厂家来写。你只需要向厂家要。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Interpret Safety Data Sheets",
+          "pdfPage": 669,
+          "printedPage": "174"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 669,
+          "quote": "are provided for free from the manufacturer of the chemical."
+        },
+        {
+          "pdfPage": 669,
+          "quote": "Having an SDS available for every chemical used in the salon is a requirement of OSHA."
+        },
+        {
+          "pdfPage": 669,
+          "quote": "The categories on the SDS are in a uniform format and order that must be followed by all manufacturers"
+        }
+      ],
+      "hookType": "reason-chain"
+    },
+    {
+      "id": "nic-1d-12",
+      "question": {
+        "en": "The best prevention for many bone and joint pains at work is",
+        "zh": "预防工作中很多骨骼和关节疼痛的最好方法是："
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "gripping implements very tightly.",
+          "zh": "把工具握得很紧。"
+        },
+        {
+          "id": "b",
+          "en": "proper ergonomics.",
+          "zh": "正确的人体工学（ergonomics）。"
+        },
+        {
+          "id": "c",
+          "en": "bending forward toward the client.",
+          "zh": "身体前倾靠近客人。"
+        },
+        {
+          "id": "d",
+          "en": "holding your arms away from your body.",
+          "zh": "手臂远离身体。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Ergonomics sets up your work, tools, and body movements to be comfortable and safe. Tight gripping, bending forward, and arms held far out are bad habits.",
+        "zh": "ergonomics（人体工学）让你的工作、工具和身体动作舒适又安全。握得太紧、身体前倾、手臂伸得太远，都是坏习惯。"
+      },
+      "lockPoint": {
+        "en": "Bend your wrist up and down 20 times: it tires fast. Repeated moves add up to injuries like carpal tunnel.",
+        "zh": "把手腕上下弯 20 次：很快就累了。重复的动作日积月累，会造成腕管综合征（carpal tunnel syndrome）这类损伤。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "The Healthy Professional - Back, Hip, and Foot Pain",
+          "pdfPage": 578,
+          "printedPage": "83"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "The Healthy Professional - Ergonomics",
+          "pdfPage": 583,
+          "printedPage": "88"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "The Healthy Professional - Proper Body Mechanics",
+          "pdfPage": 581,
+          "printedPage": "86"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 578,
+          "quote": "Proper ergonomics is the best prevention for many of the bone and joint pains associated with being a beauty professional."
+        },
+        {
+          "pdfPage": 583,
+          "quote": "Gripping or squeezing implements too tightly"
+        },
+        {
+          "pdfPage": 583,
+          "quote": "Holding your arms too far away from your body as you work"
+        },
+        {
+          "pdfPage": 583,
+          "quote": "Bending forward and/or twisting your body to get closer to your client"
+        },
+        {
+          "pdfPage": 583,
+          "quote": "Bending your wrist up or down repeatedly"
+        },
+        {
+          "pdfPage": 581,
+          "quote": "musculoskeletal disorders, including carpal tunnel syndrome (a wrist injury) and back injuries."
+        }
+      ],
+      "hookType": "body-cue"
+    },
+    {
+      "id": "nic-1d-13",
+      "question": {
+        "en": "How often should you use a fresh, clean towel?",
+        "zh": "多久要换一条新的干净毛巾？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "For each client",
+          "zh": "每位客人都换"
+        },
+        {
+          "id": "b",
+          "en": "Once each workday",
+          "zh": "每个工作日一次"
+        },
+        {
+          "id": "c",
+          "en": "Once each week",
+          "zh": "每周一次"
+        },
+        {
+          "id": "d",
+          "en": "Only when it looks dirty",
+          "zh": "只在看起来脏的时候"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Use clean towels and linens for each client. Wash them by the label and dry them fully, because damp towels can grow mildew and bacteria.",
+        "zh": "每位客人都要用干净的毛巾和布巾（linens）。按标签说明清洗并彻底烘干，因为潮湿的毛巾会长霉菌和细菌。"
+      },
+      "lockPoint": {
+        "en": "Keep used towels in a covered container, away from the clean ones.",
+        "zh": "用过的毛巾放进有盖的容器里，和干净的毛巾分开放。"
+      },
+      "teachingRelation": "safety-rule",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Cleaning Towels, Linens, and Capes",
+          "pdfPage": 620,
+          "printedPage": "125"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Client's Arm Cushion",
+          "pdfPage": 162,
+          "printedPage": "138"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 620,
+          "quote": "Clean towels and linens should be used for each client"
+        },
+        {
+          "pdfPage": 620,
+          "quote": "Items that are not dry may grow mildew and bacteria."
+        },
+        {
+          "pdfPage": 620,
+          "quote": "Store soiled linens and towels in covered or closed containers, away from clean linens and towels"
+        },
+        {
+          "pdfPage": 162,
+          "quote": "It must be covered with a fresh, clean towel for each client."
+        }
+      ],
+      "hookType": "real-life"
+    }
+  ]
+}

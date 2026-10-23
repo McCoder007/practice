@@ -422,6 +422,112 @@
           "quote": "These products are useful for thin and weak nail plates"
         }
       ]
+    },
+    {
+      "setId": "3C",
+      "word": "polymerization",
+      "sayIt": "pol-ih-mer-ih-ZAY-shun",
+      "translation": "聚合",
+      "partOfSpeech": "Noun",
+      "example": "Polymerization joins monomers into long chains called polymers.",
+      "exampleTranslation": "聚合把单体连接成长链，也就是聚合物。",
+      "evidence": [
+        {
+          "pdfPage": 146,
+          "quote": "The chemical reaction that makes polymers is called polymerization"
+        },
+        {
+          "pdfPage": 146,
+          "quote": "The individual molecules that join to make the polymer are called monomers"
+        }
+      ]
+    },
+    {
+      "setId": "3C",
+      "word": "universal solvent",
+      "translation": "万能溶剂",
+      "partOfSpeech": "Noun",
+      "example": "Water is the universal solvent: it dissolves the most substances.",
+      "exampleTranslation": "水是万能溶剂：它能溶解的物质最多。",
+      "evidence": [
+        {
+          "pdfPage": 655,
+          "quote": "Water is known as the universal solvent because it has the ability to dissolve more substances than any other solvent."
+        }
+      ]
+    },
+    {
+      "setId": "3C",
+      "word": "surfactant",
+      "sayIt": "sur-FAK-tunt",
+      "translation": "表面活性剂",
+      "partOfSpeech": "Noun",
+      "example": "Soap is a surfactant: it lets oil and water mix.",
+      "exampleTranslation": "肥皂是一种表面活性剂：它能让油和水混合。",
+      "evidence": [
+        {
+          "pdfPage": 656,
+          "quote": "are substances that allow oil and water to mix, or emulsify"
+        },
+        {
+          "pdfPage": 657,
+          "quote": "Soaps were the first surfactants."
+        }
+      ]
+    },
+    {
+      "setId": "3C",
+      "word": "fumes",
+      "translation": "烟雾",
+      "partOfSpeech": "Noun",
+      "example": "Fumes come from burning things, like candles and cigarettes.",
+      "exampleTranslation": "烟雾来自燃烧的东西，比如蜡烛和香烟。",
+      "evidence": [
+        {
+          "pdfPage": 140,
+          "quote": "They usually result from burning substances, such as candles, incense, cigarettes"
+        },
+        {
+          "pdfPage": 140,
+          "quote": "Fumes (FYOOMZ) are a blend of soot-like particles mixed with vapors."
+        }
+      ]
+    },
+    {
+      "setId": "3C",
+      "word": "vapors",
+      "translation": "蒸气",
+      "partOfSpeech": "Noun",
+      "example": "Monomer liquid forms vapors when it evaporates into the air.",
+      "exampleTranslation": "单体液蒸发到空气中时会形成蒸气。",
+      "evidence": [
+        {
+          "pdfPage": 140,
+          "quote": "Vapors (VAY-purs) are formed when liquids evaporate"
+        },
+        {
+          "pdfPage": 140,
+          "quote": "Monomer liquids (even odorless monomer), UV gels, wrap resins, and adhesives all form vapors"
+        }
+      ]
+    },
+    {
+      "setId": "3C",
+      "word": "film former",
+      "translation": "成膜剂",
+      "partOfSpeech": "Noun",
+      "example": "A film former in topcoat leaves a hard, shiny film.",
+      "exampleTranslation": "亮油里的成膜剂会留下一层坚硬、光亮的膜。",
+      "evidence": [
+        {
+          "pdfPage": 177,
+          "quote": "Typically the main ingredients are methacrylic or cellulose-type film formers."
+        },
+        {
+          "pdfPage": 177,
+          "quote": "create hard, shiny, or matte films after the solvent has evaporated"
+        }
+      ]
     }
   ],
   "lookAlikes": [

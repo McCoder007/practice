@@ -2,21 +2,21 @@
 
 New practice questions written from Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020). They follow the 8 content areas of the NIC National Nail Technology Theory Examination outline (effective Sept 1, 2025; revised March 1, 2026).
 
-- `sets/<setId>-<slug>.json`: one file per 20-question set.
+- `sets/<setId>-<slug>.json`: one file per set. Main sets have 20 questions. Each topic except 4 and 8 also has a short **More Key Facts** catch-up set (5–19 questions) with facts the main sets missed, found by checking the old banks and the NIC outline (see `docs/exam-outline-coverage.md`).
 - `npm run validate:nic-domain-practice`: format and style checks (runs anywhere).
 - `npm run verify:nic-domain-evidence -- <pages.jsonl>`: confirms every quote is on its cited textbook page (local only; see the script header for making `pages.jsonl`).
 
-## Set plan (23 sets, 460 questions)
+## Set plan (29 sets, 525 questions)
 
 | Area (exam weight) | Sets |
 |---|---|
-| 1. Infection Control and Safety (15%) | 1A disease and how it spreads · 1B levels of infection control, single/multi-use, blood exposure · 1C chemical safety, SDS, reactions, ventilation, ergonomics |
-| 2. Anatomy and Physiology (15%) | 2A nail structure and growth · 2B nail disorders · 2C skin structure and disorders · 2D bones, muscles, joints of arms, hands, legs, feet |
-| 3. Chemistry of Nail Products (10%) | 3A basic chemistry · 3B ingredients and harmful ingredients |
+| 1. Infection Control and Safety (15%) | 1A disease and how it spreads · 1B levels of infection control, single/multi-use, blood exposure · 1C chemical safety, SDS, reactions, ventilation, ergonomics · 1D more key facts (13) |
+| 2. Anatomy and Physiology (15%) | 2A nail structure and growth · 2B nail disorders · 2C skin structure and disorders · 2D bones, muscles, joints of arms, hands, legs, feet · 2E more key facts (15) |
+| 3. Chemistry of Nail Products (10%) | 3A basic chemistry · 3B ingredients and harmful ingredients · 3C more key facts (6) |
 | 4. Pre-Service (5%) | 4A consultation, contraindications, setup, hand washing |
-| 5. Nail Service Tools (13%) | 5A equipment · 5B implements and safe use · 5C supplies and products |
-| 6. Manicure and Pedicure (18%) | 6A manicure steps · 6B massage · 6C pedicure care · 6D polish and add-on services |
-| 7. Nail Enhancements (20%) | 7A tips, forms, wraps · 7B monomer/polymer · 7C soft, hard, hybrid gels · 7D dip, maintenance, removal · 7E problems and fixes (lifting, cracking, yellowing, heat spikes) |
+| 5. Nail Service Tools (13%) | 5A equipment · 5B implements and safe use · 5C supplies and products · 5D more key facts (7) |
+| 6. Manicure and Pedicure (18%) | 6A manicure steps · 6B massage · 6C pedicure care · 6D polish and add-on services · 6E more key facts (11) |
+| 7. Nail Enhancements (20%) | 7A tips, forms, wraps · 7B monomer/polymer · 7C soft, hard, hybrid gels · 7D dip, maintenance, removal · 7E problems and fixes (lifting, cracking, yellowing, heat spikes) · 7F more key facts (13) |
 | 8. Post-Service (4%) | 8A aftercare, client education, cleaning and disinfection |
 
 ## Accuracy rules

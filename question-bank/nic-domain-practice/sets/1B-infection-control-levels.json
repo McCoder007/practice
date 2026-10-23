@@ -708,8 +708,8 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Mix a fresh bleach solution every 24 hours, or sooner if it gets contaminated. Date the container so it is thrown out daily, never saved for the next day.",
-        "zh": "漂白水消毒液每 24 小时重新调配一次，被污染了就提早换。在容器上写日期，每天倒掉，不留到第二天。"
+        "en": "Household bleach (sodium hypochlorite) solution must be mixed fresh every 24 hours, or sooner if it gets contaminated. Date the container and throw it out daily.",
+        "zh": "家用漂白水（household bleach，成分是 sodium hypochlorite 次氯酸钠）消毒液每 24 小时重新调配一次，被污染了就提早换。在容器上写日期，每天倒掉。"
       },
       "lockPoint": {
         "en": "Diluted bleach breaks down as it sits, faster in heat and light. One day, then pour it out.",
@@ -722,6 +722,12 @@
           "section": "Infection Control - Bleach",
           "pdfPage": 617,
           "printedPage": "122"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Infection Control - Bleach",
+          "pdfPage": 616,
+          "printedPage": "121"
         }
       ],
       "evidence": [
@@ -732,6 +738,10 @@
         {
           "pdfPage": 617,
           "quote": "Store the bleach solution away from heat and light."
+        },
+        {
+          "pdfPage": 616,
+          "quote": "Household bleach, 5.25 percent sodium hypochlorite"
         }
       ],
       "hookType": "reason-chain"

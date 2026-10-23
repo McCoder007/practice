@@ -1,0 +1,469 @@
+{
+  "schemaVersion": "1.0.0",
+  "setId": "3C",
+  "domain": {
+    "id": "chemistry",
+    "order": 3,
+    "title": {
+      "en": "Chemistry of Nail Products",
+      "zh": "美甲产品化学"
+    },
+    "examWeightPercent": 10
+  },
+  "title": {
+    "en": "More Key Facts",
+    "zh": "更多重点"
+  },
+  "status": "reviewed",
+  "authoredAt": "2026-10-23",
+  "sourceBook": "Milady Standard Nail Technology 8th Edition + Milady Standard Foundations (2020)",
+  "review": {
+    "reviewedAt": "2026-10-23",
+    "checks": [
+      "quotes found on cited pages (verify-nic-domain-evidence.py)",
+      "blind answer check: 6/6 matched key; reworded stems and choices re-checked blind",
+      "content, level-2 English and Chinese review: fixes applied",
+      "memory hooks fact-checked against cited pages: fixes applied",
+      "overlap check against all 460 earlier questions and the other catch-up sets: overlapping items dropped",
+      "written to fill gaps found in docs/exam-outline-coverage.md"
+    ]
+  },
+  "questions": [
+    {
+      "id": "nic-3c-01",
+      "question": {
+        "en": "The chemical reaction that joins monomers into polymers is called",
+        "zh": "把单体（monomers）连接成聚合物（polymers）的化学反应叫什么？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "evaporation.",
+          "zh": "蒸发（evaporation）。"
+        },
+        {
+          "id": "b",
+          "en": "polymerization.",
+          "zh": "聚合（polymerization）。"
+        },
+        {
+          "id": "c",
+          "en": "condensation.",
+          "zh": "冷凝（condensation）。"
+        },
+        {
+          "id": "d",
+          "en": "neutralization.",
+          "zh": "中和（neutralization）。"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Polymerization is the chemical reaction that makes polymers. Monomers join into very long chains. Milady says cure, curing, and hardening mean the same thing.",
+        "zh": "polymerization（聚合）就是生成聚合物的化学反应：单体连成很长的链。Milady 说 cure、curing、hardening（固化、变硬）都是同一个意思。"
+      },
+      "lockPoint": {
+        "en": "Monomers are like runners waiting at the start line. The initiator gives the signal, and they don't stop.",
+        "zh": "单体像站在起跑线上等待的赛跑选手：引发剂（initiator）一发信号，它们就一直跑到终点，不会停。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Monomers and Polymers",
+          "pdfPage": 146,
+          "printedPage": "122"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Chapter Glossary",
+          "pdfPage": 155,
+          "printedPage": "131"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 146,
+          "quote": "The chemical reaction that makes polymers is called polymerization"
+        },
+        {
+          "pdfPage": 146,
+          "quote": "Sometimes the terms cure, curing, or hardening are used, but they all have the same meaning."
+        },
+        {
+          "pdfPage": 146,
+          "quote": "Monomers are like track runners milling about at the starting line"
+        },
+        {
+          "pdfPage": 155,
+          "quote": "Also known as curing or hardening; a chemical reaction that creates polymers."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-3c-02",
+      "question": {
+        "en": "Water is called the universal solvent because it",
+        "zh": "水被称为万能溶剂（universal solvent），是因为它——"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "mixes well with oils and waxes.",
+          "zh": "能和油、蜡很好地混合。"
+        },
+        {
+          "id": "b",
+          "en": "never turns into a vapor.",
+          "zh": "永远不会变成蒸气。"
+        },
+        {
+          "id": "c",
+          "en": "speeds up every chemical reaction.",
+          "zh": "能加快所有化学反应。"
+        },
+        {
+          "id": "d",
+          "en": "dissolves more substances than any other solvent.",
+          "zh": "能溶解的物质比任何其他溶剂都多。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Water can dissolve more substances than any other solvent. In salt water, water is the solvent and salt is the solute.",
+        "zh": "水能溶解的物质比任何其他溶剂（solvent）都多。在盐水里，水是溶剂，盐是溶质（solute）。"
+      },
+      "lockPoint": {
+        "en": "Universal does not mean everything. Water dissolves salt, but not oil.",
+        "zh": "“万能”不等于什么都能溶：水能溶解盐，却溶解不了油。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Solutions",
+          "pdfPage": 655,
+          "printedPage": "160"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Surfactants",
+          "pdfPage": 657,
+          "printedPage": "162"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 655,
+          "quote": "Water is known as the universal solvent because it has the ability to dissolve more substances than any other solvent."
+        },
+        {
+          "pdfPage": 655,
+          "quote": "when salt is dissolved in water, salt is the solute and water is the solvent"
+        },
+        {
+          "pdfPage": 657,
+          "quote": "solvents dissolve chemically similar solutes (for example, water dissolves salt but not oil)"
+        }
+      ],
+      "hookType": "name-trap"
+    },
+    {
+      "id": "nic-3c-03",
+      "question": {
+        "en": "Soaps were the first of which type of ingredient?",
+        "zh": "肥皂是最早的哪一类成分？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Surfactants",
+          "zh": "表面活性剂（surfactants）"
+        },
+        {
+          "id": "b",
+          "en": "Solvents",
+          "zh": "溶剂（solvents）"
+        },
+        {
+          "id": "c",
+          "en": "Catalysts",
+          "zh": "催化剂（catalysts）"
+        },
+        {
+          "id": "d",
+          "en": "Plasticizers",
+          "zh": "增塑剂（plasticizers）"
+        }
+      ],
+      "correctChoice": "a",
+      "explanation": {
+        "en": "Surfactants are substances that let oil and water mix. They are one type of emulsifier. Soaps were the first surfactants.",
+        "zh": "surfactants（表面活性剂）是能让油和水混合的物质，是乳化剂（emulsifier）的一种。肥皂就是最早的表面活性剂。"
+      },
+      "lockPoint": {
+        "en": "A surfactant is like a rope with two ends: the head holds water, the tail holds oil.",
+        "zh": "表面活性剂像一根两头的绳子：头部亲水（抓住水），尾部亲油（抓住油），把油和水连在一起。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Surfactants",
+          "pdfPage": 656,
+          "printedPage": "161"
+        },
+        {
+          "source": "Milady Standard Foundations",
+          "section": "Chemistry & Chemical Safety - Did You Know? (soaps)",
+          "pdfPage": 657,
+          "printedPage": "162"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 657,
+          "quote": "Soaps were the first surfactants."
+        },
+        {
+          "pdfPage": 656,
+          "quote": "are substances that allow oil and water to mix, or emulsify"
+        },
+        {
+          "pdfPage": 656,
+          "quote": "As such, they are one type of emulsifier."
+        },
+        {
+          "pdfPage": 656,
+          "quote": "capable of combining with or attracting water (water loving)"
+        },
+        {
+          "pdfPage": 656,
+          "quote": "having an affinity for or an attraction to fat and oils (oil loving)"
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-3c-04",
+      "question": {
+        "en": "In nail chemistry, fumes are a blend of",
+        "zh": "在美甲化学中，fumes（烟雾）是由什么混合而成的？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "filing dust and polymer powder.",
+          "zh": "锉甲粉尘和聚合物粉末。"
+        },
+        {
+          "id": "b",
+          "en": "water and acetone vapors.",
+          "zh": "水和丙酮的蒸气。"
+        },
+        {
+          "id": "c",
+          "en": "soot-like particles and vapors.",
+          "zh": "类似烟灰的颗粒和蒸气。"
+        },
+        {
+          "id": "d",
+          "en": "monomer liquid and oxygen.",
+          "zh": "单体液和氧气。"
+        }
+      ],
+      "correctChoice": "c",
+      "explanation": {
+        "en": "Fumes are soot-like particles mixed with vapors. They usually come from burning things, like candles, incense, and cigarettes. Liquids that evaporate make vapors, not fumes.",
+        "zh": "fumes（烟雾）是类似烟灰的颗粒混合着蒸气，通常来自燃烧，比如蜡烛、熏香和香烟。液体蒸发只产生蒸气（vapors），不是烟雾。"
+      },
+      "lockPoint": {
+        "en": "Soot is the black dust a candle flame leaves. Fumes = soot + vapor. No soot? Then it's just vapor.",
+        "zh": "soot（烟灰）就是蜡烛火焰留下的黑灰。烟雾 = 烟灰 + 蒸气；没有烟灰，就只是蒸气。"
+      },
+      "teachingRelation": "definition",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Gases, Vapors, and Fumes",
+          "pdfPage": 140,
+          "printedPage": "116"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Chapter Glossary",
+          "pdfPage": 155,
+          "printedPage": "131"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 140,
+          "quote": "Fumes (FYOOMZ) are a blend of soot-like particles mixed with vapors."
+        },
+        {
+          "pdfPage": 140,
+          "quote": "They usually result from burning substances, such as candles, incense, cigarettes"
+        },
+        {
+          "pdfPage": 140,
+          "quote": "Vapors (VAY-purs) are formed when liquids evaporate"
+        },
+        {
+          "pdfPage": 155,
+          "quote": "A blend of soot-like particles mixed with vapors."
+        }
+      ],
+      "hookType": "picture"
+    },
+    {
+      "id": "nic-3c-05",
+      "question": {
+        "en": "The main ingredients in most topcoats are",
+        "zh": "大多数亮油（topcoat）的主要成分是"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "monomers and oligomers.",
+          "zh": "单体和寡聚物（oligomers）。"
+        },
+        {
+          "id": "b",
+          "en": "sodium hydroxide and glycerin.",
+          "zh": "氢氧化钠和甘油。"
+        },
+        {
+          "id": "c",
+          "en": "protein, such as collagen.",
+          "zh": "蛋白质，例如胶原蛋白。"
+        },
+        {
+          "id": "d",
+          "en": "methacrylic or cellulose-type film formers.",
+          "zh": "甲基丙烯酸类或纤维素类成膜剂（film formers）。"
+        }
+      ],
+      "correctChoice": "d",
+      "explanation": {
+        "en": "Topcoats use film formers, usually methacrylic or cellulose types. After the solvent evaporates, they leave a hard, shiny, or matte film. Topcoats contain no monomers or oligomers.",
+        "zh": "亮油（topcoat）用的是成膜剂（film formers），通常是甲基丙烯酸类或纤维素类。溶剂蒸发后，留下坚硬、亮面或哑光的膜。亮油不含单体或寡聚物。"
+      },
+      "lockPoint": {
+        "en": "Film former: the name tells the job. Like hairspray, it leaves a hard film when the liquid dries.",
+        "zh": "film former（成膜剂）：名字就说明了作用——形成膜。就像发胶，液体干了就留下一层硬膜。"
+      },
+      "teachingRelation": "category",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Topcoat",
+          "pdfPage": 177,
+          "printedPage": "153"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Evaporation Coatings",
+          "pdfPage": 149,
+          "printedPage": "125"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 177,
+          "quote": "Typically the main ingredients are methacrylic or cellulose-type film formers."
+        },
+        {
+          "pdfPage": 177,
+          "quote": "create hard, shiny, or matte films after the solvent has evaporated"
+        },
+        {
+          "pdfPage": 149,
+          "quote": "they contain no monomers or oligomers"
+        },
+        {
+          "pdfPage": 149,
+          "quote": "Artist paints and hairsprays work in the same fashion."
+        }
+      ],
+      "hookType": "real-life"
+    },
+    {
+      "id": "nic-3c-06",
+      "question": {
+        "en": "Which ingredient is key to how fast polish dries?",
+        "zh": "哪种成分是决定指甲油干得多快的关键？"
+      },
+      "choices": [
+        {
+          "id": "a",
+          "en": "Pigment",
+          "zh": "色素（pigment）"
+        },
+        {
+          "id": "b",
+          "en": "Solvent",
+          "zh": "溶剂（solvent）"
+        },
+        {
+          "id": "c",
+          "en": "Plasticizer",
+          "zh": "增塑剂（plasticizer）"
+        },
+        {
+          "id": "d",
+          "en": "UV stabilizer",
+          "zh": "紫外线稳定剂（UV stabilizer）"
+        }
+      ],
+      "correctChoice": "b",
+      "explanation": {
+        "en": "Solvent is the key ingredient for how fast polish dries and how thick it is. Pigments give color, and plasticizers keep it flexible.",
+        "zh": "solvent（溶剂）是决定指甲油干燥速度和稠度的关键成分。色素提供颜色，增塑剂让它保持柔韧。"
+      },
+      "lockPoint": {
+        "en": "More solvent → faster drying: that's how fast-dry topcoat works. Polish dryer drops pull solvent out, too.",
+        "zh": "溶剂越多 → 干得越快：快干亮油就是这样做的。指甲油干燥剂（polish dryer）则是把溶剂“拉”出来。"
+      },
+      "teachingRelation": "association",
+      "authorityRefs": [
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Manicuring - Fast-Dry Topcoat",
+          "pdfPage": 177,
+          "printedPage": "153"
+        },
+        {
+          "source": "Milady Standard Nail Technology",
+          "section": "Nail Product Chemistry - Evaporation Coatings",
+          "pdfPage": 149,
+          "printedPage": "125"
+        }
+      ],
+      "evidence": [
+        {
+          "pdfPage": 177,
+          "quote": "Solvent is the key ingredient in determining how quickly the polish dries as well as the thickness of the product."
+        },
+        {
+          "pdfPage": 177,
+          "quote": "Quick-dry topcoats use higher levels of solvent, which evaporates quickly."
+        },
+        {
+          "pdfPage": 177,
+          "quote": "They promote rapid drying by pulling solvents from the nail polish"
+        },
+        {
+          "pdfPage": 149,
+          "quote": "This film can hold pigments, which give it color."
+        },
+        {
+          "pdfPage": 149,
+          "quote": "which are used to keep the products flexible"
+        }
+      ],
+      "hookType": "reason-chain"
+    }
+  ]
+}

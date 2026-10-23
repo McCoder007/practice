@@ -10,6 +10,7 @@ export default function QuestionWordsPage() {
       storageKey="exam-question-words"
       backHref={NAIL_EXAM_PRACTICE_HREF}
       backTitle={NAIL_EXAM_PRACTICE_TITLE}
+      shuffle
     />
   )
 }

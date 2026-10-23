@@ -595,6 +595,68 @@
           "quote": "safety glasses should be worn whenever those types of products are used or poured"
         }
       ]
+    },
+    {
+      "setId": "5D",
+      "word": "rings of fire",
+      "translation": "火圈",
+      "partOfSpeech": "Noun",
+      "example": "Rings of fire are red marks a bit's edge cuts into nails.",
+      "exampleTranslation": "火圈是磨头边缘在指甲上割出的红色痕迹。",
+      "evidence": [
+        {
+          "pdfPage": 275,
+          "quote": "Red marks cut into the nail by filing product with the front edge of the bit at an incorrect angle"
+        }
+      ]
+    },
+    {
+      "setId": "5D",
+      "word": "parallel",
+      "sayIt": "PAIR-uh-lel",
+      "translation": "平行",
+      "partOfSpeech": "Adjective",
+      "example": "Keep the bit parallel to the nail to avoid rings of fire.",
+      "exampleTranslation": "让磨头与指甲保持平行，就能避免火圈。",
+      "evidence": [
+        {
+          "pdfPage": 273,
+          "quote": "Keep the bit parallel to the nail."
+        }
+      ]
+    },
+    {
+      "setId": "5D",
+      "word": "dust mask",
+      "translation": "防尘口罩",
+      "partOfSpeech": "Noun",
+      "example": "Always wear an N95 dust mask when you file nails.",
+      "exampleTranslation": "锉磨指甲时一定要戴 N95 防尘口罩。",
+      "evidence": [
+        {
+          "pdfPage": 271,
+          "quote": "you should always wear an appropriate N95 rated dust mask when filing"
+        }
+      ]
+    },
+    {
+      "setId": "5D",
+      "word": "non-acetone",
+      "sayIt": "non-AS-uh-tone",
+      "translation": "无丙酮",
+      "partOfSpeech": "Adjective",
+      "example": "Use non-acetone remover to take polish off wraps.",
+      "exampleTranslation": "卸包甲上的指甲油时，用无丙酮洗甲水。",
+      "evidence": [
+        {
+          "pdfPage": 174,
+          "quote": "so they are preferred when removing nail polish from nail enhancements such as wraps"
+        },
+        {
+          "pdfPage": 315,
+          "quote": "non-acetone polish remover to remove existing nail polish from all nails and to avoid damaging nail wraps"
+        }
+      ]
     }
   ],
   "lookAlikes": [

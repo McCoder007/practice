@@ -44,8 +44,8 @@ Learners are Chinese-speaking ESL students at about level 2 who take the NIC exa
 
 ## Which words
 
-- **8–12 words per set**, in the set's order. Pick the hard exam terms a learner must know to read and answer that set's questions: technical names, disorders, product and tool names, process words. Skip everyday words a level-2 learner knows (hand, water, clean).
-- **Each word appears once in the whole bank.** If two sets use it, it goes in the first set.
+- **8–12 words per set** (3–12 for a short More Key Facts set), in the set's order. Pick the hard exam terms a learner must know to read and answer that set's questions: technical names, disorders, product and tool names, process words. Skip everyday words a level-2 learner knows (hand, water, clean).
+- **Each word appears once in the whole bank.** If two sets use it, it goes in the first set. Exception: a More Key Facts set may hold a word an earlier set mentions in passing when that earlier set already has 12 cards.
 - **Use the exact spelling the questions use**, and the same Chinese term the questions' `zh` text uses for it.
 
 ## Each card

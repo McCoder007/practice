@@ -12,6 +12,7 @@ import type { ReelCard, ReelSection, ReelTitle } from "@/data/word-reel/types"
 import { initializeAnalytics, logWordInteraction } from "@/lib/analytics"
 import { clearAudioQueue, playText, playTextQueued, playTextSlow, preloadTexts, warmAudioSession } from "@/lib/tts"
 import { getBackgroundByIndex } from "@/lib/word-reel-backgrounds"
+import { reelSectionStarts, reelStartIndex, shuffleReelSections } from "@/lib/word-reel-order"
 import { cn } from "@/lib/utils"
 
 type Item =
@@ -24,13 +25,16 @@ const SWIPE_MS = 300
  * Full-screen swipe reel. Cards are grouped into named sections (e.g. one per
  * question set). There is no wrap-around: the last card leads to an end card.
  * The reel remembers the last card seen; `?section=<id>` in the URL starts at a section.
+ * With `shuffle`, cards come in a new order inside each section on every visit
+ * (and on "Start again"), and a return visit starts at the section where the learner stopped.
  */
 export function SectionWordReel({
   title,
-  sections,
+  sections: sourceSections,
   storageKey,
   backHref,
   backTitle,
+  shuffle = false,
 }: {
   title: ReelTitle
   sections: ReelSection[]
@@ -38,10 +42,14 @@ export function SectionWordReel({
   storageKey: string
   backHref: string
   backTitle: LocalizedText
+  /** New card order inside each section on every visit. */
+  shuffle?: boolean
 }) {
   const { language } = useLanguage()
   const japanese = language === "japanese"
 
+  // The fixed order renders first (it matches the static page); the shuffle happens on the client.
+  const [sections, setSections] = useState(sourceSections)
   const items = useMemo((): Item[] => {
     const list: Item[] = []
     sections.forEach((section, sectionIndex) => {
@@ -51,15 +59,7 @@ export function SectionWordReel({
     return list
   }, [sections])
   const cardCount = items.length - 1
-  const sectionStarts = useMemo(() => {
-    const starts: number[] = []
-    let offset = 0
-    for (const section of sections) {
-      starts.push(offset)
-      offset += section.cards.length
-    }
-    return starts
-  }, [sections])
+  const sectionStarts = useMemo(() => reelSectionStarts(sections), [sections])
 
   const [ready, setReady] = useState(false)
   const [index, setIndex] = useState(0)
@@ -83,17 +83,15 @@ export function SectionWordReel({
 
   // Start at ?section=..., else where the learner stopped, else the first card.
   useEffect(() => {
+    const ordered = shuffle ? shuffleReelSections(sourceSections) : sourceSections
+    if (shuffle) setSections(ordered)
     let start = 0
     try {
-      const sectionId = new URLSearchParams(window.location.search).get("section")
-      const sectionIndex = sectionId ? sections.findIndex((s) => s.id === sectionId) : -1
-      if (sectionIndex >= 0) {
-        start = sectionStarts[sectionIndex]
-      } else {
-        const savedId = localStorage.getItem(positionKey)
-        const saved = items.findIndex((item) => item.kind === "card" && item.card.id === savedId)
-        if (saved >= 0) start = saved
-      }
+      start = reelStartIndex(ordered, {
+        sectionId: new URLSearchParams(window.location.search).get("section"),
+        savedCardId: localStorage.getItem(positionKey),
+        shuffled: shuffle,
+      })
       if (localStorage.getItem(autoSpeakKey) === "true") setAutoSpeak(true)
     } catch {
       // Storage can be unavailable (private mode); start at the beginning.
@@ -373,7 +371,10 @@ export function SectionWordReel({
             <button
               type="button"
               onMouseDown={(e) => e.stopPropagation()}
-              onClick={() => jumpTo(0)}
+              onClick={() => {
+                if (shuffle) setSections(shuffleReelSections(sourceSections))
+                jumpTo(0)
+              }}
               className="flex items-center justify-center gap-2 rounded-full bg-white px-6 py-3 text-lg font-semibold text-slate-900 shadow-lg"
             >
               <RotateCcw className="size-5" aria-hidden />
