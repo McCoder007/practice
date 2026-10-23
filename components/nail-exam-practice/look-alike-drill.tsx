@@ -33,8 +33,27 @@ function speak(text: string) {
   }
 }
 
+/** Small speaker button that reads English text aloud. */
+function SpeakButton({ text, label, className }: { text: string; label: string; className?: string }) {
+  return (
+    <button
+      type="button"
+      onClick={() => speak(text)}
+      className={cn(
+        "flex size-10 shrink-0 items-center justify-center rounded-full text-slate-500 hover:bg-slate-100 hover:text-sky-600 dark:hover:bg-slate-800",
+        className,
+      )}
+      aria-label={label}
+    >
+      <Volume2 className="size-5" aria-hidden />
+    </button>
+  )
+}
+
 export function LookAlikeDrill() {
   const { showChinese } = useExamQuizPreferences()
+  // "English | 中文" when Chinese is on, English only when it is off.
+  const bi = (en: string, zh: string) => (showChinese ? `${en} | ${zh}` : en)
   const [topicFilter, setTopicFilter] = useState<string>("all")
   const [phase, setPhase] = useState<Phase>({ kind: "setup" })
 
@@ -101,10 +120,13 @@ export function LookAlikeDrill() {
         </div>
 
         <div className="rounded-3xl border-2 border-sky-200 bg-white p-5 shadow-sm dark:border-sky-900/60 dark:bg-slate-900">
-          <p className="text-base font-medium text-slate-500 dark:text-slate-400">
-            Which word means:{showChinese && " | 哪个词的意思是："}
-          </p>
-          <p className="mt-2 text-2xl leading-snug font-bold text-slate-900 dark:text-white">{target.meaning.en}</p>
+          <div className="flex items-start justify-between gap-2">
+            <p className="text-base font-medium text-slate-500 dark:text-slate-400">
+              Which word means:{showChinese && " | 哪个词的意思是："}
+            </p>
+            <SpeakButton text={`Which word means: ${target.meaning.en}`} label="Hear the question" className="-mt-2 -mr-2" />
+          </div>
+          <p className="mt-1 text-2xl leading-snug font-bold text-slate-900 dark:text-white">{target.meaning.en}</p>
           {showChinese && <p className="mt-1 text-lg text-slate-500 dark:text-slate-400">{target.meaning.zh}</p>}
         </div>
 
@@ -131,7 +153,8 @@ export function LookAlikeDrill() {
                     <span className="block text-xl font-semibold text-slate-900 dark:text-white">{item.word}</span>
                     {answered && (
                       <span className="mt-0.5 block text-base text-slate-600 dark:text-slate-300">
-                        {item.translation} · {item.meaning.en}
+                        {showChinese && <>{item.translation} · </>}
+                        {item.meaning.en}
                         {showChinese && <span className="block text-sm text-slate-500 dark:text-slate-400">{item.meaning.zh}</span>}
                       </span>
                     )}
@@ -141,7 +164,8 @@ export function LookAlikeDrill() {
                 </button>
                 <button
                   type="button"
-                  onClick={() => speak(item.word)}
+                  // Before answering: just the word. After: the word and what it means.
+                  onClick={() => speak(answered ? `${item.word}. ${item.meaning.en}` : item.word)}
                   className="flex w-12 shrink-0 items-center justify-center rounded-2xl border-2 border-slate-200 bg-white text-slate-500 hover:text-sky-600 dark:border-slate-700 dark:bg-slate-900"
                   aria-label={`Hear ${item.word}`}
                 >
@@ -155,22 +179,25 @@ export function LookAlikeDrill() {
         {answered && (
           <>
             <p className={cn("text-center text-xl font-bold", correct ? "text-emerald-700 dark:text-emerald-400" : "text-rose-600 dark:text-rose-400")}>
-              {correct ? "Correct! | 答对了！" : `It's ${target.word}. | 正确答案是 ${target.word}。`}
+              {correct ? bi("Correct!", "答对了！") : bi(`It's ${target.word}.`, `正确答案是 ${target.word}。`)}
             </p>
             <div className="rounded-2xl border-2 border-amber-200 bg-amber-50 p-4 dark:border-amber-900/50 dark:bg-amber-950/30">
-              <p className="flex items-center gap-2 text-sm font-semibold tracking-wide text-amber-800 uppercase dark:text-amber-300">
-                <Lightbulb className="size-4" aria-hidden />
-                Remember | 记住
-              </p>
+              <div className="flex items-center justify-between gap-2">
+                <p className="flex items-center gap-2 text-sm font-semibold tracking-wide text-amber-800 uppercase dark:text-amber-300">
+                  <Lightbulb className="size-4" aria-hidden />
+                  {bi("Remember", "记住")}
+                </p>
+                <SpeakButton text={prompt.group.tip.en} label="Hear the tip" className="-my-2 -mr-2 hover:bg-amber-100 dark:hover:bg-amber-900/40" />
+              </div>
               <p className="mt-1.5 text-lg leading-snug text-slate-900 dark:text-white">{prompt.group.tip.en}</p>
-              <p className="mt-1 text-base text-slate-600 dark:text-slate-300">{prompt.group.tip.zh}</p>
+              {showChinese && <p className="mt-1 text-base text-slate-600 dark:text-slate-300">{prompt.group.tip.zh}</p>}
             </div>
             <button
               type="button"
               onClick={next}
               className="min-h-14 rounded-2xl bg-sky-600 px-4 py-3 text-lg font-semibold text-white shadow-sm hover:bg-sky-700"
             >
-              {isLast ? "See my score | 查看成绩" : "Next | 下一题"}
+              {isLast ? bi("See my score", "查看成绩") : bi("Next", "下一题")}
             </button>
           </>
         )}
@@ -186,7 +213,7 @@ export function LookAlikeDrill() {
           {score} / {phase.total}
         </h1>
         <p className="text-center text-lg text-slate-600 dark:text-slate-300">
-          {phase.missed.length === 0 ? "Perfect! | 全对！" : `You missed ${phase.missed.length}. | 错了 ${phase.missed.length} 题。`}
+          {phase.missed.length === 0 ? bi("Perfect!", "全对！") : bi(`You missed ${phase.missed.length}.`, `错了 ${phase.missed.length} 题。`)}
         </p>
         {phase.missed.length > 0 && (
           <button
@@ -194,7 +221,7 @@ export function LookAlikeDrill() {
             onClick={() => start(phase.missed.map((p) => ({ ...p, order: [...p.order].reverse() })))}
             className="min-h-14 rounded-2xl bg-rose-600 px-4 py-3 text-lg font-semibold text-white shadow-sm hover:bg-rose-700"
           >
-            Try the missed ones again | 再练错题
+            {bi("Try the missed ones again", "再练错题")}
           </button>
         )}
         <button
@@ -202,14 +229,14 @@ export function LookAlikeDrill() {
           onClick={() => startRound()}
           className="min-h-14 rounded-2xl bg-sky-600 px-4 py-3 text-lg font-semibold text-white shadow-sm hover:bg-sky-700"
         >
-          New round | 再来一轮
+          {bi("New round", "再来一轮")}
         </button>
         <button
           type="button"
           onClick={() => setPhase({ kind: "setup" })}
           className="min-h-12 rounded-2xl border-2 border-slate-200 bg-white px-4 py-3 text-lg font-semibold text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200"
         >
-          Choose a topic | 选择主题
+          {bi("Choose a topic", "选择主题")}
         </button>
       </>,
     )
@@ -237,7 +264,7 @@ export function LookAlikeDrill() {
 
       {LOOK_ALIKE_GROUP_COUNT === 0 ? (
         <p className="rounded-2xl bg-white p-4 text-lg text-slate-600 shadow-sm dark:bg-slate-900 dark:text-slate-300">
-          Coming soon. | 即将推出。
+          {bi("Coming soon.", "即将推出。")}
         </p>
       ) : (
         <>
