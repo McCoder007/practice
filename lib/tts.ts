@@ -69,8 +69,27 @@ export function playText(text: string) {
   }
 }
 
+/**
+ * Play text slowly (default 0.75x) for pronunciation practice.
+ * Same voice and pitch as playText, just slower.
+ */
+export function playTextSlow(text: string, rate = 0.75) {
+  if (typeof window === 'undefined' || !text) return
+  stopTTS();
+  clearQueue();
+
+  if (window.googleTTS?.speakSlow) {
+    window.googleTTS.speakSlow(text, rate).catch(error => {
+      console.error("Google TTS failed, falling back to browser TTS:", error);
+      playBrowserTTS(text, 0.9 * rate);
+    });
+  } else if ('speechSynthesis' in window) {
+    playBrowserTTS(text, 0.9 * rate);
+  }
+}
+
 // Helper function for browser TTS logic
-function playBrowserTTS(text: string) {
+function playBrowserTTS(text: string, rate = 0.9) {
   const synth = window.speechSynthesis;
 
   synth.cancel();
@@ -85,7 +104,7 @@ function playBrowserTTS(text: string) {
     utterance.lang = 'en-US';
   }
 
-  utterance.rate = 0.9;
+  utterance.rate = rate;
   utterance.pitch = 1;
   utterance.volume = 1;
 

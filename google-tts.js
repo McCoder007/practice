@@ -179,7 +179,8 @@ class GoogleTTSManager {
     // Play audio using the persistent Audio element (reused for iOS compatibility).
     // On iOS, reusing the same element that was "unlocked" by a user gesture allows
     // programmatic .play() calls even after the audio session has been suspended.
-    playAudioFromBase64(base64Data) {
+    // `rate` slows playback (e.g. 0.75) without changing the voice's pitch.
+    playAudioFromBase64(base64Data, rate = 1) {
         return new Promise((resolve, reject) => {
             try {
                 // Stop any current playback on the persistent element and resolve pending promises
@@ -228,6 +229,10 @@ class GoogleTTSManager {
                 };
 
                 audio.src = audioSrc;
+                // Set the speed after src: loading new audio resets playbackRate.
+                audio.preservesPitch = true;
+                audio.defaultPlaybackRate = rate;
+                audio.playbackRate = rate;
                 this.isPlaying = true;
 
                 const playPromise = audio.play();
@@ -250,7 +255,7 @@ class GoogleTTSManager {
     }
 
     // Call Google Text-to-Speech API
-    async synthesizeSpeech(text, isPreInit = false) {
+    async synthesizeSpeech(text, isPreInit = false, rate = 1) {
         // Check if API key is set
         if (!this.apiKey) {
             console.warn('Google TTS API key not set. Using browser TTS fallback.');
@@ -258,7 +263,7 @@ class GoogleTTSManager {
                 return false;
             }
             return new Promise((resolve, reject) => {
-                const utterance = this.browserTTS.speak(stripSsmlToPlain(text));
+                const utterance = this.browserTTS.speak(stripSsmlToPlain(text), 0.9 * rate);
                 if (utterance) {
                     utterance.onend = () => resolve();
                     utterance.onerror = (event) => reject(new Error(`Browser TTS error: ${event.error}`));
@@ -275,7 +280,7 @@ class GoogleTTSManager {
                 return false;
             }
             return new Promise((resolve, reject) => {
-                const utterance = this.browserTTS.speak(stripSsmlToPlain(text));
+                const utterance = this.browserTTS.speak(stripSsmlToPlain(text), 0.9 * rate);
                 if (utterance) {
                     utterance.onend = () => resolve();
                     utterance.onerror = (event) => reject(new Error(`Browser TTS error: ${event.error}`));
@@ -288,7 +293,7 @@ class GoogleTTSManager {
         // Check cache first (skip for pre-init)
         if (!isPreInit && this.audioCache[text]) {
             try {
-                await this.playAudioFromBase64(this.audioCache[text]);
+                await this.playAudioFromBase64(this.audioCache[text], rate);
                 this.isInitialized = true;
                 return true;
             } catch (error) {
@@ -346,7 +351,7 @@ class GoogleTTSManager {
             }
 
             // Play the audio
-            await this.playAudioFromBase64(data.audioContent);
+            await this.playAudioFromBase64(data.audioContent, rate);
             return true;
 
         } catch (error) {
@@ -358,7 +363,7 @@ class GoogleTTSManager {
 
             // Fall back to browser TTS
             return new Promise((resolve, reject) => {
-                const utterance = this.browserTTS.speak(stripSsmlToPlain(text));
+                const utterance = this.browserTTS.speak(stripSsmlToPlain(text), 0.9 * rate);
                 if (utterance) {
                     utterance.onend = () => resolve();
                     utterance.onerror = (event) => reject(new Error(`Browser TTS error: ${event.error}`));
@@ -372,6 +377,11 @@ class GoogleTTSManager {
     // Public method to speak text
     speak(text) {
         return this.synthesizeSpeech(text);
+    }
+
+    // Same voice, played slower (default 0.75x) for pronunciation practice.
+    speakSlow(text, rate = 0.75) {
+        return this.synthesizeSpeech(text, false, rate);
     }
 
     // Sanitize text for HTML attributes
