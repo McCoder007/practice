@@ -278,8 +278,8 @@
         "zh": "contagious disease（传染性疾病）会人传人，也叫 communicable disease（可传染疾病）。例如普通感冒、ringworm（癣）和 pinkeye（红眼病）。"
       },
       "lockPoint": {
-        "en": "Contagious shares an old root with contact (touch). It passes person to person; also called communicable.",
-        "zh": "传染：染 = 染色。疾病像染料一样，从一个人染到另一个人。"
+        "en": "One child brings a cold home, then the whole family has it. That's a contagious disease.",
+        "zh": "contagious disease（传染病）：“染”像染色，病从一个人染到另一个人。比如一个孩子把感冒带回家，全家都感冒了。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -296,7 +296,7 @@
           "quote": "When a disease is capable of being spread from one person to another, it is said to be a contagious disease (kon-TAY-jus diz-EEZ), also known as a communicable"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "real-life"
     },
     {
       "id": "nic-1a-06",
@@ -548,8 +548,8 @@
         "zh": "inflammation（炎症）是身体组织对受伤、刺激或感染的反应，表现为发红、发热、疼痛和肿胀。"
       },
       "lockPoint": {
-        "en": "Inflammation comes from an old word for \"set on fire.\" Think flame: red and hot.",
-        "zh": "炎 = 两个火。炎症就像身体里着了火：红、热、痛、肿。"
+        "en": "Inflammation looks like \"flame\": red and hot, like a small fire in the body.",
+        "zh": "inflammation（炎症）：炎 = 两个火。炎症就像身体里着了火：红、热、痛、肿。"
       },
       "teachingRelation": "list",
       "authorityRefs": [
@@ -566,7 +566,7 @@
           "quote": "Inflammation is characterized by redness, heat, pain, and/or swelling."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "word-link"
     },
     {
       "id": "nic-1a-11",
@@ -598,14 +598,14 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Immunity is the body's ability to fight off germs. Natural immunity is partly inherited. Acquired immunity comes after an illness or a vaccine, like a flu shot.",
+        "en": "Immunity is the body's ability to fight off germs. Natural immunity partly comes from your parents. Acquired immunity comes after an illness or a vaccine, like a flu shot.",
         "zh": "immunity（免疫）是身体抵抗病菌的能力。natural immunity（自然免疫）部分来自遗传。acquired immunity（获得性免疫）来自生过病并康复，或打过疫苗，例如流感疫苗。"
       },
       "lockPoint": {
-        "en": "Immunity comes from Latin for \"exempt.\" 免疫 means the same: exempt from epidemics.",
-        "zh": "免疫 = 免（免除）+ 疫（瘟疫）：免于疫病。疫苗的“疫”就是这个字。"
+        "en": "Immunity = 免疫 in Chinese: 免 = free from, 疫 = sickness. Your body keeps sickness out.",
+        "zh": "immunity（免疫）= 免（免除）+ 疫（瘟疫）：免于疫病。疫苗的“疫”就是这个字。"
       },
-      "hookType": "word-origin",
+      "hookType": "chinese-character",
       "teachingRelation": "definition",
       "authorityRefs": [
         {
@@ -1072,7 +1072,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Despite its name, ringworm is not a worm. It is a contagious fungal skin infection that makes round, ring-shaped patches.",
+        "en": "The name says worm, but ringworm is not a worm. It is a contagious fungal skin infection that makes round, ring-shaped patches.",
         "zh": "ringworm（癣）虽然名字里有 worm（虫），但它不是虫，而是一种会传染的真菌性皮肤感染，会形成圆形的环状斑块。"
       },
       "lockPoint": {
@@ -1126,12 +1126,12 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Scabies is a contagious skin disease caused by the itch mite, a parasite that burrows under the skin. Do not serve the client; refer them to a doctor.",
+        "en": "Scabies is a contagious skin disease caused by the itch mite, a parasite that digs under the skin. Do not serve the client; refer them to a doctor.",
         "zh": "scabies（疥疮）是由 itch mite（疥螨）引起的传染性皮肤病。疥螨是一种会钻到皮肤下面的寄生虫。不要为这位顾客服务，应建议对方去看医生。"
       },
       "lockPoint": {
-        "en": "Scabies comes from an old word for \"scratch\": a tiny mite digs under the skin and makes you itch.",
-        "zh": "疥螨的“螨”是虫字旁：一种钻进皮肤、让人发痒的小虫。"
+        "en": "Scabies: the itch mite is a tiny animal, almost too small to see, digging tunnels under the skin.",
+        "zh": "scabies（疥疮）由 itch mite（疥螨）引起：“螨”是虫字旁，一种小得几乎看不见、在皮肤下挖隧道的小虫。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -1152,7 +1152,7 @@
           "quote": "Services should never be performed on a customer with visible signs of a parasitic infestation."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "picture"
     }
   ],
   "review": {

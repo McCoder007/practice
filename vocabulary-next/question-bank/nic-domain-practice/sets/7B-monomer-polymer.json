@@ -61,8 +61,8 @@
         "zh": "液体和粉等量是 dry bead（干球）；液体是粉的两倍是 wet bead（湿球）。medium bead（中球）介于两者之间，通常是最理想的 mix ratio（液粉比）。"
       },
       "lockPoint": {
-        "en": "Medium comes from Latin medius, 'middle': halfway between dry (1 to 1) and wet (2 to 1).",
-        "zh": "medium 来自拉丁语 medius，意思是“中间”：正好在干球（1:1）和湿球（2:1）的中间。"
+        "en": "Like T-shirt sizes S, M, L: medium sits in the middle. Dry 1:1, medium 1.5:1, wet 2:1.",
+        "zh": "就像 T 恤尺码 S、M、L：medium（中号）在中间。dry bead（干球）1:1，medium bead（中球）1.5:1，wet bead（湿球）2:1。"
       },
       "teachingRelation": "number",
       "authorityRefs": [
@@ -87,7 +87,7 @@
           "quote": "In general, medium beads are the ideal mix ratio for working with monomer liquids and polymer powders."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "real-life"
     },
     {
       "id": "nic-7b-02",
@@ -185,7 +185,7 @@
         "zh": "理想的水晶球圆润有光泽，放在纸托上会稍微摊开但不会流动。周围有干粉说明液体太少；会滴落说明太湿。"
       },
       "lockPoint": {
-        "en": "Picture a dab of thick hair gel on a plate: round, glossy, slumps a little, then holds.",
+        "en": "Picture a dab of thick hair gel on a plate: round, glossy, spreads a little, then holds.",
         "zh": "想象盘子上的一小坨发胶：圆润有光泽，稍微摊开，然后就定住不动。"
       },
       "teachingRelation": "definition",
@@ -245,11 +245,11 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Odorless products still have a slight odor. If others in the salon can't detect it, it is called odorless; if they notice a slight odor, it is called low odor.",
+        "en": "Odorless products still have a slight odor. If others in the salon can't smell it, it is called odorless; if they notice a slight odor, it is called low odor.",
         "zh": "odorless（无味）产品其实仍有轻微气味。店里其他人闻不出来，就叫无味；能闻到一点，就叫 low odor（低味）。"
       },
       "lockPoint": {
-        "en": "Name trap: odorless liquids swap the usual ethyl monomer for low-smell monomers. The scent is faint, not gone.",
+        "en": "Name trap: odorless liquids swap the usual ethyl monomer for low-smell monomers. The smell is weak, not gone.",
         "zh": "名字陷阱：odorless 产品把常用的乙基单体换成气味很淡的单体。味道变淡了，但没有消失。"
       },
       "teachingRelation": "trap",
@@ -369,8 +369,8 @@
         "zh": "acid-free primer（无酸结合剂）分子的一端和指甲蛋白结合，另一端在单体固化时和单体结合，所以 Milady 把它比作双面胶。"
       },
       "lockPoint": {
-        "en": "Primer comes from prime, likely from Latin primus 'first': it's the first coat under the product.",
-        "zh": "primer 来自 prime，很可能源自拉丁语 primus（第一）：它是产品下面的第一层。"
+        "en": "Like primer paint on a wall before the color: a thin layer that helps the product stick to the nail.",
+        "zh": "就像刷墙时先刷的底漆：薄薄一层，帮产品牢牢粘在指甲上。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -387,7 +387,7 @@
           "quote": "One end of the primer molecule chemically bonds to the nail protein in the natural nail; the other end of the molecule is a methacrylate, so it bonds to the monomer liquid as it cures. Think of this as a two-sided sticky tape."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "comparison"
     },
     {
       "id": "nic-7b-07",
@@ -483,7 +483,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Primer improves adhesion, so it is especially useful when a client has oily nail plates, where adhesion is a problem. Use it sparingly; one thin coat is enough for most clients.",
+        "en": "Primer improves adhesion, so it is especially useful when a client has oily nail plates, where adhesion is a problem. Use only a little; one thin coat is enough for most clients.",
         "zh": "primer（结合剂）能增强附着，所以对甲面偏油、不容易附着的客人特别有用。要少量使用，大多数客人一薄层就够了。"
       },
       "lockPoint": {
@@ -615,12 +615,12 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Acid-based primer is corrosive and can cause serious, sometimes irreversible, damage to skin and eyes. Always wear protective gloves and safety eyewear.",
+        "en": "Acid-based primer is corrosive and can cause serious damage, sometimes for life, to skin and eyes. Always wear protective gloves and safety eyewear.",
         "zh": "acid-based primer（酸性结合剂）有腐蚀性，可能对皮肤和眼睛造成严重、有时无法逆转的伤害。务必戴防护手套和护目镜。"
       },
       "lockPoint": {
-        "en": "Corrosive comes from Latin corrodere, 'to gnaw away': acid primer can burn and scar skin and eyes.",
-        "zh": "corrosive（腐蚀性）来自拉丁语 corrodere，意思是“啃掉”：酸性结合剂会灼伤皮肤和眼睛，留下疤痕。"
+        "en": "Corrosive = it eats away, like rust on metal. Acid primer can eat skin and harm eyes.",
+        "zh": "corrosive（腐蚀性）= 一点点吃掉，就像金属生锈。“蚀”字是“饣（吃）+ 虫”：像虫子在啃。酸性结合剂会腐蚀皮肤、伤害眼睛。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -637,7 +637,7 @@
           "quote": "Acid-based nail primers are very effective but can cause serious—and sometimes irreversible—damage to the skin and eyes. Never use acid-based nail primer or any other corrosive material without wearing protective gloves and safety eyewear."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "comparison"
     },
     {
       "id": "nic-7b-11",
@@ -673,8 +673,8 @@
         "zh": "认为指甲要磨粗产品才粘得住，是一种误解。甲面干净、干燥时附着最好，所以只需去掉表面光泽。甲面越薄，基础越弱。"
       },
       "lockPoint": {
-        "en": "Milady: the nail tech's first duty is to keep the nail plate thick, strong, and healthy.",
-        "zh": "Milady 说：美甲师的第一职责，是让甲面保持厚实、坚固、健康。"
+        "en": "Milady: the nail tech's first job is to keep the nail plate thick, strong, and healthy.",
+        "zh": "Milady 说：美甲师的第一要务，是让甲面保持厚实、坚固、健康。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -739,8 +739,8 @@
         "zh": "MMA 在卸甲液里不容易溶解，所以通常被从甲面上硬撬下来，造成更多损伤。指甲上不能使用 MMA。"
       },
       "lockPoint": {
-        "en": "MMA is the liquid in surgeons' bone cement for fixing artificial joints: built to stay put, not soak off.",
-        "zh": "MMA 是外科骨水泥的液体成分，用来固定人工关节：它就是要牢牢不动，而不是被泡掉。"
+        "en": "MMA is in bone cement that holds new hip joints in place: built to stay, not soak off.",
+        "zh": "MMA 是骨水泥的成分，用来把人工髋关节固定住：它就是要牢牢不动，而不是被泡掉。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -871,8 +871,8 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Natural hair absorbs and holds monomer like a reservoir. Synthetic brushes don't pick up enough liquid or release it properly, and size 12 to 16 brushes hold too much.",
-        "zh": "天然毛能像水库一样吸住并保存单体液。合成毛吸不够单体液，放液也不顺畅；而 12 到 16 号的大笔又吸得太多。"
+        "en": "Natural hair absorbs and holds monomer like a sponge. Synthetic brushes don't pick up enough liquid or let it out well, and size 12 to 16 brushes hold too much.",
+        "zh": "天然毛能像海绵一样吸住并保存单体液。合成毛吸不够单体液，放液也不顺畅；而 12 到 16 号的大笔又吸得太多。"
       },
       "lockPoint": {
         "en": "Gel uses a nylon brush; acrylic uses natural hair. The most common acrylic brush is a #8 oval.",
@@ -1133,7 +1133,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "The enhancement should graduate smoothly from the cuticle to the end, with the sidewalls and edge credit-card thin. Thin nails are comfortable; the apex gives the strength.",
+        "en": "The enhancement should flow smoothly from the cuticle to the end, with the sidewalls and edge credit-card thin. Thin nails are comfortable; the apex gives the strength.",
         "zh": "美甲延长应从甲小皮处平滑过渡到末端，两侧和前缘像信用卡一样薄。薄才舒服，强度靠甲峰提供。"
       },
       "lockPoint": {

@@ -116,7 +116,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Record the service, products used, observations, and retail recommendations on the client service form or computer record.",
+        "en": "Record the service, products used, what you noticed, and retail recommendations on the client service form or computer record.",
         "zh": "把服务内容、用过的产品、观察到的情况和零售推荐，记录在 client service form（客人服务记录表）或电脑记录里。"
       },
       "lockPoint": {
@@ -620,7 +620,7 @@
         "zh": "拆下 impeller covers（叶轮盖）和其他可拆部件，用液体皂（liquid soap）、干净消毒过的刷子和温水，刷洗部件和它们后面的地方，去掉所有残留物。"
       },
       "lockPoint": {
-        "en": "Residue hides behind impeller covers, and foot spas can harbor sticky biofilm there.",
+        "en": "Residue hides behind impeller covers, and foot spas can hold sticky biofilm there.",
         "zh": "残留物藏在叶轮盖后面，足浴盆里会长出黏黏的生物膜（biofilm）。"
       },
       "teachingRelation": "list",
@@ -688,8 +688,8 @@
         "zh": "每天营业结束时，用 chelating detergent（螯合清洁剂）循环 5 到 10 分钟，分解顽固膜层和足疗产品残留。然后排水、冲洗、注水，再消毒。"
       },
       "lockPoint": {
-        "en": "Chelate comes from Greek for a crab’s claw: it grabs the minerals in hard water.",
-        "zh": "螯 = 螃蟹的大钳子：螯合剂像蟹钳一样，夹住硬水里的矿物质。"
+        "en": "Chelating detergent grabs the minerals in hard water, like a crab claw, so cleaning still works.",
+        "zh": "螯 = 螃蟹的大钳子：chelating detergent（螯合清洁剂）像蟹钳一样，夹住硬水里的矿物质，让清洁照样有效。"
       },
       "teachingRelation": "association",
       "authorityRefs": [
@@ -726,7 +726,7 @@
           "quote": "are specially formulated to work in areas with hard tap water."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "picture"
     },
     {
       "id": "nic-8a-12",
@@ -892,7 +892,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Many states require salons to record the time and date of each pedicure disinfection in a log for accountability. Check your state’s rules.",
+        "en": "Many states require salons to record the time and date of each pedicure disinfection in a log as proof. Check your state’s rules.",
         "zh": "很多州要求店家在足疗消毒记录本（disinfection log）里，写下每次消毒的时间和日期，以备查核。要查本州规定。"
       },
       "lockPoint": {

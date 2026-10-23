@@ -48,7 +48,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "The table is cleaned and disinfected after every client, so its surface must be hard and impenetrable, such as Formica or glass, and kept clear of clutter.",
+        "en": "The table is cleaned and disinfected after every client, so its surface must be hard and impenetrable, such as Formica or glass, and kept clear of extra items.",
         "zh": "每位顾客之后都要清洁并消毒桌面，所以桌面必须坚硬、不渗透，例如 Formica（福米加防火板）或玻璃，并保持整洁。"
       },
       "lockPoint": {
@@ -106,7 +106,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Fluorescent bulbs emit cooler light and do not heat objects under the lamp. Heat from a high-watt incandescent bulb can make some enhancement products cure too fast, causing cracking and lifting.",
+        "en": "Fluorescent bulbs give off cooler light and do not heat objects under the lamp. Heat from a high-watt incandescent bulb can make some enhancement products cure too fast, causing cracking and lifting.",
         "zh": "荧光灯光线较凉，不会烤热灯下的东西。高瓦数白炽灯（incandescent bulb）的热量会让某些加固产品固化太快，导致开裂和翘起（lifting）。"
       },
       "lockPoint": {
@@ -174,7 +174,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "The technician's chair has wheels to move around and hydraulics to adjust height. The client's chair should not have wheels; it is unstable and can cause falls for elderly or weak clients.",
+        "en": "The technician's chair has wheels to move around and can go up and down. The client's chair should not have wheels; it can roll and make older or weak clients fall.",
         "zh": "美甲师的椅子有轮子方便移动，有液压（hydraulics）可调高度。顾客的椅子不应有轮子：不稳，年长或体弱的顾客可能摔倒。"
       },
       "lockPoint": {
@@ -232,7 +232,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "A finger bowl holds warm water to soften the skin and cuticle. Plastic, metal, glass, or ceramic all work, but it must be durable and easy to clean and disinfect after each client.",
+        "en": "A finger bowl holds warm water to soften the skin and cuticle. Plastic, metal, glass, or ceramic all work, but it must be strong and easy to clean and disinfect after each client.",
         "zh": "泡手碗盛温水，用来软化皮肤和死皮（cuticle）。塑料、金属、玻璃或陶瓷都可以，但必须耐用，并且每位顾客用后容易清洁和消毒。"
       },
       "lockPoint": {
@@ -300,7 +300,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "It must hold enough disinfectant to completely immerse several service sets. Containers that cannot submerge the entire implement, including handles, are not acceptable. Keep it closed when not in use.",
+        "en": "It must hold enough disinfectant to fully cover several service sets. Containers that cannot cover the entire implement, including handles, are not acceptable. Keep it closed when not in use.",
         "zh": "它要装足够的消毒液，能完全浸没好几套工具（service sets）。不能把整件工具（包括手柄）浸没的容器不能用。不用时要盖好。"
       },
       "lockPoint": {
@@ -560,8 +560,8 @@
         "zh": "扭力（torque）是机器的力量，也就是打磨时受压仍能继续转动的能力。高扭力机器在较低转速下就能做更多。手柄一受压就变慢或停转，说明转速太低。"
       },
       "lockPoint": {
-        "en": "Torque comes from Latin torquere, to twist: the force that keeps the bit turning. 扭 = twist, too.",
-        "zh": "torque 来自拉丁语 torquere（扭转）：让磨头一直转下去的力。中文“扭力”的“扭”也是扭转。"
+        "en": "Torque = twisting power (扭力). Like opening a stuck jar lid: you need strength, not speed.",
+        "zh": "torque（扭力）：扭 = 拧，力 = 力量。就像拧开一个很紧的瓶盖，要的是力气，不是速度。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -586,7 +586,7 @@
           "quote": "If your handpiece slows down or stops rotating when you apply pressure, you are working at too low a speed."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "comparison"
     },
     {
       "id": "nic-5a-10",
@@ -622,8 +622,8 @@
         "zh": "与修脚椅相连、接好水管的按摩浴盆（whirlpool bath）不能移动；有的直接接冷热水和下水道。普通盆和用软管注水的按摩盆都可以移动。"
       },
       "lockPoint": {
-        "en": "Plumbed comes from Latin plumbum, lead: old water pipes were lead. Pipes in the wall can't travel.",
-        "zh": "plumbed 来自拉丁语 plumbum（铅），古代水管用铅做。接进墙里的水管搬不走。"
+        "en": "Plumbed = joined to the water pipes, like a bathtub. You can't pick up a bathtub and move it.",
+        "zh": "fully plumbed（接好水管的）按摩浴盆就像家里的浴缸：水管接进墙里和下水道，搬不走。"
       },
       "teachingRelation": "category",
       "authorityRefs": [
@@ -648,7 +648,7 @@
           "quote": "The bath is filled from the sink through attachable hoses."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "comparison"
     },
     {
       "id": "nic-5a-11",
@@ -684,7 +684,7 @@
         "zh": "积热来自：用力太大（常因转速太低）、用天然甲抛光磨头时转速太高，或磨头在同一处停留太久。要经常抬起磨头。"
       },
       "lockPoint": {
-        "en": "Hold a hot iron still on a shirt and it scorches. Keep the bit moving and lifting.",
+        "en": "Hold a hot iron still on a shirt and it burns a mark. Keep the bit moving and lifting.",
         "zh": "熨斗在衬衫上停着不动就会烫焦。磨头也要不停移动、经常抬起。"
       },
       "teachingRelation": "association",
@@ -746,12 +746,12 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Hold the handpiece like a pencil, with a firm, steady grip that is not so tight your hands cramp. Rest your forearms on the table and brace with a pinky as the fulcrum.",
+        "en": "Hold the handpiece like a pencil, with a firm, steady grip that is not so tight your hands hurt. Rest your forearms on the table and steady your hands with your pinky as the fulcrum.",
         "zh": "像握铅笔一样握手柄，握得稳但不要太紧，否则手会抽筋。前臂放在桌上，用小指当支点（fulcrum）稳住双手。"
       },
       "lockPoint": {
-        "en": "Fulcrum is Latin for a prop: your pinky props one hand against the other, like a seesaw's pivot.",
-        "zh": "fulcrum 在拉丁语里是“支撑物”：小指把两只手撑在一起，就像跷跷板中间的支点。"
+        "en": "Write your name with a pencil now: firm and steady, not squeezing. Hold the handpiece the same way.",
+        "zh": "现在拿笔写自己的名字：握得稳、握得牢，但不用死捏。拿 handpiece（手柄）也一样，太紧手会抽筋。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -790,7 +790,7 @@
           "quote": "Keep the handpiece parallel to the nail."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "body-cue"
     },
     {
       "id": "nic-5a-13",
@@ -884,8 +884,8 @@
         "zh": "RPM = revolutions per minute（每分钟转数），即磨头一分钟转几整圈。在机器转速范围的中间档工作，电机更耐用。"
       },
       "lockPoint": {
-        "en": "Revolution and revolve share Latin revolvere, 'to roll back': one revolution is one full turn of the bit.",
-        "zh": "revolution 和 revolve（旋转）同源，都来自拉丁语 revolvere（re- 回 + volvere 滚动）：一个 revolution 就是磨头转一整圈。"
+        "en": "RPM = Revolutions Per Minute. Like the speed on a car: you rarely drive at the top number.",
+        "zh": "RPM = revolutions per minute（每分钟转数）：R = 转圈，P = 每，M = 分钟。就像汽车的速度表，很少开到最高速度。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -906,7 +906,7 @@
           "quote": "Working in the middle range of its capacity prolongs the working life of the motor."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "real-acronym"
     },
     {
       "id": "nic-5a-15",
@@ -942,7 +942,7 @@
         "zh": "同心磨头（concentric bit）是平衡的，柄（shank）正对磨头中心，所以不晃也不震。晃动的磨头会损坏手柄和顾客的指甲。"
       },
       "lockPoint": {
-        "en": "Con = together, centric = center. Head and shank share one center, so it spins true.",
+        "en": "Con = together, centric = center. Head and shank share one center, so it spins without wobbling.",
         "zh": "con = 共同，centric = 中心。头和柄共用一个圆心，转起来就稳。同心 = 同一个圆心。"
       },
       "teachingRelation": "definition",
@@ -1010,8 +1010,8 @@
         "zh": "绝不能在真甲上用钨钢磨头（carbide bit），它的刃槽（flutes）是用来削掉加固产品的。硅胶磨头和麂皮、山羊毛等天然磨头只是轻轻抛光真甲。"
       },
       "lockPoint": {
-        "en": "Carbide flutes shave like a tiny wood plane: made for hard product, too harsh for a thin natural nail.",
-        "zh": "钨钢刃槽像一把小刨子，专削硬的产品；对薄薄的真甲太狠了。"
+        "en": "Carbide flutes shave like a tiny potato peeler: made for hard product, too harsh for a thin natural nail.",
+        "zh": "钨钢刃槽像一把小削皮刀，专削硬的产品；对薄薄的真甲太狠了。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -1144,7 +1144,7 @@
         "zh": "UL（Underwriters Laboratories，美国保险商实验室）认证电器，如 UV 灯、修脚椅、电热手套和打磨机，按厂家说明使用时是安全的。"
       },
       "lockPoint": {
-        "en": "UL = Underwriters Laboratories. Underwriters are insurers: they paid for fires, so they wanted devices tested.",
+        "en": "UL = Underwriters Laboratories. Underwriters are insurance companies: they paid for fires, so they wanted devices tested.",
         "zh": "UL = Underwriters Laboratories。underwriter 指保险商：火灾要他们赔钱，所以他们要求电器先测试。"
       },
       "teachingRelation": "definition",
@@ -1198,11 +1198,11 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "The round third prong is a grounding pin. It gives electricity a safe path and protects the user from shock, even if a wire comes loose. Never alter it to fit a two-prong outlet.",
+        "en": "The round third prong is a grounding pin. It gives electricity a safe path and protects the user from shock, even if a wire comes loose. Never change it to fit a two-prong outlet.",
         "zh": "第三个圆插脚是接地插脚（grounding pin），给电流一条安全通路，即使电线松脱也能防止使用者触电。绝不要改动它去插两孔插座。"
       },
       "lockPoint": {
-        "en": "Ground means the earth. The third prong gives stray current a road to the ground, not through your body.",
+        "en": "Ground means the earth. The third prong gives leaking electricity a road to the ground, not through your body.",
         "zh": "接地 = 接到大地。第三个插脚给漏出来的电一条通往大地的路，而不是穿过你的身体。"
       },
       "teachingRelation": "definition",
@@ -1266,7 +1266,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "A fuse prevents excessive current from passing through a circuit. A wire too small for its current overheats; the fuse melts first. Circuit breakers do the same job and can be reset.",
+        "en": "A fuse stops too much current from passing through a circuit. A wire too small for its current overheats; the fuse melts first. Circuit breakers do the same job and can be reset.",
         "zh": "保险丝防止过量电流通过电路。电线太细、承载不了电流就会过热，保险丝会先熔断。断路器（circuit breaker）作用相同，跳闸后可以复位。"
       },
       "lockPoint": {

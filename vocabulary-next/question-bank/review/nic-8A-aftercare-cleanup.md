@@ -20,7 +20,7 @@ A. On the product’s SDS / 产品的 SDS 上
 B. In the disinfection logbook / 消毒记录本上  
 C. On the client service form / 客人服务记录表上 ✅  
 D. On the appointment card / 预约卡上  
-*Why:* Record the service, products used, observations, and retail recommendations on the client service form or computer record.  
+*Why:* Record the service, products used, what you noticed, and retail recommendations on the client service form or computer record.  
 *为什么:* 把服务内容、用过的产品、观察到的情况和零售推荐，记录在 client service form（客人服务记录表）或电脑记录里。  
 *Lock this (reason-chain):* Written today, read next visit: you’ll remember what worked, what to avoid, and what to sell.  
 *记重点:* 今天写下，下次一看：就知道什么有效、什么要避免、该推荐什么。  
@@ -118,7 +118,7 @@ C. The water supply hoses / 进水软管
 D. Only the outside cabinet / 只有外面的柜体  
 *Why:* Remove the impeller covers and other removable parts. Scrub them, and the areas behind them, with liquid soap, a clean disinfected brush, and warm water to remove all residue.  
 *为什么:* 拆下 impeller covers（叶轮盖）和其他可拆部件，用液体皂（liquid soap）、干净消毒过的刷子和温水，刷洗部件和它们后面的地方，去掉所有残留物。  
-*Lock this (reason-chain):* Residue hides behind impeller covers, and foot spas can harbor sticky biofilm there.  
+*Lock this (reason-chain):* Residue hides behind impeller covers, and foot spas can hold sticky biofilm there.  
 *记重点:* 残留物藏在叶轮盖后面，足浴盆里会长出黏黏的生物膜（biofilm）。  
 *Source:* Milady Standard Nail Technology p.221 (PDF 245), Milady Standard Foundations p.114 (PDF 609)
 
@@ -130,8 +130,8 @@ C. Chelating detergent / 螯合清洁剂 ✅
 D. Callus softener / 软茧剂  
 *Why:* At the end of every day, circulate chelating detergent for 5 to 10 minutes to break down stubborn films and pedicure product residue. Then drain, rinse, refill, and disinfect.  
 *为什么:* 每天营业结束时，用 chelating detergent（螯合清洁剂）循环 5 到 10 分钟，分解顽固膜层和足疗产品残留。然后排水、冲洗、注水，再消毒。  
-*Lock this (word-origin):* Chelate comes from Greek for a crab’s claw: it grabs the minerals in hard water.  
-*记重点:* 螯 = 螃蟹的大钳子：螯合剂像蟹钳一样，夹住硬水里的矿物质。  
+*Lock this (picture):* Chelating detergent grabs the minerals in hard water, like a crab claw, so cleaning still works.  
+*记重点:* 螯 = 螃蟹的大钳子：chelating detergent（螯合清洁剂）像蟹钳一样，夹住硬水里的矿物质，让清洁照样有效。  
 *Source:* Milady Standard Nail Technology p.223 (PDF 247), Milady Standard Nail Technology p.224 (PDF 248), Milady Standard Foundations p.125 (PDF 620)
 
 **12. Once a week, what is left in a whirlpool foot spa overnight?**  
@@ -164,7 +164,7 @@ A. the time and date of each disinfection. / 每次消毒的时间和日期。 �
 B. the client’s polish color. / 客人用的指甲油颜色。  
 C. the client’s payment method. / 客人的付款方式。  
 D. the foot soak scent used. / 用的泡脚液香味。  
-*Why:* Many states require salons to record the time and date of each pedicure disinfection in a log for accountability. Check your state’s rules.  
+*Why:* Many states require salons to record the time and date of each pedicure disinfection in a log as proof. Check your state’s rules.  
 *为什么:* 很多州要求店家在足疗消毒记录本（disinfection log）里，写下每次消毒的时间和日期，以备查核。要查本州规定。  
 *Lock this (real-life):* No record, no proof: an inspector can’t see yesterday’s disinfection, only your log.  
 *记重点:* 没有记录就没有证据：检查员看不到你昨天消过毒，只看得到记录本。  

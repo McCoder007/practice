@@ -350,7 +350,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Step 10, Repeat, restates everything you agreed on, for example, \"What I heard you say is…\" It is the most critical step because it determines the final service.",
+        "en": "Step 10, Repeat, says again everything you agreed on, for example, \"What I heard you say is…\" It is the most critical step because it decides the final service.",
         "zh": "第 10 步“复述”（Repeat）要把双方商定的内容再说一遍，例如“我听到您说的是……”。这一步最关键，因为它决定最终做什么服务。"
       },
       "lockPoint": {
@@ -412,8 +412,8 @@
         "zh": "reflective listening（反映式倾听）是先听，再用自己的话复述你理解的顾客意思。不要打断，并请顾客确认你理解得对。"
       },
       "lockPoint": {
-        "en": "Reflect comes from Latin reflectere, \"bend back\": you send the client's words back, like a mirror.",
-        "zh": "reflect 来自拉丁语 reflectere“折回”：像镜子一样，把顾客的话“照”回去，请顾客确认。"
+        "en": "A mirror reflects your face back. Reflective listening sends the client's words back: \"So you want…?\"",
+        "zh": "reflective listening（反映式倾听）：像镜子把你的脸照回来一样，把顾客的话“照”回去：“所以您是想要……？”再请顾客确认。"
       },
       "teachingRelation": "definition",
       "authorityRefs": [
@@ -434,7 +434,7 @@
           "quote": "Then ask for confirmation to make certain you understand what the client wants or needs."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "picture"
     },
     {
       "id": "nic-4a-08",
@@ -470,8 +470,8 @@
         "zh": "美甲师的执照只允许做美容服务，不能诊断、治疗或开处方。你可以告诉顾客你看到了可能不健康的情况，并建议顾客就医。"
       },
       "lockPoint": {
-        "en": "Diagnose: Greek dia, \"apart,\" + gnosis, \"knowing\": telling one disease apart from another.",
-        "zh": "diagnose 来自希腊语 dia（分开）+ gnosis（认识）：分辨是哪一种病，这是医生的工作。"
+        "en": "Saying \"You have nail fungus\" is diagnosing. Say \"Please see a doctor\" instead.",
+        "zh": "说“你得了甲真菌病”就是 diagnose（诊断），美甲师不能说。要说“请去看医生”（refer to a physician）。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -502,7 +502,7 @@
           "quote": "You can tell them that you have observed what may be an unhealthy condition and refer them to a physician."
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "real-life"
     },
     {
       "id": "nic-4a-09",
@@ -720,12 +720,12 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Clients with high blood pressure, diabetes, or circulation problems can often have massage if stabilized and under a doctor's care. Severe, uncontrolled hypertension is a contraindication.",
+        "en": "Clients with high blood pressure, diabetes, or circulation problems can often have massage if their condition is stable and under a doctor's care. Severe, uncontrolled hypertension is a contraindication.",
         "zh": "高血压、糖尿病或循环问题的顾客，如果病情稳定并有医生治疗，通常仍可按摩。严重且未控制的高血压则是禁忌症（contraindication）。"
       },
       "lockPoint": {
-        "en": "Hyper = over, as in hyperactive. Tension here means pressure: hypertension = blood pressure too high.",
-        "zh": "hyper = 过度（hyperactive 过度活跃），tension 在这里指压力：hypertension 就是血压过高。"
+        "en": "Hyper = over, too much. Tension here means pressure: hypertension = blood pressure too high.",
+        "zh": "hyper = 过度，tension 在这里指压力：hypertension（高血压）就是血压过高。"
       },
       "teachingRelation": "contrast",
       "authorityRefs": [
@@ -778,7 +778,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "For these clients a small nick can quickly need medical care. Do not use sharp tools or nip cuticles. Use a curette to gently remove nonliving tissue and a fine-grit abrasive.",
+        "en": "For these clients a small cut can quickly need medical care. Do not use sharp tools or nip cuticles. Use a curette to gently remove nonliving tissue and a fine-grit abrasive.",
         "zh": "对这类顾客来说，一个小破口就可能需要就医。不要用锋利工具，也不要剪死皮。改用刮匙轻轻去除死组织，并用细砂锉。"
       },
       "lockPoint": {
@@ -954,7 +954,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Rub your hands together, all over and vigorously, until a lather forms. Keep going for at least 20 seconds, then rinse in warm running water.",
+        "en": "Rub your hands together, hard and all over, until a lather forms. Keep going for at least 20 seconds, then rinse in warm running water.",
         "zh": "双手用力搓遍各处，直到起泡，至少持续 20 秒，然后用温水冲洗。"
       },
       "lockPoint": {
@@ -1018,7 +1018,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Bar soap harbors bacteria and can become a breeding ground for pathogens. Milady recommends liquid soap in pump containers at the hand-washing station.",
+        "en": "Bar soap can hold (harbor) bacteria and become a place where pathogens grow. Milady recommends liquid soap in pump containers at the hand-washing station.",
         "zh": "肥皂块容易藏细菌，会变成病原菌（pathogens）的温床。Milady 建议洗手区使用按压瓶装的液体皂。"
       },
       "lockPoint": {

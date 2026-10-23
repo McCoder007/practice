@@ -104,7 +104,7 @@ A. Tilted at an angle / 倾斜成一个角度
 B. Standing on its edge / 立起来用侧边磨  
 C. Flat against the nail / 平贴在指甲上 ✅  
 D. Pointed toward the cuticle / 锉头朝向甲小皮  
-*Why:* Hold the abrasive flat and stop when the well is flush with the natural nail. A tilted file's edge can gouge and damage the nail plate.  
+*Why:* Hold the abrasive flat and stop when the well is flush with the natural nail. A tilted file's edge can dig into and damage the nail plate.  
 *为什么:* 锉条要平放，凹槽和真甲齐平（flush）时就停。锉条一倾斜，边缘可能会刮伤真甲甲面。  
 *Lock this (picture):* Sand a table with a flat block and it stays even. Use the corner and you dig a groove.  
 *记重点:* 用平的砂块磨桌面，表面平整；用角去磨，就会挖出一道沟。  

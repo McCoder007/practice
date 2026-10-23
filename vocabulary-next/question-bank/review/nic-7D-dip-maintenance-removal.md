@@ -80,8 +80,8 @@ A. dry manicure. / 干式修甲（dry manicure）。
 B. soak-off. / 卸甲（soak-off）。  
 C. overlay. / 加固层（overlay）。  
 D. rebalance. / 重新平衡（rebalance）。 ✅  
-*Why:* A rebalance structurally corrects where the apex sits, to keep the nail strong and balanced. A fill is adding product to the new growth.  
-*为什么:* rebalance（重新平衡）是从结构上修正甲峰的位置，让指甲保持牢固和平衡。fill（补甲）是在新长出的部分加产品。  
+*Why:* A rebalance fixes where the apex sits, to keep the nail strong and balanced. A fill is adding product to the new growth.  
+*为什么:* rebalance（重新平衡）是修正甲峰的位置，让指甲保持牢固和平衡。fill（补甲）是在新长出的部分加产品。  
 *Lock this (word-parts):* Re- = again: re-balance. As the nail grows out, the apex slides forward toward the tip.  
 *记重点:* re- = 再一次：re-balance 就是再次平衡。指甲长出去，甲峰也跟着往前移。  
 *Source:* Milady Standard Nail Technology p.283 (PDF 307)
@@ -128,7 +128,7 @@ A. just enough to remove shine. / 只锉掉光泽就好。
 B. down into the natural nail. / 一直锉进真甲里。  
 C. until it is paper-thin. / 锉到像纸一样薄。 ✅  
 D. not at all; just add product. / 不用锉，直接加产品。  
-*Why:* File the area around the crack or break until it is paper-thin, so new product can cover the whole area and reinforce the repair. Then place a form under the nail before adding product.  
+*Why:* File the area around the crack or break until it is paper-thin, so new product can cover the whole area and strengthen the repair. Then place a form under the nail before adding product.  
 *为什么:* 把裂缝或断口周围锉到像纸一样薄，新产品才能覆盖整个区域并加固修补。锉薄后，再在指甲下面放纸托，然后加产品。  
 *Lock this (comparison):* Patching a wall? Sand the crack's edges thin first, or the patch sits on top as a bump.  
 *记重点:* 补墙的时候，要先把裂缝边缘磨薄，不然补上去会鼓起一个包。  
@@ -176,7 +176,7 @@ A. It is too weak to remove product. / 它太弱，卸不掉产品。
 B. It isn't tested or approved for skin. / 它没有经过用于皮肤的测试或批准。 ✅  
 C. It hardens enhancements instead. / 它反而会让美甲变硬。  
 D. It must be mixed with water first. / 必须先兑水才能用。  
-*Why:* Industrial acetone has not been tested or approved for human skin. Professional removers are usually enriched with aloe and other softeners that help prevent dry skin.  
+*Why:* Industrial acetone has not been tested or approved for human skin. Professional removers usually have added aloe and other softeners that help prevent dry skin.  
 *为什么:* 工业丙酮没有经过用于人体皮肤的测试或批准。专业卸甲产品通常添加了芦荟等柔肤成分，能防止皮肤干燥。  
 *Lock this (comparison):* Like using kitchen degreaser as hand soap: it may clean, but it was never made for skin.  
 *记重点:* 就像拿厨房去油剂当洗手液：也许洗得掉，但它本来就不是给皮肤用的。  

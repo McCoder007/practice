@@ -10,8 +10,8 @@ C. Disinfecting / 消毒
 D. Sterilizing / 灭菌 ✅  
 *Why:* Sterilizing destroys all microbial life, including bacterial spores, usually with an autoclave. Disinfecting kills most harmful germs, but not spores.  
 *为什么:* sterilizing（灭菌）能消灭所有微生物，包括细菌芽孢，通常用高压灭菌器（autoclave）。disinfecting（消毒）能杀死大多数有害病菌，但杀不死芽孢。  
-*Lock this (word-origin):* Sterile comes from Latin for “barren”: nothing is left alive to grow, not even spores.  
-*记重点:* 灭 = 一 压在 火 上：盖住火，火就灭了。灭菌就是把所有微生物都“灭”掉，连芽孢也不剩。  
+*Lock this (real-life):* Sterilizing is the top level: an autoclave, like a hot steam pressure cooker, kills everything, even spores.  
+*记重点:* sterilizing（灭菌）：灭 = 一 压在 火 上，盖住火，火就灭了。autoclave（高压蒸汽灭菌器）像一个高压锅，用高温蒸汽把所有微生物都灭掉，连芽孢也不剩。  
 *Source:* Milady Standard Foundations p.96 (PDF 591)
 
 **2. Which agency licenses beauty professionals and inspects salons?**  
@@ -20,7 +20,7 @@ A. EPA / EPA（美国环境保护署）
 B. State board / state board（州委员会） ✅  
 C. OSHA / OSHA（职业安全与健康管理局）  
 D. FDA / FDA（食品药品监督管理局）  
-*Why:* State regulatory agencies, such as state boards, handle licensing and enforce the rules through inspections. Federal agencies like the EPA and OSHA set national rules for products and workplaces.  
+*Why:* State regulatory agencies, such as state boards, handle licensing and use inspections to check that salons follow the rules. Federal agencies like the EPA and OSHA set national rules for products and workplaces.  
 *为什么:* 州监管机构（例如 state board 州委员会）负责发执照，并通过检查来执行规定。EPA、OSHA 等联邦机构则为产品和工作场所制定全国性规定。  
 *Lock this (real-life):* State boards can issue warnings, fines, or probation, or suspend or revoke your license.  
 *记重点:* 州委员会可以警告、罚款、留牌察看，甚至暂停或吊销你的执照。  
@@ -34,7 +34,7 @@ C. bacterial spores. / 细菌芽孢。 ✅
 D. fungi. / 真菌。  
 *Why:* Disinfectants destroy most bacteria, fungi, and viruses on surfaces, but not bacterial spores. Only sterilization destroys spores.  
 *为什么:* disinfectants（消毒剂）能消灭表面上大多数细菌、真菌和病毒，但杀不死 bacterial spores（细菌芽孢）。只有 sterilization（灭菌）能消灭芽孢。  
-*Lock this (picture):* A spore wears armor: a protective coat lets it wait out harsh conditions, then shed it.  
+*Lock this (picture):* A spore wears armor: a protective coat lets it live through bad conditions, then take it off.  
 *记重点:* 芽孢像穿了盔甲：靠一层保护壳熬过恶劣环境，等条件变好再脱掉。  
 *Source:* Milady Standard Foundations p.118 (PDF 613), Milady Standard Foundations p.102 (PDF 597)
 
@@ -104,10 +104,10 @@ A. Quats / 季铵盐消毒剂
 B. Phenolics / 酚类消毒剂 ✅  
 C. Bleach / 漂白水  
 D. Alcohol / 酒精  
-*Why:* Phenolic disinfectants kill TB germs, but they can damage skin, eyes, plastic, and rubber. Most states have dropped them from their rules because the risks outweigh the benefits.  
+*Why:* Phenolic disinfectants kill TB germs, but they can damage skin, eyes, plastic, and rubber. Most states have dropped them from their rules because the risks are bigger than the benefits.  
 *为什么:* phenolic disinfectants（酚类消毒剂）能杀结核菌，但会伤皮肤、眼睛、塑料和橡胶。大多数州已把它从法规要求中去掉，因为风险大于好处。  
-*Lock this (real-life):* Phenol is also called carbolic acid: in the 1860s, surgeon Joseph Lister used it to disinfect wounds.  
-*记重点:* 苯酚（phenol）俗称石炭酸：1860 年代，外科医生李斯特（Joseph Lister）用它给伤口消毒。  
+*Lock this (reason-chain):* Phenolics: strong enough to kill TB germs, but too rough on skin, eyes and plastic. Most states said no.  
+*记重点:* phenolics（酚类消毒剂）：连结核菌都能杀，但太伤皮肤、眼睛和塑料，所以大多数州不再要求用它。  
 *Source:* Milady Standard Foundations p.121 (PDF 616)
 
 **10. A tuberculocidal disinfectant is proven to kill**  
@@ -200,7 +200,7 @@ A. safe unless the client looks sick. / 安全的，除非客人看起来生病�
 B. a risk only in medical offices. / 只在医疗机构才有风险。  
 C. potentially infectious. / 可能有传染性。 ✅  
 D. harmless once they dry. / 干了就无害。  
-*Why:* Standard Precautions are CDC guidelines. Many people carry infections with no symptoms, so you must assume any human blood or body fluid may be infectious.  
+*Why:* Standard Precautions are CDC guidelines. Many people carry infections with no symptoms, so you must treat any human blood or body fluid as possibly infectious.  
 *为什么:* Standard Precautions（标准预防措施）是 CDC 发布的指南。很多人带有传染病却没有症状（asymptomatic），所以要假定任何人的血液或体液都可能有传染性。  
 *Lock this (real-life):* Your own blood counts too: if you cut yourself, you follow a similar exposure procedure.  
 *记重点:* 你自己的血也算：割伤自己时，也要按类似的暴露事件（exposure incident）步骤处理。  

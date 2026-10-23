@@ -68,7 +68,7 @@ A. Upsell: suggest added services / 追加推荐（Upsell）：建议加做服�
 B. Assess: find the client's needs / 评估（Assess）：了解顾客需求  
 C. Show and tell: see styles they like / 展示（Show and tell）：看顾客喜欢的款式  
 D. Repeat: review what you agreed on / 复述（Repeat）：回顾双方商定的内容 ✅  
-*Why:* Step 10, Repeat, restates everything you agreed on, for example, "What I heard you say is…" It is the most critical step because it determines the final service.  
+*Why:* Step 10, Repeat, says again everything you agreed on, for example, "What I heard you say is…" It is the most critical step because it decides the final service.  
 *为什么:* 第 10 步“复述”（Repeat）要把双方商定的内容再说一遍，例如“我听到您说的是……”。这一步最关键，因为它决定最终做什么服务。  
 *Lock this (real-life):* Like a server reading your order back before it goes to the kitchen.  
 *记重点:* 就像服务员下单前把你点的菜再念一遍。  
@@ -82,8 +82,8 @@ C. upselling. / 追加推荐（upselling）。
 D. client analysis. / 顾客分析（client analysis）。  
 *Why:* Reflective listening means listening, then repeating in your own words what you think the client said. Don't interrupt, and ask the client to confirm you understood.  
 *为什么:* reflective listening（反映式倾听）是先听，再用自己的话复述你理解的顾客意思。不要打断，并请顾客确认你理解得对。  
-*Lock this (word-origin):* Reflect comes from Latin reflectere, "bend back": you send the client's words back, like a mirror.  
-*记重点:* reflect 来自拉丁语 reflectere“折回”：像镜子一样，把顾客的话“照”回去，请顾客确认。  
+*Lock this (picture):* A mirror reflects your face back. Reflective listening sends the client's words back: "So you want…?"  
+*记重点:* reflective listening（反映式倾听）：像镜子把你的脸照回来一样，把顾客的话“照”回去：“所以您是想要……？”再请顾客确认。  
 *Source:* Milady Standard Foundations p.58 (PDF 553)
 
 **8. When checking a client's nails and skin, a nail technician must never**  
@@ -94,8 +94,8 @@ C. diagnose a disease or disorder. / 诊断（diagnose）疾病或病症。 ✅
 D. refer the client to a physician. / 建议顾客去看医生。  
 *Why:* Nail techs are licensed for cosmetic services, not to diagnose, treat, or prescribe. You may tell a client you see what may be an unhealthy condition and refer them to a physician.  
 *为什么:* 美甲师的执照只允许做美容服务，不能诊断、治疗或开处方。你可以告诉顾客你看到了可能不健康的情况，并建议顾客就医。  
-*Lock this (word-origin):* Diagnose: Greek dia, "apart," + gnosis, "knowing": telling one disease apart from another.  
-*记重点:* diagnose 来自希腊语 dia（分开）+ gnosis（认识）：分辨是哪一种病，这是医生的工作。  
+*Lock this (real-life):* Saying "You have nail fungus" is diagnosing. Say "Please see a doctor" instead.  
+*记重点:* 说“你得了甲真菌病”就是 diagnose（诊断），美甲师不能说。要说“请去看医生”（refer to a physician）。  
 *Source:* Milady Standard Nail Technology p.157 (PDF 181), Milady Standard Nail Technology p.104 (PDF 128)
 
 **9. A condition that requires avoiding certain treatments or products is a**  
@@ -140,10 +140,10 @@ A. diabetes that is well controlled. / 控制良好的糖尿病。
 B. high blood pressure controlled by medication. / 用药控制良好的高血压。  
 C. severe, uncontrolled hypertension. / 严重且未控制的高血压（hypertension）。 ✅  
 D. dry skin on the hands. / 手部皮肤干燥。  
-*Why:* Clients with high blood pressure, diabetes, or circulation problems can often have massage if stabilized and under a doctor's care. Severe, uncontrolled hypertension is a contraindication.  
+*Why:* Clients with high blood pressure, diabetes, or circulation problems can often have massage if their condition is stable and under a doctor's care. Severe, uncontrolled hypertension is a contraindication.  
 *为什么:* 高血压、糖尿病或循环问题的顾客，如果病情稳定并有医生治疗，通常仍可按摩。严重且未控制的高血压则是禁忌症（contraindication）。  
-*Lock this (word-parts):* Hyper = over, as in hyperactive. Tension here means pressure: hypertension = blood pressure too high.  
-*记重点:* hyper = 过度（hyperactive 过度活跃），tension 在这里指压力：hypertension 就是血压过高。  
+*Lock this (word-parts):* Hyper = over, too much. Tension here means pressure: hypertension = blood pressure too high.  
+*记重点:* hyper = 过度，tension 在这里指压力：hypertension（高血压）就是血压过高。  
 *Source:* Milady Standard Nail Technology p.161 (PDF 185)
 
 **13. For a client with thin skin or poor clotting, you should avoid**  
@@ -152,7 +152,7 @@ A. nipping the cuticles. / 用死皮剪剪死皮（nip the cuticles）。 ✅
 B. using a fine-grit abrasive. / 使用细砂锉（fine-grit abrasive）。  
 C. removing dead tissue with a curette. / 用刮匙（curette）去除死组织。  
 D. using gentle massage pressure. / 按摩时用轻柔的力度。  
-*Why:* For these clients a small nick can quickly need medical care. Do not use sharp tools or nip cuticles. Use a curette to gently remove nonliving tissue and a fine-grit abrasive.  
+*Why:* For these clients a small cut can quickly need medical care. Do not use sharp tools or nip cuticles. Use a curette to gently remove nonliving tissue and a fine-grit abrasive.  
 *为什么:* 对这类顾客来说，一个小破口就可能需要就医。不要用锋利工具，也不要剪死皮。改用刮匙轻轻去除死组织，并用细砂锉。  
 *Lock this (real-life):* Thin skin and poor clotting often come with aging, blood thinners, or chemo: check the intake form first.  
 *记重点:* 皮肤薄、凝血差常见于老人、服抗凝血药或做化疗的顾客：先看登记表再选工具。  
@@ -188,7 +188,7 @@ A. 5 seconds. / 5 秒。
 B. 10 seconds. / 10 秒。  
 C. 20 seconds. / 20 秒。 ✅  
 D. 2 minutes. / 2 分钟。  
-*Why:* Rub your hands together, all over and vigorously, until a lather forms. Keep going for at least 20 seconds, then rinse in warm running water.  
+*Why:* Rub your hands together, hard and all over, until a lather forms. Keep going for at least 20 seconds, then rinse in warm running water.  
 *为什么:* 双手用力搓遍各处，直到起泡，至少持续 20 秒，然后用温水冲洗。  
 *Lock this (real-life):* Humming "Happy Birthday" twice takes about 20 seconds.  
 *记重点:* 哼两遍《生日快乐歌》大约就是 20 秒。  
@@ -200,7 +200,7 @@ A. Bar soap can harbor bacteria / 肥皂块会滋生细菌 ✅
 B. Liquid soap kills all germs / 液体皂能杀死所有病菌  
 C. Bar soap is too acidic / 肥皂块酸性太强  
 D. Liquid soap needs no rinsing / 液体皂不用冲洗  
-*Why:* Bar soap harbors bacteria and can become a breeding ground for pathogens. Milady recommends liquid soap in pump containers at the hand-washing station.  
+*Why:* Bar soap can hold (harbor) bacteria and become a place where pathogens grow. Milady recommends liquid soap in pump containers at the hand-washing station.  
 *为什么:* 肥皂块容易藏细菌，会变成病原菌（pathogens）的温床。Milady 建议洗手区使用按压瓶装的液体皂。  
 *Lock this (picture):* Picture a wet, slimy soap bar sitting in a dish everyone touches.  
 *记重点:* 想象一块湿滑的肥皂，放在人人都摸过的皂碟里。  

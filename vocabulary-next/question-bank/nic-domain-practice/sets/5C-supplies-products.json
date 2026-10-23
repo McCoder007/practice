@@ -728,7 +728,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "A foot soak is added to the pedicure bath to soften the skin on the feet. A good one is gentle but thoroughly cleans and deodorizes. It does not disinfect the footbath.",
+        "en": "A foot soak is added to the pedicure bath to soften the skin on the feet. A good one is gentle but thoroughly cleans and removes bad smells. It does not disinfect the footbath.",
         "zh": "泡脚粉/泡脚液加进修脚水里，用来软化脚部皮肤。好的泡脚产品温和而彻底地清洁、除臭。它不能给泡脚盆消毒。"
       },
       "lockPoint": {
@@ -790,8 +790,8 @@
         "zh": "polish、enamel、lacquer、varnish 都是营销用语，指成分相似的同一类产品：涂在甲面上的溶剂型有色膜。"
       },
       "lockPoint": {
-        "en": "Lacquer, enamel, and varnish first named finishes for wood and metal; nail brands borrowed those fancy names for one product.",
-        "zh": "lacquer（漆）、enamel（搪瓷/珐琅）、varnish（清漆）原本是木器和金属表面涂层的名称，甲油品牌借来给同一种产品起好听的名字。"
+        "en": "Polish, enamel, lacquer, varnish: one kind of product, four names. Like \"soda\" and \"soft drink\": same drink.",
+        "zh": "polish、enamel、lacquer、varnish 是同一类产品的四个名字，就像“番茄”和“西红柿”：叫法不同，东西一样。"
       },
       "teachingRelation": "trap",
       "authorityRefs": [
@@ -812,7 +812,7 @@
           "quote": "Polish is a generic term describing any type of solvent-based colored film applied to the nail plate"
         }
       ],
-      "hookType": "word-origin"
+      "hookType": "comparison"
     },
     {
       "id": "nic-5c-14",
@@ -902,7 +902,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Methylene glycol cross-links keratin, making the nail stiffer. It helps thin, weak nails but can make already hard, brittle nails so rigid they split and shatter. Stop if problems appear.",
+        "en": "Methylene glycol cross-links keratin, making the nail stiffer. It helps thin, weak nails but can make already hard, brittle nails so stiff they split and break. Stop if problems appear.",
         "zh": "甲二醇（methylene glycol）让角蛋白（keratin）交联，指甲变得更硬。它适合薄软的指甲，但会让本来就硬、脆的指甲变得太僵，裂开甚至碎掉。出现问题就停用。"
       },
       "lockPoint": {
@@ -1048,7 +1048,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Scrubs use exfoliants like sea sand, apricot kernels, pumice, quartz, or jojoba beads. Avoid ingredients that expand and clog the drain, such as corn meal, and avoid overly abrasive scrubs.",
+        "en": "Scrubs use exfoliants like sea sand, apricot kernels, pumice, quartz, or jojoba beads. Avoid ingredients that expand and clog the drain, such as corn meal, and avoid scrubs that are too abrasive.",
         "zh": "磨砂膏（scrub）常用海沙、杏核粉、浮石、石英或荷荷巴微珠去角质。要避免会膨胀堵塞下水口的成分，如玉米粉，也要避免太粗的磨砂膏。"
       },
       "lockPoint": {
@@ -1184,7 +1184,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Some callus softeners are alkaline and potentially hazardous. Wear safety glasses and gloves when using or pouring them; misused, they can severely irritate the eyes, hands, and skin.",
+        "en": "Some callus softeners are alkaline and can be dangerous. Wear safety glasses and gloves when using or pouring them; used wrongly, they can badly irritate the eyes, hands, and skin.",
         "zh": "有些去茧软化剂是碱性的，有潜在危险。使用或倒取时要戴护目镜和手套；用错了会严重刺激眼睛、手和皮肤。"
       },
       "lockPoint": {

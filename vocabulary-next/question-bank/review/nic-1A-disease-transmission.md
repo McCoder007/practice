@@ -58,8 +58,8 @@ C. a local infection. / 局部感染。
 D. a systemic infection. / 全身性感染。  
 *Why:* A contagious disease spreads from person to person. It is also called a communicable disease. Examples are the common cold, ringworm, and pinkeye.  
 *为什么:* contagious disease（传染性疾病）会人传人，也叫 communicable disease（可传染疾病）。例如普通感冒、ringworm（癣）和 pinkeye（红眼病）。  
-*Lock this (word-origin):* Contagious shares an old root with contact (touch). It passes person to person; also called communicable.  
-*记重点:* 传染：染 = 染色。疾病像染料一样，从一个人染到另一个人。  
+*Lock this (real-life):* One child brings a cold home, then the whole family has it. That's a contagious disease.  
+*记重点:* contagious disease（传染病）：“染”像染色，病从一个人染到另一个人。比如一个孩子把感冒带回家，全家都感冒了。  
 *Source:* Milady Standard Foundations p.104 (PDF 599)
 
 **6. An illness caused by repeated overexposure to products at work is**  
@@ -118,8 +118,8 @@ C. decontamination. / 去污染。
 D. immunity. / 免疫。  
 *Why:* Inflammation is how body tissue reacts to injury, irritation, or infection. It shows as redness, heat, pain, and swelling.  
 *为什么:* inflammation（炎症）是身体组织对受伤、刺激或感染的反应，表现为发红、发热、疼痛和肿胀。  
-*Lock this (word-origin):* Inflammation comes from an old word for "set on fire." Think flame: red and hot.  
-*记重点:* 炎 = 两个火。炎症就像身体里着了火：红、热、痛、肿。  
+*Lock this (word-link):* Inflammation looks like "flame": red and hot, like a small fire in the body.  
+*记重点:* inflammation（炎症）：炎 = 两个火。炎症就像身体里着了火：红、热、痛、肿。  
 *Source:* Milady Standard Foundations p.106 (PDF 601)
 
 **11. The body's ability to resist and destroy pathogens is called**  
@@ -128,10 +128,10 @@ A. infection. / 感染。
 B. inflammation. / 炎症。  
 C. contamination. / 污染。  
 D. immunity. / 免疫。 ✅  
-*Why:* Immunity is the body's ability to fight off germs. Natural immunity is partly inherited. Acquired immunity comes after an illness or a vaccine, like a flu shot.  
+*Why:* Immunity is the body's ability to fight off germs. Natural immunity partly comes from your parents. Acquired immunity comes after an illness or a vaccine, like a flu shot.  
 *为什么:* immunity（免疫）是身体抵抗病菌的能力。natural immunity（自然免疫）部分来自遗传。acquired immunity（获得性免疫）来自生过病并康复，或打过疫苗，例如流感疫苗。  
-*Lock this (word-origin):* Immunity comes from Latin for "exempt." 免疫 means the same: exempt from epidemics.  
-*记重点:* 免疫 = 免（免除）+ 疫（瘟疫）：免于疫病。疫苗的“疫”就是这个字。  
+*Lock this (chinese-character):* Immunity = 免疫 in Chinese: 免 = free from, 疫 = sickness. Your body keeps sickness out.  
+*记重点:* immunity（免疫）= 免（免除）+ 疫（瘟疫）：免于疫病。疫苗的“疫”就是这个字。  
 *Source:* Milady Standard Foundations p.79 (PDF 574), Milady Standard Foundations p.80 (PDF 575)
 
 **12. MRSA is caused by**  
@@ -224,7 +224,7 @@ A. a worm. / 蠕虫。
 B. a virus. / 病毒。  
 C. bacteria. / 细菌。  
 D. a fungus. / 真菌。 ✅  
-*Why:* Despite its name, ringworm is not a worm. It is a contagious fungal skin infection that makes round, ring-shaped patches.  
+*Why:* The name says worm, but ringworm is not a worm. It is a contagious fungal skin infection that makes round, ring-shaped patches.  
 *为什么:* ringworm（癣）虽然名字里有 worm（虫），但它不是虫，而是一种会传染的真菌性皮肤感染，会形成圆形的环状斑块。  
 *Lock this (name-trap):* The name lies: no worm. A fungus grows in a ring.  
 *记重点:* 名字骗人：没有虫。“癣”是疒字旁（病），不是虫字旁。是真菌长成一个圈。  
@@ -236,8 +236,8 @@ A. a fungus. / 真菌。
 B. a virus. / 病毒。  
 C. the itch mite. / 疥螨。 ✅  
 D. bacteria. / 细菌。  
-*Why:* Scabies is a contagious skin disease caused by the itch mite, a parasite that burrows under the skin. Do not serve the client; refer them to a doctor.  
+*Why:* Scabies is a contagious skin disease caused by the itch mite, a parasite that digs under the skin. Do not serve the client; refer them to a doctor.  
 *为什么:* scabies（疥疮）是由 itch mite（疥螨）引起的传染性皮肤病。疥螨是一种会钻到皮肤下面的寄生虫。不要为这位顾客服务，应建议对方去看医生。  
-*Lock this (word-origin):* Scabies comes from an old word for "scratch": a tiny mite digs under the skin and makes you itch.  
-*记重点:* 疥螨的“螨”是虫字旁：一种钻进皮肤、让人发痒的小虫。  
+*Lock this (picture):* Scabies: the itch mite is a tiny animal, almost too small to see, digging tunnels under the skin.  
+*记重点:* scabies（疥疮）由 itch mite（疥螨）引起：“螨”是虫字旁，一种小得几乎看不见、在皮肤下挖隧道的小虫。  
 *Source:* Milady Standard Foundations p.113 (PDF 608)

@@ -214,10 +214,10 @@
         "zh": "contagious disease（传染性疾病）会人传人，也叫 communicable disease（可传染疾病）。例如普通感冒、ringworm（癣）和 pinkeye（红眼病）。"
       },
       "lockPoint": {
-        "en": "Contagious shares an old root with contact (touch). It passes person to person; also called communicable.",
-        "zh": "传染：染 = 染色。疾病像染料一样，从一个人染到另一个人。"
+        "en": "One child brings a cold home, then the whole family has it. That's a contagious disease.",
+        "zh": "contagious disease（传染病）：“染”像染色，病从一个人染到另一个人。比如一个孩子把感冒带回家，全家都感冒了。"
       },
-      "hookType": "word-origin",
+      "hookType": "real-life",
       "status": "approved"
     },
     {
@@ -424,10 +424,10 @@
         "zh": "inflammation（炎症）是身体组织对受伤、刺激或感染的反应，表现为发红、发热、疼痛和肿胀。"
       },
       "lockPoint": {
-        "en": "Inflammation comes from an old word for \"set on fire.\" Think flame: red and hot.",
-        "zh": "炎 = 两个火。炎症就像身体里着了火：红、热、痛、肿。"
+        "en": "Inflammation looks like \"flame\": red and hot, like a small fire in the body.",
+        "zh": "inflammation（炎症）：炎 = 两个火。炎症就像身体里着了火：红、热、痛、肿。"
       },
-      "hookType": "word-origin",
+      "hookType": "word-link",
       "status": "approved"
     },
     {
@@ -462,14 +462,14 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Immunity is the body's ability to fight off germs. Natural immunity is partly inherited. Acquired immunity comes after an illness or a vaccine, like a flu shot.",
+        "en": "Immunity is the body's ability to fight off germs. Natural immunity partly comes from your parents. Acquired immunity comes after an illness or a vaccine, like a flu shot.",
         "zh": "immunity（免疫）是身体抵抗病菌的能力。natural immunity（自然免疫）部分来自遗传。acquired immunity（获得性免疫）来自生过病并康复，或打过疫苗，例如流感疫苗。"
       },
       "lockPoint": {
-        "en": "Immunity comes from Latin for \"exempt.\" 免疫 means the same: exempt from epidemics.",
-        "zh": "免疫 = 免（免除）+ 疫（瘟疫）：免于疫病。疫苗的“疫”就是这个字。"
+        "en": "Immunity = 免疫 in Chinese: 免 = free from, 疫 = sickness. Your body keeps sickness out.",
+        "zh": "immunity（免疫）= 免（免除）+ 疫（瘟疫）：免于疫病。疫苗的“疫”就是这个字。"
       },
-      "hookType": "word-origin",
+      "hookType": "chinese-character",
       "status": "approved"
     },
     {
@@ -798,7 +798,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Despite its name, ringworm is not a worm. It is a contagious fungal skin infection that makes round, ring-shaped patches.",
+        "en": "The name says worm, but ringworm is not a worm. It is a contagious fungal skin infection that makes round, ring-shaped patches.",
         "zh": "ringworm（癣）虽然名字里有 worm（虫），但它不是虫，而是一种会传染的真菌性皮肤感染，会形成圆形的环状斑块。"
       },
       "lockPoint": {
@@ -840,14 +840,14 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Scabies is a contagious skin disease caused by the itch mite, a parasite that burrows under the skin. Do not serve the client; refer them to a doctor.",
+        "en": "Scabies is a contagious skin disease caused by the itch mite, a parasite that digs under the skin. Do not serve the client; refer them to a doctor.",
         "zh": "scabies（疥疮）是由 itch mite（疥螨）引起的传染性皮肤病。疥螨是一种会钻到皮肤下面的寄生虫。不要为这位顾客服务，应建议对方去看医生。"
       },
       "lockPoint": {
-        "en": "Scabies comes from an old word for \"scratch\": a tiny mite digs under the skin and makes you itch.",
-        "zh": "疥螨的“螨”是虫字旁：一种钻进皮肤、让人发痒的小虫。"
+        "en": "Scabies: the itch mite is a tiny animal, almost too small to see, digging tunnels under the skin.",
+        "zh": "scabies（疥疮）由 itch mite（疥螨）引起：“螨”是虫字旁，一种小得几乎看不见、在皮肤下挖隧道的小虫。"
       },
-      "hookType": "word-origin",
+      "hookType": "picture",
       "status": "approved"
     },
     {
@@ -886,10 +886,10 @@
         "zh": "sterilizing（灭菌）能消灭所有微生物，包括细菌芽孢，通常用高压灭菌器（autoclave）。disinfecting（消毒）能杀死大多数有害病菌，但杀不死芽孢。"
       },
       "lockPoint": {
-        "en": "Sterile comes from Latin for “barren”: nothing is left alive to grow, not even spores.",
-        "zh": "灭 = 一 压在 火 上：盖住火，火就灭了。灭菌就是把所有微生物都“灭”掉，连芽孢也不剩。"
+        "en": "Sterilizing is the top level: an autoclave, like a hot steam pressure cooker, kills everything, even spores.",
+        "zh": "sterilizing（灭菌）：灭 = 一 压在 火 上，盖住火，火就灭了。autoclave（高压蒸汽灭菌器）像一个高压锅，用高温蒸汽把所有微生物都灭掉，连芽孢也不剩。"
       },
-      "hookType": "word-origin",
+      "hookType": "real-life",
       "status": "approved"
     },
     {
@@ -924,7 +924,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "State regulatory agencies, such as state boards, handle licensing and enforce the rules through inspections. Federal agencies like the EPA and OSHA set national rules for products and workplaces.",
+        "en": "State regulatory agencies, such as state boards, handle licensing and use inspections to check that salons follow the rules. Federal agencies like the EPA and OSHA set national rules for products and workplaces.",
         "zh": "州监管机构（例如 state board 州委员会）负责发执照，并通过检查来执行规定。EPA、OSHA 等联邦机构则为产品和工作场所制定全国性规定。"
       },
       "lockPoint": {
@@ -970,7 +970,7 @@
         "zh": "disinfectants（消毒剂）能消灭表面上大多数细菌、真菌和病毒，但杀不死 bacterial spores（细菌芽孢）。只有 sterilization（灭菌）能消灭芽孢。"
       },
       "lockPoint": {
-        "en": "A spore wears armor: a protective coat lets it wait out harsh conditions, then shed it.",
+        "en": "A spore wears armor: a protective coat lets it live through bad conditions, then take it off.",
         "zh": "芽孢像穿了盔甲：靠一层保护壳熬过恶劣环境，等条件变好再脱掉。"
       },
       "hookType": "picture",
@@ -1218,14 +1218,14 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Phenolic disinfectants kill TB germs, but they can damage skin, eyes, plastic, and rubber. Most states have dropped them from their rules because the risks outweigh the benefits.",
+        "en": "Phenolic disinfectants kill TB germs, but they can damage skin, eyes, plastic, and rubber. Most states have dropped them from their rules because the risks are bigger than the benefits.",
         "zh": "phenolic disinfectants（酚类消毒剂）能杀结核菌，但会伤皮肤、眼睛、塑料和橡胶。大多数州已把它从法规要求中去掉，因为风险大于好处。"
       },
       "lockPoint": {
-        "en": "Phenol is also called carbolic acid: in the 1860s, surgeon Joseph Lister used it to disinfect wounds.",
-        "zh": "苯酚（phenol）俗称石炭酸：1860 年代，外科医生李斯特（Joseph Lister）用它给伤口消毒。"
+        "en": "Phenolics: strong enough to kill TB germs, but too rough on skin, eyes and plastic. Most states said no.",
+        "zh": "phenolics（酚类消毒剂）：连结核菌都能杀，但太伤皮肤、眼睛和塑料，所以大多数州不再要求用它。"
       },
-      "hookType": "real-life",
+      "hookType": "reason-chain",
       "status": "approved"
     },
     {
@@ -1554,7 +1554,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Standard Precautions are CDC guidelines. Many people carry infections with no symptoms, so you must assume any human blood or body fluid may be infectious.",
+        "en": "Standard Precautions are CDC guidelines. Many people carry infections with no symptoms, so you must treat any human blood or body fluid as possibly infectious.",
         "zh": "Standard Precautions（标准预防措施）是 CDC 发布的指南。很多人带有传染病却没有症状（asymptomatic），所以要假定任何人的血液或体液都可能有传染性。"
       },
       "lockPoint": {
@@ -1890,7 +1890,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Store chemicals in their original containers in a designated, locked place. Never combine similar chemicals or leave them sitting out, even in the dispensary.",
+        "en": "Store chemicals in their original containers in a locked place set aside for them. Never combine similar chemicals or leave them sitting out, even in the mixing area.",
         "zh": "化学品要放在原装容器里，存放在指定的、上锁的地方。即使相似的化学品也不能混放；化学品不能摆在外面，配料区也不例外。"
       },
       "lockPoint": {
@@ -1978,7 +1978,7 @@
         "zh": "除非标签说可以，否则漂白水绝不能和其他清洁产品混合。连醋加漂白水都会产生氯气，所以漂白水要和其他化学品分开存放。"
       },
       "lockPoint": {
-        "en": "Bleach + an acid like vinegar → chlorine gas → Milady warns the vapors can be fatal.",
+        "en": "Bleach + an acid like vinegar → chlorine gas → Milady warns the vapors can kill.",
         "zh": "漂白水 + 醋这类酸 → 氯气 → Milady 警告这种气体可能致命。"
       },
       "hookType": "reason-chain",
@@ -2016,7 +2016,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Flammable liquids ignite more easily than combustible ones. A flammable liquid’s flash point is below 100°F; a combustible liquid’s is between 100°F and 200°F.",
+        "en": "Flammable liquids catch fire more easily than combustible ones. A flammable liquid’s flash point is below 100°F; a combustible liquid’s is between 100°F and 200°F.",
         "zh": "flammable（易燃）液体比 combustible（可燃）液体更容易着火。易燃液体闪点低于 100°F；可燃液体闪点在 100°F 到 200°F 之间。"
       },
       "lockPoint": {
@@ -2188,7 +2188,7 @@
         "zh": "contact dermatitis（接触性皮炎）是皮肤接触某种物质后发炎。物质刺激皮肤，就是 irritant contact dermatitis（刺激性接触性皮炎）；皮肤对它过敏，就是 allergic contact dermatitis（过敏性接触性皮炎）。"
       },
       "lockPoint": {
-        "en": "Derma = skin, -itis = inflammation. Contact dermatitis is the most common avoidable skin disease for nail techs.",
+        "en": "Derma = skin, -itis = inflammation. Contact dermatitis: the most common skin disease nail techs can prevent.",
         "zh": "derma = 皮肤，-itis = 发炎。contact dermatitis（接触性皮炎）是美甲师最常见的、可以避免的皮肤病。"
       },
       "hookType": "word-parts",
@@ -2226,7 +2226,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Sensitization is a greatly increased or exaggerated allergic sensitivity to products. With each skin exposure during a service, the risk of sensitization rises.",
+        "en": "Sensitization is a greatly increased allergic sensitivity to products. With each skin exposure during a service, the risk of sensitization rises.",
         "zh": "sensitization（致敏）是对产品的过敏反应大大增强。服务中皮肤每接触一次，致敏风险就更高一些。"
       },
       "lockPoint": {
@@ -2310,7 +2310,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Keep your feet shoulder-width apart, bend at the knees, keep the load close, and lift with your legs. Do not twist or make fast, jerky moves.",
+        "en": "Keep your feet shoulder-width apart, bend at the knees, keep the load close, and lift with your legs. Do not twist or make fast, sudden moves.",
         "zh": "双脚与肩同宽，弯曲膝盖，让重物贴近身体，用腿部发力抬起。不要扭身，也不要猛地发力。"
       },
       "lockPoint": {
@@ -2352,7 +2352,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Gloves limit chemical contact, but wash and thoroughly dry your hands after you take them off. Then use lotion or cream to restore moisture. Avoid harsh soaps and constant hand sanitizer.",
+        "en": "Gloves limit chemical contact, but wash and thoroughly dry your hands after you take them off. Then use lotion or cream to put moisture back. Avoid harsh soaps and using hand sanitizer all the time.",
         "zh": "手套能减少接触化学品，但摘下后要洗手并彻底擦干，再涂乳液或护手霜补充水分。避免用刺激性强的肥皂，也不要频繁使用免洗洗手液。"
       },
       "lockPoint": {
@@ -2394,7 +2394,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Avoid latex, because latex allergies are increasingly common. Petroleum-based gloves break down when they touch petroleum products. Nitrile gloves avoid both problems.",
+        "en": "Avoid latex, because latex allergies are more and more common. Petroleum-based gloves break down when they touch petroleum products. Nitrile gloves avoid both problems.",
         "zh": "要避免乳胶手套，因为对乳胶过敏的人越来越多。石油基手套碰到含石油的产品会分解。nitrile（丁腈）手套这两个问题都没有。"
       },
       "lockPoint": {
@@ -2482,10 +2482,10 @@
         "zh": "ergonomics（人体工学）就是让身体在工作中动得舒适、安全。请客人把手伸过桌子给你，保持背部、颈部和手腕挺直。"
       },
       "lockPoint": {
-        "en": "Ergonomics comes from Greek ergon, “work,” and nomos, “law”: the rules for working without injury.",
-        "zh": "ergonomics 来自希腊语：ergon = 工作，nomos = 法则。就是不受伤地工作的法则。"
+        "en": "Reach across → bend forward → back and neck hurt over time. Ergonomics: let the hand come to you.",
+        "zh": "ergonomics（人体工学）：伸手够 → 身体前弯 → 时间久了腰背、脖子都痛。让客人把手伸过来，你的背保持挺直。"
       },
-      "hookType": "word-origin",
+      "hookType": "reason-chain",
       "status": "approved"
     },
     {
@@ -2520,7 +2520,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Place fire extinguishers where they are easy to reach, teach every employee to use them, and have them checked periodically, as the law requires.",
+        "en": "Place fire extinguishers where they are easy to reach, teach every employee to use them, and have them checked regularly, as the law requires.",
         "zh": "灭火器要放在容易拿到的地方，每个员工都要学会使用，还要按法律规定定期检查。"
       },
       "lockPoint": {
@@ -2566,10 +2566,10 @@
         "zh": "onyx（甲）是 natural nail（天然指甲）的专业名称，指保护手指和脚趾末端的坚硬甲板。"
       },
       "lockPoint": {
-        "en": "Onyx is Greek for nail or claw. It is the onycho- in onychomycosis and other nail terms.",
-        "zh": "onyx 在希腊语里是“指甲、爪”的意思。onychomycosis（甲真菌病）等指甲术语里的 onycho- 就来自它。"
+        "en": "Onyx gives the onycho- part in onychomycosis, onycholysis, and onychia. See onych, think nail.",
+        "zh": "onyx（甲）就是 onycho- 这个部分：onychomycosis（甲真菌病）、onycholysis（甲剥离）、onychia（甲炎）里都有它。看到 onych，就想到指甲。"
       },
-      "hookType": "word-origin",
+      "hookType": "word-parts",
       "status": "approved"
     },
     {
@@ -2604,14 +2604,14 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "The nail is made mainly of keratin, the fiber-shaped protein also found in skin and hair. Nail keratin is more durable than hair or skin keratin.",
-        "zh": "指甲主要由 keratin（角蛋白）构成，这种纤维状蛋白质也存在于皮肤和头发中。指甲里的角蛋白比头发和皮肤里的更耐用。"
+        "en": "The nail is made mainly of keratin, the fiber-shaped protein also found in skin and hair. Nail keratin is tougher than hair or skin keratin.",
+        "zh": "指甲主要由 keratin（角蛋白）构成，这种纤维状蛋白质也存在于皮肤和头发中。指甲里的角蛋白比头发和皮肤里的更坚韧。"
       },
       "lockPoint": {
-        "en": "Keratin comes from Greek keras, horn. Horn sheaths and horse hooves are keratin too.",
-        "zh": "角蛋白的“角”就是动物的角：牛角外壳、马蹄都是角蛋白。英文 keratin 也来自希腊语 keras（角）。"
+        "en": "In Chinese it is 角蛋白: 角 = horn. Animal horns are covered in keratin too, just like your nails.",
+        "zh": "keratin（角蛋白）的“角”就是动物的角：牛角、羊角的外壳也是角蛋白，和你的指甲一样。"
       },
-      "hookType": "word-origin",
+      "hookType": "chinese-character",
       "status": "approved"
     },
     {
@@ -2646,14 +2646,14 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "The matrix is the area where nail plate cells are formed. As long as it stays healthy and nourished, it keeps making new nail plate cells.",
+        "en": "The matrix is the area where nail plate cells are formed. As long as it stays healthy and well fed, it keeps making new nail plate cells.",
         "zh": "matrix（甲母质）是生成甲板细胞的部位。只要它保持健康、营养充足，就会不断制造新的甲板细胞。"
       },
       "lockPoint": {
-        "en": "Matrix comes from Latin mater, \"mother\": the nail plate is born there.",
-        "zh": "甲母质的“母”= 母亲：甲板在这里“出生”。英文 matrix 也源自拉丁语 mater（母亲）。"
+        "en": "Chinese 甲母质: 母 = mother. The matrix is the nail's mother. Hurt it, and the new nail can grow wrong.",
+        "zh": "甲母质的“母”= 母亲：matrix（甲母质）是指甲的“妈妈”。它一受伤，新长出的指甲就可能出问题（比如白点、裂纹）。"
       },
-      "hookType": "word-origin",
+      "hookType": "chinese-character",
       "status": "approved"
     },
     {
@@ -2692,10 +2692,10 @@
         "zh": "lunula（甲半月）是甲板根部发白的半月形。它是 matrix（甲母质）露出来的部分，光线从甲母质表面反射，所以看起来发白。"
       },
       "lockPoint": {
-        "en": "Luna = moon, -ula = little: a \"little moon.\" Everyone has one, but some stay hidden under the skin fold.",
-        "zh": "luna = 月亮，-ula = 小：lunula 就是“小月亮”。人人都有，但有些藏在近端甲襞下面看不见。"
+        "en": "Look at your ten nails. Not every lunula shows; some hide under the skin. But every nail has one.",
+        "zh": "看看你的十个指甲：不是每个 lunula（甲半月）都露出来，有的藏在近端甲襞下面，但每个指甲都有。"
       },
-      "hookType": "word-parts",
+      "hookType": "body-cue",
       "status": "approved"
     },
     {
@@ -2734,10 +2734,10 @@
         "zh": "cuticle（甲小皮）是粘在甲板上的无色死组织。它形成一道密封，防止病菌钻到皮肤下面。"
       },
       "lockPoint": {
-        "en": "Cuticle is Latin for \"little skin.\" It rides out on top of the plate as the nail grows.",
-        "zh": "cuticle 源自拉丁语，意思是“小皮”。指甲长出来时，它就贴在甲板上面一起被带出来。"
+        "en": "Cuticle is dead and sticks to the plate. Eponychium is living skin. Push the cuticle off; never cut the eponychium.",
+        "zh": "cuticle（甲小皮）是死的，粘在甲板上；eponychium（甲上皮）是活皮肤。甲小皮可以推掉，甲上皮绝不能剪。"
       },
-      "hookType": "word-origin",
+      "hookType": "contrast",
       "status": "approved"
     },
     {
@@ -2776,7 +2776,7 @@
         "zh": "eponychium（甲上皮）是近端甲襞（proximal nail fold）底面的活皮肤，甲小皮就是它生成的。甲小皮是死的，甲上皮是活的。"
       },
       "lockPoint": {
-        "en": "Ep(i) = upon, onych = nail: the eponychium sits upon the base of the nail.",
+        "en": "Ep(i) = on top, onych = nail: the eponychium sits on top of the nail base.",
         "zh": "ep(i) = 在……上面，onych = 指甲：甲上皮就盖在指甲根部的上面。"
       },
       "hookType": "word-parts",
@@ -2818,8 +2818,8 @@
         "zh": "hyponychium（甲下皮）形成一道屏障，阻止病菌侵入甲床。如果它受损，甲板可能与甲床分离，甲下就可能感染。"
       },
       "lockPoint": {
-        "en": "Hypo = under, as in hypodermic (under the skin) needle. Hyponychium = the skin under the nail tip.",
-        "zh": "hypo = 在下面（hypodermic 皮下注射针也是这个词根）。hyponychium 就是指甲尖下面的皮肤。"
+        "en": "Hypo = under, onych = nail. Hyponychium = the skin under the nail tip.",
+        "zh": "hypo = 在下面，onych = 指甲。hyponychium（甲下皮）就是指甲尖下面的皮肤。"
       },
       "hookType": "word-parts",
       "status": "approved"
@@ -2898,7 +2898,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "The nail bed is richly supplied with blood vessels, so it looks pink under the plate, from the lunula to just before the free edge.",
+        "en": "The nail bed has many blood vessels, so it looks pink under the plate, from the lunula to just before the free edge.",
         "zh": "nail bed（甲床）血管丰富，所以从甲半月到游离缘之前，透过甲板看起来是粉色的。"
       },
       "lockPoint": {
@@ -2986,10 +2986,10 @@
         "zh": "specialized ligaments（特化韧带）把甲床和甲母质（matrix bed）连接到下面的骨头上，位于甲母质根部和甲床边缘周围。"
       },
       "lockPoint": {
-        "en": "Ligament comes from Latin ligare, \"to bind.\" Like ropes, they tie the nail unit to the fingertip bone.",
-        "zh": "ligament 源自拉丁语 ligare（捆绑）。韧带像绳子一样，把指甲单元绑在指尖骨上。"
+        "en": "Picture strong ropes tying a tent to the ground. Ligaments tie the nail bed and matrix down to the bone.",
+        "zh": "想象把帐篷拴在地上的结实绳子。specialized ligaments（特化韧带）就这样把甲床和甲母质拴在骨头上。"
       },
-      "hookType": "word-origin",
+      "hookType": "picture",
       "status": "approved"
     },
     {
@@ -3028,10 +3028,10 @@
         "zh": "lateral nail fold（侧甲襞）也叫 sidewall（侧壁），是覆盖指甲侧面的皮肤褶。甲襞在指甲两侧形成 nail groove（甲沟）。"
       },
       "lockPoint": {
-        "en": "Lateral comes from Latin latus, \"side.\" Proximal = near the base; lateral = along the sides.",
-        "zh": "lateral 源自拉丁语 latus（侧面）。proximal = 靠近根部；lateral = 在两侧。"
+        "en": "Proximal nail fold: one fold, at the base. Lateral nail folds: two, one on each side of the nail.",
+        "zh": "proximal nail fold（近端甲襞）：只有一个，在指甲根部。lateral nail fold（侧甲襞）：有两个，指甲左右各一。“侧”就是旁边。"
       },
-      "hookType": "word-origin",
+      "hookType": "contrast",
       "status": "approved"
     },
     {
@@ -3070,7 +3070,7 @@
         "zh": "儿童的指甲长得更快，老年人的指甲长得更慢。此外，指甲夏天比冬天长得快。"
       },
       "lockPoint": {
-        "en": "With age, parts of the matrix slow down for good; that is also why older nails show lengthwise grooves.",
+        "en": "With age, parts of the matrix slow down forever; that is also why older nails show long grooves.",
         "zh": "年纪越大，甲母质有些部位会永久减慢生长；这也是老年人指甲出现纵向凹槽的原因。"
       },
       "hookType": "reason-chain",
@@ -3234,7 +3234,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Hormone changes in the last trimester of pregnancy make nails grow much faster. Growth returns to normal after delivery. Prenatal vitamins are not the cause.",
+        "en": "Hormone changes in the last trimester of pregnancy make nails grow much faster. Growth returns to normal after the baby is born. Prenatal vitamins are not the cause.",
         "zh": "怀孕最后三个月（last trimester）的荷尔蒙变化会让指甲长得快很多，分娩后恢复正常。孕期维生素并不是原因。"
       },
       "lockPoint": {
@@ -3360,7 +3360,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "A healthy nail may look dry and hard, but it holds 15 to 25 percent water. The lower the water content, the more rigid the nail becomes.",
+        "en": "A healthy nail may look dry and hard, but it holds 15 to 25 percent water. The lower the water content, the stiffer the nail becomes.",
         "zh": "健康的指甲看起来干硬，但含水量在 15% 至 25% 之间。含水量越低，指甲越僵硬。"
       },
       "lockPoint": {
@@ -3448,7 +3448,7 @@
         "zh": "说出是什么病就是诊断。美甲师没有诊断、治疗或开药的执照。只能说指甲看起来不健康，并建议顾客去看医生。"
       },
       "lockPoint": {
-        "en": "Client offers to sign a waiver? Still no. Not even a doctor can expand your license's scope.",
+        "en": "Client offers to sign a waiver? Still no. Not even a doctor can make your license cover more.",
         "zh": "顾客说愿意签免责书？照样不行。连医生也无权扩大你执照的执业范围。"
       },
       "hookType": "real-life",
@@ -3654,7 +3654,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Leukonychia spots usually come from minor injury to the nail matrix. They do not indicate disease and disappear as the nail grows out.",
+        "en": "Leukonychia spots usually come from minor injury to the nail matrix. They are not a sign of disease and disappear as the nail grows out.",
         "zh": "leukonychia（白甲）的白斑通常来自甲母质的轻微损伤。它们不代表疾病，会随着指甲长出而消失。"
       },
       "lockPoint": {
@@ -3696,11 +3696,11 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Melanonychia is significant darkening of the nail from increased pigment cells (melanocytes). It can show as a black band from base to free edge, or darken the whole plate.",
+        "en": "Melanonychia is strong darkening of the nail from more pigment cells (melanocytes). It can show as a black band from base to free edge, or darken the whole plate.",
         "zh": "melanonychia（黑甲）是黑素细胞（melanocytes）增多导致的指甲明显变黑，可表现为从根部到游离缘的黑色条带，或整片甲板变黑。"
       },
       "lockPoint": {
-        "en": "Melan = black, as in melanin. Fairly common in African Americans and Asians; in Caucasians it may signal disease.",
+        "en": "Melan = black, as in melanin. Fairly common in Black and Asian people; in white people it may mean disease.",
         "zh": "melan = 黑（melanin 黑色素也是这个词根）。在非裔和亚裔中较常见；在白人身上可能是疾病信号。"
       },
       "hookType": "word-parts",
@@ -3742,10 +3742,10 @@
         "zh": "nail pterygium（甲胬肉）通常由严重外伤或皮肤过敏引起。乳霜或护理油可能有帮助，但绝不能用任何工具往后推或处理。"
       },
       "lockPoint": {
-        "en": "Pterygium comes from the Greek for \"little wing\": the stretched skin clings to the nail like a small wing.",
-        "zh": "pterygium 来自希腊语的“小翅膀”：被拉伸的皮肤像一片小翅膀一样贴在指甲上。"
+        "en": "Chinese 甲胬肉: 胬肉 = extra flesh. The skin stretches and sticks onto the plate. Oil may help; never push it.",
+        "zh": "甲胬肉的“胬肉”= 多出来的肉：皮肤被拉长、粘到甲板上。nail pterygium（甲胬肉）可以涂护理油，但绝不能推。"
       },
-      "hookType": "word-origin",
+      "hookType": "chinese-character",
       "status": "approved"
     },
     {
@@ -3784,10 +3784,10 @@
         "zh": "onychophagy（咬甲癖）就是咬指甲。经常修甲、好好护理双手，常能帮顾客改掉这个习惯。"
       },
       "lockPoint": {
-        "en": "Onycho = nail, phagy = eating, as in esophagus, the food tube. Nail-eating means nail biting.",
-        "zh": "onycho = 指甲，phagy = 吃（esophagus 食道也用这个词根）。“吃指甲”就是咬指甲。"
+        "en": "Onycho- = nail. 咬甲癖: 咬 = bite, 癖 = habit. A habit, not a germ: manicures help clients stop.",
+        "zh": "onycho- = 指甲。咬甲癖：咬 = 用牙咬，癖 = 习惯。onychophagy 是习惯，不是病菌：常做修甲能帮顾客改掉。"
       },
-      "hookType": "word-parts",
+      "hookType": "chinese-character",
       "status": "approved"
     },
     {
@@ -3822,14 +3822,14 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Onychorrhexis is split or brittle nails. Causes include heredity, matrix injury, too much cuticle remover, harsh cleaning agents, or aggressive filing.",
+        "en": "Onychorrhexis is split or brittle nails. Causes include family genes, matrix injury, too much cuticle remover, strong cleaners, or rough filing.",
         "zh": "onychorrhexis（脆甲）指指甲裂开或易碎。原因包括遗传、甲母质损伤、过度接触死皮软化剂、刺激性清洁剂或粗暴的锉甲方式。"
       },
       "lockPoint": {
-        "en": "Rhexis is Greek for bursting or breaking. Onycho-rrhexis = the nail breaks apart.",
-        "zh": "rhexis 在希腊语里是“破裂”。onycho-rrhexis 就是“指甲破裂”。"
+        "en": "Onycho- = nail. Chinese 脆甲: 脆 = breaks easily, like a cracker. Too much cuticle remover can cause it.",
+        "zh": "onycho- = 指甲。脆甲的“脆”= 像饼干一样一碰就碎。死皮软化剂用太多，也会造成 onychorrhexis（脆甲）。"
       },
-      "hookType": "word-parts",
+      "hookType": "chinese-character",
       "status": "approved"
     },
     {
@@ -3864,7 +3864,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "A pincer nail curls in at the free edge. Extreme or painful cases go to a doctor. Using a brace to straighten it is medical practice, not a salon service.",
+        "en": "A pincer nail curls in at the free edge. Very bad or painful cases go to a doctor. Using a brace to straighten it is medical practice, not a salon service.",
         "zh": "pincer nail（钳甲）在游离缘向内卷。严重或疼痛的情况要转介医生。用矫正片把它拉直属于医疗行为，不能在沙龙做。"
       },
       "lockPoint": {
@@ -3952,8 +3952,8 @@
         "zh": "splinter hemorrhages（裂片形出血）由甲床受到外伤引起。受损的毛细血管渗出少量血，在甲板下看起来像一根纵向的小木刺。"
       },
       "lockPoint": {
-        "en": "No wood: hem = blood, -rrhage = burst, same root as onychorrhexis. A burst capillary leaves a thin line.",
-        "zh": "没有木刺：hem = 血，-rrhage = 破裂，和 onychorrhexis 的 rrhexis 同一个希腊词根。毛细血管破了，留下一条细血线。"
+        "en": "Name trap: no wood inside. Hemorrhage just means bleeding. The thin line is blood, not wood.",
+        "zh": "名字陷阱：里面没有木刺。hemorrhage（出血）就是流血。那条细线是血，不是木头。"
       },
       "hookType": "name-trap",
       "status": "approved"
@@ -3994,7 +3994,7 @@
         "zh": "Milady 把 onycholysis（甲剥离）列为指甲疾病，常由外伤或过敏反应引起。必须转介医生，不能为这片指甲做服务。"
       },
       "lockPoint": {
-        "en": "Lysis = loosening. Even friction heat from aggressive filing can loosen the plate this way.",
+        "en": "Lysis = loosening. Even friction heat from rough filing can loosen the plate this way.",
         "zh": "lysis = 松开。连用力锉甲产生的摩擦热，都可能让甲板这样松脱。"
       },
       "hookType": "word-parts",
@@ -4036,10 +4036,10 @@
         "zh": "onychocryptosis（嵌甲）是指甲长进两侧的组织里。应拒绝服务，并建议顾客去看医生。"
       },
       "lockPoint": {
-        "en": "Crypto = hidden (Greek), as in a crypt. The nail edge hides inside the skin.",
-        "zh": "crypto = 隐藏（希腊语），crypt 地下墓室也来自它。指甲边缘“藏”进了皮肉里。"
+        "en": "Onycho- = nail, -osis = condition. Chinese 嵌甲: 嵌 = pressed into. The nail edge presses into the skin.",
+        "zh": "onycho- = 指甲，-osis = 病症。嵌甲的“嵌”= 嵌进去：onychocryptosis（嵌甲）就是指甲边缘嵌进了两侧皮肉里。"
       },
-      "hookType": "word-parts",
+      "hookType": "chinese-character",
       "status": "approved"
     },
     {
@@ -4078,8 +4078,8 @@
         "zh": "onychomycosis（甲真菌病）是甲板的真菌感染，可表现为白色斑块、发黄的条纹或游离缘碎裂。必须转介医生。"
       },
       "lockPoint": {
-        "en": "Myco = fungus, as in mycology. It often starts at the free edge, then spreads toward the matrix.",
-        "zh": "myco = 真菌（mycology 真菌学）。它常从游离缘开始，往甲母质方向蔓延。"
+        "en": "Myco = fungus. It often starts at the free edge, then spreads toward the matrix.",
+        "zh": "myco = 真菌。它常从游离缘开始，往甲母质方向蔓延。"
       },
       "hookType": "word-parts",
       "status": "approved"
@@ -4116,7 +4116,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Paronychia causes pus, swelling, and redness around the nail plate. It is often seen in dry, chapped hands exposed to too much water and detergent. Refer to a physician.",
+        "en": "Paronychia causes pus, swelling, and redness around the nail plate. It is often seen in dry, chapped hands that touch too much water and detergent. Refer to a physician.",
         "zh": "paronychia（甲沟炎）会让甲板周围出现脓、肿胀和发红，常见于长期接触水和清洁剂、干燥皲裂的手。应转介医生。"
       },
       "lockPoint": {
@@ -4162,10 +4162,10 @@
         "zh": "Pseudomonas aeruginosa（铜绿假单胞菌）是一种生长迅速、会传染的细菌。斑点会从黄变绿、变棕再变黑。必须转介医生。"
       },
       "lockPoint": {
-        "en": "Aeruginosa comes from the Latin for copper rust, the green coating on old copper roofs.",
-        "zh": "aeruginosa 来自拉丁语的“铜锈”，就是旧铜屋顶上那层绿色。中文“铜绿”也是同一个意思。"
+        "en": "Chinese 铜绿假单胞菌: 铜绿 = green like old copper. Here 菌 means 细菌 (bacteria), not 真菌 (fungus).",
+        "zh": "中文名“铜绿假单胞菌”：铜绿 = 旧铜器上的绿锈色。这里的“菌”是细菌（bacterium），不是真菌（fungus）。"
       },
-      "hookType": "word-origin",
+      "hookType": "chinese-character",
       "status": "approved"
     },
     {
@@ -4242,7 +4242,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "The epidermis is the outermost and thinnest skin layer. It has no blood vessels and depends on the dermis below for nutrition.",
+        "en": "The epidermis is the outermost and thinnest skin layer. It has no blood vessels and gets its food from the dermis below.",
         "zh": "epidermis（表皮）是皮肤最外层、最薄的一层。它没有血管，靠下面的真皮供给营养。"
       },
       "lockPoint": {
@@ -4288,10 +4288,10 @@
         "zh": "dermis（真皮）是表皮下面的内层，约比表皮厚 25 倍，里面有血管、神经、腺体和毛囊。"
       },
       "lockPoint": {
-        "en": "It is also called the cutis, Latin for skin. Cuticle, \"little skin,\" comes from the same word.",
-        "zh": "真皮又叫 cutis，拉丁语“皮肤”。cuticle（甲小皮，“小皮”）也来自这个词。"
+        "en": "Chinese 真皮 means true skin, and also real leather. Leather is made from animal dermis.",
+        "zh": "dermis（真皮）的“真皮”也是“真皮皮鞋”的真皮：皮革就是用动物的真皮层做的。"
       },
-      "hookType": "word-link",
+      "hookType": "chinese-character",
       "status": "approved"
     },
     {
@@ -4326,14 +4326,14 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Subcutaneous tissue, also called adipose tissue, is the fatty layer under the dermis. It gives the body smooth contour, stores energy, and cushions the skin.",
+        "en": "Subcutaneous tissue, also called adipose tissue, is the fatty layer under the dermis. It gives the body a smooth shape, stores energy, and cushions the skin.",
         "zh": "subcutaneous tissue（皮下组织）也叫 adipose tissue（脂肪组织），是真皮下面的脂肪层，让身体轮廓平滑、储存能量，并为皮肤提供缓冲。"
       },
       "lockPoint": {
-        "en": "Its other name, adipose, comes from Latin for fat. Think of padding laid under a carpet.",
-        "zh": "它又叫 adipose，源自拉丁语“脂肪”。就像铺在地毯下面的那层软垫。"
+        "en": "Sub = under, like a subway under the street. This fat lies under the dermis, like padding under a carpet.",
+        "zh": "sub = 在下面，像 subway（地铁）在街道下面。subcutaneous tissue（皮下组织）在真皮下面，就像地毯下面的软垫。"
       },
-      "hookType": "word-origin",
+      "hookType": "word-parts",
       "status": "approved"
     },
     {
@@ -4368,14 +4368,14 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "The stratum corneum, or horny layer, is the outermost, visible layer of the epidermis, and the one beauty practitioners care for. Its scalelike cells are constantly shed.",
+        "en": "The stratum corneum, or horny layer, is the outermost, visible layer of the epidermis, and the one beauty practitioners care for. Its scalelike cells are always being shed.",
         "zh": "stratum corneum（角质层），也叫 horny layer，是表皮最外面、肉眼可见的一层，也是美容从业者护理的那一层。它的鳞状细胞不断脱落。"
       },
       "lockPoint": {
-        "en": "Corneum comes from Latin cornu, horn, as in unicorn. The Chinese name 角质层 uses 角 (horn) too.",
-        "zh": "corneum 来自拉丁语 cornu（角），unicorn（独角兽）里也有它。中文“角质层”的“角”就是牛角、羊角的“角”。"
+        "en": "Chinese 角质层: 角 = horn, tough dead cells. Scrubbing off 角质 (去角质) works on this layer.",
+        "zh": "角质层的“角”= 牛角的角，是坚韧的死细胞。平时说的“去角质”，就是在护理这一层 stratum corneum（角质层）。"
       },
-      "hookType": "word-origin",
+      "hookType": "chinese-character",
       "status": "approved"
     },
     {
@@ -4410,14 +4410,14 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "The stratum lucidum is a clear layer just under the surface, made of small oval cells that light can pass through. It is most abundant on the palms and soles.",
-        "zh": "stratum lucidum（透明层）是紧贴表面下方的透明层，由光线可以穿过的小椭圆形细胞组成，在手掌和脚底最丰富。"
+        "en": "The stratum lucidum is a clear layer just under the surface, made of small oval cells that light can pass through. It is found mostly on the palms and soles.",
+        "zh": "stratum lucidum（透明层）是紧贴表面下方的透明层，由光线可以穿过的小椭圆形细胞组成，主要在手掌和脚底。"
       },
       "lockPoint": {
-        "en": "Lucidum, lucid, and translucent all come from Latin lucere, to shine: light passes through this layer.",
-        "zh": "lucidum、lucid（清楚）、translucent（半透明）都来自拉丁语 lucere（发光）；中文“透明层”也是说光能透过。"
+        "en": "Chinese 透明层: 透明 = see-through, like glass. Only thick skin, like your palms and heels, has this layer.",
+        "zh": "透明层的“透明”= 像玻璃一样能透光。只有厚皮肤才有 stratum lucidum（透明层），比如手掌和脚跟。"
       },
-      "hookType": "word-link",
+      "hookType": "chinese-character",
       "status": "approved"
     },
     {
@@ -4456,10 +4456,10 @@
         "zh": "stratum germinativum（生发层），也叫 basal layer（基底层），是表皮最深的活细胞层，通过有丝分裂产生新细胞，补充表面脱落的细胞。"
       },
       "lockPoint": {
-        "en": "Germinativum shares a root with germinate: seeds sprout new plants; this layer sprouts new cells.",
-        "zh": "germinativum 和 germinate（发芽）同根：种子发出新芽，这一层“长”出新细胞。"
+        "en": "Like seeds in the ground: new cells start in this bottom layer, then rise to the top.",
+        "zh": "像埋在土里的种子：新细胞在这最底层生出来，再慢慢升到表面。"
       },
-      "hookType": "word-link",
+      "hookType": "picture",
       "status": "approved"
     },
     {
@@ -4494,7 +4494,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Tinea pedis is a fungal infection of the feet, often between the toes or along the sole. It thrives in dark, moist places. Do not perform services.",
+        "en": "Tinea pedis is a fungal infection of the feet, often between the toes or along the sole. It grows well in dark, wet places. Do not perform services.",
         "zh": "tinea pedis（足癣）是脚部的真菌感染，常出现在脚趾之间或脚底。它在阴暗潮湿的地方容易滋生。不能为顾客做服务。"
       },
       "lockPoint": {
@@ -4540,10 +4540,10 @@
         "zh": "sudoriferous glands（汗腺）就是 sweat glands。每个汗腺有一个盘绕的底部和一根管状导管，开口在皮肤表面形成汗孔。"
       },
       "lockPoint": {
-        "en": "Latin sudor = sweat, ferre = to carry. Sudoriferous = sweat-carrying.",
-        "zh": "拉丁语 sudor = 汗，ferre = 运送。sudoriferous 就是“运送汗水的”。"
+        "en": "Sudoriferous = sweat; sebaceous = oil. Palms and soles have many sweat glands but no oil glands.",
+        "zh": "sudoriferous = 汗，sebaceous = 油。手掌和脚底汗腺很多，却没有皮脂腺：所以手心会出汗，但不出油。"
       },
-      "hookType": "word-origin",
+      "hookType": "contrast",
       "status": "approved"
     },
     {
@@ -4578,7 +4578,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Sebaceous glands are found all over the body except the palms of the hands and soles of the feet. They are most abundant on the face and scalp.",
+        "en": "Sebaceous glands are found all over the body except the palms of the hands and soles of the feet. Most of them are on the face and scalp.",
         "zh": "除了手掌和脚底，全身都有 sebaceous glands（皮脂腺），其中面部和头皮最多。"
       },
       "lockPoint": {
@@ -4620,7 +4620,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Secretion is the skin releasing sebum from the sebaceous glands. Sebum lubricates the skin and keeps it soft. Sweat leaving the skin is excretion.",
+        "en": "Secretion is the skin releasing sebum from the sebaceous glands. Sebum oils the skin and keeps it soft. Sweat leaving the skin is excretion.",
         "zh": "secretion（分泌）是皮脂腺释放皮脂，皮脂润滑皮肤、让它保持柔软。汗液排出皮肤则属于 excretion（排泄）。"
       },
       "lockPoint": {
@@ -4662,14 +4662,14 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "A macule is a flat spot or discoloration on the skin, such as a freckle or age spot. It is neither raised nor sunken.",
+        "en": "A macule is a flat spot or discoloration on the skin, such as a freckle or age spot. It is not raised, and not lower than the skin.",
         "zh": "macule（斑疹）是皮肤上平的斑点或变色，例如雀斑或老年斑，既不凸起也不凹陷。"
       },
       "lockPoint": {
-        "en": "Latin macula = spot. Immaculate means \"without a spot.\"",
-        "zh": "拉丁语 macula = 斑点。immaculate（一尘不染）就是“没有斑点”。"
+        "en": "Touch a freckle: you can't feel it, it's flat. That's a macule. A papule is a bump you can feel.",
+        "zh": "摸摸雀斑：平的，摸不出来，这就是 macule（斑疹）。papule（丘疹）是能摸到的小鼓包。"
       },
-      "hookType": "word-origin",
+      "hookType": "body-cue",
       "status": "approved"
     },
     {
@@ -4708,7 +4708,7 @@
         "zh": "eczema（湿疹）是一种发炎、发痒的皮肤病，不会传染。疣、单纯疱疹和足癣都具有传染性。"
       },
       "lockPoint": {
-        "en": "Eczema often runs in families and flares from triggers like dryness or soap, not germs. Nothing to catch.",
+        "en": "Eczema often runs in families and gets worse with things like dry skin or soap, not germs. Nothing to catch.",
         "zh": "湿疹常有家族遗传倾向，会因皮肤干燥、肥皂等刺激而发作，不是病菌引起的，所以没什么可传染的。"
       },
       "hookType": "reason-chain",
@@ -4746,14 +4746,14 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "A fissure is a crack in the skin that penetrates the dermis, as in severely cracked or chapped hands, lips, or feet.",
+        "en": "A fissure is a crack in the skin that goes down into the dermis, as in badly cracked or chapped hands, lips, or feet.",
         "zh": "fissure（皲裂）是深入到真皮的皮肤裂口，例如严重开裂或皲裂的手、嘴唇或脚。"
       },
       "lockPoint": {
-        "en": "Fissure comes from Latin for split, like a crack in rock. Broken skin means no salon service; refer out.",
-        "zh": "fissure 源自拉丁语“裂开”，像岩石上的裂缝。皮肤破了就不能做沙龙服务，应建议就医。"
+        "en": "Picture dry ground cracked by the sun. A crack in the heel deep enough to bleed is a fissure.",
+        "zh": "想象被太阳晒裂的干地。脚跟上的裂口深到会流血（伤到真皮），就是 fissure（皲裂）。"
       },
-      "hookType": "word-origin",
+      "hookType": "picture",
       "status": "approved"
     },
     {
@@ -4788,11 +4788,11 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "A crust, such as a scab, is a secondary lesion: material piled on the skin as a wound heals. Vesicles, macules, and papules are primary lesions.",
-        "zh": "crust（痂，比如伤口结的 scab）是继发性皮损：伤口愈合时堆积在皮肤表面的物质。水疱、斑疹和丘疹都是原发性皮损（primary lesions）。"
+        "en": "A crust, such as a scab, is a secondary lesion: dried matter that builds up on the skin as a wound heals. Vesicles, macules, and papules are primary lesions.",
+        "zh": "crust（痂，比如伤口结的 scab）是继发性皮损：伤口愈合时在皮肤表面堆积、变干的物质。水疱、斑疹和丘疹都是原发性皮损（primary lesions）。"
       },
       "lockPoint": {
-        "en": "Primary comes first, secondary later. A scab forms only after skin has broken open or oozed.",
+        "en": "Primary comes first, secondary later. A scab forms only after skin has broken open or leaked fluid.",
         "zh": "原发在先，继发在后。必须先有皮肤破溃或渗出，之后才会结痂。"
       },
       "hookType": "reason-chain",
@@ -4830,12 +4830,12 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Bromhidrosis is foul-smelling perspiration, usually noticeable in the armpits or on the feet.",
+        "en": "Bromhidrosis is bad-smelling sweat, usually noticed in the armpits or on the feet.",
         "zh": "bromhidrosis（臭汗症）是气味难闻的汗液，通常在腋下或脚上比较明显。"
       },
       "lockPoint": {
-        "en": "Greek bromos = stench; the element bromine was named for its smell. Hidrosis = sweating.",
-        "zh": "希腊语 bromos = 恶臭，化学元素 bromine（溴）就是因气味得名。hidrosis = 出汗。"
+        "en": "All -hidrosis words are about sweat. Anhidrosis = too little, hyperhidrosis = too much, bromhidrosis = bad smell.",
+        "zh": "带 -hidrosis 的词都和汗有关：anhidrosis（无汗症）= 汗太少，hyperhidrosis（多汗症）= 汗太多，bromhidrosis（臭汗症）= 汗有臭味。"
       },
       "hookType": "word-parts",
       "status": "approved"
@@ -4914,14 +4914,14 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Chloasma is increased pigmentation: dark spots that are not raised. They are generally pools of melanin caused by years of sun exposure.",
-        "zh": "chloasma（黄褐斑）是色素增加形成的不凸起的深色斑点，通常是长期日晒造成的黑色素沉积。"
+        "en": "Chloasma is extra color in the skin: dark, flat spots. They are usually pools of melanin from years of sun.",
+        "zh": "chloasma（黄褐斑）是皮肤颜色加深形成的平坦深色斑点，通常是多年日晒造成的黑色素沉积。"
       },
       "lockPoint": {
-        "en": "Name trap: chlo- means green, as in chlorophyll, yet these spots are brown.",
-        "zh": "名字陷阱：chlo- 意为“绿色”（chlorophyll 叶绿素），可这些斑却是褐色的。"
+        "en": "Chinese 黄褐斑: 黄褐 = yellow-brown. Chloasma is flat brown spots, not white like vitiligo.",
+        "zh": "黄褐斑的“黄褐”= 黄褐色：chloasma（黄褐斑）是平的褐色斑，不是白癜风那样的白斑。"
       },
-      "hookType": "name-trap",
+      "hookType": "chinese-character",
       "status": "approved"
     },
     {
@@ -4956,7 +4956,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Basal cell carcinoma is the most common and least severe skin cancer, often light, pearly nodules. Squamous cell is more serious; malignant melanoma is the most serious.",
+        "en": "Basal cell carcinoma is the most common and least severe skin cancer, often light, shiny nodules. Squamous cell is more serious; malignant melanoma is the most serious.",
         "zh": "basal cell carcinoma（基底细胞癌）是最常见、最不严重的皮肤癌，常呈浅色、珍珠样结节。鳞状细胞癌更严重，恶性黑色素瘤最严重。"
       },
       "lockPoint": {
@@ -5044,10 +5044,10 @@
         "zh": "verruca（疣）是由病毒引起的。它有传染性，会从一处扩散到另一处，尤其容易沿着皮肤上的抓痕蔓延。"
       },
       "lockPoint": {
-        "en": "Latin verruca meant both \"wart\" and \"a height\": a wart is a bump rising from the skin.",
-        "zh": "拉丁语 verruca 既指“疣”，也指“高处、高地”：疣就是皮肤上鼓起来的小包。"
+        "en": "Picture a tiny cauliflower on the skin: many warts look like that. Don't scratch it, or it can spread.",
+        "zh": "想象皮肤上长了一朵小小的花椰菜：很多疣（verruca）就长这样。别去抓它，会传开。"
       },
-      "hookType": "word-origin",
+      "hookType": "picture",
       "status": "approved"
     },
     {
@@ -5086,10 +5086,10 @@
         "zh": "humerus（肱骨）是手臂最上面、最大的骨头，从肘部一直延伸到肩部。"
       },
       "lockPoint": {
-        "en": "Humerus is Latin for shoulder or upper arm. In Chinese, 肱 in 肱骨 also means upper arm.",
-        "zh": "humerus 是拉丁语的“肩、上臂”。中文“肱骨”的“肱”也是上臂的意思。"
+        "en": "Hold your upper arm between shoulder and elbow. The one big bone inside is the humerus.",
+        "zh": "握住你肩膀和手肘之间的上臂：里面那一根大骨头就是 humerus（肱骨）。“肱”就是上臂。"
       },
-      "hookType": "word-origin",
+      "hookType": "body-cue",
       "status": "approved"
     },
     {
@@ -5128,10 +5128,10 @@
         "zh": "ulna（尺骨）是前臂较长的骨头，肘部一端比腕部一端粗，位于手的小指一侧。"
       },
       "lockPoint": {
-        "en": "Ulna is Latin for elbow or arm. Feel the point of your elbow: that knob is the ulna.",
-        "zh": "ulna 是拉丁语的“肘、手臂”。摸摸你手肘尖：那个骨突就是尺骨。"
+        "en": "Feel your elbow point: that knob is the ulna. It runs down to the wrist, on the little-finger side.",
+        "zh": "摸摸你的手肘尖：那个骨突就是 ulna（尺骨）。它一直延伸到手腕，在小指那一侧。"
       },
-      "hookType": "word-origin",
+      "hookType": "body-cue",
       "status": "approved"
     },
     {
@@ -5208,7 +5208,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "The carpus is the wrist: a flexible joint of eight small, irregular bones held together by ligaments.",
+        "en": "The carpus is the wrist: a flexible joint of eight small, odd-shaped bones held together by ligaments.",
         "zh": "carpus（腕骨）就是手腕：由八块不规则的小骨头组成、靠韧带连接的灵活关节。"
       },
       "lockPoint": {
@@ -5254,10 +5254,10 @@
         "zh": "metacarpus（掌骨）是手掌的骨头：位于腕骨和手指骨之间的五块骨头。"
       },
       "lockPoint": {
-        "en": "Meta = after or beyond (Greek). Meta-carpus = the bones just beyond the wrist.",
-        "zh": "meta = 在……之后、超出（希腊语）。meta-carpus 就是“腕骨之后”的骨头。"
+        "en": "Feel your palm: five long bones run from wrist to knuckles. These palm bones are the metacarpus.",
+        "zh": "摸摸手掌：从手腕到指关节有五根长骨头，就是 metacarpus（掌骨）。“掌”= 手掌。"
       },
-      "hookType": "word-parts",
+      "hookType": "body-cue",
       "status": "approved"
     },
     {
@@ -5296,10 +5296,10 @@
         "zh": "phalanges（指骨/趾骨）是手指或脚趾的骨头，也叫 digits。每只脚有 14 块。"
       },
       "lockPoint": {
-        "en": "A phalanx was a line of Greek soldiers standing in rows. Finger bones line up the same way.",
-        "zh": "phalanx 是古希腊排成一列列的士兵方阵。手指骨也是这样一节一节排成行。"
+        "en": "Bend a finger and count: three bones. Your thumb has two. All of them are phalanges.",
+        "zh": "弯一弯手指数一数：每根手指三节骨头，拇指两节。它们都是 phalanges（指骨）。"
       },
-      "hookType": "word-origin",
+      "hookType": "body-cue",
       "status": "approved"
     },
     {
@@ -5334,7 +5334,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Extensors straighten the wrist, hand, and fingers to form a straight line. Flexors are involved in bending the wrist.",
+        "en": "Extensors straighten the wrist, hand, and fingers to form a straight line. Flexors help bend the wrist.",
         "zh": "extensors（伸肌）把手腕、手和手指伸直成一条线。flexors（屈肌）参与弯曲手腕。"
       },
       "lockPoint": {
@@ -5464,10 +5464,10 @@
         "zh": "踝关节由三块骨头组成：来自小腿的胫骨和腓骨，以及足部的 talus（距骨，即踝骨）。"
       },
       "lockPoint": {
-        "en": "Talus is Latin for ankle bone. It sits right under the tibia and carries the body's weight.",
-        "zh": "talus 是拉丁语的“踝骨”。它就在胫骨正下方，承接全身的重量。"
+        "en": "Talus is the highest foot bone, right under the tibia. The calcaneus, the heel bone, sits below and behind it.",
+        "zh": "talus（距骨）在胫骨正下方，是脚上最高的骨头。calcaneus（跟骨）是脚跟骨，在它的下后方。"
       },
-      "hookType": "word-origin",
+      "hookType": "contrast",
       "status": "approved"
     },
     {
@@ -5506,10 +5506,10 @@
         "zh": "femur（股骨）是构成膝盖以上腿部的又重又长的骨头。胫骨和腓骨构成膝盖以下的小腿。"
       },
       "lockPoint": {
-        "en": "Femur is Latin for thigh. Nail technicians may serve the leg only below the knee.",
-        "zh": "femur 是拉丁语的“大腿”。美甲师只能为膝盖以下的腿部提供服务。"
+        "en": "Put your hand on your thigh. The bone inside is the femur, the longest bone in your body.",
+        "zh": "把手放在大腿上：里面那根骨头就是 femur（股骨），全身最长的骨头。"
       },
-      "hookType": "word-origin",
+      "hookType": "body-cue",
       "status": "approved"
     },
     {
@@ -5548,7 +5548,7 @@
         "zh": "关节连接骨头。可动关节包括肘、膝、髋；不动关节，例如颅骨或骨盆，几乎不能活动。"
       },
       "lockPoint": {
-        "en": "The bones around the brain meet at zigzag seams that interlock like puzzle pieces.",
+        "en": "The bones around the brain meet at zigzag seams that fit together like puzzle pieces.",
         "zh": "包住大脑的颅骨靠锯齿状的骨缝像拼图一样咬合在一起。"
       },
       "hookType": "picture",
@@ -5716,10 +5716,10 @@
         "zh": "deltoid（三角肌）是覆盖肩关节的大块三角形肌肉，让手臂向外、向身体侧面抬起。"
       },
       "lockPoint": {
-        "en": "Named for delta (Δ), the Greek letter shaped like a triangle. A river delta has the same shape.",
-        "zh": "名字来自希腊字母 delta（Δ），形状就是三角形。河流三角洲（delta）也是这个形状。"
+        "en": "Lift your arm out to the side. Feel the top of your shoulder get hard: that's the deltoid.",
+        "zh": "把手臂向侧面抬起，摸摸肩膀顶部变硬了：那就是 deltoid（三角肌）。“三角”就是它的形状。"
       },
-      "hookType": "word-origin",
+      "hookType": "body-cue",
       "status": "approved"
     },
     {
@@ -5800,10 +5800,10 @@
         "zh": "sural nerve（腓肠神经）支配足部和小腿外侧及后面的皮肤。saphenous nerve（隐神经）支配内侧。"
       },
       "lockPoint": {
-        "en": "Sura is Latin for calf. The Chinese 腓肠 also means calf: the nerve runs down the back of it.",
-        "zh": "sura 是拉丁语“小腿肚”。中文“腓肠”也是小腿肚的意思：这条神经沿小腿肚后面往下走。"
+        "en": "Touch the back of your lower leg, your calf. The sural nerve runs down there to the outer foot.",
+        "zh": "摸摸小腿后面的小腿肚：sural nerve（腓肠神经）就沿着这里往下，走到脚的外侧。“腓肠”就是小腿肚。"
       },
-      "hookType": "word-origin",
+      "hookType": "body-cue",
       "status": "approved"
     },
     {
@@ -5884,10 +5884,10 @@
         "zh": "gastrocnemius（腓肠肌）附着在脚跟后下方，把脚往下拉。胫骨前肌（tibialis anterior）在小腿前面，把脚往上勾。"
       },
       "lockPoint": {
-        "en": "Greek gaster = belly, kneme = leg: the \"belly of the leg,\" the bulge of your calf.",
-        "zh": "希腊语 gaster = 肚子，kneme = 小腿：“小腿的肚子”，就是小腿肚鼓起的那块。"
+        "en": "Stand up on your toes. The big muscle that gets hard at the back of your calf is the gastrocnemius.",
+        "zh": "踮起脚尖站着：小腿后面鼓起变硬的那块大肌肉就是 gastrocnemius（腓肠肌）。"
       },
-      "hookType": "word-parts",
+      "hookType": "body-cue",
       "status": "approved"
     },
     {
@@ -5926,10 +5926,10 @@
         "zh": "atom（原子）是物质的基本单位：原子核含有质子和中子，电子绕着它运动。原子结合起来就成了分子（molecule）。"
       },
       "lockPoint": {
-        "en": "Atom comes from Greek atomos, \"uncuttable\": ordinary chemistry can't split it.",
-        "zh": "atom 来自希腊语 atomos“不可切分”：用普通化学方法分不开它。"
+        "en": "An atom is one LEGO brick; a molecule is bricks snapped together. Normal chemistry can't break the brick.",
+        "zh": "atom（原子）像一块乐高积木，molecule（分子）是几块拼在一起的积木。“原”= 最基本：普通化学方法拆不开原子。"
       },
-      "hookType": "word-origin",
+      "hookType": "comparison",
       "status": "approved"
     },
     {
@@ -6094,10 +6094,10 @@
         "zh": "solute（溶质）是被溶解的物质。solvent（溶剂）负责溶解，这里是丙酮。两者合在一起就成了溶液（solution）。"
       },
       "lockPoint": {
-        "en": "From Latin: solvent means \"dissolving\" (it acts). Solute means \"dissolved\" (it is acted on).",
-        "zh": "拉丁语里 solvent =“正在溶解”（主动），solute =“被溶解的”（被动）。"
+        "en": "Sugar in water: sugar is the solute, water is the solvent. Old polish is the sugar; acetone is the water.",
+        "zh": "糖放进热水里：糖是 solute（溶质，被溶解的），水是 solvent（溶剂，负责溶解的）。旧甲油就是糖，丙酮就是水。"
       },
-      "hookType": "word-origin",
+      "hookType": "real-life",
       "status": "approved"
     },
     {
@@ -6216,7 +6216,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "The pH scale is logarithmic. Each whole number is a tenfold change. Going from 7 to 9 is two steps: 10 × 10 = 100 times.",
+        "en": "The pH scale is logarithmic. Each whole number is a 10-times change. Going from 7 to 9 is two steps: 10 × 10 = 100 times.",
         "zh": "pH 标度是对数标度，每差一个整数就是 10 倍。从 7 到 9 差两级：10 × 10 = 100 倍。"
       },
       "lockPoint": {
@@ -6300,14 +6300,14 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Miscible liquids are mutually soluble, so they mix and stay mixed as a solution. Immiscible liquids, like oil and water, separate when left still.",
+        "en": "Miscible liquids are soluble in each other, so they mix and stay mixed as a solution. Immiscible liquids, like oil and water, separate when left still.",
         "zh": "miscible（可互溶）的液体能互相溶解，混合后保持为溶液。immiscible（不互溶）的液体，例如油和水，静置后会分层。"
       },
       "lockPoint": {
-        "en": "Miscible comes from Latin miscere, \"to mix.\" Im- means not: immiscible won't mix.",
-        "zh": "miscible 来自拉丁语 miscere“混合”；im- = 不：immiscible 就是混不到一起。"
+        "en": "Miscible looks like \"mix\": these liquids mix. Im- means not: immiscible liquids won't mix.",
+        "zh": "miscible（可互溶的）长得像 mix（混合）：能混在一起。im- = 不：immiscible 就是混不到一起，像油和水。"
       },
-      "hookType": "word-origin",
+      "hookType": "word-link",
       "status": "approved"
     },
     {
@@ -6514,8 +6514,8 @@
         "zh": "oligomer（寡聚物/低聚物）是提前停止增长的单体短链。它能很快连成聚合物，也让 UV 凝胶（UV gel）有黏稠的质地。"
       },
       "lockPoint": {
-        "en": "Oligo = few, as in oligarchy, rule by a few. A few parts make a short chain.",
-        "zh": "oligo = 少（oligarchy = 寡头统治）。中文“寡聚物”的“寡”也是“少”：少数几块连成的短链。"
+        "en": "Oligo = few, mono = one, poly = many. An oligomer sits in the middle: a few parts.",
+        "zh": "oligo = 少。中文“寡聚物”的“寡”也是“少”：少数几块连成的短链，比单体多，比聚合物少。"
       },
       "hookType": "word-parts",
       "status": "approved"
@@ -6598,7 +6598,7 @@
         "zh": "catalyst（催化剂）能加快化学反应，例如让引发剂更有效。所有加固甲产品都含催化剂，所以它们硬化得快。"
       },
       "lockPoint": {
-        "en": "A car's catalytic converter uses catalysts to speed up reactions that clean the exhaust.",
+        "en": "A car's catalytic converter uses catalysts to speed up reactions that clean the dirty gas from the engine.",
         "zh": "催化剂的“催”= 催促，催着反应快点完成。汽车尾气的“催化转换器”（catalytic converter）也是这个原理。"
       },
       "hookType": "real-life",
@@ -6636,11 +6636,11 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Cross-linkers join polymer chains like rungs on a ladder. The net-like structure is strong and flexible, and more resistant to stains, water, and acetone.",
+        "en": "Cross-linkers join polymer chains like steps on a ladder. The net-like structure is strong and flexible, and more resistant to stains, water, and acetone.",
         "zh": "cross-linker（交联剂）像梯子的横档一样把聚合物链连起来。这种网状结构坚固又有弹性，更能抵抗污渍、水和丙酮。"
       },
       "lockPoint": {
-        "en": "Cross-links → acetone can't easily unravel the chains → enhancements soak off slower than wraps or tip adhesive.",
+        "en": "Cross-links → acetone can't easily pull the chains apart → enhancements soak off slower than wraps or tip adhesive.",
         "zh": "有交联 → 丙酮不容易拆开链 → 所以加固甲比包甲（wraps）或贴片胶（tip adhesive）更难泡掉。"
       },
       "hookType": "reason-chain",
@@ -6766,10 +6766,10 @@
         "zh": "VOC 含碳（organic，有机），并且非常容易蒸发（volatile，挥发性）。乙酸乙酯（ethyl acetate）和异丙醇（isopropyl alcohol）就是指甲油、底油、亮油和洗甲水里的 VOC 溶剂。"
       },
       "lockPoint": {
-        "en": "Volatile comes from Latin volare, \"to fly\": the liquid flies off into the air.",
-        "zh": "volatile 来自拉丁语 volare“飞”：液体“飞”进空气里。中文“挥发”也是散到空气中。"
+        "en": "Open a bottle of remover and you smell it right away. Volatile: it jumps into the air fast.",
+        "zh": "volatile（易挥发的）：一打开洗甲水瓶，马上就闻到味道——液体很快“挥发”到空气里了。"
       },
-      "hookType": "word-origin",
+      "hookType": "real-life",
       "status": "approved"
     },
     {
@@ -6850,10 +6850,10 @@
         "zh": "plasticizers（增塑剂）让指甲油和加固甲产品保持柔韧。紫外线稳定剂保护颜色，色素提供颜色，溶剂蒸发后留下涂膜。"
       },
       "lockPoint": {
-        "en": "Plastic first meant \"able to be molded\" (Greek plastikos): bendable, not stiff.",
-        "zh": "plastic 原义是“可塑的”（希腊语 plastikos）。增塑剂让涂膜能弯、不发脆。"
+        "en": "Plasticizer has \"plastic\" in it: like a soft plastic bag, the film bends instead of cracking.",
+        "zh": "plasticizer（增塑剂）里有 plastic（塑料）：像软塑料袋一样，甲油膜能弯，不容易裂。"
       },
-      "hookType": "word-origin",
+      "hookType": "word-link",
       "status": "approved"
     },
     {
@@ -6888,7 +6888,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "UV stabilizers control color stability and stop sunlight from fading or discoloring the color. Nail enhancement products use them for the same job.",
+        "en": "UV stabilizers control color stability and stop sunlight from fading or changing the color. Nail enhancement products use them for the same job.",
         "zh": "UV stabilizers（紫外线稳定剂）保持颜色稳定，防止阳光让颜色褪色或变色。加固甲产品里也用它做同样的事。"
       },
       "lockPoint": {
@@ -7014,11 +7014,11 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Milady says MMA is not a carcinogen and is not absorbed into the blood. The problems are poor adhesion, rigid nails, hard removal, and, most important, the FDA's position.",
+        "en": "Milady says MMA is not a carcinogen and is not absorbed into the blood. The problems are poor adhesion, stiff nails, hard removal, and, most important, the FDA's position.",
         "zh": "Milady 指出 MMA 不致癌，也不会被吸收进血液。问题在于附着差、太硬、难卸除，而最重要的原因是 FDA 和州美容委员会不允许使用。"
       },
       "lockPoint": {
-        "en": "Surgeons use MMA as bone repair cement: toxicity isn't why nails can't use it.",
+        "en": "Doctors use MMA as bone repair cement: toxicity isn't why nails can't use it.",
         "zh": "MMA 被用作手术骨水泥：它被禁用于指甲，不是因为毒性。"
       },
       "hookType": "real-life",
@@ -7056,11 +7056,11 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "MMA nails are rigid and difficult to break. The natural nail was thinned to make MMA stick, so it often breaks instead, causing serious nail damage.",
+        "en": "MMA nails are stiff and hard to break. The natural nail was thinned to make MMA stick, so it often breaks instead, causing serious nail damage.",
         "zh": "MMA 指甲又硬又难断。为了让 MMA 粘住，真甲已被磨薄，所以断的往往是真甲，造成严重损伤。"
       },
       "lockPoint": {
-        "en": "MMA won't dissolve in remover, so it's often pried off: even more nail damage.",
+        "en": "MMA won't dissolve in remover, so it's often forced off: even more nail damage.",
         "zh": "MMA 在卸甲液里不溶解，常常只能硬撬下来：对指甲伤害更大。"
       },
       "hookType": "reason-chain",
@@ -7140,7 +7140,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "The idea that primers eat or etch the nail is a myth. One very thin coat is enough for most clients. Needing two or more means nail prep or application has a problem.",
+        "en": "The idea that primers eat or etch the nail is not true. One very thin coat is enough for most clients. Needing two or more means nail prep or application has a problem.",
         "zh": "结合剂会蚀刻或“吃掉”指甲是一种误解。大多数顾客涂一层极薄的就够了。如果需要两层或更多，说明甲面准备或操作有问题。"
       },
       "lockPoint": {
@@ -7182,14 +7182,14 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Prolonged, repeated skin contact causes these allergies over time. Product vapors do not cause skin allergies. If the product never touches skin, an allergy is extremely unlikely.",
+        "en": "Long, repeated skin contact causes these allergies over time. Product vapors do not cause skin allergies. If the product never touches skin, an allergy is very unlikely.",
         "zh": "长期、反复接触皮肤，久而久之会引起过敏。产品蒸气不会引起皮肤过敏。只要产品从不碰到皮肤，过敏的可能性极低。"
       },
       "lockPoint": {
-        "en": "Allergy: Greek allos, \"other,\" + ergon, \"work\": the body learns a changed reaction.",
-        "zh": "allergy 来自希腊语 allos（另一种）+ ergon（作用）：反复接触后，身体学会了一种“改变了的反应”。"
+        "en": "Skin touch after skin touch → the body slowly becomes allergic → one day, red, itchy skin.",
+        "zh": "allergy（过敏）：皮肤一次又一次碰到产品 → 身体慢慢变得过敏 → 有一天突然红、痒。所以每次都别让产品碰到皮肤。"
       },
-      "hookType": "word-origin",
+      "hookType": "reason-chain",
       "status": "approved"
     },
     {
@@ -7224,7 +7224,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "The overexposure principle says overexposure (prolonged, repeated, or long-term exposure) determines toxicity. Salt water is very toxic to drink, yet you can safely swim in the ocean.",
+        "en": "The overexposure principle says overexposure (long or repeated exposure) decides toxicity. Salt water is very toxic to drink, yet you can safely swim in the ocean.",
         "zh": "过度接触原则（overexposure principle）认为，决定毒性的是过度接触，即长期、反复或长时间的接触。海水喝下去毒性很大，但在海里游泳却很安全。"
       },
       "lockPoint": {
@@ -7392,14 +7392,14 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Glycerin is a sweet, colorless, oily substance used as a solvent and moisturizer in skin and body creams. Cuticle removers add it to counteract their skin-drying effects.",
+        "en": "Glycerin is a sweet, colorless, oily substance used as a solvent and moisturizer in skin and body creams. Cuticle removers add it so they dry the skin less.",
         "zh": "glycerin（甘油）是一种带甜味、无色、油状的物质，在护肤霜和身体霜中用作溶剂和保湿剂。死皮软化剂（cuticle remover）里也会加甘油，用来抵消死皮软化剂本身让皮肤变干的作用。"
       },
       "lockPoint": {
-        "en": "Glycerin comes from Greek glykeros, \"sweet.\" Chinese 甘油 says it too: 甘 means sweet.",
-        "zh": "glycerin 来自希腊语 glykeros“甜”；中文“甘油”的“甘”也是甜（甘甜）。"
+        "en": "Glycerin = 甘油: 甘 = sweet, 油 = oily. The Chinese name gives you two answer clues.",
+        "zh": "glycerin（甘油）：甘 = 甜，油 = 油油的（像油，但不是油）。名字里就有两个线索：甜甜的、油油的保湿成分。"
       },
-      "hookType": "word-origin",
+      "hookType": "chinese-character",
       "status": "approved"
     },
     {
@@ -7438,8 +7438,8 @@
         "zh": "死皮软化剂 pH 高（caustic，腐蚀性），刺激皮肤。它们用来溶解甲板上的死组织，所以不要碰到甲上皮（eponychium）的活皮肤。"
       },
       "lockPoint": {
-        "en": "Sodium hydroxide is lye, the same strong alkali found in drain cleaners.",
-        "zh": "氢氧化钠就是烧碱（lye），通下水道的疏通剂里也有它。"
+        "en": "Sodium hydroxide is the same strong alkali found in drain cleaners.",
+        "zh": "氢氧化钠（烧碱）就是通下水道的疏通剂里那种强碱。"
       },
       "hookType": "real-life",
       "status": "approved"
@@ -7480,7 +7480,7 @@
         "zh": "methylene glycol（甲二醇）在真甲的角蛋白（keratin）链之间搭“桥”，也就是交联，让甲板更硬，更不易弯折和断裂。"
       },
       "lockPoint": {
-        "en": "Never use it on already brittle nails → too rigid → they may split and shatter.",
+        "en": "Never use it on already brittle nails → too stiff → they may split and break.",
         "zh": "已经很脆的指甲绝不能用 → 会过硬 → 可能裂开甚至碎掉。"
       },
       "hookType": "reason-chain",
@@ -7812,7 +7812,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Step 10, Repeat, restates everything you agreed on, for example, \"What I heard you say is…\" It is the most critical step because it determines the final service.",
+        "en": "Step 10, Repeat, says again everything you agreed on, for example, \"What I heard you say is…\" It is the most critical step because it decides the final service.",
         "zh": "第 10 步“复述”（Repeat）要把双方商定的内容再说一遍，例如“我听到您说的是……”。这一步最关键，因为它决定最终做什么服务。"
       },
       "lockPoint": {
@@ -7858,10 +7858,10 @@
         "zh": "reflective listening（反映式倾听）是先听，再用自己的话复述你理解的顾客意思。不要打断，并请顾客确认你理解得对。"
       },
       "lockPoint": {
-        "en": "Reflect comes from Latin reflectere, \"bend back\": you send the client's words back, like a mirror.",
-        "zh": "reflect 来自拉丁语 reflectere“折回”：像镜子一样，把顾客的话“照”回去，请顾客确认。"
+        "en": "A mirror reflects your face back. Reflective listening sends the client's words back: \"So you want…?\"",
+        "zh": "reflective listening（反映式倾听）：像镜子把你的脸照回来一样，把顾客的话“照”回去：“所以您是想要……？”再请顾客确认。"
       },
-      "hookType": "word-origin",
+      "hookType": "picture",
       "status": "approved"
     },
     {
@@ -7900,10 +7900,10 @@
         "zh": "美甲师的执照只允许做美容服务，不能诊断、治疗或开处方。你可以告诉顾客你看到了可能不健康的情况，并建议顾客就医。"
       },
       "lockPoint": {
-        "en": "Diagnose: Greek dia, \"apart,\" + gnosis, \"knowing\": telling one disease apart from another.",
-        "zh": "diagnose 来自希腊语 dia（分开）+ gnosis（认识）：分辨是哪一种病，这是医生的工作。"
+        "en": "Saying \"You have nail fungus\" is diagnosing. Say \"Please see a doctor\" instead.",
+        "zh": "说“你得了甲真菌病”就是 diagnose（诊断），美甲师不能说。要说“请去看医生”（refer to a physician）。"
       },
-      "hookType": "word-origin",
+      "hookType": "real-life",
       "status": "approved"
     },
     {
@@ -8064,12 +8064,12 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Clients with high blood pressure, diabetes, or circulation problems can often have massage if stabilized and under a doctor's care. Severe, uncontrolled hypertension is a contraindication.",
+        "en": "Clients with high blood pressure, diabetes, or circulation problems can often have massage if their condition is stable and under a doctor's care. Severe, uncontrolled hypertension is a contraindication.",
         "zh": "高血压、糖尿病或循环问题的顾客，如果病情稳定并有医生治疗，通常仍可按摩。严重且未控制的高血压则是禁忌症（contraindication）。"
       },
       "lockPoint": {
-        "en": "Hyper = over, as in hyperactive. Tension here means pressure: hypertension = blood pressure too high.",
-        "zh": "hyper = 过度（hyperactive 过度活跃），tension 在这里指压力：hypertension 就是血压过高。"
+        "en": "Hyper = over, too much. Tension here means pressure: hypertension = blood pressure too high.",
+        "zh": "hyper = 过度，tension 在这里指压力：hypertension（高血压）就是血压过高。"
       },
       "hookType": "word-parts",
       "status": "approved"
@@ -8106,7 +8106,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "For these clients a small nick can quickly need medical care. Do not use sharp tools or nip cuticles. Use a curette to gently remove nonliving tissue and a fine-grit abrasive.",
+        "en": "For these clients a small cut can quickly need medical care. Do not use sharp tools or nip cuticles. Use a curette to gently remove nonliving tissue and a fine-grit abrasive.",
         "zh": "对这类顾客来说，一个小破口就可能需要就医。不要用锋利工具，也不要剪死皮。改用刮匙轻轻去除死组织，并用细砂锉。"
       },
       "lockPoint": {
@@ -8232,7 +8232,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Rub your hands together, all over and vigorously, until a lather forms. Keep going for at least 20 seconds, then rinse in warm running water.",
+        "en": "Rub your hands together, hard and all over, until a lather forms. Keep going for at least 20 seconds, then rinse in warm running water.",
         "zh": "双手用力搓遍各处，直到起泡，至少持续 20 秒，然后用温水冲洗。"
       },
       "lockPoint": {
@@ -8274,7 +8274,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Bar soap harbors bacteria and can become a breeding ground for pathogens. Milady recommends liquid soap in pump containers at the hand-washing station.",
+        "en": "Bar soap can hold (harbor) bacteria and become a place where pathogens grow. Milady recommends liquid soap in pump containers at the hand-washing station.",
         "zh": "肥皂块容易藏细菌，会变成病原菌（pathogens）的温床。Milady 建议洗手区使用按压瓶装的液体皂。"
       },
       "lockPoint": {
@@ -8442,7 +8442,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "The table is cleaned and disinfected after every client, so its surface must be hard and impenetrable, such as Formica or glass, and kept clear of clutter.",
+        "en": "The table is cleaned and disinfected after every client, so its surface must be hard and impenetrable, such as Formica or glass, and kept clear of extra items.",
         "zh": "每位顾客之后都要清洁并消毒桌面，所以桌面必须坚硬、不渗透，例如 Formica（福米加防火板）或玻璃，并保持整洁。"
       },
       "lockPoint": {
@@ -8484,7 +8484,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Fluorescent bulbs emit cooler light and do not heat objects under the lamp. Heat from a high-watt incandescent bulb can make some enhancement products cure too fast, causing cracking and lifting.",
+        "en": "Fluorescent bulbs give off cooler light and do not heat objects under the lamp. Heat from a high-watt incandescent bulb can make some enhancement products cure too fast, causing cracking and lifting.",
         "zh": "荧光灯光线较凉，不会烤热灯下的东西。高瓦数白炽灯（incandescent bulb）的热量会让某些加固产品固化太快，导致开裂和翘起（lifting）。"
       },
       "lockPoint": {
@@ -8526,7 +8526,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "The technician's chair has wheels to move around and hydraulics to adjust height. The client's chair should not have wheels; it is unstable and can cause falls for elderly or weak clients.",
+        "en": "The technician's chair has wheels to move around and can go up and down. The client's chair should not have wheels; it can roll and make older or weak clients fall.",
         "zh": "美甲师的椅子有轮子方便移动，有液压（hydraulics）可调高度。顾客的椅子不应有轮子：不稳，年长或体弱的顾客可能摔倒。"
       },
       "lockPoint": {
@@ -8568,7 +8568,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "A finger bowl holds warm water to soften the skin and cuticle. Plastic, metal, glass, or ceramic all work, but it must be durable and easy to clean and disinfect after each client.",
+        "en": "A finger bowl holds warm water to soften the skin and cuticle. Plastic, metal, glass, or ceramic all work, but it must be strong and easy to clean and disinfect after each client.",
         "zh": "泡手碗盛温水，用来软化皮肤和死皮（cuticle）。塑料、金属、玻璃或陶瓷都可以，但必须耐用，并且每位顾客用后容易清洁和消毒。"
       },
       "lockPoint": {
@@ -8610,7 +8610,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "It must hold enough disinfectant to completely immerse several service sets. Containers that cannot submerge the entire implement, including handles, are not acceptable. Keep it closed when not in use.",
+        "en": "It must hold enough disinfectant to fully cover several service sets. Containers that cannot cover the entire implement, including handles, are not acceptable. Keep it closed when not in use.",
         "zh": "它要装足够的消毒液，能完全浸没好几套工具（service sets）。不能把整件工具（包括手柄）浸没的容器不能用。不用时要盖好。"
       },
       "lockPoint": {
@@ -8782,10 +8782,10 @@
         "zh": "扭力（torque）是机器的力量，也就是打磨时受压仍能继续转动的能力。高扭力机器在较低转速下就能做更多。手柄一受压就变慢或停转，说明转速太低。"
       },
       "lockPoint": {
-        "en": "Torque comes from Latin torquere, to twist: the force that keeps the bit turning. 扭 = twist, too.",
-        "zh": "torque 来自拉丁语 torquere（扭转）：让磨头一直转下去的力。中文“扭力”的“扭”也是扭转。"
+        "en": "Torque = twisting power (扭力). Like opening a stuck jar lid: you need strength, not speed.",
+        "zh": "torque（扭力）：扭 = 拧，力 = 力量。就像拧开一个很紧的瓶盖，要的是力气，不是速度。"
       },
-      "hookType": "word-origin",
+      "hookType": "comparison",
       "status": "approved"
     },
     {
@@ -8824,10 +8824,10 @@
         "zh": "与修脚椅相连、接好水管的按摩浴盆（whirlpool bath）不能移动；有的直接接冷热水和下水道。普通盆和用软管注水的按摩盆都可以移动。"
       },
       "lockPoint": {
-        "en": "Plumbed comes from Latin plumbum, lead: old water pipes were lead. Pipes in the wall can't travel.",
-        "zh": "plumbed 来自拉丁语 plumbum（铅），古代水管用铅做。接进墙里的水管搬不走。"
+        "en": "Plumbed = joined to the water pipes, like a bathtub. You can't pick up a bathtub and move it.",
+        "zh": "fully plumbed（接好水管的）按摩浴盆就像家里的浴缸：水管接进墙里和下水道，搬不走。"
       },
-      "hookType": "word-origin",
+      "hookType": "comparison",
       "status": "approved"
     },
     {
@@ -8866,7 +8866,7 @@
         "zh": "积热来自：用力太大（常因转速太低）、用天然甲抛光磨头时转速太高，或磨头在同一处停留太久。要经常抬起磨头。"
       },
       "lockPoint": {
-        "en": "Hold a hot iron still on a shirt and it scorches. Keep the bit moving and lifting.",
+        "en": "Hold a hot iron still on a shirt and it burns a mark. Keep the bit moving and lifting.",
         "zh": "熨斗在衬衫上停着不动就会烫焦。磨头也要不停移动、经常抬起。"
       },
       "hookType": "picture",
@@ -8904,14 +8904,14 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Hold the handpiece like a pencil, with a firm, steady grip that is not so tight your hands cramp. Rest your forearms on the table and brace with a pinky as the fulcrum.",
+        "en": "Hold the handpiece like a pencil, with a firm, steady grip that is not so tight your hands hurt. Rest your forearms on the table and steady your hands with your pinky as the fulcrum.",
         "zh": "像握铅笔一样握手柄，握得稳但不要太紧，否则手会抽筋。前臂放在桌上，用小指当支点（fulcrum）稳住双手。"
       },
       "lockPoint": {
-        "en": "Fulcrum is Latin for a prop: your pinky props one hand against the other, like a seesaw's pivot.",
-        "zh": "fulcrum 在拉丁语里是“支撑物”：小指把两只手撑在一起，就像跷跷板中间的支点。"
+        "en": "Write your name with a pencil now: firm and steady, not squeezing. Hold the handpiece the same way.",
+        "zh": "现在拿笔写自己的名字：握得稳、握得牢，但不用死捏。拿 handpiece（手柄）也一样，太紧手会抽筋。"
       },
-      "hookType": "word-origin",
+      "hookType": "body-cue",
       "status": "approved"
     },
     {
@@ -8992,10 +8992,10 @@
         "zh": "RPM = revolutions per minute（每分钟转数），即磨头一分钟转几整圈。在机器转速范围的中间档工作，电机更耐用。"
       },
       "lockPoint": {
-        "en": "Revolution and revolve share Latin revolvere, 'to roll back': one revolution is one full turn of the bit.",
-        "zh": "revolution 和 revolve（旋转）同源，都来自拉丁语 revolvere（re- 回 + volvere 滚动）：一个 revolution 就是磨头转一整圈。"
+        "en": "RPM = Revolutions Per Minute. Like the speed on a car: you rarely drive at the top number.",
+        "zh": "RPM = revolutions per minute（每分钟转数）：R = 转圈，P = 每，M = 分钟。就像汽车的速度表，很少开到最高速度。"
       },
-      "hookType": "word-origin",
+      "hookType": "real-acronym",
       "status": "approved"
     },
     {
@@ -9034,7 +9034,7 @@
         "zh": "同心磨头（concentric bit）是平衡的，柄（shank）正对磨头中心，所以不晃也不震。晃动的磨头会损坏手柄和顾客的指甲。"
       },
       "lockPoint": {
-        "en": "Con = together, centric = center. Head and shank share one center, so it spins true.",
+        "en": "Con = together, centric = center. Head and shank share one center, so it spins without wobbling.",
         "zh": "con = 共同，centric = 中心。头和柄共用一个圆心，转起来就稳。同心 = 同一个圆心。"
       },
       "hookType": "word-parts",
@@ -9076,8 +9076,8 @@
         "zh": "绝不能在真甲上用钨钢磨头（carbide bit），它的刃槽（flutes）是用来削掉加固产品的。硅胶磨头和麂皮、山羊毛等天然磨头只是轻轻抛光真甲。"
       },
       "lockPoint": {
-        "en": "Carbide flutes shave like a tiny wood plane: made for hard product, too harsh for a thin natural nail.",
-        "zh": "钨钢刃槽像一把小刨子，专削硬的产品；对薄薄的真甲太狠了。"
+        "en": "Carbide flutes shave like a tiny potato peeler: made for hard product, too harsh for a thin natural nail.",
+        "zh": "钨钢刃槽像一把小削皮刀，专削硬的产品；对薄薄的真甲太狠了。"
       },
       "hookType": "picture",
       "status": "approved"
@@ -9160,7 +9160,7 @@
         "zh": "UL（Underwriters Laboratories，美国保险商实验室）认证电器，如 UV 灯、修脚椅、电热手套和打磨机，按厂家说明使用时是安全的。"
       },
       "lockPoint": {
-        "en": "UL = Underwriters Laboratories. Underwriters are insurers: they paid for fires, so they wanted devices tested.",
+        "en": "UL = Underwriters Laboratories. Underwriters are insurance companies: they paid for fires, so they wanted devices tested.",
         "zh": "UL = Underwriters Laboratories。underwriter 指保险商：火灾要他们赔钱，所以他们要求电器先测试。"
       },
       "hookType": "real-acronym",
@@ -9198,11 +9198,11 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "The round third prong is a grounding pin. It gives electricity a safe path and protects the user from shock, even if a wire comes loose. Never alter it to fit a two-prong outlet.",
+        "en": "The round third prong is a grounding pin. It gives electricity a safe path and protects the user from shock, even if a wire comes loose. Never change it to fit a two-prong outlet.",
         "zh": "第三个圆插脚是接地插脚（grounding pin），给电流一条安全通路，即使电线松脱也能防止使用者触电。绝不要改动它去插两孔插座。"
       },
       "lockPoint": {
-        "en": "Ground means the earth. The third prong gives stray current a road to the ground, not through your body.",
+        "en": "Ground means the earth. The third prong gives leaking electricity a road to the ground, not through your body.",
         "zh": "接地 = 接到大地。第三个插脚给漏出来的电一条通往大地的路，而不是穿过你的身体。"
       },
       "hookType": "picture",
@@ -9240,7 +9240,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "A fuse prevents excessive current from passing through a circuit. A wire too small for its current overheats; the fuse melts first. Circuit breakers do the same job and can be reset.",
+        "en": "A fuse stops too much current from passing through a circuit. A wire too small for its current overheats; the fuse melts first. Circuit breakers do the same job and can be reset.",
         "zh": "保险丝防止过量电流通过电路。电线太细、承载不了电流就会过热，保险丝会先熔断。断路器（circuit breaker）作用相同，跳闸后可以复位。"
       },
       "lockPoint": {
@@ -9370,7 +9370,7 @@
         "zh": "拇指握住一边手柄，另外三根手指握住另一边，刀刃朝向甲面。食指放在剪轴（box joint）上，控制并引导刀刃。"
       },
       "lockPoint": {
-        "en": "A box joint is a hinge where one half passes through a slot in the other. Steady that pivot.",
+        "en": "A box joint is the hinge where one blade passes through the other. Your index finger keeps it steady.",
         "zh": "box joint（剪轴）：一边刀身从另一边的槽里穿过，形成转轴。食指压稳这个支点。"
       },
       "hookType": "picture",
@@ -9454,7 +9454,7 @@
         "zh": "每位顾客前都要清洁消毒死皮剪。把剪子张开，让清洁剂和消毒液接触到剪轴里外每个表面，并把整件工具（包括手柄）完全浸没。"
       },
       "lockPoint": {
-        "en": "A closed hinge is a hidden pocket. Debris trapped inside shields germs from the disinfectant.",
+        "en": "A closed hinge is a hidden pocket. Debris trapped inside protects germs from the disinfectant.",
         "zh": "合着的剪轴是个暗袋。藏在里面的碎屑会挡住消毒液，保护病菌。"
       },
       "hookType": "picture",
@@ -9576,7 +9576,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Medium-grit abrasives smooth and refine surfaces and are used to shorten and shape natural nails. Finish with a fine grit to smooth the edge. Coarse grits are generally not used on natural nails.",
+        "en": "Medium-grit abrasives smooth surfaces and are used to shorten and shape natural nails. Finish with a fine grit to smooth the edge. Coarse grits are generally not used on natural nails.",
         "zh": "中目数锉条用来打磨、修整表面，也用来修短、修形真甲。最后用细目数把边缘磨顺。粗目数一般不用在真甲上。"
       },
       "lockPoint": {
@@ -9622,8 +9622,8 @@
         "zh": "刮匙一头是小勺形，用来清除甲沟（nail folds）、甲上皮（eponychium）和甲下皮（hyponychium）周围的污垢，特别适合大脚趾甲边缘。"
       },
       "lockPoint": {
-        "en": "刮匙: 刮 = scrape, 匙 = spoon. English curette is from French curer, 'to clean'.",
-        "zh": "刮匙：刮 = 刮除，匙 = 勺子，就是一把刮污垢的小勺。英文 curette 来自法语 curer，意思是“清理”。"
+        "en": "Curette = 刮匙: 刮 = scrape, 匙 = spoon. A tiny spoon that scrapes dirt out of nail folds.",
+        "zh": "curette（刮匙）：刮 = 刮除，匙 = 勺子，就是一把刮污垢的小勺，专门清甲沟里的脏东西。"
       },
       "hookType": "chinese-character",
       "status": "approved"
@@ -9828,7 +9828,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Single-use implements cannot be properly cleaned and disinfected, or are damaged by it, so they are discarded after one use, preferably where the client can see. Multiuse implements can be disinfected and reused.",
+        "en": "Single-use implements cannot be properly cleaned and disinfected, or are damaged by it, so they are thrown away after one use, best where the client can see. Multiuse implements can be disinfected and reused.",
         "zh": "一次性工具无法彻底清洁消毒，或消毒会把它弄坏，所以用一次就丢，最好当着顾客的面丢。可重复使用的工具（multiuse）则可以消毒后再用。"
       },
       "lockPoint": {
@@ -9996,7 +9996,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Files are stamped from large sheets, leaving very sharp edges. Rub a clean, unused file across the edges, and check buffer corners too. This file prepping protects clients from cuts.",
+        "en": "Files are cut from large sheets, leaving very sharp edges. Rub a clean, unused file across the edges, and check buffer corners too. This file prepping protects clients from cuts.",
         "zh": "锉条是从大片材料上冲压下来的，边缘非常锋利。用另一根干净、没用过的锉条把边缘磨一磨，抛光块的角也要处理。这叫 file prepping（锉条预处理），防止割伤顾客。"
       },
       "lockPoint": {
@@ -10584,7 +10584,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "A foot soak is added to the pedicure bath to soften the skin on the feet. A good one is gentle but thoroughly cleans and deodorizes. It does not disinfect the footbath.",
+        "en": "A foot soak is added to the pedicure bath to soften the skin on the feet. A good one is gentle but thoroughly cleans and removes bad smells. It does not disinfect the footbath.",
         "zh": "泡脚粉/泡脚液加进修脚水里，用来软化脚部皮肤。好的泡脚产品温和而彻底地清洁、除臭。它不能给泡脚盆消毒。"
       },
       "lockPoint": {
@@ -10630,10 +10630,10 @@
         "zh": "polish、enamel、lacquer、varnish 都是营销用语，指成分相似的同一类产品：涂在甲面上的溶剂型有色膜。"
       },
       "lockPoint": {
-        "en": "Lacquer, enamel, and varnish first named finishes for wood and metal; nail brands borrowed those fancy names for one product.",
-        "zh": "lacquer（漆）、enamel（搪瓷/珐琅）、varnish（清漆）原本是木器和金属表面涂层的名称，甲油品牌借来给同一种产品起好听的名字。"
+        "en": "Polish, enamel, lacquer, varnish: one kind of product, four names. Like \"soda\" and \"soft drink\": same drink.",
+        "zh": "polish、enamel、lacquer、varnish 是同一类产品的四个名字，就像“番茄”和“西红柿”：叫法不同，东西一样。"
       },
-      "hookType": "word-origin",
+      "hookType": "comparison",
       "status": "approved"
     },
     {
@@ -10710,7 +10710,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Methylene glycol cross-links keratin, making the nail stiffer. It helps thin, weak nails but can make already hard, brittle nails so rigid they split and shatter. Stop if problems appear.",
+        "en": "Methylene glycol cross-links keratin, making the nail stiffer. It helps thin, weak nails but can make already hard, brittle nails so stiff they split and break. Stop if problems appear.",
         "zh": "甲二醇（methylene glycol）让角蛋白（keratin）交联，指甲变得更硬。它适合薄软的指甲，但会让本来就硬、脆的指甲变得太僵，裂开甚至碎掉。出现问题就停用。"
       },
       "lockPoint": {
@@ -10794,7 +10794,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Scrubs use exfoliants like sea sand, apricot kernels, pumice, quartz, or jojoba beads. Avoid ingredients that expand and clog the drain, such as corn meal, and avoid overly abrasive scrubs.",
+        "en": "Scrubs use exfoliants like sea sand, apricot kernels, pumice, quartz, or jojoba beads. Avoid ingredients that expand and clog the drain, such as corn meal, and avoid scrubs that are too abrasive.",
         "zh": "磨砂膏（scrub）常用海沙、杏核粉、浮石、石英或荷荷巴微珠去角质。要避免会膨胀堵塞下水口的成分，如玉米粉，也要避免太粗的磨砂膏。"
       },
       "lockPoint": {
@@ -10878,7 +10878,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Some callus softeners are alkaline and potentially hazardous. Wear safety glasses and gloves when using or pouring them; misused, they can severely irritate the eyes, hands, and skin.",
+        "en": "Some callus softeners are alkaline and can be dangerous. Wear safety glasses and gloves when using or pouring them; used wrongly, they can badly irritate the eyes, hands, and skin.",
         "zh": "有些去茧软化剂是碱性的，有潜在危险。使用或倒取时要戴护目镜和手套；用错了会严重刺激眼睛、手和皮肤。"
       },
       "lockPoint": {
@@ -11004,7 +11004,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Hold the saturated cotton on each nail for about 10 seconds. The remover softens the old polish so it wipes off easily.",
+        "en": "Hold the soaked cotton on each nail for about 10 seconds. The remover softens the old polish so it wipes off easily.",
         "zh": "把浸透卸甲水（polish remover）的棉片按在每个指甲上约 10 秒。卸甲水先软化旧甲油，之后就容易擦掉。"
       },
       "lockPoint": {
@@ -11172,7 +11172,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "File from one side to the center, then from the other side to the center. Sawing back and forth can disrupt the nail plate layers and cause splitting and peeling.",
+        "en": "File from one side to the center, then from the other side to the center. Sawing back and forth can pull apart the nail plate layers and cause splitting and peeling.",
         "zh": "从一侧锉到中间，再从另一侧锉到中间。来回拉锯会破坏甲板的层次，造成开裂和脱层。"
       },
       "lockPoint": {
@@ -11302,10 +11302,10 @@
         "zh": "cuticle remover（去死皮液）只涂在甲板上的死皮，不要涂在活皮肤上。它是强碱性的（caustic，高 pH），会让活皮肤干燥或受刺激。"
       },
       "lockPoint": {
-        "en": "Caustic comes from a Greek word meaning \"burning.\" It dissolves dead tissue, so keep it off live skin.",
-        "zh": "caustic 源自希腊语，意思是“灼烧”。它能溶解死组织，所以别让它碰到活皮肤。"
+        "en": "Caustic, like drain cleaner: high pH. It dissolves dead tissue, so it can hurt live skin too.",
+        "zh": "caustic（强碱性）就像管道疏通剂一样，pH 很高。它能溶解死皮，所以也会伤到活皮肤。"
       },
-      "hookType": "word-origin",
+      "hookType": "comparison",
       "status": "approved"
     },
     {
@@ -11382,7 +11382,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Clean under the free edge gently. Aggressive cleaning can break the hyponychium seal and cause onycholysis, the nail plate separating from the nail bed.",
+        "en": "Clean under the free edge gently. Rough cleaning can break the hyponychium seal and cause onycholysis, the nail plate separating from the nail bed.",
         "zh": "清洁游离缘下方要轻柔。太用力会破坏 hyponychium（甲下皮）的密封，造成 onycholysis（甲剥离），也就是甲板与甲床分离。"
       },
       "lockPoint": {
@@ -11466,7 +11466,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Aim to finish a basic manicure, including polishing, in 30 to 45 minutes at most, preferably 30, before you leave school.",
+        "en": "Aim to finish a basic manicure, including polishing, in 30 to 45 minutes at most (30 is best) before you leave school.",
         "zh": "毕业前，要练到基础修手（含上甲油）最多 30 到 45 分钟完成，最好 30 分钟。"
       },
       "lockPoint": {
@@ -11596,10 +11596,10 @@
         "zh": "Milady 称 oval（椭圆形）是保守的形状，被认为适合大多数人的手。"
       },
       "lockPoint": {
-        "en": "Oval comes from Latin ovum, \"egg.\" An egg-shaped tip suits almost any hand.",
-        "zh": "oval 来自拉丁语 ovum（蛋）。蛋形的指尖几乎适合任何手。"
+        "en": "Oval = the shape of an egg: the tip is fully round. A soft, safe look.",
+        "zh": "oval（椭圆形）= 鸡蛋的形状：指尖完全是圆的。看起来柔和，不容易出错。"
       },
-      "hookType": "word-origin",
+      "hookType": "picture",
       "status": "approved"
     },
     {
@@ -11638,10 +11638,10 @@
         "zh": "pointed nail（尖形，又称 stiletto）又尖又长，比较弱、容易断，也难维护，所以天然指甲很少能成功做成这种形状。"
       },
       "lockPoint": {
-        "en": "Stiletto is Italian for a small, thin dagger. A thin tip has little support behind it.",
-        "zh": "stiletto 在意大利语里指细长的小匕首。尖端越细，后面的支撑就越少。"
+        "en": "A pointed (stiletto) tip is like a sharp pencil point: very thin, so it snaps easily.",
+        "zh": "pointed（尖形，又称 stiletto）指尖就像削尖的铅笔头：非常细，所以一碰就容易断。"
       },
-      "hookType": "word-origin",
+      "hookType": "picture",
       "status": "approved"
     },
     {
@@ -11718,7 +11718,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "A man's manicure uses the same steps as the basic manicure. Depending on preference, you may omit colored polish and buff the nails with a high-shine buffer.",
+        "en": "A man's manicure uses the same steps as the basic manicure. Depending on preference, you may skip colored polish and buff the nails with a high-shine buffer.",
         "zh": "男士修手（man's manicure）的步骤与基础修手相同。视顾客喜好，可以不上彩色甲油，改用高光抛光块（high-shine buffer）抛亮。"
       },
       "lockPoint": {
@@ -11764,7 +11764,7 @@
         "zh": "waterless manicure（无水修手）不泡水，而是用乳液和电热手套软化皮肤。甲油不会涂在吸水膨胀的指甲上，所以更持久。"
       },
       "lockPoint": {
-        "en": "No water needed, so waterless manicures also work where water is unavailable, like mobile spas.",
+        "en": "No water needed, so waterless manicures also work where there is no water, like mobile spas.",
         "zh": "不需要水，所以无水修手也适合没有水的地方，例如流动美甲服务（mobile spa）。"
       },
       "hookType": "real-life",
@@ -11802,8 +11802,8 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Discuss medical conditions during the consultation. Milady says to be conservative: when in doubt, don't include massage. Encourage the client to ask their physician.",
-        "zh": "在咨询时讨论顾客的健康状况。Milady 说要保守：拿不准时，就不要做按摩，并鼓励顾客先咨询医生。"
+        "en": "Discuss medical conditions during the consultation. Milady says to be careful: when in doubt, don't include massage. Encourage the client to ask their physician.",
+        "zh": "在咨询时讨论顾客的健康状况。Milady 说要谨慎：拿不准时，就不要做按摩，并鼓励顾客先咨询医生。"
       },
       "lockPoint": {
         "en": "Stable, treated high blood pressure or diabetes is often fine. Severe, uncontrolled hypertension rules out hand and arm massage.",
@@ -11844,14 +11844,14 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Effleurage is a succession of strokes in which the hands glide over an area of the body with varying pressure or contact. It is a relaxing movement.",
+        "en": "Effleurage is a series of strokes in which the hands glide over an area of the body with varying pressure or contact. It is a relaxing movement.",
         "zh": "effleurage（轻抚法）是双手以不同力度或接触程度在身体某部位滑动的一连串手法，能让顾客放松。"
       },
       "lockPoint": {
-        "en": "From French effleurer, \"to touch lightly\": the hands skim over the skin.",
-        "zh": "源自法语 effleurer，意思是“轻轻触碰”：双手轻轻掠过皮肤。"
+        "en": "Effleurage = slow, smooth, gliding strokes, like smoothing a bed sheet with your palms.",
+        "zh": "effleurage（轻抚法）= 缓慢、顺滑的滑动手法，就像用手掌抚平床单。"
       },
-      "hookType": "word-origin",
+      "hookType": "picture",
       "status": "approved"
     },
     {
@@ -11890,10 +11890,10 @@
         "zh": "pétrissage（揉捏法），也叫 kneading，是提起、挤压并按压组织。它让肌肉在骨头上移动，促进血液流动。"
       },
       "lockPoint": {
-        "en": "From French pétrir, \"to knead,\" as a baker kneads bread dough.",
-        "zh": "源自法语 pétrir，意思是“揉面”，就像面包师揉面团。"
+        "en": "Pétrissage = squeeze and lift, like kneading bread dough.",
+        "zh": "pétrissage（揉捏法）= 挤一挤、提一提，就像揉面团。"
       },
-      "hookType": "word-origin",
+      "hookType": "picture",
       "status": "approved"
     },
     {
@@ -11932,10 +11932,10 @@
         "zh": "tapotement（叩击法）是双手快速拍打或敲击皮肤。"
       },
       "lockPoint": {
-        "en": "From French tapoter, \"to tap\" or pat lightly. Picture fingertips drumming on a table.",
-        "zh": "源自法语 tapoter，意思是“轻拍、轻敲”。想象手指在桌上轻敲打拍子。"
+        "en": "Tapotement starts with \"tap\": quick fingertip taps, like raindrops on a window.",
+        "zh": "tapotement（叩击法）开头就是 tap（轻敲）：指尖快速轻敲，像雨点打在窗户上。"
       },
-      "hookType": "word-origin",
+      "hookType": "word-link",
       "status": "approved"
     },
     {
@@ -12016,10 +12016,10 @@
         "zh": "friction（摩擦法）是让一层组织压在另一层上移动。双手环住手臂，轻轻朝相反方向扭转，就像拧毛巾。"
       },
       "lockPoint": {
-        "en": "Friction comes from Latin fricare, \"to rub\": one layer of tissue rubs against another.",
-        "zh": "friction 来自拉丁语 fricare，意思是“摩擦”：一层组织在另一层上摩擦。"
+        "en": "Put your palm on your arm and twist without sliding: the skin moves over the layer under it. That's friction.",
+        "zh": "把手掌贴在前臂上，不要滑动，轻轻扭：皮肤在下面那层上移动。这就是 friction（摩擦法）。"
       },
-      "hookType": "word-origin",
+      "hookType": "body-cue",
       "status": "approved"
     },
     {
@@ -12054,7 +12054,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Milady says effleurage is the movement to perfect, vary, and use expertly, because it is relaxing and calming. Use the other movements less, and with gentle care.",
+        "en": "Milady says effleurage is the movement to perfect, vary, and use well, because it is relaxing and calming. Use the other movements less, and with gentle care.",
         "zh": "Milady 说 effleurage（轻抚法）是要练好、灵活变化、熟练运用的手法，因为它让人放松平静。其他手法少用，并且要轻柔。"
       },
       "lockPoint": {
@@ -12096,7 +12096,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Body massage can be for relaxation or therapy, but massage during a manicure or pedicure is purely for relaxation. A nail technician is not licensed for deep, sports-like massage.",
+        "en": "Body massage can be for relaxation or therapy, but massage during a manicure or pedicure is only for relaxation. A nail technician is not licensed for deep, sports-like massage.",
         "zh": "全身按摩可以是放松或治疗，但修手修脚中的按摩纯粹是为了放松。美甲师没有做深层运动按摩的执照。"
       },
       "lockPoint": {
@@ -12222,8 +12222,8 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Sit comfortably with correct, relaxed posture and both feet flat on the floor. Do not stretch or lean toward the client; strained positions can injure your back, neck, and shoulders.",
-        "zh": "坐得舒服，姿势端正放松，双脚平放在地上。不要伸长身子或前倾靠近顾客；姿势别扭会伤到背、颈和肩。"
+        "en": "Sit comfortably with correct, relaxed posture and both feet flat on the floor. Do not stretch or lean toward the client; leaning like this can hurt your back, neck, and shoulders.",
+        "zh": "坐得舒服，姿势端正放松，双脚平放在地上。不要伸长身子或前倾靠近顾客；这样前倾会伤到背、颈和肩。"
       },
       "lockPoint": {
         "en": "Leaning in for one massage feels fine. Leaning in all day, every day, adds up to injury.",
@@ -12264,7 +12264,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Avoid vigorous or strong massage on clients with arthritis. Do not press on or manipulate painful joints; smooth on lotion with gentle pressure instead.",
+        "en": "Avoid vigorous or strong massage on clients with arthritis. Do not press on or move painful joints; smooth on lotion with gentle pressure instead.",
         "zh": "关节炎顾客要避免剧烈或用力的按摩。不要按压或活动疼痛的关节，改用轻柔的力度涂抹乳液。"
       },
       "lockPoint": {
@@ -12604,10 +12604,10 @@
         "zh": "Milady 说按摩压力通常从 insertion（止点，活动较多的一端）推向 origin（起点，固定不动的一端），并朝向肌腹（belly，肌肉中间部分）。"
       },
       "lockPoint": {
-        "en": "Origin means \"beginning\": press from the moving end back toward where the muscle begins.",
-        "zh": "origin 的意思是“起源、开始”：从活动的那一端，往肌肉开始的地方推。"
+        "en": "Bend your elbow, feel your biceps: shoulder end stays still (origin), elbow end moves (insertion). Press elbow → shoulder.",
+        "zh": "弯手肘，摸肱二头肌（biceps）：靠肩的一端不动，是 origin（起点）；靠肘的一端会动，是 insertion（止点）。按摩从肘推向肩。"
       },
-      "hookType": "word-origin",
+      "hookType": "body-cue",
       "status": "approved"
     },
     {
@@ -12978,7 +12978,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Apply callus softener to the callused areas only, for the time the manufacturer directs. Some are alkaline, so wear gloves; improper use can injure the client.",
+        "en": "Apply callus softener to the callused areas only, for the time the manufacturer directs. Some are alkaline, so wear gloves; wrong use can hurt the client.",
         "zh": "callus softener（老茧软化剂）只涂在有老茧的部位，停留时间按厂家说明。有些是碱性的，要戴手套；使用不当会伤到顾客。"
       },
       "lockPoint": {
@@ -13020,7 +13020,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Calluses protect the underlying skin in stress areas, as on people who stand all day. Soften and smooth them; do not thin them too much or remove them.",
+        "en": "Calluses protect the skin under them in stress areas, as on people who stand all day. Soften and smooth them; do not thin them too much or remove them.",
         "zh": "老茧在受力部位保护下面的皮肤，比如整天站着工作的人。只能软化、磨平，不能磨得太薄或完全去掉。"
       },
       "lockPoint": {
@@ -13104,7 +13104,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Tremors or involuntary movement may signal a neurological issue. Support the entire leg, including behind the knees and ankles, so the client never has to hold up their own legs.",
+        "en": "Tremors or shaking a client can't stop may mean a nerve problem. Support the entire leg, including behind the knees and ankles, so the client never has to hold up their own legs.",
         "zh": "颤抖或不自主动作可能代表神经方面的问题。要支撑整条腿，包括膝盖后面和脚踝，让顾客完全不用自己撑着腿。"
       },
       "lockPoint": {
@@ -13192,8 +13192,8 @@
         "zh": "慢性病顾客不能用金属推棒或尖锐工具。可以改用刮匙轻轻去除死组织，并用细砂锉处理指甲。"
       },
       "lockPoint": {
-        "en": "Slow-healing skin + one unseen nick → infection, and in the worst cases amputation.",
-        "zh": "伤口愈合慢 + 一个看不见的小伤口 → 感染，最严重会导致截肢。"
+        "en": "Slow-healing skin + one tiny unseen cut → infection, and in the worst cases losing a toe or foot.",
+        "zh": "伤口愈合慢 + 一个看不见的小伤口 → 感染，最严重会失去脚趾甚至整只脚。"
       },
       "hookType": "reason-chain",
       "status": "approved"
@@ -13234,10 +13234,10 @@
         "zh": "完整的修脚要清洁脚趾之间。如果有积垢，先用含尿素（urea）的软化产品多泡一会儿，再用一次性湿巾或毛巾轻轻擦干净。"
       },
       "lockPoint": {
-        "en": "Urea is named for urine, where it was first found. In foot care it softens hard buildup.",
-        "zh": "urea（尿素）因最早在尿液中发现而得名。在足部护理中，它能软化硬结的积垢。"
+        "en": "Urea is in many creams for dry, cracked heels. It holds water in hard skin, so it softens.",
+        "zh": "很多治脚跟干裂的乳霜里都有 urea（尿素）。它把水分留在硬皮里，硬皮就变软了。"
       },
-      "hookType": "word-origin",
+      "hookType": "real-life",
       "status": "approved"
     },
     {
@@ -13818,7 +13818,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Ask the client to put on jewelry and outerwear and get car keys ready before polishing. If possible, have them pay now too. This prevents smudging the fresh polish.",
+        "en": "Ask the client to put on jewelry and coats and get car keys ready before polishing. If possible, have them pay now too. This prevents smudging the fresh polish.",
         "zh": "上甲油前，请顾客戴好首饰、穿好外套，准备好车钥匙。可以的话，先付款。这样能避免弄花刚涂好的甲油。"
       },
       "lockPoint": {
@@ -14116,10 +14116,10 @@
         "zh": "大多数水疗修手包含放松按摩，而所有水疗修手都有某种形式的去角质（exfoliation），让皮肤光滑，并帮助专业产品渗透。"
       },
       "lockPoint": {
-        "en": "Exfoliate: Latin ex = off, folium = leaf. Dead skin comes off like falling leaves.",
-        "zh": "exfoliate：拉丁语 ex = 脱落，folium = 叶子。死皮像落叶一样脱落。"
+        "en": "Exfoliation = taking off dead skin, like a sugar scrub or a rough washcloth in the shower.",
+        "zh": "exfoliation（去角质）= 去掉死皮，就像洗澡时用磨砂膏或粗毛巾搓身体。"
       },
-      "hookType": "word-parts",
+      "hookType": "real-life",
       "status": "approved"
     },
     {
@@ -14158,10 +14158,10 @@
         "zh": "颗粒太粗的磨砂膏会在皮肤上留下看不见的细小划痕。这些开口是致病微生物的入口（portals of entry）。"
       },
       "lockPoint": {
-        "en": "Portal comes from Latin porta, \"gate.\" Each tiny scratch is a gate left open for germs.",
-        "zh": "portal 来自拉丁语 porta，意思是“门”。每一道细小划痕，都是给病菌留的一扇门。"
+        "en": "A portal of entry is an open door. Each tiny scratch is a door left open for germs.",
+        "zh": "portal of entry（入口）就是一扇开着的门。每一道细小划痕，都是给病菌留的一扇门。"
       },
-      "hookType": "word-origin",
+      "hookType": "picture",
       "status": "approved"
     },
     {
@@ -14196,7 +14196,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "A mask is a concentrated treatment product, often with clays and moisturizers. It stays on the skin for 5 to 10 minutes so the beneficial ingredients can penetrate.",
+        "en": "A mask is a concentrated treatment product, often with clays and moisturizers. It stays on the skin for 5 to 10 minutes so the helpful ingredients can penetrate.",
         "zh": "mask（足膜，也写作 masque）是浓缩护理产品，常含矿物泥和保湿成分。它在皮肤上停留 5 到 10 分钟，让有益成分渗透。"
       },
       "lockPoint": {
@@ -14238,7 +14238,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Milady calls the name a misnomer: the stones are not hot, only comfortably warm. Test them on your arm, then check with the client during the first movement.",
+        "en": "Milady says the name is wrong: the stones are not hot, only comfortably warm. Test them on your arm, then check with the client during the first movement.",
         "zh": "Milady 说这个名字名不副实：石头并不烫，只是温暖舒适。先在自己手臂上试温，第一个动作时再问顾客感觉。"
       },
       "lockPoint": {
@@ -14280,11 +14280,11 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Paraffin traps moisture in the skin, and the warm wax increases blood circulation to the skin. It is a luxurious add-on that is safe for most clients.",
+        "en": "Paraffin traps moisture in the skin, and the warm wax increases blood circulation to the skin. It is a fancy add-on that is safe for most clients.",
         "zh": "蜡疗能把水分锁在皮肤里，温热的蜡还能促进皮肤的血液循环。这是一项奢华的附加服务，大多数顾客都可以做。"
       },
       "lockPoint": {
-        "en": "Cold day outside? Many clients remember paraffin's warm feeling, so offer it as a stand-alone service.",
+        "en": "Cold day outside? Many clients remember paraffin's warm feeling, so offer it as a service by itself.",
         "zh": "外面天冷？很多顾客会记得蜡疗的温暖感觉，所以可以把它作为单独项目推出。"
       },
       "hookType": "real-life",
@@ -14658,7 +14658,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Hold the abrasive flat and stop when the well is flush with the natural nail. A tilted file's edge can gouge and damage the nail plate.",
+        "en": "Hold the abrasive flat and stop when the well is flush with the natural nail. A tilted file's edge can dig into and damage the nail plate.",
         "zh": "锉条要平放，凹槽和真甲齐平（flush）时就停。锉条一倾斜，边缘可能会刮伤真甲甲面。"
       },
       "lockPoint": {
@@ -15166,10 +15166,10 @@
         "zh": "液体和粉等量是 dry bead（干球）；液体是粉的两倍是 wet bead（湿球）。medium bead（中球）介于两者之间，通常是最理想的 mix ratio（液粉比）。"
       },
       "lockPoint": {
-        "en": "Medium comes from Latin medius, 'middle': halfway between dry (1 to 1) and wet (2 to 1).",
-        "zh": "medium 来自拉丁语 medius，意思是“中间”：正好在干球（1:1）和湿球（2:1）的中间。"
+        "en": "Like T-shirt sizes S, M, L: medium sits in the middle. Dry 1:1, medium 1.5:1, wet 2:1.",
+        "zh": "就像 T 恤尺码 S、M、L：medium（中号）在中间。dry bead（干球）1:1，medium bead（中球）1.5:1，wet bead（湿球）2:1。"
       },
-      "hookType": "word-origin",
+      "hookType": "real-life",
       "status": "approved"
     },
     {
@@ -15250,7 +15250,7 @@
         "zh": "理想的水晶球圆润有光泽，放在纸托上会稍微摊开但不会流动。周围有干粉说明液体太少；会滴落说明太湿。"
       },
       "lockPoint": {
-        "en": "Picture a dab of thick hair gel on a plate: round, glossy, slumps a little, then holds.",
+        "en": "Picture a dab of thick hair gel on a plate: round, glossy, spreads a little, then holds.",
         "zh": "想象盘子上的一小坨发胶：圆润有光泽，稍微摊开，然后就定住不动。"
       },
       "hookType": "picture",
@@ -15288,11 +15288,11 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Odorless products still have a slight odor. If others in the salon can't detect it, it is called odorless; if they notice a slight odor, it is called low odor.",
+        "en": "Odorless products still have a slight odor. If others in the salon can't smell it, it is called odorless; if they notice a slight odor, it is called low odor.",
         "zh": "odorless（无味）产品其实仍有轻微气味。店里其他人闻不出来，就叫无味；能闻到一点，就叫 low odor（低味）。"
       },
       "lockPoint": {
-        "en": "Name trap: odorless liquids swap the usual ethyl monomer for low-smell monomers. The scent is faint, not gone.",
+        "en": "Name trap: odorless liquids swap the usual ethyl monomer for low-smell monomers. The smell is weak, not gone.",
         "zh": "名字陷阱：odorless 产品把常用的乙基单体换成气味很淡的单体。味道变淡了，但没有消失。"
       },
       "hookType": "name-trap",
@@ -15376,10 +15376,10 @@
         "zh": "acid-free primer（无酸结合剂）分子的一端和指甲蛋白结合，另一端在单体固化时和单体结合，所以 Milady 把它比作双面胶。"
       },
       "lockPoint": {
-        "en": "Primer comes from prime, likely from Latin primus 'first': it's the first coat under the product.",
-        "zh": "primer 来自 prime，很可能源自拉丁语 primus（第一）：它是产品下面的第一层。"
+        "en": "Like primer paint on a wall before the color: a thin layer that helps the product stick to the nail.",
+        "zh": "就像刷墙时先刷的底漆：薄薄一层，帮产品牢牢粘在指甲上。"
       },
-      "hookType": "word-origin",
+      "hookType": "comparison",
       "status": "approved"
     },
     {
@@ -15456,7 +15456,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Primer improves adhesion, so it is especially useful when a client has oily nail plates, where adhesion is a problem. Use it sparingly; one thin coat is enough for most clients.",
+        "en": "Primer improves adhesion, so it is especially useful when a client has oily nail plates, where adhesion is a problem. Use only a little; one thin coat is enough for most clients.",
         "zh": "primer（结合剂）能增强附着，所以对甲面偏油、不容易附着的客人特别有用。要少量使用，大多数客人一薄层就够了。"
       },
       "lockPoint": {
@@ -15540,14 +15540,14 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Acid-based primer is corrosive and can cause serious, sometimes irreversible, damage to skin and eyes. Always wear protective gloves and safety eyewear.",
+        "en": "Acid-based primer is corrosive and can cause serious damage, sometimes for life, to skin and eyes. Always wear protective gloves and safety eyewear.",
         "zh": "acid-based primer（酸性结合剂）有腐蚀性，可能对皮肤和眼睛造成严重、有时无法逆转的伤害。务必戴防护手套和护目镜。"
       },
       "lockPoint": {
-        "en": "Corrosive comes from Latin corrodere, 'to gnaw away': acid primer can burn and scar skin and eyes.",
-        "zh": "corrosive（腐蚀性）来自拉丁语 corrodere，意思是“啃掉”：酸性结合剂会灼伤皮肤和眼睛，留下疤痕。"
+        "en": "Corrosive = it eats away, like rust on metal. Acid primer can eat skin and harm eyes.",
+        "zh": "corrosive（腐蚀性）= 一点点吃掉，就像金属生锈。“蚀”字是“饣（吃）+ 虫”：像虫子在啃。酸性结合剂会腐蚀皮肤、伤害眼睛。"
       },
-      "hookType": "word-origin",
+      "hookType": "comparison",
       "status": "approved"
     },
     {
@@ -15586,8 +15586,8 @@
         "zh": "认为指甲要磨粗产品才粘得住，是一种误解。甲面干净、干燥时附着最好，所以只需去掉表面光泽。甲面越薄，基础越弱。"
       },
       "lockPoint": {
-        "en": "Milady: the nail tech's first duty is to keep the nail plate thick, strong, and healthy.",
-        "zh": "Milady 说：美甲师的第一职责，是让甲面保持厚实、坚固、健康。"
+        "en": "Milady: the nail tech's first job is to keep the nail plate thick, strong, and healthy.",
+        "zh": "Milady 说：美甲师的第一要务，是让甲面保持厚实、坚固、健康。"
       },
       "hookType": "real-life",
       "status": "approved"
@@ -15628,8 +15628,8 @@
         "zh": "MMA 在卸甲液里不容易溶解，所以通常被从甲面上硬撬下来，造成更多损伤。指甲上不能使用 MMA。"
       },
       "lockPoint": {
-        "en": "MMA is the liquid in surgeons' bone cement for fixing artificial joints: built to stay put, not soak off.",
-        "zh": "MMA 是外科骨水泥的液体成分，用来固定人工关节：它就是要牢牢不动，而不是被泡掉。"
+        "en": "MMA is in bone cement that holds new hip joints in place: built to stay, not soak off.",
+        "zh": "MMA 是骨水泥的成分，用来把人工髋关节固定住：它就是要牢牢不动，而不是被泡掉。"
       },
       "hookType": "real-life",
       "status": "approved"
@@ -15708,8 +15708,8 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Natural hair absorbs and holds monomer like a reservoir. Synthetic brushes don't pick up enough liquid or release it properly, and size 12 to 16 brushes hold too much.",
-        "zh": "天然毛能像水库一样吸住并保存单体液。合成毛吸不够单体液，放液也不顺畅；而 12 到 16 号的大笔又吸得太多。"
+        "en": "Natural hair absorbs and holds monomer like a sponge. Synthetic brushes don't pick up enough liquid or let it out well, and size 12 to 16 brushes hold too much.",
+        "zh": "天然毛能像海绵一样吸住并保存单体液。合成毛吸不够单体液，放液也不顺畅；而 12 到 16 号的大笔又吸得太多。"
       },
       "lockPoint": {
         "en": "Gel uses a nylon brush; acrylic uses natural hair. The most common acrylic brush is a #8 oval.",
@@ -15876,7 +15876,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "The enhancement should graduate smoothly from the cuticle to the end, with the sidewalls and edge credit-card thin. Thin nails are comfortable; the apex gives the strength.",
+        "en": "The enhancement should flow smoothly from the cuticle to the end, with the sidewalls and edge credit-card thin. Thin nails are comfortable; the apex gives the strength.",
         "zh": "美甲延长应从甲小皮处平滑过渡到末端，两侧和前缘像信用卡一样薄。薄才舒服，强度靠甲峰提供。"
       },
       "lockPoint": {
@@ -16006,8 +16006,8 @@
         "zh": "photoinitiator（光引发剂）是一种在 UV 或可见光照射下发生反应的分子。它加在胶里，所以胶在固化灯里会变硬。"
       },
       "lockPoint": {
-        "en": "Photo- is Greek for light, as in photograph. An initiator is the starter.",
-        "zh": "photo- 是希腊语的“光”，如 photograph（照片）。initiator 就是“启动者”。"
+        "en": "Photo- = light: photos are made with light. Initiator = starter. Lamp light starts the hardening.",
+        "zh": "photoinitiator（光引发剂）：光 = photo-，引发 = initiator（启动者）。灯光一照，就启动变硬。"
       },
       "hookType": "word-parts",
       "status": "approved"
@@ -16170,14 +16170,14 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Hybrid gels have the durability and gloss of gel but can be removed like polish with polish remover, though it takes longer. Gel polishes originally had to be filed off.",
+        "en": "Hybrid gels last and shine like gel but can be removed like polish with polish remover, though it takes longer. Gel polishes originally had to be filed off.",
         "zh": "hybrid gel（混合胶）有光疗胶的持久和光泽，却能像普通甲油一样用洗甲水卸掉，只是时间更长。早期的甲油胶只能靠打磨去除。"
       },
       "lockPoint": {
-        "en": "Hybrid comes from Latin hybrida, a cross of two kinds: here, gel and regular polish.",
-        "zh": "hybrid 来自拉丁语 hybrida，意思是两种东西的“混种”：这里就是光疗胶和普通甲油的结合。"
+        "en": "A hybrid car uses gas and electric. A hybrid gel: lasts like gel, comes off like polish, just slower.",
+        "zh": "hybrid（油电混合）汽车既用油也用电。hybrid gel（混合胶）：像光疗胶一样持久，又能像甲油一样卸掉，只是慢一些。"
       },
-      "hookType": "word-origin",
+      "hookType": "real-life",
       "status": "approved"
     },
     {
@@ -16216,10 +16216,10 @@
         "zh": "inhibition layer（浮胶层）是未固化的胶和/或残留溶剂，在表面留下黏黏的一层。用无尘纸蘸酒精或甲面清洁剂就能擦掉。"
       },
       "lockPoint": {
-        "en": "Inhibit comes from Latin inhibere, 'hold back': oxygen in the air holds back the cure, so the top stays tacky.",
-        "zh": "inhibit 来自拉丁语 inhibere（阻止）：空气中的氧气阻止表面固化，所以表层黏黏的，中文叫“浮胶”。"
+        "en": "Inhibit means hold back. Air on top holds back the cure → the inhibition layer stays sticky.",
+        "zh": "inhibit = 阻止。表面接触空气，空气阻止表层固化 → inhibition layer（浮胶层）一直黏黏的。浮胶 = 浮在表面没固化的胶。"
       },
-      "hookType": "word-origin",
+      "hookType": "reason-chain",
       "status": "approved"
     },
     {
@@ -16548,7 +16548,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Hard gels can only be filed off, so they are a poor choice for a short-term extension. Clients love hard gel for clarity, low odor, and strength, and its adhesion suits lifters.",
+        "en": "Hard gels can only be filed off, so they are a poor choice for a short-term extension. Clients love hard gel for its clear look, low odor, and strength, and its adhesion suits lifters.",
         "zh": "硬胶只能锉掉，所以不适合短期延长。客人喜欢硬胶晶莹透明、低气味、强度高，它的附着力也很适合容易起翘的客人。"
       },
       "lockPoint": {
@@ -17094,8 +17094,8 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "A rebalance structurally corrects where the apex sits, to keep the nail strong and balanced. A fill is adding product to the new growth.",
-        "zh": "rebalance（重新平衡）是从结构上修正甲峰的位置，让指甲保持牢固和平衡。fill（补甲）是在新长出的部分加产品。"
+        "en": "A rebalance fixes where the apex sits, to keep the nail strong and balanced. A fill is adding product to the new growth.",
+        "zh": "rebalance（重新平衡）是修正甲峰的位置，让指甲保持牢固和平衡。fill（补甲）是在新长出的部分加产品。"
       },
       "lockPoint": {
         "en": "Re- = again: re-balance. As the nail grows out, the apex slides forward toward the tip.",
@@ -17262,7 +17262,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "File the area around the crack or break until it is paper-thin, so new product can cover the whole area and reinforce the repair. Then place a form under the nail before adding product.",
+        "en": "File the area around the crack or break until it is paper-thin, so new product can cover the whole area and strengthen the repair. Then place a form under the nail before adding product.",
         "zh": "把裂缝或断口周围锉到像纸一样薄，新产品才能覆盖整个区域并加固修补。锉薄后，再在指甲下面放纸托，然后加产品。"
       },
       "lockPoint": {
@@ -17430,7 +17430,7 @@
       ],
       "correctChoice": "b",
       "explanation": {
-        "en": "Industrial acetone has not been tested or approved for human skin. Professional removers are usually enriched with aloe and other softeners that help prevent dry skin.",
+        "en": "Industrial acetone has not been tested or approved for human skin. Professional removers usually have added aloe and other softeners that help prevent dry skin.",
         "zh": "工业丙酮没有经过用于人体皮肤的测试或批准。专业卸甲产品通常添加了芦荟等柔肤成分，能防止皮肤干燥。"
       },
       "lockPoint": {
@@ -17976,7 +17976,7 @@
       ],
       "correctChoice": "d",
       "explanation": {
-        "en": "Over-filing thins and weakens the nail plate. Milady calls it a leading cause of service breakdown, lifting, breaking, and free-edge chipping, and it can promote allergic reactions.",
+        "en": "Over-filing thins and weakens the nail plate. Milady calls it a leading cause of service breakdown, lifting, breaking, and free-edge chipping, and it can lead to allergic reactions.",
         "zh": "过度锉磨会让甲板变薄变弱。Milady 说这是美甲提前损坏、起翘、断裂和前缘崩边的主要原因之一，还可能诱发过敏反应。"
       },
       "lockPoint": {
@@ -18060,7 +18060,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Let all primers dry thoroughly first: acid-based dries chalky white, acid-free dries shiny and sticky. Product put over wet primer can discolor and break down early.",
+        "en": "Let all primers dry completely first: acid-based dries chalky white, acid-free dries shiny and sticky. Product put over wet primer can discolor and break down early.",
         "zh": "所有结合剂都要先完全干透：酸性结合剂干后发白（像粉笔一样），无酸结合剂干后有光泽、发黏。在未干的结合剂上做产品，会变色并提前损坏。"
       },
       "lockPoint": {
@@ -18438,7 +18438,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Scraping or prying leftover coating with a metal or wooden pusher makes tiny pits and gouges. Many in one spot roughen the surface and look like whitish spots. Soak longer instead.",
+        "en": "Scraping or prying leftover coating with a metal or wooden pusher makes tiny pits and scratches. Many in one spot roughen the surface and look like whitish spots. Soak longer instead.",
         "zh": "用钢推或木棒刮、撬残留的胶，会在甲面留下细小的凹坑和刮痕。同一处刮痕多了，表面变粗糙，看起来就像白斑。应该多泡一会儿。"
       },
       "lockPoint": {
@@ -18564,7 +18564,7 @@
       ],
       "correctChoice": "c",
       "explanation": {
-        "en": "Record the service, products used, observations, and retail recommendations on the client service form or computer record.",
+        "en": "Record the service, products used, what you noticed, and retail recommendations on the client service form or computer record.",
         "zh": "把服务内容、用过的产品、观察到的情况和零售推荐，记录在 client service form（客人服务记录表）或电脑记录里。"
       },
       "lockPoint": {
@@ -18904,7 +18904,7 @@
         "zh": "拆下 impeller covers（叶轮盖）和其他可拆部件，用液体皂（liquid soap）、干净消毒过的刷子和温水，刷洗部件和它们后面的地方，去掉所有残留物。"
       },
       "lockPoint": {
-        "en": "Residue hides behind impeller covers, and foot spas can harbor sticky biofilm there.",
+        "en": "Residue hides behind impeller covers, and foot spas can hold sticky biofilm there.",
         "zh": "残留物藏在叶轮盖后面，足浴盆里会长出黏黏的生物膜（biofilm）。"
       },
       "hookType": "reason-chain",
@@ -18946,10 +18946,10 @@
         "zh": "每天营业结束时，用 chelating detergent（螯合清洁剂）循环 5 到 10 分钟，分解顽固膜层和足疗产品残留。然后排水、冲洗、注水，再消毒。"
       },
       "lockPoint": {
-        "en": "Chelate comes from Greek for a crab’s claw: it grabs the minerals in hard water.",
-        "zh": "螯 = 螃蟹的大钳子：螯合剂像蟹钳一样，夹住硬水里的矿物质。"
+        "en": "Chelating detergent grabs the minerals in hard water, like a crab claw, so cleaning still works.",
+        "zh": "螯 = 螃蟹的大钳子：chelating detergent（螯合清洁剂）像蟹钳一样，夹住硬水里的矿物质，让清洁照样有效。"
       },
-      "hookType": "word-origin",
+      "hookType": "picture",
       "status": "approved"
     },
     {
@@ -19068,7 +19068,7 @@
       ],
       "correctChoice": "a",
       "explanation": {
-        "en": "Many states require salons to record the time and date of each pedicure disinfection in a log for accountability. Check your state’s rules.",
+        "en": "Many states require salons to record the time and date of each pedicure disinfection in a log as proof. Check your state’s rules.",
         "zh": "很多州要求店家在足疗消毒记录本（disinfection log）里，写下每次消毒的时间和日期，以备查核。要查本州规定。"
       },
       "lockPoint": {

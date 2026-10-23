@@ -10,8 +10,8 @@ C. One and a half times as much / 液体是粉的 1.5 倍 ✅
 D. Twice as much liquid / 液体是粉的 2 倍  
 *Why:* Equal liquid and powder makes a dry bead; twice as much liquid makes a wet bead. A medium bead is halfway between and is usually the ideal mix ratio.  
 *为什么:* 液体和粉等量是 dry bead（干球）；液体是粉的两倍是 wet bead（湿球）。medium bead（中球）介于两者之间，通常是最理想的 mix ratio（液粉比）。  
-*Lock this (word-origin):* Medium comes from Latin medius, 'middle': halfway between dry (1 to 1) and wet (2 to 1).  
-*记重点:* medium 来自拉丁语 medius，意思是“中间”：正好在干球（1:1）和湿球（2:1）的中间。  
+*Lock this (real-life):* Like T-shirt sizes S, M, L: medium sits in the middle. Dry 1:1, medium 1.5:1, wet 2:1.  
+*记重点:* 就像 T 恤尺码 S、M、L：medium（中号）在中间。dry bead（干球）1:1，medium bead（中球）1.5:1，wet bead（湿球）2:1。  
 *Source:* Milady Standard Nail Technology p.324 (PDF 348)
 
 **2. Too little powder in the bead can cause**  
@@ -34,7 +34,7 @@ C. Lumpy and full of air bubbles / 疙疙瘩瘩，满是气泡
 D. Round and shiny; settles but doesn't run / 圆润有光泽，会稍微摊开但不流动 ✅  
 *Why:* A perfect bead is round and shiny, and it settles on the form without running. Dry powder around it means too little liquid; dripping means too wet.  
 *为什么:* 理想的水晶球圆润有光泽，放在纸托上会稍微摊开但不会流动。周围有干粉说明液体太少；会滴落说明太湿。  
-*Lock this (picture):* Picture a dab of thick hair gel on a plate: round, glossy, slumps a little, then holds.  
+*Lock this (picture):* Picture a dab of thick hair gel on a plate: round, glossy, spreads a little, then holds.  
 *记重点:* 想象盘子上的一小坨发胶：圆润有光泽，稍微摊开，然后就定住不动。  
 *Source:* Milady Standard Nail Technology p.324 (PDF 348), Milady Standard Nail Technology p.328 (PDF 352)
 
@@ -44,9 +44,9 @@ A. it has no odor at all. / 它完全没有气味。
 B. it is made with MMA. / 它是用 MMA 做的。  
 C. others in the salon can't smell it. / 店里的其他人闻不到它。 ✅  
 D. a perfume covers its odor. / 加了香料盖住气味。  
-*Why:* Odorless products still have a slight odor. If others in the salon can't detect it, it is called odorless; if they notice a slight odor, it is called low odor.  
+*Why:* Odorless products still have a slight odor. If others in the salon can't smell it, it is called odorless; if they notice a slight odor, it is called low odor.  
 *为什么:* odorless（无味）产品其实仍有轻微气味。店里其他人闻不出来，就叫无味；能闻到一点，就叫 low odor（低味）。  
-*Lock this (name-trap):* Name trap: odorless liquids swap the usual ethyl monomer for low-smell monomers. The scent is faint, not gone.  
+*Lock this (name-trap):* Name trap: odorless liquids swap the usual ethyl monomer for low-smell monomers. The smell is weak, not gone.  
 *记重点:* 名字陷阱：odorless 产品把常用的乙基单体换成气味很淡的单体。味道变淡了，但没有消失。  
 *Source:* Milady Standard Nail Technology p.323 (PDF 347)
 
@@ -70,8 +70,8 @@ C. a dehydrator that dries the nail. / 让指甲干燥的脱水剂。
 D. two-sided sticky tape. / 双面胶。 ✅  
 *Why:* One end of the acid-free primer molecule bonds to nail protein; the other end bonds to the monomer as it cures. That is why Milady compares it to two-sided tape.  
 *为什么:* acid-free primer（无酸结合剂）分子的一端和指甲蛋白结合，另一端在单体固化时和单体结合，所以 Milady 把它比作双面胶。  
-*Lock this (word-origin):* Primer comes from prime, likely from Latin primus 'first': it's the first coat under the product.  
-*记重点:* primer 来自 prime，很可能源自拉丁语 primus（第一）：它是产品下面的第一层。  
+*Lock this (comparison):* Like primer paint on a wall before the color: a thin layer that helps the product stick to the nail.  
+*记重点:* 就像刷墙时先刷的底漆：薄薄一层，帮产品牢牢粘在指甲上。  
 *Source:* Milady Standard Nail Technology p.325 (PDF 349)
 
 **7. When preparing nails for liquid and powder, which order is correct?**  
@@ -92,7 +92,7 @@ A. very short nail beds. / 甲床很短。
 B. thick, curved toenails. / 脚趾甲又厚又弯。  
 C. oily nail plates. / 甲面偏油。 ✅  
 D. very sensitive skin. / 皮肤非常敏感。  
-*Why:* Primer improves adhesion, so it is especially useful when a client has oily nail plates, where adhesion is a problem. Use it sparingly; one thin coat is enough for most clients.  
+*Why:* Primer improves adhesion, so it is especially useful when a client has oily nail plates, where adhesion is a problem. Use only a little; one thin coat is enough for most clients.  
 *为什么:* primer（结合剂）能增强附着，所以对甲面偏油、不容易附着的客人特别有用。要少量使用，大多数客人一薄层就够了。  
 *Lock this (picture):* Oil blocks adhesion the way grease stops tape from sticking to a pan.  
 *记重点:* 油会妨碍附着，就像胶带贴不住油腻的锅。  
@@ -116,10 +116,10 @@ A. Protective gloves and safety eyewear / 防护手套和护目镜 ✅
 B. A dust mask only / 只戴防尘口罩  
 C. Barrier cream on the cuticle only / 只在甲小皮处涂隔离霜  
 D. A hairnet and an apron / 发网和围裙  
-*Why:* Acid-based primer is corrosive and can cause serious, sometimes irreversible, damage to skin and eyes. Always wear protective gloves and safety eyewear.  
+*Why:* Acid-based primer is corrosive and can cause serious damage, sometimes for life, to skin and eyes. Always wear protective gloves and safety eyewear.  
 *为什么:* acid-based primer（酸性结合剂）有腐蚀性，可能对皮肤和眼睛造成严重、有时无法逆转的伤害。务必戴防护手套和护目镜。  
-*Lock this (word-origin):* Corrosive comes from Latin corrodere, 'to gnaw away': acid primer can burn and scar skin and eyes.  
-*记重点:* corrosive（腐蚀性）来自拉丁语 corrodere，意思是“啃掉”：酸性结合剂会灼伤皮肤和眼睛，留下疤痕。  
+*Lock this (comparison):* Corrosive = it eats away, like rust on metal. Acid primer can eat skin and harm eyes.  
+*记重点:* corrosive（腐蚀性）= 一点点吃掉，就像金属生锈。“蚀”字是“饣（吃）+ 虫”：像虫子在啃。酸性结合剂会腐蚀皮肤、伤害眼睛。  
 *Source:* Milady Standard Nail Technology p.325 (PDF 349)
 
 **11. Before applying enhancements, how much should the natural nail be filed?**  
@@ -130,8 +130,8 @@ C. Until the nail plate is thin / 锉到甲面变薄
 D. Not at all; leave the shine / 完全不锉，保留光泽  
 *Why:* It is a myth that products stick only to a roughed-up nail. Adhesion is best on a clean, dry plate, so remove only the surface shine. A thinner plate is a weaker base.  
 *为什么:* 认为指甲要磨粗产品才粘得住，是一种误解。甲面干净、干燥时附着最好，所以只需去掉表面光泽。甲面越薄，基础越弱。  
-*Lock this (real-life):* Milady: the nail tech's first duty is to keep the nail plate thick, strong, and healthy.  
-*记重点:* Milady 说：美甲师的第一职责，是让甲面保持厚实、坚固、健康。  
+*Lock this (real-life):* Milady: the nail tech's first job is to keep the nail plate thick, strong, and healthy.  
+*记重点:* Milady 说：美甲师的第一要务，是让甲面保持厚实、坚固、健康。  
 *Source:* Milady Standard Nail Technology p.119 (PDF 143)
 
 **12. Why are MMA enhancements usually pried off the nail?**  
@@ -142,8 +142,8 @@ C. They come off in water. / 它们遇水就会脱落。
 D. They are glued on with resin. / 它们是用树脂粘上去的。  
 *Why:* MMA does not dissolve well in product removers, so it is usually pried from the nail plate, causing more damage. MMA is not to be used on nails.  
 *为什么:* MMA 在卸甲液里不容易溶解，所以通常被从甲面上硬撬下来，造成更多损伤。指甲上不能使用 MMA。  
-*Lock this (real-life):* MMA is the liquid in surgeons' bone cement for fixing artificial joints: built to stay put, not soak off.  
-*记重点:* MMA 是外科骨水泥的液体成分，用来固定人工关节：它就是要牢牢不动，而不是被泡掉。  
+*Lock this (real-life):* MMA is in bone cement that holds new hip joints in place: built to stay, not soak off.  
+*记重点:* MMA 是骨水泥的成分，用来把人工髋关节固定住：它就是要牢牢不动，而不是被泡掉。  
 *Source:* Milady Standard Nail Technology p.321 (PDF 345), Milady Standard Nail Technology p.124 (PDF 148)
 
 **13. How should a small amount of leftover monomer liquid be thrown away?**  
@@ -164,8 +164,8 @@ A. Synthetic nylon bristles / 合成尼龙毛
 B. Natural hair, like kolinsky or sable / 天然毛，如貂毛（kolinsky）或紫貂毛（sable） ✅  
 C. A foam-tipped applicator / 海绵头涂抹棒  
 D. An extra-large size 16 brush / 特大号 16 号笔  
-*Why:* Natural hair absorbs and holds monomer like a reservoir. Synthetic brushes don't pick up enough liquid or release it properly, and size 12 to 16 brushes hold too much.  
-*为什么:* 天然毛能像水库一样吸住并保存单体液。合成毛吸不够单体液，放液也不顺畅；而 12 到 16 号的大笔又吸得太多。  
+*Why:* Natural hair absorbs and holds monomer like a sponge. Synthetic brushes don't pick up enough liquid or let it out well, and size 12 to 16 brushes hold too much.  
+*为什么:* 天然毛能像海绵一样吸住并保存单体液。合成毛吸不够单体液，放液也不顺畅；而 12 到 16 号的大笔又吸得太多。  
 *Lock this (contrast):* Gel uses a nylon brush; acrylic uses natural hair. The most common acrylic brush is a #8 oval.  
 *记重点:* 光疗胶用尼龙笔，水晶甲用天然毛笔。最常用的水晶笔是 8 号椭圆笔。  
 *Source:* Milady Standard Nail Technology p.327 (PDF 351), Milady Standard Nail Technology p.321 (PDF 345), Milady Standard Nail Technology p.359 (PDF 383)
@@ -212,7 +212,7 @@ A. As thick as the apex / 和甲峰一样厚
 B. Credit-card thin / 像信用卡一样薄 ✅  
 C. Twice as thick as the apex / 甲峰的两倍厚  
 D. Thickest at the edge for strength / 前缘最厚，以增加强度  
-*Why:* The enhancement should graduate smoothly from the cuticle to the end, with the sidewalls and edge credit-card thin. Thin nails are comfortable; the apex gives the strength.  
+*Why:* The enhancement should flow smoothly from the cuticle to the end, with the sidewalls and edge credit-card thin. Thin nails are comfortable; the apex gives the strength.  
 *为什么:* 美甲延长应从甲小皮处平滑过渡到末端，两侧和前缘像信用卡一样薄。薄才舒服，强度靠甲峰提供。  
 *Lock this (real-life):* Take a credit card from your wallet: about 0.76 mm thick. That is the edge you are aiming for.  
 *记重点:* 从钱包里拿出一张信用卡：大约 0.76 毫米厚，这就是前缘要的厚度。  

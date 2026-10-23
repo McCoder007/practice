@@ -92,7 +92,7 @@ A. better product adhesion. / 产品附着更好。
 B. faster natural nail growth. / 真甲长得更快。  
 C. a yellow topcoat. / 封层发黄。  
 D. lifting and breaking. / 起翘和断裂。 ✅  
-*Why:* Over-filing thins and weakens the nail plate. Milady calls it a leading cause of service breakdown, lifting, breaking, and free-edge chipping, and it can promote allergic reactions.  
+*Why:* Over-filing thins and weakens the nail plate. Milady calls it a leading cause of service breakdown, lifting, breaking, and free-edge chipping, and it can lead to allergic reactions.  
 *为什么:* 过度锉磨会让甲板变薄变弱。Milady 说这是美甲提前损坏、起翘、断裂和前缘崩边的主要原因之一，还可能诱发过敏反应。  
 *Lock this (comparison):* A house on a thin foundation cracks. A thinner nail plate is a weaker base for any enhancement.  
 *记重点:* 地基薄，房子就会裂。甲板越薄，任何美甲的基础就越弱。  
@@ -116,7 +116,7 @@ A. discoloration and service breakdown. / 变色和美甲提前损坏。 ✅
 B. a faster, harder cure. / 固化更快、更硬。  
 C. trapped air bubbles. / 里面夹着气泡。  
 D. a heat spike during the cure. / 固化时烫手。  
-*Why:* Let all primers dry thoroughly first: acid-based dries chalky white, acid-free dries shiny and sticky. Product put over wet primer can discolor and break down early.  
+*Why:* Let all primers dry completely first: acid-based dries chalky white, acid-free dries shiny and sticky. Product put over wet primer can discolor and break down early.  
 *为什么:* 所有结合剂都要先完全干透：酸性结合剂干后发白（像粉笔一样），无酸结合剂干后有光泽、发黏。在未干的结合剂上做产品，会变色并提前损坏。  
 *Lock this (picture):* Like painting over a coat that's still wet: the soft layer underneath spoils the new finish.  
 *记重点:* 就像在还没干的漆上再刷一层：下面那层软的，会把新的一层也毁掉。  
@@ -224,7 +224,7 @@ A. scraping off leftover product. / 刮掉残留的产品。 ✅
 B. using a soak-off topcoat. / 用了可卸封层。  
 C. curing in an LED lamp. / 在 LED 灯里固化。  
 D. applying cuticle oil afterward. / 之后涂了指缘油。  
-*Why:* Scraping or prying leftover coating with a metal or wooden pusher makes tiny pits and gouges. Many in one spot roughen the surface and look like whitish spots. Soak longer instead.  
+*Why:* Scraping or prying leftover coating with a metal or wooden pusher makes tiny pits and scratches. Many in one spot roughen the surface and look like whitish spots. Soak longer instead.  
 *为什么:* 用钢推或木棒刮、撬残留的胶，会在甲面留下细小的凹坑和刮痕。同一处刮痕多了，表面变粗糙，看起来就像白斑。应该多泡一会儿。  
 *Lock this (picture):* Scratch clear plastic and it turns cloudy white; a scraped nail surface does the same.  
 *记重点:* 透明塑料刮花了会发白发雾，被刮过的甲面也是一样。  

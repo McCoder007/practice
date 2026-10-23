@@ -10,8 +10,8 @@ C. Photoinitiator / 光引发剂（photoinitiator） ✅
 D. Acetone / 丙酮（acetone）  
 *Why:* A photoinitiator is a molecule that reacts when exposed to UV or visible light. It is mixed into the gel, so the gel hardens in a curing lamp.  
 *为什么:* photoinitiator（光引发剂）是一种在 UV 或可见光照射下发生反应的分子。它加在胶里，所以胶在固化灯里会变硬。  
-*Lock this (word-parts):* Photo- is Greek for light, as in photograph. An initiator is the starter.  
-*记重点:* photo- 是希腊语的“光”，如 photograph（照片）。initiator 就是“启动者”。  
+*Lock this (word-parts):* Photo- = light: photos are made with light. Initiator = starter. Lamp light starts the hardening.  
+*记重点:* photoinitiator（光引发剂）：光 = photo-，引发 = initiator（启动者）。灯光一照，就启动变硬。  
 *Source:* Milady Standard Nail Technology p.354 (PDF 378)
 
 **2. Compared with UV fluorescent lamps, LED lamps usually**  
@@ -56,10 +56,10 @@ A. can only be removed by filing. / 只能锉掉。
 B. are hard gels for long extensions. / 是用来做长延长的硬胶。  
 C. come off faster than regular polish. / 比普通甲油卸得更快。  
 D. come off with polish remover, but slowly. / 可以用洗甲水卸，但比较慢。 ✅  
-*Why:* Hybrid gels have the durability and gloss of gel but can be removed like polish with polish remover, though it takes longer. Gel polishes originally had to be filed off.  
+*Why:* Hybrid gels last and shine like gel but can be removed like polish with polish remover, though it takes longer. Gel polishes originally had to be filed off.  
 *为什么:* hybrid gel（混合胶）有光疗胶的持久和光泽，却能像普通甲油一样用洗甲水卸掉，只是时间更长。早期的甲油胶只能靠打磨去除。  
-*Lock this (word-origin):* Hybrid comes from Latin hybrida, a cross of two kinds: here, gel and regular polish.  
-*记重点:* hybrid 来自拉丁语 hybrida，意思是两种东西的“混种”：这里就是光疗胶和普通甲油的结合。  
+*Lock this (real-life):* A hybrid car uses gas and electric. A hybrid gel: lasts like gel, comes off like polish, just slower.  
+*记重点:* hybrid（油电混合）汽车既用油也用电。hybrid gel（混合胶）：像光疗胶一样持久，又能像甲油一样卸掉，只是慢一些。  
 *Source:* Milady Standard Nail Technology p.151 (PDF 175)
 
 **6. How is the sticky inhibition layer removed from cured gel?**  
@@ -70,8 +70,8 @@ C. Rinse it off with warm water / 用温水冲掉
 D. Buff it in with cuticle oil / 用指缘油抛进去  
 *Why:* The inhibition layer is uncured gel and/or leftover solvents that leave a tacky surface. Wipe it away with alcohol or nail cleanser on a lint-free wipe.  
 *为什么:* inhibition layer（浮胶层）是未固化的胶和/或残留溶剂，在表面留下黏黏的一层。用无尘纸蘸酒精或甲面清洁剂就能擦掉。  
-*Lock this (word-origin):* Inhibit comes from Latin inhibere, 'hold back': oxygen in the air holds back the cure, so the top stays tacky.  
-*记重点:* inhibit 来自拉丁语 inhibere（阻止）：空气中的氧气阻止表面固化，所以表层黏黏的，中文叫“浮胶”。  
+*Lock this (reason-chain):* Inhibit means hold back. Air on top holds back the cure → the inhibition layer stays sticky.  
+*记重点:* inhibit = 阻止。表面接触空气，空气阻止表层固化 → inhibition layer（浮胶层）一直黏黏的。浮胶 = 浮在表面没固化的胶。  
 *Source:* Milady Standard Nail Technology p.358 (PDF 382), Milady Standard Nail Technology p.359 (PDF 383)
 
 **7. Why is a soak-off gel topcoat used over gel polish?**  
@@ -164,7 +164,7 @@ A. One whose enhancements often lift / 美甲经常起翘的客人
 B. One who wants a crystal-clear look / 想要晶莹透明效果的客人  
 C. One who wants nails for one weekend / 只想在一个周末戴的客人 ✅  
 D. One who wants low odor / 想要低气味的客人  
-*Why:* Hard gels can only be filed off, so they are a poor choice for a short-term extension. Clients love hard gel for clarity, low odor, and strength, and its adhesion suits lifters.  
+*Why:* Hard gels can only be filed off, so they are a poor choice for a short-term extension. Clients love hard gel for its clear look, low odor, and strength, and its adhesion suits lifters.  
 *为什么:* 硬胶只能锉掉，所以不适合短期延长。客人喜欢硬胶晶莹透明、低气味、强度高，它的附着力也很适合容易起翘的客人。  
 *Lock this (real-life):* A prom or wedding? Milady suggests resin systems: they soak off easily after a few days.  
 *记重点:* 参加毕业舞会（prom）或婚礼？Milady 推荐树脂系统（nail resin system）：戴几天后就能轻松泡掉。  

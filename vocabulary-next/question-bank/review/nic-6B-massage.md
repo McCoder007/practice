@@ -8,8 +8,8 @@ A. Give a shorter, deeper massage / 做时间更短、力度更深的按摩
 B. Use only tapotement / 只用叩击法（tapotement）  
 C. Leave massage out of the service / 这次服务不做按摩 ✅  
 D. Massage only the fingers / 只按摩手指  
-*Why:* Discuss medical conditions during the consultation. Milady says to be conservative: when in doubt, don't include massage. Encourage the client to ask their physician.  
-*为什么:* 在咨询时讨论顾客的健康状况。Milady 说要保守：拿不准时，就不要做按摩，并鼓励顾客先咨询医生。  
+*Why:* Discuss medical conditions during the consultation. Milady says to be careful: when in doubt, don't include massage. Encourage the client to ask their physician.  
+*为什么:* 在咨询时讨论顾客的健康状况。Milady 说要谨慎：拿不准时，就不要做按摩，并鼓励顾客先咨询医生。  
 *Lock this (contrast):* Stable, treated high blood pressure or diabetes is often fine. Severe, uncontrolled hypertension rules out hand and arm massage.  
 *记重点:* 病情稳定、正在治疗的高血压或糖尿病通常可以按摩；严重且未控制的高血压则不能做手部和手臂按摩。  
 *Source:* Milady Standard Nail Technology p.162 (PDF 186), Milady Standard Nail Technology p.161 (PDF 185)
@@ -20,10 +20,10 @@ A. effleurage. / 轻抚法（effleurage）。 ✅
 B. tapotement. / 叩击法（tapotement）。  
 C. pétrissage. / 揉捏法（pétrissage）。  
 D. friction. / 摩擦法（friction）。  
-*Why:* Effleurage is a succession of strokes in which the hands glide over an area of the body with varying pressure or contact. It is a relaxing movement.  
+*Why:* Effleurage is a series of strokes in which the hands glide over an area of the body with varying pressure or contact. It is a relaxing movement.  
 *为什么:* effleurage（轻抚法）是双手以不同力度或接触程度在身体某部位滑动的一连串手法，能让顾客放松。  
-*Lock this (word-origin):* From French effleurer, "to touch lightly": the hands skim over the skin.  
-*记重点:* 源自法语 effleurer，意思是“轻轻触碰”：双手轻轻掠过皮肤。  
+*Lock this (picture):* Effleurage = slow, smooth, gliding strokes, like smoothing a bed sheet with your palms.  
+*记重点:* effleurage（轻抚法）= 缓慢、顺滑的滑动手法，就像用手掌抚平床单。  
 *Source:* Milady Standard Nail Technology p.162 (PDF 186)
 
 **3. Lifting, squeezing, and pressing the tissue is called**  
@@ -34,8 +34,8 @@ C. tapotement. / 叩击法（tapotement）。
 D. pétrissage. / 揉捏法（pétrissage）。 ✅  
 *Why:* Pétrissage, or kneading, lifts, squeezes, and presses the tissue. It moves flesh and muscle over the bones and increases blood flow.  
 *为什么:* pétrissage（揉捏法），也叫 kneading，是提起、挤压并按压组织。它让肌肉在骨头上移动，促进血液流动。  
-*Lock this (word-origin):* From French pétrir, "to knead," as a baker kneads bread dough.  
-*记重点:* 源自法语 pétrir，意思是“揉面”，就像面包师揉面团。  
+*Lock this (picture):* Pétrissage = squeeze and lift, like kneading bread dough.  
+*记重点:* pétrissage（揉捏法）= 挤一挤、提一提，就像揉面团。  
 *Source:* Milady Standard Nail Technology p.162 (PDF 186), Milady Standard Nail Technology p.187 (PDF 211)
 
 **4. A rapid tapping or striking motion of the hands is called**  
@@ -46,8 +46,8 @@ C. effleurage. / 轻抚法（effleurage）。
 D. vibration. / 振动法（vibration）。  
 *Why:* Tapotement is a rapid tapping or striking motion of the hands against the skin.  
 *为什么:* tapotement（叩击法）是双手快速拍打或敲击皮肤。  
-*Lock this (word-origin):* From French tapoter, "to tap" or pat lightly. Picture fingertips drumming on a table.  
-*记重点:* 源自法语 tapoter，意思是“轻拍、轻敲”。想象手指在桌上轻敲打拍子。  
+*Lock this (word-link):* Tapotement starts with "tap": quick fingertip taps, like raindrops on a window.  
+*记重点:* tapotement（叩击法）开头就是 tap（轻敲）：指尖快速轻敲，像雨点打在窗户上。  
 *Source:* Milady Standard Nail Technology p.162 (PDF 186)
 
 **5. Which massage movement shakes the tissue without the hand leaving the skin?**  
@@ -70,8 +70,8 @@ C. friction. / 摩擦法（friction）。 ✅
 D. effleurage. / 轻抚法（effleurage）。  
 *Why:* Friction presses one layer of tissue over another. The hands go around the arm and twist gently in opposite directions, as you would wring out a washcloth.  
 *为什么:* friction（摩擦法）是让一层组织压在另一层上移动。双手环住手臂，轻轻朝相反方向扭转，就像拧毛巾。  
-*Lock this (word-origin):* Friction comes from Latin fricare, "to rub": one layer of tissue rubs against another.  
-*记重点:* friction 来自拉丁语 fricare，意思是“摩擦”：一层组织在另一层上摩擦。  
+*Lock this (body-cue):* Put your palm on your arm and twist without sliding: the skin moves over the layer under it. That's friction.  
+*记重点:* 把手掌贴在前臂上，不要滑动，轻轻扭：皮肤在下面那层上移动。这就是 friction（摩擦法）。  
 *Source:* Milady Standard Nail Technology p.162 (PDF 186), Milady Standard Nail Technology p.186 (PDF 210)
 
 **7. Which massage movement should nail technicians perfect and use most?**  
@@ -80,7 +80,7 @@ A. Effleurage / 轻抚法（effleurage） ✅
 B. Tapotement / 叩击法（tapotement）  
 C. Friction / 摩擦法（friction）  
 D. Pétrissage / 揉捏法（pétrissage）  
-*Why:* Milady says effleurage is the movement to perfect, vary, and use expertly, because it is relaxing and calming. Use the other movements less, and with gentle care.  
+*Why:* Milady says effleurage is the movement to perfect, vary, and use well, because it is relaxing and calming. Use the other movements less, and with gentle care.  
 *为什么:* Milady 说 effleurage（轻抚法）是要练好、灵活变化、熟练运用的手法，因为它让人放松平静。其他手法少用，并且要轻柔。  
 *Lock this (comparison):* Effleurage is the main dish; the other four movements are seasoning, used lightly.  
 *记重点:* effleurage 是主菜，其他四种手法只是调味料，少放一点。  
@@ -92,7 +92,7 @@ A. deep, sports-style muscle work. / 深层的运动式肌肉按摩。
 B. moving stiff joints. / 活动僵硬的关节。  
 C. removing dead skin. / 去除死皮。  
 D. relaxation. / 放松。 ✅  
-*Why:* Body massage can be for relaxation or therapy, but massage during a manicure or pedicure is purely for relaxation. A nail technician is not licensed for deep, sports-like massage.  
+*Why:* Body massage can be for relaxation or therapy, but massage during a manicure or pedicure is only for relaxation. A nail technician is not licensed for deep, sports-like massage.  
 *为什么:* 全身按摩可以是放松或治疗，但修手修脚中的按摩纯粹是为了放松。美甲师没有做深层运动按摩的执照。  
 *Lock this (real-life):* Client surveys rank massage as the most enjoyed part of any nail service. Relaxation brings them back.  
 *记重点:* 顾客调查显示，按摩是所有美甲服务中最受欢迎的部分。放松的感觉让顾客回头。  
@@ -128,8 +128,8 @@ A. Leaning forward toward the client / 身体前倾靠近顾客
 B. Perched on the edge of the chair / 只坐在椅子边缘  
 C. Relaxed, feet flat, not stretching forward / 放松，双脚平放，不向前伸 ✅  
 D. Standing beside the client / 站在顾客旁边  
-*Why:* Sit comfortably with correct, relaxed posture and both feet flat on the floor. Do not stretch or lean toward the client; strained positions can injure your back, neck, and shoulders.  
-*为什么:* 坐得舒服，姿势端正放松，双脚平放在地上。不要伸长身子或前倾靠近顾客；姿势别扭会伤到背、颈和肩。  
+*Why:* Sit comfortably with correct, relaxed posture and both feet flat on the floor. Do not stretch or lean toward the client; leaning like this can hurt your back, neck, and shoulders.  
+*为什么:* 坐得舒服，姿势端正放松，双脚平放在地上。不要伸长身子或前倾靠近顾客；这样前倾会伤到背、颈和肩。  
 *Lock this (reason-chain):* Leaning in for one massage feels fine. Leaning in all day, every day, adds up to injury.  
 *记重点:* 做一次按摩时前倾没什么感觉。天天整天前倾，伤害就会累积起来。  
 *Source:* Milady Standard Nail Technology p.161 (PDF 185)
@@ -140,7 +140,7 @@ A. Slow, rhythmic strokes / 缓慢、有节奏的手法
 B. Vigorous, strong movements / 剧烈、用力的手法 ✅  
 C. Gentle effleurage / 轻柔的轻抚法  
 D. Light lotion application / 轻轻涂抹乳液  
-*Why:* Avoid vigorous or strong massage on clients with arthritis. Do not press on or manipulate painful joints; smooth on lotion with gentle pressure instead.  
+*Why:* Avoid vigorous or strong massage on clients with arthritis. Do not press on or move painful joints; smooth on lotion with gentle pressure instead.  
 *为什么:* 关节炎顾客要避免剧烈或用力的按摩。不要按压或活动疼痛的关节，改用轻柔的力度涂抹乳液。  
 *Lock this (word-parts):* Arthr = joint, itis = inflammation. Inflamed joints need a gentle glide, not force.  
 *记重点:* arthr = 关节，itis = 发炎。发炎的关节只能轻轻滑过，不能用力。  
@@ -238,6 +238,6 @@ C. Away from the belly of the muscle / 离开肌腹（belly）的方向
 D. From the insertion toward the origin / 从止点（insertion）推向起点（origin） ✅  
 *Why:* Milady says massage pressure usually goes from the insertion (the end where more movement occurs) toward the origin (the fixed end), moving toward the belly of the muscle.  
 *为什么:* Milady 说按摩压力通常从 insertion（止点，活动较多的一端）推向 origin（起点，固定不动的一端），并朝向肌腹（belly，肌肉中间部分）。  
-*Lock this (word-origin):* Origin means "beginning": press from the moving end back toward where the muscle begins.  
-*记重点:* origin 的意思是“起源、开始”：从活动的那一端，往肌肉开始的地方推。  
+*Lock this (body-cue):* Bend your elbow, feel your biceps: shoulder end stays still (origin), elbow end moves (insertion). Press elbow → shoulder.  
+*记重点:* 弯手肘，摸肱二头肌（biceps）：靠肩的一端不动，是 origin（起点）；靠肘的一端会动，是 insertion（止点）。按摩从肘推向肩。  
 *Source:* Milady Standard Nail Technology p.30 (PDF 54)

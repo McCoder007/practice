@@ -140,7 +140,7 @@ A. Disinfecting the footbath / 给泡脚盆消毒
 B. Softening and cleansing the feet / 软化并清洁脚部 ✅  
 C. Removing toenail polish / 卸除脚指甲油  
 D. Dissolving thick calluses / 溶解厚茧  
-*Why:* A foot soak is added to the pedicure bath to soften the skin on the feet. A good one is gentle but thoroughly cleans and deodorizes. It does not disinfect the footbath.  
+*Why:* A foot soak is added to the pedicure bath to soften the skin on the feet. A good one is gentle but thoroughly cleans and removes bad smells. It does not disinfect the footbath.  
 *为什么:* 泡脚粉/泡脚液加进修脚水里，用来软化脚部皮肤。好的泡脚产品温和而彻底地清洁、除臭。它不能给泡脚盆消毒。  
 *Lock this (picture):* Think bath salts for feet: a softer, fresher foot, not a cleaner tub.  
 *记重点:* 就像给脚用的浴盐：让脚更软、更清爽，但盆并不会因此变干净。  
@@ -154,8 +154,8 @@ C. four layers applied in order. / 按顺序涂的四层。
 D. terms used only for gel polish. / 只用于凝胶甲油的名称。  
 *Why:* Polish, enamel, lacquer, and varnish are marketing terms for the same type of product with similar ingredients: a solvent-based colored film applied to the nail plate.  
 *为什么:* polish、enamel、lacquer、varnish 都是营销用语，指成分相似的同一类产品：涂在甲面上的溶剂型有色膜。  
-*Lock this (word-origin):* Lacquer, enamel, and varnish first named finishes for wood and metal; nail brands borrowed those fancy names for one product.  
-*记重点:* lacquer（漆）、enamel（搪瓷/珐琅）、varnish（清漆）原本是木器和金属表面涂层的名称，甲油品牌借来给同一种产品起好听的名字。  
+*Lock this (comparison):* Polish, enamel, lacquer, varnish: one kind of product, four names. Like "soda" and "soft drink": same drink.  
+*记重点:* polish、enamel、lacquer、varnish 是同一类产品的四个名字，就像“番茄”和“西红柿”：叫法不同，东西一样。  
 *Source:* Milady Standard Nail Technology p.151 (PDF 175)
 
 **14. Topcoat is applied over colored polish to**  
@@ -176,7 +176,7 @@ A. thin and weak. / 又薄又软的。
 B. bare, with no polish. / 没涂甲油的裸甲。  
 C. already very hard and brittle. / 本来就很硬、很脆的。 ✅  
 D. short and natural. / 短的真甲。  
-*Why:* Methylene glycol cross-links keratin, making the nail stiffer. It helps thin, weak nails but can make already hard, brittle nails so rigid they split and shatter. Stop if problems appear.  
+*Why:* Methylene glycol cross-links keratin, making the nail stiffer. It helps thin, weak nails but can make already hard, brittle nails so stiff they split and break. Stop if problems appear.  
 *为什么:* 甲二醇（methylene glycol）让角蛋白（keratin）交联，指甲变得更硬。它适合薄软的指甲，但会让本来就硬、脆的指甲变得太僵，裂开甚至碎掉。出现问题就停用。  
 *Lock this (picture):* A brittle nail plus hardener is like dry spaghetti made stiffer: it snaps instead of bending.  
 *记重点:* 脆指甲再用硬甲油，就像干意面更硬了：一弯就断。  
@@ -200,7 +200,7 @@ A. Jojoba beads / 荷荷巴微珠（jojoba beads）
 B. Sea sand / 海沙  
 C. Pumice / 浮石粉（pumice）  
 D. Corn meal / 玉米粉（corn meal） ✅  
-*Why:* Scrubs use exfoliants like sea sand, apricot kernels, pumice, quartz, or jojoba beads. Avoid ingredients that expand and clog the drain, such as corn meal, and avoid overly abrasive scrubs.  
+*Why:* Scrubs use exfoliants like sea sand, apricot kernels, pumice, quartz, or jojoba beads. Avoid ingredients that expand and clog the drain, such as corn meal, and avoid scrubs that are too abrasive.  
 *为什么:* 磨砂膏（scrub）常用海沙、杏核粉、浮石、石英或荷荷巴微珠去角质。要避免会膨胀堵塞下水口的成分，如玉米粉，也要避免太粗的磨砂膏。  
 *Lock this (picture):* Corn meal soaks up water and swells, like oatmeal in a bowl. Swollen grains plug the drain.  
 *记重点:* 玉米粉吸水会膨胀，就像碗里泡开的燕麦片。胀大的颗粒会堵住下水口。  
@@ -224,7 +224,7 @@ A. They give off UV light. / 会发出紫外线。
 B. They make a lot of dust. / 会产生大量粉尘。  
 C. They can be alkaline. / 它们可能是碱性的。 ✅  
 D. They are applied near the eyes. / 要涂在眼睛附近。  
-*Why:* Some callus softeners are alkaline and potentially hazardous. Wear safety glasses and gloves when using or pouring them; misused, they can severely irritate the eyes, hands, and skin.  
+*Why:* Some callus softeners are alkaline and can be dangerous. Wear safety glasses and gloves when using or pouring them; used wrongly, they can badly irritate the eyes, hands, and skin.  
 *为什么:* 有些去茧软化剂是碱性的，有潜在危险。使用或倒取时要戴护目镜和手套；用错了会严重刺激眼睛、手和皮肤。  
 *Lock this (reason-chain):* Pouring → a splash → alkali in the eye. Glasses stop the drop before it lands.  
 *记重点:* 倒取 → 溅出来 → 碱液进眼睛。护目镜在液滴落进眼里之前挡住它。  
