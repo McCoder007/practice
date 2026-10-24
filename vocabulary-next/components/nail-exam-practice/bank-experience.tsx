@@ -248,7 +248,17 @@ export function NailExamBankExperience({
         chineseToggle={chineseToggleInline}
         chineseToggleFixed={chineseToggleFixed}
         isRandom={session.isRandom}
-        onComplete={({ correct, total }) => {
+        onProgress={({ answered, correct }) => {
+          void import("@/lib/nail-exam-usage-store").then(({ reportNailExamProgress }) =>
+            reportNailExamProgress({
+              attemptId: session.attemptId,
+              answered,
+              correctSoFar: correct,
+              questionCount: session.questions.length,
+            }),
+          )
+        }}
+        onComplete={({ correct, total, skipped, missed }) => {
           void import("@/lib/nail-exam-usage-store").then(({ reportNailExamCompleted }) =>
             reportNailExamCompleted({
               attemptId: session.attemptId,
@@ -258,6 +268,8 @@ export function NailExamBankExperience({
               isRandom: session.isRandom,
               questionCount: total,
               correct,
+              skipped,
+              missed,
             }),
           )
           if (!session.groupHistoryId) return
@@ -282,6 +294,7 @@ export function NailExamBankExperience({
   if (session?.format === "study-cards") {
     return (
       <NailExamStudyCardsSession
+        trackingSourceId={bank.id}
         title={session.title}
         cards={session.cards}
         showChinese={showChinese}

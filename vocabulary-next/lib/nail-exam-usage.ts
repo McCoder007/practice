@@ -1,5 +1,12 @@
 export const NAIL_EXAM_ATTEMPTS_COLLECTION = "nailExamAttempts"
 export const NAIL_EXAM_LEARNERS_COLLECTION = "nailExamLearners"
+export const NAIL_EXAM_LEARNER_NAMES_COLLECTION = "nailExamLearnerNames"
+export const NAIL_EXAM_LEARNER_NAME_MAX = 40
+/** Limits shared with firestore.rules. */
+export const NAIL_EXAM_MISSED_MAX = 60
+export const NAIL_EXAM_MISSED_TEXT_MAX = 160
+/** Missed questions are saved as JSON text no longer than this. */
+export const NAIL_EXAM_MISSED_JSON_MAX = 12000
 export const NAIL_EXAM_LEARNER_ID_STORAGE_KEY = "nail-exam-learner-id:v1"
 export const NAIL_EXAM_ACTIVITY_STORAGE_KEY = "nail-exam-app-activity:v1"
 export const NAIL_EXAM_RECENT_HISTORY_LIMIT = 5
@@ -19,6 +26,21 @@ export type NailExamAttempt = {
   questionCount: number
   correct: number | null
   status: NailExamAttemptStatus
+  /** Questions answered so far; saved while the test is open. */
+  answered?: number | null
+  correctSoFar?: number | null
+  lastAnsweredAt?: number | null
+  /** Saved when the test is finished. */
+  skipped?: number | null
+  missed?: MissedQuestion[]
+}
+
+export type MissedQuestion = {
+  id: string
+  /** The question in English, shortened. */
+  question: string
+  /** True when the learner skipped it instead of picking a wrong answer. */
+  skipped: boolean
 }
 
 export type NailExamLearnerActivity = {
@@ -205,13 +227,54 @@ export function applyAttemptScore(
   }
 }
 
-export type CompletedScoreFields = Pick<NailExamAttempt, "correct" | "completedAt" | "questionCount" | "status">
+export type CompletedScoreFields = {
+  correct: number
+  completedAt: number
+  questionCount: number
+  status: "completed"
+  skipped: number
+  /** JSON text of MissedQuestion[] (text, so the rules can cap its size). */
+  missed: string
+}
+
+/** Cuts by whole characters, so an emoji is never split in half. */
+function clipText(text: string, max: number): string {
+  if (text.length <= max) return text
+  let out = ""
+  for (const char of text) {
+    if (out.length + char.length > max) break
+    out += char
+  }
+  return out
+}
+
+export function cleanMissedQuestions(missed: MissedQuestion[] = []): MissedQuestion[] {
+  return missed.slice(0, NAIL_EXAM_MISSED_MAX).map((item) => ({
+    id: clipText(String(item.id), 80),
+    question: clipText(String(item.question), NAIL_EXAM_MISSED_TEXT_MAX),
+    skipped: Boolean(item.skipped),
+  }))
+}
+
+/** Missed questions as JSON text within the size cap (drops the last ones if needed). */
+export function serializeMissedQuestions(missed: MissedQuestion[] = []): string {
+  const items = cleanMissedQuestions(missed)
+  while (items.length > 0) {
+    const text = JSON.stringify(items)
+    if (text.length <= NAIL_EXAM_MISSED_JSON_MAX) return text
+    items.pop()
+  }
+  return "[]"
+}
+
+/** A completed attempt as written to the database (missed questions as JSON text). */
+export type StoredCompletedAttempt = Omit<NailExamAttempt, "missed"> & { skipped: number; missed: string }
 
 export type CompletedAttemptWriters = {
   /** Adds the score to the existing "started" record. Rejects if there is none. */
   updateScore: (attemptId: string, fields: CompletedScoreFields) => Promise<void>
   /** Creates a full completed record when no "started" record exists. */
-  createCompleted: (attempt: NailExamAttempt) => Promise<void>
+  createCompleted: (attempt: StoredCompletedAttempt) => Promise<void>
 }
 
 /**
@@ -231,6 +294,8 @@ export async function saveCompletedAttempt(
     questionCount: number
     correct: number
     completedAt: number
+    skipped?: number
+    missed?: MissedQuestion[]
   },
   writers: CompletedAttemptWriters,
 ): Promise<"updated" | "created" | "failed"> {
@@ -240,6 +305,8 @@ export async function saveCompletedAttempt(
     completedAt: input.completedAt,
     questionCount,
     status: "completed",
+    skipped: Math.min(questionCount, Math.max(0, Math.floor(input.skipped ?? 0))),
+    missed: serializeMissedQuestions(input.missed),
   }
   try {
     await writers.updateScore(input.attemptId, fields)
@@ -248,11 +315,64 @@ export async function saveCompletedAttempt(
     // Fall through: the start record is most likely missing.
   }
   try {
-    await writers.createCompleted(buildAttemptWithoutStart(input))
+    await writers.createCompleted({
+      ...buildAttemptWithoutStart(input),
+      skipped: fields.skipped,
+      missed: fields.missed,
+    })
     return "created"
   } catch {
     return "failed"
   }
+}
+
+export type ProgressFields = { answered: number; correctSoFar: number; lastAnsweredAt: number }
+
+/** Progress for a test that is still open, so a quit test shows how far it got. */
+export function buildProgressFields(input: {
+  answered: number
+  correctSoFar: number
+  questionCount: number
+  at: number
+}): ProgressFields {
+  const answered = Math.min(Math.max(1, Math.floor(input.questionCount)), Math.max(0, Math.floor(input.answered)))
+  return {
+    answered,
+    correctSoFar: Math.min(answered, Math.max(0, Math.floor(input.correctSoFar))),
+    lastAnsweredAt: input.at,
+  }
+}
+
+function parseMissed(value: unknown): MissedQuestion[] {
+  if (typeof value === "string") {
+    try {
+      value = JSON.parse(value)
+    } catch {
+      return []
+    }
+  }
+  if (!Array.isArray(value)) return []
+  return value.flatMap((item) => {
+    if (!item || typeof item !== "object") return []
+    const record = item as Record<string, unknown>
+    if (!isNonEmptyString(record.id) || typeof record.question !== "string") return []
+    return [{ id: record.id, question: record.question, skipped: record.skipped === true }]
+  })
+}
+
+function optionalInt(value: unknown): number | null {
+  return isFiniteInteger(value) && value >= 0 ? value : null
+}
+
+export function cleanLearnerName(name: string): string {
+  return name.replace(/\s+/g, " ").trim().slice(0, NAIL_EXAM_LEARNER_NAME_MAX)
+}
+
+export function parseLearnerName(value: unknown): string | null {
+  if (!value || typeof value !== "object") return null
+  const name = (value as Record<string, unknown>).name
+  if (typeof name !== "string") return null
+  return cleanLearnerName(name) || null
 }
 
 export function parseNailExamAttempt(value: unknown): NailExamAttempt | null {
@@ -307,6 +427,12 @@ export function parseNailExamAttempt(value: unknown): NailExamAttempt | null {
     questionCount: record.questionCount,
     correct,
     status,
+    // Detail fields were added later; only include the ones that were saved.
+    ...("answered" in record ? { answered: optionalInt(record.answered) } : {}),
+    ...("correctSoFar" in record ? { correctSoFar: optionalInt(record.correctSoFar) } : {}),
+    ...("lastAnsweredAt" in record ? { lastAnsweredAt: optionalInt(record.lastAnsweredAt) } : {}),
+    ...("skipped" in record ? { skipped: optionalInt(record.skipped) } : {}),
+    ...("missed" in record ? { missed: parseMissed(record.missed) } : {}),
   }
 }
 
@@ -431,7 +557,11 @@ const PROGRESS_LABELS: Record<AttemptProgress, string> = {
 }
 
 /** Every attempt as CSV rows for a spreadsheet. Times are Pacific. */
-export function attemptsToCsv(attempts: NailExamAttempt[], now: number = Date.now()): string {
+export function attemptsToCsv(
+  attempts: NailExamAttempt[],
+  now: number = Date.now(),
+  nameOf: (learnerId: string) => string = learnerAlias,
+): string {
   const header = [
     "Learner",
     "Learner ID",
@@ -445,6 +575,8 @@ export function attemptsToCsv(attempts: NailExamAttempt[], now: number = Date.no
     "Questions",
     "Score %",
     "Status",
+    "Skipped",
+    "Missed questions",
   ]
   const rows = attempts.map((attempt) => {
     const minutes =
@@ -452,7 +584,7 @@ export function attemptsToCsv(attempts: NailExamAttempt[], now: number = Date.no
         ? Math.max(0, Math.round((attempt.completedAt - attempt.startedAt) / 60_000))
         : null
     return [
-      learnerAlias(attempt.learnerId),
+      nameOf(attempt.learnerId),
       attempt.learnerId,
       attempt.sessionTitle,
       attempt.bankName,
@@ -463,7 +595,11 @@ export function attemptsToCsv(attempts: NailExamAttempt[], now: number = Date.no
       attempt.correct,
       attempt.questionCount,
       attemptScorePercent(attempt),
-      PROGRESS_LABELS[attemptProgress(attempt, now)],
+      attempt.status === "completed" || !attempt.answered
+        ? PROGRESS_LABELS[attemptProgress(attempt, now)]
+        : `${PROGRESS_LABELS[attemptProgress(attempt, now)]} (${attempt.answered} answered)`,
+      attempt.skipped ?? null,
+      (attempt.missed ?? []).map((item) => item.question).join(" | ") || null,
     ]
   })
   return [header, ...rows].map((row) => row.map(csvCell).join(",")).join("\r\n")
