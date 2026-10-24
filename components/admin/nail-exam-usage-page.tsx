@@ -3,12 +3,12 @@
 import { FormEvent, useCallback, useEffect, useMemo, useState } from "react"
 
 import { onAuthStateChanged, signInWithEmailAndPassword, signOut, type Auth, type User } from "firebase/auth"
-import { Activity, ArrowLeft, Award, BookOpenCheck, CheckCircle2, ChevronDown, Clock3, Eye, EyeOff, LogOut, RefreshCw, Sparkles, Timer, Users } from "lucide-react"
+import { Activity, ArrowLeft, Award, BookOpenCheck, CheckCircle2, ChevronDown, Clock3, Download, Eye, EyeOff, ListChecks, LogOut, RefreshCw, Sparkles, Timer, Users } from "lucide-react"
 import Link from "next/link"
 
 import { getFirebaseApp } from "@/lib/firebase-app"
 import { loadNailExamAttempts, loadNailExamLearnerActivity } from "@/lib/nail-exam-usage-store"
-import { NAIL_EXAM_RECENT_HISTORY_LIMIT, formatDuration, formatRelativeTime, learnerAlias, recentAttemptsPerLearner, startOfPacificDay, type NailExamAttempt, type NailExamLearnerActivity } from "@/lib/nail-exam-usage"
+import { NAIL_EXAM_RECENT_HISTORY_LIMIT, attemptProgress, attemptScorePercent, attemptsToCsv, formatDuration, formatRelativeTime, learnerAlias, recentAttemptsPerLearner, startOfPacificDay, summarizeLearnerTests, type NailExamAttempt, type NailExamLearnerActivity } from "@/lib/nail-exam-usage"
 
 type Period = "today" | "1d" | "2d" | "3d" | "7d" | "30d" | "all"
 
@@ -79,15 +79,33 @@ function formatClock(timestamp: number): string {
   return new Intl.DateTimeFormat(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }).format(timestamp)
 }
 
-function scorePercent(attempt: NailExamAttempt): number | null {
-  if (attempt.status !== "completed" || attempt.correct === null) return null
-  return Math.round((attempt.correct / attempt.questionCount) * 100)
+type TestStatusFilter = "all" | "finished" | "unfinished"
+
+const TESTS_PAGE_SIZE = 50
+
+function attemptTime(attempt: NailExamAttempt): number {
+  return attempt.startedAt ?? attempt.completedAt ?? 0
+}
+
+function downloadCsv(filename: string, csv: string) {
+  // The byte-order mark makes Excel read the dashes and Chinese text correctly.
+  const url = URL.createObjectURL(new Blob(["\uFEFF", csv], { type: "text/csv;charset=utf-8" }))
+  const link = document.createElement("a")
+  link.href = url
+  link.download = filename
+  document.body.appendChild(link)
+  link.click()
+  link.remove()
+  URL.revokeObjectURL(url)
 }
 
 function Score({ attempt }: { attempt: NailExamAttempt }) {
-  const percent = scorePercent(attempt)
+  const percent = attemptScorePercent(attempt)
   if (percent === null) {
-    return <span className="inline-flex items-center gap-1.5 rounded-full bg-amber-50 px-2.5 py-1 text-xs font-semibold text-amber-800 ring-1 ring-inset ring-amber-200"><Clock3 size={13} aria-hidden="true" /> In progress</span>
+    if (attemptProgress(attempt) === "not-finished") {
+      return <span className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full bg-[#f3eef1] px-2.5 py-1 text-xs font-semibold text-[#7d687e] ring-1 ring-inset ring-[#e2d5de]">Not finished</span>
+    }
+    return <span className="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full bg-amber-50 px-2.5 py-1 text-xs font-semibold text-amber-800 ring-1 ring-inset ring-amber-200"><Clock3 size={13} aria-hidden="true" /> In progress</span>
   }
   return <div className="text-right"><p className="text-[10px] font-bold uppercase tracking-[0.12em] text-[#a04f78]">Score</p><p className="text-lg font-bold tabular-nums text-[#36223a]">{attempt.correct}<span className="font-medium text-[#7d687e]">/{attempt.questionCount}</span></p><p className="text-xs font-medium text-[#8b7589]">{percent}%</p></div>
 }
@@ -119,6 +137,10 @@ export function NailExamUsageAdminPage() {
   const [lastRefreshedAt, setLastRefreshedAt] = useState<number | null>(null)
   const [collapsedLearnerTimelines, setCollapsedLearnerTimelines] = useState<Set<string>>(new Set())
   const [excludedLearnerIds, setExcludedLearnerIds] = useState<Set<string>>(new Set())
+  const [testsLearner, setTestsLearner] = useState("all")
+  const [testsBank, setTestsBank] = useState("all")
+  const [testsStatus, setTestsStatus] = useState<TestStatusFilter>("all")
+  const [testsShown, setTestsShown] = useState(TESTS_PAGE_SIZE)
 
   useEffect(() => {
     setCollapsedLearnerTimelines(loadCollapsedLearnerTimelines())
@@ -193,8 +215,31 @@ export function NailExamUsageAdminPage() {
     const cutoff = period === "today"
       ? startOfPacificDay(now)
       : now - (PERIOD_DAYS[period] || 1) * 24 * 60 * 60 * 1000
-    return includedAttempts.filter((attempt) => (attempt.startedAt ?? attempt.completedAt ?? 0) >= cutoff)
+    return includedAttempts.filter((attempt) => attemptTime(attempt) >= cutoff)
   }, [includedAttempts, period])
+  const testLearnerOptions = useMemo(
+    () => [...new Set(visibleAttempts.map((attempt) => attempt.learnerId))].sort((a, b) => learnerAlias(a).localeCompare(learnerAlias(b))),
+    [visibleAttempts],
+  )
+  const testBankOptions = useMemo(() => {
+    const banks = new Map<string, string>()
+    for (const attempt of visibleAttempts) banks.set(attempt.bankId, attempt.bankName)
+    return [...banks.entries()].sort((a, b) => a[1].localeCompare(b[1]))
+  }, [visibleAttempts])
+  const allTests = useMemo(
+    () =>
+      visibleAttempts
+        .filter((attempt) => testsLearner === "all" || attempt.learnerId === testsLearner)
+        .filter((attempt) => testsBank === "all" || attempt.bankId === testsBank)
+        .filter((attempt) => {
+          if (testsStatus === "all") return true
+          const finished = attemptProgress(attempt) === "finished"
+          return testsStatus === "finished" ? finished : !finished
+        })
+        .sort((a, b) => attemptTime(b) - attemptTime(a)),
+    [testsBank, testsLearner, testsStatus, visibleAttempts],
+  )
+  const allTestsSummary = summarizeLearnerTests(allTests)
 
   const completed = visibleAttempts.filter((attempt) => attempt.status === "completed" && attempt.correct !== null)
   const learners = new Set(visibleAttempts.map((attempt) => attempt.learnerId)).size
@@ -205,6 +250,11 @@ export function NailExamUsageAdminPage() {
     () => new Map(includedLearnerActivity.map((activity) => [activity.learnerId, activity])),
     [includedLearnerActivity],
   )
+  const testSummaryByLearner = useMemo(() => {
+    const byLearner = new Map<string, NailExamAttempt[]>()
+    for (const attempt of includedAttempts) byLearner.set(attempt.learnerId, [...(byLearner.get(attempt.learnerId) || []), attempt])
+    return new Map([...byLearner.entries()].map(([learnerId, learnerAttempts]) => [learnerId, summarizeLearnerTests(learnerAttempts)]))
+  }, [includedAttempts])
   const learnerTimelines = useMemo(() => {
     const learnerIds = new Set([...attemptsByLearner.keys(), ...activityByLearner.keys()])
     return [...learnerIds].map((learnerId) => {
@@ -264,6 +314,20 @@ export function NailExamUsageAdminPage() {
     })
   }
 
+  function showAllTestsFor(learnerId: string) {
+    setPeriod("all")
+    setTestsLearner(learnerId)
+    setTestsBank("all")
+    setTestsStatus("all")
+    setTestsShown(TESTS_PAGE_SIZE)
+    window.requestAnimationFrame(() => document.getElementById("all-tests")?.scrollIntoView({ behavior: "smooth", block: "start" }))
+  }
+
+  function downloadTests() {
+    const day = new Date().toISOString().slice(0, 10)
+    downloadCsv(`nail-exam-tests-${day}.csv`, attemptsToCsv(allTests))
+  }
+
   function includeAllLearnersInStats() {
     const next = new Set<string>()
     storeExcludedLearners(next)
@@ -312,12 +376,42 @@ export function NailExamUsageAdminPage() {
           <section className="mt-6 rounded-3xl border border-dashed border-[#d8c4d1] bg-white/60 px-6 py-14 text-center"><span className="mx-auto grid size-12 place-items-center rounded-2xl bg-[#f1e3ec] text-[#965171]"><Activity size={22} /></span><h2 className="mt-4 text-lg font-semibold">{allLearnersExcluded ? "All learners are excluded" : "No activity in this period"}</h2><p className="mx-auto mt-2 max-w-md text-sm leading-relaxed text-[#826f80]">{allLearnersExcluded ? "Turn a learner back on above to include their activity in the page." : "A start appears when someone opens a Multiple Choice session. Their score is added when they finish."}</p></section>
         ) : (
           <div className="mt-6 grid gap-6 lg:grid-cols-[minmax(0,1.35fr)_minmax(18rem,0.65fr)]">
-            <section className="overflow-hidden rounded-3xl border border-[#eadde5] bg-white shadow-[0_8px_30px_rgba(78,42,68,0.05)]"><div className="flex items-center justify-between border-b border-[#eee4ea] px-5 py-4 sm:px-6"><div><h2 className="font-[family-name:var(--font-outfit)] text-lg font-semibold">Recent activity</h2><p className="text-xs text-[#9a8798]">Newest exam starts first</p></div><span className="rounded-full bg-[#f7edf3] px-2.5 py-1 text-xs font-semibold text-[#8d4a6d]">{visibleAttempts.length} total</span></div><ol className="divide-y divide-[#f0e7ed]">{visibleAttempts.slice(0, 12).map((attempt) => <li key={attempt.attemptId} className="grid grid-cols-[minmax(0,1fr)_auto] gap-4 px-5 py-4 transition hover:bg-[#fdfafd] sm:px-6"><div className="min-w-0"><div className="flex min-w-0 items-center gap-2"><span className="size-2 shrink-0 rounded-full bg-[#c27ba0]" /><p className="truncate font-semibold">{learnerAlias(attempt.learnerId)}</p></div><p className="mt-1 truncate text-sm text-[#725d70]">{attempt.sessionTitle}</p><p className="mt-1 text-xs text-[#a18f9e]">{attempt.startedAt !== null ? `${formatRelativeTime(attempt.startedAt)} · ${formatClock(attempt.startedAt)}` : "Start time unavailable"}</p></div><Score attempt={attempt} /></li>)}</ol></section>
+            <section className="overflow-hidden rounded-3xl border border-[#eadde5] bg-white shadow-[0_8px_30px_rgba(78,42,68,0.05)]"><div className="flex items-center justify-between border-b border-[#eee4ea] px-5 py-4 sm:px-6"><div><h2 className="font-[family-name:var(--font-outfit)] text-lg font-semibold">Recent activity</h2><p className="text-xs text-[#9a8798]">Newest exam starts first</p></div><a href="#all-tests" className="rounded-full bg-[#f7edf3] px-2.5 py-1 text-xs font-semibold text-[#8d4a6d] transition hover:bg-[#f0dfe9]">See all {visibleAttempts.length}</a></div><ol className="divide-y divide-[#f0e7ed]">{visibleAttempts.slice(0, 12).map((attempt) => <li key={attempt.attemptId} className="grid grid-cols-[minmax(0,1fr)_auto] gap-4 px-5 py-4 transition hover:bg-[#fdfafd] sm:px-6"><div className="min-w-0"><div className="flex min-w-0 items-center gap-2"><span className="size-2 shrink-0 rounded-full bg-[#c27ba0]" /><p className="truncate font-semibold">{learnerAlias(attempt.learnerId)}</p></div><p className="mt-1 truncate text-sm text-[#725d70]">{attempt.sessionTitle}</p><p className="mt-1 text-xs text-[#a18f9e]">{attempt.startedAt !== null ? `${formatRelativeTime(attempt.startedAt)} · ${formatClock(attempt.startedAt)}` : "Start time unavailable"}</p></div><Score attempt={attempt} /></li>)}</ol></section>
             <div className="space-y-6">
               <section className="rounded-3xl border border-[#eadde5] bg-white p-5 shadow-[0_8px_30px_rgba(78,42,68,0.05)]"><h2 className="font-[family-name:var(--font-outfit)] text-lg font-semibold">Practice mix</h2><p className="mt-1 text-xs text-[#9a8798]">Starts by question bank</p><div className="mt-5 space-y-4">{bankSummary.map((bank) => <div key={bank.name}><div className="flex items-center justify-between gap-3 text-sm"><p className="truncate font-medium">{bank.name}</p><p className="shrink-0 text-xs text-[#8d778a]">{bank.completed}/{bank.starts} finished</p></div><div className="mt-2 h-2 overflow-hidden rounded-full bg-[#f1e7ed]"><div className="h-full rounded-full bg-gradient-to-r from-[#7c345b] to-[#c47aa0]" style={{ width: `${(bank.starts / maxBankStarts) * 100}%` }} /></div></div>)}</div></section>
               <section className="rounded-3xl bg-[#5f2949] p-5 text-white shadow-[0_16px_40px_rgba(75,34,59,0.18)]"><div className="flex items-center gap-2"><Users size={18} className="text-[#efbfd7]" /><h2 className="font-[family-name:var(--font-outfit)] text-lg font-semibold">Last app activity</h2></div><ol className="mt-4 divide-y divide-white/10">{learnerTimelines.slice(0, 6).map((learner) => <li key={learner.learnerId} className="flex items-center justify-between gap-3 py-3 first:pt-0 last:pb-0"><p className="min-w-0 truncate text-sm font-semibold">{learnerAlias(learner.learnerId)}</p><div className="shrink-0 text-right"><p className="text-sm font-semibold">{learner.lastActiveAt ? formatRelativeTime(learner.lastActiveAt) : "Not recorded"}</p>{learner.lastActiveAt > 0 && <p className="mt-0.5 text-xs text-white/55">{formatClock(learner.lastActiveAt)}</p>}</div></li>)}</ol></section>
             </div>
           </div>
+        )}
+        {visibleAttempts.length > 0 && (
+          <section id="all-tests" aria-labelledby="all-tests-heading" className="mt-8 scroll-mt-4 overflow-hidden rounded-3xl border border-[#eadde5] bg-white shadow-[0_8px_30px_rgba(78,42,68,0.05)]">
+            <div className="border-b border-[#eee4ea] px-5 py-4 sm:px-6">
+              <div className="flex flex-wrap items-start justify-between gap-3">
+                <div><h2 id="all-tests-heading" className="flex items-center gap-2 font-[family-name:var(--font-outfit)] text-lg font-semibold"><ListChecks size={19} className="text-[#a04f78]" aria-hidden="true" /> All tests</h2><p className="mt-0.5 text-xs text-[#9a8798]">Every test in {PERIOD_LABELS[period].toLowerCase()}, newest first · {allTests.length} shown · {allTestsSummary.finished} finished{allTestsSummary.averagePercent !== null ? ` · average ${allTestsSummary.averagePercent}%` : ""}</p></div>
+                <button type="button" onClick={downloadTests} disabled={allTests.length === 0} className="inline-flex min-h-10 items-center gap-2 rounded-xl border border-[#e2d5de] bg-white px-3.5 text-sm font-semibold text-[#6e5669] transition hover:bg-[#faf5f8] disabled:opacity-50"><Download size={16} aria-hidden="true" /> Download CSV</button>
+              </div>
+              <div className="mt-4 grid gap-2 sm:grid-cols-3">
+                <label className="text-xs font-semibold text-[#8b7589]">Learner<select value={testsLearner} onChange={(event) => { setTestsLearner(event.target.value); setTestsShown(TESTS_PAGE_SIZE) }} className="mt-1 min-h-10 w-full rounded-xl border border-[#dfd0da] bg-white px-3 text-sm font-medium text-[#36223a] outline-none focus:border-[#9a4e75] focus:ring-4 focus:ring-[#ead7e2]"><option value="all">All learners</option>{testsLearner !== "all" && !testLearnerOptions.includes(testsLearner) && <option value={testsLearner}>{learnerAlias(testsLearner)}</option>}{testLearnerOptions.map((learnerId) => <option key={learnerId} value={learnerId}>{learnerAlias(learnerId)}</option>)}</select></label>
+                <label className="text-xs font-semibold text-[#8b7589]">Question bank<select value={testsBank} onChange={(event) => { setTestsBank(event.target.value); setTestsShown(TESTS_PAGE_SIZE) }} className="mt-1 min-h-10 w-full rounded-xl border border-[#dfd0da] bg-white px-3 text-sm font-medium text-[#36223a] outline-none focus:border-[#9a4e75] focus:ring-4 focus:ring-[#ead7e2]"><option value="all">All banks</option>{testBankOptions.map(([bankId, bankName]) => <option key={bankId} value={bankId}>{bankName}</option>)}</select></label>
+                <label className="text-xs font-semibold text-[#8b7589]">Status<select value={testsStatus} onChange={(event) => { setTestsStatus(event.target.value as TestStatusFilter); setTestsShown(TESTS_PAGE_SIZE) }} className="mt-1 min-h-10 w-full rounded-xl border border-[#dfd0da] bg-white px-3 text-sm font-medium text-[#36223a] outline-none focus:border-[#9a4e75] focus:ring-4 focus:ring-[#ead7e2]"><option value="all">All</option><option value="finished">Finished</option><option value="unfinished">Not finished</option></select></label>
+              </div>
+            </div>
+            {allTests.length === 0 ? <p className="px-5 py-10 text-center text-sm text-[#9a8798] sm:px-6">No tests match these filters.</p> : (
+              <>
+                <div className="hidden grid-cols-[9rem_8rem_minmax(0,1fr)_6rem_5.5rem] gap-4 border-b border-[#f0e7ed] bg-[#fcf8fb] px-6 py-2 text-[10px] font-bold uppercase tracking-[0.12em] text-[#9a5277] md:grid"><span>Started</span><span>Learner</span><span>Test</span><span>Time taken</span><span className="text-right">Score</span></div>
+                <ol className="divide-y divide-[#f0e7ed]">{allTests.slice(0, testsShown).map((attempt) => (
+                  <li key={attempt.attemptId} className="grid grid-cols-[minmax(0,1fr)_auto] gap-x-4 gap-y-1 px-5 py-3.5 md:grid-cols-[9rem_8rem_minmax(0,1fr)_6rem_5.5rem] md:items-center md:px-6">
+                    <p className="col-start-1 row-start-2 text-xs text-[#8b7589] md:row-start-1 md:text-sm">{attempt.startedAt !== null ? formatClock(attempt.startedAt) : attempt.completedAt !== null ? `Finished ${formatClock(attempt.completedAt)}` : "Unavailable"}</p>
+                    <p className="col-start-1 row-start-1 truncate text-sm font-semibold md:col-start-2">{learnerAlias(attempt.learnerId)}</p>
+                    <div className="col-start-1 row-start-3 min-w-0 md:col-start-3 md:row-start-1"><p className="truncate text-sm text-[#463044]">{attempt.sessionTitle}</p><p className="truncate text-xs text-[#a18f9e]">{attempt.bankName}{attempt.isRandom ? " · random draw" : ""}</p></div>
+                    <p className={`col-start-1 row-start-4 items-center gap-1.5 text-xs text-[#806b7d] md:col-start-4 md:row-start-1 md:flex md:text-sm ${attempt.completedAt === null ? "hidden" : "flex"}`}><Timer size={13} aria-hidden="true" className="md:hidden" />{attempt.completedAt === null ? "—" : formatDuration(attempt.startedAt, attempt.completedAt)}</p>
+                    <div className="col-start-2 row-span-4 row-start-1 self-center justify-self-end md:col-start-5 md:row-span-1"><Score attempt={attempt} /></div>
+                  </li>
+                ))}</ol>
+                {allTests.length > testsShown && <div className="border-t border-[#f0e7ed] px-5 py-3 text-center sm:px-6"><button type="button" onClick={() => setTestsShown((current) => current + TESTS_PAGE_SIZE)} className="min-h-10 rounded-xl px-4 text-sm font-semibold text-[#8a3f68] transition hover:bg-[#f8edf4]">{allTests.length - testsShown > TESTS_PAGE_SIZE ? `Show ${TESTS_PAGE_SIZE} more · ${allTests.length - testsShown} left` : `Show the last ${allTests.length - testsShown}`}</button></div>}
+              </>
+            )}
+          </section>
         )}
         {learnerTimelines.length > 0 && (
           <section className="mt-8">
@@ -328,7 +422,7 @@ export function NailExamUsageAdminPage() {
                   <button type="button" onClick={() => toggleLearnerTimeline(learner.learnerId)} aria-expanded={!collapsedLearnerTimelines.has(learner.learnerId)} className="w-full bg-gradient-to-r from-[#60304d] to-[#7d4565] px-5 py-4 text-left text-white transition hover:brightness-105 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-inset focus-visible:ring-[#e8b9d1] sm:px-6"><span className="flex items-start justify-between gap-4"><span><span className="block font-[family-name:var(--font-outfit)] text-lg font-semibold">{learnerAlias(learner.learnerId)}</span><span className="mt-1 block text-xs text-white/65">Private browser alias</span></span><span className="flex items-start gap-3"><span className="text-right"><span className="block text-xs font-semibold uppercase tracking-wide text-[#f0cadd]">Last used</span><span className="mt-1 block text-sm font-semibold">{learner.lastActiveAt ? formatRelativeTime(learner.lastActiveAt) : "Not recorded"}</span>{learner.lastActiveAt > 0 && <span className="mt-0.5 block text-xs text-white/60">{formatClock(learner.lastActiveAt)}</span>}</span><ChevronDown size={20} aria-hidden="true" className={`mt-1 shrink-0 transition-transform ${collapsedLearnerTimelines.has(learner.learnerId) ? "-rotate-90" : "rotate-0"}`} /></span></span></button>
                   {!collapsedLearnerTimelines.has(learner.learnerId) && <div className="px-5 py-5 sm:px-6">
                     <div><p className="text-xs font-bold uppercase tracking-[0.12em] text-[#9a5277]">Last 5 app activity times</p><ol className="mt-2 flex flex-wrap gap-2">{learner.recentActiveAt.length ? learner.recentActiveAt.map((timestamp, index) => <li key={`${timestamp}-${index}`} className="rounded-lg bg-[#f8f1f5] px-2.5 py-1.5 text-xs font-medium text-[#715c6e]">{formatClock(timestamp)}</li>) : <li className="text-sm text-[#9a8798]">No app activity recorded yet.</li>}</ol></div>
-                    <div className="mt-5"><p className="text-xs font-bold uppercase tracking-[0.12em] text-[#9a5277]">Last 5 exams and scores</p><ol className="mt-3 space-y-3">{learner.recentAttempts.length ? learner.recentAttempts.map((attempt) => <li key={attempt.attemptId} className="rounded-2xl border border-[#eee4ea] bg-[#fdfafd] p-3.5"><div className="flex items-start justify-between gap-3"><div className="min-w-0"><p className="truncate text-sm font-semibold text-[#463044]">{attempt.sessionTitle}</p><dl className="mt-2 grid gap-1 text-xs text-[#7d687e]"><div className="flex gap-2"><dt className="w-14 shrink-0 font-semibold text-[#9a5277]">Started</dt><dd>{attempt.startedAt !== null ? formatClock(attempt.startedAt) : "Unavailable"}</dd></div><div className="flex gap-2"><dt className="w-14 shrink-0 font-semibold text-[#9a5277]">Finished</dt><dd>{attempt.completedAt ? formatClock(attempt.completedAt) : "Not finished"}</dd></div></dl></div><Score attempt={attempt} /></div><div className="mt-3 flex items-center gap-1.5 border-t border-[#eee4ea] pt-2.5 text-xs font-medium text-[#806b7d]"><Timer size={13} aria-hidden="true" /> {formatDuration(attempt.startedAt, attempt.completedAt)}</div></li>) : <li className="text-sm text-[#9a8798]">No exams recorded yet.</li>}</ol></div>
+                    <div className="mt-5"><div className="flex flex-wrap items-center justify-between gap-2"><p className="text-xs font-bold uppercase tracking-[0.12em] text-[#9a5277]">Last 5 exams and scores</p>{(testSummaryByLearner.get(learner.learnerId)?.total || 0) > 0 && <button type="button" onClick={() => showAllTestsFor(learner.learnerId)} className="min-h-8 rounded-lg px-2.5 text-xs font-semibold text-[#8a3f68] transition hover:bg-[#f8edf4]">See all {testSummaryByLearner.get(learner.learnerId)?.total} tests</button>}</div>{(() => { const summary = testSummaryByLearner.get(learner.learnerId); return summary && summary.total > 0 ? <p className="mt-1 text-xs text-[#8b7589]">{summary.total} tests · {summary.finished} finished{summary.averagePercent !== null ? ` · average ${summary.averagePercent}%` : ""}</p> : null })()}<ol className="mt-3 space-y-3">{learner.recentAttempts.length ? learner.recentAttempts.map((attempt) => <li key={attempt.attemptId} className="rounded-2xl border border-[#eee4ea] bg-[#fdfafd] p-3.5"><div className="flex items-start justify-between gap-3"><div className="min-w-0"><p className="truncate text-sm font-semibold text-[#463044]">{attempt.sessionTitle}</p><dl className="mt-2 grid gap-1 text-xs text-[#7d687e]"><div className="flex gap-2"><dt className="w-14 shrink-0 font-semibold text-[#9a5277]">Started</dt><dd>{attempt.startedAt !== null ? formatClock(attempt.startedAt) : "Unavailable"}</dd></div><div className="flex gap-2"><dt className="w-14 shrink-0 font-semibold text-[#9a5277]">Finished</dt><dd>{attempt.completedAt ? formatClock(attempt.completedAt) : "Not finished"}</dd></div></dl></div><Score attempt={attempt} /></div><div className="mt-3 flex items-center gap-1.5 border-t border-[#eee4ea] pt-2.5 text-xs font-medium text-[#806b7d]"><Timer size={13} aria-hidden="true" /> {formatDuration(attempt.startedAt, attempt.completedAt)}</div></li>) : <li className="text-sm text-[#9a8798]">No exams recorded yet.</li>}</ol></div>
                   </div>}
                 </article>
               ))}
