@@ -363,10 +363,13 @@ export function getMiladyReviewChapterBankId(
   return miladyChapterBankId(section, chapter)
 }
 
-// ---------------------------------------------------------------------------
-// Study by Exam Topic: questions written for each NIC exam content area.
+/** Chapters across Foundations and Nails (the Comprehensive Exam is extra). */
+export const MILADY_REVIEW_CHAPTER_COUNT = MILADY_FOUNDATIONS_CHAPTERS.length + MILADY_NAILS_CHAPTERS.length
 
-export const EXAM_TOPICS_TITLE: LocalizedText = { en: "Study by Exam Topic", zh: "按考试主题学习" }
+// ---------------------------------------------------------------------------
+// Prov Exam Topics: questions written for each NIC exam content area.
+
+export const EXAM_TOPICS_TITLE: LocalizedText = { en: "Prov Exam Topics", zh: "Prov 考试主题" }
 export const EXAM_TOPICS_HREF = "/nail-exam-practice/exam-topics"
 export const EXAM_TOPICS_SOURCE_NAME = EXAM_TOPIC_INDEX.sourceTitle
 export const EXAM_TOPICS_QUESTION_COUNT: number = EXAM_TOPIC_INDEX.totalQuestions
@@ -390,11 +393,24 @@ export type ExamTopic = {
   title: LocalizedText
   examWeightPercent: number
   questionCount: number
+  /** A short name that fits on one line in menus (e.g. "Anatomy"). */
+  shortTitle: LocalizedText
   sets: readonly ExamTopicSet[]
   href: string
   /** The topic's word reel (swipe cards of its key exam words). */
   wordsHref: string
   bankId: NailExamBankId
+}
+
+const EXAM_TOPIC_SHORT_TITLES: Record<string, LocalizedText> = {
+  "infection-control": { en: "Infection Control", zh: "感染控制" },
+  "anatomy-physiology": { en: "Anatomy", zh: "解剖学" },
+  chemistry: { en: "Chemistry", zh: "化学" },
+  "pre-service": { en: "Pre-Service", zh: "服务前" },
+  tools: { en: "Tools", zh: "工具" },
+  "manicure-pedicure": { en: "Manicure & Pedicure", zh: "修手与修脚" },
+  enhancements: { en: "Enhancements", zh: "美甲延长" },
+  "post-service": { en: "Post-Service", zh: "服务后" },
 }
 
 const EXAM_TOPIC_ACCENTS: readonly NailExamBank["accent"][] = ["violet", "rose", "cyan", "amber", "emerald"]
@@ -403,6 +419,7 @@ export const EXAM_TOPICS: readonly ExamTopic[] = EXAM_TOPIC_INDEX.domains.map((d
   id: domain.id,
   order: domain.order,
   title: domain.title,
+  shortTitle: EXAM_TOPIC_SHORT_TITLES[domain.id] ?? domain.title,
   examWeightPercent: domain.examWeightPercent,
   questionCount: domain.questionCount,
   sets: domain.sets,
@@ -450,7 +467,7 @@ function buildExamTopicBank(topic: ExamTopic, index: number): NailExamBank {
     formats: { multipleChoice: true, studyCards: true },
     randomOptions:
       topic.sets.length > 1
-        ? [{ id: "topic-mix", count: 20, title: { en: "Mix all sets in this topic", zh: "本主题各套混合练习" } }]
+        ? [{ id: "topic-mix", count: 20, title: { en: "Mix all sets", zh: "各套混合练习" } }]
         : [],
   }
 }
@@ -467,8 +484,7 @@ export const EXAM_TOPICS_PRACTICE_TEST_BANK: NailExamBank = {
   approvedCount: EXAM_TOPICS_QUESTION_COUNT,
   groupCount: 0,
   groupRanges: [],
-  backHref: EXAM_TOPICS_HREF,
-  backTitle: EXAM_TOPICS_TITLE,
+  // Opened from the Nail Exam Practice menu, so its back link goes there (the default).
   accent: "violet",
   summary: {
     en: "A new random test each time, with each topic's share matching the real exam",

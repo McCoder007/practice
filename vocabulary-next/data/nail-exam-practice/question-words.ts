@@ -7,7 +7,7 @@ import nailExamWordData from "../nailExamWordReel.ts"
  * or facts checked against Milady (prohibited from cutting living tissue,
  * avoid skin contact with primers, onyx).
  */
-export const QUESTION_WORDS_TITLE = { en: "How Exam Questions Ask", zh: "考题怎么问" }
+export const QUESTION_WORDS_TITLE = { en: "Tricky Words", zh: "易错词" }
 
 export const QUESTION_WORDS_DESCRIPTION = {
   en: "EXCEPT, NOT, FIRST, BEST, and other words used in many exam questions",
