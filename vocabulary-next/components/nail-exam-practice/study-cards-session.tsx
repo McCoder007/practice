@@ -31,6 +31,7 @@ import {
   getBackgroundIndexForWord,
 } from "@/lib/word-reel-backgrounds"
 import { clearAudioQueue, playText, preloadTexts, stopTTS } from "@/lib/tts"
+import { usePracticeSession } from "@/lib/use-practice-session"
 import { ChevronDown, Home, RotateCcw } from "lucide-react"
 
 const ANIMATION_MS = 300
@@ -191,7 +192,10 @@ export function NailExamStudyCardsSession({
   chineseToggleFixed,
   onRestart,
   onExit,
+  trackingSourceId,
 }: {
+  /** Question bank ID; when set, the session is recorded for the insights page. */
+  trackingSourceId?: string
   title: LocalizedText
   cards: QaCard[]
   showChinese: boolean
@@ -204,6 +208,14 @@ export function NailExamStudyCardsSession({
   const [currentIndex, setCurrentIndex] = useState(0)
   const [revealedCardId, setRevealedCardId] = useState<string | null>(null)
   const [animating, setAnimating] = useState(false)
+  const tracker = usePracticeSession(
+    trackingSourceId ? { kind: "study-cards", sourceId: trackingSourceId, title: title.en } : null,
+  )
+
+  useEffect(() => {
+    if (screen.step === "finished") tracker.reachEnd()
+    else if (cards[currentIndex]) tracker.seeCard(cards[currentIndex].id)
+  }, [cards, currentIndex, screen.step, tracker])
 
   const containerRef = useRef<HTMLDivElement>(null)
   const currentCardRef = useRef<HTMLDivElement>(null)
@@ -590,8 +602,14 @@ export function NailExamStudyCardsSession({
             cardRef={currentCardRef}
             position="0"
             onReveal={revealCurrentAnswer}
-            onSpeakQuestion={() => speak(currentCard.question.en, currentCard.id, "question")}
-            onSpeakAnswer={() => speak(currentCard.answer.en, currentCard.id, "answer")}
+            onSpeakQuestion={() => {
+              tracker.playAudio()
+              speak(currentCard.question.en, currentCard.id, "question")
+            }}
+            onSpeakAnswer={() => {
+              tracker.playAudio()
+              speak(currentCard.answer.en, currentCard.id, "answer")
+            }}
           />
           {previousCard ? (
             <QuestionCard

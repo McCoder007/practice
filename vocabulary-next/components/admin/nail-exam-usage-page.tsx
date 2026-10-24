@@ -3,11 +3,14 @@
 import { FormEvent, useCallback, useEffect, useMemo, useState } from "react"
 
 import { onAuthStateChanged, signInWithEmailAndPassword, signOut, type Auth, type User } from "firebase/auth"
-import { Activity, ArrowLeft, Award, BookOpenCheck, CheckCircle2, ChevronDown, Clock3, Download, Eye, EyeOff, ListChecks, LogOut, RefreshCw, Sparkles, Timer, Users } from "lucide-react"
+import { Activity, ArrowLeft, Award, BookOpenCheck, CheckCircle2, ChevronDown, Clock3, Download, Eye, EyeOff, Layers, ListChecks, LogOut, PanelRightOpen, RefreshCw, Sparkles, Timer, Users } from "lucide-react"
 import Link from "next/link"
 
+import { LearnerDetailPanel, PracticeSessionsSection, downloadCsv, formatClock } from "@/components/admin/learner-insights"
 import { getFirebaseApp } from "@/lib/firebase-app"
-import { loadNailExamAttempts, loadNailExamLearnerActivity } from "@/lib/nail-exam-usage-store"
+import { attemptTestSeconds } from "@/lib/nail-exam-insights"
+import { formatMinutes, type PracticeSession } from "@/lib/nail-exam-practice-sessions"
+import { loadLearnerNames, loadNailExamAttempts, loadNailExamLearnerActivity, loadPracticeSessions, saveLearnerName } from "@/lib/nail-exam-usage-store"
 import { NAIL_EXAM_RECENT_HISTORY_LIMIT, attemptProgress, attemptScorePercent, attemptsToCsv, formatDuration, formatRelativeTime, learnerAlias, recentAttemptsPerLearner, startOfPacificDay, summarizeLearnerTests, type NailExamAttempt, type NailExamLearnerActivity } from "@/lib/nail-exam-usage"
 
 type Period = "today" | "1d" | "2d" | "3d" | "7d" | "30d" | "all"
@@ -75,28 +78,12 @@ function storeExcludedLearners(learnerIds: Set<string>) {
   }
 }
 
-function formatClock(timestamp: number): string {
-  return new Intl.DateTimeFormat(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }).format(timestamp)
-}
-
 type TestStatusFilter = "all" | "finished" | "unfinished"
 
 const TESTS_PAGE_SIZE = 50
 
 function attemptTime(attempt: NailExamAttempt): number {
   return attempt.startedAt ?? attempt.completedAt ?? 0
-}
-
-function downloadCsv(filename: string, csv: string) {
-  // The byte-order mark makes Excel read the dashes and Chinese text correctly.
-  const url = URL.createObjectURL(new Blob(["\uFEFF", csv], { type: "text/csv;charset=utf-8" }))
-  const link = document.createElement("a")
-  link.href = url
-  link.download = filename
-  document.body.appendChild(link)
-  link.click()
-  link.remove()
-  URL.revokeObjectURL(url)
 }
 
 function Score({ attempt }: { attempt: NailExamAttempt }) {
@@ -133,7 +120,7 @@ export function NailExamUsageAdminPage() {
   const [loading, setLoading] = useState(false)
   const [loadError, setLoadError] = useState("")
   const [period, setPeriod] = useState<Period>("7d")
-  const [groupsOnly, setGroupsOnly] = useState(true)
+  const [groupsOnly, setGroupsOnly] = useState(false)
   const [lastRefreshedAt, setLastRefreshedAt] = useState<number | null>(null)
   const [collapsedLearnerTimelines, setCollapsedLearnerTimelines] = useState<Set<string>>(new Set())
   const [excludedLearnerIds, setExcludedLearnerIds] = useState<Set<string>>(new Set())
@@ -141,6 +128,10 @@ export function NailExamUsageAdminPage() {
   const [testsBank, setTestsBank] = useState("all")
   const [testsStatus, setTestsStatus] = useState<TestStatusFilter>("all")
   const [testsShown, setTestsShown] = useState(TESTS_PAGE_SIZE)
+  const [sessions, setSessions] = useState<PracticeSession[]>([])
+  const [sessionsError, setSessionsError] = useState(false)
+  const [learnerNames, setLearnerNames] = useState<Map<string, string>>(new Map())
+  const [selectedLearner, setSelectedLearner] = useState<string | null>(null)
 
   useEffect(() => {
     setCollapsedLearnerTimelines(loadCollapsedLearnerTimelines())
@@ -175,6 +166,12 @@ export function NailExamUsageAdminPage() {
       setAttempts(nextAttempts)
       setLearnerActivity(nextLearnerActivity)
       setLastRefreshedAt(Date.now())
+      // Reel sessions and names are newer; if their rules aren't published yet, still show tests.
+      const [nextSessions, nextNames] = await Promise.allSettled([loadPracticeSessions(), loadLearnerNames()])
+      setSessions(nextSessions.status === "fulfilled" ? nextSessions.value : [])
+      setSessionsError(nextSessions.status === "rejected")
+      if (nextNames.status === "fulfilled") setLearnerNames(nextNames.value)
+      if (nextSessions.status === "rejected") console.error(nextSessions.reason)
     } catch (error) {
       console.error(error)
       setLoadError("Activity could not be loaded. Confirm this account is in the admin allowlist and Firestore rules are published.")
@@ -188,16 +185,20 @@ export function NailExamUsageAdminPage() {
     else {
       setAttempts([])
       setLearnerActivity([])
+      setSessions([])
+      setLearnerNames(new Map())
     }
   }, [refresh, user])
 
+  const nameOf = useCallback((learnerId: string) => learnerNames.get(learnerId) || learnerAlias(learnerId), [learnerNames])
   const allLearnerIds = useMemo(() => {
     const learnerIds = new Set([
       ...attempts.map((attempt) => attempt.learnerId),
       ...learnerActivity.map((activity) => activity.learnerId),
+      ...sessions.map((session) => session.learnerId),
     ])
-    return [...learnerIds].sort((a, b) => learnerAlias(a).localeCompare(learnerAlias(b)))
-  }, [attempts, learnerActivity])
+    return [...learnerIds].sort((a, b) => nameOf(a).localeCompare(nameOf(b)))
+  }, [attempts, learnerActivity, nameOf, sessions])
   const includedAttempts = useMemo(
     () =>
       attempts.filter(
@@ -209,17 +210,28 @@ export function NailExamUsageAdminPage() {
     () => learnerActivity.filter((activity) => !excludedLearnerIds.has(activity.learnerId)),
     [excludedLearnerIds, learnerActivity],
   )
-  const visibleAttempts = useMemo(() => {
-    if (period === "all") return includedAttempts
+  const includedSessions = useMemo(
+    () => sessions.filter((session) => !excludedLearnerIds.has(session.learnerId)),
+    [excludedLearnerIds, sessions],
+  )
+  const periodCutoff = useMemo(() => {
+    if (period === "all") return 0
     const now = Date.now()
-    const cutoff = period === "today"
-      ? startOfPacificDay(now)
-      : now - (PERIOD_DAYS[period] || 1) * 24 * 60 * 60 * 1000
-    return includedAttempts.filter((attempt) => attemptTime(attempt) >= cutoff)
-  }, [includedAttempts, period])
+    return period === "today" ? startOfPacificDay(now) : now - (PERIOD_DAYS[period] || 1) * 24 * 60 * 60 * 1000
+    // Recomputed when data refreshes, so "today" stays current.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [period, lastRefreshedAt])
+  const visibleAttempts = useMemo(
+    () => includedAttempts.filter((attempt) => attemptTime(attempt) >= periodCutoff),
+    [includedAttempts, periodCutoff],
+  )
+  const visibleSessions = useMemo(
+    () => includedSessions.filter((session) => session.startedAt >= periodCutoff),
+    [includedSessions, periodCutoff],
+  )
   const testLearnerOptions = useMemo(
-    () => [...new Set(visibleAttempts.map((attempt) => attempt.learnerId))].sort((a, b) => learnerAlias(a).localeCompare(learnerAlias(b))),
-    [visibleAttempts],
+    () => [...new Set(visibleAttempts.map((attempt) => attempt.learnerId))].sort((a, b) => nameOf(a).localeCompare(nameOf(b))),
+    [nameOf, visibleAttempts],
   )
   const testBankOptions = useMemo(() => {
     const banks = new Map<string, string>()
@@ -242,7 +254,9 @@ export function NailExamUsageAdminPage() {
   const allTestsSummary = summarizeLearnerTests(allTests)
 
   const completed = visibleAttempts.filter((attempt) => attempt.status === "completed" && attempt.correct !== null)
-  const learners = new Set(visibleAttempts.map((attempt) => attempt.learnerId)).size
+  const learners = new Set([...visibleAttempts.map((attempt) => attempt.learnerId), ...visibleSessions.map((session) => session.learnerId)]).size
+  const testSeconds = visibleAttempts.reduce((sum, attempt) => sum + attemptTestSeconds(attempt), 0)
+  const practiceSeconds = visibleSessions.reduce((sum, session) => sum + session.activeSeconds, 0)
   const completionRate = visibleAttempts.length ? Math.round((completed.length / visibleAttempts.length) * 100) : 0
   const averageScore = completed.length ? Math.round(completed.reduce((total, attempt) => total + ((attempt.correct || 0) / attempt.questionCount) * 100, 0) / completed.length) : 0
   const attemptsByLearner = useMemo(() => recentAttemptsPerLearner(includedAttempts), [includedAttempts])
@@ -255,21 +269,29 @@ export function NailExamUsageAdminPage() {
     for (const attempt of includedAttempts) byLearner.set(attempt.learnerId, [...(byLearner.get(attempt.learnerId) || []), attempt])
     return new Map([...byLearner.entries()].map(([learnerId, learnerAttempts]) => [learnerId, summarizeLearnerTests(learnerAttempts)]))
   }, [includedAttempts])
+  const sessionsByLearner = useMemo(() => {
+    const byLearner = new Map<string, PracticeSession[]>()
+    for (const session of includedSessions) byLearner.set(session.learnerId, [...(byLearner.get(session.learnerId) || []), session])
+    return byLearner
+  }, [includedSessions])
   const learnerTimelines = useMemo(() => {
-    const learnerIds = new Set([...attemptsByLearner.keys(), ...activityByLearner.keys()])
+    const learnerIds = new Set([...attemptsByLearner.keys(), ...activityByLearner.keys(), ...sessionsByLearner.keys()])
     return [...learnerIds].map((learnerId) => {
       const recentAttempts = attemptsByLearner.get(learnerId) || []
       const activity = activityByLearner.get(learnerId)
-      const fallbackActivity = recentAttempts.map((attempt) => attempt.completedAt ?? attempt.startedAt ?? 0)
+      const fallbackActivity = [
+        ...recentAttempts.map((attempt) => attempt.completedAt ?? attempt.startedAt ?? 0),
+        ...(sessionsByLearner.get(learnerId) || []).map((session) => session.lastSeenAt),
+      ].sort((a, b) => b - a)
       const recentActiveAt = activity?.recentActiveAt || fallbackActivity
       return {
         learnerId,
         recentAttempts,
         recentActiveAt: recentActiveAt.slice(0, NAIL_EXAM_RECENT_HISTORY_LIMIT),
-        lastActiveAt: activity?.lastActiveAt || fallbackActivity[0] || 0,
+        lastActiveAt: Math.max(activity?.lastActiveAt || 0, fallbackActivity[0] || 0),
       }
     }).sort((a, b) => b.lastActiveAt - a.lastActiveAt)
-  }, [activityByLearner, attemptsByLearner])
+  }, [activityByLearner, attemptsByLearner, sessionsByLearner])
   const bankSummary = useMemo(() => {
     const counts = new Map<string, { name: string; starts: number; completed: number }>()
     for (const attempt of visibleAttempts) {
@@ -325,7 +347,17 @@ export function NailExamUsageAdminPage() {
 
   function downloadTests() {
     const day = new Date().toISOString().slice(0, 10)
-    downloadCsv(`nail-exam-tests-${day}.csv`, attemptsToCsv(allTests))
+    downloadCsv(`nail-exam-tests-${day}.csv`, attemptsToCsv(allTests, Date.now(), nameOf))
+  }
+
+  async function renameLearner(learnerId: string, name: string) {
+    await saveLearnerName(learnerId, name)
+    setLearnerNames(await loadLearnerNames())
+  }
+
+  function showAllTestsFromDetail(learnerId: string) {
+    setSelectedLearner(null)
+    showAllTestsFor(learnerId)
   }
 
   function includeAllLearnersInStats() {
@@ -360,6 +392,8 @@ export function NailExamUsageAdminPage() {
     { label: "Exam starts", value: visibleAttempts.length, detail: `${completed.length} completed`, icon: Activity },
     { label: "Completion", value: `${completionRate}%`, detail: "Started exams finished", icon: CheckCircle2 },
     { label: "Average score", value: `${averageScore}%`, detail: completed.length ? `Across ${completed.length} completions` : "No completed exams yet", icon: Award },
+    { label: "Test time", value: formatMinutes(testSeconds), detail: "Start to finish, per test", icon: Timer },
+    { label: "Reels & cards", value: formatMinutes(practiceSeconds), detail: `${visibleSessions.length} visits · active time only`, icon: Layers },
   ]
   const includedLearnerCount = allLearnerIds.filter((learnerId) => !excludedLearnerIds.has(learnerId)).length
   const allLearnersExcluded = allLearnerIds.length > 0 && includedLearnerCount === 0
@@ -368,18 +402,18 @@ export function NailExamUsageAdminPage() {
     <main className="min-h-dvh bg-[#f7f1f5] text-[#36223a]">
       <header className="border-b border-[#eadde5] bg-white/90 backdrop-blur"><div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6"><div><p className="text-xs font-bold uppercase tracking-[0.18em] text-[#a04f78]">Study Zone</p><h1 className="font-[family-name:var(--font-outfit)] text-xl font-semibold">Nail exam insights</h1></div><button type="button" onClick={() => auth && signOut(auth)} className="inline-flex min-h-10 items-center gap-2 rounded-xl border border-[#e2d5de] bg-white px-3.5 text-sm font-semibold text-[#6e5669] transition hover:bg-[#faf5f8]"><LogOut size={16} /> Sign out</button></div></header>
       <div className="mx-auto max-w-6xl px-4 py-6 sm:px-6 sm:py-8">
-        <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between"><div><p className="text-sm font-medium text-[#8b7589]">A clear view of practice, persistence, and progress.</p><p className="mt-1 text-xs text-[#a18f9e]">Learners are shown with private, device-based aliases.</p></div><div className="flex flex-wrap items-center gap-2"><div className="flex max-w-full overflow-x-auto rounded-xl border border-[#e3d7df] bg-white p-1" aria-label="Reporting period">{(Object.keys(PERIOD_LABELS) as Period[]).map((item) => <button key={item} type="button" onClick={() => setPeriod(item)} aria-label={item === "today" ? "Today in Pacific Time" : undefined} aria-pressed={period === item} className={`min-h-9 shrink-0 rounded-lg px-3 text-xs font-semibold transition ${period === item ? "bg-[#5f2949] text-white shadow-sm" : "text-[#7d687e] hover:bg-[#faf5f8]"}`}>{PERIOD_LABELS[item]}</button>)}</div>{lastRefreshedAt && <p className="text-xs text-[#a18f9e]">Last refreshed {formatRelativeTime(lastRefreshedAt)}</p>}<button type="button" onClick={() => setGroupsOnly((current) => !current)} aria-pressed={groupsOnly} title="Only count fixed question groups (chapter/chunk sessions), not random practice draws" className={`min-h-9 shrink-0 rounded-xl border px-3 text-xs font-semibold transition ${groupsOnly ? "border-[#5f2949] bg-[#5f2949] text-white shadow-sm" : "border-[#e3d7df] bg-white text-[#7d687e] hover:bg-[#faf5f8]"}`}>App groups only</button><button type="button" onClick={() => void refresh()} disabled={loading} aria-label="Refresh activity" className="grid size-11 place-items-center rounded-xl border border-[#e3d7df] bg-white text-[#765c70] transition hover:bg-[#faf5f8] disabled:opacity-50"><RefreshCw size={17} className={loading ? "animate-spin" : ""} /></button></div></div>
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between"><div><p className="text-sm font-medium text-[#8b7589]">A clear view of practice, persistence, and progress.</p><p className="mt-1 text-xs text-[#a18f9e]">Learners are shown with private, device-based aliases. Open a learner&apos;s details to give them a name.</p></div><div className="flex flex-wrap items-center gap-2"><div className="flex max-w-full overflow-x-auto rounded-xl border border-[#e3d7df] bg-white p-1" aria-label="Reporting period">{(Object.keys(PERIOD_LABELS) as Period[]).map((item) => <button key={item} type="button" onClick={() => setPeriod(item)} aria-label={item === "today" ? "Today in Pacific Time" : undefined} aria-pressed={period === item} className={`min-h-9 shrink-0 rounded-lg px-3 text-xs font-semibold transition ${period === item ? "bg-[#5f2949] text-white shadow-sm" : "text-[#7d687e] hover:bg-[#faf5f8]"}`}>{PERIOD_LABELS[item]}</button>)}</div>{lastRefreshedAt && <p className="text-xs text-[#a18f9e]">Last refreshed {formatRelativeTime(lastRefreshedAt)}</p>}<button type="button" onClick={() => setGroupsOnly((current) => !current)} aria-pressed={groupsOnly} title="Only count fixed question groups (chapter/chunk sessions), not random practice draws" className={`min-h-9 shrink-0 rounded-xl border px-3 text-xs font-semibold transition ${groupsOnly ? "border-[#5f2949] bg-[#5f2949] text-white shadow-sm" : "border-[#e3d7df] bg-white text-[#7d687e] hover:bg-[#faf5f8]"}`}>App groups only</button><button type="button" onClick={() => void refresh()} disabled={loading} aria-label="Refresh activity" className="grid size-11 place-items-center rounded-xl border border-[#e3d7df] bg-white text-[#765c70] transition hover:bg-[#faf5f8] disabled:opacity-50"><RefreshCw size={17} className={loading ? "animate-spin" : ""} /></button></div></div>
         {loadError && <p role="alert" className="mt-5 rounded-2xl border border-rose-200 bg-rose-50 p-4 text-sm text-rose-800">{loadError}</p>}
-        {allLearnerIds.length > 0 && <section aria-labelledby="learner-filter-heading" className="mt-5 rounded-2xl border border-[#eadde5] bg-white/80 p-4 shadow-[0_6px_24px_rgba(78,42,68,0.04)]"><div className="flex flex-wrap items-center justify-between gap-2"><div><h2 id="learner-filter-heading" className="text-sm font-semibold text-[#4b3448]">Learners included in stats</h2><p className="mt-0.5 text-xs text-[#9a8798]">{includedLearnerCount} of {allLearnerIds.length} included · saved on this device</p></div>{excludedLearnerIds.size > 0 && <button type="button" onClick={includeAllLearnersInStats} className="min-h-9 rounded-lg px-3 text-xs font-semibold text-[#8a3f68] transition hover:bg-[#f8edf4]">Include all</button>}</div><div className="mt-3 flex flex-wrap gap-2">{allLearnerIds.map((learnerId) => { const included = !excludedLearnerIds.has(learnerId); return <button key={learnerId} type="button" onClick={() => toggleLearnerInStats(learnerId)} aria-pressed={included} aria-label={`${included ? "Exclude" : "Include"} ${learnerAlias(learnerId)} in stats`} className={`inline-flex min-h-10 items-center gap-2 rounded-xl border px-3 text-sm font-semibold transition focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#ead7e2] ${included ? "border-[#d9c8d3] bg-white text-[#5f2949] hover:bg-[#faf5f8]" : "border-[#e5dce2] bg-[#f3eef1] text-[#998895] hover:bg-[#eee6eb]"}`}>{included ? <Eye size={15} aria-hidden="true" /> : <EyeOff size={15} aria-hidden="true" />}<span>{learnerAlias(learnerId)}</span><span className="text-[10px] font-bold uppercase tracking-wide opacity-70">{included ? "On" : "Off"}</span></button> })}</div></section>}
-        <section className="mt-6 grid grid-cols-2 gap-3 lg:grid-cols-4">{metrics.map((metric) => <MetricCard key={metric.label} {...metric} />)}</section>
-        {!loading && !loadError && visibleAttempts.length === 0 ? (
-          <section className="mt-6 rounded-3xl border border-dashed border-[#d8c4d1] bg-white/60 px-6 py-14 text-center"><span className="mx-auto grid size-12 place-items-center rounded-2xl bg-[#f1e3ec] text-[#965171]"><Activity size={22} /></span><h2 className="mt-4 text-lg font-semibold">{allLearnersExcluded ? "All learners are excluded" : "No activity in this period"}</h2><p className="mx-auto mt-2 max-w-md text-sm leading-relaxed text-[#826f80]">{allLearnersExcluded ? "Turn a learner back on above to include their activity in the page." : "A start appears when someone opens a Multiple Choice session. Their score is added when they finish."}</p></section>
+        {allLearnerIds.length > 0 && <section aria-labelledby="learner-filter-heading" className="mt-5 rounded-2xl border border-[#eadde5] bg-white/80 p-4 shadow-[0_6px_24px_rgba(78,42,68,0.04)]"><div className="flex flex-wrap items-center justify-between gap-2"><div><h2 id="learner-filter-heading" className="text-sm font-semibold text-[#4b3448]">Learners included in stats</h2><p className="mt-0.5 text-xs text-[#9a8798]">{includedLearnerCount} of {allLearnerIds.length} included · saved on this device</p></div>{excludedLearnerIds.size > 0 && <button type="button" onClick={includeAllLearnersInStats} className="min-h-9 rounded-lg px-3 text-xs font-semibold text-[#8a3f68] transition hover:bg-[#f8edf4]">Include all</button>}</div><div className="mt-3 flex flex-wrap gap-2">{allLearnerIds.map((learnerId) => { const included = !excludedLearnerIds.has(learnerId); return <button key={learnerId} type="button" onClick={() => toggleLearnerInStats(learnerId)} aria-pressed={included} aria-label={`${included ? "Exclude" : "Include"} ${nameOf(learnerId)} in stats`} className={`inline-flex min-h-10 items-center gap-2 rounded-xl border px-3 text-sm font-semibold transition focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-[#ead7e2] ${included ? "border-[#d9c8d3] bg-white text-[#5f2949] hover:bg-[#faf5f8]" : "border-[#e5dce2] bg-[#f3eef1] text-[#998895] hover:bg-[#eee6eb]"}`}>{included ? <Eye size={15} aria-hidden="true" /> : <EyeOff size={15} aria-hidden="true" />}<span>{nameOf(learnerId)}</span><span className="text-[10px] font-bold uppercase tracking-wide opacity-70">{included ? "On" : "Off"}</span></button> })}</div></section>}
+        <section className="mt-6 grid grid-cols-2 gap-3 lg:grid-cols-3">{metrics.map((metric) => <MetricCard key={metric.label} {...metric} />)}</section>
+        {!loading && !loadError && visibleAttempts.length === 0 && visibleSessions.length === 0 ? (
+          <section className="mt-6 rounded-3xl border border-dashed border-[#d8c4d1] bg-white/60 px-6 py-14 text-center"><span className="mx-auto grid size-12 place-items-center rounded-2xl bg-[#f1e3ec] text-[#965171]"><Activity size={22} /></span><h2 className="mt-4 text-lg font-semibold">{allLearnersExcluded ? "All learners are excluded" : "No activity in this period"}</h2><p className="mx-auto mt-2 max-w-md text-sm leading-relaxed text-[#826f80]">{allLearnersExcluded ? "Turn a learner back on above to include their activity in the page." : "A test appears when someone opens a Multiple Choice session, and its score is added when they finish. Word reels and study cards appear as soon as someone uses them."}</p></section>
         ) : (
           <div className="mt-6 grid gap-6 lg:grid-cols-[minmax(0,1.35fr)_minmax(18rem,0.65fr)]">
-            <section className="overflow-hidden rounded-3xl border border-[#eadde5] bg-white shadow-[0_8px_30px_rgba(78,42,68,0.05)]"><div className="flex items-center justify-between border-b border-[#eee4ea] px-5 py-4 sm:px-6"><div><h2 className="font-[family-name:var(--font-outfit)] text-lg font-semibold">Recent activity</h2><p className="text-xs text-[#9a8798]">Newest exam starts first</p></div><a href="#all-tests" className="rounded-full bg-[#f7edf3] px-2.5 py-1 text-xs font-semibold text-[#8d4a6d] transition hover:bg-[#f0dfe9]">See all {visibleAttempts.length}</a></div><ol className="divide-y divide-[#f0e7ed]">{visibleAttempts.slice(0, 12).map((attempt) => <li key={attempt.attemptId} className="grid grid-cols-[minmax(0,1fr)_auto] gap-4 px-5 py-4 transition hover:bg-[#fdfafd] sm:px-6"><div className="min-w-0"><div className="flex min-w-0 items-center gap-2"><span className="size-2 shrink-0 rounded-full bg-[#c27ba0]" /><p className="truncate font-semibold">{learnerAlias(attempt.learnerId)}</p></div><p className="mt-1 truncate text-sm text-[#725d70]">{attempt.sessionTitle}</p><p className="mt-1 text-xs text-[#a18f9e]">{attempt.startedAt !== null ? `${formatRelativeTime(attempt.startedAt)} · ${formatClock(attempt.startedAt)}` : "Start time unavailable"}</p></div><Score attempt={attempt} /></li>)}</ol></section>
+            <section className="overflow-hidden rounded-3xl border border-[#eadde5] bg-white shadow-[0_8px_30px_rgba(78,42,68,0.05)]"><div className="flex items-center justify-between border-b border-[#eee4ea] px-5 py-4 sm:px-6"><div><h2 className="font-[family-name:var(--font-outfit)] text-lg font-semibold">Recent activity</h2><p className="text-xs text-[#9a8798]">Newest exam starts first</p></div><a href="#all-tests" className="rounded-full bg-[#f7edf3] px-2.5 py-1 text-xs font-semibold text-[#8d4a6d] transition hover:bg-[#f0dfe9]">See all {visibleAttempts.length}</a></div><ol className="divide-y divide-[#f0e7ed]">{visibleAttempts.slice(0, 12).map((attempt) => <li key={attempt.attemptId} className="grid grid-cols-[minmax(0,1fr)_auto] gap-4 px-5 py-4 transition hover:bg-[#fdfafd] sm:px-6"><div className="min-w-0"><div className="flex min-w-0 items-center gap-2"><span className="size-2 shrink-0 rounded-full bg-[#c27ba0]" /><p className="truncate font-semibold">{nameOf(attempt.learnerId)}</p></div><p className="mt-1 truncate text-sm text-[#725d70]">{attempt.sessionTitle}</p><p className="mt-1 text-xs text-[#a18f9e]">{attempt.startedAt !== null ? `${formatRelativeTime(attempt.startedAt)} · ${formatClock(attempt.startedAt)}` : "Start time unavailable"}</p></div><Score attempt={attempt} /></li>)}</ol></section>
             <div className="space-y-6">
               <section className="rounded-3xl border border-[#eadde5] bg-white p-5 shadow-[0_8px_30px_rgba(78,42,68,0.05)]"><h2 className="font-[family-name:var(--font-outfit)] text-lg font-semibold">Practice mix</h2><p className="mt-1 text-xs text-[#9a8798]">Starts by question bank</p><div className="mt-5 space-y-4">{bankSummary.map((bank) => <div key={bank.name}><div className="flex items-center justify-between gap-3 text-sm"><p className="truncate font-medium">{bank.name}</p><p className="shrink-0 text-xs text-[#8d778a]">{bank.completed}/{bank.starts} finished</p></div><div className="mt-2 h-2 overflow-hidden rounded-full bg-[#f1e7ed]"><div className="h-full rounded-full bg-gradient-to-r from-[#7c345b] to-[#c47aa0]" style={{ width: `${(bank.starts / maxBankStarts) * 100}%` }} /></div></div>)}</div></section>
-              <section className="rounded-3xl bg-[#5f2949] p-5 text-white shadow-[0_16px_40px_rgba(75,34,59,0.18)]"><div className="flex items-center gap-2"><Users size={18} className="text-[#efbfd7]" /><h2 className="font-[family-name:var(--font-outfit)] text-lg font-semibold">Last app activity</h2></div><ol className="mt-4 divide-y divide-white/10">{learnerTimelines.slice(0, 6).map((learner) => <li key={learner.learnerId} className="flex items-center justify-between gap-3 py-3 first:pt-0 last:pb-0"><p className="min-w-0 truncate text-sm font-semibold">{learnerAlias(learner.learnerId)}</p><div className="shrink-0 text-right"><p className="text-sm font-semibold">{learner.lastActiveAt ? formatRelativeTime(learner.lastActiveAt) : "Not recorded"}</p>{learner.lastActiveAt > 0 && <p className="mt-0.5 text-xs text-white/55">{formatClock(learner.lastActiveAt)}</p>}</div></li>)}</ol></section>
+              <section className="rounded-3xl bg-[#5f2949] p-5 text-white shadow-[0_16px_40px_rgba(75,34,59,0.18)]"><div className="flex items-center gap-2"><Users size={18} className="text-[#efbfd7]" /><h2 className="font-[family-name:var(--font-outfit)] text-lg font-semibold">Last app activity</h2></div><ol className="mt-4 divide-y divide-white/10">{learnerTimelines.slice(0, 6).map((learner) => <li key={learner.learnerId} className="flex items-center justify-between gap-3 py-3 first:pt-0 last:pb-0"><p className="min-w-0 truncate text-sm font-semibold">{nameOf(learner.learnerId)}</p><div className="shrink-0 text-right"><p className="text-sm font-semibold">{learner.lastActiveAt ? formatRelativeTime(learner.lastActiveAt) : "Not recorded"}</p>{learner.lastActiveAt > 0 && <p className="mt-0.5 text-xs text-white/55">{formatClock(learner.lastActiveAt)}</p>}</div></li>)}</ol></section>
             </div>
           </div>
         )}
@@ -391,7 +425,7 @@ export function NailExamUsageAdminPage() {
                 <button type="button" onClick={downloadTests} disabled={allTests.length === 0} className="inline-flex min-h-10 items-center gap-2 rounded-xl border border-[#e2d5de] bg-white px-3.5 text-sm font-semibold text-[#6e5669] transition hover:bg-[#faf5f8] disabled:opacity-50"><Download size={16} aria-hidden="true" /> Download CSV</button>
               </div>
               <div className="mt-4 grid gap-2 sm:grid-cols-3">
-                <label className="text-xs font-semibold text-[#8b7589]">Learner<select value={testsLearner} onChange={(event) => { setTestsLearner(event.target.value); setTestsShown(TESTS_PAGE_SIZE) }} className="mt-1 min-h-10 w-full rounded-xl border border-[#dfd0da] bg-white px-3 text-sm font-medium text-[#36223a] outline-none focus:border-[#9a4e75] focus:ring-4 focus:ring-[#ead7e2]"><option value="all">All learners</option>{testsLearner !== "all" && !testLearnerOptions.includes(testsLearner) && <option value={testsLearner}>{learnerAlias(testsLearner)}</option>}{testLearnerOptions.map((learnerId) => <option key={learnerId} value={learnerId}>{learnerAlias(learnerId)}</option>)}</select></label>
+                <label className="text-xs font-semibold text-[#8b7589]">Learner<select value={testsLearner} onChange={(event) => { setTestsLearner(event.target.value); setTestsShown(TESTS_PAGE_SIZE) }} className="mt-1 min-h-10 w-full rounded-xl border border-[#dfd0da] bg-white px-3 text-sm font-medium text-[#36223a] outline-none focus:border-[#9a4e75] focus:ring-4 focus:ring-[#ead7e2]"><option value="all">All learners</option>{testsLearner !== "all" && !testLearnerOptions.includes(testsLearner) && <option value={testsLearner}>{nameOf(testsLearner)}</option>}{testLearnerOptions.map((learnerId) => <option key={learnerId} value={learnerId}>{nameOf(learnerId)}</option>)}</select></label>
                 <label className="text-xs font-semibold text-[#8b7589]">Question bank<select value={testsBank} onChange={(event) => { setTestsBank(event.target.value); setTestsShown(TESTS_PAGE_SIZE) }} className="mt-1 min-h-10 w-full rounded-xl border border-[#dfd0da] bg-white px-3 text-sm font-medium text-[#36223a] outline-none focus:border-[#9a4e75] focus:ring-4 focus:ring-[#ead7e2]"><option value="all">All banks</option>{testBankOptions.map(([bankId, bankName]) => <option key={bankId} value={bankId}>{bankName}</option>)}</select></label>
                 <label className="text-xs font-semibold text-[#8b7589]">Status<select value={testsStatus} onChange={(event) => { setTestsStatus(event.target.value as TestStatusFilter); setTestsShown(TESTS_PAGE_SIZE) }} className="mt-1 min-h-10 w-full rounded-xl border border-[#dfd0da] bg-white px-3 text-sm font-medium text-[#36223a] outline-none focus:border-[#9a4e75] focus:ring-4 focus:ring-[#ead7e2]"><option value="all">All</option><option value="finished">Finished</option><option value="unfinished">Not finished</option></select></label>
               </div>
@@ -402,7 +436,7 @@ export function NailExamUsageAdminPage() {
                 <ol className="divide-y divide-[#f0e7ed]">{allTests.slice(0, testsShown).map((attempt) => (
                   <li key={attempt.attemptId} className="grid grid-cols-[minmax(0,1fr)_auto] gap-x-4 gap-y-1 px-5 py-3.5 md:grid-cols-[9rem_8rem_minmax(0,1fr)_6rem_5.5rem] md:items-center md:px-6">
                     <p className="col-start-1 row-start-2 text-xs text-[#8b7589] md:row-start-1 md:text-sm">{attempt.startedAt !== null ? formatClock(attempt.startedAt) : attempt.completedAt !== null ? `Finished ${formatClock(attempt.completedAt)}` : "Unavailable"}</p>
-                    <p className="col-start-1 row-start-1 truncate text-sm font-semibold md:col-start-2">{learnerAlias(attempt.learnerId)}</p>
+                    <p className="col-start-1 row-start-1 truncate text-sm font-semibold md:col-start-2">{nameOf(attempt.learnerId)}</p>
                     <div className="col-start-1 row-start-3 min-w-0 md:col-start-3 md:row-start-1"><p className="truncate text-sm text-[#463044]">{attempt.sessionTitle}</p><p className="truncate text-xs text-[#a18f9e]">{attempt.bankName}{attempt.isRandom ? " · random draw" : ""}</p></div>
                     <p className={`col-start-1 row-start-4 items-center gap-1.5 text-xs text-[#806b7d] md:col-start-4 md:row-start-1 md:flex md:text-sm ${attempt.completedAt === null ? "hidden" : "flex"}`}><Timer size={13} aria-hidden="true" className="md:hidden" />{attempt.completedAt === null ? "—" : formatDuration(attempt.startedAt, attempt.completedAt)}</p>
                     <div className="col-start-2 row-span-4 row-start-1 self-center justify-self-end md:col-start-5 md:row-span-1"><Score attempt={attempt} /></div>
@@ -413,14 +447,16 @@ export function NailExamUsageAdminPage() {
             )}
           </section>
         )}
+        {(visibleSessions.length > 0 || sessionsError) && <PracticeSessionsSection sessions={visibleSessions} periodLabel={PERIOD_LABELS[period].toLowerCase()} nameOf={nameOf} loadError={sessionsError} />}
         {learnerTimelines.length > 0 && (
           <section className="mt-8">
             <div className="flex items-end justify-between gap-4"><div><h2 className="font-[family-name:var(--font-outfit)] text-2xl font-semibold">Learner timelines</h2><p className="mt-1 text-sm text-[#8b7589]">Last five app activity times, exams, and scores.</p></div><span className="hidden text-xs text-[#9a8798] sm:block">Newest activity first</span></div>
             <div className="mt-4 grid gap-4 lg:grid-cols-2">
               {learnerTimelines.map((learner) => (
                 <article key={learner.learnerId} className="overflow-hidden rounded-3xl border border-[#eadde5] bg-white shadow-[0_8px_30px_rgba(78,42,68,0.05)]">
-                  <button type="button" onClick={() => toggleLearnerTimeline(learner.learnerId)} aria-expanded={!collapsedLearnerTimelines.has(learner.learnerId)} className="w-full bg-gradient-to-r from-[#60304d] to-[#7d4565] px-5 py-4 text-left text-white transition hover:brightness-105 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-inset focus-visible:ring-[#e8b9d1] sm:px-6"><span className="flex items-start justify-between gap-4"><span><span className="block font-[family-name:var(--font-outfit)] text-lg font-semibold">{learnerAlias(learner.learnerId)}</span><span className="mt-1 block text-xs text-white/65">Private browser alias</span></span><span className="flex items-start gap-3"><span className="text-right"><span className="block text-xs font-semibold uppercase tracking-wide text-[#f0cadd]">Last used</span><span className="mt-1 block text-sm font-semibold">{learner.lastActiveAt ? formatRelativeTime(learner.lastActiveAt) : "Not recorded"}</span>{learner.lastActiveAt > 0 && <span className="mt-0.5 block text-xs text-white/60">{formatClock(learner.lastActiveAt)}</span>}</span><ChevronDown size={20} aria-hidden="true" className={`mt-1 shrink-0 transition-transform ${collapsedLearnerTimelines.has(learner.learnerId) ? "-rotate-90" : "rotate-0"}`} /></span></span></button>
+                  <button type="button" onClick={() => toggleLearnerTimeline(learner.learnerId)} aria-expanded={!collapsedLearnerTimelines.has(learner.learnerId)} className="w-full bg-gradient-to-r from-[#60304d] to-[#7d4565] px-5 py-4 text-left text-white transition hover:brightness-105 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-inset focus-visible:ring-[#e8b9d1] sm:px-6"><span className="flex items-start justify-between gap-4"><span><span className="block font-[family-name:var(--font-outfit)] text-lg font-semibold">{nameOf(learner.learnerId)}</span><span className="mt-1 block text-xs text-white/65">{learnerNames.has(learner.learnerId) ? learnerAlias(learner.learnerId) : "Private browser alias"}</span></span><span className="flex items-start gap-3"><span className="text-right"><span className="block text-xs font-semibold uppercase tracking-wide text-[#f0cadd]">Last used</span><span className="mt-1 block text-sm font-semibold">{learner.lastActiveAt ? formatRelativeTime(learner.lastActiveAt) : "Not recorded"}</span>{learner.lastActiveAt > 0 && <span className="mt-0.5 block text-xs text-white/60">{formatClock(learner.lastActiveAt)}</span>}</span><ChevronDown size={20} aria-hidden="true" className={`mt-1 shrink-0 transition-transform ${collapsedLearnerTimelines.has(learner.learnerId) ? "-rotate-90" : "rotate-0"}`} /></span></span></button>
                   {!collapsedLearnerTimelines.has(learner.learnerId) && <div className="px-5 py-5 sm:px-6">
+                    <div className="mb-5 flex flex-wrap items-center justify-between gap-2 rounded-2xl bg-[#f6fbfb] px-3.5 py-2.5"><p className="text-xs text-[#4f6467]">{(() => { const learnerSessions = sessionsByLearner.get(learner.learnerId) || []; return learnerSessions.length ? `Reels & cards: ${learnerSessions.length} visits · ${formatMinutes(learnerSessions.reduce((sum, session) => sum + session.activeSeconds, 0))}` : "No reel or study card use yet" })()}</p><button type="button" onClick={() => setSelectedLearner(learner.learnerId)} className="inline-flex min-h-9 items-center gap-1.5 rounded-lg bg-white px-3 text-xs font-semibold text-[#5f2949] shadow-sm ring-1 ring-[#e2d5de] transition hover:bg-[#faf5f8]"><PanelRightOpen size={14} aria-hidden="true" /> Details &amp; rename</button></div>
                     <div><p className="text-xs font-bold uppercase tracking-[0.12em] text-[#9a5277]">Last 5 app activity times</p><ol className="mt-2 flex flex-wrap gap-2">{learner.recentActiveAt.length ? learner.recentActiveAt.map((timestamp, index) => <li key={`${timestamp}-${index}`} className="rounded-lg bg-[#f8f1f5] px-2.5 py-1.5 text-xs font-medium text-[#715c6e]">{formatClock(timestamp)}</li>) : <li className="text-sm text-[#9a8798]">No app activity recorded yet.</li>}</ol></div>
                     <div className="mt-5"><div className="flex flex-wrap items-center justify-between gap-2"><p className="text-xs font-bold uppercase tracking-[0.12em] text-[#9a5277]">Last 5 exams and scores</p>{(testSummaryByLearner.get(learner.learnerId)?.total || 0) > 0 && <button type="button" onClick={() => showAllTestsFor(learner.learnerId)} className="min-h-8 rounded-lg px-2.5 text-xs font-semibold text-[#8a3f68] transition hover:bg-[#f8edf4]">See all {testSummaryByLearner.get(learner.learnerId)?.total} tests</button>}</div>{(() => { const summary = testSummaryByLearner.get(learner.learnerId); return summary && summary.total > 0 ? <p className="mt-1 text-xs text-[#8b7589]">{summary.total} tests · {summary.finished} finished{summary.averagePercent !== null ? ` · average ${summary.averagePercent}%` : ""}</p> : null })()}<ol className="mt-3 space-y-3">{learner.recentAttempts.length ? learner.recentAttempts.map((attempt) => <li key={attempt.attemptId} className="rounded-2xl border border-[#eee4ea] bg-[#fdfafd] p-3.5"><div className="flex items-start justify-between gap-3"><div className="min-w-0"><p className="truncate text-sm font-semibold text-[#463044]">{attempt.sessionTitle}</p><dl className="mt-2 grid gap-1 text-xs text-[#7d687e]"><div className="flex gap-2"><dt className="w-14 shrink-0 font-semibold text-[#9a5277]">Started</dt><dd>{attempt.startedAt !== null ? formatClock(attempt.startedAt) : "Unavailable"}</dd></div><div className="flex gap-2"><dt className="w-14 shrink-0 font-semibold text-[#9a5277]">Finished</dt><dd>{attempt.completedAt ? formatClock(attempt.completedAt) : "Not finished"}</dd></div></dl></div><Score attempt={attempt} /></div><div className="mt-3 flex items-center gap-1.5 border-t border-[#eee4ea] pt-2.5 text-xs font-medium text-[#806b7d]"><Timer size={13} aria-hidden="true" /> {formatDuration(attempt.startedAt, attempt.completedAt)}</div></li>) : <li className="text-sm text-[#9a8798]">No exams recorded yet.</li>}</ol></div>
                   </div>}
@@ -430,6 +466,19 @@ export function NailExamUsageAdminPage() {
           </section>
         )}
       </div>
+      {selectedLearner && (
+        <LearnerDetailPanel
+          learnerId={selectedLearner}
+          attempts={includedAttempts.filter((attempt) => attempt.learnerId === selectedLearner)}
+          sessions={sessionsByLearner.get(selectedLearner) || []}
+          nameOf={nameOf}
+          hasCustomName={learnerNames.has(selectedLearner)}
+          lastActiveAt={activityByLearner.get(selectedLearner)?.lastActiveAt || 0}
+          onRename={renameLearner}
+          onShowAllTests={showAllTestsFromDetail}
+          onClose={() => setSelectedLearner(null)}
+        />
+      )}
     </main>
   )
 }

@@ -6,11 +6,41 @@ service cloud.firestore {
         && exists(/databases/$(database)/documents/adminAllowlist/$(request.auth.uid));
     }
 
+    // Optional detail fields saved with a finished test.
+    function validFinishDetails(data) {
+      return (!('skipped' in data) || (data.skipped is int
+          && data.skipped >= 0
+          && data.skipped <= data.questionCount))
+        && (!('missed' in data) || (data.missed is string
+          && data.missed.size() <= 12000));
+    }
+
+    // Progress saved while a test is open.
+    function validProgress(data) {
+      return (!('answered' in data) || (data.answered is int
+          && data.answered >= 0
+          && data.answered <= data.questionCount))
+        && (!('correctSoFar' in data) || (data.correctSoFar is int
+          && data.correctSoFar >= 0
+          && data.correctSoFar <= data.get('answered', 0)))
+        && (!('lastAnsweredAt' in data) || data.lastAnsweredAt is int);
+    }
+
+    function attemptIdentityUnchanged() {
+      return request.resource.data.attemptId == resource.data.attemptId
+        && request.resource.data.learnerId == resource.data.learnerId
+        && request.resource.data.startedAt == resource.data.startedAt
+        && request.resource.data.bankId == resource.data.bankId
+        && request.resource.data.bankName == resource.data.bankName
+        && request.resource.data.sessionTitle == resource.data.sessionTitle
+        && request.resource.data.isRandom == resource.data.isRandom;
+    }
+
     match /nailExamAttempts/{attemptId} {
       allow create: if request.resource.data.keys().hasOnly([
           'attemptId', 'learnerId', 'startedAt', 'bankId', 'bankName',
           'sessionTitle', 'isRandom', 'questionCount', 'correct',
-          'completedAt', 'status'
+          'completedAt', 'status', 'skipped', 'missed'
         ])
         && request.resource.data.attemptId == attemptId
         && request.resource.data.attemptId is string
@@ -31,26 +61,25 @@ service cloud.firestore {
           (request.resource.data.status == 'started'
             && request.resource.data.startedAt is int
             && request.resource.data.correct == null
-            && request.resource.data.completedAt == null)
+            && request.resource.data.completedAt == null
+            && !('skipped' in request.resource.data)
+            && !('missed' in request.resource.data))
           || (request.resource.data.status == 'completed'
             && request.resource.data.startedAt == null
             && request.resource.data.correct is int
             && request.resource.data.correct >= 0
             && request.resource.data.correct <= request.resource.data.questionCount
-            && request.resource.data.completedAt is int)
+            && request.resource.data.completedAt is int
+            && validFinishDetails(request.resource.data))
         );
 
+      // Finishing a started test: adds the score and details.
       allow update: if resource.data.attemptId == attemptId
         && resource.data.status == 'started'
-        && request.resource.data.attemptId == resource.data.attemptId
-        && request.resource.data.learnerId == resource.data.learnerId
-        && request.resource.data.startedAt == resource.data.startedAt
-        && request.resource.data.bankId == resource.data.bankId
-        && request.resource.data.bankName == resource.data.bankName
-        && request.resource.data.sessionTitle == resource.data.sessionTitle
-        && request.resource.data.isRandom == resource.data.isRandom
+        && attemptIdentityUnchanged()
         && request.resource.data.diff(resource.data).affectedKeys().hasOnly([
-          'correct', 'completedAt', 'questionCount', 'status'
+          'correct', 'completedAt', 'questionCount', 'status', 'skipped', 'missed',
+          'answered', 'correctSoFar', 'lastAnsweredAt'
         ])
         && request.resource.data.status == 'completed'
         && request.resource.data.correct is int
@@ -60,7 +89,21 @@ service cloud.firestore {
         && request.resource.data.questionCount <= 500
         && request.resource.data.correct <= request.resource.data.questionCount
         && request.resource.data.completedAt is int
-        && request.resource.data.completedAt >= resource.data.startedAt;
+        && validFinishDetails(request.resource.data)
+        && validProgress(request.resource.data);
+
+      // Saving progress on a test that is still open.
+      allow update: if resource.data.attemptId == attemptId
+        && resource.data.status == 'started'
+        && request.resource.data.status == 'started'
+        && attemptIdentityUnchanged()
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly([
+          'answered', 'correctSoFar', 'lastAnsweredAt'
+        ])
+        && request.resource.data.answered is int
+        && request.resource.data.correctSoFar is int
+        && request.resource.data.lastAnsweredAt is int
+        && validProgress(request.resource.data);
 
       allow read: if isAllowlistedAdmin();
       allow delete: if false;
@@ -113,6 +156,71 @@ service cloud.firestore {
 
       allow read: if isAllowlistedAdmin();
       allow delete: if false;
+    }
+
+    // Word reels, study cards and the look-alike drill: one record per visit,
+    // rewritten while the learner uses it.
+    function validPracticeSession(data, sessionId) {
+      return data.keys().hasOnly([
+          'sessionId', 'learnerId', 'kind', 'sourceId', 'title', 'startedAt',
+          'lastSeenAt', 'activeSeconds', 'cardsSeen', 'reachedEnd', 'sections',
+          'wordsTapped', 'hardWordsOpened', 'wordsMissed', 'audioPlays',
+          'answered', 'correct'
+        ])
+        && data.keys().hasAll([
+          'sessionId', 'learnerId', 'kind', 'sourceId', 'title', 'startedAt',
+          'lastSeenAt', 'activeSeconds', 'cardsSeen'
+        ])
+        && data.sessionId == sessionId
+        && data.sessionId is string && data.sessionId.size() <= 80
+        && data.learnerId is string && data.learnerId.size() <= 80
+        && data.kind in ['word-reel', 'study-cards', 'look-alike']
+        && data.sourceId is string && data.sourceId.size() <= 120
+        && data.title is string && data.title.size() <= 160
+        && data.startedAt is int
+        && data.lastSeenAt is int
+        && data.lastSeenAt >= data.startedAt
+        && data.activeSeconds is int
+        && data.activeSeconds >= 0 && data.activeSeconds <= 86400
+        && data.cardsSeen is int
+        && data.cardsSeen >= 0 && data.cardsSeen <= 100000
+        && data.get('reachedEnd', false) is bool
+        // Lists are saved as line-separated text so their size can be capped.
+        && data.get('sections', '') is string && data.get('sections', '').size() <= 5000
+        && data.get('wordsTapped', '') is string && data.get('wordsTapped', '').size() <= 4500
+        && data.get('hardWordsOpened', '') is string && data.get('hardWordsOpened', '').size() <= 4500
+        && data.get('wordsMissed', '') is string && data.get('wordsMissed', '').size() <= 4500
+        && data.get('audioPlays', 0) is int && data.get('audioPlays', 0) >= 0
+        && data.get('answered', 0) is int && data.get('answered', 0) >= 0
+        && data.get('correct', 0) is int && data.get('correct', 0) >= 0
+        && data.get('correct', 0) <= data.get('answered', 0);
+    }
+
+    match /nailExamPracticeSessions/{sessionId} {
+      allow create: if validPracticeSession(request.resource.data, sessionId);
+
+      allow update: if validPracticeSession(request.resource.data, sessionId)
+        && request.resource.data.learnerId == resource.data.learnerId
+        && request.resource.data.kind == resource.data.kind
+        && request.resource.data.sourceId == resource.data.sourceId
+        && request.resource.data.startedAt == resource.data.startedAt
+        && request.resource.data.lastSeenAt >= resource.data.lastSeenAt
+        && request.resource.data.activeSeconds >= resource.data.activeSeconds
+        && request.resource.data.cardsSeen >= resource.data.cardsSeen;
+
+      allow read: if isAllowlistedAdmin();
+      allow delete: if false;
+    }
+
+    // Names the admin gives learners on the insights page.
+    match /nailExamLearnerNames/{learnerId} {
+      allow read, delete: if isAllowlistedAdmin();
+      allow create, update: if isAllowlistedAdmin()
+        && request.resource.data.keys().hasOnly(['learnerId', 'name'])
+        && request.resource.data.learnerId == learnerId
+        && request.resource.data.name is string
+        && request.resource.data.name.size() > 0
+        && request.resource.data.name.size() <= 40;
     }
 
     match /adminAllowlist/{uid} {

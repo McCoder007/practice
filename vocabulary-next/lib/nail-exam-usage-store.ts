@@ -1,5 +1,6 @@
 import {
   collection,
+  deleteDoc,
   doc,
   getDocs,
   getFirestore,
@@ -15,15 +16,26 @@ import {
 
 import { getFirebaseApp } from "@/lib/firebase-app"
 import {
+  NAIL_EXAM_PRACTICE_SESSIONS_COLLECTION,
+  parsePracticeSession,
+  toStoredPracticeSession,
+  type PracticeSession,
+} from "@/lib/nail-exam-practice-sessions"
+import {
   NAIL_EXAM_ATTEMPTS_COLLECTION,
   NAIL_EXAM_LEARNERS_COLLECTION,
+  NAIL_EXAM_LEARNER_NAMES_COLLECTION,
+  buildProgressFields,
   buildStartedAttempt,
+  cleanLearnerName,
+  parseLearnerName,
   saveCompletedAttempt,
   createActivityThrottle,
   getExistingLearnerId,
   getOrCreateLearnerId,
   parseNailExamLearnerActivity,
   parseNailExamAttempt,
+  type MissedQuestion,
   type NailExamAttempt,
   type NailExamLearnerActivity,
 } from "@/lib/nail-exam-usage"
@@ -107,6 +119,8 @@ export async function reportNailExamCompleted(input: {
   isRandom: boolean
   questionCount: number
   correct: number
+  skipped?: number
+  missed?: MissedQuestion[]
 }): Promise<void> {
   const col = getAttemptsCollection()
   if (!col || typeof window === "undefined") return
@@ -131,31 +145,32 @@ export async function reportNailExamCompleted(input: {
   }
 }
 
+/**
+ * Saves how far an open test has got, so a test the learner quits still
+ * shows how many questions they answered. Fails quietly if the start record
+ * is missing or the test is already finished.
+ */
+export async function reportNailExamProgress(input: {
+  attemptId: string
+  answered: number
+  correctSoFar: number
+  questionCount: number
+}): Promise<void> {
+  const col = getAttemptsCollection()
+  if (!col) return
+  try {
+    await updateDoc(doc(col, input.attemptId), buildProgressFields({ ...input, at: Date.now() }))
+  } catch {
+    // Progress is a nice-to-have; the finished score is saved separately.
+  }
+}
+
 const ATTEMPTS_PAGE_SIZE = 500
 const MAX_ATTEMPT_PAGES = 40
 
 /** Loads every attempt, newest start first, one page at a time. */
 export async function loadNailExamAttempts(): Promise<NailExamAttempt[]> {
-  const col = getAttemptsCollection()
-  if (!col) {
-    throw new Error("Firebase is not configured")
-  }
-
-  const attempts: NailExamAttempt[] = []
-  let cursor: QueryDocumentSnapshot | null = null
-  for (let page = 0; page < MAX_ATTEMPT_PAGES; page += 1) {
-    const pageQuery: Query = cursor
-      ? query(col, orderBy("startedAt", "desc"), startAfter(cursor), limit(ATTEMPTS_PAGE_SIZE))
-      : query(col, orderBy("startedAt", "desc"), limit(ATTEMPTS_PAGE_SIZE))
-    const snapshot = await getDocs(pageQuery)
-    for (const entry of snapshot.docs) {
-      const attempt = parseNailExamAttempt(entry.data())
-      if (attempt) attempts.push(attempt)
-    }
-    if (snapshot.docs.length < ATTEMPTS_PAGE_SIZE) break
-    cursor = snapshot.docs[snapshot.docs.length - 1]
-  }
-  return attempts
+  return loadAllPages(NAIL_EXAM_ATTEMPTS_COLLECTION, "startedAt", parseNailExamAttempt)
 }
 
 export async function loadNailExamLearnerActivity(max = 150): Promise<NailExamLearnerActivity[]> {
@@ -165,4 +180,76 @@ export async function loadNailExamLearnerActivity(max = 150): Promise<NailExamLe
   return snapshot.docs
     .map((entry) => parseNailExamLearnerActivity(entry.data()))
     .filter((activity): activity is NailExamLearnerActivity => activity !== null)
+}
+
+function getCollection(name: string) {
+  const app = getFirebaseApp()
+  if (!app) return null
+  return collection(getFirestore(app), name)
+}
+
+/** Writes the whole session record (creates it the first time). */
+export async function writePracticeSession(record: PracticeSession): Promise<void> {
+  const col = getCollection(NAIL_EXAM_PRACTICE_SESSIONS_COLLECTION)
+  if (!col) return
+  await setDoc(doc(col, record.sessionId), toStoredPracticeSession(record))
+}
+
+/** Learner ID for this browser, created on first use. */
+export function currentLearnerId(): string | null {
+  if (typeof window === "undefined") return null
+  try {
+    return getOrCreateLearnerId(window.localStorage)
+  } catch {
+    return null
+  }
+}
+
+async function loadAllPages<T>(
+  name: string,
+  orderField: string,
+  parse: (value: unknown) => T | null,
+): Promise<T[]> {
+  const col = getCollection(name)
+  if (!col) throw new Error("Firebase is not configured")
+  const items: T[] = []
+  let cursor: QueryDocumentSnapshot | null = null
+  for (let page = 0; page < MAX_ATTEMPT_PAGES; page += 1) {
+    const pageQuery: Query = cursor
+      ? query(col, orderBy(orderField, "desc"), startAfter(cursor), limit(ATTEMPTS_PAGE_SIZE))
+      : query(col, orderBy(orderField, "desc"), limit(ATTEMPTS_PAGE_SIZE))
+    const snapshot = await getDocs(pageQuery)
+    for (const entry of snapshot.docs) {
+      const item = parse(entry.data())
+      if (item) items.push(item)
+    }
+    if (snapshot.docs.length < ATTEMPTS_PAGE_SIZE) break
+    cursor = snapshot.docs[snapshot.docs.length - 1]
+  }
+  return items
+}
+
+export async function loadPracticeSessions(): Promise<PracticeSession[]> {
+  return loadAllPages(NAIL_EXAM_PRACTICE_SESSIONS_COLLECTION, "startedAt", parsePracticeSession)
+}
+
+export async function loadLearnerNames(): Promise<Map<string, string>> {
+  const col = getCollection(NAIL_EXAM_LEARNER_NAMES_COLLECTION)
+  if (!col) throw new Error("Firebase is not configured")
+  const snapshot = await getDocs(col)
+  const names = new Map<string, string>()
+  for (const entry of snapshot.docs) {
+    const name = parseLearnerName(entry.data())
+    if (name) names.set(entry.id, name)
+  }
+  return names
+}
+
+/** Saves an admin-chosen name; an empty name goes back to the alias. */
+export async function saveLearnerName(learnerId: string, name: string): Promise<void> {
+  const col = getCollection(NAIL_EXAM_LEARNER_NAMES_COLLECTION)
+  if (!col) throw new Error("Firebase is not configured")
+  const clean = cleanLearnerName(name)
+  if (clean) await setDoc(doc(col, learnerId), { learnerId, name: clean })
+  else await deleteDoc(doc(col, learnerId))
 }

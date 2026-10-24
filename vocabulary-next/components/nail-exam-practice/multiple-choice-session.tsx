@@ -28,6 +28,7 @@ import {
   summarizeSession,
 } from "@/lib/exam-quiz-reel"
 import type { NailExamGroupHistoryEntry } from "@/lib/nail-exam-practice-history"
+import type { MissedQuestion } from "@/lib/nail-exam-usage"
 import {
   getBackgroundForWord,
   getBackgroundIndexForWord,
@@ -53,6 +54,7 @@ export function NailExamMultipleChoiceSession({
   chineseToggleFixed,
   isRandom,
   onComplete,
+  onProgress,
   onRestart,
   onExit,
 }: {
@@ -62,7 +64,14 @@ export function NailExamMultipleChoiceSession({
   chineseToggle: ReactNode
   chineseToggleFixed?: ReactNode
   isRandom: boolean
-  onComplete?: (result: { correct: number; total: number }) => NailExamGroupHistoryEntry | void
+  onComplete?: (result: {
+    correct: number
+    total: number
+    skipped: number
+    missed: MissedQuestion[]
+  }) => NailExamGroupHistoryEntry | void
+  /** Called after each answer or skip, so a quit test still shows how far it got. */
+  onProgress?: (progress: { answered: number; correct: number }) => void
   onRestart: () => void
   onExit: () => void
 }) {
@@ -218,13 +227,38 @@ export function NailExamMultipleChoiceSession({
     })
   }, [])
 
+  // Report progress after each new answer (not on the empty start).
+  const onProgressRef = useRef(onProgress)
+  onProgressRef.current = onProgress
+  const answeredCount = Object.keys(session.answers).length
+  useEffect(() => {
+    if (answeredCount === 0) return
+    const correct = Object.values(session.answers).filter((answer) => answer.correct).length
+    onProgressRef.current?.({ answered: answeredCount, correct })
+    // Only when the number of answers changes.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [answeredCount])
+
   const finishQuiz = useCallback(() => {
     const summary = summarizeSession({
       mode: isRandom ? "quick" : { kind: "source-range", sourceId: "nail-test", offset: 0 },
       questions: session.questions,
       answers: session.answers,
     })
-    setCompletionHistory(onComplete?.({ correct: summary.correct, total: summary.total }) ?? null)
+    const byId = new Map(session.questions.map((question) => [question.id, question]))
+    const missed: MissedQuestion[] = summary.missed.map((answer) => ({
+      id: answer.questionId,
+      question: byId.get(answer.questionId)?.question.en ?? "",
+      skipped: answer.skipped,
+    }))
+    setCompletionHistory(
+      onComplete?.({
+        correct: summary.correct,
+        total: summary.total,
+        skipped: missed.filter((item) => item.skipped).length,
+        missed,
+      }) ?? null,
+    )
     setAnimating(false)
     setScreen({ step: "results" })
   }, [isRandom, onComplete, session.answers, session.questions])
