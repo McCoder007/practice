@@ -14,6 +14,7 @@ import { initializeAnalytics, logWordInteraction } from "@/lib/analytics"
 import { clearAudioQueue, playText, playTextQueued, playTextSlow, preloadTexts, warmAudioSession } from "@/lib/tts"
 import { buildHardWordIndex, splitSentence, type HardWord, type SentencePart } from "@/lib/sentence-words"
 import { getBackgroundByIndex } from "@/lib/word-reel-backgrounds"
+import { usePracticeSession } from "@/lib/use-practice-session"
 import { reelSectionStarts, reelStartIndex, shuffleReelSections } from "@/lib/word-reel-order"
 import { cn } from "@/lib/utils"
 
@@ -63,6 +64,7 @@ export function SectionWordReel({
 }) {
   const { language } = useLanguage()
   const japanese = language === "japanese"
+  const tracker = usePracticeSession({ kind: "word-reel", sourceId: storageKey, title: title.en })
 
   // The fixed order renders first (it matches the static page); the shuffle happens on the client.
   const [sections, setSections] = useState(sourceSections)
@@ -121,6 +123,14 @@ export function SectionWordReel({
     // Only on first load.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
+
+  // Record each card the learner sees (and reaching the end) for the insights page.
+  useEffect(() => {
+    if (!ready) return
+    const item = items[index]
+    if (item?.kind === "card") tracker.seeCard(item.card.id, sections[item.sectionIndex]?.title.en)
+    else if (item?.kind === "end") tracker.reachEnd()
+  }, [index, items, ready, sections, tracker])
 
   // A word card belongs to one sentence; close it when the card changes.
   useEffect(() => setLookup(null), [index])
@@ -219,6 +229,7 @@ export function SectionWordReel({
   /** Say the tapped word only; a hard word also opens its word card. */
   const tapWord = (card: ReelCard, part: Extract<SentencePart, { kind: "word" }>, partIndex: number) => {
     if (movedRef.current) return
+    tracker.tapWord(part.entry ? part.entry.word : part.text, Boolean(part.entry))
     playAudio(spokenWord(part), "word_audio_played", part.key)
     setLookup(part.entry ? { cardId: card.id, partIndex, entry: part.entry } : null)
   }
@@ -411,6 +422,7 @@ export function SectionWordReel({
           className="cursor-pointer hover:underline"
           onClick={(e) => {
             e.stopPropagation()
+            tracker.playAudio()
             playAudio(speechFor(card), "word_audio_played", card.word)
           }}
         >
@@ -475,6 +487,7 @@ export function SectionWordReel({
               onClick={() => {
                 // Same word, spoken slowly (0.6) so each part is easy to hear.
                 playTextSlow(speechFor(card))
+                tracker.playAudio()
                 if (analyticsReady) logWordInteraction(card.word, "word_audio_played")
               }}
               className="inline-flex items-center gap-2 rounded-full bg-black/25 px-4 py-1.5 text-xl font-medium tracking-wide text-white active:bg-black/40"
@@ -505,6 +518,7 @@ export function SectionWordReel({
             onClick={(e) => {
               e.stopPropagation()
               if (movedRef.current) return
+              tracker.playAudio()
               playAudio(card.example, "sentence_audio_played")
             }}
             className="flex size-12 shrink-0 items-center justify-center rounded-full border border-white/40 bg-white/20 text-white shadow-md active:bg-white/35"
@@ -637,7 +651,10 @@ export function SectionWordReel({
               </>
             )}
           </div>
-          {lookup && <WordCard key={lookup.entry.word} entry={lookup.entry} onSpeak={(text) => playAudio(text, "word_audio_played")} onClose={() => setLookup(null)} />}
+          {lookup && <WordCard key={lookup.entry.word} entry={lookup.entry} onSpeak={(text) => {
+                tracker.playAudio()
+                playAudio(text, "word_audio_played")
+              }} onClose={() => setLookup(null)} />}
         </div>
       </div>
 

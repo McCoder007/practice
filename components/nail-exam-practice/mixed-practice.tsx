@@ -77,7 +77,17 @@ export function NailExamMixedPractice() {
         chineseToggle={<ExamQuizChineseToggle placement="inline" />}
         chineseToggleFixed={<ExamQuizChineseToggle />}
         isRandom
-        onComplete={({ correct, total }) => {
+        onProgress={({ answered, correct }) => {
+          void import("@/lib/nail-exam-usage-store").then(({ reportNailExamProgress }) =>
+            reportNailExamProgress({
+              attemptId: session.attemptId,
+              answered,
+              correctSoFar: correct,
+              questionCount: session.questions.length,
+            }),
+          )
+        }}
+        onComplete={({ correct, total, skipped, missed }) => {
           void import("@/lib/nail-exam-usage-store").then(({ reportNailExamCompleted }) =>
             reportNailExamCompleted({
               attemptId: session.attemptId,
@@ -87,6 +97,8 @@ export function NailExamMixedPractice() {
               isRandom: true,
               questionCount: total,
               correct,
+              skipped,
+              missed,
             }),
           )
         }}

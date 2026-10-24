@@ -25,6 +25,7 @@ import {
 import { LOOK_ALIKE_GROUP_COUNT, LOOK_ALIKE_TOPICS, type TopicLookAlikeGroup } from "@/data/nic-domain-practice/word-reels"
 import { buildLookAlikeRound, type LookAlikePrompt } from "@/lib/look-alike-drill"
 import { clearAudioQueue, playText } from "@/lib/tts"
+import { usePracticeSession } from "@/lib/use-practice-session"
 import { cn } from "@/lib/utils"
 
 const ROUND_SIZE = 10
@@ -68,6 +69,8 @@ export function LookAlikeDrill() {
   const bi = (en: string, zh: string) => (showChinese ? `${en} | ${zh}` : en)
   const [topicFilter, setTopicFilter] = useState<string>("all")
   const [phase, setPhase] = useState<Phase>({ kind: "setup" })
+  const tracker = usePracticeSession({ kind: "look-alike", sourceId: "look-alike-words", title: LOOK_ALIKE_TITLE.en })
+  const topicTitle = (topicId: string) => LOOK_ALIKE_TOPICS.find((topic) => topic.topicId === topicId)?.title.en
 
   // Stop any speech when the learner moves to another screen (Next, back, a new
   // round) or leaves the page, the same way the word reels stop on each swipe.
@@ -110,6 +113,8 @@ export function LookAlikeDrill() {
 
     const pick = (choice: number) => {
       if (answered) return
+      tracker.seeCard(prompt.group.id, topicTitle(prompt.group.topicId))
+      tracker.answer(choice === prompt.answer, choice === prompt.answer ? undefined : target.word)
       // No sound on tap: a wrong pick read aloud would teach the wrong word. Speakers are separate.
       setPhase({
         ...phase,
@@ -118,8 +123,10 @@ export function LookAlikeDrill() {
       })
     }
     const next = () => {
-      if (isLast) setPhase({ kind: "done", total: phase.prompts.length, missed: phase.missed })
-      else setPhase({ ...phase, at: phase.at + 1, picked: null })
+      if (isLast) {
+        tracker.reachEnd()
+        setPhase({ kind: "done", total: phase.prompts.length, missed: phase.missed })
+      } else setPhase({ ...phase, at: phase.at + 1, picked: null })
     }
 
     return page(
