@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import { CheckCircle2, Lightbulb, Shuffle, Volume2, XCircle } from "lucide-react"
 
 import { ExamQuizChineseToggle } from "@/components/ExamQuizChineseToggle"
@@ -24,7 +24,7 @@ import {
 } from "@/data/nail-exam-practice/catalog"
 import { LOOK_ALIKE_GROUP_COUNT, LOOK_ALIKE_TOPICS, type TopicLookAlikeGroup } from "@/data/nic-domain-practice/word-reels"
 import { buildLookAlikeRound, type LookAlikePrompt } from "@/lib/look-alike-drill"
-import { playText } from "@/lib/tts"
+import { clearAudioQueue, playText } from "@/lib/tts"
 import { cn } from "@/lib/utils"
 
 const ROUND_SIZE = 10
@@ -68,6 +68,12 @@ export function LookAlikeDrill() {
   const bi = (en: string, zh: string) => (showChinese ? `${en} | ${zh}` : en)
   const [topicFilter, setTopicFilter] = useState<string>("all")
   const [phase, setPhase] = useState<Phase>({ kind: "setup" })
+
+  // Stop any speech when the learner moves to another screen (Next, back, a new
+  // round) or leaves the page, the same way the word reels stop on each swipe.
+  // Picking an answer stays on the same screen, so it does not cut the audio.
+  const screenKey = phase.kind === "question" ? `question-${phase.at}` : phase.kind
+  useEffect(() => () => clearAudioQueue(), [screenKey])
 
   const groupsFor = (topicId: string) =>
     topicId === "all"
