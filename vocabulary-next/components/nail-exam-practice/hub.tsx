@@ -1,160 +1,165 @@
 "use client"
 
-import Link from "next/link"
+import { ClipboardCheck, Layers, Shuffle, TriangleAlert } from "lucide-react"
 
 import { NavigationMenu } from "@/components/NavigationMenu"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { ExamQuizChineseToggle } from "@/components/ExamQuizChineseToggle"
 import {
-  EXAM_TOPICS_DESCRIPTION,
+  CleanListBackLink,
+  CleanListBadge,
+  CleanListGroup,
+  CleanListLinkRow,
+  CleanListPage,
+  CleanListSection,
+  CleanListTitle,
+} from "@/components/nail-exam-practice/clean-list"
+import {
+  EXAM_TOPICS,
   EXAM_TOPICS_HREF,
+  EXAM_TOPICS_PRACTICE_TEST_BANK,
   EXAM_TOPICS_TITLE,
-  MILADY_REVIEW_DESCRIPTION,
+  MILADY_REVIEW_CHAPTER_COUNT,
   MILADY_REVIEW_HREF,
-  MILADY_REVIEW_TITLE,
   MIXED_PRACTICE,
   NAIL_EXAM_BANKS,
   NAIL_EXAM_PRACTICE_TITLE,
-  bankSummaryLine,
+  type NailExamBankId,
 } from "@/data/nail-exam-practice/catalog"
-import {
-  QUESTION_WORDS_DESCRIPTION,
-  QUESTION_WORDS_HREF,
-  QUESTION_WORDS_TITLE,
-} from "@/data/nail-exam-practice/question-words"
+import { QUESTION_WORDS_HREF, QUESTION_WORDS_TITLE } from "@/data/nail-exam-practice/question-words"
 import type { LocalizedText } from "@/data/exam-quiz/types"
 import { useExamQuizPreferences } from "@/contexts/ExamQuizPreferencesContext"
-import { ExamQuizChineseToggle } from "@/components/ExamQuizChineseToggle"
-import { cn } from "@/lib/utils"
-
-const ACCENT = {
-  pink: "border-pink-200 from-pink-50 to-white dark:border-pink-900/50 dark:from-pink-950/30 dark:to-slate-800",
-  violet: "border-violet-200 from-violet-50 to-white dark:border-violet-900/50 dark:from-violet-950/30 dark:to-slate-800",
-  rose: "border-rose-200 from-rose-50 to-white dark:border-rose-900/50 dark:from-rose-950/30 dark:to-slate-800",
-  cyan: "border-cyan-200 from-cyan-50 to-white dark:border-cyan-900/50 dark:from-cyan-950/30 dark:to-slate-800",
-  amber: "border-amber-200 from-amber-50 to-white dark:border-amber-900/50 dark:from-amber-950/30 dark:to-slate-800",
-  emerald: "border-emerald-200 from-emerald-50 to-white dark:border-emerald-900/50 dark:from-emerald-950/30 dark:to-slate-800",
-  indigo: "border-indigo-200 from-indigo-50 to-white dark:border-indigo-900/50 dark:from-indigo-950/30 dark:to-slate-800",
-  fuchsia: "border-fuchsia-200 from-fuchsia-50 to-white dark:border-fuchsia-900/50 dark:from-fuchsia-950/30 dark:to-slate-800",
-} as const
 
 const SECTIONS = {
-  start: { en: "Start here", zh: "从这里开始" },
-  banks: { en: "Practice banks", zh: "练习题库" },
-  more: { en: "More practice", zh: "更多练习" },
+  study: { en: "Study", zh: "学习" },
+  banks: { en: "Previous question banks", zh: "以往题库" },
 } as const
 
-function SectionHeading({ title, showChinese }: { title: LocalizedText; showChinese: boolean }) {
-  return (
-    <h2 className="mt-3 text-sm font-semibold tracking-wide text-slate-500 uppercase first:mt-0 dark:text-slate-400">
-      {title.en}
-      {showChinese && <span className="ml-2 normal-case">{title.zh}</span>}
-    </h2>
-  )
+/** Short menu names and letter badges for the question banks. */
+const BANK_ROWS: Partial<Record<NailExamBankId, { name: LocalizedText; badge: string; color: string }>> = {
+  official: {
+    name: { en: "Official", zh: "官方" },
+    badge: "O",
+    color: "bg-violet-100 text-violet-800 dark:bg-violet-950 dark:text-violet-300",
+  },
+  "bank-a": {
+    name: { en: "Bank A", zh: "题库 A" },
+    badge: "A",
+    color: "bg-rose-100 text-rose-800 dark:bg-rose-950 dark:text-rose-300",
+  },
+  "bank-b": {
+    name: { en: "Bank B", zh: "题库 B" },
+    badge: "B",
+    color: "bg-cyan-100 text-cyan-800 dark:bg-cyan-950 dark:text-cyan-300",
+  },
+  "bank-c": {
+    name: { en: "Bank C", zh: "题库 C" },
+    badge: "C",
+    color: "bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-300",
+  },
+  "kelly-nail-school": {
+    name: { en: "Kelly Nail School", zh: "Kelly 美甲学校" },
+    badge: "K",
+    color: "bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300",
+  },
 }
 
-function HubCard({
-  href,
-  title,
-  description,
-  accent,
-  showChinese,
-}: {
-  href: string
-  title: LocalizedText
-  description: LocalizedText
-  accent: keyof typeof ACCENT
-  showChinese: boolean
-}) {
-  return (
-    <Link href={href}>
-      <Card
-        className={cn(
-          "gap-1.5 border-2 bg-gradient-to-r py-4 transition-shadow hover:shadow-md",
-          ACCENT[accent],
-        )}
-      >
-        <CardHeader className="px-5 pb-0">
-          <CardTitle className="text-lg">
-            {title.en}
-            {showChinese && <> | {title.zh}</>}
-          </CardTitle>
-        </CardHeader>
-        <CardContent className="px-5">
-          <p className="text-sm text-slate-600 dark:text-slate-300">
-            {description.en}
-            {showChinese && <> | {description.zh}</>}
-          </p>
-        </CardContent>
-      </Card>
-    </Link>
-  )
-}
+const MILADY_ROW = {
+  name: { en: "Milady Review", zh: "Milady 复习" },
+  badge: "M",
+  color: "bg-indigo-100 text-indigo-800 dark:bg-indigo-950 dark:text-indigo-300",
+} as const
 
 export function NailExamPracticeHub() {
   const { showChinese } = useExamQuizPreferences()
+  const practiceTest = EXAM_TOPICS_PRACTICE_TEST_BANK
 
   return (
     <>
       <NavigationMenu />
       <ExamQuizChineseToggle />
-      <div className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100 px-4 pb-10 pt-20 dark:from-slate-900 dark:to-slate-800">
-        <div className="mx-auto flex w-full max-w-md flex-col gap-4">
-          <Link
-            href="/"
-            className="text-lg font-medium text-slate-600 underline-offset-2 hover:underline dark:text-slate-300"
-          >
-            ← Study Zone
-          </Link>
-          <h1 className="text-center text-2xl font-bold text-slate-900 dark:text-white">
-            {NAIL_EXAM_PRACTICE_TITLE.en}
-            {showChinese && <> | {NAIL_EXAM_PRACTICE_TITLE.zh}</>}
-          </h1>
+      <CleanListPage>
+        <CleanListBackLink href="/" title={{ en: "Study Zone", zh: "学习区" }} showChinese={false} />
+        <CleanListTitle title={NAIL_EXAM_PRACTICE_TITLE} showChinese={showChinese} />
 
-          <SectionHeading title={SECTIONS.start} showChinese={showChinese} />
-          <HubCard
-            href={EXAM_TOPICS_HREF}
-            title={EXAM_TOPICS_TITLE}
-            description={EXAM_TOPICS_DESCRIPTION}
-            accent="fuchsia"
-            showChinese={showChinese}
-          />
-          <HubCard
-            href={QUESTION_WORDS_HREF}
-            title={QUESTION_WORDS_TITLE}
-            description={QUESTION_WORDS_DESCRIPTION}
-            accent="amber"
-            showChinese={showChinese}
-          />
-
-          <SectionHeading title={SECTIONS.banks} showChinese={showChinese} />
-          {NAIL_EXAM_BANKS.map((bank) => (
-            <HubCard
-              key={bank.id}
-              href={bank.href}
-              title={bank.publicName}
-              description={bankSummaryLine(bank)}
-              accent={bank.accent}
+        <CleanListSection label={SECTIONS.study} showChinese={showChinese}>
+          <CleanListGroup>
+            <CleanListLinkRow
+              href={EXAM_TOPICS_HREF}
+              badge={
+                <CleanListBadge className="bg-fuchsia-700 text-white">
+                  <Layers />
+                </CleanListBadge>
+              }
+              title={EXAM_TOPICS_TITLE}
+              showChinese={showChinese}
+              trailing={EXAM_TOPICS.length}
+            />
+            <CleanListLinkRow
+              href={QUESTION_WORDS_HREF}
+              badge={
+                <CleanListBadge className="bg-orange-700 text-white">
+                  <TriangleAlert />
+                </CleanListBadge>
+              }
+              title={QUESTION_WORDS_TITLE}
               showChinese={showChinese}
             />
-          ))}
+            <CleanListLinkRow
+              href={practiceTest.href}
+              badge={
+                <CleanListBadge className="bg-violet-700 text-white">
+                  <ClipboardCheck />
+                </CleanListBadge>
+              }
+              title={practiceTest.publicName}
+              showChinese={showChinese}
+              trailing={practiceTest.randomOptions[0]?.count}
+            />
+          </CleanListGroup>
+        </CleanListSection>
 
-          <SectionHeading title={SECTIONS.more} showChinese={showChinese} />
-          <HubCard
-            href={MILADY_REVIEW_HREF}
-            title={MILADY_REVIEW_TITLE}
-            description={MILADY_REVIEW_DESCRIPTION}
-            accent="indigo"
-            showChinese={showChinese}
-          />
-          <HubCard
+        <CleanListSection label={SECTIONS.banks} showChinese={showChinese}>
+          <CleanListGroup>
+            {NAIL_EXAM_BANKS.map((bank) => {
+              const row = BANK_ROWS[bank.id]
+              return (
+                <CleanListLinkRow
+                  key={bank.id}
+                  href={bank.href}
+                  badge={
+                    <CleanListBadge className={row?.color ?? "bg-slate-200 text-slate-700 dark:bg-slate-700 dark:text-slate-200"}>
+                      {row?.badge ?? bank.publicName.en.charAt(0)}
+                    </CleanListBadge>
+                  }
+                  title={row?.name ?? bank.publicName}
+                  showChinese={showChinese}
+                  trailing={bank.approvedCount}
+                />
+              )
+            })}
+            <CleanListLinkRow
+              href={MILADY_REVIEW_HREF}
+              badge={<CleanListBadge className={MILADY_ROW.color}>{MILADY_ROW.badge}</CleanListBadge>}
+              title={MILADY_ROW.name}
+              showChinese={showChinese}
+              trailing={showChinese ? `${MILADY_REVIEW_CHAPTER_COUNT} 章` : `${MILADY_REVIEW_CHAPTER_COUNT} chapters`}
+            />
+          </CleanListGroup>
+        </CleanListSection>
+
+        <CleanListGroup>
+          <CleanListLinkRow
             href={MIXED_PRACTICE.href}
+            badge={
+              <CleanListBadge className="bg-emerald-700 text-white">
+                <Shuffle />
+              </CleanListBadge>
+            }
             title={MIXED_PRACTICE.title}
-            description={MIXED_PRACTICE.description}
-            accent="emerald"
             showChinese={showChinese}
           />
-        </div>
-      </div>
+        </CleanListGroup>
+      </CleanListPage>
     </>
   )
 }

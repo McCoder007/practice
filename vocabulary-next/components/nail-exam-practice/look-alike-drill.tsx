@@ -1,16 +1,25 @@
 "use client"
 
-import Link from "next/link"
 import { useState } from "react"
-import { CheckCircle2, Lightbulb, Play, Volume2, XCircle } from "lucide-react"
+import { CheckCircle2, Lightbulb, Shuffle, Volume2, XCircle } from "lucide-react"
 
 import { ExamQuizChineseToggle } from "@/components/ExamQuizChineseToggle"
 import { NavigationMenu } from "@/components/NavigationMenu"
+import {
+  CleanListBackLink,
+  CleanListBadge,
+  CleanListButtonRow,
+  CleanListGroup,
+  CleanListPage,
+  CleanListSection,
+  CleanListTitle,
+  topicBadgeColor,
+} from "@/components/nail-exam-practice/clean-list"
 import { useExamQuizPreferences } from "@/contexts/ExamQuizPreferencesContext"
 import {
+  EXAM_TOPICS,
   EXAM_TOPICS_HREF,
   EXAM_TOPICS_TITLE,
-  LOOK_ALIKE_DESCRIPTION,
   LOOK_ALIKE_TITLE,
 } from "@/data/nail-exam-practice/catalog"
 import { LOOK_ALIKE_GROUP_COUNT, LOOK_ALIKE_TOPICS, type TopicLookAlikeGroup } from "@/data/nic-domain-practice/word-reels"
@@ -19,6 +28,9 @@ import { playText } from "@/lib/tts"
 import { cn } from "@/lib/utils"
 
 const ROUND_SIZE = 10
+
+const ALL_TOPICS_TITLE = { en: "All topics", zh: "全部主题" } as const
+const BY_TOPIC_TITLE = { en: "By topic", zh: "按主题" } as const
 
 type Phase =
   | { kind: "setup" }
@@ -242,66 +254,56 @@ export function LookAlikeDrill() {
     )
   }
 
-  return page(
+  // Topic picker, in the same clean-list style as the Prov Exam Topics list.
+  return (
     <>
-      <Link
-        href={EXAM_TOPICS_HREF}
-        className="text-lg font-medium text-slate-600 underline-offset-2 hover:underline dark:text-slate-300"
-      >
-        ← {EXAM_TOPICS_TITLE.en}
-        {showChinese && <> | {EXAM_TOPICS_TITLE.zh}</>}
-      </Link>
-      <div>
-        <h1 className="text-3xl font-bold text-slate-900 dark:text-white">
-          {LOOK_ALIKE_TITLE.en}
-          {showChinese && <span className="ml-2 text-xl font-semibold text-slate-400">{LOOK_ALIKE_TITLE.zh}</span>}
-        </h1>
-        <p className="mt-2 text-lg text-slate-600 dark:text-slate-300">
-          {LOOK_ALIKE_DESCRIPTION.en}
-          {showChinese && <span className="block text-base text-slate-500">{LOOK_ALIKE_DESCRIPTION.zh}</span>}
-        </p>
-      </div>
+      <NavigationMenu />
+      <ExamQuizChineseToggle />
+      <CleanListPage>
+        <CleanListBackLink href={EXAM_TOPICS_HREF} title={EXAM_TOPICS_TITLE} showChinese={showChinese} />
+        <CleanListTitle title={LOOK_ALIKE_TITLE} subtitle={`${ROUND_SIZE} questions each time`} showChinese={showChinese} />
 
-      {LOOK_ALIKE_GROUP_COUNT === 0 ? (
-        <p className="rounded-2xl bg-white p-4 text-lg text-slate-600 shadow-sm dark:bg-slate-900 dark:text-slate-300">
-          {bi("Coming soon.", "即将推出。")}
-        </p>
-      ) : (
-        <>
-          <div>
-            <p className="mb-2 text-lg font-semibold text-slate-700 dark:text-slate-200">
-              Tap a topic to start 10 questions{showChinese && " | 点一个主题，开始 10 道题"}
-            </p>
-            <div className="flex flex-col gap-2">
-              {[{ topicId: "all", title: { en: "All topics", zh: "全部主题" }, count: LOOK_ALIKE_GROUP_COUNT }, ...LOOK_ALIKE_TOPICS.map((t) => ({ topicId: t.topicId, title: { en: `${t.order}. ${t.title.en}`, zh: t.title.zh }, count: t.groups.length }))].map((option) => {
-                const all = option.topicId === "all"
-                return (
-                  <button
-                    key={option.topicId}
-                    type="button"
-                    onClick={() => startRound(option.topicId)}
-                    className={cn(
-                      "flex items-center justify-between gap-3 rounded-2xl border-2 px-4 py-3 text-left transition-colors",
-                      all
-                        ? "border-sky-500 bg-sky-50 hover:bg-sky-100 dark:bg-sky-950/40"
-                        : "border-slate-200 bg-white hover:border-sky-300 dark:border-slate-700 dark:bg-slate-900",
-                    )}
-                  >
-                    <span>
-                      <span className="block text-base font-semibold text-slate-900 dark:text-white">{option.title.en}</span>
-                      {showChinese && <span className="block text-sm text-slate-500 dark:text-slate-400">{option.title.zh}</span>}
-                    </span>
-                    <span className="flex shrink-0 items-center gap-2 text-sm text-slate-500 dark:text-slate-400">
-                      {option.count} {option.count === 1 ? "group" : "groups"}
-                      <Play className="size-5 fill-sky-600 text-sky-600" aria-hidden />
-                    </span>
-                  </button>
-                )
-              })}
-            </div>
-          </div>
-        </>
-      )}
-    </>,
+        {LOOK_ALIKE_GROUP_COUNT === 0 ? (
+          <p className="rounded-[18px] bg-white p-4 text-base text-slate-600 dark:bg-slate-800 dark:text-slate-300">
+            {bi("Coming soon.", "即将推出。")}
+          </p>
+        ) : (
+          <>
+            <CleanListGroup>
+              <CleanListButtonRow
+                onClick={() => startRound("all")}
+                badge={
+                  <CleanListBadge className="bg-sky-700 text-white">
+                    <Shuffle />
+                  </CleanListBadge>
+                }
+                title={ALL_TOPICS_TITLE}
+                showChinese={showChinese}
+                trailing={LOOK_ALIKE_GROUP_COUNT}
+              />
+            </CleanListGroup>
+
+            <CleanListSection
+              label={BY_TOPIC_TITLE}
+              showChinese={showChinese}
+              aside={<span className="text-xs font-semibold text-slate-600 dark:text-slate-300">word groups</span>}
+            >
+              <CleanListGroup>
+                {LOOK_ALIKE_TOPICS.map((topic) => (
+                  <CleanListButtonRow
+                    key={topic.topicId}
+                    onClick={() => startRound(topic.topicId)}
+                    badge={<CleanListBadge className={topicBadgeColor(topic.order)}>{topic.order}</CleanListBadge>}
+                    title={EXAM_TOPICS.find((entry) => entry.id === topic.topicId)?.shortTitle ?? topic.title}
+                    showChinese={showChinese}
+                    trailing={topic.groups.length}
+                  />
+                ))}
+              </CleanListGroup>
+            </CleanListSection>
+          </>
+        )}
+      </CleanListPage>
+    </>
   )
 }
