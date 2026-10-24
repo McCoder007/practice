@@ -1,12 +1,24 @@
-import { collection, doc, getDoc, getDocs, getFirestore, limit, orderBy, query, setDoc } from "firebase/firestore"
+import {
+  collection,
+  doc,
+  getDocs,
+  getFirestore,
+  limit,
+  orderBy,
+  query,
+  setDoc,
+  startAfter,
+  updateDoc,
+  type Query,
+  type QueryDocumentSnapshot,
+} from "firebase/firestore"
 
 import { getFirebaseApp } from "@/lib/firebase-app"
 import {
   NAIL_EXAM_ATTEMPTS_COLLECTION,
   NAIL_EXAM_LEARNERS_COLLECTION,
-  applyAttemptScore,
-  buildAttemptWithoutStart,
   buildStartedAttempt,
+  saveCompletedAttempt,
   createActivityThrottle,
   getExistingLearnerId,
   getOrCreateLearnerId,
@@ -101,74 +113,49 @@ export async function reportNailExamCompleted(input: {
 
   const now = Date.now()
   const learnerId = getOrCreateLearnerId(window.localStorage)
-  const ref = doc(col, input.attemptId)
 
-  let attemptWrite: Promise<void>
-  try {
-    const existing = await getDoc(ref)
-    if (existing.exists()) {
-      const started = buildStartedAttempt({
-        attemptId: input.attemptId,
-        learnerId,
-        startedAt: now,
-        bankId: input.bankId,
-        bankName: input.bankName,
-        sessionTitle: input.sessionTitle,
-        isRandom: input.isRandom,
-        questionCount: input.questionCount,
-      })
-      const completed = applyAttemptScore(started, input.correct, now)
-      attemptWrite = setDoc(
-        ref,
-        {
-          correct: completed.correct,
-          completedAt: completed.completedAt,
-          questionCount: completed.questionCount,
-          status: completed.status,
-        },
-        { merge: true },
-      )
-    } else {
-      // The "started" write never landed (offline, dropped, etc). Preserve
-      // the completion and score honestly rather than fabricating a start
-      // time that would show a false ~0-minute duration.
-      const completed = buildAttemptWithoutStart({
-        attemptId: input.attemptId,
-        learnerId,
-        bankId: input.bankId,
-        bankName: input.bankName,
-        sessionTitle: input.sessionTitle,
-        isRandom: input.isRandom,
-        questionCount: input.questionCount,
-        correct: input.correct,
-        completedAt: now,
-      })
-      attemptWrite = setDoc(ref, completed)
-    }
-  } catch (error) {
-    console.error("Failed to report nail exam score:", error)
-    return
-  }
-
+  // Learners can't read attempts, so never check whether the start record
+  // exists first: saveCompletedAttempt writes and falls back on failure.
   const [attemptResult] = await Promise.allSettled([
-    attemptWrite,
+    saveCompletedAttempt(
+      { ...input, learnerId, completedAt: now },
+      {
+        updateScore: (attemptId, fields) => updateDoc(doc(col, attemptId), fields),
+        createCompleted: (attempt) => setDoc(doc(col, attempt.attemptId), attempt),
+      },
+    ),
     reportActivity(window.localStorage, learnerId, now, 0),
   ])
-  if (attemptResult.status === "rejected") {
-    console.error("Failed to report nail exam score:", attemptResult.reason)
+  if (attemptResult.status === "fulfilled" && attemptResult.value === "failed") {
+    console.error("Failed to report nail exam score for attempt", input.attemptId)
   }
 }
 
-export async function loadNailExamAttempts(max = 500): Promise<NailExamAttempt[]> {
+const ATTEMPTS_PAGE_SIZE = 500
+const MAX_ATTEMPT_PAGES = 40
+
+/** Loads every attempt, newest start first, one page at a time. */
+export async function loadNailExamAttempts(): Promise<NailExamAttempt[]> {
   const col = getAttemptsCollection()
   if (!col) {
     throw new Error("Firebase is not configured")
   }
 
-  const snapshot = await getDocs(query(col, orderBy("startedAt", "desc"), limit(max)))
-  return snapshot.docs
-    .map((entry) => parseNailExamAttempt(entry.data()))
-    .filter((attempt): attempt is NailExamAttempt => attempt !== null)
+  const attempts: NailExamAttempt[] = []
+  let cursor: QueryDocumentSnapshot | null = null
+  for (let page = 0; page < MAX_ATTEMPT_PAGES; page += 1) {
+    const pageQuery: Query = cursor
+      ? query(col, orderBy("startedAt", "desc"), startAfter(cursor), limit(ATTEMPTS_PAGE_SIZE))
+      : query(col, orderBy("startedAt", "desc"), limit(ATTEMPTS_PAGE_SIZE))
+    const snapshot = await getDocs(pageQuery)
+    for (const entry of snapshot.docs) {
+      const attempt = parseNailExamAttempt(entry.data())
+      if (attempt) attempts.push(attempt)
+    }
+    if (snapshot.docs.length < ATTEMPTS_PAGE_SIZE) break
+    cursor = snapshot.docs[snapshot.docs.length - 1]
+  }
+  return attempts
 }
 
 export async function loadNailExamLearnerActivity(max = 150): Promise<NailExamLearnerActivity[]> {

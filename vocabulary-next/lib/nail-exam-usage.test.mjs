@@ -4,7 +4,10 @@ import test from "node:test"
 import {
   NAIL_EXAM_ACTIVITY_STORAGE_KEY,
   NAIL_EXAM_LEARNER_ID_STORAGE_KEY,
+  NAIL_EXAM_STALE_ATTEMPT_MS,
   applyAttemptScore,
+  attemptProgress,
+  attemptsToCsv,
   buildAttemptWithoutStart,
   buildStartedAttempt,
   commitRecentActivity,
@@ -21,7 +24,9 @@ import {
   parseNailExamAttempt,
   prepareRecentActivity,
   recentAttemptsPerLearner,
+  saveCompletedAttempt,
   startOfPacificDay,
+  summarizeLearnerTests,
 } from "./nail-exam-usage.ts"
 
 function memoryStorage(initial = {}) {
@@ -299,4 +304,103 @@ test("relative times stay compact on a phone", () => {
   assert.equal(formatRelativeTime(now - 10_000, now), "just now")
   assert.equal(formatRelativeTime(now - 5 * 60_000, now), "5 min ago")
   assert.equal(formatRelativeTime(now - 3 * 3_600_000, now), "3 hr ago")
+})
+
+const finishInput = {
+  attemptId: "a1",
+  learnerId: "learner-1",
+  bankId: "official",
+  bankName: "Official Practice",
+  sessionTitle: "Official Practice Q1–20",
+  isRandom: false,
+  questionCount: 20,
+  correct: 17,
+  completedAt: 5_000,
+}
+
+test("saving a score adds it to the start record without reading first", async () => {
+  const calls = []
+  const result = await saveCompletedAttempt(finishInput, {
+    updateScore: async (attemptId, fields) => { calls.push(["update", attemptId, fields]) },
+    createCompleted: async (attempt) => { calls.push(["create", attempt]) },
+  })
+  assert.equal(result, "updated")
+  assert.deepEqual(calls, [
+    ["update", "a1", { correct: 17, completedAt: 5_000, questionCount: 20, status: "completed" }],
+  ])
+})
+
+test("saving a score creates a completed record when the start record is missing", async () => {
+  const created = []
+  const result = await saveCompletedAttempt(finishInput, {
+    updateScore: async () => { throw new Error("not-found or permission-denied") },
+    createCompleted: async (attempt) => { created.push(attempt) },
+  })
+  assert.equal(result, "created")
+  assert.equal(created.length, 1)
+  assert.equal(created[0].startedAt, null)
+  assert.equal(created[0].correct, 17)
+  assert.equal(created[0].status, "completed")
+  assert.deepEqual(parseNailExamAttempt(created[0]), created[0])
+})
+
+test("saving a score reports failure instead of throwing when both writes fail", async () => {
+  const result = await saveCompletedAttempt(finishInput, {
+    updateScore: async () => { throw new Error("offline") },
+    createCompleted: async () => { throw new Error("offline") },
+  })
+  assert.equal(result, "failed")
+})
+
+test("saving a score keeps correct answers within the question count", async () => {
+  let saved
+  await saveCompletedAttempt({ ...finishInput, correct: 25 }, {
+    updateScore: async (_id, fields) => { saved = fields },
+    createCompleted: async () => {},
+  })
+  assert.equal(saved.correct, 20)
+})
+
+function startedAt(time, overrides = {}) {
+  return buildStartedAttempt({
+    attemptId: `a-${time}`,
+    learnerId: "learner-1",
+    startedAt: time,
+    bankId: "official",
+    bankName: "Official Practice",
+    sessionTitle: "Official Practice Q1–20",
+    isRandom: false,
+    questionCount: 20,
+    ...overrides,
+  })
+}
+
+test("old unfinished exams read as not finished, recent ones as in progress", () => {
+  const now = 10 * NAIL_EXAM_STALE_ATTEMPT_MS
+  assert.equal(attemptProgress(startedAt(now - 60_000), now), "in-progress")
+  assert.equal(attemptProgress(startedAt(now - NAIL_EXAM_STALE_ATTEMPT_MS - 1), now), "not-finished")
+  assert.equal(attemptProgress(applyAttemptScore(startedAt(1), 10, 2), now), "finished")
+})
+
+test("learner summary counts every test and averages only finished ones", () => {
+  const summary = summarizeLearnerTests([
+    applyAttemptScore(startedAt(1), 20, 2),
+    applyAttemptScore(startedAt(3), 10, 4),
+    startedAt(5),
+  ])
+  assert.deepEqual(summary, { total: 3, finished: 2, averagePercent: 75 })
+  assert.deepEqual(summarizeLearnerTests([startedAt(1)]), { total: 1, finished: 0, averagePercent: null })
+})
+
+test("CSV export has one row per test with Pacific times and safe cells", () => {
+  const start = Date.parse("2026-10-23T19:00:00Z")
+  const finished = applyAttemptScore(startedAt(start), 18, start + 5 * 60_000)
+  const tricky = startedAt(start, { attemptId: "a-2", sessionTitle: '=HYPERLINK("x"), Q1' })
+  const csv = attemptsToCsv([finished, tricky], start + 1000)
+  const lines = csv.split("\r\n")
+  assert.equal(lines.length, 3)
+  assert.match(lines[0], /^Learner,Learner ID,Test,/)
+  assert.ok(lines[1].includes("2026-10-23 12:00,2026-10-23 12:05,5,18,20,90,Finished"))
+  assert.ok(lines[2].includes(`"'=HYPERLINK(""x""), Q1"`))
+  assert.ok(lines[2].endsWith(",,20,,In progress"))
 })
