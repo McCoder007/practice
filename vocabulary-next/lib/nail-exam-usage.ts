@@ -205,6 +205,56 @@ export function applyAttemptScore(
   }
 }
 
+export type CompletedScoreFields = Pick<NailExamAttempt, "correct" | "completedAt" | "questionCount" | "status">
+
+export type CompletedAttemptWriters = {
+  /** Adds the score to the existing "started" record. Rejects if there is none. */
+  updateScore: (attemptId: string, fields: CompletedScoreFields) => Promise<void>
+  /** Creates a full completed record when no "started" record exists. */
+  createCompleted: (attempt: NailExamAttempt) => Promise<void>
+}
+
+/**
+ * Saves a finished exam's score. Learners are not allowed to read attempts
+ * (only admins can), so this must never check first: it tries to add the
+ * score to the "started" record, and if that fails (usually because the start
+ * never saved), it creates a completed record instead.
+ */
+export async function saveCompletedAttempt(
+  input: {
+    attemptId: string
+    learnerId: string
+    bankId: string
+    bankName: string
+    sessionTitle: string
+    isRandom: boolean
+    questionCount: number
+    correct: number
+    completedAt: number
+  },
+  writers: CompletedAttemptWriters,
+): Promise<"updated" | "created" | "failed"> {
+  const questionCount = Math.max(1, Math.floor(input.questionCount))
+  const fields: CompletedScoreFields = {
+    correct: Math.min(questionCount, Math.max(0, Math.floor(input.correct))),
+    completedAt: input.completedAt,
+    questionCount,
+    status: "completed",
+  }
+  try {
+    await writers.updateScore(input.attemptId, fields)
+    return "updated"
+  } catch {
+    // Fall through: the start record is most likely missing.
+  }
+  try {
+    await writers.createCompleted(buildAttemptWithoutStart(input))
+    return "created"
+  } catch {
+    return "failed"
+  }
+}
+
 export function parseNailExamAttempt(value: unknown): NailExamAttempt | null {
   if (!value || typeof value !== "object") return null
   const record = value as Record<string, unknown>
@@ -316,6 +366,107 @@ export function formatDuration(startedAt: number | null, completedAt: number | n
 export function formatScore(attempt: NailExamAttempt): string {
   if (attempt.status !== "completed" || attempt.correct === null) return "In progress"
   return `${attempt.correct} / ${attempt.questionCount}`
+}
+
+/** An unfinished exam older than this is shown as "Not finished", not "In progress". */
+export const NAIL_EXAM_STALE_ATTEMPT_MS = 3 * 60 * 60 * 1000
+
+export type AttemptProgress = "finished" | "in-progress" | "not-finished"
+
+export function attemptProgress(attempt: NailExamAttempt, now: number = Date.now()): AttemptProgress {
+  if (attempt.status === "completed" && attempt.correct !== null) return "finished"
+  const startedAt = attempt.startedAt ?? 0
+  return now - startedAt > NAIL_EXAM_STALE_ATTEMPT_MS ? "not-finished" : "in-progress"
+}
+
+export function attemptScorePercent(attempt: NailExamAttempt): number | null {
+  if (attempt.status !== "completed" || attempt.correct === null) return null
+  return Math.round((attempt.correct / attempt.questionCount) * 100)
+}
+
+export type LearnerTestSummary = {
+  total: number
+  finished: number
+  averagePercent: number | null
+}
+
+export function summarizeLearnerTests(attempts: NailExamAttempt[]): LearnerTestSummary {
+  const percents = attempts.map(attemptScorePercent).filter((percent): percent is number => percent !== null)
+  return {
+    total: attempts.length,
+    finished: percents.length,
+    averagePercent: percents.length
+      ? Math.round(percents.reduce((total, percent) => total + percent, 0) / percents.length)
+      : null,
+  }
+}
+
+function formatPacificDateTime(timestamp: number | null): string {
+  if (timestamp === null) return ""
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: NAIL_EXAM_REPORTING_TIME_ZONE,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+  }).formatToParts(timestamp)
+  const values = Object.fromEntries(parts.map((part) => [part.type, part.value]))
+  return `${values.year}-${values.month}-${values.day} ${values.hour}:${values.minute}`
+}
+
+function csvCell(value: string | number | null): string {
+  let text = value === null ? "" : String(value)
+  // Attempt records are written by browsers, so stop a spreadsheet from
+  // treating a value as a formula.
+  if (/^[=+\-@\t\r]/.test(text)) text = `'${text}`
+  return /[",\n\r]/.test(text) ? `"${text.replace(/"/g, '""')}"` : text
+}
+
+const PROGRESS_LABELS: Record<AttemptProgress, string> = {
+  finished: "Finished",
+  "in-progress": "In progress",
+  "not-finished": "Not finished",
+}
+
+/** Every attempt as CSV rows for a spreadsheet. Times are Pacific. */
+export function attemptsToCsv(attempts: NailExamAttempt[], now: number = Date.now()): string {
+  const header = [
+    "Learner",
+    "Learner ID",
+    "Test",
+    "Question bank",
+    "Random draw",
+    "Started (Pacific)",
+    "Finished (Pacific)",
+    "Minutes",
+    "Correct",
+    "Questions",
+    "Score %",
+    "Status",
+  ]
+  const rows = attempts.map((attempt) => {
+    const minutes =
+      attempt.startedAt !== null && attempt.completedAt !== null
+        ? Math.max(0, Math.round((attempt.completedAt - attempt.startedAt) / 60_000))
+        : null
+    return [
+      learnerAlias(attempt.learnerId),
+      attempt.learnerId,
+      attempt.sessionTitle,
+      attempt.bankName,
+      attempt.isRandom ? "Yes" : "No",
+      formatPacificDateTime(attempt.startedAt),
+      formatPacificDateTime(attempt.completedAt),
+      minutes,
+      attempt.correct,
+      attempt.questionCount,
+      attemptScorePercent(attempt),
+      PROGRESS_LABELS[attemptProgress(attempt, now)],
+    ]
+  })
+  return [header, ...rows].map((row) => row.map(csvCell).join(",")).join("\r\n")
 }
 
 function timeZoneOffsetAt(timestamp: number, timeZone: string): number {
