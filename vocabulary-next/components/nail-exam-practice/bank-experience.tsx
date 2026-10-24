@@ -6,6 +6,7 @@ import Link from "next/link"
 
 import { CheckCircle2, Layers, ListChecks, Trash2 } from "lucide-react"
 
+import { NailExamBankListMenu, type BankListHeader } from "@/components/nail-exam-practice/bank-list-menu"
 import { NailExamMultipleChoiceSession } from "@/components/nail-exam-practice/multiple-choice-session"
 import { NailExamStudyCardsSession } from "@/components/nail-exam-practice/study-cards-session"
 import { NavigationMenu } from "@/components/NavigationMenu"
@@ -112,6 +113,7 @@ export function NailExamBankExperience({
   chineseToggleFixed,
   shuffleQuestionOrder = false,
   topSlot,
+  listHeader,
 }: {
   bankId: NailExamBankId
   showChinese: boolean
@@ -121,6 +123,8 @@ export function NailExamBankExperience({
   shuffleQuestionOrder?: boolean
   /** Shown under the bank title, above the study options (e.g. a word reel card). */
   topSlot?: ReactNode
+  /** When set, the bank screen uses the clean-list layout with this title. */
+  listHeader?: BankListHeader
 }) {
   const bank = getNailExamBank(bankId)
   const groups = bankGroupCards(bank)
@@ -305,6 +309,37 @@ export function NailExamBankExperience({
         }}
         onExit={() => setSession(null)}
       />
+    )
+  }
+
+  if (listHeader) {
+    return (
+      <>
+        <NavigationMenu />
+        {chineseToggleFixed}
+        <NailExamBankListMenu
+          bank={bank}
+          header={listHeader}
+          backHref={backHref}
+          backTitle={backTitle}
+          groups={groups}
+          groupHistory={groupHistory}
+          format={format}
+          onFormatChange={changeFormat}
+          loading={loading}
+          showChinese={showChinese}
+          topSlot={topSlot}
+          onStartGroup={(range) => startGroup(range.offset, range.start, range.end, range.label)}
+          onStartRandom={(option) =>
+            void beginMultipleChoice(option.title, (pool) => drawRandomOption(pool, bank, option), true)
+          }
+          onClearHistory={() => {
+            const confirmed = window.confirm("Clear your Quiz scores for this topic?\n清除此主题的选择题成绩吗？")
+            if (!confirmed) return
+            setGroupHistory(clearNailExamBankHistory(window.localStorage, groupHistory, bank.id))
+          }}
+        />
+      </>
     )
   }
 
