@@ -10,11 +10,23 @@ import {
   setDoc,
   startAfter,
   updateDoc,
+  type DocumentData,
+  type Firestore,
   type Query,
   type QueryDocumentSnapshot,
+  type UpdateData,
 } from "firebase/firestore"
 
 import { getFirebaseApp } from "@/lib/firebase-app"
+import { isGoogleReachable } from "@/lib/google-reachability"
+import {
+  queueInsightsWrite,
+  readOutbox,
+  removeFromOutbox,
+  saveOutbox,
+  shouldRetryLater,
+  type OutboxWrite,
+} from "@/lib/insights-outbox"
 import {
   NAIL_EXAM_PRACTICE_SESSIONS_COLLECTION,
   parsePracticeSession,
@@ -25,6 +37,7 @@ import {
   NAIL_EXAM_ATTEMPTS_COLLECTION,
   NAIL_EXAM_LEARNERS_COLLECTION,
   NAIL_EXAM_LEARNER_NAMES_COLLECTION,
+  buildCompletedAttemptWrites,
   buildProgressFields,
   buildStartedAttempt,
   cleanLearnerName,
@@ -35,16 +48,11 @@ import {
   getOrCreateLearnerId,
   parseNailExamLearnerActivity,
   parseNailExamAttempt,
+  type CompletedAttemptInput,
   type MissedQuestion,
   type NailExamAttempt,
   type NailExamLearnerActivity,
 } from "@/lib/nail-exam-usage"
-
-function getAttemptsCollection() {
-  const app = getFirebaseApp()
-  if (!app) return null
-  return collection(getFirestore(app), NAIL_EXAM_ATTEMPTS_COLLECTION)
-}
 
 function getLearnersCollection() {
   const app = getFirebaseApp()
@@ -52,13 +60,92 @@ function getLearnersCollection() {
   return collection(getFirestore(app), NAIL_EXAM_LEARNERS_COLLECTION)
 }
 
+/**
+ * Where learner writes go: Firestore when Google can be reached, otherwise the
+ * outbox on this phone. In mainland China Firebase is never started, so it
+ * can't keep retrying in the background. Null when Firebase isn't configured.
+ */
+async function learnerWriteTarget(): Promise<Firestore | "outbox" | null> {
+  const app = getFirebaseApp()
+  if (!app) return null
+  if (!(await isGoogleReachable())) return "outbox"
+  const db = getFirestore(app)
+  // Older saved writes go first, so a score never lands before its start.
+  await flushOutbox(db)
+  return db
+}
+
+function sendWrite(db: Firestore, write: Pick<OutboxWrite, "collection" | "id" | "op" | "data">): Promise<void> {
+  const ref = doc(collection(db, write.collection), write.id)
+  return write.op === "set" ? setDoc(ref, write.data) : updateDoc(ref, write.data as UpdateData<DocumentData>)
+}
+
+async function writeLearnerDoc(write: OutboxWrite): Promise<void> {
+  const target = await learnerWriteTarget()
+  if (!target) return
+  if (target === "outbox") {
+    try {
+      queueInsightsWrite(window.localStorage, write)
+    } catch {
+      // Storage blocked: this insight is lost, the app keeps working.
+    }
+    return
+  }
+  await sendWrite(target, write)
+}
+
+// A write that never answers (flaky connection) is tried again on a later flush.
+const FLUSH_WRITE_TIMEOUT_MS = 15_000
+let flushing: Promise<void> | null = null
+
+function withTimeout<T>(promise: Promise<T>, ms: number): Promise<T> {
+  return new Promise((resolve, reject) => {
+    const timer = window.setTimeout(() => reject(new Error("Timed out")), ms)
+    promise.then(resolve, reject).finally(() => window.clearTimeout(timer))
+  })
+}
+
+/**
+ * Sends writes saved while Google couldn't be reached, oldest first. Stops at
+ * the first one worth trying again later. Writes the server refuses (e.g. an
+ * older copy of a record already saved) are dropped so they can't block the rest.
+ */
+function flushOutbox(db: Firestore): Promise<void> {
+  flushing ??= sendOutbox(db).finally(() => {
+    flushing = null
+  })
+  return flushing
+}
+
+async function sendOutbox(db: Firestore): Promise<void> {
+  try {
+    const storage = window.localStorage
+    for (const write of readOutbox(storage)) {
+      try {
+        await withTimeout(sendWrite(db, write), FLUSH_WRITE_TIMEOUT_MS)
+      } catch (error) {
+        if (shouldRetryLater(error)) return
+        if (write.fallback) {
+          try {
+            await withTimeout(sendWrite(db, { ...write, op: "set", data: write.fallback }), FLUSH_WRITE_TIMEOUT_MS)
+          } catch (fallbackError) {
+            if (shouldRetryLater(fallbackError)) return
+          }
+        }
+      }
+      saveOutbox(storage, removeFromOutbox(readOutbox(storage), write))
+    }
+  } catch {
+    // Storage blocked: nothing was queued.
+  }
+}
+
 async function writeLearnerActivity(learnerId: string, recentActiveAt: number[]): Promise<void> {
-  const col = getLearnersCollection()
-  if (!col) return
-  await setDoc(doc(col, learnerId), {
-    learnerId,
-    lastActiveAt: recentActiveAt[0],
-    recentActiveAt,
+  await writeLearnerDoc({
+    collection: NAIL_EXAM_LEARNERS_COLLECTION,
+    id: learnerId,
+    op: "set",
+    data: { learnerId, lastActiveAt: recentActiveAt[0], recentActiveAt },
   })
 }
 
@@ -89,8 +176,7 @@ export async function reportNailExamStarted(input: {
   isRandom: boolean
   questionCount: number
 }): Promise<void> {
-  const col = getAttemptsCollection()
-  if (!col || typeof window === "undefined") return
+  if (typeof window === "undefined" || !getFirebaseApp()) return
 
   const learnerId = getOrCreateLearnerId(window.localStorage)
   const startedAt = Date.now()
@@ -103,7 +189,7 @@ export async function reportNailExamStarted(input: {
   // The attempt write and the activity-summary write are independent: one
   // failing must not roll back or block the other.
   const [attemptResult] = await Promise.allSettled([
-    setDoc(doc(col, attempt.attemptId), attempt),
+    writeLearnerDoc({ collection: NAIL_EXAM_ATTEMPTS_COLLECTION, id: attempt.attemptId, op: "set", data: attempt }),
     reportActivity(window.localStorage, learnerId, startedAt),
   ])
   if (attemptResult.status === "rejected") {
@@ -122,8 +208,7 @@ export async function reportNailExamCompleted(input: {
   skipped?: number
   missed?: MissedQuestion[]
 }): Promise<void> {
-  const col = getAttemptsCollection()
-  if (!col || typeof window === "undefined") return
+  if (typeof window === "undefined" || !getFirebaseApp()) return
 
   const now = Date.now()
   const learnerId = getOrCreateLearnerId(window.localStorage)
@@ -131,18 +216,38 @@ export async function reportNailExamCompleted(input: {
   // Learners can't read attempts, so never check whether the start record
   // exists first: saveCompletedAttempt writes and falls back on failure.
   const [attemptResult] = await Promise.allSettled([
-    saveCompletedAttempt(
-      { ...input, learnerId, completedAt: now },
-      {
-        updateScore: (attemptId, fields) => updateDoc(doc(col, attemptId), fields),
-        createCompleted: (attempt) => setDoc(doc(col, attempt.attemptId), attempt),
-      },
-    ),
+    saveCompletedScore({ ...input, learnerId, completedAt: now }),
     reportActivity(window.localStorage, learnerId, now, 0),
   ])
   if (attemptResult.status === "fulfilled" && attemptResult.value === "failed") {
     console.error("Failed to report nail exam score for attempt", input.attemptId)
   }
+}
+
+async function saveCompletedScore(input: CompletedAttemptInput): Promise<"updated" | "created" | "failed" | "queued"> {
+  const target = await learnerWriteTarget()
+  if (!target) return "failed"
+  if (target === "outbox") {
+    // Saved with the same fallback, used when the outbox is sent.
+    const { fields, attempt } = buildCompletedAttemptWrites(input)
+    try {
+      queueInsightsWrite(window.localStorage, {
+        collection: NAIL_EXAM_ATTEMPTS_COLLECTION,
+        id: input.attemptId,
+        op: "update",
+        data: fields,
+        fallback: attempt,
+      })
+    } catch {
+      return "failed"
+    }
+    return "queued"
+  }
+  const col = collection(target, NAIL_EXAM_ATTEMPTS_COLLECTION)
+  return saveCompletedAttempt(input, {
+    updateScore: (attemptId, fields) => updateDoc(doc(col, attemptId), fields),
+    createCompleted: (attempt) => setDoc(doc(col, attempt.attemptId), attempt),
+  })
 }
 
 /**
@@ -156,10 +261,13 @@ export async function reportNailExamProgress(input: {
   correctSoFar: number
   questionCount: number
 }): Promise<void> {
-  const col = getAttemptsCollection()
-  if (!col) return
   try {
-    await updateDoc(doc(col, input.attemptId), buildProgressFields({ ...input, at: Date.now() }))
+    await writeLearnerDoc({
+      collection: NAIL_EXAM_ATTEMPTS_COLLECTION,
+      id: input.attemptId,
+      op: "update",
+      data: buildProgressFields({ ...input, at: Date.now() }),
+    })
   } catch {
     // Progress is a nice-to-have; the finished score is saved separately.
   }
@@ -190,9 +298,12 @@ function getCollection(name: string) {
 
 /** Writes the whole session record (creates it the first time). */
 export async function writePracticeSession(record: PracticeSession): Promise<void> {
-  const col = getCollection(NAIL_EXAM_PRACTICE_SESSIONS_COLLECTION)
-  if (!col) return
-  await setDoc(doc(col, record.sessionId), toStoredPracticeSession(record))
+  await writeLearnerDoc({
+    collection: NAIL_EXAM_PRACTICE_SESSIONS_COLLECTION,
+    id: record.sessionId,
+    op: "set",
+    data: toStoredPracticeSession(record),
+  })
 }
 
 /** Learner ID for this browser, created on first use. */

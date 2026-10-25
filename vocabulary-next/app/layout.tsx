@@ -81,18 +81,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           id="google-tts-script"
         />
 
-        {/* Firebase SDK scripts (for analytics) */}
-        <Script
-          src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"
-          strategy="afterInteractive"
-          id="firebase-app-script"
-        />
-        <Script
-          src="https://www.gstatic.com/firebasejs/9.22.0/firebase-analytics-compat.js"
-          strategy="afterInteractive"
-          id="firebase-analytics-script"
-        />
-
         {/* Inject API Key directly after google-tts.js loads */}
         {googleTtsApiKey && (
           <Script
