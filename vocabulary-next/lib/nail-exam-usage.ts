@@ -277,28 +277,25 @@ export type CompletedAttemptWriters = {
   createCompleted: (attempt: StoredCompletedAttempt) => Promise<void>
 }
 
-/**
- * Saves a finished exam's score. Learners are not allowed to read attempts
- * (only admins can), so this must never check first: it tries to add the
- * score to the "started" record, and if that fails (usually because the start
- * never saved), it creates a completed record instead.
- */
-export async function saveCompletedAttempt(
-  input: {
-    attemptId: string
-    learnerId: string
-    bankId: string
-    bankName: string
-    sessionTitle: string
-    isRandom: boolean
-    questionCount: number
-    correct: number
-    completedAt: number
-    skipped?: number
-    missed?: MissedQuestion[]
-  },
-  writers: CompletedAttemptWriters,
-): Promise<"updated" | "created" | "failed"> {
+export type CompletedAttemptInput = {
+  attemptId: string
+  learnerId: string
+  bankId: string
+  bankName: string
+  sessionTitle: string
+  isRandom: boolean
+  questionCount: number
+  correct: number
+  completedAt: number
+  skipped?: number
+  missed?: MissedQuestion[]
+}
+
+/** The score to add to a "started" record, and the full record to create if there is none. */
+export function buildCompletedAttemptWrites(input: CompletedAttemptInput): {
+  fields: CompletedScoreFields
+  attempt: StoredCompletedAttempt
+} {
   const questionCount = Math.max(1, Math.floor(input.questionCount))
   const fields: CompletedScoreFields = {
     correct: Math.min(questionCount, Math.max(0, Math.floor(input.correct))),
@@ -308,6 +305,23 @@ export async function saveCompletedAttempt(
     skipped: Math.min(questionCount, Math.max(0, Math.floor(input.skipped ?? 0))),
     missed: serializeMissedQuestions(input.missed),
   }
+  return {
+    fields,
+    attempt: { ...buildAttemptWithoutStart(input), skipped: fields.skipped, missed: fields.missed },
+  }
+}
+
+/**
+ * Saves a finished exam's score. Learners are not allowed to read attempts
+ * (only admins can), so this must never check first: it tries to add the
+ * score to the "started" record, and if that fails (usually because the start
+ * never saved), it creates a completed record instead.
+ */
+export async function saveCompletedAttempt(
+  input: CompletedAttemptInput,
+  writers: CompletedAttemptWriters,
+): Promise<"updated" | "created" | "failed"> {
+  const { fields, attempt } = buildCompletedAttemptWrites(input)
   try {
     await writers.updateScore(input.attemptId, fields)
     return "updated"
@@ -315,11 +329,7 @@ export async function saveCompletedAttempt(
     // Fall through: the start record is most likely missing.
   }
   try {
-    await writers.createCompleted({
-      ...buildAttemptWithoutStart(input),
-      skipped: fields.skipped,
-      missed: fields.missed,
-    })
+    await writers.createCompleted(attempt)
     return "created"
   } catch {
     return "failed"

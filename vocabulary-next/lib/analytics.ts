@@ -1,6 +1,7 @@
 // Firebase Analytics implementation for React app
 import { getAnalytics, logEvent as firebaseLogEvent, isSupported } from 'firebase/analytics';
 import { getFirebaseApp } from '@/lib/firebase-app';
+import { isGoogleReachable } from '@/lib/google-reachability';
 
 // Flag to prevent initializing Firebase multiple times
 let isAnalyticsInitialized = false;
@@ -51,6 +52,11 @@ export const initializeAnalytics = async () => {
   try {
     const app = getFirebaseApp();
     if (!app) {
+      return null;
+    }
+    // Where Google is blocked (e.g. mainland China), don't start Analytics:
+    // its scripts would hang and keep retrying. Those events are not kept.
+    if (!(await isGoogleReachable())) {
       return null;
     }
     // Check if analytics is supported in this environment
