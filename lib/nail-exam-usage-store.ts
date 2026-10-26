@@ -2,6 +2,8 @@ import {
   collection,
   deleteDoc,
   doc,
+  disableNetwork,
+  enableNetwork,
   getDocs,
   getFirestore,
   limit,
@@ -18,13 +20,13 @@ import {
 } from "firebase/firestore"
 
 import { getFirebaseApp } from "@/lib/firebase-app"
-import { isGoogleReachable } from "@/lib/google-reachability"
+import { isGoogleReachable, markGoogleUnreachable } from "@/lib/google-reachability"
 import {
-  queueInsightsWrite,
-  readOutbox,
-  removeFromOutbox,
-  saveOutbox,
-  shouldRetryLater,
+  deliverWrite,
+  listOutbox,
+  moveLegacyOutbox,
+  queueOutboxWrite,
+  removeSentWrite,
   type OutboxWrite,
 } from "@/lib/insights-outbox"
 import {
@@ -42,13 +44,11 @@ import {
   buildStartedAttempt,
   cleanLearnerName,
   parseLearnerName,
-  saveCompletedAttempt,
   createActivityThrottle,
   getExistingLearnerId,
   getOrCreateLearnerId,
   parseNailExamLearnerActivity,
   parseNailExamAttempt,
-  type CompletedAttemptInput,
   type MissedQuestion,
   type NailExamAttempt,
   type NailExamLearnerActivity,
@@ -60,43 +60,34 @@ function getLearnersCollection() {
   return collection(getFirestore(app), NAIL_EXAM_LEARNERS_COLLECTION)
 }
 
-/**
- * Where learner writes go: Firestore when Google can be reached, otherwise the
- * outbox on this phone. In mainland China Firebase is never started, so it
- * can't keep retrying in the background. Null when Firebase isn't configured.
- */
-async function learnerWriteTarget(): Promise<Firestore | "outbox" | null> {
-  const app = getFirebaseApp()
-  if (!app) return null
-  if (!(await isGoogleReachable())) return "outbox"
-  const db = getFirestore(app)
-  // Older saved writes go first, so a score never lands before its start.
-  await flushOutbox(db)
-  return db
-}
-
 function sendWrite(db: Firestore, write: Pick<OutboxWrite, "collection" | "id" | "op" | "data">): Promise<void> {
   const ref = doc(collection(db, write.collection), write.id)
   return write.op === "set" ? setDoc(ref, write.data) : updateDoc(ref, write.data as UpdateData<DocumentData>)
 }
 
+/**
+ * Saves a learner write on this phone first, then tries to send everything
+ * saved. Writes are deleted only after Firestore confirms them, so nothing is
+ * lost when Google is blocked (mainland China) or the connection drops.
+ */
 async function writeLearnerDoc(write: OutboxWrite): Promise<void> {
-  const target = await learnerWriteTarget()
-  if (!target) return
-  if (target === "outbox") {
-    try {
-      queueInsightsWrite(window.localStorage, write)
-    } catch {
-      // Storage blocked: this insight is lost, the app keeps working.
-    }
+  const app = getFirebaseApp()
+  if (!app) return
+  try {
+    await queueOutboxWrite(write)
+  } catch {
+    // IndexedDB unavailable (rare): send directly, without the safety net.
+    if (await isGoogleReachable()) await sendWrite(getFirestore(app), write)
     return
   }
-  await sendWrite(target, write)
+  void flushOutbox()
 }
 
-// A write that never answers (flaky connection) is tried again on a later flush.
-const FLUSH_WRITE_TIMEOUT_MS = 15_000
+// A write that never answers (flaky connection) is tried again later.
+const SEND_TIMEOUT_MS = 15_000
 let flushing: Promise<void> | null = null
+let networkOff = false
+let legacyMoved = false
 
 function withTimeout<T>(promise: Promise<T>, ms: number): Promise<T> {
   return new Promise((resolve, reject) => {
@@ -105,38 +96,54 @@ function withTimeout<T>(promise: Promise<T>, ms: number): Promise<T> {
   })
 }
 
-/**
- * Sends writes saved while Google couldn't be reached, oldest first. Stops at
- * the first one worth trying again later. Writes the server refuses (e.g. an
- * older copy of a record already saved) are dropped so they can't block the rest.
- */
-function flushOutbox(db: Firestore): Promise<void> {
-  flushing ??= sendOutbox(db).finally(() => {
+function flushOutbox(): Promise<void> {
+  flushing ??= sendOutbox().finally(() => {
     flushing = null
   })
   return flushing
 }
 
-async function sendOutbox(db: Firestore): Promise<void> {
+/**
+ * Sends saved writes oldest first (so a score never lands before its start),
+ * then any added meanwhile. Stops at the first network problem; the rest wait
+ * for the next write or app open. Writes the server refuses (e.g. an older
+ * copy of a record already saved) are dropped so they can't block the rest.
+ * Firebase is only started once Google answers, so in mainland China it never
+ * retries in the background.
+ */
+async function sendOutbox(): Promise<void> {
+  const app = getFirebaseApp()
+  if (!app) return
   try {
-    const storage = window.localStorage
-    for (const write of readOutbox(storage)) {
-      try {
-        await withTimeout(sendWrite(db, write), FLUSH_WRITE_TIMEOUT_MS)
-      } catch (error) {
-        if (shouldRetryLater(error)) return
-        if (write.fallback) {
-          try {
-            await withTimeout(sendWrite(db, { ...write, op: "set", data: write.fallback }), FLUSH_WRITE_TIMEOUT_MS)
-          } catch (fallbackError) {
-            if (shouldRetryLater(fallbackError)) return
-          }
+    if (!legacyMoved) {
+      legacyMoved = true
+      await moveLegacyOutbox(window.localStorage)
+    }
+    if (!(await isGoogleReachable())) return
+    const db = getFirestore(app)
+    if (networkOff) {
+      await enableNetwork(db)
+      networkOff = false
+    }
+    for (let pass = 0; pass < 5; pass += 1) {
+      const writes = await listOutbox()
+      if (writes.length === 0) return
+      for (const write of writes) {
+        const result = await deliverWrite(write, (op, data) =>
+          withTimeout(sendWrite(db, { ...write, op, data }), SEND_TIMEOUT_MS),
+        )
+        if (result === "retry") {
+          // Leave Google alone for a while, and stop the SDK retrying meanwhile.
+          markGoogleUnreachable()
+          networkOff = true
+          void disableNetwork(db).catch(() => {})
+          return
         }
+        await removeSentWrite(write)
       }
-      saveOutbox(storage, removeFromOutbox(readOutbox(storage), write))
     }
   } catch {
-    // Storage blocked: nothing was queued.
+    // Storage failed part-way: whatever is still saved is tried next time.
   }
 }
 
@@ -151,7 +158,7 @@ async function writeLearnerActivity(learnerId: string, recentActiveAt: number[])
 
 // Shared across all call sites so overlapping reports (e.g. focus and
 // visibilitychange firing together) collapse into one in-flight write, and
-// the local throttle only advances once that write actually succeeds.
+// the local throttle only advances once that write is saved on the phone.
 const reportActivity = createActivityThrottle(async (learnerId, recentActiveAt) => {
   try {
     await writeLearnerActivity(learnerId, recentActiveAt)
@@ -163,6 +170,8 @@ const reportActivity = createActivityThrottle(async (learnerId, recentActiveAt) 
 
 export async function reportNailExamAppActivity(): Promise<void> {
   if (typeof window === "undefined") return
+  // Each app open also sends anything still saved from earlier.
+  void flushOutbox()
   const learnerId = getExistingLearnerId(window.localStorage)
   if (!learnerId) return
   await reportActivity(window.localStorage, learnerId, Date.now())
@@ -213,41 +222,22 @@ export async function reportNailExamCompleted(input: {
   const now = Date.now()
   const learnerId = getOrCreateLearnerId(window.localStorage)
 
-  // Learners can't read attempts, so never check whether the start record
-  // exists first: saveCompletedAttempt writes and falls back on failure.
+  // The score is added to the start record. If that record is missing when
+  // it is sent, the fallback creates a completed record instead.
+  const { fields, attempt } = buildCompletedAttemptWrites({ ...input, learnerId, completedAt: now })
   const [attemptResult] = await Promise.allSettled([
-    saveCompletedScore({ ...input, learnerId, completedAt: now }),
+    writeLearnerDoc({
+      collection: NAIL_EXAM_ATTEMPTS_COLLECTION,
+      id: input.attemptId,
+      op: "update",
+      data: fields,
+      fallback: attempt,
+    }),
     reportActivity(window.localStorage, learnerId, now, 0),
   ])
-  if (attemptResult.status === "fulfilled" && attemptResult.value === "failed") {
-    console.error("Failed to report nail exam score for attempt", input.attemptId)
+  if (attemptResult.status === "rejected") {
+    console.error("Failed to report nail exam score:", attemptResult.reason)
   }
-}
-
-async function saveCompletedScore(input: CompletedAttemptInput): Promise<"updated" | "created" | "failed" | "queued"> {
-  const target = await learnerWriteTarget()
-  if (!target) return "failed"
-  if (target === "outbox") {
-    // Saved with the same fallback, used when the outbox is sent.
-    const { fields, attempt } = buildCompletedAttemptWrites(input)
-    try {
-      queueInsightsWrite(window.localStorage, {
-        collection: NAIL_EXAM_ATTEMPTS_COLLECTION,
-        id: input.attemptId,
-        op: "update",
-        data: fields,
-        fallback: attempt,
-      })
-    } catch {
-      return "failed"
-    }
-    return "queued"
-  }
-  const col = collection(target, NAIL_EXAM_ATTEMPTS_COLLECTION)
-  return saveCompletedAttempt(input, {
-    updateScore: (attemptId, fields) => updateDoc(doc(col, attemptId), fields),
-    createCompleted: (attempt) => setDoc(doc(col, attempt.attemptId), attempt),
-  })
 }
 
 /**
