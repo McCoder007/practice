@@ -1,82 +1,49 @@
 import assert from "node:assert/strict"
 import test from "node:test"
 
-import {
-  INSIGHTS_OUTBOX_MAX_WRITES,
-  INSIGHTS_OUTBOX_STORAGE_KEY,
-  addToOutbox,
-  queueInsightsWrite,
-  readOutbox,
-  removeFromOutbox,
-  shouldRetryLater,
-} from "./insights-outbox.ts"
+import { combineWrites, deliverWrite, isOutboxWrite, isSameWrite, shouldRetryLater } from "./insights-outbox.ts"
 import { GOOGLE_UNREACHABLE_RETRY_MS, isRecentFailure } from "./google-reachability.ts"
 
-function memoryStorage(initial = {}) {
-  const values = new Map(Object.entries(initial))
-  return {
-    getItem: (key) => (values.has(key) ? values.get(key) : null),
-    setItem: (key, value) => values.set(key, String(value)),
-  }
+const start = { collection: "nailExamAttempts", id: "a1", op: "set", data: { status: "started", startedAt: 1 } }
+const progress = { collection: "nailExamAttempts", id: "a1", op: "update", data: { answered: 3, correctSoFar: 2 } }
+const score = {
+  collection: "nailExamAttempts",
+  id: "a1",
+  op: "update",
+  data: { status: "completed", correct: 8 },
+  fallback: { status: "completed", startedAt: null },
 }
 
-const start = { collection: "nailExamAttempts", id: "a1", op: "set", data: { status: "started", startedAt: 1 } }
-
-test("a repeated set to the same document replaces the queued one in place", () => {
+test("a repeated set to the same document replaces the queued one", () => {
   const session1 = { collection: "nailExamPracticeSessions", id: "s1", op: "set", data: { activeSeconds: 30 } }
   const session2 = { ...session1, data: { activeSeconds: 60 } }
-  const writes = addToOutbox(addToOutbox(addToOutbox([], session1), start), session2)
-  assert.deepEqual(writes, [session2, start])
+  assert.deepEqual(combineWrites(session1, session2), session2)
 })
 
-test("updates after a set stay separate and in order, and later updates merge", () => {
-  const progress = { collection: "nailExamAttempts", id: "a1", op: "update", data: { answered: 3, correctSoFar: 2 } }
-  const score = {
-    collection: "nailExamAttempts",
-    id: "a1",
-    op: "update",
-    data: { status: "completed", correct: 8 },
-    fallback: { status: "completed", startedAt: null },
-  }
-  const writes = addToOutbox(addToOutbox(addToOutbox([], start), progress), score)
-  assert.equal(writes.length, 2)
-  assert.deepEqual(writes[0], start)
-  assert.deepEqual(writes[1].data, { answered: 3, correctSoFar: 2, status: "completed", correct: 8 })
-  assert.deepEqual(writes[1].fallback, score.fallback)
+test("later updates merge into the queued update and keep its fallback", () => {
+  const combined = combineWrites(progress, score)
+  assert.deepEqual(combined.data, { answered: 3, correctSoFar: 2, status: "completed", correct: 8 })
+  assert.deepEqual(combined.fallback, score.fallback)
+  assert.deepEqual(combineWrites(score, { ...progress, data: { answered: 4 } }).fallback, score.fallback)
 })
 
-test("a set after an update on the same document is queued after it", () => {
-  const update = { collection: "c", id: "d", op: "update", data: { a: 1 } }
-  const set = { collection: "c", id: "d", op: "set", data: { a: 2 } }
-  assert.deepEqual(addToOutbox([update], set), [update, set])
+test("a set and an update stay separate, and other documents never combine", () => {
+  assert.equal(combineWrites(start, progress), null)
+  assert.equal(combineWrites(progress, start), null)
+  assert.equal(combineWrites(null, start), null)
+  assert.equal(combineWrites(start, { ...start, id: "a2" }), null)
 })
 
-test("the oldest writes are dropped past the limit", () => {
-  let writes = []
-  for (let i = 0; i < INSIGHTS_OUTBOX_MAX_WRITES + 5; i += 1) {
-    writes = addToOutbox(writes, { collection: "c", id: `d${i}`, op: "set", data: { i } })
-  }
-  assert.equal(writes.length, INSIGHTS_OUTBOX_MAX_WRITES)
-  assert.equal(writes[0].id, "d5")
+test("a sent write is only removed if nothing newer was combined into it", () => {
+  assert.equal(isSameWrite(start, { ...start, data: { ...start.data } }), true)
+  assert.equal(isSameWrite(combineWrites(progress, score), progress), false)
+  assert.equal(isSameWrite(score, { ...score, fallback: undefined }), false)
 })
 
-test("removing a sent write keeps a newer version of it", () => {
-  const sent = { collection: "c", id: "d", op: "set", data: { v: 1 } }
-  const newer = { ...sent, data: { v: 2 } }
-  assert.deepEqual(removeFromOutbox([sent, start], sent), [start])
-  assert.deepEqual(removeFromOutbox([newer, start], sent), [newer, start])
-})
-
-test("queueInsightsWrite stores writes and readOutbox ignores bad data", () => {
-  const storage = memoryStorage()
-  queueInsightsWrite(storage, start)
-  assert.deepEqual(readOutbox(storage), [start])
-
-  assert.deepEqual(readOutbox(memoryStorage({ [INSIGHTS_OUTBOX_STORAGE_KEY]: "not json" })), [])
-  assert.deepEqual(
-    readOutbox(memoryStorage({ [INSIGHTS_OUTBOX_STORAGE_KEY]: JSON.stringify([{ id: "x" }, start]) })),
-    [start],
-  )
+test("only well-formed writes are moved from the old outbox", () => {
+  assert.equal(isOutboxWrite(start), true)
+  assert.equal(isOutboxWrite({ id: "x" }), false)
+  assert.equal(isOutboxWrite({ ...start, op: "delete" }), false)
 })
 
 test("network problems are retried later; refusals are dropped", () => {
@@ -84,6 +51,39 @@ test("network problems are retried later; refusals are dropped", () => {
   assert.equal(shouldRetryLater(new Error("Timed out")), true)
   assert.equal(shouldRetryLater({ code: "permission-denied" }), false)
   assert.equal(shouldRetryLater({ code: "not-found" }), false)
+})
+
+test("a delivered write is sent once, as queued", async () => {
+  const calls = []
+  const result = await deliverWrite(score, async (op, data) => { calls.push([op, data]) })
+  assert.equal(result, "sent")
+  assert.deepEqual(calls, [["update", score.data]])
+})
+
+test("a refused score writes its fallback (the start record is missing)", async () => {
+  const calls = []
+  const result = await deliverWrite(score, async (op, data) => {
+    calls.push([op, data])
+    if (op === "update") throw { code: "not-found" }
+  })
+  assert.equal(result, "sent")
+  assert.deepEqual(calls, [["update", score.data], ["set", score.fallback]])
+})
+
+test("network trouble keeps the write for later instead of using the fallback", async () => {
+  const calls = []
+  const result = await deliverWrite(score, async (op) => {
+    calls.push(op)
+    throw new Error("Timed out")
+  })
+  assert.equal(result, "retry")
+  assert.deepEqual(calls, ["update"])
+})
+
+test("refused writes without a fallback, or with a refused fallback, are dropped", async () => {
+  const refuse = async () => { throw { code: "permission-denied" } }
+  assert.equal(await deliverWrite(progress, refuse), "dropped")
+  assert.equal(await deliverWrite(score, refuse), "dropped")
 })
 
 test("a failed Google check is trusted for a while, then checked again", () => {

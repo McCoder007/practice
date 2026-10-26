@@ -270,13 +270,6 @@ export function serializeMissedQuestions(missed: MissedQuestion[] = []): string 
 /** A completed attempt as written to the database (missed questions as JSON text). */
 export type StoredCompletedAttempt = Omit<NailExamAttempt, "missed"> & { skipped: number; missed: string }
 
-export type CompletedAttemptWriters = {
-  /** Adds the score to the existing "started" record. Rejects if there is none. */
-  updateScore: (attemptId: string, fields: CompletedScoreFields) => Promise<void>
-  /** Creates a full completed record when no "started" record exists. */
-  createCompleted: (attempt: StoredCompletedAttempt) => Promise<void>
-}
-
 export type CompletedAttemptInput = {
   attemptId: string
   learnerId: string
@@ -308,31 +301,6 @@ export function buildCompletedAttemptWrites(input: CompletedAttemptInput): {
   return {
     fields,
     attempt: { ...buildAttemptWithoutStart(input), skipped: fields.skipped, missed: fields.missed },
-  }
-}
-
-/**
- * Saves a finished exam's score. Learners are not allowed to read attempts
- * (only admins can), so this must never check first: it tries to add the
- * score to the "started" record, and if that fails (usually because the start
- * never saved), it creates a completed record instead.
- */
-export async function saveCompletedAttempt(
-  input: CompletedAttemptInput,
-  writers: CompletedAttemptWriters,
-): Promise<"updated" | "created" | "failed"> {
-  const { fields, attempt } = buildCompletedAttemptWrites(input)
-  try {
-    await writers.updateScore(input.attemptId, fields)
-    return "updated"
-  } catch {
-    // Fall through: the start record is most likely missing.
-  }
-  try {
-    await writers.createCompleted(attempt)
-    return "created"
-  } catch {
-    return "failed"
   }
 }
 
