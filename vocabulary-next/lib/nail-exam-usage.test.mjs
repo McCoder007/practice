@@ -27,7 +27,7 @@ import {
   parseNailExamAttempt,
   prepareRecentActivity,
   recentAttemptsPerLearner,
-  saveCompletedAttempt,
+  buildCompletedAttemptWrites,
   serializeMissedQuestions,
   startOfPacificDay,
   summarizeLearnerTests,
@@ -322,50 +322,26 @@ const finishInput = {
   completedAt: 5_000,
 }
 
-test("saving a score adds it to the start record without reading first", async () => {
-  const calls = []
-  const result = await saveCompletedAttempt(finishInput, {
-    updateScore: async (attemptId, fields) => { calls.push(["update", attemptId, fields]) },
-    createCompleted: async (attempt) => { calls.push(["create", attempt]) },
-  })
-  assert.equal(result, "updated")
-  assert.deepEqual(calls, [
-    ["update", "a1", { correct: 17, completedAt: 5_000, questionCount: 20, status: "completed", skipped: 0, missed: "[]" }],
-  ])
+test("a score is the fields to add to the start record", () => {
+  const { fields } = buildCompletedAttemptWrites(finishInput)
+  assert.deepEqual(fields, { correct: 17, completedAt: 5_000, questionCount: 20, status: "completed", skipped: 0, missed: "[]" })
 })
 
-test("saving a score creates a completed record when the start record is missing", async () => {
-  const created = []
-  const result = await saveCompletedAttempt(finishInput, {
-    updateScore: async () => { throw new Error("not-found or permission-denied") },
-    createCompleted: async (attempt) => { created.push(attempt) },
-  })
-  assert.equal(result, "created")
-  assert.equal(created.length, 1)
-  assert.equal(created[0].startedAt, null)
-  assert.equal(created[0].correct, 17)
-  assert.equal(created[0].status, "completed")
-  const parsed = parseNailExamAttempt(created[0])
+test("a score's fallback is a completed record with no start time", () => {
+  const { attempt } = buildCompletedAttemptWrites(finishInput)
+  assert.equal(attempt.startedAt, null)
+  assert.equal(attempt.correct, 17)
+  assert.equal(attempt.status, "completed")
+  const parsed = parseNailExamAttempt(attempt)
   assert.equal(parsed.correct, 17)
   assert.equal(parsed.startedAt, null)
   assert.deepEqual(parsed.missed, [])
 })
 
-test("saving a score reports failure instead of throwing when both writes fail", async () => {
-  const result = await saveCompletedAttempt(finishInput, {
-    updateScore: async () => { throw new Error("offline") },
-    createCompleted: async () => { throw new Error("offline") },
-  })
-  assert.equal(result, "failed")
-})
-
-test("saving a score keeps correct answers within the question count", async () => {
-  let saved
-  await saveCompletedAttempt({ ...finishInput, correct: 25 }, {
-    updateScore: async (_id, fields) => { saved = fields },
-    createCompleted: async () => {},
-  })
-  assert.equal(saved.correct, 20)
+test("a score keeps correct answers within the question count", () => {
+  const { fields, attempt } = buildCompletedAttemptWrites({ ...finishInput, correct: 25 })
+  assert.equal(fields.correct, 20)
+  assert.equal(attempt.correct, 20)
 })
 
 function startedAt(time, overrides = {}) {
@@ -412,16 +388,12 @@ test("CSV export has one row per test with Pacific times and safe cells", () => 
   assert.ok(lines[2].endsWith(",,20,,In progress,,"))
 })
 
-test("a finished test saves which questions were missed or skipped", async () => {
-  let saved
+test("a finished test saves which questions were missed or skipped", () => {
   const missed = [
     { id: "q1", question: "x".repeat(500), skipped: false },
     { id: "q2", question: "Which tool?", skipped: true },
   ]
-  await saveCompletedAttempt({ ...finishInput, skipped: 1, missed }, {
-    updateScore: async (_id, fields) => { saved = fields },
-    createCompleted: async () => {},
-  })
+  const { fields: saved, attempt: created } = buildCompletedAttemptWrites({ ...finishInput, skipped: 1, missed })
   assert.equal(saved.skipped, 1)
   assert.equal(typeof saved.missed, "string")
   const savedMissed = JSON.parse(saved.missed)
@@ -429,11 +401,6 @@ test("a finished test saves which questions were missed or skipped", async () =>
   assert.equal(savedMissed[0].question.length, 160)
   assert.equal(savedMissed[1].skipped, true)
 
-  let created
-  await saveCompletedAttempt({ ...finishInput, skipped: 1, missed }, {
-    updateScore: async () => { throw new Error("missing") },
-    createCompleted: async (attempt) => { created = attempt },
-  })
   const parsed = parseNailExamAttempt(created)
   assert.equal(parsed.skipped, 1)
   assert.deepEqual(parsed.missed.map((item) => item.id), ["q1", "q2"])

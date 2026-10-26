@@ -52,19 +52,23 @@ async function probe(): Promise<boolean> {
 let reachable = false
 let pending: Promise<boolean> | null = null
 
-/** Whether Google can be reached. Once true, stays true for this page. */
+function getStorage(): StorageReaderWriter | null {
+  try {
+    return window.localStorage
+  } catch {
+    // Private mode with storage blocked: check without remembering.
+    return null
+  }
+}
+
+/** Whether Google can be reached. Stays true until a send fails (see markGoogleUnreachable). */
 export function isGoogleReachable(): Promise<boolean> {
   if (typeof window === "undefined") return Promise.resolve(false)
   if (reachable) return Promise.resolve(true)
   if (pending) return pending
   if (!navigator.onLine) return Promise.resolve(false)
 
-  let storage: StorageReaderWriter | null = null
-  try {
-    storage = window.localStorage
-  } catch {
-    // Private mode with storage blocked: check without remembering.
-  }
+  const storage = getStorage()
   if (isRecentFailure(readFailedAt(storage), Date.now())) return Promise.resolve(false)
 
   pending = probe()
@@ -77,4 +81,11 @@ export function isGoogleReachable(): Promise<boolean> {
       pending = null
     })
   return pending
+}
+
+/** Records that Google stopped answering (e.g. a send timed out), so it is left alone for a while. */
+export function markGoogleUnreachable(): void {
+  if (typeof window === "undefined") return
+  reachable = false
+  writeFailedAt(getStorage(), Date.now())
 }
