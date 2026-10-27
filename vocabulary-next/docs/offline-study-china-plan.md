@@ -78,7 +78,9 @@ The app is a Next.js static export on GitHub Pages and has no service worker yet
 - **On install:** save nothing large.
 - **On "Save for offline":** the page sends the service worker the file list. The service worker downloads them and reports progress (see "Saving and updating" below).
 - **On every request:** serve from the cache if the file is there, otherwise use the network.
-  - **Page loads (navigation requests):** match by path without the query string. If the exact page is missing offline, fall back to the saved home page rather than a browser error.
+  - **Page loads (navigation requests):** match by path without the query string. A page that isn't saved uses the internet. If the site doesn't answer within 8 seconds, or answers with a block or server error, show a built-in "This part needs internet | 这部分需要网络" page with a "Go to Study" button, rather than hanging or showing a raw error. A blocked site in China often accepts the connection and never answers.
+  - **Page data for pages that aren't saved:** the same 8-second limit. A failure makes Next.js load the page the normal way, which then shows the "needs internet" page.
+  - **Downloads during a save or update:** each file has a 30-second limit, and a batch where nothing downloaded stops instead of starting another batch. A stalled update ends as "Saving stopped" (with Update / Continue offered again) while the saved copy keeps working.
   - **Page data:** when moving between pages, Next.js fetches the page's `.txt` data with a `?_rsc=…` query string. Match these with the query string ignored (`ignoreSearch`), or nothing will be found offline.
 - Call `navigator.storage.persist()` after a successful save. This is only a request; the phone decides.
 
@@ -157,6 +159,8 @@ Prove one complete path on the learner's phone before generating everything. Thi
    7. Turn airplane mode off and check that the insights page shows the tests from step 4.
 
 On a computer, also test with Google domains blocked (for example in the browser's request blocking) instead of airplane mode, since that is closer to China: the network works, but Google doesn't.
+
+Also test with the site itself blocked while the network works: serve the build from a local server that either never answers or answers every request with 403. The saved Study section must still open instantly. Pages that aren't saved must show "This part needs internet" within about 8 seconds. A started update must end as "Stopped — Continue" while the saved copy keeps working.
 
 ## Part 2: Insights logging in China (built)
 

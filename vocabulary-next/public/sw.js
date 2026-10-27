@@ -32,6 +32,12 @@ const AUDIO_CONCURRENCY = 6;
 const BATCH_MS = 45000;
 const MAX_FAILURES_IN_A_ROW = 12;
 const MATCH = { ignoreVary: true };
+// A blocked site (e.g. in mainland China) often accepts the connection and never answers.
+// A page outside the saved copy that takes longer than this shows the "needs internet" page.
+const PAGE_TIMEOUT_MS = 8000;
+// One download that takes longer than this counts as failed, so a stalled save stops.
+const DOWNLOAD_TIMEOUT_MS = 30000;
+const CHECK_TIMEOUT_MS = 10000;
 
 // ---------- Small IndexedDB record: which version is active ----------
 
@@ -147,14 +153,11 @@ async function respond(request, url, pathname) {
       (await app.match(pageKey(url.pathname), MATCH)) ||
       (await app.match(pageKey(encodedPath(url.pathname)), MATCH));
     if (hit) return hit;
-    try {
-      return await fetch(request);
-    } catch (error) {
-      // Offline and this page was not saved: show the saved home page, not a browser error.
-      const home = await app.match(pageKey(SCOPE_PATH), MATCH);
-      if (home) return home;
-      throw error;
-    }
+    // Not saved: use the internet, but if the site doesn't answer, or answers with a block
+    // or server error, explain instead of hanging or showing a raw error.
+    const response = await fetchOrGiveUp(request, PAGE_TIMEOUT_MS);
+    if (response && (response.ok || response.status === 404 || response.type === 'opaqueredirect')) return response;
+    return needsInternetPage();
   }
 
   // Page data (".txt?_rsc=…"), "google-tts.js?v=…" and other files: the query string does not matter.
@@ -162,7 +165,75 @@ async function respond(request, url, pathname) {
     (await app.match(url.href, MATCH)) ||
     (await app.match(url.origin + pathname, MATCH)) ||
     (await app.match(url.origin + encodedPath(pathname), MATCH));
-  return hit || fetch(request);
+  if (hit) return hit;
+  if (isPageData(request, url)) {
+    // Moving to a page that isn't saved. A failure makes Next.js load the page
+    // the normal way, which then shows the "needs internet" page.
+    const response = await fetchOrGiveUp(request, PAGE_TIMEOUT_MS);
+    return response && response.ok ? response : Response.error();
+  }
+  return fetch(request);
+}
+
+/** Next.js page data for moving between pages (".txt?_rsc=…"), including prefetches. */
+function isPageData(request, url) {
+  return url.searchParams.has('_rsc') || request.headers.get('RSC') === '1';
+}
+
+/** The network response, or null if it failed or took longer than `ms`. */
+function fetchOrGiveUp(request, ms) {
+  return new Promise((resolve) => {
+    const timer = setTimeout(() => resolve(null), ms);
+    fetch(request).then(
+      (response) => {
+        clearTimeout(timer);
+        resolve(response);
+      },
+      () => {
+        clearTimeout(timer);
+        resolve(null);
+      }
+    );
+  });
+}
+
+/** fetch that is cancelled after `ms`, for downloads and checks the worker makes itself. */
+async function fetchWithTimeout(url, init, ms) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), ms);
+  try {
+    return await fetch(url, { ...init, signal: controller.signal });
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+/** Shown for a page that isn't saved when the site can't be reached. Plain words, with Chinese. */
+function needsInternetPage() {
+  const study = `${SCOPE_PATH}nail-exam-practice`;
+  const html = `<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Needs internet | 需要网络</title>
+<style>
+:root{--bg:#fff;--fg:#0f172a;--muted:#475569;--card:#f1f5f9;--btn:#7e22ce;--btnfg:#fff}
+@media (prefers-color-scheme: dark){:root{--bg:#0b1120;--fg:#e2e8f0;--muted:#94a3b8;--card:#1e293b;--btn:#a855f7;--btnfg:#fff}}
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+main{max-width:420px;padding:24px 16px;text-align:center}
+h1{font-size:24px;margin:0 0 4px}.zh{color:var(--muted);margin:0}
+p{font-size:17px;line-height:1.5;margin:16px 0 0}
+.card{background:var(--card);border-radius:14px;padding:16px;margin-top:20px}
+a,button{display:block;width:100%;box-sizing:border-box;margin-top:12px;padding:14px;border-radius:12px;font-size:17px;font-weight:600;text-decoration:none;border:0;cursor:pointer}
+a{background:var(--btn);color:var(--btnfg)}button{background:transparent;color:var(--fg);border:1px solid var(--muted)}
+</style></head><body><main>
+<h1>This part needs internet</h1><p class="zh">这部分需要网络</p>
+<div class="card"><p style="margin:0">Your saved study works without internet.</p><p class="zh">已保存的学习内容不需要网络。</p></div>
+<a href="${study}">Go to Study | 去学习</a>
+<button type="button" onclick="location.reload()">Try again | 再试一次</button>
+</main></body></html>`;
+  return new Response(html, {
+    status: 503,
+    headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' },
+  });
 }
 
 // ---------- Messages from the page ----------
@@ -291,7 +362,7 @@ async function pool(items, limit, shouldStop, worker) {
 }
 
 async function download(src, cacheMode) {
-  const response = await fetch(src, { cache: cacheMode, credentials: 'same-origin' });
+  const response = await fetchWithTimeout(src, { cache: cacheMode, credentials: 'same-origin' }, DOWNLOAD_TIMEOUT_MS);
   if (!response.ok) throw new Error(`HTTP ${response.status} for ${src}`);
   const body = await response.blob();
   if (body.size === 0) throw new Error(`Empty file: ${src}`);
@@ -371,6 +442,7 @@ async function runSave(manifest, client, progress) {
   });
 
   let failuresInARow = 0;
+  let succeeded = 0;
   let failed = 0;
   let lastPost = 0;
   const report = (force) => {
@@ -391,6 +463,7 @@ async function runSave(manifest, client, progress) {
       progress.done += 1;
       progress.bytesDone += item.bytes;
       failuresInARow = 0;
+      succeeded += 1;
     } catch (error) {
       if (error && error.name === 'QuotaExceededError') {
         failuresInARow = MAX_FAILURES_IN_A_ROW;
@@ -416,12 +489,15 @@ async function runSave(manifest, client, progress) {
   const check = await checkCaches(manifest, app);
   if (!check.complete) {
     // Time ran out (or a few files failed): the page asks for another batch.
-    return { result: failed > 0 && !timeUp() ? 'stopped' : 'more', failed, ...progress };
+    // A batch where nothing downloaded (e.g. the site never answers) stops instead of
+    // starting another batch: failures don't add up across batches, so it would loop forever.
+    const nothingWorked = failed > 0 && succeeded === 0;
+    return { result: failed > 0 && (!timeUp() || nothingWorked) ? 'stopped' : 'more', failed, ...progress };
   }
 
   // If a new build went live during the save, its pages may not match this file list.
   try {
-    const response = await fetch(`${SCOPE_PATH}offline-manifest.json`, { cache: 'no-store' });
+    const response = await fetchWithTimeout(`${SCOPE_PATH}offline-manifest.json`, { cache: 'no-store' }, CHECK_TIMEOUT_MS);
     if (response.ok) {
       const live = await response.json();
       if (live && live.version && live.version !== manifest.version) {
