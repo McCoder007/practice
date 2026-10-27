@@ -1,10 +1,11 @@
 import { enqueueAudio, clearAudioQueue as clearQueue, isAudioPlaying } from './audio-queue';
 import { getPreferredVoice } from './voice';
 import { spokenPlainFromTtsInput } from './tts-ssml';
+import { isGoogleReachable } from './google-reachability';
 
 /**
  * Preload audio for a given text without playing it.
- * For Google TTS: Fetches and caches audio data.
+ * For Google TTS: Fetches and caches audio data (only when Google can be reached).
  */
 export function preloadText(text: string): void {
   if (typeof window === 'undefined' || !text) return;
@@ -13,9 +14,15 @@ export function preloadText(text: string): void {
     if (window.googleTTS.audioCache?.[text]) {
       return;
     }
-    window.googleTTS.synthesizeSpeech(text, true).catch(() => {
-      // Silently ignore preload errors
-    });
+    // Where Google is blocked (mainland China) a preload would only hang, so skip it.
+    // Saved clips need no preload either: synthesizeSpeech returns early for them.
+    isGoogleReachable()
+      .then((reachable) => {
+        if (reachable) return window.googleTTS?.synthesizeSpeech(text, true);
+      })
+      .catch(() => {
+        // Silently ignore preload errors
+      });
   }
 }
 
