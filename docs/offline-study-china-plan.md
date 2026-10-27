@@ -2,7 +2,7 @@
 
 ## Status
 
-Planning only for the offline download work. "Part 2" (insights logging) is built.
+The offline shell is built: the file list (`question-bank/scripts/build-offline-manifest.js`), the service worker (`public/sw.js`) and the `/offline` page with its menu row. The audio library is generated. "Part 2" (insights logging) is built. Still to do: the phone checklist below.
 
 Updated 2026-10-25 with a second reviewer's refinements: a broader file list, resumable saves and safe updates, reuse of the existing audio player, exact audio inputs, and checking the actual cache.
 
@@ -12,7 +12,7 @@ Do not push. Commit only if asked.
 
 A learner is traveling in mainland China for about two months. Google services (Text-to-Speech, Firebase, Firestore) are blocked there, and GitHub Pages is slow or sometimes unreachable.
 
-Before the trip, the learner downloads the nail exam Study section once on Wi-Fi. During the trip, the Study section works with no internet: pages, questions, Chinese translations and audio.
+Before the trip, the learner downloads the nail exam Study section once, on any connection. During the trip, the Study section works with no internet: pages, questions, Chinese translations and audio.
 
 ## Scope
 
@@ -43,8 +43,9 @@ Counted from the app's own data and code on 2026-10-25:
 | Look-alike drill: words, meanings, tips | 366 | 14,200 |
 | **Total** | **about 5,010** | **about 224,000** |
 
-- Audio: about 4 hours of speech, **about 60 MB** of MP3 (estimated, not yet measured).
-- Pages, code and question data: about 10 MB, including all of `_next/static`.
+- Audio, as generated (2026-10-26): **4,420 clips, about 139 MB** of MP3. Google returns 64 kbps MP3, so this is more than the first estimate of 60 MB. There are fewer clips than the count above because repeated text shares one clip, and slow clips exist only for cards with a "say it" line.
+- Pages, code and question data: about 8 MB, including all of `_next/static`.
+- Total saved for offline: **about 147 MB**. The `/offline` page reads the exact total from `offline-manifest.json` and shows it rounded ("About 150 MB").
 - Cost to generate: about 224,000 characters, inside Google's free 1 million characters a month for Neural2, so about **$0**.
 
 ## Where the learner finds it
@@ -59,7 +60,7 @@ Tapping the row opens an **Offline study** page (`/offline`):
 
 - One sentence in plain English with Chinese: "Save the Study section on this phone so it works with no internet."
 - What is saved: Prov Exam Topics, Tricky Words, Practice Test.
-- Size: "About 70 MB. Use Wi-Fi."
+- Size, from the file list: "About 150 MB." Saving works on any connection, with no connection check or warning.
 - One button: **Save for offline | 保存离线**. While saving: a progress bar and "Keep this page open."
 - If saving stops partway: **Continue | 继续**, which picks up where it stopped.
 - When done: **Ready ✓**, the date saved, and a small **Remove | 删除** link.
@@ -102,7 +103,7 @@ A build script (`question-bank/scripts/build-offline-manifest.js`) runs after `n
 
 ### 3. Saving and updating
 
-About 5,000 files means an interrupted download is likely. Saving must be resumable, and an update must never break a working copy.
+About 4,600 files (163 app files and 4,420 clips) means an interrupted download is likely. Saving must be resumable, and an update must never break a working copy.
 
 - **Two caches:**
   - `study-app-<version>`: pages and code for one build.
@@ -123,7 +124,7 @@ About 5,000 files means an interrupted download is likely. Saving must be resuma
 - **Voice and speed:** the current Google voice (`en-US-Neural2-D`). **Normal speed is 0.9** (the default in `synthesizeSpeech`), and **slow is 0.6** (`speakSlow`).
 - **File names:** a hash of the input text, whether it is SSML, and the speed, for example `public/audio/study/3f9a….mp3`. Running the script again only creates files for new or changed text, so later runs cost almost nothing.
 - **Index:** `public/audio/study/index.json` maps each hash to its file.
-- **Storage:** commit the MP3s to the repo under `public/audio/study/`, about 60 MB at first and growing slowly. If the repo size becomes a problem later, move them to Cloudflare R2.
+- **Storage:** commit the MP3s to the repo under `public/audio/study/`, about 139 MB (64 kbps) and growing slowly. If the repo size becomes a problem later, move them to Cloudflare R2.
 - **API key:** the script reads the key from the environment and runs locally, not in CI.
 
 ### 5. Playback
