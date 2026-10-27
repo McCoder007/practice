@@ -10,6 +10,22 @@ function stripSsmlToPlain(text) {
     return String(text).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
+// Saved clips (public/audio/study/) sit next to this script, so the folder follows the site's base path.
+const STUDY_AUDIO_BASE = (() => {
+    try {
+        const src = document.currentScript && document.currentScript.src;
+        if (src) return new URL('audio/study/', src).href;
+    } catch (e) {
+        // Fall through to the page's own origin.
+    }
+    return `${location.origin}${location.pathname.startsWith('/practice') ? '/practice' : ''}/audio/study/`;
+})();
+
+// How long to wait for Google before using the phone's own voice.
+const GOOGLE_TTS_TIMEOUT_MS = 2000;
+const CLIP_INDEX_TIMEOUT_MS = 3000;
+const CLIP_INDEX_RETRY_MS = 30000;
+
 class GoogleTTSManager {
     constructor() {
         this.apiKey = '';
@@ -17,6 +33,11 @@ class GoogleTTSManager {
         this.audioCache = {};
         this.isPlaying = false;
         this.isInitialized = false;
+
+        // Saved clips: hash -> file name, loaded once (see getClipIndex).
+        this.clipIndex = null;
+        this.clipIndexPromise = null;
+        this.clipIndexFailedAt = 0;
 
         // Detect iOS and Android devices
         this.isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
@@ -255,11 +276,97 @@ class GoogleTTSManager {
         });
     }
 
+    // The list of saved clips. Loaded once; a missing or unreachable index means "no clips".
+    // A network failure is tried again after a while, a missing file is not.
+    getClipIndex() {
+        if (this.clipIndex) return Promise.resolve(this.clipIndex);
+        if (this.clipIndexPromise) return this.clipIndexPromise;
+        if (this.clipIndexFailedAt && Date.now() - this.clipIndexFailedAt < CLIP_INDEX_RETRY_MS) {
+            return Promise.resolve({});
+        }
+
+        const controller = new AbortController();
+        const timer = setTimeout(() => controller.abort(), CLIP_INDEX_TIMEOUT_MS);
+        this.clipIndexPromise = fetch(`${STUDY_AUDIO_BASE}index.json`, { signal: controller.signal })
+            .then(response => {
+                if (response.status === 404) return {};
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                return response.json();
+            })
+            .then(index => {
+                this.clipIndex = index && typeof index === 'object' && !Array.isArray(index) ? index : {};
+                return this.clipIndex;
+            })
+            .catch(() => {
+                this.clipIndexFailedAt = Date.now();
+                return {};
+            })
+            .finally(() => {
+                clearTimeout(timer);
+                this.clipIndexPromise = null;
+            });
+        return this.clipIndexPromise;
+    }
+
+    // Name of a clip: a hash of the input, whether it is SSML, and the speed.
+    // Must match clipHash in question-bank/scripts/generate-study-audio.js.
+    async clipHash(text, speakingRate) {
+        if (!(window.crypto && window.crypto.subtle)) return null;
+        const ssml = isSsmlTtsInput(text);
+        const input = ssml ? String(text).trim() : String(text);
+        const bytes = new TextEncoder().encode(`${ssml ? 'ssml' : 'text'}|${speakingRate}|${input}`);
+        const digest = await window.crypto.subtle.digest('SHA-256', bytes);
+        return Array.from(new Uint8Array(digest).slice(0, 10))
+            .map(byte => byte.toString(16).padStart(2, '0'))
+            .join('');
+    }
+
+    // File name of the saved clip for this text and speed, or null when there is none.
+    async findClip(text, speakingRate) {
+        try {
+            const index = await this.getClipIndex();
+            if (!index || Object.keys(index).length === 0) return null;
+            const hash = await this.clipHash(text, speakingRate);
+            return (hash && index[hash]) || null;
+        } catch (error) {
+            return null;
+        }
+    }
+
+    // Fetch a saved clip and return it as base64. The whole file is read before playing, so the
+    // audio element never asks for part of a file (which a cached copy would not answer well).
+    async loadClipBase64(fileName) {
+        const response = await fetch(`${STUDY_AUDIO_BASE}${fileName}`);
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const blob = await response.blob();
+        return new Promise((resolve, reject) => {
+            const reader = new FileReader();
+            reader.onload = () => resolve(String(reader.result).split(',')[1]);
+            reader.onerror = () => reject(reader.error);
+            reader.readAsDataURL(blob);
+        });
+    }
+
     // Call Google Text-to-Speech API
     // `speakingRate` is Google's speed (0.9 is the app's normal). Each speed is
     // cached separately so normal and slow audio don't overwrite each other.
     async synthesizeSpeech(text, isPreInit = false, speakingRate = 0.9) {
         const cacheKey = speakingRate === 0.9 ? text : `${text}@@rate=${speakingRate}`;
+
+        // A saved clip needs no network and no API key.
+        const clipFile = await this.findClip(text, speakingRate);
+        if (clipFile) {
+            // Preloading only warms Google's audio, so a saved clip has nothing to load.
+            if (isPreInit) return true;
+            try {
+                const base64 = await this.loadClipBase64(clipFile);
+                await this.playAudioFromBase64(base64);
+                return true;
+            } catch (error) {
+                console.warn('Saved clip failed, using Google or the phone voice:', error);
+            }
+        }
+
         // Check if API key is set
         if (!this.apiKey) {
             console.warn('Google TTS API key not set. Using browser TTS fallback.');
@@ -321,16 +428,26 @@ class GoogleTTSManager {
 
             const apiUrl = `https://texttospeech.googleapis.com/v1/text:synthesize?key=${this.apiKey}`;
 
-            const response = await fetch(
-                apiUrl,
-                {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify(requestBody)
-                }
-            );
+            // Without a connection to Google (e.g. in mainland China) the request would hang,
+            // so give up quickly and let the phone's own voice answer.
+            const controller = new AbortController();
+            const timer = setTimeout(() => controller.abort(), GOOGLE_TTS_TIMEOUT_MS);
+            let response;
+            try {
+                response = await fetch(
+                    apiUrl,
+                    {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify(requestBody),
+                        signal: controller.signal
+                    }
+                );
+            } finally {
+                clearTimeout(timer);
+            }
 
             if (!response.ok) {
                 const errorText = await response.text();
