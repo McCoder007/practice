@@ -1,7 +1,10 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { Button } from "@/components/ui/button";
+import { getOfflineStatus } from "@/lib/offline-study";
 
 type BuildVersionPayload = {
   version?: string;
@@ -14,6 +17,10 @@ export function PwaUpdateChecker() {
   );
   const [updateAvailable, setUpdateAvailable] = useState(false);
   const [remoteVersion, setRemoteVersion] = useState<string | null>(null);
+  // With an offline copy saved, pages come from that copy, so reloading shows the
+  // same version again. The learner updates it on the Offline study page instead.
+  const [savedOffline, setSavedOffline] = useState(false);
+  const pathname = usePathname();
   const checkingRef = useRef(false);
   const basePath = process.env.NODE_ENV === "production" ? "/practice" : "";
 
@@ -65,13 +72,28 @@ export function PwaUpdateChecker() {
     };
   }, [basePath, bundledVersion]);
 
+  useEffect(() => {
+    if (!updateAvailable) return;
+    let cancelled = false;
+    void getOfflineStatus().then((status) => {
+      if (!cancelled) setSavedOffline(Boolean(status?.active));
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [updateAvailable]);
+
   if (!updateAvailable || !remoteVersion) return null;
+  // The Offline study page shows its own Update button.
+  if (savedOffline && pathname === "/offline") return null;
 
   return (
     <div className="fixed inset-x-0 bottom-4 z-50 mx-auto w-[calc(100%-2rem)] max-w-xl rounded-lg border bg-background/95 p-3 shadow-lg backdrop-blur">
       <div className="flex items-center justify-between gap-3">
         <p className="text-sm">
-          A new version is available. Reload to get the latest words.
+          {savedOffline
+            ? "A new version is available. Update your offline copy."
+            : "A new version is available. Reload to get the latest words."}
         </p>
         <div className="flex items-center gap-2">
           <Button
@@ -84,9 +106,15 @@ export function PwaUpdateChecker() {
           >
             Later
           </Button>
-          <Button size="sm" onClick={() => window.location.reload()}>
-            Reload
-          </Button>
+          {savedOffline ? (
+            <Button size="sm" asChild>
+              <Link href="/offline">Update</Link>
+            </Button>
+          ) : (
+            <Button size="sm" onClick={() => window.location.reload()}>
+              Reload
+            </Button>
+          )}
         </div>
       </div>
     </div>

@@ -40,7 +40,10 @@ jobs:
           cd vocabulary-next
           npm ci
           echo "{\"version\":\"${NEXT_PUBLIC_BUILD_VERSION}\"}" > public/build-version.json
+          # "postbuild" writes out/offline-manifest.json (the offline Study file list).
           npm run build -- --no-lint
+          test -s out/offline-manifest.json
+          node -e "const m=require('./out/offline-manifest.json'); if (m.version !== process.env.NEXT_PUBLIC_BUILD_VERSION) { console.error('Offline manifest version', m.version, 'is not the build SHA'); process.exit(1) }"
           mkdir -p ../vocabulary-next
           cp -r out/* ../vocabulary-next/
 

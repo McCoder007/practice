@@ -7,6 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { LanguageProvider } from "@/contexts/LanguageContext"
 import { PwaUpdateChecker } from "@/components/PwaUpdateChecker"
 import { NailExamActivityTracker } from "@/components/NailExamActivityTracker"
+import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister"
 
 // Import primary font for headings and UI
 const outfit = Outfit({
@@ -103,6 +104,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         <ThemeProvider>
           <LanguageProvider>
+            <ServiceWorkerRegister />
             <PwaUpdateChecker />
             <NailExamActivityTracker />
             <div className="relative flex min-h-screen flex-col bg-background">
