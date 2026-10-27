@@ -6,6 +6,7 @@
     "dev": "next dev",
     "dev:turbo": "next dev --turbopack",
     "build": "next build",
+    "postbuild": "node question-bank/scripts/build-offline-manifest.js",
     "start": "next start",
     "lint": "eslint .",
     "validate:source-audit": "node question-bank/scripts/validate-source-audit.js",

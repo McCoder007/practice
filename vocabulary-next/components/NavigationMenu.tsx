@@ -1,9 +1,9 @@
 "use client"
 
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-import { Menu, Home, Film, Book, ListTodo, ListChecks, Scale, ArrowRightLeft, Clock, PenLine, GraduationCap, Image, Check } from "lucide-react"
+import { Menu, Home, Film, Book, ListTodo, ListChecks, Scale, ArrowRightLeft, Clock, PenLine, GraduationCap, Image, Check, WifiOff } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import {
   Sheet,
@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/sheet"
 import { useLanguage } from "@/contexts/LanguageContext"
 import { cn } from "@/lib/utils"
+import { getOfflineStatus, offlineState, savingPercent, type OfflineStatus } from "@/lib/offline-study"
 
 interface MenuItem {
   title: string
@@ -101,6 +102,29 @@ export function NavigationMenu() {
   const { language, setLanguage } = useLanguage()
   const [open, setOpen] = useState(false)
   const menuItems = getMenuItems(language).filter((item) => !item.hidden)
+  const [offlineStatus, setOfflineStatus] = useState<OfflineStatus | null | undefined>(undefined)
+
+  // Read the saved copy's status from the caches each time the menu opens.
+  useEffect(() => {
+    if (!open) return
+    let cancelled = false
+    void getOfflineStatus().then((status) => {
+      if (!cancelled) setOfflineStatus(status)
+    })
+    return () => {
+      cancelled = true
+    }
+  }, [open])
+
+  const offlineLabel = (() => {
+    if (offlineStatus === undefined) return ""
+    const state = offlineState(offlineStatus)
+    if (state === "ready") return "Ready ✓"
+    if (state === "saving") return `Saving ${savingPercent(offlineStatus?.saving)}%`
+    if (state === "partial") return "Not finished"
+    return "Not saved"
+  })()
+  const offlineActive = pathname === "/offline"
 
   const handleLinkClick = () => {
     setOpen(false)
@@ -118,7 +142,7 @@ export function NavigationMenu() {
           <Menu className="h-5 w-5" />
         </Button>
       </SheetTrigger>
-      <SheetContent side="left" className="w-[300px] sm:w-[350px]">
+      <SheetContent side="left" className="w-[300px] overflow-y-auto sm:w-[350px]">
         <SheetHeader>
           <SheetTitle>Navigation</SheetTitle>
         </SheetHeader>
@@ -187,6 +211,35 @@ export function NavigationMenu() {
                 )}
               </button>
             </div>
+          </div>
+        </div>
+
+        <div className="mt-6 pt-6 border-t">
+          <div className="px-4 mb-3">
+            <h3 className="text-sm font-semibold mb-3">Offline | 离线</h3>
+            <Link
+              href="/offline"
+              onClick={handleLinkClick}
+              className={cn(
+                "flex items-center gap-3 rounded-lg px-4 py-3 text-sm font-medium transition-colors",
+                offlineActive
+                  ? "bg-accent text-accent-foreground"
+                  : "hover:bg-accent hover:text-accent-foreground"
+              )}
+            >
+              <WifiOff className="h-5 w-5" />
+              <span className="flex-1">Offline study | 离线学习</span>
+              {offlineLabel && (
+                <span
+                  className={cn(
+                    "text-xs whitespace-nowrap",
+                    offlineLabel === "Ready ✓" ? "text-emerald-600 dark:text-emerald-400" : "text-muted-foreground"
+                  )}
+                >
+                  {offlineLabel}
+                </span>
+              )}
+            </Link>
           </div>
         </div>
       </SheetContent>
