@@ -242,7 +242,7 @@ export default function OfflineStudyPage() {
   }
 
   const problemText: Record<Exclude<Problem, null>, { en: string; zh: string }> = {
-    stopped: { en: "Saving stopped. Check your Wi-Fi, then try again.", zh: "保存停止了。请检查 Wi-Fi，然后再试一次。" },
+    stopped: { en: "Saving stopped. Check your internet, then try again.", zh: "保存停止了。请检查网络，然后再试一次。" },
     quota: { en: "The phone is full. Free some space, then try again.", zh: "手机空间不够。请清理空间，然后再试一次。" },
     changed: { en: "The app changed while saving. Tap Save again.", zh: "保存时应用有更新。请再点一次保存。" },
     "no-internet": { en: "No internet.", zh: "没有网络。" },
@@ -298,8 +298,8 @@ export default function OfflineStudyPage() {
           </CleanListGroup>
           {sizeBytes > 0 && (
             <Bi
-              en={`About ${roundedMegabytes(sizeBytes)} MB. Use Wi-Fi.`}
-              zh={`大约 ${roundedMegabytes(sizeBytes)} MB。请使用 Wi-Fi。`}
+              en={`About ${roundedMegabytes(sizeBytes)} MB.`}
+              zh={`大约 ${roundedMegabytes(sizeBytes)} MB。`}
               className="px-1 text-[15px] text-slate-600 dark:text-slate-300"
             />
           )}
@@ -312,8 +312,8 @@ export default function OfflineStudyPage() {
           )}
           {needsInternet && (
             <Bi
-              en="No internet. Connect to Wi-Fi to save."
-              zh="没有网络。请连接 Wi-Fi 后再保存。"
+              en="No internet. Connect to the internet to save."
+              zh="没有网络。请连接网络后再保存。"
               className="text-[15px] text-slate-600 dark:text-slate-300"
             />
           )}

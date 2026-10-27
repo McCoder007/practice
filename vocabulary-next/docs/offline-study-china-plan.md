@@ -12,7 +12,7 @@ Do not push. Commit only if asked.
 
 A learner is traveling in mainland China for about two months. Google services (Text-to-Speech, Firebase, Firestore) are blocked there, and GitHub Pages is slow or sometimes unreachable.
 
-Before the trip, the learner downloads the nail exam Study section once on Wi-Fi. During the trip, the Study section works with no internet: pages, questions, Chinese translations and audio.
+Before the trip, the learner downloads the nail exam Study section once, on any connection. During the trip, the Study section works with no internet: pages, questions, Chinese translations and audio.
 
 ## Scope
 
@@ -60,7 +60,7 @@ Tapping the row opens an **Offline study** page (`/offline`):
 
 - One sentence in plain English with Chinese: "Save the Study section on this phone so it works with no internet."
 - What is saved: Prov Exam Topics, Tricky Words, Practice Test.
-- Size, from the file list: "About 150 MB. Use Wi-Fi."
+- Size, from the file list: "About 150 MB." Saving works on any connection, with no connection check or warning.
 - One button: **Save for offline | 保存离线**. While saving: a progress bar and "Keep this page open."
 - If saving stops partway: **Continue | 继续**, which picks up where it stopped.
 - When done: **Ready ✓**, the date saved, and a small **Remove | 删除** link.
